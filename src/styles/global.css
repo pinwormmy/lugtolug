@@ -382,9 +382,12 @@ select {
     text-align: left;
   }
 
-  .spec-grid,
   .form-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .spec-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .admin-table {
@@ -396,7 +399,8 @@ select {
 
 @media (max-width: 520px) {
   .topbar {
-    padding: 16px;
+    padding-block: 16px;
+    padding-inline: max(16px, env(safe-area-inset-left)) max(16px, env(safe-area-inset-right));
   }
 
   .brand-mark {
@@ -414,13 +418,19 @@ select {
   }
 
   .main {
-    padding: 22px 16px 36px;
+    padding-block: 22px 36px;
+    padding-inline: max(16px, env(safe-area-inset-left)) max(16px, env(safe-area-inset-right));
+  }
+
+  .footer {
+    padding-block: 34px;
+    padding-inline: max(16px, env(safe-area-inset-left)) max(16px, env(safe-area-inset-right));
   }
 
   .hero,
   .section {
-    max-width: calc(100vw - 32px);
-    width: calc(100vw - 32px);
+    max-width: 100%;
+    width: 100%;
   }
 
   .hero {
@@ -443,7 +453,7 @@ select {
   .panel {
     box-sizing: border-box;
     padding: 16px;
-    max-width: calc(100vw - 32px);
+    max-width: 100%;
     width: 100%;
   }
 
@@ -481,6 +491,11 @@ select {
 
   .spec-card strong {
     font-size: 1.3rem;
+  }
+
+  .spec-grid,
+  .form-grid {
+    grid-template-columns: 1fr;
   }
 
   .form-field.full .button {
