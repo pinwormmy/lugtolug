@@ -24,7 +24,7 @@ export default function SearchApp({ watches }: Props) {
         <input
           className="input"
           aria-label="Search by brand, model, or reference"
-          placeholder="Search Rolex 126610LN, Speedmaster, SRPD55..."
+          placeholder="Brand, model, or reference"
           value={query}
           onChange={(event) => {
             const value = event.currentTarget.value;
