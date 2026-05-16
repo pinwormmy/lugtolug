@@ -1,0 +1,77 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import FitCalculator from "@/components/FitCalculator";
+import { getDb, getWatchBySlugs } from "@/lib/db";
+import { mmToInches } from "@/lib/fit";
+
+const { brand, model, reference } = Astro.params;
+const watch = await getWatchBySlugs(getDb(Astro.locals), brand!, model!, reference!);
+
+if (!watch) {
+  return Astro.redirect("/watches", 302);
+}
+
+const title = `${watch.brand} ${watch.model} ${watch.reference} dimensions | Lug to Lug Finder`;
+const description = `${watch.brand} ${watch.model} ${watch.reference}: ${watch.lugToLugMm} mm lug-to-lug, ${watch.diameterMm} mm diameter, ${watch.thicknessMm} mm thickness, ${watch.lugWidthMm} mm lug width.`;
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  name: `${watch.brand} ${watch.model}`,
+  brand: { "@type": "Brand", name: watch.brand },
+  model: watch.reference,
+  additionalProperty: [
+    { "@type": "PropertyValue", name: "Lug-to-lug", value: `${watch.lugToLugMm} mm` },
+    { "@type": "PropertyValue", name: "Case diameter", value: `${watch.diameterMm} mm` },
+    { "@type": "PropertyValue", name: "Thickness", value: `${watch.thicknessMm} mm` },
+    { "@type": "PropertyValue", name: "Lug width", value: `${watch.lugWidthMm} mm` }
+  ]
+};
+---
+
+<BaseLayout title={title} description={description}>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <section class="section" style="margin-top: 0;">
+    <p class="small"><a href={`/brands/${watch.brandSlug}`}>{watch.brand}</a></p>
+    <h1 class="page-title">{watch.model}</h1>
+    <p class="lede">{watch.reference}</p>
+  </section>
+
+  <section class="section spec-grid">
+    <div class="spec-card">
+      <span>Lug-to-lug</span>
+      <strong>{watch.lugToLugMm} mm</strong>
+      <span>{mmToInches(watch.lugToLugMm).toFixed(2)} in</span>
+    </div>
+    <div class="spec-card">
+      <span>Case diameter</span>
+      <strong>{watch.diameterMm} mm</strong>
+      <span>{mmToInches(watch.diameterMm).toFixed(2)} in</span>
+    </div>
+    <div class="spec-card">
+      <span>Thickness</span>
+      <strong>{watch.thicknessMm} mm</strong>
+      <span>{mmToInches(watch.thicknessMm).toFixed(2)} in</span>
+    </div>
+    <div class="spec-card">
+      <span>Lug width</span>
+      <strong>{watch.lugWidthMm} mm</strong>
+      <span>{mmToInches(watch.lugWidthMm).toFixed(2)} in</span>
+    </div>
+  </section>
+
+  <section class="section grid-2">
+    <FitCalculator client:load lugToLugMm={watch.lugToLugMm} />
+    <div class="panel">
+      <h2>Sources</h2>
+      <p class="small">Confidence: {watch.confidence}</p>
+      <ul>
+        {watch.sources.map((source) => (
+          <li>
+            <a href={source.sourceUrl} rel="nofollow noreferrer" target="_blank">{source.sourceUrl}</a>
+            {source.note && <p class="small">{source.note}</p>}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</BaseLayout>

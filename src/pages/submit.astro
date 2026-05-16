@@ -1,0 +1,16 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import SubmissionForm from "@/components/SubmissionForm";
+---
+
+<BaseLayout title="Submit watch dimensions | Lug to Lug Finder" description="Privately submit watch dimensions for operator review.">
+  <section class="section" style="margin-top: 0;">
+    <h1 class="page-title">Submit watch dimensions</h1>
+    <p class="lede">
+      Send dimensions and a source URL. Your private comment and email are visible only to the operator.
+    </p>
+  </section>
+  <section class="section">
+    <SubmissionForm client:load />
+  </section>
+</BaseLayout>

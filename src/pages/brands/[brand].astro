@@ -1,0 +1,19 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import WatchRow from "@/components/WatchRow.astro";
+import { getDb, listBrandWatches } from "@/lib/db";
+
+const brandSlug = Astro.params.brand!;
+const watches = await listBrandWatches(getDb(Astro.locals), brandSlug);
+const brandName = watches[0]?.brand ?? brandSlug;
+---
+
+<BaseLayout title={`${brandName} watch dimensions | Lug to Lug Finder`} description={`Browse ${brandName} lug-to-lug and case dimensions.`}>
+  <section class="section" style="margin-top: 0;">
+    <h1 class="page-title">{brandName}</h1>
+    <p class="lede">Approved records for {brandName} watches.</p>
+    <div class="watch-list" style="margin-top: 26px;">
+      {watches.map((watch) => <WatchRow watch={watch} />)}
+    </div>
+  </section>
+</BaseLayout>

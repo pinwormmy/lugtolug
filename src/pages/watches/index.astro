@@ -1,0 +1,17 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import WatchRow from "@/components/WatchRow.astro";
+import { getDb, listWatches } from "@/lib/db";
+
+const watches = await listWatches(getDb(Astro.locals));
+---
+
+<BaseLayout title="Watch database | Lug to Lug Finder" description="Browse approved watch dimensions by brand, model, and reference number.">
+  <section class="section" style="margin-top: 0;">
+    <h1 class="page-title">Watch database</h1>
+    <p class="lede">Approved records with lug-to-lug, diameter, thickness, lug width, confidence, and sources.</p>
+    <div class="watch-list" style="margin-top: 26px;">
+      {watches.map((watch) => <WatchRow watch={watch} />)}
+    </div>
+  </section>
+</BaseLayout>

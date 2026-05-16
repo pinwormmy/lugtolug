@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "brand": "Rolex",
+    "model": "Submariner Date",
+    "reference": "126610LN",
+    "lugToLugMm": 47.6,
+    "diameterMm": 41,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 21,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.rolex.com/watches/submariner/m126610ln-0001",
+        "note": "Manufacturer model reference; some dimensions are community-measured."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "brand": "Omega",
+    "model": "Speedmaster Professional Moonwatch",
+    "reference": "310.30.42.50.01.002",
+    "lugToLugMm": 47.5,
+    "diameterMm": 42,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.com/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31030425001002",
+        "note": "Manufacturer page plus community lug-to-lug measurements."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "brand": "Seiko",
+    "model": "5 Sports",
+    "reference": "SRPD55",
+    "lugToLugMm": 46,
+    "diameterMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://seikousa.com/products/srpd55",
+        "note": "Manufacturer page plus retailer measurements."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "brand": "Tudor",
+    "model": "Black Bay 58",
+    "reference": "M79030N-0001",
+    "lugToLugMm": 47.8,
+    "diameterMm": 39,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.tudorwatch.com/en/watches/black-bay-58/m79030n-0001",
+        "note": "Manufacturer reference; lug-to-lug is commonly measured by reviewers."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "brand": "Cartier",
+    "model": "Santos de Cartier Medium",
+    "reference": "WSSA0029",
+    "lugToLugMm": 41.9,
+    "diameterMm": 35.1,
+    "thicknessMm": 8.83,
+    "lugWidthMm": 18,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.cartier.com/en-us/watches/collections/santos-de-cartier/santos-de-cartier-watch-CRWSSA0029.html",
+        "note": "Manufacturer dimensions; lug-to-lug varies by measurement method."
+      }
+    ]
+  }
+]

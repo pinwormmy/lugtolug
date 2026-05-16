@@ -1,0 +1,50 @@
+---
+import "@/styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = "Lug to Lug Finder",
+  description = "Search watch lug-to-lug, case diameter, thickness, lug width, and wrist-fit guidance."
+} = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://lugtolug.example").toString();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="/">
+          <span class="brand-mark" aria-hidden="true">L</span>
+          <span>Lug to Lug Finder</span>
+        </a>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="/watches">Watches</a>
+          <a href="/submit">Submit data</a>
+          <a href="/admin/login">Admin</a>
+        </nav>
+      </header>
+      <main class="main">
+        <slot />
+      </main>
+      <footer class="footer">
+        Watch fit guidance is approximate. Case shape, end links, strap stiffness, and personal preference can change real-world wear.
+      </footer>
+    </div>
+  </body>
+</html>

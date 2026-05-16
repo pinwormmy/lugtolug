@@ -1,0 +1,62 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getAdminSession } from "@/lib/auth";
+import { getDb, listSubmissions } from "@/lib/db";
+
+const db = getDb(Astro.locals);
+const session = await getAdminSession(db, Astro.request);
+if (!session) {
+  return Astro.redirect("/admin/login", 302);
+}
+
+const submissions = await listSubmissions(db, "pending");
+---
+
+<BaseLayout title="Pending submissions | Lug to Lug Finder" description="Review pending private watch submissions.">
+  <section class="section" style="margin-top: 0;">
+    <div style="display: flex; justify-content: space-between; gap: 16px; align-items: center;">
+      <div>
+        <h1 class="page-title" style="font-size: clamp(2.4rem, 6vw, 4rem);">Pending submissions</h1>
+        <p class="lede">Signed in as {session.user.email}</p>
+      </div>
+      <form action="/api/admin/logout" method="post">
+        <button class="button secondary" type="submit">Log out</button>
+      </form>
+    </div>
+
+    <div class="panel" style="margin-top: 24px; overflow-x: auto;">
+      <table class="admin-table">
+        <thead>
+          <tr>
+            <th>Watch</th>
+            <th>Reference</th>
+            <th>Dimensions</th>
+            <th>Source</th>
+            <th>Submitted</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          {submissions.map((submission) => (
+            <tr>
+              <td>{submission.payload.brand} {submission.payload.model}</td>
+              <td>{submission.payload.reference}</td>
+              <td>
+                L2L {submission.payload.lugToLugMm} / Dia {submission.payload.diameterMm} /
+                Thick {submission.payload.thicknessMm} / Lug {submission.payload.lugWidthMm}
+              </td>
+              <td><a href={submission.payload.sourceUrl} target="_blank" rel="noreferrer">{submission.payload.sourceUrl}</a></td>
+              <td>{new Date(submission.createdAt).toLocaleString("en-US")}</td>
+              <td><a class="button secondary" href={`/admin/submissions/${submission.id}`}>Review</a></td>
+            </tr>
+          ))}
+          {submissions.length === 0 && (
+            <tr>
+              <td colspan="6">No pending submissions.</td>
+            </tr>
+          )}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</BaseLayout>

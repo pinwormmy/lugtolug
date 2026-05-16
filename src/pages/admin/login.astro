@@ -1,0 +1,26 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+
+const error = Astro.url.searchParams.get("error");
+---
+
+<BaseLayout title="Admin login | Lug to Lug Finder" description="Operator login for Lug to Lug Finder.">
+  <section class="section" style="max-width: 520px; margin-top: 0;">
+    <h1 class="page-title" style="font-size: clamp(2.4rem, 6vw, 4rem);">Admin login</h1>
+    <form class="panel form-grid" action="/api/admin/login" method="post" style="margin-top: 24px;">
+      <div class="form-field full">
+        <label for="email">Email</label>
+        <input class="input" id="email" name="email" type="email" autocomplete="username" required />
+      </div>
+      <div class="form-field full">
+        <label for="password">Password</label>
+        <input class="input" id="password" name="password" type="password" autocomplete="current-password" required />
+      </div>
+      <div class="form-field full">
+        <button class="button accent" type="submit">Log in</button>
+        {error === "invalid" && <p class="error">Invalid email or password.</p>}
+        {error === "db" && <p class="error">D1 database is not configured for this environment.</p>}
+      </div>
+    </form>
+  </section>
+</BaseLayout>

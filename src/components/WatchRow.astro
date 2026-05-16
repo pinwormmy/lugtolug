@@ -1,0 +1,33 @@
+---
+import type { WatchWithSources } from "@/types";
+
+interface Props {
+  watch: WatchWithSources;
+}
+
+const { watch } = Astro.props;
+const href = `/watches/${watch.brandSlug}/${watch.modelSlug}/${watch.referenceSlug}`;
+---
+
+<a class="watch-row" href={href}>
+  <div class="watch-name">
+    <strong>{watch.brand} {watch.model}</strong>
+    <span>{watch.reference}</span>
+  </div>
+  <div class="metric">
+    <span>Lug-to-lug</span>
+    <strong>{watch.lugToLugMm} mm</strong>
+  </div>
+  <div class="metric">
+    <span>Diameter</span>
+    <strong>{watch.diameterMm} mm</strong>
+  </div>
+  <div class="metric">
+    <span>Thickness</span>
+    <strong>{watch.thicknessMm} mm</strong>
+  </div>
+  <div class="metric">
+    <span>Lug width</span>
+    <strong>{watch.lugWidthMm} mm</strong>
+  </div>
+</a>

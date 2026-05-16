@@ -1,0 +1,256 @@
+import type { Submission, SubmissionPayload, Watch, WatchSource, WatchWithSources } from "@/types";
+import { normalizeSearch, slugify } from "@/lib/slug";
+import { searchSeedWatches, seedWatches } from "@/lib/seed";
+
+type D1 = D1Database | undefined;
+
+interface WatchRow {
+  id: number;
+  brand: string;
+  model: string;
+  reference: string;
+  brand_slug: string;
+  model_slug: string;
+  reference_slug: string;
+  lug_to_lug_mm: number;
+  diameter_mm: number;
+  thickness_mm: number;
+  lug_width_mm: number;
+  confidence: Watch["confidence"];
+  status: Watch["status"];
+  updated_at: string;
+}
+
+interface SourceRow {
+  id: number;
+  watch_id: number;
+  source_url: string;
+  note: string | null;
+}
+
+interface SubmissionRow {
+  id: number;
+  payload_json: string;
+  status: Submission["status"];
+  reviewer_note: string | null;
+  created_at: string;
+  reviewed_at: string | null;
+}
+
+function mapWatch(row: WatchRow): Watch {
+  return {
+    id: row.id,
+    brand: row.brand,
+    model: row.model,
+    reference: row.reference,
+    brandSlug: row.brand_slug,
+    modelSlug: row.model_slug,
+    referenceSlug: row.reference_slug,
+    lugToLugMm: row.lug_to_lug_mm,
+    diameterMm: row.diameter_mm,
+    thicknessMm: row.thickness_mm,
+    lugWidthMm: row.lug_width_mm,
+    confidence: row.confidence,
+    status: row.status,
+    updatedAt: row.updated_at
+  };
+}
+
+function mapSource(row: SourceRow): WatchSource {
+  return {
+    id: row.id,
+    watchId: row.watch_id,
+    sourceUrl: row.source_url,
+    note: row.note
+  };
+}
+
+function mapSubmission(row: SubmissionRow): Submission {
+  return {
+    id: row.id,
+    payload: JSON.parse(row.payload_json) as SubmissionPayload,
+    status: row.status,
+    reviewerNote: row.reviewer_note,
+    createdAt: row.created_at,
+    reviewedAt: row.reviewed_at
+  };
+}
+
+export function getDb(locals: App.Locals): D1 {
+  return locals.runtime?.env.DB;
+}
+
+export async function searchWatches(db: D1, query: string): Promise<WatchWithSources[]> {
+  if (!db) return searchSeedWatches(query);
+
+  const normalized = normalizeSearch(query);
+  const rows = normalized
+    ? await db
+        .prepare("SELECT * FROM watches WHERE status = 'approved' AND search_text LIKE ? ORDER BY brand, model LIMIT 50")
+        .bind(`%${normalized}%`)
+        .all<WatchRow>()
+    : await db.prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY brand, model LIMIT 50").all<WatchRow>();
+
+  return hydrateSources(db, rows.results.map(mapWatch));
+}
+
+export async function listWatches(db: D1): Promise<WatchWithSources[]> {
+  if (!db) return seedWatches;
+  const rows = await db.prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY brand, model").all<WatchRow>();
+  return hydrateSources(db, rows.results.map(mapWatch));
+}
+
+export async function getWatchBySlugs(
+  db: D1,
+  brandSlug: string,
+  modelSlug: string,
+  referenceSlug: string
+): Promise<WatchWithSources | null> {
+  if (!db) {
+    return (
+      seedWatches.find(
+        (watch) =>
+          watch.brandSlug === brandSlug && watch.modelSlug === modelSlug && watch.referenceSlug === referenceSlug
+      ) ?? null
+    );
+  }
+
+  const row = await db
+    .prepare(
+      "SELECT * FROM watches WHERE status = 'approved' AND brand_slug = ? AND model_slug = ? AND reference_slug = ?"
+    )
+    .bind(brandSlug, modelSlug, referenceSlug)
+    .first<WatchRow>();
+  if (!row) return null;
+  const [watch] = await hydrateSources(db, [mapWatch(row)]);
+  return watch;
+}
+
+export async function listBrandWatches(db: D1, brandSlug: string): Promise<WatchWithSources[]> {
+  if (!db) return seedWatches.filter((watch) => watch.brandSlug === brandSlug);
+  const rows = await db
+    .prepare("SELECT * FROM watches WHERE status = 'approved' AND brand_slug = ? ORDER BY model")
+    .bind(brandSlug)
+    .all<WatchRow>();
+  return hydrateSources(db, rows.results.map(mapWatch));
+}
+
+async function hydrateSources(db: D1Database, watches: Watch[]): Promise<WatchWithSources[]> {
+  if (watches.length === 0) return [];
+  const ids = watches.map((watch) => watch.id);
+  const placeholders = ids.map(() => "?").join(",");
+  const sourceRows = await db
+    .prepare(`SELECT * FROM watch_sources WHERE watch_id IN (${placeholders}) ORDER BY id`)
+    .bind(...ids)
+    .all<SourceRow>();
+  const byWatch = new Map<number, WatchSource[]>();
+  for (const source of sourceRows.results.map(mapSource)) {
+    const current = byWatch.get(source.watchId) ?? [];
+    current.push(source);
+    byWatch.set(source.watchId, current);
+  }
+  return watches.map((watch) => ({ ...watch, sources: byWatch.get(watch.id) ?? [] }));
+}
+
+export async function createSubmission(db: D1, payload: SubmissionPayload): Promise<number> {
+  if (!db) throw new Error("D1 database is required for submissions.");
+  const result = await db
+    .prepare("INSERT INTO submissions (payload_json, status) VALUES (?, 'pending')")
+    .bind(JSON.stringify(payload))
+    .run();
+  return Number(result.meta.last_row_id);
+}
+
+export async function listSubmissions(db: D1, status = "pending"): Promise<Submission[]> {
+  if (!db) return [];
+  const rows = await db
+    .prepare("SELECT * FROM submissions WHERE status = ? ORDER BY created_at DESC")
+    .bind(status)
+    .all<SubmissionRow>();
+  return rows.results.map(mapSubmission);
+}
+
+export async function getSubmission(db: D1, id: number): Promise<Submission | null> {
+  if (!db) return null;
+  const row = await db.prepare("SELECT * FROM submissions WHERE id = ?").bind(id).first<SubmissionRow>();
+  return row ? mapSubmission(row) : null;
+}
+
+export async function approveSubmission(db: D1, id: number, payload: SubmissionPayload, reviewerNote: string): Promise<number> {
+  if (!db) throw new Error("D1 database is required.");
+  const brandSlug = slugify(payload.brand);
+  const modelSlug = slugify(payload.model);
+  const referenceSlug = slugify(payload.reference);
+  const searchText = normalizeSearch(`${payload.brand} ${payload.model} ${payload.reference}`);
+
+  const existing = await db
+    .prepare("SELECT id FROM watches WHERE brand_slug = ? AND model_slug = ? AND reference_slug = ?")
+    .bind(brandSlug, modelSlug, referenceSlug)
+    .first<{ id: number }>();
+
+  let watchId: number;
+  if (existing) {
+    watchId = existing.id;
+    await db
+      .prepare(
+        `UPDATE watches
+         SET brand = ?, model = ?, reference = ?, search_text = ?, lug_to_lug_mm = ?, diameter_mm = ?,
+             thickness_mm = ?, lug_width_mm = ?, confidence = 'medium', status = 'approved', updated_at = CURRENT_TIMESTAMP
+         WHERE id = ?`
+      )
+      .bind(
+        payload.brand,
+        payload.model,
+        payload.reference,
+        searchText,
+        payload.lugToLugMm,
+        payload.diameterMm,
+        payload.thicknessMm,
+        payload.lugWidthMm,
+        watchId
+      )
+      .run();
+  } else {
+    const result = await db
+      .prepare(
+        `INSERT INTO watches
+         (brand, model, reference, brand_slug, model_slug, reference_slug, search_text,
+          lug_to_lug_mm, diameter_mm, thickness_mm, lug_width_mm, confidence, status)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'medium', 'approved')`
+      )
+      .bind(
+        payload.brand,
+        payload.model,
+        payload.reference,
+        brandSlug,
+        modelSlug,
+        referenceSlug,
+        searchText,
+        payload.lugToLugMm,
+        payload.diameterMm,
+        payload.thicknessMm,
+        payload.lugWidthMm
+      )
+      .run();
+    watchId = Number(result.meta.last_row_id);
+  }
+
+  await db
+    .prepare("INSERT INTO watch_sources (watch_id, source_url, note) VALUES (?, ?, ?)")
+    .bind(watchId, payload.sourceUrl, "Approved user submission")
+    .run();
+  await db
+    .prepare("UPDATE submissions SET status = 'approved', reviewer_note = ?, reviewed_at = CURRENT_TIMESTAMP WHERE id = ?")
+    .bind(reviewerNote, id)
+    .run();
+
+  return watchId;
+}
+
+export async function rejectSubmission(db: D1, id: number, reviewerNote: string): Promise<void> {
+  if (!db) throw new Error("D1 database is required.");
+  await db
+    .prepare("UPDATE submissions SET status = 'rejected', reviewer_note = ?, reviewed_at = CURRENT_TIMESTAMP WHERE id = ?")
+    .bind(reviewerNote, id)
+    .run();
+}

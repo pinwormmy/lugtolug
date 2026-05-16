@@ -1,0 +1,35 @@
+{
+  "name": "lugtolug-finder",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "cf:preview": "npm run build && wrangler pages dev dist --d1 DB=lugtolug-finder-local",
+    "db:migrate:local": "wrangler d1 migrations apply lugtolug-finder-local --local",
+    "db:migrate:remote": "wrangler d1 migrations apply lugtolug-finder --remote",
+    "db:seed:local": "wrangler d1 execute lugtolug-finder-local --local --file=./data/seed.sql",
+    "test": "vitest run",
+    "typecheck": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^12.6.2",
+    "@astrojs/react": "^4.3.0",
+    "astro": "^5.9.3",
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@cloudflare/workers-types": "^4.20250525.0",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "typescript": "^5.7.2",
+    "vitest": "^3.0.5",
+    "wrangler": "^4.18.0"
+  }
+}
