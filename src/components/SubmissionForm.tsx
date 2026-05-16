@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { FormEvent } from "react";
+import type { ComponentProps } from "react";
 
 type State = "idle" | "submitting" | "success" | "error";
 
@@ -7,7 +7,7 @@ export default function SubmissionForm() {
   const [state, setState] = useState<State>("idle");
   const [message, setMessage] = useState("");
 
-  async function submit(event: FormEvent<HTMLFormElement>) {
+  const submit: ComponentProps<"form">["onSubmit"] = async (event) => {
     event.preventDefault();
     setState("submitting");
     const form = event.currentTarget;
@@ -24,7 +24,7 @@ export default function SubmissionForm() {
       setMessage(data.message ?? Object.values(data.errors ?? {})[0] ?? "Submission failed.");
       setState("error");
     }
-  }
+  };
 
   return (
     <form className="panel form-grid" onSubmit={submit}>

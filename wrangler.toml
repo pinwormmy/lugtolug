@@ -4,13 +4,12 @@ pages_build_output_dir = "dist"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "lugtolug-finder-local"
+database_name = "lugtolug-finder"
+# Replace after `wrangler d1 create lugtolug-finder`.
 database_id = "local-development-placeholder"
 migrations_dir = "migrations"
 
 [[kv_namespaces]]
 binding = "SESSION"
+# Replace after `wrangler kv namespace create SESSION`.
 id = "local-session-placeholder"
-
-[vars]
-SESSION_SECRET = "local-development-change-me"

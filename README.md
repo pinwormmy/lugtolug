@@ -28,9 +28,52 @@ Run the printed SQL against local or remote D1 with `wrangler d1 execute`.
 
 ## Cloudflare deployment
 
-1. Create a Cloudflare Pages project connected to this repo.
-2. Create preview and production D1 databases.
-3. Replace `database_id` in `wrangler.toml` for real environments.
-4. Apply migrations and seed data.
-5. Set `SESSION_SECRET` as an environment variable.
-6. Create the first admin user with `scripts/create-admin-sql.mjs`.
+Target Pages settings:
+
+- Repository: `pinwormmy/lugtolug`
+- Production branch: `main`
+- Build command: `npm run build`
+- Output directory: `dist`
+- Project name: `lugtolug-finder`
+
+Cloudflare resources:
+
+```bash
+npm run cf:pages:create
+npm run db:create:remote
+npm run kv:create:session
+```
+
+Copy the created D1 `database_id` and KV `id` into `wrangler.toml`.
+
+Production setup:
+
+```bash
+npm run db:migrate:remote
+npm run db:seed:remote
+npm run cf:secret:session
+npm run admin:sql -- operator@example.com "change-this-password"
+```
+
+Run the printed admin SQL against production D1:
+
+```bash
+wrangler d1 execute lugtolug-finder --remote --command="<printed SQL>"
+```
+
+Before deployment, run:
+
+```bash
+npm run deploy:check
+```
+
+After deployment, verify:
+
+- `/`
+- `/watches`
+- watch detail pages
+- `/submit`
+- `/admin/login`
+- admin approve/reject flow
+- `/sitemap.xml`
+- `/robots.txt`
