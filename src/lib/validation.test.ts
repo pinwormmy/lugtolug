@@ -34,4 +34,21 @@ describe("submission validation", () => {
     expect(result.errors.sourceUrl).toBeTruthy();
     expect(result.errors.lugToLugMm).toBeTruthy();
   });
+
+  it("rejects overly long text and implausible dimensions", () => {
+    const result = parseSubmission({
+      brand: "R".repeat(81),
+      model: "Explorer",
+      reference: "124270",
+      sourceUrl: "https://example.com/source",
+      lugToLugMm: "10",
+      diameterMm: "36",
+      thicknessMm: "11.5",
+      lugWidthMm: "19"
+    });
+
+    expect(result.ok).toBe(false);
+    expect(result.errors.brand).toContain("characters or fewer");
+    expect(result.errors.lugToLugMm).toContain("between");
+  });
 });
