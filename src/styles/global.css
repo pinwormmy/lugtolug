@@ -225,7 +225,8 @@ select {
   border-color: #b9afa0;
 }
 
-.watch-name strong {
+.watch-name strong,
+.watch-name span {
   display: block;
   overflow-wrap: anywhere;
   word-break: break-word;
@@ -363,6 +364,14 @@ select {
   .hero,
   .grid-2 {
     grid-template-columns: 1fr;
+  }
+
+  .hero,
+  .section,
+  .tool-panel,
+  .panel {
+    max-width: 100%;
+    width: 100%;
   }
 
   .hero h1,
