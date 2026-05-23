@@ -26,6 +26,16 @@ node scripts/create-admin-sql.mjs operator@example.com "change-this-password"
 
 Run the printed SQL against local or remote D1 with `wrangler d1 execute`.
 
+Workflow smoke check:
+
+```bash
+SMOKE_ADMIN_EMAIL=operator@example.com \
+SMOKE_ADMIN_PASSWORD=change-this-password \
+npm run smoke:workflow -- --base-url http://127.0.0.1:4321
+```
+
+The smoke script expects a running local preview server and a seeded D1 database. It submits two watches, approves one, rejects the other, and verifies the approved watch page is reachable.
+
 ## Cloudflare deployment
 
 Target Pages settings:
