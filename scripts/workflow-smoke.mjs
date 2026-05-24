@@ -80,7 +80,9 @@ async function request(path, init = {}, jar = new CookieJar(), requestIp = clien
   for (const [name, value] of Object.entries(jar.headers(init.headers ?? {}))) {
     headers.push("-H", `${name}: ${value}`);
   }
-  headers.push("-H", `cf-connecting-ip: ${requestIp}`);
+  if (/^(https?:\/\/)?(127\.0\.0\.1|localhost)(:\d+)?$/.test(baseUrl)) {
+    headers.push("-H", `cf-connecting-ip: ${requestIp}`);
+  }
   headers.push("-H", `x-forwarded-for: ${requestIp}`);
   headers.push("-H", `Origin: ${baseUrl}`);
   headers.push("-H", `Referer: ${baseUrl}/submit`);
