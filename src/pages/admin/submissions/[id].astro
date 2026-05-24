@@ -14,69 +14,86 @@ if (!submission) {
   return Astro.redirect("/admin/submissions", 302);
 }
 const payload = submission.payload;
+const isPending = submission.status === "pending";
 ---
 
 <BaseLayout title="Review submission | Lug to Lug Finder" description="Review one private watch submission.">
   <section class="section" style="margin-top: 0;">
     <h1 class="page-title" style="font-size: clamp(2.4rem, 6vw, 4rem);">Review submission</h1>
-    <p class="lede">{payload.brand} {payload.model} · {payload.reference}</p>
+    <p class="lede">{payload.brand} {payload.model} · {payload.reference} · {submission.status}</p>
+    {!isPending && (
+      <p class="notice" style="margin-top: 18px;">
+        This submission was already {submission.status}
+        {submission.reviewedAt ? ` on ${new Date(submission.reviewedAt).toLocaleString("en-US")}` : ""}.
+      </p>
+    )}
   </section>
 
   <section class="section grid-2">
-    <form class="panel form-grid" action={`/api/admin/submissions/${submission.id}/approve`} method="post">
-      <input type="hidden" name="csrfToken" value={session.csrfToken} />
-      <div class="form-field">
-        <label for="brand">Brand</label>
-        <input class="input" id="brand" name="brand" value={payload.brand} required />
+    {isPending ? (
+      <form class="panel form-grid" action={`/api/admin/submissions/${submission.id}/approve`} method="post">
+        <input type="hidden" name="csrfToken" value={session.csrfToken} />
+        <div class="form-field">
+          <label for="brand">Brand</label>
+          <input class="input" id="brand" name="brand" value={payload.brand} required />
+        </div>
+        <div class="form-field">
+          <label for="model">Model</label>
+          <input class="input" id="model" name="model" value={payload.model} required />
+        </div>
+        <div class="form-field">
+          <label for="reference">Reference</label>
+          <input class="input" id="reference" name="reference" value={payload.reference} required />
+        </div>
+        <div class="form-field">
+          <label for="sourceUrl">Source URL</label>
+          <input class="input" id="sourceUrl" name="sourceUrl" value={payload.sourceUrl} required />
+        </div>
+        <div class="form-field">
+          <label for="lugToLugMm">Lug-to-lug mm</label>
+          <input class="input" id="lugToLugMm" name="lugToLugMm" value={payload.lugToLugMm} required />
+        </div>
+        <div class="form-field">
+          <label for="diameterMm">Diameter mm</label>
+          <input class="input" id="diameterMm" name="diameterMm" value={payload.diameterMm} required />
+        </div>
+        <div class="form-field">
+          <label for="thicknessMm">Thickness mm</label>
+          <input class="input" id="thicknessMm" name="thicknessMm" value={payload.thicknessMm} required />
+        </div>
+        <div class="form-field">
+          <label for="lugWidthMm">Lug width mm</label>
+          <input class="input" id="lugWidthMm" name="lugWidthMm" value={payload.lugWidthMm} required />
+        </div>
+        <div class="form-field full">
+          <label for="reviewerNote">Reviewer note</label>
+          <textarea class="textarea" id="reviewerNote" name="reviewerNote"></textarea>
+        </div>
+        <div class="form-field full">
+          <button class="button accent" type="submit">Approve and publish</button>
+        </div>
+      </form>
+    ) : (
+      <div class="panel">
+        <h2>Reviewed result</h2>
+        <p><strong>Status:</strong> {submission.status}</p>
+        <p><strong>Reviewer note:</strong> {submission.reviewerNote || "No reviewer note."}</p>
       </div>
-      <div class="form-field">
-        <label for="model">Model</label>
-        <input class="input" id="model" name="model" value={payload.model} required />
-      </div>
-      <div class="form-field">
-        <label for="reference">Reference</label>
-        <input class="input" id="reference" name="reference" value={payload.reference} required />
-      </div>
-      <div class="form-field">
-        <label for="sourceUrl">Source URL</label>
-        <input class="input" id="sourceUrl" name="sourceUrl" value={payload.sourceUrl} required />
-      </div>
-      <div class="form-field">
-        <label for="lugToLugMm">Lug-to-lug mm</label>
-        <input class="input" id="lugToLugMm" name="lugToLugMm" value={payload.lugToLugMm} required />
-      </div>
-      <div class="form-field">
-        <label for="diameterMm">Diameter mm</label>
-        <input class="input" id="diameterMm" name="diameterMm" value={payload.diameterMm} required />
-      </div>
-      <div class="form-field">
-        <label for="thicknessMm">Thickness mm</label>
-        <input class="input" id="thicknessMm" name="thicknessMm" value={payload.thicknessMm} required />
-      </div>
-      <div class="form-field">
-        <label for="lugWidthMm">Lug width mm</label>
-        <input class="input" id="lugWidthMm" name="lugWidthMm" value={payload.lugWidthMm} required />
-      </div>
-      <div class="form-field full">
-        <label for="reviewerNote">Reviewer note</label>
-        <textarea class="textarea" id="reviewerNote" name="reviewerNote"></textarea>
-      </div>
-      <div class="form-field full">
-        <button class="button accent" type="submit">Approve and publish</button>
-      </div>
-    </form>
+    )}
 
     <div class="panel">
       <h2>Private contributor details</h2>
       <p><strong>Email:</strong> {payload.contactEmail || "Not provided"}</p>
       <p><strong>Private comment:</strong></p>
       <p>{payload.privateComment || "No private comment."}</p>
-      <form action={`/api/admin/submissions/${submission.id}/reject`} method="post">
-        <input type="hidden" name="csrfToken" value={session.csrfToken} />
-        <label for="rejectNote">Rejection note</label>
-        <textarea class="textarea" id="rejectNote" name="reviewerNote"></textarea>
-        <button class="button danger" type="submit" style="margin-top: 12px;">Reject</button>
-      </form>
+      {isPending && (
+        <form action={`/api/admin/submissions/${submission.id}/reject`} method="post">
+          <input type="hidden" name="csrfToken" value={session.csrfToken} />
+          <label for="rejectNote">Rejection note</label>
+          <textarea class="textarea" id="rejectNote" name="reviewerNote"></textarea>
+          <button class="button danger" type="submit" style="margin-top: 12px;">Reject</button>
+        </form>
+      )}
     </div>
   </section>
 </BaseLayout>

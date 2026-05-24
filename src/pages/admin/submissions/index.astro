@@ -2,6 +2,7 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getAdminSession } from "@/lib/auth";
 import { getDb, listSubmissions } from "@/lib/db";
+import type { SubmissionStatus } from "@/types";
 
 const db = getDb(Astro.locals);
 const session = await getAdminSession(db, Astro.request);
@@ -9,14 +10,20 @@ if (!session) {
   return Astro.redirect("/admin/login", 302);
 }
 
-const submissions = await listSubmissions(db, "pending");
+const allowedStatuses = new Set(["pending", "approved", "rejected", "all"]);
+const requestedStatus = Astro.url.searchParams.get("status") ?? "pending";
+const status = allowedStatuses.has(requestedStatus) ? requestedStatus : "pending";
+const submissions = await listSubmissions(db, status as SubmissionStatus | "all");
+const approved = Astro.url.searchParams.get("approved") === "1";
+const rejected = Astro.url.searchParams.get("rejected") === "1";
+const reviewed = Astro.url.searchParams.get("error") === "reviewed";
 ---
 
-<BaseLayout title="Pending submissions | Lug to Lug Finder" description="Review pending private watch submissions.">
+<BaseLayout title="Admin submissions | Lug to Lug Finder" description="Review private watch submissions.">
   <section class="section" style="margin-top: 0;">
     <div style="display: flex; justify-content: space-between; gap: 16px; align-items: center;">
       <div>
-        <h1 class="page-title" style="font-size: clamp(2.4rem, 6vw, 4rem);">Pending submissions</h1>
+        <h1 class="page-title" style="font-size: clamp(2.4rem, 6vw, 4rem);">Submissions</h1>
         <p class="lede">Signed in as {session.user.email}</p>
       </div>
       <form action="/api/admin/logout" method="post">
@@ -24,10 +31,26 @@ const submissions = await listSubmissions(db, "pending");
       </form>
     </div>
 
+    {(approved || rejected || reviewed) && (
+      <p class={reviewed ? "error" : "notice"} style="margin-top: 18px;">
+        {approved && "Submission approved and published."}
+        {rejected && "Submission rejected."}
+        {reviewed && "That submission has already been reviewed."}
+      </p>
+    )}
+
+    <nav class="admin-tabs" aria-label="Submission status">
+      <a class={status === "pending" ? "active" : ""} href="/admin/submissions">Pending</a>
+      <a class={status === "approved" ? "active" : ""} href="/admin/submissions?status=approved">Approved</a>
+      <a class={status === "rejected" ? "active" : ""} href="/admin/submissions?status=rejected">Rejected</a>
+      <a class={status === "all" ? "active" : ""} href="/admin/submissions?status=all">All</a>
+    </nav>
+
     <div class="panel" style="margin-top: 24px; overflow-x: auto;">
       <table class="admin-table">
         <thead>
           <tr>
+            <th>Status</th>
             <th>Watch</th>
             <th>Reference</th>
             <th>Dimensions</th>
@@ -39,6 +62,7 @@ const submissions = await listSubmissions(db, "pending");
         <tbody>
           {submissions.map((submission) => (
             <tr>
+              <td>{submission.status}</td>
               <td>{submission.payload.brand} {submission.payload.model}</td>
               <td>{submission.payload.reference}</td>
               <td>
@@ -52,7 +76,7 @@ const submissions = await listSubmissions(db, "pending");
           ))}
           {submissions.length === 0 && (
             <tr>
-              <td colspan="6">No pending submissions.</td>
+              <td colspan="7">No {status === "all" ? "" : status} submissions.</td>
             </tr>
           )}
         </tbody>

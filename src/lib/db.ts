@@ -43,6 +43,7 @@ interface SubmissionRateLimitRow {
 }
 
 const SUBMISSION_COOLDOWN_MS = 5 * 60 * 1000;
+const SUBMISSION_DAILY_LIMIT = 20;
 
 function mapWatch(row: WatchRow): Watch {
   return {
@@ -101,7 +102,10 @@ async function sha256Hex(value: string): Promise<string> {
   return [...new Uint8Array(digest)].map((byte) => byte.toString(16).padStart(2, "0")).join("");
 }
 
-export async function isSubmissionRateLimited(db: D1, request: Request): Promise<{ limited: boolean; retryAfterSeconds?: number }> {
+export async function isSubmissionRateLimited(
+  db: D1,
+  request: Request
+): Promise<{ limited: boolean; reason?: "cooldown" | "daily"; retryAfterSeconds?: number }> {
   if (!db) return { limited: false };
 
   const ipHash = await sha256Hex(getClientIp(request));
@@ -115,7 +119,20 @@ export async function isSubmissionRateLimited(db: D1, request: Request): Promise
   if (elapsed < SUBMISSION_COOLDOWN_MS) {
     return {
       limited: true,
+      reason: "cooldown",
       retryAfterSeconds: Math.ceil((SUBMISSION_COOLDOWN_MS - elapsed) / 1000)
+    };
+  }
+
+  const countRow = await db
+    .prepare("SELECT COUNT(*) AS count FROM submission_rate_events WHERE ip_hash = ? AND created_at > datetime('now', '-24 hours')")
+    .bind(ipHash)
+    .first<{ count: number }>();
+  if (Number(countRow?.count ?? 0) >= SUBMISSION_DAILY_LIMIT) {
+    return {
+      limited: true,
+      reason: "daily",
+      retryAfterSeconds: 24 * 60 * 60
     };
   }
 
@@ -133,6 +150,7 @@ export async function recordSubmissionRateLimit(db: D1, request: Request): Promi
     )
     .bind(ipHash)
     .run();
+  await db.prepare("INSERT INTO submission_rate_events (ip_hash) VALUES (?)").bind(ipHash).run();
 }
 
 export async function searchWatches(db: D1, query: string): Promise<WatchWithSources[]> {
@@ -216,8 +234,12 @@ export async function createSubmission(db: D1, payload: SubmissionPayload): Prom
   return Number(result.meta.last_row_id);
 }
 
-export async function listSubmissions(db: D1, status = "pending"): Promise<Submission[]> {
+export async function listSubmissions(db: D1, status: Submission["status"] | "all" = "pending"): Promise<Submission[]> {
   if (!db) return [];
+  if (status === "all") {
+    const rows = await db.prepare("SELECT * FROM submissions ORDER BY created_at DESC").all<SubmissionRow>();
+    return rows.results.map(mapSubmission);
+  }
   const rows = await db
     .prepare("SELECT * FROM submissions WHERE status = ? ORDER BY created_at DESC")
     .bind(status)

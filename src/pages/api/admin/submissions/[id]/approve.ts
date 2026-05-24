@@ -12,6 +12,7 @@ export const POST: APIRoute = async ({ locals, params, request }) => {
   const id = Number(params.id);
   const submission = await getSubmission(db, id);
   if (!submission) return redirect("/admin/submissions?error=missing");
+  if (submission.status !== "pending") return redirect("/admin/submissions?error=reviewed");
 
   const form = await request.formData();
   const parsed = parseSubmission(form);

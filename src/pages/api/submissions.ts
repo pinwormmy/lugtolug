@@ -22,10 +22,13 @@ export const POST: APIRoute = async ({ locals, request }) => {
 
   const rateLimit = await isSubmissionRateLimited(db, request);
   if (rateLimit.limited) {
+    const isDailyLimit = rateLimit.reason === "daily";
     return json(
       {
-        message: "Please wait a few minutes before submitting again.",
-        errors: { general: "Try again later." }
+        message: isDailyLimit
+          ? "You have reached the 24-hour submission limit. Please try again tomorrow."
+          : "Please wait a few minutes before submitting again.",
+        errors: { general: isDailyLimit ? "Daily submission limit reached." : "Try again later." }
       },
       {
         status: 429,
