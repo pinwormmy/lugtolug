@@ -34,7 +34,7 @@ async function sha256Hex(value: string): Promise<string> {
   return bytesToHex(new Uint8Array(digest));
 }
 
-export async function hashPassword(password: string, salt = randomHex(16), iterations = 210_000) {
+export async function hashPassword(password: string, salt = randomHex(16), iterations = 100_000) {
   const keyMaterial = await crypto.subtle.importKey("raw", encoder.encode(password), "PBKDF2", false, ["deriveBits"]);
   const bits = await crypto.subtle.deriveBits(
     {
