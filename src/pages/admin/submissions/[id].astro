@@ -2,6 +2,7 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getAdminSession } from "@/lib/auth";
 import { getDb, getSubmission } from "@/lib/db";
+import { getSubmissionFieldValue, REQUIRED_NUMBER_INPUTS, REQUIRED_TEXT_INPUTS } from "@/lib/submissionFields";
 
 const db = getDb(Astro.locals);
 const session = await getAdminSession(db, Astro.request);
@@ -33,38 +34,37 @@ const isPending = submission.status === "pending";
     {isPending ? (
       <form class="panel form-grid" action={`/api/admin/submissions/${submission.id}/approve`} method="post">
         <input type="hidden" name="csrfToken" value={session.csrfToken} />
-        <div class="form-field">
-          <label for="brand">Brand</label>
-          <input class="input" id="brand" name="brand" value={payload.brand} required />
-        </div>
-        <div class="form-field">
-          <label for="model">Model</label>
-          <input class="input" id="model" name="model" value={payload.model} required />
-        </div>
-        <div class="form-field">
-          <label for="reference">Reference</label>
-          <input class="input" id="reference" name="reference" value={payload.reference} required />
-        </div>
-        <div class="form-field">
-          <label for="sourceUrl">Source URL</label>
-          <input class="input" id="sourceUrl" name="sourceUrl" value={payload.sourceUrl} required />
-        </div>
-        <div class="form-field">
-          <label for="lugToLugMm">Lug-to-lug mm</label>
-          <input class="input" id="lugToLugMm" name="lugToLugMm" value={payload.lugToLugMm} required />
-        </div>
-        <div class="form-field">
-          <label for="diameterMm">Diameter mm</label>
-          <input class="input" id="diameterMm" name="diameterMm" value={payload.diameterMm} required />
-        </div>
-        <div class="form-field">
-          <label for="thicknessMm">Thickness mm</label>
-          <input class="input" id="thicknessMm" name="thicknessMm" value={payload.thicknessMm} required />
-        </div>
-        <div class="form-field">
-          <label for="lugWidthMm">Lug width mm</label>
-          <input class="input" id="lugWidthMm" name="lugWidthMm" value={payload.lugWidthMm} required />
-        </div>
+        {REQUIRED_TEXT_INPUTS.map((field) => (
+          <div class="form-field">
+            <label for={field.name}>{field.label}</label>
+            <input
+              class="input"
+              id={field.name}
+              maxlength={field.maxLength}
+              name={field.name}
+              type={field.type ?? "text"}
+              value={getSubmissionFieldValue(payload, field.name)}
+              required
+            />
+          </div>
+        ))}
+        {REQUIRED_NUMBER_INPUTS.map((field) => (
+          <div class="form-field">
+            <label for={field.name}>{field.label}</label>
+            <input
+              class="input"
+              id={field.name}
+              inputmode="decimal"
+              max={field.max}
+              min={field.min}
+              name={field.name}
+              step="0.1"
+              type="number"
+              value={getSubmissionFieldValue(payload, field.name)}
+              required
+            />
+          </div>
+        ))}
         <div class="form-field full">
           <label for="reviewerNote">Reviewer note</label>
           <textarea class="textarea" id="reviewerNote" name="reviewerNote"></textarea>

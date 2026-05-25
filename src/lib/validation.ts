@@ -1,21 +1,5 @@
 import type { SubmissionPayload } from "@/types";
-
-const REQUIRED_TEXT = ["brand", "model", "reference", "sourceUrl"] as const;
-const REQUIRED_NUMBERS = ["lugToLugMm", "diameterMm", "thicknessMm", "lugWidthMm"] as const;
-const TEXT_LIMITS = {
-  brand: 80,
-  model: 120,
-  reference: 80,
-  sourceUrl: 2048,
-  privateComment: 1000,
-  contactEmail: 320
-} as const;
-const NUMBER_LIMITS = {
-  lugToLugMm: { min: 20, max: 80 },
-  diameterMm: { min: 20, max: 60 },
-  thicknessMm: { min: 4, max: 25 },
-  lugWidthMm: { min: 8, max: 30 }
-} as const;
+import { NUMBER_LIMITS, REQUIRED_NUMBER_FIELDS, REQUIRED_TEXT_FIELDS, TEXT_LIMITS } from "@/lib/submissionFields";
 
 export interface ValidationResult {
   ok: boolean;
@@ -31,14 +15,14 @@ export function parseSubmission(input: FormData | Record<string, unknown>): Vali
   const errors: Record<string, string> = {};
   const payload: Record<string, string | number> = {};
 
-  for (const key of REQUIRED_TEXT) {
+  for (const key of REQUIRED_TEXT_FIELDS) {
     const value = String(get(key) ?? "").trim();
     if (!value) errors[key] = "Required";
     if (value.length > TEXT_LIMITS[key]) errors[key] = `Must be ${TEXT_LIMITS[key]} characters or fewer`;
     payload[key] = value;
   }
 
-  for (const key of REQUIRED_NUMBERS) {
+  for (const key of REQUIRED_NUMBER_FIELDS) {
     const raw = String(get(key) ?? "").trim();
     const value = Number(raw);
     const limits = NUMBER_LIMITS[key];

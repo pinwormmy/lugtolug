@@ -2,6 +2,7 @@ import { Search } from "lucide-react";
 import { useMemo, useState, useTransition } from "react";
 import type { WatchWithSources } from "@/types";
 import { normalizeSearch } from "@/lib/slug";
+import { formatMm, getWatchHref, getWatchSearchText, WATCH_METRICS } from "@/lib/watch";
 
 interface Props {
   watches: WatchWithSources[];
@@ -13,9 +14,7 @@ export default function SearchApp({ watches }: Props) {
   const normalized = normalizeSearch(query);
   const results = useMemo(() => {
     if (!normalized) return watches.slice(0, 8);
-    return watches
-      .filter((watch) => normalizeSearch(`${watch.brand} ${watch.model} ${watch.reference}`).includes(normalized))
-      .slice(0, 12);
+    return watches.filter((watch) => getWatchSearchText(watch).includes(normalized)).slice(0, 12);
   }, [normalized, watches]);
 
   return (
@@ -41,7 +40,7 @@ export default function SearchApp({ watches }: Props) {
           <a
             className="watch-row"
             key={watch.id}
-            href={`/watches/${watch.brandSlug}/${watch.modelSlug}/${watch.referenceSlug}`}
+            href={getWatchHref(watch)}
           >
             <div className="watch-name">
               <strong>
@@ -49,22 +48,12 @@ export default function SearchApp({ watches }: Props) {
               </strong>
               <span>{watch.reference}</span>
             </div>
-            <div className="metric">
-              <span>Lug-to-lug</span>
-              <strong>{watch.lugToLugMm} mm</strong>
-            </div>
-            <div className="metric">
-              <span>Diameter</span>
-              <strong>{watch.diameterMm} mm</strong>
-            </div>
-            <div className="metric">
-              <span>Thickness</span>
-              <strong>{watch.thicknessMm} mm</strong>
-            </div>
-            <div className="metric">
-              <span>Lug width</span>
-              <strong>{watch.lugWidthMm} mm</strong>
-            </div>
+            {WATCH_METRICS.map((metric) => (
+              <div className="metric" key={metric.key}>
+                <span>{metric.rowLabel}</span>
+                <strong>{formatMm(watch[metric.key])}</strong>
+              </div>
+            ))}
           </a>
         ))}
         {results.length === 0 && <p className="small">No matching watches yet. Submit a source and the operator can review it.</p>}

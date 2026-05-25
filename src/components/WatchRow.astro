@@ -1,12 +1,13 @@
 ---
 import type { WatchWithSources } from "@/types";
+import { formatMm, getWatchHref, WATCH_METRICS } from "@/lib/watch";
 
 interface Props {
   watch: WatchWithSources;
 }
 
 const { watch } = Astro.props;
-const href = `/watches/${watch.brandSlug}/${watch.modelSlug}/${watch.referenceSlug}`;
+const href = getWatchHref(watch);
 ---
 
 <a class="watch-row" href={href}>
@@ -14,20 +15,10 @@ const href = `/watches/${watch.brandSlug}/${watch.modelSlug}/${watch.referenceSl
     <strong>{watch.brand} {watch.model}</strong>
     <span>{watch.reference}</span>
   </div>
-  <div class="metric">
-    <span>Lug-to-lug</span>
-    <strong>{watch.lugToLugMm} mm</strong>
-  </div>
-  <div class="metric">
-    <span>Diameter</span>
-    <strong>{watch.diameterMm} mm</strong>
-  </div>
-  <div class="metric">
-    <span>Thickness</span>
-    <strong>{watch.thicknessMm} mm</strong>
-  </div>
-  <div class="metric">
-    <span>Lug width</span>
-    <strong>{watch.lugWidthMm} mm</strong>
-  </div>
+  {WATCH_METRICS.map((metric) => (
+    <div class="metric">
+      <span>{metric.rowLabel}</span>
+      <strong>{formatMm(watch[metric.key])}</strong>
+    </div>
+  ))}
 </a>

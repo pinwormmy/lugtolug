@@ -1,0 +1,106 @@
+import type { SubmissionPayload } from "@/types";
+
+export const REQUIRED_TEXT_FIELDS = ["brand", "model", "reference", "sourceUrl"] as const;
+export const REQUIRED_NUMBER_FIELDS = ["lugToLugMm", "diameterMm", "thicknessMm", "lugWidthMm"] as const;
+
+export type RequiredTextField = (typeof REQUIRED_TEXT_FIELDS)[number];
+export type RequiredNumberField = (typeof REQUIRED_NUMBER_FIELDS)[number];
+
+export const TEXT_LIMITS = {
+  brand: 80,
+  model: 120,
+  reference: 80,
+  sourceUrl: 2048,
+  privateComment: 1000,
+  contactEmail: 320
+} as const satisfies Record<RequiredTextField | "privateComment" | "contactEmail", number>;
+
+export const NUMBER_LIMITS = {
+  lugToLugMm: { min: 20, max: 80 },
+  diameterMm: { min: 20, max: 60 },
+  thicknessMm: { min: 4, max: 25 },
+  lugWidthMm: { min: 8, max: 30 }
+} as const satisfies Record<RequiredNumberField, { min: number; max: number }>;
+
+export const REQUIRED_TEXT_INPUTS = [
+  {
+    name: "brand",
+    label: "Brand",
+    maxLength: TEXT_LIMITS.brand,
+    autoComplete: "organization",
+    type: "text"
+  },
+  {
+    name: "model",
+    label: "Model",
+    maxLength: TEXT_LIMITS.model,
+    autoComplete: undefined,
+    type: "text"
+  },
+  {
+    name: "reference",
+    label: "Reference number",
+    maxLength: TEXT_LIMITS.reference,
+    autoComplete: undefined,
+    type: "text"
+  },
+  {
+    name: "sourceUrl",
+    label: "Source URL",
+    maxLength: TEXT_LIMITS.sourceUrl,
+    autoComplete: undefined,
+    type: "url"
+  }
+] as const satisfies readonly {
+  name: RequiredTextField;
+  label: string;
+  maxLength: number;
+  autoComplete?: string;
+  type: "text" | "url";
+}[];
+
+export const REQUIRED_NUMBER_INPUTS = [
+  {
+    name: "lugToLugMm",
+    label: "Lug-to-lug mm",
+    ...NUMBER_LIMITS.lugToLugMm
+  },
+  {
+    name: "diameterMm",
+    label: "Case diameter mm",
+    ...NUMBER_LIMITS.diameterMm
+  },
+  {
+    name: "thicknessMm",
+    label: "Thickness mm",
+    ...NUMBER_LIMITS.thicknessMm
+  },
+  {
+    name: "lugWidthMm",
+    label: "Lug width mm",
+    ...NUMBER_LIMITS.lugWidthMm
+  }
+] as const satisfies readonly {
+  name: RequiredNumberField;
+  label: string;
+  min: number;
+  max: number;
+}[];
+
+export const OPTIONAL_SUBMISSION_FIELDS = {
+  privateComment: {
+    name: "privateComment",
+    label: "Private comment to operator",
+    maxLength: TEXT_LIMITS.privateComment
+  },
+  contactEmail: {
+    name: "contactEmail",
+    label: "Email for follow-up, optional",
+    maxLength: TEXT_LIMITS.contactEmail,
+    type: "email"
+  }
+} as const;
+
+export function getSubmissionFieldValue(payload: SubmissionPayload, name: RequiredTextField | RequiredNumberField): string | number {
+  return payload[name];
+}

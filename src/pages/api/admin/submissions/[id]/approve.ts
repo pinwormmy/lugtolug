@@ -1,23 +1,18 @@
 import type { APIRoute } from "astro";
-import { assertCsrf, requireAdmin } from "@/lib/auth";
-import { approveSubmission, getDb, getSubmission } from "@/lib/db";
+import { readReviewerNote, requirePendingSubmission } from "@/lib/adminReview";
+import { approveSubmission, getDb } from "@/lib/db";
 import { redirect } from "@/lib/http";
 import { parseSubmission } from "@/lib/validation";
 
 export const POST: APIRoute = async ({ locals, params, request }) => {
   const db = getDb(locals);
-  const session = await requireAdmin(db, request);
-  await assertCsrf(session, request);
-
-  const id = Number(params.id);
-  const submission = await getSubmission(db, id);
-  if (!submission) return redirect("/admin/submissions?error=missing");
-  if (submission.status !== "pending") return redirect("/admin/submissions?error=reviewed");
+  const result = await requirePendingSubmission(db, request, params.id);
+  if (!result.ok) return result.response;
 
   const form = await request.formData();
   const parsed = parseSubmission(form);
-  if (!parsed.ok || !parsed.payload) return redirect(`/admin/submissions/${id}?error=validation`);
+  if (!parsed.ok || !parsed.payload) return redirect(`/admin/submissions/${result.submission.id}?error=validation`);
 
-  await approveSubmission(db, id, parsed.payload, String(form.get("reviewerNote") ?? ""));
+  await approveSubmission(db, result.submission.id, parsed.payload, readReviewerNote(form));
   return redirect("/admin/submissions?approved=1");
 };

@@ -1,6 +1,7 @@
 import seed from "../../data/watches.seed.json";
 import type { WatchWithSources } from "@/types";
 import { normalizeSearch, slugify } from "@/lib/slug";
+import { getWatchSearchText } from "@/lib/watch";
 
 export const seedWatches: WatchWithSources[] = seed.map((watch) => ({
   id: watch.id,
@@ -28,7 +29,5 @@ export const seedWatches: WatchWithSources[] = seed.map((watch) => ({
 export function searchSeedWatches(query: string): WatchWithSources[] {
   const normalized = normalizeSearch(query);
   if (!normalized) return seedWatches;
-  return seedWatches.filter((watch) =>
-    normalizeSearch(`${watch.brand} ${watch.model} ${watch.reference}`).includes(normalized)
-  );
+  return seedWatches.filter((watch) => getWatchSearchText(watch).includes(normalized));
 }

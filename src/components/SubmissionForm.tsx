@@ -1,5 +1,6 @@
 import { useState } from "react";
 import type { ComponentProps } from "react";
+import { OPTIONAL_SUBMISSION_FIELDS, REQUIRED_NUMBER_INPUTS, REQUIRED_TEXT_INPUTS } from "@/lib/submissionFields";
 
 type State = "idle" | "submitting" | "success" | "error";
 
@@ -38,45 +39,54 @@ export default function SubmissionForm() {
           type="text"
         />
       </div>
-      <div className="form-field">
-        <label htmlFor="brand">Brand</label>
-        <input autoComplete="organization" className="input" id="brand" maxLength={80} name="brand" required />
-      </div>
-      <div className="form-field">
-        <label htmlFor="model">Model</label>
-        <input className="input" id="model" maxLength={120} name="model" required />
-      </div>
-      <div className="form-field">
-        <label htmlFor="reference">Reference number</label>
-        <input className="input" id="reference" maxLength={80} name="reference" required />
-      </div>
-      <div className="form-field">
-        <label htmlFor="sourceUrl">Source URL</label>
-        <input className="input" id="sourceUrl" maxLength={2048} name="sourceUrl" type="url" required />
-      </div>
-      <div className="form-field">
-        <label htmlFor="lugToLugMm">Lug-to-lug mm</label>
-        <input className="input" id="lugToLugMm" max="80" min="20" name="lugToLugMm" inputMode="decimal" required step="0.1" type="number" />
-      </div>
-      <div className="form-field">
-        <label htmlFor="diameterMm">Case diameter mm</label>
-        <input className="input" id="diameterMm" max="60" min="20" name="diameterMm" inputMode="decimal" required step="0.1" type="number" />
-      </div>
-      <div className="form-field">
-        <label htmlFor="thicknessMm">Thickness mm</label>
-        <input className="input" id="thicknessMm" max="25" min="4" name="thicknessMm" inputMode="decimal" required step="0.1" type="number" />
-      </div>
-      <div className="form-field">
-        <label htmlFor="lugWidthMm">Lug width mm</label>
-        <input className="input" id="lugWidthMm" max="30" min="8" name="lugWidthMm" inputMode="decimal" required step="0.1" type="number" />
+      {REQUIRED_TEXT_INPUTS.map((field) => (
+        <div className="form-field" key={field.name}>
+          <label htmlFor={field.name}>{field.label}</label>
+          <input
+            autoComplete={field.autoComplete}
+            className="input"
+            id={field.name}
+            maxLength={field.maxLength}
+            name={field.name}
+            required
+            type={field.type ?? "text"}
+          />
+        </div>
+      ))}
+      {REQUIRED_NUMBER_INPUTS.map((field) => (
+        <div className="form-field" key={field.name}>
+          <label htmlFor={field.name}>{field.label}</label>
+          <input
+            className="input"
+            id={field.name}
+            inputMode="decimal"
+            max={field.max}
+            min={field.min}
+            name={field.name}
+            required
+            step="0.1"
+            type="number"
+          />
+        </div>
+      ))}
+      <div className="form-field full">
+        <label htmlFor={OPTIONAL_SUBMISSION_FIELDS.privateComment.name}>{OPTIONAL_SUBMISSION_FIELDS.privateComment.label}</label>
+        <textarea
+          className="textarea"
+          id={OPTIONAL_SUBMISSION_FIELDS.privateComment.name}
+          maxLength={OPTIONAL_SUBMISSION_FIELDS.privateComment.maxLength}
+          name={OPTIONAL_SUBMISSION_FIELDS.privateComment.name}
+        />
       </div>
       <div className="form-field full">
-        <label htmlFor="privateComment">Private comment to operator</label>
-        <textarea className="textarea" id="privateComment" maxLength={1000} name="privateComment" />
-      </div>
-      <div className="form-field full">
-        <label htmlFor="contactEmail">Email for follow-up, optional</label>
-        <input className="input" id="contactEmail" maxLength={320} name="contactEmail" type="email" />
+        <label htmlFor={OPTIONAL_SUBMISSION_FIELDS.contactEmail.name}>{OPTIONAL_SUBMISSION_FIELDS.contactEmail.label}</label>
+        <input
+          className="input"
+          id={OPTIONAL_SUBMISSION_FIELDS.contactEmail.name}
+          maxLength={OPTIONAL_SUBMISSION_FIELDS.contactEmail.maxLength}
+          name={OPTIONAL_SUBMISSION_FIELDS.contactEmail.name}
+          type={OPTIONAL_SUBMISSION_FIELDS.contactEmail.type}
+        />
       </div>
       <div className="form-field full">
         <button className="button accent" type="submit" disabled={state === "submitting"}>

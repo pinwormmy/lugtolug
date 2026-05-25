@@ -1,6 +1,7 @@
 import type { Submission, SubmissionPayload, Watch, WatchSource, WatchWithSources } from "@/types";
 import { normalizeSearch, slugify } from "@/lib/slug";
 import { searchSeedWatches, seedWatches } from "@/lib/seed";
+import { getWatchSearchText } from "@/lib/watch";
 
 type D1 = D1Database | undefined;
 
@@ -44,6 +45,13 @@ interface SubmissionRateLimitRow {
 
 const SUBMISSION_COOLDOWN_MS = 5 * 60 * 1000;
 const SUBMISSION_DAILY_LIMIT = 20;
+
+interface SubmissionWatchSlugs {
+  brandSlug: string;
+  modelSlug: string;
+  referenceSlug: string;
+  searchText: string;
+}
 
 function mapWatch(row: WatchRow): Watch {
   return {
@@ -255,79 +263,117 @@ export async function getSubmission(db: D1, id: number): Promise<Submission | nu
 
 export async function approveSubmission(db: D1, id: number, payload: SubmissionPayload, reviewerNote: string): Promise<number> {
   if (!db) throw new Error("D1 database is required.");
-  const brandSlug = slugify(payload.brand);
-  const modelSlug = slugify(payload.model);
-  const referenceSlug = slugify(payload.reference);
-  const searchText = normalizeSearch(`${payload.brand} ${payload.model} ${payload.reference}`);
+  const watchId = await upsertApprovedWatch(db, payload);
 
-  const existing = await db
-    .prepare("SELECT id FROM watches WHERE brand_slug = ? AND model_slug = ? AND reference_slug = ?")
-    .bind(brandSlug, modelSlug, referenceSlug)
-    .first<{ id: number }>();
-
-  let watchId: number;
-  if (existing) {
-    watchId = existing.id;
-    await db
-      .prepare(
-        `UPDATE watches
-         SET brand = ?, model = ?, reference = ?, search_text = ?, lug_to_lug_mm = ?, diameter_mm = ?,
-             thickness_mm = ?, lug_width_mm = ?, confidence = 'medium', status = 'approved', updated_at = CURRENT_TIMESTAMP
-         WHERE id = ?`
-      )
-      .bind(
-        payload.brand,
-        payload.model,
-        payload.reference,
-        searchText,
-        payload.lugToLugMm,
-        payload.diameterMm,
-        payload.thicknessMm,
-        payload.lugWidthMm,
-        watchId
-      )
-      .run();
-  } else {
-    const result = await db
-      .prepare(
-        `INSERT INTO watches
-         (brand, model, reference, brand_slug, model_slug, reference_slug, search_text,
-          lug_to_lug_mm, diameter_mm, thickness_mm, lug_width_mm, confidence, status)
-         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'medium', 'approved')`
-      )
-      .bind(
-        payload.brand,
-        payload.model,
-        payload.reference,
-        brandSlug,
-        modelSlug,
-        referenceSlug,
-        searchText,
-        payload.lugToLugMm,
-        payload.diameterMm,
-        payload.thicknessMm,
-        payload.lugWidthMm
-      )
-      .run();
-    watchId = Number(result.meta.last_row_id);
-  }
-
-  await db
-    .prepare("INSERT INTO watch_sources (watch_id, source_url, note) VALUES (?, ?, ?)")
-    .bind(watchId, payload.sourceUrl, "Approved user submission")
-    .run();
-  await db
-    .prepare("UPDATE submissions SET status = 'approved', reviewer_note = ?, reviewed_at = CURRENT_TIMESTAMP WHERE id = ?")
-    .bind(reviewerNote, id)
-    .run();
+  await insertApprovedSource(db, watchId, payload.sourceUrl);
+  await markSubmissionReviewed(db, id, "approved", reviewerNote);
 
   return watchId;
 }
 
+async function upsertApprovedWatch(db: D1Database, payload: SubmissionPayload): Promise<number> {
+  const slugs = getSubmissionWatchSlugs(payload);
+  const existing = await findWatchId(db, slugs);
+
+  if (existing) {
+    await updateWatchFromSubmission(db, existing.id, payload, slugs);
+    return existing.id;
+  }
+
+  return insertWatchFromSubmission(db, payload, slugs);
+}
+
+function getSubmissionWatchSlugs(payload: SubmissionPayload): SubmissionWatchSlugs {
+  const brandSlug = slugify(payload.brand);
+  const modelSlug = slugify(payload.model);
+  const referenceSlug = slugify(payload.reference);
+  const searchText = getWatchSearchText(payload);
+  return { brandSlug, modelSlug, referenceSlug, searchText };
+}
+
+async function findWatchId(db: D1Database, slugs: SubmissionWatchSlugs): Promise<{ id: number } | null> {
+  return db
+    .prepare("SELECT id FROM watches WHERE brand_slug = ? AND model_slug = ? AND reference_slug = ?")
+    .bind(slugs.brandSlug, slugs.modelSlug, slugs.referenceSlug)
+    .first<{ id: number }>();
+}
+
+async function updateWatchFromSubmission(
+  db: D1Database,
+  watchId: number,
+  payload: SubmissionPayload,
+  slugs: SubmissionWatchSlugs
+): Promise<void> {
+  await db
+    .prepare(
+      `UPDATE watches
+       SET brand = ?, model = ?, reference = ?, search_text = ?, lug_to_lug_mm = ?, diameter_mm = ?,
+           thickness_mm = ?, lug_width_mm = ?, confidence = 'medium', status = 'approved', updated_at = CURRENT_TIMESTAMP
+       WHERE id = ?`
+    )
+    .bind(
+      payload.brand,
+      payload.model,
+      payload.reference,
+      slugs.searchText,
+      payload.lugToLugMm,
+      payload.diameterMm,
+      payload.thicknessMm,
+      payload.lugWidthMm,
+      watchId
+    )
+    .run();
+}
+
+async function insertWatchFromSubmission(
+  db: D1Database,
+  payload: SubmissionPayload,
+  slugs: SubmissionWatchSlugs
+): Promise<number> {
+  const result = await db
+    .prepare(
+      `INSERT INTO watches
+       (brand, model, reference, brand_slug, model_slug, reference_slug, search_text,
+        lug_to_lug_mm, diameter_mm, thickness_mm, lug_width_mm, confidence, status)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'medium', 'approved')`
+    )
+    .bind(
+      payload.brand,
+      payload.model,
+      payload.reference,
+      slugs.brandSlug,
+      slugs.modelSlug,
+      slugs.referenceSlug,
+      slugs.searchText,
+      payload.lugToLugMm,
+      payload.diameterMm,
+      payload.thicknessMm,
+      payload.lugWidthMm
+    )
+    .run();
+  return Number(result.meta.last_row_id);
+}
+
+async function insertApprovedSource(db: D1Database, watchId: number, sourceUrl: string): Promise<void> {
+  await db
+    .prepare("INSERT INTO watch_sources (watch_id, source_url, note) VALUES (?, ?, ?)")
+    .bind(watchId, sourceUrl, "Approved user submission")
+    .run();
+}
+
+async function markSubmissionReviewed(
+  db: D1Database,
+  id: number,
+  status: Extract<Submission["status"], "approved" | "rejected">,
+  reviewerNote: string
+): Promise<void> {
+  await db
+    .prepare("UPDATE submissions SET status = ?, reviewer_note = ?, reviewed_at = CURRENT_TIMESTAMP WHERE id = ?")
+    .bind(status, reviewerNote, id)
+    .run();
+}
+
 export async function rejectSubmission(db: D1, id: number, reviewerNote: string): Promise<void> {
   if (!db) throw new Error("D1 database is required.");
-  await db
-    .prepare("UPDATE submissions SET status = 'rejected', reviewer_note = ?, reviewed_at = CURRENT_TIMESTAMP WHERE id = ?")
-    .bind(reviewerNote, id)
-    .run();
+  await markSubmissionReviewed(db, id, "rejected", reviewerNote);
 }
