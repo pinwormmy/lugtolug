@@ -489,5 +489,1206 @@
         "note": "Retailer confirms 40.50 mm width, 11.8 mm thickness, 21 mm lugs, and 46.5 mm lug-to-lug, within 0.3 mm of manufacturer L2L."
       }
     ]
+  },
+  {
+    "id": 20,
+    "brand": "Breitling",
+    "model": "Navitimer B01 Chronograph 43",
+    "reference": "AB0121211",
+    "lugToLugMm": 49,
+    "diameterMm": 43,
+    "thicknessMm": 14,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the AB0121211 at 43 mm case size and 49 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "brand": "Breitling",
+    "model": "Chronomat B01 Chronograph 42",
+    "reference": "AB01343A1L1A1",
+    "lugToLugMm": 48.5,
+    "diameterMm": 42,
+    "thicknessMm": 15.1,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the AB01343A1L1A1 at 42 mm case size and 48.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "brand": "IWC",
+    "model": "Portugieser Chronograph",
+    "reference": "IW371604",
+    "lugToLugMm": 48,
+    "diameterMm": 41,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the IW371604 at 41 mm case size and 48 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "brand": "IWC",
+    "model": "Portofino Automatic",
+    "reference": "IW356501",
+    "lugToLugMm": 45,
+    "diameterMm": 40,
+    "thicknessMm": 9.2,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the IW356501 at 40 mm case size and 45 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "brand": "IWC",
+    "model": "Pilot's Watch Spitfire",
+    "reference": "IW326803",
+    "lugToLugMm": 50,
+    "diameterMm": 39,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the IW326803 at 39 mm case size and 50 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "brand": "Longines",
+    "model": "Master Collection Moonphase Chronograph",
+    "reference": "L26734783",
+    "lugToLugMm": 46.6,
+    "diameterMm": 40,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the L26734783 at 40 mm case size and 46.6 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "brand": "Longines",
+    "model": "Master Collection Moonphase Chronograph",
+    "reference": "L27734783",
+    "lugToLugMm": 49,
+    "diameterMm": 42,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the L27734783 at 42 mm case size and 49 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "brand": "Longines",
+    "model": "Master Collection Moonphase",
+    "reference": "L29094783",
+    "lugToLugMm": 46.6,
+    "diameterMm": 40,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the L29094783 at 40 mm case size and 46.6 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "brand": "Longines",
+    "model": "Master Collection Moonphase",
+    "reference": "L29194783",
+    "lugToLugMm": 48.5,
+    "diameterMm": 42,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the L29194783 at 42 mm case size and 48.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "brand": "Longines",
+    "model": "HydroConquest Ceramic",
+    "reference": "L37814966",
+    "lugToLugMm": 50.5,
+    "diameterMm": 41,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 21,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the L37814966 at 41 mm case size and 50.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "brand": "Omega",
+    "model": "Seamaster 300",
+    "reference": "233.30.41.21.01.001",
+    "lugToLugMm": 48,
+    "diameterMm": 41,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the 233.30.41.21.01.001 at 41 mm case size and 48 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "brand": "Omega",
+    "model": "Seamaster Diver 300M",
+    "reference": "210.30.42.20.01.001",
+    "lugToLugMm": 50,
+    "diameterMm": 42,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the 210.30.42.20.01.001 at 42 mm case size and 50 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "brand": "Omega",
+    "model": "Seamaster Aqua Terra 150M",
+    "reference": "220.10.41.21.03.004",
+    "lugToLugMm": 47.7,
+    "diameterMm": 41,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the 220.10.41.21.03.004 at 41 mm case size and 47.7 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "brand": "Omega",
+    "model": "Speedmaster Professional Moonwatch",
+    "reference": "311.30.42.30.01.006",
+    "lugToLugMm": 49,
+    "diameterMm": 42,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the 311.30.42.30.01.006 at 42 mm case size and 49 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "brand": "Rolex",
+    "model": "Datejust 41",
+    "reference": "126334",
+    "lugToLugMm": 47.6,
+    "diameterMm": 41,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 21,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the 126334 at 41 mm case size and 47.6 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "brand": "Rolex",
+    "model": "GMT-Master II",
+    "reference": "126710BLRO",
+    "lugToLugMm": 48.1,
+    "diameterMm": 40,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the 126710BLRO at 40 mm case size and 48.1 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "brand": "Seiko",
+    "model": "Premier Kinetic Perpetual",
+    "reference": "SNP159J1",
+    "lugToLugMm": 49,
+    "diameterMm": 43,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the SNP159J1 at 43 mm case size and 49 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "brand": "Citizen",
+    "model": "AT8130-56L",
+    "reference": "AT8130-56L",
+    "lugToLugMm": 47,
+    "diameterMm": 42.8,
+    "thicknessMm": 10.3,
+    "lugWidthMm": 21,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists AT8130-56L at 43 mm case size and 47 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.citizen.com.hk/html/en/products/eco-drive/radio-controlled/at8130-56l.html",
+        "note": "Official Citizen page lists the AT8130-56L with 42.8 mm case size and 10.3 mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "brand": "Citizen",
+    "model": "AT8154-82L",
+    "reference": "AT8154-82L",
+    "lugToLugMm": 50,
+    "diameterMm": 42.2,
+    "thicknessMm": 10.2,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists AT8154-82L at 43 mm case size and 50 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.citizen.co.th/html/en/products/eco-drive/radio-controlled/at8154-82l.html",
+        "note": "Official Citizen page lists the AT8154-82L with 42.2 mm case size and 10.2 mm thickness."
+      },
+      {
+        "sourceUrl": "https://www.watchcharts.com/watch_model/23802-citizen-eco-drive-chronograph-at8154-82l/overview",
+        "note": "WatchCharts lists the AT8154-82L with 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "brand": "Hamilton",
+    "model": "Jazzmaster Open Heart 40mm",
+    "reference": "H32565555",
+    "lugToLugMm": 50,
+    "diameterMm": 40,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Jazzmaster Open Heart 40 mm at 50 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watchbase.com/hamilton/jazzmaster/h32565555",
+        "note": "WatchBase lists the H32565555 with a 40 mm case and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "brand": "Hamilton",
+    "model": "Jazzmaster Open Heart",
+    "reference": "H32705141",
+    "lugToLugMm": 50,
+    "diameterMm": 42,
+    "thicknessMm": 11.44,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists H32705141 at 42 mm case size and 50 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.hamiltonwatch.com/en-us/h32705141-jazzmaster-open-heart-auto.html",
+        "note": "Official Hamilton page lists H32705141 as a 42 mm Jazzmaster Open Heart with 11.44 mm thickness and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "brand": "Hamilton",
+    "model": "Jazzmaster Open Heart Lady Auto",
+    "reference": "H32115191",
+    "lugToLugMm": 40,
+    "diameterMm": 34,
+    "thicknessMm": 10.64,
+    "lugWidthMm": 16,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Jazzmaster Open Heart Lady at 34 mm case size and 40 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.hamiltonwatch.com/en-sg/h32115191-jazzmaster-open-heart-auto.html",
+        "note": "Official Hamilton page lists H32115191 as a 34 mm Jazzmaster Open Heart with 10.64 mm thickness and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "brand": "Hamilton",
+    "model": "Khaki Field Auto 42 mm",
+    "reference": "H70605733",
+    "lugToLugMm": 42,
+    "diameterMm": 42,
+    "thicknessMm": 11,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Khaki Field Automatic 42 mm at 52 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.hamiltonwatch.com/en-us/h70605733-khaki-field-auto.html",
+        "note": "Official Hamilton page lists H70605733 as a 42 mm Khaki Field Auto with 11 mm thickness and 22 mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.watchnation.com/products/hamilton-khaki-field-black-dial-leather-strap-unisex-watch-h70605733",
+        "note": "Retailer measurement puts the H70605733 lug-to-lug at approximately 42 mm."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "brand": "Tissot",
+    "model": "Classic Dream 40mm",
+    "reference": "T158.407.36.031.00",
+    "lugToLugMm": 46.8,
+    "diameterMm": 40,
+    "thicknessMm": 10.23,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.tissotwatches.com/en-us/T1584073603100.html",
+        "note": "Official Tissot page lists T158.407.36.031.00 as a 40 mm Classic Dream with 10.23 mm thickness and 20 mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.zegarki.zgora.pl/zegarek/62154_Tissot_Classic_Dream_Powermatic_80_Rose_Gold_PVD_Brown_Leather_Strap_T1584073603100",
+        "note": "Retailer lists the Classic Dream 40 mm lug-to-lug at 46.8 mm."
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "brand": "Tissot",
+    "model": "Le Locle 39.3mm",
+    "reference": "T006.407.11.043.00",
+    "lugToLugMm": 47.7,
+    "diameterMm": 39.3,
+    "thicknessMm": 9.75,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.tissotwatches.com/en-us/T0064071104300.html",
+        "note": "Official Tissot page lists T006.407.11.043.00 as a 39.3 mm Le Locle with 9.75 mm thickness and 19 mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.zegarki.zgora.pl/zegarek/44718_Tissot_Le_Locle_Powermatic_80_Blue_Dial_T0064071104300",
+        "note": "Retailer lists the Le Locle lug-to-lug at 47.7 mm."
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "brand": "Tissot",
+    "model": "Tradition Open Heart 40mm",
+    "reference": "T063.907.36.068.00",
+    "lugToLugMm": 47,
+    "diameterMm": 40,
+    "thicknessMm": 9.4,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.tissotwatches.com/en-au/T0639073606800.html",
+        "note": "Official Tissot page lists T063.907.36.068.00 as a 40 mm Tradition Open Heart with 9.4 mm thickness and 20 mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.zegarki.zgora.pl/zegarek/19883_Tissot_Tradition_Powermatic_80_Open-Heart_PVD_T0639073606800",
+        "note": "Retailer lists the Tradition Open Heart lug-to-lug at 47 mm."
+      }
+    ]
+  }
+  ,
+  {
+    "id": 46,
+    "brand": "A. Lange & Söhne",
+    "model": "Lange 1",
+    "reference": "191.032",
+    "lugToLugMm": 45,
+    "diameterMm": 38.5,
+    "thicknessMm": 10,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the 191.032 at 38.5 mm case size and 46.8 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watchbase.com/a-lange-sohne/lange-1/191-032",
+        "note": "WatchBase lists the 191.032 with a 38.5 mm case, 10 mm height, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "brand": "A. Lange & Söhne",
+    "model": "Zeitwerk",
+    "reference": "140.029",
+    "lugToLugMm": 50,
+    "diameterMm": 41.9,
+    "thicknessMm": 12.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the 140.029 at 41.9 mm case size and 50 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watchbase.com/a-lange-sohne/zeitwerk/140-029",
+        "note": "WatchBase lists the 140.029 with a 41.9 mm case, 12.6 mm height, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "brand": "A. Lange & Söhne",
+    "model": "Odysseus",
+    "reference": "363.179",
+    "lugToLugMm": 47.1,
+    "diameterMm": 40.5,
+    "thicknessMm": 11.1,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the 363.179 at 40.5 mm case size and 49 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watchbase.com/a-lange-sohne/odysseus/363-179",
+        "note": "WatchBase lists the 363.179 with a 40.5 mm case, 11.1 mm height, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "brand": "Citizen",
+    "model": "Moon Phase & Moon-Inspired",
+    "reference": "BY1035-56L",
+    "lugToLugMm": 50,
+    "diameterMm": 42,
+    "thicknessMm": 10.7,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Citizen moon phase entry at 42 mm case size and 50 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.citizen.com.hk/html/en/products/eco-drive/radio-controlled/by1035-56l.html",
+        "note": "Citizen HK lists the BY1035-56L with a 42 mm case, 10.7 mm thickness, moon phase, and radio-controlled Eco-Drive."
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "brand": "Hamilton",
+    "model": "Jazzmaster Viewmatic Auto",
+    "reference": "H32515555",
+    "lugToLugMm": 45,
+    "diameterMm": 40,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Viewmatic Auto 40 mm at 50 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.hamiltonwatch.com/en-us/h32515555-jazzmaster-day-date-auto.html",
+        "note": "Hamilton lists H32515555 as a 40 mm Jazzmaster Viewmatic Auto with 10.8 mm thickness and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "brand": "Hamilton",
+    "model": "American Classic RailRoad Skeleton Auto",
+    "reference": "H40655751",
+    "lugToLugMm": 50,
+    "diameterMm": 42,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Railroad Skeleton 42 mm at 50 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.hamiltonwatch.com/en-us/h40655751-american-classic-railroad-skeleton-auto.html",
+        "note": "Hamilton lists H40655751 as a 42 mm American Classic RailRoad Skeleton Auto with 11.5 mm thickness and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "brand": "Hamilton",
+    "model": "Jazzmaster Small Second Auto",
+    "reference": "H38655185",
+    "lugToLugMm": 50,
+    "diameterMm": 43,
+    "thicknessMm": 9.45,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Jazzmaster Small Second 43 mm at 50 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.hamiltonwatch.com/en-gr/h38655185-jazzmaster-small-second-auto.html",
+        "note": "Hamilton lists H38655185 as a 43 mm Jazzmaster Small Second Auto with 9.45 mm thickness and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "brand": "Hamilton",
+    "model": "Jazzmaster Seaview Chrono Quartz",
+    "reference": "H37512731",
+    "lugToLugMm": 55,
+    "diameterMm": 44,
+    "thicknessMm": 12.6,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Seaview 44 mm at 55 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.hamiltonwatch.com/en-us/h37512731-jazzmaster-seaview-chrono-quartz.html",
+        "note": "Hamilton lists H37512731 as a 44 mm Jazzmaster Seaview Chrono Quartz with 12.6 mm thickness and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "brand": "Hamilton",
+    "model": "Jazzmaster Thinline Auto",
+    "reference": "H38525881",
+    "lugToLugMm": 46,
+    "diameterMm": 40,
+    "thicknessMm": 8.45,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Thinline Automatic 40 mm at 46 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.hamiltonwatch.com/en-us/h38525881-jazzmaster-thinline-auto.html",
+        "note": "Hamilton lists H38525881 as a 40 mm Jazzmaster Thinline Auto with 8.45 mm thickness and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "brand": "Hamilton",
+    "model": "Jazzmaster Chrono Quartz",
+    "reference": "H32612155",
+    "lugToLugMm": 53,
+    "diameterMm": 42,
+    "thicknessMm": 12.13,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Chrono Quartz 42 mm at 53 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.hamiltonwatch.com/en-gb/h32612551-jazzmaster.html",
+        "note": "Hamilton lists the Jazzmaster Chrono Quartz family with a 42 mm case, 12.13 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "brand": "Hamilton",
+    "model": "Broadway Auto Chrono",
+    "reference": "H43516871",
+    "lugToLugMm": 53,
+    "diameterMm": 43,
+    "thicknessMm": 15,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Broadway Auto chrono 43 mm at 53 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.hamiltonwatch.com/media/hamilton_stories/HJ_00_BOOK_200x269mm_EN_Digital_LR.pdf",
+        "note": "Hamilton Stories lists Broadway Auto chrono Ø43mm with reference H43516871."
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "brand": "Panerai",
+    "model": "Luminor Marina",
+    "reference": "PAM01316",
+    "lugToLugMm": 54,
+    "diameterMm": 44,
+    "thicknessMm": 15.65,
+    "lugWidthMm": 24,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists PAM01316 at 44 mm case size and 54 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.panerai.com/us/en/collections/watch-collection/luminor/pam01316-luminor-marina--specchio-blu.html",
+        "note": "Panerai lists PAM01316 as a 44 mm Luminor Marina."
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "brand": "Panerai",
+    "model": "Luminor Marina",
+    "reference": "PAM01392",
+    "lugToLugMm": 41,
+    "diameterMm": 42,
+    "thicknessMm": 13.95,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists PAM01392 at 42 mm case size and 41 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.panerai.com/content/dam/pan-assets/016-presskit/pdf/42mm/PR_PANERAI_SUBMERSIBLE_42MM_PAM00683_PAM00959_ENG.pdf",
+        "note": "Panerai technical document confirms the 42 mm Submersible family case size; the blog gives the lug-to-lug value."
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "brand": "Panerai",
+    "model": "Radiomir Venti",
+    "reference": "PAM02020",
+    "lugToLugMm": 54,
+    "diameterMm": 45,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 27,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists PAM02020 at 45 mm case size and 54 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.panerai.com/it/it/world-of-panerai/news-and-events/radiomir-venti---45-mm.html",
+        "note": "Panerai identifies PAM02020 as the Radiomir Venti 45 mm special edition."
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "brand": "Panerai",
+    "model": "Submersible",
+    "reference": "PAM00683",
+    "lugToLugMm": 50,
+    "diameterMm": 42,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists PAM00683 at 42 mm case size and 50 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.panerai.com/content/dam/pan-assets/016-presskit/pdf/42mm/PR_PANERAI_SUBMERSIBLE_42MM_PAM00683_PAM00959_ENG.pdf",
+        "note": "Panerai technical document confirms PAM00683 as a 42 mm Submersible."
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "brand": "Mido",
+    "model": "Commander Big Date",
+    "reference": "M021.626.17.041.00",
+    "lugToLugMm": 45,
+    "diameterMm": 42,
+    "thicknessMm": 12,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Commander Big Date 42 mm at 45 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watchbase.com/mido/commander/m021-626-17-041-00",
+        "note": "WatchBase lists M021.626.17.041.00 as a 42 mm Commander Big Date with 12 mm height and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "brand": "Mido",
+    "model": "Commander Chronograph",
+    "reference": "M016.414.11.061.00",
+    "lugToLugMm": 47,
+    "diameterMm": 42.5,
+    "thicknessMm": 14,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Commander Chronograph 42.5 mm at 47 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watchbase.com/mido/commander/m016-414-11-061-00",
+        "note": "WatchBase lists M016.414.11.061.00 as a 42.5 mm Commander Chronograph."
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "brand": "Mido",
+    "model": "Ocean Star Tribute",
+    "reference": "M026.830.18.091.00",
+    "lugToLugMm": 47,
+    "diameterMm": 40.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 21,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Ocean Star Tribute 40.5 mm at 47 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watchbase.com/mido/ocean-star/m026-830-18-091-00",
+        "note": "WatchBase lists M026.830.18.091.00 as a 40.5 mm Ocean Star Tribute."
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "brand": "Mido",
+    "model": "Ocean Star 600 Chronometer",
+    "reference": "M026.608.37.051.00",
+    "lugToLugMm": 50,
+    "diameterMm": 43.5,
+    "thicknessMm": 14.05,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Ocean Star Diver 600 43.5 mm at 50 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watchbase.com/mido/ocean-star/m026-608-37-051-00",
+        "note": "WatchBase lists M026.608.37.051.00 as a 43.5 mm Ocean Star 600 Chronometer."
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "brand": "Mido",
+    "model": "Baroncelli Heritage Smiling Moon 39",
+    "reference": "M027.407.11.010.01",
+    "lugToLugMm": 44,
+    "diameterMm": 39,
+    "thicknessMm": 7.3,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Baroncelli Heritage 39 mm at 44 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watchbase.com/mido/baroncelli/m027-407-11-010-01",
+        "note": "WatchBase lists M027.407.11.010.01 as a 39 mm Baroncelli Heritage Smiling Moon."
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "brand": "Mido",
+    "model": "Belluna Royal Lady",
+    "reference": "M024.307.33.036.00",
+    "lugToLugMm": 38,
+    "diameterMm": 33.4,
+    "thicknessMm": 9.8,
+    "lugWidthMm": 16,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Belluna Lady 33 mm at 38 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watchbase.com/mido/belluna/m024-307-33-036-00",
+        "note": "WatchBase lists M024.307.33.036.00 as a 33.4 mm Belluna Royal Lady."
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "brand": "Mido",
+    "model": "Multifort Chronograph",
+    "reference": "M005.614.16.031.00",
+    "lugToLugMm": 51,
+    "diameterMm": 44,
+    "thicknessMm": 14.5,
+    "lugWidthMm": 23,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Multifort Chronograph 44 mm at 51 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watchbase.com/mido/multifort/m005-614-16-031-00",
+        "note": "WatchBase lists M005.614.16.031.00 as a 44 mm Multifort Chronograph."
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "brand": "Mido",
+    "model": "Multifort Gent Escape Khaki",
+    "reference": "M032.607.36.090.00",
+    "lugToLugMm": 51,
+    "diameterMm": 44,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 23,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Multifort Escape 44 mm at 51 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watchbase.com/mido/multifort/m032-607-36-090-00",
+        "note": "WatchBase lists M032.607.36.090.00 as a 44 mm Multifort Gent Escape Khaki."
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "brand": "Tissot",
+    "model": "PRC 200 Chronograph",
+    "reference": "T114.417.11.037.00",
+    "lugToLugMm": 49,
+    "diameterMm": 43,
+    "thicknessMm": 12.02,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the PRC 200 quartz chronograph at 42 mm case size and 49 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.tissotwatches.com/en-in/T1144171103700.html",
+        "note": "Tissot lists the PRC 200 Chronograph with a 43 mm case, 12.02 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "brand": "Tissot",
+    "model": "Couturier Chronograph",
+    "reference": "T035.617.11.051.00",
+    "lugToLugMm": 48,
+    "diameterMm": 41,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 23,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Couturier quartz chronograph at 43 mm case size and 48 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.tissotwatches.com/en-gb/t0356171105100.html",
+        "note": "Tissot lists T035.617.11.051.00 as a 41 mm Couturier Chronograph."
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "brand": "Tissot",
+    "model": "PR 100 Chronograph",
+    "reference": "T101.417.11.051.00",
+    "lugToLugMm": 47,
+    "diameterMm": 41,
+    "thicknessMm": 10.71,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the PR100 quartz chronograph at 41 mm case size and 47 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.tissotwatches.com/en-hk/T1014171105100.html",
+        "note": "Tissot lists T101.417.11.051.00 as a 41 mm PR 100 Chronograph with 10.71 mm thickness and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "brand": "Tissot",
+    "model": "Chemin des Tourelles 42mm",
+    "reference": "T139.407.11.038.00",
+    "lugToLugMm": 50,
+    "diameterMm": 42,
+    "thicknessMm": 12.1,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists Chemin des Tourelles 42 mm at 50 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.tissotwatches.com/fr-fr/T1394072203800.html",
+        "note": "Tissot lists the Chemin des Tourelles 42 mm reference family with a 42 mm diameter."
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Chronograph",
+    "reference": "T120.417.17.051.03",
+    "lugToLugMm": 52,
+    "diameterMm": 45.5,
+    "thicknessMm": 12.82,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Seastar quartz chronograph at 45 mm case size and 52 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.tissotwatches.com/en-us/T1204171705103.html",
+        "note": "Tissot lists the Seastar 1000 Chronograph with a 45.5 mm case, 12.82 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "brand": "Tissot",
+    "model": "Classic Dream 28mm",
+    "reference": "T129.210.11.013.00",
+    "lugToLugMm": 37,
+    "diameterMm": 28,
+    "thicknessMm": 7,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Classic Dream 28 mm at 37 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.tissotwatches.com/en-us/t1292101101300.html",
+        "note": "Tissot lists T129.210.11.013.00 as a 28 mm Classic Dream."
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "brand": "Tissot",
+    "model": "Lovely Round 19.5mm",
+    "reference": "T058.009.11.031.00",
+    "lugToLugMm": 25,
+    "diameterMm": 19.5,
+    "thicknessMm": 5,
+    "lugWidthMm": 6,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Lovely at 19.5 mm case size and 25 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.tissotwatches.com/en-en/T0580091103100.html",
+        "note": "Tissot lists T058.009.11.031.00 as a 19.5 mm Lovely Round."
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "brand": "TAG Heuer",
+    "model": "Carrera",
+    "reference": "CBS2210.FC6534",
+    "lugToLugMm": 47,
+    "diameterMm": 39,
+    "thicknessMm": 13.86,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Carrera non-chrono 39 mm at 47 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.tagheuer.com/es/es/relojes/colecciones/tag-heuer-carrera/39-mm-th20-00/CBS2210.FC6534.html",
+        "note": "TAG Heuer lists CBS2210.FC6534 as a 39 mm Carrera Chronograph."
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "brand": "TAG Heuer",
+    "model": "Carrera",
+    "reference": "CV2A1AB.FC6379",
+    "lugToLugMm": 53,
+    "diameterMm": 43,
+    "thicknessMm": 16.21,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Carrera chrono 43 mm at 53 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.tagheuer.com/pl/en/timepieces/collections/tag-heuer-carrera/43-mm-calibre-16-automatic/CV2A1AB.FC6379.html",
+        "note": "TAG Heuer lists CV2A1AB.FC6379 as a 43 mm Carrera chronograph."
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "brand": "TAG Heuer",
+    "model": "Aquaracer",
+    "reference": "WBP201B.BA0632",
+    "lugToLugMm": 50,
+    "diameterMm": 43,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 21.5,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Aquaracer 43 mm at 49 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-aquaracer/43-mm-calibre-5-automatic/WBP201B.BA0632.html",
+        "note": "TAG Heuer lists WBP201B.BA0632 as a 43 mm Aquaracer Professional 300 Date."
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "brand": "TAG Heuer",
+    "model": "Formula 1 Chronograph",
+    "reference": "CAZ101AN.BA0842",
+    "lugToLugMm": 48,
+    "diameterMm": 43,
+    "thicknessMm": 12.4,
+    "lugWidthMm": 21.5,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
+        "note": "User-authored blog post lists the Formula 1 quartz chronograph 43 mm at 48 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-formula-1/43-mm-quartz/CAZ101AN.BA0842.html",
+        "note": "TAG Heuer lists CAZ101AN.BA0842 as a 43 mm Formula 1 Chronograph Quartz."
+      }
+    ]
   }
 ]
