@@ -17,7 +17,9 @@ const status = allowedStatuses.has(requestedStatus) ? requestedStatus : "pending
 const submissions = await listSubmissions(db, status as SubmissionStatus | "all");
 const approved = Astro.url.searchParams.get("approved") === "1";
 const rejected = Astro.url.searchParams.get("rejected") === "1";
+const unapproved = Astro.url.searchParams.get("unapproved") === "1";
 const reviewed = Astro.url.searchParams.get("error") === "reviewed";
+const notApproved = Astro.url.searchParams.get("error") === "not-approved";
 ---
 
 <BaseLayout title="Admin submissions | Lug to Lug Finder" description="Review private watch submissions.">
@@ -32,17 +34,19 @@ const reviewed = Astro.url.searchParams.get("error") === "reviewed";
       </form>
     </div>
 
-    {(approved || rejected || reviewed) && (
-      <p class={reviewed ? "error" : "notice"} style="margin-top: 18px;">
+    {(approved || rejected || unapproved || reviewed || notApproved) && (
+      <p class={(reviewed || notApproved) ? "error" : "notice"} style="margin-top: 18px;">
         {approved && "Submission approved and published."}
         {rejected && "Submission rejected."}
+        {unapproved && "Submission returned to pending and unpublished."}
         {reviewed && "That submission has already been reviewed."}
+        {notApproved && "Only approved submissions can be edited or returned to pending."}
       </p>
     )}
 
     <nav class="admin-tabs" aria-label="Submission status">
       <a class={status === "pending" ? "active" : ""} href="/admin/submissions">Pending</a>
-      <a class={status === "approved" ? "active" : ""} href="/admin/submissions?status=approved">Approved</a>
+      <a class={status === "approved" ? "active" : ""} href="/admin/submissions?status=approved">Published</a>
       <a class={status === "rejected" ? "active" : ""} href="/admin/submissions?status=rejected">Rejected</a>
       <a class={status === "all" ? "active" : ""} href="/admin/submissions?status=all">All</a>
     </nav>
@@ -71,7 +75,7 @@ const reviewed = Astro.url.searchParams.get("error") === "reviewed";
               </td>
               <td><a href={submission.payload.sourceUrl} target="_blank" rel="noreferrer">{submission.payload.sourceUrl}</a></td>
               <td>{new Date(submission.createdAt).toLocaleString("en-US")}</td>
-              <td><a class="button secondary" href={`/admin/submissions/${submission.id}`}>Review</a></td>
+              <td><a class="button secondary" href={`/admin/submissions/${submission.id}`}>{submission.status === "approved" ? "Manage" : "Review"}</a></td>
             </tr>
           ))}
           {submissions.length === 0 && (

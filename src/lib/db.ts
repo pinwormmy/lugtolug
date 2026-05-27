@@ -280,6 +280,58 @@ export async function approveSubmission(db: D1, id: number, payload: SubmissionP
   return watchId;
 }
 
+export async function updateApprovedSubmission(
+  db: D1,
+  id: number,
+  currentPayload: SubmissionPayload,
+  nextPayload: SubmissionPayload,
+  reviewerNote: string
+): Promise<number> {
+  if (!db) throw new Error("D1 database is required.");
+
+  const currentSlugs = getSubmissionWatchSlugs(currentPayload);
+  const nextSlugs = getSubmissionWatchSlugs(nextPayload);
+  const currentWatch = await findWatchId(db, currentSlugs);
+  let watchId: number;
+
+  if (currentWatch) {
+    await updateWatchFromSubmission(db, currentWatch.id, nextPayload, nextSlugs);
+    watchId = currentWatch.id;
+  } else {
+    watchId = await upsertApprovedWatch(db, nextPayload);
+  }
+
+  await insertApprovedSource(db, watchId, nextPayload.sourceUrl);
+  await db
+    .prepare(
+      `UPDATE submissions
+       SET payload_json = ?, status = 'approved', reviewer_note = ?, reviewed_at = CURRENT_TIMESTAMP
+       WHERE id = ?`
+    )
+    .bind(JSON.stringify(nextPayload), reviewerNote, id)
+    .run();
+
+  return watchId;
+}
+
+export async function returnSubmissionToPending(db: D1, id: number, payload: SubmissionPayload, reviewerNote: string): Promise<void> {
+  if (!db) throw new Error("D1 database is required.");
+
+  const slugs = getSubmissionWatchSlugs(payload);
+  const watch = await findWatchId(db, slugs);
+  if (watch) {
+    await db
+      .prepare("UPDATE watches SET status = 'draft', updated_at = CURRENT_TIMESTAMP WHERE id = ?")
+      .bind(watch.id)
+      .run();
+  }
+
+  await db
+    .prepare("UPDATE submissions SET status = 'pending', reviewer_note = ?, reviewed_at = NULL WHERE id = ?")
+    .bind(reviewerNote, id)
+    .run();
+}
+
 async function upsertApprovedWatch(db: D1Database, payload: SubmissionPayload): Promise<number> {
   const slugs = getSubmissionWatchSlugs(payload);
   const existing = await findWatchId(db, slugs);
@@ -316,7 +368,8 @@ async function updateWatchFromSubmission(
   await db
     .prepare(
       `UPDATE watches
-       SET brand = ?, model = ?, reference = ?, search_text = ?, lug_to_lug_mm = ?, case_mm = ?,
+       SET brand = ?, model = ?, reference = ?, brand_slug = ?, model_slug = ?, reference_slug = ?, search_text = ?,
+           lug_to_lug_mm = ?, case_mm = ?,
            thickness_mm = ?, lug_width_mm = ?, confidence = 'medium', status = 'approved', updated_at = CURRENT_TIMESTAMP
        WHERE id = ?`
     )
@@ -324,6 +377,9 @@ async function updateWatchFromSubmission(
       payload.brand,
       payload.model,
       payload.reference,
+      slugs.brandSlug,
+      slugs.modelSlug,
+      slugs.referenceSlug,
       slugs.searchText,
       payload.lugToLugMm,
       payload.caseMm,
@@ -365,8 +421,14 @@ async function insertWatchFromSubmission(
 
 async function insertApprovedSource(db: D1Database, watchId: number, sourceUrl: string): Promise<void> {
   await db
-    .prepare("INSERT INTO watch_sources (watch_id, source_url, note) VALUES (?, ?, ?)")
-    .bind(watchId, sourceUrl, "Approved user submission")
+    .prepare(
+      `INSERT INTO watch_sources (watch_id, source_url, note)
+       SELECT ?, ?, ?
+       WHERE NOT EXISTS (
+         SELECT 1 FROM watch_sources WHERE watch_id = ? AND source_url = ?
+       )`
+    )
+    .bind(watchId, sourceUrl, "Approved user submission", watchId, sourceUrl)
     .run();
 }
 

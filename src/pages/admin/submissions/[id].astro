@@ -16,12 +16,21 @@ if (!submission) {
 }
 const payload = submission.payload;
 const isPending = submission.status === "pending";
+const isApproved = submission.status === "approved";
+const updated = Astro.url.searchParams.get("updated") === "1";
+const validationError = Astro.url.searchParams.get("error") === "validation";
 ---
 
 <BaseLayout title="Review submission | Lug to Lug Finder" description="Review one private watch submission.">
   <section class="section" style="margin-top: 0;">
     <h1 class="page-title" style="font-size: clamp(2.4rem, 6vw, 4rem);">Review submission</h1>
     <p class="lede">{payload.brand} {payload.model} · {payload.reference} · {submission.status}</p>
+    {(updated || validationError) && (
+      <p class={validationError ? "error" : "notice"} style="margin-top: 18px;">
+        {updated && "Published submission updated."}
+        {validationError && "Check the submitted fields and try again."}
+      </p>
+    )}
     {!isPending && (
       <p class="notice" style="margin-top: 18px;">
         This submission was already {submission.status}
@@ -31,8 +40,12 @@ const isPending = submission.status === "pending";
   </section>
 
   <section class="section grid-2">
-    {isPending ? (
-      <form class="panel form-grid" action={`/api/admin/submissions/${submission.id}/approve`} method="post">
+    {(isPending || isApproved) ? (
+      <form
+        class="panel form-grid"
+        action={isPending ? `/api/admin/submissions/${submission.id}/approve` : `/api/admin/submissions/${submission.id}/update`}
+        method="post"
+      >
         <input type="hidden" name="csrfToken" value={session.csrfToken} />
         {REQUIRED_TEXT_INPUTS.map((field) => (
           <div class="form-field">
@@ -67,10 +80,10 @@ const isPending = submission.status === "pending";
         ))}
         <div class="form-field full">
           <label for="reviewerNote">Reviewer note</label>
-          <textarea class="textarea" id="reviewerNote" name="reviewerNote"></textarea>
+          <textarea class="textarea" id="reviewerNote" name="reviewerNote">{isApproved ? submission.reviewerNote ?? "" : ""}</textarea>
         </div>
         <div class="form-field full">
-          <button class="button accent" type="submit">Approve and publish</button>
+          <button class="button accent" type="submit">{isPending ? "Approve and publish" : "Save published changes"}</button>
         </div>
       </form>
     ) : (
@@ -92,6 +105,14 @@ const isPending = submission.status === "pending";
           <label for="rejectNote">Rejection note</label>
           <textarea class="textarea" id="rejectNote" name="reviewerNote"></textarea>
           <button class="button danger" type="submit" style="margin-top: 12px;">Reject</button>
+        </form>
+      )}
+      {isApproved && (
+        <form action={`/api/admin/submissions/${submission.id}/unapprove`} method="post">
+          <input type="hidden" name="csrfToken" value={session.csrfToken} />
+          <label for="unapproveNote">Return to pending note</label>
+          <textarea class="textarea" id="unapproveNote" name="reviewerNote">{submission.reviewerNote ?? ""}</textarea>
+          <button class="button danger" type="submit" style="margin-top: 12px;">Return to pending</button>
         </form>
       )}
     </div>

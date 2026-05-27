@@ -13,11 +13,13 @@ export type PendingSubmissionResult =
       response: Response;
     };
 
-export async function requirePendingSubmission(
+export type SubmissionReviewResult = PendingSubmissionResult;
+
+async function requireSubmission(
   db: D1Database | undefined,
   request: Request,
   idParam: string | undefined
-): Promise<PendingSubmissionResult> {
+): Promise<SubmissionReviewResult> {
   const session = await requireAdmin(db, request);
   await assertCsrf(session, request);
 
@@ -31,11 +33,37 @@ export async function requirePendingSubmission(
     return { ok: false, response: redirect("/admin/submissions?error=missing") };
   }
 
-  if (submission.status !== "pending") {
+  return { ok: true, submission };
+}
+
+export async function requirePendingSubmission(
+  db: D1Database | undefined,
+  request: Request,
+  idParam: string | undefined
+): Promise<PendingSubmissionResult> {
+  const result = await requireSubmission(db, request, idParam);
+  if (!result.ok) return result;
+
+  if (result.submission.status !== "pending") {
     return { ok: false, response: redirect("/admin/submissions?error=reviewed") };
   }
 
-  return { ok: true, submission };
+  return result;
+}
+
+export async function requireApprovedSubmission(
+  db: D1Database | undefined,
+  request: Request,
+  idParam: string | undefined
+): Promise<SubmissionReviewResult> {
+  const result = await requireSubmission(db, request, idParam);
+  if (!result.ok) return result;
+
+  if (result.submission.status !== "approved") {
+    return { ok: false, response: redirect("/admin/submissions?error=not-approved") };
+  }
+
+  return result;
 }
 
 export function readReviewerNote(form: FormData): string {

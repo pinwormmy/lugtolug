@@ -1,5 +1,7 @@
 ---
 import "@/styles/global.css";
+import { getAdminSession } from "@/lib/auth";
+import { getDb } from "@/lib/db";
 
 interface Props {
   title?: string;
@@ -11,6 +13,7 @@ const {
   description = "Search watch lug-to-lug, case, thickness, lug width, and wrist-fit guidance."
 } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://lugtolug.example").toString();
+const adminSession = await getAdminSession(getDb(Astro.locals), Astro.request);
 ---
 
 <!doctype html>
@@ -36,7 +39,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://lugtolug.ex
         <nav class="nav" aria-label="Main navigation">
           <a href="/watches">Watches</a>
           <a href="/submit">Submit data</a>
-          <a href="/admin/login">Admin</a>
+          {adminSession && <a href="/admin/submissions">Admin</a>}
         </nav>
       </header>
       <main class="main">
