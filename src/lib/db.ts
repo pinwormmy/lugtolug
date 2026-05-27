@@ -181,6 +181,15 @@ export async function listWatches(db: D1): Promise<WatchWithSources[]> {
   return hydrateSources(db, rows.results.map(mapWatch));
 }
 
+export async function listRecentWatches(db: D1, limit = 5): Promise<WatchWithSources[]> {
+  if (!db) return seedWatches.slice().sort((a, b) => b.id - a.id).slice(0, limit);
+  const rows = await db
+    .prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY created_at DESC, id DESC LIMIT ?")
+    .bind(limit)
+    .all<WatchRow>();
+  return hydrateSources(db, rows.results.map(mapWatch));
+}
+
 export async function getWatchBySlugs(
   db: D1,
   brandSlug: string,

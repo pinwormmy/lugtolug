@@ -2,10 +2,11 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import SearchApp from "@/components/SearchApp";
 import WatchRow from "@/components/WatchRow.astro";
-import { getDb, listWatches } from "@/lib/db";
+import { getDb, listRecentWatches, listWatches } from "@/lib/db";
 
-const watches = await listWatches(getDb(Astro.locals));
-const featured = watches.slice(0, 4);
+const db = getDb(Astro.locals);
+const watches = await listWatches(db);
+const recentWatches = await listRecentWatches(db, 5);
 ---
 
 <BaseLayout title="Lug to Lug Finder | Watch fit dimensions" description="Search watch lug-to-lug, case, thickness, lug width, and wrist fit guidance.">
@@ -22,7 +23,7 @@ const featured = watches.slice(0, 4);
   <section class="section">
     <h2>Recently added watches</h2>
     <div class="watch-list">
-      {featured.map((watch) => <WatchRow watch={watch} />)}
+      {recentWatches.map((watch) => <WatchRow watch={watch} />)}
     </div>
   </section>
 </BaseLayout>

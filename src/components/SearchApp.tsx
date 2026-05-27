@@ -13,7 +13,7 @@ export default function SearchApp({ watches }: Props) {
   const [isPending, startTransition] = useTransition();
   const normalized = normalizeSearch(query);
   const results = useMemo(() => {
-    if (!normalized) return watches.slice(0, 8);
+    if (!normalized) return [];
     return watches.filter((watch) => getWatchSearchText(watch).includes(normalized)).slice(0, 12);
   }, [normalized, watches]);
 
@@ -35,29 +35,31 @@ export default function SearchApp({ watches }: Props) {
           Search
         </button>
       </form>
-      <div className="results" aria-busy={isPending}>
-        {results.map((watch) => (
-          <a
-            className="watch-row"
-            key={watch.id}
-            href={getWatchHref(watch)}
-          >
-            <div className="watch-name">
-              <strong>
-                {watch.brand} {watch.model}
-              </strong>
-              <span>{watch.reference}</span>
-            </div>
-            {WATCH_METRICS.map((metric) => (
-              <div className="metric" key={metric.key}>
-                <span>{metric.rowLabel}</span>
-                <strong>{formatMm(watch[metric.key])}</strong>
+      {normalized && (
+        <div className="results" aria-busy={isPending}>
+          {results.map((watch) => (
+            <a
+              className="watch-row"
+              key={watch.id}
+              href={getWatchHref(watch)}
+            >
+              <div className="watch-name">
+                <strong>
+                  {watch.brand} {watch.model}
+                </strong>
+                <span>{watch.reference}</span>
               </div>
-            ))}
-          </a>
-        ))}
-        {results.length === 0 && <p className="small">No matching watches yet. Submit a source and the operator can review it.</p>}
-      </div>
+              {WATCH_METRICS.map((metric) => (
+                <div className="metric" key={metric.key}>
+                  <span>{metric.rowLabel}</span>
+                  <strong>{formatMm(watch[metric.key])}</strong>
+                </div>
+              ))}
+            </a>
+          ))}
+          {results.length === 0 && <p className="small">No matching watches yet. Submit a source and the operator can review it.</p>}
+        </div>
+      )}
     </div>
   );
 }
