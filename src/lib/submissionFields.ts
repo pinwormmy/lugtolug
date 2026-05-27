@@ -1,7 +1,7 @@
 import type { SubmissionPayload } from "@/types";
 
 export const REQUIRED_TEXT_FIELDS = ["brand", "model", "reference", "sourceUrl"] as const;
-export const REQUIRED_NUMBER_FIELDS = ["lugToLugMm", "diameterMm", "thicknessMm", "lugWidthMm"] as const;
+export const REQUIRED_NUMBER_FIELDS = ["lugToLugMm", "caseMm", "thicknessMm", "lugWidthMm"] as const;
 
 export type RequiredTextField = (typeof REQUIRED_TEXT_FIELDS)[number];
 export type RequiredNumberField = (typeof REQUIRED_NUMBER_FIELDS)[number];
@@ -17,7 +17,7 @@ export const TEXT_LIMITS = {
 
 export const NUMBER_LIMITS = {
   lugToLugMm: { min: 20, max: 80 },
-  diameterMm: { min: 20, max: 60 },
+  caseMm: { min: 20, max: 60 },
   thicknessMm: { min: 4, max: 25 },
   lugWidthMm: { min: 8, max: 30 }
 } as const satisfies Record<RequiredNumberField, { min: number; max: number }>;
@@ -66,9 +66,9 @@ export const REQUIRED_NUMBER_INPUTS = [
     ...NUMBER_LIMITS.lugToLugMm
   },
   {
-    name: "diameterMm",
-    label: "Case diameter mm",
-    ...NUMBER_LIMITS.diameterMm
+    name: "caseMm",
+    label: "Case mm",
+    ...NUMBER_LIMITS.caseMm
   },
   {
     name: "thicknessMm",

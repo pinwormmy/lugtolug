@@ -8,9 +8,9 @@ export const WATCH_METRICS = [
     detailLabel: "Lug-to-lug"
   },
   {
-    key: "diameterMm",
-    rowLabel: "Diameter",
-    detailLabel: "Case diameter"
+    key: "caseMm",
+    rowLabel: "Case",
+    detailLabel: "Case"
   },
   {
     key: "thicknessMm",
@@ -23,7 +23,7 @@ export const WATCH_METRICS = [
     detailLabel: "Lug width"
   }
 ] as const satisfies readonly {
-  key: keyof Pick<Watch, "lugToLugMm" | "diameterMm" | "thicknessMm" | "lugWidthMm">;
+  key: keyof Pick<Watch, "lugToLugMm" | "caseMm" | "thicknessMm" | "lugWidthMm">;
   rowLabel: string;
   detailLabel: string;
 }[];

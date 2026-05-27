@@ -14,7 +14,7 @@ interface WatchRow {
   model_slug: string;
   reference_slug: string;
   lug_to_lug_mm: number;
-  diameter_mm: number;
+  case_mm: number;
   thickness_mm: number;
   lug_width_mm: number;
   confidence: Watch["confidence"];
@@ -63,7 +63,7 @@ function mapWatch(row: WatchRow): Watch {
     modelSlug: row.model_slug,
     referenceSlug: row.reference_slug,
     lugToLugMm: row.lug_to_lug_mm,
-    diameterMm: row.diameter_mm,
+    caseMm: row.case_mm,
     thicknessMm: row.thickness_mm,
     lugWidthMm: row.lug_width_mm,
     confidence: row.confidence,
@@ -307,7 +307,7 @@ async function updateWatchFromSubmission(
   await db
     .prepare(
       `UPDATE watches
-       SET brand = ?, model = ?, reference = ?, search_text = ?, lug_to_lug_mm = ?, diameter_mm = ?,
+       SET brand = ?, model = ?, reference = ?, search_text = ?, lug_to_lug_mm = ?, case_mm = ?,
            thickness_mm = ?, lug_width_mm = ?, confidence = 'medium', status = 'approved', updated_at = CURRENT_TIMESTAMP
        WHERE id = ?`
     )
@@ -317,7 +317,7 @@ async function updateWatchFromSubmission(
       payload.reference,
       slugs.searchText,
       payload.lugToLugMm,
-      payload.diameterMm,
+      payload.caseMm,
       payload.thicknessMm,
       payload.lugWidthMm,
       watchId
@@ -334,7 +334,7 @@ async function insertWatchFromSubmission(
     .prepare(
       `INSERT INTO watches
        (brand, model, reference, brand_slug, model_slug, reference_slug, search_text,
-        lug_to_lug_mm, diameter_mm, thickness_mm, lug_width_mm, confidence, status)
+        lug_to_lug_mm, case_mm, thickness_mm, lug_width_mm, confidence, status)
        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'medium', 'approved')`
     )
     .bind(
@@ -346,7 +346,7 @@ async function insertWatchFromSubmission(
       slugs.referenceSlug,
       slugs.searchText,
       payload.lugToLugMm,
-      payload.diameterMm,
+      payload.caseMm,
       payload.thicknessMm,
       payload.lugWidthMm
     )

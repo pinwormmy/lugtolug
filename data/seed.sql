@@ -1,5 +1,5 @@
 INSERT OR IGNORE INTO watches
-(id, brand, model, reference, brand_slug, model_slug, reference_slug, search_text, lug_to_lug_mm, diameter_mm, thickness_mm, lug_width_mm, confidence, status)
+(id, brand, model, reference, brand_slug, model_slug, reference_slug, search_text, lug_to_lug_mm, case_mm, thickness_mm, lug_width_mm, confidence, status)
 VALUES
 (1, 'Rolex', 'Submariner Date', '126610LN', 'rolex', 'submariner-date', '126610ln', 'rolex submariner date 126610ln', 47.6, 41, 12.5, 21, 'medium', 'approved'),
 (2, 'Omega', 'Speedmaster Professional Moonwatch', '310.30.42.50.01.002', 'omega', 'speedmaster-professional-moonwatch', '310-30-42-50-01-002', 'omega speedmaster professional moonwatch 310 30 42 50 01 002', 47.5, 42, 13.18, 20, 'high', 'approved'),

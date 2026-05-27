@@ -10,7 +10,7 @@ export interface Watch {
   modelSlug: string;
   referenceSlug: string;
   lugToLugMm: number;
-  diameterMm: number;
+  caseMm: number;
   thicknessMm: number;
   lugWidthMm: number;
   confidence: "low" | "medium" | "high";
@@ -34,7 +34,7 @@ export interface SubmissionPayload {
   model: string;
   reference: string;
   lugToLugMm: number;
-  diameterMm: number;
+  caseMm: number;
   thicknessMm: number;
   lugWidthMm: number;
   sourceUrl: string;

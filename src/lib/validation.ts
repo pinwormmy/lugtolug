@@ -70,7 +70,7 @@ export function parseSubmission(input: FormData | Record<string, unknown>): Vali
           reference: String(payload.reference),
           sourceUrl,
           lugToLugMm: Number(payload.lugToLugMm),
-          diameterMm: Number(payload.diameterMm),
+          caseMm: Number(payload.caseMm),
           thicknessMm: Number(payload.thicknessMm),
           lugWidthMm: Number(payload.lugWidthMm),
           contactEmail: contactEmail || undefined,

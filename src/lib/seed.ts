@@ -12,7 +12,7 @@ export const seedWatches: WatchWithSources[] = seed.map((watch) => ({
   modelSlug: slugify(watch.model),
   referenceSlug: slugify(watch.reference),
   lugToLugMm: watch.lugToLugMm,
-  diameterMm: watch.diameterMm,
+  caseMm: watch.caseMm,
   thicknessMm: watch.thicknessMm,
   lugWidthMm: watch.lugWidthMm,
   confidence: watch.confidence as WatchWithSources["confidence"],

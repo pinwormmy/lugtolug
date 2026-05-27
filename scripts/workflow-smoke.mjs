@@ -138,7 +138,7 @@ function uniquePayload(kind) {
     model: `Model ${kind}`,
     reference: `REF-${suffix}`,
     lugToLugMm: kind === "approve" ? 41 : 38,
-    diameterMm: kind === "approve" ? 39 : 36,
+    caseMm: kind === "approve" ? 39 : 36,
     thicknessMm: kind === "approve" ? 10.2 : 9.4,
     lugWidthMm: kind === "approve" ? 20 : 18,
     sourceUrl: `https://example.com/smoke/${kind}/${suffix}`,
@@ -194,7 +194,7 @@ async function approveSubmission(id, payload, csrfToken, jar) {
         reference: payload.reference,
         sourceUrl: payload.sourceUrl,
         lugToLugMm: payload.lugToLugMm,
-        diameterMm: payload.diameterMm,
+        caseMm: payload.caseMm,
         thicknessMm: payload.thicknessMm,
         lugWidthMm: payload.lugWidthMm,
         reviewerNote: "Smoke approval"

@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS watches (
   reference_slug TEXT NOT NULL,
   search_text TEXT NOT NULL,
   lug_to_lug_mm REAL NOT NULL,
-  diameter_mm REAL NOT NULL,
+  case_mm REAL NOT NULL,
   thickness_mm REAL NOT NULL,
   lug_width_mm REAL NOT NULL,
   confidence TEXT NOT NULL DEFAULT 'medium',

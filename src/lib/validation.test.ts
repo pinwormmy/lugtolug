@@ -9,7 +9,7 @@ describe("submission validation", () => {
       reference: "124270",
       sourceUrl: "https://example.com/source",
       lugToLugMm: "43",
-      diameterMm: "36",
+      caseMm: "36",
       thicknessMm: "11.5",
       lugWidthMm: "19"
     });
@@ -25,7 +25,7 @@ describe("submission validation", () => {
       reference: "124270",
       sourceUrl: "not-a-url",
       lugToLugMm: "-1",
-      diameterMm: "36",
+      caseMm: "36",
       thicknessMm: "11.5",
       lugWidthMm: "19"
     });
@@ -42,7 +42,7 @@ describe("submission validation", () => {
       reference: "124270",
       sourceUrl: "https://example.com/source",
       lugToLugMm: "10",
-      diameterMm: "36",
+      caseMm: "36",
       thicknessMm: "11.5",
       lugWidthMm: "19"
     });
