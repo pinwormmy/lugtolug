@@ -128,7 +128,11 @@ export async function destroySession(db: D1Database | undefined, request: Reques
 
 export async function assertCsrf(session: AdminSession, request: Request): Promise<void> {
   const form = await request.clone().formData();
-  if (String(form.get("csrfToken") ?? "") !== session.csrfToken) {
+  assertCsrfToken(session, String(form.get("csrfToken") ?? ""));
+}
+
+export function assertCsrfToken(session: AdminSession, token: string): void {
+  if (token !== session.csrfToken) {
     throw new Response("Invalid CSRF token", { status: 403 });
   }
 }
