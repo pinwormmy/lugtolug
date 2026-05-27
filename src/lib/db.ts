@@ -216,6 +216,15 @@ export async function getWatchBySlugs(
   return watch;
 }
 
+export async function getWatchById(db: D1, id: number): Promise<WatchWithSources | null> {
+  if (!db) return seedWatches.find((watch) => watch.id === id) ?? null;
+
+  const row = await db.prepare("SELECT * FROM watches WHERE id = ?").bind(id).first<WatchRow>();
+  if (!row) return null;
+  const [watch] = await hydrateSources(db, [mapWatch(row)]);
+  return watch;
+}
+
 export async function listBrandWatches(db: D1, brandSlug: string): Promise<WatchWithSources[]> {
   if (!db) return seedWatches.filter((watch) => watch.brandSlug === brandSlug);
   const rows = await db
@@ -351,6 +360,19 @@ export async function returnSubmissionToPending(db: D1, id: number, payload: Sub
     .prepare("UPDATE submissions SET status = 'pending', reviewer_note = ?, reviewed_at = NULL WHERE id = ?")
     .bind(reviewerNote, id)
     .run();
+}
+
+export async function updateWatch(db: D1, id: number, payload: SubmissionPayload): Promise<void> {
+  if (!db) throw new Error("D1 database is required.");
+
+  await updateWatchFromSubmission(db, id, payload, getSubmissionWatchSlugs(payload));
+  await insertApprovedSource(db, id, payload.sourceUrl);
+}
+
+export async function unpublishWatch(db: D1, id: number): Promise<void> {
+  if (!db) throw new Error("D1 database is required.");
+
+  await db.prepare("UPDATE watches SET status = 'draft', updated_at = CURRENT_TIMESTAMP WHERE id = ?").bind(id).run();
 }
 
 async function upsertApprovedWatch(db: D1Database, payload: SubmissionPayload): Promise<number> {

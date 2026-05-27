@@ -18,6 +18,7 @@ const adminSession = await getAdminSession(db, Astro.request);
 const approvedSubmission = adminSession
   ? await getApprovedSubmissionBySlugs(db, watch.brandSlug, watch.modelSlug, watch.referenceSlug)
   : null;
+const manageHref = approvedSubmission ? `/admin/submissions/${approvedSubmission.id}` : `/admin/watches/${watch.id}`;
 const title = `${watch.brand} ${watch.model} ${watch.reference} dimensions | Lug to Lug Finder`;
 const description = `${watch.brand} ${watch.model} ${watch.reference}: ${watch.lugToLugMm} mm lug-to-lug, ${watch.caseMm} mm case, ${watch.thicknessMm} mm thickness, ${watch.lugWidthMm} mm lug width.`;
 const structuredData = {
@@ -42,9 +43,9 @@ const structuredData = {
     <p class="small"><a href={`/brands/${watch.brandSlug}`}>{watch.brand}</a></p>
     <h1 class="page-title">{watch.model}</h1>
     <p class="lede">{watch.reference}</p>
-    {approvedSubmission && (
+    {adminSession && (
       <p style="margin-top: 18px;">
-        <a class="button secondary" href={`/admin/submissions/${approvedSubmission.id}`}>Manage published data</a>
+        <a class="button secondary" href={manageHref}>Manage published data</a>
       </p>
     )}
   </section>
