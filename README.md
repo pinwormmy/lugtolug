@@ -38,13 +38,23 @@ The smoke script expects a running local preview server and a seeded D1 database
 
 ## Cloudflare deployment
 
+Live deployment naming:
+
+- Product/site name: `Lug to Lug Finder`
+- GitHub repository: `pinwormmy/lugtolug`
+- Cloudflare Pages project: `lugtolug`
+- Production domain: `lugtolug.pages.dev`
+- D1 database: `lugtolug-finder`
+
+The older `lugtolug-finder` Pages project is not the live Git-connected deployment.
+
 Target Pages settings:
 
 - Repository: `pinwormmy/lugtolug`
 - Production branch: `main`
 - Build command: `npm run build`
 - Output directory: `dist`
-- Project name: `lugtolug-finder`
+- Project name: `lugtolug`
 
 Cloudflare resources:
 
