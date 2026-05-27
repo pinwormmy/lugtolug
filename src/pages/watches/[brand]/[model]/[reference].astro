@@ -1,17 +1,23 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import FitCalculator from "@/components/FitCalculator";
-import { getDb, getWatchBySlugs } from "@/lib/db";
+import { getAdminSession } from "@/lib/auth";
+import { getApprovedSubmissionBySlugs, getDb, getWatchBySlugs } from "@/lib/db";
 import { mmToInches } from "@/lib/fit";
 import { formatMm, WATCH_METRICS } from "@/lib/watch";
 
 const { brand, model, reference } = Astro.params;
-const watch = await getWatchBySlugs(getDb(Astro.locals), brand!, model!, reference!);
+const db = getDb(Astro.locals);
+const watch = await getWatchBySlugs(db, brand!, model!, reference!);
 
 if (!watch) {
   return Astro.redirect("/watches", 302);
 }
 
+const adminSession = await getAdminSession(db, Astro.request);
+const approvedSubmission = adminSession
+  ? await getApprovedSubmissionBySlugs(db, watch.brandSlug, watch.modelSlug, watch.referenceSlug)
+  : null;
 const title = `${watch.brand} ${watch.model} ${watch.reference} dimensions | Lug to Lug Finder`;
 const description = `${watch.brand} ${watch.model} ${watch.reference}: ${watch.lugToLugMm} mm lug-to-lug, ${watch.caseMm} mm case, ${watch.thicknessMm} mm thickness, ${watch.lugWidthMm} mm lug width.`;
 const structuredData = {
@@ -36,6 +42,11 @@ const structuredData = {
     <p class="small"><a href={`/brands/${watch.brandSlug}`}>{watch.brand}</a></p>
     <h1 class="page-title">{watch.model}</h1>
     <p class="lede">{watch.reference}</p>
+    {approvedSubmission && (
+      <p style="margin-top: 18px;">
+        <a class="button secondary" href={`/admin/submissions/${approvedSubmission.id}`}>Manage published data</a>
+      </p>
+    )}
   </section>
 
   <section class="section spec-grid">

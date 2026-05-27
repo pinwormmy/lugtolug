@@ -270,6 +270,27 @@ export async function getSubmission(db: D1, id: number): Promise<Submission | nu
   return row ? mapSubmission(row) : null;
 }
 
+export async function getApprovedSubmissionBySlugs(
+  db: D1,
+  brandSlug: string,
+  modelSlug: string,
+  referenceSlug: string
+): Promise<Submission | null> {
+  if (!db) return null;
+
+  const rows = await db
+    .prepare("SELECT * FROM submissions WHERE status = 'approved' ORDER BY reviewed_at DESC, id DESC")
+    .all<SubmissionRow>();
+  return (
+    rows.results
+      .map(mapSubmission)
+      .find((submission) => {
+        const slugs = getSubmissionWatchSlugs(submission.payload);
+        return slugs.brandSlug === brandSlug && slugs.modelSlug === modelSlug && slugs.referenceSlug === referenceSlug;
+      }) ?? null
+  );
+}
+
 export async function approveSubmission(db: D1, id: number, payload: SubmissionPayload, reviewerNote: string): Promise<number> {
   if (!db) throw new Error("D1 database is required.");
   const watchId = await upsertApprovedWatch(db, payload);
