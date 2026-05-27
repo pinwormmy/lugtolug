@@ -20,7 +20,7 @@ const recentWatches = await listRecentWatches(db, 5);
     <SearchApp client:load watches={watches} />
   </section>
 
-  <section class="section">
+  <section class="section" data-recent-watches>
     <h2>Recently added watches</h2>
     <div class="watch-list">
       {recentWatches.map((watch) => <WatchRow watch={watch} />)}

@@ -1,5 +1,5 @@
 import { Search } from "lucide-react";
-import { useMemo, useState, useTransition } from "react";
+import { useEffect, useMemo, useState, useTransition } from "react";
 import type { WatchWithSources } from "@/types";
 import { normalizeSearch } from "@/lib/slug";
 import { formatMm, getWatchHref, getWatchSearchText, WATCH_METRICS } from "@/lib/watch";
@@ -16,6 +16,17 @@ export default function SearchApp({ watches }: Props) {
     if (!normalized) return [];
     return watches.filter((watch) => getWatchSearchText(watch).includes(normalized)).slice(0, 12);
   }, [normalized, watches]);
+
+  useEffect(() => {
+    const recentSection = document.querySelector<HTMLElement>("[data-recent-watches]");
+    if (!recentSection) return;
+
+    recentSection.hidden = Boolean(normalized);
+
+    return () => {
+      recentSection.hidden = false;
+    };
+  }, [normalized]);
 
   return (
     <div className="tool-panel search-panel">
