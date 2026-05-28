@@ -18,9 +18,7 @@ export default function SubmissionForm() {
     });
     const data = (await response.json()) as { message?: string; errors?: Record<string, string> };
     if (response.ok) {
-      form.reset();
-      setMessage(data.message ?? "Submission received.");
-      setState("success");
+      window.location.href = "/";
     } else {
       setMessage(data.message ?? Object.values(data.errors ?? {})[0] ?? "Submission failed.");
       setState("error");

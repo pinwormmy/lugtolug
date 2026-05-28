@@ -19,5 +19,5 @@ export const POST: APIRoute = async ({ locals, params, request }) => {
   if (!parsed.ok || !parsed.payload) return redirect(`/admin/watches/${id}?error=validation`);
 
   await updateWatch(db, id, parsed.payload);
-  return redirect(`/admin/watches/${id}?updated=1`);
+  return redirect("/");
 };

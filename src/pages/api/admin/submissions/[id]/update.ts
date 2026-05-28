@@ -22,5 +22,5 @@ export const POST: APIRoute = async ({ locals, params, request }) => {
   if (!parsed.ok || !parsed.payload) return redirect(`/admin/submissions/${submission.id}?error=validation`);
 
   await updateApprovedSubmission(db, submission.id, submission.payload, parsed.payload, readReviewerNote(form));
-  return redirect(`/admin/submissions/${submission.id}?updated=1`);
+  return redirect("/");
 };
