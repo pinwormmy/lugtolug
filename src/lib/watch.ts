@@ -38,6 +38,16 @@ export function getWatchSearchText(watch: Pick<Watch, "brand" | "model" | "refer
   return normalizeSearch(`${watch.brand} ${watch.model} ${watch.reference}`);
 }
 
-export function formatMm(value: number): string {
+export function formatMm(value: number | null): string {
+  if (value === null) return "Not provided";
   return `${value} mm`;
+}
+
+export function isHttpUrl(value: string): boolean {
+  try {
+    const url = new URL(value);
+    return ["http:", "https:"].includes(url.protocol);
+  } catch {
+    return false;
+  }
 }

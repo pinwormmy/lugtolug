@@ -2,7 +2,7 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getAdminSession } from "@/lib/auth";
 import { getDb, listSubmissions } from "@/lib/db";
-import { formatMm, WATCH_METRICS } from "@/lib/watch";
+import { formatMm, isHttpUrl, WATCH_METRICS } from "@/lib/watch";
 import type { SubmissionStatus } from "@/types";
 
 const db = getDb(Astro.locals);
@@ -68,12 +68,16 @@ const notApproved = Astro.url.searchParams.get("error") === "not-approved";
           {submissions.map((submission) => (
             <tr>
               <td>{submission.status}</td>
-              <td>{submission.payload.brand} {submission.payload.model}</td>
-              <td>{submission.payload.reference}</td>
+              <td>{[submission.payload.brand, submission.payload.model].filter(Boolean).join(" ")}</td>
+              <td>{submission.payload.reference || "Not provided"}</td>
               <td>
                 {WATCH_METRICS.map((metric) => `${metric.rowLabel} ${formatMm(submission.payload[metric.key])}`).join(" / ")}
               </td>
-              <td><a href={submission.payload.sourceUrl} target="_blank" rel="noreferrer">{submission.payload.sourceUrl}</a></td>
+              <td>
+                {isHttpUrl(submission.payload.sourceUrl) ? (
+                  <a href={submission.payload.sourceUrl} target="_blank" rel="noreferrer">{submission.payload.sourceUrl}</a>
+                ) : submission.payload.sourceUrl || "Not provided"}
+              </td>
               <td>{new Date(submission.createdAt).toLocaleString("en-US")}</td>
               <td><a class="button secondary" href={`/admin/submissions/${submission.id}`}>{submission.status === "approved" ? "Manage" : "Review"}</a></td>
             </tr>

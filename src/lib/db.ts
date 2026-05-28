@@ -14,9 +14,9 @@ interface WatchRow {
   model_slug: string;
   reference_slug: string;
   lug_to_lug_mm: number;
-  case_mm: number;
-  thickness_mm: number;
-  lug_width_mm: number;
+  case_mm: number | null;
+  thickness_mm: number | null;
+  lug_width_mm: number | null;
   confidence: Watch["confidence"];
   status: Watch["status"];
   updated_at: string;
@@ -388,9 +388,9 @@ async function upsertApprovedWatch(db: D1Database, payload: SubmissionPayload): 
 }
 
 function getSubmissionWatchSlugs(payload: SubmissionPayload): SubmissionWatchSlugs {
-  const brandSlug = slugify(payload.brand);
-  const modelSlug = slugify(payload.model);
-  const referenceSlug = slugify(payload.reference);
+  const brandSlug = slugify(payload.brand) || "unknown-brand";
+  const modelSlug = slugify(payload.model) || "watch";
+  const referenceSlug = slugify(payload.reference) || "no-reference";
   const searchText = getWatchSearchText(payload);
   return { brandSlug, modelSlug, referenceSlug, searchText };
 }
@@ -463,6 +463,8 @@ async function insertWatchFromSubmission(
 }
 
 async function insertApprovedSource(db: D1Database, watchId: number, sourceUrl: string): Promise<void> {
+  if (!sourceUrl) return;
+
   await db
     .prepare(
       `INSERT INTO watch_sources (watch_id, source_url, note)

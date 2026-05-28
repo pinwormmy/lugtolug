@@ -4,7 +4,7 @@ import FitCalculator from "@/components/FitCalculator";
 import { getAdminSession } from "@/lib/auth";
 import { getApprovedSubmissionBySlugs, getDb, getWatchBySlugs } from "@/lib/db";
 import { mmToInches } from "@/lib/fit";
-import { formatMm, WATCH_METRICS } from "@/lib/watch";
+import { formatMm, isHttpUrl, WATCH_METRICS } from "@/lib/watch";
 
 const { brand, model, reference } = Astro.params;
 const db = getDb(Astro.locals);
@@ -19,14 +19,17 @@ const approvedSubmission = adminSession
   ? await getApprovedSubmissionBySlugs(db, watch.brandSlug, watch.modelSlug, watch.referenceSlug)
   : null;
 const manageHref = approvedSubmission ? `/admin/submissions/${approvedSubmission.id}` : `/admin/watches/${watch.id}`;
-const title = `${watch.brand} ${watch.model} ${watch.reference} dimensions | Lug to Lug Finder`;
-const description = `${watch.brand} ${watch.model} ${watch.reference}: ${watch.lugToLugMm} mm lug-to-lug, ${watch.caseMm} mm case, ${watch.thicknessMm} mm thickness, ${watch.lugWidthMm} mm lug width.`;
+const watchName = [watch.brand, watch.model].filter(Boolean).join(" ");
+const referenceLabel = watch.reference || "Reference not provided";
+const formatInches = (value: number | null) => value === null ? "Not provided" : `${mmToInches(value).toFixed(2)} in`;
+const title = `${watchName} dimensions | Lug to Lug Finder`;
+const description = `${watchName}: ${formatMm(watch.lugToLugMm)} lug-to-lug, ${formatMm(watch.caseMm)} case, ${formatMm(watch.thicknessMm)} thickness, ${formatMm(watch.lugWidthMm)} lug width.`;
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Product",
-  name: `${watch.brand} ${watch.model}`,
-  brand: { "@type": "Brand", name: watch.brand },
-  model: watch.reference,
+  name: watchName,
+  ...(watch.brand ? { brand: { "@type": "Brand", name: watch.brand } } : {}),
+  ...(watch.reference ? { model: watch.reference } : {}),
   additionalProperty: [
     ...WATCH_METRICS.map((metric) => ({
       "@type": "PropertyValue",
@@ -40,9 +43,9 @@ const structuredData = {
 <BaseLayout title={title} description={description}>
   <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)} />
   <section class="section" style="margin-top: 0;">
-    <p class="small"><a href={`/brands/${watch.brandSlug}`}>{watch.brand}</a></p>
+    {watch.brand && <p class="small"><a href={`/brands/${watch.brandSlug}`}>{watch.brand}</a></p>}
     <h1 class="page-title">{watch.model}</h1>
-    <p class="lede">{watch.reference}</p>
+    <p class="lede">{referenceLabel}</p>
     {adminSession && (
       <p style="margin-top: 18px;">
         <a class="button secondary" href={manageHref}>Manage published data</a>
@@ -55,7 +58,7 @@ const structuredData = {
       <div class="spec-card">
         <span>{metric.detailLabel}</span>
         <strong>{formatMm(watch[metric.key])}</strong>
-        <span>{mmToInches(watch[metric.key]).toFixed(2)} in</span>
+        <span>{formatInches(watch[metric.key])}</span>
       </div>
     ))}
   </section>
@@ -68,7 +71,9 @@ const structuredData = {
       <ul>
         {watch.sources.map((source) => (
           <li>
-            <a href={source.sourceUrl} rel="nofollow noreferrer" target="_blank">{source.sourceUrl}</a>
+            {isHttpUrl(source.sourceUrl) ? (
+              <a href={source.sourceUrl} rel="nofollow noreferrer" target="_blank">{source.sourceUrl}</a>
+            ) : source.sourceUrl}
             {source.note && <p class="small">{source.note}</p>}
           </li>
         ))}

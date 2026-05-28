@@ -56,9 +56,9 @@ export default function SearchApp({ watches }: Props) {
             >
               <div className="watch-name">
                 <strong>
-                  {watch.brand} {watch.model}
+                  {[watch.brand, watch.model].filter(Boolean).join(" ")}
                 </strong>
-                <span>{watch.reference}</span>
+                <span>{watch.reference || "Reference not provided"}</span>
               </div>
               {WATCH_METRICS.map((metric) => (
                 <div className="metric" key={metric.key}>

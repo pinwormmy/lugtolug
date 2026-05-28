@@ -8,12 +8,13 @@ interface Props {
 
 const { watch } = Astro.props;
 const href = getWatchHref(watch);
+const watchName = [watch.brand, watch.model].filter(Boolean).join(" ");
 ---
 
 <a class="watch-row" href={href}>
   <div class="watch-name">
-    <strong>{watch.brand} {watch.model}</strong>
-    <span>{watch.reference}</span>
+    <strong>{watchName}</strong>
+    <span>{watch.reference || "Reference not provided"}</span>
   </div>
   {WATCH_METRICS.map((metric) => (
     <div class="metric">

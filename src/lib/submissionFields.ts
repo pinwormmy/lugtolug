@@ -2,6 +2,7 @@ import type { SubmissionPayload } from "@/types";
 
 export const REQUIRED_TEXT_FIELDS = ["brand", "model", "reference", "sourceUrl"] as const;
 export const REQUIRED_NUMBER_FIELDS = ["lugToLugMm", "caseMm", "thicknessMm", "lugWidthMm"] as const;
+export const REQUIRED_SUBMISSION_FIELDS = new Set<string>(["model", "lugToLugMm"]);
 
 export type RequiredTextField = (typeof REQUIRED_TEXT_FIELDS)[number];
 export type RequiredNumberField = (typeof REQUIRED_NUMBER_FIELDS)[number];
@@ -32,7 +33,7 @@ export const REQUIRED_TEXT_INPUTS = [
   },
   {
     name: "model",
-    label: "Model",
+    label: "Watch name",
     maxLength: TEXT_LIMITS.model,
     autoComplete: undefined,
     type: "text"
@@ -46,17 +47,17 @@ export const REQUIRED_TEXT_INPUTS = [
   },
   {
     name: "sourceUrl",
-    label: "Source URL",
+    label: "Source",
     maxLength: TEXT_LIMITS.sourceUrl,
     autoComplete: undefined,
-    type: "url"
+    type: "text"
   }
 ] as const satisfies readonly {
   name: RequiredTextField;
   label: string;
   maxLength: number;
   autoComplete?: string;
-  type: "text" | "url";
+  type: "text";
 }[];
 
 export const REQUIRED_NUMBER_INPUTS = [
@@ -102,5 +103,5 @@ export const OPTIONAL_SUBMISSION_FIELDS = {
 } as const;
 
 export function getSubmissionFieldValue(payload: SubmissionPayload, name: RequiredTextField | RequiredNumberField): string | number {
-  return payload[name];
+  return payload[name] ?? "";
 }

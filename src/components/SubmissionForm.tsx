@@ -1,6 +1,6 @@
 import { useState } from "react";
 import type { ComponentProps } from "react";
-import { OPTIONAL_SUBMISSION_FIELDS, REQUIRED_NUMBER_INPUTS, REQUIRED_TEXT_INPUTS } from "@/lib/submissionFields";
+import { OPTIONAL_SUBMISSION_FIELDS, REQUIRED_NUMBER_INPUTS, REQUIRED_SUBMISSION_FIELDS, REQUIRED_TEXT_INPUTS } from "@/lib/submissionFields";
 
 type State = "idle" | "submitting" | "success" | "error";
 
@@ -48,7 +48,7 @@ export default function SubmissionForm() {
             id={field.name}
             maxLength={field.maxLength}
             name={field.name}
-            required
+            required={REQUIRED_SUBMISSION_FIELDS.has(field.name)}
             type={field.type ?? "text"}
           />
         </div>
@@ -63,7 +63,7 @@ export default function SubmissionForm() {
             max={field.max}
             min={field.min}
             name={field.name}
-            required
+            required={REQUIRED_SUBMISSION_FIELDS.has(field.name)}
             step="0.1"
             type="number"
           />

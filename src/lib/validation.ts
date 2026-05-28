@@ -1,5 +1,5 @@
 import type { SubmissionPayload } from "@/types";
-import { NUMBER_LIMITS, REQUIRED_NUMBER_FIELDS, REQUIRED_TEXT_FIELDS, TEXT_LIMITS } from "@/lib/submissionFields";
+import { NUMBER_LIMITS, REQUIRED_NUMBER_FIELDS, REQUIRED_SUBMISSION_FIELDS, REQUIRED_TEXT_FIELDS, TEXT_LIMITS } from "@/lib/submissionFields";
 
 export interface ValidationResult {
   ok: boolean;
@@ -13,19 +13,24 @@ export function parseSubmission(input: FormData | Record<string, unknown>): Vali
     return input[key];
   };
   const errors: Record<string, string> = {};
-  const payload: Record<string, string | number> = {};
+  const payload: Record<string, string | number | null> = {};
 
   for (const key of REQUIRED_TEXT_FIELDS) {
     const value = String(get(key) ?? "").trim();
-    if (!value) errors[key] = "Required";
+    if (REQUIRED_SUBMISSION_FIELDS.has(key) && !value) errors[key] = "Required";
     if (value.length > TEXT_LIMITS[key]) errors[key] = `Must be ${TEXT_LIMITS[key]} characters or fewer`;
     payload[key] = value;
   }
 
   for (const key of REQUIRED_NUMBER_FIELDS) {
     const raw = String(get(key) ?? "").trim();
-    const value = Number(raw);
     const limits = NUMBER_LIMITS[key];
+    if (!raw && !REQUIRED_SUBMISSION_FIELDS.has(key)) {
+      payload[key] = null;
+      continue;
+    }
+
+    const value = Number(raw);
     if (!Number.isFinite(value) || value <= 0) {
       errors[key] = "Enter a positive number";
     } else if (value < limits.min || value > limits.max) {
@@ -35,16 +40,8 @@ export function parseSubmission(input: FormData | Record<string, unknown>): Vali
   }
 
   const sourceUrl = String(payload.sourceUrl ?? "");
-  try {
-    const url = new URL(sourceUrl);
-    if (!["http:", "https:"].includes(url.protocol)) {
-      errors.sourceUrl = "Use an http or https URL";
-    }
-    if (sourceUrl.length > TEXT_LIMITS.sourceUrl) {
-      errors.sourceUrl = `Must be ${TEXT_LIMITS.sourceUrl} characters or fewer`;
-    }
-  } catch {
-    errors.sourceUrl = "Enter a valid URL";
+  if (sourceUrl.length > TEXT_LIMITS.sourceUrl) {
+    errors.sourceUrl = `Must be ${TEXT_LIMITS.sourceUrl} characters or fewer`;
   }
 
   const contactEmail = String(get("contactEmail") ?? "").trim();
@@ -70,9 +67,9 @@ export function parseSubmission(input: FormData | Record<string, unknown>): Vali
           reference: String(payload.reference),
           sourceUrl,
           lugToLugMm: Number(payload.lugToLugMm),
-          caseMm: Number(payload.caseMm),
-          thicknessMm: Number(payload.thicknessMm),
-          lugWidthMm: Number(payload.lugWidthMm),
+          caseMm: payload.caseMm === null ? null : Number(payload.caseMm),
+          thicknessMm: payload.thicknessMm === null ? null : Number(payload.thicknessMm),
+          lugWidthMm: payload.lugWidthMm === null ? null : Number(payload.lugWidthMm),
           contactEmail: contactEmail || undefined,
           privateComment: privateComment || undefined
         }

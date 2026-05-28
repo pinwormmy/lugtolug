@@ -2,7 +2,7 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getAdminSession } from "@/lib/auth";
 import { getDb, getSubmission } from "@/lib/db";
-import { getSubmissionFieldValue, REQUIRED_NUMBER_INPUTS, REQUIRED_TEXT_INPUTS } from "@/lib/submissionFields";
+import { getSubmissionFieldValue, REQUIRED_NUMBER_INPUTS, REQUIRED_SUBMISSION_FIELDS, REQUIRED_TEXT_INPUTS } from "@/lib/submissionFields";
 
 const db = getDb(Astro.locals);
 const session = await getAdminSession(db, Astro.request);
@@ -24,7 +24,7 @@ const validationError = Astro.url.searchParams.get("error") === "validation";
 <BaseLayout title="Review submission | Lug to Lug Finder" description="Review one private watch submission.">
   <section class="section" style="margin-top: 0;">
     <h1 class="page-title" style="font-size: clamp(2.4rem, 6vw, 4rem);">Review submission</h1>
-    <p class="lede">{payload.brand} {payload.model} · {payload.reference} · {submission.status}</p>
+    <p class="lede">{[payload.brand, payload.model].filter(Boolean).join(" ")} · {payload.reference || "No reference"} · {submission.status}</p>
     {(updated || validationError) && (
       <p class={validationError ? "error" : "notice"} style="margin-top: 18px;">
         {updated && "Published submission updated."}
@@ -57,7 +57,7 @@ const validationError = Astro.url.searchParams.get("error") === "validation";
               name={field.name}
               type={field.type ?? "text"}
               value={getSubmissionFieldValue(payload, field.name)}
-              required
+              required={REQUIRED_SUBMISSION_FIELDS.has(field.name)}
             />
           </div>
         ))}
@@ -74,7 +74,7 @@ const validationError = Astro.url.searchParams.get("error") === "validation";
               step="0.1"
               type="number"
               value={getSubmissionFieldValue(payload, field.name)}
-              required
+              required={REQUIRED_SUBMISSION_FIELDS.has(field.name)}
             />
           </div>
         ))}
