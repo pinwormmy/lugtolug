@@ -1,6 +1,6 @@
 import type { APIRoute } from "astro";
 import { getAdminSession } from "@/lib/auth";
-import { createSubmission, getDb, isSubmissionRateLimited, recordSubmissionRateLimit } from "@/lib/db";
+import { approveSubmission, createSubmission, getDb, isSubmissionRateLimited, recordSubmissionRateLimit } from "@/lib/db";
 import { json } from "@/lib/http";
 import { parseSubmission } from "@/lib/validation";
 
@@ -42,8 +42,11 @@ export const POST: APIRoute = async ({ locals, request }) => {
   }
 
   const id = await createSubmission(db, parsed.payload);
-  if (!adminSession) {
-    await recordSubmissionRateLimit(db, request);
+  if (adminSession) {
+    const watchId = await approveSubmission(db, id, parsed.payload, "Approved automatically from admin submission.");
+    return json({ id, watchId, message: "Submission approved and published." }, { status: 201 });
   }
+
+  await recordSubmissionRateLimit(db, request);
   return json({ id, message: "Submission received. It will stay private until approved." }, { status: 201 });
 };
