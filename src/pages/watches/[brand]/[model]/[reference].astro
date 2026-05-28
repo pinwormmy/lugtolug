@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
+import CorrectionReportForm from "@/components/CorrectionReportForm";
 import FitCalculator from "@/components/FitCalculator";
 import { getAdminSession } from "@/lib/auth";
 import { getApprovedSubmissionBySlugs, getDb, getWatchBySlugs } from "@/lib/db";
@@ -21,7 +22,7 @@ const approvedSubmission = adminSession
 const manageHref = approvedSubmission ? `/admin/submissions/${approvedSubmission.id}` : `/admin/watches/${watch.id}`;
 const watchName = [watch.brand, watch.model].filter(Boolean).join(" ");
 const referenceLabel = watch.reference || "Reference not provided";
-const formatInches = (value: number | null) => value === null ? "Not provided" : `${mmToInches(value).toFixed(2)} in`;
+const formatInches = (value: number | null | undefined) => value == null ? "Not provided" : `${mmToInches(value).toFixed(2)} in`;
 const title = `${watchName} dimensions | Lug to Lug Finder`;
 const description = `${watchName}: ${formatMm(watch.lugToLugMm)} lug-to-lug, ${formatMm(watch.caseMm)} case, ${formatMm(watch.thicknessMm)} thickness, ${formatMm(watch.lugWidthMm)} lug width.`;
 const structuredData = {
@@ -79,5 +80,9 @@ const structuredData = {
         ))}
       </ul>
     </div>
+  </section>
+
+  <section class="section">
+    <CorrectionReportForm client:load watch={watch} />
   </section>
 </BaseLayout>

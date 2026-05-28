@@ -48,6 +48,24 @@ describe("submission validation", () => {
     expect(result.payload?.sourceUrl).toBe("Measured by owner from calipers");
   });
 
+  it("accepts correction report metadata", () => {
+    const result = parseSubmission({
+      submissionType: "correction",
+      reportedWatchId: "12",
+      reportedWatchPath: "/watches/rolex/explorer/124270",
+      model: "Explorer",
+      lugToLugMm: "43",
+      privateComment: "Correction report: Dimension is wrong"
+    });
+
+    expect(result.ok).toBe(true);
+    expect(result.payload).toMatchObject({
+      submissionType: "correction",
+      reportedWatchId: 12,
+      reportedWatchPath: "/watches/rolex/explorer/124270"
+    });
+  });
+
   it("rejects invalid required dimensions", () => {
     const result = parseSubmission({
       brand: "Rolex",

@@ -56,6 +56,7 @@ const notApproved = Astro.url.searchParams.get("error") === "not-approved";
         <thead>
           <tr>
             <th>Status</th>
+            <th>Type</th>
             <th>Watch</th>
             <th>Reference</th>
             <th>Dimensions</th>
@@ -68,6 +69,7 @@ const notApproved = Astro.url.searchParams.get("error") === "not-approved";
           {submissions.map((submission) => (
             <tr>
               <td>{submission.status}</td>
+              <td>{submission.payload.submissionType === "correction" ? "Correction" : "New watch"}</td>
               <td>{[submission.payload.brand, submission.payload.model].filter(Boolean).join(" ")}</td>
               <td>{submission.payload.reference || "Not provided"}</td>
               <td>
@@ -84,7 +86,7 @@ const notApproved = Astro.url.searchParams.get("error") === "not-approved";
           ))}
           {submissions.length === 0 && (
             <tr>
-              <td colspan="7">No {status === "all" ? "" : status} submissions.</td>
+              <td colspan="8">No {status === "all" ? "" : status} submissions.</td>
             </tr>
           )}
         </tbody>

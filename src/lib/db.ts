@@ -321,7 +321,9 @@ export async function updateApprovedSubmission(
 
   const currentSlugs = getSubmissionWatchSlugs(currentPayload);
   const nextSlugs = getSubmissionWatchSlugs(nextPayload);
-  const currentWatch = await findWatchId(db, currentSlugs);
+  const currentWatch = currentPayload.reportedWatchId
+    ? await findWatchIdById(db, currentPayload.reportedWatchId)
+    : await findWatchId(db, currentSlugs);
   let watchId: number;
 
   if (currentWatch) {
@@ -348,7 +350,7 @@ export async function returnSubmissionToPending(db: D1, id: number, payload: Sub
   if (!db) throw new Error("D1 database is required.");
 
   const slugs = getSubmissionWatchSlugs(payload);
-  const watch = await findWatchId(db, slugs);
+  const watch = payload.reportedWatchId ? await findWatchIdById(db, payload.reportedWatchId) : await findWatchId(db, slugs);
   if (watch) {
     await db
       .prepare("UPDATE watches SET status = 'draft', updated_at = CURRENT_TIMESTAMP WHERE id = ?")
@@ -377,6 +379,12 @@ export async function unpublishWatch(db: D1, id: number): Promise<void> {
 
 async function upsertApprovedWatch(db: D1Database, payload: SubmissionPayload): Promise<number> {
   const slugs = getSubmissionWatchSlugs(payload);
+  const reportedWatch = payload.reportedWatchId ? await findWatchIdById(db, payload.reportedWatchId) : null;
+  if (reportedWatch) {
+    await updateWatchFromSubmission(db, reportedWatch.id, payload, slugs);
+    return reportedWatch.id;
+  }
+
   const existing = await findWatchId(db, slugs);
 
   if (existing) {
@@ -400,6 +408,10 @@ async function findWatchId(db: D1Database, slugs: SubmissionWatchSlugs): Promise
     .prepare("SELECT id FROM watches WHERE brand_slug = ? AND model_slug = ? AND reference_slug = ?")
     .bind(slugs.brandSlug, slugs.modelSlug, slugs.referenceSlug)
     .first<{ id: number }>();
+}
+
+async function findWatchIdById(db: D1Database, id: number): Promise<{ id: number } | null> {
+  return db.prepare("SELECT id FROM watches WHERE id = ?").bind(id).first<{ id: number }>();
 }
 
 async function updateWatchFromSubmission(

@@ -17,6 +17,7 @@ if (!submission) {
 const payload = submission.payload;
 const isPending = submission.status === "pending";
 const isApproved = submission.status === "approved";
+const isCorrection = payload.submissionType === "correction";
 const updated = Astro.url.searchParams.get("updated") === "1";
 const validationError = Astro.url.searchParams.get("error") === "validation";
 ---
@@ -24,7 +25,7 @@ const validationError = Astro.url.searchParams.get("error") === "validation";
 <BaseLayout title="Review submission | Lug to Lug Finder" description="Review one private watch submission.">
   <section class="section" style="margin-top: 0;">
     <h1 class="page-title" style="font-size: clamp(2.4rem, 6vw, 4rem);">Review submission</h1>
-    <p class="lede">{[payload.brand, payload.model].filter(Boolean).join(" ")} · {payload.reference || "No reference"} · {submission.status}</p>
+    <p class="lede">{[payload.brand, payload.model].filter(Boolean).join(" ")} · {payload.reference || "No reference"} · {isCorrection ? "Correction report" : "New watch"} · {submission.status}</p>
     {(updated || validationError) && (
       <p class={validationError ? "error" : "notice"} style="margin-top: 18px;">
         {updated && "Published submission updated."}
@@ -47,6 +48,9 @@ const validationError = Astro.url.searchParams.get("error") === "validation";
         method="post"
       >
         <input type="hidden" name="csrfToken" value={session.csrfToken} />
+        <input type="hidden" name="submissionType" value={payload.submissionType ?? "new-watch"} />
+        {payload.reportedWatchId && <input type="hidden" name="reportedWatchId" value={payload.reportedWatchId} />}
+        {payload.reportedWatchPath && <input type="hidden" name="reportedWatchPath" value={payload.reportedWatchPath} />}
         {REQUIRED_TEXT_INPUTS.map((field) => (
           <div class="form-field">
             <label for={field.name}>{field.label}</label>
@@ -109,6 +113,9 @@ const validationError = Astro.url.searchParams.get("error") === "validation";
 
     <div class="panel">
       <h2>Private contributor details</h2>
+      {isCorrection && (
+        <p><strong>Reported page:</strong> {payload.reportedWatchPath ? <a href={payload.reportedWatchPath}>{payload.reportedWatchPath}</a> : "Not provided"}</p>
+      )}
       <p><strong>Email:</strong> {payload.contactEmail || "Not provided"}</p>
       <p><strong>Private comment:</strong></p>
       <p>{payload.privateComment || "No private comment."}</p>

@@ -30,6 +30,9 @@ export interface WatchWithSources extends Watch {
 }
 
 export interface SubmissionPayload {
+  submissionType?: "new-watch" | "correction";
+  reportedWatchId?: number;
+  reportedWatchPath?: string;
   brand: string;
   model: string;
   reference: string;

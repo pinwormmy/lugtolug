@@ -55,6 +55,22 @@ export function parseSubmission(input: FormData | Record<string, unknown>): Vali
   if (privateComment.length > TEXT_LIMITS.privateComment) {
     errors.privateComment = `Must be ${TEXT_LIMITS.privateComment} characters or fewer`;
   }
+  const rawSubmissionType = String(get("submissionType") ?? "new-watch").trim();
+  const submissionType = rawSubmissionType === "correction" ? "correction" : "new-watch";
+  const rawReportedWatchId = String(get("reportedWatchId") ?? "").trim();
+  let reportedWatchId: number | undefined;
+  if (rawReportedWatchId) {
+    const parsedReportedWatchId = Number(rawReportedWatchId);
+    if (!Number.isSafeInteger(parsedReportedWatchId) || parsedReportedWatchId < 1) {
+      errors.reportedWatchId = "Invalid watch";
+    } else {
+      reportedWatchId = parsedReportedWatchId;
+    }
+  }
+  const reportedWatchPath = String(get("reportedWatchPath") ?? "").trim();
+  if (reportedWatchPath.length > TEXT_LIMITS.reportedWatchPath) {
+    errors.reportedWatchPath = `Must be ${TEXT_LIMITS.reportedWatchPath} characters or fewer`;
+  }
   const ok = Object.keys(errors).length === 0;
 
   return {
@@ -70,6 +86,9 @@ export function parseSubmission(input: FormData | Record<string, unknown>): Vali
           caseMm: payload.caseMm === null ? null : Number(payload.caseMm),
           thicknessMm: payload.thicknessMm === null ? null : Number(payload.thicknessMm),
           lugWidthMm: payload.lugWidthMm === null ? null : Number(payload.lugWidthMm),
+          submissionType,
+          reportedWatchId,
+          reportedWatchPath: reportedWatchPath || undefined,
           contactEmail: contactEmail || undefined,
           privateComment: privateComment || undefined
         }

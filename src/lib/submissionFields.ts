@@ -15,8 +15,9 @@ export const TEXT_LIMITS = {
   reference: 80,
   sourceUrl: 2048,
   privateComment: 1000,
-  contactEmail: 320
-} as const satisfies Record<TextField | "privateComment" | "contactEmail", number>;
+  contactEmail: 320,
+  reportedWatchPath: 300
+} as const satisfies Record<TextField | "privateComment" | "contactEmail" | "reportedWatchPath", number>;
 
 export const NUMBER_LIMITS = {
   lugToLugMm: { min: 20, max: 80 },
