@@ -18,6 +18,7 @@ function numberValue(value: number | null | undefined): string {
 }
 
 export default function CorrectionReportForm({ watch }: Props) {
+  const [isOpen, setIsOpen] = useState(false);
   const [state, setState] = useState<State>("idle");
   const [message, setMessage] = useState("");
 
@@ -51,6 +52,18 @@ export default function CorrectionReportForm({ watch }: Props) {
     }
   };
 
+  if (!isOpen) {
+    return (
+      <div className="panel">
+        <h2>Found wrong data?</h2>
+        <p className="small">Send a correction report for operator review.</p>
+        <button className="button secondary" type="button" onClick={() => setIsOpen(true)} style={{ marginTop: "14px" }}>
+          Report wrong data
+        </button>
+      </div>
+    );
+  }
+
   return (
     <form className="panel form-grid correction-form" onSubmit={submit}>
       <input type="hidden" name="submissionType" value="correction" />
@@ -64,6 +77,9 @@ export default function CorrectionReportForm({ watch }: Props) {
       <div className="form-field full">
         <h2>Report wrong data</h2>
         <p className="small">Current values: lug-to-lug {displayMm(watch.lugToLugMm)}, case {displayMm(watch.caseMm)}, thickness {displayMm(watch.thicknessMm)}, lug width {displayMm(watch.lugWidthMm)}</p>
+        <button className="button secondary" type="button" onClick={() => setIsOpen(false)} style={{ marginTop: "14px" }}>
+          Hide form
+        </button>
       </div>
 
       <div className="form-field full">

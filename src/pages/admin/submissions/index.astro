@@ -28,6 +28,7 @@ const notApproved = Astro.url.searchParams.get("error") === "not-approved";
       <div>
         <h1 class="page-title" style="font-size: clamp(2.4rem, 6vw, 4rem);">Submissions</h1>
         <p class="lede">Signed in as {session.user.email}</p>
+        <p class="small" style="margin-top: 10px;">New watch submissions and correction reports both appear here. Correction reports are marked as Type: Correction.</p>
       </div>
       <form action="/api/admin/logout" method="post">
         <button class="button secondary" type="submit">Log out</button>
