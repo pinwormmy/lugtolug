@@ -1,5 +1,5 @@
 import type { SubmissionPayload } from "@/types";
-import { NUMBER_LIMITS, REQUIRED_NUMBER_FIELDS, REQUIRED_SUBMISSION_FIELDS, REQUIRED_TEXT_FIELDS, TEXT_LIMITS } from "@/lib/submissionFields";
+import { NUMBER_LIMITS, REQUIRED_NUMBER_FIELDS, REQUIRED_SUBMISSION_FIELDS, TEXT_FIELDS, TEXT_LIMITS } from "@/lib/submissionFields";
 
 export interface ValidationResult {
   ok: boolean;
@@ -15,7 +15,7 @@ export function parseSubmission(input: FormData | Record<string, unknown>): Vali
   const errors: Record<string, string> = {};
   const payload: Record<string, string | number | null> = {};
 
-  for (const key of REQUIRED_TEXT_FIELDS) {
+  for (const key of TEXT_FIELDS) {
     const value = String(get(key) ?? "").trim();
     if (REQUIRED_SUBMISSION_FIELDS.has(key) && !value) errors[key] = "Required";
     if (value.length > TEXT_LIMITS[key]) errors[key] = `Must be ${TEXT_LIMITS[key]} characters or fewer`;

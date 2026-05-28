@@ -1,6 +1,6 @@
 import { useState } from "react";
 import type { ComponentProps } from "react";
-import { OPTIONAL_SUBMISSION_FIELDS, REQUIRED_NUMBER_INPUTS, REQUIRED_SUBMISSION_FIELDS, REQUIRED_TEXT_INPUTS } from "@/lib/submissionFields";
+import { OPTIONAL_SUBMISSION_FIELDS, OPTIONAL_TEXT_INPUTS, REQUIRED_NUMBER_INPUTS, REQUIRED_SUBMISSION_FIELDS, REQUIRED_TEXT_INPUTS } from "@/lib/submissionFields";
 
 type State = "idle" | "submitting" | "success" | "error";
 
@@ -66,6 +66,19 @@ export default function SubmissionForm() {
             required={REQUIRED_SUBMISSION_FIELDS.has(field.name)}
             step="0.1"
             type="number"
+          />
+        </div>
+      ))}
+      {OPTIONAL_TEXT_INPUTS.map((field) => (
+        <div className="form-field full" key={field.name}>
+          <label htmlFor={field.name}>{field.label}</label>
+          <input
+            autoComplete={field.autoComplete}
+            className="input"
+            id={field.name}
+            maxLength={field.maxLength}
+            name={field.name}
+            type={field.type}
           />
         </div>
       ))}

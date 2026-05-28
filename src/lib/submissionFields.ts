@@ -1,9 +1,11 @@
 import type { SubmissionPayload } from "@/types";
 
-export const REQUIRED_TEXT_FIELDS = ["brand", "model", "reference", "sourceUrl"] as const;
+export const TEXT_FIELDS = ["brand", "model", "reference", "sourceUrl"] as const;
+export const REQUIRED_TEXT_FIELDS = ["brand", "model", "reference"] as const;
 export const REQUIRED_NUMBER_FIELDS = ["lugToLugMm", "caseMm", "thicknessMm", "lugWidthMm"] as const;
 export const REQUIRED_SUBMISSION_FIELDS = new Set<string>(["model", "lugToLugMm"]);
 
+export type TextField = (typeof TEXT_FIELDS)[number];
 export type RequiredTextField = (typeof REQUIRED_TEXT_FIELDS)[number];
 export type RequiredNumberField = (typeof REQUIRED_NUMBER_FIELDS)[number];
 
@@ -14,7 +16,7 @@ export const TEXT_LIMITS = {
   sourceUrl: 2048,
   privateComment: 1000,
   contactEmail: 320
-} as const satisfies Record<RequiredTextField | "privateComment" | "contactEmail", number>;
+} as const satisfies Record<TextField | "privateComment" | "contactEmail", number>;
 
 export const NUMBER_LIMITS = {
   lugToLugMm: { min: 20, max: 80 },
@@ -44,7 +46,16 @@ export const REQUIRED_TEXT_INPUTS = [
     maxLength: TEXT_LIMITS.reference,
     autoComplete: undefined,
     type: "text"
-  },
+  }
+] as const satisfies readonly {
+  name: RequiredTextField;
+  label: string;
+  maxLength: number;
+  autoComplete?: string;
+  type: "text";
+}[];
+
+export const OPTIONAL_TEXT_INPUTS = [
   {
     name: "sourceUrl",
     label: "Source",
@@ -53,7 +64,7 @@ export const REQUIRED_TEXT_INPUTS = [
     type: "text"
   }
 ] as const satisfies readonly {
-  name: RequiredTextField;
+  name: Exclude<TextField, RequiredTextField>;
   label: string;
   maxLength: number;
   autoComplete?: string;
@@ -102,6 +113,6 @@ export const OPTIONAL_SUBMISSION_FIELDS = {
   }
 } as const;
 
-export function getSubmissionFieldValue(payload: SubmissionPayload, name: RequiredTextField | RequiredNumberField): string | number {
+export function getSubmissionFieldValue(payload: SubmissionPayload, name: TextField | RequiredNumberField): string | number {
   return payload[name] ?? "";
 }
