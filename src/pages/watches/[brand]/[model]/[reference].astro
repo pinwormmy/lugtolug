@@ -3,7 +3,7 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import CorrectionReportForm from "@/components/CorrectionReportForm";
 import FitCalculator from "@/components/FitCalculator";
 import { getAdminSession } from "@/lib/auth";
-import { getApprovedSubmissionBySlugs, getDb, getWatchBySlugs } from "@/lib/db";
+import { getDb, getWatchBySlugs } from "@/lib/db";
 import { mmToInches } from "@/lib/fit";
 import { formatMm, isHttpUrl, WATCH_METRICS } from "@/lib/watch";
 
@@ -16,10 +16,7 @@ if (!watch) {
 }
 
 const adminSession = await getAdminSession(db, Astro.request);
-const approvedSubmission = adminSession
-  ? await getApprovedSubmissionBySlugs(db, watch.brandSlug, watch.modelSlug, watch.referenceSlug)
-  : null;
-const manageHref = approvedSubmission ? `/admin/submissions/${approvedSubmission.id}` : `/admin/watches/${watch.id}`;
+const manageHref = `/admin/watches/${watch.id}`;
 const watchName = [watch.brand, watch.model].filter(Boolean).join(" ");
 const referenceLabel = watch.reference || "Reference not provided";
 const formatInches = (value: number | null | undefined) => value == null ? "Not provided" : `${mmToInches(value).toFixed(2)} in`;
