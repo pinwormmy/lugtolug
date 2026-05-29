@@ -172,13 +172,15 @@ export async function searchWatches(db: D1, query: string): Promise<WatchWithSou
         .all<WatchRow>()
     : await db.prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY brand, model LIMIT 50").all<WatchRow>();
 
-  return hydrateSources(db, rows.results.map(mapWatch));
+  const watches = await hydrateSources(db, rows.results.map(mapWatch));
+  const seedMatches = normalized ? searchSeedWatches(query) : seedWatches;
+  return mergeSeedWatches(watches, seedMatches).slice(0, 50);
 }
 
 export async function listWatches(db: D1): Promise<WatchWithSources[]> {
   if (!db) return seedWatches;
   const rows = await db.prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY brand, model").all<WatchRow>();
-  return hydrateSources(db, rows.results.map(mapWatch));
+  return mergeSeedWatches(await hydrateSources(db, rows.results.map(mapWatch)), seedWatches);
 }
 
 export async function listRecentWatches(db: D1, limit = 5): Promise<WatchWithSources[]> {
@@ -187,7 +189,9 @@ export async function listRecentWatches(db: D1, limit = 5): Promise<WatchWithSou
     .prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY created_at DESC, id DESC LIMIT ?")
     .bind(limit)
     .all<WatchRow>();
-  return hydrateSources(db, rows.results.map(mapWatch));
+  return mergeSeedWatches(await hydrateSources(db, rows.results.map(mapWatch)), seedWatches)
+    .sort((a, b) => b.id - a.id)
+    .slice(0, limit);
 }
 
 export async function getWatchBySlugs(
@@ -211,7 +215,9 @@ export async function getWatchBySlugs(
     )
     .bind(brandSlug, modelSlug, referenceSlug)
     .first<WatchRow>();
-  if (!row) return null;
+  if (!row) {
+    return findSeedWatchBySlugs(brandSlug, modelSlug, referenceSlug);
+  }
   const [watch] = await hydrateSources(db, [mapWatch(row)]);
   return watch;
 }
@@ -231,7 +237,39 @@ export async function listBrandWatches(db: D1, brandSlug: string): Promise<Watch
     .prepare("SELECT * FROM watches WHERE status = 'approved' AND brand_slug = ? ORDER BY model")
     .bind(brandSlug)
     .all<WatchRow>();
-  return hydrateSources(db, rows.results.map(mapWatch));
+  return mergeSeedWatches(
+    await hydrateSources(db, rows.results.map(mapWatch)),
+    seedWatches.filter((watch) => watch.brandSlug === brandSlug)
+  );
+}
+
+function findSeedWatchBySlugs(
+  brandSlug: string,
+  modelSlug: string,
+  referenceSlug: string
+): WatchWithSources | null {
+  return (
+    seedWatches.find(
+      (watch) =>
+        watch.brandSlug === brandSlug && watch.modelSlug === modelSlug && watch.referenceSlug === referenceSlug
+    ) ?? null
+  );
+}
+
+function mergeSeedWatches(watches: WatchWithSources[], seeds: WatchWithSources[]): WatchWithSources[] {
+  const merged = [...watches];
+  const seen = new Set(watches.map(getWatchKey));
+  for (const seed of seeds) {
+    const key = getWatchKey(seed);
+    if (seen.has(key)) continue;
+    merged.push(seed);
+    seen.add(key);
+  }
+  return merged.sort((a, b) => a.brand.localeCompare(b.brand) || a.model.localeCompare(b.model));
+}
+
+function getWatchKey(watch: Pick<Watch, "brandSlug" | "modelSlug" | "referenceSlug">): string {
+  return `${watch.brandSlug}/${watch.modelSlug}/${watch.referenceSlug}`;
 }
 
 async function hydrateSources(db: D1Database, watches: Watch[]): Promise<WatchWithSources[]> {
