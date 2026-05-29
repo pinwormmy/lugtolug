@@ -362,31 +362,6 @@
     ]
   },
   {
-    "id": 15,
-    "brand": "Longines",
-    "model": "Spirit Zulu Time 39",
-    "reference": "L3.802.4.53.6",
-    "lugToLugMm": 46.8,
-    "caseMm": 39,
-    "thicknessMm": 13.5,
-    "lugWidthMm": 21,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.longines.com/en-gb/p/watch-longines-spirit-zulu-time-l3-802-4-53-6",
-        "note": "Manufacturer confirms 39.00 mm case for the exact reference."
-      },
-      {
-        "sourceUrl": "https://watchbase.com/longines/spirit/l3-802-4-53-6",
-        "note": "Database confirms 39.00 mm diameter, 13.50 mm height, and 21.00 mm lug width."
-      },
-      {
-        "sourceUrl": "https://chronobase24.com/longines/spirit/longines-spirit-zulu-time/l3-802-4-53-6/",
-        "note": "Database confirms 46.8 mm lug-to-lug, 39 mm diameter, 13.5 mm thickness, and 21 mm lug width."
-      }
-    ]
-  },
-  {
     "id": 16,
     "brand": "Sinn",
     "model": "556 I",
@@ -572,91 +547,6 @@
       {
         "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
         "note": "User-authored blog post lists the IW326803 at 39 mm case size and 50 mm lug-to-lug."
-      }
-    ]
-  },
-  {
-    "id": 25,
-    "brand": "Longines",
-    "model": "Master Collection Moonphase Chronograph",
-    "reference": "L26734783",
-    "lugToLugMm": 46.6,
-    "caseMm": 40,
-    "thicknessMm": 13.5,
-    "lugWidthMm": 21,
-    "confidence": "medium",
-    "sources": [
-      {
-        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
-        "note": "User-authored blog post lists the L26734783 at 40 mm case size and 46.6 mm lug-to-lug."
-      }
-    ]
-  },
-  {
-    "id": 26,
-    "brand": "Longines",
-    "model": "Master Collection Moonphase Chronograph",
-    "reference": "L27734783",
-    "lugToLugMm": 49,
-    "caseMm": 42,
-    "thicknessMm": 13.5,
-    "lugWidthMm": 21,
-    "confidence": "medium",
-    "sources": [
-      {
-        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
-        "note": "User-authored blog post lists the L27734783 at 42 mm case size and 49 mm lug-to-lug."
-      }
-    ]
-  },
-  {
-    "id": 27,
-    "brand": "Longines",
-    "model": "Master Collection Moonphase",
-    "reference": "L29094783",
-    "lugToLugMm": 46.6,
-    "caseMm": 40,
-    "thicknessMm": 13.5,
-    "lugWidthMm": 21,
-    "confidence": "medium",
-    "sources": [
-      {
-        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
-        "note": "User-authored blog post lists the L29094783 at 40 mm case size and 46.6 mm lug-to-lug."
-      }
-    ]
-  },
-  {
-    "id": 28,
-    "brand": "Longines",
-    "model": "Master Collection Moonphase",
-    "reference": "L29194783",
-    "lugToLugMm": 48.5,
-    "caseMm": 42,
-    "thicknessMm": 13.5,
-    "lugWidthMm": 21,
-    "confidence": "medium",
-    "sources": [
-      {
-        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
-        "note": "User-authored blog post lists the L29194783 at 42 mm case size and 48.5 mm lug-to-lug."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "brand": "Longines",
-    "model": "HydroConquest Ceramic",
-    "reference": "L37814966",
-    "lugToLugMm": 50.5,
-    "caseMm": 41,
-    "thicknessMm": 11.7,
-    "lugWidthMm": 21,
-    "confidence": "medium",
-    "sources": [
-      {
-        "sourceUrl": "https://pinwatch.blogspot.com/2019/02/blog-post_23.html",
-        "note": "User-authored blog post lists the L37814966 at 41 mm case size and 50.5 mm lug-to-lug."
       }
     ]
   },
@@ -8198,6 +8088,6585 @@
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-racing-co-axial-master-chronometer-chronograph-44-25-mm-32953445103001",
         "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 21 mm between lugs. Thickness is not published on this page."
+      }
+    ]
+  },
+  {
+    "id": 467,
+    "brand": "Longines",
+    "model": "Conquest Heritage Central Power Reserve",
+    "reference": "L1.648.4.52.2",
+    "lugToLugMm": 45.6,
+    "caseMm": 38,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-heritage-l1-648-4-52-2",
+        "note": "Manufacturer page: 38 mm case, 45.6 mm lug-to-lug, 12.3 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 468,
+    "brand": "Longines",
+    "model": "Conquest Heritage Central Power Reserve",
+    "reference": "L1.648.4.62.2",
+    "lugToLugMm": 45.6,
+    "caseMm": 38,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-heritage-l1-648-4-62-2",
+        "note": "Manufacturer page: 38 mm case, 45.6 mm lug-to-lug, 12.3 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 469,
+    "brand": "Longines",
+    "model": "Conquest Heritage Central Power Reserve",
+    "reference": "L1.648.4.78.2",
+    "lugToLugMm": 45.6,
+    "caseMm": 38,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-heritage-l1-648-4-78-2",
+        "note": "Manufacturer page: 38 mm case, 45.6 mm lug-to-lug, 12.3 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 470,
+    "brand": "Longines",
+    "model": "Conquest Heritage",
+    "reference": "L1.649.4.02.2",
+    "lugToLugMm": 45.6,
+    "caseMm": 38,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-heritage-l1-649-4-02-2",
+        "note": "Manufacturer page: 38 mm case, 45.6 mm lug-to-lug, 10.8 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 471,
+    "brand": "Longines",
+    "model": "Conquest Heritage",
+    "reference": "L1.649.4.02.6",
+    "lugToLugMm": 45.6,
+    "caseMm": 38,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-heritage-l1-649-4-02-6",
+        "note": "Manufacturer page: 38 mm case, 45.6 mm lug-to-lug, 10.8 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 472,
+    "brand": "Longines",
+    "model": "Conquest Heritage",
+    "reference": "L1.649.4.52.6",
+    "lugToLugMm": 45.6,
+    "caseMm": 38,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-heritage-l1-649-4-52-6",
+        "note": "Manufacturer page: 38 mm case, 45.6 mm lug-to-lug, 10.8 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 473,
+    "brand": "Longines",
+    "model": "Conquest Heritage",
+    "reference": "L1.649.4.62.2",
+    "lugToLugMm": 45.6,
+    "caseMm": 38,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-heritage-l1-649-4-62-2",
+        "note": "Manufacturer page: 38 mm case, 45.6 mm lug-to-lug, 10.8 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 474,
+    "brand": "Longines",
+    "model": "Conquest Heritage",
+    "reference": "L1.649.4.72.6",
+    "lugToLugMm": 45.6,
+    "caseMm": 38,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-heritage-l1-649-4-72-6",
+        "note": "Manufacturer page: 38 mm case, 45.6 mm lug-to-lug, 10.8 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 475,
+    "brand": "Longines",
+    "model": "Conquest Heritage",
+    "reference": "L1.649.4.92.2",
+    "lugToLugMm": 45.6,
+    "caseMm": 38,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-heritage-l1-649-4-92-2",
+        "note": "Manufacturer page: 38 mm case, 45.6 mm lug-to-lug, 10.8 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 476,
+    "brand": "Longines",
+    "model": "Conquest Heritage",
+    "reference": "L1.649.4.92.6",
+    "lugToLugMm": 45.6,
+    "caseMm": 38,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-heritage-l1-649-4-92-6",
+        "note": "Manufacturer page: 38 mm case, 45.6 mm lug-to-lug, 10.8 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 477,
+    "brand": "Longines",
+    "model": "Conquest Heritage",
+    "reference": "L1.650.4.02.2",
+    "lugToLugMm": 48.1,
+    "caseMm": 40,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-heritage-l1-650-4-02-2",
+        "note": "Manufacturer page: 40 mm case, 48.1 mm lug-to-lug, 10.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 478,
+    "brand": "Longines",
+    "model": "Conquest Heritage",
+    "reference": "L1.650.4.02.6",
+    "lugToLugMm": 48.1,
+    "caseMm": 40,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-heritage-l1-650-4-02-6",
+        "note": "Manufacturer page: 40 mm case, 48.1 mm lug-to-lug, 10.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 479,
+    "brand": "Longines",
+    "model": "Conquest Heritage",
+    "reference": "L1.650.4.52.6",
+    "lugToLugMm": 48.1,
+    "caseMm": 40,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-heritage-l1-650-4-52-6",
+        "note": "Manufacturer page: 40 mm case, 48.1 mm lug-to-lug, 10.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 480,
+    "brand": "Longines",
+    "model": "Conquest Heritage",
+    "reference": "L1.650.4.62.2",
+    "lugToLugMm": 48.1,
+    "caseMm": 40,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-heritage-l1-650-4-62-2",
+        "note": "Manufacturer page: 40 mm case, 48.1 mm lug-to-lug, 10.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 481,
+    "brand": "Longines",
+    "model": "Conquest Heritage",
+    "reference": "L1.650.4.72.2",
+    "lugToLugMm": 48.1,
+    "caseMm": 40,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-heritage-l1-650-4-72-2",
+        "note": "Manufacturer page: 40 mm case, 48.1 mm lug-to-lug, 10.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 482,
+    "brand": "Longines",
+    "model": "Conquest Heritage",
+    "reference": "L1.650.4.72.6",
+    "lugToLugMm": 48.1,
+    "caseMm": 40,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-heritage-l1-650-4-72-6",
+        "note": "Manufacturer page: 40 mm case, 48.1 mm lug-to-lug, 10.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 483,
+    "brand": "Longines",
+    "model": "Conquest Heritage",
+    "reference": "L1.650.4.92.2",
+    "lugToLugMm": 48.1,
+    "caseMm": 40,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-heritage-l1-650-4-92-2",
+        "note": "Manufacturer page: 40 mm case, 48.1 mm lug-to-lug, 10.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 484,
+    "brand": "Longines",
+    "model": "Conquest Heritage",
+    "reference": "L1.650.4.92.6",
+    "lugToLugMm": 48.1,
+    "caseMm": 40,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-heritage-l1-650-4-92-6",
+        "note": "Manufacturer page: 40 mm case, 48.1 mm lug-to-lug, 10.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 485,
+    "brand": "Longines",
+    "model": "Conquest Heritage Year Of The Snake Edition",
+    "reference": "L1.651.4.09.2",
+    "lugToLugMm": 48.1,
+    "caseMm": 40,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-heritage-l1-651-4-09-2",
+        "note": "Manufacturer page: 40 mm case, 48.1 mm lug-to-lug, 10.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 486,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.128.4.78.6",
+    "lugToLugMm": 30.5,
+    "caseMm": 25.5,
+    "thicknessMm": 8.9,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-128-4-78-6",
+        "note": "Manufacturer page: 25.5 mm case, 30.5 mm lug-to-lug, 8.9 mm thickness, and 13 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 487,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.128.5.79.7",
+    "lugToLugMm": 30.5,
+    "caseMm": 25.5,
+    "thicknessMm": 8.9,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-128-5-79-7",
+        "note": "Manufacturer page: 25.5 mm case, 30.5 mm lug-to-lug, 8.9 mm thickness, and 13 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 488,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.128.8.78.3",
+    "lugToLugMm": 30.6,
+    "caseMm": 25.5,
+    "thicknessMm": 9,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-128-8-78-3",
+        "note": "Manufacturer page: 25.5 mm case, 30.6 mm lug-to-lug, 9 mm thickness, and 13 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 489,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.128.8.87.3",
+    "lugToLugMm": 30.6,
+    "caseMm": 25.5,
+    "thicknessMm": 9,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-128-8-87-3",
+        "note": "Manufacturer page: 25.5 mm case, 30.6 mm lug-to-lug, 9 mm thickness, and 13 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 490,
+    "brand": "Longines",
+    "model": "Conquest Classic",
+    "reference": "L2.286.3.92.7",
+    "lugToLugMm": 37.5,
+    "caseMm": 29.5,
+    "thicknessMm": 8.7,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-classic-l2-286-3-92-7",
+        "note": "Manufacturer page: 29.5 mm case, 37.5 mm lug-to-lug, 8.7 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 491,
+    "brand": "Longines",
+    "model": "Conquest Classic",
+    "reference": "L2.286.4.52.6",
+    "lugToLugMm": 37.5,
+    "caseMm": 29.5,
+    "thicknessMm": 8.7,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-classic-l2-286-4-52-6",
+        "note": "Manufacturer page: 29.5 mm case, 37.5 mm lug-to-lug, 8.7 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 492,
+    "brand": "Longines",
+    "model": "Conquest Classic",
+    "reference": "L2.286.4.72.6",
+    "lugToLugMm": 37.5,
+    "caseMm": 29.5,
+    "thicknessMm": 8.7,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-classic-l2-286-4-72-6",
+        "note": "Manufacturer page: 29.5 mm case, 37.5 mm lug-to-lug, 8.7 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 493,
+    "brand": "Longines",
+    "model": "Conquest Classic",
+    "reference": "L2.286.4.87.6",
+    "lugToLugMm": 37.5,
+    "caseMm": 29.5,
+    "thicknessMm": 8.7,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-classic-l2-286-4-87-6",
+        "note": "Manufacturer page: 29.5 mm case, 37.5 mm lug-to-lug, 8.7 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 494,
+    "brand": "Longines",
+    "model": "Conquest Classic",
+    "reference": "L2.286.4.88.6",
+    "lugToLugMm": 37.5,
+    "caseMm": 29.5,
+    "thicknessMm": 8.7,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-classic-l2-286-4-88-6",
+        "note": "Manufacturer page: 29.5 mm case, 37.5 mm lug-to-lug, 8.7 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 495,
+    "brand": "Longines",
+    "model": "Record",
+    "reference": "L2.320.4.11.6",
+    "lugToLugMm": 32.7,
+    "caseMm": 26,
+    "thicknessMm": 10.3,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-record-l2-320-4-11-6",
+        "note": "Manufacturer page: 26 mm case, 32.7 mm lug-to-lug, 10.3 mm thickness, and 13 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 496,
+    "brand": "Longines",
+    "model": "Record",
+    "reference": "L2.320.4.87.6",
+    "lugToLugMm": 32.7,
+    "caseMm": 26,
+    "thicknessMm": 10.3,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-record-l2-320-4-87-6",
+        "note": "Manufacturer page: 26 mm case, 32.7 mm lug-to-lug, 10.3 mm thickness, and 13 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 497,
+    "brand": "Longines",
+    "model": "Record",
+    "reference": "L2.320.5.89.7",
+    "lugToLugMm": 32.7,
+    "caseMm": 26,
+    "thicknessMm": 10.3,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-record-l2-320-5-89-7",
+        "note": "Manufacturer page: 26 mm case, 32.7 mm lug-to-lug, 10.3 mm thickness, and 13 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 498,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.357.4.07.6",
+    "lugToLugMm": 41.7,
+    "caseMm": 34,
+    "thicknessMm": 9.2,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-357-4-07-6",
+        "note": "Manufacturer page: 34 mm case, 41.7 mm lug-to-lug, 9.2 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 499,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.357.4.87.6",
+    "lugToLugMm": 41.7,
+    "caseMm": 34,
+    "thicknessMm": 9.2,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-357-4-87-6",
+        "note": "Manufacturer page: 34 mm case, 41.7 mm lug-to-lug, 9.2 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 500,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.357.4.99.6",
+    "lugToLugMm": 41.7,
+    "caseMm": 34,
+    "thicknessMm": 9.2,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-357-4-99-6",
+        "note": "Manufacturer page: 34 mm case, 41.7 mm lug-to-lug, 9.2 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 501,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.357.5.87.7",
+    "lugToLugMm": 41.7,
+    "caseMm": 34,
+    "thicknessMm": 9.2,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-357-5-87-7",
+        "note": "Manufacturer page: 34 mm case, 41.7 mm lug-to-lug, 9.2 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 502,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.357.5.89.7",
+    "lugToLugMm": 41.7,
+    "caseMm": 34,
+    "thicknessMm": 9.2,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-357-5-89-7",
+        "note": "Manufacturer page: 34 mm case, 41.7 mm lug-to-lug, 9.2 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 503,
+    "brand": "Longines",
+    "model": "Conquest Classic",
+    "reference": "L2.386.3.87.7",
+    "lugToLugMm": 43.2,
+    "caseMm": 34,
+    "thicknessMm": 8.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-classic-l2-386-3-87-7",
+        "note": "Manufacturer page: 34 mm case, 43.2 mm lug-to-lug, 8.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 504,
+    "brand": "Longines",
+    "model": "Master Collection Moonphase",
+    "reference": "L2.409.4.87.0",
+    "lugToLugMm": 41.7,
+    "caseMm": 34,
+    "thicknessMm": 11.1,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-moonphase-l2-409-4-87-0",
+        "note": "Manufacturer page: 34 mm case, 41.7 mm lug-to-lug, 11.1 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 505,
+    "brand": "Longines",
+    "model": "Master Collection Moonphase",
+    "reference": "L2.409.4.87.2",
+    "lugToLugMm": 41.7,
+    "caseMm": 34,
+    "thicknessMm": 11.1,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-moonphase-l2-409-4-87-2",
+        "note": "Manufacturer page: 34 mm case, 41.7 mm lug-to-lug, 11.1 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 506,
+    "brand": "Longines",
+    "model": "Master Collection Moonphase",
+    "reference": "L2.409.4.87.6",
+    "lugToLugMm": 41.7,
+    "caseMm": 34,
+    "thicknessMm": 11.1,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-moonphase-l2-409-4-87-6",
+        "note": "Manufacturer page: 34 mm case, 41.7 mm lug-to-lug, 11.1 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 507,
+    "brand": "Longines",
+    "model": "Master Collection Moonphase",
+    "reference": "L2.409.5.87.7",
+    "lugToLugMm": 41.7,
+    "caseMm": 34,
+    "thicknessMm": 11.1,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-moonphase-l2-409-5-87-7",
+        "note": "Manufacturer page: 34 mm case, 41.7 mm lug-to-lug, 11.1 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 508,
+    "brand": "Longines",
+    "model": "Master Collection Moonphase",
+    "reference": "L2.409.5.89.7",
+    "lugToLugMm": 41.7,
+    "caseMm": 34,
+    "thicknessMm": 11.1,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-moonphase-l2-409-5-89-7",
+        "note": "Manufacturer page: 34 mm case, 41.7 mm lug-to-lug, 11.1 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 509,
+    "brand": "Longines",
+    "model": "Master Collection Moonphase",
+    "reference": "L2.409.8.87.2",
+    "lugToLugMm": 41.7,
+    "caseMm": 34,
+    "thicknessMm": 11.1,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-moonphase-l2-409-8-87-2",
+        "note": "Manufacturer page: 34 mm case, 41.7 mm lug-to-lug, 11.1 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 510,
+    "brand": "Longines",
+    "model": "Ultra-Chron Classic",
+    "reference": "L2.537.4.72.2",
+    "lugToLugMm": 44.6,
+    "caseMm": 37,
+    "thicknessMm": 10.95,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-ultra-chron-l2-537-4-72-2",
+        "note": "Manufacturer page: 37 mm case, 44.6 mm lug-to-lug, 10.95 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 511,
+    "brand": "Longines",
+    "model": "Ultra-Chron Classic",
+    "reference": "L2.537.4.72.6",
+    "lugToLugMm": 44.6,
+    "caseMm": 37,
+    "thicknessMm": 10.95,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-ultra-chron-l2-537-4-72-6",
+        "note": "Manufacturer page: 37 mm case, 44.6 mm lug-to-lug, 10.95 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 512,
+    "brand": "Longines",
+    "model": "Master Collection Chronograph",
+    "reference": "L2.629.4.78.3",
+    "lugToLugMm": 46.7,
+    "caseMm": 40,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-chronograph-l2-629-4-78-3",
+        "note": "Manufacturer page: 40 mm case, 46.7 mm lug-to-lug, 11.7 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 513,
+    "brand": "Longines",
+    "model": "Master Collection Chronograph",
+    "reference": "L2.629.4.78.6",
+    "lugToLugMm": 46.7,
+    "caseMm": 40,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-chronograph-l2-629-4-78-6",
+        "note": "Manufacturer page: 40 mm case, 46.7 mm lug-to-lug, 11.7 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 514,
+    "brand": "Longines",
+    "model": "Master Collection Chronograph",
+    "reference": "L2.629.4.92.0",
+    "lugToLugMm": 46.7,
+    "caseMm": 40,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-chronograph-l2-629-4-92-0",
+        "note": "Manufacturer page: 40 mm case, 46.7 mm lug-to-lug, 11.7 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 515,
+    "brand": "Longines",
+    "model": "Master Collection Chrono Moonphase",
+    "reference": "L2.673.4.61.6",
+    "lugToLugMm": 46.7,
+    "caseMm": 40,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-chronograph-l2-673-4-61-6",
+        "note": "Manufacturer page: 40 mm case, 46.7 mm lug-to-lug, 14.3 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 516,
+    "brand": "Longines",
+    "model": "Master Collection Chrono Moonphase",
+    "reference": "L2.673.4.71.6",
+    "lugToLugMm": 46.7,
+    "caseMm": 40,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-chronograph-l2-673-4-71-6",
+        "note": "Manufacturer page: 40 mm case, 46.7 mm lug-to-lug, 14.3 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 517,
+    "brand": "Longines",
+    "model": "Master Collection Chrono Moonphase",
+    "reference": "L2.673.4.78.3",
+    "lugToLugMm": 46.7,
+    "caseMm": 40,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-chronograph-l2-673-4-78-3",
+        "note": "Manufacturer page: 40 mm case, 46.7 mm lug-to-lug, 14.3 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 518,
+    "brand": "Longines",
+    "model": "Master Collection Chrono Moonphase",
+    "reference": "L2.673.4.78.6",
+    "lugToLugMm": 46.7,
+    "caseMm": 40,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-chronograph-l2-673-4-78-6",
+        "note": "Manufacturer page: 40 mm case, 46.7 mm lug-to-lug, 14.3 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 519,
+    "brand": "Longines",
+    "model": "Master Collection Chrono Moonphase",
+    "reference": "L2.673.4.92.6",
+    "lugToLugMm": 46.7,
+    "caseMm": 40,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-chronograph-l2-673-4-92-6",
+        "note": "Manufacturer page: 40 mm case, 46.7 mm lug-to-lug, 14.3 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 520,
+    "brand": "Longines",
+    "model": "Lindbergh Hour Angle Watch",
+    "reference": "L2.678.4.11.0",
+    "lugToLugMm": 58.2,
+    "caseMm": 47.5,
+    "thicknessMm": 16.3,
+    "lugWidthMm": 25,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-the-longines-avigation-l2-678-4-11-0",
+        "note": "Manufacturer page: 47.5 mm case, 58.2 mm lug-to-lug, 16.3 mm thickness, and 25 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 521,
+    "brand": "Longines",
+    "model": "Master Collection Chronograph",
+    "reference": "L2.759.4.78.6",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 14.2,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-chronograph-l2-759-4-78-6",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 14.2 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 522,
+    "brand": "Longines",
+    "model": "Master Collection Chronograph",
+    "reference": "L2.759.4.92.0",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 14.2,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-chronograph-l2-759-4-92-0",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 14.2 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 523,
+    "brand": "Longines",
+    "model": "Master Collection Chronograph",
+    "reference": "L2.759.4.92.6",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 14.2,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-chronograph-l2-759-4-92-6",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 14.2 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 524,
+    "brand": "Longines",
+    "model": "Master Collection Chrono Moonphase",
+    "reference": "L2.773.4.61.6",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 14.2,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-chronograph-l2-773-4-61-6",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 14.2 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 525,
+    "brand": "Longines",
+    "model": "Master Collection Chrono Moonphase",
+    "reference": "L2.773.4.71.2",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 14.2,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-chronograph-l2-773-4-71-2",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 14.2 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 526,
+    "brand": "Longines",
+    "model": "Master Collection Chrono Moonphase",
+    "reference": "L2.773.4.71.6",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 14.2,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-chronograph-l2-773-4-71-6",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 14.2 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 527,
+    "brand": "Longines",
+    "model": "Master Collection Chrono Moonphase",
+    "reference": "L2.773.4.78.3",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 14.2,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-chronograph-l2-773-4-78-3",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 14.2 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 528,
+    "brand": "Longines",
+    "model": "Master Collection Chrono Moonphase",
+    "reference": "L2.773.4.78.6",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 14.2,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-chronograph-l2-773-4-78-6",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 14.2 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 529,
+    "brand": "Longines",
+    "model": "Master Collection Chrono Moonphase",
+    "reference": "L2.773.4.92.0",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 14.2,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-chronograph-l2-773-4-92-0",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 14.2 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 530,
+    "brand": "Longines",
+    "model": "Master Collection Chrono Moonphase",
+    "reference": "L2.773.4.92.6",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 14.2,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-chronograph-l2-773-4-92-6",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 14.2 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 531,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.793.4.73.2",
+    "lugToLugMm": 46.8,
+    "caseMm": 40,
+    "thicknessMm": 9.35,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-793-4-73-2",
+        "note": "Manufacturer page: 40 mm case, 46.8 mm lug-to-lug, 9.35 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 532,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.793.4.78.6",
+    "lugToLugMm": 46.8,
+    "caseMm": 40,
+    "thicknessMm": 9.35,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-793-4-78-6",
+        "note": "Manufacturer page: 40 mm case, 46.8 mm lug-to-lug, 9.35 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 533,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.793.4.79.6",
+    "lugToLugMm": 46.8,
+    "caseMm": 40,
+    "thicknessMm": 9.35,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-793-4-79-6",
+        "note": "Manufacturer page: 40 mm case, 46.8 mm lug-to-lug, 9.35 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 534,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.793.4.92.6",
+    "lugToLugMm": 46.8,
+    "caseMm": 40,
+    "thicknessMm": 9.35,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-793-4-92-6",
+        "note": "Manufacturer page: 40 mm case, 46.8 mm lug-to-lug, 9.35 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 535,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.793.4.97.6",
+    "lugToLugMm": 46.8,
+    "caseMm": 40,
+    "thicknessMm": 9.35,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-793-4-97-6",
+        "note": "Manufacturer page: 40 mm case, 46.8 mm lug-to-lug, 9.35 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 536,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.793.5.70.2",
+    "lugToLugMm": 46.8,
+    "caseMm": 40,
+    "thicknessMm": 9.35,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-793-5-70-2",
+        "note": "Manufacturer page: 40 mm case, 46.8 mm lug-to-lug, 9.35 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 537,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.793.5.70.7",
+    "lugToLugMm": 46.8,
+    "caseMm": 40,
+    "thicknessMm": 9.35,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-793-5-70-7",
+        "note": "Manufacturer page: 40 mm case, 46.8 mm lug-to-lug, 9.35 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 538,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.793.5.72.7",
+    "lugToLugMm": 46.8,
+    "caseMm": 40,
+    "thicknessMm": 9.35,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-793-5-72-7",
+        "note": "Manufacturer page: 40 mm case, 46.8 mm lug-to-lug, 9.35 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 539,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.793.8.78.3",
+    "lugToLugMm": 46.8,
+    "caseMm": 40,
+    "thicknessMm": 9.8,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-793-8-78-3",
+        "note": "Manufacturer page: 40 mm case, 46.8 mm lug-to-lug, 9.8 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 540,
+    "brand": "Longines",
+    "model": "Avigation Bigeye",
+    "reference": "L2.816.1.93.2",
+    "lugToLugMm": 48.7,
+    "caseMm": 41,
+    "thicknessMm": 14.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-the-longines-avigation-l2-816-1-93-2",
+        "note": "Manufacturer page: 41 mm case, 48.7 mm lug-to-lug, 14.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 541,
+    "brand": "Longines",
+    "model": "Avigation Bigeye",
+    "reference": "L2.816.4.53.2",
+    "lugToLugMm": 48.7,
+    "caseMm": 41,
+    "thicknessMm": 14.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-the-longines-avigation-l2-816-4-53-2",
+        "note": "Manufacturer page: 41 mm case, 48.7 mm lug-to-lug, 14.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 542,
+    "brand": "Longines",
+    "model": "Heritage Military",
+    "reference": "L2.819.4.93.2",
+    "lugToLugMm": 47.6,
+    "caseMm": 38.5,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-the-longines-avigation-l2-819-4-93-2",
+        "note": "Manufacturer page: 38.5 mm case, 47.6 mm lug-to-lug, 11.7 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 543,
+    "brand": "Longines",
+    "model": "Record",
+    "reference": "L2.820.4.11.6",
+    "lugToLugMm": 47.7,
+    "caseMm": 38.5,
+    "thicknessMm": 10.7,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-record-l2-820-4-11-6",
+        "note": "Manufacturer page: 38.5 mm case, 47.7 mm lug-to-lug, 10.7 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 544,
+    "brand": "Longines",
+    "model": "Record",
+    "reference": "L2.821.4.11.6",
+    "lugToLugMm": 49.6,
+    "caseMm": 40,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-record-l2-821-4-11-6",
+        "note": "Manufacturer page: 40 mm case, 49.6 mm lug-to-lug, 10.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 545,
+    "brand": "Longines",
+    "model": "Record",
+    "reference": "L2.821.5.11.7",
+    "lugToLugMm": 49.6,
+    "caseMm": 40,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-record-l2-821-5-11-7",
+        "note": "Manufacturer page: 40 mm case, 49.6 mm lug-to-lug, 10.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 546,
+    "brand": "Longines",
+    "model": "Record",
+    "reference": "L2.821.5.72.7",
+    "lugToLugMm": 49.6,
+    "caseMm": 40,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-record-l2-821-5-72-7",
+        "note": "Manufacturer page: 40 mm case, 49.6 mm lug-to-lug, 10.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 547,
+    "brand": "Longines",
+    "model": "Sector Dial",
+    "reference": "L2.828.4.53.6",
+    "lugToLugMm": 47.6,
+    "caseMm": 38.5,
+    "thicknessMm": 11,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-heritage-classic-l2-828-4-53-6",
+        "note": "Manufacturer page: 38.5 mm case, 47.6 mm lug-to-lug, 11 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 548,
+    "brand": "Longines",
+    "model": "Sector Dial",
+    "reference": "L2.828.4.73.0",
+    "lugToLugMm": 47.6,
+    "caseMm": 38.5,
+    "thicknessMm": 11,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-heritage-classic-l2-828-4-73-0",
+        "note": "Manufacturer page: 38.5 mm case, 47.6 mm lug-to-lug, 11 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 549,
+    "brand": "Longines",
+    "model": "Sector Dial",
+    "reference": "L2.828.4.73.2",
+    "lugToLugMm": 47.6,
+    "caseMm": 38.5,
+    "thicknessMm": 11,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-heritage-classic-l2-828-4-73-2",
+        "note": "Manufacturer page: 38.5 mm case, 47.6 mm lug-to-lug, 11 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 550,
+    "brand": "Longines",
+    "model": "Tuxedo",
+    "reference": "L2.830.4.93.0",
+    "lugToLugMm": 49.4,
+    "caseMm": 40,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-heritage-classic-l2-830-4-93-0",
+        "note": "Manufacturer page: 40 mm case, 49.4 mm lug-to-lug, 13.6 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 551,
+    "brand": "Longines",
+    "model": "Pilot Majetek Pioneer Edition",
+    "reference": "L2.838.1.53.2",
+    "lugToLugMm": 51.4,
+    "caseMm": 43,
+    "thicknessMm": 13.3,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-pilot-majetek-l2-838-1-53-2",
+        "note": "Manufacturer page: 43 mm case, 51.4 mm lug-to-lug, 13.3 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 552,
+    "brand": "Longines",
+    "model": "Ultra-Chron Carbon",
+    "reference": "L2.839.4.52.2",
+    "lugToLugMm": 48.9,
+    "caseMm": 43,
+    "thicknessMm": 14,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-ultra-chron-l2-839-4-52-2",
+        "note": "Manufacturer page: 43 mm case, 48.9 mm lug-to-lug, 14 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 553,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.843.4.73.2",
+    "lugToLugMm": 44.9,
+    "caseMm": 38.5,
+    "thicknessMm": 10.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-843-4-73-2",
+        "note": "Manufacturer page: 38.5 mm case, 44.9 mm lug-to-lug, 10.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 554,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.843.4.93.2",
+    "lugToLugMm": 44.9,
+    "caseMm": 38.5,
+    "thicknessMm": 10.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-843-4-93-2",
+        "note": "Manufacturer page: 38.5 mm case, 44.9 mm lug-to-lug, 10.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 555,
+    "brand": "Longines",
+    "model": "Master Collection GMT",
+    "reference": "L2.844.6.71.2",
+    "lugToLugMm": 46.9,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-gmt-l2-844-6-71-2",
+        "note": "Manufacturer page: 40 mm case, 46.9 mm lug-to-lug, 10.4 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 556,
+    "brand": "Longines",
+    "model": "Master Collection GMT",
+    "reference": "L2.844.8.71.2",
+    "lugToLugMm": 46.9,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-gmt-l2-844-8-71-2",
+        "note": "Manufacturer page: 40 mm case, 46.9 mm lug-to-lug, 10.4 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 557,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.893.4.78.6",
+    "lugToLugMm": 49.6,
+    "caseMm": 42,
+    "thicknessMm": 9.64,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-893-4-78-6",
+        "note": "Manufacturer page: 42 mm case, 49.6 mm lug-to-lug, 9.64 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 558,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.893.4.79.2",
+    "lugToLugMm": 49.6,
+    "caseMm": 42,
+    "thicknessMm": 9.64,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-893-4-79-2",
+        "note": "Manufacturer page: 42 mm case, 49.6 mm lug-to-lug, 9.64 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 559,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.893.4.79.6",
+    "lugToLugMm": 49.6,
+    "caseMm": 42,
+    "thicknessMm": 9.64,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-893-4-79-6",
+        "note": "Manufacturer page: 42 mm case, 49.6 mm lug-to-lug, 9.64 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 560,
+    "brand": "Longines",
+    "model": "Master Collection Moonphase",
+    "reference": "L2.909.4.78.3",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 11.1,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-moonphase-l2-909-4-78-3",
+        "note": "Manufacturer page: 40 mm case, 47 mm lug-to-lug, 11.1 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 561,
+    "brand": "Longines",
+    "model": "Master Collection Moonphase",
+    "reference": "L2.909.4.78.6",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 11.1,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-moonphase-l2-909-4-78-6",
+        "note": "Manufacturer page: 40 mm case, 47 mm lug-to-lug, 11.1 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 562,
+    "brand": "Longines",
+    "model": "Master Collection Moonphase",
+    "reference": "L2.909.4.92.6",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 11.1,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-moonphase-l2-909-4-92-6",
+        "note": "Manufacturer page: 40 mm case, 47 mm lug-to-lug, 11.1 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 563,
+    "brand": "Longines",
+    "model": "Master Collection Moonphase",
+    "reference": "L2.909.4.97.6",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 11.1,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-moonphase-l2-909-4-97-6",
+        "note": "Manufacturer page: 40 mm case, 47 mm lug-to-lug, 11.1 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 564,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.910.4.78.3",
+    "lugToLugMm": 46.8,
+    "caseMm": 40,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-910-4-78-3",
+        "note": "Manufacturer page: 40 mm case, 46.8 mm lug-to-lug, 10.8 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 565,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.910.4.78.6",
+    "lugToLugMm": 46.8,
+    "caseMm": 40,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-910-4-78-6",
+        "note": "Manufacturer page: 40 mm case, 46.8 mm lug-to-lug, 10.8 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 566,
+    "brand": "Longines",
+    "model": "Master Collection Year Of The Horse Edition",
+    "reference": "L2.919.4.09.2",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-moonphase-l2-919-4-09-2",
+        "note": "Manufacturer page: 42 mm case, 49.7 mm lug-to-lug, 11.2 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 567,
+    "brand": "Longines",
+    "model": "Master Collection Moonphase",
+    "reference": "L2.919.4.78.3",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-moonphase-l2-919-4-78-3",
+        "note": "Manufacturer page: 42 mm case, 49.7 mm lug-to-lug, 11.2 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 568,
+    "brand": "Longines",
+    "model": "Master Collection Moonphase",
+    "reference": "L2.919.4.78.6",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-moonphase-l2-919-4-78-6",
+        "note": "Manufacturer page: 42 mm case, 49.7 mm lug-to-lug, 11.2 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 569,
+    "brand": "Longines",
+    "model": "Master Collection Moonphase",
+    "reference": "L2.919.4.92.6",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-moonphase-l2-919-4-92-6",
+        "note": "Manufacturer page: 42 mm case, 49.7 mm lug-to-lug, 11.2 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 570,
+    "brand": "Longines",
+    "model": "Master Collection Moonphase",
+    "reference": "L2.919.4.97.6",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-moonphase-l2-919-4-97-6",
+        "note": "Manufacturer page: 42 mm case, 49.7 mm lug-to-lug, 11.2 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 571,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.920.4.78.3",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-920-4-78-3",
+        "note": "Manufacturer page: 42 mm case, 49.7 mm lug-to-lug, 10.8 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 572,
+    "brand": "Longines",
+    "model": "Master Collection",
+    "reference": "L2.920.4.78.6",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-master-collection-l2-920-4-78-6",
+        "note": "Manufacturer page: 42 mm case, 49.7 mm lug-to-lug, 10.8 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 573,
+    "brand": "Longines",
+    "model": "Ultra-Chron Classic",
+    "reference": "L2.937.4.72.2",
+    "lugToLugMm": 47.2,
+    "caseMm": 40,
+    "thicknessMm": 10.95,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-ultra-chron-l2-937-4-72-2",
+        "note": "Manufacturer page: 40 mm case, 47.2 mm lug-to-lug, 10.95 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 574,
+    "brand": "Longines",
+    "model": "Ultra-Chron Classic",
+    "reference": "L2.937.4.72.6",
+    "lugToLugMm": 47.2,
+    "caseMm": 40,
+    "thicknessMm": 10.95,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-ultra-chron-l2-937-4-72-6",
+        "note": "Manufacturer page: 40 mm case, 47.2 mm lug-to-lug, 10.95 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 575,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.320.0.87.6",
+    "lugToLugMm": 37.8,
+    "caseMm": 30,
+    "thicknessMm": 9.7,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-320-0-87-6",
+        "note": "Manufacturer page: 30 mm case, 37.8 mm lug-to-lug, 9.7 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 576,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.320.4.07.6",
+    "lugToLugMm": 37.8,
+    "caseMm": 30,
+    "thicknessMm": 9.7,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-320-4-07-6",
+        "note": "Manufacturer page: 30 mm case, 37.8 mm lug-to-lug, 9.7 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 577,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.320.4.72.6",
+    "lugToLugMm": 37.8,
+    "caseMm": 30,
+    "thicknessMm": 9.7,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-320-4-72-6",
+        "note": "Manufacturer page: 30 mm case, 37.8 mm lug-to-lug, 9.7 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 578,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.320.4.87.6",
+    "lugToLugMm": 37.8,
+    "caseMm": 30,
+    "thicknessMm": 9.7,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-320-4-87-6",
+        "note": "Manufacturer page: 30 mm case, 37.8 mm lug-to-lug, 9.7 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 579,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.320.4.97.6",
+    "lugToLugMm": 37.8,
+    "caseMm": 30,
+    "thicknessMm": 9.7,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-320-4-97-6",
+        "note": "Manufacturer page: 30 mm case, 37.8 mm lug-to-lug, 9.7 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 580,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.320.5.02.6",
+    "lugToLugMm": 37.8,
+    "caseMm": 30,
+    "thicknessMm": 9.7,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-320-5-02-6",
+        "note": "Manufacturer page: 30 mm case, 37.8 mm lug-to-lug, 9.7 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 581,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.320.5.72.6",
+    "lugToLugMm": 37.8,
+    "caseMm": 30,
+    "thicknessMm": 9.7,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-320-5-72-6",
+        "note": "Manufacturer page: 30 mm case, 37.8 mm lug-to-lug, 9.7 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 582,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.320.5.87.6",
+    "lugToLugMm": 37.8,
+    "caseMm": 30,
+    "thicknessMm": 9.7,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-320-5-87-6",
+        "note": "Manufacturer page: 30 mm case, 37.8 mm lug-to-lug, 9.7 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 583,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.320.5.92.6",
+    "lugToLugMm": 37.8,
+    "caseMm": 30,
+    "thicknessMm": 9.7,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-320-5-92-6",
+        "note": "Manufacturer page: 30 mm case, 37.8 mm lug-to-lug, 9.7 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 584,
+    "brand": "Longines",
+    "model": "Spirit",
+    "reference": "L3.410.4.53.6",
+    "lugToLugMm": 44.8,
+    "caseMm": 37,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-l3-410-4-53-6",
+        "note": "Manufacturer page: 37 mm case, 44.8 mm lug-to-lug, 11.7 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 585,
+    "brand": "Longines",
+    "model": "Spirit",
+    "reference": "L3.410.4.63.6",
+    "lugToLugMm": 44.8,
+    "caseMm": 37,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-l3-410-4-63-6",
+        "note": "Manufacturer page: 37 mm case, 44.8 mm lug-to-lug, 11.7 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 586,
+    "brand": "Longines",
+    "model": "Spirit",
+    "reference": "L3.410.4.93.6",
+    "lugToLugMm": 44.8,
+    "caseMm": 37,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-l3-410-4-93-6",
+        "note": "Manufacturer page: 37 mm case, 44.8 mm lug-to-lug, 11.7 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 587,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.430.0.87.6",
+    "lugToLugMm": 41.1,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-430-0-87-6",
+        "note": "Manufacturer page: 34 mm case, 41.1 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 588,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.430.0.87.9",
+    "lugToLugMm": 41.1,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-430-0-87-9",
+        "note": "Manufacturer page: 34 mm case, 41.1 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 589,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.430.4.02.6",
+    "lugToLugMm": 41.1,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-430-4-02-6",
+        "note": "Manufacturer page: 34 mm case, 41.1 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 590,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.430.4.02.9",
+    "lugToLugMm": 41.1,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-430-4-02-9",
+        "note": "Manufacturer page: 34 mm case, 41.1 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 591,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.430.4.07.6",
+    "lugToLugMm": 41.1,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-430-4-07-6",
+        "note": "Manufacturer page: 34 mm case, 41.1 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 592,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.430.4.62.6",
+    "lugToLugMm": 41.1,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-430-4-62-6",
+        "note": "Manufacturer page: 34 mm case, 41.1 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 593,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.430.4.87.6",
+    "lugToLugMm": 41.1,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-430-4-87-6",
+        "note": "Manufacturer page: 34 mm case, 41.1 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 594,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.430.4.92.6",
+    "lugToLugMm": 41.1,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-430-4-92-6",
+        "note": "Manufacturer page: 34 mm case, 41.1 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 595,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.430.4.92.9",
+    "lugToLugMm": 41.1,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-430-4-92-9",
+        "note": "Manufacturer page: 34 mm case, 41.1 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 596,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.430.4.97.6",
+    "lugToLugMm": 41.1,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-430-4-97-6",
+        "note": "Manufacturer page: 34 mm case, 41.1 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 597,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.430.4.99.6",
+    "lugToLugMm": 41.1,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-430-4-99-6",
+        "note": "Manufacturer page: 34 mm case, 41.1 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 598,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.430.4.99.9",
+    "lugToLugMm": 41.1,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-430-4-99-9",
+        "note": "Manufacturer page: 34 mm case, 41.1 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 599,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.430.5.02.6",
+    "lugToLugMm": 41.1,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-430-5-02-6",
+        "note": "Manufacturer page: 34 mm case, 41.1 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 600,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.430.5.02.9",
+    "lugToLugMm": 41.1,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-430-5-02-9",
+        "note": "Manufacturer page: 34 mm case, 41.1 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 601,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.430.5.72.6",
+    "lugToLugMm": 41.1,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-430-5-72-6",
+        "note": "Manufacturer page: 34 mm case, 41.1 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 602,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.430.5.72.9",
+    "lugToLugMm": 41.1,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-430-5-72-9",
+        "note": "Manufacturer page: 34 mm case, 41.1 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 603,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.430.5.92.6",
+    "lugToLugMm": 41.1,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-430-5-92-6",
+        "note": "Manufacturer page: 34 mm case, 41.1 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 604,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.430.5.92.9",
+    "lugToLugMm": 41.1,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-430-5-92-9",
+        "note": "Manufacturer page: 34 mm case, 41.1 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 605,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.430.5.98.6",
+    "lugToLugMm": 41.1,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-430-5-98-6",
+        "note": "Manufacturer page: 34 mm case, 41.1 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 606,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.430.5.98.9",
+    "lugToLugMm": 41.1,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-430-5-98-9",
+        "note": "Manufacturer page: 34 mm case, 41.1 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 607,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.720.4.02.6",
+    "lugToLugMm": 46.8,
+    "caseMm": 38,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-720-4-02-6",
+        "note": "Manufacturer page: 38 mm case, 46.8 mm lug-to-lug, 10.9 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 608,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.720.4.02.9",
+    "lugToLugMm": 46.8,
+    "caseMm": 38,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-720-4-02-9",
+        "note": "Manufacturer page: 38 mm case, 46.8 mm lug-to-lug, 10.9 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 609,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.720.4.52.6",
+    "lugToLugMm": 46.8,
+    "caseMm": 38,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-720-4-52-6",
+        "note": "Manufacturer page: 38 mm case, 46.8 mm lug-to-lug, 10.9 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 610,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.720.4.52.9",
+    "lugToLugMm": 46.8,
+    "caseMm": 38,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-720-4-52-9",
+        "note": "Manufacturer page: 38 mm case, 46.8 mm lug-to-lug, 10.9 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 611,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.720.4.62.6",
+    "lugToLugMm": 46.8,
+    "caseMm": 38,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-720-4-62-6",
+        "note": "Manufacturer page: 38 mm case, 46.8 mm lug-to-lug, 10.9 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 612,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.720.4.72.6",
+    "lugToLugMm": 46.8,
+    "caseMm": 38,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-720-4-72-6",
+        "note": "Manufacturer page: 38 mm case, 46.8 mm lug-to-lug, 10.9 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 613,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.720.4.92.6",
+    "lugToLugMm": 46.8,
+    "caseMm": 38,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-720-4-92-6",
+        "note": "Manufacturer page: 38 mm case, 46.8 mm lug-to-lug, 10.9 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 614,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.720.4.92.9",
+    "lugToLugMm": 46.8,
+    "caseMm": 38,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-720-4-92-9",
+        "note": "Manufacturer page: 38 mm case, 46.8 mm lug-to-lug, 10.9 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 615,
+    "brand": "Longines",
+    "model": "Spirit Pilot Flyback",
+    "reference": "L3.721.4.53.2",
+    "lugToLugMm": 47.4,
+    "caseMm": 39.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-pilot-flyback-l3-721-4-53-2",
+        "note": "Manufacturer page: 39.5 mm case, 47.4 mm lug-to-lug, 13.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 616,
+    "brand": "Longines",
+    "model": "Spirit Pilot Flyback",
+    "reference": "L3.721.4.53.6",
+    "lugToLugMm": 47.4,
+    "caseMm": 39.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-pilot-flyback-l3-721-4-53-6",
+        "note": "Manufacturer page: 39.5 mm case, 47.4 mm lug-to-lug, 13.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 617,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.759.4.58.6",
+    "lugToLugMm": 51,
+    "caseMm": 41,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-759-4-58-6",
+        "note": "Manufacturer page: 41 mm case, 51 mm lug-to-lug, 11.8 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 618,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.759.4.76.6",
+    "lugToLugMm": 51,
+    "caseMm": 41,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-759-4-76-6",
+        "note": "Manufacturer page: 41 mm case, 51 mm lug-to-lug, 11.8 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 619,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.759.4.96.6",
+    "lugToLugMm": 51,
+    "caseMm": 41,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-759-4-96-6",
+        "note": "Manufacturer page: 41 mm case, 51 mm lug-to-lug, 11.8 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 620,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.760.4.56.6",
+    "lugToLugMm": 53.5,
+    "caseMm": 43,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-760-4-56-6",
+        "note": "Manufacturer page: 43 mm case, 53.5 mm lug-to-lug, 11.5 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 621,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.760.4.76.6",
+    "lugToLugMm": 53.5,
+    "caseMm": 43,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-760-4-76-6",
+        "note": "Manufacturer page: 43 mm case, 53.5 mm lug-to-lug, 11.5 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 622,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.760.4.96.6",
+    "lugToLugMm": 53.5,
+    "caseMm": 43,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-760-4-96-6",
+        "note": "Manufacturer page: 43 mm case, 53.5 mm lug-to-lug, 11.5 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 623,
+    "brand": "Longines",
+    "model": "Legend Diver",
+    "reference": "L3.764.4.06.6",
+    "lugToLugMm": 47,
+    "caseMm": 39,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-legend-diver-l3-764-4-06-6",
+        "note": "Manufacturer page: 39 mm case, 47 mm lug-to-lug, 12.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 624,
+    "brand": "Longines",
+    "model": "Legend Diver",
+    "reference": "L3.764.4.16.6",
+    "lugToLugMm": 47,
+    "caseMm": 39,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-legend-diver-l3-764-4-16-6",
+        "note": "Manufacturer page: 39 mm case, 47 mm lug-to-lug, 12.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 625,
+    "brand": "Longines",
+    "model": "Legend Diver",
+    "reference": "L3.764.4.50.0",
+    "lugToLugMm": 47,
+    "caseMm": 39,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-legend-diver-l3-764-4-50-0",
+        "note": "Manufacturer page: 39 mm case, 47 mm lug-to-lug, 12.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 626,
+    "brand": "Longines",
+    "model": "Legend Diver",
+    "reference": "L3.764.4.50.7",
+    "lugToLugMm": 47,
+    "caseMm": 39,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-legend-diver-l3-764-4-50-7",
+        "note": "Manufacturer page: 39 mm case, 47 mm lug-to-lug, 12.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 627,
+    "brand": "Longines",
+    "model": "Legend Diver",
+    "reference": "L3.764.4.50.9",
+    "lugToLugMm": 47,
+    "caseMm": 39,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-legend-diver-l3-764-4-50-9",
+        "note": "Manufacturer page: 39 mm case, 47 mm lug-to-lug, 12.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 628,
+    "brand": "Longines",
+    "model": "Legend Diver",
+    "reference": "L3.764.4.90.7",
+    "lugToLugMm": 47,
+    "caseMm": 39,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-legend-diver-l3-764-4-90-7",
+        "note": "Manufacturer page: 39 mm case, 47 mm lug-to-lug, 12.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 629,
+    "brand": "Longines",
+    "model": "Legend Diver",
+    "reference": "L3.764.4.90.9",
+    "lugToLugMm": 47,
+    "caseMm": 39,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-legend-diver-l3-764-4-90-9",
+        "note": "Manufacturer page: 39 mm case, 47 mm lug-to-lug, 12.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 630,
+    "brand": "Longines",
+    "model": "Legend Diver",
+    "reference": "L3.764.4.96.6",
+    "lugToLugMm": 47,
+    "caseMm": 39,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-legend-diver-l3-764-4-96-6",
+        "note": "Manufacturer page: 39 mm case, 47 mm lug-to-lug, 12.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 631,
+    "brand": "Longines",
+    "model": "Legend Diver",
+    "reference": "L3.764.4.99.6",
+    "lugToLugMm": 47,
+    "caseMm": 39,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-legend-diver-l3-764-4-99-6",
+        "note": "Manufacturer page: 39 mm case, 47 mm lug-to-lug, 12.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 632,
+    "brand": "Longines",
+    "model": "Legend Diver Bronze",
+    "reference": "L3.774.1.50.2",
+    "lugToLugMm": 52.6,
+    "caseMm": 42,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-legend-diver-l3-774-1-50-2",
+        "note": "Manufacturer page: 42 mm case, 52.6 mm lug-to-lug, 12.7 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 633,
+    "brand": "Longines",
+    "model": "Legend Diver",
+    "reference": "L3.774.4.30.2",
+    "lugToLugMm": 52.6,
+    "caseMm": 42,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-legend-diver-l3-774-4-30-2",
+        "note": "Manufacturer page: 42 mm case, 52.6 mm lug-to-lug, 12.7 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 634,
+    "brand": "Longines",
+    "model": "Legend Diver",
+    "reference": "L3.774.4.60.2",
+    "lugToLugMm": 52.6,
+    "caseMm": 42,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-legend-diver-l3-774-4-60-2",
+        "note": "Manufacturer page: 42 mm case, 52.6 mm lug-to-lug, 12.7 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 635,
+    "brand": "Longines",
+    "model": "Legend Diver",
+    "reference": "L3.774.4.70.2",
+    "lugToLugMm": 52.6,
+    "caseMm": 42,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-legend-diver-l3-774-4-70-2",
+        "note": "Manufacturer page: 42 mm case, 52.6 mm lug-to-lug, 12.7 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 636,
+    "brand": "Longines",
+    "model": "Legend Diver",
+    "reference": "L3.774.4.90.2",
+    "lugToLugMm": 52.6,
+    "caseMm": 42,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-legend-diver-l3-774-4-90-2",
+        "note": "Manufacturer page: 42 mm case, 52.6 mm lug-to-lug, 12.7 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 637,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.779.4.06.6",
+    "lugToLugMm": 48.1,
+    "caseMm": 39,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-779-4-06-6",
+        "note": "Manufacturer page: 39 mm case, 48.1 mm lug-to-lug, 11.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 638,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.779.4.56.6",
+    "lugToLugMm": 48.1,
+    "caseMm": 39,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-779-4-56-6",
+        "note": "Manufacturer page: 39 mm case, 48.1 mm lug-to-lug, 11.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 639,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.779.4.70.6",
+    "lugToLugMm": 48.1,
+    "caseMm": 39,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-779-4-70-6",
+        "note": "Manufacturer page: 39 mm case, 48.1 mm lug-to-lug, 11.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 640,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.779.4.90.6",
+    "lugToLugMm": 48.1,
+    "caseMm": 39,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-779-4-90-6",
+        "note": "Manufacturer page: 39 mm case, 48.1 mm lug-to-lug, 11.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 641,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.779.4.96.6",
+    "lugToLugMm": 48.1,
+    "caseMm": 39,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-779-4-96-6",
+        "note": "Manufacturer page: 39 mm case, 48.1 mm lug-to-lug, 11.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 642,
+    "brand": "Longines",
+    "model": "HydroConquest 익스클루시브 에디션",
+    "reference": "L3.779.4.98.6",
+    "lugToLugMm": 48.1,
+    "caseMm": 39,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-779-4-98-6",
+        "note": "Manufacturer page: 39 mm case, 48.1 mm lug-to-lug, 11.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 643,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.779.4.99.6",
+    "lugToLugMm": 48.1,
+    "caseMm": 39,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-779-4-99-6",
+        "note": "Manufacturer page: 39 mm case, 48.1 mm lug-to-lug, 11.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 644,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.780.3.78.6",
+    "lugToLugMm": 48.1,
+    "caseMm": 39,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-780-3-78-6",
+        "note": "Manufacturer page: 39 mm case, 48.1 mm lug-to-lug, 12.2 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 645,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.780.4.56.6",
+    "lugToLugMm": 48.1,
+    "caseMm": 39,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-780-4-56-6",
+        "note": "Manufacturer page: 39 mm case, 48.1 mm lug-to-lug, 12.2 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 646,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.780.4.96.6",
+    "lugToLugMm": 48.1,
+    "caseMm": 39,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-780-4-96-6",
+        "note": "Manufacturer page: 39 mm case, 48.1 mm lug-to-lug, 12.2 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 647,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.781.3.56.7",
+    "lugToLugMm": 51.1,
+    "caseMm": 41,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-781-3-56-7",
+        "note": "Manufacturer page: 41 mm case, 51.1 mm lug-to-lug, 11.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 648,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.781.3.78.7",
+    "lugToLugMm": 51.1,
+    "caseMm": 41,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-781-3-78-7",
+        "note": "Manufacturer page: 41 mm case, 51.1 mm lug-to-lug, 11.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 649,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.781.4.06.6",
+    "lugToLugMm": 51.1,
+    "caseMm": 41,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-781-4-06-6",
+        "note": "Manufacturer page: 41 mm case, 51.1 mm lug-to-lug, 11.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 650,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.781.4.56.6",
+    "lugToLugMm": 51.1,
+    "caseMm": 41,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-781-4-56-6",
+        "note": "Manufacturer page: 41 mm case, 51.1 mm lug-to-lug, 11.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 651,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.781.4.76.6",
+    "lugToLugMm": 51.1,
+    "caseMm": 41,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-781-4-76-6",
+        "note": "Manufacturer page: 41 mm case, 51.1 mm lug-to-lug, 11.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 652,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.781.4.96.6",
+    "lugToLugMm": 51.1,
+    "caseMm": 41,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-781-4-96-6",
+        "note": "Manufacturer page: 41 mm case, 51.1 mm lug-to-lug, 11.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 653,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.781.4.96.9",
+    "lugToLugMm": 51.1,
+    "caseMm": 41,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-781-4-96-9",
+        "note": "Manufacturer page: 41 mm case, 51.1 mm lug-to-lug, 11.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 654,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.782.3.56.7",
+    "lugToLugMm": 53.5,
+    "caseMm": 43,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-782-3-56-7",
+        "note": "Manufacturer page: 43 mm case, 53.5 mm lug-to-lug, 11.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 655,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.782.3.98.7",
+    "lugToLugMm": 53.5,
+    "caseMm": 43,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-782-3-98-7",
+        "note": "Manufacturer page: 43 mm case, 53.5 mm lug-to-lug, 11.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 656,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.788.4.06.6",
+    "lugToLugMm": 51.2,
+    "caseMm": 42,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-788-4-06-6",
+        "note": "Manufacturer page: 42 mm case, 51.2 mm lug-to-lug, 11.7 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 657,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.788.4.56.6",
+    "lugToLugMm": 51.2,
+    "caseMm": 42,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-788-4-56-6",
+        "note": "Manufacturer page: 42 mm case, 51.2 mm lug-to-lug, 11.7 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 658,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.788.4.70.6",
+    "lugToLugMm": 51.2,
+    "caseMm": 42,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-788-4-70-6",
+        "note": "Manufacturer page: 42 mm case, 51.2 mm lug-to-lug, 11.7 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 659,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.788.4.90.6",
+    "lugToLugMm": 51.2,
+    "caseMm": 42,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-788-4-90-6",
+        "note": "Manufacturer page: 42 mm case, 51.2 mm lug-to-lug, 11.7 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 660,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.788.4.96.6",
+    "lugToLugMm": 51.2,
+    "caseMm": 42,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-788-4-96-6",
+        "note": "Manufacturer page: 42 mm case, 51.2 mm lug-to-lug, 11.7 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 661,
+    "brand": "Longines",
+    "model": "HydroConquest 익스클루시브 에디션",
+    "reference": "L3.788.4.98.6",
+    "lugToLugMm": 51.2,
+    "caseMm": 42,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-788-4-98-6",
+        "note": "Manufacturer page: 42 mm case, 51.2 mm lug-to-lug, 11.7 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 662,
+    "brand": "Longines",
+    "model": "HydroConquest",
+    "reference": "L3.788.4.99.6",
+    "lugToLugMm": 51.2,
+    "caseMm": 42,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-l3-788-4-99-6",
+        "note": "Manufacturer page: 42 mm case, 51.2 mm lug-to-lug, 11.7 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 663,
+    "brand": "Longines",
+    "model": "HydroConquest GMT",
+    "reference": "L3.790.4.06.6",
+    "lugToLugMm": 49.4,
+    "caseMm": 41,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-gmt-l3-790-4-06-6",
+        "note": "Manufacturer page: 41 mm case, 49.4 mm lug-to-lug, 12.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 664,
+    "brand": "Longines",
+    "model": "HydroConquest GMT",
+    "reference": "L3.790.4.56.6",
+    "lugToLugMm": 49.4,
+    "caseMm": 41,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-gmt-l3-790-4-56-6",
+        "note": "Manufacturer page: 41 mm case, 49.4 mm lug-to-lug, 12.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 665,
+    "brand": "Longines",
+    "model": "HydroConquest GMT",
+    "reference": "L3.790.4.96.6",
+    "lugToLugMm": 49.4,
+    "caseMm": 41,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-gmt-l3-790-4-96-6",
+        "note": "Manufacturer page: 41 mm case, 49.4 mm lug-to-lug, 12.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 666,
+    "brand": "Longines",
+    "model": "Legend Diver 59",
+    "reference": "L3.795.4.59.9",
+    "lugToLugMm": 50.1,
+    "caseMm": 42,
+    "thicknessMm": 12.85,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-legend-diver-l3-795-4-59-9",
+        "note": "Manufacturer page: 42 mm case, 50.1 mm lug-to-lug, 12.85 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 667,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time Titanium",
+    "reference": "L3.802.1.53.6",
+    "lugToLugMm": 46.8,
+    "caseMm": 39,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-802-1-53-6",
+        "note": "Manufacturer page: 39 mm case, 46.8 mm lug-to-lug, 13.5 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 668,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time",
+    "reference": "L3.802.4.50.6",
+    "lugToLugMm": 46.8,
+    "caseMm": 39,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-802-4-50-6",
+        "note": "Manufacturer page: 39 mm case, 46.8 mm lug-to-lug, 13.5 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 669,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time",
+    "reference": "L3.802.4.53.2",
+    "lugToLugMm": 46.8,
+    "caseMm": 39,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-802-4-53-2",
+        "note": "Manufacturer page: 39 mm case, 46.8 mm lug-to-lug, 13.5 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 670,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time",
+    "reference": "L3.802.4.53.6",
+    "lugToLugMm": 46.8,
+    "caseMm": 39,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-802-4-53-6",
+        "note": "Manufacturer page: 39 mm case, 46.8 mm lug-to-lug, 13.5 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 671,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time",
+    "reference": "L3.802.4.60.6",
+    "lugToLugMm": 46.8,
+    "caseMm": 39,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-802-4-60-6",
+        "note": "Manufacturer page: 39 mm case, 46.8 mm lug-to-lug, 13.5 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 672,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time",
+    "reference": "L3.802.4.63.6",
+    "lugToLugMm": 46.8,
+    "caseMm": 39,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-802-4-63-6",
+        "note": "Manufacturer page: 39 mm case, 46.8 mm lug-to-lug, 13.5 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 673,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time",
+    "reference": "L3.802.4.93.2",
+    "lugToLugMm": 46.8,
+    "caseMm": 39,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-802-4-93-2",
+        "note": "Manufacturer page: 39 mm case, 46.8 mm lug-to-lug, 13.5 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 674,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time",
+    "reference": "L3.802.4.93.6",
+    "lugToLugMm": 46.8,
+    "caseMm": 39,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-802-4-93-6",
+        "note": "Manufacturer page: 39 mm case, 46.8 mm lug-to-lug, 13.5 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 675,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time",
+    "reference": "L3.802.5.53.2",
+    "lugToLugMm": 46.8,
+    "caseMm": 39,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-802-5-53-2",
+        "note": "Manufacturer page: 39 mm case, 46.8 mm lug-to-lug, 13.5 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 676,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time",
+    "reference": "L3.802.5.53.6",
+    "lugToLugMm": 46.8,
+    "caseMm": 39,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-802-5-53-6",
+        "note": "Manufacturer page: 39 mm case, 46.8 mm lug-to-lug, 13.5 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 677,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time 1925",
+    "reference": "L3.803.5.53.6",
+    "lugToLugMm": 46.8,
+    "caseMm": 39,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-803-5-53-6",
+        "note": "Manufacturer page: 39 mm case, 46.8 mm lug-to-lug, 13.5 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 678,
+    "brand": "Longines",
+    "model": "Spirit Pilot",
+    "reference": "L3.809.4.53.2",
+    "lugToLugMm": 47.2,
+    "caseMm": 39,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-pilot-l3-809-4-53-2",
+        "note": "Manufacturer page: 39 mm case, 47.2 mm lug-to-lug, 11.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 679,
+    "brand": "Longines",
+    "model": "Spirit Pilot",
+    "reference": "L3.809.4.53.6",
+    "lugToLugMm": 47.2,
+    "caseMm": 39,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-pilot-l3-809-4-53-6",
+        "note": "Manufacturer page: 39 mm case, 47.2 mm lug-to-lug, 11.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 680,
+    "brand": "Longines",
+    "model": "Spirit Pilot",
+    "reference": "L3.809.4.53.9",
+    "lugToLugMm": 47.2,
+    "caseMm": 39,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-pilot-l3-809-4-53-9",
+        "note": "Manufacturer page: 39 mm case, 47.2 mm lug-to-lug, 11.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 681,
+    "brand": "Longines",
+    "model": "Spirit",
+    "reference": "L3.810.4.03.6",
+    "lugToLugMm": 49.7,
+    "caseMm": 40,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-l3-810-4-03-6",
+        "note": "Manufacturer page: 40 mm case, 49.7 mm lug-to-lug, 12.2 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 682,
+    "brand": "Longines",
+    "model": "Spirit",
+    "reference": "L3.810.4.53.6",
+    "lugToLugMm": 49.7,
+    "caseMm": 40,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-l3-810-4-53-6",
+        "note": "Manufacturer page: 40 mm case, 49.7 mm lug-to-lug, 12.2 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 683,
+    "brand": "Longines",
+    "model": "Spirit",
+    "reference": "L3.810.4.73.6",
+    "lugToLugMm": 49.7,
+    "caseMm": 40,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-l3-810-4-73-6",
+        "note": "Manufacturer page: 40 mm case, 49.7 mm lug-to-lug, 12.2 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 684,
+    "brand": "Longines",
+    "model": "Spirit",
+    "reference": "L3.810.4.93.6",
+    "lugToLugMm": 49.7,
+    "caseMm": 40,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-l3-810-4-93-6",
+        "note": "Manufacturer page: 40 mm case, 49.7 mm lug-to-lug, 12.2 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 685,
+    "brand": "Longines",
+    "model": "Spirit",
+    "reference": "L3.811.4.03.6",
+    "lugToLugMm": 51.4,
+    "caseMm": 42,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-l3-811-4-03-6",
+        "note": "Manufacturer page: 42 mm case, 51.4 mm lug-to-lug, 12.2 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 686,
+    "brand": "Longines",
+    "model": "Spirit",
+    "reference": "L3.811.4.73.6",
+    "lugToLugMm": 51.4,
+    "caseMm": 42,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-l3-811-4-73-6",
+        "note": "Manufacturer page: 42 mm case, 51.4 mm lug-to-lug, 12.2 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 687,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time",
+    "reference": "L3.812.4.50.6",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 14.1,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-812-4-50-6",
+        "note": "Manufacturer page: 42 mm case, 49.4 mm lug-to-lug, 14.1 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 688,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time",
+    "reference": "L3.812.4.53.2",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 14.1,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-812-4-53-2",
+        "note": "Manufacturer page: 42 mm case, 49.4 mm lug-to-lug, 14.1 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 689,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time",
+    "reference": "L3.812.4.53.6",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 14.1,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-812-4-53-6",
+        "note": "Manufacturer page: 42 mm case, 49.4 mm lug-to-lug, 14.1 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 690,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time",
+    "reference": "L3.812.4.60.6",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 14.1,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-812-4-60-6",
+        "note": "Manufacturer page: 42 mm case, 49.4 mm lug-to-lug, 14.1 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 691,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time",
+    "reference": "L3.812.4.63.2",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 14.1,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-812-4-63-2",
+        "note": "Manufacturer page: 42 mm case, 49.4 mm lug-to-lug, 14.1 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 692,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time",
+    "reference": "L3.812.4.63.6",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 14.1,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-812-4-63-6",
+        "note": "Manufacturer page: 42 mm case, 49.4 mm lug-to-lug, 14.1 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 693,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time",
+    "reference": "L3.812.4.93.2",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 14.1,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-812-4-93-2",
+        "note": "Manufacturer page: 42 mm case, 49.4 mm lug-to-lug, 14.1 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 694,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time",
+    "reference": "L3.812.4.93.6",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 14.1,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-812-4-93-6",
+        "note": "Manufacturer page: 42 mm case, 49.4 mm lug-to-lug, 14.1 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 695,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time",
+    "reference": "L3.812.5.53.2",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 14.1,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-812-5-53-2",
+        "note": "Manufacturer page: 42 mm case, 49.4 mm lug-to-lug, 14.1 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 696,
+    "brand": "Longines",
+    "model": "Spirit Zulu Time",
+    "reference": "L3.812.5.53.6",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 14.1,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-zulu-time-l3-812-5-53-6",
+        "note": "Manufacturer page: 42 mm case, 49.4 mm lug-to-lug, 14.1 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 697,
+    "brand": "Longines",
+    "model": "Spirit Chronograph",
+    "reference": "L3.820.4.53.6",
+    "lugToLugMm": 51.4,
+    "caseMm": 42,
+    "thicknessMm": 16.5,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-chronograph-l3-820-4-53-6",
+        "note": "Manufacturer page: 42 mm case, 51.4 mm lug-to-lug, 16.5 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 698,
+    "brand": "Longines",
+    "model": "Spirit Chronograph",
+    "reference": "L3.820.4.93.6",
+    "lugToLugMm": 51.4,
+    "caseMm": 42,
+    "thicknessMm": 16.5,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-chronograph-l3-820-4-93-6",
+        "note": "Manufacturer page: 42 mm case, 51.4 mm lug-to-lug, 16.5 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 699,
+    "brand": "Longines",
+    "model": "Spirit Flyback Titanium",
+    "reference": "L3.821.1.53.6",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 17,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-flyback-l3-821-1-53-6",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 17 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 700,
+    "brand": "Longines",
+    "model": "Spirit Flyback",
+    "reference": "L3.821.4.53.2",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 17,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-flyback-l3-821-4-53-2",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 17 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 701,
+    "brand": "Longines",
+    "model": "Spirit Flyback",
+    "reference": "L3.821.4.53.6",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 17,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-flyback-l3-821-4-53-6",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 17 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 702,
+    "brand": "Longines",
+    "model": "Spirit Flyback",
+    "reference": "L3.821.4.93.6",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 17,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-flyback-l3-821-4-93-6",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 17 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 703,
+    "brand": "Longines",
+    "model": "Spirit Flyback",
+    "reference": "L3.821.5.53.2",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 17,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-flyback-l3-821-5-53-2",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 17 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 704,
+    "brand": "Longines",
+    "model": "Spirit Flyback",
+    "reference": "L3.821.5.59.2",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 17,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-spirit-flyback-l3-821-5-59-2",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 17 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 705,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.830.4.02.6",
+    "lugToLugMm": 49.1,
+    "caseMm": 41,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-830-4-02-6",
+        "note": "Manufacturer page: 41 mm case, 49.1 mm lug-to-lug, 10.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 706,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.830.4.02.9",
+    "lugToLugMm": 49.1,
+    "caseMm": 41,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-830-4-02-9",
+        "note": "Manufacturer page: 41 mm case, 49.1 mm lug-to-lug, 10.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 707,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.830.4.07.6",
+    "lugToLugMm": 49.1,
+    "caseMm": 41,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-830-4-07-6",
+        "note": "Manufacturer page: 41 mm case, 49.1 mm lug-to-lug, 10.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 708,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.830.4.52.6",
+    "lugToLugMm": 49.1,
+    "caseMm": 41,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-830-4-52-6",
+        "note": "Manufacturer page: 41 mm case, 49.1 mm lug-to-lug, 10.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 709,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.830.4.52.9",
+    "lugToLugMm": 49.1,
+    "caseMm": 41,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-830-4-52-9",
+        "note": "Manufacturer page: 41 mm case, 49.1 mm lug-to-lug, 10.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 710,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.830.4.57.6",
+    "lugToLugMm": 49.1,
+    "caseMm": 41,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-830-4-57-6",
+        "note": "Manufacturer page: 41 mm case, 49.1 mm lug-to-lug, 10.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 711,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.830.4.62.6",
+    "lugToLugMm": 49.1,
+    "caseMm": 41,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-830-4-62-6",
+        "note": "Manufacturer page: 41 mm case, 49.1 mm lug-to-lug, 10.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 712,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.830.4.72.6",
+    "lugToLugMm": 49.1,
+    "caseMm": 41,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-830-4-72-6",
+        "note": "Manufacturer page: 41 mm case, 49.1 mm lug-to-lug, 10.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 713,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.830.4.92.6",
+    "lugToLugMm": 49.1,
+    "caseMm": 41,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-830-4-92-6",
+        "note": "Manufacturer page: 41 mm case, 49.1 mm lug-to-lug, 10.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 714,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.830.4.92.9",
+    "lugToLugMm": 49.1,
+    "caseMm": 41,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-830-4-92-9",
+        "note": "Manufacturer page: 41 mm case, 49.1 mm lug-to-lug, 10.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 715,
+    "brand": "Longines",
+    "model": "Conquest",
+    "reference": "L3.830.4.97.6",
+    "lugToLugMm": 49.1,
+    "caseMm": 41,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-l3-830-4-97-6",
+        "note": "Manufacturer page: 41 mm case, 49.1 mm lug-to-lug, 10.9 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 716,
+    "brand": "Longines",
+    "model": "Conquest Chronograph",
+    "reference": "L3.835.4.02.6",
+    "lugToLugMm": 50.2,
+    "caseMm": 42,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-chronograph-l3-835-4-02-6",
+        "note": "Manufacturer page: 42 mm case, 50.2 mm lug-to-lug, 14.3 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 717,
+    "brand": "Longines",
+    "model": "Conquest Chronograph",
+    "reference": "L3.835.4.02.9",
+    "lugToLugMm": 50.2,
+    "caseMm": 42,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-chronograph-l3-835-4-02-9",
+        "note": "Manufacturer page: 42 mm case, 50.2 mm lug-to-lug, 14.3 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 718,
+    "brand": "Longines",
+    "model": "Conquest Chronograph",
+    "reference": "L3.835.4.32.6",
+    "lugToLugMm": 50.2,
+    "caseMm": 42,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-chronograph-l3-835-4-32-6",
+        "note": "Manufacturer page: 42 mm case, 50.2 mm lug-to-lug, 14.3 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 719,
+    "brand": "Longines",
+    "model": "Conquest Chronograph",
+    "reference": "L3.835.4.32.9",
+    "lugToLugMm": 50.2,
+    "caseMm": 42,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-chronograph-l3-835-4-32-9",
+        "note": "Manufacturer page: 42 mm case, 50.2 mm lug-to-lug, 14.3 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 720,
+    "brand": "Longines",
+    "model": "Conquest Chronograph",
+    "reference": "L3.835.4.52.6",
+    "lugToLugMm": 50.2,
+    "caseMm": 42,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-chronograph-l3-835-4-52-6",
+        "note": "Manufacturer page: 42 mm case, 50.2 mm lug-to-lug, 14.3 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 721,
+    "brand": "Longines",
+    "model": "Conquest Chronograph",
+    "reference": "L3.835.4.72.6",
+    "lugToLugMm": 50.2,
+    "caseMm": 42,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-chronograph-l3-835-4-72-6",
+        "note": "Manufacturer page: 42 mm case, 50.2 mm lug-to-lug, 14.3 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 722,
+    "brand": "Longines",
+    "model": "Conquest Chronograph",
+    "reference": "L3.835.4.92.6",
+    "lugToLugMm": 50.2,
+    "caseMm": 42,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-chronograph-l3-835-4-92-6",
+        "note": "Manufacturer page: 42 mm case, 50.2 mm lug-to-lug, 14.3 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 723,
+    "brand": "Longines",
+    "model": "Conquest Chronograph",
+    "reference": "L3.835.4.98.6",
+    "lugToLugMm": 50.2,
+    "caseMm": 42,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-chronograph-l3-835-4-98-6",
+        "note": "Manufacturer page: 42 mm case, 50.2 mm lug-to-lug, 14.3 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 724,
+    "brand": "Longines",
+    "model": "Conquest Chronograph",
+    "reference": "L3.835.4.98.9",
+    "lugToLugMm": 50.2,
+    "caseMm": 42,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-conquest-chronograph-l3-835-4-98-9",
+        "note": "Manufacturer page: 42 mm case, 50.2 mm lug-to-lug, 14.3 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 725,
+    "brand": "Longines",
+    "model": "HydroConquest GMT",
+    "reference": "L3.890.4.06.6",
+    "lugToLugMm": 52,
+    "caseMm": 43,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-gmt-l3-890-4-06-6",
+        "note": "Manufacturer page: 43 mm case, 52 mm lug-to-lug, 12.9 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 726,
+    "brand": "Longines",
+    "model": "HydroConquest GMT",
+    "reference": "L3.890.4.56.6",
+    "lugToLugMm": 52,
+    "caseMm": 43,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-gmt-l3-890-4-56-6",
+        "note": "Manufacturer page: 43 mm case, 52 mm lug-to-lug, 12.9 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 727,
+    "brand": "Longines",
+    "model": "HydroConquest GMT",
+    "reference": "L3.890.4.56.9",
+    "lugToLugMm": 52,
+    "caseMm": 43,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-gmt-l3-890-4-56-9",
+        "note": "Manufacturer page: 43 mm case, 52 mm lug-to-lug, 12.9 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 728,
+    "brand": "Longines",
+    "model": "HydroConquest GMT",
+    "reference": "L3.890.4.96.6",
+    "lugToLugMm": 52,
+    "caseMm": 43,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-gmt-l3-890-4-96-6",
+        "note": "Manufacturer page: 43 mm case, 52 mm lug-to-lug, 12.9 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 729,
+    "brand": "Longines",
+    "model": "HydroConquest GMT",
+    "reference": "L3.890.4.96.9",
+    "lugToLugMm": 52,
+    "caseMm": 43,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-hydroconquest-gmt-l3-890-4-96-9",
+        "note": "Manufacturer page: 43 mm case, 52 mm lug-to-lug, 12.9 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 730,
+    "brand": "Longines",
+    "model": "La Grande Classique De Longines",
+    "reference": "L4.209.1.91.7",
+    "lugToLugMm": 29.6,
+    "caseMm": 24,
+    "thicknessMm": 4.3,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-la-grande-classique-de-longines-l4-209-1-91-7",
+        "note": "Manufacturer page: 24 mm case, 29.6 mm lug-to-lug, 4.3 mm thickness, and 13 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 731,
+    "brand": "Longines",
+    "model": "La Grande Classique De Longines",
+    "reference": "L4.209.1.97.7",
+    "lugToLugMm": 29.6,
+    "caseMm": 24,
+    "thicknessMm": 4.3,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-la-grande-classique-de-longines-l4-209-1-97-7",
+        "note": "Manufacturer page: 24 mm case, 29.6 mm lug-to-lug, 4.3 mm thickness, and 13 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 732,
+    "brand": "Longines",
+    "model": "La Grande Classique De Longines",
+    "reference": "L4.209.2.11.7",
+    "lugToLugMm": 29.6,
+    "caseMm": 24,
+    "thicknessMm": 4.3,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-la-grande-classique-de-longines-l4-209-2-11-7",
+        "note": "Manufacturer page: 24 mm case, 29.6 mm lug-to-lug, 4.3 mm thickness, and 13 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 733,
+    "brand": "Longines",
+    "model": "La Grande Classique De Longines",
+    "reference": "L4.209.2.37.8",
+    "lugToLugMm": 29.6,
+    "caseMm": 24,
+    "thicknessMm": 4.3,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-la-grande-classique-de-longines-l4-209-2-37-8",
+        "note": "Manufacturer page: 24 mm case, 29.6 mm lug-to-lug, 4.3 mm thickness, and 13 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 734,
+    "brand": "Longines",
+    "model": "La Grande Classique De Longines",
+    "reference": "L4.209.4.11.6",
+    "lugToLugMm": 29.6,
+    "caseMm": 24,
+    "thicknessMm": 4.3,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-la-grande-classique-de-longines-l4-209-4-11-6",
+        "note": "Manufacturer page: 24 mm case, 29.6 mm lug-to-lug, 4.3 mm thickness, and 13 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 735,
+    "brand": "Longines",
+    "model": "La Grande Classique De Longines",
+    "reference": "L4.209.4.58.6",
+    "lugToLugMm": 29.6,
+    "caseMm": 24,
+    "thicknessMm": 4.3,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-la-grande-classique-de-longines-l4-209-4-58-6",
+        "note": "Manufacturer page: 24 mm case, 29.6 mm lug-to-lug, 4.3 mm thickness, and 13 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 736,
+    "brand": "Longines",
+    "model": "La Grande Classique De Longines",
+    "reference": "L4.209.4.87.6",
+    "lugToLugMm": 29.6,
+    "caseMm": 24,
+    "thicknessMm": 4.3,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-la-grande-classique-de-longines-l4-209-4-87-6",
+        "note": "Manufacturer page: 24 mm case, 29.6 mm lug-to-lug, 4.3 mm thickness, and 13 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 737,
+    "brand": "Longines",
+    "model": "La Grande Classique De Longines",
+    "reference": "L4.209.4.97.6",
+    "lugToLugMm": 29.6,
+    "caseMm": 24,
+    "thicknessMm": 4.3,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-la-grande-classique-de-longines-l4-209-4-97-6",
+        "note": "Manufacturer page: 24 mm case, 29.6 mm lug-to-lug, 4.3 mm thickness, and 13 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 738,
+    "brand": "Longines",
+    "model": "Flagship Classic",
+    "reference": "L4.274.3.37.7",
+    "lugToLugMm": 32.4,
+    "caseMm": 26,
+    "thicknessMm": 7.9,
+    "lugWidthMm": 12,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-classic-l4-274-3-37-7",
+        "note": "Manufacturer page: 26 mm case, 32.4 mm lug-to-lug, 7.9 mm thickness, and 12 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 739,
+    "brand": "Longines",
+    "model": "Flagship Classic",
+    "reference": "L4.274.4.12.6",
+    "lugToLugMm": 32.4,
+    "caseMm": 26,
+    "thicknessMm": 7.9,
+    "lugWidthMm": 12,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-classic-l4-274-4-12-6",
+        "note": "Manufacturer page: 26 mm case, 32.4 mm lug-to-lug, 7.9 mm thickness, and 12 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 740,
+    "brand": "Longines",
+    "model": "Flagship Classic",
+    "reference": "L4.274.4.57.6",
+    "lugToLugMm": 32.4,
+    "caseMm": 26,
+    "thicknessMm": 7.9,
+    "lugWidthMm": 12,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-classic-l4-274-4-57-6",
+        "note": "Manufacturer page: 26 mm case, 32.4 mm lug-to-lug, 7.9 mm thickness, and 12 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 741,
+    "brand": "Longines",
+    "model": "Flagship Classic",
+    "reference": "L4.274.4.92.6",
+    "lugToLugMm": 32.4,
+    "caseMm": 26,
+    "thicknessMm": 7.9,
+    "lugWidthMm": 12,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-classic-l4-274-4-92-6",
+        "note": "Manufacturer page: 26 mm case, 32.4 mm lug-to-lug, 7.9 mm thickness, and 12 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 742,
+    "brand": "Longines",
+    "model": "Elegant Collection Moonphase",
+    "reference": "L4.330.4.11.0",
+    "lugToLugMm": 36,
+    "caseMm": 30,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-elegant-collection-l4-330-4-11-0",
+        "note": "Manufacturer page: 30 mm case, 36 mm lug-to-lug, 8.5 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 743,
+    "brand": "Longines",
+    "model": "Elegant Collection Moonphase",
+    "reference": "L4.330.4.11.2",
+    "lugToLugMm": 36,
+    "caseMm": 30,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-elegant-collection-l4-330-4-11-2",
+        "note": "Manufacturer page: 30 mm case, 36 mm lug-to-lug, 8.5 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 744,
+    "brand": "Longines",
+    "model": "Elegant Collection Moonphase",
+    "reference": "L4.330.4.11.6",
+    "lugToLugMm": 36,
+    "caseMm": 30,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-elegant-collection-l4-330-4-11-6",
+        "note": "Manufacturer page: 30 mm case, 36 mm lug-to-lug, 8.5 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 745,
+    "brand": "Longines",
+    "model": "Elegant Collection Moonphase",
+    "reference": "L4.330.4.87.6",
+    "lugToLugMm": 36,
+    "caseMm": 30,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-elegant-collection-l4-330-4-87-6",
+        "note": "Manufacturer page: 30 mm case, 36 mm lug-to-lug, 8.5 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 746,
+    "brand": "Longines",
+    "model": "Elegant Collection Moonphase",
+    "reference": "L4.330.5.87.7",
+    "lugToLugMm": 36,
+    "caseMm": 30,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-elegant-collection-l4-330-5-87-7",
+        "note": "Manufacturer page: 30 mm case, 36 mm lug-to-lug, 8.5 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 747,
+    "brand": "Longines",
+    "model": "Flagship Classic",
+    "reference": "L4.374.3.17.7",
+    "lugToLugMm": 36.4,
+    "caseMm": 30,
+    "thicknessMm": 8.1,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-classic-l4-374-3-17-7",
+        "note": "Manufacturer page: 30 mm case, 36.4 mm lug-to-lug, 8.1 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 748,
+    "brand": "Longines",
+    "model": "Flagship Classic",
+    "reference": "L4.374.3.38.7",
+    "lugToLugMm": 36.4,
+    "caseMm": 30,
+    "thicknessMm": 8.1,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-classic-l4-374-3-38-7",
+        "note": "Manufacturer page: 30 mm case, 36.4 mm lug-to-lug, 8.1 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 749,
+    "brand": "Longines",
+    "model": "Flagship Classic",
+    "reference": "L4.374.3.77.7",
+    "lugToLugMm": 36.4,
+    "caseMm": 30,
+    "thicknessMm": 8.1,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-classic-l4-374-3-77-7",
+        "note": "Manufacturer page: 30 mm case, 36.4 mm lug-to-lug, 8.1 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 750,
+    "brand": "Longines",
+    "model": "Flagship Classic",
+    "reference": "L4.374.3.90.7",
+    "lugToLugMm": 36.4,
+    "caseMm": 30,
+    "thicknessMm": 8.1,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-classic-l4-374-3-90-7",
+        "note": "Manufacturer page: 30 mm case, 36.4 mm lug-to-lug, 8.1 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 751,
+    "brand": "Longines",
+    "model": "Flagship Classic",
+    "reference": "L4.374.4.02.6",
+    "lugToLugMm": 36.4,
+    "caseMm": 30,
+    "thicknessMm": 8.1,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-classic-l4-374-4-02-6",
+        "note": "Manufacturer page: 30 mm case, 36.4 mm lug-to-lug, 8.1 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 752,
+    "brand": "Longines",
+    "model": "Flagship Classic",
+    "reference": "L4.374.4.18.6",
+    "lugToLugMm": 36.4,
+    "caseMm": 30,
+    "thicknessMm": 8.1,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-classic-l4-374-4-18-6",
+        "note": "Manufacturer page: 30 mm case, 36.4 mm lug-to-lug, 8.1 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 753,
+    "brand": "Longines",
+    "model": "Flagship Classic",
+    "reference": "L4.374.4.88.6",
+    "lugToLugMm": 36.4,
+    "caseMm": 30,
+    "thicknessMm": 8.1,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-classic-l4-374-4-88-6",
+        "note": "Manufacturer page: 30 mm case, 36.4 mm lug-to-lug, 8.1 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 754,
+    "brand": "Longines",
+    "model": "La Grande Classique De Longines",
+    "reference": "L4.512.1.08.7",
+    "lugToLugMm": 33.2,
+    "caseMm": 29,
+    "thicknessMm": 4.5,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-la-grande-classique-de-longines-l4-512-1-08-7",
+        "note": "Manufacturer page: 29 mm case, 33.2 mm lug-to-lug, 4.5 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 755,
+    "brand": "Longines",
+    "model": "La Grande Classique De Longines",
+    "reference": "L4.512.4.77.6",
+    "lugToLugMm": 33.2,
+    "caseMm": 29,
+    "thicknessMm": 4.5,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-la-grande-classique-de-longines-l4-512-4-77-6",
+        "note": "Manufacturer page: 29 mm case, 33.2 mm lug-to-lug, 4.5 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 756,
+    "brand": "Longines",
+    "model": "Flagship Heritage",
+    "reference": "L4.795.4.58.0",
+    "lugToLugMm": 47,
+    "caseMm": 38.5,
+    "thicknessMm": 10.3,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-heritage-l4-795-4-58-0",
+        "note": "Manufacturer page: 38.5 mm case, 47 mm lug-to-lug, 10.3 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 757,
+    "brand": "Longines",
+    "model": "Flagship Heritage",
+    "reference": "L4.795.4.78.2",
+    "lugToLugMm": 47,
+    "caseMm": 38.5,
+    "thicknessMm": 10.3,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-heritage-l4-795-4-78-2",
+        "note": "Manufacturer page: 38.5 mm case, 47 mm lug-to-lug, 10.3 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 758,
+    "brand": "Longines",
+    "model": "Elegant Collection",
+    "reference": "L4.812.4.11.6",
+    "lugToLugMm": 44.6,
+    "caseMm": 39,
+    "thicknessMm": 9.75,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-elegant-collection-l4-812-4-11-6",
+        "note": "Manufacturer page: 39 mm case, 44.6 mm lug-to-lug, 9.75 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 759,
+    "brand": "Longines",
+    "model": "Flagship Heritage Moonphase",
+    "reference": "L4.815.4.02.2",
+    "lugToLugMm": 46.3,
+    "caseMm": 38.5,
+    "thicknessMm": 12.4,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-heritage-l4-815-4-02-2",
+        "note": "Manufacturer page: 38.5 mm case, 46.3 mm lug-to-lug, 12.4 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 760,
+    "brand": "Longines",
+    "model": "Flagship Heritage Moonphase",
+    "reference": "L4.815.4.52.2",
+    "lugToLugMm": 46.3,
+    "caseMm": 38.5,
+    "thicknessMm": 12.4,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-heritage-l4-815-4-52-2",
+        "note": "Manufacturer page: 38.5 mm case, 46.3 mm lug-to-lug, 12.4 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 761,
+    "brand": "Longines",
+    "model": "Flagship Heritage Moonphase",
+    "reference": "L4.815.4.62.2",
+    "lugToLugMm": 46.3,
+    "caseMm": 38.5,
+    "thicknessMm": 12.4,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-heritage-l4-815-4-62-2",
+        "note": "Manufacturer page: 38.5 mm case, 46.3 mm lug-to-lug, 12.4 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 762,
+    "brand": "Longines",
+    "model": "Flagship Heritage Moonphase",
+    "reference": "L4.815.4.72.2",
+    "lugToLugMm": 46.3,
+    "caseMm": 38.5,
+    "thicknessMm": 12.4,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-heritage-l4-815-4-72-2",
+        "note": "Manufacturer page: 38.5 mm case, 46.3 mm lug-to-lug, 12.4 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 763,
+    "brand": "Longines",
+    "model": "Flagship Heritage Moonphase",
+    "reference": "L4.815.4.78.2",
+    "lugToLugMm": 46.3,
+    "caseMm": 38.5,
+    "thicknessMm": 12.4,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-heritage-l4-815-4-78-2",
+        "note": "Manufacturer page: 38.5 mm case, 46.3 mm lug-to-lug, 12.4 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 764,
+    "brand": "Longines",
+    "model": "Flagship Heritage Moonphase",
+    "reference": "L4.815.4.92.2",
+    "lugToLugMm": 46.3,
+    "caseMm": 38.5,
+    "thicknessMm": 12.4,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-heritage-l4-815-4-92-2",
+        "note": "Manufacturer page: 38.5 mm case, 46.3 mm lug-to-lug, 12.4 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 765,
+    "brand": "Longines",
+    "model": "La Grande Classique De Longines",
+    "reference": "L4.866.4.58.6",
+    "lugToLugMm": 43,
+    "caseMm": 38,
+    "thicknessMm": 5.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-la-grande-classique-de-longines-l4-866-4-58-6",
+        "note": "Manufacturer page: 38 mm case, 43 mm lug-to-lug, 5.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 766,
+    "brand": "Longines",
+    "model": "Elegant Collection",
+    "reference": "L4.910.4.57.6",
+    "lugToLugMm": 44,
+    "caseMm": 39,
+    "thicknessMm": 8.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-elegant-collection-l4-910-4-57-6",
+        "note": "Manufacturer page: 39 mm case, 44 mm lug-to-lug, 8.6 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 767,
+    "brand": "Longines",
+    "model": "Flagship Classic",
+    "reference": "L4.974.4.92.6",
+    "lugToLugMm": 45.3,
+    "caseMm": 38.5,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-classic-l4-974-4-92-6",
+        "note": "Manufacturer page: 38.5 mm case, 45.3 mm lug-to-lug, 8.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 768,
+    "brand": "Longines",
+    "model": "Flagship Classic",
+    "reference": "L4.984.3.17.7",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.7,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-classic-l4-984-3-17-7",
+        "note": "Manufacturer page: 40 mm case, 47 mm lug-to-lug, 8.7 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 769,
+    "brand": "Longines",
+    "model": "Flagship Classic",
+    "reference": "L4.984.3.20.7",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.7,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-classic-l4-984-3-20-7",
+        "note": "Manufacturer page: 40 mm case, 47 mm lug-to-lug, 8.7 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 770,
+    "brand": "Longines",
+    "model": "Flagship Classic",
+    "reference": "L4.984.3.30.7",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.7,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-classic-l4-984-3-30-7",
+        "note": "Manufacturer page: 40 mm case, 47 mm lug-to-lug, 8.7 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 771,
+    "brand": "Longines",
+    "model": "Flagship Classic",
+    "reference": "L4.984.4.02.6",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.7,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-classic-l4-984-4-02-6",
+        "note": "Manufacturer page: 40 mm case, 47 mm lug-to-lug, 8.7 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 772,
+    "brand": "Longines",
+    "model": "Flagship Classic",
+    "reference": "L4.984.4.18.6",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.7,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-classic-l4-984-4-18-6",
+        "note": "Manufacturer page: 40 mm case, 47 mm lug-to-lug, 8.7 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 773,
+    "brand": "Longines",
+    "model": "Flagship Classic",
+    "reference": "L4.984.4.58.6",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.7,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-classic-l4-984-4-58-6",
+        "note": "Manufacturer page: 40 mm case, 47 mm lug-to-lug, 8.7 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 774,
+    "brand": "Longines",
+    "model": "Flagship Classic",
+    "reference": "L4.984.4.70.6",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.7,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-flagship-classic-l4-984-4-70-6",
+        "note": "Manufacturer page: 40 mm case, 47 mm lug-to-lug, 8.7 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 775,
+    "brand": "Longines",
+    "model": "Mini DolceVita",
+    "reference": "L5.200.0.71.0",
+    "lugToLugMm": 29,
+    "caseMm": 21.5,
+    "thicknessMm": 6.75,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-mini-dolcevita-l5-200-0-71-0",
+        "note": "Manufacturer page: 21.5 mm case, 29 mm lug-to-lug, 6.75 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 776,
+    "brand": "Longines",
+    "model": "Mini DolceVita",
+    "reference": "L5.200.0.71.2",
+    "lugToLugMm": 29,
+    "caseMm": 21.5,
+    "thicknessMm": 6.75,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-mini-dolcevita-l5-200-0-71-2",
+        "note": "Manufacturer page: 21.5 mm case, 29 mm lug-to-lug, 6.75 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 777,
+    "brand": "Longines",
+    "model": "Mini DolceVita",
+    "reference": "L5.200.0.71.6",
+    "lugToLugMm": 29,
+    "caseMm": 21.5,
+    "thicknessMm": 6.75,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-mini-dolcevita-l5-200-0-71-6",
+        "note": "Manufacturer page: 21.5 mm case, 29 mm lug-to-lug, 6.75 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 778,
+    "brand": "Longines",
+    "model": "Mini DolceVita",
+    "reference": "L5.200.0.75.6",
+    "lugToLugMm": 29,
+    "caseMm": 21.5,
+    "thicknessMm": 6.75,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-mini-dolcevita-l5-200-0-75-6",
+        "note": "Manufacturer page: 21.5 mm case, 29 mm lug-to-lug, 6.75 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 779,
+    "brand": "Longines",
+    "model": "Mini DolceVita",
+    "reference": "L5.200.4.71.0",
+    "lugToLugMm": 29,
+    "caseMm": 21.5,
+    "thicknessMm": 6.75,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-mini-dolcevita-l5-200-4-71-0",
+        "note": "Manufacturer page: 21.5 mm case, 29 mm lug-to-lug, 6.75 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 780,
+    "brand": "Longines",
+    "model": "Mini DolceVita",
+    "reference": "L5.200.4.71.2",
+    "lugToLugMm": 29,
+    "caseMm": 21.5,
+    "thicknessMm": 6.75,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-mini-dolcevita-l5-200-4-71-2",
+        "note": "Manufacturer page: 21.5 mm case, 29 mm lug-to-lug, 6.75 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 781,
+    "brand": "Longines",
+    "model": "Mini DolceVita",
+    "reference": "L5.200.4.71.5",
+    "lugToLugMm": 29,
+    "caseMm": 21.5,
+    "thicknessMm": 6.75,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-mini-dolcevita-l5-200-4-71-5",
+        "note": "Manufacturer page: 21.5 mm case, 29 mm lug-to-lug, 6.75 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 782,
+    "brand": "Longines",
+    "model": "Mini DolceVita",
+    "reference": "L5.200.4.71.6",
+    "lugToLugMm": 29,
+    "caseMm": 21.5,
+    "thicknessMm": 6.75,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-mini-dolcevita-l5-200-4-71-6",
+        "note": "Manufacturer page: 21.5 mm case, 29 mm lug-to-lug, 6.75 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 783,
+    "brand": "Longines",
+    "model": "Mini DolceVita",
+    "reference": "L5.200.4.75.6",
+    "lugToLugMm": 29,
+    "caseMm": 21.5,
+    "thicknessMm": 6.75,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-mini-dolcevita-l5-200-4-75-6",
+        "note": "Manufacturer page: 21.5 mm case, 29 mm lug-to-lug, 6.75 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 784,
+    "brand": "Longines",
+    "model": "Mini DolceVita",
+    "reference": "L5.200.4.75.9",
+    "lugToLugMm": 29,
+    "caseMm": 21.5,
+    "thicknessMm": 6.75,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-mini-dolcevita-l5-200-4-75-9",
+        "note": "Manufacturer page: 21.5 mm case, 29 mm lug-to-lug, 6.75 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 785,
+    "brand": "Longines",
+    "model": "Mini DolceVita",
+    "reference": "L5.200.5.70.7",
+    "lugToLugMm": 29,
+    "caseMm": 21.5,
+    "thicknessMm": 6.75,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-mini-dolcevita-l5-200-5-70-7",
+        "note": "Manufacturer page: 21.5 mm case, 29 mm lug-to-lug, 6.75 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 786,
+    "brand": "Longines",
+    "model": "Mini DolceVita",
+    "reference": "L5.200.5.71.7",
+    "lugToLugMm": 29,
+    "caseMm": 21.5,
+    "thicknessMm": 6.75,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-mini-dolcevita-l5-200-5-71-7",
+        "note": "Manufacturer page: 21.5 mm case, 29 mm lug-to-lug, 6.75 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 787,
+    "brand": "Longines",
+    "model": "Mini DolceVita",
+    "reference": "L5.200.5.78.7",
+    "lugToLugMm": 29,
+    "caseMm": 21.5,
+    "thicknessMm": 6.75,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-mini-dolcevita-l5-200-5-78-7",
+        "note": "Manufacturer page: 21.5 mm case, 29 mm lug-to-lug, 6.75 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 788,
+    "brand": "Longines",
+    "model": "Mini DolceVita",
+    "reference": "L5.200.5.79.7",
+    "lugToLugMm": 29,
+    "caseMm": 21.5,
+    "thicknessMm": 6.75,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-mini-dolcevita-l5-200-5-79-7",
+        "note": "Manufacturer page: 21.5 mm case, 29 mm lug-to-lug, 6.75 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 789,
+    "brand": "Longines",
+    "model": "Mini DolceVita",
+    "reference": "L5.200.6.71.0",
+    "lugToLugMm": 29,
+    "caseMm": 21.5,
+    "thicknessMm": 6.75,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-mini-dolcevita-l5-200-6-71-0",
+        "note": "Manufacturer page: 21.5 mm case, 29 mm lug-to-lug, 6.75 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 790,
+    "brand": "Longines",
+    "model": "Mini DolceVita",
+    "reference": "L5.200.7.71.6",
+    "lugToLugMm": 29,
+    "caseMm": 21.5,
+    "thicknessMm": 6.75,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-mini-dolcevita-l5-200-7-71-6",
+        "note": "Manufacturer page: 21.5 mm case, 29 mm lug-to-lug, 6.75 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 791,
+    "brand": "Longines",
+    "model": "Mini DolceVita",
+    "reference": "L5.200.8.71.0",
+    "lugToLugMm": 29,
+    "caseMm": 21.5,
+    "thicknessMm": 6.75,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-mini-dolcevita-l5-200-8-71-0",
+        "note": "Manufacturer page: 21.5 mm case, 29 mm lug-to-lug, 6.75 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 792,
+    "brand": "Longines",
+    "model": "Mini DolceVita",
+    "reference": "L5.200.9.71.6",
+    "lugToLugMm": 29,
+    "caseMm": 21.5,
+    "thicknessMm": 6.75,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-mini-dolcevita-l5-200-9-71-6",
+        "note": "Manufacturer page: 21.5 mm case, 29 mm lug-to-lug, 6.75 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 793,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.255.0.71.6",
+    "lugToLugMm": 32,
+    "caseMm": 20.8,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-255-0-71-6",
+        "note": "Manufacturer page: 20.8 mm case, 32 mm lug-to-lug, 6.9 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 794,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.255.4.70.6",
+    "lugToLugMm": 32,
+    "caseMm": 20.8,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-255-4-70-6",
+        "note": "Manufacturer page: 20.8 mm case, 32 mm lug-to-lug, 6.9 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 795,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.255.4.71.0",
+    "lugToLugMm": 32,
+    "caseMm": 20.8,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-255-4-71-0",
+        "note": "Manufacturer page: 20.8 mm case, 32 mm lug-to-lug, 6.9 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 796,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.255.4.71.5",
+    "lugToLugMm": 32,
+    "caseMm": 20.8,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-255-4-71-5",
+        "note": "Manufacturer page: 20.8 mm case, 32 mm lug-to-lug, 6.9 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 797,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.255.4.71.6",
+    "lugToLugMm": 32,
+    "caseMm": 20.8,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-255-4-71-6",
+        "note": "Manufacturer page: 20.8 mm case, 32 mm lug-to-lug, 6.9 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 798,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.255.4.71.7",
+    "lugToLugMm": 32,
+    "caseMm": 20.8,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-255-4-71-7",
+        "note": "Manufacturer page: 20.8 mm case, 32 mm lug-to-lug, 6.9 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 799,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.255.4.75.2",
+    "lugToLugMm": 32,
+    "caseMm": 20.8,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-255-4-75-2",
+        "note": "Manufacturer page: 20.8 mm case, 32 mm lug-to-lug, 6.9 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 800,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.255.4.75.6",
+    "lugToLugMm": 32,
+    "caseMm": 20.8,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-255-4-75-6",
+        "note": "Manufacturer page: 20.8 mm case, 32 mm lug-to-lug, 6.9 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 801,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.255.5.71.7",
+    "lugToLugMm": 32,
+    "caseMm": 20.8,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-255-5-71-7",
+        "note": "Manufacturer page: 20.8 mm case, 32 mm lug-to-lug, 6.9 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 802,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.255.5.75.7",
+    "lugToLugMm": 32,
+    "caseMm": 20.8,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-255-5-75-7",
+        "note": "Manufacturer page: 20.8 mm case, 32 mm lug-to-lug, 6.9 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 803,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.255.5.79.7",
+    "lugToLugMm": 32,
+    "caseMm": 20.8,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-255-5-79-7",
+        "note": "Manufacturer page: 20.8 mm case, 32 mm lug-to-lug, 6.9 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 804,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.255.6.71.0",
+    "lugToLugMm": 32,
+    "caseMm": 20.5,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-255-6-71-0",
+        "note": "Manufacturer page: 20.5 mm case, 32 mm lug-to-lug, 6.9 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 805,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.255.7.71.0",
+    "lugToLugMm": 32,
+    "caseMm": 20.5,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-255-7-71-0",
+        "note": "Manufacturer page: 20.5 mm case, 32 mm lug-to-lug, 6.9 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 806,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.258.4.71.6",
+    "lugToLugMm": 27,
+    "caseMm": 17.7,
+    "thicknessMm": 5.7,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-258-4-71-6",
+        "note": "Manufacturer page: 17.7 mm case, 27 mm lug-to-lug, 5.7 mm thickness, and 13 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 807,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.258.5.71.7",
+    "lugToLugMm": 27,
+    "caseMm": 17.7,
+    "thicknessMm": 5.7,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-258-5-71-7",
+        "note": "Manufacturer page: 17.7 mm case, 27 mm lug-to-lug, 5.7 mm thickness, and 13 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 808,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.258.5.79.7",
+    "lugToLugMm": 27,
+    "caseMm": 17.7,
+    "thicknessMm": 5.7,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-258-5-79-7",
+        "note": "Manufacturer page: 17.7 mm case, 27 mm lug-to-lug, 5.7 mm thickness, and 13 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 809,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.512.0.71.5",
+    "lugToLugMm": 37,
+    "caseMm": 23.3,
+    "thicknessMm": 7.2,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-512-0-71-5",
+        "note": "Manufacturer page: 23.3 mm case, 37 mm lug-to-lug, 7.2 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 810,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.512.4.70.6",
+    "lugToLugMm": 37,
+    "caseMm": 23.3,
+    "thicknessMm": 7.2,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-512-4-70-6",
+        "note": "Manufacturer page: 23.3 mm case, 37 mm lug-to-lug, 7.2 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 811,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.512.4.71.0",
+    "lugToLugMm": 37,
+    "caseMm": 23.3,
+    "thicknessMm": 7.2,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-512-4-71-0",
+        "note": "Manufacturer page: 23.3 mm case, 37 mm lug-to-lug, 7.2 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 812,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.512.4.71.6",
+    "lugToLugMm": 37,
+    "caseMm": 23.3,
+    "thicknessMm": 7.2,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-512-4-71-6",
+        "note": "Manufacturer page: 23.3 mm case, 37 mm lug-to-lug, 7.2 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 813,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.512.4.71.7",
+    "lugToLugMm": 37,
+    "caseMm": 23.3,
+    "thicknessMm": 7.2,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-512-4-71-7",
+        "note": "Manufacturer page: 23.3 mm case, 37 mm lug-to-lug, 7.2 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 814,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.512.5.71.7",
+    "lugToLugMm": 37,
+    "caseMm": 23.3,
+    "thicknessMm": 7.2,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-512-5-71-7",
+        "note": "Manufacturer page: 23.3 mm case, 37 mm lug-to-lug, 7.2 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 815,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.512.7.71.0",
+    "lugToLugMm": 37,
+    "caseMm": 23,
+    "thicknessMm": 7.2,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-512-7-71-0",
+        "note": "Manufacturer page: 23 mm case, 37 mm lug-to-lug, 7.2 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 816,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.757.4.71.0",
+    "lugToLugMm": 43.8,
+    "caseMm": 27.7,
+    "thicknessMm": 10.1,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-757-4-71-0",
+        "note": "Manufacturer page: 27.7 mm case, 43.8 mm lug-to-lug, 10.1 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 817,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.757.4.71.6",
+    "lugToLugMm": 43.8,
+    "caseMm": 27.7,
+    "thicknessMm": 10.1,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-757-4-71-6",
+        "note": "Manufacturer page: 27.7 mm case, 43.8 mm lug-to-lug, 10.1 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 818,
+    "brand": "Longines",
+    "model": "DolceVita",
+    "reference": "L5.757.4.71.9",
+    "lugToLugMm": 43.8,
+    "caseMm": 27.7,
+    "thicknessMm": 10.1,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-757-4-71-9",
+        "note": "Manufacturer page: 27.7 mm case, 43.8 mm lug-to-lug, 10.1 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 819,
+    "brand": "Longines",
+    "model": "DolceVita Tailoring",
+    "reference": "L5.757.4.73.8",
+    "lugToLugMm": 43.8,
+    "caseMm": 27.7,
+    "thicknessMm": 10.1,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-dolcevita-l5-757-4-73-8",
+        "note": "Manufacturer page: 27.7 mm case, 43.8 mm lug-to-lug, 10.1 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 820,
+    "brand": "Longines",
+    "model": "PrimaLuna",
+    "reference": "L8.111.0.87.6",
+    "lugToLugMm": 32.8,
+    "caseMm": 26.5,
+    "thicknessMm": 8.8,
+    "lugWidthMm": 6,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-111-0-87-6",
+        "note": "Manufacturer page: 26.5 mm case, 32.8 mm lug-to-lug, 8.8 mm thickness, and 6 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 821,
+    "brand": "Longines",
+    "model": "PrimaLuna",
+    "reference": "L8.111.4.71.6",
+    "lugToLugMm": 32.8,
+    "caseMm": 26.5,
+    "thicknessMm": 8.8,
+    "lugWidthMm": 6,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-111-4-71-6",
+        "note": "Manufacturer page: 26.5 mm case, 32.8 mm lug-to-lug, 8.8 mm thickness, and 6 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 822,
+    "brand": "Longines",
+    "model": "PrimaLuna",
+    "reference": "L8.111.4.87.6",
+    "lugToLugMm": 32.8,
+    "caseMm": 26.5,
+    "thicknessMm": 8.8,
+    "lugWidthMm": 6,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-111-4-87-6",
+        "note": "Manufacturer page: 26.5 mm case, 32.8 mm lug-to-lug, 8.8 mm thickness, and 6 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 823,
+    "brand": "Longines",
+    "model": "PrimaLuna",
+    "reference": "L8.113.4.90.6",
+    "lugToLugMm": 37,
+    "caseMm": 30,
+    "thicknessMm": 9.1,
+    "lugWidthMm": 7,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-113-4-90-6",
+        "note": "Manufacturer page: 30 mm case, 37 mm lug-to-lug, 9.1 mm thickness, and 7 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 824,
+    "brand": "Longines",
+    "model": "PrimaLuna",
+    "reference": "L8.113.4.99.6",
+    "lugToLugMm": 37,
+    "caseMm": 30,
+    "thicknessMm": 9.1,
+    "lugWidthMm": 7,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-113-4-99-6",
+        "note": "Manufacturer page: 30 mm case, 37 mm lug-to-lug, 9.1 mm thickness, and 7 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 825,
+    "brand": "Longines",
+    "model": "PrimaLuna Moonphase",
+    "reference": "L8.115.4.61.6",
+    "lugToLugMm": 36.8,
+    "caseMm": 30.5,
+    "thicknessMm": 9.3,
+    "lugWidthMm": 7,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-115-4-61-6",
+        "note": "Manufacturer page: 30.5 mm case, 36.8 mm lug-to-lug, 9.3 mm thickness, and 7 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 826,
+    "brand": "Longines",
+    "model": "PrimaLuna Moonphase",
+    "reference": "L8.115.4.71.6",
+    "lugToLugMm": 36.8,
+    "caseMm": 30.5,
+    "thicknessMm": 9.3,
+    "lugWidthMm": 7,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-115-4-71-6",
+        "note": "Manufacturer page: 30.5 mm case, 36.8 mm lug-to-lug, 9.3 mm thickness, and 7 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 827,
+    "brand": "Longines",
+    "model": "PrimaLuna Moonphase",
+    "reference": "L8.115.4.87.6",
+    "lugToLugMm": 36.8,
+    "caseMm": 30.5,
+    "thicknessMm": 9.3,
+    "lugWidthMm": 7,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-115-4-87-6",
+        "note": "Manufacturer page: 30.5 mm case, 36.8 mm lug-to-lug, 9.3 mm thickness, and 7 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 828,
+    "brand": "Longines",
+    "model": "PrimaLuna Moonphase",
+    "reference": "L8.115.4.91.6",
+    "lugToLugMm": 36.8,
+    "caseMm": 30.5,
+    "thicknessMm": 9.3,
+    "lugWidthMm": 7,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-115-4-91-6",
+        "note": "Manufacturer page: 30.5 mm case, 36.8 mm lug-to-lug, 9.3 mm thickness, and 7 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 829,
+    "brand": "Longines",
+    "model": "PrimaLuna Moonphase",
+    "reference": "L8.115.4.92.6",
+    "lugToLugMm": 36.8,
+    "caseMm": 30.5,
+    "thicknessMm": 9.3,
+    "lugWidthMm": 7,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-115-4-92-6",
+        "note": "Manufacturer page: 30.5 mm case, 36.8 mm lug-to-lug, 9.3 mm thickness, and 7 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 830,
+    "brand": "Longines",
+    "model": "PrimaLuna Moonphase",
+    "reference": "L8.115.4.98.6",
+    "lugToLugMm": 36.8,
+    "caseMm": 30.5,
+    "thicknessMm": 9.3,
+    "lugWidthMm": 7,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-115-4-98-6",
+        "note": "Manufacturer page: 30.5 mm case, 36.8 mm lug-to-lug, 9.3 mm thickness, and 7 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 831,
+    "brand": "Longines",
+    "model": "PrimaLuna",
+    "reference": "L8.122.4.71.6",
+    "lugToLugMm": 37,
+    "caseMm": 30,
+    "thicknessMm": 8,
+    "lugWidthMm": 7,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-122-4-71-6",
+        "note": "Manufacturer page: 30 mm case, 37 mm lug-to-lug, 8 mm thickness, and 7 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 832,
+    "brand": "Longines",
+    "model": "PrimaLuna",
+    "reference": "L8.122.4.90.6",
+    "lugToLugMm": 37,
+    "caseMm": 30,
+    "thicknessMm": 8,
+    "lugWidthMm": 7,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-122-4-90-6",
+        "note": "Manufacturer page: 30 mm case, 37 mm lug-to-lug, 8 mm thickness, and 7 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 833,
+    "brand": "Longines",
+    "model": "PrimaLuna",
+    "reference": "L8.122.4.99.6",
+    "lugToLugMm": 37,
+    "caseMm": 30,
+    "thicknessMm": 8,
+    "lugWidthMm": 7,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-122-4-99-6",
+        "note": "Manufacturer page: 30 mm case, 37 mm lug-to-lug, 8 mm thickness, and 7 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 834,
+    "brand": "Longines",
+    "model": "PrimaLuna",
+    "reference": "L8.123.4.71.6",
+    "lugToLugMm": 37,
+    "caseMm": 30,
+    "thicknessMm": 9.5,
+    "lugWidthMm": 7,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-123-4-71-6",
+        "note": "Manufacturer page: 30 mm case, 37 mm lug-to-lug, 9.5 mm thickness, and 7 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 835,
+    "brand": "Longines",
+    "model": "PrimaLuna",
+    "reference": "L8.124.4.07.6",
+    "lugToLugMm": 41,
+    "caseMm": 34,
+    "thicknessMm": 9.7,
+    "lugWidthMm": 8,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-124-4-07-6",
+        "note": "Manufacturer page: 34 mm case, 41 mm lug-to-lug, 9.7 mm thickness, and 8 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 836,
+    "brand": "Longines",
+    "model": "PrimaLuna",
+    "reference": "L8.124.4.71.2",
+    "lugToLugMm": 41,
+    "caseMm": 34,
+    "thicknessMm": 9.7,
+    "lugWidthMm": 8,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-124-4-71-2",
+        "note": "Manufacturer page: 34 mm case, 41 mm lug-to-lug, 9.7 mm thickness, and 8 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 837,
+    "brand": "Longines",
+    "model": "PrimaLuna",
+    "reference": "L8.124.4.71.6",
+    "lugToLugMm": 41,
+    "caseMm": 34,
+    "thicknessMm": 9.7,
+    "lugWidthMm": 8,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-124-4-71-6",
+        "note": "Manufacturer page: 34 mm case, 41 mm lug-to-lug, 9.7 mm thickness, and 8 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 838,
+    "brand": "Longines",
+    "model": "PrimaLuna",
+    "reference": "L8.124.4.87.6",
+    "lugToLugMm": 41,
+    "caseMm": 34,
+    "thicknessMm": 9.7,
+    "lugWidthMm": 8,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-124-4-87-6",
+        "note": "Manufacturer page: 34 mm case, 41 mm lug-to-lug, 9.7 mm thickness, and 8 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 839,
+    "brand": "Longines",
+    "model": "PrimaLuna",
+    "reference": "L8.124.4.97.6",
+    "lugToLugMm": 41,
+    "caseMm": 34,
+    "thicknessMm": 9.7,
+    "lugWidthMm": 8,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-124-4-97-6",
+        "note": "Manufacturer page: 34 mm case, 41 mm lug-to-lug, 9.7 mm thickness, and 8 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 840,
+    "brand": "Longines",
+    "model": "PrimaLuna",
+    "reference": "L8.124.5.71.2",
+    "lugToLugMm": 41,
+    "caseMm": 34,
+    "thicknessMm": 9.7,
+    "lugWidthMm": 8,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-124-5-71-2",
+        "note": "Manufacturer page: 34 mm case, 41 mm lug-to-lug, 9.7 mm thickness, and 8 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 841,
+    "brand": "Longines",
+    "model": "PrimaLuna Moonphase",
+    "reference": "L8.126.0.71.6",
+    "lugToLugMm": 41,
+    "caseMm": 34,
+    "thicknessMm": 11.6,
+    "lugWidthMm": 8,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-126-0-71-6",
+        "note": "Manufacturer page: 34 mm case, 41 mm lug-to-lug, 11.6 mm thickness, and 8 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 842,
+    "brand": "Longines",
+    "model": "PrimaLuna Moonphase",
+    "reference": "L8.126.0.97.2",
+    "lugToLugMm": 41,
+    "caseMm": 34,
+    "thicknessMm": 11.6,
+    "lugWidthMm": 8,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-126-0-97-2",
+        "note": "Manufacturer page: 34 mm case, 41 mm lug-to-lug, 11.6 mm thickness, and 8 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 843,
+    "brand": "Longines",
+    "model": "PrimaLuna Moonphase",
+    "reference": "L8.126.4.71.2",
+    "lugToLugMm": 41,
+    "caseMm": 34,
+    "thicknessMm": 11.6,
+    "lugWidthMm": 8,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-126-4-71-2",
+        "note": "Manufacturer page: 34 mm case, 41 mm lug-to-lug, 11.6 mm thickness, and 8 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 844,
+    "brand": "Longines",
+    "model": "PrimaLuna Moonphase",
+    "reference": "L8.126.4.71.6",
+    "lugToLugMm": 41,
+    "caseMm": 34,
+    "thicknessMm": 11.6,
+    "lugWidthMm": 8,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-126-4-71-6",
+        "note": "Manufacturer page: 34 mm case, 41 mm lug-to-lug, 11.6 mm thickness, and 8 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 845,
+    "brand": "Longines",
+    "model": "PrimaLuna Moonphase",
+    "reference": "L8.126.4.87.2",
+    "lugToLugMm": 41,
+    "caseMm": 34,
+    "thicknessMm": 11.6,
+    "lugWidthMm": 8,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-126-4-87-2",
+        "note": "Manufacturer page: 34 mm case, 41 mm lug-to-lug, 11.6 mm thickness, and 8 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 846,
+    "brand": "Longines",
+    "model": "PrimaLuna Moonphase",
+    "reference": "L8.126.4.87.6",
+    "lugToLugMm": 41,
+    "caseMm": 34,
+    "thicknessMm": 11.6,
+    "lugWidthMm": 8,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-126-4-87-6",
+        "note": "Manufacturer page: 34 mm case, 41 mm lug-to-lug, 11.6 mm thickness, and 8 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 847,
+    "brand": "Longines",
+    "model": "PrimaLuna Moonphase",
+    "reference": "L8.126.5.71.2",
+    "lugToLugMm": 41,
+    "caseMm": 34,
+    "thicknessMm": 11.6,
+    "lugWidthMm": 8,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-126-5-71-2",
+        "note": "Manufacturer page: 34 mm case, 41 mm lug-to-lug, 11.6 mm thickness, and 8 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 848,
+    "brand": "Longines",
+    "model": "PrimaLuna Moonphase",
+    "reference": "L8.126.5.71.7",
+    "lugToLugMm": 41,
+    "caseMm": 34,
+    "thicknessMm": 11.6,
+    "lugWidthMm": 8,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-126-5-71-7",
+        "note": "Manufacturer page: 34 mm case, 41 mm lug-to-lug, 11.6 mm thickness, and 8 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 849,
+    "brand": "Longines",
+    "model": "PrimaLuna Moonphase",
+    "reference": "L8.126.5.79.7",
+    "lugToLugMm": 41,
+    "caseMm": 34,
+    "thicknessMm": 11.6,
+    "lugWidthMm": 8,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-126-5-79-7",
+        "note": "Manufacturer page: 34 mm case, 41 mm lug-to-lug, 11.6 mm thickness, and 8 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 850,
+    "brand": "Longines",
+    "model": "PrimaLuna",
+    "reference": "L8.142.4.07.6",
+    "lugToLugMm": 37,
+    "caseMm": 30,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 7,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-142-4-07-6",
+        "note": "Manufacturer page: 30 mm case, 37 mm lug-to-lug, 8.3 mm thickness, and 7 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 851,
+    "brand": "Longines",
+    "model": "PrimaLuna",
+    "reference": "L8.142.4.71.6",
+    "lugToLugMm": 37,
+    "caseMm": 30,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 7,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-142-4-71-6",
+        "note": "Manufacturer page: 30 mm case, 37 mm lug-to-lug, 8.3 mm thickness, and 7 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 852,
+    "brand": "Longines",
+    "model": "PrimaLuna",
+    "reference": "L8.142.4.87.6",
+    "lugToLugMm": 37,
+    "caseMm": 30,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 7,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-142-4-87-6",
+        "note": "Manufacturer page: 30 mm case, 37 mm lug-to-lug, 8.3 mm thickness, and 7 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 853,
+    "brand": "Longines",
+    "model": "PrimaLuna",
+    "reference": "L8.142.4.97.6",
+    "lugToLugMm": 37,
+    "caseMm": 30,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 7,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.longines.com/kr/p/watch-longines-primaluna-l8-142-4-97-6",
+        "note": "Manufacturer page: 30 mm case, 37 mm lug-to-lug, 8.3 mm thickness, and 7 mm lug width."
       }
     ]
   }
