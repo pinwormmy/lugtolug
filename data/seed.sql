@@ -231,3 +231,22 @@ VALUES
 (160, 78, 'https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-aquaracer/43-mm-calibre-5-automatic/WBP201B.BA0632.html', 'TAG Heuer lists WBP201B.BA0632 as a 43 mm Aquaracer Professional 300 Date.'),
 (161, 79, 'https://pinwatch.blogspot.com/2019/02/blog-post_23.html', 'User-authored blog post lists the Formula 1 quartz chronograph 43 mm at 48 mm lug-to-lug.'),
 (162, 79, 'https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-formula-1/43-mm-quartz/CAZ101AN.BA0842.html', 'TAG Heuer lists CAZ101AN.BA0842 as a 43 mm Formula 1 Chronograph Quartz.');
+
+INSERT OR IGNORE INTO watches
+(id, brand, model, reference, brand_slug, model_slug, reference_slug, search_text, lug_to_lug_mm, case_mm, thickness_mm, lug_width_mm, confidence, status)
+VALUES
+(80, 'Grand Seiko', 'Heritage Collection Spring Drive', 'SBGA465', 'grand-seiko', 'heritage-collection-spring-drive', 'sbga465', 'grand seiko heritage collection spring drive sbga465', 46.6, 40, 12.3, 20, 'high', 'approved'),
+(81, 'Grand Seiko', 'Heritage 62GS Spring Drive Hana-Ikada', 'SBGA413', 'grand-seiko', 'heritage-62gs-spring-drive-hana-ikada', 'sbga413', 'grand seiko heritage 62gs spring drive hana ikada sbga413', 47, 40, 12.8, 21, 'high', 'approved'),
+(82, 'Grand Seiko', 'Elegance Hand-winding Spring Drive Iwao Blue', 'SBGY043', 'grand-seiko', 'elegance-hand-winding-spring-drive-iwao-blue', 'sbgy043', 'grand seiko elegance hand winding spring drive iwao blue sbgy043', 43.7, 38.5, 10.2, 19, 'high', 'approved'),
+(83, 'Grand Seiko', 'Heritage 44GS Hi-Beat', 'SBGH299', 'grand-seiko', 'heritage-44gs-hi-beat', 'sbgh299', 'grand seiko heritage 44gs hi beat sbgh299', 46.2, 40, 13.3, 19, 'high', 'approved'),
+(84, 'Grand Seiko', 'Heritage 9F Quartz', 'SBGX261', 'grand-seiko', 'heritage-9f-quartz', 'sbgx261', 'grand seiko heritage 9f quartz sbgx261', 44.6, 37, 10, 19, 'high', 'approved'),
+(85, 'Grand Seiko', 'Sport 9F Quartz', 'SBGV245', 'grand-seiko', 'sport-9f-quartz', 'sbgv245', 'grand seiko sport 9f quartz sbgv245', 47.1, 40, 11.8, 20, 'high', 'approved');
+
+INSERT OR IGNORE INTO watch_sources (id, watch_id, source_url, note)
+VALUES
+(163, 80, 'https://www.grand-seiko.com/us-en/collections/sbga465g', 'Manufacturer page: 40.0 mm diameter, 46.6 mm lug-to-lug, 12.3 mm thickness, and 20 mm band width.'),
+(164, 81, 'https://www.grand-seiko.com/us-en/collections/sbga413g', 'Manufacturer page: 40.0 mm diameter, 47.0 mm lug-to-lug, 12.8 mm thickness, and 21 mm band width.'),
+(165, 82, 'https://www.grand-seiko.com/us-en/collections/sbgy043g', 'Manufacturer page: 38.5 mm diameter, 43.7 mm lug-to-lug, 10.2 mm thickness, and 19 mm band width.'),
+(166, 83, 'https://www.grand-seiko.com/us-en/collections/sbgh299g', 'Manufacturer page: 40.0 mm diameter, 46.2 mm lug-to-lug, 13.3 mm thickness, and 19 mm band width.'),
+(167, 84, 'https://www.grand-seiko.com/us-en/collections/SBGX261G', 'Manufacturer page: 37.0 mm diameter, 44.6 mm lug-to-lug, 10.0 mm thickness, and 19 mm band width.'),
+(168, 85, 'https://www.grand-seiko.com/us-en/collections/sbgv245j', 'Manufacturer page: 40.0 mm diameter, 47.1 mm lug-to-lug, 11.8 mm thickness, and 20 mm band width.');

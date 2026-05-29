@@ -1690,5 +1690,107 @@
         "note": "TAG Heuer lists CAZ101AN.BA0842 as a 43 mm Formula 1 Chronograph Quartz."
       }
     ]
+  },
+  {
+    "id": 80,
+    "brand": "Grand Seiko",
+    "model": "Heritage Collection Spring Drive",
+    "reference": "SBGA465",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbga465g",
+        "note": "Manufacturer page: 40.0 mm diameter, 46.6 mm lug-to-lug, 12.3 mm thickness, and 20 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "brand": "Grand Seiko",
+    "model": "Heritage 62GS Spring Drive Hana-Ikada",
+    "reference": "SBGA413",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbga413g",
+        "note": "Manufacturer page: 40.0 mm diameter, 47.0 mm lug-to-lug, 12.8 mm thickness, and 21 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "brand": "Grand Seiko",
+    "model": "Elegance Hand-winding Spring Drive Iwao Blue",
+    "reference": "SBGY043",
+    "lugToLugMm": 43.7,
+    "caseMm": 38.5,
+    "thicknessMm": 10.2,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgy043g",
+        "note": "Manufacturer page: 38.5 mm diameter, 43.7 mm lug-to-lug, 10.2 mm thickness, and 19 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "brand": "Grand Seiko",
+    "model": "Heritage 44GS Hi-Beat",
+    "reference": "SBGH299",
+    "lugToLugMm": 46.2,
+    "caseMm": 40,
+    "thicknessMm": 13.3,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgh299g",
+        "note": "Manufacturer page: 40.0 mm diameter, 46.2 mm lug-to-lug, 13.3 mm thickness, and 19 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "brand": "Grand Seiko",
+    "model": "Heritage 9F Quartz",
+    "reference": "SBGX261",
+    "lugToLugMm": 44.6,
+    "caseMm": 37,
+    "thicknessMm": 10,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/SBGX261G",
+        "note": "Manufacturer page: 37.0 mm diameter, 44.6 mm lug-to-lug, 10.0 mm thickness, and 19 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "brand": "Grand Seiko",
+    "model": "Sport 9F Quartz",
+    "reference": "SBGV245",
+    "lugToLugMm": 47.1,
+    "caseMm": 40,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgv245j",
+        "note": "Manufacturer page: 40.0 mm diameter, 47.1 mm lug-to-lug, 11.8 mm thickness, and 20 mm band width."
+      }
+    ]
   }
 ]
