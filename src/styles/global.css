@@ -216,7 +216,7 @@ select {
   display: grid;
   column-gap: 16px;
   row-gap: 12px;
-  grid-template-columns: minmax(0, 1fr) repeat(4, minmax(72px, 0.2fr));
+  grid-template-columns: minmax(0, 1fr) minmax(88px, 0.22fr);
   padding: 14px;
   text-decoration: none;
 }

@@ -1,6 +1,6 @@
 ---
 import type { WatchWithSources } from "@/types";
-import { formatMm, getWatchHref, WATCH_METRICS } from "@/lib/watch";
+import { formatMm, getWatchHref } from "@/lib/watch";
 
 interface Props {
   watch: WatchWithSources;
@@ -16,10 +16,8 @@ const watchName = [watch.brand, watch.model].filter(Boolean).join(" ");
     <strong>{watchName}</strong>
     <span>{watch.reference || "Reference not provided"}</span>
   </div>
-  {WATCH_METRICS.map((metric) => (
-    <div class="metric">
-      <span>{metric.rowLabel}</span>
-      <strong>{formatMm(watch[metric.key])}</strong>
-    </div>
-  ))}
+  <div class="metric">
+    <span>Lug-to-lug</span>
+    <strong>{formatMm(watch.lugToLugMm)}</strong>
+  </div>
 </a>
