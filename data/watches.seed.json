@@ -14819,5 +14819,4765 @@
         "note": "Retailer specification page independently lists the exact reference with a 49 mm lug-to-lug measurement."
       }
     ]
+  },
+  {
+    "id": 860,
+    "brand": "Seiko",
+    "model": "Astron Seiko 145th Anniversary Limited Edition",
+    "reference": "HAB001",
+    "lugToLugMm": 50,
+    "caseMm": 43.4,
+    "thicknessMm": 12.4,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/astron/hab001j1",
+        "note": "Manufacturer page: 43.4 mm case, 50 mm lug-to-lug, 12.4 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 861,
+    "brand": "Seiko",
+    "model": "Astron Seiko 145th Anniversary Limited Edition",
+    "reference": "HAB002",
+    "lugToLugMm": 50,
+    "caseMm": 43.4,
+    "thicknessMm": 12.4,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/astron/hab002j1",
+        "note": "Manufacturer page: 43.4 mm case, 50 mm lug-to-lug, 12.4 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 862,
+    "brand": "Seiko",
+    "model": "Astron Seiko 145th Anniversary Limited Edition",
+    "reference": "HAB003",
+    "lugToLugMm": 50,
+    "caseMm": 43.4,
+    "thicknessMm": 12.4,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/astron/hab003j1",
+        "note": "Manufacturer page: 43.4 mm case, 50 mm lug-to-lug, 12.4 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 863,
+    "brand": "Seiko",
+    "model": "Astron Seiko 145th Anniversary Limited Edition",
+    "reference": "HAB004",
+    "lugToLugMm": 50,
+    "caseMm": 43.4,
+    "thicknessMm": 12.4,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/astron/hab004j1",
+        "note": "Manufacturer page: 43.4 mm case, 50 mm lug-to-lug, 12.4 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 864,
+    "brand": "Seiko",
+    "model": "Prospex Seiko 145th Anniversary Limited Edition",
+    "reference": "HBB001",
+    "lugToLugMm": 49.5,
+    "caseMm": 41.7,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/hbb001",
+        "note": "Manufacturer page: 41.7 mm case, 49.5 mm lug-to-lug, 12.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 865,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "HBC001",
+    "lugToLugMm": 48.6,
+    "caseMm": 42,
+    "thicknessMm": 13.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/hbc001j1",
+        "note": "Manufacturer page: 42 mm case, 48.6 mm lug-to-lug, 13.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 866,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "HBC002",
+    "lugToLugMm": 48.6,
+    "caseMm": 42,
+    "thicknessMm": 13.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/hbc002j1",
+        "note": "Manufacturer page: 42 mm case, 48.6 mm lug-to-lug, 13.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 867,
+    "brand": "Seiko",
+    "model": "Prospex Seiko 145th Anniversary Limited Edition",
+    "reference": "HBC005",
+    "lugToLugMm": 46.4,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/hbc005j1",
+        "note": "Manufacturer page: 40 mm case, 46.4 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 868,
+    "brand": "Seiko",
+    "model": "Prospex Marinemaster 1968 Heritage Diver's Watch",
+    "reference": "HBF001",
+    "lugToLugMm": 49.3,
+    "caseMm": 42.6,
+    "thicknessMm": 14.1,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/hbf001j1",
+        "note": "Manufacturer page: 42.6 mm case, 49.3 mm lug-to-lug, 14.1 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 869,
+    "brand": "Seiko",
+    "model": "Prospex Marinemaster 1968 Heritage JAMSTEC Limited Edition",
+    "reference": "HBF002",
+    "lugToLugMm": 49.3,
+    "caseMm": 42.6,
+    "thicknessMm": 14.1,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/hbf002j1",
+        "note": "Manufacturer page: 42.6 mm case, 49.3 mm lug-to-lug, 14.1 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 870,
+    "brand": "Seiko",
+    "model": "Presage Seiko 145th Anniversary Limited Edition",
+    "reference": "HCC004",
+    "lugToLugMm": 41.4,
+    "caseMm": 36,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/hcc004j1",
+        "note": "Manufacturer page: 36 mm case, 41.4 mm lug-to-lug, 12.5 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 871,
+    "brand": "Seiko",
+    "model": "Presage Seiko 145th Anniversary Limited Edition",
+    "reference": "HCC007",
+    "lugToLugMm": 46.8,
+    "caseMm": 39.6,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/hcc007j1",
+        "note": "Manufacturer page: 39.6 mm case, 46.8 mm lug-to-lug, 12.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 872,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "HDB006",
+    "lugToLugMm": 48.5,
+    "caseMm": 41,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/hdb006",
+        "note": "Manufacturer page: 41 mm case, 48.5 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 873,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "HDB007",
+    "lugToLugMm": 48.5,
+    "caseMm": 41,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/hdb007",
+        "note": "Manufacturer page: 41 mm case, 48.5 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 874,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "HDB008",
+    "lugToLugMm": 48.5,
+    "caseMm": 41,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/hdb008",
+        "note": "Manufacturer page: 41 mm case, 48.5 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 875,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "HDB009",
+    "lugToLugMm": 48.5,
+    "caseMm": 41,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/hdb009",
+        "note": "Manufacturer page: 41 mm case, 48.5 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 876,
+    "brand": "Seiko",
+    "model": "King Seiko Seiko 145th Anniversary Limited Edition",
+    "reference": "HKF001",
+    "lugToLugMm": 45.1,
+    "caseMm": 41,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/hkf001j1",
+        "note": "Manufacturer page: 41 mm case, 45.1 mm lug-to-lug, 14.3 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 877,
+    "brand": "Seiko",
+    "model": "King Seiko Seiko 145th Anniversary Limited Edition",
+    "reference": "HKF002",
+    "lugToLugMm": 45.1,
+    "caseMm": 41,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/hkf002j1",
+        "note": "Manufacturer page: 41 mm case, 45.1 mm lug-to-lug, 14.3 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 878,
+    "brand": "Seiko",
+    "model": "King Seiko Seiko 145th Anniversary Limited Edition",
+    "reference": "HKF003",
+    "lugToLugMm": 45.1,
+    "caseMm": 41,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/hkf003j1",
+        "note": "Manufacturer page: 41 mm case, 45.1 mm lug-to-lug, 14.3 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 879,
+    "brand": "Seiko",
+    "model": "King Seiko Seiko 145th Anniversary Limited Edition",
+    "reference": "HKF004",
+    "lugToLugMm": 45.1,
+    "caseMm": 41,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/hkf004j1",
+        "note": "Manufacturer page: 41 mm case, 45.1 mm lug-to-lug, 14.3 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 880,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "S23629",
+    "lugToLugMm": 46.7,
+    "caseMm": 47.7,
+    "thicknessMm": 14.1,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/s23629j1",
+        "note": "Manufacturer page: 47.7 mm case, 46.7 mm lug-to-lug, 14.1 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 881,
+    "brand": "Seiko",
+    "model": "Prospex Marinemaster 1965 Heritage Diver's Watch",
+    "reference": "SJE099",
+    "lugToLugMm": 47.2,
+    "caseMm": 39.5,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/sje099j1",
+        "note": "Manufacturer page: 39.5 mm case, 47.2 mm lug-to-lug, 12.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 882,
+    "brand": "Seiko",
+    "model": "Prospex Marinemaster 1965 Diver’s Modern Re-interpretation",
+    "reference": "SJE101",
+    "lugToLugMm": 47.2,
+    "caseMm": 39.5,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/sje101j1",
+        "note": "Manufacturer page: 39.5 mm case, 47.2 mm lug-to-lug, 12.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 883,
+    "brand": "Seiko",
+    "model": "King Seiko Seiko 145th Anniversary Limited Edition",
+    "reference": "SJE103",
+    "lugToLugMm": 45.8,
+    "caseMm": 38.6,
+    "thicknessMm": 10.7,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/sje103j1",
+        "note": "Manufacturer page: 38.6 mm case, 45.8 mm lug-to-lug, 10.7 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 884,
+    "brand": "Seiko",
+    "model": "King Seiko Seiko 145th Anniversary Limited Edition",
+    "reference": "SJE105",
+    "lugToLugMm": 45.8,
+    "caseMm": 38.6,
+    "thicknessMm": 10.7,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/sje105j1",
+        "note": "Manufacturer page: 38.6 mm case, 45.8 mm lug-to-lug, 10.7 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 885,
+    "brand": "Seiko",
+    "model": "King Seiko Seiko 145th Anniversary Limited Edition",
+    "reference": "SJE107",
+    "lugToLugMm": 45.8,
+    "caseMm": 38.6,
+    "thicknessMm": 10.7,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/sje107j1",
+        "note": "Manufacturer page: 38.6 mm case, 45.8 mm lug-to-lug, 10.7 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 886,
+    "brand": "Seiko",
+    "model": "King Seiko Seiko 145th Anniversary Limited Edition",
+    "reference": "SJE109",
+    "lugToLugMm": 43.6,
+    "caseMm": 39.4,
+    "thicknessMm": 9.9,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/sje109j1",
+        "note": "Manufacturer page: 39.4 mm case, 43.6 mm lug-to-lug, 9.9 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 887,
+    "brand": "Seiko",
+    "model": "King Seiko Seiko 145th Anniversary Limited Edition",
+    "reference": "SJE111",
+    "lugToLugMm": 43.6,
+    "caseMm": 39.4,
+    "thicknessMm": 9.9,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/sje111j1",
+        "note": "Manufacturer page: 39.4 mm case, 43.6 mm lug-to-lug, 9.9 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 888,
+    "brand": "Seiko",
+    "model": "King Seiko Seiko 145th Anniversary Limited Edition",
+    "reference": "SJE113",
+    "lugToLugMm": 43.6,
+    "caseMm": 39.4,
+    "thicknessMm": 9.9,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/sje113j1",
+        "note": "Manufacturer page: 39.4 mm case, 43.6 mm lug-to-lug, 9.9 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 889,
+    "brand": "Seiko",
+    "model": "King Seiko Seiko 145th Anniversary Limited Edition",
+    "reference": "SJE121",
+    "lugToLugMm": 43.6,
+    "caseMm": 39.4,
+    "thicknessMm": 9.9,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/sje121j1",
+        "note": "Manufacturer page: 39.4 mm case, 43.6 mm lug-to-lug, 9.9 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 890,
+    "brand": "Seiko",
+    "model": "Prospex Marinemaster 1968 Heritage Diver's Watch",
+    "reference": "SLA077",
+    "lugToLugMm": 49.3,
+    "caseMm": 42.6,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/sla077j1",
+        "note": "Manufacturer page: 42.6 mm case, 49.3 mm lug-to-lug, 13.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 891,
+    "brand": "Seiko",
+    "model": "Prospex Marinemaster 1968 Heritage Diver's Watch",
+    "reference": "SLA079",
+    "lugToLugMm": 49.3,
+    "caseMm": 42.6,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/sla079j1",
+        "note": "Manufacturer page: 42.6 mm case, 49.3 mm lug-to-lug, 13.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 892,
+    "brand": "Seiko",
+    "model": "Prospex Seiko Diver’s Watch 60th Anniversary Limited Edition",
+    "reference": "SLA081",
+    "lugToLugMm": 50.4,
+    "caseMm": 45.4,
+    "thicknessMm": 16,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/sla081j1",
+        "note": "Manufacturer page: 45.4 mm case, 50.4 mm lug-to-lug, 16 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 893,
+    "brand": "Seiko",
+    "model": "King Seiko Seiko 145th Anniversary Limited Edition",
+    "reference": "SLA083",
+    "lugToLugMm": 45.1,
+    "caseMm": 41,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/sla083j1",
+        "note": "Manufacturer page: 41 mm case, 45.1 mm lug-to-lug, 14.3 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 894,
+    "brand": "Seiko",
+    "model": "King Seiko Seiko 145th Anniversary Limited Edition",
+    "reference": "SLA085",
+    "lugToLugMm": 45.1,
+    "caseMm": 41,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/sla085j1",
+        "note": "Manufacturer page: 41 mm case, 45.1 mm lug-to-lug, 14.3 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 895,
+    "brand": "Seiko",
+    "model": "King Seiko Seiko 145th Anniversary Limited Edition",
+    "reference": "SLA087",
+    "lugToLugMm": 45.1,
+    "caseMm": 41,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/sla087j1",
+        "note": "Manufacturer page: 41 mm case, 45.1 mm lug-to-lug, 14.3 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 896,
+    "brand": "Seiko",
+    "model": "King Seiko Seiko Boutique Exclusive Edition",
+    "reference": "SLA091",
+    "lugToLugMm": 45.1,
+    "caseMm": 41,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/sla091j1",
+        "note": "Manufacturer page: 41 mm case, 45.1 mm lug-to-lug, 14.3 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 897,
+    "brand": "Seiko",
+    "model": "King Seiko Seiko 145th Anniversary Limited Edition",
+    "reference": "SLA093",
+    "lugToLugMm": 45.1,
+    "caseMm": 41,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/sla093j1",
+        "note": "Manufacturer page: 41 mm case, 45.1 mm lug-to-lug, 14.3 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 898,
+    "brand": "Seiko",
+    "model": "King Seiko Seiko 145th Anniversary Limited Edition",
+    "reference": "SLA095",
+    "lugToLugMm": 45.1,
+    "caseMm": 41,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/sla095j1",
+        "note": "Manufacturer page: 41 mm case, 45.1 mm lug-to-lug, 14.3 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 899,
+    "brand": "Seiko",
+    "model": "Discover More SMGG17",
+    "reference": "SMGG17",
+    "lugToLugMm": 43.5,
+    "caseMm": 37,
+    "thicknessMm": 10.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/discovermore/smgg17",
+        "note": "Manufacturer page: 37 mm case, 43.5 mm lug-to-lug, 10.6 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 900,
+    "brand": "Seiko",
+    "model": "Discover More SMGG19",
+    "reference": "SMGG19",
+    "lugToLugMm": 43.5,
+    "caseMm": 37,
+    "thicknessMm": 10.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/discovermore/smgg19",
+        "note": "Manufacturer page: 37 mm case, 43.5 mm lug-to-lug, 10.6 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 901,
+    "brand": "Seiko",
+    "model": "Discover More SMGG21",
+    "reference": "SMGG21",
+    "lugToLugMm": 43.5,
+    "caseMm": 37,
+    "thicknessMm": 10.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/discovermore/smgg21",
+        "note": "Manufacturer page: 37 mm case, 43.5 mm lug-to-lug, 10.6 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 902,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SNE569",
+    "lugToLugMm": 46.5,
+    "caseMm": 38.5,
+    "thicknessMm": 10.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/sne569",
+        "note": "Manufacturer page: 38.5 mm case, 46.5 mm lug-to-lug, 10.6 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 903,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SNE579",
+    "lugToLugMm": 49.8,
+    "caseMm": 43.5,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/sne579",
+        "note": "Manufacturer page: 43.5 mm case, 49.8 mm lug-to-lug, 11.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 904,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SNJ025",
+    "lugToLugMm": 50.5,
+    "caseMm": 47.8,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/snj025",
+        "note": "Manufacturer page: 47.8 mm case, 50.5 mm lug-to-lug, 13.8 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 905,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SPB101",
+    "lugToLugMm": 52.6,
+    "caseMm": 45,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb101j1",
+        "note": "Manufacturer page: 45 mm case, 52.6 mm lug-to-lug, 12.9 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 906,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SPB103",
+    "lugToLugMm": 52.6,
+    "caseMm": 45,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb103j1",
+        "note": "Manufacturer page: 45 mm case, 52.6 mm lug-to-lug, 12.9 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 907,
+    "brand": "Seiko",
+    "model": "Prospex Mechanical",
+    "reference": "SPB121",
+    "lugToLugMm": 46.4,
+    "caseMm": 39.5,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb121j1",
+        "note": "Manufacturer page: 39.5 mm case, 46.4 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 908,
+    "brand": "Seiko",
+    "model": "Prospex The Black Series Limited Edition",
+    "reference": "SPB125",
+    "lugToLugMm": 52.6,
+    "caseMm": 45,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb125j1",
+        "note": "Manufacturer page: 45 mm case, 52.6 mm lug-to-lug, 12.9 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 909,
+    "brand": "Seiko",
+    "model": "Prospex 1965 Heritage Diver's Watch",
+    "reference": "SPB145",
+    "lugToLugMm": 47.6,
+    "caseMm": 40.5,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb145j1",
+        "note": "Manufacturer page: 40.5 mm case, 47.6 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 910,
+    "brand": "Seiko",
+    "model": "Prospex 1965 Diver’s Modern Re-interpretation",
+    "reference": "SPB149",
+    "lugToLugMm": 47.6,
+    "caseMm": 40.5,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb149j1",
+        "note": "Manufacturer page: 40.5 mm case, 47.6 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 911,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SPB155",
+    "lugToLugMm": 46,
+    "caseMm": 38,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb155j1",
+        "note": "Manufacturer page: 38 mm case, 46 mm lug-to-lug, 12.9 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 912,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SPB165",
+    "lugToLugMm": 47.2,
+    "caseMm": 39.3,
+    "thicknessMm": 11.1,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb165j1",
+        "note": "Manufacturer page: 39.3 mm case, 47.2 mm lug-to-lug, 11.1 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 913,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SPB169",
+    "lugToLugMm": 47.2,
+    "caseMm": 39.3,
+    "thicknessMm": 11.1,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb169j1",
+        "note": "Manufacturer page: 39.3 mm case, 47.2 mm lug-to-lug, 11.1 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 914,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SPB170",
+    "lugToLugMm": 47.2,
+    "caseMm": 39.3,
+    "thicknessMm": 11.1,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb170j1",
+        "note": "Manufacturer page: 39.3 mm case, 47.2 mm lug-to-lug, 11.1 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 915,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SPB209",
+    "lugToLugMm": 46.4,
+    "caseMm": 39.5,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb209j1",
+        "note": "Manufacturer page: 39.5 mm case, 46.4 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 916,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SPB210",
+    "lugToLugMm": 46.4,
+    "caseMm": 39.5,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb210j1",
+        "note": "Manufacturer page: 39.5 mm case, 46.4 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 917,
+    "brand": "Seiko",
+    "model": "Prospex Seiko 140th Anniversary Limited Edition",
+    "reference": "SPB213",
+    "lugToLugMm": 47.6,
+    "caseMm": 40.5,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb213j1",
+        "note": "Manufacturer page: 40.5 mm case, 47.6 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 918,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SPB241",
+    "lugToLugMm": 46.2,
+    "caseMm": 38,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb241j1",
+        "note": "Manufacturer page: 38 mm case, 46.2 mm lug-to-lug, 12.9 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 919,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SPB245",
+    "lugToLugMm": 46.2,
+    "caseMm": 38,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb245j1",
+        "note": "Manufacturer page: 38 mm case, 46.2 mm lug-to-lug, 12.9 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 920,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SPB317",
+    "lugToLugMm": 46.9,
+    "caseMm": 41,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb317j1",
+        "note": "Manufacturer page: 41 mm case, 46.9 mm lug-to-lug, 12.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 921,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SPB323",
+    "lugToLugMm": 52.6,
+    "caseMm": 45,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb323j1",
+        "note": "Manufacturer page: 45 mm case, 52.6 mm lug-to-lug, 13.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 922,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SPB381",
+    "lugToLugMm": 48.6,
+    "caseMm": 42,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb381j1",
+        "note": "Manufacturer page: 42 mm case, 48.6 mm lug-to-lug, 12.9 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 923,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SPB383",
+    "lugToLugMm": 48.6,
+    "caseMm": 42,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb383j1",
+        "note": "Manufacturer page: 42 mm case, 48.6 mm lug-to-lug, 12.9 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 924,
+    "brand": "Seiko",
+    "model": "King Seiko Seiko 145th Anniversary Limited Edition",
+    "reference": "SPB389",
+    "lugToLugMm": 46,
+    "caseMm": 38.3,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/spb389j1",
+        "note": "Manufacturer page: 38.3 mm case, 46 mm lug-to-lug, 11.7 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 925,
+    "brand": "Seiko",
+    "model": "King Seiko Seiko 145th Anniversary Limited Edition",
+    "reference": "SPB391",
+    "lugToLugMm": 46,
+    "caseMm": 38.3,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/spb391j1",
+        "note": "Manufacturer page: 38.3 mm case, 46 mm lug-to-lug, 11.7 mm thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 926,
+    "brand": "Seiko",
+    "model": "Prospex 1968' Diver's Re-interpretation GMT Save the Ocean",
+    "reference": "SPB439",
+    "lugToLugMm": 48.6,
+    "caseMm": 42,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb439j1",
+        "note": "Manufacturer page: 42 mm case, 48.6 mm lug-to-lug, 12.9 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 927,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Arita Porcelain Dial",
+    "reference": "SPB445",
+    "lugToLugMm": 49.1,
+    "caseMm": 40.6,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb445j1",
+        "note": "Manufacturer page: 40.6 mm case, 49.1 mm lug-to-lug, 12.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 928,
+    "brand": "Seiko",
+    "model": "Prospex 1965 Heritage Diver's Watch",
+    "reference": "SPB451",
+    "lugToLugMm": 46.4,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb451j1",
+        "note": "Manufacturer page: 40 mm case, 46.4 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 929,
+    "brand": "Seiko",
+    "model": "Prospex 1965 Heritage Diver's Watch",
+    "reference": "SPB453",
+    "lugToLugMm": 46.4,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb453j1",
+        "note": "Manufacturer page: 40 mm case, 46.4 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 930,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SPB463",
+    "lugToLugMm": 46,
+    "caseMm": 40.2,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb463j1",
+        "note": "Manufacturer page: 40.2 mm case, 46 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 931,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SPB465",
+    "lugToLugMm": 46,
+    "caseMm": 40.2,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb465j1",
+        "note": "Manufacturer page: 40.2 mm case, 46 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 932,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SPB467",
+    "lugToLugMm": 46,
+    "caseMm": 40.2,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb467j1",
+        "note": "Manufacturer page: 40.2 mm case, 46 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 933,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SPB469",
+    "lugToLugMm": 46,
+    "caseMm": 40.2,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb469j1",
+        "note": "Manufacturer page: 40.2 mm case, 46 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 934,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SPB471",
+    "lugToLugMm": 46,
+    "caseMm": 40.2,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb471j1",
+        "note": "Manufacturer page: 40.2 mm case, 46 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 935,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SPB478",
+    "lugToLugMm": 46,
+    "caseMm": 40.2,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb478j1",
+        "note": "Manufacturer page: 40.2 mm case, 46 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 936,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SPB480",
+    "lugToLugMm": 46,
+    "caseMm": 40.2,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb480j1",
+        "note": "Manufacturer page: 40.2 mm case, 46 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 937,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SPB481",
+    "lugToLugMm": 48.2,
+    "caseMm": 41.3,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb481j1",
+        "note": "Manufacturer page: 41.3 mm case, 48.2 mm lug-to-lug, 12.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 938,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SPB483",
+    "lugToLugMm": 48.2,
+    "caseMm": 41.3,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb483j1",
+        "note": "Manufacturer page: 41.3 mm case, 48.2 mm lug-to-lug, 12.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 939,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SPB485",
+    "lugToLugMm": 48.2,
+    "caseMm": 41.3,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb485j1",
+        "note": "Manufacturer page: 41.3 mm case, 48.2 mm lug-to-lug, 12.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 940,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SPB495",
+    "lugToLugMm": 48,
+    "caseMm": 40.2,
+    "thicknessMm": 12.1,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb495j1",
+        "note": "Manufacturer page: 40.2 mm case, 48 mm lug-to-lug, 12.1 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 941,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Unglazed Arita Porcelain Dial Limited Edition",
+    "reference": "SPB497",
+    "lugToLugMm": 49.1,
+    "caseMm": 40.6,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb497j1",
+        "note": "Manufacturer page: 40.6 mm case, 49.1 mm lug-to-lug, 12.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 942,
+    "brand": "Seiko",
+    "model": "Prospex 1965 Heritage Diver's Watch PADI Special Edition",
+    "reference": "SPB501",
+    "lugToLugMm": 46.4,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb501j1",
+        "note": "Manufacturer page: 40 mm case, 46.4 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 943,
+    "brand": "Seiko",
+    "model": "Prospex Mechanical",
+    "reference": "SPB503",
+    "lugToLugMm": 46.4,
+    "caseMm": 39.5,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb503j1",
+        "note": "Manufacturer page: 39.5 mm case, 46.4 mm lug-to-lug, 12.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 944,
+    "brand": "Seiko",
+    "model": "Prospex Mechanical",
+    "reference": "SPB505",
+    "lugToLugMm": 46.4,
+    "caseMm": 39.5,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb505j1",
+        "note": "Manufacturer page: 39.5 mm case, 46.4 mm lug-to-lug, 12.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 945,
+    "brand": "Seiko",
+    "model": "Prospex Mechanical",
+    "reference": "SPB507",
+    "lugToLugMm": 46.4,
+    "caseMm": 39.5,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb507j1",
+        "note": "Manufacturer page: 39.5 mm case, 46.4 mm lug-to-lug, 12.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 946,
+    "brand": "Seiko",
+    "model": "Prospex Seiko Diver’s Watch 60th Anniversary Limited Edition",
+    "reference": "SPB509",
+    "lugToLugMm": 48.6,
+    "caseMm": 42,
+    "thicknessMm": 13.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb509j1",
+        "note": "Manufacturer page: 42 mm case, 48.6 mm lug-to-lug, 13.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 947,
+    "brand": "Seiko",
+    "model": "Prospex Seiko Diver’s Watch 60th Anniversary Limited Edition",
+    "reference": "SPB511",
+    "lugToLugMm": 46.4,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb511j1",
+        "note": "Manufacturer page: 40 mm case, 46.4 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 948,
+    "brand": "Seiko",
+    "model": "Prospex Mechanical",
+    "reference": "SPB513",
+    "lugToLugMm": 44.5,
+    "caseMm": 39.5,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb513j1",
+        "note": "Manufacturer page: 39.5 mm case, 44.5 mm lug-to-lug, 12 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 949,
+    "brand": "Seiko",
+    "model": "Prospex Mechanical",
+    "reference": "SPB515",
+    "lugToLugMm": 44.5,
+    "caseMm": 39.5,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb515j1",
+        "note": "Manufacturer page: 39.5 mm case, 44.5 mm lug-to-lug, 12 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 950,
+    "brand": "Seiko",
+    "model": "Prospex Mechanical Datsun 240Z Limited Edition",
+    "reference": "SPB517",
+    "lugToLugMm": 44.5,
+    "caseMm": 39.5,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb517j1",
+        "note": "Manufacturer page: 39.5 mm case, 44.5 mm lug-to-lug, 12 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 951,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SPB519",
+    "lugToLugMm": 48.6,
+    "caseMm": 42,
+    "thicknessMm": 13.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb519j1",
+        "note": "Manufacturer page: 42 mm case, 48.6 mm lug-to-lug, 13.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 952,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SPB521",
+    "lugToLugMm": 41.4,
+    "caseMm": 36,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb521j1",
+        "note": "Manufacturer page: 36 mm case, 41.4 mm lug-to-lug, 12.5 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 953,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SPB523",
+    "lugToLugMm": 41.4,
+    "caseMm": 36,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb523j1",
+        "note": "Manufacturer page: 36 mm case, 41.4 mm lug-to-lug, 12.5 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 954,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SPB524",
+    "lugToLugMm": 41.4,
+    "caseMm": 36,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb524j1",
+        "note": "Manufacturer page: 36 mm case, 41.4 mm lug-to-lug, 12.5 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 955,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SPB525",
+    "lugToLugMm": 46,
+    "caseMm": 40.2,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb525j1",
+        "note": "Manufacturer page: 40.2 mm case, 46 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 956,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SPB527",
+    "lugToLugMm": 46,
+    "caseMm": 40.2,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb527j1",
+        "note": "Manufacturer page: 40.2 mm case, 46 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 957,
+    "brand": "Seiko",
+    "model": "Presage Upcycled Leather Strap Limited Edition",
+    "reference": "SPB529",
+    "lugToLugMm": 46,
+    "caseMm": 40.2,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb529j1",
+        "note": "Manufacturer page: 40.2 mm case, 46 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 958,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch Limited Edition",
+    "reference": "SPB534",
+    "lugToLugMm": 48.6,
+    "caseMm": 42,
+    "thicknessMm": 13.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb534j1",
+        "note": "Manufacturer page: 42 mm case, 48.6 mm lug-to-lug, 13.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 959,
+    "brand": "Seiko",
+    "model": "Presage \"Craftsmanship\" Enamel Dial",
+    "reference": "SPB537",
+    "lugToLugMm": 46,
+    "caseMm": 35.9,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb537j1",
+        "note": "Manufacturer page: 35.9 mm case, 46 mm lug-to-lug, 12.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 960,
+    "brand": "Seiko",
+    "model": "Presage Seiko 145th Anniversary Limited Edition",
+    "reference": "SPB538",
+    "lugToLugMm": 37,
+    "caseMm": 35,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 11,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb538j1",
+        "note": "Manufacturer page: 35 mm case, 37 mm lug-to-lug, 12.3 mm thickness, and 11 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 961,
+    "brand": "Seiko",
+    "model": "Prospex Seiko Prospex 1965 Heritage Diver’s Watch Save the Ocean Limited Edition",
+    "reference": "SPB545",
+    "lugToLugMm": 46.4,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/spb545j1",
+        "note": "Manufacturer page: 40 mm case, 46.4 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 962,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SRE007",
+    "lugToLugMm": 37,
+    "caseMm": 30.3,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/sre007j1",
+        "note": "Manufacturer page: 30.3 mm case, 37 mm lug-to-lug, 10.9 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 963,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SRE009",
+    "lugToLugMm": 37,
+    "caseMm": 30.3,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/sre009j1",
+        "note": "Manufacturer page: 30.3 mm case, 37 mm lug-to-lug, 10.9 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 964,
+    "brand": "Seiko",
+    "model": "Presage STAR BAR Limited Edition",
+    "reference": "SRE015",
+    "lugToLugMm": 37,
+    "caseMm": 30.3,
+    "thicknessMm": 11,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/sre015j1",
+        "note": "Manufacturer page: 30.3 mm case, 37 mm lug-to-lug, 11 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 965,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRE021",
+    "lugToLugMm": 38.7,
+    "caseMm": 32,
+    "thicknessMm": 11.4,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/sre021",
+        "note": "Manufacturer page: 32 mm case, 38.7 mm lug-to-lug, 11.4 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 966,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRE023",
+    "lugToLugMm": 38.7,
+    "caseMm": 32,
+    "thicknessMm": 11.4,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/sre023",
+        "note": "Manufacturer page: 32 mm case, 38.7 mm lug-to-lug, 11.4 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 967,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRE024",
+    "lugToLugMm": 38.7,
+    "caseMm": 32,
+    "thicknessMm": 11.4,
+    "lugWidthMm": 15,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/sre024",
+        "note": "Manufacturer page: 32 mm case, 38.7 mm lug-to-lug, 11.4 mm thickness, and 15 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 968,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPD51",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpd51",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 969,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPD53",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpd53",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 970,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPD57",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpd57",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 971,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPD59",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpd59",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 972,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPD63",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpd63",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 973,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPD65K2",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpd65k2",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 974,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPD71K2",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpd71k2",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 975,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPD73K2",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpd73k2",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 976,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPD76",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpd76",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 977,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPD79",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpd79",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 978,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SRPD97",
+    "lugToLugMm": 43.6,
+    "caseMm": 38.3,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/srpd97j1",
+        "note": "Manufacturer page: 38.3 mm case, 43.6 mm lug-to-lug, 11.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 979,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SRPD99",
+    "lugToLugMm": 43.6,
+    "caseMm": 38.3,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/srpd99j1",
+        "note": "Manufacturer page: 38.3 mm case, 43.6 mm lug-to-lug, 11.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 980,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SRPE19",
+    "lugToLugMm": 47.5,
+    "caseMm": 40.5,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/srpe19j1",
+        "note": "Manufacturer page: 40.5 mm case, 47.5 mm lug-to-lug, 11.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 981,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SRPE43",
+    "lugToLugMm": 45.4,
+    "caseMm": 38.5,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/srpe43j1",
+        "note": "Manufacturer page: 38.5 mm case, 45.4 mm lug-to-lug, 11.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 982,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SRPE45",
+    "lugToLugMm": 45.4,
+    "caseMm": 38.5,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/srpe45j1",
+        "note": "Manufacturer page: 38.5 mm case, 45.4 mm lug-to-lug, 11.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 983,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPE53",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpe53",
+        "note": "Manufacturer page: 40 mm case, 44.6 mm lug-to-lug, 11.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 984,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPE55",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpe55",
+        "note": "Manufacturer page: 40 mm case, 44.6 mm lug-to-lug, 11.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 985,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPE65",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpe65",
+        "note": "Manufacturer page: 40 mm case, 44.6 mm lug-to-lug, 11.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 986,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPE69",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpe69",
+        "note": "Manufacturer page: 40 mm case, 44.6 mm lug-to-lug, 11.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 987,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPE74",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpe74",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 988,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPE83",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpe83",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 989,
+    "brand": "Seiko",
+    "model": "5 Sports STREET FIGHTER V Limited Edition",
+    "reference": "SRPF17",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpf17",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 990,
+    "brand": "Seiko",
+    "model": "5 Sports STREET FIGHTER V Limited Edition",
+    "reference": "SRPF19",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpf19",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 991,
+    "brand": "Seiko",
+    "model": "5 Sports STREET FIGHTER V Limited Edition",
+    "reference": "SRPF20",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpf20",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 992,
+    "brand": "Seiko",
+    "model": "5 Sports STREET FIGHTER V Limited Edition",
+    "reference": "SRPF21",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpf21",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 993,
+    "brand": "Seiko",
+    "model": "5 Sports STREET FIGHTER V Limited Edition",
+    "reference": "SRPF23",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpf23",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 994,
+    "brand": "Seiko",
+    "model": "5 Sports STREET FIGHTER V Limited Edition",
+    "reference": "SRPF24",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpf24",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 995,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SRPF45",
+    "lugToLugMm": 48.5,
+    "caseMm": 41.7,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/srpf45j1",
+        "note": "Manufacturer page: 41.7 mm case, 48.5 mm lug-to-lug, 11.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 996,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SRPF47",
+    "lugToLugMm": 41.2,
+    "caseMm": 34.3,
+    "thicknessMm": 11,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/srpf47j1",
+        "note": "Manufacturer page: 34.3 mm case, 41.2 mm lug-to-lug, 11 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 997,
+    "brand": "Seiko",
+    "model": "5 Sports NARUTO & BORUTO Limited Edition",
+    "reference": "SRPF70",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpf70",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 998,
+    "brand": "Seiko",
+    "model": "Prospex Save the Ocean Special Edition",
+    "reference": "SRPF77",
+    "lugToLugMm": 47.7,
+    "caseMm": 45,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/srpf77",
+        "note": "Manufacturer page: 45 mm case, 47.7 mm lug-to-lug, 13.2 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 999,
+    "brand": "Seiko",
+    "model": "Prospex Save the Ocean Special Edition",
+    "reference": "SRPF79",
+    "lugToLugMm": 48.7,
+    "caseMm": 43.8,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/srpf79",
+        "note": "Manufacturer page: 43.8 mm case, 48.7 mm lug-to-lug, 12.8 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1000,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SRPG03",
+    "lugToLugMm": 47,
+    "caseMm": 40.8,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/srpg03j1",
+        "note": "Manufacturer page: 40.8 mm case, 47 mm lug-to-lug, 12 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1001,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SRPG05",
+    "lugToLugMm": 47,
+    "caseMm": 40.8,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/srpg05j1",
+        "note": "Manufacturer page: 40.8 mm case, 47 mm lug-to-lug, 12 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1002,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SRPG07",
+    "lugToLugMm": 47,
+    "caseMm": 40.8,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/srpg07j1",
+        "note": "Manufacturer page: 40.8 mm case, 47 mm lug-to-lug, 12 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1003,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPG27",
+    "lugToLugMm": 48.1,
+    "caseMm": 39.4,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpg27",
+        "note": "Manufacturer page: 39.4 mm case, 48.1 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1004,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPG29",
+    "lugToLugMm": 48.1,
+    "caseMm": 39.4,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpg29",
+        "note": "Manufacturer page: 39.4 mm case, 48.1 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1005,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPG31",
+    "lugToLugMm": 48.1,
+    "caseMm": 39.4,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpg31",
+        "note": "Manufacturer page: 39.4 mm case, 48.1 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1006,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPG35",
+    "lugToLugMm": 48.1,
+    "caseMm": 39.4,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpg35",
+        "note": "Manufacturer page: 39.4 mm case, 48.1 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1007,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPG41",
+    "lugToLugMm": 48.1,
+    "caseMm": 39.4,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpg41",
+        "note": "Manufacturer page: 39.4 mm case, 48.1 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1008,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPG42",
+    "lugToLugMm": 48.1,
+    "caseMm": 39.4,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpg42",
+        "note": "Manufacturer page: 39.4 mm case, 48.1 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1009,
+    "brand": "Seiko",
+    "model": "5 Sports Seiko 140th Anniversary Limited Edition",
+    "reference": "SRPG47",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpg47",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1010,
+    "brand": "Seiko",
+    "model": "Prospex Save the Ocean Special Edition",
+    "reference": "SRPG57",
+    "lugToLugMm": 49.4,
+    "caseMm": 42.4,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/srpg57",
+        "note": "Manufacturer page: 42.4 mm case, 49.4 mm lug-to-lug, 13.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1011,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPG61",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpg61",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1012,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPG63",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpg63",
+        "note": "Manufacturer page: 40 mm case, 44.6 mm lug-to-lug, 11.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1013,
+    "brand": "Seiko",
+    "model": "Prospex Save the Ocean Special Edition",
+    "reference": "SRPH75",
+    "lugToLugMm": 49.4,
+    "caseMm": 42.4,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/srph75",
+        "note": "Manufacturer page: 42.4 mm case, 49.4 mm lug-to-lug, 13.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1014,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SRPJ13",
+    "lugToLugMm": 46,
+    "caseMm": 39.5,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/srpj13j1",
+        "note": "Manufacturer page: 39.5 mm case, 46 mm lug-to-lug, 11.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1015,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SRPJ17",
+    "lugToLugMm": 46,
+    "caseMm": 39.5,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/srpj17j1",
+        "note": "Manufacturer page: 39.5 mm case, 46 mm lug-to-lug, 11.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1016,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPJ47",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpj47",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1017,
+    "brand": "Seiko",
+    "model": "5 Sports Super Cub Limited Edition",
+    "reference": "SRPJ49",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpj49",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1018,
+    "brand": "Seiko",
+    "model": "5 Sports Super Cub Limited Edition",
+    "reference": "SRPJ75",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpj75",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1019,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPJ81",
+    "lugToLugMm": 44.4,
+    "caseMm": 36.4,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpj81",
+        "note": "Manufacturer page: 36.4 mm case, 44.4 mm lug-to-lug, 12.5 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1020,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPJ83",
+    "lugToLugMm": 44.4,
+    "caseMm": 36.4,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpj83",
+        "note": "Manufacturer page: 36.4 mm case, 44.4 mm lug-to-lug, 12.5 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1021,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPJ85",
+    "lugToLugMm": 44.4,
+    "caseMm": 36.4,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpj85",
+        "note": "Manufacturer page: 36.4 mm case, 44.4 mm lug-to-lug, 12.5 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1022,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPJ87",
+    "lugToLugMm": 44.4,
+    "caseMm": 36.4,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpj87",
+        "note": "Manufacturer page: 36.4 mm case, 44.4 mm lug-to-lug, 12.5 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1023,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPJ89",
+    "lugToLugMm": 44.4,
+    "caseMm": 36.4,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpj89",
+        "note": "Manufacturer page: 36.4 mm case, 44.4 mm lug-to-lug, 12.5 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1024,
+    "brand": "Seiko",
+    "model": "5 Sports 55th Anniversary Customize Campaign Limited Edition",
+    "reference": "SRPK03",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpk03",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1025,
+    "brand": "Seiko",
+    "model": "5 Sports 55th Anniversary Customize Campaign Limited Edition",
+    "reference": "SRPK05",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpk05",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1026,
+    "brand": "Seiko",
+    "model": "5 Sports 55th Anniversary Customize Campaign Limited Edition",
+    "reference": "SRPK07",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpk07",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1027,
+    "brand": "Seiko",
+    "model": "5 Sports 55th Anniversary Customize Campaign Limited Edition",
+    "reference": "SRPK08",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpk08",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1028,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPK29",
+    "lugToLugMm": 44.2,
+    "caseMm": 38,
+    "thicknessMm": 12.1,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpk29",
+        "note": "Manufacturer page: 38 mm case, 44.2 mm lug-to-lug, 12.1 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1029,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPK31",
+    "lugToLugMm": 44.2,
+    "caseMm": 38,
+    "thicknessMm": 12.1,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpk31",
+        "note": "Manufacturer page: 38 mm case, 44.2 mm lug-to-lug, 12.1 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1030,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPK33",
+    "lugToLugMm": 44.2,
+    "caseMm": 38,
+    "thicknessMm": 12.1,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpk33",
+        "note": "Manufacturer page: 38 mm case, 44.2 mm lug-to-lug, 12.1 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1031,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPK35",
+    "lugToLugMm": 44.2,
+    "caseMm": 38,
+    "thicknessMm": 12.1,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpk35",
+        "note": "Manufacturer page: 38 mm case, 44.2 mm lug-to-lug, 12.1 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1032,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPK87",
+    "lugToLugMm": 44.7,
+    "caseMm": 37.4,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpk87",
+        "note": "Manufacturer page: 37.4 mm case, 44.7 mm lug-to-lug, 12.5 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1033,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPK89",
+    "lugToLugMm": 44.7,
+    "caseMm": 37.4,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpk89",
+        "note": "Manufacturer page: 37.4 mm case, 44.7 mm lug-to-lug, 12.5 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1034,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPK91",
+    "lugToLugMm": 44.7,
+    "caseMm": 37.4,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpk91",
+        "note": "Manufacturer page: 37.4 mm case, 44.7 mm lug-to-lug, 12.5 mm thickness, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1035,
+    "brand": "Seiko",
+    "model": "Presage STAR BAR Limited Edition",
+    "reference": "SRPK93",
+    "lugToLugMm": 47.5,
+    "caseMm": 40.5,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/srpk93j1",
+        "note": "Manufacturer page: 40.5 mm case, 47.5 mm lug-to-lug, 11.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1036,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPK99",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 14.2,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpk99",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 14.2 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1037,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SRPL07",
+    "lugToLugMm": 46.2,
+    "caseMm": 39.5,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/srpl07j1",
+        "note": "Manufacturer page: 39.5 mm case, 46.2 mm lug-to-lug, 12 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1038,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SRPL09",
+    "lugToLugMm": 46.2,
+    "caseMm": 39.5,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/srpl09j1",
+        "note": "Manufacturer page: 39.5 mm case, 46.2 mm lug-to-lug, 12 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1039,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SRPL11",
+    "lugToLugMm": 49.5,
+    "caseMm": 41.7,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/srpl11",
+        "note": "Manufacturer page: 41.7 mm case, 49.5 mm lug-to-lug, 12.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1040,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SRPL13",
+    "lugToLugMm": 49.5,
+    "caseMm": 41.7,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/srpl13",
+        "note": "Manufacturer page: 41.7 mm case, 49.5 mm lug-to-lug, 12.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1041,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SRPL15",
+    "lugToLugMm": 49.5,
+    "caseMm": 41.7,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/srpl15",
+        "note": "Manufacturer page: 41.7 mm case, 49.5 mm lug-to-lug, 12.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1042,
+    "brand": "Seiko",
+    "model": "5 Sports DENHAM Limited Edition, Seiko Boutique exclusive model",
+    "reference": "SRPL35",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpl35",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1043,
+    "brand": "Seiko",
+    "model": "5 Sports DENHAM Limited Edition, Seiko Boutique exclusive model",
+    "reference": "SRPL37",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpl37",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1044,
+    "brand": "Seiko",
+    "model": "5 Sports MOONEYES Limited Edition",
+    "reference": "SRPL39",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpl39",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1045,
+    "brand": "Seiko",
+    "model": "Prospex PADI Special Edition",
+    "reference": "SRPL53",
+    "lugToLugMm": 49.5,
+    "caseMm": 41.7,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/srpl53",
+        "note": "Manufacturer page: 41.7 mm case, 49.5 mm lug-to-lug, 12.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1046,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SRPL61",
+    "lugToLugMm": 40.4,
+    "caseMm": 34,
+    "thicknessMm": 10.7,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/srpl61j1",
+        "note": "Manufacturer page: 34 mm case, 40.4 mm lug-to-lug, 10.7 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1047,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SRPL63",
+    "lugToLugMm": 40.4,
+    "caseMm": 34,
+    "thicknessMm": 10.7,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/srpl63j1",
+        "note": "Manufacturer page: 34 mm case, 40.4 mm lug-to-lug, 10.7 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1048,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SRPL64",
+    "lugToLugMm": 40.4,
+    "caseMm": 34,
+    "thicknessMm": 10.7,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/srpl64j1",
+        "note": "Manufacturer page: 34 mm case, 40.4 mm lug-to-lug, 10.7 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1049,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPL83",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.9,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpl83",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.9 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1050,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPL85",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.9,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpl85",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.9 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1051,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPL87",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.9,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpl87",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.9 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1052,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPL89",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.9,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpl89",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.9 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1053,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPL91",
+    "lugToLugMm": 44.7,
+    "caseMm": 38.2,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpl91",
+        "note": "Manufacturer page: 38.2 mm case, 44.7 mm lug-to-lug, 12.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1054,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SRPL93",
+    "lugToLugMm": 44.7,
+    "caseMm": 38.2,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpl93",
+        "note": "Manufacturer page: 38.2 mm case, 44.7 mm lug-to-lug, 12.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1055,
+    "brand": "Seiko",
+    "model": "5 Sports BAMFORD Limited Edition, Seiko Boutique exclusive model",
+    "reference": "SRPL95",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpl95",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.4 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1056,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SRPM06",
+    "lugToLugMm": 40.4,
+    "caseMm": 34,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 17,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/srpm06j1",
+        "note": "Manufacturer page: 34 mm case, 40.4 mm lug-to-lug, 10.9 mm thickness, and 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1057,
+    "brand": "Seiko",
+    "model": "5 Sports Pink Panther Limited Edition",
+    "reference": "SRPM07",
+    "lugToLugMm": 44.2,
+    "caseMm": 38,
+    "thicknessMm": 12.1,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpm07",
+        "note": "Manufacturer page: 38 mm case, 44.2 mm lug-to-lug, 12.1 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1058,
+    "brand": "Seiko",
+    "model": "5 Sports HUF Limited Edition",
+    "reference": "SRPM09",
+    "lugToLugMm": 48.1,
+    "caseMm": 39.4,
+    "thicknessMm": 11.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/srpm09",
+        "note": "Manufacturer page: 39.4 mm case, 48.1 mm lug-to-lug, 11.6 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1059,
+    "brand": "Seiko",
+    "model": "Prospex SPEEDTIMER Mechanical chronograph Limited edition",
+    "reference": "SRQ035",
+    "lugToLugMm": 50,
+    "caseMm": 42.5,
+    "thicknessMm": 15.1,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/srq035j1",
+        "note": "Manufacturer page: 42.5 mm case, 50 mm lug-to-lug, 15.1 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1060,
+    "brand": "Seiko",
+    "model": "Prospex Mechanical Chronograph",
+    "reference": "SRQ047",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 14.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/srq047j1",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 14.6 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1061,
+    "brand": "Seiko",
+    "model": "Prospex Mechanical Chronograph",
+    "reference": "SRQ055",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 14.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/srq055j1",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 14.6 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1062,
+    "brand": "Seiko",
+    "model": "Prospex Mechanical Chronograph Datsun 240Z Limited Edition",
+    "reference": "SRQ057",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 14.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/srq057j1",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 14.6 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1063,
+    "brand": "Seiko",
+    "model": "Prospex Seiko 145th Anniversary Limited Edition",
+    "reference": "SRQ059",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 14.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/srq059j1",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 14.6 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1064,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SSA392",
+    "lugToLugMm": 47.5,
+    "caseMm": 40.5,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/ssa392j1",
+        "note": "Manufacturer page: 40.5 mm case, 47.5 mm lug-to-lug, 14.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1065,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SSA395",
+    "lugToLugMm": 49.2,
+    "caseMm": 42,
+    "thicknessMm": 14.1,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/ssa395j1",
+        "note": "Manufacturer page: 42 mm case, 49.2 mm lug-to-lug, 14.1 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1066,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SSA397",
+    "lugToLugMm": 49.2,
+    "caseMm": 42,
+    "thicknessMm": 14.1,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/ssa397j1",
+        "note": "Manufacturer page: 42 mm case, 49.2 mm lug-to-lug, 14.1 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1067,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SSA405",
+    "lugToLugMm": 47.5,
+    "caseMm": 40.5,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/ssa405j1",
+        "note": "Manufacturer page: 40.5 mm case, 47.5 mm lug-to-lug, 11.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1068,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SSA423",
+    "lugToLugMm": 47,
+    "caseMm": 40.8,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/ssa423j1",
+        "note": "Manufacturer page: 40.8 mm case, 47 mm lug-to-lug, 12.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1069,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SSA425",
+    "lugToLugMm": 47,
+    "caseMm": 40.8,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/ssa425j1",
+        "note": "Manufacturer page: 40.8 mm case, 47 mm lug-to-lug, 12.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1070,
+    "brand": "Seiko",
+    "model": "Presage Cocktail Time STAR BAR Limited Edition",
+    "reference": "SSA455",
+    "lugToLugMm": 47.5,
+    "caseMm": 40.5,
+    "thicknessMm": 11.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/ssa455j1",
+        "note": "Manufacturer page: 40.5 mm case, 47.5 mm lug-to-lug, 11.6 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1071,
+    "brand": "Seiko",
+    "model": "Presage Cocktail Time STAR BAR Limited Edition",
+    "reference": "SSA457",
+    "lugToLugMm": 47.5,
+    "caseMm": 40.5,
+    "thicknessMm": 11.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/ssa457j1",
+        "note": "Manufacturer page: 40.5 mm case, 47.5 mm lug-to-lug, 11.6 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1072,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SSA461",
+    "lugToLugMm": 46.2,
+    "caseMm": 39.5,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/ssa461j1",
+        "note": "Manufacturer page: 39.5 mm case, 46.2 mm lug-to-lug, 12 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1073,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SSA463",
+    "lugToLugMm": 48.4,
+    "caseMm": 41.8,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/ssa463j1",
+        "note": "Manufacturer page: 41.8 mm case, 48.4 mm lug-to-lug, 12.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1074,
+    "brand": "Seiko",
+    "model": "Discover More SSB413",
+    "reference": "SSB413",
+    "lugToLugMm": 50.4,
+    "caseMm": 43,
+    "thicknessMm": 11.6,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/discovermore/ssb413",
+        "note": "Manufacturer page: 43 mm case, 50.4 mm lug-to-lug, 11.6 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1075,
+    "brand": "Seiko",
+    "model": "Discover More SSB415",
+    "reference": "SSB415",
+    "lugToLugMm": 50.4,
+    "caseMm": 43,
+    "thicknessMm": 11.6,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/discovermore/ssb415",
+        "note": "Manufacturer page: 43 mm case, 50.4 mm lug-to-lug, 11.6 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1076,
+    "brand": "Seiko",
+    "model": "Prospex The Black Series Limited Edition",
+    "reference": "SSC761",
+    "lugToLugMm": 51.6,
+    "caseMm": 44.5,
+    "thicknessMm": 13.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/ssc761j1",
+        "note": "Manufacturer page: 44.5 mm case, 51.6 mm lug-to-lug, 13.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1077,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SSC807",
+    "lugToLugMm": 51.6,
+    "caseMm": 44.5,
+    "thicknessMm": 13.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/ssc807j1",
+        "note": "Manufacturer page: 44.5 mm case, 51.6 mm lug-to-lug, 13.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1078,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SSC813",
+    "lugToLugMm": 45.5,
+    "caseMm": 39,
+    "thicknessMm": 13.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/ssc813",
+        "note": "Manufacturer page: 39 mm case, 45.5 mm lug-to-lug, 13.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1079,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SSC817",
+    "lugToLugMm": 45.5,
+    "caseMm": 39,
+    "thicknessMm": 13.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/ssc817",
+        "note": "Manufacturer page: 39 mm case, 45.5 mm lug-to-lug, 13.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1080,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SSC819",
+    "lugToLugMm": 45.5,
+    "caseMm": 39,
+    "thicknessMm": 13.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/ssc819",
+        "note": "Manufacturer page: 39 mm case, 45.5 mm lug-to-lug, 13.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1081,
+    "brand": "Seiko",
+    "model": "Prospex SPEEDTIMER Solar Chronograph Limited Edition",
+    "reference": "SSC909",
+    "lugToLugMm": 45.5,
+    "caseMm": 39,
+    "thicknessMm": 13.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/ssc909",
+        "note": "Manufacturer page: 39 mm case, 45.5 mm lug-to-lug, 13.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1082,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SSC911",
+    "lugToLugMm": 45.9,
+    "caseMm": 41.4,
+    "thicknessMm": 13,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/ssc911",
+        "note": "Manufacturer page: 41.4 mm case, 45.9 mm lug-to-lug, 13 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1083,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SSC913",
+    "lugToLugMm": 45.9,
+    "caseMm": 41.4,
+    "thicknessMm": 13,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/ssc913",
+        "note": "Manufacturer page: 41.4 mm case, 45.9 mm lug-to-lug, 13 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1084,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SSC933",
+    "lugToLugMm": 45.5,
+    "caseMm": 39,
+    "thicknessMm": 13.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/ssc933",
+        "note": "Manufacturer page: 39 mm case, 45.5 mm lug-to-lug, 13.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1085,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SSC939",
+    "lugToLugMm": 45.9,
+    "caseMm": 41.4,
+    "thicknessMm": 13,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/ssc939",
+        "note": "Manufacturer page: 41.4 mm case, 45.9 mm lug-to-lug, 13 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1086,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SSC941",
+    "lugToLugMm": 45.9,
+    "caseMm": 41.4,
+    "thicknessMm": 13,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/ssc941",
+        "note": "Manufacturer page: 41.4 mm case, 45.9 mm lug-to-lug, 13 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1087,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SSC943",
+    "lugToLugMm": 45.9,
+    "caseMm": 41.4,
+    "thicknessMm": 13,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/ssc943",
+        "note": "Manufacturer page: 41.4 mm case, 45.9 mm lug-to-lug, 13 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1088,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SSC947",
+    "lugToLugMm": 45.9,
+    "caseMm": 41.4,
+    "thicknessMm": 13,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/ssc947",
+        "note": "Manufacturer page: 41.4 mm case, 45.9 mm lug-to-lug, 13 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1089,
+    "brand": "Seiko",
+    "model": "Prospex Solar Chronograph World Athletics Championships Tokyo 25 Limited Edition",
+    "reference": "SSC955",
+    "lugToLugMm": 45.5,
+    "caseMm": 39,
+    "thicknessMm": 13.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/ssc955",
+        "note": "Manufacturer page: 39 mm case, 45.5 mm lug-to-lug, 13.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1090,
+    "brand": "Seiko",
+    "model": "Prospex Solar Chronograph Datsun 240Z Limited Edition",
+    "reference": "SSC957",
+    "lugToLugMm": 45.9,
+    "caseMm": 41.4,
+    "thicknessMm": 13,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/ssc957",
+        "note": "Manufacturer page: 41.4 mm case, 45.9 mm lug-to-lug, 13 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1091,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SSC961",
+    "lugToLugMm": 45.5,
+    "caseMm": 39,
+    "thicknessMm": 13.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/ssc961",
+        "note": "Manufacturer page: 39 mm case, 45.5 mm lug-to-lug, 13.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1092,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SSC963",
+    "lugToLugMm": 45.5,
+    "caseMm": 39,
+    "thicknessMm": 13.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/ssc963",
+        "note": "Manufacturer page: 39 mm case, 45.5 mm lug-to-lug, 13.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1093,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SSC965",
+    "lugToLugMm": 45.5,
+    "caseMm": 39,
+    "thicknessMm": 13.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/ssc965",
+        "note": "Manufacturer page: 39 mm case, 45.5 mm lug-to-lug, 13.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1094,
+    "brand": "Seiko",
+    "model": "Seiko power design project collection 1 Limited Edition",
+    "reference": "SSEH021",
+    "lugToLugMm": 26.1,
+    "caseMm": 20.2,
+    "thicknessMm": 6.7,
+    "lugWidthMm": 2,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/seiko-power-design-project/sseh021j",
+        "note": "Manufacturer page: 20.2 mm case, 26.1 mm lug-to-lug, 6.7 mm thickness, and 2 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1095,
+    "brand": "Seiko",
+    "model": "Seiko power design project collection 1 Limited Edition",
+    "reference": "SSEH023",
+    "lugToLugMm": 26.1,
+    "caseMm": 20.2,
+    "thicknessMm": 6.7,
+    "lugWidthMm": 2,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/seiko-power-design-project/sseh023j",
+        "note": "Manufacturer page: 20.2 mm case, 26.1 mm lug-to-lug, 6.7 mm thickness, and 2 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1096,
+    "brand": "Seiko",
+    "model": "Seiko power design project collection 1 Limited Edition",
+    "reference": "SSEH024",
+    "lugToLugMm": 26.1,
+    "caseMm": 20.2,
+    "thicknessMm": 6.7,
+    "lugWidthMm": 2,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/seiko-power-design-project/sseh024j",
+        "note": "Manufacturer page: 20.2 mm case, 26.1 mm lug-to-lug, 6.7 mm thickness, and 2 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1097,
+    "brand": "Seiko",
+    "model": "Astron Seiko 145th Anniversary Limited Edition",
+    "reference": "SSH151",
+    "lugToLugMm": 49.5,
+    "caseMm": 43.3,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/astron/ssh151j1",
+        "note": "Manufacturer page: 43.3 mm case, 49.5 mm lug-to-lug, 13.4 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1098,
+    "brand": "Seiko",
+    "model": "Astron Seiko 145th Anniversary Limited Edition",
+    "reference": "SSH153",
+    "lugToLugMm": 49.5,
+    "caseMm": 43.3,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/astron/ssh153j1",
+        "note": "Manufacturer page: 43.3 mm case, 49.5 mm lug-to-lug, 13.4 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1099,
+    "brand": "Seiko",
+    "model": "Astron GPS Solar 2025 Limited Edition",
+    "reference": "SSH171",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 12.4,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/astron/ssh171j1",
+        "note": "Manufacturer page: 42 mm case, 49.5 mm lug-to-lug, 12.4 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1100,
+    "brand": "Seiko",
+    "model": "Astron Seiko 145th Anniversary Limited Edition",
+    "reference": "SSH175",
+    "lugToLugMm": 50,
+    "caseMm": 44.1,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/astron/ssh175j1",
+        "note": "Manufacturer page: 44.1 mm case, 50 mm lug-to-lug, 14.4 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1101,
+    "brand": "Seiko",
+    "model": "Astron Seiko 145th Anniversary Limited Edition",
+    "reference": "SSH177",
+    "lugToLugMm": 50,
+    "caseMm": 44.1,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/astron/ssh177j1",
+        "note": "Manufacturer page: 44.1 mm case, 50 mm lug-to-lug, 14.4 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1102,
+    "brand": "Seiko",
+    "model": "Astron Seiko 145th Anniversary Limited Edition",
+    "reference": "SSH179",
+    "lugToLugMm": 50,
+    "caseMm": 44.1,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/astron/ssh179j1",
+        "note": "Manufacturer page: 44.1 mm case, 50 mm lug-to-lug, 14.4 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1103,
+    "brand": "Seiko",
+    "model": "Astron GPS Solar Limited Edition",
+    "reference": "SSH180",
+    "lugToLugMm": 50,
+    "caseMm": 44.3,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/astron/ssh180j1",
+        "note": "Manufacturer page: 44.3 mm case, 50 mm lug-to-lug, 14.4 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1104,
+    "brand": "Seiko",
+    "model": "Astron GPS Solar 2025 Limited Edition",
+    "reference": "SSH183",
+    "lugToLugMm": 49.5,
+    "caseMm": 43.4,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/astron/ssh183j1",
+        "note": "Manufacturer page: 43.4 mm case, 49.5 mm lug-to-lug, 13.4 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1105,
+    "brand": "Seiko",
+    "model": "Astron GPS Solar 2025 Limited Edition",
+    "reference": "SSH185",
+    "lugToLugMm": 49.5,
+    "caseMm": 43.4,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/astron/ssh185j1",
+        "note": "Manufacturer page: 43.4 mm case, 49.5 mm lug-to-lug, 13.4 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1106,
+    "brand": "Seiko",
+    "model": "Astron Seiko 145th Anniversary Limited Edition",
+    "reference": "SSH186",
+    "lugToLugMm": 50,
+    "caseMm": 44.1,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/astron/ssh186j1",
+        "note": "Manufacturer page: 44.1 mm case, 50 mm lug-to-lug, 14.4 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1107,
+    "brand": "Seiko",
+    "model": "Astron GPS Solar 2026 Limited Edition",
+    "reference": "SSH187",
+    "lugToLugMm": 49.5,
+    "caseMm": 43.3,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/astron/ssh187j1",
+        "note": "Manufacturer page: 43.3 mm case, 49.5 mm lug-to-lug, 13.4 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1108,
+    "brand": "Seiko",
+    "model": "Astron Seiko 145th Anniversary Limited Edition",
+    "reference": "SSJ013",
+    "lugToLugMm": 48.5,
+    "caseMm": 41.2,
+    "thicknessMm": 12,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/astron/ssj013j1",
+        "note": "Manufacturer page: 41.2 mm case, 48.5 mm lug-to-lug, 12 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1109,
+    "brand": "Seiko",
+    "model": "Astron Seiko 145th Anniversary Limited Edition",
+    "reference": "SSJ014",
+    "lugToLugMm": 48.5,
+    "caseMm": 41.2,
+    "thicknessMm": 12,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/astron/ssj014j1",
+        "note": "Manufacturer page: 41.2 mm case, 48.5 mm lug-to-lug, 12 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1110,
+    "brand": "Seiko",
+    "model": "Astron GPS Solar 2025 Limited Edition",
+    "reference": "SSJ029",
+    "lugToLugMm": 47.9,
+    "caseMm": 42,
+    "thicknessMm": 12,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/astron/ssj029j1",
+        "note": "Manufacturer page: 42 mm case, 47.9 mm lug-to-lug, 12 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1111,
+    "brand": "Seiko",
+    "model": "Astron GPS Solar 2025 Limited Edition",
+    "reference": "SSJ037",
+    "lugToLugMm": 47.9,
+    "caseMm": 42,
+    "thicknessMm": 12,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/astron/ssj037j1",
+        "note": "Manufacturer page: 42 mm case, 47.9 mm lug-to-lug, 12 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1112,
+    "brand": "Seiko",
+    "model": "Astron GPS Solar 2026 Limited Edition",
+    "reference": "SSJ039",
+    "lugToLugMm": 48.6,
+    "caseMm": 41.2,
+    "thicknessMm": 12,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/astron/ssj039j1",
+        "note": "Manufacturer page: 41.2 mm case, 48.6 mm lug-to-lug, 12 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1113,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SSK001",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/ssk001",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.6 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1114,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SSK003",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/ssk003",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.6 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1115,
+    "brand": "Seiko",
+    "model": "5 Sports Heritage Design Re-creation Limited Edition",
+    "reference": "SSK005",
+    "lugToLugMm": 46,
+    "caseMm": 42.5,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/5sports/ssk005",
+        "note": "Manufacturer page: 42.5 mm case, 46 mm lug-to-lug, 13.6 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1116,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SSK009",
+    "lugToLugMm": 47,
+    "caseMm": 40.8,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/ssk009j1",
+        "note": "Manufacturer page: 40.8 mm case, 47 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1117,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SSK013",
+    "lugToLugMm": 47,
+    "caseMm": 40.8,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/ssk013j1",
+        "note": "Manufacturer page: 40.8 mm case, 47 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1118,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SSK037",
+    "lugToLugMm": 47.5,
+    "caseMm": 40.5,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/ssk037j1",
+        "note": "Manufacturer page: 40.5 mm case, 47.5 mm lug-to-lug, 12.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1119,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SSK041",
+    "lugToLugMm": 47.5,
+    "caseMm": 40.5,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/ssk041j1",
+        "note": "Manufacturer page: 40.5 mm case, 47.5 mm lug-to-lug, 12.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1120,
+    "brand": "Seiko",
+    "model": "Presage “Craftsmanship” Enamel Dial",
+    "reference": "SSK049",
+    "lugToLugMm": 47.5,
+    "caseMm": 40.5,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/ssk049j1",
+        "note": "Manufacturer page: 40.5 mm case, 47.5 mm lug-to-lug, 12.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1121,
+    "brand": "Seiko",
+    "model": "Discover More SUR369",
+    "reference": "SUR369",
+    "lugToLugMm": 47,
+    "caseMm": 40.2,
+    "thicknessMm": 8.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/discovermore/sur369",
+        "note": "Manufacturer page: 40.2 mm case, 47 mm lug-to-lug, 8.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1122,
+    "brand": "Seiko",
+    "model": "Discover More SUR373",
+    "reference": "SUR373",
+    "lugToLugMm": 47,
+    "caseMm": 40.2,
+    "thicknessMm": 8.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/discovermore/sur373",
+        "note": "Manufacturer page: 40.2 mm case, 47 mm lug-to-lug, 8.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1123,
+    "brand": "Seiko",
+    "model": "Discover More SUR375",
+    "reference": "SUR375",
+    "lugToLugMm": 47,
+    "caseMm": 40.2,
+    "thicknessMm": 8.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/discovermore/sur375",
+        "note": "Manufacturer page: 40.2 mm case, 47 mm lug-to-lug, 8.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1124,
+    "brand": "Seiko",
+    "model": "Discover More SUR377",
+    "reference": "SUR377",
+    "lugToLugMm": 47,
+    "caseMm": 40.2,
+    "thicknessMm": 8.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/discovermore/sur377",
+        "note": "Manufacturer page: 40.2 mm case, 47 mm lug-to-lug, 8.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1125,
+    "brand": "Seiko",
+    "model": "Discover More SUR399",
+    "reference": "SUR399",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/discovermore/sur399",
+        "note": "Manufacturer page: 40 mm case, 48 mm lug-to-lug, 8.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1126,
+    "brand": "Seiko",
+    "model": "Discover More SUR412",
+    "reference": "SUR412",
+    "lugToLugMm": 36.3,
+    "caseMm": 30,
+    "thicknessMm": 7.6,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/discovermore/sur412",
+        "note": "Manufacturer page: 30 mm case, 36.3 mm lug-to-lug, 7.6 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1127,
+    "brand": "Seiko",
+    "model": "Discover More SUR421",
+    "reference": "SUR421",
+    "lugToLugMm": 46.4,
+    "caseMm": 39.4,
+    "thicknessMm": 7.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/discovermore/sur421",
+        "note": "Manufacturer page: 39.4 mm case, 46.4 mm lug-to-lug, 7.9 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1128,
+    "brand": "Seiko",
+    "model": "Discover More SUR427",
+    "reference": "SUR427",
+    "lugToLugMm": 35.6,
+    "caseMm": 29.9,
+    "thicknessMm": 7.5,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/discovermore/sur427",
+        "note": "Manufacturer page: 29.9 mm case, 35.6 mm lug-to-lug, 7.5 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1129,
+    "brand": "Seiko",
+    "model": "Discover More SUR450",
+    "reference": "SUR450",
+    "lugToLugMm": 47.5,
+    "caseMm": 40.2,
+    "thicknessMm": 8.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/discovermore/sur450",
+        "note": "Manufacturer page: 40.2 mm case, 47.5 mm lug-to-lug, 8.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1130,
+    "brand": "Seiko",
+    "model": "Discover More SUR459",
+    "reference": "SUR459",
+    "lugToLugMm": 47,
+    "caseMm": 40.2,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/discovermore/sur459",
+        "note": "Manufacturer page: 40.2 mm case, 47 mm lug-to-lug, 8.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1131,
+    "brand": "Seiko",
+    "model": "Discover More SUR465",
+    "reference": "SUR465",
+    "lugToLugMm": 37,
+    "caseMm": 29.8,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 14,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/discovermore/sur465",
+        "note": "Manufacturer page: 29.8 mm case, 37 mm lug-to-lug, 8.3 mm thickness, and 14 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1132,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SUR595",
+    "lugToLugMm": 40.8,
+    "caseMm": 34,
+    "thicknessMm": 8.7,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/sur595j1",
+        "note": "Manufacturer page: 34 mm case, 40.8 mm lug-to-lug, 8.7 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1133,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SUR597",
+    "lugToLugMm": 40.8,
+    "caseMm": 34,
+    "thicknessMm": 8.7,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/sur597j1",
+        "note": "Manufacturer page: 34 mm case, 40.8 mm lug-to-lug, 8.7 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1134,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SUR605",
+    "lugToLugMm": 40.8,
+    "caseMm": 34,
+    "thicknessMm": 8.9,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/sur605j1",
+        "note": "Manufacturer page: 34 mm case, 40.8 mm lug-to-lug, 8.9 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1135,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SUR607",
+    "lugToLugMm": 40.8,
+    "caseMm": 34,
+    "thicknessMm": 8.9,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/sur607j1",
+        "note": "Manufacturer page: 34 mm case, 40.8 mm lug-to-lug, 8.9 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1136,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SUR608",
+    "lugToLugMm": 40.8,
+    "caseMm": 34,
+    "thicknessMm": 8.9,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/sur608j1",
+        "note": "Manufacturer page: 34 mm case, 40.8 mm lug-to-lug, 8.9 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1137,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SUR618",
+    "lugToLugMm": 40.8,
+    "caseMm": 34,
+    "thicknessMm": 8.7,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/sur618j1",
+        "note": "Manufacturer page: 34 mm case, 40.8 mm lug-to-lug, 8.7 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1138,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SUR620",
+    "lugToLugMm": 40.8,
+    "caseMm": 34,
+    "thicknessMm": 8.7,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/sur620j1",
+        "note": "Manufacturer page: 34 mm case, 40.8 mm lug-to-lug, 8.7 mm thickness, and 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1139,
+    "brand": "Seiko",
+    "model": "Prospex 1968 Heritage Diver's GMT Watch",
+    "reference": "SUR622",
+    "lugToLugMm": 40.8,
+    "caseMm": 34,
+    "thicknessMm": 8.7,
+    "lugWidthMm": 16,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/sur622j1",
+        "note": "Manufacturer page: 34 mm case, 40.8 mm lug-to-lug, 8.7 mm thickness, and 16 mm lug width."
+      }
+    ]
   }
 ]
