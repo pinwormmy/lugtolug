@@ -512,6 +512,10 @@ select {
     max-width: 28ch;
   }
 
+  .watches-lede {
+    display: none;
+  }
+
   .tool-panel,
   .panel {
     box-sizing: border-box;
