@@ -11,13 +11,9 @@ const href = getWatchHref(watch);
 const watchName = [watch.brand, watch.model].filter(Boolean).join(" ");
 ---
 
-<a class="watch-row" href={href}>
-  <div class="watch-name">
+<a class="watch-row watch-row--summary" href={href}>
+  <div class="watch-summary">
     <strong>{watchName}</strong>
-    <span>{watch.reference || "Reference not provided"}</span>
-  </div>
-  <div class="metric">
-    <span>Lug-to-lug</span>
-    <strong>{formatMm(watch.lugToLugMm)}</strong>
+    <strong class="watch-summary-size">{formatMm(watch.lugToLugMm)}</strong>
   </div>
 </a>

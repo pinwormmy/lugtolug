@@ -225,6 +225,28 @@ select {
   border-color: #b9afa0;
 }
 
+.watch-row--summary {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.watch-summary {
+  align-items: baseline;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.watch-summary > strong:first-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.watch-summary-size {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
 .watch-name strong,
 .watch-name span {
   display: block;
