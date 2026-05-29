@@ -14669,5 +14669,155 @@
         "note": "Manufacturer page: 30 mm case, 37 mm lug-to-lug, 8.3 mm thickness, and 7 mm lug width."
       }
     ]
+  },
+  {
+    "id": 854,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80 40mm",
+    "reference": "T137.407.11.041.00",
+    "lugToLugMm": 51.5,
+    "caseMm": 40,
+    "thicknessMm": 10.93,
+    "lugWidthMm": 12,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.tissotwatches.com/ja-jp/T1374071104100.html",
+        "note": "Manufacturer page for the exact reference lists 40 mm width, 39.5 mm length, 10.93 mm thickness, and 12 mm lug width; it does not publish a conventional lug-to-lug value."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/tissot-prx-powermatic-80-35mm-vs-prx-powermatic-80-40mm-face-to-face-comparative-review-specs-price/",
+        "note": "Comparative review lists the 40 mm PRX Powermatic 80 at 51.5 mm lug-to-lug including the fixed first bracelet link."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide cross-checks the 40 mm PRX effective wearing length at approximately 51.5 mm with the first non-articulating bracelet link included."
+      }
+    ]
+  },
+  {
+    "id": 855,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80 35mm",
+    "reference": "T137.207.11.041.00",
+    "lugToLugMm": 44.9,
+    "caseMm": 35,
+    "thicknessMm": 10.93,
+    "lugWidthMm": 11,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.tissotwatches.com/es-es/T1372071104100.html",
+        "note": "Manufacturer page for the exact reference confirms the 35 mm PRX Powermatic 80 model; Tissot does not publish a conventional lug-to-lug value."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/tissot-prx-powermatic-80-35mm-vs-prx-powermatic-80-40mm-face-to-face-comparative-review-specs-price/",
+        "note": "Comparative review lists the 35 mm PRX Powermatic 80 at 44.9 mm lug-to-lug including the fixed first bracelet link."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide cross-checks the 35 mm PRX effective wearing length at approximately 44.9 mm with the first non-articulating bracelet link included."
+      }
+    ]
+  },
+  {
+    "id": 856,
+    "brand": "Tissot",
+    "model": "PRX Automatic Chronograph 42mm",
+    "reference": "T137.427.11.011.00",
+    "lugToLugMm": 41.5,
+    "caseMm": 42,
+    "thicknessMm": 14.54,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.tissotwatches.com/es-es/T1374271101100.html",
+        "note": "Manufacturer page for the exact reference lists 42 mm width, 41.50 mm length, 14.54 mm thickness, and 13 mm lug width."
+      },
+      {
+        "sourceUrl": "https://wornandwound.com/review/review-the-tissot-prx-chronograph/",
+        "note": "Hands-on review lists the PRX Chronograph at 41 mm wide, 41.5 mm lug-to-lug, and 14.5 mm thick."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/hands-on-tissot-prx-chronograph/",
+        "note": "Hands-on review discusses Tissot communicating a 42 mm diameter and 41.5 mm lug-to-lug for the PRX Chronograph."
+      }
+    ]
+  },
+  {
+    "id": 857,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Powermatic 80 40mm",
+    "reference": "T120.807.11.051.00",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://hiconsumption.com/watches/tissot-seastar-1000-powermatic-80-40mm-review/",
+        "note": "Hands-on review lists 40 mm diameter, 46 mm lug-to-lug, and 12.6 mm thickness for the Seastar 1000 Powermatic 80 40 mm."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/a-hands-on-introduction-to-the-tissot-seastar-1000-powermatic-80-in-a-new-40mm-size/",
+        "note": "Hands-on introduction cross-checks the 40 mm Seastar 1000 Powermatic 80 at a 46 mm lug-to-lug span."
+      },
+      {
+        "sourceUrl": "https://mrstateless.com/introducing-the-tissot-seastar-1000-powermatic-80-40mm/",
+        "note": "Release coverage lists the same 40 mm diameter, 12.80 mm thickness, 46 mm lug-to-lug, and 20 mm lug width for references including T120.807.11.051.00."
+      }
+    ]
+  },
+  {
+    "id": 858,
+    "brand": "Tissot",
+    "model": "PR516 Powermatic 80 38mm",
+    "reference": "T149.407.11.051.00",
+    "lugToLugMm": 44,
+    "caseMm": 38,
+    "thicknessMm": 11.18,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.tissotwatches.com/ko-kr/T1494071103100.html",
+        "note": "Manufacturer page for the PR516 Powermatic 80 case lists 38 mm width, 37 mm length, 11.18 mm thickness, and 20 mm lug width; the same case is used across the 38 mm PR516 Powermatic references."
+      },
+      {
+        "sourceUrl": "https://twobrokewatchsnobs.com/tissot-pr516-38mm-powermatic-80-2026/",
+        "note": "Review/news coverage lists the PR516 38 mm Powermatic 80 at 38 mm diameter, 11.2 mm thickness, and 44 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.bestwatch.ru/review/tissot-pr516-38-mm-powermatic-80/",
+        "note": "Review cross-checks the PR516 38 mm Powermatic 80 at 11.2 mm thickness and 44 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 859,
+    "brand": "Tissot",
+    "model": "PR516 Mechanical Chronograph",
+    "reference": "T149.459.21.051.00",
+    "lugToLugMm": 49,
+    "caseMm": 41,
+    "thicknessMm": 13.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/the-tissot-pr516-mechanical-chronograph-makes-its-case-as-the-best-chrono-under-dollar2000",
+        "note": "Hands-on review lists the PR516 Mechanical Chronograph at 41 mm diameter, 49 mm lug-to-lug, and approximately 14 mm thickness."
+      },
+      {
+        "sourceUrl": "https://windupwatchshop.com/products/pr516-mechanical",
+        "note": "Authorized retailer product coverage cross-checks reference T149.459.21.051.00 at 41 mm diameter, 49 mm length, 13.7 mm thickness, and 20 mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prs-516-mecanical-chronograph-t149-459-21-051-00",
+        "note": "Retailer specification page independently lists the exact reference with a 49 mm lug-to-lug measurement."
+      }
+    ]
   }
 ]
