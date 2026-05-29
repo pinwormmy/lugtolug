@@ -225,25 +225,30 @@ select {
   border-color: #b9afa0;
 }
 
-.watch-row--summary {
+.watch-row.watch-row--summary {
   grid-template-columns: minmax(0, 1fr);
 }
 
 .watch-summary {
-  align-items: baseline;
-  display: flex;
-  gap: 12px;
-  justify-content: space-between;
+  align-items: start;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  width: 100%;
 }
 
 .watch-summary > strong:first-child {
+  display: -webkit-box;
+  line-height: 1.18;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  white-space: normal;
 }
 
 .watch-summary-size {
-  flex: 0 0 auto;
+  justify-self: end;
+  text-align: right;
   white-space: nowrap;
 }
 
