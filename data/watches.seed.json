@@ -19754,5 +19754,155 @@
         "note": "Seller listing for reference H38416711 cross-checks a 49.2 mm lug-to-lug measurement."
       }
     ]
+  },
+  {
+    "id": 1147,
+    "brand": "Mido",
+    "model": "Ocean Star 39",
+    "reference": "M026.907.11.041.00",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.midowatches.com/us/ocean-star-39-m0269071104100.html",
+        "note": "Manufacturer page for the exact reference lists 10.5 mm thickness and 20 mm lug width; Mido does not publish lug-to-lug on this product page."
+      },
+      {
+        "sourceUrl": "https://www.gearpatrol.com/watches/mido-ocean-star-39/",
+        "note": "Review/news coverage lists the Ocean Star 39 at 39 mm case, 46 mm lug-to-lug, and 10.5 mm thickness."
+      },
+      {
+        "sourceUrl": "https://thecalibratedwrist.com/2024/08/21/mido-ocean-star-39/",
+        "note": "Review cross-checks 39 mm diameter, 46 mm lug-to-lug, 10.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1148,
+    "brand": "Mido",
+    "model": "Ocean Star GMT",
+    "reference": "M026.629.11.041.00",
+    "lugToLugMm": 50.1,
+    "caseMm": 44,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.midowatches.com/us/ocean-star-gmt-m0266291104100.html",
+        "note": "Manufacturer page for the exact reference lists 13.4 mm thickness and 22 mm lug width; Mido does not publish lug-to-lug on this product page."
+      },
+      {
+        "sourceUrl": "https://www.watchgecko.com/blogs/magazine/the-mido-ocean-star-gmt-review",
+        "note": "Review describes the Ocean Star GMT as 44 mm with lug-to-lug just under 50 mm and 13.5 mm thickness."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/2026-black-white-mido-ocean-star-gmt-accessible-true-gmt-dive-watch-introducing-price/",
+        "note": "Coverage of the same 44 mm Ocean Star GMT case lists a 50.1 mm lug-to-lug measurement."
+      }
+    ]
+  },
+  {
+    "id": 1149,
+    "brand": "Mido",
+    "model": "Ocean Star Decompression Worldtimer",
+    "reference": "M026.829.17.051.00",
+    "lugToLugMm": 46.99,
+    "caseMm": 40.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.midowatches.com/us/ocean-star-decompression-worldtimer-m0268291705100.html",
+        "note": "Manufacturer page for the exact reference lists 13.4 mm thickness and 21 mm lug width; Mido does not publish lug-to-lug on this product page."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/introducing-mido-ocean-star-decompression-worldtimer-special-edition-specs-price/",
+        "note": "Hands-on introduction lists the Decompression Worldtimer case at 40.5 mm diameter and 46.99 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://timeandtidewatches.com/introducing-the-mido-ocean-star-decompression-worldtimer/",
+        "note": "Coverage cross-checks the Ocean Star Decompression Worldtimer at 40.5 mm case and 46.99 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1150,
+    "brand": "Mido",
+    "model": "Multifort TV Big Date",
+    "reference": "M049.526.11.041.00",
+    "lugToLugMm": 46.85,
+    "caseMm": 40,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.midowatches.com/us/multifort-tv-big-date-m0495261104100.html",
+        "note": "Manufacturer page for the exact reference lists 11.5 mm thickness and 22 mm lug width; Mido does not publish lug-to-lug on this product page."
+      },
+      {
+        "sourceUrl": "https://masterhorologer.com/2024/01/02/mido-multifort-tv-big-date/",
+        "note": "Review/news coverage lists reference M049.526.11.041.00 at 40 x 39.2 mm and 46.85 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watchilove.com/2023/10/mido-multifort-tv-big-date-ref-m049-526-11-041-00/",
+        "note": "Coverage of the exact reference cross-checks 40 x 39.2 mm case and 46.85 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1151,
+    "brand": "Mido",
+    "model": "Multifort Patrimony",
+    "reference": "M040.407.16.040.00",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 12,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.midowatches.com/us/multifort-patrimony-m0404071604000.html",
+        "note": "Manufacturer page for the exact reference lists 12 mm thickness and 19 mm lug width; Mido does not publish lug-to-lug on this product page."
+      },
+      {
+        "sourceUrl": "https://teddybaldassarre.com/blogs/watches/best-sector-dial-watches",
+        "note": "Watch guide lists the Mido Multifort Patrimony at 40 mm case, 47 mm lug-to-lug, 12 mm thickness, and 19 mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.gnomonwatches.com/products/multifort-patrimony-blue-40mm-ref-m040-407-16-040-00",
+        "note": "Retailer page for the exact blue reference cross-checks 40 mm diameter, 47 mm lug-to-lug, and 11.95 mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 1152,
+    "brand": "Mido",
+    "model": "Commander Gradient",
+    "reference": "M021.407.11.411.00",
+    "lugToLugMm": 43.83,
+    "caseMm": 40,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.midowatches.com/us/commander-gradient-m0214071141100.html",
+        "note": "Manufacturer page for the exact reference lists 10.8 mm thickness and 21 mm lug width; Mido does not publish lug-to-lug on this product page."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/introducing-mido-commander-gradient-denim-blue-calibre-80-specs-price/",
+        "note": "Coverage of the Commander Gradient case lists 40 mm diameter, 10.84 mm thickness, and 43.83 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watchilove.com/mido-commander-gradient-a-bold-and-daring-icon/",
+        "note": "Coverage cross-checks the Commander Gradient at 40 mm diameter and 43.83 mm lug-to-lug."
+      }
+    ]
   }
 ]

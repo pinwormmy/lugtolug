@@ -1136,7 +1136,13 @@ VALUES
 (1143, 'Hamilton', 'Khaki Field Expedition Auto 41mm', 'H70315130', 'hamilton', 'khaki-field-expedition-auto-41mm', 'h70315130', 'hamilton khaki field expedition auto 41mm h70315130', 48, 41, 11.5, 20, 'high', 'approved'),
 (1144, 'Hamilton', 'Khaki Aviation Pilot Pioneer Mechanical', 'H76419931', 'hamilton', 'khaki-aviation-pilot-pioneer-mechanical', 'h76419931', 'hamilton khaki aviation pilot pioneer mechanical h76419931', 42, 36, 9.95, 18, 'medium', 'approved'),
 (1145, 'Hamilton', 'Khaki Navy Scuba Auto 40mm', 'H82335131', 'hamilton', 'khaki-navy-scuba-auto-40mm', 'h82335131', 'hamilton khaki navy scuba auto 40mm h82335131', 50, 40, 12.95, 20, 'medium', 'approved'),
-(1146, 'Hamilton', 'American Classic Intra-Matic Auto Chrono', 'H38416711', 'hamilton', 'american-classic-intra-matic-auto-chrono', 'h38416711', 'hamilton american classic intra matic auto chrono h38416711', 49.2, 40, 14.45, 20, 'high', 'approved');
+(1146, 'Hamilton', 'American Classic Intra-Matic Auto Chrono', 'H38416711', 'hamilton', 'american-classic-intra-matic-auto-chrono', 'h38416711', 'hamilton american classic intra matic auto chrono h38416711', 49.2, 40, 14.45, 20, 'high', 'approved'),
+(1147, 'Mido', 'Ocean Star 39', 'M026.907.11.041.00', 'mido', 'ocean-star-39', 'm026-907-11-041-00', 'mido ocean star 39 m026 907 11 041 00', 46, 39, 10.5, 20, 'high', 'approved'),
+(1148, 'Mido', 'Ocean Star GMT', 'M026.629.11.041.00', 'mido', 'ocean-star-gmt', 'm026-629-11-041-00', 'mido ocean star gmt m026 629 11 041 00', 50.1, 44, 13.4, 22, 'high', 'approved'),
+(1149, 'Mido', 'Ocean Star Decompression Worldtimer', 'M026.829.17.051.00', 'mido', 'ocean-star-decompression-worldtimer', 'm026-829-17-051-00', 'mido ocean star decompression worldtimer m026 829 17 051 00', 46.99, 40.5, 13.4, 21, 'high', 'approved'),
+(1150, 'Mido', 'Multifort TV Big Date', 'M049.526.11.041.00', 'mido', 'multifort-tv-big-date', 'm049-526-11-041-00', 'mido multifort tv big date m049 526 11 041 00', 46.85, 40, 11.5, 22, 'high', 'approved'),
+(1151, 'Mido', 'Multifort Patrimony', 'M040.407.16.040.00', 'mido', 'multifort-patrimony', 'm040-407-16-040-00', 'mido multifort patrimony m040 407 16 040 00', 47, 40, 12, 19, 'high', 'approved'),
+(1152, 'Mido', 'Commander Gradient', 'M021.407.11.411.00', 'mido', 'commander-gradient', 'm021-407-11-411-00', 'mido commander gradient m021 407 11 411 00', 43.83, 40, 10.8, 21, 'high', 'approved');
 
 INSERT OR IGNORE INTO watch_sources (id, watch_id, source_url, note)
 VALUES
@@ -2386,4 +2392,22 @@ VALUES
 (1244, 1145, 'https://www.gnomonwatches.com/products/khaki-navy-scuba-auto-40-green-bracelet-ref-h82375161', 'Retailer coverage of the same 40 mm Scuba case family cross-checks a 50 mm lug-to-lug distance.'),
 (1245, 1146, 'https://www.hamiltonwatch.com/ru-ru/h38416711-intramatic-auto-chrono.html', 'Manufacturer page for the exact reference lists 40 mm case, 14.45 mm thickness, and 20 mm lug width; Hamilton does not publish lug-to-lug.'),
 (1246, 1146, 'https://millenarywatches.com/hamilton-intra-matic-auto-chrono-h38416711-review/', 'Review of H38416711 lists a 49.2 mm lug-to-lug measurement.'),
-(1247, 1146, 'https://www.reddit.com/r/Watchexchange/comments/m20v14', 'Seller listing for reference H38416711 cross-checks a 49.2 mm lug-to-lug measurement.');
+(1247, 1146, 'https://www.reddit.com/r/Watchexchange/comments/m20v14', 'Seller listing for reference H38416711 cross-checks a 49.2 mm lug-to-lug measurement.'),
+(1248, 1147, 'https://www.midowatches.com/us/ocean-star-39-m0269071104100.html', 'Manufacturer page for the exact reference lists 10.5 mm thickness and 20 mm lug width; Mido does not publish lug-to-lug on this product page.'),
+(1249, 1147, 'https://www.gearpatrol.com/watches/mido-ocean-star-39/', 'Review/news coverage lists the Ocean Star 39 at 39 mm case, 46 mm lug-to-lug, and 10.5 mm thickness.'),
+(1250, 1147, 'https://thecalibratedwrist.com/2024/08/21/mido-ocean-star-39/', 'Review cross-checks 39 mm diameter, 46 mm lug-to-lug, 10.5 mm thickness, and 20 mm lug width.'),
+(1251, 1148, 'https://www.midowatches.com/us/ocean-star-gmt-m0266291104100.html', 'Manufacturer page for the exact reference lists 13.4 mm thickness and 22 mm lug width; Mido does not publish lug-to-lug on this product page.'),
+(1252, 1148, 'https://www.watchgecko.com/blogs/magazine/the-mido-ocean-star-gmt-review', 'Review describes the Ocean Star GMT as 44 mm with lug-to-lug just under 50 mm and 13.5 mm thickness.'),
+(1253, 1148, 'https://monochrome-watches.com/2026-black-white-mido-ocean-star-gmt-accessible-true-gmt-dive-watch-introducing-price/', 'Coverage of the same 44 mm Ocean Star GMT case lists a 50.1 mm lug-to-lug measurement.'),
+(1254, 1149, 'https://www.midowatches.com/us/ocean-star-decompression-worldtimer-m0268291705100.html', 'Manufacturer page for the exact reference lists 13.4 mm thickness and 21 mm lug width; Mido does not publish lug-to-lug on this product page.'),
+(1255, 1149, 'https://monochrome-watches.com/introducing-mido-ocean-star-decompression-worldtimer-special-edition-specs-price/', 'Hands-on introduction lists the Decompression Worldtimer case at 40.5 mm diameter and 46.99 mm lug-to-lug.'),
+(1256, 1149, 'https://timeandtidewatches.com/introducing-the-mido-ocean-star-decompression-worldtimer/', 'Coverage cross-checks the Ocean Star Decompression Worldtimer at 40.5 mm case and 46.99 mm lug-to-lug.'),
+(1257, 1150, 'https://www.midowatches.com/us/multifort-tv-big-date-m0495261104100.html', 'Manufacturer page for the exact reference lists 11.5 mm thickness and 22 mm lug width; Mido does not publish lug-to-lug on this product page.'),
+(1258, 1150, 'https://masterhorologer.com/2024/01/02/mido-multifort-tv-big-date/', 'Review/news coverage lists reference M049.526.11.041.00 at 40 x 39.2 mm and 46.85 mm lug-to-lug.'),
+(1259, 1150, 'https://watchilove.com/2023/10/mido-multifort-tv-big-date-ref-m049-526-11-041-00/', 'Coverage of the exact reference cross-checks 40 x 39.2 mm case and 46.85 mm lug-to-lug.'),
+(1260, 1151, 'https://www.midowatches.com/us/multifort-patrimony-m0404071604000.html', 'Manufacturer page for the exact reference lists 12 mm thickness and 19 mm lug width; Mido does not publish lug-to-lug on this product page.'),
+(1261, 1151, 'https://teddybaldassarre.com/blogs/watches/best-sector-dial-watches', 'Watch guide lists the Mido Multifort Patrimony at 40 mm case, 47 mm lug-to-lug, 12 mm thickness, and 19 mm lug width.'),
+(1262, 1151, 'https://www.gnomonwatches.com/products/multifort-patrimony-blue-40mm-ref-m040-407-16-040-00', 'Retailer page for the exact blue reference cross-checks 40 mm diameter, 47 mm lug-to-lug, and 11.95 mm thickness.'),
+(1263, 1152, 'https://www.midowatches.com/us/commander-gradient-m0214071141100.html', 'Manufacturer page for the exact reference lists 10.8 mm thickness and 21 mm lug width; Mido does not publish lug-to-lug on this product page.'),
+(1264, 1152, 'https://monochrome-watches.com/introducing-mido-commander-gradient-denim-blue-calibre-80-specs-price/', 'Coverage of the Commander Gradient case lists 40 mm diameter, 10.84 mm thickness, and 43.83 mm lug-to-lug.'),
+(1265, 1152, 'https://watchilove.com/mido-commander-gradient-a-bold-and-daring-icon/', 'Coverage cross-checks the Commander Gradient at 40 mm diameter and 43.83 mm lug-to-lug.');
