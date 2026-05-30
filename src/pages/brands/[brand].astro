@@ -2,9 +2,10 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import WatchRow from "@/components/WatchRow.astro";
 import { getDb, listBrandWatches } from "@/lib/db";
+import { groupWatchesForDisplay } from "@/lib/watchGroups";
 
 const brandSlug = Astro.params.brand!;
-const watches = await listBrandWatches(getDb(Astro.locals), brandSlug);
+const watches = groupWatchesForDisplay(await listBrandWatches(getDb(Astro.locals), brandSlug));
 const brandName = watches[0]?.brand ?? brandSlug;
 ---
 

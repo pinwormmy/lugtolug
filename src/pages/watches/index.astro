@@ -2,8 +2,9 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import WatchRow from "@/components/WatchRow.astro";
 import { getDb, listWatches } from "@/lib/db";
+import { groupWatchesForDisplay } from "@/lib/watchGroups";
 
-const watches = await listWatches(getDb(Astro.locals));
+const watches = groupWatchesForDisplay(await listWatches(getDb(Astro.locals)));
 ---
 
 <BaseLayout title="Watch database | Lug to Lug Finder" description="Browse approved watch dimensions by brand, model, and reference number.">

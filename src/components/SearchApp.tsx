@@ -2,7 +2,8 @@ import { Search } from "lucide-react";
 import { useEffect, useMemo, useState, useTransition } from "react";
 import type { WatchWithSources } from "@/types";
 import { normalizeSearch } from "@/lib/slug";
-import { formatMm, getWatchHref, getWatchSearchText, WATCH_METRICS } from "@/lib/watch";
+import { formatMm, getWatchHref, WATCH_METRICS } from "@/lib/watch";
+import { groupWatchesForDisplay } from "@/lib/watchGroups";
 
 interface Props {
   watches: WatchWithSources[];
@@ -14,8 +15,10 @@ export default function SearchApp({ watches }: Props) {
   const normalized = normalizeSearch(query);
   const results = useMemo(() => {
     if (!normalized) return [];
-    return watches.filter((watch) => getWatchSearchText(watch).includes(normalized)).slice(0, 12);
-  }, [normalized, watches]);
+    return groupWatchesForDisplay(watches, query)
+      .filter((watch) => watch.groupSearchText.includes(normalized))
+      .slice(0, 12);
+  }, [normalized, query, watches]);
 
   useEffect(() => {
     const recentSection = document.querySelector<HTMLElement>("[data-recent-watches]");
@@ -58,7 +61,10 @@ export default function SearchApp({ watches }: Props) {
                 <strong>
                   {[watch.brand, watch.model].filter(Boolean).join(" ")}
                 </strong>
-                <span>{watch.reference || "Reference not provided"}</span>
+                <span>
+                  {watch.reference || "Reference not provided"}
+                  {watch.variantCount > 1 ? ` · ${watch.variantCount} references` : ""}
+                </span>
               </div>
               {WATCH_METRICS.map((metric) => (
                 <div className="metric" key={metric.key}>

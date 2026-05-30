@@ -1,19 +1,24 @@
 ---
 import type { WatchWithSources } from "@/types";
 import { formatMm, getWatchHref } from "@/lib/watch";
+import type { WatchDisplayGroup } from "@/lib/watchGroups";
 
 interface Props {
-  watch: WatchWithSources;
+  watch: WatchWithSources | WatchDisplayGroup;
 }
 
 const { watch } = Astro.props;
 const href = getWatchHref(watch);
 const watchName = [watch.brand, watch.model].filter(Boolean).join(" ");
+const variantCount = "variantCount" in watch ? watch.variantCount : 1;
 ---
 
 <a class="watch-row watch-row--summary" href={href}>
   <div class="watch-summary">
-    <strong>{watchName}</strong>
+    <div class="watch-summary-name">
+      <strong>{watchName}</strong>
+      {variantCount > 1 && <span>{variantCount} references</span>}
+    </div>
     <strong class="watch-summary-size">{formatMm(watch.lugToLugMm)}</strong>
   </div>
 </a>

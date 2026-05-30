@@ -237,13 +237,24 @@ select {
   width: 100%;
 }
 
-.watch-summary > strong:first-child {
+.watch-summary-name {
+  min-width: 0;
+}
+
+.watch-summary-name > strong {
   display: -webkit-box;
   line-height: 1.18;
   overflow: hidden;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   white-space: normal;
+}
+
+.watch-summary-name > span {
+  color: var(--muted);
+  display: block;
+  font-size: 0.86rem;
+  margin-top: 5px;
 }
 
 .watch-summary-size {
