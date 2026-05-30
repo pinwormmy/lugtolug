@@ -19579,5 +19579,180 @@
         "note": "Manufacturer page: 34 mm case, 40.8 mm lug-to-lug, 8.7 mm thickness, and 16 mm lug width."
       }
     ]
+  },
+  {
+    "id": 1140,
+    "brand": "Hamilton",
+    "model": "Khaki Field Murph 38mm",
+    "reference": "H70405730",
+    "lugToLugMm": 44.7,
+    "caseMm": 38,
+    "thicknessMm": 11.1,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.hamiltonwatch.com/en-us/h70405730-khaki-field-murph-38mm.html",
+        "note": "Manufacturer page for the exact reference lists 38 mm case, 11.1 mm thickness, and 20 mm lug width; Hamilton does not publish lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.horobox.com/en/news-detail/hamilton-khaki-field-murph-38mm-h70405730",
+        "note": "Review/news coverage lists the 38 mm Murph at 44.7 mm lug-to-lug and 11.10 mm thickness."
+      },
+      {
+        "sourceUrl": "https://teddybaldassarre.com/blogs/watches/hamilton-murph-38-owners-review",
+        "note": "Owner review cross-checks the Murph 38 at 11.1 mm thick with a 44.7 mm lug-to-lug height."
+      }
+    ]
+  },
+  {
+    "id": 1141,
+    "brand": "Hamilton",
+    "model": "Khaki Field Murph Auto 42mm",
+    "reference": "H70605731",
+    "lugToLugMm": 52,
+    "caseMm": 42,
+    "thicknessMm": 11,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.hamiltonwatch.com/en-us/h70605731-khaki-field-murph-auto.html",
+        "note": "Manufacturer page for the exact reference lists 42 mm case, 11 mm thickness, and 22 mm lug width; Hamilton does not publish lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.hodinky-365.com/blog/hamilton-khaki-field-murph-review",
+        "note": "Review of the Murph H70605731 lists 42 mm diameter, 11 mm thickness, and 52 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://tryanywatch.com/articles/murph-khaki-38-vs-42-wrist-size-guide",
+        "note": "Sizing guide cross-checks the 42 mm Murph at 52 mm lug-to-lug, 11 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1142,
+    "brand": "Hamilton",
+    "model": "Khaki Field Expedition Auto 37mm",
+    "reference": "H70225130",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.45,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.hamiltonwatch.com/en-us/h70225130-khaki-field-expedition-auto.html",
+        "note": "Manufacturer page for the exact reference lists 37 mm case, 11.45 mm thickness, and 20 mm lug width; Hamilton does not publish lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/the-new-hamilton-khaki-field-expedition-makes-its-case-as-your-new-dollar1000-watch",
+        "note": "Hands-on review lists the 37 mm Khaki Field Expedition at 44 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/revisiting-the-hamilton-khaki-field-expedition/",
+        "note": "Review cross-checks the smaller Expedition case at 44 mm lug-to-lug and 10.45 mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 1143,
+    "brand": "Hamilton",
+    "model": "Khaki Field Expedition Auto 41mm",
+    "reference": "H70315130",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.hamiltonwatch.com/en-us/h70315130-khaki-field-expedition-auto.html",
+        "note": "Manufacturer page for the exact reference lists 41 mm case, 11.5 mm thickness, and 20 mm lug width; Hamilton does not publish lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/the-new-hamilton-khaki-field-expedition-makes-its-case-as-your-new-dollar1000-watch",
+        "note": "Hands-on review lists the 41 mm Khaki Field Expedition at 48 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://mrstateless.com/introducing-the-new-hamilton-khaki-field-expedition/",
+        "note": "Release coverage cross-checks the 41 mm Expedition case at 41 mm diameter, 11.45 mm thickness, and 48 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1144,
+    "brand": "Hamilton",
+    "model": "Khaki Aviation Pilot Pioneer Mechanical",
+    "reference": "H76419931",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 9.95,
+    "lugWidthMm": 18,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.hamiltonwatch.com/en-us/h76419931-khaki-pilot.html",
+        "note": "Manufacturer page for the exact reference lists a 36 mm x 33 mm case, 9.95 mm thickness, and 18 mm lug width; Hamilton does not publish lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://tryanywatch.com/watches/hamilton-khaki-aviation-pilot-pioneer-mechanical-36",
+        "note": "Specs page lists the Pilot Pioneer Mechanical H76419931 at 36 mm wide, 9.95 mm thick, and 42 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.reddit.com/r/Watchexchange/comments/o1g3z5",
+        "note": "Seller listing for H76419931 cross-checks case 36 mm, thickness 10 mm, lug-to-lug height 42 mm, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1145,
+    "brand": "Hamilton",
+    "model": "Khaki Navy Scuba Auto 40mm",
+    "reference": "H82335131",
+    "lugToLugMm": 50,
+    "caseMm": 40,
+    "thicknessMm": 12.95,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.hamiltonwatch.com/en-us/h82335131-khaki-navy-scuba-auto.html",
+        "note": "Manufacturer page for the exact reference lists 40 mm case, 12.95 mm thickness, and 20 mm lug width; Hamilton does not publish lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.thewatchresource.com/hamilton-khaki-navy-scuba-auto-review/",
+        "note": "Review of the Khaki Navy Scuba Auto family states the smaller 40 mm version has a 50 mm lug-to-lug span and 20 mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.gnomonwatches.com/products/khaki-navy-scuba-auto-40-green-bracelet-ref-h82375161",
+        "note": "Retailer coverage of the same 40 mm Scuba case family cross-checks a 50 mm lug-to-lug distance."
+      }
+    ]
+  },
+  {
+    "id": 1146,
+    "brand": "Hamilton",
+    "model": "American Classic Intra-Matic Auto Chrono",
+    "reference": "H38416711",
+    "lugToLugMm": 49.2,
+    "caseMm": 40,
+    "thicknessMm": 14.45,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.hamiltonwatch.com/ru-ru/h38416711-intramatic-auto-chrono.html",
+        "note": "Manufacturer page for the exact reference lists 40 mm case, 14.45 mm thickness, and 20 mm lug width; Hamilton does not publish lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://millenarywatches.com/hamilton-intra-matic-auto-chrono-h38416711-review/",
+        "note": "Review of H38416711 lists a 49.2 mm lug-to-lug measurement."
+      },
+      {
+        "sourceUrl": "https://www.reddit.com/r/Watchexchange/comments/m20v14",
+        "note": "Seller listing for reference H38416711 cross-checks a 49.2 mm lug-to-lug measurement."
+      }
+    ]
   }
 ]

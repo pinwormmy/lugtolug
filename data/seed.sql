@@ -1129,7 +1129,14 @@ VALUES
 (1136, 'Seiko', 'Prospex 1968 Heritage Diver''s GMT Watch', 'SUR608', 'seiko', 'prospex-1968-heritage-diver-s-gmt-watch', 'sur608', 'seiko prospex 1968 heritage diver s gmt watch sur608', 40.8, 34, 8.9, 16, 'high', 'approved'),
 (1137, 'Seiko', 'Prospex 1968 Heritage Diver''s GMT Watch', 'SUR618', 'seiko', 'prospex-1968-heritage-diver-s-gmt-watch', 'sur618', 'seiko prospex 1968 heritage diver s gmt watch sur618', 40.8, 34, 8.7, 16, 'high', 'approved'),
 (1138, 'Seiko', 'Prospex 1968 Heritage Diver''s GMT Watch', 'SUR620', 'seiko', 'prospex-1968-heritage-diver-s-gmt-watch', 'sur620', 'seiko prospex 1968 heritage diver s gmt watch sur620', 40.8, 34, 8.7, 16, 'high', 'approved'),
-(1139, 'Seiko', 'Prospex 1968 Heritage Diver''s GMT Watch', 'SUR622', 'seiko', 'prospex-1968-heritage-diver-s-gmt-watch', 'sur622', 'seiko prospex 1968 heritage diver s gmt watch sur622', 40.8, 34, 8.7, 16, 'high', 'approved');
+(1139, 'Seiko', 'Prospex 1968 Heritage Diver''s GMT Watch', 'SUR622', 'seiko', 'prospex-1968-heritage-diver-s-gmt-watch', 'sur622', 'seiko prospex 1968 heritage diver s gmt watch sur622', 40.8, 34, 8.7, 16, 'high', 'approved'),
+(1140, 'Hamilton', 'Khaki Field Murph 38mm', 'H70405730', 'hamilton', 'khaki-field-murph-38mm', 'h70405730', 'hamilton khaki field murph 38mm h70405730', 44.7, 38, 11.1, 20, 'high', 'approved'),
+(1141, 'Hamilton', 'Khaki Field Murph Auto 42mm', 'H70605731', 'hamilton', 'khaki-field-murph-auto-42mm', 'h70605731', 'hamilton khaki field murph auto 42mm h70605731', 52, 42, 11, 22, 'high', 'approved'),
+(1142, 'Hamilton', 'Khaki Field Expedition Auto 37mm', 'H70225130', 'hamilton', 'khaki-field-expedition-auto-37mm', 'h70225130', 'hamilton khaki field expedition auto 37mm h70225130', 44, 37, 11.45, 20, 'high', 'approved'),
+(1143, 'Hamilton', 'Khaki Field Expedition Auto 41mm', 'H70315130', 'hamilton', 'khaki-field-expedition-auto-41mm', 'h70315130', 'hamilton khaki field expedition auto 41mm h70315130', 48, 41, 11.5, 20, 'high', 'approved'),
+(1144, 'Hamilton', 'Khaki Aviation Pilot Pioneer Mechanical', 'H76419931', 'hamilton', 'khaki-aviation-pilot-pioneer-mechanical', 'h76419931', 'hamilton khaki aviation pilot pioneer mechanical h76419931', 42, 36, 9.95, 18, 'medium', 'approved'),
+(1145, 'Hamilton', 'Khaki Navy Scuba Auto 40mm', 'H82335131', 'hamilton', 'khaki-navy-scuba-auto-40mm', 'h82335131', 'hamilton khaki navy scuba auto 40mm h82335131', 50, 40, 12.95, 20, 'medium', 'approved'),
+(1146, 'Hamilton', 'American Classic Intra-Matic Auto Chrono', 'H38416711', 'hamilton', 'american-classic-intra-matic-auto-chrono', 'h38416711', 'hamilton american classic intra matic auto chrono h38416711', 49.2, 40, 14.45, 20, 'high', 'approved');
 
 INSERT OR IGNORE INTO watch_sources (id, watch_id, source_url, note)
 VALUES
@@ -2358,4 +2365,25 @@ VALUES
 (1223, 1136, 'https://www.seikowatches.com/kr-ko/products/prospex/sur608j1', 'Manufacturer page: 34 mm case, 40.8 mm lug-to-lug, 8.9 mm thickness, and 16 mm lug width.'),
 (1224, 1137, 'https://www.seikowatches.com/kr-ko/products/prospex/sur618j1', 'Manufacturer page: 34 mm case, 40.8 mm lug-to-lug, 8.7 mm thickness, and 16 mm lug width.'),
 (1225, 1138, 'https://www.seikowatches.com/kr-ko/products/prospex/sur620j1', 'Manufacturer page: 34 mm case, 40.8 mm lug-to-lug, 8.7 mm thickness, and 16 mm lug width.'),
-(1226, 1139, 'https://www.seikowatches.com/kr-ko/products/prospex/sur622j1', 'Manufacturer page: 34 mm case, 40.8 mm lug-to-lug, 8.7 mm thickness, and 16 mm lug width.');
+(1226, 1139, 'https://www.seikowatches.com/kr-ko/products/prospex/sur622j1', 'Manufacturer page: 34 mm case, 40.8 mm lug-to-lug, 8.7 mm thickness, and 16 mm lug width.'),
+(1227, 1140, 'https://www.hamiltonwatch.com/en-us/h70405730-khaki-field-murph-38mm.html', 'Manufacturer page for the exact reference lists 38 mm case, 11.1 mm thickness, and 20 mm lug width; Hamilton does not publish lug-to-lug.'),
+(1228, 1140, 'https://www.horobox.com/en/news-detail/hamilton-khaki-field-murph-38mm-h70405730', 'Review/news coverage lists the 38 mm Murph at 44.7 mm lug-to-lug and 11.10 mm thickness.'),
+(1229, 1140, 'https://teddybaldassarre.com/blogs/watches/hamilton-murph-38-owners-review', 'Owner review cross-checks the Murph 38 at 11.1 mm thick with a 44.7 mm lug-to-lug height.'),
+(1230, 1141, 'https://www.hamiltonwatch.com/en-us/h70605731-khaki-field-murph-auto.html', 'Manufacturer page for the exact reference lists 42 mm case, 11 mm thickness, and 22 mm lug width; Hamilton does not publish lug-to-lug.'),
+(1231, 1141, 'https://www.hodinky-365.com/blog/hamilton-khaki-field-murph-review', 'Review of the Murph H70605731 lists 42 mm diameter, 11 mm thickness, and 52 mm lug-to-lug.'),
+(1232, 1141, 'https://tryanywatch.com/articles/murph-khaki-38-vs-42-wrist-size-guide', 'Sizing guide cross-checks the 42 mm Murph at 52 mm lug-to-lug, 11 mm thickness, and 22 mm lug width.'),
+(1233, 1142, 'https://www.hamiltonwatch.com/en-us/h70225130-khaki-field-expedition-auto.html', 'Manufacturer page for the exact reference lists 37 mm case, 11.45 mm thickness, and 20 mm lug width; Hamilton does not publish lug-to-lug.'),
+(1234, 1142, 'https://www.hodinkee.com/articles/the-new-hamilton-khaki-field-expedition-makes-its-case-as-your-new-dollar1000-watch', 'Hands-on review lists the 37 mm Khaki Field Expedition at 44 mm lug-to-lug.'),
+(1235, 1142, 'https://www.fratellowatches.com/revisiting-the-hamilton-khaki-field-expedition/', 'Review cross-checks the smaller Expedition case at 44 mm lug-to-lug and 10.45 mm thickness.'),
+(1236, 1143, 'https://www.hamiltonwatch.com/en-us/h70315130-khaki-field-expedition-auto.html', 'Manufacturer page for the exact reference lists 41 mm case, 11.5 mm thickness, and 20 mm lug width; Hamilton does not publish lug-to-lug.'),
+(1237, 1143, 'https://www.hodinkee.com/articles/the-new-hamilton-khaki-field-expedition-makes-its-case-as-your-new-dollar1000-watch', 'Hands-on review lists the 41 mm Khaki Field Expedition at 48 mm lug-to-lug.'),
+(1238, 1143, 'https://mrstateless.com/introducing-the-new-hamilton-khaki-field-expedition/', 'Release coverage cross-checks the 41 mm Expedition case at 41 mm diameter, 11.45 mm thickness, and 48 mm lug-to-lug.'),
+(1239, 1144, 'https://www.hamiltonwatch.com/en-us/h76419931-khaki-pilot.html', 'Manufacturer page for the exact reference lists a 36 mm x 33 mm case, 9.95 mm thickness, and 18 mm lug width; Hamilton does not publish lug-to-lug.'),
+(1240, 1144, 'https://tryanywatch.com/watches/hamilton-khaki-aviation-pilot-pioneer-mechanical-36', 'Specs page lists the Pilot Pioneer Mechanical H76419931 at 36 mm wide, 9.95 mm thick, and 42 mm lug-to-lug.'),
+(1241, 1144, 'https://www.reddit.com/r/Watchexchange/comments/o1g3z5', 'Seller listing for H76419931 cross-checks case 36 mm, thickness 10 mm, lug-to-lug height 42 mm, and 18 mm lug width.'),
+(1242, 1145, 'https://www.hamiltonwatch.com/en-us/h82335131-khaki-navy-scuba-auto.html', 'Manufacturer page for the exact reference lists 40 mm case, 12.95 mm thickness, and 20 mm lug width; Hamilton does not publish lug-to-lug.'),
+(1243, 1145, 'https://www.thewatchresource.com/hamilton-khaki-navy-scuba-auto-review/', 'Review of the Khaki Navy Scuba Auto family states the smaller 40 mm version has a 50 mm lug-to-lug span and 20 mm lug width.'),
+(1244, 1145, 'https://www.gnomonwatches.com/products/khaki-navy-scuba-auto-40-green-bracelet-ref-h82375161', 'Retailer coverage of the same 40 mm Scuba case family cross-checks a 50 mm lug-to-lug distance.'),
+(1245, 1146, 'https://www.hamiltonwatch.com/ru-ru/h38416711-intramatic-auto-chrono.html', 'Manufacturer page for the exact reference lists 40 mm case, 14.45 mm thickness, and 20 mm lug width; Hamilton does not publish lug-to-lug.'),
+(1246, 1146, 'https://millenarywatches.com/hamilton-intra-matic-auto-chrono-h38416711-review/', 'Review of H38416711 lists a 49.2 mm lug-to-lug measurement.'),
+(1247, 1146, 'https://www.reddit.com/r/Watchexchange/comments/m20v14', 'Seller listing for reference H38416711 cross-checks a 49.2 mm lug-to-lug measurement.');
