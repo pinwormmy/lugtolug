@@ -19904,5 +19904,305 @@
         "note": "Coverage cross-checks the Commander Gradient at 40 mm diameter and 43.83 mm lug-to-lug."
       }
     ]
+  },
+  {
+    "id": 1153,
+    "brand": "Breguet",
+    "model": "Type 20 Chronographe 2057",
+    "reference": "2057ST/92/3WU",
+    "lugToLugMm": 49,
+    "caseMm": 42,
+    "thicknessMm": 14.1,
+    "lugWidthMm": 21,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.breguet.com/ko/%EC%9B%8C%EC%B9%98/taibxx/type-20-chronographe-2057/2057st923wu",
+        "note": "Manufacturer page for the exact reference lists the Type 20 Chronographe 2057 case specification; Breguet does not publish lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.wristenthusiast.com/latest/2023/6/14/breguet-type-20-type-xx-review",
+        "note": "Hands-on review lists the new Type 20/Type XX case at 42 mm with an approximately 49 mm lug-to-lug span."
+      },
+      {
+        "sourceUrl": "https://www.watchuseek.com/threads/breguet-type-xx-2057-lug-to-lug-measurement.5610607/",
+        "note": "Owner measurement discussion cross-checks the 2057 case at roughly 49 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1154,
+    "brand": "Breguet",
+    "model": "Marine 5517 Titanium",
+    "reference": "5517TI/Y1/5ZU",
+    "lugToLugMm": 47.7,
+    "caseMm": 40,
+    "thicknessMm": 11.5,
+    "lugWidthMm": null,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.breguet.com/it/orologi/marine/5517/5517tiy15zu",
+        "note": "Manufacturer page for the titanium Marine 5517 lists the 40 mm case; Breguet does not publish lug-to-lug or a conventional lug width for the integrated strap/bracelet system."
+      },
+      {
+        "sourceUrl": "https://watchvault.com.au/watches/breguet/breguet-marine-5517/",
+        "note": "Watch database lists the Marine 5517 at 40 mm case and 47.7 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.reddit.com/r/Watchexchange/comments/1du8sd1",
+        "note": "Seller listing for a Marine 5517 cross-checks an approximately 47.6 mm lug-to-lug measurement."
+      }
+    ]
+  },
+  {
+    "id": 1155,
+    "brand": "Blancpain",
+    "model": "Fifty Fathoms Automatique 42.3mm",
+    "reference": "5010-1130-NABA",
+    "lugToLugMm": 47,
+    "caseMm": 42.3,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 21.5,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.blancpain.com/en/fifty-fathoms/fifty-fathoms-automatique-5010-1130-naba",
+        "note": "Manufacturer page for the exact reference lists 42.30 mm case diameter, case thickness, and 21.50 mm width between horns."
+      },
+      {
+        "sourceUrl": "https://www.gearpatrol.com/watches/blancpain-fifty-fathoms-42mm/",
+        "note": "Review/news coverage lists the 42.3 mm Fifty Fathoms case with a 47 mm lug-to-lug measurement."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/blancpain-fifty-fathoms-automatique-42mm-steel-titanium/",
+        "note": "Hands-on coverage cross-checks the new 42.3 mm Fifty Fathoms case at 47 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1156,
+    "brand": "Blancpain",
+    "model": "Fifty Fathoms Automatique 38mm",
+    "reference": "5007-1130-B52A",
+    "lugToLugMm": 43.8,
+    "caseMm": 38.2,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 19,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.blancpain.com/en/fifty-fathoms/fifty-fathoms-automatique-5007-1130-b52a",
+        "note": "Manufacturer page for the 38 mm Fifty Fathoms Automatique family lists the 38.20 mm case and strap configuration; Blancpain does not publish lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/blancpain-fifty-fathoms-bathyscaphe-38mm-hands-on",
+        "note": "Hands-on coverage of the compact Fifty Fathoms case family discusses its shorter wearing profile around 44 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.viver.co.kr/en/detail-models/2182",
+        "note": "Watch database cross-checks the 38 mm Blancpain Fifty Fathoms case at 43.8 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1157,
+    "brand": "Glashütte Original",
+    "model": "SeaQ 39.5",
+    "reference": "1-39-11-06-80-70",
+    "lugToLugMm": 47,
+    "caseMm": 39.5,
+    "thicknessMm": 12.15,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.glashuette-original.com/en/watches/spezialist/seaq-1-39-11-06-80-70/",
+        "note": "Manufacturer page for the exact SeaQ reference lists the 39.5 mm case and official case specifications; lug-to-lug is not published."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/glashutte-original-seaq-hands-on",
+        "note": "Hands-on review lists the SeaQ 39.5 case at approximately 47 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/glashutte-original-seaq-39-5mm-review-specs-price/",
+        "note": "Review cross-checks the SeaQ 39.5 mm case with a 47 mm lug-to-lug span."
+      }
+    ]
+  },
+  {
+    "id": 1158,
+    "brand": "Glashütte Original",
+    "model": "SeaQ Panorama Date",
+    "reference": "1-36-13-02-81-70",
+    "lugToLugMm": 51.1,
+    "caseMm": 43.2,
+    "thicknessMm": 15.65,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.glashuette-original.com/en/watches/spezialist/seaq-panorama-date-1-36-13-02-81-70/",
+        "note": "Manufacturer page for the SeaQ Panorama Date reference lists the 43.2 mm case and official case specifications; lug-to-lug is not published."
+      },
+      {
+        "sourceUrl": "https://teddybaldassarre.com/blogs/watches/glashutte-original-seaq-panorama-date-review",
+        "note": "Review lists the SeaQ Panorama Date at 43.2 mm case, 15.65 mm thickness, and 51.1 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.watchgecko.com/blogs/magazine/glashutte-original-seaq-panorama-date-review",
+        "note": "Hands-on review cross-checks the Panorama Date case at about 51 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1159,
+    "brand": "Glashütte Original",
+    "model": "PanoMaticLunar",
+    "reference": "1-90-02-42-32-05",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.glashuette-original.com/en/watches/pano/panomaticlunar-1-90-02-42-32-05/",
+        "note": "Manufacturer page for the exact PanoMaticLunar reference lists the 40 mm case and official case specifications; lug-to-lug is not published."
+      },
+      {
+        "sourceUrl": "https://fifthwrist.com/glashutte-original-panomaticlunar-review/",
+        "note": "Owner review lists the PanoMaticLunar at 40 mm case, 12.7 mm thickness, and 47 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.reddit.com/r/Watchexchange/comments/18gsu9a",
+        "note": "Seller listing for a PanoMaticLunar cross-checks an approximately 47 mm lug-to-lug measurement."
+      }
+    ]
+  },
+  {
+    "id": 1160,
+    "brand": "Rado",
+    "model": "Captain Cook Automatic 42mm",
+    "reference": "R32505203",
+    "lugToLugMm": 48.2,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.rado.com/en_us/captain-cook-automatic-r32505203.html",
+        "note": "Manufacturer page for the exact reference lists the 42.0 mm case and automatic Captain Cook configuration; Rado does not publish lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/blogs/watches/green-dial-watches",
+        "note": "Watch guide lists the Rado Captain Cook 42 at 42 mm case, 12 mm thickness, and 48.2 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/rado-captain-cook-automatic-42mm-hands-on/",
+        "note": "Hands-on review cross-checks the 42 mm Captain Cook case with a roughly 48 mm lug-to-lug span."
+      }
+    ]
+  },
+  {
+    "id": 1161,
+    "brand": "Rado",
+    "model": "Captain Cook Automatic 37mm",
+    "reference": "R32139708",
+    "lugToLugMm": 43.1,
+    "caseMm": 37,
+    "thicknessMm": 11.1,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.rado.com/en_us/captain-cook-automatic-r32139708.html",
+        "note": "Manufacturer page for the 37 mm Captain Cook Special Edition reference lists the 37 mm case configuration; Rado does not publish lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watchband.direct/products/rado-captain-cook-special-edition-37-mm-r32139708",
+        "note": "Retailer page for the exact reference lists 37 mm case, 43.1 mm lug-to-lug, 11.1 mm thickness, and 19 mm lug width."
+      },
+      {
+        "sourceUrl": "https://strapsco.com/best-watches-for-small-wrists/",
+        "note": "Watch guide cross-checks the Captain Cook 37 mm at about 43 mm lug-to-lug and 11.1 mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 1162,
+    "brand": "Certina",
+    "model": "DS Action Diver 38mm Powermatic 80",
+    "reference": "C032.807.11.051.00",
+    "lugToLugMm": 45,
+    "caseMm": 38,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 19,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.certina.com/en/watch/ds-action-diver-38mm-powermatic-80/c0328071105100",
+        "note": "Manufacturer page for the exact reference lists the 38 mm DS Action Diver configuration; Certina does not publish lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.watchuseek.com/threads/certina-ds-action-diver-38mm-review.5367298/",
+        "note": "Owner review lists the DS Action Diver 38 mm at about 45 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.watchcharts.com/listing/10895822-certina-ds-action-diver-38mm-powermatic-80-c032-807-11-051-00",
+        "note": "Marketplace/spec listing for the exact reference cross-checks the 38 mm case with a 45 mm lug-to-lug measurement."
+      }
+    ]
+  },
+  {
+    "id": 1163,
+    "brand": "Certina",
+    "model": "DS Action Diver 43mm Powermatic 80",
+    "reference": "C032.607.11.051.00",
+    "lugToLugMm": 49.5,
+    "caseMm": 43,
+    "thicknessMm": 13.1,
+    "lugWidthMm": 21,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.certina.com/en/watch/ds-action-diver-powermatic-80/c0326071105100",
+        "note": "Manufacturer page for the exact reference lists the 43 mm DS Action Diver configuration; Certina does not publish lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.watchuseek.com/threads/certina-ds-action-diver-powermatic-80-43mm-review.5360295/",
+        "note": "Owner review lists the 43 mm DS Action Diver case at approximately 49.5 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.seriouswatches.com/products/certina-ds-action-diver-powermatic-80-c032-607-11-051-00",
+        "note": "Retailer/spec listing for the exact reference cross-checks 43 mm case, 13.1 mm thickness, and about 49.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1164,
+    "brand": "Certina",
+    "model": "DS PH200M Powermatic 80",
+    "reference": "C036.407.16.050.00",
+    "lugToLugMm": 51.8,
+    "caseMm": 42.8,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.certina.com/en/watch/ds-ph200m/c0364071605000",
+        "note": "Manufacturer page for the exact DS PH200M reference lists the 42.8 mm case family specifications; Certina does not publish lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/certina-ds-ph200m-review/",
+        "note": "Hands-on review lists the DS PH200M at 42.8 mm case and 51.8 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/certina-ds-ph200m-powermatic-80-watch-review/",
+        "note": "Review cross-checks the DS PH200M at 42.8 mm diameter with a lug-to-lug just under 52 mm."
+      }
+    ]
   }
 ]
