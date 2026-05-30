@@ -20204,5 +20204,330 @@
         "note": "Review cross-checks the DS PH200M at 42.8 mm diameter with a lug-to-lug just under 52 mm."
       }
     ]
+  },
+  {
+    "id": 1165,
+    "brand": "Breguet",
+    "model": "Classique 5157 Extra-Thin",
+    "reference": "5157BR/11/9V6",
+    "lugToLugMm": 44,
+    "caseMm": 38,
+    "thicknessMm": 5.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.breguet.com/en/watches/classique/classique-5157/5157br119v6",
+        "note": "Manufacturer page for the Classique 5157 reference identifies the model family; Breguet does not publish lug-to-lug on the page."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/breguet-classique-5157-review/",
+        "note": "Hands-on review lists the Classique 5157 at 38 mm diameter, 44 mm lug-to-lug, 5.4 mm thickness, and 20 mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.munichwatchcircle.com/post/ein-ultraflaches-glitzerndes-wunderding-mit-250-jahren-geschichte-breguet-classique-5157",
+        "note": "Review cross-checks the Classique 5157 at 38 mm case, 5.4 mm thickness, and 44 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1166,
+    "brand": "Breguet",
+    "model": "Type XX Chronographe 2067",
+    "reference": "2067ST/92/3WU",
+    "lugToLugMm": 48.8,
+    "caseMm": 42,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.breguet.com/en/watches/type-xx/type-xx-chronographe-2067/2067st923wu",
+        "note": "Manufacturer page for the Type XX Chronographe 2067 identifies the exact reference; Breguet does not publish lug-to-lug on the page."
+      },
+      {
+        "sourceUrl": "https://www.hourstriker.com/reviews/breguet-type-xx-chronographe-2067-2067st923wu-review",
+        "note": "Hands-on review measures the 2067ST/92/3WU at 42 mm case, 48.8 mm lug-to-lug, and 14.4 mm thickness."
+      },
+      {
+        "sourceUrl": "https://www.wristenthusiast.com/latest/gold-chronograph-watches",
+        "note": "Watch guide cross-checks the Type XX 2067 case family at 42 mm diameter, 14.1 mm thickness, and 48.8 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1167,
+    "brand": "Breguet",
+    "model": "Tradition 7057",
+    "reference": "7057BB/11/9W6",
+    "lugToLugMm": 49,
+    "caseMm": 40,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 21,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.breguet.com/en/watches/tradition/tradition-7057/7057bb119w6",
+        "note": "Manufacturer page for the Tradition 7057 lists 40 mm diameter, 21 mm lug width, and 11.7 mm thickness; lug-to-lug is not published."
+      },
+      {
+        "sourceUrl": "https://www.grayandsons.com/w527481-unused-breguet-tradition-40mm-7057c",
+        "note": "Retailer specification for a 7057 lists 40 mm case, 49 mm lug-to-lug, 12 mm thickness, and 21 mm lug width."
+      },
+      {
+        "sourceUrl": "https://horologybythesea.com/products/breguet-tradition-reference-7057-serial-1232-pre-owned",
+        "note": "Retailer listing cross-checks a Tradition 7057 at 40 mm case, 11.8 mm thickness, and 49.6 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1168,
+    "brand": "Blancpain",
+    "model": "Fifty Fathoms Bathyscaphe 43mm",
+    "reference": "5000-1110-B52A",
+    "lugToLugMm": 49.5,
+    "caseMm": 43,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 23,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.blancpain.com/en/fifty-fathoms/bathyscaphe-5000-1110-b52a",
+        "note": "Manufacturer page for the Bathyscaphe 43 mm case family lists official case and strap specifications; Blancpain does not publish lug-to-lug on every regional page."
+      },
+      {
+        "sourceUrl": "https://lesabre.pl/en/sklep/fifty-fathoms-bathyscaphe-5000-1110-b52a-43-mm/",
+        "note": "Retailer listing for the exact reference lists 43 mm case, 14 mm height, and 49 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.reddit.com/r/WatchURaffle/comments/lqommx",
+        "note": "Listing for 5000-1110-B52A cross-checks 43 mm case, 13.4 mm thickness, 23 mm lug width, and 50 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1169,
+    "brand": "Blancpain",
+    "model": "Fifty Fathoms Bathyscaphe 38mm",
+    "reference": "5100-1127-W52A",
+    "lugToLugMm": 44,
+    "caseMm": 38,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.blancpain.com/en/fifty-fathoms/bathyscaphe-5100-1127-w52a",
+        "note": "Manufacturer page for the 38 mm Bathyscaphe identifies the reference family; Blancpain does not publish lug-to-lug on every regional page."
+      },
+      {
+        "sourceUrl": "https://blancpainblog.com/timepieces/hands-on-with-the-38mm-bathyscaphe/amp/",
+        "note": "Hands-on review lists all 38 mm Bathyscaphe models at 11 mm height, 20 mm between lugs, and 44 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.reddit.com/r/Watchexchange/comments/17txf5q",
+        "note": "Seller listing for a 38 mm Bathyscaphe cross-checks a 44.0 mm lug-to-lug measurement."
+      }
+    ]
+  },
+  {
+    "id": 1170,
+    "brand": "Blancpain",
+    "model": "Air Command Flyback Chronograph",
+    "reference": "AC02 12B40 63B",
+    "lugToLugMm": 51,
+    "caseMm": 42.5,
+    "thicknessMm": 13.7,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.blancpain.com/en/air-command/air-command-ac02-12b40-63b",
+        "note": "Manufacturer page for the Air Command AC02 reference identifies the model family; Blancpain does not publish lug-to-lug on every regional page."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/blancpain-air-command-titanium-and-green/",
+        "note": "Hands-on review lists the Air Command at 42.5 mm diameter, 51 mm lug-to-lug, and 13.7 mm thickness."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/sunday-morning-showdown-breguet-type-xx-chronographe-2067-vs-blancpain-air-command-titanium-green/",
+        "note": "Comparison review cross-checks the Air Command titanium case at 42.5 mm, 13.7 mm thickness, and 51 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1171,
+    "brand": "Glashütte Original",
+    "model": "Sixties",
+    "reference": "1-39-52-01-02-04",
+    "lugToLugMm": 44.5,
+    "caseMm": 39,
+    "thicknessMm": 9.4,
+    "lugWidthMm": 19,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.glashuette-original.com/en/watches/vintage/sixties-1-39-52-01-02-04/",
+        "note": "Manufacturer page for the Sixties reference lists official case specifications; lug-to-lug is not published."
+      },
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/cost-of-entry-the-glashutte-original-sixties-watch/",
+        "note": "Hands-on review lists the Sixties at 39 mm case, 9.4 mm thickness, and 44 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watch.the1916company.com/glashutte-original-reviews?html=1&page=3&sort=alphabetical",
+        "note": "Review index for a Sixties 39-52 reference cross-checks 39 mm case, 10 mm thickness, and 45 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1172,
+    "brand": "Glashütte Original",
+    "model": "Sixties Chronograph Annual Edition",
+    "reference": "1-39-34-08-22-04",
+    "lugToLugMm": 48.5,
+    "caseMm": 42,
+    "thicknessMm": 12.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.glashuette-original.com/en/watches/vintage/sixties-chronograph-annual-edition-1-39-34-08-22-04/",
+        "note": "Manufacturer page for the Sixties Chronograph Annual Edition reference lists official case specifications; lug-to-lug is not published."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/the-2026-glashutte-original-sixties-chronograph-annual-edition",
+        "note": "Release coverage lists the Sixties Chronograph at 42 mm case, 48.5 mm lug-to-lug, and 12.4 mm thickness."
+      },
+      {
+        "sourceUrl": "https://www.timeandwatches.com/2026/05/glashutte-original-sixties-chronograph-2026-annual-edition-review.html",
+        "note": "Hands-on review cross-checks the Sixties Chronograph at 42 mm diameter, 12.4 mm thickness, and 48.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1173,
+    "brand": "Rado",
+    "model": "Captain Cook Automatic Chronograph 43mm",
+    "reference": "R32146208",
+    "lugToLugMm": 49.5,
+    "caseMm": 43,
+    "thicknessMm": 14.8,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.rado.com/en_us/captain-cook-automatic-chronograph-r32146208.html",
+        "note": "Manufacturer page for the Captain Cook Automatic Chronograph identifies the 43 mm reference; Rado does not publish lug-to-lug on the page."
+      },
+      {
+        "sourceUrl": "https://thecalibratedwrist.com/2023/09/11/off-the-cuff-rado-captain-cook-chronograph/",
+        "note": "Review lists the Captain Cook Chronograph at 43 mm case, 49.5 mm lug-to-lug, 14.8 mm thickness, and 22 mm lug width."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/hands-on-2022-rado-captain-cook-chronograph-collection-price/",
+        "note": "Hands-on review cross-checks the Captain Cook Chronograph case at 43 mm, 14.8 mm thick, and 49.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1174,
+    "brand": "Rado",
+    "model": "True Square Automatic Open Heart",
+    "reference": "R27086162",
+    "lugToLugMm": 44.2,
+    "caseMm": 38,
+    "thicknessMm": 9.7,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.rado.com/en_us/true-square-automatic-open-heart-r27086162.html",
+        "note": "Manufacturer page for the exact reference lists 38.0 mm case size; the integrated ceramic case has no conventional lug width."
+      },
+      {
+        "sourceUrl": "https://press.rado.com/sites/default/files/rpc-download-press-releases/EN_PR_True_Square_Collection_0.pdf",
+        "note": "Rado press material lists the True Square case dimensions at 38.0 x 44.2 x 9.6 mm."
+      },
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-rado-true-square-automatic-skeleton-watches/",
+        "note": "Coverage of the same True Square case family cross-checks 38 mm diameter, 9.7 mm thickness, and 44.2 mm lug-to-lug profile."
+      }
+    ]
+  },
+  {
+    "id": 1175,
+    "brand": "Rado",
+    "model": "DiaStar Original 38mm",
+    "reference": "R12160103",
+    "lugToLugMm": 45,
+    "caseMm": 38,
+    "thicknessMm": 12,
+    "lugWidthMm": null,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.rado.com/en_us/diastar-original-r12160103.html",
+        "note": "Manufacturer page for the DiaStar Original reference identifies the 38 mm model; the integrated case does not use a conventional lug width."
+      },
+      {
+        "sourceUrl": "https://www.thbaker.co.uk/blog/introducing-the-rado-diastar-original-watches",
+        "note": "Coverage of the DiaStar Original case lists 38 mm diameter and 45 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.reddit.com/r/Watchexchange/comments/1trks38",
+        "note": "Seller listing for R12160103 cross-checks a 45 mm lug-to-lug length."
+      }
+    ]
+  },
+  {
+    "id": 1176,
+    "brand": "Certina",
+    "model": "DS Super PH1000M",
+    "reference": "C024.907.17.041.10",
+    "lugToLugMm": 47.7,
+    "caseMm": 43.5,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.certina.com/en/watch/ds-super-ph1000m/c0249071704110",
+        "note": "Manufacturer page for the exact reference identifies the DS Super PH1000M configuration; Certina does not publish lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.hourstriker.com/reviews/certina-ds-super-ph1000m-stc-review",
+        "note": "Hands-on review lists the DS Super PH1000M at 43.5 mm diameter, 47.7 mm lug-to-lug, and 14.3 mm thickness."
+      },
+      {
+        "sourceUrl": "https://www.beansandbezels.com/reviews/certina-ds-super-ph1000m/",
+        "note": "Review cross-checks the DS Super PH1000M at 43.3 mm diameter, 47.3 mm lug-to-lug, 14.20 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1177,
+    "brand": "Certina",
+    "model": "DS Super PH500M",
+    "reference": "C037.407.18.050.00",
+    "lugToLugMm": 48.1,
+    "caseMm": 43,
+    "thicknessMm": 14.95,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.certina.com/en/watch/ds-super-ph500m/c0374071805000",
+        "note": "Manufacturer page for the DS Super PH500M identifies the 43 mm model; Certina does not publish lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/hands-on-with-the-new-certina-ds-super-ph500m-dive-watch/",
+        "note": "Hands-on review lists the DS Super PH500M at 43 mm case, 15 mm thickness, and 48.1 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-certina-ds-super-ph500m-limited-edition-reissue-divers-watch/",
+        "note": "Hands-on review cross-checks the DS Super PH500M at 43 mm diameter, 14.95 mm thickness, and approximately 48.5 mm lug-to-lug."
+      }
+    ]
   }
 ]
