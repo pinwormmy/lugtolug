@@ -2431,23 +2431,6 @@
     ]
   },
   {
-    "id": 132,
-    "brand": "Omega",
-    "model": "Constellation Observatory Co-Axial Master Chronometer 39 4 mm",
-    "reference": "140.13.39.21.01.001",
-    "lugToLugMm": 47.2,
-    "caseMm": 39.4,
-    "thicknessMm": 12.23,
-    "lugWidthMm": 19,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-observatory-co-axial-master-chronometer-39-4-mm-14013392101001",
-        "note": "Manufacturer page: 39.4 mm diameter, 47.2 mm lug-to-lug, 12.23 mm thickness, and 19 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 130,
     "brand": "Omega",
     "model": "Constellation Observatory Co-Axial Master Chronometer 39 4 mm",
@@ -2477,6 +2460,23 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-observatory-co-axial-master-chronometer-39-4-mm-14013392103001",
+        "note": "Manufacturer page: 39.4 mm diameter, 47.2 mm lug-to-lug, 12.23 mm thickness, and 19 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "brand": "Omega",
+    "model": "Constellation Observatory Co-Axial Master Chronometer 39 4 mm",
+    "reference": "140.13.39.21.01.001",
+    "lugToLugMm": 47.2,
+    "caseMm": 39.4,
+    "thicknessMm": 12.23,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-observatory-co-axial-master-chronometer-39-4-mm-14013392101001",
         "note": "Manufacturer page: 39.4 mm diameter, 47.2 mm lug-to-lug, 12.23 mm thickness, and 19 mm between lugs."
       }
     ]
@@ -2533,23 +2533,6 @@
     ]
   },
   {
-    "id": 141,
-    "brand": "Omega",
-    "model": "Constellation Observatory Co-Axial Master Chronometer 39 4 mm",
-    "reference": "140.53.39.21.99.002",
-    "lugToLugMm": 47.2,
-    "caseMm": 39.4,
-    "thicknessMm": 12.23,
-    "lugWidthMm": 19,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-observatory-co-axial-master-chronometer-39-4-mm-14053392199002",
-        "note": "Manufacturer page: 39.4 mm diameter, 47.2 mm lug-to-lug, 12.23 mm thickness, and 19 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 136,
     "brand": "Omega",
     "model": "Constellation Observatory Co-Axial Master Chronometer 39 4 mm",
@@ -2601,40 +2584,6 @@
     ]
   },
   {
-    "id": 167,
-    "brand": "Omega",
-    "model": "De Ville Mini Tresor Quartz 26 mm",
-    "reference": "428.15.26.60.04.002",
-    "lugToLugMm": 31.13,
-    "caseMm": 26,
-    "thicknessMm": 7.46,
-    "lugWidthMm": 13,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42815266004002",
-        "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 168,
-    "brand": "Omega",
-    "model": "De Ville Mini Tresor Quartz 26 mm",
-    "reference": "428.15.26.60.04.003",
-    "lugToLugMm": 31.13,
-    "caseMm": 26,
-    "thicknessMm": 7.46,
-    "lugWidthMm": 13,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42815266004003",
-        "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 139,
     "brand": "Omega",
     "model": "De Ville Mini Tresor Quartz 26 mm",
@@ -2669,6 +2618,23 @@
     ]
   },
   {
+    "id": 141,
+    "brand": "Omega",
+    "model": "Constellation Observatory Co-Axial Master Chronometer 39 4 mm",
+    "reference": "140.53.39.21.99.002",
+    "lugToLugMm": 47.2,
+    "caseMm": 39.4,
+    "thicknessMm": 12.23,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-observatory-co-axial-master-chronometer-39-4-mm-14053392199002",
+        "note": "Manufacturer page: 39.4 mm diameter, 47.2 mm lug-to-lug, 12.23 mm thickness, and 19 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 142,
     "brand": "Omega",
     "model": "De Ville Mini Tresor Quartz 26 mm",
@@ -2681,40 +2647,6 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42817266004006",
-        "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 144,
-    "brand": "Omega",
-    "model": "De Ville Mini Tresor Quartz 26 mm",
-    "reference": "428.17.26.60.04.007",
-    "lugToLugMm": 31.13,
-    "caseMm": 26,
-    "thicknessMm": 7.46,
-    "lugWidthMm": 13,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42817266004007",
-        "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 146,
-    "brand": "Omega",
-    "model": "De Ville Mini Tresor Quartz 26 mm",
-    "reference": "428.17.26.60.04.008",
-    "lugToLugMm": 31.13,
-    "caseMm": 26,
-    "thicknessMm": 7.46,
-    "lugWidthMm": 13,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42817266004008",
         "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
       }
     ]
@@ -2737,6 +2669,23 @@
     ]
   },
   {
+    "id": 144,
+    "brand": "Omega",
+    "model": "De Ville Mini Tresor Quartz 26 mm",
+    "reference": "428.17.26.60.04.007",
+    "lugToLugMm": 31.13,
+    "caseMm": 26,
+    "thicknessMm": 7.46,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42817266004007",
+        "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 145,
     "brand": "Omega",
     "model": "De Ville Mini Tresor Quartz 26 mm",
@@ -2749,6 +2698,23 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42818266004001",
+        "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "brand": "Omega",
+    "model": "De Ville Mini Tresor Quartz 26 mm",
+    "reference": "428.17.26.60.04.008",
+    "lugToLugMm": 31.13,
+    "caseMm": 26,
+    "thicknessMm": 7.46,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42817266004008",
         "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
       }
     ]
@@ -2771,23 +2737,6 @@
     ]
   },
   {
-    "id": 149,
-    "brand": "Omega",
-    "model": "De Ville Mini Tresor Quartz 26 mm",
-    "reference": "428.18.26.60.04.003",
-    "lugToLugMm": 31.13,
-    "caseMm": 26,
-    "thicknessMm": 7.46,
-    "lugWidthMm": 13,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42818266004003",
-        "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 148,
     "brand": "Omega",
     "model": "De Ville Mini Tresor Quartz 26 mm",
@@ -2805,10 +2754,10 @@
     ]
   },
   {
-    "id": 160,
+    "id": 149,
     "brand": "Omega",
     "model": "De Ville Mini Tresor Quartz 26 mm",
-    "reference": "428.55.26.60.99.001",
+    "reference": "428.18.26.60.04.003",
     "lugToLugMm": 31.13,
     "caseMm": 26,
     "thicknessMm": 7.46,
@@ -2816,7 +2765,58 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42855266099001",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42818266004003",
+        "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "brand": "Omega",
+    "model": "De Ville Mini Tresor Quartz 26 mm",
+    "reference": "428.58.26.60.04.001",
+    "lugToLugMm": 31.13,
+    "caseMm": 26,
+    "thicknessMm": 7.46,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42858266004001",
+        "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "brand": "Omega",
+    "model": "De Ville Mini Tresor Quartz 26 mm",
+    "reference": "428.57.26.60.99.001",
+    "lugToLugMm": 31.13,
+    "caseMm": 26,
+    "thicknessMm": 7.46,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42857266099001",
+        "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "brand": "Omega",
+    "model": "De Ville Mini Tresor Quartz 26 mm",
+    "reference": "428.58.26.60.04.003",
+    "lugToLugMm": 31.13,
+    "caseMm": 26,
+    "thicknessMm": 7.46,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42858266004003",
         "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
       }
     ]
@@ -2856,10 +2856,10 @@
     ]
   },
   {
-    "id": 151,
+    "id": 155,
     "brand": "Omega",
     "model": "De Ville Mini Tresor Quartz 26 mm",
-    "reference": "428.57.26.60.99.001",
+    "reference": "428.58.26.60.99.002",
     "lugToLugMm": 31.13,
     "caseMm": 26,
     "thicknessMm": 7.46,
@@ -2867,58 +2867,7 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42857266099001",
-        "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 150,
-    "brand": "Omega",
-    "model": "De Ville Mini Tresor Quartz 26 mm",
-    "reference": "428.58.26.60.04.001",
-    "lugToLugMm": 31.13,
-    "caseMm": 26,
-    "thicknessMm": 7.46,
-    "lugWidthMm": 13,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42858266004001",
-        "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 169,
-    "brand": "Omega",
-    "model": "De Ville Mini Tresor Quartz 26 mm",
-    "reference": "428.58.26.60.04.002",
-    "lugToLugMm": 31.13,
-    "caseMm": 26,
-    "thicknessMm": 7.46,
-    "lugWidthMm": 13,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42858266004002",
-        "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 152,
-    "brand": "Omega",
-    "model": "De Ville Mini Tresor Quartz 26 mm",
-    "reference": "428.58.26.60.04.003",
-    "lugToLugMm": 31.13,
-    "caseMm": 26,
-    "thicknessMm": 7.46,
-    "lugWidthMm": 13,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42858266004003",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42858266099002",
         "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
       }
     ]
@@ -2941,23 +2890,6 @@
     ]
   },
   {
-    "id": 155,
-    "brand": "Omega",
-    "model": "De Ville Mini Tresor Quartz 26 mm",
-    "reference": "428.58.26.60.99.002",
-    "lugToLugMm": 31.13,
-    "caseMm": 26,
-    "thicknessMm": 7.46,
-    "lugWidthMm": 13,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42858266099002",
-        "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 157,
     "brand": "Omega",
     "model": "De Ville Prestige Co-Axial Master Chronometer 40 mm",
@@ -2970,23 +2902,6 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-40-mm-43410402010001",
-        "note": "Manufacturer page: 40 mm diameter, 46.26 mm lug-to-lug, 9.93 mm thickness, and 19 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 159,
-    "brand": "Omega",
-    "model": "De Ville Prestige Co-Axial Master Chronometer 40 mm",
-    "reference": "434.13.40.20.03.001",
-    "lugToLugMm": 46.26,
-    "caseMm": 40,
-    "thicknessMm": 9.93,
-    "lugWidthMm": 19,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-40-mm-43413402003001",
         "note": "Manufacturer page: 40 mm diameter, 46.26 mm lug-to-lug, 9.93 mm thickness, and 19 mm between lugs."
       }
     ]
@@ -3009,10 +2924,44 @@
     ]
   },
   {
-    "id": 202,
+    "id": 159,
+    "brand": "Omega",
+    "model": "De Ville Prestige Co-Axial Master Chronometer 40 mm",
+    "reference": "434.13.40.20.03.001",
+    "lugToLugMm": 46.26,
+    "caseMm": 40,
+    "thicknessMm": 9.93,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-40-mm-43413402003001",
+        "note": "Manufacturer page: 40 mm diameter, 46.26 mm lug-to-lug, 9.93 mm thickness, and 19 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "brand": "Omega",
+    "model": "De Ville Mini Tresor Quartz 26 mm",
+    "reference": "428.55.26.60.99.001",
+    "lugToLugMm": 31.13,
+    "caseMm": 26,
+    "thicknessMm": 7.46,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42855266099001",
+        "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 161,
     "brand": "Omega",
     "model": "De Ville Prestige Co-Axial Master Chronometer Date Hand 42 mm",
-    "reference": "434.20.42.22.10.001",
+    "reference": "434.23.42.22.10.001",
     "lugToLugMm": 48.95,
     "caseMm": 42,
     "thicknessMm": 12.27,
@@ -3020,7 +2969,7 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-date-hand-42-mm-43420422210001",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-date-hand-42-mm-43423422210001",
         "note": "Manufacturer page: 42 mm diameter, 48.95 mm lug-to-lug, 12.27 mm thickness, and 19 mm between lugs."
       }
     ]
@@ -3043,19 +2992,19 @@
     ]
   },
   {
-    "id": 161,
+    "id": 163,
     "brand": "Omega",
-    "model": "De Ville Prestige Co-Axial Master Chronometer Date Hand 42 mm",
-    "reference": "434.23.42.22.10.001",
-    "lugToLugMm": 48.95,
-    "caseMm": 42,
-    "thicknessMm": 12.27,
+    "model": "De Ville Prestige Co-Axial Master Chronometer Power Reserve 41 mm",
+    "reference": "434.13.41.21.03.002",
+    "lugToLugMm": 47.89,
+    "caseMm": 41,
+    "thicknessMm": 10.77,
     "lugWidthMm": 19,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-date-hand-42-mm-43423422210001",
-        "note": "Manufacturer page: 42 mm diameter, 48.95 mm lug-to-lug, 12.27 mm thickness, and 19 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-43413412103002",
+        "note": "Manufacturer page: 41 mm diameter, 47.89 mm lug-to-lug, 10.77 mm thickness, and 19 mm between lugs."
       }
     ]
   },
@@ -3077,10 +3026,10 @@
     ]
   },
   {
-    "id": 174,
+    "id": 165,
     "brand": "Omega",
     "model": "De Ville Prestige Co-Axial Master Chronometer Power Reserve 41 mm",
-    "reference": "434.10.41.21.06.001",
+    "reference": "434.20.41.21.02.001",
     "lugToLugMm": 47.89,
     "caseMm": 41,
     "thicknessMm": 10.77,
@@ -3088,24 +3037,7 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-43410412106001",
-        "note": "Manufacturer page: 41 mm diameter, 47.89 mm lug-to-lug, 10.77 mm thickness, and 19 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 163,
-    "brand": "Omega",
-    "model": "De Ville Prestige Co-Axial Master Chronometer Power Reserve 41 mm",
-    "reference": "434.13.41.21.03.002",
-    "lugToLugMm": 47.89,
-    "caseMm": 41,
-    "thicknessMm": 10.77,
-    "lugWidthMm": 19,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-43413412103002",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-43420412102001",
         "note": "Manufacturer page: 41 mm diameter, 47.89 mm lug-to-lug, 10.77 mm thickness, and 19 mm between lugs."
       }
     ]
@@ -3128,19 +3060,53 @@
     ]
   },
   {
-    "id": 165,
+    "id": 167,
     "brand": "Omega",
-    "model": "De Ville Prestige Co-Axial Master Chronometer Power Reserve 41 mm",
-    "reference": "434.20.41.21.02.001",
-    "lugToLugMm": 47.89,
-    "caseMm": 41,
-    "thicknessMm": 10.77,
-    "lugWidthMm": 19,
+    "model": "De Ville Mini Tresor Quartz 26 mm",
+    "reference": "428.15.26.60.04.002",
+    "lugToLugMm": 31.13,
+    "caseMm": 26,
+    "thicknessMm": 7.46,
+    "lugWidthMm": 13,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-43420412102001",
-        "note": "Manufacturer page: 41 mm diameter, 47.89 mm lug-to-lug, 10.77 mm thickness, and 19 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42815266004002",
+        "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "brand": "Omega",
+    "model": "De Ville Mini Tresor Quartz 26 mm",
+    "reference": "428.15.26.60.04.003",
+    "lugToLugMm": 31.13,
+    "caseMm": 26,
+    "thicknessMm": 7.46,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42815266004003",
+        "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "brand": "Omega",
+    "model": "De Ville Mini Tresor Quartz 26 mm",
+    "reference": "428.58.26.60.04.002",
+    "lugToLugMm": 31.13,
+    "caseMm": 26,
+    "thicknessMm": 7.46,
+    "lugWidthMm": 13,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-mini-tresor-quartz-26-mm-42858266004002",
+        "note": "Manufacturer page: 26 mm diameter, 31.13 mm lug-to-lug, 7.46 mm thickness, and 13 mm between lugs."
       }
     ]
   },
@@ -3179,10 +3145,10 @@
     ]
   },
   {
-    "id": 179,
+    "id": 172,
     "brand": "Omega",
-    "model": "De Ville Prestige Co-Axial Master Chronometer Power Reserve 41 mm",
-    "reference": "434.53.41.21.10.001",
+    "model": "De Ville Prestige Co-Axial Master Chronometer Small Seconds 41 mm",
+    "reference": "434.10.41.20.03.001",
     "lugToLugMm": 47.89,
     "caseMm": 41,
     "thicknessMm": 10.77,
@@ -3190,7 +3156,7 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-43453412110001",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-small-seconds-41-mm-43410412003001",
         "note": "Manufacturer page: 41 mm diameter, 47.89 mm lug-to-lug, 10.77 mm thickness, and 19 mm between lugs."
       }
     ]
@@ -3213,10 +3179,10 @@
     ]
   },
   {
-    "id": 172,
+    "id": 174,
     "brand": "Omega",
-    "model": "De Ville Prestige Co-Axial Master Chronometer Small Seconds 41 mm",
-    "reference": "434.10.41.20.03.001",
+    "model": "De Ville Prestige Co-Axial Master Chronometer Power Reserve 41 mm",
+    "reference": "434.10.41.21.06.001",
     "lugToLugMm": 47.89,
     "caseMm": 41,
     "thicknessMm": 10.77,
@@ -3224,41 +3190,7 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-small-seconds-41-mm-43410412003001",
-        "note": "Manufacturer page: 41 mm diameter, 47.89 mm lug-to-lug, 10.77 mm thickness, and 19 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 178,
-    "brand": "Omega",
-    "model": "De Ville Prestige Co-Axial Master Chronometer Small Seconds 41 mm",
-    "reference": "434.10.41.20.10.001",
-    "lugToLugMm": 47.89,
-    "caseMm": 41,
-    "thicknessMm": 10.77,
-    "lugWidthMm": 19,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-small-seconds-41-mm-43410412010001",
-        "note": "Manufacturer page: 41 mm diameter, 47.89 mm lug-to-lug, 10.77 mm thickness, and 19 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 190,
-    "brand": "Omega",
-    "model": "De Ville Prestige Co-Axial Master Chronometer Small Seconds 41 mm",
-    "reference": "434.13.41.20.02.001",
-    "lugToLugMm": 47.89,
-    "caseMm": 41,
-    "thicknessMm": 10.77,
-    "lugWidthMm": 19,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-small-seconds-41-mm-43413412002001",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-43410412106001",
         "note": "Manufacturer page: 41 mm diameter, 47.89 mm lug-to-lug, 10.77 mm thickness, and 19 mm between lugs."
       }
     ]
@@ -3281,23 +3213,6 @@
     ]
   },
   {
-    "id": 177,
-    "brand": "Omega",
-    "model": "De Ville Prestige Co-Axial Master Chronometer Small Seconds 41 mm",
-    "reference": "434.13.41.20.10.001",
-    "lugToLugMm": 47.89,
-    "caseMm": 41,
-    "thicknessMm": 10.77,
-    "lugWidthMm": 19,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-small-seconds-41-mm-43413412010001",
-        "note": "Manufacturer page: 41 mm diameter, 47.89 mm lug-to-lug, 10.77 mm thickness, and 19 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 176,
     "brand": "Omega",
     "model": "De Ville Prestige Co-Axial Master Chronometer Small Seconds 41 mm",
@@ -3315,10 +3230,10 @@
     ]
   },
   {
-    "id": 185,
+    "id": 177,
     "brand": "Omega",
     "model": "De Ville Prestige Co-Axial Master Chronometer Small Seconds 41 mm",
-    "reference": "434.23.41.20.02.001",
+    "reference": "434.13.41.20.10.001",
     "lugToLugMm": 47.89,
     "caseMm": 41,
     "thicknessMm": 10.77,
@@ -3326,7 +3241,41 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-small-seconds-41-mm-43423412002001",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-small-seconds-41-mm-43413412010001",
+        "note": "Manufacturer page: 41 mm diameter, 47.89 mm lug-to-lug, 10.77 mm thickness, and 19 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "brand": "Omega",
+    "model": "De Ville Prestige Co-Axial Master Chronometer Small Seconds 41 mm",
+    "reference": "434.10.41.20.10.001",
+    "lugToLugMm": 47.89,
+    "caseMm": 41,
+    "thicknessMm": 10.77,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-small-seconds-41-mm-43410412010001",
+        "note": "Manufacturer page: 41 mm diameter, 47.89 mm lug-to-lug, 10.77 mm thickness, and 19 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "brand": "Omega",
+    "model": "De Ville Prestige Co-Axial Master Chronometer Power Reserve 41 mm",
+    "reference": "434.53.41.21.10.001",
+    "lugToLugMm": 47.89,
+    "caseMm": 41,
+    "thicknessMm": 10.77,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-power-reserve-41-mm-43453412110001",
         "note": "Manufacturer page: 41 mm diameter, 47.89 mm lug-to-lug, 10.77 mm thickness, and 19 mm between lugs."
       }
     ]
@@ -3383,23 +3332,6 @@
     ]
   },
   {
-    "id": 221,
-    "brand": "Omega",
-    "model": "De Ville Tresor Quartz 36 mm",
-    "reference": "428.18.36.60.03.002",
-    "lugToLugMm": 42.7,
-    "caseMm": 36,
-    "thicknessMm": 8.85,
-    "lugWidthMm": 18,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-tresor-quartz-36-mm-42818366003002",
-        "note": "Manufacturer page: 36 mm diameter, 42.7 mm lug-to-lug, 8.85 mm thickness, and 18 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 183,
     "brand": "Omega",
     "model": "De Ville Tresor Quartz 36 mm",
@@ -3430,6 +3362,23 @@
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-300-co-axial-master-chronometer-41-mm-23430412101001",
         "note": "Manufacturer page: 41 mm diameter, 48 mm lug-to-lug, 13.85 mm thickness, and 21 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "brand": "Omega",
+    "model": "De Ville Prestige Co-Axial Master Chronometer Small Seconds 41 mm",
+    "reference": "434.23.41.20.02.001",
+    "lugToLugMm": 47.89,
+    "caseMm": 41,
+    "thicknessMm": 10.77,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-small-seconds-41-mm-43423412002001",
+        "note": "Manufacturer page: 41 mm diameter, 47.89 mm lug-to-lug, 10.77 mm thickness, and 19 mm between lugs."
       }
     ]
   },
@@ -3468,6 +3417,23 @@
     ]
   },
   {
+    "id": 188,
+    "brand": "Omega",
+    "model": "Seamaster 300 Co-Axial Master Chronometer 41 mm",
+    "reference": "234.93.41.21.99.001",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 14.65,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-300-co-axial-master-chronometer-41-mm-23493412199001",
+        "note": "Manufacturer page: 41 mm diameter, 48 mm lug-to-lug, 14.65 mm thickness, and 21 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 189,
     "brand": "Omega",
     "model": "Seamaster 300 Co-Axial Master Chronometer 41 mm",
@@ -3485,19 +3451,19 @@
     ]
   },
   {
-    "id": 219,
+    "id": 190,
     "brand": "Omega",
-    "model": "Seamaster 300 Co-Axial Master Chronometer 41 mm",
-    "reference": "234.63.41.21.99.002",
-    "lugToLugMm": 48,
+    "model": "De Ville Prestige Co-Axial Master Chronometer Small Seconds 41 mm",
+    "reference": "434.13.41.20.02.001",
+    "lugToLugMm": 47.89,
     "caseMm": 41,
-    "thicknessMm": 14.65,
-    "lugWidthMm": 21,
+    "thicknessMm": 10.77,
+    "lugWidthMm": 19,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-300-co-axial-master-chronometer-41-mm-23463412199002",
-        "note": "Manufacturer page: 41 mm diameter, 48 mm lug-to-lug, 14.65 mm thickness, and 21 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-small-seconds-41-mm-43413412002001",
+        "note": "Manufacturer page: 41 mm diameter, 47.89 mm lug-to-lug, 10.77 mm thickness, and 19 mm between lugs."
       }
     ]
   },
@@ -3519,57 +3485,6 @@
     ]
   },
   {
-    "id": 188,
-    "brand": "Omega",
-    "model": "Seamaster 300 Co-Axial Master Chronometer 41 mm",
-    "reference": "234.93.41.21.99.001",
-    "lugToLugMm": 48,
-    "caseMm": 41,
-    "thicknessMm": 14.65,
-    "lugWidthMm": 21,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-300-co-axial-master-chronometer-41-mm-23493412199001",
-        "note": "Manufacturer page: 41 mm diameter, 48 mm lug-to-lug, 14.65 mm thickness, and 21 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 210,
-    "brand": "Omega",
-    "model": "Seamaster 300 Co-Axial Master Chronometer 41 mm",
-    "reference": "234.93.41.21.99.002",
-    "lugToLugMm": 48,
-    "caseMm": 41,
-    "thicknessMm": 14.65,
-    "lugWidthMm": 21,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-300-co-axial-master-chronometer-41-mm-23493412199002",
-        "note": "Manufacturer page: 41 mm diameter, 48 mm lug-to-lug, 14.65 mm thickness, and 21 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 194,
-    "brand": "Omega",
-    "model": "Seamaster 37 mm Co-Axial Master Chronometer 37 mm",
-    "reference": "522.53.37.20.04.001",
-    "lugToLugMm": 45,
-    "caseMm": 37,
-    "thicknessMm": 11.35,
-    "lugWidthMm": 19,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-37-mm-co-axial-master-chronometer-37-mm-52253372004001",
-        "note": "Manufacturer page: 37 mm diameter, 45 mm lug-to-lug, 11.35 mm thickness, and 19 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 192,
     "brand": "Omega",
     "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 30 mm",
@@ -3583,40 +3498,6 @@
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-30-mm-22025302055001",
         "note": "Manufacturer page: 30 mm diameter, 36.5 mm lug-to-lug, 10.55 mm thickness, and 14 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 195,
-    "brand": "Omega",
-    "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 38 mm",
-    "reference": "220.10.38.20.01.004",
-    "lugToLugMm": 45.1,
-    "caseMm": 38,
-    "thicknessMm": 12.26,
-    "lugWidthMm": 19,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-38-mm-22010382001004",
-        "note": "Manufacturer page: 38 mm diameter, 45.1 mm lug-to-lug, 12.26 mm thickness, and 19 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 197,
-    "brand": "Omega",
-    "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 38 mm",
-    "reference": "220.10.38.20.02.001",
-    "lugToLugMm": 45,
-    "caseMm": 38,
-    "thicknessMm": 12.24,
-    "lugWidthMm": 19,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-38-mm-22010382002001",
-        "note": "Manufacturer page: 38 mm diameter, 45 mm lug-to-lug, 12.24 mm thickness, and 19 mm between lugs."
       }
     ]
   },
@@ -3638,10 +3519,27 @@
     ]
   },
   {
-    "id": 229,
+    "id": 194,
+    "brand": "Omega",
+    "model": "Seamaster 37 mm Co-Axial Master Chronometer 37 mm",
+    "reference": "522.53.37.20.04.001",
+    "lugToLugMm": 45,
+    "caseMm": 37,
+    "thicknessMm": 11.35,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-37-mm-co-axial-master-chronometer-37-mm-52253372004001",
+        "note": "Manufacturer page: 37 mm diameter, 45 mm lug-to-lug, 11.35 mm thickness, and 19 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 195,
     "brand": "Omega",
     "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 38 mm",
-    "reference": "220.10.38.20.03.004",
+    "reference": "220.10.38.20.01.004",
     "lugToLugMm": 45.1,
     "caseMm": 38,
     "thicknessMm": 12.26,
@@ -3649,7 +3547,7 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-38-mm-22010382003004",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-38-mm-22010382001004",
         "note": "Manufacturer page: 38 mm diameter, 45.1 mm lug-to-lug, 12.26 mm thickness, and 19 mm between lugs."
       }
     ]
@@ -3672,6 +3570,23 @@
     ]
   },
   {
+    "id": 197,
+    "brand": "Omega",
+    "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 38 mm",
+    "reference": "220.10.38.20.02.001",
+    "lugToLugMm": 45,
+    "caseMm": 38,
+    "thicknessMm": 12.24,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-38-mm-22010382002001",
+        "note": "Manufacturer page: 38 mm diameter, 45 mm lug-to-lug, 12.24 mm thickness, and 19 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 198,
     "brand": "Omega",
     "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 38 mm",
@@ -3684,23 +3599,6 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-38-mm-22012382002001",
-        "note": "Manufacturer page: 38 mm diameter, 45 mm lug-to-lug, 12.24 mm thickness, and 19 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 224,
-    "brand": "Omega",
-    "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 38 mm",
-    "reference": "220.12.38.20.03.001",
-    "lugToLugMm": 45,
-    "caseMm": 38,
-    "thicknessMm": 12.24,
-    "lugWidthMm": 19,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-38-mm-22012382003001",
         "note": "Manufacturer page: 38 mm diameter, 45 mm lug-to-lug, 12.24 mm thickness, and 19 mm between lugs."
       }
     ]
@@ -3719,23 +3617,6 @@
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-38-mm-22012382010001",
         "note": "Manufacturer page: 38 mm diameter, 45 mm lug-to-lug, 12.24 mm thickness, and 19 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 226,
-    "brand": "Omega",
-    "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 38 mm",
-    "reference": "220.20.38.20.10.002",
-    "lugToLugMm": 45.1,
-    "caseMm": 38,
-    "thicknessMm": 12.26,
-    "lugWidthMm": 19,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-38-mm-22020382010002",
-        "note": "Manufacturer page: 38 mm diameter, 45.1 mm lug-to-lug, 12.26 mm thickness, and 19 mm between lugs."
       }
     ]
   },
@@ -3770,6 +3651,23 @@
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-38-mm-22050382003001",
         "note": "Manufacturer page: 38 mm diameter, 45.1 mm lug-to-lug, 12.26 mm thickness, and 19 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "brand": "Omega",
+    "model": "De Ville Prestige Co-Axial Master Chronometer Date Hand 42 mm",
+    "reference": "434.20.42.22.10.001",
+    "lugToLugMm": 48.95,
+    "caseMm": 42,
+    "thicknessMm": 12.27,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-prestige-co-axial-master-chronometer-date-hand-42-mm-43420422210001",
+        "note": "Manufacturer page: 42 mm diameter, 48.95 mm lug-to-lug, 12.27 mm thickness, and 19 mm between lugs."
       }
     ]
   },
@@ -3842,23 +3740,6 @@
     ]
   },
   {
-    "id": 211,
-    "brand": "Omega",
-    "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 41 mm",
-    "reference": "220.10.41.21.03.006",
-    "lugToLugMm": 47.91,
-    "caseMm": 41,
-    "thicknessMm": 13.26,
-    "lugWidthMm": 20,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22010412103006",
-        "note": "Manufacturer page: 41 mm diameter, 47.91 mm lug-to-lug, 13.26 mm thickness, and 20 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 208,
     "brand": "Omega",
     "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 41 mm",
@@ -3893,19 +3774,36 @@
     ]
   },
   {
-    "id": 214,
+    "id": 210,
+    "brand": "Omega",
+    "model": "Seamaster 300 Co-Axial Master Chronometer 41 mm",
+    "reference": "234.93.41.21.99.002",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 14.65,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-300-co-axial-master-chronometer-41-mm-23493412199002",
+        "note": "Manufacturer page: 41 mm diameter, 48 mm lug-to-lug, 14.65 mm thickness, and 21 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 211,
     "brand": "Omega",
     "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 41 mm",
-    "reference": "220.12.41.21.02.002",
-    "lugToLugMm": 47.9,
+    "reference": "220.10.41.21.03.006",
+    "lugToLugMm": 47.91,
     "caseMm": 41,
-    "thicknessMm": 13.2,
+    "thicknessMm": 13.26,
     "lugWidthMm": 20,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22012412102002",
-        "note": "Manufacturer page: 41 mm diameter, 47.9 mm lug-to-lug, 13.2 mm thickness, and 20 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22010412103006",
+        "note": "Manufacturer page: 41 mm diameter, 47.91 mm lug-to-lug, 13.26 mm thickness, and 20 mm between lugs."
       }
     ]
   },
@@ -3944,27 +3842,10 @@
     ]
   },
   {
-    "id": 249,
-    "brand": "Omega",
-    "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 41 mm 22012412103009 Access",
-    "reference": "220.12.41.21.03.009",
-    "lugToLugMm": 47.9,
-    "caseMm": 41,
-    "thicknessMm": 13.2,
-    "lugWidthMm": 20,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22012412103009-access",
-        "note": "Manufacturer page: 41 mm diameter, 47.9 mm lug-to-lug, 13.2 mm thickness, and 20 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 217,
+    "id": 214,
     "brand": "Omega",
     "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 41 mm",
-    "reference": "220.13.41.21.03.003",
+    "reference": "220.12.41.21.02.002",
     "lugToLugMm": 47.9,
     "caseMm": 41,
     "thicknessMm": 13.2,
@@ -3972,7 +3853,7 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22013412103003",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22012412102002",
         "note": "Manufacturer page: 41 mm diameter, 47.9 mm lug-to-lug, 13.2 mm thickness, and 20 mm between lugs."
       }
     ]
@@ -4012,10 +3893,10 @@
     ]
   },
   {
-    "id": 230,
+    "id": 217,
     "brand": "Omega",
     "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 41 mm",
-    "reference": "220.20.41.21.02.001",
+    "reference": "220.13.41.21.03.003",
     "lugToLugMm": 47.9,
     "caseMm": 41,
     "thicknessMm": 13.2,
@@ -4023,7 +3904,7 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22020412102001",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22013412103003",
         "note": "Manufacturer page: 41 mm diameter, 47.9 mm lug-to-lug, 13.2 mm thickness, and 20 mm between lugs."
       }
     ]
@@ -4046,6 +3927,23 @@
     ]
   },
   {
+    "id": 219,
+    "brand": "Omega",
+    "model": "Seamaster 300 Co-Axial Master Chronometer 41 mm",
+    "reference": "234.63.41.21.99.002",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 14.65,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-300-co-axial-master-chronometer-41-mm-23463412199002",
+        "note": "Manufacturer page: 41 mm diameter, 48 mm lug-to-lug, 14.65 mm thickness, and 21 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 220,
     "brand": "Omega",
     "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 41 mm",
@@ -4063,36 +3961,19 @@
     ]
   },
   {
-    "id": 240,
+    "id": 221,
     "brand": "Omega",
-    "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 41 mm",
-    "reference": "220.23.41.21.02.001",
-    "lugToLugMm": 47.9,
-    "caseMm": 41,
-    "thicknessMm": 13.2,
-    "lugWidthMm": 20,
+    "model": "De Ville Tresor Quartz 36 mm",
+    "reference": "428.18.36.60.03.002",
+    "lugToLugMm": 42.7,
+    "caseMm": 36,
+    "thicknessMm": 8.85,
+    "lugWidthMm": 18,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22023412102001",
-        "note": "Manufacturer page: 41 mm diameter, 47.9 mm lug-to-lug, 13.2 mm thickness, and 20 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 223,
-    "brand": "Omega",
-    "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 41 mm",
-    "reference": "220.32.41.21.03.001",
-    "lugToLugMm": 47.91,
-    "caseMm": 41,
-    "thicknessMm": 13.26,
-    "lugWidthMm": 20,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22032412103001",
-        "note": "Manufacturer page: 41 mm diameter, 47.91 mm lug-to-lug, 13.26 mm thickness, and 20 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-tresor-quartz-36-mm-42818366003002",
+        "note": "Manufacturer page: 36 mm diameter, 42.7 mm lug-to-lug, 8.85 mm thickness, and 18 mm between lugs."
       }
     ]
   },
@@ -4114,36 +3995,36 @@
     ]
   },
   {
-    "id": 243,
+    "id": 223,
     "brand": "Omega",
     "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 41 mm",
-    "reference": "220.52.41.21.03.001",
-    "lugToLugMm": 47.9,
+    "reference": "220.32.41.21.03.001",
+    "lugToLugMm": 47.91,
     "caseMm": 41,
-    "thicknessMm": 13.2,
+    "thicknessMm": 13.26,
     "lugWidthMm": 20,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22052412103001",
-        "note": "Manufacturer page: 41 mm diameter, 47.9 mm lug-to-lug, 13.2 mm thickness, and 20 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22032412103001",
+        "note": "Manufacturer page: 41 mm diameter, 47.91 mm lug-to-lug, 13.26 mm thickness, and 20 mm between lugs."
       }
     ]
   },
   {
-    "id": 251,
+    "id": 224,
     "brand": "Omega",
-    "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 41 mm",
-    "reference": "220.52.41.21.10.001",
-    "lugToLugMm": 48.01,
-    "caseMm": 41,
-    "thicknessMm": 13.37,
-    "lugWidthMm": 20,
+    "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 38 mm",
+    "reference": "220.12.38.20.03.001",
+    "lugToLugMm": 45,
+    "caseMm": 38,
+    "thicknessMm": 12.24,
+    "lugWidthMm": 19,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22052412110001",
-        "note": "Manufacturer page: 41 mm diameter, 48.01 mm lug-to-lug, 13.37 mm thickness, and 20 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-38-mm-22012382003001",
+        "note": "Manufacturer page: 38 mm diameter, 45 mm lug-to-lug, 12.24 mm thickness, and 19 mm between lugs."
       }
     ]
   },
@@ -4161,6 +4042,23 @@
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-small-seconds-41-mm-22012412103005",
         "note": "Manufacturer page: 41 mm diameter, 47.9 mm lug-to-lug, 13.2 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "brand": "Omega",
+    "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 38 mm",
+    "reference": "220.20.38.20.10.002",
+    "lugToLugMm": 45.1,
+    "caseMm": 38,
+    "thicknessMm": 12.26,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-38-mm-22020382010002",
+        "note": "Manufacturer page: 38 mm diameter, 45.1 mm lug-to-lug, 12.26 mm thickness, and 19 mm between lugs."
       }
     ]
   },
@@ -4199,6 +4097,40 @@
     ]
   },
   {
+    "id": 229,
+    "brand": "Omega",
+    "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 38 mm",
+    "reference": "220.10.38.20.03.004",
+    "lugToLugMm": 45.1,
+    "caseMm": 38,
+    "thicknessMm": 12.26,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-38-mm-22010382003004",
+        "note": "Manufacturer page: 38 mm diameter, 45.1 mm lug-to-lug, 12.26 mm thickness, and 19 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "brand": "Omega",
+    "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 41 mm",
+    "reference": "220.20.41.21.02.001",
+    "lugToLugMm": 47.9,
+    "caseMm": 41,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22020412102001",
+        "note": "Manufacturer page: 41 mm diameter, 47.9 mm lug-to-lug, 13.2 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 231,
     "brand": "Omega",
     "model": "Seamaster Aqua Terra Shades Co-Axial Master Chronometer 38 mm",
@@ -4212,23 +4144,6 @@
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-shades-co-axial-master-chronometer-38-mm-22010382010002",
         "note": "Manufacturer page: 38 mm diameter, 44.92 mm lug-to-lug, 12.26 mm thickness, and 19 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 261,
-    "brand": "Omega",
-    "model": "Seamaster Aqua Terra Shades Co-Axial Master Chronometer 38 mm",
-    "reference": "220.10.38.20.10.004",
-    "lugToLugMm": 44.92,
-    "caseMm": 38,
-    "thicknessMm": 12.36,
-    "lugWidthMm": 19,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-shades-co-axial-master-chronometer-38-mm-22010382010004",
-        "note": "Manufacturer page: 38 mm diameter, 44.92 mm lug-to-lug, 12.36 mm thickness, and 19 mm between lugs."
       }
     ]
   },
@@ -4284,23 +4199,6 @@
     ]
   },
   {
-    "id": 236,
-    "brand": "Omega",
-    "model": "Seamaster Aqua Terra Shades Co-Axial Master Chronometer 38 mm",
-    "reference": "220.20.38.20.02.002",
-    "lugToLugMm": 45.1,
-    "caseMm": 38,
-    "thicknessMm": 12.36,
-    "lugWidthMm": 19,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-shades-co-axial-master-chronometer-38-mm-22020382002002",
-        "note": "Manufacturer page: 38 mm diameter, 45.1 mm lug-to-lug, 12.36 mm thickness, and 19 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 235,
     "brand": "Omega",
     "model": "Seamaster Aqua Terra Shades Co-Axial Master Chronometer 38 mm",
@@ -4318,10 +4216,10 @@
     ]
   },
   {
-    "id": 263,
+    "id": 236,
     "brand": "Omega",
     "model": "Seamaster Aqua Terra Shades Co-Axial Master Chronometer 38 mm",
-    "reference": "220.50.38.20.08.001",
+    "reference": "220.20.38.20.02.002",
     "lugToLugMm": 45.1,
     "caseMm": 38,
     "thicknessMm": 12.36,
@@ -4329,7 +4227,7 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-shades-co-axial-master-chronometer-38-mm-22050382008001",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-shades-co-axial-master-chronometer-38-mm-22020382002002",
         "note": "Manufacturer page: 38 mm diameter, 45.1 mm lug-to-lug, 12.36 mm thickness, and 19 mm between lugs."
       }
     ]
@@ -4347,23 +4245,6 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-shades-co-axial-master-chronometer-38-mm-22050382010001",
-        "note": "Manufacturer page: 38 mm diameter, 45.1 mm lug-to-lug, 12.36 mm thickness, and 19 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 270,
-    "brand": "Omega",
-    "model": "Seamaster Aqua Terra Shades Co-Axial Master Chronometer 38 mm",
-    "reference": "220.53.38.20.10.001",
-    "lugToLugMm": 45.1,
-    "caseMm": 38,
-    "thicknessMm": 12.36,
-    "lugWidthMm": 19,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-shades-co-axial-master-chronometer-38-mm-22053382010001",
         "note": "Manufacturer page: 38 mm diameter, 45.1 mm lug-to-lug, 12.36 mm thickness, and 19 mm between lugs."
       }
     ]
@@ -4403,6 +4284,23 @@
     ]
   },
   {
+    "id": 240,
+    "brand": "Omega",
+    "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 41 mm",
+    "reference": "220.23.41.21.02.001",
+    "lugToLugMm": 47.9,
+    "caseMm": 41,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22023412102001",
+        "note": "Manufacturer page: 41 mm diameter, 47.9 mm lug-to-lug, 13.2 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 242,
     "brand": "Omega",
     "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
@@ -4415,6 +4313,40 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21020422001001",
+        "note": "Manufacturer page: 42 mm diameter, 49.9 mm lug-to-lug, 13.56 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "brand": "Omega",
+    "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 41 mm",
+    "reference": "220.52.41.21.03.001",
+    "lugToLugMm": 47.9,
+    "caseMm": 41,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22052412103001",
+        "note": "Manufacturer page: 41 mm diameter, 47.9 mm lug-to-lug, 13.2 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "brand": "Omega",
+    "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
+    "reference": "210.20.42.20.03.001",
+    "lugToLugMm": 49.9,
+    "caseMm": 42,
+    "thicknessMm": 13.56,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21020422003001",
         "note": "Manufacturer page: 42 mm diameter, 49.9 mm lug-to-lug, 13.56 mm thickness, and 20 mm between lugs."
       }
     ]
@@ -4437,23 +4369,6 @@
     ]
   },
   {
-    "id": 244,
-    "brand": "Omega",
-    "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
-    "reference": "210.20.42.20.03.001",
-    "lugToLugMm": 49.9,
-    "caseMm": 42,
-    "thicknessMm": 13.56,
-    "lugWidthMm": 20,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21020422003001",
-        "note": "Manufacturer page: 42 mm diameter, 49.9 mm lug-to-lug, 13.56 mm thickness, and 20 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 246,
     "brand": "Omega",
     "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
@@ -4466,23 +4381,6 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21020422003002",
-        "note": "Manufacturer page: 42 mm diameter, 49.9 mm lug-to-lug, 13.56 mm thickness, and 20 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 276,
-    "brand": "Omega",
-    "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
-    "reference": "210.22.42.20.01.001",
-    "lugToLugMm": 49.9,
-    "caseMm": 42,
-    "thicknessMm": 13.56,
-    "lugWidthMm": 20,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21022422001001",
         "note": "Manufacturer page: 42 mm diameter, 49.9 mm lug-to-lug, 13.56 mm thickness, and 20 mm between lugs."
       }
     ]
@@ -4505,23 +4403,6 @@
     ]
   },
   {
-    "id": 298,
-    "brand": "Omega",
-    "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
-    "reference": "210.22.42.20.03.001",
-    "lugToLugMm": 49.9,
-    "caseMm": 42,
-    "thicknessMm": 13.56,
-    "lugWidthMm": 20,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21022422003001",
-        "note": "Manufacturer page: 42 mm diameter, 49.9 mm lug-to-lug, 13.56 mm thickness, and 20 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 248,
     "brand": "Omega",
     "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
@@ -4539,19 +4420,19 @@
     ]
   },
   {
-    "id": 253,
+    "id": 249,
     "brand": "Omega",
-    "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
-    "reference": "210.30.42.20.01.010",
-    "lugToLugMm": 49.7,
-    "caseMm": 42,
-    "thicknessMm": 13.8,
+    "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 41 mm 22012412103009 Access",
+    "reference": "220.12.41.21.03.009",
+    "lugToLugMm": 47.9,
+    "caseMm": 41,
+    "thicknessMm": 13.2,
     "lugWidthMm": 20,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21030422001010",
-        "note": "Manufacturer page: 42 mm diameter, 49.7 mm lug-to-lug, 13.8 mm thickness, and 20 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22012412103009-access",
+        "note": "Manufacturer page: 41 mm diameter, 47.9 mm lug-to-lug, 13.2 mm thickness, and 20 mm between lugs."
       }
     ]
   },
@@ -4573,6 +4454,40 @@
     ]
   },
   {
+    "id": 251,
+    "brand": "Omega",
+    "model": "Seamaster Aqua Terra 150M Co-Axial Master Chronometer 41 mm",
+    "reference": "220.52.41.21.10.001",
+    "lugToLugMm": 48.01,
+    "caseMm": 41,
+    "thicknessMm": 13.37,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-41-mm-22052412110001",
+        "note": "Manufacturer page: 41 mm diameter, 48.01 mm lug-to-lug, 13.37 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "brand": "Omega",
+    "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
+    "reference": "210.30.42.20.01.010",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21030422001010",
+        "note": "Manufacturer page: 42 mm diameter, 49.7 mm lug-to-lug, 13.8 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 254,
     "brand": "Omega",
     "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
@@ -4586,23 +4501,6 @@
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21030422003002",
         "note": "Manufacturer page: 42 mm diameter, 49.93 mm lug-to-lug, 14.26 mm thickness, and 20 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 292,
-    "brand": "Omega",
-    "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
-    "reference": "210.30.42.20.03.003",
-    "lugToLugMm": 49.9,
-    "caseMm": 42,
-    "thicknessMm": 13.56,
-    "lugWidthMm": 20,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21030422003003",
-        "note": "Manufacturer page: 42 mm diameter, 49.9 mm lug-to-lug, 13.56 mm thickness, and 20 mm between lugs."
       }
     ]
   },
@@ -4658,23 +4556,6 @@
     ]
   },
   {
-    "id": 315,
-    "brand": "Omega",
-    "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
-    "reference": "210.30.42.20.06.002",
-    "lugToLugMm": 49.7,
-    "caseMm": 42,
-    "thicknessMm": 13.8,
-    "lugWidthMm": 20,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21030422006002",
-        "note": "Manufacturer page: 42 mm diameter, 49.7 mm lug-to-lug, 13.8 mm thickness, and 20 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 258,
     "brand": "Omega",
     "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
@@ -4726,6 +4607,23 @@
     ]
   },
   {
+    "id": 261,
+    "brand": "Omega",
+    "model": "Seamaster Aqua Terra Shades Co-Axial Master Chronometer 38 mm",
+    "reference": "220.10.38.20.10.004",
+    "lugToLugMm": 44.92,
+    "caseMm": 38,
+    "thicknessMm": 12.36,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-shades-co-axial-master-chronometer-38-mm-22010382010004",
+        "note": "Manufacturer page: 38 mm diameter, 44.92 mm lug-to-lug, 12.36 mm thickness, and 19 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 262,
     "brand": "Omega",
     "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
@@ -4743,19 +4641,19 @@
     ]
   },
   {
-    "id": 265,
+    "id": 263,
     "brand": "Omega",
-    "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
-    "reference": "210.32.42.20.01.006",
-    "lugToLugMm": 49.7,
-    "caseMm": 42,
-    "thicknessMm": 13.8,
-    "lugWidthMm": 20,
+    "model": "Seamaster Aqua Terra Shades Co-Axial Master Chronometer 38 mm",
+    "reference": "220.50.38.20.08.001",
+    "lugToLugMm": 45.1,
+    "caseMm": 38,
+    "thicknessMm": 12.36,
+    "lugWidthMm": 19,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21032422001006",
-        "note": "Manufacturer page: 42 mm diameter, 49.7 mm lug-to-lug, 13.8 mm thickness, and 20 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-shades-co-axial-master-chronometer-38-mm-22050382008001",
+        "note": "Manufacturer page: 38 mm diameter, 45.1 mm lug-to-lug, 12.36 mm thickness, and 19 mm between lugs."
       }
     ]
   },
@@ -4777,19 +4675,19 @@
     ]
   },
   {
-    "id": 268,
+    "id": 265,
     "brand": "Omega",
     "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
-    "reference": "210.32.42.20.03.002",
-    "lugToLugMm": 49.9,
+    "reference": "210.32.42.20.01.006",
+    "lugToLugMm": 49.7,
     "caseMm": 42,
-    "thicknessMm": 13.56,
+    "thicknessMm": 13.8,
     "lugWidthMm": 20,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21032422003002",
-        "note": "Manufacturer page: 42 mm diameter, 49.9 mm lug-to-lug, 13.56 mm thickness, and 20 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21032422001006",
+        "note": "Manufacturer page: 42 mm diameter, 49.7 mm lug-to-lug, 13.8 mm thickness, and 20 mm between lugs."
       }
     ]
   },
@@ -4828,10 +4726,10 @@
     ]
   },
   {
-    "id": 273,
+    "id": 268,
     "brand": "Omega",
     "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
-    "reference": "210.32.42.20.06.001",
+    "reference": "210.32.42.20.03.002",
     "lugToLugMm": 49.9,
     "caseMm": 42,
     "thicknessMm": 13.56,
@@ -4839,7 +4737,7 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21032422006001",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21032422003002",
         "note": "Manufacturer page: 42 mm diameter, 49.9 mm lug-to-lug, 13.56 mm thickness, and 20 mm between lugs."
       }
     ]
@@ -4862,6 +4760,23 @@
     ]
   },
   {
+    "id": 270,
+    "brand": "Omega",
+    "model": "Seamaster Aqua Terra Shades Co-Axial Master Chronometer 38 mm",
+    "reference": "220.53.38.20.10.001",
+    "lugToLugMm": 45.1,
+    "caseMm": 38,
+    "thicknessMm": 12.36,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-aqua-terra-shades-co-axial-master-chronometer-38-mm-22053382010001",
+        "note": "Manufacturer page: 38 mm diameter, 45.1 mm lug-to-lug, 12.36 mm thickness, and 19 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 271,
     "brand": "Omega",
     "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
@@ -4875,23 +4790,6 @@
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21032422010001",
         "note": "Manufacturer page: 42 mm diameter, 49.93 mm lug-to-lug, 13.56 mm thickness, and 20 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 328,
-    "brand": "Omega",
-    "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
-    "reference": "210.52.42.20.04.001",
-    "lugToLugMm": 49.93,
-    "caseMm": 42,
-    "thicknessMm": 13.92,
-    "lugWidthMm": 20,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21052422004001",
-        "note": "Manufacturer page: 42 mm diameter, 49.93 mm lug-to-lug, 13.92 mm thickness, and 20 mm between lugs."
       }
     ]
   },
@@ -4913,36 +4811,19 @@
     ]
   },
   {
-    "id": 337,
+    "id": 273,
     "brand": "Omega",
     "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
-    "reference": "210.62.42.20.01.002",
+    "reference": "210.32.42.20.06.001",
     "lugToLugMm": 49.9,
     "caseMm": 42,
-    "thicknessMm": 13.72,
+    "thicknessMm": 13.56,
     "lugWidthMm": 20,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21062422001002",
-        "note": "Manufacturer page: 42 mm diameter, 49.9 mm lug-to-lug, 13.72 mm thickness, and 20 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 275,
-    "brand": "Omega",
-    "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
-    "reference": "210.62.42.20.01.003",
-    "lugToLugMm": 49.93,
-    "caseMm": 42,
-    "thicknessMm": 13.72,
-    "lugWidthMm": 20,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21062422001003",
-        "note": "Manufacturer page: 42 mm diameter, 49.93 mm lug-to-lug, 13.72 mm thickness, and 20 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21032422006001",
+        "note": "Manufacturer page: 42 mm diameter, 49.9 mm lug-to-lug, 13.56 mm thickness, and 20 mm between lugs."
       }
     ]
   },
@@ -4964,19 +4845,36 @@
     ]
   },
   {
-    "id": 279,
+    "id": 275,
     "brand": "Omega",
     "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
-    "reference": "210.62.42.20.10.001",
-    "lugToLugMm": 49.9,
+    "reference": "210.62.42.20.01.003",
+    "lugToLugMm": 49.93,
     "caseMm": 42,
     "thicknessMm": 13.72,
     "lugWidthMm": 20,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21062422010001",
-        "note": "Manufacturer page: 42 mm diameter, 49.9 mm lug-to-lug, 13.72 mm thickness, and 20 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21062422001003",
+        "note": "Manufacturer page: 42 mm diameter, 49.93 mm lug-to-lug, 13.72 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 276,
+    "brand": "Omega",
+    "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
+    "reference": "210.22.42.20.01.001",
+    "lugToLugMm": 49.9,
+    "caseMm": 42,
+    "thicknessMm": 13.56,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21022422001001",
+        "note": "Manufacturer page: 42 mm diameter, 49.9 mm lug-to-lug, 13.56 mm thickness, and 20 mm between lugs."
       }
     ]
   },
@@ -5015,6 +4913,23 @@
     ]
   },
   {
+    "id": 279,
+    "brand": "Omega",
+    "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
+    "reference": "210.62.42.20.10.001",
+    "lugToLugMm": 49.9,
+    "caseMm": 42,
+    "thicknessMm": 13.72,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21062422010001",
+        "note": "Manufacturer page: 42 mm diameter, 49.9 mm lug-to-lug, 13.72 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 280,
     "brand": "Omega",
     "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
@@ -5049,19 +4964,19 @@
     ]
   },
   {
-    "id": 284,
+    "id": 282,
     "brand": "Omega",
     "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
-    "reference": "210.92.42.20.01.003",
-    "lugToLugMm": 49.7,
+    "reference": "522.21.42.20.04.001",
+    "lugToLugMm": 50,
     "caseMm": 42,
-    "thicknessMm": 13.8,
+    "thicknessMm": 13.72,
     "lugWidthMm": 20,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21092422001003",
-        "note": "Manufacturer page: 42 mm diameter, 49.7 mm lug-to-lug, 13.8 mm thickness, and 20 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-52221422004001",
+        "note": "Manufacturer page: 42 mm diameter, 50 mm lug-to-lug, 13.72 mm thickness, and 20 mm between lugs."
       }
     ]
   },
@@ -5083,19 +4998,19 @@
     ]
   },
   {
-    "id": 282,
+    "id": 284,
     "brand": "Omega",
     "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
-    "reference": "522.21.42.20.04.001",
-    "lugToLugMm": 50,
+    "reference": "210.92.42.20.01.003",
+    "lugToLugMm": 49.7,
     "caseMm": 42,
-    "thicknessMm": 13.72,
+    "thicknessMm": 13.8,
     "lugWidthMm": 20,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-52221422004001",
-        "note": "Manufacturer page: 42 mm diameter, 50 mm lug-to-lug, 13.72 mm thickness, and 20 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21092422001003",
+        "note": "Manufacturer page: 42 mm diameter, 49.7 mm lug-to-lug, 13.8 mm thickness, and 20 mm between lugs."
       }
     ]
   },
@@ -5113,6 +5028,23 @@
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-43-5-mm-21062442001001",
         "note": "Manufacturer page: 43.5 mm diameter, 51.5 mm lug-to-lug, 14.47 mm thickness, and 21 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 286,
+    "brand": "Omega",
+    "model": "Seamaster Diver 300M Co-Axial Master Chronometer 43 5 mm",
+    "reference": "522.92.44.20.04.001",
+    "lugToLugMm": 51.5,
+    "caseMm": 43.5,
+    "thicknessMm": 14.37,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-43-5-mm-52292442004001",
+        "note": "Manufacturer page: 43.5 mm diameter, 51.5 mm lug-to-lug, 14.37 mm thickness, and 21 mm between lugs."
       }
     ]
   },
@@ -5151,23 +5083,6 @@
     ]
   },
   {
-    "id": 286,
-    "brand": "Omega",
-    "model": "Seamaster Diver 300M Co-Axial Master Chronometer 43 5 mm",
-    "reference": "522.92.44.20.04.001",
-    "lugToLugMm": 51.5,
-    "caseMm": 43.5,
-    "thicknessMm": 14.37,
-    "lugWidthMm": 21,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-43-5-mm-52292442004001",
-        "note": "Manufacturer page: 43.5 mm diameter, 51.5 mm lug-to-lug, 14.37 mm thickness, and 21 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 289,
     "brand": "Omega",
     "model": "Seamaster Diver 300M Co-Axial Master Chronometer 43 5 mm",
@@ -5181,23 +5096,6 @@
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-43-5-mm-52292442004002",
         "note": "Manufacturer page: 43.5 mm diameter, 51.5 mm lug-to-lug, 14.37 mm thickness, and 21 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 331,
-    "brand": "Omega",
-    "model": "Seamaster Olympic Official Timekeeper Co-Axial Master Chronometer 39 5 mm",
-    "reference": "522.53.40.20.04.002",
-    "lugToLugMm": 44.5,
-    "caseMm": 39.5,
-    "thicknessMm": 11.98,
-    "lugWidthMm": 20,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-olympic-official-timekeeper-co-axial-master-chronometer-39-5-mm-52253402004002",
-        "note": "Manufacturer page: 39.5 mm diameter, 44.5 mm lug-to-lug, 11.98 mm thickness, and 20 mm between lugs."
       }
     ]
   },
@@ -5236,19 +5134,19 @@
     ]
   },
   {
-    "id": 302,
+    "id": 292,
     "brand": "Omega",
-    "model": "Seamaster Planet Ocean 6000m Co-Axial Master Chronometer 45 5 mm",
-    "reference": "215.30.46.21.03.002",
-    "lugToLugMm": 51.9,
-    "caseMm": 45.5,
-    "thicknessMm": 18.12,
-    "lugWidthMm": 22,
+    "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
+    "reference": "210.30.42.20.03.003",
+    "lugToLugMm": 49.9,
+    "caseMm": 42,
+    "thicknessMm": 13.56,
+    "lugWidthMm": 20,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-planet-ocean-6000m-co-axial-master-chronometer-45-5-mm-21530462103002",
-        "note": "Manufacturer page: 45.5 mm diameter, 51.9 mm lug-to-lug, 18.12 mm thickness, and 22 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21030422003003",
+        "note": "Manufacturer page: 42 mm diameter, 49.9 mm lug-to-lug, 13.56 mm thickness, and 20 mm between lugs."
       }
     ]
   },
@@ -5270,23 +5168,6 @@
     ]
   },
   {
-    "id": 295,
-    "brand": "Omega",
-    "model": "Seamaster Planet Ocean 6000m Co-Axial Master Chronometer 45 5 mm",
-    "reference": "215.30.46.21.06.001",
-    "lugToLugMm": 51.9,
-    "caseMm": 45.5,
-    "thicknessMm": 18.12,
-    "lugWidthMm": 22,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-planet-ocean-6000m-co-axial-master-chronometer-45-5-mm-21530462106001",
-        "note": "Manufacturer page: 45.5 mm diameter, 51.9 mm lug-to-lug, 18.12 mm thickness, and 22 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 294,
     "brand": "Omega",
     "model": "Seamaster Planet Ocean 6000m Co-Axial Master Chronometer 45 5 mm",
@@ -5299,6 +5180,23 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-planet-ocean-6000m-co-axial-master-chronometer-45-5-mm-21532462103001",
+        "note": "Manufacturer page: 45.5 mm diameter, 51.9 mm lug-to-lug, 18.12 mm thickness, and 22 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "brand": "Omega",
+    "model": "Seamaster Planet Ocean 6000m Co-Axial Master Chronometer 45 5 mm",
+    "reference": "215.30.46.21.06.001",
+    "lugToLugMm": 51.9,
+    "caseMm": 45.5,
+    "thicknessMm": 18.12,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-planet-ocean-6000m-co-axial-master-chronometer-45-5-mm-21530462106001",
         "note": "Manufacturer page: 45.5 mm diameter, 51.9 mm lug-to-lug, 18.12 mm thickness, and 22 mm between lugs."
       }
     ]
@@ -5338,6 +5236,23 @@
     ]
   },
   {
+    "id": 298,
+    "brand": "Omega",
+    "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
+    "reference": "210.22.42.20.03.001",
+    "lugToLugMm": 49.9,
+    "caseMm": 42,
+    "thicknessMm": 13.56,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21022422003001",
+        "note": "Manufacturer page: 42 mm diameter, 49.9 mm lug-to-lug, 13.56 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 299,
     "brand": "Omega",
     "model": "Seamaster Planet Ocean 6000m Co-Axial Master Chronometer 45 5 mm",
@@ -5351,23 +5266,6 @@
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-planet-ocean-6000m-co-axial-master-chronometer-45-5-mm-21592462101001",
         "note": "Manufacturer page: 45.5 mm diameter, 55.96 mm lug-to-lug, 18.12 mm thickness, and 22 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 301,
-    "brand": "Omega",
-    "model": "Seamaster Planet Ocean 600M Co-Axial Master Chronometer 42 mm",
-    "reference": "217.30.42.21.01.001",
-    "lugToLugMm": 47.5,
-    "caseMm": 42,
-    "thicknessMm": 13.79,
-    "lugWidthMm": 21,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-planet-ocean-600m-co-axial-master-chronometer-42-mm-21730422101001",
-        "note": "Manufacturer page: 42 mm diameter, 47.5 mm lug-to-lug, 13.79 mm thickness, and 21 mm between lugs."
       }
     ]
   },
@@ -5389,6 +5287,40 @@
     ]
   },
   {
+    "id": 301,
+    "brand": "Omega",
+    "model": "Seamaster Planet Ocean 600M Co-Axial Master Chronometer 42 mm",
+    "reference": "217.30.42.21.01.001",
+    "lugToLugMm": 47.5,
+    "caseMm": 42,
+    "thicknessMm": 13.79,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-planet-ocean-600m-co-axial-master-chronometer-42-mm-21730422101001",
+        "note": "Manufacturer page: 42 mm diameter, 47.5 mm lug-to-lug, 13.79 mm thickness, and 21 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 302,
+    "brand": "Omega",
+    "model": "Seamaster Planet Ocean 6000m Co-Axial Master Chronometer 45 5 mm",
+    "reference": "215.30.46.21.03.002",
+    "lugToLugMm": 51.9,
+    "caseMm": 45.5,
+    "thicknessMm": 18.12,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-planet-ocean-6000m-co-axial-master-chronometer-45-5-mm-21530462103002",
+        "note": "Manufacturer page: 45.5 mm diameter, 51.9 mm lug-to-lug, 18.12 mm thickness, and 22 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 303,
     "brand": "Omega",
     "model": "Seamaster Planet Ocean 600M Co-Axial Master Chronometer 42 mm",
@@ -5406,23 +5338,6 @@
     ]
   },
   {
-    "id": 310,
-    "brand": "Omega",
-    "model": "Seamaster Planet Ocean 600M Co-Axial Master Chronometer 42 mm",
-    "reference": "217.32.42.21.01.001",
-    "lugToLugMm": 47.5,
-    "caseMm": 42,
-    "thicknessMm": 13.79,
-    "lugWidthMm": 21,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-planet-ocean-600m-co-axial-master-chronometer-42-mm-21732422101001",
-        "note": "Manufacturer page: 42 mm diameter, 47.5 mm lug-to-lug, 13.79 mm thickness, and 21 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 304,
     "brand": "Omega",
     "model": "Seamaster Planet Ocean 600M Co-Axial Master Chronometer 42 mm",
@@ -5435,23 +5350,6 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-planet-ocean-600m-co-axial-master-chronometer-42-mm-21732422101002",
-        "note": "Manufacturer page: 42 mm diameter, 47.5 mm lug-to-lug, 13.79 mm thickness, and 21 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 313,
-    "brand": "Omega",
-    "model": "Seamaster Planet Ocean 600M Co-Axial Master Chronometer 42 mm",
-    "reference": "217.32.42.21.01.003",
-    "lugToLugMm": 47.5,
-    "caseMm": 42,
-    "thicknessMm": 13.79,
-    "lugWidthMm": 21,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-planet-ocean-600m-co-axial-master-chronometer-42-mm-21732422101003",
         "note": "Manufacturer page: 42 mm diameter, 47.5 mm lug-to-lug, 13.79 mm thickness, and 21 mm between lugs."
       }
     ]
@@ -5508,6 +5406,23 @@
     ]
   },
   {
+    "id": 308,
+    "brand": "Omega",
+    "model": "Seamaster Railmaster Co-Axial Master Chronometer 38 mm",
+    "reference": "235.10.38.20.06.001",
+    "lugToLugMm": 44.92,
+    "caseMm": 38,
+    "thicknessMm": 12.36,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-railmaster-co-axial-master-chronometer-38-mm-23510382006001",
+        "note": "Manufacturer page: 38 mm diameter, 44.92 mm lug-to-lug, 12.36 mm thickness, and 19 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 309,
     "brand": "Omega",
     "model": "Seamaster Ploprof 1200m Co-Axial Master Chronometer 55 X 45 mm",
@@ -5525,19 +5440,19 @@
     ]
   },
   {
-    "id": 308,
+    "id": 310,
     "brand": "Omega",
-    "model": "Seamaster Railmaster Co-Axial Master Chronometer 38 mm",
-    "reference": "235.10.38.20.06.001",
-    "lugToLugMm": 44.92,
-    "caseMm": 38,
-    "thicknessMm": 12.36,
-    "lugWidthMm": 19,
+    "model": "Seamaster Planet Ocean 600M Co-Axial Master Chronometer 42 mm",
+    "reference": "217.32.42.21.01.001",
+    "lugToLugMm": 47.5,
+    "caseMm": 42,
+    "thicknessMm": 13.79,
+    "lugWidthMm": 21,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-railmaster-co-axial-master-chronometer-38-mm-23510382006001",
-        "note": "Manufacturer page: 38 mm diameter, 44.92 mm lug-to-lug, 12.36 mm thickness, and 19 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-planet-ocean-600m-co-axial-master-chronometer-42-mm-21732422101001",
+        "note": "Manufacturer page: 42 mm diameter, 47.5 mm lug-to-lug, 13.79 mm thickness, and 21 mm between lugs."
       }
     ]
   },
@@ -5576,19 +5491,19 @@
     ]
   },
   {
-    "id": 319,
+    "id": 313,
     "brand": "Omega",
-    "model": "Seamaster Railmaster Co-Axial Master Chronometer Small Seconds 38 mm",
-    "reference": "235.12.38.20.13.001",
-    "lugToLugMm": 44.92,
-    "caseMm": 38,
-    "thicknessMm": 12.36,
-    "lugWidthMm": 19,
+    "model": "Seamaster Planet Ocean 600M Co-Axial Master Chronometer 42 mm",
+    "reference": "217.32.42.21.01.003",
+    "lugToLugMm": 47.5,
+    "caseMm": 42,
+    "thicknessMm": 13.79,
+    "lugWidthMm": 21,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-railmaster-co-axial-master-chronometer-small-seconds-38-mm-23512382013001",
-        "note": "Manufacturer page: 38 mm diameter, 44.92 mm lug-to-lug, 12.36 mm thickness, and 19 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-planet-ocean-600m-co-axial-master-chronometer-42-mm-21732422101003",
+        "note": "Manufacturer page: 42 mm diameter, 47.5 mm lug-to-lug, 13.79 mm thickness, and 21 mm between lugs."
       }
     ]
   },
@@ -5610,19 +5525,19 @@
     ]
   },
   {
-    "id": 318,
+    "id": 315,
     "brand": "Omega",
-    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
-    "reference": "324.15.38.50.60.001",
-    "lugToLugMm": 44.96,
-    "caseMm": 38,
-    "thicknessMm": 14.73,
-    "lugWidthMm": 18,
+    "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
+    "reference": "210.30.42.20.06.002",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 20,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32415385060001",
-        "note": "Manufacturer page: 38 mm diameter, 44.96 mm lug-to-lug, 14.73 mm thickness, and 18 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21030422006002",
+        "note": "Manufacturer page: 42 mm diameter, 49.7 mm lug-to-lug, 13.8 mm thickness, and 20 mm between lugs."
       }
     ]
   },
@@ -5639,40 +5554,6 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32415385063001",
-        "note": "Manufacturer page: 38 mm diameter, 44.96 mm lug-to-lug, 14.73 mm thickness, and 18 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 320,
-    "brand": "Omega",
-    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
-    "reference": "324.18.38.50.60.001",
-    "lugToLugMm": 44.96,
-    "caseMm": 38,
-    "thicknessMm": 14.73,
-    "lugWidthMm": 18,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32418385060001",
-        "note": "Manufacturer page: 38 mm diameter, 44.96 mm lug-to-lug, 14.73 mm thickness, and 18 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 325,
-    "brand": "Omega",
-    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
-    "reference": "324.18.38.50.63.001",
-    "lugToLugMm": 44.96,
-    "caseMm": 38,
-    "thicknessMm": 14.73,
-    "lugWidthMm": 18,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32418385063001",
         "note": "Manufacturer page: 38 mm diameter, 44.96 mm lug-to-lug, 14.73 mm thickness, and 18 mm between lugs."
       }
     ]
@@ -5695,53 +5576,53 @@
     ]
   },
   {
-    "id": 322,
+    "id": 318,
     "brand": "Omega",
     "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
-    "reference": "324.23.38.50.02.002",
-    "lugToLugMm": 44.9,
+    "reference": "324.15.38.50.60.001",
+    "lugToLugMm": 44.96,
     "caseMm": 38,
-    "thicknessMm": 14.7,
+    "thicknessMm": 14.73,
     "lugWidthMm": 18,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32423385002002",
-        "note": "Manufacturer page: 38 mm diameter, 44.9 mm lug-to-lug, 14.7 mm thickness, and 18 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32415385060001",
+        "note": "Manufacturer page: 38 mm diameter, 44.96 mm lug-to-lug, 14.73 mm thickness, and 18 mm between lugs."
       }
     ]
   },
   {
-    "id": 327,
+    "id": 319,
     "brand": "Omega",
-    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
-    "reference": "324.28.38.50.02.001",
-    "lugToLugMm": 44.9,
+    "model": "Seamaster Railmaster Co-Axial Master Chronometer Small Seconds 38 mm",
+    "reference": "235.12.38.20.13.001",
+    "lugToLugMm": 44.92,
     "caseMm": 38,
-    "thicknessMm": 14.7,
-    "lugWidthMm": 18,
+    "thicknessMm": 12.36,
+    "lugWidthMm": 19,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32428385002001",
-        "note": "Manufacturer page: 38 mm diameter, 44.9 mm lug-to-lug, 14.7 mm thickness, and 18 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-railmaster-co-axial-master-chronometer-small-seconds-38-mm-23512382013001",
+        "note": "Manufacturer page: 38 mm diameter, 44.92 mm lug-to-lug, 12.36 mm thickness, and 19 mm between lugs."
       }
     ]
   },
   {
-    "id": 326,
+    "id": 320,
     "brand": "Omega",
     "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
-    "reference": "324.28.38.50.02.002",
-    "lugToLugMm": 44.9,
+    "reference": "324.18.38.50.60.001",
+    "lugToLugMm": 44.96,
     "caseMm": 38,
-    "thicknessMm": 14.7,
+    "thicknessMm": 14.73,
     "lugWidthMm": 18,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32428385002002",
-        "note": "Manufacturer page: 38 mm diameter, 44.9 mm lug-to-lug, 14.7 mm thickness, and 18 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32418385060001",
+        "note": "Manufacturer page: 38 mm diameter, 44.96 mm lug-to-lug, 14.73 mm thickness, and 18 mm between lugs."
       }
     ]
   },
@@ -5763,10 +5644,10 @@
     ]
   },
   {
-    "id": 324,
+    "id": 322,
     "brand": "Omega",
     "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
-    "reference": "324.30.38.50.02.001",
+    "reference": "324.23.38.50.02.002",
     "lugToLugMm": 44.9,
     "caseMm": 38,
     "thicknessMm": 14.7,
@@ -5774,7 +5655,7 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32430385002001",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32423385002002",
         "note": "Manufacturer page: 38 mm diameter, 44.9 mm lug-to-lug, 14.7 mm thickness, and 18 mm between lugs."
       }
     ]
@@ -5797,6 +5678,91 @@
     ]
   },
   {
+    "id": 324,
+    "brand": "Omega",
+    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
+    "reference": "324.30.38.50.02.001",
+    "lugToLugMm": 44.9,
+    "caseMm": 38,
+    "thicknessMm": 14.7,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32430385002001",
+        "note": "Manufacturer page: 38 mm diameter, 44.9 mm lug-to-lug, 14.7 mm thickness, and 18 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 325,
+    "brand": "Omega",
+    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
+    "reference": "324.18.38.50.63.001",
+    "lugToLugMm": 44.96,
+    "caseMm": 38,
+    "thicknessMm": 14.73,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32418385063001",
+        "note": "Manufacturer page: 38 mm diameter, 44.96 mm lug-to-lug, 14.73 mm thickness, and 18 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 326,
+    "brand": "Omega",
+    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
+    "reference": "324.28.38.50.02.002",
+    "lugToLugMm": 44.9,
+    "caseMm": 38,
+    "thicknessMm": 14.7,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32428385002002",
+        "note": "Manufacturer page: 38 mm diameter, 44.9 mm lug-to-lug, 14.7 mm thickness, and 18 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 327,
+    "brand": "Omega",
+    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
+    "reference": "324.28.38.50.02.001",
+    "lugToLugMm": 44.9,
+    "caseMm": 38,
+    "thicknessMm": 14.7,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32428385002001",
+        "note": "Manufacturer page: 38 mm diameter, 44.9 mm lug-to-lug, 14.7 mm thickness, and 18 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 328,
+    "brand": "Omega",
+    "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
+    "reference": "210.52.42.20.04.001",
+    "lugToLugMm": 49.93,
+    "caseMm": 42,
+    "thicknessMm": 13.92,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21052422004001",
+        "note": "Manufacturer page: 42 mm diameter, 49.93 mm lug-to-lug, 13.92 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 329,
     "brand": "Omega",
     "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
@@ -5809,57 +5775,6 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32430385006001",
-        "note": "Manufacturer page: 38 mm diameter, 44.9 mm lug-to-lug, 14.7 mm thickness, and 18 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 336,
-    "brand": "Omega",
-    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
-    "reference": "324.30.38.50.55.001",
-    "lugToLugMm": 44.9,
-    "caseMm": 38,
-    "thicknessMm": 14.7,
-    "lugWidthMm": 18,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32430385055001",
-        "note": "Manufacturer page: 38 mm diameter, 44.9 mm lug-to-lug, 14.7 mm thickness, and 18 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 338,
-    "brand": "Omega",
-    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
-    "reference": "324.32.38.50.02.001",
-    "lugToLugMm": 44.9,
-    "caseMm": 38,
-    "thicknessMm": 14.7,
-    "lugWidthMm": 18,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32432385002001",
-        "note": "Manufacturer page: 38 mm diameter, 44.9 mm lug-to-lug, 14.7 mm thickness, and 18 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 341,
-    "brand": "Omega",
-    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
-    "reference": "324.32.38.50.06.001",
-    "lugToLugMm": 44.9,
-    "caseMm": 38,
-    "thicknessMm": 14.7,
-    "lugWidthMm": 18,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32432385006001",
         "note": "Manufacturer page: 38 mm diameter, 44.9 mm lug-to-lug, 14.7 mm thickness, and 18 mm between lugs."
       }
     ]
@@ -5882,6 +5797,23 @@
     ]
   },
   {
+    "id": 331,
+    "brand": "Omega",
+    "model": "Seamaster Olympic Official Timekeeper Co-Axial Master Chronometer 39 5 mm",
+    "reference": "522.53.40.20.04.002",
+    "lugToLugMm": 44.5,
+    "caseMm": 39.5,
+    "thicknessMm": 11.98,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-olympic-official-timekeeper-co-axial-master-chronometer-39-5-mm-52253402004002",
+        "note": "Manufacturer page: 39.5 mm diameter, 44.5 mm lug-to-lug, 11.98 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 332,
     "brand": "Omega",
     "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
@@ -5894,23 +5826,6 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32455385060001",
-        "note": "Manufacturer page: 38 mm diameter, 44.96 mm lug-to-lug, 14.73 mm thickness, and 18 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 334,
-    "brand": "Omega",
-    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
-    "reference": "324.55.38.50.63.001",
-    "lugToLugMm": 44.96,
-    "caseMm": 38,
-    "thicknessMm": 14.73,
-    "lugWidthMm": 18,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32455385063001",
         "note": "Manufacturer page: 38 mm diameter, 44.96 mm lug-to-lug, 14.73 mm thickness, and 18 mm between lugs."
       }
     ]
@@ -5933,6 +5848,23 @@
     ]
   },
   {
+    "id": 334,
+    "brand": "Omega",
+    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
+    "reference": "324.55.38.50.63.001",
+    "lugToLugMm": 44.96,
+    "caseMm": 38,
+    "thicknessMm": 14.73,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32455385063001",
+        "note": "Manufacturer page: 38 mm diameter, 44.96 mm lug-to-lug, 14.73 mm thickness, and 18 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 335,
     "brand": "Omega",
     "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
@@ -5950,10 +5882,10 @@
     ]
   },
   {
-    "id": 340,
+    "id": 336,
     "brand": "Omega",
     "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
-    "reference": "324.63.38.50.02.003",
+    "reference": "324.30.38.50.55.001",
     "lugToLugMm": 44.9,
     "caseMm": 38,
     "thicknessMm": 14.7,
@@ -5961,16 +5893,33 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32463385002003",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32430385055001",
         "note": "Manufacturer page: 38 mm diameter, 44.9 mm lug-to-lug, 14.7 mm thickness, and 18 mm between lugs."
       }
     ]
   },
   {
-    "id": 401,
+    "id": 337,
+    "brand": "Omega",
+    "model": "Seamaster Diver 300M Co-Axial Master Chronometer 42 mm",
+    "reference": "210.62.42.20.01.002",
+    "lugToLugMm": 49.9,
+    "caseMm": 42,
+    "thicknessMm": 13.72,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21062422001002",
+        "note": "Manufacturer page: 42 mm diameter, 49.9 mm lug-to-lug, 13.72 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 338,
     "brand": "Omega",
     "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
-    "reference": "324.63.38.50.02.004",
+    "reference": "324.32.38.50.02.001",
     "lugToLugMm": 44.9,
     "caseMm": 38,
     "thicknessMm": 14.7,
@@ -5978,7 +5927,7 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32463385002004",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32432385002001",
         "note": "Manufacturer page: 38 mm diameter, 44.9 mm lug-to-lug, 14.7 mm thickness, and 18 mm between lugs."
       }
     ]
@@ -6001,27 +5950,44 @@
     ]
   },
   {
-    "id": 354,
+    "id": 340,
     "brand": "Omega",
     "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
-    "reference": "522.30.38.50.04.002",
-    "lugToLugMm": 45,
+    "reference": "324.63.38.50.02.003",
+    "lugToLugMm": 44.9,
     "caseMm": 38,
-    "thicknessMm": 14.75,
+    "thicknessMm": 14.7,
     "lugWidthMm": 18,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-52230385004002",
-        "note": "Manufacturer page: 38 mm diameter, 45 mm lug-to-lug, 14.75 mm thickness, and 18 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32463385002003",
+        "note": "Manufacturer page: 38 mm diameter, 44.9 mm lug-to-lug, 14.7 mm thickness, and 18 mm between lugs."
       }
     ]
   },
   {
-    "id": 349,
+    "id": 341,
+    "brand": "Omega",
+    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
+    "reference": "324.32.38.50.06.001",
+    "lugToLugMm": 44.9,
+    "caseMm": 38,
+    "thicknessMm": 14.7,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32432385006001",
+        "note": "Manufacturer page: 38 mm diameter, 44.9 mm lug-to-lug, 14.7 mm thickness, and 18 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 342,
     "brand": "Omega",
     "model": "Speedmaster 57 Co-Axial Master Chronometer Chronograph 40 5 mm",
-    "reference": "332.10.41.51.01.001",
+    "reference": "332.12.41.51.03.001",
     "lugToLugMm": 49.64,
     "caseMm": 40.5,
     "thicknessMm": 12.99,
@@ -6029,7 +5995,7 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-57-co-axial-master-chronometer-chronograph-40-5-mm-33210415101001",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-57-co-axial-master-chronometer-chronograph-40-5-mm-33212415103001",
         "note": "Manufacturer page: 40.5 mm diameter, 49.64 mm lug-to-lug, 12.99 mm thickness, and 20 mm between lugs."
       }
     ]
@@ -6052,23 +6018,6 @@
     ]
   },
   {
-    "id": 352,
-    "brand": "Omega",
-    "model": "Speedmaster 57 Co-Axial Master Chronometer Chronograph 40 5 mm",
-    "reference": "332.10.41.51.10.001",
-    "lugToLugMm": 49.64,
-    "caseMm": 40.5,
-    "thicknessMm": 12.99,
-    "lugWidthMm": 20,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-57-co-axial-master-chronometer-chronograph-40-5-mm-33210415110001",
-        "note": "Manufacturer page: 40.5 mm diameter, 49.64 mm lug-to-lug, 12.99 mm thickness, and 20 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 344,
     "brand": "Omega",
     "model": "Speedmaster 57 Co-Axial Master Chronometer Chronograph 40 5 mm",
@@ -6082,74 +6031,6 @@
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-57-co-axial-master-chronometer-chronograph-40-5-mm-33212415101001",
         "note": "Manufacturer page: 40.5 mm diameter, 49.64 mm lug-to-lug, 12.99 mm thickness, and 20 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 342,
-    "brand": "Omega",
-    "model": "Speedmaster 57 Co-Axial Master Chronometer Chronograph 40 5 mm",
-    "reference": "332.12.41.51.03.001",
-    "lugToLugMm": 49.64,
-    "caseMm": 40.5,
-    "thicknessMm": 12.99,
-    "lugWidthMm": 20,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-57-co-axial-master-chronometer-chronograph-40-5-mm-33212415103001",
-        "note": "Manufacturer page: 40.5 mm diameter, 49.64 mm lug-to-lug, 12.99 mm thickness, and 20 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 353,
-    "brand": "Omega",
-    "model": "Speedmaster 57 Co-Axial Master Chronometer Chronograph 40 5 mm",
-    "reference": "332.12.41.51.10.001",
-    "lugToLugMm": 49.64,
-    "caseMm": 40.5,
-    "thicknessMm": 12.99,
-    "lugWidthMm": 20,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-57-co-axial-master-chronometer-chronograph-40-5-mm-33212415110001",
-        "note": "Manufacturer page: 40.5 mm diameter, 49.64 mm lug-to-lug, 12.99 mm thickness, and 20 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 347,
-    "brand": "Omega",
-    "model": "Speedmaster Anniversary Series Co-Axial Master Chronometer Chronograph 42 mm",
-    "reference": "310.32.42.50.02.001",
-    "lugToLugMm": 47.5,
-    "caseMm": 42,
-    "thicknessMm": 14.47,
-    "lugWidthMm": 20,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-anniversary-series-co-axial-master-chronometer-chronograph-42-mm-31032425002001",
-        "note": "Manufacturer page: 42 mm diameter, 47.5 mm lug-to-lug, 14.47 mm thickness, and 20 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 346,
-    "brand": "Omega",
-    "model": "Speedmaster Calibre 321 Chronograph 38 6 mm",
-    "reference": "311.50.39.30.01.001",
-    "lugToLugMm": 48,
-    "caseMm": 38.6,
-    "thicknessMm": 13.92,
-    "lugWidthMm": 19,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-calibre-321-chronograph-38-6-mm-31150393001001",
-        "note": "Manufacturer page: 38.6 mm diameter, 48 mm lug-to-lug, 13.92 mm thickness, and 19 mm between lugs."
       }
     ]
   },
@@ -6171,19 +6052,36 @@
     ]
   },
   {
-    "id": 350,
+    "id": 346,
     "brand": "Omega",
-    "model": "Speedmaster Calibre 321 Chronograph 42 mm",
-    "reference": "311.93.42.30.99.001",
-    "lugToLugMm": 47.6,
+    "model": "Speedmaster Calibre 321 Chronograph 38 6 mm",
+    "reference": "311.50.39.30.01.001",
+    "lugToLugMm": 48,
+    "caseMm": 38.6,
+    "thicknessMm": 13.92,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-calibre-321-chronograph-38-6-mm-31150393001001",
+        "note": "Manufacturer page: 38.6 mm diameter, 48 mm lug-to-lug, 13.92 mm thickness, and 19 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 347,
+    "brand": "Omega",
+    "model": "Speedmaster Anniversary Series Co-Axial Master Chronometer Chronograph 42 mm",
+    "reference": "310.32.42.50.02.001",
+    "lugToLugMm": 47.5,
     "caseMm": 42,
-    "thicknessMm": 13.39,
+    "thicknessMm": 14.47,
     "lugWidthMm": 20,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-calibre-321-chronograph-42-mm-31193423099001",
-        "note": "Manufacturer page: 42 mm diameter, 47.6 mm lug-to-lug, 13.39 mm thickness, and 20 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-anniversary-series-co-axial-master-chronometer-chronograph-42-mm-31032425002001",
+        "note": "Manufacturer page: 42 mm diameter, 47.5 mm lug-to-lug, 14.47 mm thickness, and 20 mm between lugs."
       }
     ]
   },
@@ -6200,6 +6098,40 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-calibre-321-professional-chronograph-42-mm-31190423099002",
+        "note": "Manufacturer page: 42 mm diameter, 47.6 mm lug-to-lug, 13.39 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 349,
+    "brand": "Omega",
+    "model": "Speedmaster 57 Co-Axial Master Chronometer Chronograph 40 5 mm",
+    "reference": "332.10.41.51.01.001",
+    "lugToLugMm": 49.64,
+    "caseMm": 40.5,
+    "thicknessMm": 12.99,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-57-co-axial-master-chronometer-chronograph-40-5-mm-33210415101001",
+        "note": "Manufacturer page: 40.5 mm diameter, 49.64 mm lug-to-lug, 12.99 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 350,
+    "brand": "Omega",
+    "model": "Speedmaster Calibre 321 Chronograph 42 mm",
+    "reference": "311.93.42.30.99.001",
+    "lugToLugMm": 47.6,
+    "caseMm": 42,
+    "thicknessMm": 13.39,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-calibre-321-chronograph-42-mm-31193423099001",
         "note": "Manufacturer page: 42 mm diameter, 47.6 mm lug-to-lug, 13.39 mm thickness, and 20 mm between lugs."
       }
     ]
@@ -6222,19 +6154,53 @@
     ]
   },
   {
-    "id": 356,
+    "id": 352,
     "brand": "Omega",
-    "model": "Speedmaster Chronoscope Co-Axial Master Chronometer Chronograph 43 mm",
-    "reference": "329.30.43.51.02.002",
-    "lugToLugMm": 48.6,
-    "caseMm": 43,
-    "thicknessMm": 12.8,
-    "lugWidthMm": 21,
+    "model": "Speedmaster 57 Co-Axial Master Chronometer Chronograph 40 5 mm",
+    "reference": "332.10.41.51.10.001",
+    "lugToLugMm": 49.64,
+    "caseMm": 40.5,
+    "thicknessMm": 12.99,
+    "lugWidthMm": 20,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-chronoscope-co-axial-master-chronometer-chronograph-43-mm-32930435102002",
-        "note": "Manufacturer page: 43 mm diameter, 48.6 mm lug-to-lug, 12.8 mm thickness, and 21 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-57-co-axial-master-chronometer-chronograph-40-5-mm-33210415110001",
+        "note": "Manufacturer page: 40.5 mm diameter, 49.64 mm lug-to-lug, 12.99 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 353,
+    "brand": "Omega",
+    "model": "Speedmaster 57 Co-Axial Master Chronometer Chronograph 40 5 mm",
+    "reference": "332.12.41.51.10.001",
+    "lugToLugMm": 49.64,
+    "caseMm": 40.5,
+    "thicknessMm": 12.99,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-57-co-axial-master-chronometer-chronograph-40-5-mm-33212415110001",
+        "note": "Manufacturer page: 40.5 mm diameter, 49.64 mm lug-to-lug, 12.99 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 354,
+    "brand": "Omega",
+    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
+    "reference": "522.30.38.50.04.002",
+    "lugToLugMm": 45,
+    "caseMm": 38,
+    "thicknessMm": 14.75,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-52230385004002",
+        "note": "Manufacturer page: 38 mm diameter, 45 mm lug-to-lug, 14.75 mm thickness, and 18 mm between lugs."
       }
     ]
   },
@@ -6256,6 +6222,23 @@
     ]
   },
   {
+    "id": 356,
+    "brand": "Omega",
+    "model": "Speedmaster Chronoscope Co-Axial Master Chronometer Chronograph 43 mm",
+    "reference": "329.30.43.51.02.002",
+    "lugToLugMm": 48.6,
+    "caseMm": 43,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-chronoscope-co-axial-master-chronometer-chronograph-43-mm-32930435102002",
+        "note": "Manufacturer page: 43 mm diameter, 48.6 mm lug-to-lug, 12.8 mm thickness, and 21 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 357,
     "brand": "Omega",
     "model": "Speedmaster Chronoscope Co-Axial Master Chronometer Chronograph 43 mm",
@@ -6269,23 +6252,6 @@
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-chronoscope-co-axial-master-chronometer-chronograph-43-mm-32992435110001",
         "note": "Manufacturer page: 43 mm diameter, 48.6 mm lug-to-lug, 12.8 mm thickness, and 21 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 362,
-    "brand": "Omega",
-    "model": "Speedmaster Chronoscope Co-Axial Master Chronometer Chronograph 43 mm",
-    "reference": "522.30.43.51.02.001",
-    "lugToLugMm": 48.6,
-    "caseMm": 43,
-    "thicknessMm": 13,
-    "lugWidthMm": 21,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-chronoscope-co-axial-master-chronometer-chronograph-43-mm-52230435102001",
-        "note": "Manufacturer page: 43 mm diameter, 48.6 mm lug-to-lug, 13 mm thickness, and 21 mm between lugs."
       }
     ]
   },
@@ -6324,23 +6290,6 @@
     ]
   },
   {
-    "id": 363,
-    "brand": "Omega",
-    "model": "Speedmaster Chronoscope Co-Axial Master Chronometer Chronograph 43 mm",
-    "reference": "522.62.43.51.02.001",
-    "lugToLugMm": 48.6,
-    "caseMm": 43,
-    "thicknessMm": 13,
-    "lugWidthMm": 21,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-chronoscope-co-axial-master-chronometer-chronograph-43-mm-52262435102001",
-        "note": "Manufacturer page: 43 mm diameter, 48.6 mm lug-to-lug, 13 mm thickness, and 21 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 360,
     "brand": "Omega",
     "model": "Speedmaster Dark Side Of The Moon Co-Axial Master Chronometer Chronograph 44 25 mm",
@@ -6353,23 +6302,6 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-dark-side-of-the-moon-co-axial-master-chronometer-chronograph-44-25-mm-31092445001001",
-        "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 12.97 mm thickness, and 21 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 370,
-    "brand": "Omega",
-    "model": "Speedmaster Dark Side Of The Moon Co-Axial Master Chronometer Chronograph 44 25 mm",
-    "reference": "310.92.44.50.06.001",
-    "lugToLugMm": 50,
-    "caseMm": 44.25,
-    "thicknessMm": 12.97,
-    "lugWidthMm": 21,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-dark-side-of-the-moon-co-axial-master-chronometer-chronograph-44-25-mm-31092445006001",
         "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 12.97 mm thickness, and 21 mm between lugs."
       }
     ]
@@ -6392,6 +6324,57 @@
     ]
   },
   {
+    "id": 362,
+    "brand": "Omega",
+    "model": "Speedmaster Chronoscope Co-Axial Master Chronometer Chronograph 43 mm",
+    "reference": "522.30.43.51.02.001",
+    "lugToLugMm": 48.6,
+    "caseMm": 43,
+    "thicknessMm": 13,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-chronoscope-co-axial-master-chronometer-chronograph-43-mm-52230435102001",
+        "note": "Manufacturer page: 43 mm diameter, 48.6 mm lug-to-lug, 13 mm thickness, and 21 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 363,
+    "brand": "Omega",
+    "model": "Speedmaster Chronoscope Co-Axial Master Chronometer Chronograph 43 mm",
+    "reference": "522.62.43.51.02.001",
+    "lugToLugMm": 48.6,
+    "caseMm": 43,
+    "thicknessMm": 13,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-chronoscope-co-axial-master-chronometer-chronograph-43-mm-52262435102001",
+        "note": "Manufacturer page: 43 mm diameter, 48.6 mm lug-to-lug, 13 mm thickness, and 21 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 364,
+    "brand": "Omega",
+    "model": "Speedmaster First Omega In Space Co-Axial Master Chronometer Chronograph 39 7 mm",
+    "reference": "310.30.40.50.06.001",
+    "lugToLugMm": 48,
+    "caseMm": 39.7,
+    "thicknessMm": 13.38,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-first-omega-in-space-co-axial-master-chronometer-chronograph-39-7-mm-31030405006001",
+        "note": "Manufacturer page: 39.7 mm diameter, 48 mm lug-to-lug, 13.38 mm thickness, and 19 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 365,
     "brand": "Omega",
     "model": "Speedmaster Dark Side Of The Moon Co-Axial Master Chronometer Chronograph 44 25 mm",
@@ -6409,6 +6392,23 @@
     ]
   },
   {
+    "id": 366,
+    "brand": "Omega",
+    "model": "Speedmaster Dark Side Of The Moon Co-Axial Master Chronometer Chronograph 44 25 mm",
+    "reference": "310.92.44.51.01.005",
+    "lugToLugMm": 50,
+    "caseMm": 44.25,
+    "thicknessMm": 15.09,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-dark-side-of-the-moon-co-axial-master-chronometer-chronograph-44-25-mm-31092445101005",
+        "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 15.09 mm thickness, and 21 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 367,
     "brand": "Omega",
     "model": "Speedmaster Dark Side Of The Moon Co-Axial Master Chronometer Chronograph 44 25 mm",
@@ -6421,23 +6421,6 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-dark-side-of-the-moon-co-axial-master-chronometer-chronograph-44-25-mm-31092445101002",
-        "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 15.09 mm thickness, and 21 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 369,
-    "brand": "Omega",
-    "model": "Speedmaster Dark Side Of The Moon Co-Axial Master Chronometer Chronograph 44 25 mm",
-    "reference": "310.92.44.51.01.003",
-    "lugToLugMm": 50,
-    "caseMm": 44.25,
-    "thicknessMm": 15.09,
-    "lugWidthMm": 21,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-dark-side-of-the-moon-co-axial-master-chronometer-chronograph-44-25-mm-31092445101003",
         "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 15.09 mm thickness, and 21 mm between lugs."
       }
     ]
@@ -6460,10 +6443,10 @@
     ]
   },
   {
-    "id": 366,
+    "id": 369,
     "brand": "Omega",
     "model": "Speedmaster Dark Side Of The Moon Co-Axial Master Chronometer Chronograph 44 25 mm",
-    "reference": "310.92.44.51.01.005",
+    "reference": "310.92.44.51.01.003",
     "lugToLugMm": 50,
     "caseMm": 44.25,
     "thicknessMm": 15.09,
@@ -6471,42 +6454,25 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-dark-side-of-the-moon-co-axial-master-chronometer-chronograph-44-25-mm-31092445101005",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-dark-side-of-the-moon-co-axial-master-chronometer-chronograph-44-25-mm-31092445101003",
         "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 15.09 mm thickness, and 21 mm between lugs."
       }
     ]
   },
   {
-    "id": 364,
+    "id": 370,
     "brand": "Omega",
-    "model": "Speedmaster First Omega In Space Co-Axial Master Chronometer Chronograph 39 7 mm",
-    "reference": "310.30.40.50.06.001",
-    "lugToLugMm": 48,
-    "caseMm": 39.7,
-    "thicknessMm": 13.38,
-    "lugWidthMm": 19,
+    "model": "Speedmaster Dark Side Of The Moon Co-Axial Master Chronometer Chronograph 44 25 mm",
+    "reference": "310.92.44.50.06.001",
+    "lugToLugMm": 50,
+    "caseMm": 44.25,
+    "thicknessMm": 12.97,
+    "lugWidthMm": 21,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-first-omega-in-space-co-axial-master-chronometer-chronograph-39-7-mm-31030405006001",
-        "note": "Manufacturer page: 39.7 mm diameter, 48 mm lug-to-lug, 13.38 mm thickness, and 19 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 414,
-    "brand": "Omega",
-    "model": "Speedmaster First Omega In Space Co-Axial Master Chronometer Chronograph 39 7 mm",
-    "reference": "310.32.40.50.06.001",
-    "lugToLugMm": 48,
-    "caseMm": 39.7,
-    "thicknessMm": 13.38,
-    "lugWidthMm": 19,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-first-omega-in-space-co-axial-master-chronometer-chronograph-39-7-mm-31032405006001",
-        "note": "Manufacturer page: 39.7 mm diameter, 48 mm lug-to-lug, 13.38 mm thickness, and 19 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-dark-side-of-the-moon-co-axial-master-chronometer-chronograph-44-25-mm-31092445006001",
+        "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 12.97 mm thickness, and 21 mm between lugs."
       }
     ]
   },
@@ -6545,40 +6511,6 @@
     ]
   },
   {
-    "id": 375,
-    "brand": "Omega",
-    "model": "Speedmaster Moonphase Co-Axial Master Chronometer Moonphase Chronograph 43 mm",
-    "reference": "304.30.43.52.06.001",
-    "lugToLugMm": 48.6,
-    "caseMm": 43,
-    "thicknessMm": 13.61,
-    "lugWidthMm": 21,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonphase-co-axial-master-chronometer-moonphase-chronograph-43-mm-30430435206001",
-        "note": "Manufacturer page: 43 mm diameter, 48.6 mm lug-to-lug, 13.61 mm thickness, and 21 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 376,
-    "brand": "Omega",
-    "model": "Speedmaster Moonphase Co-Axial Master Chronometer Moonphase Chronograph 44 25 mm",
-    "reference": "304.23.44.52.06.001",
-    "lugToLugMm": 50,
-    "caseMm": 44.25,
-    "thicknessMm": 16.85,
-    "lugWidthMm": 21,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonphase-co-axial-master-chronometer-moonphase-chronograph-44-25-mm-30423445206001",
-        "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 16.85 mm thickness, and 21 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 373,
     "brand": "Omega",
     "model": "Speedmaster Moonphase Co-Axial Master Chronometer Moonphase Chronograph 44 25 mm",
@@ -6613,6 +6545,40 @@
     ]
   },
   {
+    "id": 375,
+    "brand": "Omega",
+    "model": "Speedmaster Moonphase Co-Axial Master Chronometer Moonphase Chronograph 43 mm",
+    "reference": "304.30.43.52.06.001",
+    "lugToLugMm": 48.6,
+    "caseMm": 43,
+    "thicknessMm": 13.61,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonphase-co-axial-master-chronometer-moonphase-chronograph-43-mm-30430435206001",
+        "note": "Manufacturer page: 43 mm diameter, 48.6 mm lug-to-lug, 13.61 mm thickness, and 21 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 376,
+    "brand": "Omega",
+    "model": "Speedmaster Moonphase Co-Axial Master Chronometer Moonphase Chronograph 44 25 mm",
+    "reference": "304.23.44.52.06.001",
+    "lugToLugMm": 50,
+    "caseMm": 44.25,
+    "thicknessMm": 16.85,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonphase-co-axial-master-chronometer-moonphase-chronograph-44-25-mm-30423445206001",
+        "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 16.85 mm thickness, and 21 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 377,
     "brand": "Omega",
     "model": "Speedmaster Moonphase Co-Axial Master Chronometer Moonphase Chronograph 44 25 mm",
@@ -6626,40 +6592,6 @@
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonphase-co-axial-master-chronometer-moonphase-chronograph-44-25-mm-30433445201001",
         "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 16.85 mm thickness, and 21 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 380,
-    "brand": "Omega",
-    "model": "Speedmaster Moonphase Co-Axial Master Chronometer Moonphase Chronograph 44 25 mm",
-    "reference": "304.33.44.52.03.001",
-    "lugToLugMm": 50,
-    "caseMm": 44.25,
-    "thicknessMm": 16.85,
-    "lugWidthMm": 21,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonphase-co-axial-master-chronometer-moonphase-chronograph-44-25-mm-30433445203001",
-        "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 16.85 mm thickness, and 21 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 382,
-    "brand": "Omega",
-    "model": "Speedmaster Moonphase Co-Axial Master Chronometer Moonphase Chronograph 44 25 mm",
-    "reference": "304.63.44.52.01.001",
-    "lugToLugMm": 50,
-    "caseMm": 44.25,
-    "thicknessMm": 17.05,
-    "lugWidthMm": 21,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonphase-co-axial-master-chronometer-moonphase-chronograph-44-25-mm-30463445201001",
-        "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 17.05 mm thickness, and 21 mm between lugs."
       }
     ]
   },
@@ -6698,6 +6630,23 @@
     ]
   },
   {
+    "id": 380,
+    "brand": "Omega",
+    "model": "Speedmaster Moonphase Co-Axial Master Chronometer Moonphase Chronograph 44 25 mm",
+    "reference": "304.33.44.52.03.001",
+    "lugToLugMm": 50,
+    "caseMm": 44.25,
+    "thicknessMm": 16.85,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonphase-co-axial-master-chronometer-moonphase-chronograph-44-25-mm-30433445203001",
+        "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 16.85 mm thickness, and 21 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 381,
     "brand": "Omega",
     "model": "Speedmaster Moonphase Co-Axial Master Chronometer Moonphase Chronograph 44 25 mm",
@@ -6715,10 +6664,10 @@
     ]
   },
   {
-    "id": 416,
+    "id": 382,
     "brand": "Omega",
     "model": "Speedmaster Moonphase Co-Axial Master Chronometer Moonphase Chronograph 44 25 mm",
-    "reference": "304.93.44.52.99.002",
+    "reference": "304.63.44.52.01.001",
     "lugToLugMm": 50,
     "caseMm": 44.25,
     "thicknessMm": 17.05,
@@ -6726,24 +6675,7 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonphase-co-axial-master-chronometer-moonphase-chronograph-44-25-mm-30493445299002",
-        "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 17.05 mm thickness, and 21 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 419,
-    "brand": "Omega",
-    "model": "Speedmaster Moonphase Co-Axial Master Chronometer Moonphase Chronograph 44 25 mm",
-    "reference": "304.93.44.52.99.003",
-    "lugToLugMm": 50,
-    "caseMm": 44.25,
-    "thicknessMm": 17.05,
-    "lugWidthMm": 21,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonphase-co-axial-master-chronometer-moonphase-chronograph-44-25-mm-30493445299003",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonphase-co-axial-master-chronometer-moonphase-chronograph-44-25-mm-30463445201001",
         "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 17.05 mm thickness, and 21 mm between lugs."
       }
     ]
@@ -6766,23 +6698,6 @@
     ]
   },
   {
-    "id": 385,
-    "brand": "Omega",
-    "model": "Speedmaster Moonwatch Professional Co-Axial Master Chronometer Chronograph 42 mm",
-    "reference": "310.20.42.50.02.001",
-    "lugToLugMm": 47.5,
-    "caseMm": 42,
-    "thicknessMm": 13.18,
-    "lugWidthMm": 20,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31020425002001",
-        "note": "Manufacturer page: 42 mm diameter, 47.5 mm lug-to-lug, 13.18 mm thickness, and 20 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 384,
     "brand": "Omega",
     "model": "Speedmaster Moonwatch Professional Co-Axial Master Chronometer Chronograph 42 mm",
@@ -6795,6 +6710,23 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31020425099001",
+        "note": "Manufacturer page: 42 mm diameter, 47.5 mm lug-to-lug, 13.18 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 385,
+    "brand": "Omega",
+    "model": "Speedmaster Moonwatch Professional Co-Axial Master Chronometer Chronograph 42 mm",
+    "reference": "310.20.42.50.02.001",
+    "lugToLugMm": 47.5,
+    "caseMm": 42,
+    "thicknessMm": 13.18,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31020425002001",
         "note": "Manufacturer page: 42 mm diameter, 47.5 mm lug-to-lug, 13.18 mm thickness, and 20 mm between lugs."
       }
     ]
@@ -6830,23 +6762,6 @@
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31023425099001",
         "note": "Manufacturer page: 42 mm diameter, 47.5 mm lug-to-lug, 13.18 mm thickness, and 20 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 394,
-    "brand": "Omega",
-    "model": "Speedmaster Moonwatch Professional Co-Axial Master Chronometer Chronograph 42 mm",
-    "reference": "310.30.42.50.01.001",
-    "lugToLugMm": 47.5,
-    "caseMm": 42,
-    "thicknessMm": 13.54,
-    "lugWidthMm": 20,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31030425001001",
-        "note": "Manufacturer page: 42 mm diameter, 47.5 mm lug-to-lug, 13.54 mm thickness, and 20 mm between lugs."
       }
     ]
   },
@@ -6902,6 +6817,23 @@
     ]
   },
   {
+    "id": 391,
+    "brand": "Omega",
+    "model": "Speedmaster Moonwatch Professional Co-Axial Master Chronometer Chronograph 42 mm",
+    "reference": "310.32.42.50.04.001",
+    "lugToLugMm": 47.5,
+    "caseMm": 42,
+    "thicknessMm": 13.18,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31032425004001",
+        "note": "Manufacturer page: 42 mm diameter, 47.5 mm lug-to-lug, 13.18 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
     "id": 392,
     "brand": "Omega",
     "model": "Speedmaster Moonwatch Professional Co-Axial Master Chronometer Chronograph 42 mm",
@@ -6919,19 +6851,19 @@
     ]
   },
   {
-    "id": 391,
+    "id": 394,
     "brand": "Omega",
     "model": "Speedmaster Moonwatch Professional Co-Axial Master Chronometer Chronograph 42 mm",
-    "reference": "310.32.42.50.04.001",
+    "reference": "310.30.42.50.01.001",
     "lugToLugMm": 47.5,
     "caseMm": 42,
-    "thicknessMm": 13.18,
+    "thicknessMm": 13.54,
     "lugWidthMm": 20,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31032425004001",
-        "note": "Manufacturer page: 42 mm diameter, 47.5 mm lug-to-lug, 13.18 mm thickness, and 20 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31030425001001",
+        "note": "Manufacturer page: 42 mm diameter, 47.5 mm lug-to-lug, 13.54 mm thickness, and 20 mm between lugs."
       }
     ]
   },
@@ -7004,23 +6936,6 @@
     ]
   },
   {
-    "id": 420,
-    "brand": "Omega",
-    "model": "Speedmaster Moonwatch Professional Co-Axial Master Chronometer Chronograph 42 mm",
-    "reference": "310.60.42.50.01.002",
-    "lugToLugMm": 47.46,
-    "caseMm": 42,
-    "thicknessMm": 13.63,
-    "lugWidthMm": 20,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31060425001002",
-        "note": "Manufacturer page: 42 mm diameter, 47.46 mm lug-to-lug, 13.63 mm thickness, and 20 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 399,
     "brand": "Omega",
     "model": "Speedmaster Moonwatch Professional Co-Axial Master Chronometer Chronograph 42 mm",
@@ -7038,10 +6953,10 @@
     ]
   },
   {
-    "id": 407,
+    "id": 400,
     "brand": "Omega",
     "model": "Speedmaster Moonwatch Professional Co-Axial Master Chronometer Chronograph 42 mm",
-    "reference": "310.60.42.50.10.001",
+    "reference": "310.62.42.50.99.001",
     "lugToLugMm": 47.46,
     "caseMm": 42,
     "thicknessMm": 13.18,
@@ -7049,8 +6964,25 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31060425010001",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31062425099001",
         "note": "Manufacturer page: 42 mm diameter, 47.46 mm lug-to-lug, 13.18 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 401,
+    "brand": "Omega",
+    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
+    "reference": "324.63.38.50.02.004",
+    "lugToLugMm": 44.9,
+    "caseMm": 38,
+    "thicknessMm": 14.7,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32463385002004",
+        "note": "Manufacturer page: 38 mm diameter, 44.9 mm lug-to-lug, 14.7 mm thickness, and 18 mm between lugs."
       }
     ]
   },
@@ -7067,23 +6999,6 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31060425099002",
-        "note": "Manufacturer page: 42 mm diameter, 47.46 mm lug-to-lug, 13.18 mm thickness, and 20 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 400,
-    "brand": "Omega",
-    "model": "Speedmaster Moonwatch Professional Co-Axial Master Chronometer Chronograph 42 mm",
-    "reference": "310.62.42.50.99.001",
-    "lugToLugMm": 47.46,
-    "caseMm": 42,
-    "thicknessMm": 13.18,
-    "lugWidthMm": 20,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31062425099001",
         "note": "Manufacturer page: 42 mm diameter, 47.46 mm lug-to-lug, 13.18 mm thickness, and 20 mm between lugs."
       }
     ]
@@ -7106,19 +7021,19 @@
     ]
   },
   {
-    "id": 413,
+    "id": 404,
     "brand": "Omega",
-    "model": "Speedmaster Moonwatch Professional Co-Axial Master Chronometer Chronograph 42 mm",
-    "reference": "310.63.42.50.02.001",
-    "lugToLugMm": 47.5,
-    "caseMm": 42,
-    "thicknessMm": 13.18,
+    "model": "Speedmaster Pilot Co-Axial Master Chronometer Chronograph 40 85 mm",
+    "reference": "332.10.41.51.01.002",
+    "lugToLugMm": 49.6,
+    "caseMm": 40.85,
+    "thicknessMm": 14.65,
     "lugWidthMm": 20,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31063425002001",
-        "note": "Manufacturer page: 42 mm diameter, 47.5 mm lug-to-lug, 13.18 mm thickness, and 20 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-pilot-co-axial-master-chronometer-chronograph-40-85-mm-33210415101002",
+        "note": "Manufacturer page: 40.85 mm diameter, 49.6 mm lug-to-lug, 14.65 mm thickness, and 20 mm between lugs."
       }
     ]
   },
@@ -7140,23 +7055,6 @@
     ]
   },
   {
-    "id": 404,
-    "brand": "Omega",
-    "model": "Speedmaster Pilot Co-Axial Master Chronometer Chronograph 40 85 mm",
-    "reference": "332.10.41.51.01.002",
-    "lugToLugMm": 49.6,
-    "caseMm": 40.85,
-    "thicknessMm": 14.65,
-    "lugWidthMm": 20,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-pilot-co-axial-master-chronometer-chronograph-40-85-mm-33210415101002",
-        "note": "Manufacturer page: 40.85 mm diameter, 49.6 mm lug-to-lug, 14.65 mm thickness, and 20 mm between lugs."
-      }
-    ]
-  },
-  {
     "id": 406,
     "brand": "Omega",
     "model": "Speedmaster Racing Co-Axial Master Chronometer Chronograph 44 25 mm",
@@ -7170,6 +7068,23 @@
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-racing-co-axial-master-chronometer-chronograph-44-25-mm-32923445106001",
         "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 14.92 mm thickness, and 21 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 407,
+    "brand": "Omega",
+    "model": "Speedmaster Moonwatch Professional Co-Axial Master Chronometer Chronograph 42 mm",
+    "reference": "310.60.42.50.10.001",
+    "lugToLugMm": 47.46,
+    "caseMm": 42,
+    "thicknessMm": 13.18,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31060425010001",
+        "note": "Manufacturer page: 42 mm diameter, 47.46 mm lug-to-lug, 13.18 mm thickness, and 20 mm between lugs."
       }
     ]
   },
@@ -7191,10 +7106,10 @@
     ]
   },
   {
-    "id": 418,
+    "id": 409,
     "brand": "Omega",
     "model": "Speedmaster Racing Co-Axial Master Chronometer Chronograph 44 25 mm",
-    "reference": "329.30.44.51.01.002",
+    "reference": "329.32.44.51.01.001",
     "lugToLugMm": 50,
     "caseMm": 44.25,
     "thicknessMm": 14.92,
@@ -7202,7 +7117,7 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-racing-co-axial-master-chronometer-chronograph-44-25-mm-32930445101002",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-racing-co-axial-master-chronometer-chronograph-44-25-mm-32932445101001",
         "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 14.92 mm thickness, and 21 mm between lugs."
       }
     ]
@@ -7220,23 +7135,6 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-racing-co-axial-master-chronometer-chronograph-44-25-mm-32930445104001",
-        "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 14.92 mm thickness, and 21 mm between lugs."
-      }
-    ]
-  },
-  {
-    "id": 409,
-    "brand": "Omega",
-    "model": "Speedmaster Racing Co-Axial Master Chronometer Chronograph 44 25 mm",
-    "reference": "329.32.44.51.01.001",
-    "lugToLugMm": 50,
-    "caseMm": 44.25,
-    "thicknessMm": 14.92,
-    "lugWidthMm": 21,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-racing-co-axial-master-chronometer-chronograph-44-25-mm-32932445101001",
         "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 14.92 mm thickness, and 21 mm between lugs."
       }
     ]
@@ -7276,19 +7174,36 @@
     ]
   },
   {
-    "id": 417,
+    "id": 413,
     "brand": "Omega",
-    "model": "Speedmaster Super Racing Co-Axial Master Chronometer Chronograph 44 25 mm",
-    "reference": "329.30.44.51.01.003",
-    "lugToLugMm": 50,
-    "caseMm": 44.25,
-    "thicknessMm": 14.9,
-    "lugWidthMm": 21,
+    "model": "Speedmaster Moonwatch Professional Co-Axial Master Chronometer Chronograph 42 mm",
+    "reference": "310.63.42.50.02.001",
+    "lugToLugMm": 47.5,
+    "caseMm": 42,
+    "thicknessMm": 13.18,
+    "lugWidthMm": 20,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-super-racing-co-axial-master-chronometer-chronograph-44-25-mm-32930445101003",
-        "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 14.9 mm thickness, and 21 mm between lugs."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31063425002001",
+        "note": "Manufacturer page: 42 mm diameter, 47.5 mm lug-to-lug, 13.18 mm thickness, and 20 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 414,
+    "brand": "Omega",
+    "model": "Speedmaster First Omega In Space Co-Axial Master Chronometer Chronograph 39 7 mm",
+    "reference": "310.32.40.50.06.001",
+    "lugToLugMm": 48,
+    "caseMm": 39.7,
+    "thicknessMm": 13.38,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-first-omega-in-space-co-axial-master-chronometer-chronograph-39-7-mm-31032405006001",
+        "note": "Manufacturer page: 39.7 mm diameter, 48 mm lug-to-lug, 13.38 mm thickness, and 19 mm between lugs."
       }
     ]
   },
@@ -7310,19 +7225,87 @@
     ]
   },
   {
-    "id": 425,
+    "id": 416,
     "brand": "Omega",
-    "model": "Constellation Co-Axial Master Chronometer 39 mm",
-    "reference": "131.10.39.20.02.001",
-    "lugToLugMm": 41,
-    "caseMm": 39,
-    "thicknessMm": 12.43,
-    "lugWidthMm": null,
+    "model": "Speedmaster Moonphase Co-Axial Master Chronometer Moonphase Chronograph 44 25 mm",
+    "reference": "304.93.44.52.99.002",
+    "lugToLugMm": 50,
+    "caseMm": 44.25,
+    "thicknessMm": 17.05,
+    "lugWidthMm": 21,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-39-mm-13110392002001",
-        "note": "Manufacturer page: 39 mm diameter, 41 mm lug-to-lug, and 12.43 mm thickness. Lug width is not published on this page."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonphase-co-axial-master-chronometer-moonphase-chronograph-44-25-mm-30493445299002",
+        "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 17.05 mm thickness, and 21 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 417,
+    "brand": "Omega",
+    "model": "Speedmaster Super Racing Co-Axial Master Chronometer Chronograph 44 25 mm",
+    "reference": "329.30.44.51.01.003",
+    "lugToLugMm": 50,
+    "caseMm": 44.25,
+    "thicknessMm": 14.9,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-super-racing-co-axial-master-chronometer-chronograph-44-25-mm-32930445101003",
+        "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 14.9 mm thickness, and 21 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 418,
+    "brand": "Omega",
+    "model": "Speedmaster Racing Co-Axial Master Chronometer Chronograph 44 25 mm",
+    "reference": "329.30.44.51.01.002",
+    "lugToLugMm": 50,
+    "caseMm": 44.25,
+    "thicknessMm": 14.92,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-racing-co-axial-master-chronometer-chronograph-44-25-mm-32930445101002",
+        "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 14.92 mm thickness, and 21 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 419,
+    "brand": "Omega",
+    "model": "Speedmaster Moonphase Co-Axial Master Chronometer Moonphase Chronograph 44 25 mm",
+    "reference": "304.93.44.52.99.003",
+    "lugToLugMm": 50,
+    "caseMm": 44.25,
+    "thicknessMm": 17.05,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonphase-co-axial-master-chronometer-moonphase-chronograph-44-25-mm-30493445299003",
+        "note": "Manufacturer page: 44.25 mm diameter, 50 mm lug-to-lug, 17.05 mm thickness, and 21 mm between lugs."
+      }
+    ]
+  },
+  {
+    "id": 420,
+    "brand": "Omega",
+    "model": "Speedmaster Moonwatch Professional Co-Axial Master Chronometer Chronograph 42 mm",
+    "reference": "310.60.42.50.01.002",
+    "lugToLugMm": 47.46,
+    "caseMm": 42,
+    "thicknessMm": 13.63,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31060425001002",
+        "note": "Manufacturer page: 42 mm diameter, 47.46 mm lug-to-lug, 13.63 mm thickness, and 20 mm between lugs."
       }
     ]
   },
@@ -7339,40 +7322,6 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-39-mm-13110392006001",
-        "note": "Manufacturer page: 39 mm diameter, 41 mm lug-to-lug, and 12.43 mm thickness. Lug width is not published on this page."
-      }
-    ]
-  },
-  {
-    "id": 426,
-    "brand": "Omega",
-    "model": "Constellation Co-Axial Master Chronometer 39 mm",
-    "reference": "131.20.39.20.02.001",
-    "lugToLugMm": 41,
-    "caseMm": 39,
-    "thicknessMm": 12.43,
-    "lugWidthMm": null,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-39-mm-13120392002001",
-        "note": "Manufacturer page: 39 mm diameter, 41 mm lug-to-lug, and 12.43 mm thickness. Lug width is not published on this page."
-      }
-    ]
-  },
-  {
-    "id": 423,
-    "brand": "Omega",
-    "model": "Constellation Co-Axial Master Chronometer 39 mm",
-    "reference": "131.20.39.20.02.002",
-    "lugToLugMm": 41,
-    "caseMm": 39,
-    "thicknessMm": 12.43,
-    "lugWidthMm": null,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-39-mm-13120392002002",
         "note": "Manufacturer page: 39 mm diameter, 41 mm lug-to-lug, and 12.43 mm thickness. Lug width is not published on this page."
       }
     ]
@@ -7395,10 +7344,10 @@
     ]
   },
   {
-    "id": 429,
+    "id": 423,
     "brand": "Omega",
     "model": "Constellation Co-Axial Master Chronometer 39 mm",
-    "reference": "131.20.39.20.52.002",
+    "reference": "131.20.39.20.02.002",
     "lugToLugMm": 41,
     "caseMm": 39,
     "thicknessMm": 12.43,
@@ -7406,25 +7355,8 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-39-mm-13120392052002",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-39-mm-13120392002002",
         "note": "Manufacturer page: 39 mm diameter, 41 mm lug-to-lug, and 12.43 mm thickness. Lug width is not published on this page."
-      }
-    ]
-  },
-  {
-    "id": 431,
-    "brand": "Omega",
-    "model": "Constellation Co-Axial Master Chronometer 41 mm",
-    "reference": "131.12.41.21.06.001",
-    "lugToLugMm": 44,
-    "caseMm": 41,
-    "thicknessMm": 13.45,
-    "lugWidthMm": null,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13112412106001",
-        "note": "Manufacturer page: 41 mm diameter, 44 mm lug-to-lug, and 13.45 mm thickness. Lug width is not published on this page."
       }
     ]
   },
@@ -7446,36 +7378,36 @@
     ]
   },
   {
-    "id": 428,
+    "id": 425,
     "brand": "Omega",
-    "model": "Constellation Co-Axial Master Chronometer 41 mm",
-    "reference": "131.23.41.21.06.001",
-    "lugToLugMm": 44,
-    "caseMm": 41,
-    "thicknessMm": 13.45,
+    "model": "Constellation Co-Axial Master Chronometer 39 mm",
+    "reference": "131.10.39.20.02.001",
+    "lugToLugMm": 41,
+    "caseMm": 39,
+    "thicknessMm": 12.43,
     "lugWidthMm": null,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13123412106001",
-        "note": "Manufacturer page: 41 mm diameter, 44 mm lug-to-lug, and 13.45 mm thickness. Lug width is not published on this page."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-39-mm-13110392002001",
+        "note": "Manufacturer page: 39 mm diameter, 41 mm lug-to-lug, and 12.43 mm thickness. Lug width is not published on this page."
       }
     ]
   },
   {
-    "id": 430,
+    "id": 426,
     "brand": "Omega",
-    "model": "Constellation Co-Axial Master Chronometer 41 mm",
-    "reference": "131.23.41.21.06.002",
-    "lugToLugMm": 44,
-    "caseMm": 41,
-    "thicknessMm": 13.45,
+    "model": "Constellation Co-Axial Master Chronometer 39 mm",
+    "reference": "131.20.39.20.02.001",
+    "lugToLugMm": 41,
+    "caseMm": 39,
+    "thicknessMm": 12.43,
     "lugWidthMm": null,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13123412106002",
-        "note": "Manufacturer page: 41 mm diameter, 44 mm lug-to-lug, and 13.45 mm thickness. Lug width is not published on this page."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-39-mm-13120392002001",
+        "note": "Manufacturer page: 39 mm diameter, 41 mm lug-to-lug, and 12.43 mm thickness. Lug width is not published on this page."
       }
     ]
   },
@@ -7497,10 +7429,10 @@
     ]
   },
   {
-    "id": 435,
+    "id": 428,
     "brand": "Omega",
     "model": "Constellation Co-Axial Master Chronometer 41 mm",
-    "reference": "131.23.41.21.11.001",
+    "reference": "131.23.41.21.06.001",
     "lugToLugMm": 44,
     "caseMm": 41,
     "thicknessMm": 13.45,
@@ -7508,42 +7440,59 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13123412111001",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13123412106001",
         "note": "Manufacturer page: 41 mm diameter, 44 mm lug-to-lug, and 13.45 mm thickness. Lug width is not published on this page."
       }
     ]
   },
   {
-    "id": 441,
+    "id": 429,
     "brand": "Omega",
-    "model": "Constellation Co-Axial Master Chronometer 41 mm",
-    "reference": "131.30.41.21.01.001",
-    "lugToLugMm": 44,
-    "caseMm": 41,
-    "thicknessMm": 13.4,
+    "model": "Constellation Co-Axial Master Chronometer 39 mm",
+    "reference": "131.20.39.20.52.002",
+    "lugToLugMm": 41,
+    "caseMm": 39,
+    "thicknessMm": 12.43,
     "lugWidthMm": null,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13130412101001",
-        "note": "Manufacturer page: 41 mm diameter, 44 mm lug-to-lug, and 13.4 mm thickness. Lug width is not published on this page."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-39-mm-13120392052002",
+        "note": "Manufacturer page: 39 mm diameter, 41 mm lug-to-lug, and 12.43 mm thickness. Lug width is not published on this page."
       }
     ]
   },
   {
-    "id": 437,
+    "id": 430,
     "brand": "Omega",
     "model": "Constellation Co-Axial Master Chronometer 41 mm",
-    "reference": "131.30.41.21.04.001",
+    "reference": "131.23.41.21.06.002",
     "lugToLugMm": 44,
     "caseMm": 41,
-    "thicknessMm": 13.5,
+    "thicknessMm": 13.45,
     "lugWidthMm": null,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13130412104001",
-        "note": "Manufacturer page: 41 mm diameter, 44 mm lug-to-lug, and 13.5 mm thickness. Lug width is not published on this page."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13123412106002",
+        "note": "Manufacturer page: 41 mm diameter, 44 mm lug-to-lug, and 13.45 mm thickness. Lug width is not published on this page."
+      }
+    ]
+  },
+  {
+    "id": 431,
+    "brand": "Omega",
+    "model": "Constellation Co-Axial Master Chronometer 41 mm",
+    "reference": "131.12.41.21.06.001",
+    "lugToLugMm": 44,
+    "caseMm": 41,
+    "thicknessMm": 13.45,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13112412106001",
+        "note": "Manufacturer page: 41 mm diameter, 44 mm lug-to-lug, and 13.45 mm thickness. Lug width is not published on this page."
       }
     ]
   },
@@ -7582,23 +7531,6 @@
     ]
   },
   {
-    "id": 436,
-    "brand": "Omega",
-    "model": "Constellation Co-Axial Master Chronometer 41 mm",
-    "reference": "131.30.41.21.99.003",
-    "lugToLugMm": 44,
-    "caseMm": 41,
-    "thicknessMm": 13.45,
-    "lugWidthMm": null,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13130412199003",
-        "note": "Manufacturer page: 41 mm diameter, 44 mm lug-to-lug, and 13.45 mm thickness. Lug width is not published on this page."
-      }
-    ]
-  },
-  {
     "id": 434,
     "brand": "Omega",
     "model": "Constellation Co-Axial Master Chronometer 41 mm",
@@ -7616,10 +7548,10 @@
     ]
   },
   {
-    "id": 439,
+    "id": 435,
     "brand": "Omega",
     "model": "Constellation Co-Axial Master Chronometer 41 mm",
-    "reference": "131.33.41.21.03.001",
+    "reference": "131.23.41.21.11.001",
     "lugToLugMm": 44,
     "caseMm": 41,
     "thicknessMm": 13.45,
@@ -7627,8 +7559,42 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13133412103001",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13123412111001",
         "note": "Manufacturer page: 41 mm diameter, 44 mm lug-to-lug, and 13.45 mm thickness. Lug width is not published on this page."
+      }
+    ]
+  },
+  {
+    "id": 436,
+    "brand": "Omega",
+    "model": "Constellation Co-Axial Master Chronometer 41 mm",
+    "reference": "131.30.41.21.99.003",
+    "lugToLugMm": 44,
+    "caseMm": 41,
+    "thicknessMm": 13.45,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13130412199003",
+        "note": "Manufacturer page: 41 mm diameter, 44 mm lug-to-lug, and 13.45 mm thickness. Lug width is not published on this page."
+      }
+    ]
+  },
+  {
+    "id": 437,
+    "brand": "Omega",
+    "model": "Constellation Co-Axial Master Chronometer 41 mm",
+    "reference": "131.30.41.21.04.001",
+    "lugToLugMm": 44,
+    "caseMm": 41,
+    "thicknessMm": 13.5,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13130412104001",
+        "note": "Manufacturer page: 41 mm diameter, 44 mm lug-to-lug, and 13.5 mm thickness. Lug width is not published on this page."
       }
     ]
   },
@@ -7650,19 +7616,19 @@
     ]
   },
   {
-    "id": 442,
+    "id": 439,
     "brand": "Omega",
     "model": "Constellation Co-Axial Master Chronometer 41 mm",
-    "reference": "131.33.41.21.06.001",
+    "reference": "131.33.41.21.03.001",
     "lugToLugMm": 44,
     "caseMm": 41,
-    "thicknessMm": 13.4,
+    "thicknessMm": 13.45,
     "lugWidthMm": null,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13133412106001",
-        "note": "Manufacturer page: 41 mm diameter, 44 mm lug-to-lug, and 13.4 mm thickness. Lug width is not published on this page."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13133412103001",
+        "note": "Manufacturer page: 41 mm diameter, 44 mm lug-to-lug, and 13.45 mm thickness. Lug width is not published on this page."
       }
     ]
   },
@@ -7684,87 +7650,36 @@
     ]
   },
   {
-    "id": 447,
+    "id": 441,
     "brand": "Omega",
     "model": "Constellation Co-Axial Master Chronometer 41 mm",
-    "reference": "131.50.41.21.99.002",
+    "reference": "131.30.41.21.01.001",
     "lugToLugMm": 44,
     "caseMm": 41,
-    "thicknessMm": 13.45,
+    "thicknessMm": 13.4,
     "lugWidthMm": null,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13150412199002",
-        "note": "Manufacturer page: 41 mm diameter, 44 mm lug-to-lug, and 13.45 mm thickness. Lug width is not published on this page."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13130412101001",
+        "note": "Manufacturer page: 41 mm diameter, 44 mm lug-to-lug, and 13.4 mm thickness. Lug width is not published on this page."
       }
     ]
   },
   {
-    "id": 450,
+    "id": 442,
     "brand": "Omega",
     "model": "Constellation Co-Axial Master Chronometer 41 mm",
-    "reference": "131.63.41.21.01.001",
+    "reference": "131.33.41.21.06.001",
     "lugToLugMm": 44,
     "caseMm": 41,
-    "thicknessMm": 13.5,
+    "thicknessMm": 13.4,
     "lugWidthMm": null,
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13163412101001",
-        "note": "Manufacturer page: 41 mm diameter, 44 mm lug-to-lug, and 13.5 mm thickness. Lug width is not published on this page."
-      }
-    ]
-  },
-  {
-    "id": 448,
-    "brand": "Omega",
-    "model": "De Ville Ladymatic Co-Axial Chronometer 34 mm",
-    "reference": "425.20.34.20.55.004",
-    "lugToLugMm": 41.6,
-    "caseMm": 34,
-    "thicknessMm": 11.95,
-    "lugWidthMm": null,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-ladymatic-co-axial-chronometer-34-mm-42520342055004",
-        "note": "Manufacturer page: 34 mm diameter, 41.6 mm lug-to-lug, and 11.95 mm thickness. Lug width is not published on this page."
-      }
-    ]
-  },
-  {
-    "id": 444,
-    "brand": "Omega",
-    "model": "De Ville Ladymatic Co-Axial Chronometer 34 mm",
-    "reference": "425.22.34.20.55.004",
-    "lugToLugMm": 41.6,
-    "caseMm": 34,
-    "thicknessMm": 11.95,
-    "lugWidthMm": null,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-ladymatic-co-axial-chronometer-34-mm-42522342055004",
-        "note": "Manufacturer page: 34 mm diameter, 41.6 mm lug-to-lug, and 11.95 mm thickness. Lug width is not published on this page."
-      }
-    ]
-  },
-  {
-    "id": 453,
-    "brand": "Omega",
-    "model": "De Ville Ladymatic Co-Axial Chronometer 34 mm",
-    "reference": "425.25.34.20.55.004",
-    "lugToLugMm": 41.6,
-    "caseMm": 34,
-    "thicknessMm": 11.95,
-    "lugWidthMm": null,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-ladymatic-co-axial-chronometer-34-mm-42525342055004",
-        "note": "Manufacturer page: 34 mm diameter, 41.6 mm lug-to-lug, and 11.95 mm thickness. Lug width is not published on this page."
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13133412106001",
+        "note": "Manufacturer page: 41 mm diameter, 44 mm lug-to-lug, and 13.4 mm thickness. Lug width is not published on this page."
       }
     ]
   },
@@ -7786,10 +7701,10 @@
     ]
   },
   {
-    "id": 460,
+    "id": 444,
     "brand": "Omega",
     "model": "De Ville Ladymatic Co-Axial Chronometer 34 mm",
-    "reference": "425.30.34.20.55.002",
+    "reference": "425.22.34.20.55.004",
     "lugToLugMm": 41.6,
     "caseMm": 34,
     "thicknessMm": 11.95,
@@ -7797,24 +7712,7 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-ladymatic-co-axial-chronometer-34-mm-42530342055002",
-        "note": "Manufacturer page: 34 mm diameter, 41.6 mm lug-to-lug, and 11.95 mm thickness. Lug width is not published on this page."
-      }
-    ]
-  },
-  {
-    "id": 457,
-    "brand": "Omega",
-    "model": "De Ville Ladymatic Co-Axial Chronometer 34 mm",
-    "reference": "425.30.34.20.57.004",
-    "lugToLugMm": 41.6,
-    "caseMm": 34,
-    "thicknessMm": 11.95,
-    "lugWidthMm": null,
-    "confidence": "high",
-    "sources": [
-      {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-ladymatic-co-axial-chronometer-34-mm-42530342057004",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-ladymatic-co-axial-chronometer-34-mm-42522342055004",
         "note": "Manufacturer page: 34 mm diameter, 41.6 mm lug-to-lug, and 11.95 mm thickness. Lug width is not published on this page."
       }
     ]
@@ -7854,6 +7752,40 @@
     ]
   },
   {
+    "id": 447,
+    "brand": "Omega",
+    "model": "Constellation Co-Axial Master Chronometer 41 mm",
+    "reference": "131.50.41.21.99.002",
+    "lugToLugMm": 44,
+    "caseMm": 41,
+    "thicknessMm": 13.45,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13150412199002",
+        "note": "Manufacturer page: 41 mm diameter, 44 mm lug-to-lug, and 13.45 mm thickness. Lug width is not published on this page."
+      }
+    ]
+  },
+  {
+    "id": 448,
+    "brand": "Omega",
+    "model": "De Ville Ladymatic Co-Axial Chronometer 34 mm",
+    "reference": "425.20.34.20.55.004",
+    "lugToLugMm": 41.6,
+    "caseMm": 34,
+    "thicknessMm": 11.95,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-ladymatic-co-axial-chronometer-34-mm-42520342055004",
+        "note": "Manufacturer page: 34 mm diameter, 41.6 mm lug-to-lug, and 11.95 mm thickness. Lug width is not published on this page."
+      }
+    ]
+  },
+  {
     "id": 449,
     "brand": "Omega",
     "model": "De Ville Ladymatic Co-Axial Chronometer 34 mm",
@@ -7866,6 +7798,40 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-ladymatic-co-axial-chronometer-34-mm-42535342055002",
+        "note": "Manufacturer page: 34 mm diameter, 41.6 mm lug-to-lug, and 11.95 mm thickness. Lug width is not published on this page."
+      }
+    ]
+  },
+  {
+    "id": 450,
+    "brand": "Omega",
+    "model": "Constellation Co-Axial Master Chronometer 41 mm",
+    "reference": "131.63.41.21.01.001",
+    "lugToLugMm": 44,
+    "caseMm": 41,
+    "thicknessMm": 13.5,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-constellation-co-axial-master-chronometer-41-mm-13163412101001",
+        "note": "Manufacturer page: 41 mm diameter, 44 mm lug-to-lug, and 13.5 mm thickness. Lug width is not published on this page."
+      }
+    ]
+  },
+  {
+    "id": 451,
+    "brand": "Omega",
+    "model": "De Ville Ladymatic Co-Axial Chronometer 34 mm",
+    "reference": "425.37.34.20.55.002",
+    "lugToLugMm": 41.6,
+    "caseMm": 34,
+    "thicknessMm": 11.95,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-ladymatic-co-axial-chronometer-34-mm-42537342055002",
         "note": "Manufacturer page: 34 mm diameter, 41.6 mm lug-to-lug, and 11.95 mm thickness. Lug width is not published on this page."
       }
     ]
@@ -7888,10 +7854,10 @@
     ]
   },
   {
-    "id": 451,
+    "id": 453,
     "brand": "Omega",
     "model": "De Ville Ladymatic Co-Axial Chronometer 34 mm",
-    "reference": "425.37.34.20.55.002",
+    "reference": "425.25.34.20.55.004",
     "lugToLugMm": 41.6,
     "caseMm": 34,
     "thicknessMm": 11.95,
@@ -7899,7 +7865,7 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-ladymatic-co-axial-chronometer-34-mm-42537342055002",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-ladymatic-co-axial-chronometer-34-mm-42525342055004",
         "note": "Manufacturer page: 34 mm diameter, 41.6 mm lug-to-lug, and 11.95 mm thickness. Lug width is not published on this page."
       }
     ]
@@ -7956,10 +7922,10 @@
     ]
   },
   {
-    "id": 459,
+    "id": 457,
     "brand": "Omega",
     "model": "De Ville Ladymatic Co-Axial Chronometer 34 mm",
-    "reference": "425.65.34.20.55.010",
+    "reference": "425.30.34.20.57.004",
     "lugToLugMm": 41.6,
     "caseMm": 34,
     "thicknessMm": 11.95,
@@ -7967,7 +7933,7 @@
     "confidence": "high",
     "sources": [
       {
-        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-ladymatic-co-axial-chronometer-34-mm-42565342055010",
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-ladymatic-co-axial-chronometer-34-mm-42530342057004",
         "note": "Manufacturer page: 34 mm diameter, 41.6 mm lug-to-lug, and 11.95 mm thickness. Lug width is not published on this page."
       }
     ]
@@ -7985,6 +7951,40 @@
     "sources": [
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-ladymatic-co-axial-chronometer-34-mm-42567342055008",
+        "note": "Manufacturer page: 34 mm diameter, 41.6 mm lug-to-lug, and 11.95 mm thickness. Lug width is not published on this page."
+      }
+    ]
+  },
+  {
+    "id": 459,
+    "brand": "Omega",
+    "model": "De Ville Ladymatic Co-Axial Chronometer 34 mm",
+    "reference": "425.65.34.20.55.010",
+    "lugToLugMm": 41.6,
+    "caseMm": 34,
+    "thicknessMm": 11.95,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-ladymatic-co-axial-chronometer-34-mm-42565342055010",
+        "note": "Manufacturer page: 34 mm diameter, 41.6 mm lug-to-lug, and 11.95 mm thickness. Lug width is not published on this page."
+      }
+    ]
+  },
+  {
+    "id": 460,
+    "brand": "Omega",
+    "model": "De Ville Ladymatic Co-Axial Chronometer 34 mm",
+    "reference": "425.30.34.20.55.002",
+    "lugToLugMm": 41.6,
+    "caseMm": 34,
+    "thicknessMm": 11.95,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-de-ville-ladymatic-co-axial-chronometer-34-mm-42530342055002",
         "note": "Manufacturer page: 34 mm diameter, 41.6 mm lug-to-lug, and 11.95 mm thickness. Lug width is not published on this page."
       }
     ]
@@ -20977,6 +20977,321 @@
       {
         "sourceUrl": "https://www.watchadvice.com.au/43889/vacheron-constantin-overseas-dual-time-review-is-it-the-ultimate-luxury-travel-watch-vacheronconstantin2025/",
         "note": "Review context cross-checks the Patrimony line as the brand’s ultra-thin classic around the 40 mm class."
+      }
+    ]
+  },
+  {
+    "id": 1196,
+    "brand": "Montblanc",
+    "model": "Star Legacy Automatic Date 42 mm",
+    "reference": "MB128682",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 9.53,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.montblanc.com/en-ro/montblanc-star-legacy-automatic-date-42-mm-MB128682.html",
+        "note": "Official page lists the Star Legacy Automatic Date 42 mm at a 42 mm case diameter and 9.53 mm thickness."
+      },
+      {
+        "sourceUrl": "https://delugs.com/blogs/best-straps/best-straps-for-montblanc-star-legacy-automatic-date-42",
+        "note": "Delugs lists the MB128682 at 22 mm lug width and 50 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1197,
+    "brand": "Montblanc",
+    "model": "Iced Sea Automatic Date",
+    "reference": "MB130793",
+    "lugToLugMm": 51,
+    "caseMm": 41,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.montblanc.com/en-mt/montblanc-iced-sea-automatic-date-MB130793.html",
+        "note": "Official page lists the Iced Sea Automatic Date MB130793 at 41 mm diameter and 12.9 mm thickness."
+      },
+      {
+        "sourceUrl": "https://www.watchadvice.com.au/11638/montblanc-1858-iced-sea-automatic-date-hands-on-review/",
+        "note": "Hands-on review states the Iced Sea Automatic Date wears with a 51 mm lug-to-lug span."
+      }
+    ]
+  },
+  {
+    "id": 1198,
+    "brand": "Montblanc",
+    "model": "Iced Sea Automatic Date",
+    "reference": "MB129369",
+    "lugToLugMm": 50.5,
+    "caseMm": 41,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.montblanc.com/en-us/montblanc-iced-sea-automatic-date-MB129369VG.html",
+        "note": "Official page lists the Iced Sea Automatic Date MB129369 at 41 mm diameter and 12.9 mm thickness."
+      },
+      {
+        "sourceUrl": "https://everywatch.com/montblanc/1858/129369/watch-30822530",
+        "note": "Dealer listing gives the MB129369 a 50.5 mm lug-to-lug length and 20 mm lugs."
+      }
+    ]
+  },
+  {
+    "id": 1199,
+    "brand": "Montblanc",
+    "model": "1858 Geosphere 0 Oxygen Limited Edition - 1786 pieces",
+    "reference": "MB129415",
+    "lugToLugMm": 52,
+    "caseMm": 42,
+    "thicknessMm": null,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.montblanc.com/en-us/montblanc-1858-geosphere-0-oxygen-limited-edition---1786-pieces-MB129415.html",
+        "note": "Official page confirms the 42 mm bronze 1858 Geosphere 0 Oxygen Limited Edition MB129415."
+      },
+      {
+        "sourceUrl": "https://igormo.com/montblanc-1858-geosphere-0-oxygen-edicion-limitada-1786/",
+        "note": "Review of the 1786-piece 0 Oxygen limited edition gives the case a 52 mm lug-to-lug measurement."
+      }
+    ]
+  },
+  {
+    "id": 1200,
+    "brand": "Montblanc",
+    "model": "1858 Geosphere 0 Oxygen",
+    "reference": "MB133303",
+    "lugToLugMm": 52.3,
+    "caseMm": 42,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 22,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.montblanc.com/en-ca/montblanc-1858-geosphere-0-oxygen-MB133303.html",
+        "note": "Official page lists MB133303 as a 42 mm stainless steel 1858 Geosphere 0 Oxygen with a 12.8 mm case thickness."
+      },
+      {
+        "sourceUrl": "https://www.watchuseek.com/threads/montblanc-1858-geosphere-review.4850655/",
+        "note": "Review of the 1858 Geosphere case family measures the watch at 52.3 mm lug-to-lug; used here as the closest cross-check for the 0 Oxygen case architecture."
+      }
+    ]
+  },
+  {
+    "id": 1201,
+    "brand": "Baume & Mercier",
+    "model": "Clifton Baumatic",
+    "reference": "10467",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.baume-et-mercier.com/gb/en/collections/clifton-men/watch-clifton-10467-date.html",
+        "note": "Official page confirms the Clifton Baumatic 10467 as a 40 mm watch."
+      },
+      {
+        "sourceUrl": "https://www.helveti.eu/baume-mercier-clifton-baumatic-10467",
+        "note": "Helveti lists the 10467 at 40 mm diameter, 11.3 mm height, 20 mm lug width, and 46 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1202,
+    "brand": "Baume & Mercier",
+    "model": "Clifton Baumatic",
+    "reference": "10468",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.baume-et-mercier.com/gb/en/collections/clifton-men/watch-clifton-10468-date.html",
+        "note": "Official page confirms the Clifton Baumatic 10468 as a 40 mm COSC date watch."
+      },
+      {
+        "sourceUrl": "https://www.helveti.eu/baume-amp-mercier-clifton-baumatic-10468",
+        "note": "Helveti lists the 10468 at 40 mm diameter, 11.3 mm height, 20 mm lug width, and 46 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1203,
+    "brand": "Baume & Mercier",
+    "model": "Clifton Baumatic",
+    "reference": "10398",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.baume-et-mercier.com/us/en/collections/clifton-men/watch-clifton-10398-date.html",
+        "note": "Official page confirms the Clifton 10398 as a 40 mm Clifton Baumatic date watch."
+      },
+      {
+        "sourceUrl": "https://www.bezali.com/products/baume-mercier-mens-moa10398-clifton-baumatic-blue-leather-watch",
+        "note": "Bezali lists the 10398 at 40 mm, 10.5 mm thick, with a 46 mm lug-to-lug span and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1204,
+    "brand": "Baume & Mercier",
+    "model": "Clifton Baumatic",
+    "reference": "10469",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 10.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.baume-et-mercier.com/us/en/collections/clifton-men/watch-clifton-10469-date.html",
+        "note": "Official page confirms the Clifton Baumatic 10469 as a 39 mm COSC date watch."
+      },
+      {
+        "sourceUrl": "https://www.helveti.eu/baume-mercier-clifton-baumatic-10469",
+        "note": "Helveti lists the 10469 at 39 mm diameter, 10.7 mm height, 20 mm lug width, and 46 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1205,
+    "brand": "Baume & Mercier",
+    "model": "Clifton Baumatic",
+    "reference": "10518",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.baume-et-mercier.com/gb/en/collections/clifton-men/watch-clifton-10518-date.html",
+        "note": "Official page confirms the Clifton Baumatic 10518 as a 40 mm COSC date watch."
+      },
+      {
+        "sourceUrl": "https://www.helveti.cz/baume-mercier-clifton-baumatic-10518",
+        "note": "Helveti lists the 10518 at 40 mm diameter, 11.3 mm height, 20 mm lug width, and 46 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1206,
+    "brand": "Roger Dubuis",
+    "model": "Excalibur Chronograph 42",
+    "reference": "DBEX0387",
+    "lugToLugMm": 49.3,
+    "caseMm": 42,
+    "thicknessMm": 12.5,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://watch.the1916company.com/videos/roger-dubuis-excalibur-42-dbex0387-review",
+        "note": "The 1916 Company review states the DBEX0387 measures 49.3 mm from lug-to-lug and 12.5 mm thick."
+      },
+      {
+        "sourceUrl": "https://www.wristcheck.com/us/buy/roger-dubuis/excalibur-titanium-skeleton-dial-42mm-dbex0473",
+        "note": "Related Excalibur 42 listings reinforce the 42 mm Excalibur case format used for this chronograph family."
+      }
+    ]
+  },
+  {
+    "id": 1207,
+    "brand": "Roger Dubuis",
+    "model": "Excalibur Chronograph 42",
+    "reference": "DBEX0390",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.6,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://watch.the1916company.com/videos/roger-dubuis-excalibur-chronograph-dbex0390",
+        "note": "The 1916 Company review states the DBEX0390 measures 49.4 mm from lug-to-lug and 12.6 mm thick."
+      },
+      {
+        "sourceUrl": "https://watch.the1916company.com/videos/roger-dubuis-excalibur-42-dbex0387-review",
+        "note": "The DBEX0387 review provides a close same-family cross-check for the Excalibur Chronograph 42 case geometry."
+      }
+    ]
+  },
+  {
+    "id": 1208,
+    "brand": "Roger Dubuis",
+    "model": "Excalibur Monobalancier Titanium",
+    "reference": "DBEX0956",
+    "lugToLugMm": 52,
+    "caseMm": 42,
+    "thicknessMm": 12,
+    "lugWidthMm": null,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/hands-on-roger-dubuis-excalibur-monobalancier-titanium/",
+        "note": "Fratello identifies the DBEX0956 as a 42 mm Excalibur Titanium watch and places the case family at roughly 52 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/review-roger-dubuis-excalibur-tourbillon-and-monobalancier-watches/",
+        "note": "aBlogtoWatch reviews the DBEX0956 and DBEX1112 together, confirming they share the same Excalibur Titanium case and bracelet architecture."
+      }
+    ]
+  },
+  {
+    "id": 1209,
+    "brand": "Roger Dubuis",
+    "model": "Excalibur Monotourbillon Titanium",
+    "reference": "DBEX1112",
+    "lugToLugMm": 52,
+    "caseMm": 42,
+    "thicknessMm": 12.62,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/roger-dubuis-excalibur-monotourbillon-titanium/",
+        "note": "Fratello states the DBEX1112 is 42 mm wide, 12.62 mm thick, and 52 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/review-roger-dubuis-excalibur-tourbillon-and-monobalancier-watches/",
+        "note": "aBlogtoWatch confirms the DBEX1112 shares the same Excalibur Titanium case and bracelet as the DBEX0956."
+      }
+    ]
+  },
+  {
+    "id": 1210,
+    "brand": "Roger Dubuis",
+    "model": "Excalibur Monobalancier Black Ceramic",
+    "reference": "RDDBEX0955",
+    "lugToLugMm": 49,
+    "caseMm": 42,
+    "thicknessMm": null,
+    "lugWidthMm": null,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.rogerdubuis.com/il-en/watches/excalibur/monobalancier-black-ceramic-42mm-rddbex0955",
+        "note": "Official page confirms the RDDBEX0955 as a 42 mm Excalibur Monobalancier Black Ceramic."
+      },
+      {
+        "sourceUrl": "https://www.watchtime.com/brands/luxury-watches/hands-on-with-the-new-roger-dubuis-excalibur-blacklight-monobalancier-and-some-thoughts-on-the-brand",
+        "note": "WatchTime places the closely related 42 mm Excalibur Monobalancier family at just about 49 mm lug-to-lug; used here as the nearest case-family cross-check."
       }
     ]
   }

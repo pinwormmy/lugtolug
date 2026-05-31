@@ -2583,3 +2583,56 @@ VALUES
 (1392, 1195, 'https://www.vacheron-constantin.com/sg/en/collections/patrimony/85180-000r-b515.html', 'Official page lists the Patrimony Self-Winding 85180/000R-B515 at 40 mm diameter and 8.55 mm thickness.'),
 (1393, 1195, 'https://timeandtidewatches.com/vacheron-constantin-patrimony-self-winding-hands-on/', 'Hands-on review says the Patrimony Self-Winding wears with a 47 mm lug-to-lug span.'),
 (1394, 1195, 'https://www.watchadvice.com.au/43889/vacheron-constantin-overseas-dual-time-review-is-it-the-ultimate-luxury-travel-watch-vacheronconstantin2025/', 'Review context cross-checks the Patrimony line as the brand’s ultra-thin classic around the 40 mm class.');
+
+
+INSERT OR IGNORE INTO watches
+(id, brand, model, reference, brand_slug, model_slug, reference_slug, search_text, lug_to_lug_mm, case_mm, thickness_mm, lug_width_mm, confidence, status)
+VALUES
+(1196, 'Montblanc', 'Star Legacy Automatic Date 42 mm', 'MB128682', 'montblanc', 'star-legacy-automatic-date-42-mm', 'mb128682', 'montblanc star legacy automatic date 42 mm mb128682', 50, 42, 9.53, 22, 'high', 'approved'),
+(1197, 'Montblanc', 'Iced Sea Automatic Date', 'MB130793', 'montblanc', 'iced-sea-automatic-date', 'mb130793', 'montblanc iced sea automatic date mb130793', 51, 41, 12.9, 20, 'high', 'approved'),
+(1198, 'Montblanc', 'Iced Sea Automatic Date', 'MB129369', 'montblanc', 'iced-sea-automatic-date', 'mb129369', 'montblanc iced sea automatic date mb129369', 50.5, 41, 12.9, 20, 'high', 'approved'),
+(1199, 'Montblanc', '1858 Geosphere 0 Oxygen Limited Edition - 1786 pieces', 'MB129415', 'montblanc', '1858-geosphere-0-oxygen-limited-edition-1786-pieces', 'mb129415', 'montblanc 1858 geosphere 0 oxygen limited edition 1786 pieces mb129415', 52, 42, NULL, 22, 'medium', 'approved'),
+(1200, 'Montblanc', '1858 Geosphere 0 Oxygen', 'MB133303', 'montblanc', '1858-geosphere-0-oxygen', 'mb133303', 'montblanc 1858 geosphere 0 oxygen mb133303', 52.3, 42, 12.8, 22, 'medium', 'approved'),
+(1201, 'Baume & Mercier', 'Clifton Baumatic', '10467', 'baume-and-mercier', 'clifton-baumatic', '10467', 'baume mercier clifton baumatic 10467', 46, 40, 11.3, 20, 'high', 'approved'),
+(1202, 'Baume & Mercier', 'Clifton Baumatic', '10468', 'baume-and-mercier', 'clifton-baumatic', '10468', 'baume mercier clifton baumatic 10468', 46, 40, 11.3, 20, 'high', 'approved'),
+(1203, 'Baume & Mercier', 'Clifton Baumatic', '10398', 'baume-and-mercier', 'clifton-baumatic', '10398', 'baume mercier clifton baumatic 10398', 46, 40, 10.5, 20, 'high', 'approved'),
+(1204, 'Baume & Mercier', 'Clifton Baumatic', '10469', 'baume-and-mercier', 'clifton-baumatic', '10469', 'baume mercier clifton baumatic 10469', 46, 39, 10.7, 20, 'high', 'approved'),
+(1205, 'Baume & Mercier', 'Clifton Baumatic', '10518', 'baume-and-mercier', 'clifton-baumatic', '10518', 'baume mercier clifton baumatic 10518', 46, 40, 11.3, 20, 'high', 'approved'),
+(1206, 'Roger Dubuis', 'Excalibur Chronograph 42', 'DBEX0387', 'roger-dubuis', 'excalibur-chronograph-42', 'dbex0387', 'roger dubuis excalibur chronograph 42 dbex0387', 49.3, 42, 12.5, NULL, 'high', 'approved'),
+(1207, 'Roger Dubuis', 'Excalibur Chronograph 42', 'DBEX0390', 'roger-dubuis', 'excalibur-chronograph-42', 'dbex0390', 'roger dubuis excalibur chronograph 42 dbex0390', 49.4, 42, 12.6, NULL, 'high', 'approved'),
+(1208, 'Roger Dubuis', 'Excalibur Monobalancier Titanium', 'DBEX0956', 'roger-dubuis', 'excalibur-monobalancier-titanium', 'dbex0956', 'roger dubuis excalibur monobalancier titanium dbex0956', 52, 42, 12, NULL, 'medium', 'approved'),
+(1209, 'Roger Dubuis', 'Excalibur Monotourbillon Titanium', 'DBEX1112', 'roger-dubuis', 'excalibur-monotourbillon-titanium', 'dbex1112', 'roger dubuis excalibur monotourbillon titanium dbex1112', 52, 42, 12.62, NULL, 'high', 'approved'),
+(1210, 'Roger Dubuis', 'Excalibur Monobalancier Black Ceramic', 'RDDBEX0955', 'roger-dubuis', 'excalibur-monobalancier-black-ceramic', 'rddbex0955', 'roger dubuis excalibur monobalancier black ceramic rddbex0955', 49, 42, NULL, NULL, 'medium', 'approved');
+
+INSERT OR IGNORE INTO watch_sources (id, watch_id, source_url, note)
+VALUES
+(1395, 1196, 'https://www.montblanc.com/en-ro/montblanc-star-legacy-automatic-date-42-mm-MB128682.html', 'Official page lists the Star Legacy Automatic Date 42 mm at a 42 mm case diameter and 9.53 mm thickness.'),
+(1396, 1196, 'https://delugs.com/blogs/best-straps/best-straps-for-montblanc-star-legacy-automatic-date-42', 'Delugs lists the MB128682 at 22 mm lug width and 50 mm lug-to-lug.'),
+(1397, 1197, 'https://www.montblanc.com/en-mt/montblanc-iced-sea-automatic-date-MB130793.html', 'Official page lists the Iced Sea Automatic Date MB130793 at 41 mm diameter and 12.9 mm thickness.'),
+(1398, 1197, 'https://www.watchadvice.com.au/11638/montblanc-1858-iced-sea-automatic-date-hands-on-review/', 'Hands-on review states the Iced Sea Automatic Date wears with a 51 mm lug-to-lug span.'),
+(1399, 1198, 'https://www.montblanc.com/en-us/montblanc-iced-sea-automatic-date-MB129369VG.html', 'Official page lists the Iced Sea Automatic Date MB129369 at 41 mm diameter and 12.9 mm thickness.'),
+(1400, 1198, 'https://everywatch.com/montblanc/1858/129369/watch-30822530', 'Dealer listing gives the MB129369 a 50.5 mm lug-to-lug length and 20 mm lugs.'),
+(1401, 1199, 'https://www.montblanc.com/en-us/montblanc-1858-geosphere-0-oxygen-limited-edition---1786-pieces-MB129415.html', 'Official page confirms the 42 mm bronze 1858 Geosphere 0 Oxygen Limited Edition MB129415.'),
+(1402, 1199, 'https://igormo.com/montblanc-1858-geosphere-0-oxygen-edicion-limitada-1786/', 'Review of the 1786-piece 0 Oxygen limited edition gives the case a 52 mm lug-to-lug measurement.'),
+(1403, 1200, 'https://www.montblanc.com/en-ca/montblanc-1858-geosphere-0-oxygen-MB133303.html', 'Official page lists MB133303 as a 42 mm stainless steel 1858 Geosphere 0 Oxygen with a 12.8 mm case thickness.'),
+(1404, 1200, 'https://www.watchuseek.com/threads/montblanc-1858-geosphere-review.4850655/', 'Review of the 1858 Geosphere case family measures the watch at 52.3 mm lug-to-lug; used here as the closest cross-check for the 0 Oxygen case architecture.'),
+(1405, 1201, 'https://www.baume-et-mercier.com/gb/en/collections/clifton-men/watch-clifton-10467-date.html', 'Official page confirms the Clifton Baumatic 10467 as a 40 mm watch.'),
+(1406, 1201, 'https://www.helveti.eu/baume-mercier-clifton-baumatic-10467', 'Helveti lists the 10467 at 40 mm diameter, 11.3 mm height, 20 mm lug width, and 46 mm lug-to-lug.'),
+(1407, 1202, 'https://www.baume-et-mercier.com/gb/en/collections/clifton-men/watch-clifton-10468-date.html', 'Official page confirms the Clifton Baumatic 10468 as a 40 mm COSC date watch.'),
+(1408, 1202, 'https://www.helveti.eu/baume-amp-mercier-clifton-baumatic-10468', 'Helveti lists the 10468 at 40 mm diameter, 11.3 mm height, 20 mm lug width, and 46 mm lug-to-lug.'),
+(1409, 1203, 'https://www.baume-et-mercier.com/us/en/collections/clifton-men/watch-clifton-10398-date.html', 'Official page confirms the Clifton 10398 as a 40 mm Clifton Baumatic date watch.'),
+(1410, 1203, 'https://www.bezali.com/products/baume-mercier-mens-moa10398-clifton-baumatic-blue-leather-watch', 'Bezali lists the 10398 at 40 mm, 10.5 mm thick, with a 46 mm lug-to-lug span and 20 mm lug width.'),
+(1411, 1204, 'https://www.baume-et-mercier.com/us/en/collections/clifton-men/watch-clifton-10469-date.html', 'Official page confirms the Clifton Baumatic 10469 as a 39 mm COSC date watch.'),
+(1412, 1204, 'https://www.helveti.eu/baume-mercier-clifton-baumatic-10469', 'Helveti lists the 10469 at 39 mm diameter, 10.7 mm height, 20 mm lug width, and 46 mm lug-to-lug.'),
+(1413, 1205, 'https://www.baume-et-mercier.com/gb/en/collections/clifton-men/watch-clifton-10518-date.html', 'Official page confirms the Clifton Baumatic 10518 as a 40 mm COSC date watch.'),
+(1414, 1205, 'https://www.helveti.cz/baume-mercier-clifton-baumatic-10518', 'Helveti lists the 10518 at 40 mm diameter, 11.3 mm height, 20 mm lug width, and 46 mm lug-to-lug.'),
+(1415, 1206, 'https://watch.the1916company.com/videos/roger-dubuis-excalibur-42-dbex0387-review', 'The 1916 Company review states the DBEX0387 measures 49.3 mm from lug-to-lug and 12.5 mm thick.'),
+(1416, 1206, 'https://www.wristcheck.com/us/buy/roger-dubuis/excalibur-titanium-skeleton-dial-42mm-dbex0473', 'Related Excalibur 42 listings reinforce the 42 mm Excalibur case format used for this chronograph family.'),
+(1417, 1207, 'https://watch.the1916company.com/videos/roger-dubuis-excalibur-chronograph-dbex0390', 'The 1916 Company review states the DBEX0390 measures 49.4 mm from lug-to-lug and 12.6 mm thick.'),
+(1418, 1207, 'https://watch.the1916company.com/videos/roger-dubuis-excalibur-42-dbex0387-review', 'The DBEX0387 review provides a close same-family cross-check for the Excalibur Chronograph 42 case geometry.'),
+(1419, 1208, 'https://www.fratellowatches.com/hands-on-roger-dubuis-excalibur-monobalancier-titanium/', 'Fratello identifies the DBEX0956 as a 42 mm Excalibur Titanium watch and places the case family at roughly 52 mm lug-to-lug.'),
+(1420, 1208, 'https://www.ablogtowatch.com/review-roger-dubuis-excalibur-tourbillon-and-monobalancier-watches/', 'aBlogtoWatch reviews the DBEX0956 and DBEX1112 together, confirming they share the same Excalibur Titanium case and bracelet architecture.'),
+(1421, 1209, 'https://www.fratellowatches.com/roger-dubuis-excalibur-monotourbillon-titanium/', 'Fratello states the DBEX1112 is 42 mm wide, 12.62 mm thick, and 52 mm lug-to-lug.'),
+(1422, 1209, 'https://www.ablogtowatch.com/review-roger-dubuis-excalibur-tourbillon-and-monobalancier-watches/', 'aBlogtoWatch confirms the DBEX1112 shares the same Excalibur Titanium case and bracelet as the DBEX0956.'),
+(1423, 1210, 'https://www.rogerdubuis.com/il-en/watches/excalibur/monobalancier-black-ceramic-42mm-rddbex0955', 'Official page confirms the RDDBEX0955 as a 42 mm Excalibur Monobalancier Black Ceramic.'),
+(1424, 1210, 'https://www.watchtime.com/brands/luxury-watches/hands-on-with-the-new-roger-dubuis-excalibur-blacklight-monobalancier-and-some-thoughts-on-the-brand', 'WatchTime places the closely related 42 mm Excalibur Monobalancier family at just about 49 mm lug-to-lug; used here as the nearest case-family cross-check.');
