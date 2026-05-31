@@ -20529,5 +20529,205 @@
         "note": "Hands-on review cross-checks the DS Super PH500M at 43 mm diameter, 14.95 mm thickness, and approximately 48.5 mm lug-to-lug."
       }
     ]
+  },
+  {
+    "id": 1178,
+    "brand": "Cartier",
+    "model": "Santos de Cartier Large Green Dial",
+    "reference": "WSSA0062",
+    "lugToLugMm": 47.5,
+    "caseMm": 39.8,
+    "thicknessMm": 9.38,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://int.cartier.com/en/collections/watches/choose-your-watch/by-material/steel-watches/wssa0062-santos-de-cartier-watch.html",
+        "note": "Official product page lists the Santos Large WSSA0062 case width at 39.8 mm and thickness at 9.38 mm."
+      },
+      {
+        "sourceUrl": "https://www.watchadvice.com.au/29669/review-hands-on-with-the-santos-de-cartier/",
+        "note": "Review cross-checks the Santos de Cartier Large at 39.8 mm wide and 47.5 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watchmydiamonds.com/blog/post/cartier-santos-medium-vs-large/",
+        "note": "Sizing article repeats the Large Santos case at 39.8 mm wide and 47.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1179,
+    "brand": "Cartier",
+    "model": "Santos de Cartier Large Blue Dial",
+    "reference": "WSSA0030",
+    "lugToLugMm": 47.5,
+    "caseMm": 39.8,
+    "thicknessMm": 9.08,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.cartier.com/ru-ru/watches/watches-for-men/santos-de-cartier/santos-de-cartier-watch-wssa0030",
+        "note": "Official product page lists the Santos Large WSSA0030 case width at 39.8 mm and thickness at 9.08 mm."
+      },
+      {
+        "sourceUrl": "https://www.watchadvice.com.au/29669/review-hands-on-with-the-santos-de-cartier/",
+        "note": "Review cross-checks the Santos de Cartier Large geometry at 39.8 mm wide and 47.5 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watchmydiamonds.com/blog/post/cartier-santos-medium-vs-large/",
+        "note": "Sizing article repeats the Large Santos case at 39.8 mm wide and 47.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1180,
+    "brand": "Cartier",
+    "model": "Santos de Cartier Large Blue PVD",
+    "reference": "WSSA0047",
+    "lugToLugMm": 47.5,
+    "caseMm": 39.8,
+    "thicknessMm": 9.37,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.cartier.com/ru-ru/watches/watches-for-men/santos-de-cartier/chasy-santos-de-cartier-2",
+        "note": "Official product page for WSSA0047 lists the Santos Large case width at 39.8 mm and thickness at 9.37 mm."
+      },
+      {
+        "sourceUrl": "https://www.watchadvice.com.au/29669/review-hands-on-with-the-santos-de-cartier/",
+        "note": "Review cross-checks the Santos de Cartier Large at 39.8 mm wide and 47.5 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watchmydiamonds.com/blog/post/cartier-santos-medium-vs-large/",
+        "note": "Sizing article repeats the Large Santos case at 39.8 mm wide and 47.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1181,
+    "brand": "Cartier",
+    "model": "Santos de Cartier Large Titanium",
+    "reference": "WSSA0089",
+    "lugToLugMm": 47.5,
+    "caseMm": 39.8,
+    "thicknessMm": 9.38,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.cartier.com/es-es/watches/collections/santos-de-cartier/reloj-santos-de-cartier-CRWSSA0089",
+        "note": "Official product page lists the Santos Large WSSA0089 case width at 39.8 mm and thickness at 9.38 mm."
+      },
+      {
+        "sourceUrl": "https://www.watchadvice.com.au/29669/review-hands-on-with-the-santos-de-cartier/",
+        "note": "Review cross-checks the Santos de Cartier Large at 39.8 mm wide and 47.5 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watchmydiamonds.com/blog/post/cartier-santos-medium-vs-large/",
+        "note": "Sizing article repeats the Large Santos case at 39.8 mm wide and 47.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1182,
+    "brand": "IWC",
+    "model": "Ingenieur Automatic 40",
+    "reference": "IW328901",
+    "lugToLugMm": 45.7,
+    "caseMm": 40,
+    "thicknessMm": 10.8,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://press.iwc.com/iwc-schaffhausen-revisits-gerald-gentas-iconic-design-with-the-new-ingenieur-automatic-40-en/",
+        "note": "IWC press release states the Ingenieur Automatic 40 has a 45.7 mm lug-to-lug distance and a 40 mm case."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/iwc-ingenieur-automatic-40-integrated-bracelet-genta-design-iw3289-review-2023-live-pics-price/",
+        "note": "Hands-on coverage repeats the 45.7 mm lug-to-lug measurement and the 40 mm case size."
+      },
+      {
+        "sourceUrl": "https://timeandtidewatches.com/iwc-ingenieur-automatic-40-hands-on/",
+        "note": "Hands-on review confirms the 45.7 mm lug-to-lug and 10.8 mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 1183,
+    "brand": "Panerai",
+    "model": "Luminor Marina Titanio 44mm Green Dial",
+    "reference": "PAM03325",
+    "lugToLugMm": 54,
+    "caseMm": 44,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 24,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.panerai.com/en/collections/watch-collection/luminor/pam03325-luminor-marina.html",
+        "note": "Official Panerai page identifies PAM03325 as a 44 mm Luminor Marina Titanio."
+      },
+      {
+        "sourceUrl": "https://www.bernardwatch.com/watch/PAN2674",
+        "note": "Dealer listing describes the PAM03325 case as 44 mm wide and 54 mm high, with 13.6 mm thickness and 24 mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.chrono24.com/panerai/ref-pam03325.htm",
+        "note": "Marketplace listings for PAM03325 consistently describe the 44 mm Luminor Marina Titanio case geometry."
+      }
+    ]
+  },
+  {
+    "id": 1184,
+    "brand": "A. Lange & Söhne",
+    "model": "Saxonia Thin",
+    "reference": "205.086",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 6.2,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.alange-soehne.com/us-en/timepieces/saxonia/saxonia-thin/saxonia-thin-in-750-white-gold-205-086",
+        "note": "Official page lists the 205.086 Saxonia Thin at 39 mm diameter, 6.2 mm thickness, and 20 mm between lugs."
+      },
+      {
+        "sourceUrl": "https://watch.the1916company.com/videos/a-lange-sohne-saxonia-thin-205-086",
+        "note": "Review lists the Saxonia Thin 205.086 at 45.1 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://delugs.com/blogs/best-straps/best-straps-for-a-lange-sohne-saxonia-thin",
+        "note": "Strap guide cross-checks the Saxonia Thin at roughly 46 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1185,
+    "brand": "A. Lange & Söhne",
+    "model": "1815 Chronograph",
+    "reference": "414.031",
+    "lugToLugMm": 48.4,
+    "caseMm": 39.5,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.alange-soehne.com/us-en/timepieces/1815/1815-chronograph/1815-chronograph-in-750-pink-gold-414-031",
+        "note": "Official page lists the 1815 Chronograph at 39.5 mm diameter and 11 mm height."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/hands-on-video-with-the-a-lange-sohne-1815-chronograph/",
+        "note": "Hands-on coverage lists the 1815 Chronograph at 48 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://langepedia.com/a-lange-sohne-1815/lange-1815-chronograph/",
+        "note": "Collector guide gives the 1815 Chronograph a 48.4 mm lug-to-lug measurement."
+      }
+    ]
   }
 ]
