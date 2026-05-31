@@ -2636,3 +2636,28 @@ VALUES
 (1422, 1209, 'https://www.ablogtowatch.com/review-roger-dubuis-excalibur-tourbillon-and-monobalancier-watches/', 'aBlogtoWatch confirms the DBEX1112 shares the same Excalibur Titanium case and bracelet as the DBEX0956.'),
 (1423, 1210, 'https://www.rogerdubuis.com/il-en/watches/excalibur/monobalancier-black-ceramic-42mm-rddbex0955', 'Official page confirms the RDDBEX0955 as a 42 mm Excalibur Monobalancier Black Ceramic.'),
 (1424, 1210, 'https://www.watchtime.com/brands/luxury-watches/hands-on-with-the-new-roger-dubuis-excalibur-blacklight-monobalancier-and-some-thoughts-on-the-brand', 'WatchTime places the closely related 42 mm Excalibur Monobalancier family at just about 49 mm lug-to-lug; used here as the nearest case-family cross-check.');
+
+INSERT OR IGNORE INTO watches
+(id, brand, model, reference, brand_slug, model_slug, reference_slug, search_text, lug_to_lug_mm, case_mm, thickness_mm, lug_width_mm, confidence, status)
+VALUES
+(1211, 'TAG Heuer', 'Formula 1 Chronograph x Oracle Red Bull Racing', 'CBZ2080.FT8091', 'tag-heuer', 'formula-1-chronograph-x-oracle-red-bull-racing', 'cbz2080-ft8091', 'tag heuer formula 1 chronograph x oracle red bull racing cbz2080 ft8091', 47.3, 44, 14.5, NULL, 'high', 'approved'),
+(1212, 'Zenith', 'Chronomaster Sport', '03.3114.3600/51.M3100', 'zenith', 'chronomaster-sport', '03-3114-3600-51-m3100', 'zenith chronomaster sport 03.3114.3600/51.m3100', 47, 41, 13.6, 20, 'high', 'approved'),
+(1213, 'Zenith', 'Defy Skyline', '18.9300.3620/81.I001', 'zenith', 'defy-skyline', '18-9300-3620-81-i001', 'zenith defy skyline 18.9300.3620/81.i001', 46.3, 41, 11.6, NULL, 'high', 'approved'),
+(1214, 'Zenith', 'Defy Skyline Chronograph', '18.9500.3600/21.I001', 'zenith', 'defy-skyline-chronograph', '18-9500-3600-21-i001', 'zenith defy skyline chronograph 18.9500.3600/21.i001', 47.4, 42, 12.7, NULL, 'high', 'approved'),
+(1215, 'Zenith', 'Pilot Big Date Flyback 160th Anniversary Edition', '49.3102.3600.51.M3100', 'zenith', 'pilot-big-date-flyback-160th-anniversary-edition', '49-3102-3600-51-m3100', 'zenith pilot big date flyback 160th anniversary edition 49.3102.3600.51.m3100', 52, 42.5, 14.25, NULL, 'high', 'approved'),
+(1216, 'Zenith', 'Chronomaster Original Triple Calendar Lapis Lazuli', '03.3400.3610/51.C910', 'zenith', 'chronomaster-original-triple-calendar-lapis-lazuli', '03-3400-3610-51-c910', 'zenith chronomaster original triple calendar lapis lazuli 03.3400.3610/51.c910', 46, 38, 14, NULL, 'high', 'approved');
+
+INSERT OR IGNORE INTO watch_sources (id, watch_id, source_url, note)
+VALUES
+(1425, 1211, 'https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-formula-1/44-mm-calibre-16-automatic/CBZ2080.FT8091.html', 'Official TAG Heuer page lists the Formula 1 Chronograph x Oracle Red Bull Racing as a 44 mm titanium watch.'),
+(1426, 1211, 'https://monochrome-watches.com/tag-heuer-formula-1-collection-f1-2025-mechanical-chronograph-calibre-16-oracle-red-bull-racing-video-review-price/', 'Monochrome measures the new Formula 1 at 47.3 mm lug-to-lug.'),
+(1427, 1212, 'https://pressroom.zenith-watches.com/2023/10/10/zenith-adds-a-new-reference-to-the-chronomaster-sport-line-in-steel-with-a-metallic-blue-dial/', 'Official pressroom article gives the Chronomaster Sport family technical specifications.'),
+(1428, 1212, 'https://monochrome-watches.com/zenith-chronomaster-sport-polished-steel-bezel-metallic-blue-dial-tricolour-2023-hands-on-review-video-specs-price/', 'Monochrome lists the Chronomaster Sport at 47 mm lug-to-lug and 13.6 mm thick.'),
+(1429, 1213, 'https://pressroom.zenith-watches.com/app/uploads/2022/01/ZENITH_DEFY-SKYLINE_ENG.pdf', 'Official Defy Skyline press release lists the 41 mm case and 11.6 mm thickness.'),
+(1430, 1213, 'https://monochrome-watches.com/zenith-defy-skyline-models-full-gold-collection-2025-price-introducing', 'Monochrome gives the Defy Skyline family a 46.3 mm lug-to-lug measurement.'),
+(1431, 1214, 'https://pressroom.zenith-watches.com/2024/04/09/stellar-alignment-zenith-introduces-the-long-awaited-defy-skyline-chronograph/', 'Official Defy Skyline Chronograph press release gives the 42 mm case.'),
+(1432, 1214, 'https://monochrome-watches.com/zenith-defy-skyline-models-full-gold-collection-2025-price-introducing', 'Monochrome places the Defy Skyline Chronograph at 47.4 mm lug-to-lug.'),
+(1433, 1215, 'https://pressroom.zenith-watches.com/app/uploads/2025/03/PR_EN_BLUE_CERAMIC_CHRONOGRAPH_TRILOGY_49.4002.3652.51.I009_-49.9502.3600.51.I001_49.3102.3600.51.M3100.pdf', 'Official trilogy PDF lists the Pilot Big Date Flyback at 42.5 mm with a 52 mm lug-to-lug span.'),
+(1434, 1215, 'https://monochrome-watches.com/zenith-blue-ceramic-trilogy-review-chronomaster-sport-blue-ceramic-defy-skyline-chronorgaph-pilot-big-date-flyback-price/', 'Monochrome repeats the Pilot Big Date Flyback at 52 mm lug-to-lug and 14.25 mm thick.'),
+(1435, 1216, 'https://pressroom.zenith-watches.com/app/uploads/2025/05/PR_EN_CHRONOMASTER_ORIGINAL_TRIPLE_CALENDAR_LAPIS_03.3400.361051.C910.pdf', 'Official press release lists the Chronomaster Original Triple Calendar Lapis Lazuli at 38 mm with a 46 mm lug-to-lug.'),
+(1436, 1216, 'https://monochrome-watches.com/zenith-chronomaster-original-triple-calendar-lapis-lazuli-dial-stone-review-price/', 'Monochrome describes the 38 mm Triple Calendar as a compact 46 mm lug-to-lug watch.');

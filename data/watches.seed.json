@@ -21295,4 +21295,131 @@
       }
     ]
   }
+  ,
+  {
+    "id": 1211,
+    "brand": "TAG Heuer",
+    "model": "Formula 1 Chronograph x Oracle Red Bull Racing",
+    "reference": "CBZ2080.FT8091",
+    "lugToLugMm": 47.3,
+    "caseMm": 44,
+    "thicknessMm": 14.5,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-formula-1/44-mm-calibre-16-automatic/CBZ2080.FT8091.html",
+        "note": "Official TAG Heuer page lists the 44 mm Formula 1 Chronograph x Oracle Red Bull Racing in titanium."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/tag-heuer-formula-1-collection-f1-2025-mechanical-chronograph-calibre-16-oracle-red-bull-racing-video-review-price/",
+        "note": "Monochrome measures the new Formula 1 at 47.3 mm lug-to-lug and 14.1 mm thick."
+      }
+    ]
+  },
+  {
+    "id": 1212,
+    "brand": "Zenith",
+    "model": "Chronomaster Sport",
+    "reference": "03.3114.3600/51.M3100",
+    "lugToLugMm": 47,
+    "caseMm": 41,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://pressroom.zenith-watches.com/2023/10/10/zenith-adds-a-new-reference-to-the-chronomaster-sport-line-in-steel-with-a-metallic-blue-dial/",
+        "note": "Official pressroom article for the blue-dial Chronomaster Sport gives the 41 mm case and technical specs."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/zenith-chronomaster-sport-polished-steel-bezel-metallic-blue-dial-tricolour-2023-hands-on-review-video-specs-price/",
+        "note": "Monochrome lists the Chronomaster Sport at 47 mm lug-to-lug and 13.6 mm thick."
+      }
+    ]
+  },
+  {
+    "id": 1213,
+    "brand": "Zenith",
+    "model": "Defy Skyline",
+    "reference": "18.9300.3620/81.I001",
+    "lugToLugMm": 46.3,
+    "caseMm": 41,
+    "thicknessMm": 11.6,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://pressroom.zenith-watches.com/app/uploads/2022/01/ZENITH_DEFY-SKYLINE_ENG.pdf",
+        "note": "Official Defy Skyline press release lists the 41 mm case and 11.6 mm thickness."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/zenith-defy-skyline-models-full-gold-collection-2025-price-introducing",
+        "note": "Monochrome gives the Defy Skyline family a 46.3 mm lug-to-lug measurement."
+      }
+    ]
+  },
+  {
+    "id": 1214,
+    "brand": "Zenith",
+    "model": "Defy Skyline Chronograph",
+    "reference": "18.9500.3600/21.I001",
+    "lugToLugMm": 47.4,
+    "caseMm": 42,
+    "thicknessMm": 12.7,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://pressroom.zenith-watches.com/2024/04/09/stellar-alignment-zenith-introduces-the-long-awaited-defy-skyline-chronograph/",
+        "note": "Official press release gives the 42 mm Defy Skyline Chronograph case."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/zenith-defy-skyline-models-full-gold-collection-2025-price-introducing",
+        "note": "Monochrome places the Defy Skyline Chronograph at 47.4 mm lug-to-lug and 12.7 mm thick."
+      }
+    ]
+  },
+  {
+    "id": 1215,
+    "brand": "Zenith",
+    "model": "Pilot Big Date Flyback 160th Anniversary Edition",
+    "reference": "49.3102.3600.51.M3100",
+    "lugToLugMm": 52,
+    "caseMm": 42.5,
+    "thicknessMm": 14.25,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://pressroom.zenith-watches.com/app/uploads/2025/03/PR_EN_BLUE_CERAMIC_CHRONOGRAPH_TRILOGY_49.4002.3652.51.I009_-49.9502.3600.51.I001_49.3102.3600.51.M3100.pdf",
+        "note": "Official trilogy PDF lists the Pilot Big Date Flyback at 42.5 mm with a 52 mm lug-to-lug span."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/zenith-blue-ceramic-trilogy-review-chronomaster-sport-blue-ceramic-defy-skyline-chronorgaph-pilot-big-date-flyback-price/",
+        "note": "Monochrome’s quick facts repeat the 52 mm lug-to-lug and 14.25 mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 1216,
+    "brand": "Zenith",
+    "model": "Chronomaster Original Triple Calendar Lapis Lazuli",
+    "reference": "03.3400.3610/51.C910",
+    "lugToLugMm": 46,
+    "caseMm": 38,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://pressroom.zenith-watches.com/app/uploads/2025/05/PR_EN_CHRONOMASTER_ORIGINAL_TRIPLE_CALENDAR_LAPIS_03.3400.361051.C910.pdf",
+        "note": "Official press release lists the Chronomaster Original Triple Calendar Lapis Lazuli at 38 mm with a 46 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/zenith-chronomaster-original-triple-calendar-lapis-lazuli-dial-stone-review-price/",
+        "note": "Monochrome describes the 38 mm Triple Calendar as a compact 46 mm lug-to-lug watch."
+      }
+    ]
+  }
 ]
