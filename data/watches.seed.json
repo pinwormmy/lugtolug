@@ -20729,5 +20729,255 @@
         "note": "Collector guide gives the 1815 Chronograph a 48.4 mm lug-to-lug measurement."
       }
     ]
+  },
+  {
+    "id": 1186,
+    "brand": "Jaeger-LeCoultre",
+    "model": "Reverso Tribute Monoface Small Seconds",
+    "reference": "Q397843J",
+    "lugToLugMm": 45.6,
+    "caseMm": 27.4,
+    "thicknessMm": 8.51,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/reverso/reverso-tribute/reverso-tribute-monoface-small-seconds-stainless-steel-q397848j",
+        "note": "Official page lists the Reverso Tribute Monoface Small Seconds at 45.6 x 27.4 mm and 8.51 mm thick."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/jaeger-lecoultre-reverso-tribute-small-seconds-in-green-introducing",
+        "note": "Introducing coverage repeats the reversible case at 45.6 x 27.4 mm and 8.5 mm thick."
+      },
+      {
+        "sourceUrl": "https://www.timeandwatches.com/2019/01/sihh-2019-jaeger-lecoultre-reverso.html",
+        "note": "Launch coverage cross-checks the 45.6 x 27.4 mm case dimensions and 8.5 mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 1187,
+    "brand": "Jaeger-LeCoultre",
+    "model": "Reverso Tribute Duoface Small Seconds",
+    "reference": "Q398847J",
+    "lugToLugMm": 47,
+    "caseMm": 28.3,
+    "thicknessMm": 10.34,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/reverso/reverso-tribute/reverso-tribute-duoface-small-seconds-q398847j",
+        "note": "Official page lists the Reverso Tribute Duoface Small Seconds at 47 x 28.3 mm and 10.34 mm thick."
+      },
+      {
+        "sourceUrl": "https://press.jaeger-lecoultre.com/reverso-tribute--duoface-small-seconds/",
+        "note": "Press release repeats the 47 x 28.3 mm dimensions and 10.34 mm thickness."
+      },
+      {
+        "sourceUrl": "https://www.jaeger-lecoultre.com/ru-ru/watches/reverso/reverso-tribute/reverso-tribute-duoface-small-seconds-q398847j",
+        "note": "Regional product page repeats the 47 x 28.3 mm case dimensions."
+      }
+    ]
+  },
+  {
+    "id": 1188,
+    "brand": "Jaeger-LeCoultre",
+    "model": "Polaris Chronograph",
+    "reference": "Q9028471",
+    "lugToLugMm": 48.5,
+    "caseMm": 42,
+    "thicknessMm": 11.92,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.jaeger-lecoultre.com/eu-es/watches/polaris/polaris-chronograph-stainless-steel-q9028471",
+        "note": "Official page lists the Polaris Chronograph at 42 mm diameter and 11.92 mm thickness."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/the-jaeger-lecoultre-polaris-chronograph",
+        "note": "Hands-on review measures the Polaris Chronograph at 48.5 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.timeandtidewatches.com/jaeger-lecoultre-polaris-chronograph-ocean-grey-introducing/",
+        "note": "Introducing coverage cross-checks the current Polaris Chronograph case family and dimensions."
+      }
+    ]
+  },
+  {
+    "id": 1189,
+    "brand": "Jaeger-LeCoultre",
+    "model": "Master Control Date",
+    "reference": "Q4018420",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.78,
+    "lugWidthMm": 20,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/master-control/master-control-date-stainless-steel-q4018420",
+        "note": "Official page lists the Master Control Date at 40 mm diameter and 8.78 mm thickness."
+      },
+      {
+        "sourceUrl": "https://watchspecs.com/watches/jlc-master-control-date-4018420",
+        "note": "Spec database lists the Master Control Date at 47 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.watchswiss.com/product/jaeger-lecoultre-master-control-date-4018420/",
+        "note": "Retailer technical details repeat the 40 mm case and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1190,
+    "brand": "Jaeger-LeCoultre",
+    "model": "Master Ultra Thin Moon",
+    "reference": "Q1368430",
+    "lugToLugMm": 45.7,
+    "caseMm": 39,
+    "thicknessMm": 9.3,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.jaeger-lecoultre.com/us-en/watches/master-ultra-thin/master-ultra-thin-moon-stainless-steel-q1368430",
+        "note": "Official page lists the Master Ultra Thin Moon at 39 mm diameter and 9.3 mm thickness."
+      },
+      {
+        "sourceUrl": "https://www.reddit.com/r/Watchexchange/comments/15nbw5c",
+        "note": "Listing for the same reference reports 45.7 mm lug-to-lug and 9.8 mm thickness."
+      },
+      {
+        "sourceUrl": "https://www.thewatchmetrics.com/watch-db-2/jlc-reverso-tribute-small-seconds",
+        "note": "Watch database cross-checks similar Master Ultra Thin Moon geometry in the 45.7 mm lug-to-lug range."
+      }
+    ]
+  },
+  {
+    "id": 1191,
+    "brand": "Vacheron Constantin",
+    "model": "Overseas Self-Winding",
+    "reference": "4520V/210A-B128",
+    "lugToLugMm": 50,
+    "caseMm": 41,
+    "thicknessMm": 11,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.vacheron-constantin.com/us/en/collections/overseas/4520v-210a-b128.html",
+        "note": "Official page lists the Overseas Self-Winding 4520V/210A-B128 as a 41 mm steel watch."
+      },
+      {
+        "sourceUrl": "https://vivir.com/article/vacheron-constantin-overseas-self-winding",
+        "note": "Review measures the 4500V family at 50 mm lug-to-lug and 11 mm thick."
+      },
+      {
+        "sourceUrl": "https://www.watchexpress.com/references/vacheron-constantin-overseas-4500v",
+        "note": "Collector reference page cross-checks the Overseas 4500V family dimensions and lug-to-lug fit."
+      }
+    ]
+  },
+  {
+    "id": 1192,
+    "brand": "Vacheron Constantin",
+    "model": "Overseas Dual Time",
+    "reference": "7920V/210A-B546",
+    "lugToLugMm": 48.6,
+    "caseMm": 41,
+    "thicknessMm": 12,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.vacheron-constantin.com/au/en/collections/overseas/7920v-210a-b546.html",
+        "note": "Official page lists the Overseas Dual Time 7920V/210A-B546 as a 41 mm steel watch."
+      },
+      {
+        "sourceUrl": "https://www.watchadvice.com.au/43889/vacheron-constantin-overseas-dual-time-review-is-it-the-ultimate-luxury-travel-watch-vacheronconstantin2025/",
+        "note": "Review states the Overseas Dual Time measures 48.6 mm lug-to-lug and 12 mm thick."
+      },
+      {
+        "sourceUrl": "https://www.the1916company.com/watches/vacheron-constantin/overseas/overseas-dual-time-deep-stream-47450-000w-9511/",
+        "note": "The 1916 Company review data cross-checks the Dual Time family at about 50.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1193,
+    "brand": "Vacheron Constantin",
+    "model": "Fiftysix Complete Calendar",
+    "reference": "4000E/000A-B548",
+    "lugToLugMm": 46.5,
+    "caseMm": 40,
+    "thicknessMm": 11.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.vacheron-constantin.com/it/en/collections/fiftysix/4000e-000a-b548.html",
+        "note": "Official page lists the Fiftysix Complete Calendar 4000E/000A-B548 at 40 mm diameter and 11.6 mm thickness."
+      },
+      {
+        "sourceUrl": "https://flyback.ai/reference/vacheron-fiftysix-complete-calendar-4000e-000a-b548",
+        "note": "Reference page lists the 4000E/000A-B548 at 46.5 mm lug-to-lug and 20 mm lug width."
+      },
+      {
+        "sourceUrl": "https://watchyagonnadoaboutit.com/2021/03/10/hands-on-review-of-the-vacheron-constantin-fiftysix-complete-calendar-vintage-and-modern-meet-to-create-an-understated-powerhouse/",
+        "note": "Hands-on review cross-checks the Fiftysix Complete Calendar wear at about 48 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1194,
+    "brand": "Vacheron Constantin",
+    "model": "Fiftysix Complete Calendar",
+    "reference": "4654E/000A-B489",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://flyback.ai/reference/vacheron-fiftysix-complete-calendar-4654e-000a-b489",
+        "note": "Reference page lists the 4654E/000A-B489 at 40 mm diameter and 46 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://flyback.ai/watches/vacheron-constantin/fiftysix-complete-calendar",
+        "note": "Family page confirms the 4654E/000A-B489 as the largest Fiftysix Complete Calendar reference at 46 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watchyagonnadoaboutit.com/2021/03/10/hands-on-review-of-the-vacheron-constantin-fiftysix-complete-calendar-vintage-and-modern-meet-to-create-an-understated-powerhouse/",
+        "note": "Hands-on review cross-checks the line at roughly 48 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1195,
+    "brand": "Vacheron Constantin",
+    "model": "Patrimony Self-Winding",
+    "reference": "85180/000R-B515",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.55,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.vacheron-constantin.com/sg/en/collections/patrimony/85180-000r-b515.html",
+        "note": "Official page lists the Patrimony Self-Winding 85180/000R-B515 at 40 mm diameter and 8.55 mm thickness."
+      },
+      {
+        "sourceUrl": "https://timeandtidewatches.com/vacheron-constantin-patrimony-self-winding-hands-on/",
+        "note": "Hands-on review says the Patrimony Self-Winding wears with a 47 mm lug-to-lug span."
+      },
+      {
+        "sourceUrl": "https://www.watchadvice.com.au/43889/vacheron-constantin-overseas-dual-time-review-is-it-the-ultimate-luxury-travel-watch-vacheronconstantin2025/",
+        "note": "Review context cross-checks the Patrimony line as the brand’s ultra-thin classic around the 40 mm class."
+      }
+    ]
   }
 ]
