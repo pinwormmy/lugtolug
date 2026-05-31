@@ -1,6 +1,6 @@
-import type { Submission } from "@/types";
+import type { Submission, WatchWithSources } from "@/types";
 import { assertCsrf, requireAdmin } from "@/lib/auth";
-import { getSubmission } from "@/lib/db";
+import { getSubmission, getWatchById } from "@/lib/db";
 import { redirect } from "@/lib/http";
 
 export type PendingSubmissionResult =
@@ -14,6 +14,16 @@ export type PendingSubmissionResult =
     };
 
 export type SubmissionReviewResult = PendingSubmissionResult;
+
+export type AdminWatchResult =
+  | {
+      ok: true;
+      watch: WatchWithSources;
+    }
+  | {
+      ok: false;
+      response: Response;
+    };
 
 async function requireSubmission(
   db: D1Database | undefined,
@@ -64,6 +74,27 @@ export async function requireApprovedSubmission(
   }
 
   return result;
+}
+
+export async function requireAdminWatch(
+  db: D1Database | undefined,
+  request: Request,
+  idParam: string | undefined
+): Promise<AdminWatchResult> {
+  const session = await requireAdmin(db, request);
+  await assertCsrf(session, request);
+
+  const id = Number(idParam);
+  if (!Number.isSafeInteger(id) || id < 1) {
+    return { ok: false, response: redirect("/watches") };
+  }
+
+  const watch = await getWatchById(db, id);
+  if (!watch) {
+    return { ok: false, response: redirect("/watches") };
+  }
+
+  return { ok: true, watch };
 }
 
 export function readReviewerNote(form: FormData): string {

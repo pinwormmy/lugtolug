@@ -1,5 +1,5 @@
 import { Search } from "lucide-react";
-import { useEffect, useMemo, useState, useTransition } from "react";
+import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import type { WatchWithSources } from "@/types";
 import { normalizeSearch } from "@/lib/slug";
 import { formatMm, getWatchHref, WATCH_METRICS } from "@/lib/watch";
@@ -11,14 +11,15 @@ interface Props {
 
 export default function SearchApp({ watches }: Props) {
   const [query, setQuery] = useState("");
-  const [isPending, startTransition] = useTransition();
-  const normalized = normalizeSearch(query);
+  const deferredQuery = useDeferredValue(query);
+  const normalized = normalizeSearch(deferredQuery);
+  const isPending = query !== deferredQuery;
   const results = useMemo(() => {
     if (!normalized) return [];
-    return groupWatchesForDisplay(watches, query)
+    return groupWatchesForDisplay(watches, deferredQuery)
       .filter((watch) => watch.groupSearchText.includes(normalized))
       .slice(0, 12);
-  }, [normalized, query, watches]);
+  }, [deferredQuery, normalized, watches]);
 
   useEffect(() => {
     const recentSection = document.querySelector<HTMLElement>("[data-recent-watches]");
@@ -39,10 +40,7 @@ export default function SearchApp({ watches }: Props) {
           aria-label="Search by brand, model, or reference"
           placeholder="Brand, model, or reference"
           value={query}
-          onChange={(event) => {
-            const value = event.currentTarget.value;
-            startTransition(() => setQuery(value));
-          }}
+          onChange={(event) => setQuery(event.currentTarget.value)}
         />
         <button className="button" type="submit" aria-label="Search">
           <Search size={18} aria-hidden="true" />

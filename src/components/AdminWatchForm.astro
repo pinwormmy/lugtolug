@@ -1,0 +1,97 @@
+---
+import {
+  getSubmissionFieldValue,
+  OPTIONAL_TEXT_INPUTS,
+  REQUIRED_NUMBER_INPUTS,
+  REQUIRED_SUBMISSION_FIELDS,
+  REQUIRED_TEXT_INPUTS
+} from "@/lib/submissionFields";
+import type { SubmissionPayload } from "@/types";
+
+interface Props {
+  action: string;
+  csrfToken: string;
+  payload: SubmissionPayload;
+  submitLabel: string;
+  hiddenFields?: Record<string, string | number | null | undefined>;
+  includeReviewerNote?: boolean;
+  reviewerNote?: string | null;
+}
+
+const {
+  action,
+  csrfToken,
+  payload,
+  submitLabel,
+  hiddenFields = {},
+  includeReviewerNote = false,
+  reviewerNote = ""
+} = Astro.props;
+const hiddenEntries = Object.entries(hiddenFields).filter((entry): entry is [string, string | number] => {
+  const value = entry[1];
+  return value !== undefined && value !== null && value !== "";
+});
+---
+
+<form class="panel form-grid" action={action} method="post">
+  <input type="hidden" name="csrfToken" value={csrfToken} />
+  {hiddenEntries.map(([name, value]) => <input type="hidden" name={name} value={value} />)}
+
+  {REQUIRED_TEXT_INPUTS.map((field) => (
+    <div class="form-field">
+      <label for={field.name}>{field.label}</label>
+      <input
+        class="input"
+        id={field.name}
+        maxlength={field.maxLength}
+        name={field.name}
+        type={field.type ?? "text"}
+        value={getSubmissionFieldValue(payload, field.name)}
+        required={REQUIRED_SUBMISSION_FIELDS.has(field.name)}
+      />
+    </div>
+  ))}
+
+  {REQUIRED_NUMBER_INPUTS.map((field) => (
+    <div class="form-field">
+      <label for={field.name}>{field.label}</label>
+      <input
+        class="input"
+        id={field.name}
+        inputmode="decimal"
+        max={field.max}
+        min={field.min}
+        name={field.name}
+        step="0.1"
+        type="number"
+        value={getSubmissionFieldValue(payload, field.name)}
+        required={REQUIRED_SUBMISSION_FIELDS.has(field.name)}
+      />
+    </div>
+  ))}
+
+  {OPTIONAL_TEXT_INPUTS.map((field) => (
+    <div class="form-field full">
+      <label for={field.name}>{field.label}</label>
+      <input
+        class="input"
+        id={field.name}
+        maxlength={field.maxLength}
+        name={field.name}
+        type={field.type}
+        value={getSubmissionFieldValue(payload, field.name)}
+      />
+    </div>
+  ))}
+
+  {includeReviewerNote && (
+    <div class="form-field full">
+      <label for="reviewerNote">Reviewer note</label>
+      <textarea class="textarea" id="reviewerNote" name="reviewerNote">{reviewerNote ?? ""}</textarea>
+    </div>
+  )}
+
+  <div class="form-field full">
+    <button class="button accent" type="submit">{submitLabel}</button>
+  </div>
+</form>

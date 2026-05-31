@@ -1,23 +1,18 @@
 import type { APIRoute } from "astro";
-import { assertCsrfToken, requireAdmin } from "@/lib/auth";
-import { getDb, getWatchById, updateWatch } from "@/lib/db";
+import { requireAdminWatch } from "@/lib/adminReview";
+import { getDb, updateWatch } from "@/lib/db";
 import { redirect } from "@/lib/http";
 import { parseSubmission } from "@/lib/validation";
 
 export const POST: APIRoute = async ({ locals, params, request }) => {
   const db = getDb(locals);
-  const session = await requireAdmin(db, request);
+  const result = await requireAdminWatch(db, request, params.id);
+  if (!result.ok) return result.response;
+
   const form = await request.formData();
-  assertCsrfToken(session, String(form.get("csrfToken") ?? ""));
-
-  const id = Number(params.id);
-  if (!Number.isSafeInteger(id) || id < 1 || !(await getWatchById(db, id))) {
-    return redirect("/watches");
-  }
-
   const parsed = parseSubmission(form);
-  if (!parsed.ok || !parsed.payload) return redirect(`/admin/watches/${id}?error=validation`);
+  if (!parsed.ok || !parsed.payload) return redirect(`/admin/watches/${result.watch.id}?error=validation`);
 
-  await updateWatch(db, id, parsed.payload);
+  await updateWatch(db, result.watch.id, parsed.payload);
   return redirect("/");
 };

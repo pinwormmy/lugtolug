@@ -1,8 +1,8 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
+import AdminWatchForm from "@/components/AdminWatchForm.astro";
 import { getAdminSession } from "@/lib/auth";
 import { getDb, getSubmission } from "@/lib/db";
-import { getSubmissionFieldValue, OPTIONAL_TEXT_INPUTS, REQUIRED_NUMBER_INPUTS, REQUIRED_SUBMISSION_FIELDS, REQUIRED_TEXT_INPUTS } from "@/lib/submissionFields";
 
 const db = getDb(Astro.locals);
 const session = await getAdminSession(db, Astro.request);
@@ -42,67 +42,19 @@ const validationError = Astro.url.searchParams.get("error") === "validation";
 
   <section class="section grid-2">
     {(isPending || isApproved) ? (
-      <form
-        class="panel form-grid"
+      <AdminWatchForm
         action={isPending ? `/api/admin/submissions/${submission.id}/approve` : `/api/admin/submissions/${submission.id}/update`}
-        method="post"
-      >
-        <input type="hidden" name="csrfToken" value={session.csrfToken} />
-        <input type="hidden" name="submissionType" value={payload.submissionType ?? "new-watch"} />
-        {payload.reportedWatchId && <input type="hidden" name="reportedWatchId" value={payload.reportedWatchId} />}
-        {payload.reportedWatchPath && <input type="hidden" name="reportedWatchPath" value={payload.reportedWatchPath} />}
-        {REQUIRED_TEXT_INPUTS.map((field) => (
-          <div class="form-field">
-            <label for={field.name}>{field.label}</label>
-            <input
-              class="input"
-              id={field.name}
-              maxlength={field.maxLength}
-              name={field.name}
-              type={field.type ?? "text"}
-              value={getSubmissionFieldValue(payload, field.name)}
-              required={REQUIRED_SUBMISSION_FIELDS.has(field.name)}
-            />
-          </div>
-        ))}
-        {REQUIRED_NUMBER_INPUTS.map((field) => (
-          <div class="form-field">
-            <label for={field.name}>{field.label}</label>
-            <input
-              class="input"
-              id={field.name}
-              inputmode="decimal"
-              max={field.max}
-              min={field.min}
-              name={field.name}
-              step="0.1"
-              type="number"
-              value={getSubmissionFieldValue(payload, field.name)}
-              required={REQUIRED_SUBMISSION_FIELDS.has(field.name)}
-            />
-          </div>
-        ))}
-        {OPTIONAL_TEXT_INPUTS.map((field) => (
-          <div class="form-field full">
-            <label for={field.name}>{field.label}</label>
-            <input
-              class="input"
-              id={field.name}
-              maxlength={field.maxLength}
-              name={field.name}
-              type={field.type}
-              value={getSubmissionFieldValue(payload, field.name)}
-            />
-          </div>
-        ))}
-        <div class="form-field full">
-          <label for="reviewerNote">Reviewer note</label>
-          <textarea class="textarea" id="reviewerNote" name="reviewerNote">{isApproved ? submission.reviewerNote ?? "" : ""}</textarea>
-        </div>
-        <div class="form-field full">
-          <button class="button accent" type="submit">{isPending ? "Approve and publish" : "Save published changes"}</button>
-        </div>
-      </form>
+        csrfToken={session.csrfToken}
+        payload={payload}
+        submitLabel={isPending ? "Approve and publish" : "Save published changes"}
+        hiddenFields={{
+          submissionType: payload.submissionType ?? "new-watch",
+          reportedWatchId: payload.reportedWatchId,
+          reportedWatchPath: payload.reportedWatchPath
+        }}
+        includeReviewerNote
+        reviewerNote={isApproved ? submission.reviewerNote : ""}
+      />
     ) : (
       <div class="panel">
         <h2>Reviewed result</h2>

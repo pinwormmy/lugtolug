@@ -1,8 +1,8 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
+import AdminWatchForm from "@/components/AdminWatchForm.astro";
 import { getAdminSession } from "@/lib/auth";
 import { getDb, getWatchById } from "@/lib/db";
-import { getSubmissionFieldValue, OPTIONAL_TEXT_INPUTS, REQUIRED_NUMBER_INPUTS, REQUIRED_SUBMISSION_FIELDS, REQUIRED_TEXT_INPUTS } from "@/lib/submissionFields";
 import { isHttpUrl } from "@/lib/watch";
 import type { SubmissionPayload } from "@/types";
 
@@ -49,56 +49,12 @@ const validationError = Astro.url.searchParams.get("error") === "validation";
   </section>
 
   <section class="section grid-2">
-    <form class="panel form-grid" action={`/api/admin/watches/${watch.id}/update`} method="post">
-      <input type="hidden" name="csrfToken" value={session.csrfToken} />
-      {REQUIRED_TEXT_INPUTS.map((field) => (
-        <div class="form-field">
-          <label for={field.name}>{field.label}</label>
-          <input
-            class="input"
-            id={field.name}
-            maxlength={field.maxLength}
-            name={field.name}
-            type={field.type ?? "text"}
-            value={getSubmissionFieldValue(payload, field.name)}
-            required={REQUIRED_SUBMISSION_FIELDS.has(field.name)}
-          />
-        </div>
-      ))}
-      {REQUIRED_NUMBER_INPUTS.map((field) => (
-        <div class="form-field">
-          <label for={field.name}>{field.label}</label>
-          <input
-            class="input"
-            id={field.name}
-            inputmode="decimal"
-            max={field.max}
-            min={field.min}
-            name={field.name}
-            step="0.1"
-            type="number"
-            value={getSubmissionFieldValue(payload, field.name)}
-            required={REQUIRED_SUBMISSION_FIELDS.has(field.name)}
-          />
-        </div>
-      ))}
-      {OPTIONAL_TEXT_INPUTS.map((field) => (
-        <div class="form-field full">
-          <label for={field.name}>{field.label}</label>
-          <input
-            class="input"
-            id={field.name}
-            maxlength={field.maxLength}
-            name={field.name}
-            type={field.type}
-            value={getSubmissionFieldValue(payload, field.name)}
-          />
-        </div>
-      ))}
-      <div class="form-field full">
-        <button class="button accent" type="submit">Save watch changes</button>
-      </div>
-    </form>
+    <AdminWatchForm
+      action={`/api/admin/watches/${watch.id}/update`}
+      csrfToken={session.csrfToken}
+      payload={payload}
+      submitLabel="Save watch changes"
+    />
 
     <div class="panel">
       <h2>Publishing</h2>

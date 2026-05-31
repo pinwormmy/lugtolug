@@ -1,7 +1,8 @@
 import { useState } from "react";
 import type { ComponentProps } from "react";
 import type { WatchWithSources } from "@/types";
-import { formatMm } from "@/lib/watch";
+import { REQUIRED_NUMBER_INPUTS, REQUIRED_SUBMISSION_FIELDS } from "@/lib/submissionFields";
+import { formatMm, getWatchHref } from "@/lib/watch";
 
 type State = "idle" | "submitting" | "success" | "error";
 
@@ -15,6 +16,10 @@ function displayMm(value: number | null | undefined): string {
 
 function numberValue(value: number | null | undefined): string {
   return value == null ? "" : String(value);
+}
+
+function correctionDimensionLabel(label: string): string {
+  return `Correct ${label.charAt(0).toLowerCase()}${label.slice(1)}`;
 }
 
 export default function CorrectionReportForm({ watch }: Props) {
@@ -68,7 +73,7 @@ export default function CorrectionReportForm({ watch }: Props) {
     <form className="panel form-grid correction-form" onSubmit={submit}>
       <input type="hidden" name="submissionType" value="correction" />
       <input type="hidden" name="reportedWatchId" value={watch.id} />
-      <input type="hidden" name="reportedWatchPath" value={`/watches/${watch.brandSlug}/${watch.modelSlug}/${watch.referenceSlug}`} />
+      <input type="hidden" name="reportedWatchPath" value={getWatchHref(watch)} />
       <input type="hidden" name="brand" value={watch.brand} />
       <input type="hidden" name="model" value={watch.model} />
       <input type="hidden" name="reference" value={watch.reference} />
@@ -93,22 +98,23 @@ export default function CorrectionReportForm({ watch }: Props) {
         </select>
       </div>
 
-      <div className="form-field">
-        <label htmlFor="lugToLugMm">Correct lug-to-lug mm</label>
-        <input className="input" id="lugToLugMm" inputMode="decimal" min="20" max="80" name="lugToLugMm" step="0.1" type="number" defaultValue={numberValue(watch.lugToLugMm)} required />
-      </div>
-      <div className="form-field">
-        <label htmlFor="caseMm">Correct case mm</label>
-        <input className="input" id="caseMm" inputMode="decimal" min="20" max="60" name="caseMm" step="0.1" type="number" defaultValue={numberValue(watch.caseMm)} />
-      </div>
-      <div className="form-field">
-        <label htmlFor="thicknessMm">Correct thickness mm</label>
-        <input className="input" id="thicknessMm" inputMode="decimal" min="4" max="25" name="thicknessMm" step="0.1" type="number" defaultValue={numberValue(watch.thicknessMm)} />
-      </div>
-      <div className="form-field">
-        <label htmlFor="lugWidthMm">Correct lug width mm</label>
-        <input className="input" id="lugWidthMm" inputMode="decimal" min="8" max="30" name="lugWidthMm" step="0.1" type="number" defaultValue={numberValue(watch.lugWidthMm)} />
-      </div>
+      {REQUIRED_NUMBER_INPUTS.map((field) => (
+        <div className="form-field" key={field.name}>
+          <label htmlFor={field.name}>{correctionDimensionLabel(field.label)}</label>
+          <input
+            className="input"
+            defaultValue={numberValue(watch[field.name])}
+            id={field.name}
+            inputMode="decimal"
+            max={field.max}
+            min={field.min}
+            name={field.name}
+            required={REQUIRED_SUBMISSION_FIELDS.has(field.name)}
+            step="0.1"
+            type="number"
+          />
+        </div>
+      ))}
 
       <div className="form-field full">
         <label htmlFor="issueDetails">Details</label>
