@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { WatchWithSources } from "@/types";
-import { groupWatchesForDisplay } from "@/lib/watchGroups";
+import { groupWatchesForDisplay, shouldUseCompactReferenceSearch } from "@/lib/watchGroups";
 
 function watch(overrides: Partial<WatchWithSources>): WatchWithSources {
   return {
@@ -69,6 +69,13 @@ describe("watch display groups", () => {
     expect(groups[0].id).toBe(2);
     expect(groups[0].groupSearchText).toContain("31032425004001");
     expect(groups[0].groupCompactReferenceSearchText).toContain("31032425004001");
+  });
+
+  it("uses compact reference search only for reference-like queries", () => {
+    expect(shouldUseCompactReferenceSearch("3103042")).toBe(true);
+    expect(shouldUseCompactReferenceSearch("h704")).toBe(true);
+    expect(shouldUseCompactReferenceSearch("hamilton")).toBe(false);
+    expect(shouldUseCompactReferenceSearch("h")).toBe(false);
   });
 
   it("includes dimensions in the shared search text", () => {

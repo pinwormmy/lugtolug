@@ -13,7 +13,7 @@ import type { WatchWithSources } from "@/types";
 import { getFitGuidance, mmToInches } from "@/lib/fit";
 import { normalizeSearch } from "@/lib/slug";
 import { getWatchHref, WATCH_METRICS } from "@/lib/watch";
-import { getCompactReferenceSearchText, groupWatchesForDisplay, type WatchDisplayGroup } from "@/lib/watchGroups";
+import { getCompactReferenceSearchText, groupWatchesForDisplay, shouldUseCompactReferenceSearch, type WatchDisplayGroup } from "@/lib/watchGroups";
 import {
   createEmptyDimensionFilters,
   filterWatchesByDimensions,
@@ -240,23 +240,25 @@ export default function SearchApp({ watches }: Props) {
   const [savedIds, setSavedIds] = useState<number[]>(() => readStoredIds(SAVED_STORAGE_KEY));
   const [compareIds, setCompareIds] = useState<number[]>(() => readStoredIds(COMPARE_STORAGE_KEY));
   const deferredQuery = useDeferredValue(query);
+  const hasSearchQuery = deferredQuery.trim().length > 0;
   const normalized = normalizeSearch(deferredQuery);
   const compactReferenceQuery = getCompactReferenceSearchText(deferredQuery);
+  const shouldMatchCompactReference = shouldUseCompactReferenceSearch(compactReferenceQuery);
   const isPending = query !== deferredQuery;
   const hasActiveFilters = hasActiveDimensionFilters(filters);
-  const shouldShowFilteredState = Boolean(normalized || hasActiveFilters);
+  const shouldShowFilteredState = Boolean(hasSearchQuery || hasActiveFilters);
 
   const groupedWatches = useMemo(() => groupWatchesForDisplay(watches, deferredQuery), [deferredQuery, watches]);
   const filtered = useMemo(() => {
     const dimensionFiltered = filterWatchesByDimensions(groupedWatches, filters);
-    const searched = normalized
+    const searched = hasSearchQuery
       ? dimensionFiltered.filter((watch) => (
-          watch.groupSearchText.includes(normalized) ||
-          (compactReferenceQuery.length > 0 && watch.groupCompactReferenceSearchText.includes(compactReferenceQuery))
+          (normalized.length > 0 && watch.groupSearchText.includes(normalized)) ||
+          (shouldMatchCompactReference && watch.groupCompactReferenceSearchText.includes(compactReferenceQuery))
         ))
       : dimensionFiltered;
     return sortWatches(searched, sort);
-  }, [compactReferenceQuery, filters, groupedWatches, normalized, sort]);
+  }, [compactReferenceQuery, filters, groupedWatches, hasSearchQuery, normalized, shouldMatchCompactReference, sort]);
 
   const results = filtered.slice(0, 80);
   const selected = filtered.find((watch) => watch.id === selectedId) ?? filtered[0] ?? null;

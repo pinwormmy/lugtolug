@@ -29,6 +29,10 @@ export function getCompactReferenceSearchText(reference: string): string {
   return reference.replace(/[^a-z0-9]+/gi, "").toLowerCase();
 }
 
+export function shouldUseCompactReferenceSearch(query: string): boolean {
+  return /\d/.test(query) && query.length >= 3;
+}
+
 function getVariantSearchText(watch: WatchWithSources): string {
   return [getWatchSearchText(watch), getCompactReferenceSearchText(watch.reference)].filter(Boolean).join(" ");
 }
