@@ -111,9 +111,14 @@ button {
   stroke-width: 2;
 }
 
-.brand-mark .brand-mark-dot {
-  fill: var(--accent-strong);
-  stroke: none;
+.brand-mark .brand-mark-ear,
+.brand-mark .brand-mark-case {
+  stroke-width: 2.4;
+}
+
+.brand-mark .brand-mark-hand {
+  color: var(--accent-strong);
+  stroke-width: 2.1;
 }
 
 .brand-copy {
