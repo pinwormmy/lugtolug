@@ -8,7 +8,8 @@ import {
   SlidersHorizontal,
   X
 } from "lucide-react";
-import { useDeferredValue, useEffect, useMemo, useState } from "react";
+import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
+import type { ComponentProps } from "react";
 import type { WatchWithSources } from "@/types";
 import { getFitGuidance, mmToInches } from "@/lib/fit";
 import { normalizeSearch } from "@/lib/slug";
@@ -228,6 +229,7 @@ function sortWatches(watches: WatchDisplayGroup[], sort: SortKey): WatchDisplayG
 
 export default function SearchApp({ watches }: Props) {
   const [query, setQuery] = useState("");
+  const searchInputRef = useRef<HTMLInputElement>(null);
   const [filtersOpen, setFiltersOpen] = useState(() => {
     if (typeof window === "undefined") return true;
     return !window.matchMedia("(max-width: 620px)").matches;
@@ -315,6 +317,11 @@ export default function SearchApp({ watches }: Props) {
     setDetailTab("dimensions");
   }
 
+  const submitSearch: ComponentProps<"form">["onSubmit"] = (event) => {
+    event.preventDefault();
+    setQuery(searchInputRef.current?.value ?? query);
+  };
+
   return (
     <section className={`database-workbench${shouldShowFilteredState ? " has-filtered-state" : ""}`} aria-label="Lug to Lug Finder database">
       <div className="workbench-head">
@@ -331,12 +338,13 @@ export default function SearchApp({ watches }: Props) {
       </div>
 
       <div className="database-controls">
-        <form className="search-grid" role="search" onSubmit={(event) => event.preventDefault()}>
+        <form className="search-grid" role="search" onSubmit={submitSearch}>
           <label>
             <span>Search watches, references, or dimensions</span>
             <div className="field-with-icon">
               <Search size={17} aria-hidden="true" />
               <input
+                ref={searchInputRef}
                 className="input"
                 aria-label="Search watches by name, reference, or dimensions"
                 placeholder="e.g., Omega Speedmaster, 310.30, or 47.5"
@@ -415,172 +423,174 @@ export default function SearchApp({ watches }: Props) {
         )}
       </div>
 
-      <div className="database-layout">
-        <section className="results-panel" aria-busy={isPending}>
-          <div className="results-head">
-            <strong>{filtered.length.toLocaleString()} results</strong>
-            <label>
-              <span>Sort by</span>
-              <select className="select compact-select" value={sort} onChange={(event) => setSort(event.currentTarget.value as SortKey)}>
-                <option value="lug-asc">Lug-to-lug asc</option>
-                <option value="lug-desc">Lug-to-lug desc</option>
-                <option value="case-asc">Case asc</option>
-                <option value="case-desc">Case desc</option>
-                <option value="recent">Recently added</option>
-              </select>
-            </label>
-          </div>
-          <div className="database-table" role="table" aria-label="Watch results">
-            <div className="database-row database-row-head" role="row">
-              <span>Brand / model</span>
-              <span>Lug to lug</span>
-              <span>Case</span>
-              <span>Thickness</span>
-              <span>Lug width</span>
-              <span>Source</span>
-              <span>Conf.</span>
-              <span>Actions</span>
+      {shouldShowFilteredState && (
+        <div className="database-layout">
+          <section className="results-panel" aria-busy={isPending}>
+            <div className="results-head">
+              <strong>{filtered.length.toLocaleString()} results</strong>
+              <label>
+                <span>Sort by</span>
+                <select className="select compact-select" value={sort} onChange={(event) => setSort(event.currentTarget.value as SortKey)}>
+                  <option value="lug-asc">Lug-to-lug asc</option>
+                  <option value="lug-desc">Lug-to-lug desc</option>
+                  <option value="case-asc">Case asc</option>
+                  <option value="case-desc">Case desc</option>
+                  <option value="recent">Recently added</option>
+                </select>
+              </label>
             </div>
-            {results.map((watch) => {
-              const isSelected = selected?.id === watch.id;
-              const isSaved = savedIds.includes(watch.id);
-              const isCompared = compareIds.includes(watch.id);
-              return (
-                <article
-                  className={`database-row${isSelected ? " selected" : ""}`}
-                  key={watch.id}
-                  role="row"
-                  tabIndex={0}
-                  onClick={() => chooseWatch(watch)}
-                  onKeyDown={(event) => {
-                    if (event.key === "Enter" || event.key === " ") chooseWatch(watch);
-                  }}
-                >
-                  <span className="row-name">
-                    <strong>{[watch.brand, watch.model].filter(Boolean).join(" ")}</strong>
-                    <small>
-                      {watch.reference || "Reference not provided"}
-                      {watch.variantCount > 1 ? ` · ${watch.variantCount} references` : ""}
-                    </small>
-                  </span>
-                  <span className="row-primary-metric">
-                    <strong>{compactDimension(watch.lugToLugMm, unit)}</strong>
-                    <small>{unit}</small>
-                  </span>
-                  <span>{formatDimension(watch.caseMm, unit)}</span>
-                  <span>{formatDimension(watch.thicknessMm, unit)}</span>
-                  <span>{formatDimension(watch.lugWidthMm, unit)}</span>
-                  <span>{sourceLabel(watch)}</span>
-                  <span><ConfidenceDots confidence={watch.confidence} /></span>
-                  <span className="row-actions">
-                    <button
-                      type="button"
-                      className={isCompared ? "icon-button active" : "icon-button"}
-                      aria-label={isCompared ? "Remove from compare" : "Add to compare"}
-                      onClick={(event) => {
-                        event.stopPropagation();
-                        toggleCompare(watch.id);
-                      }}
-                    >
-                      <GitCompareArrows size={15} aria-hidden="true" />
-                    </button>
-                    <button
-                      type="button"
-                      className={isSaved ? "icon-button active" : "icon-button"}
-                      aria-label={isSaved ? "Remove saved watch" : "Save watch"}
-                      onClick={(event) => {
-                        event.stopPropagation();
-                        toggleSaved(watch.id);
-                      }}
-                    >
-                      <Bookmark size={15} aria-hidden="true" />
-                    </button>
-                  </span>
-                </article>
-              );
-            })}
-          </div>
-          {results.length === 0 && (
-            <p className="empty-state">No matching watches yet. Submit a source and the operator can review it.</p>
-          )}
-          {filtered.length > results.length && <p className="small">Showing first {results.length} results. Narrow the search to inspect more records.</p>}
-        </section>
-
-        <aside className="detail-panel" aria-label="Selected watch detail">
-          {selected ? (
-            <>
-              <div className="detail-panel-head">
-                <div>
-                  <p className="eyebrow">Selected watch</p>
-                  <h2>{[selected.brand, selected.model].filter(Boolean).join(" ")}</h2>
-                  <p>{selected.reference || "Reference not provided"}</p>
-                </div>
-                <button className="icon-button" type="button" aria-label="Clear selected watch" onClick={() => setSelectedId(null)}>
-                  <X size={16} aria-hidden="true" />
-                </button>
+            <div className="database-table" role="table" aria-label="Watch results">
+              <div className="database-row database-row-head" role="row">
+                <span>Brand / model</span>
+                <span>Lug to lug</span>
+                <span>Case</span>
+                <span>Thickness</span>
+                <span>Lug width</span>
+                <span>Source</span>
+                <span>Conf.</span>
+                <span>Actions</span>
               </div>
-              <div className="detail-tabs" role="tablist" aria-label="Watch detail sections">
-                {(["dimensions", "specs", "sources", "notes"] as const).map((tab) => (
-                  <button
-                    key={tab}
-                    type="button"
-                    role="tab"
-                    aria-selected={detailTab === tab}
-                    className={detailTab === tab ? "active" : ""}
-                    onClick={() => setDetailTab(tab)}
+              {results.map((watch) => {
+                const isSelected = selected?.id === watch.id;
+                const isSaved = savedIds.includes(watch.id);
+                const isCompared = compareIds.includes(watch.id);
+                return (
+                  <article
+                    className={`database-row${isSelected ? " selected" : ""}`}
+                    key={watch.id}
+                    role="row"
+                    tabIndex={0}
+                    onClick={() => chooseWatch(watch)}
+                    onKeyDown={(event) => {
+                      if (event.key === "Enter" || event.key === " ") chooseWatch(watch);
+                    }}
                   >
-                    {tab}
-                  </button>
-                ))}
-              </div>
-
-              {detailTab === "dimensions" && (
-                <div className="detail-tab-panel" role="tabpanel">
-                  <WatchDiagram watch={selected} unit={unit} />
-                  <FitAnalyzer lugToLugMm={selected.lugToLugMm} />
-                </div>
-              )}
-
-              {detailTab === "specs" && (
-                <div className="detail-tab-panel spec-list" role="tabpanel">
-                  {WATCH_METRICS.map((metric) => (
-                    <span key={metric.key}>
-                      <small>{metric.detailLabel}</small>
-                      <strong>{formatDimension(selected[metric.key], unit)}</strong>
+                    <span className="row-name">
+                      <strong>{[watch.brand, watch.model].filter(Boolean).join(" ")}</strong>
+                      <small>
+                        {watch.reference || "Reference not provided"}
+                        {watch.variantCount > 1 ? ` · ${watch.variantCount} references` : ""}
+                      </small>
                     </span>
+                    <span className="row-primary-metric">
+                      <strong>{compactDimension(watch.lugToLugMm, unit)}</strong>
+                      <small>{unit}</small>
+                    </span>
+                    <span>{formatDimension(watch.caseMm, unit)}</span>
+                    <span>{formatDimension(watch.thicknessMm, unit)}</span>
+                    <span>{formatDimension(watch.lugWidthMm, unit)}</span>
+                    <span>{sourceLabel(watch)}</span>
+                    <span><ConfidenceDots confidence={watch.confidence} /></span>
+                    <span className="row-actions">
+                      <button
+                        type="button"
+                        className={isCompared ? "icon-button active" : "icon-button"}
+                        aria-label={isCompared ? "Remove from compare" : "Add to compare"}
+                        onClick={(event) => {
+                          event.stopPropagation();
+                          toggleCompare(watch.id);
+                        }}
+                      >
+                        <GitCompareArrows size={15} aria-hidden="true" />
+                      </button>
+                      <button
+                        type="button"
+                        className={isSaved ? "icon-button active" : "icon-button"}
+                        aria-label={isSaved ? "Remove saved watch" : "Save watch"}
+                        onClick={(event) => {
+                          event.stopPropagation();
+                          toggleSaved(watch.id);
+                        }}
+                      >
+                        <Bookmark size={15} aria-hidden="true" />
+                      </button>
+                    </span>
+                  </article>
+                );
+              })}
+            </div>
+            {results.length === 0 && (
+              <p className="empty-state">No matching watches yet. Submit a source and the operator can review it.</p>
+            )}
+            {filtered.length > results.length && <p className="small">Showing first {results.length} results. Narrow the search to inspect more records.</p>}
+          </section>
+
+          <aside className="detail-panel" aria-label="Selected watch detail">
+            {selected ? (
+              <>
+                <div className="detail-panel-head">
+                  <div>
+                    <p className="eyebrow">Selected watch</p>
+                    <h2>{[selected.brand, selected.model].filter(Boolean).join(" ")}</h2>
+                    <p>{selected.reference || "Reference not provided"}</p>
+                  </div>
+                  <button className="icon-button" type="button" aria-label="Clear selected watch" onClick={() => setSelectedId(null)}>
+                    <X size={16} aria-hidden="true" />
+                  </button>
+                </div>
+                <div className="detail-tabs" role="tablist" aria-label="Watch detail sections">
+                  {(["dimensions", "specs", "sources", "notes"] as const).map((tab) => (
+                    <button
+                      key={tab}
+                      type="button"
+                      role="tab"
+                      aria-selected={detailTab === tab}
+                      className={detailTab === tab ? "active" : ""}
+                      onClick={() => setDetailTab(tab)}
+                    >
+                      {tab}
+                    </button>
                   ))}
-                  <span>
-                    <small>Confidence</small>
-                    <strong>{selected.confidence}</strong>
-                  </span>
                 </div>
-              )}
 
-              {detailTab === "sources" && (
-                <div className="detail-tab-panel source-list" role="tabpanel">
-                  {selected.sources.length > 0 ? selected.sources.map((source) => (
-                    <a href={source.sourceUrl} key={source.id} target="_blank" rel="noreferrer">
-                      {sourceLabel(selected)}
-                      {source.note && <small>{source.note}</small>}
-                    </a>
-                  )) : <p className="small">No sources attached.</p>}
-                </div>
-              )}
+                {detailTab === "dimensions" && (
+                  <div className="detail-tab-panel" role="tabpanel">
+                    <WatchDiagram watch={selected} unit={unit} />
+                    <FitAnalyzer lugToLugMm={selected.lugToLugMm} />
+                  </div>
+                )}
 
-              {detailTab === "notes" && (
-                <div className="detail-tab-panel" role="tabpanel">
-                  <p className="small">Measurements may vary by reference. Verify the source before purchase.</p>
-                  <a className="button secondary" href={getWatchHref(selected)}>Open full record</a>
-                </div>
-              )}
-            </>
-          ) : (
-            <p className="empty-state">Select a watch to inspect dimensions and fit guidance.</p>
-          )}
-        </aside>
-      </div>
+                {detailTab === "specs" && (
+                  <div className="detail-tab-panel spec-list" role="tabpanel">
+                    {WATCH_METRICS.map((metric) => (
+                      <span key={metric.key}>
+                        <small>{metric.detailLabel}</small>
+                        <strong>{formatDimension(selected[metric.key], unit)}</strong>
+                      </span>
+                    ))}
+                    <span>
+                      <small>Confidence</small>
+                      <strong>{selected.confidence}</strong>
+                    </span>
+                  </div>
+                )}
 
-      {compareWatches.length >= 2 && (
+                {detailTab === "sources" && (
+                  <div className="detail-tab-panel source-list" role="tabpanel">
+                    {selected.sources.length > 0 ? selected.sources.map((source) => (
+                      <a href={source.sourceUrl} key={source.id} target="_blank" rel="noreferrer">
+                        {sourceLabel(selected)}
+                        {source.note && <small>{source.note}</small>}
+                      </a>
+                    )) : <p className="small">No sources attached.</p>}
+                  </div>
+                )}
+
+                {detailTab === "notes" && (
+                  <div className="detail-tab-panel" role="tabpanel">
+                    <p className="small">Measurements may vary by reference. Verify the source before purchase.</p>
+                    <a className="button secondary" href={getWatchHref(selected)}>Open full record</a>
+                  </div>
+                )}
+              </>
+            ) : (
+              <p className="empty-state">Select a watch to inspect dimensions and fit guidance.</p>
+            )}
+          </aside>
+        </div>
+      )}
+
+      {shouldShowFilteredState && compareWatches.length >= 2 && (
         <section className="compare-tray" aria-label="Compare queue">
           <div className="panel-heading">
             <div>
