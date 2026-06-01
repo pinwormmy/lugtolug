@@ -7,6 +7,7 @@ export interface WatchDisplayGroup extends WatchWithSources {
   variants: WatchWithSources[];
   variantReferences: string[];
   groupSearchText: string;
+  groupCompactReferenceSearchText: string;
 }
 
 function metricKey(value: number | null | undefined): string {
@@ -24,7 +25,7 @@ function getDisplayGroupKey(watch: WatchWithSources): string {
   ].join("|");
 }
 
-function getCompactReferenceSearchText(reference: string): string {
+export function getCompactReferenceSearchText(reference: string): string {
   return reference.replace(/[^a-z0-9]+/gi, "").toLowerCase();
 }
 
@@ -61,13 +62,15 @@ export function groupWatchesForDisplay(watches: WatchWithSources[], query = ""):
     const representative = pickRepresentative(variants, normalizedQuery);
     const variantReferences = variants.map((watch) => watch.reference).filter(Boolean);
     const groupSearchText = variants.map(getVariantSearchText).join(" ");
+    const groupCompactReferenceSearchText = variantReferences.map(getCompactReferenceSearchText).join(" ");
 
     return {
       ...representative,
       variantCount: variants.length,
       variants,
       variantReferences,
-      groupSearchText
+      groupSearchText,
+      groupCompactReferenceSearchText
     };
   });
 }

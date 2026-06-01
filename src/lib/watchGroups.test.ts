@@ -68,6 +68,7 @@ describe("watch display groups", () => {
 
     expect(groups[0].id).toBe(2);
     expect(groups[0].groupSearchText).toContain("31032425004001");
+    expect(groups[0].groupCompactReferenceSearchText).toContain("31032425004001");
   });
 
   it("includes dimensions in the shared search text", () => {

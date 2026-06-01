@@ -13,7 +13,7 @@ import type { WatchWithSources } from "@/types";
 import { getFitGuidance, mmToInches } from "@/lib/fit";
 import { normalizeSearch } from "@/lib/slug";
 import { getWatchHref, WATCH_METRICS } from "@/lib/watch";
-import { groupWatchesForDisplay, type WatchDisplayGroup } from "@/lib/watchGroups";
+import { getCompactReferenceSearchText, groupWatchesForDisplay, type WatchDisplayGroup } from "@/lib/watchGroups";
 import {
   createEmptyDimensionFilters,
   filterWatchesByDimensions,
@@ -241,6 +241,7 @@ export default function SearchApp({ watches }: Props) {
   const [compareIds, setCompareIds] = useState<number[]>(() => readStoredIds(COMPARE_STORAGE_KEY));
   const deferredQuery = useDeferredValue(query);
   const normalized = normalizeSearch(deferredQuery);
+  const compactReferenceQuery = getCompactReferenceSearchText(deferredQuery);
   const isPending = query !== deferredQuery;
   const hasActiveFilters = hasActiveDimensionFilters(filters);
   const shouldShowFilteredState = Boolean(normalized || hasActiveFilters);
@@ -249,10 +250,13 @@ export default function SearchApp({ watches }: Props) {
   const filtered = useMemo(() => {
     const dimensionFiltered = filterWatchesByDimensions(groupedWatches, filters);
     const searched = normalized
-      ? dimensionFiltered.filter((watch) => watch.groupSearchText.includes(normalized))
+      ? dimensionFiltered.filter((watch) => (
+          watch.groupSearchText.includes(normalized) ||
+          (compactReferenceQuery.length > 0 && watch.groupCompactReferenceSearchText.includes(compactReferenceQuery))
+        ))
       : dimensionFiltered;
     return sortWatches(searched, sort);
-  }, [filters, groupedWatches, normalized, sort]);
+  }, [compactReferenceQuery, filters, groupedWatches, normalized, sort]);
 
   const results = filtered.slice(0, 80);
   const selected = filtered.find((watch) => watch.id === selectedId) ?? filtered[0] ?? null;
