@@ -314,7 +314,7 @@ export default function SearchApp({ watches }: Props) {
   }
 
   return (
-    <section className="database-workbench" aria-label="Lug to Lug Finder database">
+    <section className={`database-workbench${shouldShowFilteredState ? " has-filtered-state" : ""}`} aria-label="Lug to Lug Finder database">
       <div className="workbench-head">
         <div>
           <p className="eyebrow">Search</p>
@@ -344,10 +344,12 @@ export default function SearchApp({ watches }: Props) {
             </div>
           </label>
           <button className="button accent" type="submit">Search</button>
-          <button className="button secondary" type="button" onClick={resetFilters}>
-            <RotateCcw size={16} aria-hidden="true" />
-            Reset
-          </button>
+          {filtersOpen && (
+            <button className="button secondary reset-button" type="button" onClick={resetFilters}>
+              <RotateCcw size={16} aria-hidden="true" />
+              Reset
+            </button>
+          )}
           <div className="segmented" aria-label="Display units">
             <button type="button" className={unit === "mm" ? "active" : ""} onClick={() => setUnit("mm")}>mm</button>
             <button type="button" className={unit === "in" ? "active" : ""} onClick={() => setUnit("in")}>in</button>

@@ -1325,6 +1325,10 @@ button {
     overflow: hidden;
   }
 
+  .footer {
+    display: none;
+  }
+
   .home-workbench,
   .database-workbench,
   .workbench-head,
@@ -1344,22 +1348,17 @@ button {
     max-width: 100%;
   }
 
-  .workbench-head p {
+  .workbench-head .eyebrow,
+  .status-strip {
     display: none;
   }
 
-  .status-strip {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    overflow: hidden;
+  .workbench-head {
+    display: block;
   }
 
-  .status-strip span {
-    display: block;
-    font-size: 0.58rem;
-    min-width: 0;
-    padding-inline: 8px;
-    white-space: normal;
+  .database-workbench.has-filtered-state .workbench-head {
+    display: none;
   }
 
   .search-grid > *,
@@ -1389,9 +1388,27 @@ button {
     grid-template-columns: 1fr;
   }
 
+  .search-grid label > span {
+    display: none;
+  }
+
+  .search-grid .segmented {
+    display: none;
+  }
+
   .filter-toolbar {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  [data-recent-watches],
+  .active-filter-chips {
+    display: none;
+  }
+
+  .database-workbench:not(.has-filtered-state) .database-layout,
+  .database-workbench:not(.has-filtered-state) .compare-tray {
+    display: none;
   }
 
   .active-filter-chips {
