@@ -70,6 +70,13 @@ describe("watch display groups", () => {
     expect(groups[0].groupSearchText).toContain("31032425004001");
   });
 
+  it("includes dimensions in the shared search text", () => {
+    const groups = groupWatchesForDisplay([watch({ id: 1, lugToLugMm: 47.5, caseMm: 42 })]);
+
+    expect(groups[0].groupSearchText).toContain("lug to lug 47 5");
+    expect(groups[0].groupSearchText).toContain("case 42");
+  });
+
   it("handles null dimensions as part of the grouping key", () => {
     const groups = groupWatchesForDisplay([
       watch({ id: 1, lugWidthMm: null }),

@@ -228,7 +228,6 @@ function sortWatches(watches: WatchDisplayGroup[], sort: SortKey): WatchDisplayG
 
 export default function SearchApp({ watches }: Props) {
   const [query, setQuery] = useState("");
-  const [referenceQuery, setReferenceQuery] = useState("");
   const [filtersOpen, setFiltersOpen] = useState(() => {
     if (typeof window === "undefined") return true;
     return !window.matchMedia("(max-width: 620px)").matches;
@@ -241,12 +240,10 @@ export default function SearchApp({ watches }: Props) {
   const [savedIds, setSavedIds] = useState<number[]>(() => readStoredIds(SAVED_STORAGE_KEY));
   const [compareIds, setCompareIds] = useState<number[]>(() => readStoredIds(COMPARE_STORAGE_KEY));
   const deferredQuery = useDeferredValue(query);
-  const deferredReferenceQuery = useDeferredValue(referenceQuery);
   const normalized = normalizeSearch(deferredQuery);
-  const referenceNormalized = normalizeSearch(deferredReferenceQuery);
-  const isPending = query !== deferredQuery || referenceQuery !== deferredReferenceQuery;
+  const isPending = query !== deferredQuery;
   const hasActiveFilters = hasActiveDimensionFilters(filters);
-  const shouldShowFilteredState = Boolean(normalized || referenceNormalized || hasActiveFilters);
+  const shouldShowFilteredState = Boolean(normalized || hasActiveFilters);
 
   const groupedWatches = useMemo(() => groupWatchesForDisplay(watches, deferredQuery), [deferredQuery, watches]);
   const filtered = useMemo(() => {
@@ -254,11 +251,8 @@ export default function SearchApp({ watches }: Props) {
     const searched = normalized
       ? dimensionFiltered.filter((watch) => watch.groupSearchText.includes(normalized))
       : dimensionFiltered;
-    const referenceFiltered = referenceNormalized
-      ? searched.filter((watch) => watch.variantReferences.some((reference) => normalizeSearch(reference).includes(referenceNormalized)))
-      : searched;
-    return sortWatches(referenceFiltered, sort);
-  }, [filters, groupedWatches, normalized, referenceNormalized, sort]);
+    return sortWatches(searched, sort);
+  }, [filters, groupedWatches, normalized, sort]);
 
   const results = filtered.slice(0, 80);
   const selected = filtered.find((watch) => watch.id === selectedId) ?? filtered[0] ?? null;
@@ -297,7 +291,6 @@ export default function SearchApp({ watches }: Props) {
   function resetFilters() {
     setFilters(createEmptyDimensionFilters());
     setQuery("");
-    setReferenceQuery("");
   }
 
   function toggleSaved(id: number) {
@@ -322,7 +315,7 @@ export default function SearchApp({ watches }: Props) {
         <div>
           <p className="eyebrow">Search</p>
           <h1>Find the watch size that actually wears right.</h1>
-          <p>Compare lug-to-lug, case, thickness, lug width, source confidence, and wrist fit without product imagery.</p>
+          <p>Search watches, references, or dimensions in one box to compare lug-to-lug, case, thickness, lug width, source confidence, and wrist fit.</p>
         </div>
         <div className="status-strip" aria-label="Database status">
           <span>{groupedWatches.length.toLocaleString()} records</span>
@@ -334,27 +327,17 @@ export default function SearchApp({ watches }: Props) {
       <div className="database-controls">
         <form className="search-grid" role="search" onSubmit={(event) => event.preventDefault()}>
           <label>
-            <span>Brand, model or reference</span>
+            <span>Search watches, references, or dimensions</span>
             <div className="field-with-icon">
               <Search size={17} aria-hidden="true" />
               <input
                 className="input"
-                aria-label="Search by brand, model, or reference"
-                placeholder="e.g., Omega Speedmaster"
+                aria-label="Search watches by name, reference, or dimensions"
+                placeholder="e.g., Omega Speedmaster, 310.30, or 47.5"
                 value={query}
                 onChange={(event) => setQuery(event.currentTarget.value)}
               />
             </div>
-          </label>
-          <label>
-            <span>Reference optional</span>
-            <input
-              className="input"
-              aria-label="Filter by reference"
-              placeholder="e.g., 310.30.42.50.01.001"
-              value={referenceQuery}
-              onChange={(event) => setReferenceQuery(event.currentTarget.value)}
-            />
           </label>
           <button className="button accent" type="submit">Search</button>
           <button className="button secondary" type="button" onClick={resetFilters}>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import type { ComponentProps } from "react";
-import { OPTIONAL_SUBMISSION_FIELDS, OPTIONAL_TEXT_INPUTS, REQUIRED_NUMBER_INPUTS, REQUIRED_SUBMISSION_FIELDS, REQUIRED_TEXT_INPUTS } from "@/lib/submissionFields";
+import { OPTIONAL_SUBMISSION_FIELDS, OPTIONAL_TEXT_INPUTS, PUBLIC_SUBMISSION_TEXT_INPUTS, REQUIRED_NUMBER_INPUTS, REQUIRED_SUBMISSION_FIELDS } from "@/lib/submissionFields";
 
 type State = "idle" | "submitting" | "success" | "error";
 
@@ -37,7 +37,7 @@ export default function SubmissionForm() {
           type="text"
         />
       </div>
-      {REQUIRED_TEXT_INPUTS.map((field) => (
+      {PUBLIC_SUBMISSION_TEXT_INPUTS.map((field) => (
         <div className="form-field" key={field.name}>
           <label htmlFor={field.name}>{field.label}</label>
           <input

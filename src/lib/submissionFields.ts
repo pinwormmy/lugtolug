@@ -56,6 +56,8 @@ export const REQUIRED_TEXT_INPUTS = [
   type: "text";
 }[];
 
+export const PUBLIC_SUBMISSION_TEXT_INPUTS = REQUIRED_TEXT_INPUTS.filter((field) => field.name !== "reference");
+
 export const OPTIONAL_TEXT_INPUTS = [
   {
     name: "sourceUrl",

@@ -34,8 +34,15 @@ export function getWatchHref(watch: Pick<Watch, "brandSlug" | "modelSlug" | "ref
   return `/watches/${watch.brandSlug}/${watch.modelSlug}/${watch.referenceSlug}`;
 }
 
-export function getWatchSearchText(watch: Pick<Watch, "brand" | "model" | "reference">): string {
-  return normalizeSearch(`${watch.brand} ${watch.model} ${watch.reference}`);
+export function getWatchSearchText(
+  watch: Pick<Watch, "brand" | "model" | "reference"> & Partial<Pick<Watch, "lugToLugMm" | "caseMm" | "thicknessMm" | "lugWidthMm">>
+): string {
+  const metricText = WATCH_METRICS.flatMap((metric) => {
+    const value = watch[metric.key];
+    return value == null ? [] : [metric.rowLabel, String(value), `${value}mm`];
+  }).join(" ");
+
+  return normalizeSearch(`${watch.brand} ${watch.model} ${watch.reference} ${metricText}`);
 }
 
 export function formatMm(value: number | null | undefined): string {
