@@ -1,7 +1,7 @@
 import type { Submission, SubmissionPayload, Watch, WatchSource, WatchWithSources } from "@/types";
 import { normalizeSearch, slugify } from "@/lib/slug";
 import { searchSeedWatches, seedWatches } from "@/lib/seed";
-import { getWatchSearchText } from "@/lib/watch";
+import { getSearchTokens, getWatchSearchText, watchMatchesSearchQuery } from "@/lib/watch";
 
 type D1 = D1Database | undefined;
 
@@ -165,15 +165,19 @@ export async function searchWatches(db: D1, query: string): Promise<WatchWithSou
   if (!db) return searchSeedWatches(query);
 
   const normalized = normalizeSearch(query);
-  const rows = normalized
-    ? await db
-        .prepare("SELECT * FROM watches WHERE status = 'approved' AND search_text LIKE ? ORDER BY brand, model LIMIT 50")
-        .bind(`%${normalized}%`)
-        .all<WatchRow>()
-    : await db.prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY brand, model LIMIT 50").all<WatchRow>();
+  if (!normalized) return [];
 
-  const watches = await hydrateSources(db, rows.results.map(mapWatch));
-  const seedMatches = normalized ? searchSeedWatches(query) : seedWatches;
+  const tokens = getSearchTokens(query);
+  const searchConditions = tokens.map(() => "search_text LIKE ?").join(" AND ");
+  const rows = await db
+    .prepare(`SELECT * FROM watches WHERE status = 'approved' AND ${searchConditions} ORDER BY brand, model LIMIT 50`)
+    .bind(...tokens.map((token) => `%${token}%`))
+    .all<WatchRow>();
+
+  const watches = (await hydrateSources(db, rows.results.map(mapWatch))).filter((watch) =>
+    watchMatchesSearchQuery(watch, query)
+  );
+  const seedMatches = searchSeedWatches(query);
   return mergeSeedWatches(watches, seedMatches).slice(0, 50);
 }
 

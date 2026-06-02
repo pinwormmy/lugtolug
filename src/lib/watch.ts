@@ -45,6 +45,22 @@ export function getWatchSearchText(
   return normalizeSearch(`${watch.brand} ${watch.model} ${watch.reference} ${metricText}`);
 }
 
+export function getSearchTokens(query: string): string[] {
+  return normalizeSearch(query).split(" ").filter(Boolean);
+}
+
+export function searchTextMatchesQuery(searchText: string, query: string): boolean {
+  const tokens = getSearchTokens(query);
+  if (tokens.length === 0) return false;
+
+  const normalizedSearchText = normalizeSearch(searchText);
+  return tokens.every((token) => normalizedSearchText.includes(token));
+}
+
+export function watchMatchesSearchQuery(watch: Pick<Watch, "brand" | "model" | "reference">, query: string): boolean {
+  return searchTextMatchesQuery(getWatchSearchText(watch), query);
+}
+
 export function formatMm(value: number | null | undefined): string {
   if (value == null) return "Not provided";
   return `${value} mm`;

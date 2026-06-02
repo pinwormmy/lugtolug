@@ -13,7 +13,7 @@ import type { ComponentProps } from "react";
 import type { WatchWithSources } from "@/types";
 import { getFitGuidance, mmToInches } from "@/lib/fit";
 import { normalizeSearch } from "@/lib/slug";
-import { getWatchHref, WATCH_METRICS } from "@/lib/watch";
+import { getWatchHref, searchTextMatchesQuery, WATCH_METRICS } from "@/lib/watch";
 import { getCompactReferenceSearchText, groupWatchesForDisplay, shouldUseCompactReferenceSearch, type WatchDisplayGroup } from "@/lib/watchGroups";
 import {
   createEmptyDimensionFilters,
@@ -255,12 +255,12 @@ export default function SearchApp({ watches }: Props) {
     const dimensionFiltered = filterWatchesByDimensions(groupedWatches, filters);
     const searched = hasSearchQuery
       ? dimensionFiltered.filter((watch) => (
-          (normalized.length > 0 && watch.groupSearchText.includes(normalized)) ||
+          (normalized.length > 0 && searchTextMatchesQuery(watch.groupSearchText, deferredQuery)) ||
           (shouldMatchCompactReference && watch.groupCompactReferenceSearchText.includes(compactReferenceQuery))
         ))
       : dimensionFiltered;
     return sortWatches(searched, sort);
-  }, [compactReferenceQuery, filters, groupedWatches, hasSearchQuery, normalized, shouldMatchCompactReference, sort]);
+  }, [compactReferenceQuery, deferredQuery, filters, groupedWatches, hasSearchQuery, normalized, shouldMatchCompactReference, sort]);
 
   const results = filtered.slice(0, 80);
   const selected = filtered.find((watch) => watch.id === selectedId) ?? filtered[0] ?? null;
