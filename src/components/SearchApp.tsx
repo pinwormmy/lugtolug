@@ -1,6 +1,5 @@
-import { Search, X } from "lucide-react";
+import { ChevronDown, Search, SlidersHorizontal, X } from "lucide-react";
 import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
-import type { ComponentProps } from "react";
 import type { WatchWithSources } from "@/types";
 import { formatMm, getWatchHref, searchTextMatchesQuery } from "@/lib/watch";
 
@@ -33,6 +32,7 @@ function sortWatches(watches: WatchWithSources[], sort: SortKey): WatchWithSourc
 export default function SearchApp({ watches }: Props) {
   const [query, setQuery] = useState("");
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const [filtersOpen, setFiltersOpen] = useState(false);
   const [sort, setSort] = useState<SortKey>("recent");
   const deferredQuery = useDeferredValue(query);
   const hasSearchQuery = deferredQuery.trim().length > 0;
@@ -57,11 +57,6 @@ export default function SearchApp({ watches }: Props) {
     };
   }, [hasSearchQuery]);
 
-  const submitSearch: ComponentProps<"form">["onSubmit"] = (event) => {
-    event.preventDefault();
-    setQuery(searchInputRef.current?.value ?? query);
-  };
-
   return (
     <section className={`database-workbench${hasSearchQuery ? " has-filtered-state" : ""}`} aria-label="Lug to Lug Finder database">
       <div className="workbench-head">
@@ -76,7 +71,7 @@ export default function SearchApp({ watches }: Props) {
       </div>
 
       <div className="database-controls">
-        <form className="search-grid" role="search" onSubmit={submitSearch}>
+        <div className="search-panel" role="search">
           <label>
             <span>Search watches or references</span>
             <div className="field-with-icon">
@@ -91,29 +86,45 @@ export default function SearchApp({ watches }: Props) {
               />
             </div>
           </label>
-          <button className="button accent" type="submit">Search</button>
-          {hasSearchQuery && (
+          <div className="search-panel-actions">
             <button
-              className="button secondary"
+              className={`button secondary search-filter-toggle${filtersOpen ? " active" : ""}`}
               type="button"
-              onClick={() => {
-                setQuery("");
-                searchInputRef.current?.focus();
-              }}
+              aria-expanded={filtersOpen}
+              aria-controls="search-filters"
+              onClick={() => setFiltersOpen((current) => !current)}
             >
-              <X size={16} aria-hidden="true" />
-              Clear
+              <SlidersHorizontal size={18} aria-hidden="true" />
+              Filters
+              <ChevronDown size={16} aria-hidden="true" />
             </button>
+            {hasSearchQuery && (
+              <button
+                className="button secondary"
+                type="button"
+                onClick={() => {
+                  setQuery("");
+                  searchInputRef.current?.focus();
+                }}
+              >
+                <X size={16} aria-hidden="true" />
+                Clear
+              </button>
+            )}
+          </div>
+          {filtersOpen && (
+            <div className="search-filters" id="search-filters">
+              <label className="sort-control">
+                <span>Sort by</span>
+                <select className="select compact-select" value={sort} onChange={(event) => setSort(event.currentTarget.value as SortKey)}>
+                  <option value="recent">Recently added</option>
+                  <option value="name-asc">Name asc</option>
+                  <option value="name-desc">Name desc</option>
+                </select>
+              </label>
+            </div>
           )}
-          <label className="sort-control">
-            <span>Sort by</span>
-            <select className="select compact-select" value={sort} onChange={(event) => setSort(event.currentTarget.value as SortKey)}>
-              <option value="recent">Recently added</option>
-              <option value="name-asc">Name asc</option>
-              <option value="name-desc">Name desc</option>
-            </select>
-          </label>
-        </form>
+        </div>
       </div>
 
       {hasSearchQuery && (

@@ -411,6 +411,10 @@ button {
   justify-content: space-between;
 }
 
+.search-panel-actions {
+  justify-content: flex-start;
+}
+
 .search-filter-toggle {
   justify-content: space-between;
 }
@@ -455,8 +459,8 @@ button {
 
 .search-filters {
   display: grid;
-  gap: 1px;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .filter-row {
