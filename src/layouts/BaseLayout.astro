@@ -49,7 +49,6 @@ const adminSession = await getAdminSession(getDb(Astro.locals), Astro.request);
         <nav class="nav" aria-label="Main navigation">
           <a href="/watches">Watches</a>
           <a href="/submit">Submit data</a>
-          <a href="/saved" data-saved-count>Saved (0)</a>
           <a href={adminSession ? "/admin/submissions" : "/admin/login"}>
             {adminSession ? "Admin" : "Admin login"}
           </a>
@@ -62,26 +61,5 @@ const adminSession = await getAdminSession(getDb(Astro.locals), Astro.request);
         Watch fit guidance is approximate. Case shape, end links, strap stiffness, and personal preference can change real-world wear.
       </footer>
     </div>
-    <script is:inline>
-      (() => {
-        const key = "lugtolug.saved.v1";
-        const target = document.querySelector("[data-saved-count]");
-        const readCount = () => {
-          try {
-            const value = localStorage.getItem(key);
-            const parsed = value ? JSON.parse(value) : [];
-            return Array.isArray(parsed) ? parsed.length : 0;
-          } catch {
-            return 0;
-          }
-        };
-        const render = () => {
-          if (target) target.textContent = `Saved (${readCount()})`;
-        };
-        window.addEventListener("storage", render);
-        window.addEventListener("lugtolug:saved-change", render);
-        render();
-      })();
-    </script>
   </body>
 </html>

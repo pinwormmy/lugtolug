@@ -1,12 +1,15 @@
 import {
   ChevronDown,
+  Gauge,
   RotateCcw,
   Search,
-  SlidersHorizontal
+  SlidersHorizontal,
+  X
 } from "lucide-react";
 import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 import type { ComponentProps } from "react";
 import type { WatchWithSources } from "@/types";
+import { getFitGuidance, mmToInches } from "@/lib/fit";
 import { normalizeSearch } from "@/lib/slug";
 import { getWatchHref, searchTextMatchesQuery, WATCH_METRICS } from "@/lib/watch";
 import { getCompactReferenceSearchText, groupWatchesForDisplay, shouldUseCompactReferenceSearch, type WatchDisplayGroup } from "@/lib/watchGroups";
@@ -24,11 +27,172 @@ interface Props {
 
 type Unit = "mm" | "in";
 type SortKey = "recent" | "lug-asc" | "lug-desc" | "case-asc" | "case-desc";
+type DetailTab = "dimensions" | "specs" | "sources" | "notes";
 
 function formatDimension(value: number | null | undefined, unit: Unit): string {
   if (value == null) return "N/A";
-  if (unit === "in") return `${(value / 25.4).toFixed(2)} in`;
+  if (unit === "in") return `${mmToInches(value).toFixed(2)} in`;
   return `${value.toFixed(value % 1 === 0 ? 0 : 1)} mm`;
+}
+
+function compactDimension(value: number | null | undefined, unit: Unit): string {
+  if (value == null) return "N/A";
+  if (unit === "in") return mmToInches(value).toFixed(2);
+  return value.toFixed(value % 1 === 0 ? 0 : 1);
+}
+
+function sourceLabel(watch: WatchDisplayGroup): string {
+  const source = watch.sources[0]?.sourceUrl;
+  if (!source) return "No source";
+  try {
+    return new URL(source).hostname.replace(/^www\./, "");
+  } catch {
+    return source.replace(/^https?:\/\//, "").split("/")[0] || source;
+  }
+}
+
+function confidenceScore(confidence: WatchDisplayGroup["confidence"]): number {
+  if (confidence === "high") return 4;
+  if (confidence === "medium") return 3;
+  return 2;
+}
+
+function ConfidenceDots({ confidence }: { confidence: WatchDisplayGroup["confidence"] }) {
+  const score = confidenceScore(confidence);
+  return (
+    <span className="confidence-dots" aria-label={`${confidence} confidence`}>
+      {Array.from({ length: 5 }, (_, index) => (
+        <span className={index < score ? "active" : ""} key={index} />
+      ))}
+    </span>
+  );
+}
+
+function WatchDiagram({ watch, unit }: { watch: WatchDisplayGroup; unit: Unit }) {
+  return (
+    <div className="dimension-diagram" aria-label="Technical dimension diagram">
+      <svg viewBox="0 0 420 210" role="img">
+        <title>{`${watch.brand} ${watch.model} dimensions`}</title>
+        <defs>
+          <marker id="arrow" markerHeight="8" markerWidth="8" orient="auto" refX="4" refY="4">
+            <path d="M0 0 8 4 0 8Z" />
+          </marker>
+        </defs>
+        <g className="diagram-grid">
+          {Array.from({ length: 8 }, (_, index) => (
+            <path d={`M${50 + index * 30} 20v150`} key={`v-${index}`} />
+          ))}
+          {Array.from({ length: 5 }, (_, index) => (
+            <path d={`M48 ${35 + index * 28}h230`} key={`h-${index}`} />
+          ))}
+        </g>
+        <g className="diagram-watch">
+          <circle cx="160" cy="96" r="48" />
+          <path d="M130 50V20M190 50V20M130 142v30M190 142v30" />
+          <path d="M112 96h-16M224 96h16" />
+          <circle cx="160" cy="96" r="3" />
+          <path d="M160 48v96M112 96h96" />
+        </g>
+        <g className="diagram-measure">
+          <path d="M84 22v148" markerEnd="url(#arrow)" markerStart="url(#arrow)" />
+          <path d="M112 164h96" markerEnd="url(#arrow)" markerStart="url(#arrow)" />
+          <path d="M294 52v88" markerEnd="url(#arrow)" markerStart="url(#arrow)" />
+          <path d="M342 62h42" markerEnd="url(#arrow)" markerStart="url(#arrow)" />
+        </g>
+        <g className="diagram-side">
+          <rect height="88" rx="8" width="34" x="292" y="52" />
+          <path d="M309 45v102M292 82h34M292 110h34" />
+          <rect height="42" rx="4" width="44" x="342" y="74" />
+          <path d="M342 68h44M342 122h44" />
+        </g>
+      </svg>
+      <div className="diagram-labels">
+        <span>
+          <strong>{formatDimension(watch.lugToLugMm, unit)}</strong>
+          Lug to lug
+        </span>
+        <span>
+          <strong>{formatDimension(watch.caseMm, unit)}</strong>
+          Case
+        </span>
+        <span>
+          <strong>{formatDimension(watch.thicknessMm, unit)}</strong>
+          Thickness
+        </span>
+        <span>
+          <strong>{formatDimension(watch.lugWidthMm, unit)}</strong>
+          Lug width
+        </span>
+      </div>
+    </div>
+  );
+}
+
+function FitAnalyzer({ lugToLugMm }: { lugToLugMm: number }) {
+  const [unit, setUnit] = useState<"cm" | "in">("cm");
+  const [value, setValue] = useState("17.0");
+  const wristMm = unit === "cm" ? Number(value) * 10 : Number(value) * 25.4;
+  const fit = Number.isFinite(wristMm) && wristMm > 0 ? getFitGuidance(lugToLugMm, wristMm) : null;
+  const ratioPosition = fit ? Math.max(0, Math.min(100, ((fit.ratio - 0.5) / 0.6) * 100)) : 0;
+
+  return (
+    <section className="fit-analyzer" aria-label="Wrist fit analyzer">
+      <div className="panel-heading">
+        <div>
+          <p className="eyebrow">Wrist fit analyzer</p>
+          <h3>Fit reference</h3>
+        </div>
+        <Gauge size={18} aria-hidden="true" />
+      </div>
+      <div className="fit-controls">
+        <label>
+          <span>Wrist circumference</span>
+          <input
+            className="input"
+            inputMode="decimal"
+            value={value}
+            onChange={(event) => setValue(event.currentTarget.value)}
+          />
+        </label>
+        <label>
+          <span>Unit</span>
+          <select className="select" value={unit} onChange={(event) => setUnit(event.currentTarget.value as "cm" | "in")}>
+            <option value="cm">cm</option>
+            <option value="in">in</option>
+          </select>
+        </label>
+      </div>
+      {fit ? (
+        <>
+          <div className="fit-stats">
+            <span>
+              <small>Flat wrist width</small>
+              <strong>{fit.wristFlatWidthMm.toFixed(1)} mm</strong>
+            </span>
+            <span>
+              <small>Fit ratio</small>
+              <strong>{fit.ratio.toFixed(2)}</strong>
+            </span>
+          </div>
+          <div className="fit-scale" aria-label={`Fit ratio ${fit.ratio.toFixed(2)}`}>
+            <span style={{ left: `${ratioPosition}%` }} />
+          </div>
+          <div className="fit-scale-labels">
+            <span>Too small</span>
+            <span>Ideal</span>
+            <span>Large</span>
+            <span>Too large</span>
+          </div>
+          <div className={`fit-verdict ${fit.category}`}>
+            <strong>{fit.label}</strong>
+            <p>{fit.guidance}</p>
+          </div>
+        </>
+      ) : (
+        <p className="small">Enter a wrist circumference to estimate the fit.</p>
+      )}
+    </section>
+  );
 }
 
 function sortWatches(watches: WatchDisplayGroup[], sort: SortKey): WatchDisplayGroup[] {
@@ -53,6 +217,8 @@ export default function SearchApp({ watches }: Props) {
   const [filters, setFilters] = useState<DimensionFilters>(() => createEmptyDimensionFilters());
   const [unit, setUnit] = useState<Unit>("mm");
   const [sort, setSort] = useState<SortKey>("lug-asc");
+  const [selectedId, setSelectedId] = useState<number | null>(null);
+  const [detailTab, setDetailTab] = useState<DetailTab>("dimensions");
   const deferredQuery = useDeferredValue(query);
   const hasSearchQuery = deferredQuery.trim().length > 0;
   const normalized = normalizeSearch(deferredQuery);
@@ -75,6 +241,7 @@ export default function SearchApp({ watches }: Props) {
   }, [compactReferenceQuery, deferredQuery, filters, groupedWatches, hasSearchQuery, normalized, shouldMatchCompactReference, sort]);
 
   const results = filtered.slice(0, 80);
+  const selected = filtered.find((watch) => watch.id === selectedId) ?? filtered[0] ?? null;
 
   useEffect(() => {
     const recentSection = document.querySelector<HTMLElement>("[data-recent-watches]");
@@ -100,6 +267,11 @@ export default function SearchApp({ watches }: Props) {
     setQuery("");
   }
 
+  function chooseWatch(watch: WatchDisplayGroup) {
+    setSelectedId(watch.id);
+    setDetailTab("dimensions");
+  }
+
   const submitSearch: ComponentProps<"form">["onSubmit"] = (event) => {
     event.preventDefault();
     setQuery(searchInputRef.current?.value ?? query);
@@ -110,8 +282,8 @@ export default function SearchApp({ watches }: Props) {
       <div className="workbench-head">
         <div>
           <p className="eyebrow">Search</p>
-          <h1>Find the watch you want, then jump straight to the full spec page.</h1>
-          <p>Search watches, references, or dimensions in one box. When results appear, they stay compact: watch name and lug-to-lug only.</p>
+          <h1>Find the watch size that actually wears right.</h1>
+          <p>Search watches, references, or dimensions in one box to inspect lug-to-lug, case, thickness, lug width, source confidence, and wrist fit.</p>
         </div>
         <div className="status-strip" aria-label="Database status">
           <span>{groupedWatches.length.toLocaleString()} records</span>
@@ -205,7 +377,7 @@ export default function SearchApp({ watches }: Props) {
       </div>
 
       {shouldShowFilteredState && (
-        <div className="database-layout database-layout--results-only">
+        <div className="database-layout">
           <section className="results-panel" aria-busy={isPending}>
             <div className="results-head">
               <strong>{filtered.length.toLocaleString()} results</strong>
@@ -220,24 +392,47 @@ export default function SearchApp({ watches }: Props) {
                 </select>
               </label>
             </div>
-            <div className="watch-list search-results-list" aria-label="Watch results">
+            <div className="database-table" role="table" aria-label="Watch results">
+              <div className="database-row database-row-head" role="row">
+                <span>Brand / model</span>
+                <span>Lug to lug</span>
+                <span>Case</span>
+                <span>Thickness</span>
+                <span>Lug width</span>
+                <span>Source</span>
+                <span>Conf.</span>
+                <span>Actions</span>
+              </div>
               {results.map((watch) => {
-                const href = getWatchHref(watch);
+                const isSelected = selected?.id === watch.id;
                 return (
-                  <a
-                    className="watch-row watch-row--summary search-result"
-                    href={href}
+                  <article
+                    className={`database-row${isSelected ? " selected" : ""}`}
                     key={watch.id}
-                    aria-label={`Open ${watch.brand} ${watch.model} full specs`}
+                    role="row"
+                    tabIndex={0}
+                    onClick={() => chooseWatch(watch)}
+                    onKeyDown={(event) => {
+                      if (event.key === "Enter" || event.key === " ") chooseWatch(watch);
+                    }}
                   >
-                    <div className="watch-summary search-result-summary">
-                      <div className="watch-summary-name">
-                        <strong>{[watch.brand, watch.model].filter(Boolean).join(" ")}</strong>
-                        <small className="search-result-reference">{watch.reference || "Reference not provided"}</small>
-                      </div>
-                      <strong className="watch-summary-size">{formatDimension(watch.lugToLugMm, unit)}</strong>
-                    </div>
-                  </a>
+                    <span className="row-name">
+                      <strong>{[watch.brand, watch.model].filter(Boolean).join(" ")}</strong>
+                      <small>
+                        {watch.reference || "Reference not provided"}
+                        {watch.variantCount > 1 ? ` · ${watch.variantCount} references` : ""}
+                      </small>
+                    </span>
+                    <span className="row-primary-metric">
+                      <strong>{compactDimension(watch.lugToLugMm, unit)}</strong>
+                      <small>{unit}</small>
+                    </span>
+                    <span>{formatDimension(watch.caseMm, unit)}</span>
+                    <span>{formatDimension(watch.thicknessMm, unit)}</span>
+                    <span>{formatDimension(watch.lugWidthMm, unit)}</span>
+                    <span>{sourceLabel(watch)}</span>
+                    <span><ConfidenceDots confidence={watch.confidence} /></span>
+                  </article>
                 );
               })}
             </div>
@@ -246,6 +441,79 @@ export default function SearchApp({ watches }: Props) {
             )}
             {filtered.length > results.length && <p className="small">Showing first {results.length} results. Narrow the search to inspect more records.</p>}
           </section>
+
+          <aside className="detail-panel" aria-label="Selected watch detail">
+            {selected ? (
+              <>
+                <div className="detail-panel-head">
+                  <div>
+                    <p className="eyebrow">Selected watch</p>
+                    <h2>{[selected.brand, selected.model].filter(Boolean).join(" ")}</h2>
+                    <p>{selected.reference || "Reference not provided"}</p>
+                  </div>
+                  <button className="icon-button" type="button" aria-label="Clear selected watch" onClick={() => setSelectedId(null)}>
+                    <X size={16} aria-hidden="true" />
+                  </button>
+                </div>
+                <div className="detail-tabs" role="tablist" aria-label="Watch detail sections">
+                  {(["dimensions", "specs", "sources", "notes"] as const).map((tab) => (
+                    <button
+                      key={tab}
+                      type="button"
+                      role="tab"
+                      aria-selected={detailTab === tab}
+                      className={detailTab === tab ? "active" : ""}
+                      onClick={() => setDetailTab(tab)}
+                    >
+                      {tab}
+                    </button>
+                  ))}
+                </div>
+
+                {detailTab === "dimensions" && (
+                  <div className="detail-tab-panel" role="tabpanel">
+                    <WatchDiagram watch={selected} unit={unit} />
+                    <FitAnalyzer lugToLugMm={selected.lugToLugMm} />
+                  </div>
+                )}
+
+                {detailTab === "specs" && (
+                  <div className="detail-tab-panel spec-list" role="tabpanel">
+                    {WATCH_METRICS.map((metric) => (
+                      <span key={metric.key}>
+                        <small>{metric.detailLabel}</small>
+                        <strong>{formatDimension(selected[metric.key], unit)}</strong>
+                      </span>
+                    ))}
+                    <span>
+                      <small>Confidence</small>
+                      <strong>{selected.confidence}</strong>
+                    </span>
+                  </div>
+                )}
+
+                {detailTab === "sources" && (
+                  <div className="detail-tab-panel source-list" role="tabpanel">
+                    {selected.sources.length > 0 ? selected.sources.map((source) => (
+                      <a href={source.sourceUrl} key={source.id} target="_blank" rel="noreferrer">
+                        {sourceLabel(selected)}
+                        {source.note && <small>{source.note}</small>}
+                      </a>
+                    )) : <p className="small">No sources attached.</p>}
+                  </div>
+                )}
+
+                {detailTab === "notes" && (
+                  <div className="detail-tab-panel" role="tabpanel">
+                    <p className="small">Measurements may vary by reference. Verify the source before purchase.</p>
+                    <a className="button secondary" href={getWatchHref(selected)}>Open full record</a>
+                  </div>
+                )}
+              </>
+            ) : (
+              <p className="empty-state">Select a watch to inspect dimensions and fit guidance.</p>
+            )}
+          </aside>
         </div>
       )}
     </section>

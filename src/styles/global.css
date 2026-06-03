@@ -231,8 +231,7 @@ button {
 .workbench-head > *,
 .database-controls,
 .results-panel,
-.detail-panel,
-.compare-tray {
+.detail-panel {
   min-width: 0;
 }
 
@@ -270,8 +269,7 @@ button {
 .panel,
 .database-controls,
 .results-panel,
-.detail-panel,
-.compare-tray {
+.detail-panel {
   background: rgba(16, 19, 19, 0.94);
   border: 1px solid var(--line);
   border-radius: 4px;
@@ -596,8 +594,7 @@ button {
 }
 
 .results-panel,
-.detail-panel,
-.compare-tray {
+.detail-panel {
   padding: 14px;
 }
 
@@ -983,65 +980,6 @@ button {
   color: var(--muted);
 }
 
-.compare-tray {
-  display: grid;
-  gap: 12px;
-}
-
-.compare-grid {
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.compare-grid article {
-  background: var(--panel-soft);
-  border: 1px solid var(--line);
-  display: grid;
-  gap: 8px;
-  padding: 12px;
-  position: relative;
-}
-
-.compare-grid article > .icon-button {
-  position: absolute;
-  right: 8px;
-  top: 8px;
-}
-
-.compare-grid strong {
-  color: var(--ink);
-  padding-right: 34px;
-}
-
-.compare-grid small {
-  color: var(--muted);
-  font-family: var(--mono);
-}
-
-.compare-grid dl,
-.compare-grid div {
-  display: grid;
-  gap: 1px;
-  margin: 0;
-}
-
-.compare-grid div {
-  grid-template-columns: minmax(0, 1fr) auto;
-}
-
-.compare-grid dt,
-.compare-grid dd {
-  color: var(--muted);
-  font-family: var(--mono);
-  font-size: 0.72rem;
-  margin: 0;
-}
-
-.compare-grid dd {
-  color: var(--accent-strong);
-}
-
 .watch-row {
   align-items: center;
   background: var(--panel);
@@ -1062,25 +1000,6 @@ button {
 
 .watch-row.watch-row--summary {
   grid-template-columns: minmax(0, 1fr);
-}
-
-.saved-row {
-  align-items: center;
-  display: flex;
-  gap: 12px;
-  justify-content: space-between;
-}
-
-.saved-row-link {
-  color: inherit;
-  display: block;
-  flex: 1 1 auto;
-  min-width: 0;
-  text-decoration: none;
-}
-
-.saved-row-remove {
-  flex: 0 0 auto;
 }
 
 .watch-summary {
@@ -1311,10 +1230,6 @@ button {
   .database-layout {
     grid-template-columns: minmax(0, 0.95fr) minmax(310px, 0.72fr);
   }
-
-  .compare-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
 }
 
 @media (max-width: 900px) {
@@ -1429,8 +1344,7 @@ button {
   .workbench-head,
   .database-controls,
   .results-panel,
-  .detail-panel,
-  .compare-tray {
+  .detail-panel {
     max-width: min(calc(100vw - 24px), 366px);
     margin-inline: 0;
     width: 100%;
@@ -1465,7 +1379,6 @@ button {
   .database-controls,
   .results-panel,
   .detail-panel,
-  .compare-tray,
   .tool-panel,
   .panel {
     padding: 12px;
@@ -1478,7 +1391,6 @@ button {
   .fit-controls,
   .fit-stats,
   .spec-list,
-  .compare-grid,
   .form-grid,
   .spec-grid {
     grid-template-columns: 1fr;
@@ -1524,8 +1436,7 @@ button {
     display: none;
   }
 
-  .database-workbench:not(.has-filtered-state) .database-layout,
-  .database-workbench:not(.has-filtered-state) .compare-tray {
+  .database-workbench:not(.has-filtered-state) .database-layout {
     display: none;
   }
 
