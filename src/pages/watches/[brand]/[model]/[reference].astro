@@ -1,10 +1,8 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import CorrectionReportForm from "@/components/CorrectionReportForm";
-import FitCalculator from "@/components/FitCalculator";
 import { getAdminSession } from "@/lib/auth";
 import { getDb, getWatchBySlugs } from "@/lib/db";
-import { mmToInches } from "@/lib/fit";
 import { formatMm, isHttpUrl, WATCH_METRICS } from "@/lib/watch";
 
 const { brand, model, reference } = Astro.params;
@@ -19,9 +17,8 @@ const adminSession = await getAdminSession(db, Astro.request);
 const manageHref = `/admin/watches/${watch.id}`;
 const watchName = [watch.brand, watch.model].filter(Boolean).join(" ");
 const referenceLabel = watch.reference || "Reference not provided";
-const formatInches = (value: number | null | undefined) => value == null ? "Not provided" : `${mmToInches(value).toFixed(2)} in`;
-const title = `${watchName} dimensions | Lug to Lug Finder`;
-const description = `${watchName}: ${formatMm(watch.lugToLugMm)} lug-to-lug, ${formatMm(watch.caseMm)} case, ${formatMm(watch.thicknessMm)} thickness, ${formatMm(watch.lugWidthMm)} lug width.`;
+const title = `${watchName} | Lug to Lug Finder`;
+const description = `${watchName}: published measurements, sources, and notes.`;
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Product",
@@ -46,63 +43,6 @@ const structuredData = {
       <h1 class="page-title">{watch.model}</h1>
       <p class="lede">{referenceLabel}</p>
     </div>
-    {adminSession && (
-      <p style="margin-top: 18px;">
-        <a class="button secondary" href={manageHref}>Manage published data</a>
-      </p>
-    )}
-  </section>
-
-  <section class="section detail-shell">
-    <div class="panel">
-      <div class="detail-tabs" aria-label="Watch detail sections">
-        <a class="active" href="#dimensions">Dimensions</a>
-        <a href="#specs">Specs</a>
-        <a href="#sources">Sources ({watch.sources.length})</a>
-        <a href="#notes">Notes</a>
-      </div>
-      <div class="dimension-diagram detail-diagram" id="dimensions" aria-label="Technical dimension diagram">
-        <svg viewBox="0 0 420 210" role="img">
-          <title>{watchName} dimensions</title>
-          <defs>
-            <marker id="detail-arrow" markerHeight="8" markerWidth="8" orient="auto" refX="4" refY="4">
-              <path d="M0 0 8 4 0 8Z"></path>
-            </marker>
-          </defs>
-          <g class="diagram-grid">
-            <path d="M50 20v150"></path><path d="M80 20v150"></path><path d="M110 20v150"></path><path d="M140 20v150"></path><path d="M170 20v150"></path><path d="M200 20v150"></path><path d="M230 20v150"></path><path d="M260 20v150"></path>
-            <path d="M48 35h230"></path><path d="M48 63h230"></path><path d="M48 91h230"></path><path d="M48 119h230"></path><path d="M48 147h230"></path>
-          </g>
-          <g class="diagram-watch">
-            <circle cx="160" cy="96" r="48"></circle>
-            <path d="M130 50V20M190 50V20M130 142v30M190 142v30"></path>
-            <path d="M112 96h-16M224 96h16"></path>
-            <circle cx="160" cy="96" r="3"></circle>
-            <path d="M160 48v96M112 96h96"></path>
-          </g>
-          <g class="diagram-measure">
-            <path d="M84 22v148" marker-end="url(#detail-arrow)" marker-start="url(#detail-arrow)"></path>
-            <path d="M112 164h96" marker-end="url(#detail-arrow)" marker-start="url(#detail-arrow)"></path>
-            <path d="M294 52v88" marker-end="url(#detail-arrow)" marker-start="url(#detail-arrow)"></path>
-            <path d="M342 62h42" marker-end="url(#detail-arrow)" marker-start="url(#detail-arrow)"></path>
-          </g>
-          <g class="diagram-side">
-            <rect height="88" rx="8" width="34" x="292" y="52"></rect>
-            <path d="M309 45v102M292 82h34M292 110h34"></path>
-            <rect height="42" rx="4" width="44" x="342" y="74"></rect>
-            <path d="M342 68h44M342 122h44"></path>
-          </g>
-        </svg>
-        <div class="diagram-labels">
-          {WATCH_METRICS.map((metric) => (
-            <span>
-              <strong>{formatMm(watch[metric.key])}</strong>
-              {metric.detailLabel}
-            </span>
-          ))}
-        </div>
-      </div>
-    </div>
   </section>
 
   <section class="section spec-grid">
@@ -110,13 +50,11 @@ const structuredData = {
       <div class="spec-card">
         <span>{metric.detailLabel}</span>
         <strong>{formatMm(watch[metric.key])}</strong>
-        <span>{formatInches(watch[metric.key])}</span>
       </div>
     ))}
   </section>
 
   <section class="section grid-2">
-    <FitCalculator client:load lugToLugMm={watch.lugToLugMm} />
     <div class="panel" id="sources">
       <h2>Sources</h2>
       <p class="small">Confidence: {watch.confidence}</p>
@@ -136,4 +74,12 @@ const structuredData = {
   <section class="section" id="notes">
     <CorrectionReportForm client:load watch={watch} />
   </section>
+
+  {adminSession && (
+    <section class="section" style="margin-top: -12px;">
+      <p>
+        <a class="button secondary" href={manageHref}>Manage published data</a>
+      </p>
+    </section>
+  )}
 </BaseLayout>

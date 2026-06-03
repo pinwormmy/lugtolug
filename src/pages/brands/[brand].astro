@@ -9,7 +9,7 @@ const watches = groupWatchesForDisplay(await listBrandWatches(getDb(Astro.locals
 const brandName = watches[0]?.brand ?? brandSlug;
 ---
 
-<BaseLayout title={`${brandName} watch dimensions | Lug to Lug Finder`} description={`Browse ${brandName} lug-to-lug and case dimensions.`}>
+<BaseLayout title={`${brandName} watch records | Lug to Lug Finder`} description={`Browse published ${brandName} watch records.`}>
   <section class="section" style="margin-top: 0;">
     <h1 class="page-title">{brandName}</h1>
     <p class="lede">Approved records for {brandName} watches.</p>

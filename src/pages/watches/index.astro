@@ -1,18 +1,12 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import WatchRow from "@/components/WatchRow.astro";
+import WatchesListSearch from "@/components/WatchesListSearch";
 import { getDb, listWatches } from "@/lib/db";
 import { groupWatchesForDisplay } from "@/lib/watchGroups";
 
 const watches = groupWatchesForDisplay(await listWatches(getDb(Astro.locals)));
 ---
 
-<BaseLayout title="Watch database | Lug to Lug Finder" description="Browse approved watch dimensions by brand, model, and reference number.">
-  <section class="section" style="margin-top: 0;">
-    <h1 class="page-title">Watch database</h1>
-    <p class="lede watches-lede">Approved records with watch names and lug-to-lug dimensions. Search from the home page or open a watch for full measurements.</p>
-    <div class="watch-list" style="margin-top: 26px;">
-      {watches.map((watch) => <WatchRow watch={watch} />)}
-    </div>
-  </section>
+<BaseLayout title="Watch database | Lug to Lug Finder" description="Browse approved watch records by brand, model, and reference number.">
+  <WatchesListSearch client:load watches={watches} />
 </BaseLayout>
