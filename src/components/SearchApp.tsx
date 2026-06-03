@@ -233,6 +233,7 @@ export default function SearchApp({ watches }: Props) {
                     <div className="watch-summary search-result-summary">
                       <div className="watch-summary-name">
                         <strong>{[watch.brand, watch.model].filter(Boolean).join(" ")}</strong>
+                        <small className="search-result-reference">{watch.reference || "Reference not provided"}</small>
                       </div>
                       <strong className="watch-summary-size">{formatDimension(watch.lugToLugMm, unit)}</strong>
                     </div>
