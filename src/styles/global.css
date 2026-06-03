@@ -1064,6 +1064,25 @@ button {
   grid-template-columns: minmax(0, 1fr);
 }
 
+.saved-row {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.saved-row-link {
+  color: inherit;
+  display: block;
+  flex: 1 1 auto;
+  min-width: 0;
+  text-decoration: none;
+}
+
+.saved-row-remove {
+  flex: 0 0 auto;
+}
+
 .watch-summary {
   align-items: start;
   display: grid;
