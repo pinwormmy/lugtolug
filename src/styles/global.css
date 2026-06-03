@@ -230,8 +230,7 @@ button {
 
 .workbench-head > *,
 .database-controls,
-.results-panel,
-.detail-panel {
+.results-panel {
   min-width: 0;
 }
 
@@ -268,8 +267,7 @@ button {
 .tool-panel,
 .panel,
 .database-controls,
-.results-panel,
-.detail-panel {
+.results-panel {
   background: rgba(16, 19, 19, 0.94);
   border: 1px solid var(--line);
   border-radius: 4px;
@@ -348,7 +346,7 @@ button {
 .search-grid {
   display: grid;
   gap: 12px;
-  grid-template-columns: minmax(260px, 1.1fr) minmax(220px, 0.8fr) auto auto auto;
+  grid-template-columns: minmax(260px, 1.1fr) auto auto minmax(220px, 0.8fr);
 }
 
 .search-grid label,
@@ -586,15 +584,10 @@ button {
   align-items: start;
   display: grid;
   gap: 16px;
-  grid-template-columns: minmax(0, 1fr) minmax(360px, 0.46fr);
-}
-
-.database-layout.database-layout--results-only {
   grid-template-columns: minmax(0, 1fr);
 }
 
-.results-panel,
-.detail-panel {
+.results-panel {
   padding: 14px;
 }
 
@@ -643,8 +636,8 @@ button {
   cursor: pointer;
   display: grid;
   gap: 12px;
-  grid-template-columns: minmax(190px, 1.28fr) minmax(84px, 0.55fr) repeat(3, minmax(76px, 0.48fr)) minmax(100px, 0.7fr) minmax(70px, 0.36fr) minmax(78px, 0.4fr);
-  min-width: 760px;
+  grid-template-columns: minmax(190px, 1.28fr) minmax(140px, 0.65fr) minmax(110px, 0.52fr) minmax(70px, 0.36fr) minmax(78px, 0.4fr);
+  min-width: 0;
   padding: 11px 12px;
 }
 
@@ -1228,7 +1221,7 @@ button {
   }
 
   .database-layout {
-    grid-template-columns: minmax(0, 0.95fr) minmax(310px, 0.72fr);
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 

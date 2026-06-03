@@ -10,7 +10,7 @@ interface Props {
 
 const {
   title = "Lug to Lug Finder",
-  description = "Search watch lug-to-lug, case, thickness, lug width, and wrist-fit guidance."
+  description = "Search watch records by brand, model, and reference."
 } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://lugtolug.example").toString();
 const adminSession = await getAdminSession(getDb(Astro.locals), Astro.request);
@@ -43,7 +43,7 @@ const adminSession = await getAdminSession(getDb(Astro.locals), Astro.request);
           </span>
           <span class="brand-copy">
             <span>Lug to Lug Finder</span>
-            <small>Horological database & fit analyzer</small>
+            <small>Horological database</small>
           </span>
         </a>
         <nav class="nav" aria-label="Main navigation">
@@ -58,7 +58,7 @@ const adminSession = await getAdminSession(getDb(Astro.locals), Astro.request);
         <slot />
       </main>
       <footer class="footer">
-        Watch fit guidance is approximate. Case shape, end links, strap stiffness, and personal preference can change real-world wear.
+        Measurements vary by source and reference. Always verify the published record before purchase.
       </footer>
     </div>
   </body>
