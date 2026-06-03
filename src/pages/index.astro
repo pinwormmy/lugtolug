@@ -10,7 +10,7 @@ const watches = await listWatches(db);
 const recentWatches = groupWatchesForDisplay(await listRecentWatches(db, 20)).slice(0, 5);
 ---
 
-<BaseLayout title="Lug to Lug Finder | Watch fit dimensions" description="Search watch lug-to-lug, case, thickness, lug width, and wrist fit guidance.">
+<BaseLayout title="Lug to Lug Finder | Watch fit dimensions" description="Search watch names, references, and lug-to-lug measurements, then open the full spec page.">
   <section class="home-workbench">
     <SearchApp client:load watches={watches} />
   </section>

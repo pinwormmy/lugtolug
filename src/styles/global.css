@@ -591,6 +591,10 @@ button {
   grid-template-columns: minmax(0, 1fr) minmax(360px, 0.46fr);
 }
 
+.database-layout.database-layout--results-only {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .results-panel,
 .detail-panel,
 .compare-tray {
@@ -624,6 +628,10 @@ button {
 .watch-list {
   display: grid;
   gap: 1px;
+}
+
+.search-results-list {
+  margin-top: 12px;
 }
 
 .database-table {
