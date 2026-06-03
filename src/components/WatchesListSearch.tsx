@@ -1,7 +1,7 @@
 import { Search } from "lucide-react";
 import { useDeferredValue, useMemo, useState } from "react";
 import type { WatchDisplayGroup } from "@/lib/watchGroups";
-import { getWatchHref, searchTextMatchesQuery } from "@/lib/watch";
+import { formatMm, getWatchHref, searchTextMatchesQuery } from "@/lib/watch";
 
 interface Props {
   watches: WatchDisplayGroup[];
@@ -55,7 +55,7 @@ export default function WatchesListSearch({ watches }: Props) {
                 <strong>{[watch.brand, watch.model].filter(Boolean).join(" ")}</strong>
                 {watch.variantCount > 1 && <span>{watch.variantCount} references</span>}
               </div>
-              <span>{watch.reference || "Reference not provided"}</span>
+              <strong className="watch-summary-size">{formatMm(watch.lugToLugMm)}</strong>
             </div>
           </a>
         ))}
