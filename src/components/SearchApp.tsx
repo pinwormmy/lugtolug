@@ -1,8 +1,6 @@
 import {
-  Bookmark,
   ChevronDown,
   Gauge,
-  GitCompareArrows,
   RotateCcw,
   Search,
   SlidersHorizontal,
@@ -68,23 +66,6 @@ function sourceLabel(watch: WatchDisplayGroup): string {
   } catch {
     return source.replace(/^https?:\/\//, "").split("/")[0] || source;
   }
-}
-
-function confidenceScore(confidence: WatchDisplayGroup["confidence"]): number {
-  if (confidence === "high") return 4;
-  if (confidence === "medium") return 3;
-  return 2;
-}
-
-function ConfidenceDots({ confidence }: { confidence: WatchDisplayGroup["confidence"] }) {
-  const score = confidenceScore(confidence);
-  return (
-    <span className="confidence-dots" aria-label={`${confidence} confidence`}>
-      {Array.from({ length: 5 }, (_, index) => (
-        <span className={index < score ? "active" : ""} key={index} />
-      ))}
-    </span>
-  );
 }
 
 function WatchDiagram({ watch, unit }: { watch: WatchDisplayGroup; unit: Unit }) {
@@ -234,7 +215,7 @@ export default function SearchApp({ watches }: Props) {
   const [sort, setSort] = useState<SortKey>("lug-asc");
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const [detailTab, setDetailTab] = useState<DetailTab>("dimensions");
-  const [savedIds, setSavedIds] = useState<number[]>(() => readStoredIds(SAVED_STORAGE_KEY));
+  const [savedIds] = useState<number[]>(() => readStoredIds(SAVED_STORAGE_KEY));
   const [compareIds, setCompareIds] = useState<number[]>(() => readStoredIds(COMPARE_STORAGE_KEY));
   const unit: Unit = "mm";
   const deferredQuery = useDeferredValue(query);
@@ -295,10 +276,6 @@ export default function SearchApp({ watches }: Props) {
   function resetFilters() {
     setFilters(createEmptyDimensionFilters());
     setQuery("");
-  }
-
-  function toggleSaved(id: number) {
-    setSavedIds((current) => (current.includes(id) ? current.filter((item) => item !== id) : [...current, id]));
   }
 
   function toggleCompare(id: number) {
@@ -424,73 +401,26 @@ export default function SearchApp({ watches }: Props) {
                 </select>
               </label>
             </div>
-            <div className="database-table" role="table" aria-label="Watch results">
-              <div className="database-row database-row-head" role="row">
-                <span>Brand / model</span>
-                <span>Lug to lug</span>
-                <span>Case</span>
-                <span>Thickness</span>
-                <span>Lug width</span>
-                <span>Source</span>
-                <span>Conf.</span>
-                <span>Actions</span>
-              </div>
+            <div className="watch-result-list" aria-label="Watch results">
               {results.map((watch) => {
                 const isSelected = selected?.id === watch.id;
-                const isSaved = savedIds.includes(watch.id);
-                const isCompared = compareIds.includes(watch.id);
                 return (
-                  <article
-                    className={`database-row${isSelected ? " selected" : ""}`}
+                  <button
+                    className={`watch-result-row${isSelected ? " selected" : ""}`}
                     key={watch.id}
-                    role="row"
-                    tabIndex={0}
+                    type="button"
                     onClick={() => chooseWatch(watch)}
-                    onKeyDown={(event) => {
-                      if (event.key === "Enter" || event.key === " ") chooseWatch(watch);
-                    }}
+                    aria-current={isSelected ? "true" : undefined}
+                    aria-label={`${watch.brand} ${watch.model} 상세 보기`}
                   >
-                    <span className="row-name">
+                    <span className="watch-result-name">
                       <strong>{[watch.brand, watch.model].filter(Boolean).join(" ")}</strong>
-                      <small>
-                        {watch.reference || "Reference not provided"}
-                        {watch.variantCount > 1 ? ` · ${watch.variantCount} references` : ""}
-                      </small>
                     </span>
-                    <span className="row-primary-metric">
+                    <span className="watch-result-size">
                       <strong>{compactDimension(watch.lugToLugMm, unit)}</strong>
                       <small>{unit}</small>
                     </span>
-                    <span>{formatDimension(watch.caseMm, unit)}</span>
-                    <span>{formatDimension(watch.thicknessMm, unit)}</span>
-                    <span>{formatDimension(watch.lugWidthMm, unit)}</span>
-                    <span>{sourceLabel(watch)}</span>
-                    <span><ConfidenceDots confidence={watch.confidence} /></span>
-                    <span className="row-actions">
-                      <button
-                        type="button"
-                        className={isCompared ? "icon-button active" : "icon-button"}
-                        aria-label={isCompared ? "Remove from compare" : "Add to compare"}
-                        onClick={(event) => {
-                          event.stopPropagation();
-                          toggleCompare(watch.id);
-                        }}
-                      >
-                        <GitCompareArrows size={15} aria-hidden="true" />
-                      </button>
-                      <button
-                        type="button"
-                        className={isSaved ? "icon-button active" : "icon-button"}
-                        aria-label={isSaved ? "Remove saved watch" : "Save watch"}
-                        onClick={(event) => {
-                          event.stopPropagation();
-                          toggleSaved(watch.id);
-                        }}
-                      >
-                        <Bookmark size={15} aria-hidden="true" />
-                      </button>
-                    </span>
-                  </article>
+                  </button>
                 );
               })}
             </div>
