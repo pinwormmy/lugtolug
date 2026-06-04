@@ -47,8 +47,12 @@ const adminSession = await getAdminSession(getDb(Astro.locals), Astro.request);
           </span>
         </a>
         <nav class="nav" aria-label="Main navigation">
-          <a href="/submit">Submit data</a>
-          <a href={adminSession ? "/admin/submissions" : "/admin/login"}>
+          <div class="nav-links">
+            <a href="/watches">Watches</a>
+            <a href="/submit">Submit data</a>
+            <a href="/" data-saved-count>Saved (0)</a>
+          </div>
+          <a class="nav-admin button secondary" href={adminSession ? "/admin/submissions" : "/admin/login"}>
             {adminSession ? "Admin" : "Admin login"}
           </a>
         </nav>
