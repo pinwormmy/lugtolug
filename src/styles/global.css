@@ -1525,18 +1525,19 @@ button {
   }
 
   .search-filter-toggle {
-    min-height: 40px;
+    min-height: 36px;
     padding-inline: 12px;
-    font-size: 0.7rem;
-    font-weight: 760;
-    letter-spacing: 0.05em;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.045em;
+    line-height: 1;
   }
 
   .search-filter-toggle .filter-pill {
-    height: 18px;
-    min-width: 18px;
-    padding: 0 6px;
-    font-size: 0.64rem;
+    height: 16px;
+    min-width: 16px;
+    padding: 0 5px;
+    font-size: 0.6rem;
   }
 
   [data-recent-watches],
