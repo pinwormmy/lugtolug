@@ -724,24 +724,6 @@ button {
   margin-left: 4px;
 }
 
-.confidence-dots {
-  align-items: center;
-  display: inline-flex;
-  gap: 4px;
-}
-
-.confidence-dots span {
-  border: 1px solid var(--muted-soft);
-  border-radius: 999px;
-  height: 7px;
-  width: 7px;
-}
-
-.confidence-dots span.active {
-  background: var(--accent-strong);
-  border-color: var(--accent-strong);
-}
-
 .row-actions {
   display: inline-flex;
   gap: 6px;
