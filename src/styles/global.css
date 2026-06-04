@@ -1524,6 +1524,21 @@ button {
     width: 100%;
   }
 
+  .search-filter-toggle {
+    min-height: 40px;
+    padding-inline: 12px;
+    font-size: 0.7rem;
+    font-weight: 760;
+    letter-spacing: 0.05em;
+  }
+
+  .search-filter-toggle .filter-pill {
+    height: 18px;
+    min-width: 18px;
+    padding: 0 6px;
+    font-size: 0.64rem;
+  }
+
   [data-recent-watches],
   .active-filter-chips {
     display: none;
