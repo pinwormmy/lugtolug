@@ -1383,10 +1383,6 @@ button {
     padding-block: 5px;
   }
 
-  .nav-admin {
-    margin-left: 0;
-  }
-
   .main {
     padding-block: 16px 32px;
     padding-inline: max(12px, env(safe-area-inset-left)) max(12px, env(safe-area-inset-right));
