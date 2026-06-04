@@ -1,13 +1,50 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { getFitGuidance } from "@/lib/fit";
 
 interface Props {
   lugToLugMm: number;
 }
 
+const STORAGE_KEY = "lugtolug-finder:wrist-fit-v1";
+
+function readSavedFitSettings(): { unit: "cm" | "in"; value: string } | null {
+  if (typeof window === "undefined") return null;
+
+  try {
+    const raw = window.localStorage.getItem(STORAGE_KEY);
+    if (!raw) return null;
+
+    const parsed = JSON.parse(raw) as Partial<{ unit: string; value: unknown }>;
+    if ((parsed.unit !== "cm" && parsed.unit !== "in") || typeof parsed.value !== "string") {
+      return null;
+    }
+
+    return { unit: parsed.unit, value: parsed.value };
+  } catch {
+    return null;
+  }
+}
+
 export default function FitCalculator({ lugToLugMm }: Props) {
   const [unit, setUnit] = useState<"cm" | "in">("cm");
   const [value, setValue] = useState("17.0");
+  const [hydrated, setHydrated] = useState(false);
+
+  useEffect(() => {
+    const saved = readSavedFitSettings();
+    if (saved) {
+      setUnit(saved.unit);
+      setValue(saved.value);
+    }
+    setHydrated(true);
+  }, []);
+
+  useEffect(() => {
+    if (!hydrated || typeof window === "undefined") return;
+
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify({ unit, value }));
+  }, [hydrated, unit, value]);
+
   const wristMm = unit === "cm" ? Number(value) * 10 : Number(value) * 25.4;
   const fit = useMemo(() => {
     if (!Number.isFinite(wristMm) || wristMm <= 0) return null;
