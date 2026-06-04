@@ -231,12 +231,12 @@ export default function SearchApp({ watches }: Props) {
   const searchInputRef = useRef<HTMLInputElement>(null);
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [filters, setFilters] = useState<DimensionFilters>(() => createEmptyDimensionFilters());
-  const [unit, setUnit] = useState<Unit>("mm");
   const [sort, setSort] = useState<SortKey>("lug-asc");
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const [detailTab, setDetailTab] = useState<DetailTab>("dimensions");
   const [savedIds, setSavedIds] = useState<number[]>(() => readStoredIds(SAVED_STORAGE_KEY));
   const [compareIds, setCompareIds] = useState<number[]>(() => readStoredIds(COMPARE_STORAGE_KEY));
+  const unit: Unit = "mm";
   const deferredQuery = useDeferredValue(query);
   const hasSearchQuery = deferredQuery.trim().length > 0;
   const normalized = normalizeSearch(deferredQuery);
@@ -362,10 +362,6 @@ export default function SearchApp({ watches }: Props) {
                 Reset
               </button>
             )}
-            <div className="segmented" aria-label="Display units">
-              <button type="button" className={unit === "mm" ? "active" : ""} onClick={() => setUnit("mm")}>mm</button>
-              <button type="button" className={unit === "in" ? "active" : ""} onClick={() => setUnit("in")}>in</button>
-            </div>
           </div>
           <div className="active-filter-chips" aria-label="Active filters">
             {WATCH_METRICS.map((metric) => {
