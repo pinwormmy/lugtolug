@@ -1,5 +1,5 @@
 import type { Submission, WatchWithSources } from "@/types";
-import { assertCsrf, requireAdmin } from "@/lib/auth";
+import { assertCsrfToken, requireAdmin } from "@/lib/auth";
 import { getSubmission, getWatchById } from "@/lib/db";
 import { redirect } from "@/lib/http";
 
@@ -7,6 +7,7 @@ export type PendingSubmissionResult =
   | {
       ok: true;
       submission: Submission;
+      form: FormData;
     }
   | {
       ok: false;
@@ -19,6 +20,7 @@ export type AdminWatchResult =
   | {
       ok: true;
       watch: WatchWithSources;
+      form: FormData;
     }
   | {
       ok: false;
@@ -31,7 +33,8 @@ async function requireSubmission(
   idParam: string | undefined
 ): Promise<SubmissionReviewResult> {
   const session = await requireAdmin(db, request);
-  await assertCsrf(session, request);
+  const form = await request.formData();
+  assertCsrfToken(session, String(form.get("csrfToken") ?? ""));
 
   const id = Number(idParam);
   if (!Number.isSafeInteger(id) || id < 1) {
@@ -43,7 +46,7 @@ async function requireSubmission(
     return { ok: false, response: redirect("/admin/submissions?error=missing") };
   }
 
-  return { ok: true, submission };
+  return { ok: true, submission, form };
 }
 
 export async function requirePendingSubmission(
@@ -82,7 +85,8 @@ export async function requireAdminWatch(
   idParam: string | undefined
 ): Promise<AdminWatchResult> {
   const session = await requireAdmin(db, request);
-  await assertCsrf(session, request);
+  const form = await request.formData();
+  assertCsrfToken(session, String(form.get("csrfToken") ?? ""));
 
   const id = Number(idParam);
   if (!Number.isSafeInteger(id) || id < 1) {
@@ -94,7 +98,7 @@ export async function requireAdminWatch(
     return { ok: false, response: redirect("/watches") };
   }
 
-  return { ok: true, watch };
+  return { ok: true, watch, form };
 }
 
 export function readReviewerNote(form: FormData): string {

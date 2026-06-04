@@ -8,7 +8,11 @@ export const POST: APIRoute = async ({ locals, params, request }) => {
   const result = await requireApprovedSubmission(db, request, params.id);
   if (!result.ok) return result.response;
 
-  const form = await request.formData();
-  await returnSubmissionToPending(db, result.submission.id, result.submission.payload, readReviewerNote(form));
+  await returnSubmissionToPending(
+    db,
+    result.submission.id,
+    result.submission.payload,
+    readReviewerNote(result.form)
+  );
   return redirect("/admin/submissions?unapproved=1");
 };

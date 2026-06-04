@@ -126,11 +126,6 @@ export async function destroySession(db: D1Database | undefined, request: Reques
   await db.prepare("DELETE FROM admin_sessions WHERE token_hash = ?").bind(await sha256Hex(token)).run();
 }
 
-export async function assertCsrf(session: AdminSession, request: Request): Promise<void> {
-  const form = await request.clone().formData();
-  assertCsrfToken(session, String(form.get("csrfToken") ?? ""));
-}
-
 export function assertCsrfToken(session: AdminSession, token: string): void {
   if (token !== session.csrfToken) {
     throw new Response("Invalid CSRF token", { status: 403 });

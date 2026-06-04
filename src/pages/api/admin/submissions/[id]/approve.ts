@@ -9,10 +9,9 @@ export const POST: APIRoute = async ({ locals, params, request }) => {
   const result = await requirePendingSubmission(db, request, params.id);
   if (!result.ok) return result.response;
 
-  const form = await request.formData();
-  const parsed = parseSubmission(form);
+  const parsed = parseSubmission(result.form);
   if (!parsed.ok || !parsed.payload) return redirect(`/admin/submissions/${result.submission.id}?error=validation`);
 
-  await approveSubmission(db, result.submission.id, parsed.payload, readReviewerNote(form));
+  await approveSubmission(db, result.submission.id, parsed.payload, readReviewerNote(result.form));
   return redirect("/");
 };

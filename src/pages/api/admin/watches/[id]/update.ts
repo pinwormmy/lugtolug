@@ -9,8 +9,7 @@ export const POST: APIRoute = async ({ locals, params, request }) => {
   const result = await requireAdminWatch(db, request, params.id);
   if (!result.ok) return result.response;
 
-  const form = await request.formData();
-  const parsed = parseSubmission(form);
+  const parsed = parseSubmission(result.form);
   if (!parsed.ok || !parsed.payload) return redirect(`/admin/watches/${result.watch.id}?error=validation`);
 
   await updateWatch(db, result.watch.id, parsed.payload);

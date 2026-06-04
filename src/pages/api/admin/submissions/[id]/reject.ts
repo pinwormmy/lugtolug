@@ -8,7 +8,6 @@ export const POST: APIRoute = async ({ locals, params, request }) => {
   const result = await requirePendingSubmission(db, request, params.id);
   if (!result.ok) return result.response;
 
-  const form = await request.formData();
-  await rejectSubmission(db, result.submission.id, readReviewerNote(form));
+  await rejectSubmission(db, result.submission.id, readReviewerNote(result.form));
   return redirect("/admin/submissions?rejected=1");
 };
