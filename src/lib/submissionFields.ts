@@ -58,6 +58,22 @@ export const REQUIRED_TEXT_INPUTS = [
 
 export const PUBLIC_SUBMISSION_TEXT_INPUTS = REQUIRED_TEXT_INPUTS.filter((field) => field.name !== "reference");
 
+export const OPTIONAL_PUBLIC_TEXT_INPUTS = [
+  {
+    name: "reference",
+    label: "Reference number (optional)",
+    maxLength: TEXT_LIMITS.reference,
+    autoComplete: undefined,
+    type: "text"
+  }
+] as const satisfies readonly {
+  name: TextField;
+  label: string;
+  maxLength: number;
+  autoComplete?: string;
+  type: "text";
+}[];
+
 export const OPTIONAL_TEXT_INPUTS = [
   {
     name: "sourceUrl",

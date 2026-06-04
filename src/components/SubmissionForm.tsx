@@ -1,6 +1,13 @@
 import type { ComponentProps } from "react";
 import { useSubmissionForm } from "@/hooks/useSubmissionForm";
-import { OPTIONAL_SUBMISSION_FIELDS, OPTIONAL_TEXT_INPUTS, PUBLIC_SUBMISSION_TEXT_INPUTS, REQUIRED_NUMBER_INPUTS, REQUIRED_SUBMISSION_FIELDS } from "@/lib/submissionFields";
+import {
+  OPTIONAL_PUBLIC_TEXT_INPUTS,
+  OPTIONAL_SUBMISSION_FIELDS,
+  OPTIONAL_TEXT_INPUTS,
+  PUBLIC_SUBMISSION_TEXT_INPUTS,
+  REQUIRED_NUMBER_INPUTS,
+  REQUIRED_SUBMISSION_FIELDS
+} from "@/lib/submissionFields";
 
 export default function SubmissionForm() {
   const { state, message, submit } = useSubmissionForm("Submission failed.");
@@ -35,6 +42,19 @@ export default function SubmissionForm() {
             name={field.name}
             required={REQUIRED_SUBMISSION_FIELDS.has(field.name)}
             type={field.type ?? "text"}
+          />
+        </div>
+      ))}
+      {OPTIONAL_PUBLIC_TEXT_INPUTS.map((field) => (
+        <div className="form-field" key={field.name}>
+          <label htmlFor={field.name}>{field.label}</label>
+          <input
+            autoComplete={field.autoComplete}
+            className="input"
+            id={field.name}
+            maxLength={field.maxLength}
+            name={field.name}
+            type={field.type}
           />
         </div>
       ))}
