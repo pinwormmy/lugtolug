@@ -34,7 +34,6 @@ function sortWatches(watches: WatchDisplayGroup[], sort: WatchSortKey): WatchDis
 export default function SearchApp({ watches }: Props) {
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState<WatchSortKey>("lug-asc");
-  const [selectedId, setSelectedId] = useState<number | null>(null);
   const [dimensionFilters, setDimensionFilters] = useState(() => createEmptyDimensionFilters());
   const [showFilters, setShowFilters] = useState(false);
   const deferredQuery = useDeferredValue(query);
@@ -74,7 +73,6 @@ export default function SearchApp({ watches }: Props) {
   ]);
 
   const results = filtered.slice(0, 80);
-  const selected = selectedId == null ? null : filtered.find((watch) => watch.id === selectedId) ?? null;
 
   useEffect(() => {
     const recentSection = document.querySelector<HTMLElement>("[data-recent-watches]");
@@ -84,10 +82,6 @@ export default function SearchApp({ watches }: Props) {
       recentSection.hidden = false;
     };
   }, [shouldShowResults]);
-
-  useEffect(() => {
-    setSelectedId(null);
-  }, [deferredQuery, dimensionFilters]);
 
   function updateFilterValue(metricKey: DimensionKey, bound: "min" | "max", value: string) {
     setDimensionFilters((current) => ({
@@ -128,11 +122,8 @@ export default function SearchApp({ watches }: Props) {
         <WatchSearchResults
           filteredCount={filtered.length}
           isPending={isPending}
-          onClearSelected={() => setSelectedId(null)}
-          onSelect={setSelectedId}
           onSortChange={setSort}
           results={results}
-          selected={selected}
           sort={sort}
         />
       )}

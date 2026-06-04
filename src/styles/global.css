@@ -1071,6 +1071,7 @@ button {
   grid-template-columns: minmax(0, 1fr) auto;
   font: inherit;
   padding: 14px 16px;
+  text-decoration: none;
   text-align: left;
   width: 100%;
 }
