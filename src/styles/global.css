@@ -1486,6 +1486,17 @@ button {
     flex-direction: column;
   }
 
+  .search-panel-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .search-filter-toggle,
+  .search-panel-actions .reset-button {
+    min-width: 0;
+    width: 100%;
+  }
+
   [data-recent-watches],
   .active-filter-chips {
     display: none;
