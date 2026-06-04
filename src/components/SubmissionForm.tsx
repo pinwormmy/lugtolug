@@ -1,32 +1,19 @@
-import { useState } from "react";
 import type { ComponentProps } from "react";
+import { useSubmissionForm } from "@/hooks/useSubmissionForm";
 import { OPTIONAL_SUBMISSION_FIELDS, OPTIONAL_TEXT_INPUTS, PUBLIC_SUBMISSION_TEXT_INPUTS, REQUIRED_NUMBER_INPUTS, REQUIRED_SUBMISSION_FIELDS } from "@/lib/submissionFields";
 
-type State = "idle" | "submitting" | "success" | "error";
-
 export default function SubmissionForm() {
-  const [state, setState] = useState<State>("idle");
-  const [message, setMessage] = useState("");
+  const { state, message, submit } = useSubmissionForm("Submission failed.");
 
-  const submit: ComponentProps<"form">["onSubmit"] = async (event) => {
+  const onSubmit: ComponentProps<"form">["onSubmit"] = async (event) => {
     event.preventDefault();
-    setState("submitting");
-    const form = event.currentTarget;
-    const response = await fetch("/api/submissions", {
-      method: "POST",
-      body: new FormData(form)
-    });
-    const data = (await response.json()) as { message?: string; errors?: Record<string, string> };
-    if (response.ok) {
+    if (await submit(new FormData(event.currentTarget))) {
       window.location.href = "/";
-    } else {
-      setMessage(data.message ?? Object.values(data.errors ?? {})[0] ?? "Submission failed.");
-      setState("error");
     }
   };
 
   return (
-    <form className="panel form-grid" onSubmit={submit}>
+    <form className="panel form-grid" onSubmit={onSubmit}>
       <div aria-hidden="true" style={{ position: "absolute", left: "-10000px", width: "1px", height: "1px", overflow: "hidden" }}>
         <label htmlFor="website">Website</label>
         <input

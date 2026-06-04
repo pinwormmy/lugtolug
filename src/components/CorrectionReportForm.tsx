@@ -1,10 +1,9 @@
-import { useState } from "react";
 import type { ComponentProps } from "react";
+import { useState } from "react";
 import type { WatchWithSources } from "@/types";
+import { useSubmissionForm } from "@/hooks/useSubmissionForm";
 import { REQUIRED_NUMBER_INPUTS, REQUIRED_SUBMISSION_FIELDS } from "@/lib/submissionFields";
 import { formatMm, getWatchHref } from "@/lib/watch";
-
-type State = "idle" | "submitting" | "success" | "error";
 
 interface Props {
   watch: WatchWithSources;
@@ -24,13 +23,10 @@ function correctionDimensionLabel(label: string): string {
 
 export default function CorrectionReportForm({ watch }: Props) {
   const [isOpen, setIsOpen] = useState(false);
-  const [state, setState] = useState<State>("idle");
-  const [message, setMessage] = useState("");
+  const { state, message, submit, showSuccess } = useSubmissionForm("Report failed.");
 
-  const submit: ComponentProps<"form">["onSubmit"] = async (event) => {
+  const onSubmit: ComponentProps<"form">["onSubmit"] = async (event) => {
     event.preventDefault();
-    setState("submitting");
-    setMessage("");
 
     const form = event.currentTarget;
     const formData = new FormData(form);
@@ -41,19 +37,9 @@ export default function CorrectionReportForm({ watch }: Props) {
       [`Correction report: ${issueType || "Wrong data"}`, issueDetails].filter(Boolean).join("\n\n")
     );
 
-    const response = await fetch("/api/submissions", {
-      method: "POST",
-      body: formData
-    });
-    const data = (await response.json()) as { message?: string; errors?: Record<string, string> };
-
-    if (response.ok) {
+    if (await submit(formData)) {
       form.reset();
-      setState("success");
-      setMessage("Thanks. The report was sent for operator review.");
-    } else {
-      setState("error");
-      setMessage(data.message ?? Object.values(data.errors ?? {})[0] ?? "Report failed.");
+      showSuccess("Thanks. The report was sent for operator review.");
     }
   };
 
@@ -70,7 +56,7 @@ export default function CorrectionReportForm({ watch }: Props) {
   }
 
   return (
-    <form className="panel form-grid correction-form" onSubmit={submit}>
+    <form className="panel form-grid correction-form" onSubmit={onSubmit}>
       <input type="hidden" name="submissionType" value="correction" />
       <input type="hidden" name="reportedWatchId" value={watch.id} />
       <input type="hidden" name="reportedWatchPath" value={getWatchHref(watch)} />
