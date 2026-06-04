@@ -643,6 +643,11 @@ button {
   margin-top: 10px;
 }
 
+.watch-result-item {
+  display: grid;
+  gap: 0;
+}
+
 .database-table {
   margin-top: 10px;
 }
@@ -1080,6 +1085,11 @@ button {
   box-shadow: inset 3px 0 0 var(--accent);
 }
 
+.watch-result-item .watch-result-row.selected {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
 .watch-result-name strong {
   color: var(--ink);
   display: block;
@@ -1105,6 +1115,23 @@ button {
 
 .watch-result-size small {
   color: var(--muted);
+}
+
+.watch-result-detail {
+  background: var(--panel-soft);
+  border: 1px solid var(--line-strong);
+  border-top: 0;
+  display: grid;
+  gap: 12px;
+  margin-top: -1px;
+  padding: 14px 16px 16px;
+}
+
+.watch-result-detail-head {
+  align-items: start;
+  display: flex;
+  gap: 14px;
+  justify-content: space-between;
 }
 
 .watch-name strong,
