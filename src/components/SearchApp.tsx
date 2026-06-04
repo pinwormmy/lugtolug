@@ -1,7 +1,13 @@
-import { Search, X } from "lucide-react";
+import { Search, SlidersHorizontal, X } from "lucide-react";
 import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 import type { WatchWithSources } from "@/types";
-import { getWatchHref, searchTextMatchesQuery } from "@/lib/watch";
+import { normalizeSearch } from "@/lib/slug";
+import { getWatchHref, searchTextMatchesQuery, WATCH_METRICS } from "@/lib/watch";
+import {
+  createEmptyDimensionFilters,
+  hasActiveDimensionFilters,
+  watchMatchesDimensionFilters
+} from "@/lib/watchFilters";
 import {
   getCompactReferenceSearchText,
   groupWatchesForDisplay,
@@ -41,24 +47,44 @@ export default function SearchApp({ watches }: Props) {
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState<SortKey>("lug-asc");
   const [selectedId, setSelectedId] = useState<number | null>(null);
+  const [dimensionFilters, setDimensionFilters] = useState(() => createEmptyDimensionFilters());
+  const [showFilters, setShowFilters] = useState(false);
   const detailPanelRef = useRef<HTMLDivElement>(null);
   const deferredQuery = useDeferredValue(query);
-  const normalized = useMemo(() => deferredQuery.trim(), [deferredQuery]);
+  const normalized = normalizeSearch(deferredQuery);
   const compactReferenceQuery = getCompactReferenceSearchText(deferredQuery);
   const shouldMatchCompactReference = shouldUseCompactReferenceSearch(compactReferenceQuery);
   const hasSearchQuery = deferredQuery.trim().length > 0;
+  const hasActiveFilters = hasActiveDimensionFilters(dimensionFilters);
   const isPending = query !== deferredQuery;
+  const shouldShowResults = hasSearchQuery || hasActiveFilters;
+  const activeFilterCount = Object.values(dimensionFilters).reduce(
+    (count, filter) => count + Number(Boolean(filter.min.trim())) + Number(Boolean(filter.max.trim())),
+    0
+  );
 
   const groupedWatches = useMemo(() => groupWatchesForDisplay(watches, deferredQuery), [deferredQuery, watches]);
   const filtered = useMemo(() => {
-    if (!hasSearchQuery) return [];
-
-    const matches = groupedWatches.filter((watch) => (
-      (normalized.length > 0 && searchTextMatchesQuery(watch.groupSearchText, deferredQuery)) ||
-      (shouldMatchCompactReference && watch.groupCompactReferenceSearchText.includes(compactReferenceQuery))
-    ));
+    const matches = groupedWatches.filter((watch) => {
+      const matchesSearch = !hasSearchQuery || (
+        (normalized.length > 0 && searchTextMatchesQuery(watch.groupSearchText, deferredQuery)) ||
+        (shouldMatchCompactReference && watch.groupCompactReferenceSearchText.includes(compactReferenceQuery))
+      );
+      const matchesDimensions = !hasActiveFilters || watchMatchesDimensionFilters(watch, dimensionFilters);
+      return matchesSearch && matchesDimensions;
+    });
     return sortWatches(matches, sort);
-  }, [compactReferenceQuery, deferredQuery, groupedWatches, hasSearchQuery, normalized, shouldMatchCompactReference, sort]);
+  }, [
+    compactReferenceQuery,
+    deferredQuery,
+    dimensionFilters,
+    groupedWatches,
+    hasActiveFilters,
+    hasSearchQuery,
+    normalized,
+    shouldMatchCompactReference,
+    sort
+  ]);
 
   const results = filtered.slice(0, 80);
   const selected = selectedId == null ? null : filtered.find((watch) => watch.id === selectedId) ?? null;
@@ -66,23 +92,37 @@ export default function SearchApp({ watches }: Props) {
   useEffect(() => {
     const recentSection = document.querySelector<HTMLElement>("[data-recent-watches]");
     if (!recentSection) return;
-    recentSection.hidden = hasSearchQuery;
+    recentSection.hidden = shouldShowResults;
     return () => {
       recentSection.hidden = false;
     };
-  }, [hasSearchQuery]);
+  }, [shouldShowResults]);
 
   useEffect(() => {
     setSelectedId(null);
-  }, [deferredQuery]);
+  }, [deferredQuery, dimensionFilters]);
 
   useEffect(() => {
     if (!selected) return;
     detailPanelRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   }, [selected]);
 
+  function updateFilterValue(metricKey: keyof typeof dimensionFilters, bound: "min" | "max", value: string) {
+    setDimensionFilters((current) => ({
+      ...current,
+      [metricKey]: {
+        ...current[metricKey],
+        [bound]: value
+      }
+    }));
+  }
+
+  function clearFilters() {
+    setDimensionFilters(createEmptyDimensionFilters());
+  }
+
   return (
-    <section className={`database-workbench${hasSearchQuery ? " has-filtered-state" : ""}`} aria-label="Lug to Lug Finder search">
+    <section className={`database-workbench${shouldShowResults ? " has-filtered-state" : ""}`} aria-label="Lug to Lug Finder search">
       <div className="workbench-head">
         <div>
           <p className="eyebrow">Search</p>
@@ -109,10 +149,62 @@ export default function SearchApp({ watches }: Props) {
               />
             </div>
           </label>
+
+          <div className="search-panel-actions">
+            <button
+              className={`button secondary search-filter-toggle${showFilters ? " active" : ""}`}
+              type="button"
+              aria-expanded={showFilters}
+              aria-controls="search-filters-panel"
+              onClick={() => setShowFilters((current) => !current)}
+            >
+              <SlidersHorizontal size={16} aria-hidden="true" />
+              <span>Filters</span>
+              {activeFilterCount > 0 && <span className="filter-pill">{activeFilterCount}</span>}
+            </button>
+
+            {hasActiveFilters && (
+              <button className="button secondary reset-button" type="button" onClick={clearFilters}>
+                Clear filters
+              </button>
+            )}
+          </div>
+
+          {showFilters && (
+            <div className="search-filters" id="search-filters-panel">
+              {WATCH_METRICS.map((metric) => (
+                <div className="filter-row" key={metric.key}>
+                  <span className="filter-label">{metric.detailLabel}</span>
+                  <div className="filter-range">
+                    <label>
+                      <span>Min</span>
+                      <input
+                        className="input"
+                        inputMode="decimal"
+                        placeholder="Any"
+                        value={dimensionFilters[metric.key].min}
+                        onChange={(event) => updateFilterValue(metric.key, "min", event.currentTarget.value)}
+                      />
+                    </label>
+                    <label>
+                      <span>Max</span>
+                      <input
+                        className="input"
+                        inputMode="decimal"
+                        placeholder="Any"
+                        value={dimensionFilters[metric.key].max}
+                        onChange={(event) => updateFilterValue(metric.key, "max", event.currentTarget.value)}
+                      />
+                    </label>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </div>
 
-      {hasSearchQuery && (
+      {shouldShowResults && (
         <div className="database-layout">
           <section className="results-panel" aria-busy={isPending}>
             <div className="results-head">
