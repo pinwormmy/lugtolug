@@ -46,11 +46,6 @@ const structuredData = {
       <h1 class="page-title">{watch.model}</h1>
       <p class="lede">{referenceLabel}</p>
     </div>
-    {adminSession && (
-      <p style="margin-top: 18px;">
-        <a class="button secondary" href={manageHref}>Manage published data</a>
-      </p>
-    )}
   </section>
 
   <section class="section spec-grid">
@@ -84,4 +79,12 @@ const structuredData = {
   <section class="section" id="notes">
     <CorrectionReportForm client:load watch={watch} />
   </section>
+
+  {adminSession && (
+    <section class="section" style="padding-top: 0;">
+      <p style="margin: 0;">
+        <a class="button secondary" href={manageHref}>Manage published data</a>
+      </p>
+    </section>
+  )}
 </BaseLayout>
