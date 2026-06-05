@@ -22583,5 +22583,209 @@
         "note": "Official Formex product page lists SKU 0330.1.6321.100, 43 mm diameter, 49 mm lug-to-lug, 10.6 mm height, and 22 mm lug width."
       }
     ]
+  },
+  {
+    "id": 1284,
+    "brand": "Vaer",
+    "model": "C5 Recon Field Solar 40mm USA",
+    "reference": "C5 Recon Field Solar 40mm USA",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.vaerwatches.com/products/c5-recon-field-solar-40mm-usa",
+        "note": "Official Vaer product page lists 40 mm case diameter, 48 mm lug-to-lug distance, 10.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1285,
+    "brand": "Vaer",
+    "model": "R1 Tactical Chronograph 40mm USA",
+    "reference": "R1 Tactical Chronograph 40mm USA",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.vaerwatches.com/products/r1-tactical-chronograph-40mm-usa",
+        "note": "Official Vaer product page lists 40 mm case diameter, 48 mm lug-to-lug distance, 11.8 mm case thickness without crystal, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1286,
+    "brand": "Vaer",
+    "model": "R1 Oceanracer Chronograph Panda 42mm",
+    "reference": "R1 Oceanracer Chronograph Panda 42mm",
+    "lugToLugMm": 48.5,
+    "caseMm": 42,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.vaerwatches.com/products/r1-usa-oceanracer-chronograph-panda-42mm",
+        "note": "Official Vaer product page lists 42 mm case diameter, 48.5 mm lug-to-lug distance, 12 mm case thickness without crystal, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1287,
+    "brand": "Vaer",
+    "model": "S5 Calendar Field White 40mm Quartz",
+    "reference": "S5 Calendar Field White 40mm Quartz",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 9.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.vaerwatches.com/products/s5-field-white-watch",
+        "note": "Official Vaer product page lists 40 mm case diameter, 48 mm lug-to-lug distance, 9.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1288,
+    "brand": "Vaer",
+    "model": "RS1 Rally Chronograph Panda 40mm",
+    "reference": "RS1 Rally Chronograph Panda 40mm",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.vaerwatches.com/products/rs1-rally-chronograph-panda-40mm",
+        "note": "Official Vaer product page lists 40 mm case diameter, 48 mm lug-to-lug distance, 11.8 mm case thickness without crystal, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1289,
+    "brand": "Vaer",
+    "model": "S3 Calendar Field Black 36mm Quartz",
+    "reference": "S3 Calendar Field Black 36mm Quartz",
+    "lugToLugMm": 43,
+    "caseMm": 36,
+    "thicknessMm": 8.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.vaerwatches.com/products/s3-calendar-field-watch",
+        "note": "Official Vaer product page lists 36 mm case diameter, 43 mm lug-to-lug distance, 8.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1290,
+    "brand": "Vaer",
+    "model": "S3 Tactical Field 36mm Quartz",
+    "reference": "S3 Tactical Field 36mm Quartz",
+    "lugToLugMm": 43,
+    "caseMm": 36,
+    "thicknessMm": 8.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.vaerwatches.com/products/s3-tactical-field",
+        "note": "Official Vaer product page lists 36 mm case diameter, 43 mm lug-to-lug distance, 8.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1291,
+    "brand": "Vaer",
+    "model": "A5 Tactical Field Auto 40mm USA",
+    "reference": "A5 Tactical Field Auto 40mm USA",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.vaerwatches.com/products/a5-tactical-field-40mm-usa-auto",
+        "note": "Official Vaer product page lists 40 mm case diameter, 48 mm lug-to-lug distance, 10.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1292,
+    "brand": "Vaer",
+    "model": "A5 Atlas Black Auto 38mm USA",
+    "reference": "A5 Atlas Black Auto 38mm USA",
+    "lugToLugMm": 45,
+    "caseMm": 38,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.vaerwatches.com/products/a5-atlas-black-usa-auto-38mm",
+        "note": "Official Vaer product page lists 38 mm case diameter, 45 mm lug-to-lug distance, 11 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1293,
+    "brand": "Vaer",
+    "model": "A5 Field Black 40mm USA",
+    "reference": "A5 Field Black 40mm USA",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.vaerwatches.com/products/a5-field-black-usa-automatic",
+        "note": "Official Vaer product page lists 40 mm case diameter, 48 mm lug-to-lug distance, 10.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1294,
+    "brand": "Vaer",
+    "model": "D4 Meridian Black Solar Diver 42mm USA",
+    "reference": "D4 Meridian Black Solar Diver 42mm USA",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 11.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.vaerwatches.com/products/d4-meridian-black-usa-solar-42mm",
+        "note": "Official Vaer product page lists 42 mm case diameter, 48 mm lug-to-lug distance, 11.6 mm case height without crystal, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1295,
+    "brand": "Vaer",
+    "model": "D4 Outerknown Marine Solar Diver 39mm USA",
+    "reference": "D4 Outerknown Marine Solar Diver 39mm USA",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 11.96,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.vaerwatches.com/products/d4-outerknown-usa-solar-diver-marine",
+        "note": "Official Vaer product page lists 39 mm case diameter, 46 mm lug-to-lug distance, 11.96 mm case height without crystal, and 20 mm lug width."
+      }
+    ]
   }
 ]

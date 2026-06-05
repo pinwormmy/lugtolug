@@ -153,15 +153,50 @@ Added references:
 - 2202.1.5323.711
 - 0330.1.6321.100
 
-## Cumulative totals
+### Vaer
 
-- Brands added: 5
-- Models added: 56
-- Official-source additions: 56
+- Added models: 12
+- Reached 10-model target: yes
+- Official-source additions: 12
 - Verified-external additions: 0
 - Duplicate candidates skipped: 0
 - Insufficient-information exclusions: 0
-- Source-conflict exclusions: 1
+- Source-conflict exclusions: 5
+
+Vaer official product pages publish case diameter, lug-to-lug distance, thickness, and lug width. Vaer does not expose separate product SKUs on these pages, so the official product name is used in `reference`.
+
+Added references:
+
+- C5 Recon Field Solar 40mm USA
+- R1 Tactical Chronograph 40mm USA
+- R1 Oceanracer Chronograph Panda 42mm
+- S5 Calendar Field White 40mm Quartz
+- RS1 Rally Chronograph Panda 40mm
+- S3 Calendar Field Black 36mm Quartz
+- S3 Tactical Field 36mm Quartz
+- A5 Tactical Field Auto 40mm USA
+- A5 Atlas Black Auto 38mm USA
+- A5 Field Black 40mm USA
+- D4 Meridian Black Solar Diver 42mm USA
+- D4 Outerknown Marine Solar Diver 39mm USA
+
+Excluded conflicts:
+
+- R1 Racing Chronograph Cream 42mm USA: official technical details and sizing text disagree on lug-to-lug.
+- R1 Racing Chronograph Black 42mm USA: official technical details and sizing text disagree on lug-to-lug.
+- R1 Racing Chronograph Blue 42mm USA: official technical details and sizing text disagree on lug-to-lug.
+- S5 Tactical Field: official page disagrees on whether the case is 40 mm or 42 mm.
+- Vaer x Outerknown D4 USA Solar Diver 38mm: official page disagrees on case thickness.
+
+## Cumulative totals
+
+- Brands added: 6
+- Models added: 68
+- Official-source additions: 68
+- Verified-external additions: 0
+- Duplicate candidates skipped: 0
+- Insufficient-information exclusions: 0
+- Source-conflict exclusions: 6
 
 ## Modified files
 
