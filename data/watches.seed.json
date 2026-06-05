@@ -21631,5 +21631,192 @@
         "note": "EveryWatch dealer listing independently confirms the exact reference at 42 mm case size and a rounded 54 mm lug-to-lug."
       }
     ]
+  },
+  {
+    "id": 1228,
+    "brand": "Casio",
+    "model": "G-SHOCK 2100 Series",
+    "reference": "GA-2100-1A1",
+    "lugToLugMm": 48.5,
+    "caseMm": 45.4,
+    "thicknessMm": 11.8,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.casio.com/intl/watches/gshock/product.GA-2100-1A1/",
+        "note": "Official Casio product page lists case size (L x W x H) as 48.5 x 45.4 x 11.8 mm; the published case length is stored as lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1229,
+    "brand": "Casio",
+    "model": "G-SHOCK 2100 Series",
+    "reference": "GA-B2100-1A",
+    "lugToLugMm": 48.5,
+    "caseMm": 45.4,
+    "thicknessMm": 11.9,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.casio.com/intl/watches/gshock/product.GA-B2100-1A/",
+        "note": "Official Casio product page lists case size (L x W x H) as 48.5 x 45.4 x 11.9 mm; the published case length is stored as lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1230,
+    "brand": "Casio",
+    "model": "G-SHOCK 2100 Series",
+    "reference": "GM-2100-1A",
+    "lugToLugMm": 49.3,
+    "caseMm": 44.4,
+    "thicknessMm": 11.8,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.casio.com/intl/watches/gshock/product.GM-2100-1A/",
+        "note": "Official Casio product page lists case size (L x W x H) as 49.3 x 44.4 x 11.8 mm; the published case length is stored as lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1231,
+    "brand": "Casio",
+    "model": "G-SHOCK 2100 Series",
+    "reference": "GM-B2100D-1A",
+    "lugToLugMm": 49.8,
+    "caseMm": 44.4,
+    "thicknessMm": 12.8,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.casio.com/intl/watches/gshock/product.GM-B2100D-1A/",
+        "note": "Official Casio product page lists case size (L x W x H) as 49.8 x 44.4 x 12.8 mm; the published case length is stored as lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1232,
+    "brand": "Casio",
+    "model": "G-SHOCK 2100 Series",
+    "reference": "GMA-S2100-4A",
+    "lugToLugMm": 46.2,
+    "caseMm": 42.9,
+    "thicknessMm": 11.2,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.casio.com/intl/watches/gshock/product.GMA-S2100-4A/",
+        "note": "Official Casio product page lists case size (L x W x H) as 46.2 x 42.9 x 11.2 mm; the published case length is stored as lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1233,
+    "brand": "Casio",
+    "model": "G-SHOCK GM-5600 Series",
+    "reference": "GM-5600-1",
+    "lugToLugMm": 49.6,
+    "caseMm": 43.2,
+    "thicknessMm": 12.9,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.casio.com/intl/watches/gshock/product.GM-5600-1/",
+        "note": "Official Casio product page lists case size (L x W x H) as 49.6 x 43.2 x 12.9 mm; the published case length is stored as lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1234,
+    "brand": "Casio",
+    "model": "G-SHOCK GM-S5600 Series",
+    "reference": "GM-S5600PG-1",
+    "lugToLugMm": 43.8,
+    "caseMm": 38.4,
+    "thicknessMm": 10.9,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.casio.com/intl/watches/gshock/product.GM-S5600PG-1/",
+        "note": "Official Casio product page lists case size (L x W x H) as 43.8 x 38.4 x 10.9 mm; the published case length is stored as lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1235,
+    "brand": "Casio",
+    "model": "G-SHOCK MRG-B2100 Series",
+    "reference": "MRG-B2100D-1A",
+    "lugToLugMm": 49.5,
+    "caseMm": 44.4,
+    "thicknessMm": 13.6,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.casio.com/intl/watches/gshock/product.MRG-B2100D-1A/",
+        "note": "Official Casio product page lists case size (L x W x H) as 49.5 x 44.4 x 13.6 mm; the published case length is stored as lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1236,
+    "brand": "Casio",
+    "model": "G-SHOCK GMC-B2100 Series",
+    "reference": "GMC-B2100D-1A",
+    "lugToLugMm": 51.3,
+    "caseMm": 46.3,
+    "thicknessMm": 12.4,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.casio.com/intl/watches/gshock/product.GMC-B2100D-1A/",
+        "note": "Official Casio product page lists case size (L x W x H) as 51.3 x 46.3 x 12.4 mm; the published case length is stored as lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1237,
+    "brand": "Casio",
+    "model": "Casio Vintage",
+    "reference": "A168WA-1W",
+    "lugToLugMm": 38.6,
+    "caseMm": 36.3,
+    "thicknessMm": 9.6,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.casio.com/intl/watches/casio/product.A168WA-1/",
+        "note": "Official Casio product page lists case size (L x W x H) as 38.6 x 36.3 x 9.6 mm; the published case length is stored as lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1238,
+    "brand": "Casio",
+    "model": "Edifice Slim 3-Hand Analog",
+    "reference": "EFR-S108D-1AV",
+    "lugToLugMm": 44.8,
+    "caseMm": 39.9,
+    "thicknessMm": 7.8,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.casio.com/intl/watches/edifice/product.EFR-S108D-1AV/",
+        "note": "Official Casio product page lists case size (L x W x H) as 44.8 x 39.9 x 7.8 mm; the published case length is stored as lug-to-lug."
+      }
+    ]
   }
 ]
