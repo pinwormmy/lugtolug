@@ -22192,5 +22192,209 @@
         "note": "Official NOMOS product page lists 29.5 x 29.5 mm case size, 40.5 mm lug-to-lug, 6.5 mm height, and 18 mm lug width."
       }
     ]
+  },
+  {
+    "id": 1261,
+    "brand": "Christopher Ward",
+    "model": "The Twelve 38mm",
+    "reference": "C12 The Twelve 38mm",
+    "lugToLugMm": 43.3,
+    "caseMm": 38,
+    "thicknessMm": 9.95,
+    "lugWidthMm": 23.3,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/on/demandware.static/-/Library-Sites-cw-library/default/dwa1969300/pdfs/SportNew/the-twelve-38mm.pdf",
+        "note": "Official Christopher Ward product handbook lists 38 mm diameter, 43.30 mm lug-to-lug, 9.95 mm height, and 23.30 mm integrated strap width."
+      }
+    ]
+  },
+  {
+    "id": 1262,
+    "brand": "Christopher Ward",
+    "model": "The Twelve 36",
+    "reference": "C12 The Twelve 36",
+    "lugToLugMm": 40.8,
+    "caseMm": 36,
+    "thicknessMm": 9.95,
+    "lugWidthMm": 22.5,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/on/demandware.static/-/Library-Sites-cw-library/default/dw670d11e3/pdfs/SportNew/the-twelve-36.pdf",
+        "note": "Official Christopher Ward product handbook lists 36 mm diameter, 40.8 mm lug-to-lug, 9.95 mm height, and 22.5 mm integrated strap width."
+      }
+    ]
+  },
+  {
+    "id": 1263,
+    "brand": "Christopher Ward",
+    "model": "C60 Concept",
+    "reference": "C60 Concept",
+    "lugToLugMm": 49.32,
+    "caseMm": 42,
+    "thicknessMm": 16.1,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/on/demandware.static/-/Library-Sites-cw-library/default/dw211da403/pdfs/Dive/c60-concept.pdf",
+        "note": "Official Christopher Ward product handbook lists 42 mm diameter, 49.32 mm lug-to-lug, 16.1 mm height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 1264,
+    "brand": "Christopher Ward",
+    "model": "C60 Anthropocene GMT",
+    "reference": "C60 Anthropocene GMT",
+    "lugToLugMm": 49.32,
+    "caseMm": 42,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/on/demandware.static/-/Library-Sites-cw-library/default/dwf41624c6/pdfs/Dive/c60-anthropocene-gmt.pdf",
+        "note": "Official Christopher Ward product handbook lists 42 mm diameter, 49.32 mm lug-to-lug, 14.3 mm height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 1265,
+    "brand": "Christopher Ward",
+    "model": "C60 Chronograph",
+    "reference": "C60 Chronograph",
+    "lugToLugMm": 51.5,
+    "caseMm": 42,
+    "thicknessMm": 17.2,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/on/demandware.static/-/Library-Sites-cw-library/default/dwac4d2370/pdfs/Dive/c60-chronograph.pdf",
+        "note": "Official Christopher Ward product handbook lists 42 mm diameter, 51.5 mm lug-to-lug, 17.2 mm height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 1266,
+    "brand": "Christopher Ward",
+    "model": "C1 Bel Canto The Red One",
+    "reference": "C1 Bel Canto The Red One",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 13,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/on/demandware.static/-/Library-Sites-cw-library/default/dw87081a38/pdfs/Dress/c1-bel-canto-the-red-one.pdf",
+        "note": "Official Christopher Ward product handbook lists 41 mm diameter, 48 mm lug-to-lug, 13 mm height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 1267,
+    "brand": "Christopher Ward",
+    "model": "C65 Aquitaine Automatic",
+    "reference": "C65-41ADA2",
+    "lugToLugMm": 46.68,
+    "caseMm": 41,
+    "thicknessMm": 12.45,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/on/demandware.static/-/Library-Sites-cw-library/default/dw782ee6f9/pdfs/handbooks/C65-41ADA2.pdf",
+        "note": "Official Christopher Ward product handbook lists 41 mm diameter, 46.68 mm lug-to-lug, 12.45 mm height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 1268,
+    "brand": "Christopher Ward",
+    "model": "C63 Sapphire GMT COSC LE",
+    "reference": "C63-39CGM3-S0KK0",
+    "lugToLugMm": 45.8,
+    "caseMm": 39,
+    "thicknessMm": 12.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/on/demandware.static/-/Library-Sites-cw-library/default/dw50a1cb13/pdfs/handbooks/C63-39CGM3-S0KK0.pdf",
+        "note": "Official Christopher Ward product handbook lists 39 mm diameter, 45.8 mm lug-to-lug, 12.4 mm height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 1269,
+    "brand": "Christopher Ward",
+    "model": "C65 Trident Classic Vintage",
+    "reference": "C65 Trident Classic Vintage",
+    "lugToLugMm": 45.3,
+    "caseMm": 38,
+    "thicknessMm": 11.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/on/demandware.static/-/Library-Sites-cw-library/default/dwf423c43a/pdfs/Dress/c65trident_vintage_manual.pdf",
+        "note": "Official Christopher Ward product handbook lists 38 mm diameter, 45.3 mm lug-to-lug, 11.6 mm height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 1270,
+    "brand": "Christopher Ward",
+    "model": "C65 Black Gold Limited Edition",
+    "reference": "C65 Black Gold Limited Edition",
+    "lugToLugMm": 47.1,
+    "caseMm": 41,
+    "thicknessMm": 11.55,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/on/demandware.static/-/Library-Sites-cw-library/default/dw64b3de6b/pdfs/RetroDive/c65-black-gold-limited-edition.pdf",
+        "note": "Official Christopher Ward product handbook lists 41 mm diameter, 47.1 mm lug-to-lug, 11.55 mm height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 1271,
+    "brand": "Christopher Ward",
+    "model": "C65 Dartmouth Series 2",
+    "reference": "C65 Dartmouth Series 2",
+    "lugToLugMm": 46.6,
+    "caseMm": 41,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/on/demandware.static/-/Library-Sites-cw-library/default/dwb7a60c74/pdfs/Military/c65-dartmouth-series2.pdf",
+        "note": "Official Christopher Ward product handbook lists 41 mm diameter, 46.6 mm lug-to-lug, 12.7 mm height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 1272,
+    "brand": "Christopher Ward",
+    "model": "C65 Dune Automatic",
+    "reference": "C65 Dune Automatic",
+    "lugToLugMm": 43.6,
+    "caseMm": 38,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/on/demandware.static/-/Library-Sites-cw-library/default/dwa0c61934/pdfs/RetroDive/c65-dune-automatic.pdf",
+        "note": "Official Christopher Ward product handbook lists 38 mm diameter, 43.6 mm lug-to-lug, 11.7 mm height, and 20 mm strap width."
+      }
+    ]
   }
 ]

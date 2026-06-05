@@ -100,11 +100,38 @@ Added references:
 - 401
 - 408
 
+### Christopher Ward
+
+- Added models: 12
+- Reached 10-model target: yes
+- Official-source additions: 12
+- Verified-external additions: 0
+- Duplicate candidates skipped: 0
+- Insufficient-information exclusions: 0
+- Source-conflict exclusions: 0
+
+Official Christopher Ward product handbooks publish diameter, lug-to-lug, height, and strap width. Where a handbook does not expose a unique SKU, the official handbook model identifier is used in `reference`; exact handbook product codes are used where published.
+
+Added references:
+
+- C12 The Twelve 38mm
+- C12 The Twelve 36
+- C60 Concept
+- C60 Anthropocene GMT
+- C60 Chronograph
+- C1 Bel Canto The Red One
+- C65-41ADA2
+- C63-39CGM3-S0KK0
+- C65 Trident Classic Vintage
+- C65 Black Gold Limited Edition
+- C65 Dartmouth Series 2
+- C65 Dune Automatic
+
 ## Cumulative totals
 
-- Brands added: 3
-- Models added: 33
-- Official-source additions: 33
+- Brands added: 4
+- Models added: 45
+- Official-source additions: 45
 - Verified-external additions: 0
 - Duplicate candidates skipped: 0
 - Insufficient-information exclusions: 0
