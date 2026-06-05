@@ -213,15 +213,44 @@ Added references:
 - Aquascaphe Bronze Brown
 - Aquascaphe Titanium Blue
 
-## Cumulative totals
+### Farer
 
-- Brands added: 7
-- Models added: 78
-- Official-source additions: 78
+- Added models: 10
+- Reached 10-model target: yes
+- Official-source additions: 10
 - Verified-external additions: 0
 - Duplicate candidates skipped: 0
 - Insufficient-information exclusions: 0
-- Source-conflict exclusions: 6
+- Source-conflict exclusions: 1
+
+Farer official product pages publish case diameter, lug-to-lug distance, depth, and lug width. Farer does not expose separate product SKUs on these pages, so the official product name is used in `reference`.
+
+Added references:
+
+- Resolute III
+- Maze III - 40mm
+- Discovery Olive
+- Charlton Green - 38mm
+- Lander Kano 36mm
+- Aurora
+- Discovery Black Velvet 36mm
+- Erebus II
+- Portobello Black Limited Edition
+- Tenebris
+
+Excluded conflicts:
+
+- Lander IV 39.5mm: the official product page lists 11.3 mm depth in the specification table but 10.8 mm thickness in the feature text.
+
+## Cumulative totals
+
+- Brands added: 8
+- Models added: 88
+- Official-source additions: 88
+- Verified-external additions: 0
+- Duplicate candidates skipped: 0
+- Insufficient-information exclusions: 0
+- Source-conflict exclusions: 7
 
 ## Modified files
 

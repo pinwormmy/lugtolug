@@ -22957,5 +22957,175 @@
         "note": "Official Baltic product page lists 41 mm case diameter, 47 mm lug-to-lug, 13.3 mm thickness, and 20 mm lug width."
       }
     ]
+  },
+  {
+    "id": 1306,
+    "brand": "Farer",
+    "model": "Resolute III",
+    "reference": "Resolute III",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://farer.com/products/resolute-iii",
+        "note": "Official Farer product page lists 39 mm diameter, 45 mm lug-to-lug, 11.8 mm depth, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1307,
+    "brand": "Farer",
+    "model": "Maze III - 40mm",
+    "reference": "Maze III - 40mm",
+    "lugToLugMm": 44.8,
+    "caseMm": 40,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://farer.com/products/maze-40mm",
+        "note": "Official Farer product page lists 40 mm diameter, 44.8 mm lug-to-lug, 12.5 mm depth including crystal, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1308,
+    "brand": "Farer",
+    "model": "Discovery Olive",
+    "reference": "Discovery Olive",
+    "lugToLugMm": 45,
+    "caseMm": 39.5,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://farer.com/products/discovery-olive",
+        "note": "Official Farer product page lists 39.5 mm diameter, 45 mm lug-to-lug, 10.8 mm depth, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1309,
+    "brand": "Farer",
+    "model": "Charlton Green - 38mm",
+    "reference": "Charlton Green - 38mm",
+    "lugToLugMm": 42.25,
+    "caseMm": 38,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://farer.com/products/charlton-green-38mm",
+        "note": "Official Farer product page lists 38 mm diameter, 42.25 mm lug-to-lug, 12.5 mm depth including crystal, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1310,
+    "brand": "Farer",
+    "model": "Lander Kano 36mm",
+    "reference": "Lander Kano 36mm",
+    "lugToLugMm": 41.2,
+    "caseMm": 36,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://farer.com/products/lander-kano",
+        "note": "Official Farer product page lists 36 mm diameter, 41.2 mm lug-to-lug, 11 mm depth, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1311,
+    "brand": "Farer",
+    "model": "Aurora",
+    "reference": "Aurora",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://farer.com/products/aurora",
+        "note": "Official Farer product page lists 39 mm diameter, 45 mm lug-to-lug, 11.8 mm depth, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1312,
+    "brand": "Farer",
+    "model": "Discovery Black Velvet 36mm",
+    "reference": "Discovery Black Velvet 36mm",
+    "lugToLugMm": 41.2,
+    "caseMm": 36,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://farer.com/products/discovery-black-velvet-36mm",
+        "note": "Official Farer product page lists 36 mm diameter, 41.2 mm lug-to-lug, 10.4 mm depth, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1313,
+    "brand": "Farer",
+    "model": "Erebus II",
+    "reference": "Erebus II",
+    "lugToLugMm": 45,
+    "caseMm": 39.5,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://farer.com/products/erebus",
+        "note": "Official Farer product page lists 39.5 mm diameter, 45 mm lug-to-lug, 10.8 mm depth, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1314,
+    "brand": "Farer",
+    "model": "Portobello Black Limited Edition",
+    "reference": "Portobello Black Limited Edition",
+    "lugToLugMm": 43.7,
+    "caseMm": 38.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://farer.com/products/portobello-black",
+        "note": "Official Farer product page lists 38.5 mm diameter, 43.7 mm lug-to-lug, 13.4 mm depth, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1315,
+    "brand": "Farer",
+    "model": "Tenebris",
+    "reference": "Tenebris",
+    "lugToLugMm": 42,
+    "caseMm": 38.5,
+    "thicknessMm": 10.3,
+    "lugWidthMm": 24,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://farer.com/products/tenebris",
+        "note": "Official Farer product page lists 38.5 mm diameter, 42 mm lug-to-lug, 10.3 mm depth, and 24 mm integrated lug width."
+      }
+    ]
   }
 ]
