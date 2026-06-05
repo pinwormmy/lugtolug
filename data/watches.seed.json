@@ -21421,5 +21421,215 @@
         "note": "Monochrome describes the 38 mm Triple Calendar as a compact 46 mm lug-to-lug watch."
       }
     ]
+  },
+  {
+    "id": 1217,
+    "brand": "Audemars Piguet",
+    "model": "Royal Oak Jumbo Extra-Thin",
+    "reference": "15202ST.OO.1240ST.01",
+    "lugToLugMm": 48.6,
+    "caseMm": 39,
+    "thicknessMm": 8.2,
+    "lugWidthMm": null,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://watch.the1916company.com/videos/audemars-piguet-royal-oak-jumbo-extra-thin-15202st-oo-1240st-01",
+        "note": "The 1916 Company review states 39 mm case, 8.2 mm thickness, and 48.6 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.grayandsons.com/w529915-audemars-piguet-royal-oak-39mm-15202s/",
+        "note": "Gray & Sons lists 39 mm case size and 48.4 mm lug-to-lug for the same reference, corroborating the direct reviewer measurement within 0.2 mm."
+      }
+    ]
+  },
+  {
+    "id": 1219,
+    "brand": "Audemars Piguet",
+    "model": "Royal Oak 41mm",
+    "reference": "15500ST.OO.1220ST.01",
+    "lugToLugMm": 50.5,
+    "caseMm": 41,
+    "thicknessMm": 10.5,
+    "lugWidthMm": null,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://watch.the1916company.com/videos/audemars-piguet-royal-oak-15500st-oo-1220st-01",
+        "note": "The 1916 Company review states 10.5 mm thickness and 50.5 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://wynnandthayne.com/products/audemars-piguet-royal-oak-41mm-ref-15500st-oo-1220st-04-white-dial-2022-w-box-papers",
+        "note": "Wynn & Thayne lists 41 mm diameter, 10.4 mm thickness, and 50.5 mm lug-to-lug for the 15500ST family."
+      }
+    ]
+  },
+  {
+    "id": 1220,
+    "brand": "Audemars Piguet",
+    "model": "Royal Oak Chronograph",
+    "reference": "26300ST.OO.1110ST.07",
+    "lugToLugMm": 49.4,
+    "caseMm": 39,
+    "thicknessMm": null,
+    "lugWidthMm": null,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://watch.the1916company.com/audemars-piguet-reviews/videos/audemars-piguet-royal-oak-chronograph-26300st-oo-1110st-07-review-1",
+        "note": "The 1916 Company directly measures the exact reference at 49.4 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://ineichen.com/auctions/special-20/17/",
+        "note": "Ineichen auction page confirms the exact reference at 39 mm diameter and a rounded 49 mm lug-to-lug excluding the first link."
+      }
+    ]
+  },
+  {
+    "id": 1221,
+    "brand": "Audemars Piguet",
+    "model": "Royal Oak Chronograph",
+    "reference": "26331ST.OO.1220ST.03",
+    "lugToLugMm": 51.6,
+    "caseMm": 41,
+    "thicknessMm": 11,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://watchesoff5th.com/products/audemars-piguet-royal-oak-chronograph-panda-dial-ref-26331st-oo-1220st-03",
+        "note": "Watches Off 5th independently lists the exact reference at 41 mm, 11 mm thick, and 51.6 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watch.the1916company.com/videos/audemars-piguet-royal-oak-chronograph-26331st-oo-1220st-03-review",
+        "note": "The 1916 Company review states the same 51.6 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1222,
+    "brand": "Audemars Piguet",
+    "model": "Royal Oak Offshore Chronograph",
+    "reference": "26170ST.OO.D101CR.01",
+    "lugToLugMm": 54.1,
+    "caseMm": 42,
+    "thicknessMm": null,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://watch.the1916company.com/videos/audemars-piguet-royal-oak-offshore-chronograph-volcano-26170st-oo-d101cr-01",
+        "note": "The 1916 Company directly measures the exact reference at 54.1 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://ineichen.com/auctions/special-27/46/",
+        "note": "Ineichen auction page independently confirms the exact reference at 42 mm diameter and a rounded 54 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1223,
+    "brand": "Audemars Piguet",
+    "model": "Royal Oak Selfwinding",
+    "reference": "15300ST.OO.1220ST.02",
+    "lugToLugMm": 49.3,
+    "caseMm": 39,
+    "thicknessMm": 9.3,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://watch.the1916company.com/videos/audemars-piguet-royal-oak-15300st-oo-1220st-02",
+        "note": "The 1916 Company directly measures the exact reference at 49.3 mm lug-to-lug and 9.3 mm thick."
+      },
+      {
+        "sourceUrl": "https://everywatch.com/audemars-piguet/royal-oak/15300/watch-67862",
+        "note": "EveryWatch listing independently repeats 49.3 mm lug-to-lug and 9.3 mm thickness for the exact reference."
+      }
+    ]
+  },
+  {
+    "id": 1224,
+    "brand": "Audemars Piguet",
+    "model": "Royal Oak Chronograph",
+    "reference": "26240ST.OO.1320ST.03",
+    "lugToLugMm": 51.5,
+    "caseMm": 41,
+    "thicknessMm": 12.4,
+    "lugWidthMm": null,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://watch.the1916company.com/videos/audemars-piguet-royal-oak-50th-anniversary-chronograph-26240st-oo-1320st-03",
+        "note": "The 1916 Company review states 41 mm case, 12.4 mm thickness, and 51.5 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.officialwatches.com/blogs/articles/audemars-piguet-royal-oak-chronograph-50th-anniversary-26240st-oo-1320st-08",
+        "note": "OfficialWatches confirms 51.5 mm lug-to-lug for the same steel 26240ST case with a different dial suffix."
+      }
+    ]
+  },
+  {
+    "id": 1225,
+    "brand": "Audemars Piguet",
+    "model": "Royal Oak Selfwinding Chronograph",
+    "reference": "26240BA.OO.1320BA.02",
+    "lugToLugMm": 51.5,
+    "caseMm": 41,
+    "thicknessMm": 12.4,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://delugs.com/pages/audemars-piguet-royal-oak-selfwinding-chronograph-26240ba-oo-1320ba-02",
+        "note": "Delugs independently lists 51.5 mm lug-to-lug for the exact reference."
+      },
+      {
+        "sourceUrl": "https://www.europeanwatch.com/watch/audemars-piguet-26240baoo1320ba02-royal-oak-chronograph-18k-yg-sm-63473",
+        "note": "European Watch Company repeats 41 mm diameter and 51.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1226,
+    "brand": "Audemars Piguet",
+    "model": "Code 11.59 Chronograph",
+    "reference": "26393OR.OO.A321CR.01",
+    "lugToLugMm": 50,
+    "caseMm": 41,
+    "thicknessMm": null,
+    "lugWidthMm": null,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://everywatch.com/audemars-piguet/code-1159/26393/watch-10172598",
+        "note": "EveryWatch gives 41 mm diameter, 12 mm thickness, and 50 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://watch.the1916company.com/videos/audemars-piguet-code-11-59-chronograph-26393or-oo-a321cr-01-review",
+        "note": "The 1916 Company review also states 50 mm lug-to-lug and 12.8 mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 1227,
+    "brand": "Audemars Piguet",
+    "model": "Royal Oak Offshore Diver",
+    "reference": "15720ST.OO.A009CA.01",
+    "lugToLugMm": 54.2,
+    "caseMm": 42,
+    "thicknessMm": 14.3,
+    "lugWidthMm": null,
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceUrl": "https://watch.the1916company.com/audemars-piguet-reviews/videos/audemars-piguet-royal-oak-offshore-diver-15720st-oo-a009ca-01",
+        "note": "The 1916 Company review states 42 mm case, 14.3 mm thickness, and 54.2 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://everywatch.com/audemars-piguet/15720/watch-12407403",
+        "note": "EveryWatch dealer listing independently confirms the exact reference at 42 mm case size and a rounded 54 mm lug-to-lug."
+      }
+    ]
   }
 ]
