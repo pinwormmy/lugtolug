@@ -24657,5 +24657,175 @@
         "note": "Official Serica product page identifies Ref. 7505 TXD and lists 35 mm diameter, 41.5 mm lug-to-lug, 9.6 mm thickness including glass, and 20 mm lug width."
       }
     ]
+  },
+  {
+    "id": 1406,
+    "brand": "Timex",
+    "model": "World Time Digital",
+    "reference": "TW5M68900",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://timex.com/products/world-time-digital-40mm-stainless-steel-bracelet-watch-tw5m68900",
+        "note": "Official Timex product page lists Product ID TW5M68900, 40 mm case diameter, 45 mm lug-to-lug distance, 13 mm case height, and 18 mm band/lug width."
+      }
+    ]
+  },
+  {
+    "id": 1407,
+    "brand": "Timex",
+    "model": "Waterbury Ace",
+    "reference": "TW2Y70300",
+    "lugToLugMm": 48.8,
+    "caseMm": 41,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://timex.com/products/waterbury-ace-41mm-stainless-steel-bracelet-watch-tw2y70300",
+        "note": "Official Timex product page lists Product ID TW2Y70300, 41 mm case diameter, 48.8 mm lug-to-lug distance, 12.5 mm case height, and 20 mm band/lug width."
+      }
+    ]
+  },
+  {
+    "id": 1408,
+    "brand": "Timex",
+    "model": "Expedition Pioneer Titanium Automatic",
+    "reference": "TW2Y63700",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://timex.com/products/expedition-pioneer-titanium-automatic-41mm-hnbr-synthetic-rubber-strap-watch-tw2y63700",
+        "note": "Official Timex product page lists Product ID TW2Y63700, 41 mm case diameter, 48 mm lug-to-lug distance, 13.5 mm case height, and 20 mm band/lug width."
+      }
+    ]
+  },
+  {
+    "id": 1409,
+    "brand": "Timex",
+    "model": "Deepwater Arctic",
+    "reference": "TW2Y64500",
+    "lugToLugMm": 47,
+    "caseMm": 40.5,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://timex.com/products/deepwater-arctic-40-5mm-stainless-steel-bracelet-watch-tw2y64500",
+        "note": "Official Timex product page lists Product ID TW2Y64500, 40.5 mm case diameter, 47 mm lug-to-lug distance, 11.5 mm case height, and 20 mm band/lug width."
+      }
+    ]
+  },
+  {
+    "id": 1410,
+    "brand": "Timex",
+    "model": "Marlin Quartz GMT",
+    "reference": "TW2Y47600",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://timex.com/products/marlin-quartz-gmt-40mm-stainless-steel-bracelet-watch-tw2y47600",
+        "note": "Official Timex product page lists Product ID TW2Y47600, 40 mm case diameter, 48 mm lug-to-lug distance, 13 mm case height, and 20 mm band/lug width."
+      }
+    ]
+  },
+  {
+    "id": 1411,
+    "brand": "Timex",
+    "model": "Harborside Coast Multifunction",
+    "reference": "TW2Y33300",
+    "lugToLugMm": 51,
+    "caseMm": 43,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://timex.com/products/harborside-coast-multifunction-43mm-stainless-steel-bracelet-watch-tw2y33300",
+        "note": "Official Timex product page lists Product ID TW2Y33300, 43 mm case diameter, 51 mm lug-to-lug distance, 11 mm case height, and 20 mm band/lug width."
+      }
+    ]
+  },
+  {
+    "id": 1412,
+    "brand": "Timex",
+    "model": "Waterbury Heritage Automatic GMT",
+    "reference": "TW2Y60600",
+    "lugToLugMm": 48.9,
+    "caseMm": 41.5,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://timex.com/products/waterbury-heritage-automatic-gmt-41-5mm-stainless-steel-bracelet-watch-tw2y60600",
+        "note": "Official Timex product page lists Product ID TW2Y60600, 41.5 mm case diameter, 48.9 mm lug-to-lug distance, 14 mm case height, and 20 mm band/lug width."
+      }
+    ]
+  },
+  {
+    "id": 1413,
+    "brand": "Timex",
+    "model": "Q Timex NASA",
+    "reference": "TW2Y56700",
+    "lugToLugMm": 46.3,
+    "caseMm": 40,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://timex.com/products/q-timex-nasa-40mm-stainless-steel-bracelet-watch-tw2y56700",
+        "note": "Official Timex product page lists Product ID TW2Y56700, 40 mm case diameter, 46.3 mm lug-to-lug distance, 13.5 mm case height, and 18 mm band/lug width."
+      }
+    ]
+  },
+  {
+    "id": 1414,
+    "brand": "Timex",
+    "model": "Marlin",
+    "reference": "TW2Y49900",
+    "lugToLugMm": 41.3,
+    "caseMm": 34,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://timex.com/products/marlin-34mm-fabric-strap-watch-tw2y49900",
+        "note": "Official Timex product page lists Product ID TW2Y49900, 34 mm case diameter, 41.3 mm lug-to-lug width, 10.5 mm case height, and 18 mm band/lug width."
+      }
+    ]
+  },
+  {
+    "id": 1415,
+    "brand": "Timex",
+    "model": "Q Timex NASA",
+    "reference": "TW2Y56800",
+    "lugToLugMm": 46.3,
+    "caseMm": 40,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://timex.com/products/q-timex-nasa-40mm-leather-strap-watch-tw2y56800",
+        "note": "Official Timex product page lists Product ID TW2Y56800, 40 mm case diameter, 46.3 mm lug-to-lug distance, 13.5 mm case height, and 18 mm band/lug width."
+      }
+    ]
   }
 ]

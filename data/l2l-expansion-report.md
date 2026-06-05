@@ -465,11 +465,36 @@ Excluded for source conflicts:
 
 - 1174 Parade Brass, 1174 Parade Satin Black, 1174-3 Parade, and 1174-4 Parade: each official page lists 35 x 41 mm case dimensions while also labeling 18 mm as lug-to-lug. The 18 mm value conflicts with the published case dimensions and appears to be a lug or strap dimension, so these entries were excluded.
 
+### Timex
+
+- Added models: 10
+- Reached 10-model target: yes
+- Official-source additions: 10
+- Verified-external additions: 0
+- Duplicate candidates skipped: 0
+- Insufficient-information exclusions: 0
+- Source-conflict exclusions: 0
+
+Timex official product pages publish Product IDs together with case diameter, lug-to-lug distance, case height, and band/lug width. Distinct strap and bracelet products are retained only when Timex assigns them different Product IDs.
+
+Added references:
+
+- TW5M68900
+- TW2Y70300
+- TW2Y63700
+- TW2Y64500
+- TW2Y47600
+- TW2Y33300
+- TW2Y60600
+- TW2Y56700
+- TW2Y49900
+- TW2Y56800
+
 ## Cumulative totals
 
-- Brands added: 16
-- Models added: 178
-- Official-source additions: 178
+- Brands added: 17
+- Models added: 188
+- Official-source additions: 188
 - Verified-external additions: 0
 - Duplicate candidates skipped: 0
 - Insufficient-information exclusions: 7
