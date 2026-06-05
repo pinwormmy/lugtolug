@@ -24283,5 +24283,192 @@
         "note": "Official Unimatic technical-specification PDF lists 40 mm case diameter (41.5 mm with bezel), 49 mm height lug-to-lug, 12.8 mm thickness with the lens, and 22 mm lugs."
       }
     ]
+  },
+  {
+    "id": 1384,
+    "brand": "Yema",
+    "model": "Skin Diver CMM.20",
+    "reference": "12.25.20.66.SN.M3",
+    "lugToLugMm": 47,
+    "caseMm": 39.5,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://yema.com/products/yema-skin-diver-cmm-20-12-25-20-66-sn-m3",
+        "note": "Official Yema product page lists Ref. 12.25.20.66.SN.M3, 39.5 mm diameter, 47 mm lug-to-lug, 11.5 mm thickness, and 20 mm lugs."
+      }
+    ]
+  },
+  {
+    "id": 1385,
+    "brand": "Yema",
+    "model": "Skin Diver CMM.20",
+    "reference": "12.25.20.11.SN.M3",
+    "lugToLugMm": 47,
+    "caseMm": 39.5,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://yema.com/products/yema-skin-diver-cmm-20-12-25-20-11-sn-m3",
+        "note": "Official Yema product page lists Ref. 12.25.20.11.SN.M3, 39.5 mm diameter, 47 mm lug-to-lug, 11.5 mm thickness, and 20 mm lugs."
+      }
+    ]
+  },
+  {
+    "id": 1386,
+    "brand": "Yema",
+    "model": "Navygraf Marine Nationale CMM.10",
+    "reference": "21.14.75.SN.M",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 11,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://yema.com/products/yema-navygraf-marine-nationale-cmm-10-21-14-75-sn-m",
+        "note": "Official Yema product page lists Ref. 21.14.75.SN.M, 39 mm diameter, 46 mm lug-to-lug, 11 mm thickness, and 19 mm lugs."
+      }
+    ]
+  },
+  {
+    "id": 1387,
+    "brand": "Yema",
+    "model": "Navygraf Marine Nationale CMM.10",
+    "reference": "21.14.55.SN.M",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 11,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://yema.com/products/yema-navygraf-marine-nationale-cmm-10-21-14-55-sn-m",
+        "note": "Official Yema product page lists Ref. 21.14.55.SN.M, 39 mm diameter, 46 mm lug-to-lug, 11 mm thickness, and 19 mm lugs."
+      }
+    ]
+  },
+  {
+    "id": 1388,
+    "brand": "Yema",
+    "model": "Navygraf CMM.10",
+    "reference": "21.14.36.SN.M",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 11,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://yema.com/products/yema-navygraf-cmm-10-21-14-36-sn-m",
+        "note": "Official Yema product page lists Ref. 21.14.36.SN.M, 39 mm diameter, 46 mm lug-to-lug, 11 mm thickness, and 19 mm lugs."
+      }
+    ]
+  },
+  {
+    "id": 1389,
+    "brand": "Yema",
+    "model": "Skin Diver Slim Bronze CMM.20 Limited Edition",
+    "reference": "12.26.20.39.ZNL.U9",
+    "lugToLugMm": 47,
+    "caseMm": 39,
+    "thicknessMm": 10,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://yema.com/products/yema-skin-diver-slim-bronze-cmm-20-limited-edition-12-26-20-39-znl-u9",
+        "note": "Official Yema product page lists Ref. 12.26.20.39.ZNL.U9, 39 mm diameter, 47 mm lug-to-lug, 10 mm thickness, and 20 mm lugs."
+      }
+    ]
+  },
+  {
+    "id": 1390,
+    "brand": "Yema",
+    "model": "Skin Diver Slim CMM.20 Limited Edition",
+    "reference": "12.24.99.SN.M3",
+    "lugToLugMm": 47,
+    "caseMm": 39,
+    "thicknessMm": 10,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://yema.com/products/yema-skin-diver-slim-cmm-20-limited-edition-12-24-99-sn-m3",
+        "note": "Official Yema product page lists Ref. 12.24.99.SN.M3, 39 mm diameter, 47 mm lug-to-lug, 10 mm thickness, and 20 mm lugs."
+      }
+    ]
+  },
+  {
+    "id": 1391,
+    "brand": "Yema",
+    "model": "Navygraf Marine Nationale GMT",
+    "reference": "YNAV23MN-AMS",
+    "lugToLugMm": 46,
+    "caseMm": 38.5,
+    "thicknessMm": 12,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://yema.com/products/yema-superman-gmt-black-gray-ygmt2020c",
+        "note": "Official Yema product page identifies SKU YNAV23MN-AMS and lists 38.5 mm diameter, 46 mm lug-to-lug, 12 mm thickness, and 19 mm lugs."
+      }
+    ]
+  },
+  {
+    "id": 1392,
+    "brand": "Yema",
+    "model": "Yema x Silberstein Marine 2 CMM.20 Limited Edition",
+    "reference": "20.26.20.05.TN.U6",
+    "lugToLugMm": 44.5,
+    "caseMm": 40,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://yema.com/products/yema-yema-x-silberstein-marine-2-cmm-20-limited-edition-20-26-20-05-tn-u6",
+        "note": "Official Yema product page lists Ref. 20.26.20.05.TN.U6, 40 mm diameter, 44.5 mm lug-to-lug, 11 mm thickness, and 20 mm lugs."
+      }
+    ]
+  },
+  {
+    "id": 1393,
+    "brand": "Yema",
+    "model": "Superman Titanium MoonTide CMM.11 Limited Edition",
+    "reference": "12.26.11.66.TNL.MT",
+    "lugToLugMm": 47,
+    "caseMm": 38.5,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://yema.com/products/yema-superman-titanium-moontide-cmm-11-limited-edition-12-26-11-66-tnl-mt",
+        "note": "Official Yema product page lists Ref. 12.26.11.66.TNL.MT, 38.5 mm diameter, 47 mm lug-to-lug, 11.30 mm thickness, and 19 mm lugs."
+      }
+    ]
+  },
+  {
+    "id": 1394,
+    "brand": "Yema",
+    "model": "Flygraf CPA10",
+    "reference": "64.25.10.05.TN.D5",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 9.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://yema.com/products/yema-flygraf-cpa10-64-25-10-05-tn-d5",
+        "note": "Official Yema product page lists Ref. 64.25.10.05.TN.D5, 40 mm diameter, 46 mm lug-to-lug, 9.40 mm thickness, and 20 mm lugs."
+      }
+    ]
   }
 ]

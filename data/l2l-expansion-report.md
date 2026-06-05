@@ -400,14 +400,44 @@ Added references:
 - U3S-M
 - U1S-MD
 
-## Cumulative totals
+### Yema
 
-- Brands added: 14
-- Models added: 156
-- Official-source additions: 156
+- Added models: 11
+- Reached 10-model target: yes
+- Official-source additions: 11
 - Verified-external additions: 0
 - Duplicate candidates skipped: 0
-- Insufficient-information exclusions: 0
+- Insufficient-information exclusions: 1
+- Source-conflict exclusions: 0
+
+Yema official product pages publish product references or SKUs together with case diameter, lug-to-lug, thickness, and lug width. Only pages with an exact published thickness are included.
+
+Added references:
+
+- 12.25.20.66.SN.M3
+- 12.25.20.11.SN.M3
+- 21.14.75.SN.M
+- 21.14.55.SN.M
+- 21.14.36.SN.M
+- 12.26.20.39.ZNL.U9
+- 12.24.99.SN.M3
+- YNAV23MN-AMS
+- 20.26.20.05.TN.U6
+- 12.26.11.66.TNL.MT
+- 64.25.10.05.TN.D5
+
+Excluded for insufficient information:
+
+- Navygraf Pearl CMM.20: the official page describes thickness only as "under 10mm," so it was excluded rather than storing an approximate value.
+
+## Cumulative totals
+
+- Brands added: 15
+- Models added: 167
+- Official-source additions: 167
+- Verified-external additions: 0
+- Duplicate candidates skipped: 0
+- Insufficient-information exclusions: 1
 - Source-conflict exclusions: 7
 
 ## Modified files
