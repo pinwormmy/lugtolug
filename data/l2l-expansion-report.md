@@ -347,11 +347,38 @@ Added references:
 - Salm0n
 - Champagne & Caviar
 
+### Zelos
+
+- Added models: 12
+- Reached 10-model target: yes
+- Official-source additions: 12
+- Verified-external additions: 0
+- Duplicate candidates skipped: 0
+- Insufficient-information exclusions: 0
+- Source-conflict exclusions: 0
+
+Zelos official product pages publish diameter, lug-to-lug length, thickness with crystal, and lug width. `thicknessMm` stores the published thickness with crystal. The pages do not publish separate reference numbers, so the complete official product name is used in `reference`.
+
+Added references:
+
+- Hammerhead 43 Field DLC 'Storm' Launch Special
+- Hammerhead 43 Field Br 'Bedrock' Launch Special
+- Hammerhead 43 Field Br 'Vesper' Launch Special
+- Hammerhead 43 Field Br 'Mosaic MOP' Launch Special
+- Hammerhead 43 Field 'Purple Agate'
+- Hammerhead 43 Field 'Mosaic Ember'
+- Hammerhead 43 Field 'Carbon'
+- Helica 39 'Kyanite'
+- Helica 39 'Mosaic MOP'
+- Helica 39 'Red Opal'
+- Helica 39 'Galaxy'
+- Helica 39 'Vesper'
+
 ## Cumulative totals
 
-- Brands added: 12
-- Models added: 133
-- Official-source additions: 133
+- Brands added: 13
+- Models added: 145
+- Official-source additions: 145
 - Verified-external additions: 0
 - Duplicate candidates skipped: 0
 - Insufficient-information exclusions: 0

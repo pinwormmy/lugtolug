@@ -23892,5 +23892,209 @@
         "note": "Official Studio Underd0g product page lists 38.5 mm case diameter, 13.6 mm thickness, 44.5 mm lug-to-lug, and 20 mm lug width."
       }
     ]
+  },
+  {
+    "id": 1361,
+    "brand": "Zelos",
+    "model": "Hammerhead 43 Field DLC 'Storm' Launch Special",
+    "reference": "Hammerhead 43 Field DLC 'Storm' Launch Special",
+    "lugToLugMm": 48,
+    "caseMm": 43,
+    "thicknessMm": 13,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://zeloswatches.com/products/hammerhead-43-field-dlc-storm",
+        "note": "Official Zelos product page lists 43 mm diameter, 48 mm lug-to-lug length, 13 mm thickness with crystal, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1362,
+    "brand": "Zelos",
+    "model": "Hammerhead 43 Field Br 'Bedrock' Launch Special",
+    "reference": "Hammerhead 43 Field Br 'Bedrock' Launch Special",
+    "lugToLugMm": 48,
+    "caseMm": 43,
+    "thicknessMm": 13,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://zeloswatches.com/products/hammerhead-43-field-br-bedrock",
+        "note": "Official Zelos product page lists 43 mm diameter, 48 mm lug-to-lug length, 13 mm thickness with crystal, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1363,
+    "brand": "Zelos",
+    "model": "Hammerhead 43 Field Br 'Vesper' Launch Special",
+    "reference": "Hammerhead 43 Field Br 'Vesper' Launch Special",
+    "lugToLugMm": 48,
+    "caseMm": 43,
+    "thicknessMm": 13,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://zeloswatches.com/products/hammerhead-43-field-br-vesper",
+        "note": "Official Zelos product page lists 43 mm diameter, 48 mm lug-to-lug length, 13 mm thickness with crystal, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1364,
+    "brand": "Zelos",
+    "model": "Hammerhead 43 Field Br 'Mosaic MOP' Launch Special",
+    "reference": "Hammerhead 43 Field Br 'Mosaic MOP' Launch Special",
+    "lugToLugMm": 48,
+    "caseMm": 43,
+    "thicknessMm": 13,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://zeloswatches.com/products/hammerhead-43-field-br-mosaic-mop",
+        "note": "Official Zelos product page lists 43 mm diameter, 48 mm lug-to-lug length, 13 mm thickness with crystal, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1365,
+    "brand": "Zelos",
+    "model": "Hammerhead 43 Field 'Purple Agate'",
+    "reference": "Hammerhead 43 Field 'Purple Agate'",
+    "lugToLugMm": 48,
+    "caseMm": 43,
+    "thicknessMm": 13,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://zeloswatches.com/products/hammerhead-43-field-purple-agate",
+        "note": "Official Zelos product page lists 43 mm diameter, 48 mm lug-to-lug length, 13 mm thickness with crystal, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1366,
+    "brand": "Zelos",
+    "model": "Hammerhead 43 Field 'Mosaic Ember'",
+    "reference": "Hammerhead 43 Field 'Mosaic Ember'",
+    "lugToLugMm": 48,
+    "caseMm": 43,
+    "thicknessMm": 13,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://zeloswatches.com/products/hammerhead-43-field-mosaic-ember",
+        "note": "Official Zelos product page lists 43 mm diameter, 48 mm lug-to-lug length, 13 mm thickness with crystal, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1367,
+    "brand": "Zelos",
+    "model": "Hammerhead 43 Field 'Carbon'",
+    "reference": "Hammerhead 43 Field 'Carbon'",
+    "lugToLugMm": 48,
+    "caseMm": 43,
+    "thicknessMm": 13,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://zeloswatches.com/products/hammerhead-43-field-carbon",
+        "note": "Official Zelos product page lists 43 mm diameter, 48 mm lug-to-lug length, 13 mm thickness with crystal, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1368,
+    "brand": "Zelos",
+    "model": "Helica 39 'Kyanite'",
+    "reference": "Helica 39 'Kyanite'",
+    "lugToLugMm": 45.5,
+    "caseMm": 39,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://zeloswatches.com/products/helica-39-kyanite",
+        "note": "Official Zelos product page lists 39 mm diameter, 45.5 mm lug-to-lug length, 11.9 mm thickness with crystal, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1369,
+    "brand": "Zelos",
+    "model": "Helica 39 'Mosaic MOP'",
+    "reference": "Helica 39 'Mosaic MOP'",
+    "lugToLugMm": 45.5,
+    "caseMm": 39,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://zeloswatches.com/products/helica-39-mosaic-mop",
+        "note": "Official Zelos product page lists 39 mm diameter, 45.5 mm lug-to-lug length, 11.9 mm thickness with crystal, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1370,
+    "brand": "Zelos",
+    "model": "Helica 39 'Red Opal'",
+    "reference": "Helica 39 'Red Opal'",
+    "lugToLugMm": 45.5,
+    "caseMm": 39,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://zeloswatches.com/products/helica-39-red-opal",
+        "note": "Official Zelos product page lists 39 mm diameter, 45.5 mm lug-to-lug length, 11.9 mm thickness with crystal, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1371,
+    "brand": "Zelos",
+    "model": "Helica 39 'Galaxy'",
+    "reference": "Helica 39 'Galaxy'",
+    "lugToLugMm": 45.5,
+    "caseMm": 39,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://zeloswatches.com/products/helica-39-galaxy",
+        "note": "Official Zelos product page lists 39 mm diameter, 45.5 mm lug-to-lug length, 11.9 mm thickness with crystal, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1372,
+    "brand": "Zelos",
+    "model": "Helica 39 'Vesper'",
+    "reference": "Helica 39 'Vesper'",
+    "lugToLugMm": 45.5,
+    "caseMm": 39,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://zeloswatches.com/products/helica-39-vesper",
+        "note": "Official Zelos product page lists 39 mm diameter, 45.5 mm lug-to-lug length, 11.9 mm thickness with crystal, and 20 mm lug width."
+      }
+    ]
   }
 ]
