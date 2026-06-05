@@ -23518,5 +23518,209 @@
         "note": "Official Traska product page identifies Ref. 1186, and its Dimensions drawing lists 40.5 mm diameter, 48 mm lug-to-lug, 11.9 mm total thickness, and 20 mm lug width."
       }
     ]
+  },
+  {
+    "id": 1339,
+    "brand": "Lorier",
+    "model": "Astra",
+    "reference": "Astra",
+    "lugToLugMm": 44,
+    "caseMm": 36,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.lorierwatches.com/products/astra",
+        "note": "Official Lorier product page lists 36 mm case width, 9 mm case thickness plus 2 mm dome crystal (11 mm total), 44 mm case length/lug-to-lug, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1340,
+    "brand": "Lorier",
+    "model": "Astra Cosmic Blue",
+    "reference": "Astra Cosmic Blue",
+    "lugToLugMm": 44,
+    "caseMm": 36,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.lorierwatches.com/products/astra-cosmic-blue",
+        "note": "Official Lorier product page lists 36 mm case width, 9 mm case thickness plus 2 mm dome crystal (11 mm total), 44 mm case length/lug-to-lug, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1341,
+    "brand": "Lorier",
+    "model": "Olympia Series II",
+    "reference": "Olympia Series II",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.lorierwatches.com/products/olympia-sii",
+        "note": "Official Lorier product page lists 39 mm case width, 11.7 mm case thickness plus 2.1 mm dome crystal (13.8 mm total), 46 mm case length/lug-to-lug, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1342,
+    "brand": "Lorier",
+    "model": "Falcon Series III",
+    "reference": "Falcon Series III",
+    "lugToLugMm": 44,
+    "caseMm": 36,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.lorierwatches.com/products/falcon-siii",
+        "note": "Official Lorier product page lists 36 mm case width, 9 mm case thickness plus 2 mm dome crystal (11 mm total), 44 mm case length/lug-to-lug, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1343,
+    "brand": "Lorier",
+    "model": "Merlin Limited Edition",
+    "reference": "Merlin Limited Edition",
+    "lugToLugMm": 45,
+    "caseMm": 37,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.lorierwatches.com/products/merlin",
+        "note": "Official Lorier product page lists 37 mm case width, 9 mm case thickness plus 2 mm dome crystal (11 mm total), 45 mm case length/lug-to-lug, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1344,
+    "brand": "Lorier",
+    "model": "Zephyr White Special Edition",
+    "reference": "Zephyr White Special Edition",
+    "lugToLugMm": 42,
+    "caseMm": 31,
+    "thicknessMm": 8,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.lorierwatches.com/products/zephyr",
+        "note": "Official Lorier product page lists 31 mm case width, 8 mm case thickness, 42 mm case length/lug-to-lug, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1345,
+    "brand": "Lorier",
+    "model": "Roosevelt Limited Edition",
+    "reference": "Roosevelt Limited Edition",
+    "lugToLugMm": 42.5,
+    "caseMm": 36,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.lorierwatches.com/products/roosevelt",
+        "note": "Official Lorier product page lists 36 mm cushion case width, 8.5 mm case thickness plus 2 mm dome crystal (10.5 mm total), 42.5 mm case length/lug-to-lug, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1346,
+    "brand": "Lorier",
+    "model": "Hydra Series III Zulu",
+    "reference": "Hydra Series III Zulu",
+    "lugToLugMm": 46,
+    "caseMm": 41,
+    "thicknessMm": 14.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.lorierwatches.com/products/hydra-siii-zulu",
+        "note": "Official Lorier product page lists 41 mm case width, 12.2 mm case thickness plus 2.4 mm dome crystal (14.6 mm total), 46 mm case length/lug-to-lug, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1347,
+    "brand": "Lorier",
+    "model": "Hydra Series III",
+    "reference": "Hydra Series III",
+    "lugToLugMm": 46,
+    "caseMm": 41,
+    "thicknessMm": 14.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.lorierwatches.com/products/hydra-siii",
+        "note": "Official Lorier product page lists 41 mm case width, 12.2 mm case thickness plus 2.4 mm dome crystal (14.6 mm total), 46 mm case length/lug-to-lug, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1348,
+    "brand": "Lorier",
+    "model": "Hyperion Series II",
+    "reference": "Hyperion Series II",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.lorierwatches.com/products/hyperion-sii",
+        "note": "Official Lorier product page lists 39 mm case width, 10.7 mm case thickness plus 2 mm dome crystal (12.7 mm total), 46 mm case length/lug-to-lug, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1349,
+    "brand": "Lorier",
+    "model": "Neptune Series IV No Date",
+    "reference": "Neptune Series IV No Date",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.lorierwatches.com/products/neptune-siv",
+        "note": "Official Lorier product page lists 39 mm case width, 10.3 mm case thickness plus 2.4 mm dome crystal (12.7 mm total), 46 mm case length/lug-to-lug, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1350,
+    "brand": "Lorier",
+    "model": "Hyperion Series II Skyward",
+    "reference": "Hyperion Series II Skyward",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.lorierwatches.com/products/hyperion-sii-skyward",
+        "note": "Official Lorier product page lists 39 mm case width, 10.7 mm case thickness plus 2 mm dome crystal (12.7 mm total), 46 mm case length/lug-to-lug, and 20 mm lug width."
+      }
+    ]
   }
 ]

@@ -295,11 +295,38 @@ Added references:
 - 10251
 - 1186
 
+### Lorier
+
+- Added models: 12
+- Reached 10-model target: yes
+- Official-source additions: 12
+- Verified-external additions: 0
+- Duplicate candidates skipped: 0
+- Insufficient-information exclusions: 0
+- Source-conflict exclusions: 0
+
+Lorier official product pages publish case width, case-body thickness, dome-crystal height, case length/lug-to-lug, and lug width. To match the seed's total-height convention, `thicknessMm` stores the sum of the published case-body thickness and dome-crystal height. Lorier does not publish separate reference numbers on these pages, so the complete official product name is used in `reference`.
+
+Added references:
+
+- Astra
+- Astra Cosmic Blue
+- Olympia Series II
+- Falcon Series III
+- Merlin Limited Edition
+- Zephyr White Special Edition
+- Roosevelt Limited Edition
+- Hydra Series III Zulu
+- Hydra Series III
+- Hyperion Series II
+- Neptune Series IV No Date
+- Hyperion Series II Skyward
+
 ## Cumulative totals
 
-- Brands added: 10
-- Models added: 111
-- Official-source additions: 111
+- Brands added: 11
+- Models added: 123
+- Official-source additions: 123
 - Verified-external additions: 0
 - Duplicate candidates skipped: 0
 - Insufficient-information exclusions: 0
