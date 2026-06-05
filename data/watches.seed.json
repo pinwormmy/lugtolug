@@ -22022,5 +22022,175 @@
         "note": "Official Orient Watch USA shop page lists 41.5 mm case diameter, 47 mm lug-to-lug length, 13.8 mm thickness, and 20 mm lug width."
       }
     ]
+  },
+  {
+    "id": 1251,
+    "brand": "NOMOS",
+    "model": "Tangente",
+    "reference": "101",
+    "lugToLugMm": 45,
+    "caseMm": 35,
+    "thicknessMm": 6.2,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-101",
+        "note": "Official NOMOS product page lists 35 mm diameter, 45 mm lug-to-lug, 6.2 mm height, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1252,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik",
+    "reference": "175",
+    "lugToLugMm": 43,
+    "caseMm": 35,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-175",
+        "note": "Official NOMOS product page lists 35 mm diameter, 43 mm lug-to-lug, 6.9 mm height, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1253,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik 39",
+    "reference": "149",
+    "lugToLugMm": 47.3,
+    "caseMm": 38.5,
+    "thicknessMm": 7.2,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en-us/tangente/tangente-neomatik-39-149",
+        "note": "Official NOMOS product page lists 38.5 mm diameter, 47.3 mm lug-to-lug, 7.2 mm height, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1254,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik 41 Update midnight blue",
+    "reference": "182",
+    "lugToLugMm": 49.3,
+    "caseMm": 40.5,
+    "thicknessMm": 7.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en-us/tangente/tangente-neomatik-41-update-midnight-blue-182",
+        "note": "Official NOMOS product page lists 40.5 mm diameter, 49.3 mm lug-to-lug, 7.8 mm height, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1255,
+    "brand": "NOMOS",
+    "model": "Club",
+    "reference": "703.1",
+    "lugToLugMm": 44.3,
+    "caseMm": 36,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en-us/club/club-703.1",
+        "note": "Official NOMOS product page lists 36 mm diameter, 44.3 mm lug-to-lug, 8.2 mm height, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1256,
+    "brand": "NOMOS",
+    "model": "Club Campus",
+    "reference": "708",
+    "lugToLugMm": 44.3,
+    "caseMm": 36,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-708",
+        "note": "Official NOMOS product page lists 36 mm diameter, 44.3 mm lug-to-lug, 8.2 mm height, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1257,
+    "brand": "NOMOS",
+    "model": "Metro 38",
+    "reference": "1108",
+    "lugToLugMm": 45.3,
+    "caseMm": 38.5,
+    "thicknessMm": 7.8,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en-us/metro/metro-38-1108",
+        "note": "Official NOMOS product page lists 38.5 mm diameter, 45.3 mm lug-to-lug, 7.8 mm height, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1258,
+    "brand": "NOMOS",
+    "model": "Orion 38",
+    "reference": "384",
+    "lugToLugMm": 48,
+    "caseMm": 38,
+    "thicknessMm": 8.9,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en-us/orion/orion-38-384",
+        "note": "Official NOMOS product page lists 38 mm diameter, 48 mm lug-to-lug, 8.9 mm height, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1259,
+    "brand": "NOMOS",
+    "model": "Tetra 27",
+    "reference": "401",
+    "lugToLugMm": 38.5,
+    "caseMm": 27.5,
+    "thicknessMm": 6.1,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en-us/tetra/tetra-27-401",
+        "note": "Official NOMOS product page lists 27.5 x 27.5 mm case size, 38.5 mm lug-to-lug, 6.1 mm height, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1260,
+    "brand": "NOMOS",
+    "model": "Tetra",
+    "reference": "408",
+    "lugToLugMm": 40.5,
+    "caseMm": 29.5,
+    "thicknessMm": 6.5,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-408",
+        "note": "Official NOMOS product page lists 29.5 x 29.5 mm case size, 40.5 mm lug-to-lug, 6.5 mm height, and 18 mm lug width."
+      }
+    ]
   }
 ]

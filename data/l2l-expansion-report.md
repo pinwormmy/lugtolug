@@ -75,11 +75,36 @@ Excluded conflicts:
 
 - RA-AC0R02L30B Stretto Date: the official page presents conflicting summary and detailed dimensions, so it was not added.
 
+### NOMOS
+
+- Added models: 10
+- Reached 10-model target: yes
+- Official-source additions: 10
+- Verified-external additions: 0
+- Duplicate candidates skipped: 0
+- Insufficient-information exclusions: 0
+- Source-conflict exclusions: 0
+
+NOMOS official product pages publish explicit diameter or square case size, lug-to-lug, height, and lug width values. Representative models were selected across Tangente, Club, Metro, Orion, and Tetra.
+
+Added references:
+
+- 101
+- 175
+- 149
+- 182
+- 703.1
+- 708
+- 1108
+- 384
+- 401
+- 408
+
 ## Cumulative totals
 
-- Brands added: 2
-- Models added: 23
-- Official-source additions: 23
+- Brands added: 3
+- Models added: 33
+- Official-source additions: 33
 - Verified-external additions: 0
 - Duplicate candidates skipped: 0
 - Insufficient-information exclusions: 0
