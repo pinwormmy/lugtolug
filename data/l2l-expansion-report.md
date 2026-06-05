@@ -542,14 +542,44 @@ Added references:
 - C024.607.48.051.10
 - C047.452.11.081.00
 
-## Cumulative totals
+### Mido
 
-- Brands added: 19
-- Models added: 210
-- Official-source additions: 210
+- Added models: 11
+- Reached 10-model target: yes
+- Official-source additions: 11
 - Verified-external additions: 0
 - Duplicate candidates skipped: 0
-- Insufficient-information exclusions: 7
+- Insufficient-information exclusions: 1
+- Source-conflict exclusions: 0
+
+Mido official product pages publish references together with separate Case length, Width, Average Thickness, and Lugs width values. Official Width is stored as `caseMm`, official Case length as L2L, Average Thickness as `thicknessMm`, and Lugs width as `lugWidthMm`; this mapping is retained in each source note.
+
+Added references:
+
+- M038.430.11.041.00
+- M049.526.44.081.00
+- M021.431.11.031.00
+- M049.526.17.081.01
+- M049.526.33.021.00
+- M021.430.33.091.00
+- M021.407.11.411.03
+- M038.430.16.031.00
+- M049.527.33.081.00
+- M038.429.11.041.00
+- M040.407.36.060.00
+
+Excluded for insufficient information:
+
+- Commander 1959 M7169.3.72.13: the official page publishes `0.00 mm` for Lugs width, so the entry was excluded rather than storing an invalid dimension.
+
+## Cumulative totals
+
+- Brands added: 20
+- Models added: 221
+- Official-source additions: 221
+- Verified-external additions: 0
+- Duplicate candidates skipped: 0
+- Insufficient-information exclusions: 8
 - Source-conflict exclusions: 11
 
 ## Modified files

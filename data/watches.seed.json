@@ -25201,5 +25201,192 @@
         "note": "Official Certina product page lists Ref. C047.452.11.081.00, 41.00 mm Length, 41.20 mm Width, 12.15 mm Height, and 20.00 mm Between lugs; Length is stored as case length/L2L and Width as caseMm."
       }
     ]
+  },
+  {
+    "id": 1438,
+    "brand": "Mido",
+    "model": "Multifort M Freeze",
+    "reference": "M038.430.11.041.00",
+    "lugToLugMm": 42,
+    "caseMm": 42,
+    "thicknessMm": 11,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.midowatches.com/us/multifort-m-freeze-m0384301104100.html",
+        "note": "Official Mido product page lists Ref. M038.430.11.041.00, 42.00 mm Case length, 42.00 mm Width, 11 mm Average Thickness, and 22.00 mm Lugs width; Case length is stored as L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1439,
+    "brand": "Mido",
+    "model": "Multifort TV Big Date Titanium",
+    "reference": "M049.526.44.081.00",
+    "lugToLugMm": 39.2,
+    "caseMm": 40,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.midowatches.com/us/multifort-tv-big-date-m0495264408100.html",
+        "note": "Official Mido product page lists Ref. M049.526.44.081.00, 39.20 mm Case length, 40.00 mm Width, 11.5 mm Average Thickness, and 22.00 mm Lugs width; Case length is stored as L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1440,
+    "brand": "Mido",
+    "model": "Commander Chronometer",
+    "reference": "M021.431.11.031.00",
+    "lugToLugMm": 40,
+    "caseMm": 40,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.midowatches.com/us/commander-chronometer-m0214311103100.html",
+        "note": "Official Mido product page lists Ref. M021.431.11.031.00, 40.00 mm Case length, 40.00 mm Width, 11.3 mm Average Thickness, and 21.00 mm Lugs width; Case length is stored as L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1441,
+    "brand": "Mido",
+    "model": "Multifort TV Big Date",
+    "reference": "M049.526.17.081.01",
+    "lugToLugMm": 39.2,
+    "caseMm": 40,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.midowatches.com/us/multifort-tv-big-date-m0495261708101.html",
+        "note": "Official Mido product page lists Ref. M049.526.17.081.01, 39.20 mm Case length, 40.00 mm Width, 11.5 mm Average Thickness, and 22.00 mm Lugs width; Case length is stored as L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1442,
+    "brand": "Mido",
+    "model": "Multifort TV Big Date",
+    "reference": "M049.526.33.021.00",
+    "lugToLugMm": 39.2,
+    "caseMm": 40,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.midowatches.com/us/multifort-tv-big-date-m0495263302100.html",
+        "note": "Official Mido product page lists Ref. M049.526.33.021.00, 39.20 mm Case length, 40.00 mm Width, 11.5 mm Average Thickness, and 22.00 mm Lugs width; Case length is stored as L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1443,
+    "brand": "Mido",
+    "model": "Commander Datoday",
+    "reference": "M021.430.33.091.00",
+    "lugToLugMm": 40,
+    "caseMm": 40,
+    "thicknessMm": 10.7,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.midowatches.com/en/commander-datoday-m0214303309100.html",
+        "note": "Official Mido product page lists Ref. M021.430.33.091.00, 40.00 mm Case length, 40.00 mm Width, 10.7 mm Average Thickness, and 21.00 mm Lugs width; Case length is stored as L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1444,
+    "brand": "Mido",
+    "model": "Commander Gradient",
+    "reference": "M021.407.11.411.03",
+    "lugToLugMm": 40,
+    "caseMm": 40,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.midowatches.com/us/commander-gradient-m0214071141103.html",
+        "note": "Official Mido product page lists Ref. M021.407.11.411.03, 40.00 mm Case length, 40.00 mm Width, 10.8 mm Average Thickness, and 21.00 mm Lugs width; Case length is stored as L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1445,
+    "brand": "Mido",
+    "model": "Multifort M",
+    "reference": "M038.430.16.031.00",
+    "lugToLugMm": 42,
+    "caseMm": 42,
+    "thicknessMm": 11,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.midowatches.com/us/multifort-m-m0384301603100.html",
+        "note": "Official Mido product page lists Ref. M038.430.16.031.00, 42.00 mm Case length, 42.00 mm Width, 11 mm Average Thickness, and 22.00 mm Lugs width; Case length is stored as L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1446,
+    "brand": "Mido",
+    "model": "Multifort TV Chronograph",
+    "reference": "M049.527.33.081.00",
+    "lugToLugMm": 41.2,
+    "caseMm": 42,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 23,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.midowatches.com/us/multifort-tv-chronograph-m0495273308100.html",
+        "note": "Official Mido product page lists Ref. M049.527.33.081.00, 41.20 mm Case length, 42.00 mm Width, 14.3 mm Average Thickness, and 23.00 mm Lugs width; Case length is stored as L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1447,
+    "brand": "Mido",
+    "model": "Multifort Dual Time",
+    "reference": "M038.429.11.041.00",
+    "lugToLugMm": 42,
+    "caseMm": 42,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.midowatches.com/us/multifort-dual-time-m0384291104100.html",
+        "note": "Official Mido product page lists Ref. M038.429.11.041.00, 42.00 mm Case length, 42.00 mm Width, 13.4 mm Average Thickness, and 22.00 mm Lugs width; Case length is stored as L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1448,
+    "brand": "Mido",
+    "model": "Multifort Patrimony",
+    "reference": "M040.407.36.060.00",
+    "lugToLugMm": 40,
+    "caseMm": 40,
+    "thicknessMm": 12,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.midowatches.com/us/multifort-patrimony-m0404073606000.html",
+        "note": "Official Mido product page lists Ref. M040.407.36.060.00, 40.00 mm Case length, 40.00 mm Width, 12 mm Average Thickness, and 19.00 mm Lugs width; Case length is stored as L2L and Width as caseMm."
+      }
+    ]
   }
 ]
