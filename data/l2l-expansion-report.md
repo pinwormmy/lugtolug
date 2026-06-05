@@ -127,11 +127,37 @@ Added references:
 - C65 Dartmouth Series 2
 - C65 Dune Automatic
 
+### Formex
+
+- Added models: 11
+- Reached 10-model target: yes
+- Official-source additions: 11
+- Verified-external additions: 0
+- Duplicate candidates skipped: 0
+- Insufficient-information exclusions: 0
+- Source-conflict exclusions: 0
+
+Formex official product pages publish unique SKUs with diameter, lug-to-lug, height, and lug width. Separate dial variants were added only when the official page exposed a distinct SKU.
+
+Added references:
+
+- 0660.1.6533.133
+- 0660.1.6593.799
+- 0660.1.6555.822
+- 2201.1.6312.900
+- 2201.1.6300.910
+- 2201.1.6382.100
+- 2201.1.6399.100
+- 2201.1.6367.100
+- 2200.1.6333.801
+- 2202.1.5323.711
+- 0330.1.6321.100
+
 ## Cumulative totals
 
-- Brands added: 4
-- Models added: 45
-- Official-source additions: 45
+- Brands added: 5
+- Models added: 56
+- Official-source additions: 56
 - Verified-external additions: 0
 - Duplicate candidates skipped: 0
 - Insufficient-information exclusions: 0

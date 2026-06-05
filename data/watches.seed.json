@@ -22396,5 +22396,192 @@
         "note": "Official Christopher Ward product handbook lists 38 mm diameter, 43.6 mm lug-to-lug, 11.7 mm height, and 20 mm strap width."
       }
     ]
+  },
+  {
+    "id": 1273,
+    "brand": "Formex",
+    "model": "Field Automatic Petrol Blue 40mm",
+    "reference": "0660.1.6533.133",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 10.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://formexwatch.com/watches/field-automatic-petrol-blue-40-mm/",
+        "note": "Official Formex product page lists SKU 0660.1.6533.133, 40 mm diameter, 46.6 mm lug-to-lug, 10.6 mm height, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1274,
+    "brand": "Formex",
+    "model": "Field Automatic Ultra Violet 40mm",
+    "reference": "0660.1.6593.799",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 10.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://formexwatch.com/watches/field-automatic-ultra-violet-40-mm/",
+        "note": "Official Formex product page lists SKU 0660.1.6593.799, 40 mm diameter, 46.6 mm lug-to-lug, 10.6 mm height, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1275,
+    "brand": "Formex",
+    "model": "Field Automatic Coho Salmon 40mm",
+    "reference": "0660.1.6555.822",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 10.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://formexwatch.com/watches/field-coho-salmon-40-mm/",
+        "note": "Official Formex product page lists SKU 0660.1.6555.822, 40 mm diameter, 46.6 mm lug-to-lug, 10.6 mm height, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1276,
+    "brand": "Formex",
+    "model": "Reef 39.5mm Automatic COSC 300M White",
+    "reference": "2201.1.6312.900",
+    "lugToLugMm": 45.5,
+    "caseMm": 39.5,
+    "thicknessMm": 11,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://formexwatch.com/watches/reef-39.5-automatic-cosc-300m-white/",
+        "note": "Official Formex product page lists SKU 2201.1.6312.900, 39.5 mm diameter, 45.5 mm lug-to-lug, 11 mm height, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1277,
+    "brand": "Formex",
+    "model": "Reef 39.5mm Automatic COSC 300M Green",
+    "reference": "2201.1.6300.910",
+    "lugToLugMm": 45.5,
+    "caseMm": 39.5,
+    "thicknessMm": 11,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://formexwatch.com/watches/reef-39.5-automatic-cosc-300m-green/",
+        "note": "Official Formex product page lists SKU 2201.1.6300.910, 39.5 mm diameter, 45.5 mm lug-to-lug, 11 mm height, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1278,
+    "brand": "Formex",
+    "model": "Reef 39.5mm Automatic COSC 300M Radiant Bronze",
+    "reference": "2201.1.6382.100",
+    "lugToLugMm": 45.5,
+    "caseMm": 39.5,
+    "thicknessMm": 11,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://formexwatch.com/watches/reef-39.5-automatic-cosc-300m-radiant-bronze/",
+        "note": "Official Formex product page lists SKU 2201.1.6382.100, 39.5 mm diameter, 45.5 mm lug-to-lug, 11 mm height, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1279,
+    "brand": "Formex",
+    "model": "Reef 39.5mm Automatic COSC 300M Forged Carbon",
+    "reference": "2201.1.6399.100",
+    "lugToLugMm": 45.5,
+    "caseMm": 39.5,
+    "thicknessMm": 11,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://formexwatch.com/watches/reef-39.5-automatic-chronometer-cosc-300m-forged-carbon/",
+        "note": "Official Formex product page lists SKU 2201.1.6399.100, 39.5 mm diameter, 45.5 mm lug-to-lug, 11 mm height, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1280,
+    "brand": "Formex",
+    "model": "Reef 39.5mm Automatic COSC 300M Bahama Blue",
+    "reference": "2201.1.6367.100",
+    "lugToLugMm": 45.5,
+    "caseMm": 39.5,
+    "thicknessMm": 11,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://formexwatch.com/watches/reef-39.5-automatic-chronometer-cosc-300m-bahama-blue/",
+        "note": "Official Formex product page lists SKU 2201.1.6367.100, 39.5 mm diameter, 45.5 mm lug-to-lug, 11 mm height, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1281,
+    "brand": "Formex",
+    "model": "Reef 42mm Automatic COSC 300M Blue",
+    "reference": "2200.1.6333.801",
+    "lugToLugMm": 47,
+    "caseMm": 42,
+    "thicknessMm": 11.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://formexwatch.com/watches/reef-42mm-automatic-cosc-300m-blue/",
+        "note": "Official Formex product page lists SKU 2200.1.6333.801, 42 mm diameter, 47 mm lug-to-lug, 11.4 mm height, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1282,
+    "brand": "Formex",
+    "model": "Reef GMT 42mm Automatic COSC 300M Black/Blue",
+    "reference": "2202.1.5323.711",
+    "lugToLugMm": 47,
+    "caseMm": 42,
+    "thicknessMm": 11.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://formexwatch.com/watches/reef-gmt-42mm-automatic-cosc-300m-black-blue/",
+        "note": "Official Formex product page lists SKU 2202.1.5323.711, 42 mm diameter, 47 mm lug-to-lug, 11.4 mm height, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1283,
+    "brand": "Formex",
+    "model": "Essence FortyThree Automatic Chronometer Black",
+    "reference": "0330.1.6321.100",
+    "lugToLugMm": 49,
+    "caseMm": 43,
+    "thicknessMm": 10.6,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://formexwatch.com/watches/essence-automatic-chronometer-black/",
+        "note": "Official Formex product page lists SKU 0330.1.6321.100, 43 mm diameter, 49 mm lug-to-lug, 10.6 mm height, and 22 mm lug width."
+      }
+    ]
   }
 ]
