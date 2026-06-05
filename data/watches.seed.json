@@ -21818,5 +21818,209 @@
         "note": "Official Casio product page lists case size (L x W x H) as 44.8 x 39.9 x 7.8 mm; the published case length is stored as lug-to-lug."
       }
     ]
+  },
+  {
+    "id": 1239,
+    "brand": "Orient",
+    "model": "Symphony III",
+    "reference": "RA-AC0F01B30A",
+    "lugToLugMm": 49,
+    "caseMm": 41.6,
+    "thicknessMm": 12.1,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.orientwatchusa.com/products/ra-ac0f01b30a",
+        "note": "Official Orient Watch USA product page lists 41.6 mm case diameter, 49 mm lug-to-lug length, 12.1 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1240,
+    "brand": "Orient",
+    "model": "Maestro",
+    "reference": "RA-AC0E04L30B",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.orientwatchusa.com/products/ra-ac0e04l30b",
+        "note": "Official Orient Watch USA product page lists 40 mm case diameter, 46 mm lug-to-lug length, 11.9 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1241,
+    "brand": "Orient",
+    "model": "Field Sport",
+    "reference": "RA-AK0405Y30B",
+    "lugToLugMm": 49.5,
+    "caseMm": 42.4,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.orientwatchusa.com/products/ra-ak0405y30b",
+        "note": "Official Orient Watch USA product page lists 42.4 mm case diameter, 49.5 mm lug-to-lug length, 12.2 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1242,
+    "brand": "Orient",
+    "model": "Mako",
+    "reference": "TAA02002D9",
+    "lugToLugMm": 47,
+    "caseMm": 41.5,
+    "thicknessMm": 13,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.orientwatchusa.com/products/taa02002d9",
+        "note": "Official Orient Watch USA product page lists 41.5 mm case diameter, 47 mm lug-to-lug length, 13 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1243,
+    "brand": "Orient",
+    "model": "Kamasu",
+    "reference": "RA-AA0004E39B",
+    "lugToLugMm": 46.8,
+    "caseMm": 41.8,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.orientwatchusa.com/collections/sport/ra-aa0004e39b",
+        "note": "Official Orient Watch USA product page lists 41.8 mm case diameter, 46.8 mm lug-to-lug length, 12.8 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1244,
+    "brand": "Orient",
+    "model": "Bambino Open Heart",
+    "reference": "RA-AG0003S30B",
+    "lugToLugMm": 46,
+    "caseMm": 40.5,
+    "thicknessMm": 12,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.orientwatchusa.com/products/ra-ag0003s30b",
+        "note": "Official Orient Watch USA product page lists 40.5 mm case diameter, 46 mm lug-to-lug length, 12 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1245,
+    "brand": "Orient",
+    "model": "Bambino Version 4",
+    "reference": "TAC08004D0",
+    "lugToLugMm": 48.2,
+    "caseMm": 42,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.orientwatchusa.com/products/tac08004d0",
+        "note": "Official Orient Watch USA product page lists 42 mm case diameter, 48.2 mm lug-to-lug length, 11.8 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1246,
+    "brand": "Orient",
+    "model": "Bambino Version 7 38mm",
+    "reference": "RA-AC0M03S30B",
+    "lugToLugMm": 44,
+    "caseMm": 38.4,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://shop.orientwatchusa.com/products/ra-ac0m03s30b",
+        "note": "Official Orient Watch USA shop page lists 38.4 mm case diameter, 44 mm lug-to-lug length, 12.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1247,
+    "brand": "Orient",
+    "model": "Bambino Version 7 40.5mm",
+    "reference": "RA-AC0033Y30B",
+    "lugToLugMm": 46.5,
+    "caseMm": 40.5,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.orientwatchusa.com/collections/orient-bambino/ra-ac0033y30b",
+        "note": "Official Orient Watch USA product page lists 40.5 mm case diameter, 46.5 mm lug-to-lug length, 12.3 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1248,
+    "brand": "Orient",
+    "model": "Bambino Small Seconds",
+    "reference": "RA-AP0002S30B",
+    "lugToLugMm": 46,
+    "caseMm": 40.5,
+    "thicknessMm": 12,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://shop.orientwatchusa.com/products/ra-ap0002s30b",
+        "note": "Official Orient Watch USA shop page lists 40.5 mm case diameter, 46 mm lug-to-lug length, 12 mm thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1249,
+    "brand": "Orient",
+    "model": "Mako 3",
+    "reference": "RA-AA0818L39B",
+    "lugToLugMm": 46.8,
+    "caseMm": 41.8,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://shop.orientwatchusa.com/products/ra-aa0818l39b",
+        "note": "Official Orient Watch USA shop page lists 41.8 mm case diameter, 46.8 mm lug-to-lug length, 12.8 mm thickness, and 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1250,
+    "brand": "Orient",
+    "model": "Open Heart Classic",
+    "reference": "RA-AS0101S10B",
+    "lugToLugMm": 47,
+    "caseMm": 41.5,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://shop.orientwatchusa.com/products/ra-as0101s10b",
+        "note": "Official Orient Watch USA shop page lists 41.5 mm case diameter, 47 mm lug-to-lug length, 13.8 mm thickness, and 20 mm lug width."
+      }
+    ]
   }
 ]

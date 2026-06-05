@@ -44,15 +44,46 @@ Added references:
 - A168WA-1W
 - EFR-S108D-1AV
 
-## Cumulative totals
+### Orient
 
-- Brands added: 1
-- Models added: 11
-- Official-source additions: 11
+- Added models: 12
+- Reached 10-model target: yes
+- Official-source additions: 12
 - Verified-external additions: 0
 - Duplicate candidates skipped: 0
 - Insufficient-information exclusions: 0
-- Source-conflict exclusions: 0
+- Source-conflict exclusions: 1
+
+Orient Watch USA publishes explicit case diameter, lug-to-lug length, thickness, and lug width values. The existing Bambino Version 2 reference `FAC00009N0` was retained without duplication.
+
+Added references:
+
+- RA-AC0F01B30A
+- RA-AC0E04L30B
+- RA-AK0405Y30B
+- TAA02002D9
+- RA-AA0004E39B
+- RA-AG0003S30B
+- TAC08004D0
+- RA-AC0M03S30B
+- RA-AC0033Y30B
+- RA-AP0002S30B
+- RA-AA0818L39B
+- RA-AS0101S10B
+
+Excluded conflicts:
+
+- RA-AC0R02L30B Stretto Date: the official page presents conflicting summary and detailed dimensions, so it was not added.
+
+## Cumulative totals
+
+- Brands added: 2
+- Models added: 23
+- Official-source additions: 23
+- Verified-external additions: 0
+- Duplicate candidates skipped: 0
+- Insufficient-information exclusions: 0
+- Source-conflict exclusions: 1
 
 ## Modified files
 
