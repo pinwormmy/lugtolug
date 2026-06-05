@@ -515,11 +515,38 @@ Added references:
 - 821.10.351.10
 - 862.10.351.21-N
 
+### Certina
+
+- Added models: 12
+- Reached 10-model target: yes
+- Official-source additions: 12
+- Verified-external additions: 0
+- Duplicate candidates skipped: 0
+- Insufficient-information exclusions: 0
+- Source-conflict exclusions: 0
+
+Certina official product pages publish references together with separate Length, Width, Height, and Between lugs values. Official Width is stored as `caseMm`, official Length as case length/L2L, Height as `thicknessMm`, and Between lugs as `lugWidthMm`; this mapping is retained in each source note.
+
+Added references:
+
+- C033.460.16.087.00
+- C033.460.11.057.00
+- C033.460.16.037.00
+- C033.460.16.047.00
+- C041.407.19.041.01
+- C041.407.39.051.00
+- C024.407.18.041.00
+- C024.407.18.081.00
+- C024.407.11.051.00
+- C024.407.37.361.00
+- C024.607.48.051.10
+- C047.452.11.081.00
+
 ## Cumulative totals
 
-- Brands added: 18
-- Models added: 198
-- Official-source additions: 198
+- Brands added: 19
+- Models added: 210
+- Official-source additions: 210
 - Verified-external additions: 0
 - Duplicate candidates skipped: 0
 - Insufficient-information exclusions: 7

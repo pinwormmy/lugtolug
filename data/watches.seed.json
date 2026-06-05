@@ -24997,5 +24997,209 @@
         "note": "Official DOXA product page lists SKU 862.10.351.21-N, CASE dimensions 40.00 x 47.60 mm, 14.15 mm height, and 20.00 mm lug width; the second case dimension is stored as case length/L2L."
       }
     ]
+  },
+  {
+    "id": 1426,
+    "brand": "Certina",
+    "model": "DS-8 Chronograph Moon Phase",
+    "reference": "C033.460.16.087.00",
+    "lugToLugMm": 41,
+    "caseMm": 42,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.certina.com/en/watch/ds-8-chronograph-moon-phase/c0334601608700",
+        "note": "Official Certina product page lists Ref. C033.460.16.087.00, 41.00 mm Length, 42.00 mm Width, 11.80 mm Height, and 21.00 mm Between lugs; Length is stored as case length/L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1427,
+    "brand": "Certina",
+    "model": "DS-8 Chronograph Moon Phase",
+    "reference": "C033.460.11.057.00",
+    "lugToLugMm": 41,
+    "caseMm": 42,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.certina.com/en/watch/ds-8-chronograph-moon-phase/c0334601105700",
+        "note": "Official Certina product page lists Ref. C033.460.11.057.00, 41.00 mm Length, 42.00 mm Width, 11.80 mm Height, and 21.00 mm Between lugs; Length is stored as case length/L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1428,
+    "brand": "Certina",
+    "model": "DS-8 Chronograph Moon Phase",
+    "reference": "C033.460.16.037.00",
+    "lugToLugMm": 41,
+    "caseMm": 42,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.certina.com/en/watch/ds-8-chronograph-moon-phase/c0334601603700",
+        "note": "Official Certina product page lists Ref. C033.460.16.037.00, 41.00 mm Length, 42.00 mm Width, 11.80 mm Height, and 21.00 mm Between lugs; Length is stored as case length/L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1429,
+    "brand": "Certina",
+    "model": "DS-8 Chronograph Moon Phase",
+    "reference": "C033.460.16.047.00",
+    "lugToLugMm": 41,
+    "caseMm": 42,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.certina.com/en/watch/ds-8-chronograph-moon-phase/c0334601604700",
+        "note": "Official Certina product page lists Ref. C033.460.16.047.00, 41.00 mm Length, 42.00 mm Width, 11.80 mm Height, and 21.00 mm Between lugs; Length is stored as case length/L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1430,
+    "brand": "Certina",
+    "model": "DS+ Kit Urban & Heritage",
+    "reference": "C041.407.19.041.01",
+    "lugToLugMm": 43.5,
+    "caseMm": 43.4,
+    "thicknessMm": 11.18,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.certina.com/en/watch/ds/c0414071904101",
+        "note": "Official Certina product page lists Ref. C041.407.19.041.01, 43.50 mm Length, 43.40 mm Width, 11.18 mm Height, and 20.00 mm Between lugs; Length is stored as case length/L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1431,
+    "brand": "Certina",
+    "model": "DS+ Kit Black Edition",
+    "reference": "C041.407.39.051.00",
+    "lugToLugMm": 43.5,
+    "caseMm": 43.4,
+    "thicknessMm": 11.18,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.certina.com/en/watch/ds/c0414073905100",
+        "note": "Official Certina product page lists Ref. C041.407.39.051.00, 43.50 mm Length, 43.40 mm Width, 11.18 mm Height, and 20.00 mm Between lugs; Length is stored as case length/L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1432,
+    "brand": "Certina",
+    "model": "DS-2",
+    "reference": "C024.407.18.041.00",
+    "lugToLugMm": 38,
+    "caseMm": 40,
+    "thicknessMm": 12.65,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.certina.com/en/watch/ds-2/c0244071804100",
+        "note": "Official Certina product page lists Ref. C024.407.18.041.00, 38.00 mm Length, 40.00 mm Width, 12.65 mm Height, and 20.00 mm Between lugs; Length is stored as case length/L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1433,
+    "brand": "Certina",
+    "model": "DS-2",
+    "reference": "C024.407.18.081.00",
+    "lugToLugMm": 38,
+    "caseMm": 40,
+    "thicknessMm": 12.65,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.certina.com/en/watch/ds-2/c0244071808100",
+        "note": "Official Certina product page lists Ref. C024.407.18.081.00, 38.00 mm Length, 40.00 mm Width, 12.65 mm Height, and 20.00 mm Between lugs; Length is stored as case length/L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1434,
+    "brand": "Certina",
+    "model": "DS-2",
+    "reference": "C024.407.11.051.00",
+    "lugToLugMm": 38,
+    "caseMm": 40,
+    "thicknessMm": 12.65,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.certina.com/en/watch/ds-2/c0244071105100",
+        "note": "Official Certina product page lists Ref. C024.407.11.051.00, 38.00 mm Length, 40.00 mm Width, 12.65 mm Height, and 20.00 mm Between lugs; Length is stored as case length/L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1435,
+    "brand": "Certina",
+    "model": "DS-2",
+    "reference": "C024.407.37.361.00",
+    "lugToLugMm": 38,
+    "caseMm": 40,
+    "thicknessMm": 12.65,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.certina.com/en/watch/ds-2/c0244073736100",
+        "note": "Official Certina product page lists Ref. C024.407.37.361.00, 38.00 mm Length, 40.00 mm Width, 12.65 mm Height, and 20.00 mm Between lugs; Length is stored as case length/L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1436,
+    "brand": "Certina",
+    "model": "DS-2 Turning Bezel",
+    "reference": "C024.607.48.051.10",
+    "lugToLugMm": 42,
+    "caseMm": 41.1,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.certina.com/en/watch/ds-2/c0246074805110",
+        "note": "Official Certina product page lists Ref. C024.607.48.051.10, 42.00 mm Length, 41.10 mm Width, 11.70 mm Height, and 20.00 mm Between lugs; Length is stored as case length/L2L and Width as caseMm."
+      }
+    ]
+  },
+  {
+    "id": 1437,
+    "brand": "Certina",
+    "model": "DS-X GMT",
+    "reference": "C047.452.11.081.00",
+    "lugToLugMm": 41,
+    "caseMm": 41.2,
+    "thicknessMm": 12.15,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.certina.com/en/watch/ds-x-gmt/c0474521108100",
+        "note": "Official Certina product page lists Ref. C047.452.11.081.00, 41.00 mm Length, 41.20 mm Width, 12.15 mm Height, and 20.00 mm Between lugs; Length is stored as case length/L2L and Width as caseMm."
+      }
+    ]
   }
 ]
