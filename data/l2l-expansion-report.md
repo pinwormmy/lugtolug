@@ -242,11 +242,37 @@ Excluded conflicts:
 
 - Lander IV 39.5mm: the official product page lists 11.3 mm depth in the specification table but 10.8 mm thickness in the feature text.
 
+### Nodus
+
+- Added models: 11
+- Reached 10-model target: yes
+- Official-source additions: 11
+- Verified-external additions: 0
+- Duplicate candidates skipped: 0
+- Insufficient-information exclusions: 0
+- Source-conflict exclusions: 0
+
+Nodus official product pages publish case width, lug-to-lug distance, thickness, and lug width. Where a page separately lists bezel width and case width, `caseMm` stores the official case width. Nodus does not expose separate product SKUs on these pages, so the official product name is used in `reference`.
+
+Added references:
+
+- Sector Deep Pioneer - Admiral
+- Sector II Sport - Marigold
+- Sector Deep - Black Destro
+- Sector Deep - Flare Destro
+- Duality II - Chasm Black
+- Sector II Field Titanium - Marina
+- Sector II Pilot - DLC
+- Duality II - Drift Blue
+- Unity - Vitreous Pink
+- Sentinel for AMMO NYC
+- Unity - Pearl White
+
 ## Cumulative totals
 
-- Brands added: 8
-- Models added: 88
-- Official-source additions: 88
+- Brands added: 9
+- Models added: 99
+- Official-source additions: 99
 - Verified-external additions: 0
 - Duplicate candidates skipped: 0
 - Insufficient-information exclusions: 0

@@ -23127,5 +23127,192 @@
         "note": "Official Farer product page lists 38.5 mm diameter, 42 mm lug-to-lug, 10.3 mm depth, and 24 mm integrated lug width."
       }
     ]
+  },
+  {
+    "id": 1316,
+    "brand": "Nodus",
+    "model": "Sector Deep Pioneer - Admiral",
+    "reference": "Sector Deep Pioneer - Admiral",
+    "lugToLugMm": 47,
+    "caseMm": 38,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.noduswatches.com/sector-deep/p/sector-deep-pioneer-admiral",
+        "note": "Official Nodus product page lists 38 mm case width, 47 mm lug-to-lug, 13.6 mm thickness, and 20 mm lug width; the separate 42 mm measurement is bezel width."
+      }
+    ]
+  },
+  {
+    "id": 1317,
+    "brand": "Nodus",
+    "model": "Sector II Sport - Marigold",
+    "reference": "Sector II Sport - Marigold",
+    "lugToLugMm": 47,
+    "caseMm": 38,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.noduswatches.com/sector-sport/p/sector-sport-marigold",
+        "note": "Official Nodus product page lists 38 mm case width, 47 mm lug-to-lug, 11.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1318,
+    "brand": "Nodus",
+    "model": "Sector Deep - Black Destro",
+    "reference": "Sector Deep - Black Destro",
+    "lugToLugMm": 47,
+    "caseMm": 38,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.noduswatches.com/sector-deep/p/sector-deep-black",
+        "note": "Official Nodus product page lists 38 mm case width, 47 mm lug-to-lug, 13.6 mm thickness, and 20 mm lug width; the separate 42 mm measurement is bezel width."
+      }
+    ]
+  },
+  {
+    "id": 1319,
+    "brand": "Nodus",
+    "model": "Sector Deep - Flare Destro",
+    "reference": "Sector Deep - Flare Destro",
+    "lugToLugMm": 47,
+    "caseMm": 38,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.noduswatches.com/sector-deep/p/sector-deep-flare-destro",
+        "note": "Official Nodus product page lists 38 mm case width, 47 mm lug-to-lug, 13.6 mm thickness, and 20 mm lug width; the separate 42 mm measurement is bezel width."
+      }
+    ]
+  },
+  {
+    "id": 1320,
+    "brand": "Nodus",
+    "model": "Duality II - Chasm Black",
+    "reference": "Duality II - Chasm Black",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.noduswatches.com/duality/p/duality-ii-chasm-black",
+        "note": "Official Nodus product page lists 40 mm case width, 48 mm lug-to-lug, 11.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1321,
+    "brand": "Nodus",
+    "model": "Sector II Field Titanium - Marina",
+    "reference": "Sector II Field Titanium - Marina",
+    "lugToLugMm": 47,
+    "caseMm": 38,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.noduswatches.com/sector-field-titanium/p/sector-field-titanium-marina",
+        "note": "Official Nodus product page lists 38 mm case width, 47 mm lug-to-lug, 11.7 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1322,
+    "brand": "Nodus",
+    "model": "Sector II Pilot - DLC",
+    "reference": "Sector II Pilot - DLC",
+    "lugToLugMm": 47,
+    "caseMm": 38,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.noduswatches.com/sector-pilot/p/sector-pilot-dlc",
+        "note": "Official Nodus product page lists 38 mm case width, 47 mm lug-to-lug, 11.7 mm thickness, and 20 mm lug width; the separate 40 mm measurement is bezel width."
+      }
+    ]
+  },
+  {
+    "id": 1323,
+    "brand": "Nodus",
+    "model": "Duality II - Drift Blue",
+    "reference": "Duality II - Drift Blue",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.noduswatches.com/duality/p/duality-drift-blue",
+        "note": "Official Nodus product page lists 40 mm case width, 48 mm lug-to-lug, 11.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1324,
+    "brand": "Nodus",
+    "model": "Unity - Vitreous Pink",
+    "reference": "Unity - Vitreous Pink",
+    "lugToLugMm": 43.5,
+    "caseMm": 36.5,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.noduswatches.com/unity/p/unity-vitreous-pink",
+        "note": "Official Nodus product page lists 36.5 mm case width, 43.5 mm lug-to-lug, 11.3 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1325,
+    "brand": "Nodus",
+    "model": "Sentinel for AMMO NYC",
+    "reference": "Sentinel for AMMO NYC",
+    "lugToLugMm": 47,
+    "caseMm": 41,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.noduswatches.com/sentinel/p/sentinel",
+        "note": "Official Nodus product page lists 41 mm case width, 47 mm lug-to-lug, 11.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1326,
+    "brand": "Nodus",
+    "model": "Unity - Pearl White",
+    "reference": "Unity - Pearl White",
+    "lugToLugMm": 43.5,
+    "caseMm": 36.5,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.noduswatches.com/unity/p/unity-pearl-white",
+        "note": "Official Nodus product page lists 36.5 mm case width, 43.5 mm lug-to-lug, 11.3 mm thickness, and 20 mm lug width."
+      }
+    ]
   }
 ]
