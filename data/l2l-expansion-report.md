@@ -430,15 +430,50 @@ Excluded for insufficient information:
 
 - Navygraf Pearl CMM.20: the official page describes thickness only as "under 10mm," so it was excluded rather than storing an approximate value.
 
-## Cumulative totals
+### Serica
 
-- Brands added: 15
-- Models added: 167
-- Official-source additions: 167
+- Added models: 11
+- Reached 10-model target: yes
+- Official-source additions: 11
 - Verified-external additions: 0
 - Duplicate candidates skipped: 0
-- Insufficient-information exclusions: 1
-- Source-conflict exclusions: 7
+- Insufficient-information exclusions: 6
+- Source-conflict exclusions: 4
+
+Serica official product pages publish product references together with case diameter, lug-to-lug, thickness, and lug width. Only product pages with a complete and internally consistent official specification set are included.
+
+Added references:
+
+- 6190-1
+- 6190-3
+- 6190-2
+- 6190 Commando
+- 6190 TXD
+- 8315-1
+- 8315-2
+- 5330
+- 7505-1
+- 7505-2
+- 7505 TXD
+
+Excluded for insufficient information:
+
+- 6190 California and 6190 Denali: the current official product pages do not publish a lug-to-lug value.
+- 5303-1, 5303-2, 5303-3, and 5303 PLD: the current official product pages publish diameter, thickness, and bracelet dimensions but no lug-to-lug value.
+
+Excluded for source conflicts:
+
+- 1174 Parade Brass, 1174 Parade Satin Black, 1174-3 Parade, and 1174-4 Parade: each official page lists 35 x 41 mm case dimensions while also labeling 18 mm as lug-to-lug. The 18 mm value conflicts with the published case dimensions and appears to be a lug or strap dimension, so these entries were excluded.
+
+## Cumulative totals
+
+- Brands added: 16
+- Models added: 178
+- Official-source additions: 178
+- Verified-external additions: 0
+- Duplicate candidates skipped: 0
+- Insufficient-information exclusions: 7
+- Source-conflict exclusions: 11
 
 ## Modified files
 

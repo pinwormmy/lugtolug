@@ -24470,5 +24470,192 @@
         "note": "Official Yema product page lists Ref. 64.25.10.05.TN.D5, 40 mm diameter, 46 mm lug-to-lug, 9.40 mm thickness, and 20 mm lugs."
       }
     ]
+  },
+  {
+    "id": 1395,
+    "brand": "Serica",
+    "model": "6190-1 M.S.L.",
+    "reference": "6190-1",
+    "lugToLugMm": 46.5,
+    "caseMm": 38,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://serica-watches.com/en/products/6190-1-msl-chronometer",
+        "note": "Official Serica product page identifies Ref. 6190-1 M.S.L. and lists 38 mm diameter, 46.5 mm lug-to-lug, 10.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1396,
+    "brand": "Serica",
+    "model": "6190-3 M.S.L.",
+    "reference": "6190-3",
+    "lugToLugMm": 46.5,
+    "caseMm": 38,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://serica-watches.com/en/products/6190-3-msl-chronometer",
+        "note": "Official Serica product page identifies Ref. 6190-3 M.S.L. and lists 38 mm diameter, 46.5 mm lug-to-lug, 10.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1397,
+    "brand": "Serica",
+    "model": "6190-2 M.S.L.",
+    "reference": "6190-2",
+    "lugToLugMm": 46.5,
+    "caseMm": 38,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://serica-watches.com/en/products/6190-2-msl-chronometer",
+        "note": "Official Serica product page identifies Ref. 6190-2 M.S.L. and lists 38 mm diameter, 46.5 mm lug-to-lug, 10.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1398,
+    "brand": "Serica",
+    "model": "6190 Commando",
+    "reference": "6190 Commando",
+    "lugToLugMm": 46.5,
+    "caseMm": 38,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://serica-watches.com/en/products/6190-commando-field-chronometer",
+        "note": "Official Serica product page identifies Ref. 6190 Commando and lists 38 mm diameter, 46.5 mm lug-to-lug, 10.4 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1399,
+    "brand": "Serica",
+    "model": "6190 TXD",
+    "reference": "6190 TXD",
+    "lugToLugMm": 46.5,
+    "caseMm": 37.7,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://serica-watches.com/en/products/ref-6190-txd",
+        "note": "Official Serica product page identifies Ref. 6190 TXD and lists 37.7 mm diameter, 46.5 mm lug-to-lug, 10.4 mm thickness including glass, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1400,
+    "brand": "Serica",
+    "model": "8315-1 GMT",
+    "reference": "8315-1",
+    "lugToLugMm": 46.5,
+    "caseMm": 39,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://serica-watches.com/en/products/8315-1-travel-chronometer",
+        "note": "Official Serica product page identifies Ref. 8315-1 GMT and lists 39 mm diameter, 46.50 mm lug-to-lug, 12.30 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1401,
+    "brand": "Serica",
+    "model": "8315-2 GMT",
+    "reference": "8315-2",
+    "lugToLugMm": 46.5,
+    "caseMm": 39,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://serica-watches.com/en/products/8315-2-travel-chronometer",
+        "note": "Official Serica product page identifies Ref. 8315-2 GMT and lists 39 mm diameter, 46.50 mm lug-to-lug, 12.30 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1402,
+    "brand": "Serica",
+    "model": "5330",
+    "reference": "5330",
+    "lugToLugMm": 46.5,
+    "caseMm": 39,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://serica-watches.com/en/products/5330-chronometre-plongee-date",
+        "note": "Official Serica product page identifies Ref. 5330 and lists 39 mm case diameter, 46.5 mm lug-to-lug, 12.2 mm thickness including crystal, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1403,
+    "brand": "Serica",
+    "model": "7505-1",
+    "reference": "7505-1",
+    "lugToLugMm": 41.5,
+    "caseMm": 35,
+    "thicknessMm": 9.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://serica-watches.com/en/products/7505-1-chronometre-etanche",
+        "note": "Official Serica product page identifies Ref. 7505-1 and lists 35 mm diameter, 41.5 mm lug-to-lug, 9.6 mm thickness including glass, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1404,
+    "brand": "Serica",
+    "model": "7505-2",
+    "reference": "7505-2",
+    "lugToLugMm": 41.5,
+    "caseMm": 35,
+    "thicknessMm": 9.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://serica-watches.com/en/products/7505-2-chronometre-etanche",
+        "note": "Official Serica product page identifies Ref. 7505-2 and lists 35 mm diameter, 41.5 mm lug-to-lug, 9.6 mm thickness including glass, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1405,
+    "brand": "Serica",
+    "model": "7505 TXD",
+    "reference": "7505 TXD",
+    "lugToLugMm": 41.5,
+    "caseMm": 35,
+    "thicknessMm": 9.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://serica-watches.com/en/products/7505-txd-chronometre-etanche",
+        "note": "Official Serica product page identifies Ref. 7505 TXD and lists 35 mm diameter, 41.5 mm lug-to-lug, 9.6 mm thickness including glass, and 20 mm lug width."
+      }
+    ]
   }
 ]
