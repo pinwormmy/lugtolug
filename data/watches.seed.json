@@ -23722,5 +23722,175 @@
         "note": "Official Lorier product page lists 39 mm case width, 10.7 mm case thickness plus 2 mm dome crystal (12.7 mm total), 46 mm case length/lug-to-lug, and 20 mm lug width."
       }
     ]
+  },
+  {
+    "id": 1351,
+    "brand": "Studio Underd0g",
+    "model": "Watermel0n (Gen3)",
+    "reference": "Watermel0n (Gen3)",
+    "lugToLugMm": 44.5,
+    "caseMm": 38.5,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://underd0g.com/products/01wmb",
+        "note": "Official Studio Underd0g product page lists 38.5 mm case diameter, 12.9 mm thickness, 44.5 mm lug-to-lug, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1352,
+    "brand": "Studio Underd0g",
+    "model": "Desert Sky (Gen3)",
+    "reference": "Desert Sky (Gen3)",
+    "lugToLugMm": 44.5,
+    "caseMm": 38.5,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://underd0g.com/products/01dst",
+        "note": "Official Studio Underd0g product page lists 38.5 mm case diameter, 12.9 mm thickness, 44.5 mm lug-to-lug, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1353,
+    "brand": "Studio Underd0g",
+    "model": "Go0fy Panda (Gen3)",
+    "reference": "Go0fy Panda (Gen3)",
+    "lugToLugMm": 44.5,
+    "caseMm": 38.5,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://underd0g.com/products/01gpb",
+        "note": "Official Studio Underd0g product page lists 38.5 mm case diameter, 12.9 mm thickness, 44.5 mm lug-to-lug, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1354,
+    "brand": "Studio Underd0g",
+    "model": "Mint Ch0c Chip (Gen3)",
+    "reference": "Mint Ch0c Chip (Gen3)",
+    "lugToLugMm": 44.5,
+    "caseMm": 38.5,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://underd0g.com/products/01mcbr",
+        "note": "Official Studio Underd0g product page lists 38.5 mm case diameter, 12.9 mm thickness, 44.5 mm lug-to-lug, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1355,
+    "brand": "Studio Underd0g",
+    "model": "Midnight",
+    "reference": "Midnight",
+    "lugToLugMm": 46,
+    "caseMm": 37,
+    "thicknessMm": 12,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://underd0g.com/products/02bkg",
+        "note": "Official Studio Underd0g product page lists 37 mm case diameter, 12 mm thickness, 46 mm lug-to-lug, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1356,
+    "brand": "Studio Underd0g",
+    "model": "Pink Lem0nade",
+    "reference": "Pink Lem0nade",
+    "lugToLugMm": 46,
+    "caseMm": 37,
+    "thicknessMm": 12,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://underd0g.com/products/02fsbe",
+        "note": "Official Studio Underd0g product page lists 37 mm case diameter, 12 mm thickness, 46 mm lug-to-lug, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1357,
+    "brand": "Studio Underd0g",
+    "model": "Full Mo0n",
+    "reference": "Full Mo0n",
+    "lugToLugMm": 46,
+    "caseMm": 37,
+    "thicknessMm": 12,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://underd0g.com/products/02bebr",
+        "note": "Official Studio Underd0g product page lists 37 mm case diameter, 12 mm thickness, 46 mm lug-to-lug, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1358,
+    "brand": "Studio Underd0g",
+    "model": "Steffany Blue",
+    "reference": "Steffany Blue",
+    "lugToLugMm": 46,
+    "caseMm": 37,
+    "thicknessMm": 12,
+    "lugWidthMm": 18,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://underd0g.com/products/02blb",
+        "note": "Official Studio Underd0g product page lists 37 mm case diameter, 12 mm thickness, 46 mm lug-to-lug, and 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1359,
+    "brand": "Studio Underd0g",
+    "model": "Salm0n",
+    "reference": "Salm0n",
+    "lugToLugMm": 44.5,
+    "caseMm": 38.5,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://underd0g.com/products/03sab",
+        "note": "Official Studio Underd0g product page lists 38.5 mm case diameter, 13.6 mm thickness, 44.5 mm lug-to-lug, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1360,
+    "brand": "Studio Underd0g",
+    "model": "Champagne & Caviar",
+    "reference": "Champagne & Caviar",
+    "lugToLugMm": 44.5,
+    "caseMm": 38.5,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://underd0g.com/products/03chb",
+        "note": "Official Studio Underd0g product page lists 38.5 mm case diameter, 13.6 mm thickness, 44.5 mm lug-to-lug, and 20 mm lug width."
+      }
+    ]
   }
 ]

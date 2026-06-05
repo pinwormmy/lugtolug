@@ -322,11 +322,36 @@ Added references:
 - Neptune Series IV No Date
 - Hyperion Series II Skyward
 
+### Studio Underd0g
+
+- Added models: 10
+- Reached 10-model target: yes
+- Official-source additions: 10
+- Verified-external additions: 0
+- Duplicate candidates skipped: 0
+- Insufficient-information exclusions: 0
+- Source-conflict exclusions: 0
+
+Studio Underd0g official product pages publish case diameter and total thickness together with lug-to-lug distance and lug width. The pages do not publish separate reference numbers, so the complete official product name is used in `reference`.
+
+Added references:
+
+- Watermel0n (Gen3)
+- Desert Sky (Gen3)
+- Go0fy Panda (Gen3)
+- Mint Ch0c Chip (Gen3)
+- Midnight
+- Pink Lem0nade
+- Full Mo0n
+- Steffany Blue
+- Salm0n
+- Champagne & Caviar
+
 ## Cumulative totals
 
-- Brands added: 11
-- Models added: 123
-- Official-source additions: 123
+- Brands added: 12
+- Models added: 133
+- Official-source additions: 133
 - Verified-external additions: 0
 - Duplicate candidates skipped: 0
 - Insufficient-information exclusions: 0
