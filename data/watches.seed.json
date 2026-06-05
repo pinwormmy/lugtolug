@@ -23314,5 +23314,209 @@
         "note": "Official Nodus product page lists 36.5 mm case width, 43.5 mm lug-to-lug, 11.3 mm thickness, and 20 mm lug width."
       }
     ]
+  },
+  {
+    "id": 1327,
+    "brand": "Traska",
+    "model": "Commuter 34 Malachite",
+    "reference": "Commuter 34 Malachite",
+    "lugToLugMm": 41.5,
+    "caseMm": 34.5,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.traskawatch.com/products/commuter-34-malachite",
+        "note": "Official Traska product page Dimensions drawing lists 34.5 mm diameter, 41.5 mm lug-to-lug, 10.5 mm total thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1328,
+    "brand": "Traska",
+    "model": "Commuter 34 Lapis Lazuli",
+    "reference": "Commuter 34 Lapis Lazuli",
+    "lugToLugMm": 41.5,
+    "caseMm": 34.5,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.traskawatch.com/products/commuter-34-lapis-lazuli",
+        "note": "Official Traska product page Dimensions drawing lists 34.5 mm diameter, 41.5 mm lug-to-lug, 10.5 mm total thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1329,
+    "brand": "Traska",
+    "model": "Commuter 34 Onyx",
+    "reference": "Commuter 34 Onyx",
+    "lugToLugMm": 41.5,
+    "caseMm": 34.5,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.traskawatch.com/products/commuter-34-onyx",
+        "note": "Official Traska product page Dimensions drawing lists 34.5 mm diameter, 41.5 mm lug-to-lug, 10.5 mm total thickness, and 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1330,
+    "brand": "Traska",
+    "model": "Commuter 36 Malachite",
+    "reference": "Commuter 36 Malachite",
+    "lugToLugMm": 44,
+    "caseMm": 36.5,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.traskawatch.com/products/commuter-36-malachite",
+        "note": "Official Traska product page Dimensions drawing lists 36.5 mm diameter, 44 mm lug-to-lug, 10.5 mm total thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1331,
+    "brand": "Traska",
+    "model": "Commuter 36 Lapis Lazuli",
+    "reference": "Commuter 36 Lapis Lazuli",
+    "lugToLugMm": 44,
+    "caseMm": 36.5,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.traskawatch.com/products/commuter-36-lapis-lazuli",
+        "note": "Official Traska product page Dimensions drawing lists 36.5 mm diameter, 44 mm lug-to-lug, 10.5 mm total thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1332,
+    "brand": "Traska",
+    "model": "Commuter 36 Onyx",
+    "reference": "Commuter 36 Onyx",
+    "lugToLugMm": 44,
+    "caseMm": 36.5,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.traskawatch.com/products/commuter-36-onyx",
+        "note": "Official Traska product page Dimensions drawing lists 36.5 mm diameter, 44 mm lug-to-lug, 10.5 mm total thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1333,
+    "brand": "Traska",
+    "model": "Commuter 38 Malachite",
+    "reference": "Commuter 38 Malachite",
+    "lugToLugMm": 46,
+    "caseMm": 38.5,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.traskawatch.com/products/commuter-38-malachite",
+        "note": "Official Traska product page Dimensions drawing lists 38.5 mm diameter, 46 mm lug-to-lug, 10.5 mm total thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1334,
+    "brand": "Traska",
+    "model": "Commuter 38 Lapis Lazuli",
+    "reference": "Commuter 38 Lapis Lazuli",
+    "lugToLugMm": 46,
+    "caseMm": 38.5,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.traskawatch.com/products/commuter-38-lapis-lazuli",
+        "note": "Official Traska product page Dimensions drawing lists 38.5 mm diameter, 46 mm lug-to-lug, 10.5 mm total thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1335,
+    "brand": "Traska",
+    "model": "Commuter 38 Onyx",
+    "reference": "Commuter 38 Onyx",
+    "lugToLugMm": 46,
+    "caseMm": 38.5,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.traskawatch.com/products/commuter-38-onyx",
+        "note": "Official Traska product page Dimensions drawing lists 38.5 mm diameter, 46 mm lug-to-lug, 10.5 mm total thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1336,
+    "brand": "Traska",
+    "model": "Venturer GMT Meteorite",
+    "reference": "4215",
+    "lugToLugMm": 46,
+    "caseMm": 38.5,
+    "thicknessMm": 9.75,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.traskawatch.com/products/venturer-gmt-meteorite",
+        "note": "Official Traska product page identifies Ref. 4215, and its Dimensions drawing lists 38.5 mm diameter, 46 mm lug-to-lug, 9.75 mm total thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1337,
+    "brand": "Traska",
+    "model": "The Chronograph",
+    "reference": "10251",
+    "lugToLugMm": 46.5,
+    "caseMm": 39,
+    "thicknessMm": 13.75,
+    "lugWidthMm": 21,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.traskawatch.com/products/chronograph-tungsten-gray",
+        "note": "Official Traska product page identifies Ref. 10251, and its Dimensions drawing lists 39 mm diameter, 46.5 mm lug-to-lug, 13.75 mm total thickness, and 21 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1338,
+    "brand": "Traska",
+    "model": "Freediver Mint Green",
+    "reference": "1186",
+    "lugToLugMm": 48,
+    "caseMm": 40.5,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.traskawatch.com/products/freediver-mint-green",
+        "note": "Official Traska product page identifies Ref. 1186, and its Dimensions drawing lists 40.5 mm diameter, 48 mm lug-to-lug, 11.9 mm total thickness, and 20 mm lug width."
+      }
+    ]
   }
 ]

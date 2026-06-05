@@ -268,11 +268,38 @@ Added references:
 - Sentinel for AMMO NYC
 - Unity - Pearl White
 
+### Traska
+
+- Added models: 12
+- Reached 10-model target: yes
+- Official-source additions: 12
+- Verified-external additions: 0
+- Duplicate candidates skipped: 0
+- Insufficient-information exclusions: 0
+- Source-conflict exclusions: 0
+
+Traska official product pages publish dimensions as technical drawings. The drawings separately label case-body height and total height including the raised crystal; `thicknessMm` stores the total height. The Commuter size names are nominal, so `caseMm` stores the exact diameter shown in the official drawing. Product names are used in `reference` where no separate reference number is published.
+
+Added references:
+
+- Commuter 34 Malachite
+- Commuter 34 Lapis Lazuli
+- Commuter 34 Onyx
+- Commuter 36 Malachite
+- Commuter 36 Lapis Lazuli
+- Commuter 36 Onyx
+- Commuter 38 Malachite
+- Commuter 38 Lapis Lazuli
+- Commuter 38 Onyx
+- 4215
+- 10251
+- 1186
+
 ## Cumulative totals
 
-- Brands added: 9
-- Models added: 99
-- Official-source additions: 99
+- Brands added: 10
+- Models added: 111
+- Official-source additions: 111
 - Verified-external additions: 0
 - Duplicate candidates skipped: 0
 - Insufficient-information exclusions: 0
