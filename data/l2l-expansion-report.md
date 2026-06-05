@@ -188,11 +188,36 @@ Excluded conflicts:
 - S5 Tactical Field: official page disagrees on whether the case is 40 mm or 42 mm.
 - Vaer x Outerknown D4 USA Solar Diver 38mm: official page disagrees on case thickness.
 
+### Baltic
+
+- Added models: 10
+- Reached 10-model target: yes
+- Official-source additions: 10
+- Verified-external additions: 0
+- Duplicate candidates skipped: 0
+- Insufficient-information exclusions: 0
+- Source-conflict exclusions: 0
+
+Baltic official product pages publish case diameter, lug-to-lug distance, thickness, and lug width. Baltic does not expose separate product SKUs on these pages, so the official product name is used in `reference`.
+
+Added references:
+
+- Hermétique Summer Pink
+- Aquascaphe GMT Green
+- MR Classic Salmon
+- Prismic Grey blue
+- Aquascaphe Classic Blue Gilt
+- Scalegraph Classic Panda
+- HMS 003 Silver Blue
+- Aquascaphe Dual-Crown Blue
+- Aquascaphe Bronze Brown
+- Aquascaphe Titanium Blue
+
 ## Cumulative totals
 
-- Brands added: 6
-- Models added: 68
-- Official-source additions: 68
+- Brands added: 7
+- Models added: 78
+- Official-source additions: 78
 - Verified-external additions: 0
 - Duplicate candidates skipped: 0
 - Insufficient-information exclusions: 0

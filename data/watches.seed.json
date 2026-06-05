@@ -22787,5 +22787,175 @@
         "note": "Official Vaer product page lists 39 mm case diameter, 46 mm lug-to-lug distance, 11.96 mm case height without crystal, and 20 mm lug width."
       }
     ]
+  },
+  {
+    "id": 1296,
+    "brand": "Baltic",
+    "model": "Hermétique Summer Pink",
+    "reference": "Hermétique Summer Pink",
+    "lugToLugMm": 46,
+    "caseMm": 37,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://baltic-watches.com/en/products/hermetique-summer-pink",
+        "note": "Official Baltic product page lists 37 mm case diameter, 46 mm lug-to-lug, 10.8 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1297,
+    "brand": "Baltic",
+    "model": "Aquascaphe GMT Green",
+    "reference": "Aquascaphe GMT Green",
+    "lugToLugMm": 47,
+    "caseMm": 39,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://baltic-watches.com/en/products/aquascaphe-gmt-green",
+        "note": "Official Baltic product page lists 39 mm case diameter, 47 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1298,
+    "brand": "Baltic",
+    "model": "MR Classic Salmon",
+    "reference": "MR Classic Salmon",
+    "lugToLugMm": 44,
+    "caseMm": 36,
+    "thicknessMm": 9.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://baltic-watches.com/en/products/mr-classic-salmon",
+        "note": "Official Baltic product page lists 36 mm case diameter, 44 mm lug-to-lug, 9.9 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1299,
+    "brand": "Baltic",
+    "model": "Prismic Grey blue",
+    "reference": "Prismic Grey blue",
+    "lugToLugMm": 44,
+    "caseMm": 36,
+    "thicknessMm": 9.2,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://baltic-watches.com/en/products/prismic-grey-blue",
+        "note": "Official Baltic product page lists 36 mm case diameter, 44 mm lug-to-lug, 9.2 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1300,
+    "brand": "Baltic",
+    "model": "Aquascaphe Classic Blue Gilt",
+    "reference": "Aquascaphe Classic Blue Gilt",
+    "lugToLugMm": 47,
+    "caseMm": 39,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://baltic-watches.com/en/products/aquascaphe-classic-blue-gilt",
+        "note": "Official Baltic product page lists 39 mm case diameter, 47 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1301,
+    "brand": "Baltic",
+    "model": "Scalegraph Classic Panda",
+    "reference": "Scalegraph Classic Panda",
+    "lugToLugMm": 47,
+    "caseMm": 39.5,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://baltic-watches.com/en/products/scalegraph-classic-panda",
+        "note": "Official Baltic product page lists 39.5 mm case diameter, 47 mm lug-to-lug, 13.5 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1302,
+    "brand": "Baltic",
+    "model": "HMS 003 Silver Blue",
+    "reference": "HMS 003 Silver Blue",
+    "lugToLugMm": 46,
+    "caseMm": 36.5,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://baltic-watches.com/en/products/hms-003-silver-blue",
+        "note": "Official Baltic product page lists 36.5 mm case diameter, 46 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1303,
+    "brand": "Baltic",
+    "model": "Aquascaphe Dual-Crown Blue",
+    "reference": "Aquascaphe Dual-Crown Blue",
+    "lugToLugMm": 47,
+    "caseMm": 39,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://baltic-watches.com/en/products/aquascaphe-dual-crown-blue",
+        "note": "Official Baltic product page lists 39 mm case diameter, 47 mm lug-to-lug, 11.9 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1304,
+    "brand": "Baltic",
+    "model": "Aquascaphe Bronze Brown",
+    "reference": "Aquascaphe Bronze Brown",
+    "lugToLugMm": 47,
+    "caseMm": 39,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://baltic-watches.com/en/products/aquascaphe-bronze-brown",
+        "note": "Official Baltic product page lists 39 mm case diameter, 47 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1305,
+    "brand": "Baltic",
+    "model": "Aquascaphe Titanium Blue",
+    "reference": "Aquascaphe Titanium Blue",
+    "lugToLugMm": 47,
+    "caseMm": 41,
+    "thicknessMm": 13.3,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://baltic-watches.com/en/products/aquascaphe-titanium-blue",
+        "note": "Official Baltic product page lists 41 mm case diameter, 47 mm lug-to-lug, 13.3 mm thickness, and 20 mm lug width."
+      }
+    ]
   }
 ]
