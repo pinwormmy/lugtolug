@@ -490,11 +490,36 @@ Added references:
 - TW2Y49900
 - TW2Y56800
 
+### Doxa
+
+- Added models: 10
+- Reached 10-model target: yes
+- Official-source additions: 10
+- Verified-external additions: 0
+- Duplicate candidates skipped: 0
+- Insufficient-information exclusions: 0
+- Source-conflict exclusions: 0
+
+DOXA official product pages publish SKUs together with two-axis CASE dimensions, case height, and lug width. The first CASE dimension is stored as `caseMm`, and the second published case dimension is stored as case length/L2L; this mapping is retained in each source note.
+
+Added references:
+
+- 796.10.351.10
+- 796.10.101.10
+- 796.10.021.10
+- 796.10.201.10
+- 796.10.361.10
+- 796.10.241.10
+- 796.10.011.10
+- 796.10.131.10
+- 821.10.351.10
+- 862.10.351.21-N
+
 ## Cumulative totals
 
-- Brands added: 17
-- Models added: 188
-- Official-source additions: 188
+- Brands added: 18
+- Models added: 198
+- Official-source additions: 198
 - Verified-external additions: 0
 - Duplicate candidates skipped: 0
 - Insufficient-information exclusions: 7

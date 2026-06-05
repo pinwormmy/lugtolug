@@ -24827,5 +24827,175 @@
         "note": "Official Timex product page lists Product ID TW2Y56800, 40 mm case diameter, 46.3 mm lug-to-lug distance, 13.5 mm case height, and 18 mm band/lug width."
       }
     ]
+  },
+  {
+    "id": 1416,
+    "brand": "Doxa",
+    "model": "SUB 200 Professional",
+    "reference": "796.10.351.10",
+    "lugToLugMm": 46,
+    "caseMm": 42,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://doxawatches.com/products/sub-200-professional",
+        "note": "Official DOXA product page lists SKU 796.10.351.10, CASE dimensions 42.00 x 46.00 mm, 13.80 mm height, and 19.00 mm lug width; the second case dimension is stored as case length/L2L."
+      }
+    ]
+  },
+  {
+    "id": 1417,
+    "brand": "Doxa",
+    "model": "SUB 200 Sharkhunter",
+    "reference": "796.10.101.10",
+    "lugToLugMm": 46,
+    "caseMm": 42,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://doxawatches.com/products/sub-200-sharkhunter",
+        "note": "Official DOXA product page lists SKU 796.10.101.10, CASE dimensions 42.00 x 46.00 mm, 13.80 mm height, and 19.00 mm lug width; the second case dimension is stored as case length/L2L."
+      }
+    ]
+  },
+  {
+    "id": 1418,
+    "brand": "Doxa",
+    "model": "SUB 200 Searambler",
+    "reference": "796.10.021.10",
+    "lugToLugMm": 46,
+    "caseMm": 42,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://doxawatches.com/products/sub-200-searambler",
+        "note": "Official DOXA product page lists SKU 796.10.021.10, CASE dimensions 42.00 x 46.00 mm, 13.80 mm height, and 19.00 mm lug width; the second case dimension is stored as case length/L2L."
+      }
+    ]
+  },
+  {
+    "id": 1419,
+    "brand": "Doxa",
+    "model": "SUB 200 Caribbean",
+    "reference": "796.10.201.10",
+    "lugToLugMm": 46,
+    "caseMm": 42,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://doxawatches.com/products/sub-200-caribbean",
+        "note": "Official DOXA product page lists SKU 796.10.201.10, CASE dimensions 42.00 x 46.00 mm, 13.80 mm height, and 19.00 mm lug width; the second case dimension is stored as case length/L2L."
+      }
+    ]
+  },
+  {
+    "id": 1420,
+    "brand": "Doxa",
+    "model": "SUB 200 Divingstar",
+    "reference": "796.10.361.10",
+    "lugToLugMm": 46,
+    "caseMm": 42,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://doxawatches.com/products/sub-200-divingstar",
+        "note": "Official DOXA product page lists SKU 796.10.361.10, CASE dimensions 42.00 x 46.00 mm, 13.80 mm height, and 19.00 mm lug width; the second case dimension is stored as case length/L2L."
+      }
+    ]
+  },
+  {
+    "id": 1421,
+    "brand": "Doxa",
+    "model": "SUB 200 Aquamarine",
+    "reference": "796.10.241.10",
+    "lugToLugMm": 46,
+    "caseMm": 42,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://doxawatches.com/products/sub-200-aquamarine",
+        "note": "Official DOXA product page lists SKU 796.10.241.10, CASE dimensions 42.00 x 46.00 mm, 13.80 mm height, and 19.00 mm lug width; the second case dimension is stored as case length/L2L."
+      }
+    ]
+  },
+  {
+    "id": 1422,
+    "brand": "Doxa",
+    "model": "SUB 200 Whitepearl",
+    "reference": "796.10.011.10",
+    "lugToLugMm": 46,
+    "caseMm": 42,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://doxawatches.com/products/sub-200-whitepearl",
+        "note": "Official DOXA product page lists SKU 796.10.011.10, CASE dimensions 42.00 x 46.00 mm, 13.80 mm height, and 19.00 mm lug width; the second case dimension is stored as case length/L2L."
+      }
+    ]
+  },
+  {
+    "id": 1423,
+    "brand": "Doxa",
+    "model": "SUB 200 Sea Emerald",
+    "reference": "796.10.131.10",
+    "lugToLugMm": 46,
+    "caseMm": 42,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 19,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://doxawatches.com/products/sub-200-sea-emerald",
+        "note": "Official DOXA product page lists SKU 796.10.131.10, CASE dimensions 42.00 x 46.00 mm, 13.80 mm height, and 19.00 mm lug width; the second case dimension is stored as case length/L2L."
+      }
+    ]
+  },
+  {
+    "id": 1424,
+    "brand": "Doxa",
+    "model": "SUB 300 Professional",
+    "reference": "821.10.351.10",
+    "lugToLugMm": 45,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://doxawatches.com/products/sub-300-professional",
+        "note": "Official DOXA product page lists SKU 821.10.351.10, CASE dimensions 42.50 x 45.00 mm, 13.40 mm height, and 20.00 mm lug width; the second case dimension is stored as case length/L2L."
+      }
+    ]
+  },
+  {
+    "id": 1425,
+    "brand": "Doxa",
+    "model": "SUB 600T Professional",
+    "reference": "862.10.351.21-N",
+    "lugToLugMm": 47.6,
+    "caseMm": 40,
+    "thicknessMm": 14.15,
+    "lugWidthMm": 20,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://doxawatches.com/products/sub-600t-professional",
+        "note": "Official DOXA product page lists SKU 862.10.351.21-N, CASE dimensions 40.00 x 47.60 mm, 14.15 mm height, and 20.00 mm lug width; the second case dimension is stored as case length/L2L."
+      }
+    ]
   }
 ]
