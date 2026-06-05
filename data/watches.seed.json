@@ -24096,5 +24096,192 @@
         "note": "Official Zelos product page lists 39 mm diameter, 45.5 mm lug-to-lug length, 11.9 mm thickness with crystal, and 20 mm lug width."
       }
     ]
+  },
+  {
+    "id": 1373,
+    "brand": "Unimatic",
+    "model": "Modello Cinque U5S-BLN",
+    "reference": "U5S-BLN",
+    "lugToLugMm": 43.7,
+    "caseMm": 36,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.unimaticwatches.com/wp-content/uploads/2026/01/TECH-SPECS-U5S-BLN.pdf",
+        "note": "Official Unimatic technical-specification PDF lists 36 mm diameter, 43.7 mm height lug-to-lug, 13.5 mm thickness with the lens, and 22 mm lugs."
+      }
+    ]
+  },
+  {
+    "id": 1374,
+    "brand": "Unimatic",
+    "model": "Modello Cinque U5S-NS",
+    "reference": "U5S-NS",
+    "lugToLugMm": 43.7,
+    "caseMm": 36,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.unimaticwatches.com/wp-content/uploads/2026/01/TECH-SPECS-U5S-NS.pdf",
+        "note": "Official Unimatic technical-specification PDF lists 36 mm diameter, 43.7 mm height lug-to-lug, 13.5 mm thickness with the lens, and 22 mm lugs."
+      }
+    ]
+  },
+  {
+    "id": 1375,
+    "brand": "Unimatic",
+    "model": "Modello Quattro Toolwatch GMT",
+    "reference": "UT4-U-TI-GMT",
+    "lugToLugMm": 49,
+    "caseMm": 40,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.unimaticwatches.com/wp-content/uploads/2026/04/TECH-SPECS-UT4-U-TI-GMT-DEF.pdf",
+        "note": "Official Unimatic technical-specification PDF lists 40 mm diameter, 49 mm height lug-to-lug, 12.3 mm thickness with the lens, and 22 mm drilled lugs."
+      }
+    ]
+  },
+  {
+    "id": 1376,
+    "brand": "Unimatic",
+    "model": "Modello Quattro U4S-T-LB",
+    "reference": "U4S-T-LB",
+    "lugToLugMm": 49,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.unimaticwatches.com/wp-content/uploads/2026/03/TECH-SPECS-U4S-T-LB.pdf",
+        "note": "Official Unimatic technical-specification PDF lists 40 mm diameter, 49 mm height lug-to-lug, 13 mm thickness with the lens, and 22 mm lugs."
+      }
+    ]
+  },
+  {
+    "id": 1377,
+    "brand": "Unimatic",
+    "model": "Modello Uno U1S-GMT-YPO26",
+    "reference": "U1S-GMT-YPO26",
+    "lugToLugMm": 49,
+    "caseMm": 40,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.unimaticwatches.com/wp-content/uploads/2025/10/TECH-SPECS-U1S-GMT-YPO26.pdf",
+        "note": "Official Unimatic technical-specification PDF lists 40 mm case diameter (41.5 mm with bezel), 49 mm height lug-to-lug, 12.8 mm thickness with the lens, and 22 mm drilled lugs."
+      }
+    ]
+  },
+  {
+    "id": 1378,
+    "brand": "Unimatic",
+    "model": "Modello Uno Classic",
+    "reference": "UC1",
+    "lugToLugMm": 49,
+    "caseMm": 40,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.unimaticwatches.com/wp-content/uploads/2025/09/TECH-SPECS-POUCH-UC1.pdf",
+        "note": "Official Unimatic technical-specification PDF lists 40 mm case diameter (41.5 mm with bezel), 49 mm height lug-to-lug, 14.4 mm thickness with the lens, and 22 mm lugs."
+      }
+    ]
+  },
+  {
+    "id": 1379,
+    "brand": "Unimatic",
+    "model": "Modello Tre Classic",
+    "reference": "UC3",
+    "lugToLugMm": 51.2,
+    "caseMm": 40,
+    "thicknessMm": 14.1,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.unimaticwatches.com/wp-content/uploads/2025/04/TechSpecs-UC3.pdf",
+        "note": "Official Unimatic technical-specification PDF lists 40 mm case diameter (41.5 mm with bezel), 51.2 mm height lug-to-lug, 14.1 mm thickness with the lens, and 22 mm lugs."
+      }
+    ]
+  },
+  {
+    "id": 1380,
+    "brand": "Unimatic",
+    "model": "Modello Quattro Toolwatch",
+    "reference": "UT4-U-TI",
+    "lugToLugMm": 49,
+    "caseMm": 40,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.unimaticwatches.com/wp-content/uploads/2026/04/TECH-SPECS-UT4-U-TI-DEF.pdf",
+        "note": "Official Unimatic technical-specification PDF lists 40 mm diameter, 49 mm height lug-to-lug, 12.3 mm thickness with the lens, and 22 mm drilled lugs."
+      }
+    ]
+  },
+  {
+    "id": 1381,
+    "brand": "Unimatic",
+    "model": "Modello Quattro U4S-T-SPW",
+    "reference": "U4S-T-SPW",
+    "lugToLugMm": 49,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.unimaticwatches.com/wp-content/uploads/2025/08/TECH-SPECS-U4S-T-SPW.pdf",
+        "note": "Official Unimatic technical-specification PDF lists 40 mm diameter, 49 mm height lug-to-lug, 13 mm thickness with the lens, and 22 mm drilled lugs."
+      }
+    ]
+  },
+  {
+    "id": 1382,
+    "brand": "Unimatic",
+    "model": "Modello Tre U3S-M",
+    "reference": "U3S-M",
+    "lugToLugMm": 51.2,
+    "caseMm": 40,
+    "thicknessMm": 16.4,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.unimaticwatches.com/wp-content/uploads/2025/11/TECH-SPECS-U3S-M.pdf",
+        "note": "Official Unimatic technical-specification PDF lists 40 mm case diameter (41.5 mm with bezel), 51.2 mm height lug-to-lug, 16.4 mm thickness with the lens, and 22 mm lugs."
+      }
+    ]
+  },
+  {
+    "id": 1383,
+    "brand": "Unimatic",
+    "model": "Modello Uno U1S-MD",
+    "reference": "U1S-MD",
+    "lugToLugMm": 49,
+    "caseMm": 40,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 22,
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceUrl": "https://www.unimaticwatches.com/wp-content/uploads/2025/05/16.Tech-Specs-U1S-MD.pdf",
+        "note": "Official Unimatic technical-specification PDF lists 40 mm case diameter (41.5 mm with bezel), 49 mm height lug-to-lug, 12.8 mm thickness with the lens, and 22 mm lugs."
+      }
+    ]
   }
 ]

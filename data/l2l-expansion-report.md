@@ -374,11 +374,37 @@ Added references:
 - Helica 39 'Galaxy'
 - Helica 39 'Vesper'
 
+### Unimatic
+
+- Added models: 11
+- Reached 10-model target: yes
+- Official-source additions: 11
+- Verified-external additions: 0
+- Duplicate candidates skipped: 0
+- Insufficient-information exclusions: 0
+- Source-conflict exclusions: 0
+
+Unimatic official technical-specification PDFs publish reference numbers, case dimensions, height lug-to-lug, thickness both without and with the lens, and lug size. `thicknessMm` stores the published thickness with the lens. Where a PDF lists both a 40 mm case diameter and 41.5 mm diameter with the bezel, `caseMm` stores the 40 mm case-body diameter and the bezel-inclusive value is retained in the source note.
+
+Added references:
+
+- U5S-BLN
+- U5S-NS
+- UT4-U-TI-GMT
+- U4S-T-LB
+- U1S-GMT-YPO26
+- UC1
+- UC3
+- UT4-U-TI
+- U4S-T-SPW
+- U3S-M
+- U1S-MD
+
 ## Cumulative totals
 
-- Brands added: 13
-- Models added: 145
-- Official-source additions: 145
+- Brands added: 14
+- Models added: 156
+- Official-source additions: 156
 - Verified-external additions: 0
 - Duplicate candidates skipped: 0
 - Insufficient-information exclusions: 0
