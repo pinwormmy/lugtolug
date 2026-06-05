@@ -16,7 +16,7 @@ const recentWatches = groupWatchesForDisplay(await listRecentWatches(db, 20)).sl
   </section>
 
   <section class="section" data-recent-watches>
-    <h2>Recently added watches</h2>
+    <h2>Recently approved watches</h2>
     <div class="watch-list">
       {recentWatches.map((watch) => <WatchRow watch={watch} />)}
     </div>
