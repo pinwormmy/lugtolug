@@ -572,19 +572,52 @@ Excluded for insufficient information:
 
 - Commander 1959 M7169.3.72.13: the official page publishes `0.00 mm` for Lugs width, so the entry was excluded rather than storing an invalid dimension.
 
+### Rolex
+
+- Added models: 10
+- Reached 10-model target: yes
+- Official-source additions: 10
+- Verified-external additions: 10
+- Duplicate candidates skipped: 4
+- Insufficient-information exclusions: 0
+- Source-conflict exclusions: 0
+
+Rolex popular-model candidates were selected by cross-checking Bob's Watches' 2026/top-popular Rolex coverage with WatchCharts' Rolex collection and popular-watch price pages. Existing Rolex records were excluded before insertion. Rolex official pages and brochures were used to confirm current reference identity and case size where available; WatchSpecs, WatchCharts, Bob's Watches, Millenary, and Delugs were used for lug-to-lug, thickness, and lug-width cross-checks because Rolex generally does not publish every wearable dimension.
+
+Added references:
+
+- 124060
+- 126610LV
+- 126710BLNR
+- 126720VTNR
+- 126500LN
+- 124300
+- 126622
+- 126600
+- 226570
+- 228238
+
+Skipped duplicate Rolex references already present:
+
+- 126610LN
+- 124270
+- 126334
+- 126710BLRO
+
 ## Cumulative totals
 
 - Brands added: 20
-- Models added: 221
-- Official-source additions: 221
-- Verified-external additions: 0
-- Duplicate candidates skipped: 0
+- Models added: 231
+- Official-source additions: 231
+- Verified-external additions: 10
+- Duplicate candidates skipped: 4
 - Insufficient-information exclusions: 8
 - Source-conflict exclusions: 11
 
 ## Modified files
 
 - `data/watches.seed.json`
+- `data/seed.sql`
 - `data/l2l-expansion-report.md`
 - `src/lib/seedData.test.ts`
 

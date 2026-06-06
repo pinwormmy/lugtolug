@@ -2661,3 +2661,51 @@ VALUES
 (1434, 1215, 'https://monochrome-watches.com/zenith-blue-ceramic-trilogy-review-chronomaster-sport-blue-ceramic-defy-skyline-chronorgaph-pilot-big-date-flyback-price/', 'Monochrome repeats the Pilot Big Date Flyback at 52 mm lug-to-lug and 14.25 mm thick.'),
 (1435, 1216, 'https://pressroom.zenith-watches.com/app/uploads/2025/05/PR_EN_CHRONOMASTER_ORIGINAL_TRIPLE_CALENDAR_LAPIS_03.3400.361051.C910.pdf', 'Official press release lists the Chronomaster Original Triple Calendar Lapis Lazuli at 38 mm with a 46 mm lug-to-lug.'),
 (1436, 1216, 'https://monochrome-watches.com/zenith-chronomaster-original-triple-calendar-lapis-lazuli-dial-stone-review-price/', 'Monochrome describes the 38 mm Triple Calendar as a compact 46 mm lug-to-lug watch.');
+
+INSERT OR IGNORE INTO watches
+(id, brand, model, reference, brand_slug, model_slug, reference_slug, search_text, lug_to_lug_mm, case_mm, thickness_mm, lug_width_mm, confidence, status)
+VALUES
+(1449, 'Rolex', 'Submariner', '124060', 'rolex', 'submariner', '124060', 'rolex submariner 124060', 47.6, 41, 12.3, 21, 'medium', 'approved'),
+(1450, 'Rolex', 'Submariner Date', '126610LV', 'rolex', 'submariner-date', '126610lv', 'rolex submariner date 126610lv', 48, 41, 12.5, 21, 'medium', 'approved'),
+(1451, 'Rolex', 'GMT-Master II', '126710BLNR', 'rolex', 'gmt-master-ii', '126710blnr', 'rolex gmt master ii 126710blnr', 48, 40, 12, 20, 'high', 'approved'),
+(1452, 'Rolex', 'GMT-Master II', '126720VTNR', 'rolex', 'gmt-master-ii', '126720vtnr', 'rolex gmt master ii 126720vtnr', 48, 40, 12.3, 20, 'medium', 'approved'),
+(1453, 'Rolex', 'Cosmograph Daytona', '126500LN', 'rolex', 'cosmograph-daytona', '126500ln', 'rolex cosmograph daytona 126500ln', 47, 40, 12.2, 20, 'medium', 'approved'),
+(1454, 'Rolex', 'Oyster Perpetual 41', '124300', 'rolex', 'oyster-perpetual-41', '124300', 'rolex oyster perpetual 41 124300', 47.5, 41, 11.7, 21, 'high', 'approved'),
+(1455, 'Rolex', 'Yacht-Master 40', '126622', 'rolex', 'yacht-master-40', '126622', 'rolex yacht master 40 126622', 48, 40, 11.7, 20, 'medium', 'approved'),
+(1456, 'Rolex', 'Sea-Dweller', '126600', 'rolex', 'sea-dweller', '126600', 'rolex sea dweller 126600', 50, 43, 15, 22, 'high', 'approved'),
+(1457, 'Rolex', 'Explorer II', '226570', 'rolex', 'explorer-ii', '226570', 'rolex explorer ii 226570', 50, 42, 12.5, 22, 'medium', 'approved'),
+(1458, 'Rolex', 'Day-Date 40', '228238', 'rolex', 'day-date-40', '228238', 'rolex day date 40 228238', 47.4, 40, 12.1, 21, 'medium', 'approved');
+
+INSERT OR IGNORE INTO watch_sources (id, watch_id, source_url, note)
+VALUES
+(1437, 1449, 'https://www.rolex.com/en-us/watches/submariner/m124060-0001', 'Official Rolex product page identifies the no-date Submariner 124060 as an Oystersteel 41 mm watch with 300 m water resistance.'),
+(1438, 1449, 'https://watchspecs.com/watches/rolex-submariner-124060', 'WatchSpecs lists the 124060 at 41 mm diameter, 12.3 mm thickness, and 47.6 mm lug-to-lug.'),
+(1439, 1449, 'https://millenarywatches.com/rolex-submariner-124060/', 'Millenary confirms the 124060 generation uses a 41 mm case and 21 mm lug width.'),
+(1440, 1450, 'https://www.rolex.com/en-us/watches/submariner/m126610lv-0002', 'Official Rolex product page identifies the green-bezel 126610LV as a 41 mm Oystersteel Submariner Date.'),
+(1441, 1450, 'https://watchspecs.com/watches/rolex-submariner-date-126610lv', 'WatchSpecs lists the 126610LV at 41 mm diameter, 12.5 mm thickness, and 48 mm lug-to-lug.'),
+(1442, 1450, 'https://millenarywatches.com/rolex-submariner-126610lv-guide/', 'Millenary cross-checks the 126610LV generation as a 41 mm Submariner with a 21 mm bracelet/lug width.'),
+(1443, 1451, 'https://www.rolex.com/watches/gmt-master-ii/m126710blnr-0003', 'Official Rolex product page identifies reference 126710BLNR as an Oystersteel GMT-Master II in a 40 mm case.'),
+(1444, 1451, 'https://watchcharts.com/watch_model/1525-rolex-gmt-master-ii-batgirl-126710blnr/overview', 'WatchCharts model specifications list 40 mm case diameter, 12 mm case thickness, and 20 mm lug width.'),
+(1445, 1451, 'https://millenarywatches.com/rolex-126710blnr-dimensions-size/', 'Millenary lists the 126710BLNR at 40 mm diameter, 12 mm thickness, 48 mm lug-to-lug, and 20 mm lug width.'),
+(1446, 1452, 'https://www.rolex.com/en-us/watches/gmt-master-ii/m126720vtnr-0002', 'Official Rolex product page identifies reference 126720VTNR as the left-hand GMT-Master II in a 40 mm Oystersteel case.'),
+(1447, 1452, 'https://watchspecs.com/watches/rolex-gmt-master-ii-126720vtvr', 'WatchSpecs lists the 126720VTNR at 40 mm diameter, 12.3 mm thickness, and 48 mm lug-to-lug.'),
+(1448, 1452, 'https://millenarywatches.com/news-watches-wonder-rolex-gmt-master-ii-126720vtnr/', 'Millenary confirms the 126720VTNR uses the same 40 mm GMT-Master II proportions as the existing steel GMT-Master II generation.'),
+(1449, 1453, 'https://assets.rolex.com/api/brochure/en-us/cosmograph-daytona/m126500ln-0002.pdf', 'Official Rolex brochure identifies reference 126500LN as a 40 mm Oystersteel Cosmograph Daytona.'),
+(1450, 1453, 'https://watchcharts.com/watch_model/46426-rolex-cosmograph-daytona-126500/overview', 'WatchCharts model specifications list 40 mm case diameter, 12 mm case thickness, and 20 mm lug width.'),
+(1451, 1453, 'https://watchspecs.com/watches/rolex-daytona-126500ln', 'WatchSpecs lists the 126500LN at 40 mm diameter, 12.2 mm thickness, and 47 mm lug-to-lug.'),
+(1452, 1454, 'https://assets.rolex.com/api/brochure/en-us/oyster-perpetual/m124300-0002.pdf', 'Official Rolex brochure identifies reference 124300 as a 41 mm Oystersteel Oyster Perpetual.'),
+(1453, 1454, 'https://watchcharts.com/watch_model/21827-rolex-oyster-perpetual-41-124300/overview', 'WatchCharts model specifications list 41 mm case diameter and 21 mm lug width.'),
+(1454, 1454, 'https://watchspecs.com/watches/rolex-oyster-perpetual-41-124300', 'WatchSpecs lists the 124300 at 41 mm diameter, 11.7 mm thickness, and 47.5 mm lug-to-lug.'),
+(1455, 1455, 'https://www.rolex.com/watches/yacht-master/m126622-0001.html', 'Official Rolex product page identifies reference 126622 as a Rolesium Yacht-Master 40.'),
+(1456, 1455, 'https://watchcharts.com/watch_model/1156-rolex-yacht-master-126622/overview', 'WatchCharts tracks 126622 as a current-production Yacht-Master 40 with slate and blue variations.'),
+(1457, 1455, 'https://watchspecs.com/watches/rolex-yacht-master-126622', 'WatchSpecs lists the 126622 at 40 mm diameter, 11.7 mm thickness, and 48 mm lug-to-lug.'),
+(1458, 1455, 'https://www.bobswatches.com/rolex/yacht_master_40-126622', 'Bob''s Watches cross-checks the same reference at 40 mm with 11.5 mm thickness and about 47 mm lug-to-lug.'),
+(1459, 1456, 'https://assets.rolex.com/api/brochure/en-us/sea-dweller/m126600-0002.pdf', 'Official Rolex brochure identifies reference 126600 as a 43 mm Oystersteel Sea-Dweller.'),
+(1460, 1456, 'https://watchcharts.com/watch_model/1300-rolex-sea-dweller-126600/overview', 'WatchCharts model specifications list 43 mm case diameter, 15 mm case thickness, and 22 mm lug width.'),
+(1461, 1456, 'https://watchspecs.com/watches/rolex-sea-dweller-126600', 'WatchSpecs lists the 126600 at 43 mm diameter, 15 mm thickness, and 50 mm lug-to-lug.'),
+(1462, 1457, 'https://assets.rolex.com/api/brochure/en-us/explorer/m226570-0001.pdf', 'Official Rolex brochure identifies reference 226570 as a 42 mm Oystersteel Explorer II.'),
+(1463, 1457, 'https://watchspecs.com/watches/rolex-explorer-ii-226570', 'WatchSpecs lists the 226570 at 42 mm diameter, 12.5 mm thickness, and 50 mm lug-to-lug.'),
+(1464, 1457, 'https://delugs.com/pages/straps-rolex-explorer-ii-stainless-steel-white-226570-0001', 'Delugs strap-fit page cross-checks the 226570-0001 Explorer II as a 42 mm watch with 22 mm lug width.'),
+(1465, 1458, 'https://www.rolex.com/en-us/watches/day-date/m228238-0061', 'Official Rolex product page identifies reference 228238 as a 40 mm 18 kt yellow gold Day-Date.'),
+(1466, 1458, 'https://www.bobswatches.com/rolex/day_date_40-228238', 'Bob''s Watches lists the 228238 at 40 mm diameter, 12.3 mm thickness, 47.5 mm lug-to-lug, and 21 mm lug width.'),
+(1467, 1458, 'https://watchspecs.com/watches/rolex-day-date-40-228238', 'WatchSpecs lists the 228238 at 40 mm diameter, 12.1 mm thickness, and 47.4 mm lug-to-lug.');
