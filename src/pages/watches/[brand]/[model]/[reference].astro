@@ -16,7 +16,7 @@ if (!watch) {
 }
 
 const adminSession = await getAdminSession(db, Astro.request);
-const manageHref = `/admin/watches/${watch.id}`;
+const manageHref = "/admin/submissions?status=approved";
 const watchName = [watch.brand, watch.model].filter(Boolean).join(" ");
 const referenceLabel = watch.reference || "Reference not provided";
 const formatInches = (value: number | null | undefined) => value == null ? "Not provided" : `${mmToInches(value).toFixed(2)} in`;
