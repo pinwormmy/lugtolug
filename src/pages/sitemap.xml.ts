@@ -2,7 +2,7 @@ import type { APIRoute } from "astro";
 import { getDb, listWatches } from "@/lib/db";
 
 export const GET: APIRoute = async ({ locals, site }) => {
-  const origin = site?.toString().replace(/\/$/, "") ?? "https://lugtolug.example";
+  const origin = site?.toString().replace(/\/$/, "") ?? "https://lugtolug.pages.dev";
   const watches = await listWatches(getDb(locals));
   const urls = [
     "",

@@ -56,6 +56,32 @@ Target Pages settings:
 - Output directory: `dist`
 - Project name: `lugtolug`
 
+### Custom domain setup
+
+Until a custom domain is configured, production canonical URLs use:
+
+```bash
+https://lugtolug.pages.dev
+```
+
+After buying a domain, keep the Cloudflare Pages project as the host and add the domain in Cloudflare:
+
+1. Add the domain to Cloudflare DNS, or buy it through Cloudflare Registrar.
+2. In the `lugtolug` Pages project, add the apex domain and `www` as custom domains.
+3. Set the production build environment variable:
+
+```bash
+PUBLIC_SITE_URL=https://www.example.com
+```
+
+Use the preferred public origin here. This value drives canonical URLs, Open Graph URLs, `robots.txt`, and `sitemap.xml`.
+
+Recommended DNS shape:
+
+- Apex: Cloudflare Pages custom-domain record managed by Cloudflare.
+- `www`: Cloudflare Pages custom-domain record managed by Cloudflare.
+- Redirect the non-preferred host to the preferred host from Cloudflare once both hosts are active.
+
 Cloudflare resources:
 
 ```bash

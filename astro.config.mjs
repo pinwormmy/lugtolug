@@ -2,6 +2,8 @@ import { defineConfig, passthroughImageService } from "astro/config";
 import react from "@astrojs/react";
 import cloudflare from "@astrojs/cloudflare";
 
+const site = process.env.PUBLIC_SITE_URL ?? "https://lugtolug.pages.dev";
+
 export default defineConfig({
   output: "server",
   adapter: cloudflare({
@@ -14,5 +16,5 @@ export default defineConfig({
     service: passthroughImageService()
   },
   integrations: [react()],
-  site: "https://lugtolug.example"
+  site
 });
