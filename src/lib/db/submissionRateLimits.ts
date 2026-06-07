@@ -2,7 +2,7 @@ import type { D1 } from "@/lib/db/connection";
 import type { SubmissionRateLimitRow } from "@/lib/db/rows";
 
 const SUBMISSION_COOLDOWN_MS = 5 * 60 * 1000;
-const SUBMISSION_DAILY_LIMIT = 20;
+const SUBMISSION_DAILY_LIMIT = 10;
 
 export interface SubmissionRateLimit {
   limited: boolean;
