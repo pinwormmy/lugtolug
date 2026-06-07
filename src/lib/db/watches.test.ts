@@ -3,6 +3,7 @@ import {
   draftWatch,
   getEditableWatchBySlugs,
   getWatchBySlugs,
+  listAdminWatches,
   listRecentWatches,
   unpublishWatch,
   updateWatch
@@ -185,5 +186,27 @@ describe("recent watches", () => {
     expect(watchId).toBe(1);
     expect(prepareCalls.some((sql) => sql.includes("INSERT INTO watches"))).toBe(true);
     expect(bindCalls.some((args) => args.includes("draft"))).toBe(true);
+  });
+
+  it("lists draft watches in the admin watch queue", async () => {
+    const { db, prepareCalls } = createMockDb([
+      watchRow({
+        id: 77,
+        brand: "Tissot",
+        model: "Seastar 1000 Powermatic 80 43",
+        reference: "T120.407.11.041.00",
+        brand_slug: "tissot",
+        model_slug: "seastar-1000-powermatic-80-43",
+        reference_slug: "t120-407-11-041-00",
+        status: "draft"
+      })
+    ]);
+
+    const watches = await listAdminWatches(db, "draft");
+
+    expect(prepareCalls[0]).toContain("WHERE status = ?");
+    expect(watches).toHaveLength(1);
+    expect(watches[0].status).toBe("draft");
+    expect(watches[0].brand).toBe("Tissot");
   });
 });

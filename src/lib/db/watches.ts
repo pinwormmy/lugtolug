@@ -54,6 +54,17 @@ export async function listRecentWatches(db: D1, limit = 5): Promise<WatchWithSou
   ).slice(0, limit);
 }
 
+export async function listAdminWatches(db: D1, status: WatchStatus | "all" = "draft"): Promise<WatchWithSources[]> {
+  if (!db) return [];
+
+  const rows =
+    status === "all"
+      ? await db.prepare("SELECT * FROM watches ORDER BY updated_at DESC, id DESC").all<WatchRow>()
+      : await db.prepare("SELECT * FROM watches WHERE status = ? ORDER BY updated_at DESC, id DESC").bind(status).all<WatchRow>();
+
+  return hydrateSources(db, rows.results.map(mapWatch));
+}
+
 export async function getWatchBySlugs(
   db: D1,
   brandSlug: string,

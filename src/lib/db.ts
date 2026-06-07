@@ -4,6 +4,7 @@ export {
   getWatchById,
   getWatchBySlugs,
   getEditableWatchBySlugs,
+  listAdminWatches,
   listBrandWatches,
   listRecentWatches,
   listWatches,
