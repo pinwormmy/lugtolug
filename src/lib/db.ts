@@ -2,9 +2,11 @@ export { getDb } from "@/lib/db/connection";
 export {
   getWatchById,
   getWatchBySlugs,
+  getEditableWatchBySlugs,
   listBrandWatches,
   listRecentWatches,
   listWatches,
+  publishWatch,
   searchWatches,
   unpublishWatch,
   updateWatch

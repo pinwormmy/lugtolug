@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { listRecentWatches } from "@/lib/db/watches";
+import { getEditableWatchBySlugs, listRecentWatches } from "@/lib/db/watches";
 import type { SourceRow, WatchRow } from "@/lib/db/rows";
 
 function createMockDb(watchRows: WatchRow[], sourceRows: SourceRow[] = []) {
@@ -13,6 +13,10 @@ function createMockDb(watchRows: WatchRow[], sourceRows: SourceRow[] = []) {
           all: async () => {
             if (sql.includes("FROM watches")) return { results: watchRows };
             if (sql.includes("FROM watch_sources")) return { results: sourceRows };
+            throw new Error(`Unexpected query: ${sql}`);
+          },
+          first: async () => {
+            if (sql.includes("FROM watches")) return watchRows[0] ?? null;
             throw new Error(`Unexpected query: ${sql}`);
           }
         })
@@ -73,5 +77,25 @@ describe("recent watches", () => {
     expect(recent).toHaveLength(3);
     expect(recent[0].brand).toBe("Zenith");
     expect(recent[1].brand).toBe("Audemars Piguet");
+  });
+
+  it("resolves editable watches by slugs instead of a public seed id", async () => {
+    const { db, prepareCalls } = createMockDb([
+      watchRow({
+        id: 987,
+        brand: "Cartier",
+        model: "Santos de Cartier Medium",
+        reference: "WSSA0029",
+        brand_slug: "cartier",
+        model_slug: "santos-de-cartier-medium",
+        reference_slug: "wssa0029"
+      })
+    ]);
+
+    const watch = await getEditableWatchBySlugs(db, "cartier", "santos-de-cartier-medium", "wssa0029");
+
+    expect(prepareCalls[0]).toContain("WHERE brand_slug = ? AND model_slug = ? AND reference_slug = ?");
+    expect(watch?.id).toBe(987);
+    expect(watch?.reference).toBe("WSSA0029");
   });
 });

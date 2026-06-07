@@ -78,6 +78,29 @@ export async function getWatchById(db: D1, id: number): Promise<WatchWithSources
   return watch;
 }
 
+export async function getEditableWatchBySlugs(
+  db: D1,
+  brandSlug: string,
+  modelSlug: string,
+  referenceSlug: string
+): Promise<WatchWithSources | null> {
+  if (!db) return null;
+
+  const row = await db
+    .prepare(
+      `SELECT * FROM watches
+       WHERE brand_slug = ? AND model_slug = ? AND reference_slug = ?
+       ORDER BY CASE WHEN status = 'approved' THEN 0 ELSE 1 END, updated_at DESC, id DESC
+       LIMIT 1`
+    )
+    .bind(brandSlug, modelSlug, referenceSlug)
+    .first<WatchRow>();
+  if (!row) return null;
+
+  const [watch] = await hydrateSources(db, [mapWatch(row)]);
+  return watch;
+}
+
 export async function listBrandWatches(db: D1, brandSlug: string): Promise<WatchWithSources[]> {
   if (!db) return seedWatches.filter((watch) => watch.brandSlug === brandSlug);
 
@@ -155,6 +178,14 @@ export async function updateWatch(db: D1, id: number, payload: SubmissionPayload
 
   await updateWatchFromSubmission(db, id, payload, getSubmissionWatchSlugs(payload));
   await insertApprovedSource(db, id, payload.sourceUrl);
+}
+
+export async function publishWatch(db: D1, payload: SubmissionPayload): Promise<number> {
+  if (!db) throw new Error("D1 database is required.");
+
+  const watchId = await upsertApprovedWatch(db, payload);
+  await insertApprovedSource(db, watchId, payload.sourceUrl);
+  return watchId;
 }
 
 export async function unpublishWatch(db: D1, id: number): Promise<void> {

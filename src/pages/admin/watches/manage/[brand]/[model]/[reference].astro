@@ -1,0 +1,63 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import AdminWatchForm from "@/components/AdminWatchForm.astro";
+import { getAdminSession } from "@/lib/auth";
+import { getDb, getEditableWatchBySlugs, getWatchBySlugs } from "@/lib/db";
+import type { SubmissionPayload } from "@/types";
+
+const db = getDb(Astro.locals);
+const session = await getAdminSession(db, Astro.request);
+if (!session) {
+  return Astro.redirect("/admin/login", 302);
+}
+
+const { brand, model, reference } = Astro.params;
+const editableWatch = await getEditableWatchBySlugs(db, brand!, model!, reference!);
+if (editableWatch) {
+  return Astro.redirect(`/admin/watches/${editableWatch.id}`, 302);
+}
+
+const watch = await getWatchBySlugs(db, brand!, model!, reference!);
+if (!watch) {
+  return Astro.redirect("/watches", 302);
+}
+
+const sourceUrl = watch.sources[0]?.sourceUrl ?? "";
+const payload = {
+  brand: watch.brand,
+  model: watch.model,
+  reference: watch.reference,
+  lugToLugMm: watch.lugToLugMm,
+  caseMm: watch.caseMm,
+  thicknessMm: watch.thicknessMm,
+  lugWidthMm: watch.lugWidthMm,
+  sourceUrl
+} satisfies SubmissionPayload;
+const validationError = Astro.url.searchParams.get("error") === "validation";
+const action = `/api/admin/watches/manage/${brand}/${model}/${reference}/publish`;
+---
+
+<BaseLayout title="Manage watch | Lug to Lug Finder" description="Edit a published watch record.">
+  <section class="section" style="margin-top: 0;">
+    <p class="small"><a href={`/watches/${watch.brandSlug}/${watch.modelSlug}/${watch.referenceSlug}`}>View public page</a></p>
+    <h1 class="page-title" style="font-size: clamp(2.4rem, 6vw, 4rem);">Manage watch</h1>
+    <p class="lede">{[watch.brand, watch.model].filter(Boolean).join(" ")} · {watch.reference || "No reference"} · seed record</p>
+    {validationError && (
+      <p class="error" style="margin-top: 18px;">Check the submitted fields and try again.</p>
+    )}
+  </section>
+
+  <section class="section grid-2">
+    <AdminWatchForm
+      action={action}
+      csrfToken={session.csrfToken}
+      payload={payload}
+      submitLabel="Publish editable watch"
+    />
+
+    <div class="panel">
+      <h2>Publishing</h2>
+      <p>This public record is not backed by an editable database row yet. Saving will publish it into the admin watch database.</p>
+    </div>
+  </section>
+</BaseLayout>
