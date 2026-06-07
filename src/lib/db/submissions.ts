@@ -124,7 +124,7 @@ export async function returnSubmissionToPending(
   const watch = payload.reportedWatchId ? await findWatchIdById(db, payload.reportedWatchId) : await findWatchId(db, slugs);
   if (watch) {
     await db
-      .prepare("UPDATE watches SET status = 'draft', updated_at = CURRENT_TIMESTAMP WHERE id = ?")
+      .prepare("UPDATE watches SET status = 'pending', updated_at = CURRENT_TIMESTAMP WHERE id = ?")
       .bind(watch.id)
       .run();
   }

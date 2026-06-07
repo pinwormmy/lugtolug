@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getAdminSession } from "@/lib/auth";
-import { getDb, listSubmissions } from "@/lib/db";
+import { getDb, listAdminWatches, listSubmissions } from "@/lib/db";
 import { formatMm, isHttpUrl, WATCH_METRICS } from "@/lib/watch";
 import type { SubmissionStatus } from "@/types";
 
@@ -15,6 +15,7 @@ const allowedStatuses = new Set(["pending", "approved", "rejected", "all"]);
 const requestedStatus = Astro.url.searchParams.get("status") ?? "pending";
 const status = allowedStatuses.has(requestedStatus) ? requestedStatus : "pending";
 const submissions = await listSubmissions(db, status as SubmissionStatus | "all");
+const pendingWatches = status === "pending" ? await listAdminWatches(db, "pending") : [];
 const approved = Astro.url.searchParams.get("approved") === "1";
 const rejected = Astro.url.searchParams.get("rejected") === "1";
 const unapproved = Astro.url.searchParams.get("unapproved") === "1";
@@ -51,6 +52,51 @@ const notApproved = Astro.url.searchParams.get("error") === "not-approved";
       <a class={status === "rejected" ? "active" : ""} href="/admin/submissions?status=rejected">Rejected</a>
       <a class={status === "all" ? "active" : ""} href="/admin/submissions?status=all">All</a>
     </nav>
+
+    {status === "pending" && (
+      <div class="panel" style="margin-top: 24px; overflow-x: auto;">
+        <h2>Pending watch records</h2>
+        <table class="admin-table" style="margin-top: 18px;">
+          <thead>
+            <tr>
+              <th>Status</th>
+              <th>Watch</th>
+              <th>Reference</th>
+              <th>Source</th>
+              <th>Updated</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            {pendingWatches.map((watch) => (
+              <tr>
+                <td>{watch.status}</td>
+                <td>{[watch.brand, watch.model].filter(Boolean).join(" ")}</td>
+                <td>{watch.reference || "No reference"}</td>
+                <td>
+                  {watch.sources[0]?.sourceUrl ? (
+                    isHttpUrl(watch.sources[0].sourceUrl) ? (
+                      <a href={watch.sources[0].sourceUrl} target="_blank" rel="noreferrer">{watch.sources[0].sourceUrl}</a>
+                    ) : (
+                      watch.sources[0].sourceUrl
+                    )
+                  ) : (
+                    "No source"
+                  )}
+                </td>
+                <td>{new Date(watch.updatedAt).toLocaleString("en-US")}</td>
+                <td><a class="button secondary" href={`/admin/watches/${watch.id}`}>Edit</a></td>
+              </tr>
+            ))}
+            {pendingWatches.length === 0 && (
+              <tr>
+                <td colspan="6">No pending watch records.</td>
+              </tr>
+            )}
+          </tbody>
+        </table>
+      </div>
+    )}
 
     <div class="panel" style="margin-top: 24px; overflow-x: auto;">
       <table class="admin-table">

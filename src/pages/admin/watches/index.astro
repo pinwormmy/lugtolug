@@ -10,38 +10,38 @@ if (!session) {
   return Astro.redirect("/admin/login", 302);
 }
 
-const allowedStatuses = new Set(["draft", "approved", "all"]);
-const requestedStatus = Astro.url.searchParams.get("status") ?? "draft";
-const status = allowedStatuses.has(requestedStatus) ? requestedStatus : "draft";
-const watches = await listAdminWatches(db, status as "draft" | "approved" | "all");
+const allowedStatuses = new Set(["pending", "approved", "all"]);
+const requestedStatus = Astro.url.searchParams.get("status") ?? "pending";
+const status = allowedStatuses.has(requestedStatus) ? requestedStatus : "pending";
+const watches = await listAdminWatches(db, status as "pending" | "approved" | "all");
 const approved = Astro.url.searchParams.get("approved") === "1";
-const unpublished = Astro.url.searchParams.get("unpublished") === "1";
+const pending = Astro.url.searchParams.get("pending") === "1";
 const updated = Astro.url.searchParams.get("updated") === "1";
 ---
 
-<BaseLayout title="Admin watches | Lug to Lug Finder" description="Review draft and published watch records.">
+<BaseLayout title="Admin watches | Lug to Lug Finder" description="Review pending and published watch records.">
   <section class="section" style="margin-top: 0;">
     <div style="display: flex; justify-content: space-between; gap: 16px; align-items: center;">
       <div>
         <h1 class="page-title" style="font-size: clamp(2.4rem, 6vw, 4rem);">Watches</h1>
         <p class="lede">Signed in as {session.user.email}</p>
-        <p class="small" style="margin-top: 10px;">Draft records stay hidden from public pages until they are republished.</p>
+        <p class="small" style="margin-top: 10px;">Pending records stay hidden from public pages until they are republished.</p>
       </div>
       <form action="/api/admin/logout" method="post">
         <button class="button secondary" type="submit">Log out</button>
       </form>
     </div>
 
-    {(approved || unpublished || updated) && (
+    {(approved || pending || updated) && (
       <p class="notice" style="margin-top: 18px;">
         {approved && "Watch record published."}
-        {unpublished && "Watch record moved to draft."}
+        {pending && "Watch record moved to pending."}
         {updated && "Watch record updated."}
       </p>
     )}
 
     <nav class="admin-tabs" aria-label="Watch status">
-      <a class={status === "draft" ? "active" : ""} href="/admin/watches">Draft</a>
+      <a class={status === "pending" ? "active" : ""} href="/admin/watches">Pending</a>
       <a class={status === "approved" ? "active" : ""} href="/admin/watches?status=approved">Published</a>
       <a class={status === "all" ? "active" : ""} href="/admin/watches?status=all">All</a>
       <a href="/admin/submissions">Submissions</a>

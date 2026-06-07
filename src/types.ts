@@ -1,4 +1,4 @@
-export type WatchStatus = "approved" | "draft" | "archived";
+export type WatchStatus = "approved" | "pending" | "archived";
 export type SubmissionStatus = "pending" | "approved" | "rejected";
 
 export interface Watch {

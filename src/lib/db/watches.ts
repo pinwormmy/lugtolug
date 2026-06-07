@@ -54,13 +54,22 @@ export async function listRecentWatches(db: D1, limit = 5): Promise<WatchWithSou
   ).slice(0, limit);
 }
 
-export async function listAdminWatches(db: D1, status: WatchStatus | "all" = "draft"): Promise<WatchWithSources[]> {
+export async function listAdminWatches(db: D1, status: WatchStatus | "all" = "pending"): Promise<WatchWithSources[]> {
   if (!db) return [];
 
   const rows =
     status === "all"
       ? await db.prepare("SELECT * FROM watches ORDER BY updated_at DESC, id DESC").all<WatchRow>()
-      : await db.prepare("SELECT * FROM watches WHERE status = ? ORDER BY updated_at DESC, id DESC").bind(status).all<WatchRow>();
+      : status === "pending"
+        ? await db
+            .prepare(
+              "SELECT * FROM watches WHERE status = 'pending' OR status = 'draft' ORDER BY updated_at DESC, id DESC"
+            )
+            .all<WatchRow>()
+        : await db
+            .prepare("SELECT * FROM watches WHERE status = ? ORDER BY updated_at DESC, id DESC")
+            .bind(status)
+            .all<WatchRow>();
 
   return hydrateSources(db, rows.results.map(mapWatch));
 }
@@ -77,7 +86,7 @@ export async function getWatchBySlugs(
     .prepare(
       `SELECT * FROM watches
        WHERE brand_slug = ? AND model_slug = ? AND reference_slug = ?
-       ORDER BY CASE WHEN status = 'approved' THEN 0 ELSE 1 END, updated_at DESC, id DESC
+       ORDER BY CASE WHEN status = 'approved' THEN 1 ELSE 0 END, updated_at DESC, id DESC
        LIMIT 1`
     )
     .bind(brandSlug, modelSlug, referenceSlug)
@@ -111,7 +120,7 @@ export async function getEditableWatchBySlugs(
     .prepare(
       `SELECT * FROM watches
        WHERE brand_slug = ? AND model_slug = ? AND reference_slug = ?
-       ORDER BY CASE WHEN status = 'approved' THEN 0 ELSE 1 END, updated_at DESC, id DESC
+       ORDER BY CASE WHEN status = 'approved' THEN 1 ELSE 0 END, updated_at DESC, id DESC
        LIMIT 1`
     )
     .bind(brandSlug, modelSlug, referenceSlug)
@@ -238,7 +247,7 @@ export async function publishWatch(db: D1, payload: SubmissionPayload): Promise<
   return watchId;
 }
 
-export async function draftWatch(db: D1, payload: SubmissionPayload): Promise<number> {
+export async function pendingWatch(db: D1, payload: SubmissionPayload): Promise<number> {
   if (!db) throw new Error("D1 database is required.");
 
   const slugs = getSubmissionWatchSlugs(payload);
@@ -246,10 +255,10 @@ export async function draftWatch(db: D1, payload: SubmissionPayload): Promise<nu
   let watchId: number;
 
   if (existing) {
-    await updateWatchFromSubmission(db, existing.id, payload, slugs, "draft");
+    await updateWatchFromSubmission(db, existing.id, payload, slugs, "pending");
     watchId = existing.id;
   } else {
-    watchId = await insertWatchFromSubmission(db, payload, slugs, "draft");
+    watchId = await insertWatchFromSubmission(db, payload, slugs, "pending");
   }
 
   await insertApprovedSource(db, watchId, payload.sourceUrl);
@@ -259,7 +268,7 @@ export async function draftWatch(db: D1, payload: SubmissionPayload): Promise<nu
 export async function unpublishWatch(db: D1, id: number): Promise<void> {
   if (!db) throw new Error("D1 database is required.");
 
-  await db.prepare("UPDATE watches SET status = 'draft', updated_at = CURRENT_TIMESTAMP WHERE id = ?").bind(id).run();
+  await db.prepare("UPDATE watches SET status = 'pending', updated_at = CURRENT_TIMESTAMP WHERE id = ?").bind(id).run();
 }
 
 export async function upsertApprovedWatch(db: D1Database, payload: SubmissionPayload): Promise<number> {

@@ -9,5 +9,5 @@ export const POST: APIRoute = async ({ locals, params, request }) => {
   if (!result.ok) return result.response;
 
   await unpublishWatch(db, result.watch.id);
-  return redirect(`/admin/watches/${result.watch.id}?unpublished=1`);
+  return redirect(`/admin/watches/${result.watch.id}?pending=1`);
 };

@@ -35,8 +35,8 @@ const payload = {
 } satisfies SubmissionPayload;
 const validationError = Astro.url.searchParams.get("error") === "validation";
 const action = `/api/admin/watches/manage/${brand}/${model}/${reference}/publish`;
-const draftAction = `/api/admin/watches/manage/${brand}/${model}/${reference}/unpublish`;
-const draftHiddenFields = Object.entries(payload).map(([name, value]) => [name, value ?? ""] as const);
+const pendingAction = `/api/admin/watches/manage/${brand}/${model}/${reference}/unpublish`;
+const pendingHiddenFields = Object.entries(payload).map(([name, value]) => [name, value ?? ""] as const);
 ---
 
 <BaseLayout title="Manage watch | Lug to Lug Finder" description="Edit a published watch record.">
@@ -60,10 +60,10 @@ const draftHiddenFields = Object.entries(payload).map(([name, value]) => [name, 
     <div class="panel">
       <h2>Publishing</h2>
       <p>This public record is not backed by an editable database row yet. Saving will publish it into the admin watch database.</p>
-      <form action={draftAction} method="post" style="margin-top: 18px;">
+      <form action={pendingAction} method="post" style="margin-top: 18px;">
         <input type="hidden" name="csrfToken" value={session.csrfToken} />
-        {draftHiddenFields.map(([name, value]) => <input type="hidden" name={name} value={value} />)}
-        <button class="button danger" type="submit">Mark as draft</button>
+        {pendingHiddenFields.map(([name, value]) => <input type="hidden" name={name} value={value} />)}
+        <button class="button danger" type="submit">Mark as pending</button>
       </form>
     </div>
   </section>

@@ -1,10 +1,10 @@
 import { describe, expect, it } from "vitest";
 import {
-  draftWatch,
   getEditableWatchBySlugs,
   getWatchBySlugs,
   listAdminWatches,
   listRecentWatches,
+  pendingWatch,
   unpublishWatch,
   updateWatch
 } from "@/lib/db/watches";
@@ -114,6 +114,39 @@ describe("recent watches", () => {
     expect(watch?.reference).toBe("WSSA0029");
   });
 
+  it("prefers pending editable watches over approved ones for the same slugs", async () => {
+    const { db, prepareCalls } = createMockDb([
+      watchRow({
+        id: 10,
+        brand: "Tissot",
+        model: "Seastar 1000 Powermatic 80 43",
+        reference: "T120.407.11.041.00",
+        brand_slug: "tissot",
+        model_slug: "seastar-1000-powermatic-80-43",
+        reference_slug: "t120-407-11-041-00",
+        status: "pending",
+        updated_at: "2026-06-06T12:00:00.000Z"
+      }),
+      watchRow({
+        id: 11,
+        brand: "Tissot",
+        model: "Seastar 1000 Powermatic 80 43",
+        reference: "T120.407.11.041.00",
+        brand_slug: "tissot",
+        model_slug: "seastar-1000-powermatic-80-43",
+        reference_slug: "t120-407-11-041-00",
+        status: "approved",
+        updated_at: "2026-06-05T12:00:00.000Z"
+      })
+    ]);
+
+    const watch = await getEditableWatchBySlugs(db, "tissot", "seastar-1000-powermatic-80-43", "t120-407-11-041-00");
+
+    expect(prepareCalls[0]).toContain("ORDER BY CASE WHEN status = 'approved' THEN 1 ELSE 0 END");
+    expect(watch?.id).toBe(10);
+    expect(watch?.status).toBe("pending");
+  });
+
   it("keeps admin edits approved when saving changes", async () => {
     const { db, prepareCalls, bindCalls } = createMockDb([
       watchRow({
@@ -137,7 +170,7 @@ describe("recent watches", () => {
     expect(bindCalls[0]).toContain("approved");
   });
 
-  it("moves a watch to draft when explicitly unpublished", async () => {
+  it("moves a watch to pending when explicitly unpublished", async () => {
     const { db, prepareCalls, bindCalls } = createMockDb([
       watchRow({
         id: 99,
@@ -147,11 +180,11 @@ describe("recent watches", () => {
 
     await unpublishWatch(db, 99);
 
-    expect(prepareCalls[0]).toContain("SET status = 'draft'");
+    expect(prepareCalls[0]).toContain("SET status = 'pending'");
     expect(bindCalls[0]).toEqual([99]);
   });
 
-  it("does not fall back to a public seed record when a matching draft row exists", async () => {
+  it("does not fall back to a public seed record when a matching pending row exists", async () => {
     const { db } = createMockDb([
       watchRow({
         brand: "Cartier",
@@ -160,7 +193,7 @@ describe("recent watches", () => {
         brand_slug: "cartier",
         model_slug: "santos-de-cartier-medium",
         reference_slug: "wssa0029",
-        status: "draft"
+        status: "pending"
       })
     ]);
 
@@ -169,10 +202,10 @@ describe("recent watches", () => {
     expect(watch).toBeNull();
   });
 
-  it("creates a draft row when a seed record is explicitly unpublished", async () => {
+  it("creates a pending row when a seed record is explicitly unpublished", async () => {
     const { db, prepareCalls, bindCalls } = createMockDb([]);
 
-    const watchId = await draftWatch(db, {
+    const watchId = await pendingWatch(db, {
       brand: "Cartier",
       model: "Santos de Cartier Medium",
       reference: "WSSA0029",
@@ -185,10 +218,10 @@ describe("recent watches", () => {
 
     expect(watchId).toBe(1);
     expect(prepareCalls.some((sql) => sql.includes("INSERT INTO watches"))).toBe(true);
-    expect(bindCalls.some((args) => args.includes("draft"))).toBe(true);
+    expect(bindCalls.some((args) => args.includes("pending"))).toBe(true);
   });
 
-  it("lists draft watches in the admin watch queue", async () => {
+  it("lists pending watches in the admin watch queue", async () => {
     const { db, prepareCalls } = createMockDb([
       watchRow({
         id: 77,
@@ -198,15 +231,15 @@ describe("recent watches", () => {
         brand_slug: "tissot",
         model_slug: "seastar-1000-powermatic-80-43",
         reference_slug: "t120-407-11-041-00",
-        status: "draft"
+        status: "pending"
       })
     ]);
 
-    const watches = await listAdminWatches(db, "draft");
+    const watches = await listAdminWatches(db, "pending");
 
-    expect(prepareCalls[0]).toContain("WHERE status = ?");
+    expect(prepareCalls[0]).toContain("status = 'pending' OR status = 'draft'");
     expect(watches).toHaveLength(1);
-    expect(watches[0].status).toBe("draft");
+    expect(watches[0].status).toBe("pending");
     expect(watches[0].brand).toBe("Tissot");
   });
 });

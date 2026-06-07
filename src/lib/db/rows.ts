@@ -13,7 +13,7 @@ export interface WatchRow {
   thickness_mm: number | null;
   lug_width_mm: number | null;
   confidence: Watch["confidence"];
-  status: Watch["status"];
+  status: Watch["status"] | "draft";
   updated_at: string;
 }
 
@@ -52,7 +52,7 @@ export function mapWatch(row: WatchRow): Watch {
     thicknessMm: row.thickness_mm,
     lugWidthMm: row.lug_width_mm,
     confidence: row.confidence,
-    status: row.status,
+    status: row.status === "draft" ? "pending" : row.status,
     updatedAt: row.updated_at
   };
 }
