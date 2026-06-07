@@ -33,11 +33,6 @@ export interface SubmissionRow {
   reviewed_at: string | null;
 }
 
-export interface SubmissionRateLimitRow {
-  ip_hash: string;
-  last_submitted_at: string;
-}
-
 export function mapWatch(row: WatchRow): Watch {
   return {
     id: row.id,
