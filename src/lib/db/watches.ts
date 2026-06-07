@@ -1,4 +1,4 @@
-import type { SubmissionPayload, Watch, WatchSource, WatchWithSources } from "@/types";
+import type { SubmissionPayload, Watch, WatchSource, WatchStatus, WatchWithSources } from "@/types";
 import type { D1 } from "@/lib/db/connection";
 import { mapSource, mapWatch, type SourceRow, type WatchRow } from "@/lib/db/rows";
 import { normalizeSearch, slugify } from "@/lib/slug";
@@ -234,14 +234,15 @@ export async function updateWatchFromSubmission(
   db: D1Database,
   watchId: number,
   payload: SubmissionPayload,
-  slugs: SubmissionWatchSlugs
+  slugs: SubmissionWatchSlugs,
+  status: WatchStatus = "approved"
 ): Promise<void> {
   await db
     .prepare(
       `UPDATE watches
        SET brand = ?, model = ?, reference = ?, brand_slug = ?, model_slug = ?, reference_slug = ?, search_text = ?,
            lug_to_lug_mm = ?, case_mm = ?,
-           thickness_mm = ?, lug_width_mm = ?, confidence = 'medium', status = 'approved', updated_at = CURRENT_TIMESTAMP
+           thickness_mm = ?, lug_width_mm = ?, confidence = 'medium', status = ?, updated_at = CURRENT_TIMESTAMP
        WHERE id = ?`
     )
     .bind(
@@ -256,6 +257,7 @@ export async function updateWatchFromSubmission(
       payload.caseMm,
       payload.thicknessMm,
       payload.lugWidthMm,
+      status,
       watchId
     )
     .run();

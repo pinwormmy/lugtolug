@@ -1,30 +1,35 @@
 import { describe, expect, it } from "vitest";
-import { getEditableWatchBySlugs, listRecentWatches } from "@/lib/db/watches";
+import { getEditableWatchBySlugs, listRecentWatches, unpublishWatch, updateWatch } from "@/lib/db/watches";
 import type { SourceRow, WatchRow } from "@/lib/db/rows";
 
 function createMockDb(watchRows: WatchRow[], sourceRows: SourceRow[] = []) {
   const prepareCalls: string[] = [];
+  const bindCalls: unknown[][] = [];
 
   const db = {
     prepare(sql: string) {
       prepareCalls.push(sql);
       return {
-        bind: (..._args: unknown[]) => ({
-          all: async () => {
-            if (sql.includes("FROM watches")) return { results: watchRows };
-            if (sql.includes("FROM watch_sources")) return { results: sourceRows };
-            throw new Error(`Unexpected query: ${sql}`);
-          },
-          first: async () => {
-            if (sql.includes("FROM watches")) return watchRows[0] ?? null;
-            throw new Error(`Unexpected query: ${sql}`);
-          }
-        })
+        bind: (...args: unknown[]) => {
+          bindCalls.push(args);
+          return {
+            all: async () => {
+              if (sql.includes("FROM watches")) return { results: watchRows };
+              if (sql.includes("FROM watch_sources")) return { results: sourceRows };
+              throw new Error(`Unexpected query: ${sql}`);
+            },
+            first: async () => {
+              if (sql.includes("FROM watches")) return watchRows[0] ?? null;
+              throw new Error(`Unexpected query: ${sql}`);
+            },
+            run: async () => ({ meta: { last_row_id: 1 } })
+          };
+        }
       };
     }
   };
 
-  return { db: db as never, prepareCalls };
+  return { db: db as never, prepareCalls, bindCalls };
 }
 
 function watchRow(overrides: Partial<WatchRow>): WatchRow {
@@ -97,5 +102,42 @@ describe("recent watches", () => {
     expect(prepareCalls[0]).toContain("WHERE brand_slug = ? AND model_slug = ? AND reference_slug = ?");
     expect(watch?.id).toBe(987);
     expect(watch?.reference).toBe("WSSA0029");
+  });
+
+  it("keeps admin edits approved when saving changes", async () => {
+    const { db, prepareCalls, bindCalls } = createMockDb([
+      watchRow({
+        id: 42,
+        status: "approved"
+      })
+    ]);
+
+    await updateWatch(db, 42, {
+      brand: "Omega",
+      model: "Speedmaster Professional",
+      reference: "310.30.42.50.01.001",
+      lugToLugMm: 47.5,
+      caseMm: 42,
+      thicknessMm: 13.2,
+      lugWidthMm: 20,
+      sourceUrl: "https://example.com/watch"
+    });
+
+    expect(prepareCalls[0]).toContain("status = ?");
+    expect(bindCalls[0]).toContain("approved");
+  });
+
+  it("moves a watch to draft when explicitly unpublished", async () => {
+    const { db, prepareCalls, bindCalls } = createMockDb([
+      watchRow({
+        id: 99,
+        status: "approved"
+      })
+    ]);
+
+    await unpublishWatch(db, 99);
+
+    expect(prepareCalls[0]).toContain("SET status = 'draft'");
+    expect(bindCalls[0]).toEqual([99]);
   });
 });

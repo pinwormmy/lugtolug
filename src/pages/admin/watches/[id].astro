@@ -36,13 +36,15 @@ const validationError = Astro.url.searchParams.get("error") === "validation";
 
 <BaseLayout title="Manage watch | Lug to Lug Finder" description="Edit a published watch record.">
   <section class="section" style="margin-top: 0;">
-    <p class="small"><a href={`/watches/${watch.brandSlug}/${watch.modelSlug}/${watch.referenceSlug}`}>View public page</a></p>
+    {watch.status === "approved" && (
+      <p class="small"><a href={`/watches/${watch.brandSlug}/${watch.modelSlug}/${watch.referenceSlug}`}>View public page</a></p>
+    )}
     <h1 class="page-title" style="font-size: clamp(2.4rem, 6vw, 4rem);">Manage watch</h1>
     <p class="lede">{[watch.brand, watch.model].filter(Boolean).join(" ")} · {watch.reference || "No reference"} · {watch.status}</p>
     {(updated || unpublished || validationError) && (
       <p class={validationError ? "error" : "notice"} style="margin-top: 18px;">
         {updated && "Watch record updated."}
-        {unpublished && "Watch record unpublished."}
+        {unpublished && "Watch record returned to draft."}
         {validationError && "Check the submitted fields and try again."}
       </p>
     )}
@@ -59,9 +61,10 @@ const validationError = Astro.url.searchParams.get("error") === "validation";
     <div class="panel">
       <h2>Publishing</h2>
       <p><strong>Status:</strong> {watch.status}</p>
+      <p class="small">Use the button below to move this record back to draft without changing the edit form.</p>
       <form action={`/api/admin/watches/${watch.id}/unpublish`} method="post">
         <input type="hidden" name="csrfToken" value={session.csrfToken} />
-        <button class="button danger" type="submit" style="margin-top: 12px;">Unpublish</button>
+        <button class="button danger" type="submit" style="margin-top: 12px;">Mark as draft</button>
       </form>
 
       <h2 style="margin-top: 24px;">Sources</h2>
