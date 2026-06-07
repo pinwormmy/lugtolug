@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { isSubmissionRateLimited } from "@/lib/db/submissionRateLimits";
+import { isSubmissionRateLimited, recordSubmissionRateLimit } from "@/lib/db/submissionRateLimits";
 
 function createMockDb(count: number) {
   const prepareCalls: string[] = [];
@@ -40,7 +40,8 @@ describe("submission rate limits", () => {
 
     const result = await isSubmissionRateLimited(db, createRequest());
 
-    expect(prepareCalls[0]).toContain("submission_rate_events");
+    expect(prepareCalls.some((sql) => sql.startsWith("DELETE FROM submission_rate_events"))).toBe(true);
+    expect(prepareCalls.some((sql) => sql.startsWith("SELECT COUNT(*) AS count FROM submission_rate_events"))).toBe(true);
     expect(result).toEqual({ limited: false });
   });
 
@@ -54,5 +55,14 @@ describe("submission rate limits", () => {
       reason: "daily",
       retryAfterSeconds: 24 * 60 * 60
     });
+  });
+
+  it("prunes old submission events when recording a new submission", async () => {
+    const { db, prepareCalls } = createMockDb(0);
+
+    await recordSubmissionRateLimit(db, createRequest());
+
+    expect(prepareCalls.filter((sql) => sql.startsWith("DELETE FROM submission_rate_events"))).toHaveLength(1);
+    expect(prepareCalls.some((sql) => sql.startsWith("INSERT INTO submission_rate_events"))).toBe(true);
   });
 });
