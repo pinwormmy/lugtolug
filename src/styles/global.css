@@ -1524,7 +1524,6 @@ button {
     font-size: 0.64rem;
   }
 
-  [data-recent-watches],
   .active-filter-chips {
     display: none;
   }
@@ -1544,6 +1543,10 @@ button {
 
   .database-table {
     overflow: visible;
+  }
+
+  .section[data-recent-watches] {
+    margin-top: 18px;
   }
 
   .database-row-head {
