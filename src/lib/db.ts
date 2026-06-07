@@ -1,5 +1,6 @@
 export { getDb } from "@/lib/db/connection";
 export {
+  draftWatch,
   getWatchById,
   getWatchBySlugs,
   getEditableWatchBySlugs,

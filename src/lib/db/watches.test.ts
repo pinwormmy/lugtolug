@@ -1,5 +1,12 @@
 import { describe, expect, it } from "vitest";
-import { getEditableWatchBySlugs, listRecentWatches, unpublishWatch, updateWatch } from "@/lib/db/watches";
+import {
+  draftWatch,
+  getEditableWatchBySlugs,
+  getWatchBySlugs,
+  listRecentWatches,
+  unpublishWatch,
+  updateWatch
+} from "@/lib/db/watches";
 import type { SourceRow, WatchRow } from "@/lib/db/rows";
 
 function createMockDb(watchRows: WatchRow[], sourceRows: SourceRow[] = []) {
@@ -9,23 +16,25 @@ function createMockDb(watchRows: WatchRow[], sourceRows: SourceRow[] = []) {
   const db = {
     prepare(sql: string) {
       prepareCalls.push(sql);
-      return {
-        bind: (...args: unknown[]) => {
+      const statement = {
+        bind(...args: unknown[]) {
           bindCalls.push(args);
-          return {
-            all: async () => {
-              if (sql.includes("FROM watches")) return { results: watchRows };
-              if (sql.includes("FROM watch_sources")) return { results: sourceRows };
-              throw new Error(`Unexpected query: ${sql}`);
-            },
-            first: async () => {
-              if (sql.includes("FROM watches")) return watchRows[0] ?? null;
-              throw new Error(`Unexpected query: ${sql}`);
-            },
-            run: async () => ({ meta: { last_row_id: 1 } })
-          };
+          return statement;
+        },
+        async all() {
+          if (sql.includes("FROM watches")) return { results: watchRows };
+          if (sql.includes("FROM watch_sources")) return { results: sourceRows };
+          throw new Error(`Unexpected query: ${sql}`);
+        },
+        async first() {
+          if (sql.includes("FROM watches")) return watchRows[0] ?? null;
+          throw new Error(`Unexpected query: ${sql}`);
+        },
+        async run() {
+          return { meta: { last_row_id: 1 } };
         }
       };
+      return statement;
     }
   };
 
@@ -139,5 +148,42 @@ describe("recent watches", () => {
 
     expect(prepareCalls[0]).toContain("SET status = 'draft'");
     expect(bindCalls[0]).toEqual([99]);
+  });
+
+  it("does not fall back to a public seed record when a matching draft row exists", async () => {
+    const { db } = createMockDb([
+      watchRow({
+        brand: "Cartier",
+        model: "Santos de Cartier Medium",
+        reference: "WSSA0029",
+        brand_slug: "cartier",
+        model_slug: "santos-de-cartier-medium",
+        reference_slug: "wssa0029",
+        status: "draft"
+      })
+    ]);
+
+    const watch = await getWatchBySlugs(db, "cartier", "santos-de-cartier-medium", "wssa0029");
+
+    expect(watch).toBeNull();
+  });
+
+  it("creates a draft row when a seed record is explicitly unpublished", async () => {
+    const { db, prepareCalls, bindCalls } = createMockDb([]);
+
+    const watchId = await draftWatch(db, {
+      brand: "Cartier",
+      model: "Santos de Cartier Medium",
+      reference: "WSSA0029",
+      lugToLugMm: 41.9,
+      caseMm: 35.1,
+      thicknessMm: 8.83,
+      lugWidthMm: 16,
+      sourceUrl: "https://example.com/cartier"
+    });
+
+    expect(watchId).toBe(1);
+    expect(prepareCalls.some((sql) => sql.includes("INSERT INTO watches"))).toBe(true);
+    expect(bindCalls.some((args) => args.includes("draft"))).toBe(true);
   });
 });
