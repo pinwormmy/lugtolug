@@ -34,9 +34,9 @@ export default function WatchSearchResults({
               value={sort}
               onChange={(event) => onSortChange(event.currentTarget.value as WatchSortKey)}
             >
+              <option value="recent">Recently added</option>
               <option value="lug-asc">Lug-to-lug asc</option>
               <option value="lug-desc">Lug-to-lug desc</option>
-              <option value="recent">Recently added</option>
             </select>
           </label>
         </div>

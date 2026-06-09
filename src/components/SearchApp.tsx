@@ -33,7 +33,7 @@ function sortWatches(watches: WatchDisplayGroup[], sort: WatchSortKey): WatchDis
 
 export default function SearchApp({ watches }: Props) {
   const [query, setQuery] = useState("");
-  const [sort, setSort] = useState<WatchSortKey>("lug-asc");
+  const [sort, setSort] = useState<WatchSortKey>("recent");
   const [dimensionFilters, setDimensionFilters] = useState(() => createEmptyDimensionFilters());
   const [showFilters, setShowFilters] = useState(false);
   const deferredQuery = useDeferredValue(query);
