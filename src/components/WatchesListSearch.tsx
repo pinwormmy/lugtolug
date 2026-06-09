@@ -1,14 +1,16 @@
 import { Search } from "lucide-react";
-import { useDeferredValue, useMemo, useState } from "react";
+import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import type { WatchDisplayGroup } from "@/lib/watchGroups";
 import { formatMm, getWatchHref, searchTextMatchesQuery } from "@/lib/watch";
+import { buildSearchUrl, readSearchState } from "@/lib/searchState";
 
 interface Props {
   watches: WatchDisplayGroup[];
+  initialQuery?: string;
 }
 
-export default function WatchesListSearch({ watches }: Props) {
-  const [query, setQuery] = useState("");
+export default function WatchesListSearch({ watches, initialQuery = "" }: Props) {
+  const [query, setQuery] = useState(initialQuery);
   const deferredQuery = useDeferredValue(query);
   const hasSearchQuery = deferredQuery.trim().length > 0;
 
@@ -18,6 +20,20 @@ export default function WatchesListSearch({ watches }: Props) {
       searchTextMatchesQuery([watch.brand, watch.model, watch.reference].filter(Boolean).join(" "), deferredQuery)
     ));
   }, [deferredQuery, hasSearchQuery, watches]);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const currentSearchState = readSearchState(new URLSearchParams(window.location.search));
+    window.history.replaceState(
+      window.history.state,
+      "",
+      buildSearchUrl(window.location, {
+        query,
+        sort: currentSearchState.sort,
+        dimensionFilters: currentSearchState.dimensionFilters
+      })
+    );
+  }, [query]);
 
   return (
     <section className="watches-browser" aria-label="Watch database browser">

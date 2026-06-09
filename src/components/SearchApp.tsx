@@ -1,6 +1,6 @@
 import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import SearchFilters from "@/components/search/SearchFilters";
-import WatchSearchResults, { type WatchSortKey } from "@/components/search/WatchSearchResults";
+import WatchSearchResults from "@/components/search/WatchSearchResults";
 import type { WatchWithSources } from "@/types";
 import { normalizeSearch } from "@/lib/slug";
 import { searchTextMatchesQuery } from "@/lib/watch";
@@ -10,6 +10,7 @@ import {
   watchMatchesDimensionFilters,
   type DimensionKey
 } from "@/lib/watchFilters";
+import { buildSearchUrl, type SearchState, type WatchSortKey } from "@/lib/searchState";
 import {
   getCompactReferenceSearchText,
   groupWatchesForDisplay,
@@ -19,6 +20,9 @@ import {
 
 interface Props {
   watches: WatchWithSources[];
+  initialQuery?: string;
+  initialSort?: WatchSortKey;
+  initialDimensionFilters?: SearchState["dimensionFilters"];
 }
 
 function sortWatches(watches: WatchDisplayGroup[], sort: WatchSortKey): WatchDisplayGroup[] {
@@ -31,10 +35,15 @@ function sortWatches(watches: WatchDisplayGroup[], sort: WatchSortKey): WatchDis
   return sorted;
 }
 
-export default function SearchApp({ watches }: Props) {
-  const [query, setQuery] = useState("");
-  const [sort, setSort] = useState<WatchSortKey>("recent");
-  const [dimensionFilters, setDimensionFilters] = useState(() => createEmptyDimensionFilters());
+export default function SearchApp({
+  watches,
+  initialQuery = "",
+  initialSort = "recent",
+  initialDimensionFilters = createEmptyDimensionFilters()
+}: Props) {
+  const [query, setQuery] = useState(initialQuery);
+  const [sort, setSort] = useState<WatchSortKey>(initialSort);
+  const [dimensionFilters, setDimensionFilters] = useState(() => initialDimensionFilters);
   const [showFilters, setShowFilters] = useState(false);
   const deferredQuery = useDeferredValue(query);
   const normalized = normalizeSearch(deferredQuery);
@@ -92,6 +101,15 @@ export default function SearchApp({ watches }: Props) {
       }
     }));
   }
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    window.history.replaceState(
+      window.history.state,
+      "",
+      buildSearchUrl(window.location, { query, sort, dimensionFilters })
+    );
+  }, [dimensionFilters, query, sort]);
 
   return (
     <section className={`database-workbench${shouldShowResults ? " has-filtered-state" : ""}`} aria-label="Lug to Lug Finder search">

@@ -9,7 +9,7 @@ export interface DimensionFilter {
 
 export type DimensionFilters = Record<DimensionKey, DimensionFilter>;
 
-const DIMENSION_KEYS: DimensionKey[] = ["lugToLugMm", "caseMm", "thicknessMm", "lugWidthMm"];
+export const DIMENSION_KEYS: DimensionKey[] = ["lugToLugMm", "caseMm", "thicknessMm", "lugWidthMm"];
 
 export function createEmptyDimensionFilters(): DimensionFilters {
   return {

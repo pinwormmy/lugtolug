@@ -1,7 +1,6 @@
 import { getWatchHref } from "@/lib/watch";
 import type { WatchDisplayGroup } from "@/lib/watchGroups";
-
-export type WatchSortKey = "recent" | "lug-asc" | "lug-desc";
+import type { WatchSortKey } from "@/lib/searchState";
 
 interface Props {
   filteredCount: number;

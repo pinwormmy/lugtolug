@@ -3,16 +3,24 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import SearchApp from "@/components/SearchApp";
 import WatchRow from "@/components/WatchRow.astro";
 import { getDb, listRecentWatches, listWatches } from "@/lib/db";
+import { readSearchState } from "@/lib/searchState";
 import { groupWatchesForDisplay } from "@/lib/watchGroups";
 
 const db = getDb(Astro.locals);
 const watches = await listWatches(db);
 const recentWatches = groupWatchesForDisplay(await listRecentWatches(db, 20)).slice(0, 5);
+const initialSearchState = readSearchState(Astro.url.searchParams);
 ---
 
 <BaseLayout title="Lug to Lug Finder | Watch database" description="Search watch records by brand, model, and reference.">
   <section class="home-workbench">
-    <SearchApp client:load watches={watches} />
+    <SearchApp
+      client:load
+      initialDimensionFilters={initialSearchState.dimensionFilters}
+      initialQuery={initialSearchState.query}
+      initialSort={initialSearchState.sort}
+      watches={watches}
+    />
   </section>
 
   <section class="section" data-recent-watches>
