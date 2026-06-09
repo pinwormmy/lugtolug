@@ -1,7 +1,9 @@
 import { describe, expect, it } from "vitest";
 import {
+  FIT_RATIO_STANDARD,
   getFitGuidance,
   getFitScaleMarkerPosition,
+  getFitScaleMarkerPositionForRatio,
   mmToInches
 } from "@/lib/fit";
 
@@ -23,6 +25,12 @@ describe("fit guidance", () => {
     expect(getFitScaleMarkerPosition("small")).toBe(16.67);
     expect(getFitScaleMarkerPosition("balanced")).toBe(50);
     expect(getFitScaleMarkerPosition("large")).toBe(83.33);
+  });
+
+  it("places the fit marker according to the ratio against the standard value", () => {
+    expect(getFitScaleMarkerPositionForRatio(FIT_RATIO_STANDARD)).toBe(50);
+    expect(getFitScaleMarkerPositionForRatio(0.8)).toBe(25);
+    expect(getFitScaleMarkerPositionForRatio(0.9)).toBe(75);
   });
 
   it("converts millimeters to inches", () => {

@@ -1,5 +1,9 @@
 import { useEffect, useMemo, useState } from "react";
-import { getFitGuidance, getFitScaleMarkerPosition } from "@/lib/fit";
+import {
+  FIT_RATIO_STANDARD,
+  getFitGuidance,
+  getFitScaleMarkerPositionForRatio
+} from "@/lib/fit";
 
 interface Props {
   lugToLugMm: number;
@@ -56,7 +60,10 @@ export default function FitCalculator({ lugToLugMm }: Props) {
     if (!Number.isFinite(wristFlatWidthMm) || wristFlatWidthMm <= 0) return null;
     return getFitGuidance(lugToLugMm, wristFlatWidthMm);
   }, [lugToLugMm, value]);
-  const markerPosition = fit ? getFitScaleMarkerPosition(fit.category) : 0;
+  const markerPosition = fit ? getFitScaleMarkerPositionForRatio(fit.ratio) : 0;
+  const ratioDeltaLabel = fit
+    ? `${fit.ratioDeltaFromStandard === 0 ? "" : fit.ratioDeltaFromStandard > 0 ? "+" : "-"}${Math.abs(fit.ratioDeltaFromStandard).toFixed(2)} vs standard`
+    : "";
 
   return (
     <div className="panel fit-analyzer">
@@ -89,8 +96,17 @@ export default function FitCalculator({ lugToLugMm }: Props) {
               <small>Fit ratio</small>
               <strong>{fit.ratio.toFixed(2)}</strong>
             </span>
+            <span>
+              <small>Standard</small>
+              <strong>{FIT_RATIO_STANDARD.toFixed(2)}</strong>
+            </span>
+            <span>
+              <small>Delta</small>
+              <strong>{ratioDeltaLabel}</strong>
+            </span>
           </div>
-          <div className="fit-scale" aria-label={`Fit verdict ${fit.label}`}>
+          <div className="fit-scale" aria-label={`Fit verdict ${fit.label}, ratio ${fit.ratio.toFixed(2)} against standard ${FIT_RATIO_STANDARD.toFixed(2)}`}>
+            <span className="fit-scale-standard" aria-hidden="true" style={{ left: "50%" }} />
             <span style={{ left: `${markerPosition}%` }} />
           </div>
           <div className="fit-scale-labels">

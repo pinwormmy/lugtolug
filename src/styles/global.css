@@ -929,6 +929,14 @@ button {
   width: 16px;
 }
 
+.fit-scale .fit-scale-standard {
+  background: var(--line-strong);
+  border: 0;
+  height: 18px;
+  opacity: 0.9;
+  width: 2px;
+}
+
 .fit-scale-labels {
   color: var(--muted);
   display: grid;
