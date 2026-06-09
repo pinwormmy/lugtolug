@@ -934,10 +934,24 @@ button {
   display: grid;
   font-family: var(--mono);
   font-size: 0.62rem;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
   letter-spacing: 0.04em;
-  text-align: center;
   text-transform: uppercase;
+}
+
+.fit-scale-labels span:first-child {
+  justify-self: start;
+  text-align: left;
+}
+
+.fit-scale-labels span:nth-child(2) {
+  justify-self: center;
+  text-align: center;
+}
+
+.fit-scale-labels span:last-child {
+  justify-self: end;
+  text-align: right;
 }
 
 .fit-verdict {
