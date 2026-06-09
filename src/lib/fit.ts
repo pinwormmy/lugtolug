@@ -26,7 +26,7 @@ export function getFitGuidance(lugToLugMm: number, wristCircumferenceMm: number)
   const wristFlatWidthMm = estimateWristFlatWidthMm(wristCircumferenceMm);
   const ratio = lugToLugMm / wristFlatWidthMm;
 
-  if (ratio < 0.82) {
+  if (ratio < 0.8) {
     return {
       category: "small",
       ratio,
@@ -36,7 +36,7 @@ export function getFitGuidance(lugToLugMm: number, wristCircumferenceMm: number)
     };
   }
 
-  if (ratio < 1.02) {
+  if (ratio <= 0.9) {
     return {
       category: "balanced",
       ratio,

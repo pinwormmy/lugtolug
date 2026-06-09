@@ -11,6 +11,14 @@ describe("fit guidance", () => {
     expect(result.category).toBe("balanced");
   });
 
+  it("treats ratios from 0.8 through 0.9 as balanced", () => {
+    const wristFlatWidthMm = estimateWristFlatWidthMm(100);
+    expect(getFitGuidance(wristFlatWidthMm * 0.79, 100).category).toBe("small");
+    expect(getFitGuidance(wristFlatWidthMm * 0.8, 100).category).toBe("balanced");
+    expect(getFitGuidance(wristFlatWidthMm * 0.9, 100).category).toBe("balanced");
+    expect(getFitGuidance(wristFlatWidthMm * 0.91, 100).category).toBe("large");
+  });
+
   it("places the fit marker according to the verdict category", () => {
     expect(getFitScaleMarkerPosition("small")).toBe(16.67);
     expect(getFitScaleMarkerPosition("balanced")).toBe(50);
