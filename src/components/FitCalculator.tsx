@@ -7,7 +7,7 @@ interface Props {
 
 const STORAGE_KEY = "lugtolug-finder:wrist-fit-v1";
 
-function readSavedFitSettings(): { unit: "cm" | "in"; value: string } | null {
+function readSavedFitSettings(): { value: string } | null {
   if (typeof window === "undefined") return null;
 
   try {
@@ -15,25 +15,31 @@ function readSavedFitSettings(): { unit: "cm" | "in"; value: string } | null {
     if (!raw) return null;
 
     const parsed = JSON.parse(raw) as Partial<{ unit: string; value: unknown }>;
-    if ((parsed.unit !== "cm" && parsed.unit !== "in") || typeof parsed.value !== "string") {
+    if (typeof parsed.value !== "string") {
       return null;
     }
 
-    return { unit: parsed.unit, value: parsed.value };
+    if (parsed.unit === "cm") {
+      return { value: `${(((Number(parsed.value) * 10) / Math.PI)).toFixed(1)}` };
+    }
+
+    if (parsed.unit === "in") {
+      return { value: `${(((Number(parsed.value) * 25.4) / Math.PI)).toFixed(1)}` };
+    }
+
+    return { value: parsed.value };
   } catch {
     return null;
   }
 }
 
 export default function FitCalculator({ lugToLugMm }: Props) {
-  const [unit, setUnit] = useState<"cm" | "in">("cm");
-  const [value, setValue] = useState("17.0");
+  const [value, setValue] = useState("54.0");
   const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
     const saved = readSavedFitSettings();
     if (saved) {
-      setUnit(saved.unit);
       setValue(saved.value);
     }
     setHydrated(true);
@@ -42,14 +48,14 @@ export default function FitCalculator({ lugToLugMm }: Props) {
   useEffect(() => {
     if (!hydrated || typeof window === "undefined") return;
 
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify({ unit, value }));
-  }, [hydrated, unit, value]);
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify({ value }));
+  }, [hydrated, value]);
 
-  const wristMm = unit === "cm" ? Number(value) * 10 : Number(value) * 25.4;
   const fit = useMemo(() => {
-    if (!Number.isFinite(wristMm) || wristMm <= 0) return null;
-    return getFitGuidance(lugToLugMm, wristMm);
-  }, [lugToLugMm, wristMm]);
+    const wristFlatWidthMm = Number(value);
+    if (!Number.isFinite(wristFlatWidthMm) || wristFlatWidthMm <= 0) return null;
+    return getFitGuidance(lugToLugMm, wristFlatWidthMm);
+  }, [lugToLugMm, value]);
   const markerPosition = fit ? getFitScaleMarkerPosition(fit.category) : 0;
 
   return (
@@ -62,21 +68,14 @@ export default function FitCalculator({ lugToLugMm }: Props) {
       </div>
       <div className="fit-controls">
         <label>
-          <span>Wrist circumference</span>
+          <span>Flat wrist width</span>
           <input
             className="input"
             inputMode="decimal"
-            aria-label="Wrist circumference"
+            aria-label="Flat wrist width"
             value={value}
             onChange={(event) => setValue(event.currentTarget.value)}
           />
-        </label>
-        <label>
-          <span>Unit</span>
-          <select className="select" aria-label="Wrist unit" value={unit} onChange={(event) => setUnit(event.currentTarget.value as "cm" | "in")}>
-            <option value="cm">cm</option>
-            <option value="in">in</option>
-          </select>
         </label>
       </div>
       {fit ? (
@@ -84,9 +83,7 @@ export default function FitCalculator({ lugToLugMm }: Props) {
           <div className="fit-stats">
             <span>
               <small>Flat wrist width</small>
-              <strong>
-                {fit.wristFlatWidthMinMm.toFixed(1)} mm ~ {fit.wristFlatWidthMaxMm.toFixed(1)} mm
-              </strong>
+              <strong>{fit.wristFlatWidthMm.toFixed(1)} mm</strong>
             </span>
             <span>
               <small>Fit ratio</small>
@@ -107,7 +104,7 @@ export default function FitCalculator({ lugToLugMm }: Props) {
           </div>
         </>
       ) : (
-        <p className="small">Enter a wrist circumference to estimate the fit.</p>
+        <p className="small">Enter a flat wrist width to estimate the fit.</p>
       )}
     </div>
   );

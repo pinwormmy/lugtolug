@@ -10,34 +10,15 @@ export interface FitResult {
   category: FitCategory;
   ratio: number;
   wristFlatWidthMm: number;
-  wristFlatWidthMinMm: number;
-  wristFlatWidthMaxMm: number;
   label: string;
   guidance: string;
-}
-
-export function estimateWristFlatWidthMm(wristCircumferenceMm: number): number {
-  return wristCircumferenceMm / Math.PI;
-}
-
-export function estimateWristFlatWidthRangeMm(wristCircumferenceMm: number, varianceRatio = 0.05): {
-  minMm: number;
-  maxMm: number;
-} {
-  const wristFlatWidthMm = estimateWristFlatWidthMm(wristCircumferenceMm);
-  return {
-    minMm: wristFlatWidthMm * (1 - varianceRatio),
-    maxMm: wristFlatWidthMm * (1 + varianceRatio)
-  };
 }
 
 export function getFitScaleMarkerPosition(category: FitCategory): number {
   return FIT_SCALE_MARKER_POSITIONS[category];
 }
 
-export function getFitGuidance(lugToLugMm: number, wristCircumferenceMm: number): FitResult {
-  const wristFlatWidthMm = estimateWristFlatWidthMm(wristCircumferenceMm);
-  const wristFlatWidthRange = estimateWristFlatWidthRangeMm(wristCircumferenceMm);
+export function getFitGuidance(lugToLugMm: number, wristFlatWidthMm: number): FitResult {
   const ratio = lugToLugMm / wristFlatWidthMm;
 
   if (ratio < 0.8) {
@@ -45,8 +26,6 @@ export function getFitGuidance(lugToLugMm: number, wristCircumferenceMm: number)
       category: "small",
       ratio,
       wristFlatWidthMm,
-      wristFlatWidthMinMm: wristFlatWidthRange.minMm,
-      wristFlatWidthMaxMm: wristFlatWidthRange.maxMm,
       label: "Small",
       guidance: "Sits short across the wrist with visible margin on both sides."
     };
@@ -57,8 +36,6 @@ export function getFitGuidance(lugToLugMm: number, wristCircumferenceMm: number)
       category: "balanced",
       ratio,
       wristFlatWidthMm,
-      wristFlatWidthMinMm: wristFlatWidthRange.minMm,
-      wristFlatWidthMaxMm: wristFlatWidthRange.maxMm,
       label: "Balanced",
       guidance: "Sits comfortably within the wrist width for most wearers."
     };
@@ -68,8 +45,6 @@ export function getFitGuidance(lugToLugMm: number, wristCircumferenceMm: number)
     category: "large",
     ratio,
     wristFlatWidthMm,
-    wristFlatWidthMinMm: wristFlatWidthRange.minMm,
-    wristFlatWidthMaxMm: wristFlatWidthRange.maxMm,
     label: "Large",
     guidance: "Sits near or beyond the wrist edge; case shape and strap angle matter."
   };

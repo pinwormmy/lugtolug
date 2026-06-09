@@ -1,34 +1,22 @@
 import { describe, expect, it } from "vitest";
 import {
-  estimateWristFlatWidthMm,
-  estimateWristFlatWidthRangeMm,
   getFitGuidance,
   getFitScaleMarkerPosition,
   mmToInches
 } from "@/lib/fit";
 
 describe("fit guidance", () => {
-  it("estimates flat wrist width from circumference", () => {
-    expect(estimateWristFlatWidthMm(170)).toBeCloseTo(54.11, 2);
-  });
-
-  it("estimates a wrist width range from circumference", () => {
-    const range = estimateWristFlatWidthRangeMm(170);
-    expect(range.minMm).toBeCloseTo(51.4, 1);
-    expect(range.maxMm).toBeCloseTo(56.8, 1);
-  });
-
-  it("returns balanced guidance for a typical 47.5mm watch on 17cm wrist", () => {
-    const result = getFitGuidance(47.5, 170);
+  it("returns balanced guidance for a typical 47.5mm watch on a 54.1mm wrist width", () => {
+    const result = getFitGuidance(47.5, 54.1);
     expect(result.category).toBe("balanced");
   });
 
   it("treats ratios from 0.8 through 0.9 as balanced", () => {
-    const wristFlatWidthMm = estimateWristFlatWidthMm(100);
-    expect(getFitGuidance(wristFlatWidthMm * 0.79, 100).category).toBe("small");
-    expect(getFitGuidance(wristFlatWidthMm * 0.8, 100).category).toBe("balanced");
-    expect(getFitGuidance(wristFlatWidthMm * 0.9, 100).category).toBe("balanced");
-    expect(getFitGuidance(wristFlatWidthMm * 0.91, 100).category).toBe("large");
+    const wristFlatWidthMm = 50;
+    expect(getFitGuidance(wristFlatWidthMm * 0.79, wristFlatWidthMm).category).toBe("small");
+    expect(getFitGuidance(wristFlatWidthMm * 0.8, wristFlatWidthMm).category).toBe("balanced");
+    expect(getFitGuidance(wristFlatWidthMm * 0.9, wristFlatWidthMm).category).toBe("balanced");
+    expect(getFitGuidance(wristFlatWidthMm * 0.91, wristFlatWidthMm).category).toBe("large");
   });
 
   it("places the fit marker according to the verdict category", () => {
