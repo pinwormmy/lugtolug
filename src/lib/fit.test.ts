@@ -1,9 +1,21 @@
 import { describe, expect, it } from "vitest";
-import { estimateWristFlatWidthMm, getFitGuidance, getFitScaleMarkerPosition, mmToInches } from "@/lib/fit";
+import {
+  estimateWristFlatWidthMm,
+  estimateWristFlatWidthRangeMm,
+  getFitGuidance,
+  getFitScaleMarkerPosition,
+  mmToInches
+} from "@/lib/fit";
 
 describe("fit guidance", () => {
   it("estimates flat wrist width from circumference", () => {
     expect(estimateWristFlatWidthMm(170)).toBeCloseTo(54.11, 2);
+  });
+
+  it("estimates a wrist width range from circumference", () => {
+    const range = estimateWristFlatWidthRangeMm(170);
+    expect(range.minMm).toBeCloseTo(51.4, 1);
+    expect(range.maxMm).toBeCloseTo(56.8, 1);
   });
 
   it("returns balanced guidance for a typical 47.5mm watch on 17cm wrist", () => {

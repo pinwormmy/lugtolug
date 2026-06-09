@@ -84,7 +84,9 @@ export default function FitCalculator({ lugToLugMm }: Props) {
           <div className="fit-stats">
             <span>
               <small>Flat wrist width</small>
-              <strong>{fit.wristFlatWidthMm.toFixed(1)} mm</strong>
+              <strong>
+                {fit.wristFlatWidthMinMm.toFixed(1)} mm ~ {fit.wristFlatWidthMaxMm.toFixed(1)} mm
+              </strong>
             </span>
             <span>
               <small>Fit ratio</small>
