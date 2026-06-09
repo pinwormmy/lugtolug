@@ -1,5 +1,12 @@
 export type FitCategory = "compact" | "balanced" | "large" | "oversized";
 
+export const FIT_SCALE_MARKER_POSITIONS: Record<FitCategory, number> = {
+  compact: 12.5,
+  balanced: 37.5,
+  large: 62.5,
+  oversized: 87.5
+} as const;
+
 export interface FitResult {
   category: FitCategory;
   ratio: number;
@@ -10,6 +17,10 @@ export interface FitResult {
 
 export function estimateWristFlatWidthMm(wristCircumferenceMm: number): number {
   return wristCircumferenceMm / Math.PI;
+}
+
+export function getFitScaleMarkerPosition(category: FitCategory): number {
+  return FIT_SCALE_MARKER_POSITIONS[category];
 }
 
 export function getFitGuidance(lugToLugMm: number, wristCircumferenceMm: number): FitResult {

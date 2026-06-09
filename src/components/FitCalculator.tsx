@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { getFitGuidance } from "@/lib/fit";
+import { getFitGuidance, getFitScaleMarkerPosition } from "@/lib/fit";
 
 interface Props {
   lugToLugMm: number;
@@ -50,7 +50,7 @@ export default function FitCalculator({ lugToLugMm }: Props) {
     if (!Number.isFinite(wristMm) || wristMm <= 0) return null;
     return getFitGuidance(lugToLugMm, wristMm);
   }, [lugToLugMm, wristMm]);
-  const ratioPosition = fit ? Math.max(0, Math.min(100, ((fit.ratio - 0.5) / 0.6) * 100)) : 0;
+  const markerPosition = fit ? getFitScaleMarkerPosition(fit.category) : 0;
 
   return (
     <div className="panel fit-analyzer">
@@ -91,12 +91,12 @@ export default function FitCalculator({ lugToLugMm }: Props) {
               <strong>{fit.ratio.toFixed(2)}</strong>
             </span>
           </div>
-          <div className="fit-scale" aria-label={`Fit ratio ${fit.ratio.toFixed(2)}`}>
-            <span style={{ left: `${ratioPosition}%` }} />
+          <div className="fit-scale" aria-label={`Fit verdict ${fit.label}`}>
+            <span style={{ left: `${markerPosition}%` }} />
           </div>
           <div className="fit-scale-labels">
             <span>Too small</span>
-            <span>Ideal</span>
+            <span>Balanced</span>
             <span>Large</span>
             <span>Too large</span>
           </div>
