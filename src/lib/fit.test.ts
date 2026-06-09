@@ -12,8 +12,9 @@ describe("fit guidance", () => {
   });
 
   it("places the fit marker according to the verdict category", () => {
-    expect(getFitScaleMarkerPosition("balanced")).toBe(37.5);
-    expect(getFitScaleMarkerPosition("large")).toBe(62.5);
+    expect(getFitScaleMarkerPosition("small")).toBe(16.67);
+    expect(getFitScaleMarkerPosition("balanced")).toBe(50);
+    expect(getFitScaleMarkerPosition("large")).toBe(83.33);
   });
 
   it("converts millimeters to inches", () => {

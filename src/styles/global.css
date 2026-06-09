@@ -956,8 +956,7 @@ button {
   margin: 0;
 }
 
-.fit-verdict.large,
-.fit-verdict.oversized {
+.fit-verdict.large {
   border-color: rgba(209, 166, 80, 0.45);
 }
 

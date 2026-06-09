@@ -1,10 +1,9 @@
-export type FitCategory = "compact" | "balanced" | "large" | "oversized";
+export type FitCategory = "small" | "balanced" | "large";
 
 export const FIT_SCALE_MARKER_POSITIONS: Record<FitCategory, number> = {
-  compact: 12.5,
-  balanced: 37.5,
-  large: 62.5,
-  oversized: 87.5
+  small: 16.67,
+  balanced: 50,
+  large: 83.33
 } as const;
 
 export interface FitResult {
@@ -29,15 +28,15 @@ export function getFitGuidance(lugToLugMm: number, wristCircumferenceMm: number)
 
   if (ratio < 0.82) {
     return {
-      category: "compact",
+      category: "small",
       ratio,
       wristFlatWidthMm,
-      label: "Compact",
+      label: "Small",
       guidance: "Likely to wear short across the wrist, with visible margin near both edges."
     };
   }
 
-  if (ratio < 0.93) {
+  if (ratio < 1.02) {
     return {
       category: "balanced",
       ratio,
@@ -47,22 +46,12 @@ export function getFitGuidance(lugToLugMm: number, wristCircumferenceMm: number)
     };
   }
 
-  if (ratio < 1.02) {
-    return {
-      category: "large",
-      ratio,
-      wristFlatWidthMm,
-      label: "Large",
-      guidance: "Likely to wear near the wrist edge; case shape and strap angle matter."
-    };
-  }
-
   return {
-    category: "oversized",
+    category: "large",
     ratio,
     wristFlatWidthMm,
-    label: "Oversized",
-    guidance: "Likely to extend beyond the flat wrist width for many wearers."
+    label: "Large",
+    guidance: "Likely to wear near or beyond the wrist edge; case shape and strap angle matter."
   };
 }
 

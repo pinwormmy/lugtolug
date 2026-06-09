@@ -95,10 +95,9 @@ export default function FitCalculator({ lugToLugMm }: Props) {
             <span style={{ left: `${markerPosition}%` }} />
           </div>
           <div className="fit-scale-labels">
-            <span>Too small</span>
+            <span>Small</span>
             <span>Balanced</span>
             <span>Large</span>
-            <span>Too large</span>
           </div>
           <div className={`fit-verdict ${fit.category}`}>
             <strong>{fit.label}</strong>
