@@ -32,7 +32,7 @@ export function getFitGuidance(lugToLugMm: number, wristCircumferenceMm: number)
       ratio,
       wristFlatWidthMm,
       label: "Small",
-      guidance: "Likely to wear short across the wrist, with visible margin near both edges."
+      guidance: "Sits short across the wrist with visible margin on both sides."
     };
   }
 
@@ -42,7 +42,7 @@ export function getFitGuidance(lugToLugMm: number, wristCircumferenceMm: number)
       ratio,
       wristFlatWidthMm,
       label: "Balanced",
-      guidance: "Likely to sit comfortably within the wrist width for most wearers."
+      guidance: "Sits comfortably within the wrist width for most wearers."
     };
   }
 
@@ -51,7 +51,7 @@ export function getFitGuidance(lugToLugMm: number, wristCircumferenceMm: number)
     ratio,
     wristFlatWidthMm,
     label: "Large",
-    guidance: "Likely to wear near or beyond the wrist edge; case shape and strap angle matter."
+    guidance: "Sits near or beyond the wrist edge; case shape and strap angle matter."
   };
 }
 
