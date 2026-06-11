@@ -1,4 +1,4 @@
-ALTER TABLE watches RENAME TO watches_legacy_trust_column;
+ALTER TABLE watches RENAME TO watches_legacy;
 
 CREATE TABLE IF NOT EXISTS watches (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -51,9 +51,9 @@ SELECT
   status,
   created_at,
   updated_at
-FROM watches_legacy_trust_column;
+FROM watches_legacy;
 
-DROP TABLE watches_legacy_trust_column;
+DROP TABLE watches_legacy;
 
 CREATE UNIQUE INDEX IF NOT EXISTS idx_watches_slugs ON watches (brand_slug, model_slug, reference_slug);
 CREATE INDEX IF NOT EXISTS idx_watches_search ON watches (search_text);

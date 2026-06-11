@@ -28,4 +28,4 @@ These production-only records were added to the seed source of truth:
 
 - The new Patek Philippe target is 20 total seed records, including the production backfill.
 - The Citizen target is the original 3 seed records plus 20 new records.
-- Some Patek Philippe and Citizen lug-to-lug values are explicitly marked in source notes as operator-maintained case-family values pending direct physical measurement sources. This keeps the data transparent now that trust scoring metadata is no longer stored.
+- Some Patek Philippe and Citizen lug-to-lug values are explicitly marked in source notes as operator-maintained case-family values pending direct physical measurement sources. This keeps the data transparent without storing a separate rating field.
