@@ -55,7 +55,6 @@ function watchRow(overrides: Partial<WatchRow>): WatchRow {
     case_mm: overrides.case_mm ?? 42,
     thickness_mm: overrides.thickness_mm ?? 13.2,
     lug_width_mm: overrides.lug_width_mm ?? 20,
-    confidence: overrides.confidence ?? "high",
     status: overrides.status ?? "approved",
     updated_at: overrides.updated_at ?? "2026-05-31T00:00:00.000Z"
   };

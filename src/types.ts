@@ -13,7 +13,6 @@ export interface Watch {
   caseMm: number | null;
   thicknessMm: number | null;
   lugWidthMm: number | null;
-  confidence: "low" | "medium" | "high";
   status: WatchStatus;
   updatedAt: string;
 }

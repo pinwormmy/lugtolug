@@ -15,7 +15,6 @@ function watch(overrides: Partial<WatchWithSources>): WatchWithSources {
     caseMm: overrides.caseMm ?? 42,
     thicknessMm: overrides.thicknessMm ?? 13.2,
     lugWidthMm: overrides.lugWidthMm ?? 20,
-    confidence: overrides.confidence ?? "high",
     status: overrides.status ?? "approved",
     updatedAt: overrides.updatedAt ?? "2026-05-31T00:00:00.000Z",
     sources: overrides.sources ?? []

@@ -13,14 +13,15 @@ CREATE TABLE IF NOT EXISTS watches (
   case_mm REAL,
   thickness_mm REAL,
   lug_width_mm REAL,
-  confidence TEXT NOT NULL DEFAULT 'medium',
   status TEXT NOT NULL DEFAULT 'approved',
   created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
 INSERT INTO watches
-SELECT * FROM watches_legacy_optional_fields;
+SELECT id, brand, model, reference, brand_slug, model_slug, reference_slug, search_text,
+       lug_to_lug_mm, case_mm, thickness_mm, lug_width_mm, status, created_at, updated_at
+FROM watches_legacy_optional_fields;
 
 DROP TABLE watches_legacy_optional_fields;
 

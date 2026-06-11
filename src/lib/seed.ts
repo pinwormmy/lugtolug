@@ -15,7 +15,6 @@ export const seedWatches: WatchWithSources[] = seed.map((watch) => ({
   caseMm: watch.caseMm,
   thicknessMm: watch.thicknessMm,
   lugWidthMm: watch.lugWidthMm,
-  confidence: watch.confidence as WatchWithSources["confidence"],
   status: "approved",
   updatedAt: new Date().toISOString(),
   sources: watch.sources.map((source, index) => ({

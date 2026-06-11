@@ -11,7 +11,6 @@ CREATE TABLE IF NOT EXISTS watches (
   case_mm REAL NOT NULL,
   thickness_mm REAL NOT NULL,
   lug_width_mm REAL NOT NULL,
-  confidence TEXT NOT NULL DEFAULT 'medium',
   status TEXT NOT NULL DEFAULT 'approved',
   created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP

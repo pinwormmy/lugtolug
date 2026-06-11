@@ -319,7 +319,7 @@ export async function updateWatchFromSubmission(
       `UPDATE watches
        SET brand = ?, model = ?, reference = ?, brand_slug = ?, model_slug = ?, reference_slug = ?, search_text = ?,
            lug_to_lug_mm = ?, case_mm = ?,
-           thickness_mm = ?, lug_width_mm = ?, confidence = 'medium', status = ?, updated_at = CURRENT_TIMESTAMP
+           thickness_mm = ?, lug_width_mm = ?, status = ?, updated_at = CURRENT_TIMESTAMP
        WHERE id = ?`
     )
     .bind(
@@ -350,8 +350,8 @@ async function insertWatchFromSubmission(
     .prepare(
       `INSERT INTO watches
        (brand, model, reference, brand_slug, model_slug, reference_slug, search_text,
-        lug_to_lug_mm, case_mm, thickness_mm, lug_width_mm, confidence, status)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'medium', ?)`
+        lug_to_lug_mm, case_mm, thickness_mm, lug_width_mm, status)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
     )
     .bind(
       payload.brand,
