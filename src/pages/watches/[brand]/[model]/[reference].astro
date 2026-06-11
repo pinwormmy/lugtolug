@@ -6,7 +6,7 @@ import { getAdminSession } from "@/lib/auth";
 import { getManagePublishedWatchHref } from "@/lib/adminRoutes";
 import { getDb, getWatchBySlugs } from "@/lib/db";
 import { mmToInches } from "@/lib/fit";
-import { formatMm, isHttpUrl, WATCH_METRICS } from "@/lib/watch";
+import { formatMm, getWatchDisplayModel, getWatchDisplayName, isHttpUrl, WATCH_METRICS } from "@/lib/watch";
 
 const { brand, model, reference } = Astro.params;
 const db = getDb(Astro.locals);
@@ -18,8 +18,10 @@ if (!watch) {
 
 const adminSession = await getAdminSession(db, Astro.request);
 const manageHref = getManagePublishedWatchHref(watch);
-const watchName = [watch.brand, watch.model].filter(Boolean).join(" ");
+const watchModel = getWatchDisplayModel(watch);
+const watchName = getWatchDisplayName(watch);
 const referenceLabel = watch.reference || "Reference not provided";
+const variantLabel = watch.variant ? `${referenceLabel} · ${watch.variant}` : referenceLabel;
 const formatInches = (value: number | null | undefined) => value == null ? "Not provided" : `${mmToInches(value).toFixed(2)} in`;
 const title = `${watchName} | Lug to Lug Finder`;
 const description = `${watchName}: ${formatMm(watch.lugToLugMm)} lug-to-lug, ${formatMm(watch.caseMm)} case, ${formatMm(watch.thicknessMm)} thickness, ${formatMm(watch.lugWidthMm)} lug width.`;
@@ -44,8 +46,8 @@ const structuredData = {
   <section class="section detail-record" style="margin-top: 0;">
     <div>
       {watch.brand && <p class="eyebrow"><a href={`/brands/${watch.brandSlug}`}>{watch.brand}</a></p>}
-      <h1 class="page-title">{watch.model}</h1>
-      <p class="lede">{referenceLabel}</p>
+      <h1 class="page-title">{watchModel}</h1>
+      <p class="lede">{variantLabel}</p>
     </div>
   </section>
 

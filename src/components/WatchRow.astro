@@ -1,6 +1,6 @@
 ---
 import type { WatchWithSources } from "@/types";
-import { formatMm, getWatchHref } from "@/lib/watch";
+import { formatMm, getWatchDisplayName, getWatchHref } from "@/lib/watch";
 import type { WatchDisplayGroup } from "@/lib/watchGroups";
 
 interface Props {
@@ -9,7 +9,7 @@ interface Props {
 
 const { watch } = Astro.props;
 const href = getWatchHref(watch);
-const watchName = [watch.brand, watch.model].filter(Boolean).join(" ");
+const watchName = getWatchDisplayName(watch);
 const variantCount = "variantCount" in watch ? watch.variantCount : 1;
 ---
 

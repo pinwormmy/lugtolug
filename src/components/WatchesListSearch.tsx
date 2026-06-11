@@ -1,7 +1,7 @@
 import { Search } from "lucide-react";
 import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import type { WatchDisplayGroup } from "@/lib/watchGroups";
-import { formatMm, getWatchHref, searchTextMatchesQuery } from "@/lib/watch";
+import { formatMm, getWatchDisplayName, getWatchHref, searchTextMatchesQuery } from "@/lib/watch";
 import { buildSearchUrl, readSearchState } from "@/lib/searchState";
 
 interface Props {
@@ -17,7 +17,7 @@ export default function WatchesListSearch({ watches, initialQuery = "" }: Props)
   const filtered = useMemo(() => {
     if (!hasSearchQuery) return watches;
     return watches.filter((watch) => (
-      searchTextMatchesQuery([watch.brand, watch.model, watch.reference].filter(Boolean).join(" "), deferredQuery)
+      searchTextMatchesQuery(watch.groupSearchText, deferredQuery)
     ));
   }, [deferredQuery, hasSearchQuery, watches]);
 
@@ -68,7 +68,7 @@ export default function WatchesListSearch({ watches, initialQuery = "" }: Props)
           <a className="watch-row watch-row--summary" href={getWatchHref(watch)} key={watch.id}>
             <div className="watch-summary">
               <div className="watch-summary-name">
-                <strong>{[watch.brand, watch.model].filter(Boolean).join(" ")}</strong>
+                <strong>{getWatchDisplayName(watch)}</strong>
                 {watch.variantCount > 1 && <span>{watch.variantCount} references</span>}
               </div>
               <strong className="watch-summary-size">{formatMm(watch.lugToLugMm)}</strong>

@@ -4,6 +4,9 @@ export interface WatchRow {
   id: number;
   brand: string;
   model: string;
+  canonical_model: string | null;
+  model_group: string | null;
+  variant: string | null;
   reference: string;
   brand_slug: string;
   model_slug: string;
@@ -37,6 +40,9 @@ export function mapWatch(row: WatchRow): Watch {
     id: row.id,
     brand: row.brand,
     model: row.model,
+    canonicalModel: row.canonical_model,
+    modelGroup: row.model_group,
+    variant: row.variant,
     reference: row.reference,
     brandSlug: row.brand_slug,
     modelSlug: row.model_slug,

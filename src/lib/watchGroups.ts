@@ -15,9 +15,10 @@ function metricKey(value: number | null | undefined): string {
 }
 
 function getDisplayGroupKey(watch: WatchWithSources): string {
+  const modelKey = watch.modelGroup || watch.modelSlug;
   return [
     watch.brandSlug,
-    watch.modelSlug,
+    modelKey,
     metricKey(watch.lugToLugMm),
     metricKey(watch.caseMm),
     metricKey(watch.thicknessMm),

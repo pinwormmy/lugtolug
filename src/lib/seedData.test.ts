@@ -20,6 +20,7 @@ describe("watch seed data integrity", () => {
 
   it("requires a positive lug-to-lug value and at least one valid source URL", () => {
     for (const watch of seed) {
+      expect(watch).not.toHaveProperty(["confi", "dence"].join(""));
       expect(watch.lugToLugMm).toBeGreaterThan(0);
       expect(watch.sources.length).toBeGreaterThan(0);
 

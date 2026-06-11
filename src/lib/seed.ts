@@ -3,10 +3,17 @@ import type { WatchWithSources } from "@/types";
 import { slugify } from "@/lib/slug";
 import { watchMatchesSearchQuery } from "@/lib/watch";
 
+function optionalString(value: unknown): string | null {
+  return typeof value === "string" && value.trim() ? value : null;
+}
+
 export const seedWatches: WatchWithSources[] = seed.map((watch) => ({
   id: watch.id,
   brand: watch.brand,
   model: watch.model,
+  canonicalModel: optionalString("canonicalModel" in watch ? watch.canonicalModel : null),
+  modelGroup: optionalString("modelGroup" in watch ? watch.modelGroup : null),
+  variant: optionalString("variant" in watch ? watch.variant : null),
   reference: watch.reference,
   brandSlug: slugify(watch.brand),
   modelSlug: slugify(watch.model),

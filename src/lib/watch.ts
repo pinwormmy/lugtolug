@@ -34,15 +34,26 @@ export function getWatchHref(watch: Pick<Watch, "brandSlug" | "modelSlug" | "ref
   return `/watches/${watch.brandSlug}/${watch.modelSlug}/${watch.referenceSlug}`;
 }
 
+export function getWatchDisplayModel(watch: Pick<Watch, "model" | "canonicalModel">): string {
+  return watch.canonicalModel || watch.model;
+}
+
+export function getWatchDisplayName(watch: Pick<Watch, "brand" | "model" | "canonicalModel">): string {
+  return [watch.brand, getWatchDisplayModel(watch)].filter(Boolean).join(" ");
+}
+
 export function getWatchSearchText(
-  watch: Pick<Watch, "brand" | "model" | "reference"> & Partial<Pick<Watch, "lugToLugMm" | "caseMm" | "thicknessMm" | "lugWidthMm">>
+  watch: Pick<Watch, "brand" | "model" | "reference"> &
+    Partial<Pick<Watch, "canonicalModel" | "modelGroup" | "variant" | "lugToLugMm" | "caseMm" | "thicknessMm" | "lugWidthMm">>
 ): string {
   const metricText = WATCH_METRICS.flatMap((metric) => {
     const value = watch[metric.key];
     return value == null ? [] : [metric.rowLabel, String(value), `${value}mm`];
   }).join(" ");
 
-  return normalizeSearch(`${watch.brand} ${watch.model} ${watch.reference} ${metricText}`);
+  return normalizeSearch(
+    `${watch.brand} ${watch.model} ${watch.canonicalModel ?? ""} ${watch.modelGroup ?? ""} ${watch.variant ?? ""} ${watch.reference} ${metricText}`
+  );
 }
 
 export function getSearchTokens(query: string): string[] {
@@ -57,7 +68,10 @@ export function searchTextMatchesQuery(searchText: string, query: string): boole
   return tokens.every((token) => normalizedSearchText.includes(token));
 }
 
-export function watchMatchesSearchQuery(watch: Pick<Watch, "brand" | "model" | "reference">, query: string): boolean {
+export function watchMatchesSearchQuery(
+  watch: Pick<Watch, "brand" | "model" | "reference"> & Partial<Pick<Watch, "canonicalModel" | "modelGroup" | "variant">>,
+  query: string
+): boolean {
   return searchTextMatchesQuery(getWatchSearchText(watch), query);
 }
 

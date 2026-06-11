@@ -7,6 +7,9 @@ function watch(overrides: Partial<WatchWithSources>): WatchWithSources {
     id: overrides.id ?? 1,
     brand: overrides.brand ?? "Omega",
     model: overrides.model ?? "Speedmaster Moonwatch Professional",
+    canonicalModel: overrides.canonicalModel ?? null,
+    modelGroup: overrides.modelGroup ?? null,
+    variant: overrides.variant ?? null,
     reference: overrides.reference ?? "310.30.42.50.01.001",
     brandSlug: overrides.brandSlug ?? "omega",
     modelSlug: overrides.modelSlug ?? "speedmaster-moonwatch-professional",
@@ -31,6 +34,33 @@ describe("watch display groups", () => {
     expect(groups).toHaveLength(1);
     expect(groups[0].variantCount).toBe(2);
     expect(groups[0].variantReferences).toEqual(["310.30.42.50.01.001", "310.32.42.50.04.001"]);
+  });
+
+  it("groups watches by modelGroup before model slug when dimensions match", () => {
+    const groups = groupWatchesForDisplay([
+      watch({
+        id: 1,
+        model: "Seastar 1000 Auto 43mm",
+        modelSlug: "seastar-1000-auto-43mm",
+        canonicalModel: "Seastar 1000 Powermatic 80 43mm",
+        modelGroup: "tissot-seastar-1000-powermatic-80-43mm",
+        reference: "T120.407.11.041.00",
+        referenceSlug: "t120-407-11-041-00"
+      }),
+      watch({
+        id: 2,
+        model: "Seastar 1000 Powermatic80 43",
+        modelSlug: "seastar-1000-powermatic80-43",
+        canonicalModel: "Seastar 1000 Powermatic 80 43mm",
+        modelGroup: "tissot-seastar-1000-powermatic-80-43mm",
+        reference: "T120.407.11.051.00",
+        referenceSlug: "t120-407-11-051-00"
+      })
+    ]);
+
+    expect(groups).toHaveLength(1);
+    expect(groups[0].variantCount).toBe(2);
+    expect(groups[0].canonicalModel).toBe("Seastar 1000 Powermatic 80 43mm");
   });
 
   it("keeps watches with different dimensions in separate groups", () => {

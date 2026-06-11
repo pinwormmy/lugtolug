@@ -1,4 +1,4 @@
-import { getWatchHref } from "@/lib/watch";
+import { getWatchDisplayName, getWatchHref } from "@/lib/watch";
 import type { WatchDisplayGroup } from "@/lib/watchGroups";
 import type { WatchSortKey } from "@/lib/searchState";
 
@@ -47,10 +47,10 @@ export default function WatchSearchResults({
                 <a
                   className="watch-result-row"
                   href={getWatchHref(watch)}
-                  aria-label={`${watch.brand} ${watch.model} details`}
+                  aria-label={`${getWatchDisplayName(watch)} details`}
                 >
                   <span className="watch-result-name">
-                    <strong>{[watch.brand, watch.model].filter(Boolean).join(" ")}</strong>
+                    <strong>{getWatchDisplayName(watch)}</strong>
                   </span>
                   <span className="watch-result-size">
                     <strong>{compactDimension(watch.lugToLugMm)}</strong>

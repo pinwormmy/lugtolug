@@ -5,6 +5,9 @@ export interface Watch {
   id: number;
   brand: string;
   model: string;
+  canonicalModel?: string | null;
+  modelGroup?: string | null;
+  variant?: string | null;
   reference: string;
   brandSlug: string;
   modelSlug: string;
