@@ -2709,3 +2709,137 @@ VALUES
 (1465, 1458, 'https://www.rolex.com/en-us/watches/day-date/m228238-0061', 'Official Rolex product page identifies reference 228238 as a 40 mm 18 kt yellow gold Day-Date.'),
 (1466, 1458, 'https://www.bobswatches.com/rolex/day_date_40-228238', 'Bob''s Watches lists the 228238 at 40 mm diameter, 12.3 mm thickness, 47.5 mm lug-to-lug, and 21 mm lug width.'),
 (1467, 1458, 'https://watchspecs.com/watches/rolex-day-date-40-228238', 'WatchSpecs lists the 228238 at 40 mm diameter, 12.1 mm thickness, and 47.4 mm lug-to-lug.');
+
+
+INSERT OR IGNORE INTO watches
+(id, brand, model, reference, brand_slug, model_slug, reference_slug, search_text, lug_to_lug_mm, case_mm, thickness_mm, lug_width_mm, status)
+VALUES
+(1459, 'Patek Philippe', 'Nautilus 5811 White Gold', '5811/1G-001', 'patek-philippe', 'nautilus-5811-white-gold', '5811-1g-001', 'patek philippe nautilus 5811 white gold 5811 1g 001', 49.5, 41, 8.2, NULL, 'approved'),
+(1460, 'Rolex', 'Land-Dweller 36', '127234', 'rolex', 'land-dweller-36', '127234', 'rolex land dweller 36 127234', 43.5, 36, 9.7, NULL, 'approved'),
+(1461, 'Rolex', 'Land-Dweller 40', '127334', 'rolex', 'land-dweller-40', '127334', 'rolex land dweller 40 127334', 46.5, 40, 9.7, NULL, 'approved'),
+(1462, 'Patek Philippe', 'Nautilus 5711', '5711/1A-010', 'patek-philippe', 'nautilus-5711', '5711-1a-010', 'patek philippe nautilus 5711 5711 1a 010', 44, 40, 8.3, NULL, 'approved'),
+(1463, 'Patek Philippe', 'Nautilus Moon Phases 5712', '5712/1A-001', 'patek-philippe', 'nautilus-moon-phases-5712', '5712-1a-001', 'patek philippe nautilus moon phases 5712 5712 1a 001', 44, 40, 8.52, NULL, 'approved'),
+(1464, 'Patek Philippe', 'Nautilus Annual Calendar 5726', '5726/1A-014', 'patek-philippe', 'nautilus-annual-calendar-5726', '5726-1a-014', 'patek philippe nautilus annual calendar 5726 5726 1a 014', 44.5, 40.5, 11.3, NULL, 'approved'),
+(1465, 'Patek Philippe', 'Nautilus Perpetual Calendar 5740', '5740/1G-001', 'patek-philippe', 'nautilus-perpetual-calendar-5740', '5740-1g-001', 'patek philippe nautilus perpetual calendar 5740 5740 1g 001', 44, 40, 8.42, NULL, 'approved'),
+(1466, 'Patek Philippe', 'Nautilus Travel Time Chronograph 5990', '5990/1A-011', 'patek-philippe', 'nautilus-travel-time-chronograph-5990', '5990-1a-011', 'patek philippe nautilus travel time chronograph 5990 5990 1a 011', 44.5, 40.5, 12.53, NULL, 'approved'),
+(1467, 'Patek Philippe', 'Nautilus Chronograph 5980', '5980/1R-001', 'patek-philippe', 'nautilus-chronograph-5980', '5980-1r-001', 'patek philippe nautilus chronograph 5980 5980 1r 001', 44.5, 40.5, 12.2, NULL, 'approved'),
+(1468, 'Patek Philippe', 'Aquanaut Date', '5167A-001', 'patek-philippe', 'aquanaut-date', '5167a-001', 'patek philippe aquanaut date 5167a 001', 46.6, 40.8, 8.1, NULL, 'approved'),
+(1469, 'Patek Philippe', 'Aquanaut Date', '5167R-001', 'patek-philippe', 'aquanaut-date', '5167r-001', 'patek philippe aquanaut date 5167r 001', 46.6, 40.8, 8.1, NULL, 'approved'),
+(1470, 'Patek Philippe', 'Aquanaut Travel Time', '5164G-001', 'patek-philippe', 'aquanaut-travel-time', '5164g-001', 'patek philippe aquanaut travel time 5164g 001', 47, 40.8, 10.2, NULL, 'approved'),
+(1471, 'Patek Philippe', 'Aquanaut Travel Time', '5164R-001', 'patek-philippe', 'aquanaut-travel-time', '5164r-001', 'patek philippe aquanaut travel time 5164r 001', 47, 40.8, 10.2, NULL, 'approved'),
+(1472, 'Patek Philippe', 'Aquanaut Jumbo', '5168G-001', 'patek-philippe', 'aquanaut-jumbo', '5168g-001', 'patek philippe aquanaut jumbo 5168g 001', 48.5, 42.2, 8.25, NULL, 'approved'),
+(1473, 'Patek Philippe', 'Aquanaut Jumbo', '5168G-010', 'patek-philippe', 'aquanaut-jumbo', '5168g-010', 'patek philippe aquanaut jumbo 5168g 010', 48.5, 42.2, 8.25, NULL, 'approved'),
+(1474, 'Patek Philippe', 'Aquanaut Chronograph', '5968A-001', 'patek-philippe', 'aquanaut-chronograph', '5968a-001', 'patek philippe aquanaut chronograph 5968a 001', 48.5, 42.2, 11.9, NULL, 'approved'),
+(1475, 'Patek Philippe', 'Calatrava 5226G', '5226G-001', 'patek-philippe', 'calatrava-5226g', '5226g-001', 'patek philippe calatrava 5226g 5226g 001', 46.5, 40, 8.53, NULL, 'approved'),
+(1476, 'Patek Philippe', 'Calatrava 5227', '5227G-010', 'patek-philippe', 'calatrava-5227', '5227g-010', 'patek philippe calatrava 5227 5227g 010', 46.5, 39, 9.24, NULL, 'approved'),
+(1477, 'Patek Philippe', 'Calatrava Clous de Paris', '6119G-001', 'patek-philippe', 'calatrava-clous-de-paris', '6119g-001', 'patek philippe calatrava clous de paris 6119g 001', 46.5, 39, 8.08, NULL, 'approved'),
+(1478, 'Patek Philippe', 'Calatrava Clous de Paris', '6119R-001', 'patek-philippe', 'calatrava-clous-de-paris', '6119r-001', 'patek philippe calatrava clous de paris 6119r 001', 46.5, 39, 8.1, NULL, 'approved'),
+(1479, 'Patek Philippe', 'Cubitus Date', '5821/1A-001', 'patek-philippe', 'cubitus-date', '5821-1a-001', 'patek philippe cubitus date 5821 1a 001', 49.5, 45, 8.3, NULL, 'approved'),
+(1480, 'Patek Philippe', 'Cubitus Instantaneous Grand Date', '5822P-001', 'patek-philippe', 'cubitus-instantaneous-grand-date', '5822p-001', 'patek philippe cubitus instantaneous grand date 5822p 001', 49.5, 45, 9.6, NULL, 'approved'),
+(1481, 'Citizen', 'Promaster Fujitsubo Mechanical Diver', 'NB6021-17E', 'citizen', 'promaster-fujitsubo-mechanical-diver', 'nb6021-17e', 'citizen promaster fujitsubo mechanical diver nb6021 17e', 48.5, 41, 12.3, 20, 'approved'),
+(1482, 'Citizen', 'Promaster Fujitsubo Mechanical Diver', 'NB6021-68L', 'citizen', 'promaster-fujitsubo-mechanical-diver', 'nb6021-68l', 'citizen promaster fujitsubo mechanical diver nb6021 68l', 48.5, 41, 12.3, 20, 'approved'),
+(1483, 'Citizen', 'Promaster Fujitsubo Mechanical Diver', 'NB6025-59H', 'citizen', 'promaster-fujitsubo-mechanical-diver', 'nb6025-59h', 'citizen promaster fujitsubo mechanical diver nb6025 59h', 48.5, 41, 12.3, 20, 'approved'),
+(1484, 'Citizen', 'Promaster Fujitsubo Mechanical Diver', 'NB6026-56L', 'citizen', 'promaster-fujitsubo-mechanical-diver', 'nb6026-56l', 'citizen promaster fujitsubo mechanical diver nb6026 56l', 48.5, 41, 12.3, 20, 'approved'),
+(1485, 'Citizen', 'Zenshin Small Seconds Automatic', 'NJ0180-80A', 'citizen', 'zenshin-small-seconds-automatic', 'nj0180-80a', 'citizen zenshin small seconds automatic nj0180 80a', 50, 40.5, 11, NULL, 'approved'),
+(1486, 'Citizen', 'Zenshin Small Seconds Automatic', 'NJ0180-80L', 'citizen', 'zenshin-small-seconds-automatic', 'nj0180-80l', 'citizen zenshin small seconds automatic nj0180 80l', 50, 40.5, 11, NULL, 'approved'),
+(1487, 'Citizen', 'Zenshin Small Seconds Automatic', 'NJ0180-80M', 'citizen', 'zenshin-small-seconds-automatic', 'nj0180-80m', 'citizen zenshin small seconds automatic nj0180 80m', 50, 40.5, 11, NULL, 'approved'),
+(1488, 'Citizen', 'Zenshin Small Seconds Automatic', 'NJ0180-80X', 'citizen', 'zenshin-small-seconds-automatic', 'nj0180-80x', 'citizen zenshin small seconds automatic nj0180 80x', 50, 40.5, 11, NULL, 'approved'),
+(1489, 'Citizen', 'Series8 831 Mechanical', 'NB6050-51E', 'citizen', 'series8-831-mechanical', 'nb6050-51e', 'citizen series8 831 mechanical nb6050 51e', 46.5, 40.1, 10.5, 20, 'approved'),
+(1490, 'Citizen', 'Series8 831 Mechanical', 'NB6050-51W', 'citizen', 'series8-831-mechanical', 'nb6050-51w', 'citizen series8 831 mechanical nb6050 51w', 46.5, 40.1, 10.5, 20, 'approved'),
+(1491, 'Citizen', 'Series8 831 Mechanical', 'NB6051-59L', 'citizen', 'series8-831-mechanical', 'nb6051-59l', 'citizen series8 831 mechanical nb6051 59l', 46.5, 40.1, 10.5, 20, 'approved'),
+(1492, 'Citizen', 'Series8 831 Mechanical', 'NB6059-57P', 'citizen', 'series8-831-mechanical', 'nb6059-57p', 'citizen series8 831 mechanical nb6059 57p', 46.5, 40.1, 10.5, 20, 'approved'),
+(1493, 'Citizen', 'Series8 890 Mechanical GMT', 'NB6069-53H', 'citizen', 'series8-890-mechanical-gmt', 'nb6069-53h', 'citizen series8 890 mechanical gmt nb6069 53h', 47, 40.5, 11.7, NULL, 'approved'),
+(1494, 'Citizen', 'Series8 870 Mechanical', 'NB6010-81E', 'citizen', 'series8-870-mechanical', 'nb6010-81e', 'citizen series8 870 mechanical nb6010 81e', 46, 40, 10.1, NULL, 'approved'),
+(1495, 'Citizen', 'Series8 870 Mechanical', 'NB6010-81L', 'citizen', 'series8-870-mechanical', 'nb6010-81l', 'citizen series8 870 mechanical nb6010 81l', 46, 40, 10.1, NULL, 'approved'),
+(1496, 'Citizen', 'Series8 870 Mechanical', 'NB6012-18L', 'citizen', 'series8-870-mechanical', 'nb6012-18l', 'citizen series8 870 mechanical nb6012 18l', 46, 40, 10.1, NULL, 'approved'),
+(1497, 'Citizen', 'TSUYOSA Automatic', 'NJ0150-81E', 'citizen', 'tsuyosa-automatic', 'nj0150-81e', 'citizen tsuyosa automatic nj0150 81e', 49, 40, 11.7, 9, 'approved'),
+(1498, 'Citizen', 'TSUYOSA Automatic', 'NJ0150-81L', 'citizen', 'tsuyosa-automatic', 'nj0150-81l', 'citizen tsuyosa automatic nj0150 81l', 49, 40, 11.7, 9, 'approved'),
+(1499, 'Citizen', 'TSUYOSA Automatic', 'NJ0150-81X', 'citizen', 'tsuyosa-automatic', 'nj0150-81x', 'citizen tsuyosa automatic nj0150 81x', 49, 40, 11.7, 9, 'approved'),
+(1500, 'Citizen', 'TSUYOSA Automatic', 'NJ0150-81Z', 'citizen', 'tsuyosa-automatic', 'nj0150-81z', 'citizen tsuyosa automatic nj0150 81z', 49, 40, 11.7, 9, 'approved');
+
+UPDATE watches SET canonical_model = 'Nautilus 5811', model_group = 'patek-philippe-nautilus-5811', variant = 'White gold / blue dial' WHERE id = 1459;
+UPDATE watches SET canonical_model = 'Nautilus 5711', model_group = 'patek-philippe-nautilus-5711', variant = 'Stainless steel / blue dial' WHERE id = 1462;
+UPDATE watches SET canonical_model = 'Nautilus Moon Phases 5712', model_group = 'patek-philippe-nautilus-5712', variant = 'Stainless steel / blue dial' WHERE id = 1463;
+UPDATE watches SET canonical_model = 'Nautilus Annual Calendar 5726', model_group = 'patek-philippe-nautilus-5726', variant = 'Stainless steel / blue dial' WHERE id = 1464;
+UPDATE watches SET canonical_model = 'Nautilus Perpetual Calendar 5740', model_group = 'patek-philippe-nautilus-5740', variant = 'White gold / blue dial' WHERE id = 1465;
+UPDATE watches SET canonical_model = 'Nautilus Travel Time Chronograph 5990', model_group = 'patek-philippe-nautilus-5990', variant = 'Stainless steel / blue dial' WHERE id = 1466;
+UPDATE watches SET canonical_model = 'Nautilus Chronograph 5980', model_group = 'patek-philippe-nautilus-5980', variant = 'Rose gold / black dial' WHERE id = 1467;
+UPDATE watches SET canonical_model = 'Aquanaut Date 40.8mm', model_group = 'patek-philippe-aquanaut-date-40-8mm', variant = 'Steel / black strap' WHERE id = 1468;
+UPDATE watches SET canonical_model = 'Aquanaut Date 40.8mm', model_group = 'patek-philippe-aquanaut-date-40-8mm', variant = 'Rose gold / brown strap' WHERE id = 1469;
+UPDATE watches SET canonical_model = 'Aquanaut Travel Time 40.8mm', model_group = 'patek-philippe-aquanaut-travel-time-40-8mm', variant = 'White gold / blue-gray strap' WHERE id = 1470;
+UPDATE watches SET canonical_model = 'Aquanaut Travel Time 40.8mm', model_group = 'patek-philippe-aquanaut-travel-time-40-8mm', variant = 'Rose gold / brown strap' WHERE id = 1471;
+UPDATE watches SET canonical_model = 'Aquanaut Jumbo 42.2mm', model_group = 'patek-philippe-aquanaut-jumbo-42-2mm', variant = 'White gold / blue strap' WHERE id = 1472;
+UPDATE watches SET canonical_model = 'Aquanaut Jumbo 42.2mm', model_group = 'patek-philippe-aquanaut-jumbo-42-2mm', variant = 'White gold / khaki green strap' WHERE id = 1473;
+UPDATE watches SET canonical_model = 'Aquanaut Chronograph 42.2mm', model_group = 'patek-philippe-aquanaut-chronograph-42-2mm', variant = 'Steel / black dial' WHERE id = 1474;
+UPDATE watches SET canonical_model = 'Calatrava 5226G', model_group = 'patek-philippe-calatrava-5226g', variant = 'White gold / charcoal dial' WHERE id = 1475;
+UPDATE watches SET canonical_model = 'Calatrava 5227', model_group = 'patek-philippe-calatrava-5227', variant = 'White gold / black dial' WHERE id = 1476;
+UPDATE watches SET canonical_model = 'Calatrava Clous de Paris 6119', model_group = 'patek-philippe-calatrava-6119', variant = 'White gold / gray dial' WHERE id = 1477;
+UPDATE watches SET canonical_model = 'Calatrava Clous de Paris 6119', model_group = 'patek-philippe-calatrava-6119', variant = 'Rose gold / silver dial' WHERE id = 1478;
+UPDATE watches SET canonical_model = 'Cubitus Date 45mm', model_group = 'patek-philippe-cubitus-date-45mm', variant = 'Steel / green dial' WHERE id = 1479;
+UPDATE watches SET canonical_model = 'Cubitus Instantaneous Grand Date 45mm', model_group = 'patek-philippe-cubitus-grand-date-45mm', variant = 'Platinum / blue dial' WHERE id = 1480;
+UPDATE watches SET canonical_model = 'Promaster Fujitsubo Mechanical Diver 41mm', model_group = 'citizen-promaster-fujitsubo-mechanical-diver-41mm', variant = 'Black dial / rubber strap' WHERE id = 1481;
+UPDATE watches SET canonical_model = 'Promaster Fujitsubo Mechanical Diver 41mm', model_group = 'citizen-promaster-fujitsubo-mechanical-diver-41mm', variant = 'Blue dial / bracelet' WHERE id = 1482;
+UPDATE watches SET canonical_model = 'Promaster Fujitsubo Mechanical Diver 41mm', model_group = 'citizen-promaster-fujitsubo-mechanical-diver-41mm', variant = 'Gray dial / bracelet' WHERE id = 1483;
+UPDATE watches SET canonical_model = 'Promaster Fujitsubo Mechanical Diver 41mm', model_group = 'citizen-promaster-fujitsubo-mechanical-diver-41mm', variant = 'Blue dial / bracelet' WHERE id = 1484;
+UPDATE watches SET canonical_model = 'Zenshin Small Seconds Automatic 40.5mm', model_group = 'citizen-zenshin-small-seconds-automatic-40-5mm', variant = 'Silver dial / titanium bracelet' WHERE id = 1485;
+UPDATE watches SET canonical_model = 'Zenshin Small Seconds Automatic 40.5mm', model_group = 'citizen-zenshin-small-seconds-automatic-40-5mm', variant = 'Blue dial / titanium bracelet' WHERE id = 1486;
+UPDATE watches SET canonical_model = 'Zenshin Small Seconds Automatic 40.5mm', model_group = 'citizen-zenshin-small-seconds-automatic-40-5mm', variant = 'Light green dial / titanium bracelet' WHERE id = 1487;
+UPDATE watches SET canonical_model = 'Zenshin Small Seconds Automatic 40.5mm', model_group = 'citizen-zenshin-small-seconds-automatic-40-5mm', variant = 'Green dial / titanium bracelet' WHERE id = 1488;
+UPDATE watches SET canonical_model = 'Series8 831 Mechanical 40.1mm', model_group = 'citizen-series8-831-mechanical-40-1mm', variant = 'Black dial / bracelet' WHERE id = 1489;
+UPDATE watches SET canonical_model = 'Series8 831 Mechanical 40.1mm', model_group = 'citizen-series8-831-mechanical-40-1mm', variant = 'Green dial / bracelet' WHERE id = 1490;
+UPDATE watches SET canonical_model = 'Series8 831 Mechanical 40.1mm', model_group = 'citizen-series8-831-mechanical-40-1mm', variant = 'Blue dial / bracelet' WHERE id = 1491;
+UPDATE watches SET canonical_model = 'Series8 831 Mechanical 40.1mm', model_group = 'citizen-series8-831-mechanical-40-1mm', variant = 'Champagne dial / bracelet' WHERE id = 1492;
+UPDATE watches SET canonical_model = 'Series8 Mechanical GMT 40.5mm', model_group = 'citizen-series8-mechanical-gmt-40-5mm', variant = 'Gray dial / bracelet' WHERE id = 1493;
+UPDATE watches SET canonical_model = 'Series8 870 Mechanical 40mm', model_group = 'citizen-series8-870-mechanical-40mm', variant = 'Black dial / bracelet' WHERE id = 1494;
+UPDATE watches SET canonical_model = 'Series8 870 Mechanical 40mm', model_group = 'citizen-series8-870-mechanical-40mm', variant = 'Blue dial / bracelet' WHERE id = 1495;
+UPDATE watches SET canonical_model = 'Series8 870 Mechanical 40mm', model_group = 'citizen-series8-870-mechanical-40mm', variant = 'Blue dial / strap' WHERE id = 1496;
+UPDATE watches SET canonical_model = 'TSUYOSA Automatic 40mm', model_group = 'citizen-tsuyosa-automatic-40mm', variant = 'Black dial / bracelet' WHERE id = 1497;
+UPDATE watches SET canonical_model = 'TSUYOSA Automatic 40mm', model_group = 'citizen-tsuyosa-automatic-40mm', variant = 'Blue dial / bracelet' WHERE id = 1498;
+UPDATE watches SET canonical_model = 'TSUYOSA Automatic 40mm', model_group = 'citizen-tsuyosa-automatic-40mm', variant = 'Green dial / bracelet' WHERE id = 1499;
+UPDATE watches SET canonical_model = 'TSUYOSA Automatic 40mm', model_group = 'citizen-tsuyosa-automatic-40mm', variant = 'Yellow dial / bracelet' WHERE id = 1500;
+
+INSERT OR IGNORE INTO watch_sources (id, watch_id, source_url, note)
+VALUES
+(1468, 1459, 'https://www.patek.com/en/collection/nautilus/5811-1G-001', 'Official Patek Philippe page identifies 5811/1G-001 and lists a 41 mm case with 8.2 mm thickness.'),
+(1469, 1459, 'https://youtube.com/watch?v=oR-MeYSGKVk&t=1s&pp=2AEBkAIB', 'Live approved submission source used for the 49.5 mm lug-to-lug backfill from production.'),
+(1470, 1460, 'https://monochrome-watches.com/rolex-land-dweller-collection-review-specs-price', 'Backfilled from the live site; Monochrome lists the 36 mm Land-Dweller case and production submitted lug-to-lug value.'),
+(1471, 1461, 'https://monochrome-watches.com/rolex-land-dweller-collection-review-specs-price/', 'Backfilled from the live site; Monochrome lists the 40 mm Land-Dweller case and production submitted lug-to-lug value.'),
+(1472, 1462, 'https://watchbase.com/patek-philippe/nautilus/5711-1a-010', 'WatchBase identifies 5711/1A-010 and lists a 40 mm case with 8.3 mm height; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source.'),
+(1473, 1463, 'https://watchbase.com/patek-philippe/nautilus/5712-1a-001', 'WatchBase identifies 5712/1A-001 and lists a 40 mm case with 8.52 mm height; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source.'),
+(1474, 1464, 'https://watchbase.com/patek-philippe/nautilus/5726-1a-014', 'WatchBase identifies 5726/1A-014 and lists a 40.5 mm case with 11.3 mm height; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source.'),
+(1475, 1465, 'https://watchbase.com/patek-philippe/nautilus/5740-1g-001', 'WatchBase identifies 5740/1G-001 and lists a 40 mm case with 8.42 mm height; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source.'),
+(1476, 1466, 'https://watchbase.com/patek-philippe/nautilus/5990-1a-011', 'WatchBase identifies 5990/1A-011 and lists a 40.5 mm case with 12.53 mm height; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source.'),
+(1477, 1467, 'https://watchbase.com/patek-philippe/nautilus/5980-1r-001', 'WatchBase identifies 5980/1R-001 and lists a 40.5 mm case with 12.2 mm height; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source.'),
+(1478, 1468, 'https://watch.the1916company.com/videos/patek-philippe-aquanaut-5167a-001-review', 'The 1916 Company review lists the Aquanaut 5167A at 40 mm, 8.3 mm thick, and 46.6 mm lug-to-lug.'),
+(1479, 1469, 'https://www.patek.com/en/collection/aquanaut/5167R-001', 'Official Patek Philippe page lists 5167R-001 at 40.8 mm and 8.1 mm; 5167A physical review is used as the same-case lug-to-lug cross-check.'),
+(1480, 1470, 'https://www.patek.com/en/collection/aquanaut/5164G-001', 'Official Patek Philippe page lists 5164G-001 at 40.8 mm and 10.2 mm; 5164A physical review is used as the same-case 47 mm lug-to-lug cross-check.'),
+(1481, 1471, 'https://watch.the1916company.com/videos/patek-philippe-aquanaut-travel-time-5164a-001-review', 'The 1916 Company review lists the same 5164 Travel Time case family at 41 mm, 13.4 mm thick, and 47 mm lug-to-lug; Patek official dimensions are used for the current 5164R thickness.'),
+(1482, 1472, 'https://www.patek.com/en/collection/aquanaut/5168G-001', 'Official Patek Philippe page lists 5168G-001 at 42.2 mm and 8.25 mm; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source.'),
+(1483, 1473, 'https://www.patek.com/en/collection/aquanaut/5168G-010', 'Official Patek Philippe page lists 5168G-010 at 42.2 mm and 8.25 mm; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source.'),
+(1484, 1474, 'https://watchbase.com/patek-philippe/aquanaut/5968a-001', 'WatchBase identifies 5968A-001 and lists a 42.2 mm case with 11.9 mm height; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source.'),
+(1485, 1475, 'https://www.patek.com/en/collection/calatrava/5226G-001', 'Official Patek Philippe page lists 5226G-001 at 40 mm and 8.53 mm; lug-to-lug is an operator-maintained value pending direct physical measurement source.'),
+(1486, 1476, 'https://watchbase.com/patek-philippe/calatrava/5227g-010', 'WatchBase identifies 5227G-010 and lists a 39 mm case with 9.24 mm height; lug-to-lug is an operator-maintained value pending direct physical measurement source.'),
+(1487, 1477, 'https://www.patek.com/en/collection/calatrava/6119G-001', 'Official Patek Philippe page identifies 6119G-001; WatchBase lists the 39 mm case and 8.08 mm height. Lug-to-lug is an operator-maintained value pending direct physical measurement source.'),
+(1488, 1478, 'https://watchbase.com/patek-philippe/calatrava/6119r-001', 'WatchBase identifies 6119R-001 and lists a 39 mm case with 8.1 mm height; lug-to-lug is an operator-maintained value pending direct physical measurement source.'),
+(1489, 1479, 'https://watchbase.com/patek-philippe/cubitus/5821-1a-001', 'WatchBase identifies 5821/1A-001 and lists a 45 mm square case with 8.3 mm height; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source.'),
+(1490, 1480, 'https://www.patek.com/en/collection/cubitus/5822P-001', 'Official Patek Philippe page lists 5822P-001 at 45 mm and 9.6 mm; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source.'),
+(1491, 1481, 'https://citizenwatch.eu/en/p/nb6021-17e/', 'Official Citizen EU page lists NB6021-17E at 41 mm, 12.3 mm height, and 20 mm lug width; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source.'),
+(1492, 1482, 'https://citizenwatch.eu/en/p/nb6021-68l/', 'Official Citizen EU page lists NB6021-68L at 41 mm and 12.3 mm height; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source.'),
+(1493, 1483, 'https://citizenwatch.eu/en/p/nb6025-59h/', 'Official Citizen EU page identifies NB6025-59H as a 41 mm Promaster Fujitsubo variant; thickness and lug-to-lug are normalized to the same 41 mm case family pending direct physical measurement source.'),
+(1494, 1484, 'https://citizenwatch.eu/en/p/nb6026-56l/', 'Official Citizen EU page lists NB6026-56L at 41 mm and 12.3 mm height; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source.'),
+(1495, 1485, 'https://citizenwatch.eu/en/p/nj0180-80a/', 'Official Citizen EU page lists NJ0180-80A at 40.5 mm, 11 mm height, and 50 mm length.'),
+(1496, 1486, 'https://citizenwatch.eu/en/p/nj0180-80l/', 'Official Citizen EU page lists NJ0180-80L at 40.5 mm, 11 mm height, and 50 mm length.'),
+(1497, 1487, 'https://citizenwatch.eu/en/p/nj0180-80m/', 'Official Citizen EU page lists NJ0180-80M at 40.5 mm, 11 mm height, and 50 mm length.'),
+(1498, 1488, 'https://citizenwatch.eu/en/p/nj0180-80x/', 'Official Citizen EU page lists NJ0180-80X at 40.5 mm, 11 mm height, and 50 mm length.'),
+(1499, 1489, 'https://citizenwatch.eu/en/p/nb6050-51e/', 'Official Citizen EU page lists NB6050-51E at 40.1 mm, 10.5 mm height, and 20 mm lug width; lug-to-lug is an operator-maintained value pending direct physical measurement source.'),
+(1500, 1490, 'https://citizenwatch.eu/en/p/nb6050-51w/', 'Official Citizen EU page lists NB6050-51W at 40.1 mm, 10.5 mm height, and 20 mm lug width; lug-to-lug is an operator-maintained value pending direct physical measurement source.'),
+(1501, 1491, 'https://citizenwatch.eu/en/p/nb6051-59l/', 'Official Citizen EU page lists NB6051-59L at 40.1 mm and about 10.55 mm height; thickness is rounded for case-family grouping and lug-to-lug is pending direct physical measurement source.'),
+(1502, 1492, 'https://citizenwatch.eu/en/p/nb6059-57p/', 'Official Citizen EU page lists NB6059-57P at 40.1 mm, 10.5 mm height, and 20 mm lug width; lug-to-lug is an operator-maintained value pending direct physical measurement source.'),
+(1503, 1493, 'https://citizenwatch.eu/en/p/nb6069-53h/', 'Official Citizen EU page lists NB6069-53H at 40.5 mm and 11.7 mm height; lug-to-lug is an operator-maintained value pending direct physical measurement source.'),
+(1504, 1494, 'https://citizenwatch.eu/en/p/nb6010-81e/', 'Official Citizen EU page identifies NB6010-81E as a 40 mm Series8 variant; thickness and lug-to-lug are normalized to the same case family pending direct physical measurement source.'),
+(1505, 1495, 'https://citizenwatch.eu/en/p/nb6010-81l/', 'Official Citizen EU page lists NB6010-81L at 40 mm and 10.1 mm height; lug-to-lug is an operator-maintained value pending direct physical measurement source.'),
+(1506, 1496, 'https://citizenwatch.eu/en/p/nb6012-18l/', 'Official Citizen EU page lists NB6012-18L at 40 mm and 10.1 mm height; lug-to-lug is an operator-maintained value pending direct physical measurement source.'),
+(1507, 1497, 'https://citizenwatch.eu/en/p/nj0150-81e/', 'Official Citizen EU page lists NJ0150-81E as a 40 mm TSUYOSA variant with 9 mm strap lug width; thickness and lug-to-lug are normalized to the same case family pending direct physical measurement source.'),
+(1508, 1498, 'https://citizenwatch.eu/en/p/nj0150-81l/', 'Official Citizen EU page lists NJ0150-81L as a 40 mm TSUYOSA variant with 9 mm strap lug width; thickness and lug-to-lug are normalized to the same case family pending direct physical measurement source.'),
+(1509, 1499, 'https://citizenwatch.eu/en/p/nj0150-81x/', 'Official Citizen EU page lists NJ0150-81X as a 40 mm TSUYOSA variant with 9 mm strap lug width; thickness and lug-to-lug are normalized to the same case family pending direct physical measurement source.'),
+(1510, 1500, 'https://citizenwatch.eu/en/p/nj0150-81z/', 'Official Citizen EU page lists NJ0150-81Z as a 40 mm TSUYOSA variant with 9 mm strap lug width; thickness and lug-to-lug are normalized to the same case family pending direct physical measurement source.');

@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import seed from "../../data/watches.seed.json";
+import { searchSeedWatches } from "./seed";
 
 describe("watch seed data integrity", () => {
   it("uses unique IDs", () => {
@@ -27,6 +28,32 @@ describe("watch seed data integrity", () => {
       for (const source of watch.sources) {
         expect(() => new URL(source.sourceUrl)).not.toThrow();
       }
+    }
+  });
+
+  it("includes the planned Patek Philippe and Citizen expansion references without duplicates", () => {
+    const referencesByBrand = (brand: string) =>
+      seed.filter((watch) => watch.brand === brand).map((watch) => watch.reference);
+
+    const patekReferences = referencesByBrand("Patek Philippe");
+    const citizenReferences = referencesByBrand("Citizen");
+
+    expect(patekReferences).toHaveLength(20);
+    expect(new Set(patekReferences).size).toBe(patekReferences.length);
+    expect(patekReferences).toEqual(
+      expect.arrayContaining(["5811/1G-001", "5712/1A-001", "5167A-001", "5168G-010", "5821/1A-001"])
+    );
+
+    expect(citizenReferences).toHaveLength(23);
+    expect(new Set(citizenReferences).size).toBe(citizenReferences.length);
+    expect(citizenReferences).toEqual(
+      expect.arrayContaining(["NB6021-17E", "NJ0180-80X", "NB6050-51W", "NJ0150-81L", "NJ0150-81Z"])
+    );
+  });
+
+  it("returns planned expansion records through seed search", () => {
+    for (const query of ["5712", "5167", "Promaster", "TSUYOSA", "Series8"]) {
+      expect(searchSeedWatches(query).length).toBeGreaterThan(0);
     }
   });
 });

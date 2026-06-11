@@ -18,6 +18,7 @@
     "db:seed:remote": "wrangler d1 execute lugtolug-finder --remote --file=./data/seed.sql",
     "kv:create:session": "wrangler kv namespace create SESSION",
     "admin:sql": "node scripts/create-admin-sql.mjs",
+    "data:duplicates": "node scripts/watch-duplicate-candidates.mjs",
     "smoke:workflow": "node scripts/workflow-smoke.mjs",
     "test": "vitest run",
     "typecheck": "ASTRO_TELEMETRY_DISABLED=1 astro check"

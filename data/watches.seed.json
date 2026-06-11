@@ -24194,5 +24194,801 @@
         "note": "WatchSpecs lists the 228238 at 40 mm diameter, 12.1 mm thickness, and 47.4 mm lug-to-lug."
       }
     ]
+  },
+  {
+    "id": 1459,
+    "brand": "Patek Philippe",
+    "model": "Nautilus 5811 White Gold",
+    "canonicalModel": "Nautilus 5811",
+    "modelGroup": "patek-philippe-nautilus-5811",
+    "variant": "White gold / blue dial",
+    "reference": "5811/1G-001",
+    "lugToLugMm": 49.5,
+    "caseMm": 41,
+    "thicknessMm": 8.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.patek.com/en/collection/nautilus/5811-1G-001",
+        "note": "Official Patek Philippe page identifies 5811/1G-001 and lists a 41 mm case with 8.2 mm thickness."
+      },
+      {
+        "sourceUrl": "https://youtube.com/watch?v=oR-MeYSGKVk&t=1s&pp=2AEBkAIB",
+        "note": "Live approved submission source used for the 49.5 mm lug-to-lug backfill from production."
+      }
+    ]
+  },
+  {
+    "id": 1460,
+    "brand": "Rolex",
+    "model": "Land-Dweller 36",
+    "reference": "127234",
+    "lugToLugMm": 43.5,
+    "caseMm": 36,
+    "thicknessMm": 9.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/rolex-land-dweller-collection-review-specs-price",
+        "note": "Backfilled from the live site; Monochrome lists the 36 mm Land-Dweller case and production submitted lug-to-lug value."
+      }
+    ]
+  },
+  {
+    "id": 1461,
+    "brand": "Rolex",
+    "model": "Land-Dweller 40",
+    "reference": "127334",
+    "lugToLugMm": 46.5,
+    "caseMm": 40,
+    "thicknessMm": 9.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/rolex-land-dweller-collection-review-specs-price/",
+        "note": "Backfilled from the live site; Monochrome lists the 40 mm Land-Dweller case and production submitted lug-to-lug value."
+      }
+    ]
+  },
+  {
+    "id": 1462,
+    "brand": "Patek Philippe",
+    "model": "Nautilus 5711",
+    "canonicalModel": "Nautilus 5711",
+    "modelGroup": "patek-philippe-nautilus-5711",
+    "variant": "Stainless steel / blue dial",
+    "reference": "5711/1A-010",
+    "lugToLugMm": 44,
+    "caseMm": 40,
+    "thicknessMm": 8.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://watchbase.com/patek-philippe/nautilus/5711-1a-010",
+        "note": "WatchBase identifies 5711/1A-010 and lists a 40 mm case with 8.3 mm height; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1463,
+    "brand": "Patek Philippe",
+    "model": "Nautilus Moon Phases 5712",
+    "canonicalModel": "Nautilus Moon Phases 5712",
+    "modelGroup": "patek-philippe-nautilus-5712",
+    "variant": "Stainless steel / blue dial",
+    "reference": "5712/1A-001",
+    "lugToLugMm": 44,
+    "caseMm": 40,
+    "thicknessMm": 8.52,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://watchbase.com/patek-philippe/nautilus/5712-1a-001",
+        "note": "WatchBase identifies 5712/1A-001 and lists a 40 mm case with 8.52 mm height; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1464,
+    "brand": "Patek Philippe",
+    "model": "Nautilus Annual Calendar 5726",
+    "canonicalModel": "Nautilus Annual Calendar 5726",
+    "modelGroup": "patek-philippe-nautilus-5726",
+    "variant": "Stainless steel / blue dial",
+    "reference": "5726/1A-014",
+    "lugToLugMm": 44.5,
+    "caseMm": 40.5,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://watchbase.com/patek-philippe/nautilus/5726-1a-014",
+        "note": "WatchBase identifies 5726/1A-014 and lists a 40.5 mm case with 11.3 mm height; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1465,
+    "brand": "Patek Philippe",
+    "model": "Nautilus Perpetual Calendar 5740",
+    "canonicalModel": "Nautilus Perpetual Calendar 5740",
+    "modelGroup": "patek-philippe-nautilus-5740",
+    "variant": "White gold / blue dial",
+    "reference": "5740/1G-001",
+    "lugToLugMm": 44,
+    "caseMm": 40,
+    "thicknessMm": 8.42,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://watchbase.com/patek-philippe/nautilus/5740-1g-001",
+        "note": "WatchBase identifies 5740/1G-001 and lists a 40 mm case with 8.42 mm height; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1466,
+    "brand": "Patek Philippe",
+    "model": "Nautilus Travel Time Chronograph 5990",
+    "canonicalModel": "Nautilus Travel Time Chronograph 5990",
+    "modelGroup": "patek-philippe-nautilus-5990",
+    "variant": "Stainless steel / blue dial",
+    "reference": "5990/1A-011",
+    "lugToLugMm": 44.5,
+    "caseMm": 40.5,
+    "thicknessMm": 12.53,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://watchbase.com/patek-philippe/nautilus/5990-1a-011",
+        "note": "WatchBase identifies 5990/1A-011 and lists a 40.5 mm case with 12.53 mm height; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1467,
+    "brand": "Patek Philippe",
+    "model": "Nautilus Chronograph 5980",
+    "canonicalModel": "Nautilus Chronograph 5980",
+    "modelGroup": "patek-philippe-nautilus-5980",
+    "variant": "Rose gold / black dial",
+    "reference": "5980/1R-001",
+    "lugToLugMm": 44.5,
+    "caseMm": 40.5,
+    "thicknessMm": 12.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://watchbase.com/patek-philippe/nautilus/5980-1r-001",
+        "note": "WatchBase identifies 5980/1R-001 and lists a 40.5 mm case with 12.2 mm height; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1468,
+    "brand": "Patek Philippe",
+    "model": "Aquanaut Date",
+    "canonicalModel": "Aquanaut Date 40.8mm",
+    "modelGroup": "patek-philippe-aquanaut-date-40-8mm",
+    "variant": "Steel / black strap",
+    "reference": "5167A-001",
+    "lugToLugMm": 46.6,
+    "caseMm": 40.8,
+    "thicknessMm": 8.1,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://watch.the1916company.com/videos/patek-philippe-aquanaut-5167a-001-review",
+        "note": "The 1916 Company review lists the Aquanaut 5167A at 40 mm, 8.3 mm thick, and 46.6 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1469,
+    "brand": "Patek Philippe",
+    "model": "Aquanaut Date",
+    "canonicalModel": "Aquanaut Date 40.8mm",
+    "modelGroup": "patek-philippe-aquanaut-date-40-8mm",
+    "variant": "Rose gold / brown strap",
+    "reference": "5167R-001",
+    "lugToLugMm": 46.6,
+    "caseMm": 40.8,
+    "thicknessMm": 8.1,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.patek.com/en/collection/aquanaut/5167R-001",
+        "note": "Official Patek Philippe page lists 5167R-001 at 40.8 mm and 8.1 mm; 5167A physical review is used as the same-case lug-to-lug cross-check."
+      }
+    ]
+  },
+  {
+    "id": 1470,
+    "brand": "Patek Philippe",
+    "model": "Aquanaut Travel Time",
+    "canonicalModel": "Aquanaut Travel Time 40.8mm",
+    "modelGroup": "patek-philippe-aquanaut-travel-time-40-8mm",
+    "variant": "White gold / blue-gray strap",
+    "reference": "5164G-001",
+    "lugToLugMm": 47,
+    "caseMm": 40.8,
+    "thicknessMm": 10.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.patek.com/en/collection/aquanaut/5164G-001",
+        "note": "Official Patek Philippe page lists 5164G-001 at 40.8 mm and 10.2 mm; 5164A physical review is used as the same-case 47 mm lug-to-lug cross-check."
+      }
+    ]
+  },
+  {
+    "id": 1471,
+    "brand": "Patek Philippe",
+    "model": "Aquanaut Travel Time",
+    "canonicalModel": "Aquanaut Travel Time 40.8mm",
+    "modelGroup": "patek-philippe-aquanaut-travel-time-40-8mm",
+    "variant": "Rose gold / brown strap",
+    "reference": "5164R-001",
+    "lugToLugMm": 47,
+    "caseMm": 40.8,
+    "thicknessMm": 10.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://watch.the1916company.com/videos/patek-philippe-aquanaut-travel-time-5164a-001-review",
+        "note": "The 1916 Company review lists the same 5164 Travel Time case family at 41 mm, 13.4 mm thick, and 47 mm lug-to-lug; Patek official dimensions are used for the current 5164R thickness."
+      }
+    ]
+  },
+  {
+    "id": 1472,
+    "brand": "Patek Philippe",
+    "model": "Aquanaut Jumbo",
+    "canonicalModel": "Aquanaut Jumbo 42.2mm",
+    "modelGroup": "patek-philippe-aquanaut-jumbo-42-2mm",
+    "variant": "White gold / blue strap",
+    "reference": "5168G-001",
+    "lugToLugMm": 48.5,
+    "caseMm": 42.2,
+    "thicknessMm": 8.25,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.patek.com/en/collection/aquanaut/5168G-001",
+        "note": "Official Patek Philippe page lists 5168G-001 at 42.2 mm and 8.25 mm; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1473,
+    "brand": "Patek Philippe",
+    "model": "Aquanaut Jumbo",
+    "canonicalModel": "Aquanaut Jumbo 42.2mm",
+    "modelGroup": "patek-philippe-aquanaut-jumbo-42-2mm",
+    "variant": "White gold / khaki green strap",
+    "reference": "5168G-010",
+    "lugToLugMm": 48.5,
+    "caseMm": 42.2,
+    "thicknessMm": 8.25,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.patek.com/en/collection/aquanaut/5168G-010",
+        "note": "Official Patek Philippe page lists 5168G-010 at 42.2 mm and 8.25 mm; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1474,
+    "brand": "Patek Philippe",
+    "model": "Aquanaut Chronograph",
+    "canonicalModel": "Aquanaut Chronograph 42.2mm",
+    "modelGroup": "patek-philippe-aquanaut-chronograph-42-2mm",
+    "variant": "Steel / black dial",
+    "reference": "5968A-001",
+    "lugToLugMm": 48.5,
+    "caseMm": 42.2,
+    "thicknessMm": 11.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://watchbase.com/patek-philippe/aquanaut/5968a-001",
+        "note": "WatchBase identifies 5968A-001 and lists a 42.2 mm case with 11.9 mm height; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1475,
+    "brand": "Patek Philippe",
+    "model": "Calatrava 5226G",
+    "canonicalModel": "Calatrava 5226G",
+    "modelGroup": "patek-philippe-calatrava-5226g",
+    "variant": "White gold / charcoal dial",
+    "reference": "5226G-001",
+    "lugToLugMm": 46.5,
+    "caseMm": 40,
+    "thicknessMm": 8.53,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.patek.com/en/collection/calatrava/5226G-001",
+        "note": "Official Patek Philippe page lists 5226G-001 at 40 mm and 8.53 mm; lug-to-lug is an operator-maintained value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1476,
+    "brand": "Patek Philippe",
+    "model": "Calatrava 5227",
+    "canonicalModel": "Calatrava 5227",
+    "modelGroup": "patek-philippe-calatrava-5227",
+    "variant": "White gold / black dial",
+    "reference": "5227G-010",
+    "lugToLugMm": 46.5,
+    "caseMm": 39,
+    "thicknessMm": 9.24,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://watchbase.com/patek-philippe/calatrava/5227g-010",
+        "note": "WatchBase identifies 5227G-010 and lists a 39 mm case with 9.24 mm height; lug-to-lug is an operator-maintained value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1477,
+    "brand": "Patek Philippe",
+    "model": "Calatrava Clous de Paris",
+    "canonicalModel": "Calatrava Clous de Paris 6119",
+    "modelGroup": "patek-philippe-calatrava-6119",
+    "variant": "White gold / gray dial",
+    "reference": "6119G-001",
+    "lugToLugMm": 46.5,
+    "caseMm": 39,
+    "thicknessMm": 8.08,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.patek.com/en/collection/calatrava/6119G-001",
+        "note": "Official Patek Philippe page identifies 6119G-001; WatchBase lists the 39 mm case and 8.08 mm height. Lug-to-lug is an operator-maintained value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1478,
+    "brand": "Patek Philippe",
+    "model": "Calatrava Clous de Paris",
+    "canonicalModel": "Calatrava Clous de Paris 6119",
+    "modelGroup": "patek-philippe-calatrava-6119",
+    "variant": "Rose gold / silver dial",
+    "reference": "6119R-001",
+    "lugToLugMm": 46.5,
+    "caseMm": 39,
+    "thicknessMm": 8.1,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://watchbase.com/patek-philippe/calatrava/6119r-001",
+        "note": "WatchBase identifies 6119R-001 and lists a 39 mm case with 8.1 mm height; lug-to-lug is an operator-maintained value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1479,
+    "brand": "Patek Philippe",
+    "model": "Cubitus Date",
+    "canonicalModel": "Cubitus Date 45mm",
+    "modelGroup": "patek-philippe-cubitus-date-45mm",
+    "variant": "Steel / green dial",
+    "reference": "5821/1A-001",
+    "lugToLugMm": 49.5,
+    "caseMm": 45,
+    "thicknessMm": 8.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://watchbase.com/patek-philippe/cubitus/5821-1a-001",
+        "note": "WatchBase identifies 5821/1A-001 and lists a 45 mm square case with 8.3 mm height; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1480,
+    "brand": "Patek Philippe",
+    "model": "Cubitus Instantaneous Grand Date",
+    "canonicalModel": "Cubitus Instantaneous Grand Date 45mm",
+    "modelGroup": "patek-philippe-cubitus-grand-date-45mm",
+    "variant": "Platinum / blue dial",
+    "reference": "5822P-001",
+    "lugToLugMm": 49.5,
+    "caseMm": 45,
+    "thicknessMm": 9.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.patek.com/en/collection/cubitus/5822P-001",
+        "note": "Official Patek Philippe page lists 5822P-001 at 45 mm and 9.6 mm; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1481,
+    "brand": "Citizen",
+    "model": "Promaster Fujitsubo Mechanical Diver",
+    "canonicalModel": "Promaster Fujitsubo Mechanical Diver 41mm",
+    "modelGroup": "citizen-promaster-fujitsubo-mechanical-diver-41mm",
+    "variant": "Black dial / rubber strap",
+    "reference": "NB6021-17E",
+    "lugToLugMm": 48.5,
+    "caseMm": 41,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://citizenwatch.eu/en/p/nb6021-17e/",
+        "note": "Official Citizen EU page lists NB6021-17E at 41 mm, 12.3 mm height, and 20 mm lug width; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1482,
+    "brand": "Citizen",
+    "model": "Promaster Fujitsubo Mechanical Diver",
+    "canonicalModel": "Promaster Fujitsubo Mechanical Diver 41mm",
+    "modelGroup": "citizen-promaster-fujitsubo-mechanical-diver-41mm",
+    "variant": "Blue dial / bracelet",
+    "reference": "NB6021-68L",
+    "lugToLugMm": 48.5,
+    "caseMm": 41,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://citizenwatch.eu/en/p/nb6021-68l/",
+        "note": "Official Citizen EU page lists NB6021-68L at 41 mm and 12.3 mm height; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1483,
+    "brand": "Citizen",
+    "model": "Promaster Fujitsubo Mechanical Diver",
+    "canonicalModel": "Promaster Fujitsubo Mechanical Diver 41mm",
+    "modelGroup": "citizen-promaster-fujitsubo-mechanical-diver-41mm",
+    "variant": "Gray dial / bracelet",
+    "reference": "NB6025-59H",
+    "lugToLugMm": 48.5,
+    "caseMm": 41,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://citizenwatch.eu/en/p/nb6025-59h/",
+        "note": "Official Citizen EU page identifies NB6025-59H as a 41 mm Promaster Fujitsubo variant; thickness and lug-to-lug are normalized to the same 41 mm case family pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1484,
+    "brand": "Citizen",
+    "model": "Promaster Fujitsubo Mechanical Diver",
+    "canonicalModel": "Promaster Fujitsubo Mechanical Diver 41mm",
+    "modelGroup": "citizen-promaster-fujitsubo-mechanical-diver-41mm",
+    "variant": "Blue dial / bracelet",
+    "reference": "NB6026-56L",
+    "lugToLugMm": 48.5,
+    "caseMm": 41,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://citizenwatch.eu/en/p/nb6026-56l/",
+        "note": "Official Citizen EU page lists NB6026-56L at 41 mm and 12.3 mm height; lug-to-lug is an operator-maintained case-family value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1485,
+    "brand": "Citizen",
+    "model": "Zenshin Small Seconds Automatic",
+    "canonicalModel": "Zenshin Small Seconds Automatic 40.5mm",
+    "modelGroup": "citizen-zenshin-small-seconds-automatic-40-5mm",
+    "variant": "Silver dial / titanium bracelet",
+    "reference": "NJ0180-80A",
+    "lugToLugMm": 50,
+    "caseMm": 40.5,
+    "thicknessMm": 11,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://citizenwatch.eu/en/p/nj0180-80a/",
+        "note": "Official Citizen EU page lists NJ0180-80A at 40.5 mm, 11 mm height, and 50 mm length."
+      }
+    ]
+  },
+  {
+    "id": 1486,
+    "brand": "Citizen",
+    "model": "Zenshin Small Seconds Automatic",
+    "canonicalModel": "Zenshin Small Seconds Automatic 40.5mm",
+    "modelGroup": "citizen-zenshin-small-seconds-automatic-40-5mm",
+    "variant": "Blue dial / titanium bracelet",
+    "reference": "NJ0180-80L",
+    "lugToLugMm": 50,
+    "caseMm": 40.5,
+    "thicknessMm": 11,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://citizenwatch.eu/en/p/nj0180-80l/",
+        "note": "Official Citizen EU page lists NJ0180-80L at 40.5 mm, 11 mm height, and 50 mm length."
+      }
+    ]
+  },
+  {
+    "id": 1487,
+    "brand": "Citizen",
+    "model": "Zenshin Small Seconds Automatic",
+    "canonicalModel": "Zenshin Small Seconds Automatic 40.5mm",
+    "modelGroup": "citizen-zenshin-small-seconds-automatic-40-5mm",
+    "variant": "Light green dial / titanium bracelet",
+    "reference": "NJ0180-80M",
+    "lugToLugMm": 50,
+    "caseMm": 40.5,
+    "thicknessMm": 11,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://citizenwatch.eu/en/p/nj0180-80m/",
+        "note": "Official Citizen EU page lists NJ0180-80M at 40.5 mm, 11 mm height, and 50 mm length."
+      }
+    ]
+  },
+  {
+    "id": 1488,
+    "brand": "Citizen",
+    "model": "Zenshin Small Seconds Automatic",
+    "canonicalModel": "Zenshin Small Seconds Automatic 40.5mm",
+    "modelGroup": "citizen-zenshin-small-seconds-automatic-40-5mm",
+    "variant": "Green dial / titanium bracelet",
+    "reference": "NJ0180-80X",
+    "lugToLugMm": 50,
+    "caseMm": 40.5,
+    "thicknessMm": 11,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://citizenwatch.eu/en/p/nj0180-80x/",
+        "note": "Official Citizen EU page lists NJ0180-80X at 40.5 mm, 11 mm height, and 50 mm length."
+      }
+    ]
+  },
+  {
+    "id": 1489,
+    "brand": "Citizen",
+    "model": "Series8 831 Mechanical",
+    "canonicalModel": "Series8 831 Mechanical 40.1mm",
+    "modelGroup": "citizen-series8-831-mechanical-40-1mm",
+    "variant": "Black dial / bracelet",
+    "reference": "NB6050-51E",
+    "lugToLugMm": 46.5,
+    "caseMm": 40.1,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://citizenwatch.eu/en/p/nb6050-51e/",
+        "note": "Official Citizen EU page lists NB6050-51E at 40.1 mm, 10.5 mm height, and 20 mm lug width; lug-to-lug is an operator-maintained value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1490,
+    "brand": "Citizen",
+    "model": "Series8 831 Mechanical",
+    "canonicalModel": "Series8 831 Mechanical 40.1mm",
+    "modelGroup": "citizen-series8-831-mechanical-40-1mm",
+    "variant": "Green dial / bracelet",
+    "reference": "NB6050-51W",
+    "lugToLugMm": 46.5,
+    "caseMm": 40.1,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://citizenwatch.eu/en/p/nb6050-51w/",
+        "note": "Official Citizen EU page lists NB6050-51W at 40.1 mm, 10.5 mm height, and 20 mm lug width; lug-to-lug is an operator-maintained value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1491,
+    "brand": "Citizen",
+    "model": "Series8 831 Mechanical",
+    "canonicalModel": "Series8 831 Mechanical 40.1mm",
+    "modelGroup": "citizen-series8-831-mechanical-40-1mm",
+    "variant": "Blue dial / bracelet",
+    "reference": "NB6051-59L",
+    "lugToLugMm": 46.5,
+    "caseMm": 40.1,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://citizenwatch.eu/en/p/nb6051-59l/",
+        "note": "Official Citizen EU page lists NB6051-59L at 40.1 mm and about 10.55 mm height; thickness is rounded for case-family grouping and lug-to-lug is pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1492,
+    "brand": "Citizen",
+    "model": "Series8 831 Mechanical",
+    "canonicalModel": "Series8 831 Mechanical 40.1mm",
+    "modelGroup": "citizen-series8-831-mechanical-40-1mm",
+    "variant": "Champagne dial / bracelet",
+    "reference": "NB6059-57P",
+    "lugToLugMm": 46.5,
+    "caseMm": 40.1,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://citizenwatch.eu/en/p/nb6059-57p/",
+        "note": "Official Citizen EU page lists NB6059-57P at 40.1 mm, 10.5 mm height, and 20 mm lug width; lug-to-lug is an operator-maintained value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1493,
+    "brand": "Citizen",
+    "model": "Series8 890 Mechanical GMT",
+    "canonicalModel": "Series8 Mechanical GMT 40.5mm",
+    "modelGroup": "citizen-series8-mechanical-gmt-40-5mm",
+    "variant": "Gray dial / bracelet",
+    "reference": "NB6069-53H",
+    "lugToLugMm": 47,
+    "caseMm": 40.5,
+    "thicknessMm": 11.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://citizenwatch.eu/en/p/nb6069-53h/",
+        "note": "Official Citizen EU page lists NB6069-53H at 40.5 mm and 11.7 mm height; lug-to-lug is an operator-maintained value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1494,
+    "brand": "Citizen",
+    "model": "Series8 870 Mechanical",
+    "canonicalModel": "Series8 870 Mechanical 40mm",
+    "modelGroup": "citizen-series8-870-mechanical-40mm",
+    "variant": "Black dial / bracelet",
+    "reference": "NB6010-81E",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 10.1,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://citizenwatch.eu/en/p/nb6010-81e/",
+        "note": "Official Citizen EU page identifies NB6010-81E as a 40 mm Series8 variant; thickness and lug-to-lug are normalized to the same case family pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1495,
+    "brand": "Citizen",
+    "model": "Series8 870 Mechanical",
+    "canonicalModel": "Series8 870 Mechanical 40mm",
+    "modelGroup": "citizen-series8-870-mechanical-40mm",
+    "variant": "Blue dial / bracelet",
+    "reference": "NB6010-81L",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 10.1,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://citizenwatch.eu/en/p/nb6010-81l/",
+        "note": "Official Citizen EU page lists NB6010-81L at 40 mm and 10.1 mm height; lug-to-lug is an operator-maintained value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1496,
+    "brand": "Citizen",
+    "model": "Series8 870 Mechanical",
+    "canonicalModel": "Series8 870 Mechanical 40mm",
+    "modelGroup": "citizen-series8-870-mechanical-40mm",
+    "variant": "Blue dial / strap",
+    "reference": "NB6012-18L",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 10.1,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://citizenwatch.eu/en/p/nb6012-18l/",
+        "note": "Official Citizen EU page lists NB6012-18L at 40 mm and 10.1 mm height; lug-to-lug is an operator-maintained value pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1497,
+    "brand": "Citizen",
+    "model": "TSUYOSA Automatic",
+    "canonicalModel": "TSUYOSA Automatic 40mm",
+    "modelGroup": "citizen-tsuyosa-automatic-40mm",
+    "variant": "Black dial / bracelet",
+    "reference": "NJ0150-81E",
+    "lugToLugMm": 49,
+    "caseMm": 40,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 9,
+    "sources": [
+      {
+        "sourceUrl": "https://citizenwatch.eu/en/p/nj0150-81e/",
+        "note": "Official Citizen EU page lists NJ0150-81E as a 40 mm TSUYOSA variant with 9 mm strap lug width; thickness and lug-to-lug are normalized to the same case family pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1498,
+    "brand": "Citizen",
+    "model": "TSUYOSA Automatic",
+    "canonicalModel": "TSUYOSA Automatic 40mm",
+    "modelGroup": "citizen-tsuyosa-automatic-40mm",
+    "variant": "Blue dial / bracelet",
+    "reference": "NJ0150-81L",
+    "lugToLugMm": 49,
+    "caseMm": 40,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 9,
+    "sources": [
+      {
+        "sourceUrl": "https://citizenwatch.eu/en/p/nj0150-81l/",
+        "note": "Official Citizen EU page lists NJ0150-81L as a 40 mm TSUYOSA variant with 9 mm strap lug width; thickness and lug-to-lug are normalized to the same case family pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1499,
+    "brand": "Citizen",
+    "model": "TSUYOSA Automatic",
+    "canonicalModel": "TSUYOSA Automatic 40mm",
+    "modelGroup": "citizen-tsuyosa-automatic-40mm",
+    "variant": "Green dial / bracelet",
+    "reference": "NJ0150-81X",
+    "lugToLugMm": 49,
+    "caseMm": 40,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 9,
+    "sources": [
+      {
+        "sourceUrl": "https://citizenwatch.eu/en/p/nj0150-81x/",
+        "note": "Official Citizen EU page lists NJ0150-81X as a 40 mm TSUYOSA variant with 9 mm strap lug width; thickness and lug-to-lug are normalized to the same case family pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1500,
+    "brand": "Citizen",
+    "model": "TSUYOSA Automatic",
+    "canonicalModel": "TSUYOSA Automatic 40mm",
+    "modelGroup": "citizen-tsuyosa-automatic-40mm",
+    "variant": "Yellow dial / bracelet",
+    "reference": "NJ0150-81Z",
+    "lugToLugMm": 49,
+    "caseMm": 40,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 9,
+    "sources": [
+      {
+        "sourceUrl": "https://citizenwatch.eu/en/p/nj0150-81z/",
+        "note": "Official Citizen EU page lists NJ0150-81Z as a 40 mm TSUYOSA variant with 9 mm strap lug width; thickness and lug-to-lug are normalized to the same case family pending direct physical measurement source."
+      }
+    ]
   }
 ]
