@@ -4,11 +4,10 @@ import SearchApp from "@/components/SearchApp";
 import WatchRow from "@/components/WatchRow.astro";
 import { getDb, listRecentWatches, listWatches } from "@/lib/db";
 import { readSearchState } from "@/lib/searchState";
-import { groupWatchesForDisplay } from "@/lib/watchGroups";
 
 const db = getDb(Astro.locals);
 const watches = await listWatches(db);
-const recentWatches = groupWatchesForDisplay(await listRecentWatches(db, 20)).slice(0, 5);
+const recentWatches = await listRecentWatches(db, 5);
 const initialSearchState = readSearchState(Astro.url.searchParams);
 ---
 
