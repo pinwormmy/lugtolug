@@ -2,6 +2,7 @@
 import "@/styles/global.css";
 import { getAdminSession } from "@/lib/auth";
 import { getDb } from "@/lib/db";
+import { recordVisitor } from "@/lib/db/visitors";
 
 interface Props {
   title?: string;
@@ -13,7 +14,11 @@ const {
   description = "Search watch records by brand, model, and reference."
 } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://lugtolug.pages.dev").toString();
-const adminSession = await getAdminSession(getDb(Astro.locals), Astro.request);
+const db = getDb(Astro.locals);
+const [adminSession, visitorCounts] = await Promise.all([
+  getAdminSession(db, Astro.request),
+  recordVisitor(db, Astro.cookies)
+]);
 ---
 
 <!doctype html>
@@ -55,7 +60,17 @@ const adminSession = await getAdminSession(getDb(Astro.locals), Astro.request);
         <slot />
       </main>
       <footer class="footer">
-        Measurements vary by source and reference. Always verify the published record before purchase.
+        <p>Measurements vary by source and reference. Always verify the published record before purchase.</p>
+        <dl class="visitor-counts" aria-label="Visitor counts">
+          <div>
+            <dt>Daily visitors</dt>
+            <dd>{visitorCounts.dailyVisitors.toLocaleString("en-US")}</dd>
+          </div>
+          <div>
+            <dt>Total visitors</dt>
+            <dd>{visitorCounts.totalVisitors.toLocaleString("en-US")}</dd>
+          </div>
+        </dl>
       </footer>
     </div>
   </body>
