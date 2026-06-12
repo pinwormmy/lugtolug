@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import seed from "../../data/watches.seed.json";
-import { searchSeedWatches } from "./seed";
+import { searchSeedWatches, seedWatches } from "./seed";
+import { groupWatchesForDisplay } from "./watchGroups";
 
 describe("watch seed data integrity", () => {
   it("uses unique IDs", () => {
@@ -54,6 +55,24 @@ describe("watch seed data integrity", () => {
   it("returns planned expansion records through seed search", () => {
     for (const query of ["5712", "5167", "Promaster", "TSUYOSA", "Series8"]) {
       expect(searchSeedWatches(query).length).toBeGreaterThan(0);
+    }
+  });
+
+  it("groups normalized variant-only seed families for display", () => {
+    const expectedGroups = [
+      ["omega-seamaster-diver-300m-42mm", 6],
+      ["omega-speedmaster-moonwatch-professional-42mm", 2],
+      ["formex-reef-39-5mm-automatic-cosc-300m", 5],
+      ["traska-commuter-36", 3],
+      ["zelos-hammerhead-43-field", 7],
+      ["mido-multifort-tv-big-date-40mm", 4]
+    ] as const;
+
+    for (const [modelGroup, variantCount] of expectedGroups) {
+      const groups = groupWatchesForDisplay(seedWatches.filter((watch) => watch.modelGroup === modelGroup));
+
+      expect(groups, modelGroup).toHaveLength(1);
+      expect(groups[0].variantCount, modelGroup).toBe(variantCount);
     }
   });
 });
