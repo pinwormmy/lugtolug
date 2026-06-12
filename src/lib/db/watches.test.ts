@@ -96,6 +96,27 @@ describe("recent watches", () => {
     expect(recent[1].brand).toBe("Audemars Piguet");
   });
 
+  it("includes recent seed additions when database approvals fill the home feed", async () => {
+    const { db } = createMockDb([
+      watchRow({ id: 10, brand: "Zenith", brand_slug: "zenith", updated_at: "2026-06-05T12:00:00.000Z" }),
+      watchRow({
+        id: 9,
+        brand: "Audemars Piguet",
+        brand_slug: "audemars-piguet",
+        updated_at: "2026-06-04T12:00:00.000Z"
+      }),
+      watchRow({ id: 8, brand: "Tissot", brand_slug: "tissot", updated_at: "2026-06-03T12:00:00.000Z" }),
+      watchRow({ id: 7, brand: "Omega", brand_slug: "omega", updated_at: "2026-06-02T12:00:00.000Z" }),
+      watchRow({ id: 6, brand: "Seiko", brand_slug: "seiko", updated_at: "2026-06-01T12:00:00.000Z" })
+    ]);
+
+    const recent = await listRecentWatches(db, 5);
+
+    expect(recent).toHaveLength(5);
+    expect(recent.slice(0, 3).map((watch) => watch.brand)).toEqual(["Zenith", "Audemars Piguet", "Tissot"]);
+    expect(recent.some((watch) => watch.brand === "Citizen" && watch.reference === "NJ0150-81Z")).toBe(true);
+  });
+
   it("resolves editable watches by slugs instead of a public seed id", async () => {
     const { db, prepareCalls } = createMockDb([
       watchRow({

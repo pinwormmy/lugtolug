@@ -47,11 +47,8 @@ export async function listRecentWatches(db: D1, limit = 5): Promise<WatchWithSou
     .prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY updated_at DESC, id DESC LIMIT ?")
     .bind(limit)
     .all<WatchRow>();
-  return mergeSeedWatchesInOrder(
-    await hydrateSources(db, rows.results.map(mapWatch)),
-    seedWatches,
-    await listSuppressedSeedKeys(db)
-  ).slice(0, limit);
+  const watches = await hydrateSources(db, rows.results.map(mapWatch));
+  return mergeRecentSeedWatches(watches, seedWatches, await listSuppressedSeedKeys(db), limit);
 }
 
 export async function listAdminWatches(db: D1, status: WatchStatus | "all" = "pending"): Promise<WatchWithSources[]> {
@@ -174,20 +171,27 @@ function mergeSeedWatches(
   return merged.sort((a, b) => a.brand.localeCompare(b.brand) || a.model.localeCompare(b.model));
 }
 
-function mergeSeedWatchesInOrder(
+function mergeRecentSeedWatches(
   watches: WatchWithSources[],
   seeds: WatchWithSources[],
-  suppressedSeedKeys = new Set<string>()
+  suppressedSeedKeys: Set<string>,
+  limit: number
 ): WatchWithSources[] {
-  const merged = [...watches];
   const seen = new Set(watches.map(getWatchKey));
-  for (const seed of seeds) {
-    const key = getWatchKey(seed);
-    if (seen.has(key) || suppressedSeedKeys.has(key)) continue;
-    merged.push(seed);
-    seen.add(key);
-  }
-  return merged;
+  const recentSeeds = seeds
+    .slice()
+    .sort((a, b) => b.id - a.id)
+    .filter((seed) => {
+      const key = getWatchKey(seed);
+      return !seen.has(key) && !suppressedSeedKeys.has(key);
+    });
+
+  const emptySlots = Math.max(0, limit - watches.length);
+  const reservedSeedSlots =
+    emptySlots > 0 ? emptySlots : recentSeeds.length > 0 && limit > 1 ? Math.min(Math.ceil(limit / 3), limit - 1) : 0;
+  const dbSlots = Math.max(0, limit - reservedSeedSlots);
+
+  return [...watches.slice(0, dbSlots), ...recentSeeds.slice(0, reservedSeedSlots)].slice(0, limit);
 }
 
 function getWatchKey(watch: WatchKeyParts): string {
