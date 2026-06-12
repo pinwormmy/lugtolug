@@ -58,6 +58,8 @@ button {
 }
 
 .site-shell {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
 }
 
@@ -177,6 +179,7 @@ button {
 }
 
 .main {
+  flex: 1;
   padding: clamp(18px, 3vw, 36px);
 }
 
