@@ -39,13 +39,13 @@ describe("watch seed data integrity", () => {
     const patekReferences = referencesByBrand("Patek Philippe");
     const citizenReferences = referencesByBrand("Citizen");
 
-    expect(patekReferences).toHaveLength(20);
+    expect(patekReferences).toHaveLength(21);
     expect(new Set(patekReferences).size).toBe(patekReferences.length);
     expect(patekReferences).toEqual(
       expect.arrayContaining(["5811/1G-001", "5712/1A-001", "5167A-001", "5168G-010", "5821/1A-001"])
     );
 
-    expect(citizenReferences).toHaveLength(23);
+    expect(citizenReferences).toHaveLength(27);
     expect(new Set(citizenReferences).size).toBe(citizenReferences.length);
     expect(citizenReferences).toEqual(
       expect.arrayContaining(["NB6021-17E", "NJ0180-80X", "NB6050-51W", "NJ0150-81L", "NJ0150-81Z"])
@@ -55,7 +55,7 @@ describe("watch seed data integrity", () => {
   it("includes the Grand Seiko expansion references without duplicates", () => {
     const grandSeikoReferences = seed.filter((watch) => watch.brand === "Grand Seiko").map((watch) => watch.reference);
 
-    expect(grandSeikoReferences).toHaveLength(69);
+    expect(grandSeikoReferences).toHaveLength(99);
     expect(new Set(grandSeikoReferences).size).toBe(grandSeikoReferences.length);
     expect(grandSeikoReferences).toEqual(
       expect.arrayContaining(["SBGN027", "SBGE285", "SBGW283", "SBGY013", "SLGB005", "SBGH376", "SBGX355"])
