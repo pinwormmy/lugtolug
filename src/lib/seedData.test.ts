@@ -52,8 +52,18 @@ describe("watch seed data integrity", () => {
     );
   });
 
+  it("includes the Grand Seiko expansion references without duplicates", () => {
+    const grandSeikoReferences = seed.filter((watch) => watch.brand === "Grand Seiko").map((watch) => watch.reference);
+
+    expect(grandSeikoReferences).toHaveLength(68);
+    expect(new Set(grandSeikoReferences).size).toBe(grandSeikoReferences.length);
+    expect(grandSeikoReferences).toEqual(
+      expect.arrayContaining(["SBGN027", "SBGE285", "SBGW283", "SBGY013", "SLGB005", "SBGH376"])
+    );
+  });
+
   it("returns planned expansion records through seed search", () => {
-    for (const query of ["5712", "5167", "Promaster", "TSUYOSA", "Series8"]) {
+    for (const query of ["5712", "5167", "Promaster", "TSUYOSA", "Series8", "SBGN027", "SLGB005"]) {
       expect(searchSeedWatches(query).length).toBeGreaterThan(0);
     }
   });
@@ -65,7 +75,13 @@ describe("watch seed data integrity", () => {
       ["formex-reef-39-5mm-automatic-cosc-300m", 5],
       ["traska-commuter-36", 3],
       ["zelos-hammerhead-43-field", 7],
-      ["mido-multifort-tv-big-date-40mm", 4]
+      ["mido-multifort-tv-big-date-40mm", 4],
+      ["grand-seiko-sport-quartz-gmt-39mm", 2],
+      ["grand-seiko-elegance-manual-winding-37-3mm", 5],
+      ["grand-seiko-hand-winding-spring-drive-38-5mm", 3],
+      ["grand-seiko-evolution-9-spring-drive-5-days-40mm", 3],
+      ["grand-seiko-spring-drive-u-f-a-37mm", 4],
+      ["grand-seiko-62gs-mechanical-hi-beat-36000-38mm", 3]
     ] as const;
 
     for (const [modelGroup, variantCount] of expectedGroups) {

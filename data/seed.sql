@@ -2755,7 +2755,24 @@ VALUES
 (1497, 'Citizen', 'TSUYOSA Automatic', 'NJ0150-81E', 'citizen', 'tsuyosa-automatic', 'nj0150-81e', 'citizen tsuyosa automatic nj0150 81e', 49, 40, 11.7, 9, 'approved'),
 (1498, 'Citizen', 'TSUYOSA Automatic', 'NJ0150-81L', 'citizen', 'tsuyosa-automatic', 'nj0150-81l', 'citizen tsuyosa automatic nj0150 81l', 49, 40, 11.7, 9, 'approved'),
 (1499, 'Citizen', 'TSUYOSA Automatic', 'NJ0150-81X', 'citizen', 'tsuyosa-automatic', 'nj0150-81x', 'citizen tsuyosa automatic nj0150 81x', 49, 40, 11.7, 9, 'approved'),
-(1500, 'Citizen', 'TSUYOSA Automatic', 'NJ0150-81Z', 'citizen', 'tsuyosa-automatic', 'nj0150-81z', 'citizen tsuyosa automatic nj0150 81z', 49, 40, 11.7, 9, 'approved');
+(1500, 'Citizen', 'TSUYOSA Automatic', 'NJ0150-81Z', 'citizen', 'tsuyosa-automatic', 'nj0150-81z', 'citizen tsuyosa automatic nj0150 81z', 49, 40, 11.7, 9, 'approved'),
+(1501, 'Grand Seiko', 'Sport Quartz GMT 39mm', 'SBGN027', 'grand-seiko', 'sport-quartz-gmt-39mm', 'sbgn027', 'grand seiko sport quartz gmt 39mm sbgn027', 45.9, 39, 12.3, 19, 'approved'),
+(1502, 'Grand Seiko', 'Sport Quartz GMT 39mm', 'SBGN029', 'grand-seiko', 'sport-quartz-gmt-39mm', 'sbgn029', 'grand seiko sport quartz gmt 39mm sbgn029', 45.9, 39, 12.3, 19, 'approved'),
+(1503, 'Grand Seiko', 'Evolution 9 Spring Drive GMT Titanium', 'SBGE285', 'grand-seiko', 'evolution-9-spring-drive-gmt-titanium', 'sbge285', 'grand seiko evolution 9 spring drive gmt titanium sbge285', 48.3, 41, 13.9, 22, 'approved'),
+(1504, 'Grand Seiko', 'Sport Automatic Spring Drive 3-Day GMT', 'SBGE307', 'grand-seiko', 'sport-automatic-spring-drive-3-day-gmt', 'sbge307', 'grand seiko sport automatic spring drive 3 day gmt sbge307', 50, 44.5, 14.9, 23, 'approved'),
+(1505, 'Grand Seiko', 'Re-creation of the First Grand Seiko', 'SBGW258', 'grand-seiko', 're-creation-of-the-first-grand-seiko', 'sbgw258', 'grand seiko re creation of the first grand seiko sbgw258', 45.8, 38, 10.9, 19, 'approved'),
+(1506, 'Grand Seiko', 'Elegance Manual winding', 'SBGW283', 'grand-seiko', 'elegance-manual-winding', 'sbgw283', 'grand seiko elegance manual winding sbgw283', 44.3, 37.3, 11.7, 19, 'approved'),
+(1507, 'Grand Seiko', 'Elegance Manual winding', 'SBGW285', 'grand-seiko', 'elegance-manual-winding', 'sbgw285', 'grand seiko elegance manual winding sbgw285', 44.3, 37.3, 11.7, 19, 'approved'),
+(1508, 'Grand Seiko', 'Elegance Manual winding', 'SBGW287', 'grand-seiko', 'elegance-manual-winding', 'sbgw287', 'grand seiko elegance manual winding sbgw287', 44.3, 37.3, 11.7, 19, 'approved'),
+(1509, 'Grand Seiko', 'Heritage Manual-winding Spring Drive', 'SBGY011', 'grand-seiko', 'heritage-manual-winding-spring-drive', 'sbgy011', 'grand seiko heritage manual winding spring drive sbgy011', 46.2, 40, 10.5, 19, 'approved'),
+(1510, 'Grand Seiko', 'Manual-winding Spring Drive', 'SBGY013', 'grand-seiko', 'manual-winding-spring-drive', 'sbgy013', 'grand seiko manual winding spring drive sbgy013', 43.7, 38.5, 10.2, 19, 'approved'),
+(1511, 'Grand Seiko', 'Annual Accuracy Quartz', 'SBGX359', 'grand-seiko', 'annual-accuracy-quartz', 'sbgx359', 'grand seiko annual accuracy quartz sbgx359', 39.7, 33, 9.1, 15, 'approved'),
+(1512, 'Grand Seiko', 'Annual Accuracy Quartz', 'SBGX361', 'grand-seiko', 'annual-accuracy-quartz', 'sbgx361', 'grand seiko annual accuracy quartz sbgx361', 39.7, 33, 9.1, 15, 'approved'),
+(1513, 'Grand Seiko', 'Spring Drive 5 Days', 'SLGA009', 'grand-seiko', 'spring-drive-5-days', 'slga009', 'grand seiko spring drive 5 days slga009', 47.9, 40, 11.8, 22, 'approved'),
+(1514, 'Grand Seiko', 'Spring Drive U.F.A.', 'SLGB005', 'grand-seiko', 'spring-drive-u-f-a', 'slgb005', 'grand seiko spring drive u f a slgb005', 44.3, 37, 11.4, 20, 'approved'),
+(1515, 'Grand Seiko', 'Spring Drive U.F.A.', 'SLGB006', 'grand-seiko', 'spring-drive-u-f-a', 'slgb006', 'grand seiko spring drive u f a slgb006', 44.3, 37, 11.4, 20, 'approved'),
+(1516, 'Grand Seiko', 'Hi-Beat 36000 80 Hours', 'SLGH013', 'grand-seiko', 'hi-beat-36000-80-hours', 'slgh013', 'grand seiko hi beat 36000 80 hours slgh013', 47.2, 40, 11.7, 19, 'approved'),
+(1517, 'Grand Seiko', '62GS Mechanical Hi-Beat 36000', 'SBGH376', 'grand-seiko', '62gs-mechanical-hi-beat-36000', 'sbgh376', 'grand seiko 62gs mechanical hi beat 36000 sbgh376', 44.7, 38, 12.9, 20, 'approved');
 
 UPDATE watches SET canonical_model = 'Speedmaster Moonwatch Professional 42mm', model_group = 'omega-speedmaster-moonwatch-professional-42mm' WHERE id = 2;
 UPDATE watches SET canonical_model = 'Seamaster Diver 300M 42mm', model_group = 'omega-seamaster-diver-300m-42mm' WHERE id = 7;
@@ -2852,6 +2869,34 @@ UPDATE watches SET canonical_model = 'TSUYOSA Automatic 40mm', model_group = 'ci
 UPDATE watches SET canonical_model = 'TSUYOSA Automatic 40mm', model_group = 'citizen-tsuyosa-automatic-40mm', variant = 'Blue dial / bracelet' WHERE id = 1498;
 UPDATE watches SET canonical_model = 'TSUYOSA Automatic 40mm', model_group = 'citizen-tsuyosa-automatic-40mm', variant = 'Green dial / bracelet' WHERE id = 1499;
 UPDATE watches SET canonical_model = 'TSUYOSA Automatic 40mm', model_group = 'citizen-tsuyosa-automatic-40mm', variant = 'Yellow dial / bracelet' WHERE id = 1500;
+UPDATE watches SET canonical_model = 'Hand-winding Spring Drive 38.5mm', model_group = 'grand-seiko-hand-winding-spring-drive-38-5mm', variant = 'Iwao Blue' WHERE id = 82;
+UPDATE watches SET canonical_model = '62GS Mechanical Hi-Beat 36000 38mm', model_group = 'grand-seiko-62gs-mechanical-hi-beat-36000-38mm' WHERE id = 100;
+UPDATE watches SET canonical_model = '62GS Mechanical Hi-Beat 36000 38mm', model_group = 'grand-seiko-62gs-mechanical-hi-beat-36000-38mm' WHERE id = 101;
+UPDATE watches SET canonical_model = 'Elegance Manual Winding 37.3mm', model_group = 'grand-seiko-elegance-manual-winding-37-3mm' WHERE id = 109;
+UPDATE watches SET canonical_model = 'Elegance Manual Winding 37.3mm', model_group = 'grand-seiko-elegance-manual-winding-37-3mm' WHERE id = 110;
+UPDATE watches SET canonical_model = 'Hand-winding Spring Drive 38.5mm', model_group = 'grand-seiko-hand-winding-spring-drive-38-5mm' WHERE id = 114;
+UPDATE watches SET canonical_model = 'Evolution 9 Spring Drive 5 Days 40mm', model_group = 'grand-seiko-evolution-9-spring-drive-5-days-40mm' WHERE id = 118;
+UPDATE watches SET canonical_model = 'Evolution 9 Spring Drive 5 Days 40mm', model_group = 'grand-seiko-evolution-9-spring-drive-5-days-40mm' WHERE id = 119;
+UPDATE watches SET canonical_model = 'Spring Drive U.F.A. 37mm', model_group = 'grand-seiko-spring-drive-u-f-a-37mm' WHERE id = 120;
+UPDATE watches SET canonical_model = 'Spring Drive U.F.A. 37mm', model_group = 'grand-seiko-spring-drive-u-f-a-37mm' WHERE id = 121;
+UPDATE watches SET canonical_model = 'Hi-Beat 36000 80 Hours 40mm', model_group = 'grand-seiko-hi-beat-36000-80-hours-40mm', variant = 'White birch dial' WHERE id = 126;
+UPDATE watches SET canonical_model = 'Sport Quartz GMT 39mm', model_group = 'grand-seiko-sport-quartz-gmt-39mm', variant = 'Black dial' WHERE id = 1501;
+UPDATE watches SET canonical_model = 'Sport Quartz GMT 39mm', model_group = 'grand-seiko-sport-quartz-gmt-39mm', variant = 'Navy blue dial' WHERE id = 1502;
+UPDATE watches SET canonical_model = 'Evolution 9 Spring Drive GMT Titanium 41mm', model_group = 'grand-seiko-evolution-9-spring-drive-gmt-titanium-41mm', variant = 'Winter mist dial' WHERE id = 1503;
+UPDATE watches SET canonical_model = 'Sport Automatic Spring Drive 3-Day GMT 44.5mm', model_group = 'grand-seiko-sport-automatic-spring-drive-3-day-gmt-44-5mm', variant = 'White dial' WHERE id = 1504;
+UPDATE watches SET canonical_model = 'Re-creation of the First Grand Seiko 38mm', model_group = 'grand-seiko-re-creation-of-the-first-grand-seiko-38mm', variant = '18k yellow gold' WHERE id = 1505;
+UPDATE watches SET canonical_model = 'Elegance Manual Winding 37.3mm', model_group = 'grand-seiko-elegance-manual-winding-37-3mm', variant = 'Kishun pale blue dial' WHERE id = 1506;
+UPDATE watches SET canonical_model = 'Elegance Manual Winding 37.3mm', model_group = 'grand-seiko-elegance-manual-winding-37-3mm', variant = 'Byoka deep green dial' WHERE id = 1507;
+UPDATE watches SET canonical_model = 'Elegance Manual Winding 37.3mm', model_group = 'grand-seiko-elegance-manual-winding-37-3mm', variant = 'Boshu burgundy dial' WHERE id = 1508;
+UPDATE watches SET canonical_model = 'Heritage Manual-winding Spring Drive 40mm', model_group = 'grand-seiko-heritage-manual-winding-spring-drive-40mm', variant = 'Asaborake white dial' WHERE id = 1509;
+UPDATE watches SET canonical_model = 'Hand-winding Spring Drive 38.5mm', model_group = 'grand-seiko-hand-winding-spring-drive-38-5mm', variant = 'Omiwatari silver dial' WHERE id = 1510;
+UPDATE watches SET canonical_model = 'Annual Accuracy Quartz 33mm', model_group = 'grand-seiko-annual-accuracy-quartz-33mm', variant = 'Snowflake white dial' WHERE id = 1511;
+UPDATE watches SET canonical_model = 'Annual Accuracy Quartz 33mm', model_group = 'grand-seiko-annual-accuracy-quartz-33mm', variant = 'Skyflake light blue dial' WHERE id = 1512;
+UPDATE watches SET canonical_model = 'Evolution 9 Spring Drive 5 Days 40mm', model_group = 'grand-seiko-evolution-9-spring-drive-5-days-40mm', variant = 'White birch dial' WHERE id = 1513;
+UPDATE watches SET canonical_model = 'Spring Drive U.F.A. 37mm', model_group = 'grand-seiko-spring-drive-u-f-a-37mm', variant = 'Frost-covered dawn violet dial' WHERE id = 1514;
+UPDATE watches SET canonical_model = 'Spring Drive U.F.A. 37mm', model_group = 'grand-seiko-spring-drive-u-f-a-37mm', variant = 'Ice Forest at Dawn yellow gold' WHERE id = 1515;
+UPDATE watches SET canonical_model = 'Hi-Beat 36000 80 Hours 40mm', model_group = 'grand-seiko-hi-beat-36000-80-hours-40mm', variant = 'Melting snow light blue dial' WHERE id = 1516;
+UPDATE watches SET canonical_model = '62GS Mechanical Hi-Beat 36000 38mm', model_group = 'grand-seiko-62gs-mechanical-hi-beat-36000-38mm', variant = 'Sakura-wakaba light green / yellow gold' WHERE id = 1517;
 
 INSERT OR IGNORE INTO watch_sources (id, watch_id, source_url, note)
 VALUES
@@ -2897,4 +2942,21 @@ VALUES
 (1507, 1497, 'https://citizenwatch.eu/en/p/nj0150-81e/', 'Official Citizen EU page lists NJ0150-81E as a 40 mm TSUYOSA variant with 9 mm strap lug width; thickness and lug-to-lug are normalized to the same case family pending direct physical measurement source.'),
 (1508, 1498, 'https://citizenwatch.eu/en/p/nj0150-81l/', 'Official Citizen EU page lists NJ0150-81L as a 40 mm TSUYOSA variant with 9 mm strap lug width; thickness and lug-to-lug are normalized to the same case family pending direct physical measurement source.'),
 (1509, 1499, 'https://citizenwatch.eu/en/p/nj0150-81x/', 'Official Citizen EU page lists NJ0150-81X as a 40 mm TSUYOSA variant with 9 mm strap lug width; thickness and lug-to-lug are normalized to the same case family pending direct physical measurement source.'),
-(1510, 1500, 'https://citizenwatch.eu/en/p/nj0150-81z/', 'Official Citizen EU page lists NJ0150-81Z as a 40 mm TSUYOSA variant with 9 mm strap lug width; thickness and lug-to-lug are normalized to the same case family pending direct physical measurement source.');
+(1510, 1500, 'https://citizenwatch.eu/en/p/nj0150-81z/', 'Official Citizen EU page lists NJ0150-81Z as a 40 mm TSUYOSA variant with 9 mm strap lug width; thickness and lug-to-lug are normalized to the same case family pending direct physical measurement source.'),
+(1511, 1501, 'https://www.grand-seiko.com/us-en/collections/sbgn027g', 'Manufacturer page: 39.0 mm diameter, 45.9 mm lug-to-lug, 12.3 mm thickness, and 19 mm band width.'),
+(1512, 1502, 'https://www.grand-seiko.com/us-en/collections/sbgn029g', 'Manufacturer page: 39.0 mm diameter, 45.9 mm lug-to-lug, 12.3 mm thickness, and 19 mm band width.'),
+(1513, 1503, 'https://www.grand-seiko.com/us-en/collections/sbge285g', 'Manufacturer page: 41.0 mm diameter, 48.3 mm lug-to-lug, 13.9 mm thickness, and 22 mm band width.'),
+(1514, 1504, 'https://www.grand-seiko.com/us-en/collections/sbge307g', 'Manufacturer page: 44.5 mm diameter, 50.0 mm lug-to-lug, 14.9 mm thickness, and 23 mm band width.'),
+(1515, 1505, 'https://www.grand-seiko.com/us-en/collections/sbgw258j', 'Manufacturer page: 38.0 mm diameter, 45.8 mm lug-to-lug, 10.9 mm thickness, and 19 mm band width.'),
+(1516, 1506, 'https://www.grand-seiko.com/us-en/collections/sbgw283g', 'Manufacturer page: 37.3 mm diameter, 44.3 mm lug-to-lug, 11.7 mm thickness, and 19 mm band width.'),
+(1517, 1507, 'https://www.grand-seiko.com/us-en/collections/sbgw285g', 'Manufacturer page: 37.3 mm diameter, 44.3 mm lug-to-lug, 11.7 mm thickness, and 19 mm band width.'),
+(1518, 1508, 'https://www.grand-seiko.com/us-en/collections/sbgw287g', 'Manufacturer page: 37.3 mm diameter, 44.3 mm lug-to-lug, 11.7 mm thickness, and 19 mm band width.'),
+(1519, 1509, 'https://www.grand-seiko.com/us-en/collections/sbgy011g', 'Manufacturer page: 40.0 mm diameter, 46.2 mm lug-to-lug, 10.5 mm thickness, and 19 mm band width.'),
+(1520, 1510, 'https://www.grand-seiko.com/us-en/collections/sbgy013g', 'Manufacturer page: 38.5 mm diameter, 43.7 mm lug-to-lug, 10.2 mm thickness, and 19 mm band width.'),
+(1521, 1511, 'https://www.grand-seiko.com/us-en/collections/sbgx359g', 'Manufacturer page: 33.0 mm diameter, 39.7 mm lug-to-lug, 9.1 mm thickness, and 15 mm band width.'),
+(1522, 1512, 'https://www.grand-seiko.com/us-en/collections/sbgx361g', 'Manufacturer page: 33.0 mm diameter, 39.7 mm lug-to-lug, 9.1 mm thickness, and 15 mm band width.'),
+(1523, 1513, 'https://www.grand-seiko.com/us-en/collections/slga009g', 'Manufacturer page: 40.0 mm diameter, 47.9 mm lug-to-lug, 11.8 mm thickness, and 22 mm band width.'),
+(1524, 1514, 'https://www.grand-seiko.com/us-en/collections/slgb005g', 'Manufacturer page: 37.0 mm diameter, 44.3 mm lug-to-lug, 11.4 mm thickness, and 20 mm band width.'),
+(1525, 1515, 'https://www.grand-seiko.com/us-en/collections/slgb006j', 'Manufacturer page: 37.0 mm diameter, 44.3 mm lug-to-lug, 11.4 mm thickness, and 20 mm band width.'),
+(1526, 1516, 'https://www.grand-seiko.com/us-en/collections/slgh013g', 'Manufacturer page: 40.0 mm diameter, 47.2 mm lug-to-lug, 11.7 mm thickness, and 19 mm band width.'),
+(1527, 1517, 'https://www.grand-seiko.com/us-en/collections/sbgh376j', 'Manufacturer page: 38.0 mm diameter, 44.7 mm lug-to-lug, 12.9 mm thickness, and 20 mm band width.');

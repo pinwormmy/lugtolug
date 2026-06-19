@@ -1,6 +1,6 @@
 # Lug-to-Lug Data Expansion Report
 
-Updated: 2026-06-06
+Updated: 2026-06-19
 
 ## Repository conventions
 
@@ -12,6 +12,38 @@ Updated: 2026-06-06
 - Optional fields that are not published are left as `null`; the schema was not changed.
 
 ## Completed batches
+
+### Grand Seiko
+
+- Added models: 17
+- Reached 10-model target: yes
+- Official-source additions: 17
+- Verified-external additions: 0
+- Duplicate candidates skipped: 0
+- Insufficient-information exclusions: 0
+- Source-conflict exclusions: 0
+
+Grand Seiko official collection pages publish explicit case diameter, lug-to-lug length, thickness, and band width. This batch filled prominent missing Korean-market brand references and normalized several existing case families with `canonicalModel` and `modelGroup` metadata for cleaner grouped display.
+
+Added references:
+
+- SBGN027
+- SBGN029
+- SBGE285
+- SBGE307
+- SBGW258
+- SBGW283
+- SBGW285
+- SBGW287
+- SBGY011
+- SBGY013
+- SBGX359
+- SBGX361
+- SLGA009
+- SLGB005
+- SLGB006
+- SLGH013
+- SBGH376
 
 ### Casio
 

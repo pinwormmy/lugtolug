@@ -1549,6 +1549,9 @@
     "id": 82,
     "brand": "Grand Seiko",
     "model": "Elegance Hand-winding Spring Drive Iwao Blue",
+    "canonicalModel": "Hand-winding Spring Drive 38.5mm",
+    "modelGroup": "grand-seiko-hand-winding-spring-drive-38-5mm",
+    "variant": "Iwao Blue",
     "reference": "SBGY043",
     "lugToLugMm": 43.7,
     "caseMm": 38.5,
@@ -1837,6 +1840,8 @@
     "id": 100,
     "brand": "Grand Seiko",
     "model": "62GS Mechanical Hi-Beat 36000",
+    "canonicalModel": "62GS Mechanical Hi-Beat 36000 38mm",
+    "modelGroup": "grand-seiko-62gs-mechanical-hi-beat-36000-38mm",
     "reference": "SBGH341",
     "lugToLugMm": 44.7,
     "caseMm": 38,
@@ -1853,6 +1858,8 @@
     "id": 101,
     "brand": "Grand Seiko",
     "model": "62GS Mechanical Hi-Beat 36000",
+    "canonicalModel": "62GS Mechanical Hi-Beat 36000 38mm",
+    "modelGroup": "grand-seiko-62gs-mechanical-hi-beat-36000-38mm",
     "reference": "SBGH343",
     "lugToLugMm": 44.7,
     "caseMm": 38,
@@ -1981,6 +1988,8 @@
     "id": 109,
     "brand": "Grand Seiko",
     "model": "Elegance Manual winding",
+    "canonicalModel": "Elegance Manual Winding 37.3mm",
+    "modelGroup": "grand-seiko-elegance-manual-winding-37-3mm",
     "reference": "SBGW281",
     "lugToLugMm": 44.3,
     "caseMm": 37.3,
@@ -1997,6 +2006,8 @@
     "id": 110,
     "brand": "Grand Seiko",
     "model": "Hand-winding Mechanical",
+    "canonicalModel": "Elegance Manual Winding 37.3mm",
+    "modelGroup": "grand-seiko-elegance-manual-winding-37-3mm",
     "reference": "SBGW301",
     "lugToLugMm": 44.3,
     "caseMm": 37.3,
@@ -2061,6 +2072,8 @@
     "id": 114,
     "brand": "Grand Seiko",
     "model": "Hand-winding Spring Drive",
+    "canonicalModel": "Hand-winding Spring Drive 38.5mm",
+    "modelGroup": "grand-seiko-hand-winding-spring-drive-38-5mm",
     "reference": "SBGY007",
     "lugToLugMm": 43.7,
     "caseMm": 38.5,
@@ -2125,6 +2138,8 @@
     "id": 118,
     "brand": "Grand Seiko",
     "model": "Spring Drive 5days",
+    "canonicalModel": "Evolution 9 Spring Drive 5 Days 40mm",
+    "modelGroup": "grand-seiko-evolution-9-spring-drive-5-days-40mm",
     "reference": "SLGA019",
     "lugToLugMm": 47.9,
     "caseMm": 40,
@@ -2141,6 +2156,8 @@
     "id": 119,
     "brand": "Grand Seiko",
     "model": "Spring Drive 5 Days",
+    "canonicalModel": "Evolution 9 Spring Drive 5 Days 40mm",
+    "modelGroup": "grand-seiko-evolution-9-spring-drive-5-days-40mm",
     "reference": "SLGA021",
     "lugToLugMm": 47.9,
     "caseMm": 40,
@@ -2157,6 +2174,8 @@
     "id": 120,
     "brand": "Grand Seiko",
     "model": "Spring Drive U.F.A.",
+    "canonicalModel": "Spring Drive U.F.A. 37mm",
+    "modelGroup": "grand-seiko-spring-drive-u-f-a-37mm",
     "reference": "SLGB001",
     "lugToLugMm": 44.3,
     "caseMm": 37,
@@ -2173,6 +2192,8 @@
     "id": 121,
     "brand": "Grand Seiko",
     "model": "Spring Drive U.F.A.",
+    "canonicalModel": "Spring Drive U.F.A. 37mm",
+    "modelGroup": "grand-seiko-spring-drive-u-f-a-37mm",
     "reference": "SLGB003",
     "lugToLugMm": 44.3,
     "caseMm": 37,
@@ -2253,6 +2274,9 @@
     "id": 126,
     "brand": "Grand Seiko",
     "model": "Hi-Beat 36000 80 Hours",
+    "canonicalModel": "Hi-Beat 36000 80 Hours 40mm",
+    "modelGroup": "grand-seiko-hi-beat-36000-80-hours-40mm",
+    "variant": "White birch dial",
     "reference": "SLGH005",
     "lugToLugMm": 47,
     "caseMm": 40,
@@ -25132,6 +25156,329 @@
       {
         "sourceUrl": "https://citizenwatch.eu/en/p/nj0150-81z/",
         "note": "Official Citizen EU page lists NJ0150-81Z as a 40 mm TSUYOSA variant with 9 mm strap lug width; thickness and lug-to-lug are normalized to the same case family pending direct physical measurement source."
+      }
+    ]
+  },
+  {
+    "id": 1501,
+    "brand": "Grand Seiko",
+    "model": "Sport Quartz GMT 39mm",
+    "canonicalModel": "Sport Quartz GMT 39mm",
+    "modelGroup": "grand-seiko-sport-quartz-gmt-39mm",
+    "variant": "Black dial",
+    "reference": "SBGN027",
+    "lugToLugMm": 45.9,
+    "caseMm": 39,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgn027g",
+        "note": "Manufacturer page: 39.0 mm diameter, 45.9 mm lug-to-lug, 12.3 mm thickness, and 19 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 1502,
+    "brand": "Grand Seiko",
+    "model": "Sport Quartz GMT 39mm",
+    "canonicalModel": "Sport Quartz GMT 39mm",
+    "modelGroup": "grand-seiko-sport-quartz-gmt-39mm",
+    "variant": "Navy blue dial",
+    "reference": "SBGN029",
+    "lugToLugMm": 45.9,
+    "caseMm": 39,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgn029g",
+        "note": "Manufacturer page: 39.0 mm diameter, 45.9 mm lug-to-lug, 12.3 mm thickness, and 19 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 1503,
+    "brand": "Grand Seiko",
+    "model": "Evolution 9 Spring Drive GMT Titanium",
+    "canonicalModel": "Evolution 9 Spring Drive GMT Titanium 41mm",
+    "modelGroup": "grand-seiko-evolution-9-spring-drive-gmt-titanium-41mm",
+    "variant": "Winter mist dial",
+    "reference": "SBGE285",
+    "lugToLugMm": 48.3,
+    "caseMm": 41,
+    "thicknessMm": 13.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbge285g",
+        "note": "Manufacturer page: 41.0 mm diameter, 48.3 mm lug-to-lug, 13.9 mm thickness, and 22 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 1504,
+    "brand": "Grand Seiko",
+    "model": "Sport Automatic Spring Drive 3-Day GMT",
+    "canonicalModel": "Sport Automatic Spring Drive 3-Day GMT 44.5mm",
+    "modelGroup": "grand-seiko-sport-automatic-spring-drive-3-day-gmt-44-5mm",
+    "variant": "White dial",
+    "reference": "SBGE307",
+    "lugToLugMm": 50,
+    "caseMm": 44.5,
+    "thicknessMm": 14.9,
+    "lugWidthMm": 23,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbge307g",
+        "note": "Manufacturer page: 44.5 mm diameter, 50.0 mm lug-to-lug, 14.9 mm thickness, and 23 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 1505,
+    "brand": "Grand Seiko",
+    "model": "Re-creation of the First Grand Seiko",
+    "canonicalModel": "Re-creation of the First Grand Seiko 38mm",
+    "modelGroup": "grand-seiko-re-creation-of-the-first-grand-seiko-38mm",
+    "variant": "18k yellow gold",
+    "reference": "SBGW258",
+    "lugToLugMm": 45.8,
+    "caseMm": 38,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgw258j",
+        "note": "Manufacturer page: 38.0 mm diameter, 45.8 mm lug-to-lug, 10.9 mm thickness, and 19 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 1506,
+    "brand": "Grand Seiko",
+    "model": "Elegance Manual winding",
+    "canonicalModel": "Elegance Manual Winding 37.3mm",
+    "modelGroup": "grand-seiko-elegance-manual-winding-37-3mm",
+    "variant": "Kishun pale blue dial",
+    "reference": "SBGW283",
+    "lugToLugMm": 44.3,
+    "caseMm": 37.3,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgw283g",
+        "note": "Manufacturer page: 37.3 mm diameter, 44.3 mm lug-to-lug, 11.7 mm thickness, and 19 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 1507,
+    "brand": "Grand Seiko",
+    "model": "Elegance Manual winding",
+    "canonicalModel": "Elegance Manual Winding 37.3mm",
+    "modelGroup": "grand-seiko-elegance-manual-winding-37-3mm",
+    "variant": "Byoka deep green dial",
+    "reference": "SBGW285",
+    "lugToLugMm": 44.3,
+    "caseMm": 37.3,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgw285g",
+        "note": "Manufacturer page: 37.3 mm diameter, 44.3 mm lug-to-lug, 11.7 mm thickness, and 19 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 1508,
+    "brand": "Grand Seiko",
+    "model": "Elegance Manual winding",
+    "canonicalModel": "Elegance Manual Winding 37.3mm",
+    "modelGroup": "grand-seiko-elegance-manual-winding-37-3mm",
+    "variant": "Boshu burgundy dial",
+    "reference": "SBGW287",
+    "lugToLugMm": 44.3,
+    "caseMm": 37.3,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgw287g",
+        "note": "Manufacturer page: 37.3 mm diameter, 44.3 mm lug-to-lug, 11.7 mm thickness, and 19 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 1509,
+    "brand": "Grand Seiko",
+    "model": "Heritage Manual-winding Spring Drive",
+    "canonicalModel": "Heritage Manual-winding Spring Drive 40mm",
+    "modelGroup": "grand-seiko-heritage-manual-winding-spring-drive-40mm",
+    "variant": "Asaborake white dial",
+    "reference": "SBGY011",
+    "lugToLugMm": 46.2,
+    "caseMm": 40,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgy011g",
+        "note": "Manufacturer page: 40.0 mm diameter, 46.2 mm lug-to-lug, 10.5 mm thickness, and 19 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 1510,
+    "brand": "Grand Seiko",
+    "model": "Manual-winding Spring Drive",
+    "canonicalModel": "Hand-winding Spring Drive 38.5mm",
+    "modelGroup": "grand-seiko-hand-winding-spring-drive-38-5mm",
+    "variant": "Omiwatari silver dial",
+    "reference": "SBGY013",
+    "lugToLugMm": 43.7,
+    "caseMm": 38.5,
+    "thicknessMm": 10.2,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgy013g",
+        "note": "Manufacturer page: 38.5 mm diameter, 43.7 mm lug-to-lug, 10.2 mm thickness, and 19 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 1511,
+    "brand": "Grand Seiko",
+    "model": "Annual Accuracy Quartz",
+    "canonicalModel": "Annual Accuracy Quartz 33mm",
+    "modelGroup": "grand-seiko-annual-accuracy-quartz-33mm",
+    "variant": "Snowflake white dial",
+    "reference": "SBGX359",
+    "lugToLugMm": 39.7,
+    "caseMm": 33,
+    "thicknessMm": 9.1,
+    "lugWidthMm": 15,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgx359g",
+        "note": "Manufacturer page: 33.0 mm diameter, 39.7 mm lug-to-lug, 9.1 mm thickness, and 15 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 1512,
+    "brand": "Grand Seiko",
+    "model": "Annual Accuracy Quartz",
+    "canonicalModel": "Annual Accuracy Quartz 33mm",
+    "modelGroup": "grand-seiko-annual-accuracy-quartz-33mm",
+    "variant": "Skyflake light blue dial",
+    "reference": "SBGX361",
+    "lugToLugMm": 39.7,
+    "caseMm": 33,
+    "thicknessMm": 9.1,
+    "lugWidthMm": 15,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgx361g",
+        "note": "Manufacturer page: 33.0 mm diameter, 39.7 mm lug-to-lug, 9.1 mm thickness, and 15 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 1513,
+    "brand": "Grand Seiko",
+    "model": "Spring Drive 5 Days",
+    "canonicalModel": "Evolution 9 Spring Drive 5 Days 40mm",
+    "modelGroup": "grand-seiko-evolution-9-spring-drive-5-days-40mm",
+    "variant": "White birch dial",
+    "reference": "SLGA009",
+    "lugToLugMm": 47.9,
+    "caseMm": 40,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slga009g",
+        "note": "Manufacturer page: 40.0 mm diameter, 47.9 mm lug-to-lug, 11.8 mm thickness, and 22 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 1514,
+    "brand": "Grand Seiko",
+    "model": "Spring Drive U.F.A.",
+    "canonicalModel": "Spring Drive U.F.A. 37mm",
+    "modelGroup": "grand-seiko-spring-drive-u-f-a-37mm",
+    "variant": "Frost-covered dawn violet dial",
+    "reference": "SLGB005",
+    "lugToLugMm": 44.3,
+    "caseMm": 37,
+    "thicknessMm": 11.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slgb005g",
+        "note": "Manufacturer page: 37.0 mm diameter, 44.3 mm lug-to-lug, 11.4 mm thickness, and 20 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 1515,
+    "brand": "Grand Seiko",
+    "model": "Spring Drive U.F.A.",
+    "canonicalModel": "Spring Drive U.F.A. 37mm",
+    "modelGroup": "grand-seiko-spring-drive-u-f-a-37mm",
+    "variant": "Ice Forest at Dawn yellow gold",
+    "reference": "SLGB006",
+    "lugToLugMm": 44.3,
+    "caseMm": 37,
+    "thicknessMm": 11.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slgb006j",
+        "note": "Manufacturer page: 37.0 mm diameter, 44.3 mm lug-to-lug, 11.4 mm thickness, and 20 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 1516,
+    "brand": "Grand Seiko",
+    "model": "Hi-Beat 36000 80 Hours",
+    "canonicalModel": "Hi-Beat 36000 80 Hours 40mm",
+    "modelGroup": "grand-seiko-hi-beat-36000-80-hours-40mm",
+    "variant": "Melting snow light blue dial",
+    "reference": "SLGH013",
+    "lugToLugMm": 47.2,
+    "caseMm": 40,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slgh013g",
+        "note": "Manufacturer page: 40.0 mm diameter, 47.2 mm lug-to-lug, 11.7 mm thickness, and 19 mm band width."
+      }
+    ]
+  },
+  {
+    "id": 1517,
+    "brand": "Grand Seiko",
+    "model": "62GS Mechanical Hi-Beat 36000",
+    "canonicalModel": "62GS Mechanical Hi-Beat 36000 38mm",
+    "modelGroup": "grand-seiko-62gs-mechanical-hi-beat-36000-38mm",
+    "variant": "Sakura-wakaba light green / yellow gold",
+    "reference": "SBGH376",
+    "lugToLugMm": 44.7,
+    "caseMm": 38,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgh376j",
+        "note": "Manufacturer page: 38.0 mm diameter, 44.7 mm lug-to-lug, 12.9 mm thickness, and 20 mm band width."
       }
     ]
   }

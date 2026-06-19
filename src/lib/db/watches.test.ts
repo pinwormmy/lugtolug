@@ -9,6 +9,7 @@ import {
   updateWatch
 } from "@/lib/db/watches";
 import type { SourceRow, WatchRow } from "@/lib/db/rows";
+import { seedWatches } from "@/lib/seed";
 
 function createMockDb(watchRows: WatchRow[], sourceRows: SourceRow[] = []) {
   const prepareCalls: string[] = [];
@@ -114,7 +115,13 @@ describe("recent watches", () => {
 
     expect(recent).toHaveLength(5);
     expect(recent.slice(0, 3).map((watch) => watch.brand)).toEqual(["Zenith", "Audemars Piguet", "Tissot"]);
-    expect(recent.some((watch) => watch.brand === "Citizen" && watch.reference === "NJ0150-81Z")).toBe(true);
+    expect(recent.slice(3).map((watch) => watch.reference)).toEqual(
+      seedWatches
+        .slice()
+        .sort((a, b) => b.id - a.id)
+        .slice(0, 2)
+        .map((watch) => watch.reference)
+    );
   });
 
   it("resolves editable watches by slugs instead of a public seed id", async () => {
