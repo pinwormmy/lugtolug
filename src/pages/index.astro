@@ -7,7 +7,8 @@ import { readSearchState } from "@/lib/searchState";
 
 const db = getDb(Astro.locals);
 const watches = await listWatches(db);
-const recentWatches = await listRecentWatches(db, 5);
+const showRecentWatches = false;
+const recentWatches = showRecentWatches ? await listRecentWatches(db, 5) : [];
 const initialSearchState = readSearchState(Astro.url.searchParams);
 ---
 
@@ -22,10 +23,14 @@ const initialSearchState = readSearchState(Astro.url.searchParams);
     />
   </section>
 
-  <section class="section" data-recent-watches>
-    <h2>Recently approved watches</h2>
-    <div class="watch-list">
-      {recentWatches.map((watch) => <WatchRow watch={watch} />)}
-    </div>
-  </section>
+  {
+    showRecentWatches && (
+      <section class="section" data-recent-watches>
+        <h2>Recently approved watches</h2>
+        <div class="watch-list">
+          {recentWatches.map((watch) => <WatchRow watch={watch} />)}
+        </div>
+      </section>
+    )
+  }
 </BaseLayout>
