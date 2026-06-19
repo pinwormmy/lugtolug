@@ -25481,5 +25481,24 @@
         "note": "Manufacturer page: 38.0 mm diameter, 44.7 mm lug-to-lug, 12.9 mm thickness, and 20 mm band width."
       }
     ]
+  },
+  {
+    "id": 1518,
+    "brand": "Grand Seiko",
+    "model": "Annual Accuracy Quartz",
+    "canonicalModel": "Annual Accuracy Quartz 37mm",
+    "modelGroup": "grand-seiko-annual-accuracy-quartz-37mm",
+    "variant": "Snowflake white dial / titanium",
+    "reference": "SBGX355",
+    "lugToLugMm": 44.6,
+    "caseMm": 37,
+    "thicknessMm": 10.6,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgx355g",
+        "note": "Manufacturer page: 37.0 mm diameter, 44.6 mm lug-to-lug, 10.6 mm thickness, and 19 mm band width."
+      }
+    ]
   }
 ]

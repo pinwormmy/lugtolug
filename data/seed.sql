@@ -2772,7 +2772,8 @@ VALUES
 (1514, 'Grand Seiko', 'Spring Drive U.F.A.', 'SLGB005', 'grand-seiko', 'spring-drive-u-f-a', 'slgb005', 'grand seiko spring drive u f a slgb005', 44.3, 37, 11.4, 20, 'approved'),
 (1515, 'Grand Seiko', 'Spring Drive U.F.A.', 'SLGB006', 'grand-seiko', 'spring-drive-u-f-a', 'slgb006', 'grand seiko spring drive u f a slgb006', 44.3, 37, 11.4, 20, 'approved'),
 (1516, 'Grand Seiko', 'Hi-Beat 36000 80 Hours', 'SLGH013', 'grand-seiko', 'hi-beat-36000-80-hours', 'slgh013', 'grand seiko hi beat 36000 80 hours slgh013', 47.2, 40, 11.7, 19, 'approved'),
-(1517, 'Grand Seiko', '62GS Mechanical Hi-Beat 36000', 'SBGH376', 'grand-seiko', '62gs-mechanical-hi-beat-36000', 'sbgh376', 'grand seiko 62gs mechanical hi beat 36000 sbgh376', 44.7, 38, 12.9, 20, 'approved');
+(1517, 'Grand Seiko', '62GS Mechanical Hi-Beat 36000', 'SBGH376', 'grand-seiko', '62gs-mechanical-hi-beat-36000', 'sbgh376', 'grand seiko 62gs mechanical hi beat 36000 sbgh376', 44.7, 38, 12.9, 20, 'approved'),
+(1518, 'Grand Seiko', 'Annual Accuracy Quartz', 'SBGX355', 'grand-seiko', 'annual-accuracy-quartz', 'sbgx355', 'grand seiko annual accuracy quartz sbgx355', 44.6, 37, 10.6, 19, 'approved');
 
 UPDATE watches SET canonical_model = 'Speedmaster Moonwatch Professional 42mm', model_group = 'omega-speedmaster-moonwatch-professional-42mm' WHERE id = 2;
 UPDATE watches SET canonical_model = 'Seamaster Diver 300M 42mm', model_group = 'omega-seamaster-diver-300m-42mm' WHERE id = 7;
@@ -2897,6 +2898,7 @@ UPDATE watches SET canonical_model = 'Spring Drive U.F.A. 37mm', model_group = '
 UPDATE watches SET canonical_model = 'Spring Drive U.F.A. 37mm', model_group = 'grand-seiko-spring-drive-u-f-a-37mm', variant = 'Ice Forest at Dawn yellow gold' WHERE id = 1515;
 UPDATE watches SET canonical_model = 'Hi-Beat 36000 80 Hours 40mm', model_group = 'grand-seiko-hi-beat-36000-80-hours-40mm', variant = 'Melting snow light blue dial' WHERE id = 1516;
 UPDATE watches SET canonical_model = '62GS Mechanical Hi-Beat 36000 38mm', model_group = 'grand-seiko-62gs-mechanical-hi-beat-36000-38mm', variant = 'Sakura-wakaba light green / yellow gold' WHERE id = 1517;
+UPDATE watches SET canonical_model = 'Annual Accuracy Quartz 37mm', model_group = 'grand-seiko-annual-accuracy-quartz-37mm', variant = 'Snowflake white dial / titanium' WHERE id = 1518;
 
 INSERT OR IGNORE INTO watch_sources (id, watch_id, source_url, note)
 VALUES
@@ -2959,4 +2961,5 @@ VALUES
 (1524, 1514, 'https://www.grand-seiko.com/us-en/collections/slgb005g', 'Manufacturer page: 37.0 mm diameter, 44.3 mm lug-to-lug, 11.4 mm thickness, and 20 mm band width.'),
 (1525, 1515, 'https://www.grand-seiko.com/us-en/collections/slgb006j', 'Manufacturer page: 37.0 mm diameter, 44.3 mm lug-to-lug, 11.4 mm thickness, and 20 mm band width.'),
 (1526, 1516, 'https://www.grand-seiko.com/us-en/collections/slgh013g', 'Manufacturer page: 40.0 mm diameter, 47.2 mm lug-to-lug, 11.7 mm thickness, and 19 mm band width.'),
-(1527, 1517, 'https://www.grand-seiko.com/us-en/collections/sbgh376j', 'Manufacturer page: 38.0 mm diameter, 44.7 mm lug-to-lug, 12.9 mm thickness, and 20 mm band width.');
+(1527, 1517, 'https://www.grand-seiko.com/us-en/collections/sbgh376j', 'Manufacturer page: 38.0 mm diameter, 44.7 mm lug-to-lug, 12.9 mm thickness, and 20 mm band width.'),
+(1528, 1518, 'https://www.grand-seiko.com/us-en/collections/sbgx355g', 'Manufacturer page: 37.0 mm diameter, 44.6 mm lug-to-lug, 10.6 mm thickness, and 19 mm band width.');

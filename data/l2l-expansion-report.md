@@ -15,9 +15,9 @@ Updated: 2026-06-19
 
 ### Grand Seiko
 
-- Added models: 17
+- Added models: 18
 - Reached 10-model target: yes
-- Official-source additions: 17
+- Official-source additions: 18
 - Verified-external additions: 0
 - Duplicate candidates skipped: 0
 - Insufficient-information exclusions: 0
@@ -39,6 +39,7 @@ Added references:
 - SBGY013
 - SBGX359
 - SBGX361
+- SBGX355
 - SLGA009
 - SLGB005
 - SLGB006
