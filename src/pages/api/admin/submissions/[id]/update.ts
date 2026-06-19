@@ -19,5 +19,5 @@ export const POST: APIRoute = async ({ locals, params, request }) => {
     parsed.payload,
     readReviewerNote(result.form)
   );
-  return redirect("/");
+  return redirect(`/admin/submissions/${result.submission.id}?updated=1`);
 };
