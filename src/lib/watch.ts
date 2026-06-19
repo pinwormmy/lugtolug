@@ -1,5 +1,5 @@
 import type { Watch } from "@/types";
-import { normalizeSearch } from "@/lib/slug";
+import { normalizeSearch, normalizeSearchWithAliases } from "@/lib/slug";
 
 export const WATCH_METRICS = [
   {
@@ -51,7 +51,7 @@ export function getWatchSearchText(
     return value == null ? [] : [metric.rowLabel, String(value), `${value}mm`];
   }).join(" ");
 
-  return normalizeSearch(
+  return normalizeSearchWithAliases(
     `${watch.brand} ${watch.model} ${watch.canonicalModel ?? ""} ${watch.modelGroup ?? ""} ${watch.variant ?? ""} ${watch.reference} ${metricText}`
   );
 }

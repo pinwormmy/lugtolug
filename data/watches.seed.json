@@ -25500,5 +25500,2053 @@
         "note": "Manufacturer page: 37.0 mm diameter, 44.6 mm lug-to-lug, 10.6 mm thickness, and 19 mm band width."
       }
     ]
+  },
+  {
+    "id": 1519,
+    "brand": "Brew Watch Co.",
+    "model": "Brew Metric Teddy Baldassarre Edition 36mm - Blue on Bracelet",
+    "reference": "TEDDYxBrew",
+    "lugToLugMm": 41.5,
+    "caseMm": 36,
+    "thicknessMm": 10.75,
+    "lugWidthMm": 19.85,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/brew-metric-teddy-baldassarre-edition-36mm-blue-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference TEDDYxBrew and 36 mm case, 10.75 mm case height, 41.5 mm lug-to-lug, 19.85 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1520,
+    "brand": "DOXA",
+    "model": "SUB 200 T.Graph II Caribbean 42mm - Blue on Bracelet",
+    "reference": "806.10.201.10",
+    "lugToLugMm": 44.5,
+    "caseMm": 42,
+    "thicknessMm": 14.6,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/sub-200-t-graph-ii-caribbean-42mm-blue-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference 806.10.201.10 and 42 mm case, 14.6 mm case height, 44.5 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1521,
+    "brand": "DOXA",
+    "model": "SUB 200 T.Graph II Professional 42mm - Orange on Bracelet",
+    "reference": "806.10.351.10",
+    "lugToLugMm": 44.5,
+    "caseMm": 42,
+    "thicknessMm": 14.6,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/sub-200-t-graph-ii-professional-42mm-orange-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference 806.10.351.10 and 42 mm case, 14.6 mm case height, 44.5 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1522,
+    "brand": "DOXA",
+    "model": "SUB 200T Professional 39mm - Orange on Bracelet",
+    "reference": "804.10.351.10",
+    "lugToLugMm": 41.5,
+    "caseMm": 39,
+    "thicknessMm": 10.7,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/sub-200t-professional-orange-dial-on-bracelet-41-5mm",
+        "note": "Teddy Baldassarre product page lists reference 804.10.351.10 and 39 mm case, 10.7 mm case height, 41.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1523,
+    "brand": "DOXA",
+    "model": "SUB 200T Professional 39mm - Orange on Rubber Strap",
+    "reference": "804.10.351.21",
+    "lugToLugMm": 41.5,
+    "caseMm": 39,
+    "thicknessMm": 10.7,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/sub-200t-professional-orange-dial-on-rubber-strap-41-5mm",
+        "note": "Teddy Baldassarre product page lists reference 804.10.351.21 and 39 mm case, 10.7 mm case height, 41.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1524,
+    "brand": "DOXA",
+    "model": "SUB 200T Sea Emerald 39mm - Sunray Green on Bracelet",
+    "reference": "804.10.131S.10",
+    "lugToLugMm": 41.5,
+    "caseMm": 39,
+    "thicknessMm": 10.7,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/sub-200t-sea-emerald-sunray-green-dial-on-bracelet-41-5mm",
+        "note": "Teddy Baldassarre product page lists reference 804.10.131S.10 and 39 mm case, 10.7 mm case height, 41.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1525,
+    "brand": "DOXA",
+    "model": "SUB 200T Sharkhunter 39mm - Black on Bracelet",
+    "reference": "804.10.101.10",
+    "lugToLugMm": 41.5,
+    "caseMm": 39,
+    "thicknessMm": 10.7,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/sub-200t-sharkhunter-black-dial-on-bracelet-41-5mm",
+        "note": "Teddy Baldassarre product page lists reference 804.10.101.10 and 39 mm case, 10.7 mm case height, 41.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1526,
+    "brand": "DOXA",
+    "model": "SUB 300 Divingstar 42.5mm - Yellow on Bracelet",
+    "reference": "821.10.361.10",
+    "lugToLugMm": 45,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/sub-300-divingstar-yellow-dial-on-bracelet-42-5mm",
+        "note": "Teddy Baldassarre product page lists reference 821.10.361.10 and 42.5 mm case, 13.4 mm case height, 45 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1527,
+    "brand": "DOXA",
+    "model": "SUB 300 Sharkhunter 42.5mm - Black on Bracelet",
+    "reference": "821.10.101.10",
+    "lugToLugMm": 45,
+    "caseMm": 42.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/sub-300-sharkhunter-black-dial-on-bracelet-42-5mm",
+        "note": "Teddy Baldassarre product page lists reference 821.10.101.10 and 42.5 mm case, 13.4 mm case height, 45 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1528,
+    "brand": "DOXA",
+    "model": "SUB 300T Aquamarine 42.5mm - Turquoise on Bracelet",
+    "reference": "840.10.241.10",
+    "lugToLugMm": 44.5,
+    "caseMm": 42.5,
+    "thicknessMm": 13.65,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/sub-300t-aquamarine-turquoise-dial-on-bracelet-42-5mm",
+        "note": "Teddy Baldassarre product page lists reference 840.10.241.10 and 42.5 mm case, 13.65 mm case height, 44.5 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1529,
+    "brand": "DOXA",
+    "model": "SUB 300T Aristera Professional 42.5mm - Orange on Bracelet",
+    "reference": "840.10.351.10-SE10",
+    "lugToLugMm": 44.5,
+    "caseMm": 42.5,
+    "thicknessMm": 13.65,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/sub-300t-aristera-professional-orange-dial-42-5mm",
+        "note": "Teddy Baldassarre product page lists reference 840.10.351.10-SE10 and 42.5 mm case, 13.65 mm case height, 44.5 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1530,
+    "brand": "DOXA",
+    "model": "SUB 300T Caribbean 42.5mm - Blue Dial on Bracelet",
+    "reference": "840.10.201.10",
+    "lugToLugMm": 44.5,
+    "caseMm": 42.5,
+    "thicknessMm": 13.65,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/sub-300t-caribean-blue-dial-on-bracelet-42-5mm",
+        "note": "Teddy Baldassarre product page lists reference 840.10.201.10 and 42.5 mm case, 13.65 mm case height, 44.5 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1531,
+    "brand": "DOXA",
+    "model": "SUB 300T Professional 42.5mm - Orange on Bracelet",
+    "reference": "840.10.351.10",
+    "lugToLugMm": 44.5,
+    "caseMm": 42.5,
+    "thicknessMm": 13.65,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/sub-300t-professional-orange-dial-on-bracelet-42-5mm",
+        "note": "Teddy Baldassarre product page lists reference 840.10.351.10 and 42.5 mm case, 13.65 mm case height, 44.5 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1532,
+    "brand": "DOXA",
+    "model": "SUB 600T Professional Ceramic Bezel 40mm - Orange on Bracelet",
+    "reference": "861.10.351.10",
+    "lugToLugMm": 47.6,
+    "caseMm": 40,
+    "thicknessMm": 14.15,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/sub-600t-professional-orange-dial-with-ceramic-bezel-40mm",
+        "note": "Teddy Baldassarre product page lists reference 861.10.351.10 and 40 mm case, 14.15 mm case height, 47.6 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1533,
+    "brand": "Formex",
+    "model": "Essence 41mm - Degradé Brown",
+    "reference": "0334.1.6624.100",
+    "lugToLugMm": 46.5,
+    "caseMm": 41,
+    "thicknessMm": 10.6,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/essence-41mm-degrade",
+        "note": "Teddy Baldassarre product page lists reference 0334.1.6624.100 and 41 mm case, 10.6 mm case height, 46.5 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1534,
+    "brand": "Formex",
+    "model": "Essence 41mm - Gamaret Red",
+    "reference": "0334.1.6651.910",
+    "lugToLugMm": 46.5,
+    "caseMm": 41,
+    "thicknessMm": 10.6,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/essence-41mm-garamet",
+        "note": "Teddy Baldassarre product page lists reference 0334.1.6651.910 and 41 mm case, 10.6 mm case height, 46.5 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1535,
+    "brand": "Formex",
+    "model": "Essence Skeleton COSC \"Stradale\" Limited Edition 41mm",
+    "reference": "0334.9.6011.910",
+    "lugToLugMm": 46.5,
+    "caseMm": 41,
+    "thicknessMm": 10.6,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/essence-skeleton-cosc-stradale-limited-edition-41mm",
+        "note": "Teddy Baldassarre product page lists reference 0334.9.6011.910 and 41 mm case, 10.6 mm case height, 46.5 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1536,
+    "brand": "Formex",
+    "model": "REEF Automatic Chronometer COSC 300M Steel Bezel 42mm - Silver on Bracelet",
+    "reference": "2200.1.6341.100",
+    "lugToLugMm": 47,
+    "caseMm": 42,
+    "thicknessMm": 11.4,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/formex-reef-automatic-chronometer-cosc-300m-steel-bezel",
+        "note": "Teddy Baldassarre product page lists reference 2200.1.6341.100 and 42 mm case, 11.4 mm case height, 47 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1537,
+    "brand": "Formex",
+    "model": "Stratos UTC Automatic 41mm - Blue on Bracelet",
+    "reference": "1101.1.6431.111",
+    "lugToLugMm": 46.5,
+    "caseMm": 41,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/stratos-utc-automatic-blue-dial-41mm",
+        "note": "Teddy Baldassarre product page lists reference 1101.1.6431.111 and 41 mm case, 12 mm case height, 46.5 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1538,
+    "brand": "Laco",
+    "model": "Pilot Watch Basic Aachen 39mm - Black on Leather Strap",
+    "reference": "861990",
+    "lugToLugMm": 46.5,
+    "caseMm": 39,
+    "thicknessMm": 11.55,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/pilot-watch-basic-aachen",
+        "note": "Teddy Baldassarre product page lists reference 861990 and 39 mm case, 11.55 mm case height, 46.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1539,
+    "brand": "Laco",
+    "model": "Pilot Watch Basic Aachen 42mm - Black on Leather Strap",
+    "reference": "861690.2",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/pilot-watch-basic-aachen-42mm-black-on-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference 861690.2 and 42 mm case, 11.75 mm case height, 50 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1540,
+    "brand": "Laco",
+    "model": "Pilot Watch Basic Aachen MB Automatic 42mm - Grey on Bracelet",
+    "reference": "862159.MB",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/aachen-grau-mb-automatic-42mm-grey-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference 862159.MB and 42 mm case, 11.7 mm case height, 50 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1541,
+    "brand": "Laco",
+    "model": "Pilot Watch Basic Augsburg 42mm - Black on Leather Strap",
+    "reference": "861688.2",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/pilot-watch-basic-augsburg-42mm-black-on-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference 861688.2 and 42 mm case, 11.75 mm case height, 50 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1542,
+    "brand": "Louis Erard",
+    "model": "2300 Sport Chronograph 44mm - Blue",
+    "reference": "78119TS35.BDF05",
+    "lugToLugMm": 52.4,
+    "caseMm": 44,
+    "thicknessMm": 15,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/2300-chronograph-sport-rainbow-44mm-blue",
+        "note": "Teddy Baldassarre product page lists reference 78119TS35.BDF05 and 44 mm case, 15 mm case height, 52.4 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1543,
+    "brand": "Louis Erard",
+    "model": "2300 Sport Chronograph 44mm - Green",
+    "reference": "78119TS39.BDF09",
+    "lugToLugMm": 52.4,
+    "caseMm": 44,
+    "thicknessMm": 15,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/2300-chronograph-sport-rainbow-44mm-green",
+        "note": "Teddy Baldassarre product page lists reference 78119TS39.BDF09 and 44 mm case, 15 mm case height, 52.4 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1544,
+    "brand": "Louis Erard",
+    "model": "2300 Sport Chronograph Rainbow 44mm - Black",
+    "reference": "78119TS32.BDF02",
+    "lugToLugMm": 52.4,
+    "caseMm": 44,
+    "thicknessMm": 15,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/2300-chronograph-sport-rainbow-44mm-black",
+        "note": "Teddy Baldassarre product page lists reference 78119TS32.BDF02 and 44 mm case, 15 mm case height, 52.4 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1545,
+    "brand": "Louis Erard",
+    "model": "Excellence Le Régulateur Tourbillon Louis Erard x Alain Silberstein Black",
+    "reference": "89356TT02.BTT82",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": null,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/excellence-le-regulateur-tourbillon-louis-erard-x-alain-silberstein-black",
+        "note": "Teddy Baldassarre product page lists reference 89356TT02.BTT82 and 40 mm case, 47 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1546,
+    "brand": "Louis Erard",
+    "model": "Excellence Petite Seconde Aventurine 39mm - Blue on Leather Strap",
+    "reference": "34238AA32.BVA134",
+    "lugToLugMm": 46.5,
+    "caseMm": 39,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/excellence-petite-seconde-aventurine",
+        "note": "Teddy Baldassarre product page lists reference 34238AA32.BVA134 and 39 mm case, 12.3 mm case height, 46.5 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1547,
+    "brand": "Louis Erard",
+    "model": "Excellence Petite Seconde Couleurs Bleu Glacier 39mm - Blue on Leather Strap",
+    "reference": "34248AA08.BVA141",
+    "lugToLugMm": 45.9,
+    "caseMm": 39,
+    "thicknessMm": 12.82,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/excellence-petite-seconde-couleurs-bleu-glacier",
+        "note": "Teddy Baldassarre product page lists reference 34248AA08.BVA141 and 39 mm case, 12.82 mm case height, 45.9 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1548,
+    "brand": "Louis Erard",
+    "model": "Excellence Petite Seconde Lapis Lazuli 39mm - Blue on Leather Strap",
+    "reference": "34238AA35.BVA133",
+    "lugToLugMm": 46.5,
+    "caseMm": 39,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/excellence-petite-seconde-lapis-lazuli",
+        "note": "Teddy Baldassarre product page lists reference 34238AA35.BVA133 and 39 mm case, 12.3 mm case height, 46.5 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1549,
+    "brand": "Louis Erard",
+    "model": "Excellence Petite Seconde Malachite 39mm - Green on Leather Strap",
+    "reference": "34238AA39.BVA136",
+    "lugToLugMm": 46.5,
+    "caseMm": 39,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/excellence-petite-seconde-malachite",
+        "note": "Teddy Baldassarre product page lists reference 34238AA39.BVA136 and 39 mm case, 12.3 mm case height, 46.5 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1550,
+    "brand": "Louis Erard",
+    "model": "Louis Erard 2340 40mm - Forest Green on Bracelet",
+    "reference": "35123TA03.BMT12",
+    "lugToLugMm": 41.5,
+    "caseMm": 40,
+    "thicknessMm": 8.95,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/inq_louis-erard-2340-40mm-forest-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference 35123TA03.BMT12 and 40 mm case, 8.95 mm case height, 41.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1551,
+    "brand": "Louis Erard",
+    "model": "Louis Erard 2340 40mm - Mauve on Bracelet",
+    "reference": "35123TA12.BMT12",
+    "lugToLugMm": 41.5,
+    "caseMm": 40,
+    "thicknessMm": 8.95,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/inq_louis-erard-2340-40mm-mauve-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference 35123TA12.BMT12 and 40 mm case, 8.95 mm case height, 41.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1552,
+    "brand": "Louis Erard",
+    "model": "Louis Erard x KUDOKE Le Régulateur 42mm - Forest Green",
+    "reference": "85237AA49.BVA178",
+    "lugToLugMm": 49.6,
+    "caseMm": 42,
+    "thicknessMm": 12.25,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/le-regulateur-louis-erard-x-kudoke-forest-green-42mm",
+        "note": "Teddy Baldassarre product page lists reference 85237AA49.BVA178 and 42 mm case, 12.25 mm case height, 49.6 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1553,
+    "brand": "Louis Erard",
+    "model": "Louis Erard x KUDOKE Le Régulateur 42mm - Light Blue",
+    "reference": "85237AA45.BVA173",
+    "lugToLugMm": 49.6,
+    "caseMm": 42,
+    "thicknessMm": 12.25,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/le-regulateur-louis-erard-x-kudoke-light-blue-42mm",
+        "note": "Teddy Baldassarre product page lists reference 85237AA45.BVA173 and 42 mm case, 12.25 mm case height, 49.6 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1554,
+    "brand": "Marathon",
+    "model": "GPM Type II Field 34mm - Black on Nylon Strap",
+    "reference": "WW194003SG-0103",
+    "lugToLugMm": 41,
+    "caseMm": 34,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/general-purpose-mechanical-with-tritium-gpm-34mm1",
+        "note": "Teddy Baldassarre product page lists reference WW194003SG-0103 and 34 mm case, 12.5 mm case height, 41 mm lug-to-lug, 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1555,
+    "brand": "Marathon",
+    "model": "GSAR Type II Diver's Automatic 41mm - Anthracite on Bracelet",
+    "reference": "WW194006BK-0109",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/search-rescue-divers-automatic-gsar-anthracite-black-41mm-bracelet",
+        "note": "Teddy Baldassarre product page lists reference WW194006BK-0109 and 41 mm case, 13.6 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1556,
+    "brand": "Marathon",
+    "model": "JDD Type II Diver's Automatic 46mm - Black on Bracelet",
+    "reference": "WW194021SS-0109",
+    "lugToLugMm": 55,
+    "caseMm": 46,
+    "thicknessMm": 18,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/search-rescue-jumbo-divers-automatic-jdd-46mm",
+        "note": "Teddy Baldassarre product page lists reference WW194021SS-0109 and 46 mm case, 18 mm case height, 55 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1557,
+    "brand": "Marathon",
+    "model": "OSAR-D Type I Automatic with Date 36mm - Arctic White on Bracelet",
+    "reference": "WW194026SS-2501",
+    "lugToLugMm": 43.5,
+    "caseMm": 36,
+    "thicknessMm": 13,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/osar-diver-type-i-automatic-with-date-36mm-arctic-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference WW194026SS-2501 and 36 mm case, 13 mm case height, 43.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1558,
+    "brand": "Marathon",
+    "model": "Pilot's Navigator with Date & Tritium 41mm - Black on Nylon Strap",
+    "reference": "WW194013BK-0101",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/new-sapphire-crystal-pilots-navigator-with-date-tritium-black-41mm",
+        "note": "Teddy Baldassarre product page lists reference WW194013BK-0101 and 41 mm case, 13 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1559,
+    "brand": "Marathon",
+    "model": "SSNAV No Date 41mm - Black on Nylon Defense Standard Strap",
+    "reference": "WW194029SS-0803",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/ssnav-no-date-41mm-black-on-defence-standard",
+        "note": "Teddy Baldassarre product page lists reference WW194029SS-0803 and 41 mm case, 11 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1560,
+    "brand": "Marathon",
+    "model": "SSNAV No Date 41mm - Black on Rubber Strap",
+    "reference": "WW194029SS-0830",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/ssnav-no-date-41mm-black-on-rubber",
+        "note": "Teddy Baldassarre product page lists reference WW194029SS-0830 and 41 mm case, 11 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1561,
+    "brand": "Marathon",
+    "model": "SSNAV-D Arctic Edition 41mm - White on Nylon Defense Standard Strap",
+    "reference": "WW194030SS-0503",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/ssnav-d-41mm-arctic-on-defence-standard",
+        "note": "Teddy Baldassarre product page lists reference WW194030SS-0503 and 41 mm case, 11 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1562,
+    "brand": "Marathon",
+    "model": "SSNAV-D Arctic Edition 41mm - White on Rubber Strap",
+    "reference": "WW194030SS-0530",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/ssnav-d-41mm-arctic-on-rubber",
+        "note": "Teddy Baldassarre product page lists reference WW194030SS-0530 and 41 mm case, 11 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1563,
+    "brand": "Marathon",
+    "model": "SSNAV-D Arctic Edition Quartz 41mm - White",
+    "reference": "WW194013SS",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/steel-navigator-ssnav-41mm-arctic-edition-with-date",
+        "note": "Teddy Baldassarre product page lists reference WW194013SS and 41 mm case, 11 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1564,
+    "brand": "Marathon",
+    "model": "SSNAV-D Automatic 41mm - Black",
+    "reference": "WW194030SS",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/steel-navigator-ssnav-d-auto-41mm",
+        "note": "Teddy Baldassarre product page lists reference WW194030SS and 41 mm case, 11 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1565,
+    "brand": "Marathon",
+    "model": "SSNAV-D Quartz Limited Edition \"Blue Yonder\" 41mm - Blue on Rubber Strap",
+    "reference": "WW194013SS-1301",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/limited-edition-ssnav-d-quartz-blue-yonder-41mm-blue-on-rubber-strap",
+        "note": "Teddy Baldassarre product page lists reference WW194013SS-1301 and 41 mm case, 11 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1566,
+    "brand": "MeisterSinger",
+    "model": "Neo Automatic 36mm - Grey on Velour Leather Strap",
+    "reference": "NE917G_SV13",
+    "lugToLugMm": 38.98,
+    "caseMm": 36,
+    "thicknessMm": 9.7,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/ne917g-2025",
+        "note": "Teddy Baldassarre product page lists reference NE917G_SV13 and 36 mm case, 9.7 mm case height, 38.98 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1567,
+    "brand": "MeisterSinger",
+    "model": "Neo Automatic 36mm - Red on Leather Strap",
+    "reference": "NE911D_SCF11",
+    "lugToLugMm": 38.98,
+    "caseMm": 36,
+    "thicknessMm": 9.7,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/ne911d-2025",
+        "note": "Teddy Baldassarre product page lists reference NE911D_SCF11 and 36 mm case, 9.7 mm case height, 38.98 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1568,
+    "brand": "Mühle Glashütte",
+    "model": "29er Big 42.4mm - White on Bracelet",
+    "reference": "M1-25-31-MB",
+    "lugToLugMm": 48.8,
+    "caseMm": 42.4,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/29er-big-cream-dial-stainless-steel-bracelet",
+        "note": "Teddy Baldassarre product page lists reference M1-25-31-MB and 42.4 mm case, 11.3 mm case height, 48.8 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1569,
+    "brand": "Mühle Glashütte",
+    "model": "29er Big 42mm - Silver on Canvas Strap",
+    "reference": "M1-25-37-CB",
+    "lugToLugMm": 48.8,
+    "caseMm": 42.4,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/29er-big-silver-dial-42-mm",
+        "note": "Teddy Baldassarre product page lists reference M1-25-37-CB and 42.4 mm case, 11.3 mm case height, 48.8 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1570,
+    "brand": "Mühle Glashütte",
+    "model": "29er Big Day-Date Automatic 42.4mm - Grey on Grey Canvas Strap",
+    "reference": "M1-25-34-CB",
+    "lugToLugMm": 49.1,
+    "caseMm": 42.4,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/29er-big-day-date42-4mm-automatic-grey-on-grey-canvas",
+        "note": "Teddy Baldassarre product page lists reference M1-25-34-CB and 42.4 mm case, 12.2 mm case height, 49.1 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1571,
+    "brand": "Mühle Glashütte",
+    "model": "29er Big GMT 42.4mm - Anthracite on Fabric Strap",
+    "reference": "M1-25-93-CB-V",
+    "lugToLugMm": 49,
+    "caseMm": 42.4,
+    "thicknessMm": 10.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/29er-big-gmt-42-4mm-anthracite-on-grey-canvas-strap",
+        "note": "Teddy Baldassarre product page lists reference M1-25-93-CB-V and 42.4 mm case, 10.3 mm case height, 49 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1572,
+    "brand": "Mühle Glashütte",
+    "model": "29er Big GMT 42.4mm - Anthracite on Leather Strap",
+    "reference": "M1-25-93-LB",
+    "lugToLugMm": 49,
+    "caseMm": 42.4,
+    "thicknessMm": 10.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/29er-big-gmt-42-4mm-anthracite-on-black-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference M1-25-93-LB and 42.4 mm case, 10.3 mm case height, 49 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1573,
+    "brand": "Mühle Glashütte",
+    "model": "29er Big Pointer Date Automatic 42.4mm - White on Blue Canvas Strap",
+    "reference": "M1-25-32-CB",
+    "lugToLugMm": 49.1,
+    "caseMm": 42.4,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/29er-big-pointer-date42-4mm-automatic-white-on-blue-canvas-strap",
+        "note": "Teddy Baldassarre product page lists reference M1-25-32-CB and 42.4 mm case, 12.2 mm case height, 49.1 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1574,
+    "brand": "Mühle Glashütte",
+    "model": "29er Big Pointer Date Automatic 42.4mm - White on Bracelet",
+    "reference": "M1-25-32-MB",
+    "lugToLugMm": 49.1,
+    "caseMm": 42.4,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/29er-big-pointer-date42-4mm-automatic-white-on-stainless-steel-bracelet",
+        "note": "Teddy Baldassarre product page lists reference M1-25-32-MB and 42.4 mm case, 12.2 mm case height, 49.1 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1575,
+    "brand": "Mühle Glashütte",
+    "model": "29er Big Small Seconds Automatic 42.4mm - Blue on Bracelet",
+    "reference": "M1-25-82-MB",
+    "lugToLugMm": 49.1,
+    "caseMm": 42.4,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/29er-big-small-seconds-automatic-42-4mm-blue-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference M1-25-82-MB and 42.4 mm case, 11.3 mm case height, 49.1 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1576,
+    "brand": "Mühle Glashütte",
+    "model": "29er Big Small Seconds Automatic 42.4mm - Blue on Fabric Strap",
+    "reference": "M1-25-82-CB-IV",
+    "lugToLugMm": 49.1,
+    "caseMm": 42.4,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/29er-big-small-seconds-automatic-42-4mm-blue-on-fabric-strap",
+        "note": "Teddy Baldassarre product page lists reference M1-25-82-CB-IV and 42.4 mm case, 11.3 mm case height, 49.1 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1577,
+    "brand": "Mühle Glashütte",
+    "model": "Panova 40mm - Blue on Stainless Steel Milanaise Bracelet",
+    "reference": "M1-40-72-MB-II",
+    "lugToLugMm": 48.2,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/panova-40mm-blue-on-stainless-steel-milanaise-bracelet",
+        "note": "Teddy Baldassarre product page lists reference M1-40-72-MB-II and 40 mm case, 10.4 mm case height, 48.2 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1578,
+    "brand": "Mühle Glashütte",
+    "model": "Panova 40mm - Green on Perforated Brown Leather Strap",
+    "reference": "M1-40-76-LB-I",
+    "lugToLugMm": 48.2,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/panova-40mm-green-on-perforated-brown-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference M1-40-76-LB-I and 40 mm case, 10.4 mm case height, 48.2 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1579,
+    "brand": "Mühle Glashütte",
+    "model": "Panova 40mm - Green on Stainless Steel Milanaise Bracelet",
+    "reference": "M1-40-76-MB-II",
+    "lugToLugMm": 48.2,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/panova-40mm-green-on-stainless-steel-milanaise-bracelet",
+        "note": "Teddy Baldassarre product page lists reference M1-40-76-MB-II and 40 mm case, 10.4 mm case height, 48.2 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1580,
+    "brand": "Mühle Glashütte",
+    "model": "Panova 40mm - Grey on Smooth Brown Leather Strap",
+    "reference": "M1-40-75-LB-II",
+    "lugToLugMm": 48.2,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/panova-40mm-grey-on-smooth-brown-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference M1-40-75-LB-II and 40 mm case, 10.4 mm case height, 48.2 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1581,
+    "brand": "Mühle Glashütte",
+    "model": "Panova 40mm - Grey on Stainless Steel Milanaise Bracelet",
+    "reference": "M1-40-75-MB-II",
+    "lugToLugMm": 48.2,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/panova-40mm-grey-on-stainless-steel-milanaise-bracelet",
+        "note": "Teddy Baldassarre product page lists reference M1-40-75-MB-II and 40 mm case, 10.4 mm case height, 48.2 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1582,
+    "brand": "Mühle Glashütte",
+    "model": "Panova 40mm - Lime Green on Leather Strap",
+    "reference": "M1-40-76-1-LBV-I",
+    "lugToLugMm": 48.2,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/panova-40mm-lime-on-anthracite-suede-strap",
+        "note": "Teddy Baldassarre product page lists reference M1-40-76-1-LBV-I and 40 mm case, 10.4 mm case height, 48.2 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1583,
+    "brand": "Mühle Glashütte",
+    "model": "Panova 40mm - Lime Green on Milanaise Bracelet",
+    "reference": "M1-40-76-1-MB-II",
+    "lugToLugMm": 48.2,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/panova-40mm-lime-on-stainless-steel-milanaise-bracelet",
+        "note": "Teddy Baldassarre product page lists reference M1-40-76-1-MB-II and 40 mm case, 10.4 mm case height, 48.2 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1584,
+    "brand": "Mühle Glashütte",
+    "model": "Panova 40mm - Turquoise on Distressed Black Leather Strap",
+    "reference": "M1-40-79-LB-III",
+    "lugToLugMm": 48.2,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/panova-40mm-turquoise-on-distressed-black-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference M1-40-79-LB-III and 40 mm case, 10.4 mm case height, 48.2 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1585,
+    "brand": "Mühle Glashütte",
+    "model": "Panova 40mm - Turquoise on Stainless Steel Milanaise Bracelet",
+    "reference": "M1-40-79-MB-II",
+    "lugToLugMm": 48.2,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/panova-40mm-turquoise-on-stainless-steel-milanaise-bracelet",
+        "note": "Teddy Baldassarre product page lists reference M1-40-79-MB-II and 40 mm case, 10.4 mm case height, 48.2 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1586,
+    "brand": "Mühle Glashütte",
+    "model": "Panova 40mm - Violet on Leather Strap",
+    "reference": "M1-40-78-1-LB-V",
+    "lugToLugMm": 48.2,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/panova-40mm-violet-on-grey-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference M1-40-78-1-LB-V and 40 mm case, 10.4 mm case height, 48.2 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1587,
+    "brand": "Mühle Glashütte",
+    "model": "Panova 40mm - Violet on Milanaise Bracelet",
+    "reference": "M1-40-78-1-MB-II",
+    "lugToLugMm": 48.2,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/panova-40mm-violet-on-stainless-steel-milanaise-bracelet",
+        "note": "Teddy Baldassarre product page lists reference M1-40-78-1-MB-II and 40 mm case, 10.4 mm case height, 48.2 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1588,
+    "brand": "Mühle Glashütte",
+    "model": "Sportivo Compass Date 42.5mm - Blue on Canvas-Rubber Strap",
+    "reference": "M1-52-22-CK",
+    "lugToLugMm": 50.2,
+    "caseMm": 42.5,
+    "thicknessMm": 11.4,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/sportivo-compass-date-blue-green-canvas-rubber-strap",
+        "note": "Teddy Baldassarre product page lists reference M1-52-22-CK and 42.5 mm case, 11.4 mm case height, 50.2 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1589,
+    "brand": "Mühle Glashütte",
+    "model": "Teutonia II Ring Date 41mm - Grey Blue on Leather Strap",
+    "reference": "M1-33-52-LB",
+    "lugToLugMm": 51.2,
+    "caseMm": 41,
+    "thicknessMm": 10.7,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/teutonia-ii-ring-date-41mm-grey-blue-on-black-croco-print-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference M1-33-52-LB and 41 mm case, 10.7 mm case height, 51.2 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1590,
+    "brand": "Mühle Glashütte",
+    "model": "Teutonia IV Moonphase 41mm - Black on Bracelet",
+    "reference": "M1-44-03-MB",
+    "lugToLugMm": 51.4,
+    "caseMm": 41,
+    "thicknessMm": 12.6,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/teutonia-iv-moonphase-41mm-black-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference M1-44-03-MB and 41 mm case, 12.6 mm case height, 51.4 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1591,
+    "brand": "NOMOS Glashütte",
+    "model": "Club Campus \"Starlight\" Sapphire Back 38mm - Yellow on Strap",
+    "reference": "721.GB",
+    "lugToLugMm": 48.9,
+    "caseMm": 38.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/club-campus-sapphire-back-38mm-starlight-on-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference 721.GB and 38.5 mm case, 8.5 mm case height, 48.9 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1592,
+    "brand": "NOMOS Glashütte",
+    "model": "Club Campus 36mm - Cream Coral on Leather Strap",
+    "reference": "714",
+    "lugToLugMm": 47.5,
+    "caseMm": 36,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/club-campus-36-cream-coral",
+        "note": "Teddy Baldassarre product page lists reference 714 and 36 mm case, 8.2 mm case height, 47.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1593,
+    "brand": "NOMOS Glashütte",
+    "model": "Club Campus 38mm - Nonstop Red on Strap",
+    "reference": "723",
+    "lugToLugMm": 48.9,
+    "caseMm": 38.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/club-campus-38-nonstop-red-steel-back",
+        "note": "Teddy Baldassarre product page lists reference 723 and 38.5 mm case, 8.5 mm case height, 48.9 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1594,
+    "brand": "NOMOS Glashütte",
+    "model": "Club Campus Glass Back 38.5mm - Rose on Leather Strap",
+    "reference": "720.GB",
+    "lugToLugMm": 46.7,
+    "caseMm": 38.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/club-campus-glass-caseback-38mm-rose-on-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference 720.GB and 38.5 mm case, 8.5 mm case height, 46.7 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1595,
+    "brand": "NOMOS Glashütte",
+    "model": "Club Campus Steel Back 38.5mm - Rose on Leather Strap",
+    "reference": "720",
+    "lugToLugMm": 48.9,
+    "caseMm": 38.5,
+    "thicknessMm": 8.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/new-38mm-rose-steel-back",
+        "note": "Teddy Baldassarre product page lists reference 720 and 38.5 mm case, 8.4 mm case height, 48.9 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1596,
+    "brand": "NOMOS Glashütte",
+    "model": "Club Sport Neomatik 37mm - Polar Blue on Bracelet",
+    "reference": "750",
+    "lugToLugMm": 47.7,
+    "caseMm": 37,
+    "thicknessMm": 8.4,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/club-sport-neomatik-polar-37mm",
+        "note": "Teddy Baldassarre product page lists reference 750 and 37 mm case, 8.4 mm case height, 47.7 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1597,
+    "brand": "NOMOS Glashütte",
+    "model": "Minimatik Date 39mm - Blue on Leather Strap",
+    "reference": "1252",
+    "lugToLugMm": 47.7,
+    "caseMm": 39.5,
+    "thicknessMm": 7.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/minimatik-date-39mm-blue-on-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference 1252 and 39.5 mm case, 7.5 mm case height, 47.7 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1598,
+    "brand": "NOMOS Glashütte",
+    "model": "Minimatik Date 39mm - White Silver-Plated on Leather Strap",
+    "reference": "1250",
+    "lugToLugMm": 47.7,
+    "caseMm": 39.5,
+    "thicknessMm": 7.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/minimatik-date-39mm-white-silver-plated-on-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference 1250 and 39.5 mm case, 7.5 mm case height, 47.7 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1599,
+    "brand": "NOMOS Glashütte",
+    "model": "Minimatik Date Gold Hands 39mm - White Silver-Plated on Leather Strap",
+    "reference": "1251",
+    "lugToLugMm": 47.7,
+    "caseMm": 39.5,
+    "thicknessMm": 7.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/minimatik-date-gold-hands-39mm-white-silver-plated-on-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference 1251 and 39.5 mm case, 7.5 mm case height, 47.7 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1600,
+    "brand": "NOMOS Glashütte",
+    "model": "Tangente 38mm - White on Leather Strap",
+    "reference": "164",
+    "lugToLugMm": 47.7,
+    "caseMm": 37.5,
+    "thicknessMm": 6.8,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/tangente-38",
+        "note": "Teddy Baldassarre product page lists reference 164 and 37.5 mm case, 6.8 mm case height, 47.7 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1601,
+    "brand": "NOMOS Glashütte",
+    "model": "Tangente Date 38mm - White Silver-Plated on Leather Strap",
+    "reference": "130",
+    "lugToLugMm": 47.7,
+    "caseMm": 37.5,
+    "thicknessMm": 6.8,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/tangente-38-date",
+        "note": "Teddy Baldassarre product page lists reference 130 and 37.5 mm case, 6.8 mm case height, 47.7 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1602,
+    "brand": "NOMOS Glashütte",
+    "model": "Tetra Ochra Sapphire Back 29.5mm - Ocher Yellow on Strap",
+    "reference": "437",
+    "lugToLugMm": 40.5,
+    "caseMm": 29.5,
+    "thicknessMm": 6.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/tetra-ochra-sapphire-back-29-5mm-ocher-yellow-on-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference 437 and 29.5 mm case, 6.5 mm case height, 40.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1603,
+    "brand": "Oris",
+    "model": "Big Crown Pointer Date “BULLSEYE” 38mm - Black and White on Leather Strap",
+    "reference": "754 7779 4061-07 5 19 25",
+    "lugToLugMm": 45.5,
+    "caseMm": 38,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/big-crown-pointer-date-bullseye-38mm-black-and-white-on-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference 754 7779 4061-07 5 19 25 and 38 mm case, 12.2 mm case height, 45.5 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1604,
+    "brand": "Oris",
+    "model": "Big Crown Pointer Date 40mm - Blue on Leather Strap",
+    "reference": "01 754 7785 4065-07 6 20 10",
+    "lugToLugMm": 48.2,
+    "caseMm": 40,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/big-crown-pointer-date-new-case-40mm-blue-on-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference 01 754 7785 4065-07 6 20 10 and 40 mm case, 11.8 mm case height, 48.2 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1605,
+    "brand": "Oris",
+    "model": "Big Crown Pointer Date 40mm - Purple on Bracelet",
+    "reference": "01 754 7798 4068-07 8 20 06",
+    "lugToLugMm": 47.5,
+    "caseMm": 40,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/big-crown-pointer-date-40mm-lilac-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference 01 754 7798 4068-07 8 20 06 and 40 mm case, 12 mm case height, 47.5 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1606,
+    "brand": "Oris",
+    "model": "Big Crown Pointer Date 40mm - Yellow on Bracelet",
+    "reference": "01 754 7798 4069-07 8 20 06",
+    "lugToLugMm": 47.5,
+    "caseMm": 40,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/big-crown-pointer-date-40mm-yellow-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference 01 754 7798 4069-07 8 20 06 and 40 mm case, 12 mm case height, 47.5 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1607,
+    "brand": "Oris",
+    "model": "Big Crown Pointer Date Caliber 403 40mm - Green on Bracelet",
+    "reference": "01 403 7799 4067-07 8 20 06",
+    "lugToLugMm": 47.5,
+    "caseMm": 40,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/big-crown-pointer-date-calibre-403-40mm-green-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference 01 403 7799 4067-07 8 20 06 and 40 mm case, 12.3 mm case height, 47.5 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1608,
+    "brand": "Oris",
+    "model": "Big Crown Pointer Date Caliber 403 40mm - Terracotta Pink on Bracelet",
+    "reference": "01 403 7799 4068-07 8 20 06",
+    "lugToLugMm": 47.5,
+    "caseMm": 40,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/big-crown-pointer-date-calibre-403-40mm-teracotta-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference 01 403 7799 4068-07 8 20 06 and 40 mm case, 12.3 mm case height, 47.5 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1609,
+    "brand": "Oris",
+    "model": "Big Crown Pointer Date Lou Gehrig Limited Edition 40mm - Silver on Leather Strap w/ Additional Fabric Strap",
+    "reference": "754 7785 4091-Set",
+    "lugToLugMm": 48.2,
+    "caseMm": 40,
+    "thicknessMm": 12.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/big-crown-pointer-date-lou-gehrig-limited-edition-40mm-silver-on-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference 754 7785 4091-Set and 40 mm case, 12.2 mm case height, 48.2 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 1610,
+    "brand": "Oris",
+    "model": "Divers Date 39mm - Blue on Bracelet",
+    "reference": "01 733 7795 4055-Set",
+    "lugToLugMm": 46.5,
+    "caseMm": 39,
+    "thicknessMm": null,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/oris-divers-date-blue-dial-39mm",
+        "note": "Teddy Baldassarre product page lists reference 01 733 7795 4055-Set and 39 mm case, 46.5 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1611,
+    "brand": "Oris",
+    "model": "Divers Sixty‑Five 'Cotton Candy' 38mm - Blue on Bracelet",
+    "reference": "01 733 7771 4055-07 8 19 18",
+    "lugToLugMm": 45.7,
+    "caseMm": 38,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/cotton-candy-steel-blue",
+        "note": "Teddy Baldassarre product page lists reference 01 733 7771 4055-07 8 19 18 and 38 mm case, 12.8 mm case height, 45.7 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1612,
+    "brand": "Oris",
+    "model": "Divers Sixty‑Five Date 40mm - Blue on Bracelet",
+    "reference": "01 733 7707 4055-07 8 20 18",
+    "lugToLugMm": 48.1,
+    "caseMm": 40,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/divers-sixty-five-40m-blue-metal",
+        "note": "Teddy Baldassarre product page lists reference 01 733 7707 4055-07 8 20 18 and 40 mm case, 12.8 mm case height, 48.1 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1613,
+    "brand": "Oris",
+    "model": "ProPilot Date 41mm - Chalk Grey on Bracelet",
+    "reference": "733 7805 4163-07 8 20 04LC",
+    "lugToLugMm": 49,
+    "caseMm": 41,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/propilot-date-41mm-chalk-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference 733 7805 4163-07 8 20 04LC and 41 mm case, 11.7 mm case height, 49 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1614,
+    "brand": "Oris",
+    "model": "ProPilot X Caliber 400 39mm - Grey on Bracelet",
+    "reference": "01 400 7778 7153-07 7 20 01TLC",
+    "lugToLugMm": 47,
+    "caseMm": 39,
+    "thicknessMm": 13.25,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/propilot-x-calibre-400-39mm-grey-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference 01 400 7778 7153-07 7 20 01TLC and 39 mm case, 13.25 mm case height, 47 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1615,
+    "brand": "Oris",
+    "model": "ProPilot X Kermit Edition 39mm - Green on Bracelet",
+    "reference": "400 7778 7157 07 20 01 TLC",
+    "lugToLugMm": 46.9,
+    "caseMm": 39,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/propilot-x-kermit-edition",
+        "note": "Teddy Baldassarre product page lists reference 400 7778 7157 07 20 01 TLC and 39 mm case, 12 mm case height, 46.9 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1616,
+    "brand": "Squale",
+    "model": "1521 42mm - Full Luminous Green on Bracelet",
+    "reference": "1521FULL.SQ20L",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/1521-full-luminous-yellow-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference 1521FULL.SQ20L and 42 mm case, 12.5 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1617,
+    "brand": "Squale",
+    "model": "1521 Black Blasted 42mm - Black on Rubber Strap",
+    "reference": "1521BKBL.VO",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/1521-black-blasted-black-on-rubber-strap",
+        "note": "Teddy Baldassarre product page lists reference 1521BKBL.VO and 42 mm case, 12.5 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1618,
+    "brand": "Squale",
+    "model": "1521 Black DLC 42mm - Black on Bracelet",
+    "reference": "1521DLCBK.VO",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/1521-black-dlc-42mm-black-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference 1521DLCBK.VO and 42 mm case, 12.5 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1619,
+    "brand": "Squale",
+    "model": "1521 Black DLC 42mm - Orange on Bracelet",
+    "reference": "1521DLCFOR.VO",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/1521-black-dlc-42mm-orange-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference 1521DLCFOR.VO and 42 mm case, 12.5 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1620,
+    "brand": "Squale",
+    "model": "1521 Blue Blasted 42mm - Blue on Rubber Strap",
+    "reference": "1521BLUEBL.VO",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/1521-blue-blasted-blue-on-rubber-strap",
+        "note": "Teddy Baldassarre product page lists reference 1521BLUEBL.VO and 42 mm case, 12.5 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1621,
+    "brand": "Squale",
+    "model": "1521 Blue Ray 42mm - Blue on Rubber Strap",
+    "reference": "1521PROFD.HT",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/1521-blue-ray-blue-on-rubber-stra",
+        "note": "Teddy Baldassarre product page lists reference 1521PROFD.HT and 42 mm case, 12.5 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1622,
+    "brand": "Squale",
+    "model": "1521 Classic 42mm - Black on Rubber Strap",
+    "reference": "1521CL.VO",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/1521-classic-navy-on-rubber-strap",
+        "note": "Teddy Baldassarre product page lists reference 1521CL.VO and 42 mm case, 12.5 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1623,
+    "brand": "Squale",
+    "model": "1521 Ocean 42mm - Blue on Bracelet",
+    "reference": "1521OCN.SQ20L",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/1521-ocean-blue-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference 1521OCN.SQ20L and 42 mm case, 12.5 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1624,
+    "brand": "Squale",
+    "model": "1521 Ocean 42mm - Blue on Rubber Strap",
+    "reference": "1521OCN.VO",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/1521-ocean-blue-on-rubber-strap",
+        "note": "Teddy Baldassarre product page lists reference 1521OCN.VO and 42 mm case, 12.5 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1625,
+    "brand": "Squale",
+    "model": "1545 Steel 40mm - Black on Bracelet",
+    "reference": "1545SSBK.AC",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/1545-balck-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference 1545SSBK.AC and 40 mm case, 12 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1626,
+    "brand": "Squale",
+    "model": "1545 Steel 40mm - Black on Rubber Strap",
+    "reference": "1545BKBKC.HT",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/1545-black-on-rubber-strap",
+        "note": "Teddy Baldassarre product page lists reference 1545BKBKC.HT and 40 mm case, 12 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1627,
+    "brand": "Squale",
+    "model": "1545 Steel 40mm - Blue on Bracelet",
+    "reference": "1545SSBLC.AC",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/1545-blue-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference 1545SSBLC.AC and 40 mm case, 12 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1628,
+    "brand": "Squale",
+    "model": "1545 Steel 40mm - Blue on Rubber Strap",
+    "reference": "1545SSBLC.HTB",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/1545-steel-40mm-blue-on-rubber-strap",
+        "note": "Teddy Baldassarre product page lists reference 1545SSBLC.HTB and 40 mm case, 12 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1629,
+    "brand": "Squale",
+    "model": "1545 Steel 40mm - Grey on Bracelet",
+    "reference": "1545GG.AC",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/1545-grey-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference 1545GG.AC and 40 mm case, 12 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1630,
+    "brand": "Squale",
+    "model": "1545 Steel 40mm - Grey on Rubber Strap",
+    "reference": "1545GG.HTG",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/1545-grey-on-rubber-strap",
+        "note": "Teddy Baldassarre product page lists reference 1545GG.HTG and 40 mm case, 12 mm case height, 48 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1631,
+    "brand": "Squale",
+    "model": "Matic 44mm - Black and Satin Orange on Bracelet",
+    "reference": "MATICXSC.SQ22B",
+    "lugToLugMm": 51,
+    "caseMm": 44,
+    "thicknessMm": 15.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/matic-satin-orange-black-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference MATICXSC.SQ22B and 44 mm case, 15.8 mm case height, 51 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1632,
+    "brand": "Squale",
+    "model": "Matic 44mm - Blue on Bracelet",
+    "reference": "MATICXSE.SQ22L",
+    "lugToLugMm": 51,
+    "caseMm": 44,
+    "thicknessMm": 15.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/matic-light-blue-blue-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference MATICXSE.SQ22L and 44 mm case, 15.8 mm case height, 51 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1633,
+    "brand": "Squale",
+    "model": "Matic S 39.5mm - Black, Orange Bezel on Bracelet",
+    "reference": "MATICBKOBK.SSBX",
+    "lugToLugMm": 47,
+    "caseMm": 39.5,
+    "thicknessMm": 12.6,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/matic-s-black-orange-bezel-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference MATICBKOBK.SSBX and 39.5 mm case, 12.6 mm case height, 47 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1634,
+    "brand": "Sternglas",
+    "model": "Hamburg 38mm - Black/Red on Brown Leather Strap",
+    "reference": "S02-NA43-PR01",
+    "lugToLugMm": 42,
+    "caseMm": 38,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/hamburg-38mm-black-red-on-brown-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference S02-NA43-PR01 and 38 mm case, 12 mm case height, 42 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1635,
+    "brand": "Sternglas",
+    "model": "Hamburg Quartz 42mm - White on Leather Strap",
+    "reference": "S01-HH10-VI11",
+    "lugToLugMm": 45,
+    "caseMm": 42,
+    "thicknessMm": 6,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/hamburg-white-dial-brown-strap",
+        "note": "Teddy Baldassarre product page lists reference S01-HH10-VI11 and 42 mm case, 6 mm case height, 45 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1636,
+    "brand": "Sternglas",
+    "model": "Naos Automatic 38mm - Black on Bracelet",
+    "reference": "S02-NA43-MI04",
+    "lugToLugMm": 43,
+    "caseMm": 38,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/naos-automatic-black-38mm-automatic-stainless-steel-milanaise-bracelet",
+        "note": "Teddy Baldassarre product page lists reference S02-NA43-MI04 and 38 mm case, 12 mm case height, 43 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1637,
+    "brand": "Sternglas",
+    "model": "Naos Automatic 38mm - Black on Leather Strap",
+    "reference": "S02-NA43-PR07",
+    "lugToLugMm": 43,
+    "caseMm": 38,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/naos-automatic-black-38mm-automatic-german-premium-leather-strap-in-black",
+        "note": "Teddy Baldassarre product page lists reference S02-NA43-PR07 and 38 mm case, 12 mm case height, 43 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1638,
+    "brand": "Sternglas",
+    "model": "Naos Automatic 38mm - Blue on Bracelet",
+    "reference": "S02-NA45-MI04",
+    "lugToLugMm": 43,
+    "caseMm": 38,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/naos-automatic-blue-38mm-automatic-stainless-steel-milanaise-bracelet",
+        "note": "Teddy Baldassarre product page lists reference S02-NA45-MI04 and 38 mm case, 12 mm case height, 43 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1639,
+    "brand": "Sternglas",
+    "model": "Naos Automatic 38mm - Blue on Leather Strap",
+    "reference": "S02-NA45-PR07",
+    "lugToLugMm": 43,
+    "caseMm": 38,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/naos-automatic-blue-38mm-automatic-german-premium-leather-strap-in-black",
+        "note": "Teddy Baldassarre product page lists reference S02-NA45-PR07 and 38 mm case, 12 mm case height, 43 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1640,
+    "brand": "Sternglas",
+    "model": "Naos Automatic 38mm - White on Black Leather Strap",
+    "reference": "S02-NA44-PR07",
+    "lugToLugMm": 42,
+    "caseMm": 38,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/naos-38mm-white-on-black-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference S02-NA44-PR07 and 38 mm case, 12 mm case height, 42 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1641,
+    "brand": "Sternglas",
+    "model": "Naos Automatic 38mm - White on Bracelet",
+    "reference": "S02-NA44-MI04",
+    "lugToLugMm": 42,
+    "caseMm": 38,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/naos-38mm-white-on-bracelet",
+        "note": "Teddy Baldassarre product page lists reference S02-NA44-MI04 and 38 mm case, 12 mm case height, 42 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1642,
+    "brand": "Sternglas",
+    "model": "Naos Automatic 38mm - White on Brown Leather Strap",
+    "reference": "S02-NA44-PR01",
+    "lugToLugMm": 42,
+    "caseMm": 38,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/naos-38mm-white-on-brown-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference S02-NA44-PR01 and 38 mm case, 12 mm case height, 42 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1643,
+    "brand": "Sternglas",
+    "model": "Naos Automatic 38mm - White on Dark Brown Leather Strap",
+    "reference": "S02-NA44-PR04",
+    "lugToLugMm": 42,
+    "caseMm": 38,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/naos-38mm-white-on-dark-brown-leather-strap",
+        "note": "Teddy Baldassarre product page lists reference S02-NA44-PR04 and 38 mm case, 12 mm case height, 42 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1644,
+    "brand": "Sternglas",
+    "model": "Naos Quartz 38mm - Sunburst Blue on Bracelet",
+    "reference": "S01-NA06-MI04",
+    "lugToLugMm": 41,
+    "caseMm": 38,
+    "thicknessMm": 6,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/naos-sunburst-blue-dial-38mm-on-steel-milanaise-bracelet",
+        "note": "Teddy Baldassarre product page lists reference S01-NA06-MI04 and 38 mm case, 6 mm case height, 41 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1645,
+    "brand": "Sternglas",
+    "model": "Naos XS Quartz Gold PVD 33mm - White on Leather Strap",
+    "reference": "S01-ND02-KL08",
+    "lugToLugMm": 36,
+    "caseMm": 33,
+    "thicknessMm": 6,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/naos-xs-gold-tone-case",
+        "note": "Teddy Baldassarre product page lists reference S01-ND02-KL08 and 33 mm case, 6 mm case height, 36 mm lug-to-lug, 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 1646,
+    "brand": "Unimatic",
+    "model": "UT1-GMT Modello Uno Toolwatch 41.5mm - Black on Fabric Strap",
+    "reference": "UT1-GMT",
+    "lugToLugMm": 49,
+    "caseMm": 41.5,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/ut1-gmt-toolwatch",
+        "note": "Teddy Baldassarre product page lists reference UT1-GMT and 41.5 mm case, 13.2 mm case height, 49 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
   }
 ]

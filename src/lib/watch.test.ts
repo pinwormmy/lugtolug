@@ -24,4 +24,15 @@ describe("watch search matching", () => {
       )
     ).toBe(false);
   });
+
+  it("matches German brand names with common English transliterations", () => {
+    const watch = {
+      brand: "Mühle Glashütte",
+      model: "29er Big",
+      reference: "M1-25-33-LB"
+    };
+
+    expect(watchMatchesSearchQuery(watch, "muhle glashutte")).toBe(true);
+    expect(watchMatchesSearchQuery(watch, "muehle glashuette")).toBe(true);
+  });
 });

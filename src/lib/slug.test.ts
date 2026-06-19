@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { normalizeSearch, slugify } from "@/lib/slug";
+import { normalizeSearch, normalizeSearchWithAliases, slugify } from "@/lib/slug";
 
 describe("slug helpers", () => {
   it("creates stable URL slugs", () => {
@@ -9,5 +9,9 @@ describe("slug helpers", () => {
 
   it("normalizes search text", () => {
     expect(normalizeSearch("Tudor Black-Bay 58 / M79030N-0001")).toBe("tudor black bay 58 m79030n 0001");
+  });
+
+  it("adds German transliteration aliases to search text", () => {
+    expect(normalizeSearchWithAliases("Mühle Glashütte")).toBe("muhle glashutte muehle glashuette");
   });
 });
