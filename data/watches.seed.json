@@ -38069,5 +38069,325 @@
         "note": "Time+Tide article table lists reference ZO3559 with case dimensions 42mm (D) x 13mm (T) x 49.5mm (LTL)."
       }
     ]
+  },
+  {
+    "id": 2274,
+    "brand": "Casio",
+    "model": "Edifice",
+    "reference": "EFB-730L-7AVUEF",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/casio-edifice-efb-730l-7avuef",
+        "note": "Helveti product parameters list reference EFB-730L-7AVUEF, 40 mm case size, 47 mm lug-to-lug, 11 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2275,
+    "brand": "Casio",
+    "model": "G-Shock GG-B100-1A3ER Mudmaster",
+    "reference": "GG-B100-1A3ER",
+    "lugToLugMm": 55.4,
+    "caseMm": 51.3,
+    "thicknessMm": 19.3,
+    "lugWidthMm": 28,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/casio-g-shock-gg-b100-1a3er-mudmaster",
+        "note": "Helveti product parameters list reference GG-B100-1A3ER, 51.3 mm case size, 55.4 mm lug-to-lug, 19.3 mm case height, and 28 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2276,
+    "brand": "Casio",
+    "model": "G-Shock GG-B100X-1AER Mudmaster",
+    "reference": "GG-B100X-1AER",
+    "lugToLugMm": 55.4,
+    "caseMm": 51.3,
+    "thicknessMm": 19.3,
+    "lugWidthMm": 28,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/casio-g-shock-gg-b100x-1aer-mudmaster",
+        "note": "Helveti product parameters list reference GG-B100X-1AER, 51.3 mm case size, 55.4 mm lug-to-lug, 19.3 mm case height, and 28 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2277,
+    "brand": "Casio",
+    "model": "G-Shock GG-B100XM-1AER Mudmaster",
+    "reference": "GG-B100XM-1AER",
+    "lugToLugMm": 55.4,
+    "caseMm": 51.3,
+    "thicknessMm": 19.3,
+    "lugWidthMm": 28,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/casio-g-shock-gg-b100xm-1aer-mudmaster",
+        "note": "Helveti product parameters list reference GG-B100XM-1AER, 51.3 mm case size, 55.4 mm lug-to-lug, 19.3 mm case height, and 28 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2278,
+    "brand": "Certina",
+    "model": "DS-1 Powermatic 80",
+    "reference": "C029.207.11.051.00",
+    "lugToLugMm": 45,
+    "caseMm": 38,
+    "thicknessMm": 11,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-1-powermatic-80-c029-207-11-051-00",
+        "note": "Helveti product parameters list reference C029.207.11.051.00, 38 mm case size, 45 mm lug-to-lug, 11 mm case height, and 19 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2279,
+    "brand": "Certina",
+    "model": "DS-1 Powermatic 80",
+    "reference": "C029.207.16.091.00",
+    "lugToLugMm": 45,
+    "caseMm": 38,
+    "thicknessMm": 11,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-1-powermatic-80-c029-207-16-091-00",
+        "note": "Helveti product parameters list reference C029.207.16.091.00, 38 mm case size, 45 mm lug-to-lug, 11 mm case height, and 19 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2280,
+    "brand": "Certina",
+    "model": "DS Action Quartz",
+    "reference": "C048.410.11.041.00",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-action-quartz-c048-410-11-041-00",
+        "note": "Helveti product parameters list reference C048.410.11.041.00, 40 mm case size, 48 mm lug-to-lug, 11.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2281,
+    "brand": "Certina",
+    "model": "DS Cascadeur 30th Anniversary Limited Edition",
+    "reference": "C046.410.27.051.10",
+    "lugToLugMm": 49,
+    "caseMm": 41.5,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-cascadeur-30th-anniversary-limited-edition-c046-410-27-051-10",
+        "note": "Helveti product parameters list reference C046.410.27.051.10, 41.5 mm case size, 49 mm lug-to-lug, 12.7 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2282,
+    "brand": "Certina",
+    "model": "DS-X GMT",
+    "reference": "C047.452.11.081.01",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-x-gmt-c047-452-11-081-01",
+        "note": "Helveti product parameters list reference C047.452.11.081.01, 41 mm case size, 48 mm lug-to-lug, 12.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2283,
+    "brand": "Certina",
+    "model": "DS-X GMT",
+    "reference": "C047.452.17.011.00",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-x-gmt-c047-452-17-011-00",
+        "note": "Helveti product parameters list reference C047.452.17.011.00, 41 mm case size, 48 mm lug-to-lug, 12.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2284,
+    "brand": "Certina",
+    "model": "DS-X GMT",
+    "reference": "C047.452.17.081.01",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-x-gmt-c047-452-17-081-01",
+        "note": "Helveti product parameters list reference C047.452.17.081.01, 41 mm case size, 48 mm lug-to-lug, 12.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2285,
+    "brand": "Formex",
+    "model": "Aria Ardesia Grey",
+    "reference": "0513.1.5133.100",
+    "lugToLugMm": 45.5,
+    "caseMm": 40,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-aria-ardesia-grey-0513-1-5133-100",
+        "note": "Helveti product parameters list reference 0513.1.5133.100, 40 mm case size, 45.5 mm lug-to-lug, 6.9 mm case height, and 19 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2286,
+    "brand": "Formex",
+    "model": "Aria Denso Blue",
+    "reference": "0513.1.5033.100",
+    "lugToLugMm": 45.5,
+    "caseMm": 40,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-aria-denso-blue-0513-1-5033-100",
+        "note": "Helveti product parameters list reference 0513.1.5033.100, 40 mm case size, 45.5 mm lug-to-lug, 6.9 mm case height, and 19 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2287,
+    "brand": "Formex",
+    "model": "Aria Selva Green",
+    "reference": "0513.1.5103.100",
+    "lugToLugMm": 45.5,
+    "caseMm": 40,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-aria-selva-green-0513-1-5103-100",
+        "note": "Helveti product parameters list reference 0513.1.5103.100, 40 mm case size, 45.5 mm lug-to-lug, 6.9 mm case height, and 19 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2288,
+    "brand": "Formex",
+    "model": "Essence Ceramica COSC Blue",
+    "reference": "0336.4.6631.410",
+    "lugToLugMm": 46.2,
+    "caseMm": 41,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-essence-ceramica-cosc-blue-0336-4-6631-410",
+        "note": "Helveti product parameters list reference 0336.4.6631.410, 41 mm case size, 46.2 mm lug-to-lug, 11.2 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2289,
+    "brand": "Formex",
+    "model": "Essence Ceramica COSC Dark Matter",
+    "reference": "0336.4.6091.410",
+    "lugToLugMm": 46.2,
+    "caseMm": 41,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-essence-ceramica-cosc-dark-matter-0336-4-6091-410",
+        "note": "Helveti product parameters list reference 0336.4.6091.410, 41 mm case size, 46.2 mm lug-to-lug, 11.2 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2290,
+    "brand": "Formex",
+    "model": "Essence Ceramica Skeleton COSC Stradale",
+    "reference": "0336.9.6011.410",
+    "lugToLugMm": 46.2,
+    "caseMm": 41,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-essence-ceramica-skeleton-cosc-stradale-0336-9-6011-410",
+        "note": "Helveti product parameters list reference 0336.9.6011.410, 41 mm case size, 46.2 mm lug-to-lug, 11.2 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2291,
+    "brand": "Formex",
+    "model": "Essence Leggera FortyOne Automatic Chronometer Cool Grey",
+    "reference": "0331.4.6309.714",
+    "lugToLugMm": 46.4,
+    "caseMm": 41,
+    "thicknessMm": 11,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-essence-leggera-fortyone-automatic-chronometer-cool-grey-0331-4-6309-714",
+        "note": "Helveti product parameters list reference 0331.4.6309.714, 41 mm case size, 46.4 mm lug-to-lug, 11 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2292,
+    "brand": "Formex",
+    "model": "Essence ThirtyNine Automatic Chronometer Blue Agate",
+    "reference": "0333.1.6639.100",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 10,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-essence-thirtynine-automatic-chronometer-blue-agate-0333-1-6639-100",
+        "note": "Helveti product parameters list reference 0333.1.6639.100, 39 mm case size, 45 mm lug-to-lug, 10 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2293,
+    "brand": "Formex",
+    "model": "Essence ThirtyNine Automatic Chronometer Mother of Sky Steel Bracelet",
+    "reference": "0333.1.6603.100",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 10,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-essence-thirtynine-automatic-chronometer-mother-of-sky-steel-bracelet-0333-1-6603-100",
+        "note": "Helveti product parameters list reference 0333.1.6603.100, 39 mm case size, 45 mm lug-to-lug, 10 mm case height, and 20 mm strap width."
+      }
+    ]
   }
 ]
