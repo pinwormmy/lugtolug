@@ -37,6 +37,9 @@ export interface SubmissionPayload {
   reportedWatchPath?: string;
   brand: string;
   model: string;
+  canonicalModel?: string | null;
+  modelGroup?: string | null;
+  variant?: string | null;
   reference: string;
   lugToLugMm: number;
   caseMm: number | null;

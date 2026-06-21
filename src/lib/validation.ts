@@ -1,5 +1,12 @@
 import type { SubmissionPayload } from "@/types";
-import { NUMBER_LIMITS, REQUIRED_NUMBER_FIELDS, REQUIRED_SUBMISSION_FIELDS, TEXT_FIELDS, TEXT_LIMITS } from "@/lib/submissionFields";
+import {
+  NORMALIZATION_TEXT_FIELDS,
+  NUMBER_LIMITS,
+  REQUIRED_NUMBER_FIELDS,
+  REQUIRED_SUBMISSION_FIELDS,
+  TEXT_FIELDS,
+  TEXT_LIMITS
+} from "@/lib/submissionFields";
 
 export interface ValidationResult {
   ok: boolean;
@@ -18,6 +25,12 @@ export function parseSubmission(input: FormData | Record<string, unknown>): Vali
   for (const key of TEXT_FIELDS) {
     const value = String(get(key) ?? "").trim();
     if (REQUIRED_SUBMISSION_FIELDS.has(key) && !value) errors[key] = "Required";
+    if (value.length > TEXT_LIMITS[key]) errors[key] = `Must be ${TEXT_LIMITS[key]} characters or fewer`;
+    payload[key] = value;
+  }
+
+  for (const key of NORMALIZATION_TEXT_FIELDS) {
+    const value = String(get(key) ?? "").trim();
     if (value.length > TEXT_LIMITS[key]) errors[key] = `Must be ${TEXT_LIMITS[key]} characters or fewer`;
     payload[key] = value;
   }
@@ -80,6 +93,9 @@ export function parseSubmission(input: FormData | Record<string, unknown>): Vali
       ? {
           brand: String(payload.brand),
           model: String(payload.model),
+          canonicalModel: String(payload.canonicalModel) || undefined,
+          modelGroup: String(payload.modelGroup) || undefined,
+          variant: String(payload.variant) || undefined,
           reference: String(payload.reference),
           sourceUrl,
           lugToLugMm: Number(payload.lugToLugMm),

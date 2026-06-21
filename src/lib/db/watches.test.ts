@@ -188,6 +188,9 @@ describe("recent watches", () => {
     await updateWatch(db, 42, {
       brand: "Omega",
       model: "Speedmaster Professional",
+      canonicalModel: "Speedmaster Moonwatch Professional 42mm",
+      modelGroup: "omega-speedmaster-moonwatch-professional-42mm",
+      variant: "Hesalite bracelet",
       reference: "310.30.42.50.01.001",
       lugToLugMm: 47.5,
       caseMm: 42,
@@ -196,8 +199,42 @@ describe("recent watches", () => {
       sourceUrl: "https://example.com/watch"
     });
 
-    expect(prepareCalls[0]).toContain("status = ?");
-    expect(bindCalls[0]).toContain("approved");
+    const updateSql = prepareCalls.find((sql) => sql.includes("UPDATE watches"));
+    const updateBind = bindCalls.find((args) => args.includes("Speedmaster Moonwatch Professional 42mm"));
+    expect(updateSql).toContain("status = ?");
+    expect(updateSql).toContain("canonical_model = ?");
+    expect(updateSql).toContain("model_group = ?");
+    expect(updateSql).toContain("variant = ?");
+    expect(updateBind).toContain("Speedmaster Moonwatch Professional 42mm");
+    expect(updateBind).toContain("omega-speedmaster-moonwatch-professional-42mm");
+    expect(updateBind).toContain("Hesalite bracelet");
+    expect(updateBind).toContain("approved");
+  });
+
+  it("preserves existing normalization metadata when a form omits it", async () => {
+    const { db, bindCalls } = createMockDb([
+      watchRow({
+        id: 42,
+        canonical_model: "Speedmaster Moonwatch Professional 42mm",
+        model_group: "omega-speedmaster-moonwatch-professional-42mm",
+        variant: "Hesalite bracelet"
+      })
+    ]);
+
+    await updateWatch(db, 42, {
+      brand: "Omega",
+      model: "Speedmaster Professional",
+      reference: "310.30.42.50.01.001",
+      lugToLugMm: 47.5,
+      caseMm: 42,
+      thicknessMm: 13.2,
+      lugWidthMm: 20,
+      sourceUrl: "https://example.com/watch"
+    });
+
+    const updateBind = bindCalls.find((args) => args.includes("Speedmaster Moonwatch Professional 42mm"));
+    expect(updateBind).toContain("omega-speedmaster-moonwatch-professional-42mm");
+    expect(updateBind).toContain("Hesalite bracelet");
   });
 
   it("moves a watch to pending when explicitly unpublished", async () => {
@@ -248,6 +285,7 @@ describe("recent watches", () => {
 
     expect(watchId).toBe(1);
     expect(prepareCalls.some((sql) => sql.includes("INSERT INTO watches"))).toBe(true);
+    expect(prepareCalls.some((sql) => sql.includes("canonical_model"))).toBe(true);
     expect(bindCalls.some((args) => args.includes("pending"))).toBe(true);
   });
 

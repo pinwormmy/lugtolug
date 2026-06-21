@@ -1,23 +1,28 @@
 import type { SubmissionPayload } from "@/types";
 
 export const TEXT_FIELDS = ["brand", "model", "reference", "sourceUrl"] as const;
+export const NORMALIZATION_TEXT_FIELDS = ["canonicalModel", "modelGroup", "variant"] as const;
 export const REQUIRED_TEXT_FIELDS = ["brand", "model", "reference"] as const;
 export const REQUIRED_NUMBER_FIELDS = ["lugToLugMm", "caseMm", "thicknessMm", "lugWidthMm"] as const;
 export const REQUIRED_SUBMISSION_FIELDS = new Set<string>(["model", "lugToLugMm"]);
 
 export type TextField = (typeof TEXT_FIELDS)[number];
+export type NormalizationTextField = (typeof NORMALIZATION_TEXT_FIELDS)[number];
 export type RequiredTextField = (typeof REQUIRED_TEXT_FIELDS)[number];
 export type RequiredNumberField = (typeof REQUIRED_NUMBER_FIELDS)[number];
 
 export const TEXT_LIMITS = {
   brand: 80,
   model: 120,
+  canonicalModel: 120,
+  modelGroup: 140,
+  variant: 120,
   reference: 80,
   sourceUrl: 2048,
   privateComment: 1000,
   contactEmail: 320,
   reportedWatchPath: 300
-} as const satisfies Record<TextField | "privateComment" | "contactEmail" | "reportedWatchPath", number>;
+} as const satisfies Record<TextField | NormalizationTextField | "privateComment" | "contactEmail" | "reportedWatchPath", number>;
 
 export const NUMBER_LIMITS = {
   lugToLugMm: { min: 20, max: 80 },
@@ -90,6 +95,32 @@ export const OPTIONAL_TEXT_INPUTS = [
   type: "text";
 }[];
 
+export const NORMALIZATION_TEXT_INPUTS = [
+  {
+    name: "canonicalModel",
+    label: "Canonical model",
+    maxLength: TEXT_LIMITS.canonicalModel,
+    type: "text"
+  },
+  {
+    name: "modelGroup",
+    label: "Model group",
+    maxLength: TEXT_LIMITS.modelGroup,
+    type: "text"
+  },
+  {
+    name: "variant",
+    label: "Variant",
+    maxLength: TEXT_LIMITS.variant,
+    type: "text"
+  }
+] as const satisfies readonly {
+  name: NormalizationTextField;
+  label: string;
+  maxLength: number;
+  type: "text";
+}[];
+
 export const REQUIRED_NUMBER_INPUTS = [
   {
     name: "lugToLugMm",
@@ -132,6 +163,9 @@ export const OPTIONAL_SUBMISSION_FIELDS = {
   }
 } as const;
 
-export function getSubmissionFieldValue(payload: SubmissionPayload, name: TextField | RequiredNumberField): string | number {
+export function getSubmissionFieldValue(
+  payload: SubmissionPayload,
+  name: TextField | NormalizationTextField | RequiredNumberField
+): string | number {
   return payload[name] ?? "";
 }

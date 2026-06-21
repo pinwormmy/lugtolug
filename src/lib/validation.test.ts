@@ -66,6 +66,28 @@ describe("submission validation", () => {
     });
   });
 
+  it("accepts admin normalization metadata", () => {
+    const result = parseSubmission({
+      brand: "Omega",
+      model: "Speedmaster Professional Moonwatch",
+      canonicalModel: "Speedmaster Moonwatch Professional 42mm",
+      modelGroup: "omega-speedmaster-moonwatch-professional-42mm",
+      variant: "Hesalite bracelet",
+      reference: "310.30.42.50.01.001",
+      lugToLugMm: "47.5",
+      caseMm: "42",
+      thicknessMm: "13.2",
+      lugWidthMm: "20"
+    });
+
+    expect(result.ok).toBe(true);
+    expect(result.payload).toMatchObject({
+      canonicalModel: "Speedmaster Moonwatch Professional 42mm",
+      modelGroup: "omega-speedmaster-moonwatch-professional-42mm",
+      variant: "Hesalite bracelet"
+    });
+  });
+
   it("rejects invalid required dimensions", () => {
     const result = parseSubmission({
       brand: "Rolex",
@@ -109,5 +131,20 @@ describe("submission validation", () => {
     expect(result.ok).toBe(false);
     expect(result.errors.brand).toContain("characters or fewer");
     expect(result.errors.lugToLugMm).toContain("between");
+  });
+
+  it("rejects overly long normalization metadata", () => {
+    const result = parseSubmission({
+      model: "Explorer",
+      canonicalModel: "X".repeat(121),
+      modelGroup: "x".repeat(141),
+      variant: "Y".repeat(121),
+      lugToLugMm: "43"
+    });
+
+    expect(result.ok).toBe(false);
+    expect(result.errors.canonicalModel).toContain("characters or fewer");
+    expect(result.errors.modelGroup).toContain("characters or fewer");
+    expect(result.errors.variant).toContain("characters or fewer");
   });
 });

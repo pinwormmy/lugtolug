@@ -4617,3 +4617,48 @@ VALUES
 (2281, 2271, 'https://timeandtidewatches.com/zenith-x-timetide-defy-skyline-skeleton-white-surfer-ceramic/', 'Time+Tide article table lists reference 49.9309.3620/85.I001 with case dimensions 41mm (D) x 11.6mm (T) x 46.3mm (LTL).'),
 (2282, 2272, 'https://timeandtidewatches.com/zodiac-super-sea-wolf-ceramic-watch-review/', 'Time+Tide article table lists reference ZO9592 with case dimensions 41mm (D) x 13.2mm (T) x 51mm (LTL).'),
 (2283, 2273, 'https://timeandtidewatches.com/zodiac-x-redbar-super-sea-wolf-pro-diver-what-we-wore/', 'Time+Tide article table lists reference ZO3559 with case dimensions 42mm (D) x 13mm (T) x 49.5mm (LTL).');
+
+-- Normalization updates for reviewed no-delete display groups
+UPDATE watches SET canonical_model = 'Seamaster Diver 300M 42mm', model_group = 'omega-seamaster-diver-300m-42mm', variant = NULL WHERE id = 250;
+UPDATE watches SET canonical_model = 'Seamaster Diver 300M 42mm', model_group = 'omega-seamaster-diver-300m-42mm', variant = NULL WHERE id = 253;
+UPDATE watches SET canonical_model = 'Seamaster Diver 300M 42mm', model_group = 'omega-seamaster-diver-300m-42mm', variant = NULL WHERE id = 260;
+UPDATE watches SET canonical_model = 'Seamaster Diver 300M 42mm', model_group = 'omega-seamaster-diver-300m-42mm', variant = NULL WHERE id = 262;
+UPDATE watches SET canonical_model = 'Seamaster Diver 300M 42mm', model_group = 'omega-seamaster-diver-300m-42mm', variant = NULL WHERE id = 265;
+UPDATE watches SET canonical_model = 'Seamaster Diver 300M 42mm', model_group = 'omega-seamaster-diver-300m-42mm', variant = NULL WHERE id = 269;
+UPDATE watches SET canonical_model = 'Seamaster Diver 300M 42mm', model_group = 'omega-seamaster-diver-300m-42mm', variant = NULL WHERE id = 315;
+UPDATE watches SET canonical_model = 'SUB 200T Professional 39mm', model_group = 'doxa-sub-200t-professional-39mm', variant = 'Orange on Bracelet' WHERE id = 1522;
+UPDATE watches SET canonical_model = 'SUB 200T Professional 39mm', model_group = 'doxa-sub-200t-professional-39mm', variant = 'Orange on Rubber Strap' WHERE id = 1523;
+UPDATE watches SET canonical_model = '1521 Black DLC 42mm', model_group = 'squale-1521-black-dlc-42mm', variant = 'Black on Bracelet' WHERE id = 1618;
+UPDATE watches SET canonical_model = '1521 Black DLC 42mm', model_group = 'squale-1521-black-dlc-42mm', variant = 'Orange on Bracelet' WHERE id = 1619;
+UPDATE watches SET canonical_model = '1521 Ocean 42mm', model_group = 'squale-1521-ocean-42mm', variant = 'Blue on Bracelet' WHERE id = 1623;
+UPDATE watches SET canonical_model = '1521 Ocean 42mm', model_group = 'squale-1521-ocean-42mm', variant = 'Blue on Rubber Strap' WHERE id = 1624;
+UPDATE watches SET canonical_model = '1545 Steel 40mm', model_group = 'squale-1545-steel-40mm', variant = 'Black on Bracelet' WHERE id = 1625;
+UPDATE watches SET canonical_model = '1545 Steel 40mm', model_group = 'squale-1545-steel-40mm', variant = 'Blue on Bracelet' WHERE id = 1627;
+UPDATE watches SET canonical_model = '1545 Steel 40mm', model_group = 'squale-1545-steel-40mm', variant = 'Blue on Rubber Strap' WHERE id = 1628;
+UPDATE watches SET canonical_model = 'Naos Automatic 38mm', model_group = 'sternglas-naos-automatic-38mm-black', variant = 'Black on Bracelet' WHERE id = 1636;
+UPDATE watches SET canonical_model = 'Naos Automatic 38mm', model_group = 'sternglas-naos-automatic-38mm-black', variant = 'Black on Leather Strap' WHERE id = 1637;
+UPDATE watches SET canonical_model = 'Naos Automatic 38mm', model_group = 'sternglas-naos-automatic-38mm-blue', variant = 'Blue on Bracelet' WHERE id = 1638;
+UPDATE watches SET canonical_model = 'Naos Automatic 38mm', model_group = 'sternglas-naos-automatic-38mm-blue', variant = 'Blue on Leather Strap' WHERE id = 1639;
+UPDATE watches SET canonical_model = 'Naos Automatic 38mm', model_group = 'sternglas-naos-automatic-38mm-white', variant = 'White on Black Leather Strap' WHERE id = 1640;
+UPDATE watches SET canonical_model = 'Naos Automatic 38mm', model_group = 'sternglas-naos-automatic-38mm-white', variant = 'White on Bracelet' WHERE id = 1641;
+UPDATE watches SET canonical_model = 'Naos Automatic 38mm', model_group = 'sternglas-naos-automatic-38mm-white', variant = 'White on Brown Leather Strap' WHERE id = 1642;
+UPDATE watches SET canonical_model = 'Naos Automatic 38mm', model_group = 'sternglas-naos-automatic-38mm-white', variant = 'White on Dark Brown Leather Strap' WHERE id = 1643;
+UPDATE watches SET canonical_model = 'SUB 300β Sharkhunter', model_group = 'doxa-sub-300-sharkhunter', variant = 'date' WHERE id = 1787;
+UPDATE watches SET canonical_model = 'SUB 300β Sharkhunter', model_group = 'doxa-sub-300-sharkhunter', variant = 'no-date' WHERE id = 1788;
+UPDATE watches SET canonical_model = 'Brunswick 40.5 Jump Hour', model_group = 'fears-brunswick-40-5-jump-hour', variant = 'Barleycorn' WHERE id = 1798;
+UPDATE watches SET canonical_model = 'Brunswick 40.5 Jump Hour', model_group = 'fears-brunswick-40-5-jump-hour', variant = 'Celestial' WHERE id = 1799;
+UPDATE watches SET canonical_model = 'Brunswick 40.5 Jump Hour', model_group = 'fears-brunswick-40-5-jump-hour', variant = 'Celestial' WHERE id = 1800;
+UPDATE watches SET canonical_model = 'Brunswick 40.5 Jump Hour', model_group = 'fears-brunswick-40-5-jump-hour', variant = 'Edwardian Edition' WHERE id = 1801;
+UPDATE watches SET canonical_model = 'Maestro GC Sport Tennis', model_group = 'gerald-charles-maestro-gc-sport-tennis', variant = NULL WHERE id = 1816;
+UPDATE watches SET canonical_model = 'Maestro GC Sport Tennis', model_group = 'gerald-charles-maestro-gc-sport-tennis', variant = 'White' WHERE id = 1817;
+UPDATE watches SET canonical_model = 'Portugieser Chronograph', model_group = 'iwc-portugieser-chronograph', variant = NULL WHERE id = 1912;
+UPDATE watches SET canonical_model = 'Portugieser Chronograph', model_group = 'iwc-portugieser-chronograph', variant = 'red gold case, obsidian dial' WHERE id = 1913;
+UPDATE watches SET canonical_model = 'Portugieser Chronograph', model_group = 'iwc-portugieser-chronograph', variant = 'stainless steel case, dune dial' WHERE id = 1914;
+UPDATE watches SET canonical_model = 'Multifort TV Big Date', model_group = 'mido-multifort-tv-big-date', variant = NULL WHERE id = 1961;
+UPDATE watches SET canonical_model = 'Multifort TV Big Date', model_group = 'mido-multifort-tv-big-date', variant = NULL WHERE id = 1962;
+UPDATE watches SET canonical_model = 'Multifort TV Big Date', model_group = 'mido-multifort-tv-big-date', variant = NULL WHERE id = 1963;
+UPDATE watches SET canonical_model = 'Multifort TV Big Date', model_group = 'mido-multifort-tv-big-date', variant = NULL WHERE id = 1964;
+UPDATE watches SET canonical_model = 'Multifort TV Big Date', model_group = 'mido-multifort-tv-big-date', variant = NULL WHERE id = 1965;
+UPDATE watches SET canonical_model = 'Multifort TV Big Date', model_group = 'mido-multifort-tv-big-date', variant = 'S01E02' WHERE id = 1966;
+UPDATE watches SET canonical_model = 'Seamaster Diver 300M 42mm', model_group = 'omega-seamaster-diver-300m-42mm', variant = NULL WHERE id = 2001;
+UPDATE watches SET canonical_model = 'Seamaster Diver 300M 42mm', model_group = 'omega-seamaster-diver-300m-42mm', variant = NULL WHERE id = 2002;

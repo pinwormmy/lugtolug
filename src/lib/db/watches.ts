@@ -318,10 +318,23 @@ export async function updateWatchFromSubmission(
   slugs: SubmissionWatchSlugs,
   status: WatchStatus = "approved"
 ): Promise<void> {
+  const existing = await db
+    .prepare("SELECT canonical_model, model_group, variant FROM watches WHERE id = ?")
+    .bind(watchId)
+    .first<Pick<WatchRow, "canonical_model" | "model_group" | "variant">>();
+  const effectivePayload = {
+    ...payload,
+    canonicalModel: payload.canonicalModel ?? existing?.canonical_model ?? null,
+    modelGroup: payload.modelGroup ?? existing?.model_group ?? null,
+    variant: payload.variant ?? existing?.variant ?? null
+  };
+  const searchText = getWatchSearchText(effectivePayload);
+
   await db
     .prepare(
       `UPDATE watches
-       SET brand = ?, model = ?, reference = ?, brand_slug = ?, model_slug = ?, reference_slug = ?, search_text = ?,
+       SET brand = ?, model = ?, canonical_model = ?, model_group = ?, variant = ?,
+           reference = ?, brand_slug = ?, model_slug = ?, reference_slug = ?, search_text = ?,
            lug_to_lug_mm = ?, case_mm = ?,
            thickness_mm = ?, lug_width_mm = ?, status = ?, updated_at = CURRENT_TIMESTAMP
        WHERE id = ?`
@@ -329,11 +342,14 @@ export async function updateWatchFromSubmission(
     .bind(
       payload.brand,
       payload.model,
+      effectivePayload.canonicalModel,
+      effectivePayload.modelGroup,
+      effectivePayload.variant,
       payload.reference,
       slugs.brandSlug,
       slugs.modelSlug,
       slugs.referenceSlug,
-      slugs.searchText,
+      searchText,
       payload.lugToLugMm,
       payload.caseMm,
       payload.thicknessMm,
@@ -353,13 +369,17 @@ async function insertWatchFromSubmission(
   const result = await db
     .prepare(
       `INSERT INTO watches
-       (brand, model, reference, brand_slug, model_slug, reference_slug, search_text,
+       (brand, model, canonical_model, model_group, variant,
+        reference, brand_slug, model_slug, reference_slug, search_text,
         lug_to_lug_mm, case_mm, thickness_mm, lug_width_mm, status)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
     )
     .bind(
       payload.brand,
       payload.model,
+      payload.canonicalModel ?? null,
+      payload.modelGroup ?? null,
+      payload.variant ?? null,
       payload.reference,
       slugs.brandSlug,
       slugs.modelSlug,

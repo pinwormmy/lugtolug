@@ -1,6 +1,7 @@
 ---
 import {
   getSubmissionFieldValue,
+  NORMALIZATION_TEXT_INPUTS,
   OPTIONAL_TEXT_INPUTS,
   REQUIRED_NUMBER_INPUTS,
   REQUIRED_SUBMISSION_FIELDS,
@@ -48,6 +49,20 @@ const hiddenEntries = Object.entries(hiddenFields).filter((entry): entry is [str
         type={field.type ?? "text"}
         value={getSubmissionFieldValue(payload, field.name)}
         required={REQUIRED_SUBMISSION_FIELDS.has(field.name)}
+      />
+    </div>
+  ))}
+
+  {NORMALIZATION_TEXT_INPUTS.map((field) => (
+    <div class="form-field">
+      <label for={field.name}>{field.label}</label>
+      <input
+        class="input"
+        id={field.name}
+        maxlength={field.maxLength}
+        name={field.name}
+        type={field.type}
+        value={getSubmissionFieldValue(payload, field.name)}
       />
     </div>
   ))}
