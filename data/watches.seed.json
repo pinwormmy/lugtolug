@@ -38389,5 +38389,4661 @@
         "note": "Helveti product parameters list reference 0333.1.6603.100, 39 mm case size, 45 mm lug-to-lug, 10 mm case height, and 20 mm strap width."
       }
     ]
+  },
+  {
+    "id": 2294,
+    "brand": "Casio",
+    "model": "EFR-552D-1A2VUEF",
+    "reference": "EFR-552D-1A2VUEF",
+    "lugToLugMm": 53,
+    "caseMm": 47,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/casio-efr-552d-1a2vuef",
+        "note": "Helveti product parameters list reference EFR-552D-1A2VUEF, 47 mm case size, 53 mm lug-to-lug, 12.3 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2295,
+    "brand": "Casio",
+    "model": "G-Shock",
+    "reference": "GM-700G-9AER",
+    "lugToLugMm": 58.4,
+    "caseMm": 53.4,
+    "thicknessMm": 18.5,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/casio-g-shock-gm-700g-9aer",
+        "note": "Helveti product parameters list reference GM-700G-9AER, 53.4 mm case size, 58.4 mm lug-to-lug, 18.5 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2296,
+    "brand": "Casio",
+    "model": "G-Shock GG-B100X-1A3ER Mudmaster",
+    "reference": "GG-B100X-1A3ER",
+    "lugToLugMm": 55.4,
+    "caseMm": 51.3,
+    "thicknessMm": 19.4,
+    "lugWidthMm": 28,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/casio-g-shock-gg-b100x-1a3er-mudmaster",
+        "note": "Helveti product parameters list reference GG-B100X-1A3ER, 51.3 mm case size, 55.4 mm lug-to-lug, 19.4 mm case height, and 28 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2297,
+    "brand": "Casio",
+    "model": "G-Squad",
+    "reference": "GBD-200-1A1ER",
+    "lugToLugMm": 48.4,
+    "caseMm": 45.9,
+    "thicknessMm": 15,
+    "lugWidthMm": 26,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/casio-g-squad-gbd-200-1a1er",
+        "note": "Helveti product parameters list reference GBD-200-1A1ER, 45.9 mm case size, 48.4 mm lug-to-lug, 15 mm case height, and 26 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2298,
+    "brand": "Casio",
+    "model": "G-Squad",
+    "reference": "GBD-200-7ER",
+    "lugToLugMm": 48.4,
+    "caseMm": 45.9,
+    "thicknessMm": 15,
+    "lugWidthMm": 26,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/casio-g-squad-gbd-200-7er",
+        "note": "Helveti product parameters list reference GBD-200-7ER, 45.9 mm case size, 48.4 mm lug-to-lug, 15 mm case height, and 26 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2299,
+    "brand": "Certina",
+    "model": "DS Action Quartz",
+    "reference": "C048.210.11.121.00",
+    "lugToLugMm": 40,
+    "caseMm": 34.5,
+    "thicknessMm": 10.3,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-action-quartz-c048-210-11-121-00",
+        "note": "Helveti product parameters list reference C048.210.11.121.00, 34.5 mm case size, 40 mm lug-to-lug, 10.3 mm case height, and 17 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2300,
+    "brand": "Certina",
+    "model": "DS Action Quartz",
+    "reference": "C048.210.11.381.00",
+    "lugToLugMm": 40,
+    "caseMm": 34.5,
+    "thicknessMm": 10.3,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-action-quartz-c048-210-11-381-00",
+        "note": "Helveti product parameters list reference C048.210.11.381.00, 34.5 mm case size, 40 mm lug-to-lug, 10.3 mm case height, and 17 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2301,
+    "brand": "Certina",
+    "model": "DS Action Quartz",
+    "reference": "C048.210.22.091.00",
+    "lugToLugMm": 40,
+    "caseMm": 34.5,
+    "thicknessMm": 10.3,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-action-quartz-c048-210-22-091-00",
+        "note": "Helveti product parameters list reference C048.210.22.091.00, 34.5 mm case size, 40 mm lug-to-lug, 10.3 mm case height, and 17 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2302,
+    "brand": "Certina",
+    "model": "DS Action Quartz",
+    "reference": "C048.210.22.131.00",
+    "lugToLugMm": 40,
+    "caseMm": 34.5,
+    "thicknessMm": 10.3,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-action-quartz-c048-210-22-131-00",
+        "note": "Helveti product parameters list reference C048.210.22.131.00, 34.5 mm case size, 40 mm lug-to-lug, 10.3 mm case height, and 17 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2303,
+    "brand": "Certina",
+    "model": "DS Action Quartz",
+    "reference": "C048.210.44.131.00",
+    "lugToLugMm": 40,
+    "caseMm": 34.5,
+    "thicknessMm": 10.3,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-action-quartz-c048-210-44-131-00",
+        "note": "Helveti product parameters list reference C048.210.44.131.00, 34.5 mm case size, 40 mm lug-to-lug, 10.3 mm case height, and 17 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2304,
+    "brand": "Certina",
+    "model": "DS Action Quartz",
+    "reference": "C048.410.17.051.00",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-action-quartz-c048-410-17-051-00",
+        "note": "Helveti product parameters list reference C048.410.17.051.00, 40 mm case size, 48 mm lug-to-lug, 11.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2305,
+    "brand": "Certina",
+    "model": "DS Action Quartz",
+    "reference": "C048.410.44.351.00",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-action-quartz-c048-410-44-351-00",
+        "note": "Helveti product parameters list reference C048.410.44.351.00, 40 mm case size, 48 mm lug-to-lug, 11.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2306,
+    "brand": "Certina",
+    "model": "DS Caimano Lady Titanium",
+    "reference": "C017.210.56.117.00",
+    "lugToLugMm": 31,
+    "caseMm": 27,
+    "thicknessMm": 7.2,
+    "lugWidthMm": 15,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-caimano-lady-titanium-c017-210-56-117-00",
+        "note": "Helveti product parameters list reference C017.210.56.117.00, 27 mm case size, 31 mm lug-to-lug, 7.2 mm case height, and 15 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2307,
+    "brand": "Certina",
+    "model": "DS Pilot",
+    "reference": "C024.617.16.042.00",
+    "lugToLugMm": 52,
+    "caseMm": 43,
+    "thicknessMm": 13.1,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-pilot-c024-617-16-042-00",
+        "note": "Helveti product parameters list reference C024.617.16.042.00, 43 mm case size, 52 mm lug-to-lug, 13.1 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2308,
+    "brand": "Certina",
+    "model": "DS Pilot",
+    "reference": "C024.617.36.092.00",
+    "lugToLugMm": 52,
+    "caseMm": 43,
+    "thicknessMm": 13.1,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-pilot-c024-617-36-092-00",
+        "note": "Helveti product parameters list reference C024.617.36.092.00, 43 mm case size, 52 mm lug-to-lug, 13.1 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2309,
+    "brand": "Certina",
+    "model": "DS-1 Powermatic 80",
+    "reference": "C029.207.11.041.00",
+    "lugToLugMm": 45,
+    "caseMm": 38,
+    "thicknessMm": 11,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-1-powermatic-80-c029-207-11-041-00",
+        "note": "Helveti product parameters list reference C029.207.11.041.00, 38 mm case size, 45 mm lug-to-lug, 11 mm case height, and 19 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2310,
+    "brand": "Certina",
+    "model": "DS-1 Powermatic 80",
+    "reference": "C029.207.22.081.00",
+    "lugToLugMm": 45,
+    "caseMm": 38,
+    "thicknessMm": 11,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-1-powermatic-80-c029-207-22-081-00",
+        "note": "Helveti product parameters list reference C029.207.22.081.00, 38 mm case size, 45 mm lug-to-lug, 11 mm case height, and 19 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2311,
+    "brand": "Certina",
+    "model": "DS-2 Lady",
+    "reference": "C024.207.11.111.00",
+    "lugToLugMm": 24.8,
+    "caseMm": 27.5,
+    "thicknessMm": 10.2,
+    "lugWidthMm": 13,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-2-lady-c024-207-11-111-00",
+        "note": "Helveti product parameters list reference C024.207.11.111.00, 27.5 mm case size, 24.8 mm lug-to-lug, 10.2 mm case height, and 13 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2312,
+    "brand": "Certina",
+    "model": "DS-2 Lady",
+    "reference": "C024.207.33.111.00",
+    "lugToLugMm": 24.8,
+    "caseMm": 27.5,
+    "thicknessMm": 10.2,
+    "lugWidthMm": 13,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-2-lady-c024-207-33-111-00",
+        "note": "Helveti product parameters list reference C024.207.33.111.00, 27.5 mm case size, 24.8 mm lug-to-lug, 10.2 mm case height, and 13 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2313,
+    "brand": "Certina",
+    "model": "DS-2 Lady",
+    "reference": "C024.207.36.111.00",
+    "lugToLugMm": 24.8,
+    "caseMm": 27.5,
+    "thicknessMm": 10.2,
+    "lugWidthMm": 13,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-2-lady-c024-207-36-111-00",
+        "note": "Helveti product parameters list reference C024.207.36.111.00, 27.5 mm case size, 24.8 mm lug-to-lug, 10.2 mm case height, and 13 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2314,
+    "brand": "Certina",
+    "model": "DS-2 Lady",
+    "reference": "C049.210.11.126.01",
+    "lugToLugMm": 25.8,
+    "caseMm": 27.5,
+    "thicknessMm": 8.6,
+    "lugWidthMm": 13,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-2-lady-c049-210-11-126-01",
+        "note": "Helveti product parameters list reference C049.210.11.126.01, 27.5 mm case size, 25.8 mm lug-to-lug, 8.6 mm case height, and 13 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2315,
+    "brand": "Certina",
+    "model": "DS-2 Lady",
+    "reference": "C049.210.22.116.00",
+    "lugToLugMm": 25.8,
+    "caseMm": 27.5,
+    "thicknessMm": 8.6,
+    "lugWidthMm": 13,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-2-lady-c049-210-22-116-00",
+        "note": "Helveti product parameters list reference C049.210.22.116.00, 27.5 mm case size, 25.8 mm lug-to-lug, 8.6 mm case height, and 13 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2316,
+    "brand": "Certina",
+    "model": "DS-2 Lady",
+    "reference": "C049.210.33.026.00",
+    "lugToLugMm": 25.8,
+    "caseMm": 27.5,
+    "thicknessMm": 8.6,
+    "lugWidthMm": 13,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-2-lady-c049-210-33-026-00",
+        "note": "Helveti product parameters list reference C049.210.33.026.00, 27.5 mm case size, 25.8 mm lug-to-lug, 8.6 mm case height, and 13 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2317,
+    "brand": "Certina",
+    "model": "DS-2 Lady",
+    "reference": "C049.210.33.116.00",
+    "lugToLugMm": 25.8,
+    "caseMm": 27.5,
+    "thicknessMm": 8.6,
+    "lugWidthMm": 13,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-2-lady-c049-210-33-116-00",
+        "note": "Helveti product parameters list reference C049.210.33.116.00, 27.5 mm case size, 25.8 mm lug-to-lug, 8.6 mm case height, and 13 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2318,
+    "brand": "Certina",
+    "model": "DS-X GMT",
+    "reference": "C047.452.17.081.00",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/certina-ds-x-gmt-c047-452-17-081-00",
+        "note": "Helveti product parameters list reference C047.452.17.081.00, 41 mm case size, 48 mm lug-to-lug, 12.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2319,
+    "brand": "Formex",
+    "model": "Essence Ceramica COSC Arctic White",
+    "reference": "0336.4.6612.410",
+    "lugToLugMm": 46.2,
+    "caseMm": 41,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-essence-ceramica-cosc-arctic-white-0336-4-6612-410",
+        "note": "Helveti product parameters list reference 0336.4.6612.410, 41 mm case size, 46.2 mm lug-to-lug, 11.2 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2320,
+    "brand": "Formex",
+    "model": "Essence Ceramica COSC Dégradé",
+    "reference": "0336.4.6624.410",
+    "lugToLugMm": 46.2,
+    "caseMm": 41,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-essence-ceramica-cosc-degrade-0336-4-6624-410",
+        "note": "Helveti product parameters list reference 0336.4.6624.410, 41 mm case size, 46.2 mm lug-to-lug, 11.2 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2321,
+    "brand": "Formex",
+    "model": "Essence Ceramica COSC Gamaret",
+    "reference": "0336.4.6651.410",
+    "lugToLugMm": 46.2,
+    "caseMm": 41,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-essence-ceramica-cosc-gamaret-0336-4-6651-410",
+        "note": "Helveti product parameters list reference 0336.4.6651.410, 41 mm case size, 46.2 mm lug-to-lug, 11.2 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2322,
+    "brand": "Formex",
+    "model": "Essence Ceramica Skeleton COSC GT",
+    "reference": "0336.9.6051.410",
+    "lugToLugMm": 46.2,
+    "caseMm": 41,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-essence-ceramica-skeleton-cosc-gt-0336-9-6051-410",
+        "note": "Helveti product parameters list reference 0336.9.6051.410, 41 mm case size, 46.2 mm lug-to-lug, 11.2 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2323,
+    "brand": "Formex",
+    "model": "Essence Ceramica Skeleton COSC Stradale Blue",
+    "reference": "0336.9.6023.410",
+    "lugToLugMm": 46.2,
+    "caseMm": 41,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-essence-ceramica-skeleton-cosc-stradale-blue-0336-9-6023-410",
+        "note": "Helveti product parameters list reference 0336.9.6023.410, 41 mm case size, 46.2 mm lug-to-lug, 11.2 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2324,
+    "brand": "Formex",
+    "model": "Essence Ceramica Skeleton COSC Stradale Viola",
+    "reference": "0336.9.6027.410",
+    "lugToLugMm": 46.2,
+    "caseMm": 41,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-essence-ceramica-skeleton-cosc-stradale-viola-0336-9-6027-410",
+        "note": "Helveti product parameters list reference 0336.9.6027.410, 41 mm case size, 46.2 mm lug-to-lug, 11.2 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2325,
+    "brand": "Formex",
+    "model": "Essence FortyThree Automatic Chronometer Green",
+    "reference": "0330.1.6300.100",
+    "lugToLugMm": 49,
+    "caseMm": 43,
+    "thicknessMm": 10.6,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-essence-fortythree-automatic-chronometer-green-0330-1-6300-100",
+        "note": "Helveti product parameters list reference 0330.1.6300.100, 43 mm case size, 49 mm lug-to-lug, 10.6 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2326,
+    "brand": "Formex",
+    "model": "Essence Leggera FortyOne Automatic Chronometer Electric Blue",
+    "reference": "0331.4.6339.713",
+    "lugToLugMm": 46.4,
+    "caseMm": 41,
+    "thicknessMm": 11,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-essence-leggera-fortyone-automatic-chronometer-electric-blue-0331-4-6339-713",
+        "note": "Helveti product parameters list reference 0331.4.6339.713, 41 mm case size, 46.4 mm lug-to-lug, 11 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2327,
+    "brand": "Formex",
+    "model": "Essence ThirtyNine Automatic Chronometer Space Ghost",
+    "reference": "0339.1.6643.100",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 10,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-essence-thirtynine-automatic-chronometer-space-ghost-0339-1-6643-100",
+        "note": "Helveti product parameters list reference 0339.1.6643.100, 39 mm case size, 45 mm lug-to-lug, 10 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2328,
+    "brand": "Formex",
+    "model": "Essence ThirtyNine Automatic Chronometer Space Gold",
+    "reference": "0339.9.6695.101",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 10,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-essence-thirtynine-automatic-chronometer-space-gold-0339-9-6695-101",
+        "note": "Helveti product parameters list reference 0339.9.6695.101, 39 mm case size, 45 mm lug-to-lug, 10 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2329,
+    "brand": "Formex",
+    "model": "Essence ThirtyNine Automatic Chronometer White",
+    "reference": "0333.1.6611.100",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 10,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-essence-thirtynine-automatic-chronometer-white-0333-1-6611-100",
+        "note": "Helveti product parameters list reference 0333.1.6611.100, 39 mm case size, 45 mm lug-to-lug, 10 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2330,
+    "brand": "Formex",
+    "model": "Field Automatic Gen 2 Basalt Grey Black Nylon Velcro",
+    "reference": "0660.1.6525.822",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-field-automatic-gen-2-basalt-grey-black-nylon-velcro-0660-1-6525-822",
+        "note": "Helveti product parameters list reference 0660.1.6525.822, 40 mm case size, 48 mm lug-to-lug, 10.5 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2331,
+    "brand": "Formex",
+    "model": "Field Automatic Gen 2 Coho Salmon Nylon-Velcro Khaki Green",
+    "reference": "0660.1.6555.877",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-field-automatic-gen-2-coho-salmon-nylon-velcro-khaki-green-0660-1-6555-877",
+        "note": "Helveti product parameters list reference 0660.1.6555.877, 40 mm case size, 48 mm lug-to-lug, 10.5 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2332,
+    "brand": "Formex",
+    "model": "Field Automatic Gen 2 Deep Blue Leone Bolgheri Leather Strap",
+    "reference": "0660.1.6532.723",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-field-automatic-gen-2-deep-blue-leone-bolgheri-leather-strap-0660-1-6532-723",
+        "note": "Helveti product parameters list reference 0660.1.6532.723, 40 mm case size, 48 mm lug-to-lug, 10.5 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2333,
+    "brand": "Formex",
+    "model": "Field Automatic Gen 2 Golden Honey Nylon-Velcro Khaki Green",
+    "reference": "0660.1.6585.877",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-field-automatic-gen-2-golden-honey-nylon-velcro-khaki-green-0660-1-6585-877",
+        "note": "Helveti product parameters list reference 0660.1.6585.877, 40 mm case size, 48 mm lug-to-lug, 10.5 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2334,
+    "brand": "Formex",
+    "model": "Field Automatic Gen 2 Ice Blue Nylon-Velcro Blue",
+    "reference": "0660.1.6535.844",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-field-automatic-gen-2-ice-blue-nylon-velcro-blue-0660-1-6535-844",
+        "note": "Helveti product parameters list reference 0660.1.6535.844, 40 mm case size, 48 mm lug-to-lug, 10.5 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2335,
+    "brand": "Formex",
+    "model": "Reef 39,5 Automatic Chronometer",
+    "reference": "2201.1.6300.100",
+    "lugToLugMm": 45.5,
+    "caseMm": 39.5,
+    "thicknessMm": 11,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-reef-39-5-automatic-chronometer-2201-1-6300-100",
+        "note": "Helveti product parameters list reference 2201.1.6300.100, 39.5 mm case size, 45.5 mm lug-to-lug, 11 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2336,
+    "brand": "Formex",
+    "model": "Reef 39,5 Automatic Chronometer",
+    "reference": "2201.1.6333.100",
+    "lugToLugMm": 45.5,
+    "caseMm": 39.5,
+    "thicknessMm": 11,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-reef-39-5-automatic-chronometer-2201-1-6333-100",
+        "note": "Helveti product parameters list reference 2201.1.6333.100, 39.5 mm case size, 45.5 mm lug-to-lug, 11 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2337,
+    "brand": "Formex",
+    "model": "Reef 42 Automatic Chronometer",
+    "reference": "2200.1.6312.910",
+    "lugToLugMm": 47,
+    "caseMm": 42,
+    "thicknessMm": 11.4,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-reef-42-automatic-chronometer-2200-1-6312-910",
+        "note": "Helveti product parameters list reference 2200.1.6312.910, 42 mm case size, 47 mm lug-to-lug, 11.4 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2338,
+    "brand": "Formex",
+    "model": "Reef 42 Automatic Chronometer",
+    "reference": "2200.1.6320.100",
+    "lugToLugMm": 47,
+    "caseMm": 42,
+    "thicknessMm": 11.4,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-reef-42-automatic-chronometer-2200-1-6320-100",
+        "note": "Helveti product parameters list reference 2200.1.6320.100, 42 mm case size, 47 mm lug-to-lug, 11.4 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2339,
+    "brand": "Formex",
+    "model": "Reef 42 Automatic Chronometer Bronze Dial",
+    "reference": "2200.1.6382.100",
+    "lugToLugMm": 47,
+    "caseMm": 42,
+    "thicknessMm": 11.4,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-reef-42-automatic-chronometer-bronze-dial-2200-1-6382-100",
+        "note": "Helveti product parameters list reference 2200.1.6382.100, 42 mm case size, 47 mm lug-to-lug, 11.4 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2340,
+    "brand": "Formex",
+    "model": "Reef GMT Automatic Chronometer",
+    "reference": "2202.1.5300.100",
+    "lugToLugMm": 47,
+    "caseMm": 42,
+    "thicknessMm": 11.4,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-reef-gmt-automatic-chronometer-2202-1-5300-100",
+        "note": "Helveti product parameters list reference 2202.1.5300.100, 42 mm case size, 47 mm lug-to-lug, 11.4 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2341,
+    "brand": "Formex",
+    "model": "Reef GMT Automatic Chronometer",
+    "reference": "2202.1.5323.100",
+    "lugToLugMm": 47,
+    "caseMm": 42,
+    "thicknessMm": 11.4,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-reef-gmt-automatic-chronometer-2202-1-5323-100",
+        "note": "Helveti product parameters list reference 2202.1.5323.100, 42 mm case size, 47 mm lug-to-lug, 11.4 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2342,
+    "brand": "Formex",
+    "model": "Reef GMT Automatic Chronometer",
+    "reference": "2202.1.5381.811",
+    "lugToLugMm": 47,
+    "caseMm": 42,
+    "thicknessMm": 11.4,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-reef-gmt-automatic-chronometer-2202-1-5381-811",
+        "note": "Helveti product parameters list reference 2202.1.5381.811, 42 mm case size, 47 mm lug-to-lug, 11.4 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2343,
+    "brand": "Formex",
+    "model": "Reef GMT Automatic Chronometer",
+    "reference": "2202.1.5399.910",
+    "lugToLugMm": 47,
+    "caseMm": 42,
+    "thicknessMm": 11.4,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/formex-reef-gmt-automatic-chronometer-2202-1-5399-910",
+        "note": "Helveti product parameters list reference 2202.1.5399.910, 42 mm case size, 47 mm lug-to-lug, 11.4 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2344,
+    "brand": "Hamilton",
+    "model": "Khaki Field Expedition Auto",
+    "reference": "H70225110",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.45,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-field-expedition-auto-h70225110",
+        "note": "Helveti product parameters list reference H70225110, 37 mm case size, 44 mm lug-to-lug, 11.45 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2345,
+    "brand": "Hamilton",
+    "model": "Khaki Field Expedition Auto",
+    "reference": "H70225510",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.45,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-field-expedition-auto-h70225510",
+        "note": "Helveti product parameters list reference H70225510, 37 mm case size, 44 mm lug-to-lug, 11.45 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2346,
+    "brand": "Hamilton",
+    "model": "Khaki Field Expedition Auto",
+    "reference": "H70225540",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.45,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-field-expedition-auto-h70225540",
+        "note": "Helveti product parameters list reference H70225540, 37 mm case size, 44 mm lug-to-lug, 11.45 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2347,
+    "brand": "Hamilton",
+    "model": "Khaki Field Expedition Auto",
+    "reference": "H70225830",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.45,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-field-expedition-auto-h70225830",
+        "note": "Helveti product parameters list reference H70225830, 37 mm case size, 44 mm lug-to-lug, 11.45 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2348,
+    "brand": "Hamilton",
+    "model": "Khaki Field Expedition Auto",
+    "reference": "H70225910",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.45,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-field-expedition-auto-h70225910",
+        "note": "Helveti product parameters list reference H70225910, 37 mm case size, 44 mm lug-to-lug, 11.45 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2349,
+    "brand": "Hamilton",
+    "model": "Khaki Field Expedition Auto",
+    "reference": "H70225930",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.45,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-field-expedition-auto-h70225930",
+        "note": "Helveti product parameters list reference H70225930, 37 mm case size, 44 mm lug-to-lug, 11.45 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2350,
+    "brand": "Hamilton",
+    "model": "Khaki Field Expedition Auto",
+    "reference": "H70225931",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.45,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-field-expedition-auto-h70225931",
+        "note": "Helveti product parameters list reference H70225931, 37 mm case size, 44 mm lug-to-lug, 11.45 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2351,
+    "brand": "Hamilton",
+    "model": "Khaki Field Expedition Auto",
+    "reference": "H70225940",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.45,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-field-expedition-auto-h70225940",
+        "note": "Helveti product parameters list reference H70225940, 37 mm case size, 44 mm lug-to-lug, 11.45 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2352,
+    "brand": "Hamilton",
+    "model": "Khaki Field Expedition Auto",
+    "reference": "H70315510",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-field-expedition-auto-h70315510",
+        "note": "Helveti product parameters list reference H70315510, 41 mm case size, 48 mm lug-to-lug, 11.5 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2353,
+    "brand": "Hamilton",
+    "model": "Khaki Field Expedition Auto",
+    "reference": "H70315540",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-field-expedition-auto-h70315540",
+        "note": "Helveti product parameters list reference H70315540, 41 mm case size, 48 mm lug-to-lug, 11.5 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2354,
+    "brand": "Hamilton",
+    "model": "Khaki Field Expedition Auto",
+    "reference": "H70315830",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-field-expedition-auto-h70315830",
+        "note": "Helveti product parameters list reference H70315830, 41 mm case size, 48 mm lug-to-lug, 11.5 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2355,
+    "brand": "Hamilton",
+    "model": "Khaki Field Expedition Auto",
+    "reference": "H70315910",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-field-expedition-auto-h70315910",
+        "note": "Helveti product parameters list reference H70315910, 41 mm case size, 48 mm lug-to-lug, 11.5 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2356,
+    "brand": "Hamilton",
+    "model": "Khaki Field Expedition Auto",
+    "reference": "H70315930",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-field-expedition-auto-h70315930",
+        "note": "Helveti product parameters list reference H70315930, 41 mm case size, 48 mm lug-to-lug, 11.5 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2357,
+    "brand": "Hamilton",
+    "model": "Khaki Field Expedition Auto",
+    "reference": "H70315931",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-field-expedition-auto-h70315931",
+        "note": "Helveti product parameters list reference H70315931, 41 mm case size, 48 mm lug-to-lug, 11.5 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2358,
+    "brand": "Hamilton",
+    "model": "Khaki Field Expedition Auto",
+    "reference": "H70315940",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-field-expedition-auto-h70315940",
+        "note": "Helveti product parameters list reference H70315940, 41 mm case size, 48 mm lug-to-lug, 11.5 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2359,
+    "brand": "Hamilton",
+    "model": "Khaki Field Mechanical Power Reserve",
+    "reference": "H69509110",
+    "lugToLugMm": 47.5,
+    "caseMm": 40,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-field-mechanical-power-reserve-h69509110",
+        "note": "Helveti product parameters list reference H69509110, 40 mm case size, 47.5 mm lug-to-lug, 11.9 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2360,
+    "brand": "Hamilton",
+    "model": "Khaki Field Mechanical Power Reserve 40 mm",
+    "reference": "H69509140",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-field-mechanical-power-reserve-40-mm-h69509140",
+        "note": "Helveti product parameters list reference H69509140, 40 mm case size, 48 mm lug-to-lug, 12 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2361,
+    "brand": "Hamilton",
+    "model": "Khaki Field Mechanical Power Reserve 40 mm",
+    "reference": "H69509160",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-field-mechanical-power-reserve-40-mm-h69509160",
+        "note": "Helveti product parameters list reference H69509160, 40 mm case size, 48 mm lug-to-lug, 12 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2362,
+    "brand": "Hamilton",
+    "model": "Khaki Field Mechanical Power Reserve 40 mm",
+    "reference": "H69509940",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-field-mechanical-power-reserve-40-mm-h69509940",
+        "note": "Helveti product parameters list reference H69509940, 40 mm case size, 48 mm lug-to-lug, 12 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2363,
+    "brand": "Hamilton",
+    "model": "Khaki Field Mechanical Power Reserve 40 mm",
+    "reference": "H69509960",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-field-mechanical-power-reserve-40-mm-h69509960",
+        "note": "Helveti product parameters list reference H69509960, 40 mm case size, 48 mm lug-to-lug, 12 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2364,
+    "brand": "Hamilton",
+    "model": "Khaki Navy Scuba Auto",
+    "reference": "H82395330",
+    "lugToLugMm": 52,
+    "caseMm": 40,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-navy-scuba-auto-h82395330",
+        "note": "Helveti product parameters list reference H82395330, 40 mm case size, 52 mm lug-to-lug, 12.9 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2365,
+    "brand": "Hamilton",
+    "model": "Khaki Navy Scuba Auto",
+    "reference": "H82395331",
+    "lugToLugMm": 52,
+    "caseMm": 40,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-navy-scuba-auto-h82395331",
+        "note": "Helveti product parameters list reference H82395331, 40 mm case size, 52 mm lug-to-lug, 12.9 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2366,
+    "brand": "Hamilton",
+    "model": "Khaki Navy Scuba Auto",
+    "reference": "H82395332",
+    "lugToLugMm": 52,
+    "caseMm": 40,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-navy-scuba-auto-h82395332",
+        "note": "Helveti product parameters list reference H82395332, 40 mm case size, 52 mm lug-to-lug, 12.9 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2367,
+    "brand": "Hamilton",
+    "model": "Khaki Navy Scuba Auto 40mm",
+    "reference": "H82415331",
+    "lugToLugMm": 52,
+    "caseMm": 40,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-navy-scuba-auto-40mm-h82415331",
+        "note": "Helveti product parameters list reference H82415331, 40 mm case size, 52 mm lug-to-lug, 12.9 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2368,
+    "brand": "Hamilton",
+    "model": "Khaki Navy Scuba Car",
+    "reference": "H82505140",
+    "lugToLugMm": 52,
+    "caseMm": 43,
+    "thicknessMm": 12.58,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-navy-scuba-auto-h82505140",
+        "note": "Helveti product parameters list reference H82505140, 43 mm case size, 52 mm lug-to-lug, 12.58 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2369,
+    "brand": "Hamilton",
+    "model": "Khaki Navy Scuba Car",
+    "reference": "H82505150",
+    "lugToLugMm": 52,
+    "caseMm": 43,
+    "thicknessMm": 12.58,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-navy-scuba-auto-h82505150",
+        "note": "Helveti product parameters list reference H82505150, 43 mm case size, 52 mm lug-to-lug, 12.58 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2370,
+    "brand": "Hamilton",
+    "model": "Khaki Navy Scuba Car",
+    "reference": "H82515130",
+    "lugToLugMm": 52,
+    "caseMm": 43,
+    "thicknessMm": 12.58,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-navy-scuba-auto-h82515130",
+        "note": "Helveti product parameters list reference H82515130, 43 mm case size, 52 mm lug-to-lug, 12.58 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2371,
+    "brand": "Hamilton",
+    "model": "Khaki Navy Scuba Car",
+    "reference": "H82515330",
+    "lugToLugMm": 52,
+    "caseMm": 43,
+    "thicknessMm": 12.58,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-navy-scuba-auto-h82515330",
+        "note": "Helveti product parameters list reference H82515330, 43 mm case size, 52 mm lug-to-lug, 12.58 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2372,
+    "brand": "Hamilton",
+    "model": "Khaki Navy Scuba Car",
+    "reference": "H82525160",
+    "lugToLugMm": 52,
+    "caseMm": 43,
+    "thicknessMm": 12.58,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/hamilton-khaki-navy-scuba-auto-h82525160",
+        "note": "Helveti product parameters list reference H82525160, 43 mm case size, 52 mm lug-to-lug, 12.58 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2373,
+    "brand": "Mido",
+    "model": "Commander Datoday",
+    "reference": "M021.430.11.041.00",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 10.7,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/mido-commander-datoday-m021-430-11-041-00",
+        "note": "Helveti product parameters list reference M021.430.11.041.00, 40 mm case size, 45 mm lug-to-lug, 10.7 mm case height, and 21 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2374,
+    "brand": "Mido",
+    "model": "Multifort 8 Two Crowns",
+    "reference": "M047.507.11.051.00",
+    "lugToLugMm": 40,
+    "caseMm": 38.4,
+    "thicknessMm": 9.5,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/mido-multifort-8-two-crowns-m047-507-11-051-00",
+        "note": "Helveti product parameters list reference M047.507.11.051.00, 38.4 mm case size, 40 mm lug-to-lug, 9.5 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2375,
+    "brand": "Mido",
+    "model": "Multifort 8 Two Crowns",
+    "reference": "M047.507.11.081.00",
+    "lugToLugMm": 40,
+    "caseMm": 38.4,
+    "thicknessMm": 9.5,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/mido-multifort-8-two-crowns-m047-507-11-081-00",
+        "note": "Helveti product parameters list reference M047.507.11.081.00, 38.4 mm case size, 40 mm lug-to-lug, 9.5 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2376,
+    "brand": "Mido",
+    "model": "Multifort 8 Two Crowns",
+    "reference": "M047.507.17.041.00",
+    "lugToLugMm": 40,
+    "caseMm": 38.4,
+    "thicknessMm": 9.5,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/mido-multifort-8-two-crowns-m047-507-17-041-00",
+        "note": "Helveti product parameters list reference M047.507.17.041.00, 38.4 mm case size, 40 mm lug-to-lug, 9.5 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2377,
+    "brand": "Mido",
+    "model": "Multifort 8 Two Crowns",
+    "reference": "M047.507.37.051.00",
+    "lugToLugMm": 40,
+    "caseMm": 38.4,
+    "thicknessMm": 9.5,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/mido-multifort-8-two-crowns-m047-507-37-051-00",
+        "note": "Helveti product parameters list reference M047.507.37.051.00, 38.4 mm case size, 40 mm lug-to-lug, 9.5 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2378,
+    "brand": "Mido",
+    "model": "Multifort Skeleton Chronograph",
+    "reference": "M038.662.11.060.00",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 23,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/mido-multifort-skeleton-chronograph-m038-662-11-060-00",
+        "note": "Helveti product parameters list reference M038.662.11.060.00, 43 mm case size, 50 mm lug-to-lug, 14.4 mm case height, and 23 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2379,
+    "brand": "Mido",
+    "model": "Multifort Skeleton Chronograph",
+    "reference": "M038.662.17.040.00",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 23,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/mido-multifort-skeleton-chronograph-m038-662-17-040-00",
+        "note": "Helveti product parameters list reference M038.662.17.040.00, 43 mm case size, 50 mm lug-to-lug, 14.4 mm case height, and 23 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2380,
+    "brand": "Mido",
+    "model": "Multifort Skeleton Chronograph",
+    "reference": "M038.662.37.050.00",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 23,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/mido-multifort-skeleton-chronograph-m038-662-37-050-00",
+        "note": "Helveti product parameters list reference M038.662.37.050.00, 43 mm case size, 50 mm lug-to-lug, 14.4 mm case height, and 23 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2381,
+    "brand": "Mido",
+    "model": "Multifort TV Chronograph",
+    "reference": "M049.527.11.041.00",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 23,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/mido-multifort-tv-chronograph-m049-527-11-041-00",
+        "note": "Helveti product parameters list reference M049.527.11.041.00, 42 mm case size, 50 mm lug-to-lug, 14.3 mm case height, and 23 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2382,
+    "brand": "Mido",
+    "model": "Multifort TV Chronograph",
+    "reference": "M049.527.11.081.00",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 23,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/mido-multifort-tv-chronograph-m049-527-11-081-00",
+        "note": "Helveti product parameters list reference M049.527.11.081.00, 42 mm case size, 50 mm lug-to-lug, 14.3 mm case height, and 23 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2383,
+    "brand": "Mido",
+    "model": "Ocean Star Decompression Timer 1961 Limited Edition",
+    "reference": "M026.807.33.051.00",
+    "lugToLugMm": 47,
+    "caseMm": 40.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/mido-ocean-star-decompression-timer-1961-limited-edition-m026-807-33-051-00",
+        "note": "Helveti product parameters list reference M026.807.33.051.00, 40.5 mm case size, 47 mm lug-to-lug, 13.4 mm case height, and 21 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2384,
+    "brand": "Mido",
+    "model": "Ocean Star Decompression Worldtimer",
+    "reference": "M026.829.17.041.00",
+    "lugToLugMm": 47,
+    "caseMm": 40.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/mido-ocean-star-decompression-worldtimer-m026-829-17-041-00",
+        "note": "Helveti product parameters list reference M026.829.17.041.00, 40.5 mm case size, 47 mm lug-to-lug, 13.4 mm case height, and 21 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2385,
+    "brand": "Tissot",
+    "model": "Chemin des Tourelles Automatic 34mm",
+    "reference": "T139.207.11.048.00",
+    "lugToLugMm": 39.5,
+    "caseMm": 34,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chemin-des-tourelles-automatic-34mm-t139-207-11-048-00",
+        "note": "Helveti product parameters list reference T139.207.11.048.00, 34 mm case size, 39.5 mm lug-to-lug, 10.5 mm case height, and 18 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2386,
+    "brand": "Tissot",
+    "model": "Chemin des Tourelles Automatic 34mm",
+    "reference": "T139.207.22.038.00",
+    "lugToLugMm": 39.5,
+    "caseMm": 34,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chemin-des-tourelles-automatic-34mm-t139-207-22-038-00",
+        "note": "Helveti product parameters list reference T139.207.22.038.00, 34 mm case size, 39.5 mm lug-to-lug, 10.5 mm case height, and 18 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2387,
+    "brand": "Tissot",
+    "model": "Chemin des Tourelles Automatic 39mm",
+    "reference": "T139.807.16.041.00",
+    "lugToLugMm": 43.5,
+    "caseMm": 39,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chemin-des-tourelles-automatic-39mm-t139-807-16-041-00",
+        "note": "Helveti product parameters list reference T139.807.16.041.00, 39 mm case size, 43.5 mm lug-to-lug, 11.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2388,
+    "brand": "Tissot",
+    "model": "Chemin des Tourelles Automatic 42mm",
+    "reference": "T139.407.11.048.00",
+    "lugToLugMm": 47,
+    "caseMm": 42,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chemin-des-tourelles-automatic-42mm-t139-407-11-048-00",
+        "note": "Helveti product parameters list reference T139.407.11.048.00, 42 mm case size, 47 mm lug-to-lug, 11.3 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2389,
+    "brand": "Tissot",
+    "model": "Chemin des Tourelles Automatic 42mm",
+    "reference": "T139.407.11.068.00",
+    "lugToLugMm": 47,
+    "caseMm": 42,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chemin-des-tourelles-automatic-42mm-t139-407-11-068-00",
+        "note": "Helveti product parameters list reference T139.407.11.068.00, 42 mm case size, 47 mm lug-to-lug, 11.3 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2390,
+    "brand": "Tissot",
+    "model": "Chemin des Tourelles Automatic 42mm",
+    "reference": "T139.407.11.091.00",
+    "lugToLugMm": 47,
+    "caseMm": 42,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chemin-des-tourelles-automatic-42mm-t139-407-11-091-00",
+        "note": "Helveti product parameters list reference T139.407.11.091.00, 42 mm case size, 47 mm lug-to-lug, 11.3 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2391,
+    "brand": "Tissot",
+    "model": "Chemin des Tourelles Automatic 42mm",
+    "reference": "T139.407.16.041.00",
+    "lugToLugMm": 47,
+    "caseMm": 42,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chemin-des-tourelles-automatic-42mm-t139-407-16-041-00",
+        "note": "Helveti product parameters list reference T139.407.16.041.00, 42 mm case size, 47 mm lug-to-lug, 11.3 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2392,
+    "brand": "Tissot",
+    "model": "Chemin des Tourelles Automatic 42mm",
+    "reference": "T139.407.16.261.00",
+    "lugToLugMm": 47,
+    "caseMm": 42,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chemin-des-tourelles-automatic-42mm-t139-407-16-261-00",
+        "note": "Helveti product parameters list reference T139.407.16.261.00, 42 mm case size, 47 mm lug-to-lug, 11.3 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2393,
+    "brand": "Tissot",
+    "model": "Chemin des Tourelles Automatic 42mm",
+    "reference": "T139.407.22.038.00",
+    "lugToLugMm": 47,
+    "caseMm": 42,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chemin-des-tourelles-automatic-42mm-t139-407-22-038-00",
+        "note": "Helveti product parameters list reference T139.407.22.038.00, 42 mm case size, 47 mm lug-to-lug, 11.3 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2394,
+    "brand": "Tissot",
+    "model": "Chemin des Tourelles Squelette",
+    "reference": "T139.836.11.048.00",
+    "lugToLugMm": 43,
+    "caseMm": 39,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chemin-des-tourelles-squelette-t139-836-11-048-00",
+        "note": "Helveti product parameters list reference T139.836.11.048.00, 39 mm case size, 43 mm lug-to-lug, 11.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2395,
+    "brand": "Tissot",
+    "model": "Chemin des Tourelles Squelette",
+    "reference": "T139.836.16.261.00",
+    "lugToLugMm": 43,
+    "caseMm": 39,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chemin-des-tourelles-squelette-t139-836-16-261-00",
+        "note": "Helveti product parameters list reference T139.836.16.261.00, 39 mm case size, 43 mm lug-to-lug, 11.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2396,
+    "brand": "Tissot",
+    "model": "Chrono L",
+    "reference": "T116.417.11.042.00",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-l-t116-417-11-042-00",
+        "note": "Helveti product parameters list reference T116.417.11.042.00, 42 mm case size, 48 mm lug-to-lug, 10.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2397,
+    "brand": "Tissot",
+    "model": "Chrono L",
+    "reference": "T116.417.11.052.00",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-l-t116-417-11-052-00",
+        "note": "Helveti product parameters list reference T116.417.11.052.00, 42 mm case size, 48 mm lug-to-lug, 10.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2398,
+    "brand": "Tissot",
+    "model": "Chrono L",
+    "reference": "T116.417.11.092.00",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-l-t116-417-11-092-00",
+        "note": "Helveti product parameters list reference T116.417.11.092.00, 42 mm case size, 48 mm lug-to-lug, 10.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2399,
+    "brand": "Tissot",
+    "model": "Chrono L",
+    "reference": "T116.417.16.042.00",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-l-t116-417-16-042-00",
+        "note": "Helveti product parameters list reference T116.417.16.042.00, 42 mm case size, 48 mm lug-to-lug, 10.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2400,
+    "brand": "Tissot",
+    "model": "Chrono L",
+    "reference": "T116.417.16.052.00",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-l-t116-417-16-052-00",
+        "note": "Helveti product parameters list reference T116.417.16.052.00, 42 mm case size, 48 mm lug-to-lug, 10.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2401,
+    "brand": "Tissot",
+    "model": "Chrono L",
+    "reference": "T116.417.16.052.01",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-l-t116-417-16-052-01",
+        "note": "Helveti product parameters list reference T116.417.16.052.01, 42 mm case size, 48 mm lug-to-lug, 10.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2402,
+    "brand": "Tissot",
+    "model": "Chrono L",
+    "reference": "T116.417.16.092.00",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-l-t116-417-16-092-00",
+        "note": "Helveti product parameters list reference T116.417.16.092.00, 42 mm case size, 48 mm lug-to-lug, 10.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2403,
+    "brand": "Tissot",
+    "model": "Chrono XL",
+    "reference": "T116.617.11.037.00",
+    "lugToLugMm": 51,
+    "caseMm": 45,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-xl-t116-617-11-037-00",
+        "note": "Helveti product parameters list reference T116.617.11.037.00, 45 mm case size, 51 mm lug-to-lug, 11.2 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2404,
+    "brand": "Tissot",
+    "model": "Chrono XL",
+    "reference": "T116.617.11.047.01",
+    "lugToLugMm": 51,
+    "caseMm": 45,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-xl-t116-617-11-047-01",
+        "note": "Helveti product parameters list reference T116.617.11.047.01, 45 mm case size, 51 mm lug-to-lug, 11.2 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2405,
+    "brand": "Tissot",
+    "model": "Chrono XL",
+    "reference": "T116.617.11.057.01",
+    "lugToLugMm": 51,
+    "caseMm": 45,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-xl-t116-617-11-057-01",
+        "note": "Helveti product parameters list reference T116.617.11.057.01, 45 mm case size, 51 mm lug-to-lug, 11.2 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2406,
+    "brand": "Tissot",
+    "model": "Chrono XL",
+    "reference": "T116.617.11.092.00",
+    "lugToLugMm": 51,
+    "caseMm": 45,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-xl-t116-617-11-092-00",
+        "note": "Helveti product parameters list reference T116.617.11.092.00, 45 mm case size, 51 mm lug-to-lug, 11.2 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2407,
+    "brand": "Tissot",
+    "model": "Chrono XL",
+    "reference": "T116.617.16.047.00",
+    "lugToLugMm": 51,
+    "caseMm": 45,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-xl-t116-617-16-047-00",
+        "note": "Helveti product parameters list reference T116.617.16.047.00, 45 mm case size, 51 mm lug-to-lug, 11.2 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2408,
+    "brand": "Tissot",
+    "model": "Chrono XL",
+    "reference": "T116.617.16.057.00",
+    "lugToLugMm": 51,
+    "caseMm": 45,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-xl-t116-617-16-057-00",
+        "note": "Helveti product parameters list reference T116.617.16.057.00, 45 mm case size, 51 mm lug-to-lug, 11.2 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2409,
+    "brand": "Tissot",
+    "model": "Chrono XL",
+    "reference": "T116.617.16.092.00",
+    "lugToLugMm": 51,
+    "caseMm": 45,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-xl-t116-617-16-092-00",
+        "note": "Helveti product parameters list reference T116.617.16.092.00, 45 mm case size, 51 mm lug-to-lug, 11.2 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2410,
+    "brand": "Tissot",
+    "model": "Chrono XL",
+    "reference": "T116.617.22.041.00",
+    "lugToLugMm": 51,
+    "caseMm": 45,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-xl-t116-617-22-041-00",
+        "note": "Helveti product parameters list reference T116.617.22.041.00, 45 mm case size, 51 mm lug-to-lug, 11.2 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2411,
+    "brand": "Tissot",
+    "model": "Chrono XL",
+    "reference": "T116.617.22.091.00",
+    "lugToLugMm": 51,
+    "caseMm": 45,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-xl-t116-617-22-091-00",
+        "note": "Helveti product parameters list reference T116.617.22.091.00, 45 mm case size, 51 mm lug-to-lug, 11.2 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2412,
+    "brand": "Tissot",
+    "model": "Chrono XL",
+    "reference": "T116.617.33.051.00",
+    "lugToLugMm": 51,
+    "caseMm": 45,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-xl-t116-617-33-051-00",
+        "note": "Helveti product parameters list reference T116.617.33.051.00, 45 mm case size, 51 mm lug-to-lug, 11.2 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2413,
+    "brand": "Tissot",
+    "model": "Chrono XL",
+    "reference": "T116.617.36.042.00",
+    "lugToLugMm": 51,
+    "caseMm": 45,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-xl-t116-617-36-042-00",
+        "note": "Helveti product parameters list reference T116.617.36.042.00, 45 mm case size, 51 mm lug-to-lug, 11.2 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2414,
+    "brand": "Tissot",
+    "model": "Chrono XL Vintage",
+    "reference": "T116.617.16.042.00",
+    "lugToLugMm": 51,
+    "caseMm": 45,
+    "thicknessMm": 11,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-xl-vintage-t116-617-16-042-00",
+        "note": "Helveti product parameters list reference T116.617.16.042.00, 45 mm case size, 51 mm lug-to-lug, 11 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2415,
+    "brand": "Tissot",
+    "model": "Chrono XL Vintage",
+    "reference": "T116.617.36.052.00",
+    "lugToLugMm": 51,
+    "caseMm": 45,
+    "thicknessMm": 11,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-xl-vintage-t116-617-36-052-00",
+        "note": "Helveti product parameters list reference T116.617.36.052.00, 45 mm case size, 51 mm lug-to-lug, 11 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2416,
+    "brand": "Tissot",
+    "model": "Chrono XL Vintage",
+    "reference": "T116.617.36.052.02",
+    "lugToLugMm": 51,
+    "caseMm": 45,
+    "thicknessMm": 11,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-xl-vintage-t116-617-36-052-02",
+        "note": "Helveti product parameters list reference T116.617.36.052.02, 45 mm case size, 51 mm lug-to-lug, 11 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2417,
+    "brand": "Tissot",
+    "model": "Chrono XL Vintage",
+    "reference": "T116.617.36.052.03",
+    "lugToLugMm": 51,
+    "caseMm": 45,
+    "thicknessMm": 11,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-xl-vintage-t116-617-36-052-03",
+        "note": "Helveti product parameters list reference T116.617.36.052.03, 45 mm case size, 51 mm lug-to-lug, 11 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2418,
+    "brand": "Tissot",
+    "model": "Chrono XL Vintage",
+    "reference": "T116.617.36.092.00",
+    "lugToLugMm": 51,
+    "caseMm": 45,
+    "thicknessMm": 11,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-chrono-xl-vintage-t116-617-36-092-00",
+        "note": "Helveti product parameters list reference T116.617.36.092.00, 45 mm case size, 51 mm lug-to-lug, 11 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2419,
+    "brand": "Tissot",
+    "model": "Gentleman Automatic Silicium",
+    "reference": "T127.407.11.051.00",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-gentleman-automatic-silicium-t127-407-11-051-00",
+        "note": "Helveti product parameters list reference T127.407.11.051.00, 40 mm case size, 48 mm lug-to-lug, 11.5 mm case height, and 21 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2420,
+    "brand": "Tissot",
+    "model": "Pinarello Special Edition",
+    "reference": "T162.408.97.061.00",
+    "lugToLugMm": 48,
+    "caseMm": 43.1,
+    "thicknessMm": 12.15,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pinarello-special-edition-t162-408-97-061-00",
+        "note": "Helveti product parameters list reference T162.408.97.061.00, 43.1 mm case size, 48 mm lug-to-lug, 12.15 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2421,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz",
+    "reference": "T150.410.11.041.00",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-sport-gent-t150-410-11-041-00",
+        "note": "Helveti product parameters list reference T150.410.11.041.00, 40 mm case size, 47 mm lug-to-lug, 8.3 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2422,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz",
+    "reference": "T150.410.11.051.00",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-t150-410-11-051-00",
+        "note": "Helveti product parameters list reference T150.410.11.051.00, 40 mm case size, 47 mm lug-to-lug, 8.3 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2423,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz",
+    "reference": "T150.410.11.081.00",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-t150-410-11-081-00",
+        "note": "Helveti product parameters list reference T150.410.11.081.00, 40 mm case size, 47 mm lug-to-lug, 8.3 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2424,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz",
+    "reference": "T150.410.11.091.00",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-t150-410-11-091-00",
+        "note": "Helveti product parameters list reference T150.410.11.091.00, 40 mm case size, 47 mm lug-to-lug, 8.3 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2425,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz",
+    "reference": "T150.410.11.351.00",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-t150-410-11-351-00",
+        "note": "Helveti product parameters list reference T150.410.11.351.00, 40 mm case size, 47 mm lug-to-lug, 8.3 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2426,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz",
+    "reference": "T150.410.16.011.00",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-t150-410-16-011-00",
+        "note": "Helveti product parameters list reference T150.410.16.011.00, 40 mm case size, 47 mm lug-to-lug, 8.3 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2427,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz",
+    "reference": "T150.410.16.031.00",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-t150-410-16-031-00",
+        "note": "Helveti product parameters list reference T150.410.16.031.00, 40 mm case size, 47 mm lug-to-lug, 8.3 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2428,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz",
+    "reference": "T150.410.16.051.00",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-t150-410-16-051-00",
+        "note": "Helveti product parameters list reference T150.410.16.051.00, 40 mm case size, 47 mm lug-to-lug, 8.3 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2429,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz",
+    "reference": "T150.410.17.037.00",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-t150-410-17-037-00",
+        "note": "Helveti product parameters list reference T150.410.17.037.00, 40 mm case size, 47 mm lug-to-lug, 8.3 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2430,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz",
+    "reference": "T150.410.22.011.00",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-t150-410-22-011-00",
+        "note": "Helveti product parameters list reference T150.410.22.011.00, 40 mm case size, 47 mm lug-to-lug, 8.3 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2431,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz",
+    "reference": "T150.410.22.041.00",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-t150-410-22-041-00",
+        "note": "Helveti product parameters list reference T150.410.22.041.00, 40 mm case size, 47 mm lug-to-lug, 8.3 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2432,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz",
+    "reference": "T150.410.33.051.00",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-t150-410-33-051-00",
+        "note": "Helveti product parameters list reference T150.410.33.051.00, 40 mm case size, 47 mm lug-to-lug, 8.3 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2433,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz Jungfraubahn T150.410.11.031.00 Special Edition",
+    "reference": "T150.410.11.031.00",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-jungfraubahn-t150-410-11-031-00-special-edition",
+        "note": "Helveti product parameters list reference T150.410.11.031.00, 40 mm case size, 47 mm lug-to-lug, 8.3 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2434,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz Jungfraubahn T150.410.11.041.02 Special Edition",
+    "reference": "T150.410.11.041.02",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-jungfraubahn-t150-410-11-041-02-special-edition",
+        "note": "Helveti product parameters list reference T150.410.11.041.02, 40 mm case size, 47 mm lug-to-lug, 8.3 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2435,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz Lady",
+    "reference": "T150.210.11.031.00",
+    "lugToLugMm": 40,
+    "caseMm": 34,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-lady-t150-210-11-031-00",
+        "note": "Helveti product parameters list reference T150.210.11.031.00, 34 mm case size, 40 mm lug-to-lug, 8.3 mm case height, and 16 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2436,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz Lady",
+    "reference": "T150.210.11.041.00",
+    "lugToLugMm": 40,
+    "caseMm": 34,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-lady-t150-210-11-041-00",
+        "note": "Helveti product parameters list reference T150.210.11.041.00, 34 mm case size, 40 mm lug-to-lug, 8.3 mm case height, and 16 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2437,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz Lady",
+    "reference": "T150.210.11.091.00",
+    "lugToLugMm": 40,
+    "caseMm": 34,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-lady-t150-210-11-091-00",
+        "note": "Helveti product parameters list reference T150.210.11.091.00, 34 mm case size, 40 mm lug-to-lug, 8.3 mm case height, and 16 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2438,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz Lady",
+    "reference": "T150.210.11.116.00",
+    "lugToLugMm": 40,
+    "caseMm": 34,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-lady-t150-210-11-116-00",
+        "note": "Helveti product parameters list reference T150.210.11.116.00, 34 mm case size, 40 mm lug-to-lug, 8.3 mm case height, and 16 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2439,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz Lady",
+    "reference": "T150.210.11.331.00",
+    "lugToLugMm": 40,
+    "caseMm": 34,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-lady-t150-210-11-331-00",
+        "note": "Helveti product parameters list reference T150.210.11.331.00, 34 mm case size, 40 mm lug-to-lug, 8.3 mm case height, and 16 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2440,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz Lady",
+    "reference": "T150.210.11.351.00",
+    "lugToLugMm": 40,
+    "caseMm": 34,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-lady-t150-210-11-351-00",
+        "note": "Helveti product parameters list reference T150.210.11.351.00, 34 mm case size, 40 mm lug-to-lug, 8.3 mm case height, and 16 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2441,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz Lady",
+    "reference": "T150.210.17.037.00",
+    "lugToLugMm": 40,
+    "caseMm": 34,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-lady-t150-210-17-037-00",
+        "note": "Helveti product parameters list reference T150.210.17.037.00, 34 mm case size, 40 mm lug-to-lug, 8.3 mm case height, and 16 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2442,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz Lady",
+    "reference": "T150.210.21.031.00",
+    "lugToLugMm": 40,
+    "caseMm": 34,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-lady-t150-210-21-031-00",
+        "note": "Helveti product parameters list reference T150.210.21.031.00, 34 mm case size, 40 mm lug-to-lug, 8.3 mm case height, and 16 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2443,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz Lady",
+    "reference": "T150.210.21.111.00",
+    "lugToLugMm": 40,
+    "caseMm": 34,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-lady-t150-210-21-111-00",
+        "note": "Helveti product parameters list reference T150.210.21.111.00, 34 mm case size, 40 mm lug-to-lug, 8.3 mm case height, and 16 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2444,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz Lady",
+    "reference": "T150.210.26.111.00",
+    "lugToLugMm": 40,
+    "caseMm": 34,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-lady-t150-210-26-111-00",
+        "note": "Helveti product parameters list reference T150.210.26.111.00, 34 mm case size, 40 mm lug-to-lug, 8.3 mm case height, and 16 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2445,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz Lady",
+    "reference": "T150.210.33.021.00",
+    "lugToLugMm": 40,
+    "caseMm": 34,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-lady-t150-210-33-021-00",
+        "note": "Helveti product parameters list reference T150.210.33.021.00, 34 mm case size, 40 mm lug-to-lug, 8.3 mm case height, and 16 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2446,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz Lady",
+    "reference": "T150.210.33.111.00",
+    "lugToLugMm": 40,
+    "caseMm": 34,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-lady-t150-210-33-111-00",
+        "note": "Helveti product parameters list reference T150.210.33.111.00, 34 mm case size, 40 mm lug-to-lug, 8.3 mm case height, and 16 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2447,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz Lady",
+    "reference": "T150.210.33.291.00",
+    "lugToLugMm": 40,
+    "caseMm": 34,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-lady-t150-210-33-291-00",
+        "note": "Helveti product parameters list reference T150.210.33.291.00, 34 mm case size, 40 mm lug-to-lug, 8.3 mm case height, and 16 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2448,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz Lady Jungfraubahn T150.210.11.031.01 Special Edition",
+    "reference": "T150.210.11.031.01",
+    "lugToLugMm": 40,
+    "caseMm": 34,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-lady-jungfraubahn-t150-210-11-031-01-special-edition",
+        "note": "Helveti product parameters list reference T150.210.11.031.01, 34 mm case size, 40 mm lug-to-lug, 8.3 mm case height, and 16 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2449,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz Lady Jungfraubahn T150.210.11.041.01 Special Edition",
+    "reference": "T150.210.11.041.01",
+    "lugToLugMm": 40,
+    "caseMm": 34,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-quartz-lady-jungfraubahn-t150-210-11-041-01-special-edition",
+        "note": "Helveti product parameters list reference T150.210.11.041.01, 34 mm case size, 40 mm lug-to-lug, 8.3 mm case height, and 16 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2450,
+    "brand": "Tissot",
+    "model": "PR516 Powermatic 80",
+    "reference": "T149.407.11.031.00",
+    "lugToLugMm": 44.5,
+    "caseMm": 38,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr516-powermatic-80-t149-407-11-031-00",
+        "note": "Helveti product parameters list reference T149.407.11.031.00, 38 mm case size, 44.5 mm lug-to-lug, 11.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2451,
+    "brand": "Tissot",
+    "model": "PR516 Powermatic 80",
+    "reference": "T149.407.11.041.00",
+    "lugToLugMm": 44.5,
+    "caseMm": 38,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr516-powermatic-80-t149-407-11-041-00",
+        "note": "Helveti product parameters list reference T149.407.11.041.00, 38 mm case size, 44.5 mm lug-to-lug, 11.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2452,
+    "brand": "Tissot",
+    "model": "PR516 Powermatic 80",
+    "reference": "T149.407.16.041.00",
+    "lugToLugMm": 44.5,
+    "caseMm": 38,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr516-powermatic-80-t149-407-16-041-00",
+        "note": "Helveti product parameters list reference T149.407.16.041.00, 38 mm case size, 44.5 mm lug-to-lug, 11.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2453,
+    "brand": "Tissot",
+    "model": "PR516 Powermatic 80",
+    "reference": "T149.407.16.051.00",
+    "lugToLugMm": 44.5,
+    "caseMm": 38,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr516-powermatic-80-t149-407-16-051-00",
+        "note": "Helveti product parameters list reference T149.407.16.051.00, 38 mm case size, 44.5 mm lug-to-lug, 11.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2454,
+    "brand": "Tissot",
+    "model": "PR516 Powermatic 80",
+    "reference": "T149.407.22.011.00",
+    "lugToLugMm": 44.5,
+    "caseMm": 38,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr516-powermatic-80-t149-407-22-011-00",
+        "note": "Helveti product parameters list reference T149.407.22.011.00, 38 mm case size, 44.5 mm lug-to-lug, 11.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2455,
+    "brand": "Tissot",
+    "model": "PR516 Quartz Chronograph",
+    "reference": "T149.417.11.011.00",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr516-quartz-chronograph-t149-417-11-011-00",
+        "note": "Helveti product parameters list reference T149.417.11.011.00, 40 mm case size, 47 mm lug-to-lug, 12.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2456,
+    "brand": "Tissot",
+    "model": "PR516 Quartz Chronograph",
+    "reference": "T149.417.11.041.00",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prs-516-quartz-chronograph-t149-417-11-041-00",
+        "note": "Helveti product parameters list reference T149.417.11.041.00, 40 mm case size, 47 mm lug-to-lug, 12.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2457,
+    "brand": "Tissot",
+    "model": "PR516 Quartz Chronograph",
+    "reference": "T149.417.11.041.01",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr516-quartz-chronograph-t149-417-11-041-01",
+        "note": "Helveti product parameters list reference T149.417.11.041.01, 40 mm case size, 47 mm lug-to-lug, 12.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2458,
+    "brand": "Tissot",
+    "model": "PR516 Quartz Chronograph",
+    "reference": "T149.417.11.051.00",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prs-516-quartz-chronograph-t149-417-11-051-00",
+        "note": "Helveti product parameters list reference T149.417.11.051.00, 40 mm case size, 47 mm lug-to-lug, 12.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2459,
+    "brand": "Tissot",
+    "model": "PR516 Quartz Chronograph",
+    "reference": "T149.417.22.051.00",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prs-516-quartz-chronograph-t149-417-22-051-00",
+        "note": "Helveti product parameters list reference T149.417.22.051.00, 40 mm case size, 47 mm lug-to-lug, 12.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2460,
+    "brand": "Tissot",
+    "model": "PR516 Quartz Chronograph",
+    "reference": "T149.417.22.051.01",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr516-quartz-chronograph-t149-417-22-051-01",
+        "note": "Helveti product parameters list reference T149.417.22.051.01, 40 mm case size, 47 mm lug-to-lug, 12.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2461,
+    "brand": "Tissot",
+    "model": "PR516 Quartz Chronograph",
+    "reference": "T149.417.33.051.00",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr516-quartz-chronograph-t149-417-33-051-00",
+        "note": "Helveti product parameters list reference T149.417.33.051.00, 40 mm case size, 47 mm lug-to-lug, 12.2 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2462,
+    "brand": "Tissot",
+    "model": "PRC 200 Quartz Chronograph",
+    "reference": "T114.417.11.047.00",
+    "lugToLugMm": 48,
+    "caseMm": 43,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prc-200-quartz-chronograph-t114-417-11-047-00",
+        "note": "Helveti product parameters list reference T114.417.11.047.00, 43 mm case size, 48 mm lug-to-lug, 12 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2463,
+    "brand": "Tissot",
+    "model": "PRC 200 Quartz Chronograph",
+    "reference": "T114.417.11.057.00",
+    "lugToLugMm": 48,
+    "caseMm": 43,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prc-200-quartz-chronograph-t114-417-11-057-00",
+        "note": "Helveti product parameters list reference T114.417.11.057.00, 43 mm case size, 48 mm lug-to-lug, 12 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2464,
+    "brand": "Tissot",
+    "model": "PRC 200 Quartz Chronograph",
+    "reference": "T114.417.17.057.00",
+    "lugToLugMm": 48,
+    "caseMm": 43,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prc-200-quartz-chronograph-t114-417-17-057-00",
+        "note": "Helveti product parameters list reference T114.417.17.057.00, 43 mm case size, 48 mm lug-to-lug, 12 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2465,
+    "brand": "Tissot",
+    "model": "PRX 40",
+    "reference": "T137.410.11.031.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-11-031-00",
+        "note": "Helveti product parameters list reference T137.410.11.031.00, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2466,
+    "brand": "Tissot",
+    "model": "PRX 40",
+    "reference": "T137.410.11.041.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-11-041-00",
+        "note": "Helveti product parameters list reference T137.410.11.041.00, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2467,
+    "brand": "Tissot",
+    "model": "PRX 40",
+    "reference": "T137.410.11.051.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-11-051-00",
+        "note": "Helveti product parameters list reference T137.410.11.051.00, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2468,
+    "brand": "Tissot",
+    "model": "PRX 40",
+    "reference": "T137.410.11.091.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-11-091-00",
+        "note": "Helveti product parameters list reference T137.410.11.091.00, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2469,
+    "brand": "Tissot",
+    "model": "PRX 40",
+    "reference": "T137.410.11.091.01",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-11-091-01",
+        "note": "Helveti product parameters list reference T137.410.11.091.01, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2470,
+    "brand": "Tissot",
+    "model": "PRX 40",
+    "reference": "T137.410.11.421.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-11-421-00",
+        "note": "Helveti product parameters list reference T137.410.11.421.00, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2471,
+    "brand": "Tissot",
+    "model": "PRX 40",
+    "reference": "T137.410.16.041.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-16-041-00",
+        "note": "Helveti product parameters list reference T137.410.16.041.00, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2472,
+    "brand": "Tissot",
+    "model": "PRX 40",
+    "reference": "T137.410.17.011.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-17-011-00",
+        "note": "Helveti product parameters list reference T137.410.17.011.00, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2473,
+    "brand": "Tissot",
+    "model": "PRX 40",
+    "reference": "T137.410.17.041.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-17-041-00",
+        "note": "Helveti product parameters list reference T137.410.17.041.00, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2474,
+    "brand": "Tissot",
+    "model": "PRX 40",
+    "reference": "T137.410.17.051.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-17-051-00",
+        "note": "Helveti product parameters list reference T137.410.17.051.00, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2475,
+    "brand": "Tissot",
+    "model": "PRX 40",
+    "reference": "T137.410.33.021.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-33-021-00",
+        "note": "Helveti product parameters list reference T137.410.33.021.00, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2476,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80",
+    "reference": "T137.407.11.051.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-11-051-00",
+        "note": "Helveti product parameters list reference T137.407.11.051.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2477,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80",
+    "reference": "T137.407.11.051.01",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-11-051-01",
+        "note": "Helveti product parameters list reference T137.407.11.051.01, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2478,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80",
+    "reference": "T137.407.11.091.01",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-11-091-01",
+        "note": "Helveti product parameters list reference T137.407.11.091.01, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2479,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80",
+    "reference": "T137.407.11.351.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-11-351-00",
+        "note": "Helveti product parameters list reference T137.407.11.351.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2480,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80",
+    "reference": "T137.407.11.351.01",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-11-351-01",
+        "note": "Helveti product parameters list reference T137.407.11.351.01, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2481,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80",
+    "reference": "T137.407.16.041.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-16-041-00",
+        "note": "Helveti product parameters list reference T137.407.16.041.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2482,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80",
+    "reference": "T137.407.16.051.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-16-051-00",
+        "note": "Helveti product parameters list reference T137.407.16.051.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2483,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80",
+    "reference": "T137.407.17.041.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-17-041-00",
+        "note": "Helveti product parameters list reference T137.407.17.041.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2484,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80",
+    "reference": "T137.407.17.051.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-17-051-00",
+        "note": "Helveti product parameters list reference T137.407.17.051.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2485,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80",
+    "reference": "T137.407.21.031.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-21-031-00",
+        "note": "Helveti product parameters list reference T137.407.21.031.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2486,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80",
+    "reference": "T137.407.33.021.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-33-021-00",
+        "note": "Helveti product parameters list reference T137.407.33.021.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2487,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80",
+    "reference": "T137.407.33.041.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-33-041-00",
+        "note": "Helveti product parameters list reference T137.407.33.041.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2488,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80",
+    "reference": "T137.907.97.201.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40.5,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-907-97-201-00",
+        "note": "Helveti product parameters list reference T137.907.97.201.00, 40.5 mm case size, 44.6 mm lug-to-lug, 11.2 mm case height, and 12 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2489,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80 Steel &amp; 18K Gold",
+    "reference": "T931.407.41.031.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-steel-18k-gold-t931-407-41-031-00",
+        "note": "Helveti product parameters list reference T931.407.41.031.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2490,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80 Steel &amp; 18K Gold",
+    "reference": "T931.407.41.031.01",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-steel-18k-gold-t931-407-41-031-01",
+        "note": "Helveti product parameters list reference T931.407.41.031.01, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2491,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80 Steel &amp; 18K Gold",
+    "reference": "T931.407.41.041.00",
+    "lugToLugMm": 44.6,
+    "caseMm": 40,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-steel-18k-gold-t931-407-41-041-00",
+        "note": "Helveti product parameters list reference T931.407.41.041.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2492,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Automatic",
+    "reference": "T120.407.11.041.03",
+    "lugToLugMm": 49,
+    "caseMm": 43,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-automatic-t120-407-11-041-03",
+        "note": "Helveti product parameters list reference T120.407.11.041.03, 43 mm case size, 49 mm lug-to-lug, 12.7 mm case height, and 21 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2493,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Automatic",
+    "reference": "T120.407.11.081.01",
+    "lugToLugMm": 49,
+    "caseMm": 43,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-automatic-t120-407-11-081-01",
+        "note": "Helveti product parameters list reference T120.407.11.081.01, 43 mm case size, 49 mm lug-to-lug, 12.7 mm case height, and 21 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2494,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Automatic",
+    "reference": "T120.407.11.091.01",
+    "lugToLugMm": 49,
+    "caseMm": 43,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-automatic-t120-407-11-091-01",
+        "note": "Helveti product parameters list reference T120.407.11.091.01, 43 mm case size, 49 mm lug-to-lug, 12.7 mm case height, and 21 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2495,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Automatic 2018",
+    "reference": "T120.407.11.051.00",
+    "lugToLugMm": 49,
+    "caseMm": 43,
+    "thicknessMm": 12,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-automatic-2018-t120-407-11-051-00",
+        "note": "Helveti product parameters list reference T120.407.11.051.00, 43 mm case size, 49 mm lug-to-lug, 12 mm case height, and 21 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2496,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Automatic 2018",
+    "reference": "T120.407.17.041.00",
+    "lugToLugMm": 49,
+    "caseMm": 43,
+    "thicknessMm": 12,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-automatic-2018-t120-407-17-041-00",
+        "note": "Helveti product parameters list reference T120.407.17.041.00, 43 mm case size, 49 mm lug-to-lug, 12 mm case height, and 21 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2497,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Chrono",
+    "reference": "T120.417.11.041.01",
+    "lugToLugMm": 51,
+    "caseMm": 45.5,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-chrono-t120-417-11-041-01",
+        "note": "Helveti product parameters list reference T120.417.11.041.01, 45.5 mm case size, 51 mm lug-to-lug, 12.8 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2498,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Chrono",
+    "reference": "T120.417.11.041.03",
+    "lugToLugMm": 51,
+    "caseMm": 45.5,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-chrono-t120-417-11-041-03",
+        "note": "Helveti product parameters list reference T120.417.11.041.03, 45.5 mm case size, 51 mm lug-to-lug, 12.8 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2499,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Chrono",
+    "reference": "T120.417.11.051.00",
+    "lugToLugMm": 51,
+    "caseMm": 45.5,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-chrono-t120-417-11-051-00",
+        "note": "Helveti product parameters list reference T120.417.11.051.00, 45.5 mm case size, 51 mm lug-to-lug, 12.8 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2500,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Chrono",
+    "reference": "T120.417.11.091.01",
+    "lugToLugMm": 51,
+    "caseMm": 45.5,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-chrono-t120-417-11-091-01",
+        "note": "Helveti product parameters list reference T120.417.11.091.01, 45.5 mm case size, 51 mm lug-to-lug, 12.8 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2501,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Chrono",
+    "reference": "T120.417.17.041.00",
+    "lugToLugMm": 51,
+    "caseMm": 45.5,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-chrono-t120-417-17-041-00",
+        "note": "Helveti product parameters list reference T120.417.17.041.00, 45.5 mm case size, 51 mm lug-to-lug, 12.8 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2502,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Chrono",
+    "reference": "T120.417.17.081.01",
+    "lugToLugMm": 51,
+    "caseMm": 45.5,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-chrono-t120-417-17-081-01",
+        "note": "Helveti product parameters list reference T120.417.17.081.01, 45.5 mm case size, 51 mm lug-to-lug, 12.8 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2503,
+    "brand": "Tissot",
+    "model": "Seastar 1000 GMT Quartz",
+    "reference": "T120.852.11.051.00",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-gmt-quartz-t120-852-11-051-00",
+        "note": "Helveti product parameters list reference T120.852.11.051.00, 40 mm case size, 45 mm lug-to-lug, 11.8 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2504,
+    "brand": "Tissot",
+    "model": "Seastar 1000 GMT Quartz",
+    "reference": "T120.852.17.051.00",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-gmt-quartz-t120-852-17-051-00",
+        "note": "Helveti product parameters list reference T120.852.17.051.00, 40 mm case size, 45 mm lug-to-lug, 11.8 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2505,
+    "brand": "Tissot",
+    "model": "Seastar 1000 GMT Quartz",
+    "reference": "T120.852.22.051.00",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-gmt-quartz-t120-852-22-051-00",
+        "note": "Helveti product parameters list reference T120.852.22.051.00, 40 mm case size, 45 mm lug-to-lug, 11.8 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2506,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Powermatic 80",
+    "reference": "T120.807.11.091.00",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-powermatic-80-t120-807-11-091-00",
+        "note": "Helveti product parameters list reference T120.807.11.091.00, 40 mm case size, 45 mm lug-to-lug, 12.5 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2507,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Powermatic 80",
+    "reference": "T120.807.22.051.00",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-powermatic-80-t120-807-22-051-00",
+        "note": "Helveti product parameters list reference T120.807.22.051.00, 40 mm case size, 45 mm lug-to-lug, 12.5 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2508,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Powermatic 80",
+    "reference": "T120.807.22.051.01",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-powermatic-80-t120-807-22-051-01",
+        "note": "Helveti product parameters list reference T120.807.22.051.01, 40 mm case size, 45 mm lug-to-lug, 12.5 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2509,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Powermatic 80",
+    "reference": "T120.807.33.051.00",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-powermatic-80-t120-807-33-051-00",
+        "note": "Helveti product parameters list reference T120.807.33.051.00, 40 mm case size, 45 mm lug-to-lug, 12.5 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2510,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Powermatic 80",
+    "reference": "T120.807.37.041.00",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-powermatic-80-t120-807-37-041-00",
+        "note": "Helveti product parameters list reference T120.807.37.041.00, 40 mm case size, 45 mm lug-to-lug, 12.5 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2511,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz 40mm",
+    "reference": "T120.410.11.041.00",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 10,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-40mm-t120-410-11-041-00",
+        "note": "Helveti product parameters list reference T120.410.11.041.00, 40 mm case size, 45 mm lug-to-lug, 10 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2512,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz 40mm",
+    "reference": "T120.410.11.051.00",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 10,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-40mm-t120-410-11-051-00",
+        "note": "Helveti product parameters list reference T120.410.11.051.00, 40 mm case size, 45 mm lug-to-lug, 10 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2513,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz 40mm",
+    "reference": "T120.410.11.091.00",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 10,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-40mm-t120-410-11-091-00",
+        "note": "Helveti product parameters list reference T120.410.11.091.00, 40 mm case size, 45 mm lug-to-lug, 10 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2514,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz 40mm",
+    "reference": "T120.410.22.051.00",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 10,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-40mm-t120-410-22-051-00",
+        "note": "Helveti product parameters list reference T120.410.22.051.00, 40 mm case size, 45 mm lug-to-lug, 10 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2515,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz 40mm",
+    "reference": "T120.410.22.051.01",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 10,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-40mm-t120-410-22-051-01",
+        "note": "Helveti product parameters list reference T120.410.22.051.01, 40 mm case size, 45 mm lug-to-lug, 10 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2516,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz 40mm",
+    "reference": "T120.410.27.051.00",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 10,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-40mm-t120-410-27-051-00",
+        "note": "Helveti product parameters list reference T120.410.27.051.00, 40 mm case size, 45 mm lug-to-lug, 10 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2517,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz 40mm",
+    "reference": "T120.410.33.051.00",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 10,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-40mm-t120-410-33-051-00",
+        "note": "Helveti product parameters list reference T120.410.33.051.00, 40 mm case size, 45 mm lug-to-lug, 10 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2518,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz 40mm",
+    "reference": "T120.410.33.091.00",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 10,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-40mm-t120-410-33-091-00",
+        "note": "Helveti product parameters list reference T120.410.33.091.00, 40 mm case size, 45 mm lug-to-lug, 10 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2519,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz 40mm",
+    "reference": "T120.410.33.421.00",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 10,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-40mm-t120-410-33-421-00",
+        "note": "Helveti product parameters list reference T120.410.33.421.00, 40 mm case size, 45 mm lug-to-lug, 10 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2520,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz Chronograph 38mm",
+    "reference": "T120.217.11.011.00",
+    "lugToLugMm": 44,
+    "caseMm": 38,
+    "thicknessMm": 13,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-chronograph-38mm-t120-217-11-011-00",
+        "note": "Helveti product parameters list reference T120.217.11.011.00, 38 mm case size, 44 mm lug-to-lug, 13 mm case height, and 18 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2521,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz Chronograph 38mm",
+    "reference": "T120.217.11.061.00",
+    "lugToLugMm": 44,
+    "caseMm": 38,
+    "thicknessMm": 13,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-chronograph-38mm-t120-217-11-061-00",
+        "note": "Helveti product parameters list reference T120.217.11.061.00, 38 mm case size, 44 mm lug-to-lug, 13 mm case height, and 18 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2522,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz Chronograph 38mm",
+    "reference": "T120.217.17.011.00",
+    "lugToLugMm": 44,
+    "caseMm": 38,
+    "thicknessMm": 13,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-chronograph-38mm-t120-217-17-011-00",
+        "note": "Helveti product parameters list reference T120.217.17.011.00, 38 mm case size, 44 mm lug-to-lug, 13 mm case height, and 18 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2523,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz Chronograph 38mm",
+    "reference": "T120.217.17.041.00",
+    "lugToLugMm": 44,
+    "caseMm": 38,
+    "thicknessMm": 13,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-chronograph-38mm-t120-217-17-041-00",
+        "note": "Helveti product parameters list reference T120.217.17.041.00, 38 mm case size, 44 mm lug-to-lug, 13 mm case height, and 18 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2524,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz Chronograph 38mm",
+    "reference": "T120.217.22.061.00",
+    "lugToLugMm": 44,
+    "caseMm": 38,
+    "thicknessMm": 13,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-chronograph-38mm-t120-217-22-061-00",
+        "note": "Helveti product parameters list reference T120.217.22.061.00, 38 mm case size, 44 mm lug-to-lug, 13 mm case height, and 18 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2525,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz Chronograph 38mm",
+    "reference": "T120.217.33.061.00",
+    "lugToLugMm": 44,
+    "caseMm": 38,
+    "thicknessMm": 13,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-chronograph-38mm-t120-217-33-061-00",
+        "note": "Helveti product parameters list reference T120.217.33.061.00, 38 mm case size, 44 mm lug-to-lug, 13 mm case height, and 18 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2526,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz Chronograph 38mm",
+    "reference": "T120.217.37.041.00",
+    "lugToLugMm": 44,
+    "caseMm": 38,
+    "thicknessMm": 13,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-chronograph-38mm-t120-217-37-041-00",
+        "note": "Helveti product parameters list reference T120.217.37.041.00, 38 mm case size, 44 mm lug-to-lug, 13 mm case height, and 18 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2527,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz Chronograph 38mm",
+    "reference": "T120.217.37.061.00",
+    "lugToLugMm": 44,
+    "caseMm": 38,
+    "thicknessMm": 13,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-chronograph-38mm-t120-217-37-061-00",
+        "note": "Helveti product parameters list reference T120.217.37.061.00, 38 mm case size, 44 mm lug-to-lug, 13 mm case height, and 18 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2528,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz Lady",
+    "reference": "T120.210.11.011.00",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 10,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-lady-t120-210-11-011-00",
+        "note": "Helveti product parameters list reference T120.210.11.011.00, 36 mm case size, 42 mm lug-to-lug, 10 mm case height, and 18 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2529,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz Lady",
+    "reference": "T120.210.11.041.00",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 10,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-lady-t120-210-11-041-00",
+        "note": "Helveti product parameters list reference T120.210.11.041.00, 36 mm case size, 42 mm lug-to-lug, 10 mm case height, and 18 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2530,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz Lady",
+    "reference": "T120.210.11.051.00",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 10,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-lady-t120-210-11-051-00",
+        "note": "Helveti product parameters list reference T120.210.11.051.00, 36 mm case size, 42 mm lug-to-lug, 10 mm case height, and 18 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2531,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz Lady",
+    "reference": "T120.210.11.091.00",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 10,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-lady-t120-210-11-091-00",
+        "note": "Helveti product parameters list reference T120.210.11.091.00, 36 mm case size, 42 mm lug-to-lug, 10 mm case height, and 18 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2532,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz Lady",
+    "reference": "T120.210.17.116.00",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 10,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-lady-t120-210-17-116-00",
+        "note": "Helveti product parameters list reference T120.210.17.116.00, 36 mm case size, 42 mm lug-to-lug, 10 mm case height, and 18 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2533,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz Lady",
+    "reference": "T120.210.21.051.00",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 10,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-lady-t120-210-21-051-00",
+        "note": "Helveti product parameters list reference T120.210.21.051.00, 36 mm case size, 42 mm lug-to-lug, 10 mm case height, and 18 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2534,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz Lady",
+    "reference": "T120.210.22.051.00",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 10,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-lady-t120-210-22-051-00",
+        "note": "Helveti product parameters list reference T120.210.22.051.00, 36 mm case size, 42 mm lug-to-lug, 10 mm case height, and 18 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2535,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz Lady",
+    "reference": "T120.210.22.051.01",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 10,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-lady-t120-210-22-051-01",
+        "note": "Helveti product parameters list reference T120.210.22.051.01, 36 mm case size, 42 mm lug-to-lug, 10 mm case height, and 18 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2536,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz Lady",
+    "reference": "T120.210.22.111.00",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 10,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-lady-t120-210-22-111-00",
+        "note": "Helveti product parameters list reference T120.210.22.111.00, 36 mm case size, 42 mm lug-to-lug, 10 mm case height, and 18 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2537,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Quartz Wilson WNBA Special Edition",
+    "reference": "T120.410.17.011.00",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 10,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-quartz-wilson-wnba-special-edition-t120-410-17-011-00",
+        "note": "Helveti product parameters list reference T120.410.17.011.00, 40 mm case size, 45 mm lug-to-lug, 10 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2538,
+    "brand": "Tissot",
+    "model": "Seastar 1000 Wilson WNBA Special Edition",
+    "reference": "T120.807.17.051.00",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-1000-wilson-wnba-special-edition-t120-807-17-051-00",
+        "note": "Helveti product parameters list reference T120.807.17.051.00, 40 mm case size, 45 mm lug-to-lug, 12.5 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2539,
+    "brand": "Tissot",
+    "model": "Seastar 2000 Professional Automatic",
+    "reference": "T120.607.11.041.00",
+    "lugToLugMm": 51,
+    "caseMm": 46,
+    "thicknessMm": 15.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-2000-professional-automatic-t120-607-11-041-00",
+        "note": "Helveti product parameters list reference T120.607.11.041.00, 46 mm case size, 51 mm lug-to-lug, 15.8 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2540,
+    "brand": "Tissot",
+    "model": "Seastar 2000 Professional Automatic",
+    "reference": "T120.607.11.041.01",
+    "lugToLugMm": 51,
+    "caseMm": 46,
+    "thicknessMm": 15.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-2000-professional-automatic-t120-607-11-041-01",
+        "note": "Helveti product parameters list reference T120.607.11.041.01, 46 mm case size, 51 mm lug-to-lug, 15.8 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2541,
+    "brand": "Tissot",
+    "model": "Seastar 2000 Professional Automatic",
+    "reference": "T120.607.37.041.00",
+    "lugToLugMm": 51,
+    "caseMm": 46,
+    "thicknessMm": 15.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-seastar-2000-professional-automatic-t120-607-37-041-00",
+        "note": "Helveti product parameters list reference T120.607.37.041.00, 46 mm case size, 51 mm lug-to-lug, 15.8 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2542,
+    "brand": "Tissot",
+    "model": "Supersport Chrono",
+    "reference": "T125.617.11.041.00",
+    "lugToLugMm": 58,
+    "caseMm": 45.5,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-supersport-chrono-t125-617-11-041-00",
+        "note": "Helveti product parameters list reference T125.617.11.041.00, 45.5 mm case size, 58 mm lug-to-lug, 11.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2543,
+    "brand": "Tissot",
+    "model": "Supersport Chrono",
+    "reference": "T125.617.11.051.00",
+    "lugToLugMm": 58,
+    "caseMm": 45.5,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-supersport-chrono-t125-617-11-051-00",
+        "note": "Helveti product parameters list reference T125.617.11.051.00, 45.5 mm case size, 58 mm lug-to-lug, 11.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2544,
+    "brand": "Tissot",
+    "model": "Supersport Chrono",
+    "reference": "T125.617.16.041.00",
+    "lugToLugMm": 58,
+    "caseMm": 45.5,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-supersport-chrono-t125-617-16-041-00",
+        "note": "Helveti product parameters list reference T125.617.16.041.00, 45.5 mm case size, 58 mm lug-to-lug, 11.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2545,
+    "brand": "Tissot",
+    "model": "Supersport Chrono",
+    "reference": "T125.617.16.051.00",
+    "lugToLugMm": 58,
+    "caseMm": 45.5,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-supersport-chrono-t125-617-16-051-00",
+        "note": "Helveti product parameters list reference T125.617.16.051.00, 45.5 mm case size, 58 mm lug-to-lug, 11.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2546,
+    "brand": "Tissot",
+    "model": "Supersport Chrono",
+    "reference": "T125.617.17.051.03",
+    "lugToLugMm": 58,
+    "caseMm": 45.5,
+    "thicknessMm": 11.98,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-supersport-chrono-t125-617-17-051-03",
+        "note": "Helveti product parameters list reference T125.617.17.051.03, 45.5 mm case size, 58 mm lug-to-lug, 11.98 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2547,
+    "brand": "Tissot",
+    "model": "Supersport Chrono",
+    "reference": "T125.617.33.051.00",
+    "lugToLugMm": 58,
+    "caseMm": 45.5,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-supersport-chrono-t125-617-33-051-00",
+        "note": "Helveti product parameters list reference T125.617.33.051.00, 45.5 mm case size, 58 mm lug-to-lug, 11.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2548,
+    "brand": "Tissot",
+    "model": "Supersport Chrono",
+    "reference": "T125.617.33.051.01",
+    "lugToLugMm": 58,
+    "caseMm": 45.5,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-supersport-chrono-t125-617-33-051-01",
+        "note": "Helveti product parameters list reference T125.617.33.051.01, 45.5 mm case size, 58 mm lug-to-lug, 11.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2549,
+    "brand": "Tissot",
+    "model": "Supersport Chrono",
+    "reference": "T125.617.36.051.01",
+    "lugToLugMm": 58,
+    "caseMm": 45.5,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-supersport-chrono-t125-617-36-051-01",
+        "note": "Helveti product parameters list reference T125.617.36.051.01, 45.5 mm case size, 58 mm lug-to-lug, 11.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2550,
+    "brand": "Tissot",
+    "model": "Supersport Chrono",
+    "reference": "T125.617.37.051.01",
+    "lugToLugMm": 58,
+    "caseMm": 45.5,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-supersport-chrono-t125-617-37-051-01",
+        "note": "Helveti product parameters list reference T125.617.37.051.01, 45.5 mm case size, 58 mm lug-to-lug, 11.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2551,
+    "brand": "Tissot",
+    "model": "Supersport Chrono Basketball Edition",
+    "reference": "T125.617.36.081.00",
+    "lugToLugMm": 58,
+    "caseMm": 45.5,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-supersport-chrono-basketball-edition-t125-617-36-081-00",
+        "note": "Helveti product parameters list reference T125.617.36.081.00, 45.5 mm case size, 58 mm lug-to-lug, 11.9 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2552,
+    "brand": "Tissot",
+    "model": "T-Complications Squelette",
+    "reference": "T070.405.16.411.00",
+    "lugToLugMm": 52,
+    "caseMm": 43,
+    "thicknessMm": 12,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-complications-squelette-t070-405-16-411-00",
+        "note": "Helveti product parameters list reference T070.405.16.411.00, 43 mm case size, 52 mm lug-to-lug, 12 mm case height, and 22 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2553,
+    "brand": "Tissot",
+    "model": "T-Race Chronograph",
+    "reference": "T141.417.11.031.00",
+    "lugToLugMm": 50,
+    "caseMm": 45,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 14,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-race-chronograph-t141-417-11-031-00",
+        "note": "Helveti product parameters list reference T141.417.11.031.00, 45 mm case size, 50 mm lug-to-lug, 11.8 mm case height, and 14 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2554,
+    "brand": "Tissot",
+    "model": "T-Race Chronograph",
+    "reference": "T141.417.11.041.00",
+    "lugToLugMm": 50,
+    "caseMm": 45,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 14,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-race-chronograph-t141-417-11-041-00",
+        "note": "Helveti product parameters list reference T141.417.11.041.00, 45 mm case size, 50 mm lug-to-lug, 11.8 mm case height, and 14 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2555,
+    "brand": "Tissot",
+    "model": "T-Race Chronograph",
+    "reference": "T141.417.11.051.01",
+    "lugToLugMm": 50,
+    "caseMm": 45,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 14,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-race-chronograph-t141-417-11-051-01",
+        "note": "Helveti product parameters list reference T141.417.11.051.01, 45 mm case size, 50 mm lug-to-lug, 11.8 mm case height, and 14 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2556,
+    "brand": "Tissot",
+    "model": "T-Race Chronograph",
+    "reference": "T141.417.17.011.00",
+    "lugToLugMm": 50,
+    "caseMm": 45,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 14,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-race-chronograph-t141-417-17-011-00",
+        "note": "Helveti product parameters list reference T141.417.17.011.00, 45 mm case size, 50 mm lug-to-lug, 11.8 mm case height, and 14 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2557,
+    "brand": "Tissot",
+    "model": "T-Race Chronograph",
+    "reference": "T141.417.27.041.00",
+    "lugToLugMm": 50,
+    "caseMm": 45,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 14,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-race-chronograph-t141-417-27-041-00",
+        "note": "Helveti product parameters list reference T141.417.27.041.00, 45 mm case size, 50 mm lug-to-lug, 11.8 mm case height, and 14 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2558,
+    "brand": "Tissot",
+    "model": "T-Race Chronograph",
+    "reference": "T141.417.37.051.00",
+    "lugToLugMm": 50,
+    "caseMm": 45,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 14,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-race-chronograph-t141-417-37-051-00",
+        "note": "Helveti product parameters list reference T141.417.37.051.00, 45 mm case size, 50 mm lug-to-lug, 11.8 mm case height, and 14 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2559,
+    "brand": "Tissot",
+    "model": "T-Race Chronograph",
+    "reference": "T141.417.37.051.01",
+    "lugToLugMm": 50,
+    "caseMm": 45,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 14,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-race-chronograph-t141-417-37-051-01",
+        "note": "Helveti product parameters list reference T141.417.37.051.01, 45 mm case size, 50 mm lug-to-lug, 11.8 mm case height, and 14 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2560,
+    "brand": "Tissot",
+    "model": "T-Race Chronograph",
+    "reference": "T141.417.37.051.02",
+    "lugToLugMm": 50,
+    "caseMm": 45,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 14,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-race-chronograph-t141-417-37-051-02",
+        "note": "Helveti product parameters list reference T141.417.37.051.02, 45 mm case size, 50 mm lug-to-lug, 11.8 mm case height, and 14 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2561,
+    "brand": "Tissot",
+    "model": "T-Race Chronograph",
+    "reference": "T141.417.37.061.00",
+    "lugToLugMm": 50,
+    "caseMm": 45,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 14,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-race-chronograph-t141-417-37-061-00",
+        "note": "Helveti product parameters list reference T141.417.37.061.00, 45 mm case size, 50 mm lug-to-lug, 11.8 mm case height, and 14 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2562,
+    "brand": "Tissot",
+    "model": "T-Race Chronograph",
+    "reference": "T141.417.37.061.01",
+    "lugToLugMm": 50,
+    "caseMm": 45,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 14,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-race-chronograph-t141-417-37-061-01",
+        "note": "Helveti product parameters list reference T141.417.37.061.01, 45 mm case size, 50 mm lug-to-lug, 11.8 mm case height, and 14 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2563,
+    "brand": "Tissot",
+    "model": "T-Race Chronograph",
+    "reference": "T141.417.37.061.02",
+    "lugToLugMm": 50,
+    "caseMm": 45,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 14,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-race-chronograph-t141-417-37-061-02",
+        "note": "Helveti product parameters list reference T141.417.37.061.02, 45 mm case size, 50 mm lug-to-lug, 11.8 mm case height, and 14 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2564,
+    "brand": "Tissot",
+    "model": "T-Race Powermatic 80",
+    "reference": "T141.807.11.041.00",
+    "lugToLugMm": 44,
+    "caseMm": 41,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 13,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-race-powermatic-80-t141-807-11-041-00",
+        "note": "Helveti product parameters list reference T141.807.11.041.00, 41 mm case size, 44 mm lug-to-lug, 11.3 mm case height, and 13 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2565,
+    "brand": "Tissot",
+    "model": "T-Race Powermatic 80",
+    "reference": "T141.807.17.051.00",
+    "lugToLugMm": 44,
+    "caseMm": 41,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 13,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-race-powermatic-80-t141-807-17-051-00",
+        "note": "Helveti product parameters list reference T141.807.17.051.00, 41 mm case size, 44 mm lug-to-lug, 11.3 mm case height, and 13 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2566,
+    "brand": "Tissot",
+    "model": "T-Race Powermatic 80",
+    "reference": "T141.807.37.051.00",
+    "lugToLugMm": 44,
+    "caseMm": 41,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 13,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-race-powermatic-80-t141-807-37-051-00",
+        "note": "Helveti product parameters list reference T141.807.37.051.00, 41 mm case size, 44 mm lug-to-lug, 11.3 mm case height, and 13 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2567,
+    "brand": "Tissot",
+    "model": "T-Touch Connect Solar",
+    "reference": "T121.420.44.051.00",
+    "lugToLugMm": 56,
+    "caseMm": 47.5,
+    "thicknessMm": 15.3,
+    "lugWidthMm": 23,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-touch-connect-solar-t121-420-44-051-00",
+        "note": "Helveti product parameters list reference T121.420.44.051.00, 47.5 mm case size, 56 mm lug-to-lug, 15.3 mm case height, and 23 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2568,
+    "brand": "Tissot",
+    "model": "T-Touch Connect Solar",
+    "reference": "T121.420.46.051.00",
+    "lugToLugMm": 56,
+    "caseMm": 47.5,
+    "thicknessMm": 15.3,
+    "lugWidthMm": 23,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-touch-connect-solar-t121-420-46-051-00",
+        "note": "Helveti product parameters list reference T121.420.46.051.00, 47.5 mm case size, 56 mm lug-to-lug, 15.3 mm case height, and 23 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2569,
+    "brand": "Tissot",
+    "model": "T-Touch Connect Solar",
+    "reference": "T121.420.47.051.00",
+    "lugToLugMm": 56,
+    "caseMm": 47.5,
+    "thicknessMm": 15.3,
+    "lugWidthMm": 23,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-touch-connect-solar-t121-420-47-051-00",
+        "note": "Helveti product parameters list reference T121.420.47.051.00, 47.5 mm case size, 56 mm lug-to-lug, 15.3 mm case height, and 23 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2570,
+    "brand": "Tissot",
+    "model": "T-Touch Connect Solar",
+    "reference": "T121.420.47.051.01",
+    "lugToLugMm": 56,
+    "caseMm": 47.5,
+    "thicknessMm": 15.3,
+    "lugWidthMm": 23,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-touch-connect-solar-t121-420-47-051-01",
+        "note": "Helveti product parameters list reference T121.420.47.051.01, 47.5 mm case size, 56 mm lug-to-lug, 15.3 mm case height, and 23 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2571,
+    "brand": "Tissot",
+    "model": "T-Touch Connect Solar",
+    "reference": "T121.420.47.051.02",
+    "lugToLugMm": 56,
+    "caseMm": 47.5,
+    "thicknessMm": 15.3,
+    "lugWidthMm": 23,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-touch-connect-solar-t121-420-47-051-02",
+        "note": "Helveti product parameters list reference T121.420.47.051.02, 47.5 mm case size, 56 mm lug-to-lug, 15.3 mm case height, and 23 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2572,
+    "brand": "Tissot",
+    "model": "T-Touch Connect Solar",
+    "reference": "T121.420.47.051.03",
+    "lugToLugMm": 56,
+    "caseMm": 47.5,
+    "thicknessMm": 15.3,
+    "lugWidthMm": 23,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-touch-connect-solar-t121-420-47-051-03",
+        "note": "Helveti product parameters list reference T121.420.47.051.03, 47.5 mm case size, 56 mm lug-to-lug, 15.3 mm case height, and 23 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2573,
+    "brand": "Tissot",
+    "model": "T-Touch Connect Solar",
+    "reference": "T121.420.47.051.04",
+    "lugToLugMm": 56,
+    "caseMm": 47.5,
+    "thicknessMm": 15.3,
+    "lugWidthMm": 23,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-touch-connect-solar-t121-420-47-051-04",
+        "note": "Helveti product parameters list reference T121.420.47.051.04, 47.5 mm case size, 56 mm lug-to-lug, 15.3 mm case height, and 23 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2574,
+    "brand": "Tissot",
+    "model": "T-Touch Connect Solar",
+    "reference": "T121.420.47.051.06",
+    "lugToLugMm": 56,
+    "caseMm": 47.5,
+    "thicknessMm": 15.3,
+    "lugWidthMm": 23,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-touch-connect-solar-t121-420-47-051-06",
+        "note": "Helveti product parameters list reference T121.420.47.051.06, 47.5 mm case size, 56 mm lug-to-lug, 15.3 mm case height, and 23 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2575,
+    "brand": "Tissot",
+    "model": "T-Touch Connect Solar",
+    "reference": "T121.420.47.051.07",
+    "lugToLugMm": 56,
+    "caseMm": 47.5,
+    "thicknessMm": 15.3,
+    "lugWidthMm": 23,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-touch-connect-solar-t121-420-47-051-07",
+        "note": "Helveti product parameters list reference T121.420.47.051.07, 47.5 mm case size, 56 mm lug-to-lug, 15.3 mm case height, and 23 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2576,
+    "brand": "Tissot",
+    "model": "T-Touch Connect Sport",
+    "reference": "T153.420.44.051.00",
+    "lugToLugMm": 50,
+    "caseMm": 43.75,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-touch-connect-sport-t153-420-44-051-00",
+        "note": "Helveti product parameters list reference T153.420.44.051.00, 43.75 mm case size, 50 mm lug-to-lug, 13.5 mm case height, and 21 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2577,
+    "brand": "Tissot",
+    "model": "T-Touch Connect Sport",
+    "reference": "T153.420.44.051.01",
+    "lugToLugMm": 50,
+    "caseMm": 43.75,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-touch-connect-sport-t153-420-44-051-01",
+        "note": "Helveti product parameters list reference T153.420.44.051.01, 43.75 mm case size, 50 mm lug-to-lug, 13.5 mm case height, and 21 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2578,
+    "brand": "Tissot",
+    "model": "T-Touch Connect Sport",
+    "reference": "T153.420.47.051.01",
+    "lugToLugMm": 50,
+    "caseMm": 43.75,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-touch-connect-sport-t153-420-47-051-01",
+        "note": "Helveti product parameters list reference T153.420.47.051.01, 43.75 mm case size, 50 mm lug-to-lug, 13.5 mm case height, and 21 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2579,
+    "brand": "Tissot",
+    "model": "T-Touch Connect Sport",
+    "reference": "T153.420.47.051.02",
+    "lugToLugMm": 50,
+    "caseMm": 43.75,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-touch-connect-sport-t153-420-47-051-02",
+        "note": "Helveti product parameters list reference T153.420.47.051.02, 43.75 mm case size, 50 mm lug-to-lug, 13.5 mm case height, and 21 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2580,
+    "brand": "Tissot",
+    "model": "T-Touch Connect Sport",
+    "reference": "T153.420.47.051.03",
+    "lugToLugMm": 50,
+    "caseMm": 43.75,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-touch-connect-sport-t153-420-47-051-03",
+        "note": "Helveti product parameters list reference T153.420.47.051.03, 43.75 mm case size, 50 mm lug-to-lug, 13.5 mm case height, and 21 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2581,
+    "brand": "Tissot",
+    "model": "T-Touch Connect Sport",
+    "reference": "T153.420.47.051.04",
+    "lugToLugMm": 50,
+    "caseMm": 43.75,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-touch-connect-sport-t153-420-47-051-04",
+        "note": "Helveti product parameters list reference T153.420.47.051.04, 43.75 mm case size, 50 mm lug-to-lug, 13.5 mm case height, and 21 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2582,
+    "brand": "Tissot",
+    "model": "T-Touch Connect Sport",
+    "reference": "T153.420.47.051.05",
+    "lugToLugMm": 50,
+    "caseMm": 43.75,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-t-touch-connect-sport-t153-420-47-051-05",
+        "note": "Helveti product parameters list reference T153.420.47.051.05, 43.75 mm case size, 50 mm lug-to-lug, 13.5 mm case height, and 21 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2583,
+    "brand": "Tissot",
+    "model": "Visodate Powermatic 80",
+    "reference": "T157.407.11.041.00",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 10.45,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-visodate-powermatic-80-t157-407-11-041-00",
+        "note": "Helveti product parameters list reference T157.407.11.041.00, 39 mm case size, 45 mm lug-to-lug, 10.45 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2584,
+    "brand": "Tissot",
+    "model": "Visodate Powermatic 80",
+    "reference": "T157.407.11.051.00",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 10.45,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-visodate-powermatic-80-t157-407-11-051-00",
+        "note": "Helveti product parameters list reference T157.407.11.051.00, 39 mm case size, 45 mm lug-to-lug, 10.45 mm case height, and 20 mm strap width."
+      }
+    ]
   }
 ]
