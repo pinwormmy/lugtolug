@@ -1,6 +1,7 @@
 import seed from "../data/watches.seed.json" with { type: "json" };
 
 const DEFAULT_BRANDS = new Set(["tissot", "citizen", "seiko"]);
+const EXACT_ONLY = process.argv.includes("--exact");
 
 function normalize(value) {
   return String(value)
@@ -17,7 +18,7 @@ function compactReference(reference) {
 }
 
 function dimensionKey(watch) {
-  return [watch.caseMm, watch.thicknessMm, watch.lugWidthMm]
+  return [watch.lugToLugMm, watch.caseMm, watch.thicknessMm, watch.lugWidthMm]
     .map((value) => (value == null ? "null" : Number(value).toFixed(1)))
     .join("|");
 }
@@ -53,11 +54,60 @@ function selectedBrands() {
 }
 
 const brands = selectedBrands();
+const scopedSeed = seed.filter((watch) => {
+  const brandKey = normalize(watch.brand).replace(/\s+/g, "-");
+  return !brands || brands.has(brandKey);
+});
+
+function exactDuplicateGroups() {
+  const groups = new Map();
+
+  for (const watch of scopedSeed) {
+    const reference = compactReference(watch.reference);
+    if (!reference) continue;
+
+    const key = [reference, dimensionKey(watch)].join("|");
+    const current = groups.get(key) ?? [];
+    current.push(watch);
+    groups.set(key, current);
+  }
+
+  return [...groups.values()].filter((group) => group.length > 1);
+}
+
+function formatWatch(watch) {
+  const display = watch.canonicalModel ? `${watch.model} -> ${watch.canonicalModel}` : watch.model;
+  const group = watch.modelGroup ? `; modelGroup=${watch.modelGroup}` : "";
+  const variant = watch.variant ? `; variant=${watch.variant}` : "";
+  return `- id=${watch.id}; ${watch.brand}; ${watch.reference}: ${display}${group}${variant}`;
+}
+
+const exactGroups = exactDuplicateGroups();
+const exactKeys = new Set(
+  exactGroups.map((group) => {
+    const [first] = group;
+    return [compactReference(first.reference), dimensionKey(first)].join("|");
+  })
+);
+
+console.log("# Watch Duplicate Candidate Report");
+console.log("");
+console.log(`Scope: ${brands ? [...brands].join(", ") : "all brands"}`);
+console.log(`Exact compact reference + dimension duplicate groups: ${exactGroups.length}`);
+
+for (const group of exactGroups) {
+  const [first] = group;
+  console.log("");
+  console.log(`## exact: ref ${compactReference(first.reference)}, dimensions ${dimensionKey(first)}`);
+  for (const watch of group) console.log(formatWatch(watch));
+}
+
+if (EXACT_ONLY) process.exit(0);
+
 const groups = new Map();
 
-for (const watch of seed) {
+for (const watch of scopedSeed) {
   const brandKey = normalize(watch.brand).replace(/\s+/g, "-");
-  if (brands && !brands.has(brandKey)) continue;
 
   const key = [brandKey, dimensionKey(watch), referenceFamily(watch.reference)].join("|");
   const current = groups.get(key) ?? [];
@@ -81,11 +131,12 @@ const candidates = [...groups.values()]
       group
     };
   })
+  .filter((candidate) => {
+    const [first] = candidate.group;
+    return !exactKeys.has([compactReference(first.reference), dimensionKey(first)].join("|"));
+  })
   .sort((left, right) => left.group[0].brand.localeCompare(right.group[0].brand) || right.score - left.score);
 
-console.log("# Watch Duplicate Candidate Report");
-console.log("");
-console.log(`Scope: ${brands ? [...brands].join(", ") : "all brands"}`);
 console.log(`Candidate groups: ${candidates.length}`);
 console.log("");
 
@@ -94,9 +145,7 @@ for (const candidate of candidates) {
   console.log(`## ${candidate.status}: ${first.brand} ${first.caseMm ?? "?"}mm case, ref family ${referenceFamily(first.reference)}`);
   console.log(`Similarity: ${candidate.score.toFixed(2)}`);
   for (const watch of candidate.group) {
-    const display = watch.canonicalModel ? `${watch.model} -> ${watch.canonicalModel}` : watch.model;
-    const group = watch.modelGroup ? `; modelGroup=${watch.modelGroup}` : "";
-    console.log(`- ${watch.reference}: ${display}${group}`);
+    console.log(formatWatch(watch));
   }
   console.log("");
 }

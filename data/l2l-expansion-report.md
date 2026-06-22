@@ -637,13 +637,59 @@ Skipped duplicate Rolex references already present:
 - 126334
 - 126710BLRO
 
+## 2026-06-23 Worn & Wound Review Batch and Seed Cleanup
+
+### Worn & Wound
+
+- Review archive scope checked: page 1 of the current archive, with pagination showing 36 total pages.
+- Added models: 9
+- Existing models augmented with Worn & Wound source notes: 3
+- Official-source additions: 0
+- Verified-external additions: 12
+- Exact duplicate seed rows merged: 4
+- Insufficient-information exclusions: 2
+- Source-conflict exclusions: 0
+
+The current Worn & Wound review archive exposes a large historical review set. This batch records high-confidence current-page entries where Worn & Wound published explicit dimensions or article text sufficient to map `lugToLugMm`, `caseMm`, and `thicknessMm`. Remote bulk collection was not completed in this pass.
+
+Added references:
+
+- OG Watches Deep Space Blue
+- Trafford Watch Co. Crossroads S 36
+- Trafford Watch Co. Crossroads S 40
+- Atelier Wen Inflection
+- Atelier Wen Millésime 2025 Perception
+- Venezianico Arsenale Calendario
+- Casio G-SHOCK DW-5600MNC
+- Wolbrook JetFlyer
+- Maen Grand Tonneau Ultra-Thin
+
+Existing records augmented or corrected:
+
+- Fears Arnos Pewter Blue BS422.600: added Worn & Wound source and corrected rectangular `caseMm` to the 22.6mm width while retaining 40mm lug-to-lug.
+- Traska The Chronograph 10251: added Worn & Wound source matching the official 39 x 46.5mm, 13.75mm, 21mm dimensions.
+- Hanhart Aquasphere Ocean Fade 777.271: added Worn & Wound review-source cross-check for the black-bezel sample while retaining the official 12.95mm thickness.
+
+Merged exact duplicate seed rows:
+
+- Omega 21030422001018 into dotted reference 210.30.42.20.01.018.
+- Omega 21032422001006 into dotted reference 210.32.42.20.01.006.
+- Mido M0269071104100 into dotted reference M026.907.11.041.00.
+- King Seiko SJE121 into the existing Seiko/King Seiko official-source row.
+
+Excluded from this batch:
+
+- Monta Noble 40: no explicit lug-to-lug value found in the Worn & Wound article text.
+- Citizen ATTESA Shades of Red Super Titanium: Worn & Wound gives case size and thickness but does not publish a discrete lug-to-lug value.
+
 ## Cumulative totals
 
-- Brands added: 20
-- Models added: 231
+- Brands added: 25
+- Models added: 240
 - Official-source additions: 231
-- Verified-external additions: 10
+- Verified-external additions: 22
 - Duplicate candidates skipped: 4
+- Exact duplicate seed rows merged: 4
 - Insufficient-information exclusions: 8
 - Source-conflict exclusions: 11
 
@@ -652,16 +698,20 @@ Skipped duplicate Rolex references already present:
 - `data/watches.seed.json`
 - `data/seed.sql`
 - `data/l2l-expansion-report.md`
+- `package.json`
+- `scripts/generate-seed-sql.mjs`
+- `scripts/watch-duplicate-candidates.mjs`
 - `src/lib/seedData.test.ts`
 
 ## Verification
 
 - `npm run deploy:check`: passed
   - Typecheck: 0 errors, 0 warnings, 0 hints
-  - Tests: 10 files passed, 35 tests passed
+  - Tests: 12 files passed, 65 tests passed
   - Production build: passed
 - `git diff --check`: passed
 - Seed integrity checks:
   - Duplicate IDs: 0
   - Duplicate normalized `brand + model + reference + caseMm` keys: 0
+  - Duplicate compact `reference + full dimensions` keys: 0
   - Missing or invalid source URLs: 0

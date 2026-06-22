@@ -4240,6 +4240,10 @@
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21030422001018",
         "note": "Manufacturer page: 42 mm diameter, 49.7 mm lug-to-lug, 13.8 mm thickness, and 20 mm between lugs."
+      },
+      {
+        "sourceUrl": "https://timeandtidewatches.com/omega-seamaster-diver-300m-orange-video/",
+        "note": "Time+Tide article table lists reference 21030422001018 with case dimensions 42mm (D) x 13.8mm (T) x 49.7mm (LTL)."
       }
     ]
   },
@@ -4478,6 +4482,10 @@
       {
         "sourceUrl": "https://www.omegawatches.co.kr/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21032422001006",
         "note": "Manufacturer page: 42 mm diameter, 49.7 mm lug-to-lug, 13.8 mm thickness, and 20 mm between lugs."
+      },
+      {
+        "sourceUrl": "https://timeandtidewatches.com/omega-seamaster-diver-300m-orange-video/",
+        "note": "Time+Tide article table lists reference 21032422001006 with case dimensions 42mm (D) x 13.8mm (T) x 49.7mm (LTL)."
       }
     ]
   },
@@ -14482,7 +14490,10 @@
         "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/sje109j1",
         "note": "Manufacturer page: 39.4 mm case, 43.6 mm lug-to-lug, 9.9 mm thickness, and 19 mm lug width."
       }
-    ]
+    ],
+    "canonicalModel": "King Seiko KS1969 39.4mm",
+    "modelGroup": "seiko-king-seiko-ks1969-39-4mm",
+    "variant": "SJE109"
   },
   {
     "id": 887,
@@ -14498,7 +14509,10 @@
         "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/sje111j1",
         "note": "Manufacturer page: 39.4 mm case, 43.6 mm lug-to-lug, 9.9 mm thickness, and 19 mm lug width."
       }
-    ]
+    ],
+    "canonicalModel": "King Seiko KS1969 39.4mm",
+    "modelGroup": "seiko-king-seiko-ks1969-39-4mm",
+    "variant": "SJE111"
   },
   {
     "id": 888,
@@ -14514,7 +14528,10 @@
         "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/sje113j1",
         "note": "Manufacturer page: 39.4 mm case, 43.6 mm lug-to-lug, 9.9 mm thickness, and 19 mm lug width."
       }
-    ]
+    ],
+    "canonicalModel": "King Seiko KS1969 39.4mm",
+    "modelGroup": "seiko-king-seiko-ks1969-39-4mm",
+    "variant": "SJE113"
   },
   {
     "id": 889,
@@ -14529,8 +14546,15 @@
       {
         "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/sje121j1",
         "note": "Manufacturer page: 39.4 mm case, 43.6 mm lug-to-lug, 9.9 mm thickness, and 19 mm lug width."
+      },
+      {
+        "sourceUrl": "https://timeandtidewatches.com/seiko-145th-anniversary-gold-tone-limited-editions-introducing/",
+        "note": "Time+Tide article table lists reference SJE121 with case dimensions 39.4mm (D) x 9.9mm (T) x 43.6mm (LTL)."
       }
-    ]
+    ],
+    "canonicalModel": "King Seiko KS1969 39.4mm",
+    "modelGroup": "seiko-king-seiko-ks1969-39-4mm",
+    "variant": "SJE121"
   },
   {
     "id": 890,
@@ -18721,6 +18745,10 @@
       {
         "sourceUrl": "https://thecalibratedwrist.com/2024/08/21/mido-ocean-star-39/",
         "note": "Review cross-checks 39 mm diameter, 46 mm lug-to-lug, 10.5 mm thickness, and 20 mm lug width."
+      },
+      {
+        "sourceUrl": "https://timeandtidewatches.com/mido-ocean-star-39-introducing/",
+        "note": "Time+Tide article table lists reference M0269071104100 with case dimensions 39mm (D) x 10.5mm (T) x 46mm (LTL)."
       }
     ]
   },
@@ -22306,6 +22334,10 @@
       {
         "sourceUrl": "https://www.traskawatch.com/products/chronograph-tungsten-gray",
         "note": "Official Traska product page identifies Ref. 10251, and its Dimensions drawing lists 39 mm diameter, 46.5 mm lug-to-lug, 13.75 mm total thickness, and 21 mm lug width."
+      },
+      {
+        "sourceUrl": "https://wornandwound.com/review/review-the-traska-chronograph/",
+        "note": "Worn & Wound review spec table lists dimensions 39 x 46.5mm, 13.75mm thickness, and 21mm lug width."
       }
     ]
   },
@@ -30049,13 +30081,17 @@
     "model": "Arnos Pewter Blue",
     "reference": "BS422.600",
     "lugToLugMm": 40,
-    "caseMm": 33.5,
+    "caseMm": 22.6,
     "thicknessMm": 8.4,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://timeandtidewatches.com/fears-arnos-pewter-blue-introducing/",
         "note": "Time+Tide article table lists reference BS422.600 with case dimensions 33.5mm (L) x 22.6 (W) x 8.4mm (T) x 40mm (LTL)."
+      },
+      {
+        "sourceUrl": "https://wornandwound.com/review/review-the-fears-arnos-pewter-blue/",
+        "note": "Worn & Wound review spec table lists dimensions 22.6 x 40mm, 8.4mm thickness, and 20mm lug width."
       }
     ]
   },
@@ -31506,6 +31542,10 @@
       {
         "sourceUrl": "https://timeandtidewatches.com/hanhart-aquasphere-ocean-fade-introducing/",
         "note": "Time+Tide article table lists reference 777.271 with case dimensions 42mm (D) x 12.95mm (T) x 49mm (LTL)."
+      },
+      {
+        "sourceUrl": "https://wornandwound.com/review/review-the-hanhart-aquasphere-ocean-fade/",
+        "note": "Worn & Wound review describes the black-bezel review sample as a 42mm case with about 49mm lug-to-lug and just over 12mm thickness; official dimensions remain the canonical values."
       }
     ]
   },
@@ -32364,22 +32404,6 @@
     ]
   },
   {
-    "id": 1933,
-    "brand": "King Seiko",
-    "model": "KS1969 145th Anniversary Limited Edition",
-    "reference": "SJE121",
-    "lugToLugMm": 43.6,
-    "caseMm": 39.4,
-    "thicknessMm": 9.9,
-    "lugWidthMm": 19,
-    "sources": [
-      {
-        "sourceUrl": "https://timeandtidewatches.com/seiko-145th-anniversary-gold-tone-limited-editions-introducing/",
-        "note": "Time+Tide article table lists reference SJE121 with case dimensions 39.4mm (D) x 9.9mm (T) x 43.6mm (LTL)."
-      }
-    ]
-  },
-  {
     "id": 1934,
     "brand": "Kiwame Tokyo",
     "model": "MUNE (棟) - MUNE USUKI",
@@ -33025,22 +33049,6 @@
     ]
   },
   {
-    "id": 1972,
-    "brand": "Mido",
-    "model": "Ocean Star 39",
-    "reference": "M0269071104100",
-    "lugToLugMm": 46,
-    "caseMm": 39,
-    "thicknessMm": 10.5,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://timeandtidewatches.com/mido-ocean-star-39-introducing/",
-        "note": "Time+Tide article table lists reference M0269071104100 with case dimensions 39mm (D) x 10.5mm (T) x 46mm (LTL)."
-      }
-    ]
-  },
-  {
     "id": 1973,
     "brand": "Mido",
     "model": "Ocean Star 39",
@@ -33506,42 +33514,6 @@
       {
         "sourceUrl": "https://timeandtidewatches.com/norqain-wild-one-skeleton-x-lite-limited-edition-introducing/",
         "note": "Time+Tide article table lists reference N3003.26X01.B01.F01 with case dimensions 41mm (D) x 11.95mm (T) x 48.7mm (LTL)."
-      }
-    ]
-  },
-  {
-    "id": 2001,
-    "brand": "Omega",
-    "model": "Seamaster Diver 300M",
-    "canonicalModel": "Seamaster Diver 300M 42mm",
-    "modelGroup": "omega-seamaster-diver-300m-42mm",
-    "reference": "21030422001018",
-    "lugToLugMm": 49.7,
-    "caseMm": 42,
-    "thicknessMm": 13.8,
-    "lugWidthMm": 20,
-    "sources": [
-      {
-        "sourceUrl": "https://timeandtidewatches.com/omega-seamaster-diver-300m-orange-video/",
-        "note": "Time+Tide article table lists reference 21030422001018 with case dimensions 42mm (D) x 13.8mm (T) x 49.7mm (LTL)."
-      }
-    ]
-  },
-  {
-    "id": 2002,
-    "brand": "Omega",
-    "model": "Seamaster Diver 300M",
-    "canonicalModel": "Seamaster Diver 300M 42mm",
-    "modelGroup": "omega-seamaster-diver-300m-42mm",
-    "reference": "21032422001006",
-    "lugToLugMm": 49.7,
-    "caseMm": 42,
-    "thicknessMm": 13.8,
-    "lugWidthMm": 20,
-    "sources": [
-      {
-        "sourceUrl": "https://timeandtidewatches.com/omega-seamaster-diver-300m-orange-video/",
-        "note": "Time+Tide article table lists reference 21032422001006 with case dimensions 42mm (D) x 13.8mm (T) x 49.7mm (LTL)."
       }
     ]
   },
@@ -34509,7 +34481,10 @@
         "sourceUrl": "https://timeandtidewatches.com/king-seiko-ks1969-sje109-sje111-sje113-sje115-hands-on/",
         "note": "Time+Tide article table lists reference SJE115 with case dimensions 39.4mm (D) x 9.9mm (T) x 43.6mm (LTL)."
       }
-    ]
+    ],
+    "canonicalModel": "King Seiko KS1969 39.4mm",
+    "modelGroup": "seiko-king-seiko-ks1969-39-4mm",
+    "variant": "SJE115"
   },
   {
     "id": 2060,
@@ -43043,6 +43018,165 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-visodate-powermatic-80-t157-407-11-051-00",
         "note": "Helveti product parameters list reference T157.407.11.051.00, 39 mm case size, 45 mm lug-to-lug, 10.45 mm case height, and 20 mm strap width."
+      }
+    ]
+  },
+  {
+    "id": 2585,
+    "brand": "OG Watches",
+    "model": "Deep Space Blue",
+    "reference": "Deep Space Blue",
+    "lugToLugMm": 44,
+    "caseMm": 38,
+    "thicknessMm": 8.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://wornandwound.com/review/review-the-og-deep-space-blue/",
+        "note": "Worn & Wound review spec table lists dimensions 38 x 44mm, 8.8mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2586,
+    "brand": "Trafford Watch Co.",
+    "model": "Crossroads S 36",
+    "canonicalModel": "Crossroads S",
+    "modelGroup": "trafford-watch-co-crossroads-s",
+    "variant": "36",
+    "reference": "Crossroads S 36",
+    "lugToLugMm": 32,
+    "caseMm": 31,
+    "thicknessMm": 9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://wornandwound.com/review/review-the-trafford-crossroads-s-36-40/",
+        "note": "Worn & Wound review states the Crossroads S 36 measures 31 x 32mm and both sizes are 9mm thick; the spec table lists 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2587,
+    "brand": "Trafford Watch Co.",
+    "model": "Crossroads S 40",
+    "canonicalModel": "Crossroads S",
+    "modelGroup": "trafford-watch-co-crossroads-s",
+    "variant": "40",
+    "reference": "Crossroads S 40",
+    "lugToLugMm": 36,
+    "caseMm": 35,
+    "thicknessMm": 9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://wornandwound.com/review/review-the-trafford-crossroads-s-36-40/",
+        "note": "Worn & Wound review states the Crossroads S 40 measures 35 x 36mm and both sizes are 9mm thick; the spec table lists 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2588,
+    "brand": "Atelier Wen",
+    "model": "Inflection",
+    "canonicalModel": "Inflection 40mm",
+    "modelGroup": "atelier-wen-inflection-40mm",
+    "reference": "Inflection",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 10.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://wornandwound.com/review/review-the-atelier-wen-inflection-heavy-metal-on-the-wrist/",
+        "note": "Worn & Wound review spec table lists dimensions 40 x 45mm and 10.2mm thickness; lug width is not published in the table."
+      }
+    ]
+  },
+  {
+    "id": 2589,
+    "brand": "Atelier Wen",
+    "model": "Millésime 2025 Perception Limited Edition",
+    "canonicalModel": "Perception 40mm",
+    "modelGroup": "atelier-wen-perception-40mm",
+    "variant": "Millésime 2025",
+    "reference": "Millésime 2025 Perception",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 9.4,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://wornandwound.com/review/review-atelier-wen-nails-another-gorgeous-dial-with-the-new-millesime-2025-perception-limited-edition/",
+        "note": "Worn & Wound review states the proportions are a 40mm case, 47mm lug-to-lug, and 9.4mm thickness including the double-domed sapphire crystal."
+      }
+    ]
+  },
+  {
+    "id": 2590,
+    "brand": "Venezianico",
+    "model": "Arsenale Calendario",
+    "reference": "Arsenale Calendario",
+    "lugToLugMm": 44,
+    "caseMm": 40,
+    "thicknessMm": 9.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://wornandwound.com/review/review-the-venezianico-arenale-calendario/",
+        "note": "Worn & Wound review states the Calendario has a 40mm case, 9.6mm case height excluding the crystal, and about 44mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 2591,
+    "brand": "Casio",
+    "model": "G-SHOCK DW-5600MNC with FIDLOCK Clasp",
+    "canonicalModel": "G-SHOCK DW-5600MNC",
+    "modelGroup": "casio-g-shock-dw-5600mnc",
+    "reference": "DW-5600MNC",
+    "lugToLugMm": 48.9,
+    "caseMm": 42.8,
+    "thicknessMm": 13.4,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://wornandwound.com/review/review-the-g-shock-dw-5600mnc-with-fidlock-clasp/",
+        "note": "Worn & Wound review lists dimensions of 48.9mm x 42.8mm with a 13.4mm height for the DW-5600MNC series."
+      }
+    ]
+  },
+  {
+    "id": 2592,
+    "brand": "Wolbrook",
+    "model": "JetFlyer Automatic Chronograph",
+    "canonicalModel": "JetFlyer Automatic Chronograph 38mm",
+    "modelGroup": "wolbrook-jetflyer-automatic-chronograph-38mm",
+    "reference": "JetFlyer",
+    "lugToLugMm": 46,
+    "caseMm": 38,
+    "thicknessMm": 14.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://wornandwound.com/review/hands-on-the-wolbrook-jetflyer-and-the-new-jeambrun-ps6402-automatic-chronograph-caliber/",
+        "note": "Worn & Wound review spec table lists dimensions 38 x 46mm, 14.3mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2593,
+    "brand": "Maen",
+    "model": "Grand Tonneau Ultra-Thin",
+    "reference": "Grand Tonneau Ultra-Thin",
+    "lugToLugMm": 45,
+    "caseMm": 34,
+    "thicknessMm": 6.4,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://wornandwound.com/review/hands-on-maen-grand-tonneau-ultra-thin/",
+        "note": "Worn & Wound review states the case measures 34mm across, 45mm lug-to-lug, and 6.4mm tall."
       }
     ]
   }
