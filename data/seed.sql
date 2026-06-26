@@ -2703,7 +2703,107 @@ VALUES
 (2711, 'Urwerk', 'UR-230 Polaris', NULL, NULL, NULL, 'UR-230 Polaris', 'urwerk', 'ur-230-polaris', 'ur-230-polaris', 'urwerk ur 230 polaris ur 230 polaris lug to lug 53 55 53 55mm case 44 81 44 81mm thickness 18 38 18 38mm', 53.55, 44.81, 18.38, NULL, 'approved'),
 (2712, 'Jaeger-LeCoultre', 'Reverso Tribute Minute Repeater', NULL, NULL, NULL, 'Reverso Tribute Minute Repeater', 'jaeger-lecoultre', 'reverso-tribute-minute-repeater', 'reverso-tribute-minute-repeater', 'jaeger lecoultre reverso tribute minute repeater reverso tribute minute repeater lug to lug 51 1 51 1mm case 31 31mm thickness 12 6 12 6mm', 51.1, 31, 12.6, NULL, 'approved'),
 (2713, 'Vaer', 'R1 USA Racing Chronograph', NULL, NULL, NULL, 'R1 USA Racing Chronograph', 'vaer', 'r1-usa-racing-chronograph', 'r1-usa-racing-chronograph', 'vaer r1 usa racing chronograph r1 usa racing chronograph lug to lug 46 46mm case 38 38mm thickness 12 6 12 6mm lug width 20 20mm', 46, 38, 12.6, 20, 'approved'),
-(2714, 'NORQAIN', 'Wild ONE Skeleton 39mm', NULL, NULL, NULL, 'Wild ONE Skeleton 39mm', 'norqain', 'wild-one-skeleton-39mm', 'wild-one-skeleton-39mm', 'norqain wild one skeleton 39mm wild one skeleton 39mm lug to lug 45 75 45 75mm case 39 39mm thickness 11 75 11 75mm lug width 20 20mm', 45.75, 39, 11.75, 20, 'approved')
+(2714, 'NORQAIN', 'Wild ONE Skeleton 39mm', NULL, NULL, NULL, 'Wild ONE Skeleton 39mm', 'norqain', 'wild-one-skeleton-39mm', 'wild-one-skeleton-39mm', 'norqain wild one skeleton 39mm wild one skeleton 39mm lug to lug 45 75 45 75mm case 39 39mm thickness 11 75 11 75mm lug width 20 20mm', 45.75, 39, 11.75, 20, 'approved'),
+(2715, 'Delma', 'Midland Purple', NULL, NULL, NULL, 'Midland Purple', 'delma', 'midland-purple', 'midland-purple', 'delma midland purple midland purple lug to lug 47 47mm case 40 5 40 5mm thickness 10 8 10 8mm', 47, 40.5, 10.8, NULL, 'approved'),
+(2716, 'Nodus', 'Duality II', NULL, NULL, NULL, 'Duality II', 'nodus', 'duality-ii', 'duality-ii', 'nodus duality ii duality ii lug to lug 48 48mm case 40 40mm thickness 11 5 11 5mm', 48, 40, 11.5, NULL, 'approved'),
+(2717, 'RZE', 'UTD-8000 Titanium Digital', NULL, NULL, NULL, 'UTD-8000', 'rze', 'utd-8000-titanium-digital', 'utd-8000', 'rze utd 8000 titanium digital utd 8000 lug to lug 49 5 49 5mm case 42 42mm thickness 13 4 13 4mm lug width 20 20mm', 49.5, 42, 13.4, 20, 'approved'),
+(2718, 'Formex', 'Essence Ceramica Skeleton COSC Automatic 41mm', NULL, NULL, NULL, 'Essence Ceramica Skeleton COSC 41mm', 'formex', 'essence-ceramica-skeleton-cosc-automatic-41mm', 'essence-ceramica-skeleton-cosc-41mm', 'formex essence ceramica skeleton cosc automatic 41mm essence ceramica skeleton cosc 41mm lug to lug 46 2 46 2mm case 41 41mm thickness 11 2 11 2mm lug width 22 22mm', 46.2, 41, 11.2, 22, 'approved'),
+(2719, 'Chronoswiss', 'PULSE One', NULL, NULL, NULL, 'PULSE One', 'chronoswiss', 'pulse-one', 'pulse-one', 'chronoswiss pulse one pulse one lug to lug 46 27 46 27mm case 41 41mm thickness 12 75 12 75mm', 46.27, 41, 12.75, NULL, 'approved'),
+(2720, 'Paulin', 'Zapata Modul', NULL, NULL, NULL, 'Zapata Modul', 'paulin', 'zapata-modul', 'zapata-modul', 'paulin zapata modul zapata modul lug to lug 40 40mm case 35 35mm thickness 8 2 8 2mm lug width 18 18mm', 40, 35, 8.2, 18, 'approved'),
+(2721, 'Citizen', 'Attesa Satellite Wave GPS F950', NULL, NULL, NULL, 'Attesa Satellite Wave GPS F950', 'citizen', 'attesa-satellite-wave-gps-f950', 'attesa-satellite-wave-gps-f950', 'citizen attesa satellite wave gps f950 attesa satellite wave gps f950 lug to lug 50 50mm case 44 44mm thickness 13 7 13 7mm', 50, 44, 13.7, NULL, 'approved'),
+(2722, 'Casio', 'G-Shock x ASRV DW6900ASRV24A', NULL, NULL, NULL, 'DW6900ASRV24A', 'casio', 'g-shock-x-asrv-dw6900asrv24a', 'dw6900asrv24a', 'casio g shock x asrv dw6900asrv24a dw6900asrv24a lug to lug 53 2 53 2mm case 50 50mm thickness 18 7 18 7mm', 53.2, 50, 18.7, NULL, 'approved'),
+(2723, 'King Seiko', 'VANAC', NULL, NULL, NULL, 'VANAC', 'king-seiko', 'vanac', 'vanac', 'king seiko vanac vanac lug to lug 45 1 45 1mm case 41 41mm thickness 14 3 14 3mm lug width 17 17mm', 45.1, 41, 14.3, 17, 'approved'),
+(2724, 'Breitling', 'Endurance Pro Stanford University Edition', NULL, NULL, NULL, 'Endurance Pro Stanford University Edition', 'breitling', 'endurance-pro-stanford-university-edition', 'endurance-pro-stanford-university-edition', 'breitling endurance pro stanford university edition endurance pro stanford university edition lug to lug 52 49 52 49mm case 44 44mm thickness 12 5 12 5mm lug width 22 22mm', 52.49, 44, 12.5, 22, 'approved'),
+(2725, 'Tudor', 'Pelagos FXD GMT', NULL, NULL, NULL, 'Pelagos FXD GMT', 'tudor', 'pelagos-fxd-gmt', 'pelagos-fxd-gmt', 'tudor pelagos fxd gmt pelagos fxd gmt lug to lug 52 52mm case 42 42mm thickness 12 7 12 7mm', 52, 42, 12.7, NULL, 'approved'),
+(2726, 'Ace Jewelers x Cedric Bellon', 'CB01 Ti Amsterdam Edition', NULL, NULL, NULL, 'CB01 Ti Amsterdam Edition', 'ace-jewelers-x-cedric-bellon', 'cb01-ti-amsterdam-edition', 'cb01-ti-amsterdam-edition', 'ace jewelers x cedric bellon cb01 ti amsterdam edition cb01 ti amsterdam edition lug to lug 47 47mm case 40 40mm thickness 11 7 11 7mm', 47, 40, 11.7, NULL, 'approved'),
+(2727, 'Breitling', 'Navitimer B19 Perpetual Calendar Chronograph', NULL, NULL, NULL, 'Navitimer B19 Perpetual Calendar Chronograph', 'breitling', 'navitimer-b19-perpetual-calendar-chronograph', 'navitimer-b19-perpetual-calendar-chronograph', 'breitling navitimer b19 perpetual calendar chronograph navitimer b19 perpetual calendar chronograph lug to lug 49 07 49 07mm case 43 43mm thickness 13 69 13 69mm', 49.07, 43, 13.69, NULL, 'approved'),
+(2728, 'Xeric', 'Timeline Retrograde Automatic', NULL, NULL, NULL, 'Timeline Retrograde Automatic', 'xeric', 'timeline-retrograde-automatic', 'timeline-retrograde-automatic', 'xeric timeline retrograde automatic timeline retrograde automatic lug to lug 47 47mm case 38 38mm thickness 12 12mm', 47, 38, 12, NULL, 'approved'),
+(2729, 'OnePlus', 'Watch 3 Smartwatch', NULL, NULL, NULL, 'Watch 3', 'oneplus', 'watch-3-smartwatch', 'watch-3', 'oneplus watch 3 smartwatch watch 3 lug to lug 53 53mm case 46 6 46 6mm thickness 11 75 11 75mm', 53, 46.6, 11.75, NULL, 'approved'),
+(2730, 'Richard Mille', 'RM 74-02 Automatic Tourbillon', NULL, NULL, NULL, 'RM 74-02', 'richard-mille', 'rm-74-02-automatic-tourbillon', 'rm-74-02', 'richard mille rm 74 02 automatic tourbillon rm 74 02 lug to lug 52 63 52 63mm case 34 4 34 4mm thickness 13 05 13 05mm', 52.63, 34.4, 13.05, NULL, 'approved'),
+(2731, 'Omega', 'Seamaster Diver 300M Bronze Gold and Burgundy', NULL, NULL, NULL, 'Seamaster Diver 300M Bronze Gold Burgundy', 'omega', 'seamaster-diver-300m-bronze-gold-and-burgundy', 'seamaster-diver-300m-bronze-gold-burgundy', 'omega seamaster diver 300m bronze gold and burgundy seamaster diver 300m bronze gold burgundy lug to lug 49 7 49 7mm case 42 42mm thickness 13 8 13 8mm', 49.7, 42, 13.8, NULL, 'approved'),
+(2732, 'Casio', 'G-Shock MR-G MRG-B2100R-2A', NULL, NULL, NULL, 'MRG-B2100R-2A', 'casio', 'g-shock-mr-g-mrg-b2100r-2a', 'mrg-b2100r-2a', 'casio g shock mr g mrg b2100r 2a mrg b2100r 2a lug to lug 49 5 49 5mm case 44 4 44 4mm thickness 13 6 13 6mm', 49.5, 44.4, 13.6, NULL, 'approved'),
+(2733, 'Hamilton', 'American Classic Chrono-Matic 50 Auto Chrono Limited Edition', NULL, NULL, NULL, 'Chrono-Matic 50 Auto Chrono', 'hamilton', 'american-classic-chrono-matic-50-auto-chrono-limited-edition', 'chrono-matic-50-auto-chrono', 'hamilton american classic chrono matic 50 auto chrono limited edition chrono matic 50 auto chrono lug to lug 51 5 51 5mm case 48 5 48 5mm thickness 16 05 16 05mm lug width 22 22mm', 51.5, 48.5, 16.05, 22, 'approved'),
+(2734, 'Casio', 'Ring Watch CRW001-1', NULL, NULL, NULL, 'CRW001-1', 'casio', 'ring-watch-crw001-1', 'crw001-1', 'casio ring watch crw001 1 crw001 1 lug to lug 20 20mm case 19 5 19 5mm thickness 6 2 6 2mm', 20, 19.5, 6.2, NULL, 'approved'),
+(2735, 'Studio Underd0g x Fears', 'The Gimlet', NULL, NULL, NULL, 'The Gimlet', 'studio-underd0g-x-fears', 'the-gimlet', 'the-gimlet', 'studio underd0g x fears the gimlet the gimlet lug to lug 43 5 43 5mm case 38 38mm thickness 12 12mm lug width 20 20mm', 43.5, 38, 12, 20, 'approved'),
+(2736, 'Urwerk', 'UR-100V Magic T Hunter Green', NULL, NULL, NULL, 'UR-100V Magic T Hunter Green', 'urwerk', 'ur-100v-magic-t-hunter-green', 'ur-100v-magic-t-hunter-green', 'urwerk ur 100v magic t hunter green ur 100v magic t hunter green lug to lug 49 7 49 7mm case 41 41mm thickness 14 14mm', 49.7, 41, 14, NULL, 'approved'),
+(2737, 'Raven', 'Endeavour II Diver', NULL, NULL, NULL, 'Endeavour II Diver', 'raven', 'endeavour-ii-diver', 'endeavour-ii-diver', 'raven endeavour ii diver endeavour ii diver lug to lug 47 47mm case 42 42mm thickness 12 12mm', 47, 42, 12, NULL, 'approved'),
+(2738, 'Timex', 'Giorgio Galli S2 Ti Titanium', NULL, NULL, NULL, 'Giorgio Galli S2 Ti', 'timex', 'giorgio-galli-s2-ti-titanium', 'giorgio-galli-s2-ti', 'timex giorgio galli s2 ti titanium giorgio galli s2 ti lug to lug 46 46mm case 38 38mm thickness 12 12mm', 46, 38, 12, NULL, 'approved'),
+(2739, 'Detrash', 'Midnight Sky Dive', NULL, NULL, NULL, 'Midnight Sky Dive', 'detrash', 'midnight-sky-dive', 'midnight-sky-dive', 'detrash midnight sky dive midnight sky dive lug to lug 47 47mm case 41 41mm thickness 12 9 12 9mm lug width 20 20mm', 47, 41, 12.9, 20, 'approved'),
+(2740, 'Gerald Charles', 'Maestro 2.0 Ultra-Thin Lapis Lazuli', NULL, NULL, NULL, 'Maestro 2.0 Ultra-Thin Lapis Lazuli', 'gerald-charles', 'maestro-2-0-ultra-thin-lapis-lazuli', 'maestro-2-0-ultra-thin-lapis-lazuli', 'gerald charles maestro 2 0 ultra thin lapis lazuli maestro 2 0 ultra thin lapis lazuli lug to lug 41 7 41 7mm case 39 39mm thickness 9 9mm lug width 22 22mm', 41.7, 39, 9, 22, 'approved'),
+(2741, 'Traser', 'P99 Tactical Carbon', NULL, NULL, NULL, 'P99 Tactical Carbon', 'traser', 'p99-tactical-carbon', 'p99-tactical-carbon', 'traser p99 tactical carbon p99 tactical carbon lug to lug 54 54mm case 46 46mm thickness 13 5 13 5mm', 54, 46, 13.5, NULL, 'approved'),
+(2742, 'Arken', 'Alterum Titanium Dual-Time', NULL, NULL, NULL, 'Alterum Titanium Dual-Time', 'arken', 'alterum-titanium-dual-time', 'alterum-titanium-dual-time', 'arken alterum titanium dual time alterum titanium dual time lug to lug 46 46mm case 40 40mm thickness 13 13mm', 46, 40, 13, NULL, 'approved'),
+(2743, 'Paulin', 'Modul E Automatic', NULL, NULL, NULL, 'Modul E Automatic', 'paulin', 'modul-e-automatic', 'modul-e-automatic', 'paulin modul e automatic modul e automatic lug to lug 45 45mm case 39 39mm thickness 9 7 9 7mm', 45, 39, 9.7, NULL, 'approved'),
+(2744, 'Islander', 'Kings Point Dive', NULL, NULL, NULL, 'Kings Point Dive', 'islander', 'kings-point-dive', 'kings-point-dive', 'islander kings point dive kings point dive lug to lug 50 50mm case 42 4 42 4mm thickness 14 2 14 2mm', 50, 42.4, 14.2, NULL, 'approved'),
+(2745, 'Charlie Paris', 'GR Mecaquartz Chronograph', NULL, NULL, NULL, 'GR Mecaquartz Chronograph', 'charlie-paris', 'gr-mecaquartz-chronograph', 'gr-mecaquartz-chronograph', 'charlie paris gr mecaquartz chronograph gr mecaquartz chronograph lug to lug 45 45mm case 39 39mm thickness 10 6 10 6mm', 45, 39, 10.6, NULL, 'approved'),
+(2746, 'Spinnaker', 'Spongebob Squarepants Automatic Sport', NULL, NULL, NULL, 'Spongebob Squarepants Automatic Sport', 'spinnaker', 'spongebob-squarepants-automatic-sport', 'spongebob-squarepants-automatic-sport', 'spinnaker spongebob squarepants automatic sport spongebob squarepants automatic sport lug to lug 50 50mm case 43 43mm thickness 15 15mm', 50, 43, 15, NULL, 'approved'),
+(2747, 'Casio', 'G-Shock MRGB2000JS Jyuryoku-Maru San', NULL, NULL, NULL, 'MRGB2000JS Jyuryoku-Maru San', 'casio', 'g-shock-mrgb2000js-jyuryoku-maru-san', 'mrgb2000js-jyuryoku-maru-san', 'casio g shock mrgb2000js jyuryoku maru san mrgb2000js jyuryoku maru san lug to lug 54 7 54 7mm case 49 8 49 8mm thickness 16 9 16 9mm', 54.7, 49.8, 16.9, NULL, 'approved'),
+(2748, 'Depancel', 'Allure Chronograph MecaQ', NULL, NULL, NULL, 'Allure Chronograph MecaQ', 'depancel', 'allure-chronograph-mecaq', 'allure-chronograph-mecaq', 'depancel allure chronograph mecaq allure chronograph mecaq lug to lug 42 8 42 8mm case 36 36mm thickness 10 95 10 95mm', 42.8, 36, 10.95, NULL, 'approved'),
+(2749, 'Shinola', 'Circadian Monster 36mm Automatic', NULL, NULL, NULL, 'Circadian Monster 36mm Automatic', 'shinola', 'circadian-monster-36mm-automatic', 'circadian-monster-36mm-automatic', 'shinola circadian monster 36mm automatic circadian monster 36mm automatic lug to lug 44 44mm case 36 36mm thickness 9 25 9 25mm', 44, 36, 9.25, NULL, 'approved'),
+(2750, 'Heron', 'Marinor Dive', NULL, NULL, NULL, 'Marinor Dive', 'heron', 'marinor-dive', 'marinor-dive', 'heron marinor dive marinor dive lug to lug 47 47mm case 39 39mm thickness 11 3 11 3mm', 47, 39, 11.3, NULL, 'approved'),
+(2751, 'Buser Freres', 'Marine 38mm', NULL, NULL, NULL, 'Marine 38mm', 'buser-freres', 'marine-38mm', 'marine-38mm', 'buser freres marine 38mm marine 38mm lug to lug 45 4 45 4mm case 38 38mm thickness 9 15 9 15mm', 45.4, 38, 9.15, NULL, 'approved'),
+(2752, 'Alexander Shorokhoff', 'Kandy Avantgarde 2', NULL, NULL, NULL, 'Kandy Avantgarde 2', 'alexander-shorokhoff', 'kandy-avantgarde-2', 'kandy-avantgarde-2', 'alexander shorokhoff kandy avantgarde 2 kandy avantgarde 2 lug to lug 50 5 50 5mm case 41 41mm thickness 9 9mm', 50.5, 41, 9, NULL, 'approved'),
+(2753, 'Parmigiani Fleurier', 'Tonda PF Micro Rotor No-Date', NULL, NULL, NULL, 'Tonda PF Micro Rotor No-Date', 'parmigiani-fleurier', 'tonda-pf-micro-rotor-no-date', 'tonda-pf-micro-rotor-no-date', 'parmigiani fleurier tonda pf micro rotor no date tonda pf micro rotor no date lug to lug 45 6 45 6mm case 40 40mm thickness 7 8 7 8mm', 45.6, 40, 7.8, NULL, 'approved'),
+(2754, 'Tudor', 'Pelagos FXD Chrono Cycling Edition', NULL, NULL, NULL, 'Pelagos FXD Chrono Cycling Edition', 'tudor', 'pelagos-fxd-chrono-cycling-edition', 'pelagos-fxd-chrono-cycling-edition', 'tudor pelagos fxd chrono cycling edition pelagos fxd chrono cycling edition lug to lug 53 53mm case 43 43mm thickness 13 2 13 2mm', 53, 43, 13.2, NULL, 'approved'),
+(2755, 'Luminox', 'Pacific Diver Automatic 3100 Series', NULL, NULL, NULL, 'Pacific Diver Automatic 3100', 'luminox', 'pacific-diver-automatic-3100-series', 'pacific-diver-automatic-3100', 'luminox pacific diver automatic 3100 series pacific diver automatic 3100 lug to lug 48 5 48 5mm case 42 42mm thickness 13 13mm lug width 24 24mm', 48.5, 42, 13, 24, 'approved'),
+(2756, 'Beaucroft', 'Element', NULL, NULL, NULL, 'Element', 'beaucroft', 'element', 'element', 'beaucroft element element lug to lug 46 5 46 5mm case 39 5 39 5mm thickness 11 7 11 7mm', 46.5, 39.5, 11.7, NULL, 'approved'),
+(2757, 'Casio', 'G-Shock MRGB2100', NULL, NULL, NULL, 'MRGB2100', 'casio', 'g-shock-mrgb2100', 'mrgb2100', 'casio g shock mrgb2100 mrgb2100 lug to lug 49 5 49 5mm case 44 4 44 4mm thickness 13 6 13 6mm', 49.5, 44.4, 13.6, NULL, 'approved'),
+(2758, 'Armin Strom', 'Tribute 2 Copper Edition', NULL, NULL, NULL, 'Tribute 2 Copper Edition', 'armin-strom', 'tribute-2-copper-edition', 'tribute-2-copper-edition', 'armin strom tribute 2 copper edition tribute 2 copper edition lug to lug 44 35 44 35mm case 38 38mm thickness 9 9mm', 44.35, 38, 9, NULL, 'approved'),
+(2759, 'Formex', 'Essence 39mm Blue Agate', NULL, NULL, NULL, 'Essence Blue Agate', 'formex', 'essence-39mm-blue-agate', 'essence-blue-agate', 'formex essence 39mm blue agate essence blue agate lug to lug 45 45mm case 39 39mm thickness 10 10mm lug width 20 20mm', 45, 39, 10, 20, 'approved'),
+(2760, 'Circula', 'Facet Sports', NULL, NULL, NULL, 'Facet Sports', 'circula', 'facet-sports', 'facet-sports', 'circula facet sports facet sports lug to lug 44 44mm case 38 38mm thickness 10 10mm', 44, 38, 10, NULL, 'approved'),
+(2761, 'Serica', '1174 Parade Dress', NULL, NULL, NULL, '1174', 'serica', '1174-parade-dress', '1174', 'serica 1174 parade dress 1174 lug to lug 41 41mm case 35 35mm thickness 8 6 8 6mm', 41, 35, 8.6, NULL, 'approved'),
+(2762, 'Doxa', 'SUB 200T Diamonds', NULL, NULL, NULL, 'SUB 200T Diamonds', 'doxa', 'sub-200t-diamonds', 'sub-200t-diamonds', 'doxa sub 200t diamonds sub 200t diamonds lug to lug 41 5 41 5mm case 39 39mm thickness 10 7 10 7mm lug width 18 18mm', 41.5, 39, 10.7, 18, 'approved'),
+(2763, 'Universal Geneve', 'Polerouter Unique', NULL, NULL, NULL, 'Polerouter Unique', 'universal-geneve', 'polerouter-unique', 'polerouter-unique', 'universal geneve polerouter unique polerouter unique lug to lug 45 4 45 4mm case 35 35mm thickness 9 95 9 95mm', 45.4, 35, 9.95, NULL, 'approved'),
+(2764, 'NOMOS', 'Club Sport neomatik 34', NULL, NULL, NULL, 'Club Sport neomatik 34', 'nomos', 'club-sport-neomatik-34', 'club-sport-neomatik-34', 'nomos club sport neomatik 34 club sport neomatik 34 lug to lug 41 5 41 5mm case 34 34mm thickness 8 2 8 2mm lug width 18 18mm', 41.5, 34, 8.2, 18, 'approved'),
+(2765, 'Glashutte Original', 'SeaQ Chronograph Silver Screen', NULL, NULL, NULL, 'SeaQ Chronograph Silver Screen', 'glashutte-original', 'seaq-chronograph-silver-screen', 'seaq-chronograph-silver-screen', 'glashutte original seaq chronograph silver screen seaq chronograph silver screen lug to lug 51 6 51 6mm case 43 2 43 2mm thickness 16 95 16 95mm', 51.6, 43.2, 16.95, NULL, 'approved'),
+(2766, 'Traser', 'P67 Officer Pro Field', NULL, NULL, NULL, 'P67 Officer Pro Field', 'traser', 'p67-officer-pro-field', 'p67-officer-pro-field', 'traser p67 officer pro field p67 officer pro field lug to lug 49 5 49 5mm case 42 42mm thickness 11 11mm lug width 22 22mm', 49.5, 42, 11, 22, 'approved'),
+(2767, 'Breitling', 'Avenger Night Mission', NULL, NULL, NULL, 'Avenger Night Mission', 'breitling', 'avenger-night-mission', 'avenger-night-mission', 'breitling avenger night mission avenger night mission lug to lug 51 21 51 21mm case 42 42mm thickness 12 25 12 25mm lug width 22 22mm', 51.21, 42, 12.25, 22, 'approved'),
+(2768, 'RZE', 'Valour 38 Field', NULL, NULL, NULL, 'Valour 38 Field', 'rze', 'valour-38-field', 'valour-38-field', 'rze valour 38 field valour 38 field lug to lug 45 45mm case 38 38mm thickness 11 11mm lug width 20 20mm', 45, 38, 11, 20, 'approved'),
+(2769, 'Timex', 'x Pan Am Waterbury GMT', NULL, NULL, NULL, 'Pan Am Waterbury GMT', 'timex', 'x-pan-am-waterbury-gmt', 'pan-am-waterbury-gmt', 'timex x pan am waterbury gmt pan am waterbury gmt lug to lug 47 47mm case 39 39mm thickness 12 5 12 5mm', 47, 39, 12.5, NULL, 'approved'),
+(2770, 'Richard Mille', 'RM 65-01 McLaren W1', NULL, NULL, NULL, 'RM 65-01 McLaren W1', 'richard-mille', 'rm-65-01-mclaren-w1', 'rm-65-01-mclaren-w1', 'richard mille rm 65 01 mclaren w1 rm 65 01 mclaren w1 lug to lug 49 94 49 94mm case 43 84 43 84mm thickness 16 19 16 19mm', 49.94, 43.84, 16.19, NULL, 'approved'),
+(2771, 'TITONI', 'Seascoper 300 Bicolor', NULL, NULL, NULL, 'Seascoper 300 Bicolor', 'titoni', 'seascoper-300-bicolor', 'seascoper-300-bicolor', 'titoni seascoper 300 bicolor seascoper 300 bicolor lug to lug 52 52mm case 42 42mm thickness 12 55 12 55mm lug width 20 20mm', 52, 42, 12.55, 20, 'approved'),
+(2772, 'Breitling', 'Navitimer B01 Chronograph 46 North American Limited Edition', NULL, NULL, NULL, 'Navitimer B01 Chronograph 46 North American', 'breitling', 'navitimer-b01-chronograph-46-north-american-limited-edition', 'navitimer-b01-chronograph-46-north-american', 'breitling navitimer b01 chronograph 46 north american limited edition navitimer b01 chronograph 46 north american lug to lug 51 88 51 88mm case 46 46mm thickness 13 95 13 95mm lug width 24 24mm', 51.88, 46, 13.95, 24, 'approved'),
+(2773, 'Papar', 'Anillo GMT', NULL, NULL, NULL, 'Anillo GMT', 'papar', 'anillo-gmt', 'anillo-gmt', 'papar anillo gmt anillo gmt lug to lug 43 43mm case 36 36mm thickness 12 1 12 1mm', 43, 36, 12.1, NULL, 'approved'),
+(2774, 'Zodiac', 'x Craft + Tailored Super Sea Wolf Ref. 691', NULL, NULL, NULL, 'Super Sea Wolf Ref. 691', 'zodiac', 'x-craft-tailored-super-sea-wolf-ref-691', 'super-sea-wolf-ref-691', 'zodiac x craft tailored super sea wolf ref 691 super sea wolf ref 691 lug to lug 44 44mm case 36 36mm thickness 12 12mm lug width 18 18mm', 44, 36, 12, 18, 'approved'),
+(2775, 'Tuul', 'Filthy 13 Bronze', NULL, NULL, NULL, 'Filthy 13 Bronze', 'tuul', 'filthy-13-bronze', 'filthy-13-bronze', 'tuul filthy 13 bronze filthy 13 bronze lug to lug 46 46mm case 38 38mm thickness 11 25 11 25mm', 46, 38, 11.25, NULL, 'approved'),
+(2776, 'Seiko', 'Presage Cocktail Time STAR BAR SRPK93 and SRE015', NULL, NULL, NULL, 'SRPK93 SRE015', 'seiko', 'presage-cocktail-time-star-bar-srpk93-and-sre015', 'srpk93-sre015', 'seiko presage cocktail time star bar srpk93 and sre015 srpk93 sre015 lug to lug 47 5 47 5mm case 40 5 40 5mm thickness 11 8 11 8mm lug width 20 20mm', 47.5, 40.5, 11.8, 20, 'approved'),
+(2777, 'Casio', 'Pro Trek PRJB001B-2', NULL, NULL, NULL, 'PRJB001B-2', 'casio', 'pro-trek-prjb001b-2', 'prjb001b-2', 'casio pro trek prjb001b 2 prjb001b 2 lug to lug 50 3 50 3mm case 46 46mm thickness 13 6 13 6mm', 50.3, 46, 13.6, NULL, 'approved'),
+(2778, 'Formex', 'Stratos UTC Automatic 41mm', NULL, NULL, NULL, 'Stratos UTC Automatic 41mm', 'formex', 'stratos-utc-automatic-41mm', 'stratos-utc-automatic-41mm', 'formex stratos utc automatic 41mm stratos utc automatic 41mm lug to lug 47 47mm case 41 41mm thickness 11 8 11 8mm lug width 20 20mm', 47, 41, 11.8, 20, 'approved'),
+(2779, 'Seiko', 'Presage Craftsmanship Urushi Lacquer Dial SPB447', NULL, NULL, NULL, 'SPB447', 'seiko', 'presage-craftsmanship-urushi-lacquer-dial-spb447', 'spb447', 'seiko presage craftsmanship urushi lacquer dial spb447 spb447 lug to lug 48 48mm case 40 2 40 2mm thickness 12 4 12 4mm', 48, 40.2, 12.4, NULL, 'approved'),
+(2780, 'Karl-Leimon', 'Classic Field', NULL, NULL, NULL, 'Classic Field', 'karl-leimon', 'classic-field', 'classic-field', 'karl leimon classic field classic field lug to lug 46 46mm case 38 38mm thickness 9 5 9 5mm', 46, 38, 9.5, NULL, 'approved'),
+(2781, 'TAG Heuer', 'Monaco Chronograph Racing Green', NULL, NULL, NULL, 'Monaco Chronograph Racing Green', 'tag-heuer', 'monaco-chronograph-racing-green', 'monaco-chronograph-racing-green', 'tag heuer monaco chronograph racing green monaco chronograph racing green lug to lug 47 4 47 4mm case 39 39mm thickness 14 35 14 35mm', 47.4, 39, 14.35, NULL, 'approved'),
+(2782, 'Vero', 'Smokey Bear 80th Anniversary', NULL, NULL, NULL, 'Smokey Bear 80th Anniversary', 'vero', 'smokey-bear-80th-anniversary', 'smokey-bear-80th-anniversary', 'vero smokey bear 80th anniversary smokey bear 80th anniversary lug to lug 46 46mm case 38 38mm thickness 12 12mm', 46, 38, 12, NULL, 'approved'),
+(2783, 'Victorinox', 'INOX Small 32mm', NULL, NULL, NULL, 'INOX Small 32mm', 'victorinox', 'inox-small-32mm', 'inox-small-32mm', 'victorinox inox small 32mm inox small 32mm lug to lug 41 41mm case 32 32mm thickness 9 9mm', 41, 32, 9, NULL, 'approved'),
+(2784, 'King Seiko', 'SJE103 SJE105 SJE107', NULL, NULL, NULL, 'SJE103 SJE105 SJE107', 'king-seiko', 'sje103-sje105-sje107', 'sje103-sje105-sje107', 'king seiko sje103 sje105 sje107 sje103 sje105 sje107 lug to lug 45 8 45 8mm case 38 6 38 6mm thickness 10 7 10 7mm lug width 19 19mm', 45.8, 38.6, 10.7, 19, 'approved'),
+(2785, 'Horage', 'Supersede Date Dive', NULL, NULL, NULL, 'Supersede Date Dive', 'horage', 'supersede-date-dive', 'supersede-date-dive', 'horage supersede date dive supersede date dive lug to lug 46 29 46 29mm case 39 5 39 5mm thickness 10 28 10 28mm', 46.29, 39.5, 10.28, NULL, 'approved'),
+(2787, 'Aeonic', 'Automat', NULL, NULL, NULL, 'Automat', 'aeonic', 'automat', 'automat', 'aeonic automat automat lug to lug 43 5 43 5mm case 41 41mm thickness 12 95 12 95mm', 43.5, 41, 12.95, NULL, 'approved'),
+(2788, 'Nodus', 'Contrail GMT', NULL, NULL, NULL, 'Contrail GMT', 'nodus', 'contrail-gmt', 'contrail-gmt', 'nodus contrail gmt contrail gmt lug to lug 46 6 46 6mm case 40 5 40 5mm thickness 11 8 11 8mm', 46.6, 40.5, 11.8, NULL, 'approved'),
+(2789, 'Doxa', 'SUB 300T Aristera Left-Handed', NULL, NULL, NULL, 'SUB 300T Aristera', 'doxa', 'sub-300t-aristera-left-handed', 'sub-300t-aristera', 'doxa sub 300t aristera left handed sub 300t aristera lug to lug 44 5 44 5mm case 42 5 42 5mm thickness 14 14mm', 44.5, 42.5, 14, NULL, 'approved'),
+(2790, 'Bangalore Watch Company', 'MACH 1 Avalanche', NULL, NULL, NULL, 'MACH 1 Avalanche', 'bangalore-watch-company', 'mach-1-avalanche', 'mach-1-avalanche', 'bangalore watch company mach 1 avalanche mach 1 avalanche lug to lug 46 5 46 5mm case 40 40mm thickness 10 8 10 8mm', 46.5, 40, 10.8, NULL, 'approved'),
+(2791, 'Seiko', '5 Sports Heritage SRPL03 and SRPL05', NULL, NULL, NULL, 'SRPL03 SRPL05', 'seiko', '5-sports-heritage-srpl03-and-srpl05', 'srpl03-srpl05', 'seiko 5 sports heritage srpl03 and srpl05 srpl03 srpl05 lug to lug 44 8 44 8mm case 38 5 38 5mm thickness 12 4 12 4mm lug width 20 20mm', 44.8, 38.5, 12.4, 20, 'approved'),
+(2792, 'Nivada Grenchen', 'Depthmaster Bronze Pac-Man', NULL, NULL, NULL, 'Depthmaster Bronze Pac-Man', 'nivada-grenchen', 'depthmaster-bronze-pac-man', 'depthmaster-bronze-pac-man', 'nivada grenchen depthmaster bronze pac man depthmaster bronze pac man lug to lug 47 47mm case 39 39mm thickness 13 13mm lug width 20 20mm', 47, 39, 13, 20, 'approved'),
+(2793, 'NORQAIN', 'Wild ONE Skeleton Coral & Green', NULL, NULL, NULL, 'Wild ONE Skeleton Coral Green', 'norqain', 'wild-one-skeleton-coral-and-green', 'wild-one-skeleton-coral-green', 'norqain wild one skeleton coral green wild one skeleton coral green lug to lug 50 50mm case 42 42mm thickness 12 12mm', 50, 42, 12, NULL, 'approved'),
+(2794, 'Timex', 'x Ghostly Navi', NULL, NULL, NULL, 'Ghostly Navi', 'timex', 'x-ghostly-navi', 'ghostly-navi', 'timex x ghostly navi ghostly navi lug to lug 47 47mm case 38 38mm thickness 9 9mm lug width 18 18mm', 47, 38, 9, 18, 'approved'),
+(2795, 'Bremont', 'Terra Nova 38 Field', NULL, NULL, NULL, 'Terra Nova 38 Field', 'bremont', 'terra-nova-38-field', 'terra-nova-38-field', 'bremont terra nova 38 field terra nova 38 field lug to lug 44 44mm case 38 38mm thickness 10 7 10 7mm lug width 20 20mm', 44, 38, 10.7, 20, 'approved'),
+(2796, 'Laco', 'Hamburg DIN 8330', NULL, NULL, NULL, 'Hamburg DIN 8330', 'laco', 'hamburg-din-8330', 'hamburg-din-8330', 'laco hamburg din 8330 hamburg din 8330 lug to lug 50 50mm case 43 5 43 5mm thickness 13 6 13 6mm', 50, 43.5, 13.6, NULL, 'approved'),
+(2797, 'Doxa', 'SUB 300 Carbon Searambler', NULL, NULL, NULL, 'SUB 300 Carbon Searambler', 'doxa', 'sub-300-carbon-searambler', 'sub-300-carbon-searambler', 'doxa sub 300 carbon searambler sub 300 carbon searambler lug to lug 45 45mm case 42 5 42 5mm thickness 13 4 13 4mm lug width 20 20mm', 45, 42.5, 13.4, 20, 'approved'),
+(2798, 'Omega x Swatch', 'MoonSwatch Mission To The Super Blue Moonphase', NULL, NULL, NULL, 'Mission To The Super Blue Moonphase', 'omega-x-swatch', 'moonswatch-mission-to-the-super-blue-moonphase', 'mission-to-the-super-blue-moonphase', 'omega x swatch moonswatch mission to the super blue moonphase mission to the super blue moonphase lug to lug 47 3 47 3mm case 42 42mm thickness 13 75 13 75mm lug width 20 20mm', 47.3, 42, 13.75, 20, 'approved'),
+(2799, 'Unimatic', 'Modello Quattro Toolwatch UT4-GMT', NULL, NULL, NULL, 'UT4-GMT', 'unimatic', 'modello-quattro-toolwatch-ut4-gmt', 'ut4-gmt', 'unimatic modello quattro toolwatch ut4 gmt ut4 gmt lug to lug 49 49mm case 40 40mm thickness 12 12mm', 49, 40, 12, NULL, 'approved'),
+(2800, 'Tuseno', 'Shellback V2 Dive', NULL, NULL, NULL, 'Shellback V2', 'tuseno', 'shellback-v2-dive', 'shellback-v2', 'tuseno shellback v2 dive shellback v2 lug to lug 47 47mm case 40 40mm thickness 11 9 11 9mm lug width 20 20mm', 47, 40, 11.9, 20, 'approved'),
+(2801, 'Delma', 'Midland', NULL, NULL, NULL, 'Midland', 'delma', 'midland', 'midland', 'delma midland midland lug to lug 47 47mm case 40 5 40 5mm thickness 10 8 10 8mm', 47, 40.5, 10.8, NULL, 'approved'),
+(2802, 'Marathon', 'Jeep Rubicon GSAR 41mm', NULL, NULL, NULL, 'Jeep Rubicon GSAR 41mm', 'marathon', 'jeep-rubicon-gsar-41mm', 'jeep-rubicon-gsar-41mm', 'marathon jeep rubicon gsar 41mm jeep rubicon gsar 41mm lug to lug 48 48mm case 41 41mm thickness 14 14mm', 48, 41, 14, NULL, 'approved'),
+(2803, 'Victorinox', 'Dive Pro Titanium', NULL, NULL, NULL, 'Dive Pro Titanium', 'victorinox', 'dive-pro-titanium', 'dive-pro-titanium', 'victorinox dive pro titanium dive pro titanium lug to lug 53 53mm case 43 43mm thickness 14 14mm', 53, 43, 14, NULL, 'approved'),
+(2804, 'Christopher Ward', 'C65 Super Compressor Elite', NULL, NULL, NULL, 'C65 Super Compressor Elite', 'christopher-ward', 'c65-super-compressor-elite', 'c65-super-compressor-elite', 'christopher ward c65 super compressor elite c65 super compressor elite lug to lug 47 12 47 12mm case 41 41mm thickness 13 75 13 75mm', 47.12, 41, 13.75, NULL, 'approved'),
+(2805, 'Monta', 'Noble Voyager GMT', NULL, NULL, NULL, 'Noble Voyager GMT', 'monta', 'noble-voyager-gmt', 'noble-voyager-gmt', 'monta noble voyager gmt noble voyager gmt lug to lug 47 47mm case 38 5 38 5mm thickness 10 7 10 7mm lug width 20 20mm', 47, 38.5, 10.7, 20, 'approved'),
+(2806, 'Airain', 'Type 20 x seconde/seconde Up In The Air', NULL, NULL, NULL, 'Type 20 Up In The Air', 'airain', 'type-20-x-seconde-seconde-up-in-the-air', 'type-20-up-in-the-air', 'airain type 20 x seconde seconde up in the air type 20 up in the air lug to lug 47 7 47 7mm case 39 39mm thickness 10 85 10 85mm lug width 20 20mm', 47.7, 39, 10.85, 20, 'approved'),
+(2807, 'Yema', 'Navygraf Slim CMM.20 Limited Edition', NULL, NULL, NULL, 'Navygraf Slim CMM.20', 'yema', 'navygraf-slim-cmm-20-limited-edition', 'navygraf-slim-cmm-20', 'yema navygraf slim cmm 20 limited edition navygraf slim cmm 20 lug to lug 46 46mm case 39 39mm thickness 9 5 9 5mm lug width 19 19mm', 46, 39, 9.5, 19, 'approved'),
+(2808, 'Zelos', 'Nova 37mm Dress', NULL, NULL, NULL, 'Nova 37mm', 'zelos', 'nova-37mm-dress', 'nova-37mm', 'zelos nova 37mm dress nova 37mm lug to lug 43 5 43 5mm case 37 37mm thickness 7 7mm lug width 20 20mm', 43.5, 37, 7, 20, 'approved'),
+(2809, 'Breitling', 'Endurance Pro 38', NULL, NULL, NULL, 'Endurance Pro 38', 'breitling', 'endurance-pro-38', 'endurance-pro-38', 'breitling endurance pro 38 endurance pro 38 lug to lug 44 7 44 7mm case 38 38mm thickness 12 1 12 1mm lug width 18 18mm', 44.7, 38, 12.1, 18, 'approved'),
+(2810, 'Islander', 'Port Jefferson GMT', NULL, NULL, NULL, 'Port Jefferson GMT', 'islander', 'port-jefferson-gmt', 'port-jefferson-gmt', 'islander port jefferson gmt port jefferson gmt lug to lug 47 8 47 8mm case 40 40mm thickness 13 2 13 2mm', 47.8, 40, 13.2, NULL, 'approved'),
+(2811, 'Casio', 'G-Shock G-STEEL 2100 Series', NULL, NULL, NULL, 'G-STEEL 2100 Series', 'casio', 'g-shock-g-steel-2100-series', 'g-steel-2100-series', 'casio g shock g steel 2100 series g steel 2100 series lug to lug 49 3 49 3mm case 44 4 44 4mm thickness 11 9 11 9mm', 49.3, 44.4, 11.9, NULL, 'approved'),
+(2812, 'CODE41', 'UNIFY', NULL, NULL, NULL, 'UNIFY', 'code41', 'unify', 'unify', 'code41 unify unify lug to lug 45 45mm case 38 38mm thickness 10 1 10 1mm', 45, 38, 10.1, NULL, 'approved'),
+(2813, 'Hautlence', 'Retrovision 47', NULL, NULL, NULL, 'Retrovision 47', 'hautlence', 'retrovision-47', 'retrovision-47', 'hautlence retrovision 47 retrovision 47 lug to lug 39 2 39 2mm case 44 4 44 4mm thickness 12 1 12 1mm', 39.2, 44.4, 12.1, NULL, 'approved'),
+(2814, 'Bremont', 'Terra Nova 40.5 Turning Bezel Power Reserve', NULL, NULL, NULL, 'Terra Nova 40.5 Turning Bezel Power Reserve', 'bremont', 'terra-nova-40-5-turning-bezel-power-reserve', 'terra-nova-40-5-turning-bezel-power-reserve', 'bremont terra nova 40 5 turning bezel power reserve terra nova 40 5 turning bezel power reserve lug to lug 47 47mm case 40 5 40 5mm thickness 12 12mm', 47, 40.5, 12, NULL, 'approved'),
+(2815, 'Swatch', 'Olympic Games Paris 2024', NULL, NULL, NULL, 'Olympic Games Paris 2024', 'swatch', 'olympic-games-paris-2024', 'olympic-games-paris-2024', 'swatch olympic games paris 2024 olympic games paris 2024 lug to lug 47 4 47 4mm case 41 41mm thickness 9 85 9 85mm', 47.4, 41, 9.85, NULL, 'approved')
 ON CONFLICT(id) DO UPDATE SET
   brand = excluded.brand,
   model = excluded.model,
@@ -11159,6 +11259,10 @@ UPDATE watch_sources SET note = 'Time+Tide article table lists reference SLGA025
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 1851, 'https://timeandtidewatches.com/grand-seiko-slga025-atera-blue-hands-on/', 'Time+Tide article table lists reference SLGA025 with case dimensions 40mm (D) x 11.8mm (T) x 47.9mm (LTL).'
 WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 1851 AND source_url = 'https://timeandtidewatches.com/grand-seiko-slga025-atera-blue-hands-on/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 40mm case, 47.9mm lug-to-lug, 11.8mm thickness.' WHERE watch_id = 1851 AND source_url = 'https://www.ablogtowatch.com/new-release-grand-seiko-evolution-9-collection-spring-drive-5-days-slga025-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 1851, 'https://www.ablogtowatch.com/new-release-grand-seiko-evolution-9-collection-spring-drive-5-days-slga025-watch/', 'aBlogtoWatch article states dimensions of 40mm case, 47.9mm lug-to-lug, 11.8mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 1851 AND source_url = 'https://www.ablogtowatch.com/new-release-grand-seiko-evolution-9-collection-spring-drive-5-days-slga025-watch/');
 UPDATE watch_sources SET note = 'Time+Tide article table lists reference SLGH011 with case dimensions 40mm (D) x 11.7mm (T) x 47mm (LTL).' WHERE watch_id = 1852 AND source_url = 'https://timeandtidewatches.com/grand-seiko-sbga469-slgh011-slgh019-hands-on-review/';
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 1852, 'https://timeandtidewatches.com/grand-seiko-sbga469-slgh011-slgh019-hands-on-review/', 'Time+Tide article table lists reference SLGH011 with case dimensions 40mm (D) x 11.7mm (T) x 47mm (LTL).'
@@ -14243,6 +14347,10 @@ UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 39.5m
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 2625, 'https://www.ablogtowatch.com/sartory-billard-sb04-e-hands-on-getting-creative-with-a-skin-tone-stone-dial-and-a-steel-bracelet/', 'aBlogtoWatch article states dimensions of 39.5mm case, 46mm lug-to-lug, 10.3mm thickness.'
 WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2625 AND source_url = 'https://www.ablogtowatch.com/sartory-billard-sb04-e-hands-on-getting-creative-with-a-skin-tone-stone-dial-and-a-steel-bracelet/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 39.5mm case, 46mm lug-to-lug, 10.3mm thickness.' WHERE watch_id = 2625 AND source_url = 'https://www.ablogtowatch.com/hands-on-sartory-billard-sb04-e-entry-level-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2625, 'https://www.ablogtowatch.com/hands-on-sartory-billard-sb04-e-entry-level-watch/', 'aBlogtoWatch article states dimensions of 39.5mm case, 46mm lug-to-lug, 10.3mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2625 AND source_url = 'https://www.ablogtowatch.com/hands-on-sartory-billard-sb04-e-entry-level-watch/');
 UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 42mm case, 49.6mm lug-to-lug, 13.9mm thickness.' WHERE watch_id = 2626 AND source_url = 'https://www.ablogtowatch.com/titan-stellar-wandering-hour-automatic-review-an-enthusiast-timepiece-from-indias-biggest-watchmaker/';
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 2626, 'https://www.ablogtowatch.com/titan-stellar-wandering-hour-automatic-review-an-enthusiast-timepiece-from-indias-biggest-watchmaker/', 'aBlogtoWatch article states dimensions of 42mm case, 49.6mm lug-to-lug, 13.9mm thickness.'
@@ -14459,6 +14567,10 @@ UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 39mm 
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 2679, 'https://www.ablogtowatch.com/hands-on-maurice-de-mauriac-x-racquet-rallymaster-iii-tennis-themed-watch/', 'aBlogtoWatch article states dimensions of 39mm case, 47mm lug-to-lug, 12mm thickness.'
 WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2679 AND source_url = 'https://www.ablogtowatch.com/hands-on-maurice-de-mauriac-x-racquet-rallymaster-iii-tennis-themed-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 39mm case, 47mm lug-to-lug, 12mm thickness.' WHERE watch_id = 2679 AND source_url = 'https://www.ablogtowatch.com/new-release-maurice-de-mauriac-racquet-rallymaster-iii-limited-edition-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2679, 'https://www.ablogtowatch.com/new-release-maurice-de-mauriac-racquet-rallymaster-iii-limited-edition-watch/', 'aBlogtoWatch article states dimensions of 39mm case, 47mm lug-to-lug, 12mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2679 AND source_url = 'https://www.ablogtowatch.com/new-release-maurice-de-mauriac-racquet-rallymaster-iii-limited-edition-watch/');
 UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 41mm case, 47.5mm lug-to-lug, 11.5mm thickness, and 20mm lug width.' WHERE watch_id = 2680 AND source_url = 'https://www.ablogtowatch.com/actually-affordable-citizen-promaster-dive-41mm-bn0261-51e-watch/';
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 2680, 'https://www.ablogtowatch.com/actually-affordable-citizen-promaster-dive-41mm-bn0261-51e-watch/', 'aBlogtoWatch article states dimensions of 41mm case, 47.5mm lug-to-lug, 11.5mm thickness, and 20mm lug width.'
@@ -14579,10 +14691,18 @@ UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 40mm 
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 2710, 'https://www.ablogtowatch.com/hands-on-doxa-sub-250t-gmt-watches/', 'aBlogtoWatch article states dimensions of 40mm case, 42.9mm lug-to-lug, 10.85mm thickness, and 18mm lug width.'
 WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2710 AND source_url = 'https://www.ablogtowatch.com/hands-on-doxa-sub-250t-gmt-watches/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 40mm case, 42.9mm lug-to-lug, 10.85mm thickness, and 18mm lug width.' WHERE watch_id = 2710 AND source_url = 'https://www.ablogtowatch.com/new-release-doxa-sub-250t-gmt-watches/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2710, 'https://www.ablogtowatch.com/new-release-doxa-sub-250t-gmt-watches/', 'aBlogtoWatch article states dimensions of 40mm case, 42.9mm lug-to-lug, 10.85mm thickness, and 18mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2710 AND source_url = 'https://www.ablogtowatch.com/new-release-doxa-sub-250t-gmt-watches/');
 UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 44.81mm case, 53.55mm lug-to-lug, 18.38mm thickness.' WHERE watch_id = 2711 AND source_url = 'https://www.ablogtowatch.com/hands-on-urwerk-ur-230-polaris-watch/';
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 2711, 'https://www.ablogtowatch.com/hands-on-urwerk-ur-230-polaris-watch/', 'aBlogtoWatch article states dimensions of 44.81mm case, 53.55mm lug-to-lug, 18.38mm thickness.'
 WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2711 AND source_url = 'https://www.ablogtowatch.com/hands-on-urwerk-ur-230-polaris-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 44.81mm case, 53.55mm lug-to-lug, 18.38mm thickness.' WHERE watch_id = 2711 AND source_url = 'https://www.ablogtowatch.com/new-release-urwerk-ur-230-polaris-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2711, 'https://www.ablogtowatch.com/new-release-urwerk-ur-230-polaris-watch/', 'aBlogtoWatch article states dimensions of 44.81mm case, 53.55mm lug-to-lug, 18.38mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2711 AND source_url = 'https://www.ablogtowatch.com/new-release-urwerk-ur-230-polaris-watch/');
 UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 31mm case, 51.1mm lug-to-lug, 12.6mm thickness.' WHERE watch_id = 2712 AND source_url = 'https://www.ablogtowatch.com/new-release-jaeger-lecoultre-reverso-tribute-minute-repeater-watch/';
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 2712, 'https://www.ablogtowatch.com/new-release-jaeger-lecoultre-reverso-tribute-minute-repeater-watch/', 'aBlogtoWatch article states dimensions of 31mm case, 51.1mm lug-to-lug, 12.6mm thickness.'
@@ -14595,3 +14715,407 @@ UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 39mm 
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 2714, 'https://www.ablogtowatch.com/new-release-norqain-wild-one-skeleton-39mm-watches/', 'aBlogtoWatch article states dimensions of 39mm case, 45.75mm lug-to-lug, 11.75mm thickness, and 20mm lug width.'
 WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2714 AND source_url = 'https://www.ablogtowatch.com/new-release-norqain-wild-one-skeleton-39mm-watches/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 40.5mm case, 47mm lug-to-lug, 10.8mm thickness.' WHERE watch_id = 2715 AND source_url = 'https://www.ablogtowatch.com/watch-review-delma-midland-purple/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2715, 'https://www.ablogtowatch.com/watch-review-delma-midland-purple/', 'aBlogtoWatch article states dimensions of 40.5mm case, 47mm lug-to-lug, 10.8mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2715 AND source_url = 'https://www.ablogtowatch.com/watch-review-delma-midland-purple/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 40mm case, 48mm lug-to-lug, 11.5mm thickness.' WHERE watch_id = 2716 AND source_url = 'https://www.ablogtowatch.com/hands-on-nodus-duality-ii-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2716, 'https://www.ablogtowatch.com/hands-on-nodus-duality-ii-watch/', 'aBlogtoWatch article states dimensions of 40mm case, 48mm lug-to-lug, 11.5mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2716 AND source_url = 'https://www.ablogtowatch.com/hands-on-nodus-duality-ii-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 42mm case, 49.5mm lug-to-lug, 13.4mm thickness, and 20mm lug width.' WHERE watch_id = 2717 AND source_url = 'https://www.ablogtowatch.com/hands-on-rze-utd-8000-titanium-digital-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2717, 'https://www.ablogtowatch.com/hands-on-rze-utd-8000-titanium-digital-watch/', 'aBlogtoWatch article states dimensions of 42mm case, 49.5mm lug-to-lug, 13.4mm thickness, and 20mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2717 AND source_url = 'https://www.ablogtowatch.com/hands-on-rze-utd-8000-titanium-digital-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 41mm case, 46.2mm lug-to-lug, 11.2mm thickness, and 22mm lug width.' WHERE watch_id = 2718 AND source_url = 'https://www.ablogtowatch.com/new-release-formex-essence-ceramica-skeleton-cosc-automatic-41mm-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2718, 'https://www.ablogtowatch.com/new-release-formex-essence-ceramica-skeleton-cosc-automatic-41mm-watch/', 'aBlogtoWatch article states dimensions of 41mm case, 46.2mm lug-to-lug, 11.2mm thickness, and 22mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2718 AND source_url = 'https://www.ablogtowatch.com/new-release-formex-essence-ceramica-skeleton-cosc-automatic-41mm-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 41mm case, 46.27mm lug-to-lug, 12.75mm thickness.' WHERE watch_id = 2719 AND source_url = 'https://www.ablogtowatch.com/the-chronoswiss-pulse-one-watch-ushers-in-a-new-era-for-the-brand/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2719, 'https://www.ablogtowatch.com/the-chronoswiss-pulse-one-watch-ushers-in-a-new-era-for-the-brand/', 'aBlogtoWatch article states dimensions of 41mm case, 46.27mm lug-to-lug, 12.75mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2719 AND source_url = 'https://www.ablogtowatch.com/the-chronoswiss-pulse-one-watch-ushers-in-a-new-era-for-the-brand/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 35mm case, 40mm lug-to-lug, 8.2mm thickness, and 18mm lug width.' WHERE watch_id = 2720 AND source_url = 'https://www.ablogtowatch.com/new-release-paulin-zapata-modul-watches/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2720, 'https://www.ablogtowatch.com/new-release-paulin-zapata-modul-watches/', 'aBlogtoWatch article states dimensions of 35mm case, 40mm lug-to-lug, 8.2mm thickness, and 18mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2720 AND source_url = 'https://www.ablogtowatch.com/new-release-paulin-zapata-modul-watches/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 44mm case, 50mm lug-to-lug, 13.7mm thickness.' WHERE watch_id = 2721 AND source_url = 'https://www.ablogtowatch.com/hands-on-citizen-attesa-satellite-wave-gps-f950-watch-for-2025/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2721, 'https://www.ablogtowatch.com/hands-on-citizen-attesa-satellite-wave-gps-f950-watch-for-2025/', 'aBlogtoWatch article states dimensions of 44mm case, 50mm lug-to-lug, 13.7mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2721 AND source_url = 'https://www.ablogtowatch.com/hands-on-citizen-attesa-satellite-wave-gps-f950-watch-for-2025/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 50mm case, 53.2mm lug-to-lug, 18.7mm thickness.' WHERE watch_id = 2722 AND source_url = 'https://www.ablogtowatch.com/hands-on-casio-g-shock-x-asrv-dw6900asrv24a-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2722, 'https://www.ablogtowatch.com/hands-on-casio-g-shock-x-asrv-dw6900asrv24a-watch/', 'aBlogtoWatch article states dimensions of 50mm case, 53.2mm lug-to-lug, 18.7mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2722 AND source_url = 'https://www.ablogtowatch.com/hands-on-casio-g-shock-x-asrv-dw6900asrv24a-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 41mm case, 45.1mm lug-to-lug, 14.3mm thickness, and 17mm lug width.' WHERE watch_id = 2723 AND source_url = 'https://www.ablogtowatch.com/new-release-king-seiko-vanac-watches/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2723, 'https://www.ablogtowatch.com/new-release-king-seiko-vanac-watches/', 'aBlogtoWatch article states dimensions of 41mm case, 45.1mm lug-to-lug, 14.3mm thickness, and 17mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2723 AND source_url = 'https://www.ablogtowatch.com/new-release-king-seiko-vanac-watches/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 44mm case, 52.49mm lug-to-lug, 12.5mm thickness, and 22mm lug width.' WHERE watch_id = 2724 AND source_url = 'https://www.ablogtowatch.com/hands-on-breitling-endurance-pro-stanford-university-edition-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2724, 'https://www.ablogtowatch.com/hands-on-breitling-endurance-pro-stanford-university-edition-watch/', 'aBlogtoWatch article states dimensions of 44mm case, 52.49mm lug-to-lug, 12.5mm thickness, and 22mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2724 AND source_url = 'https://www.ablogtowatch.com/hands-on-breitling-endurance-pro-stanford-university-edition-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 44mm case, 52.49mm lug-to-lug, 12.5mm thickness, and 22mm lug width.' WHERE watch_id = 2724 AND source_url = 'https://www.ablogtowatch.com/new-release-breitling-endurance-pro-stanford-university-edition-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2724, 'https://www.ablogtowatch.com/new-release-breitling-endurance-pro-stanford-university-edition-watch/', 'aBlogtoWatch article states dimensions of 44mm case, 52.49mm lug-to-lug, 12.5mm thickness, and 22mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2724 AND source_url = 'https://www.ablogtowatch.com/new-release-breitling-endurance-pro-stanford-university-edition-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 42mm case, 52mm lug-to-lug, 12.7mm thickness.' WHERE watch_id = 2725 AND source_url = 'https://www.ablogtowatch.com/hands-on-tudor-pelagos-fxd-gmt-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2725, 'https://www.ablogtowatch.com/hands-on-tudor-pelagos-fxd-gmt-watch/', 'aBlogtoWatch article states dimensions of 42mm case, 52mm lug-to-lug, 12.7mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2725 AND source_url = 'https://www.ablogtowatch.com/hands-on-tudor-pelagos-fxd-gmt-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 40mm case, 47mm lug-to-lug, 11.7mm thickness.' WHERE watch_id = 2726 AND source_url = 'https://www.ablogtowatch.com/hands-on-ace-jewelers-x-cedric-bellon-cb01-ti-amsterdam-edition-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2726, 'https://www.ablogtowatch.com/hands-on-ace-jewelers-x-cedric-bellon-cb01-ti-amsterdam-edition-watch/', 'aBlogtoWatch article states dimensions of 40mm case, 47mm lug-to-lug, 11.7mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2726 AND source_url = 'https://www.ablogtowatch.com/hands-on-ace-jewelers-x-cedric-bellon-cb01-ti-amsterdam-edition-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 43mm case, 49.07mm lug-to-lug, 13.69mm thickness.' WHERE watch_id = 2727 AND source_url = 'https://www.ablogtowatch.com/new-release-breitling-navitimer-b19-perpetual-calendar-chronograph-watch-in-stainless-steel-and-platinum/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2727, 'https://www.ablogtowatch.com/new-release-breitling-navitimer-b19-perpetual-calendar-chronograph-watch-in-stainless-steel-and-platinum/', 'aBlogtoWatch article states dimensions of 43mm case, 49.07mm lug-to-lug, 13.69mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2727 AND source_url = 'https://www.ablogtowatch.com/new-release-breitling-navitimer-b19-perpetual-calendar-chronograph-watch-in-stainless-steel-and-platinum/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 38mm case, 47mm lug-to-lug, 12mm thickness.' WHERE watch_id = 2728 AND source_url = 'https://www.ablogtowatch.com/fly-back-in-time-with-the-xeric-timeline-retrograde-automatic-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2728, 'https://www.ablogtowatch.com/fly-back-in-time-with-the-xeric-timeline-retrograde-automatic-watch/', 'aBlogtoWatch article states dimensions of 38mm case, 47mm lug-to-lug, 12mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2728 AND source_url = 'https://www.ablogtowatch.com/fly-back-in-time-with-the-xeric-timeline-retrograde-automatic-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 46.6mm case, 53mm lug-to-lug, 11.75mm thickness.' WHERE watch_id = 2729 AND source_url = 'https://www.ablogtowatch.com/watch-review-oneplus-watch-3-smartwatch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2729, 'https://www.ablogtowatch.com/watch-review-oneplus-watch-3-smartwatch/', 'aBlogtoWatch article states dimensions of 46.6mm case, 53mm lug-to-lug, 11.75mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2729 AND source_url = 'https://www.ablogtowatch.com/watch-review-oneplus-watch-3-smartwatch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 34.4mm case, 52.63mm lug-to-lug, 13.05mm thickness.' WHERE watch_id = 2730 AND source_url = 'https://www.ablogtowatch.com/new-release-richard-mille-rm-74-02-automatic-tourbillon-in-gold-quartz-tpt/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2730, 'https://www.ablogtowatch.com/new-release-richard-mille-rm-74-02-automatic-tourbillon-in-gold-quartz-tpt/', 'aBlogtoWatch article states dimensions of 34.4mm case, 52.63mm lug-to-lug, 13.05mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2730 AND source_url = 'https://www.ablogtowatch.com/new-release-richard-mille-rm-74-02-automatic-tourbillon-in-gold-quartz-tpt/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 42mm case, 49.7mm lug-to-lug, 13.8mm thickness.' WHERE watch_id = 2731 AND source_url = 'https://www.ablogtowatch.com/new-release-omega-seamaster-diver-300m-bronze-gold-and-burgundy-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2731, 'https://www.ablogtowatch.com/new-release-omega-seamaster-diver-300m-bronze-gold-and-burgundy-watch/', 'aBlogtoWatch article states dimensions of 42mm case, 49.7mm lug-to-lug, 13.8mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2731 AND source_url = 'https://www.ablogtowatch.com/new-release-omega-seamaster-diver-300m-bronze-gold-and-burgundy-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 44.4mm case, 49.5mm lug-to-lug, 13.6mm thickness.' WHERE watch_id = 2732 AND source_url = 'https://www.ablogtowatch.com/new-release-casio-g-shock-mr-g-mrg-b2100r-2a-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2732, 'https://www.ablogtowatch.com/new-release-casio-g-shock-mr-g-mrg-b2100r-2a-watch/', 'aBlogtoWatch article states dimensions of 44.4mm case, 49.5mm lug-to-lug, 13.6mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2732 AND source_url = 'https://www.ablogtowatch.com/new-release-casio-g-shock-mr-g-mrg-b2100r-2a-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 48.5mm case, 51.5mm lug-to-lug, 16.05mm thickness, and 22mm lug width.' WHERE watch_id = 2733 AND source_url = 'https://www.ablogtowatch.com/new-release-hamilton-american-classic-chrono-matic-50-auto-chrono-limited-edition-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2733, 'https://www.ablogtowatch.com/new-release-hamilton-american-classic-chrono-matic-50-auto-chrono-limited-edition-watch/', 'aBlogtoWatch article states dimensions of 48.5mm case, 51.5mm lug-to-lug, 16.05mm thickness, and 22mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2733 AND source_url = 'https://www.ablogtowatch.com/new-release-hamilton-american-classic-chrono-matic-50-auto-chrono-limited-edition-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 19.5mm case, 20mm lug-to-lug, 6.2mm thickness.' WHERE watch_id = 2734 AND source_url = 'https://www.ablogtowatch.com/hands-on-casio-ring-watch-crw001-1/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2734, 'https://www.ablogtowatch.com/hands-on-casio-ring-watch-crw001-1/', 'aBlogtoWatch article states dimensions of 19.5mm case, 20mm lug-to-lug, 6.2mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2734 AND source_url = 'https://www.ablogtowatch.com/hands-on-casio-ring-watch-crw001-1/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 38mm case, 43.5mm lug-to-lug, 12mm thickness, and 20mm lug width.' WHERE watch_id = 2735 AND source_url = 'https://www.ablogtowatch.com/new-release-studio-underd0g-x-fears-the-gimlet-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2735, 'https://www.ablogtowatch.com/new-release-studio-underd0g-x-fears-the-gimlet-watch/', 'aBlogtoWatch article states dimensions of 38mm case, 43.5mm lug-to-lug, 12mm thickness, and 20mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2735 AND source_url = 'https://www.ablogtowatch.com/new-release-studio-underd0g-x-fears-the-gimlet-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 41mm case, 49.7mm lug-to-lug, 14mm thickness.' WHERE watch_id = 2736 AND source_url = 'https://www.ablogtowatch.com/new-release-urwerk-ur-100v-magic-t-hunter-green-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2736, 'https://www.ablogtowatch.com/new-release-urwerk-ur-100v-magic-t-hunter-green-watch/', 'aBlogtoWatch article states dimensions of 41mm case, 49.7mm lug-to-lug, 14mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2736 AND source_url = 'https://www.ablogtowatch.com/new-release-urwerk-ur-100v-magic-t-hunter-green-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 42mm case, 47mm lug-to-lug, 12mm thickness.' WHERE watch_id = 2737 AND source_url = 'https://www.ablogtowatch.com/watch-review-raven-endeavour-ii-diver/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2737, 'https://www.ablogtowatch.com/watch-review-raven-endeavour-ii-diver/', 'aBlogtoWatch article states dimensions of 42mm case, 47mm lug-to-lug, 12mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2737 AND source_url = 'https://www.ablogtowatch.com/watch-review-raven-endeavour-ii-diver/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 38mm case, 46mm lug-to-lug, 12mm thickness.' WHERE watch_id = 2738 AND source_url = 'https://www.ablogtowatch.com/watch-review-timex-giorgio-galli-s2ti-titanium-gray-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2738, 'https://www.ablogtowatch.com/watch-review-timex-giorgio-galli-s2ti-titanium-gray-watch/', 'aBlogtoWatch article states dimensions of 38mm case, 46mm lug-to-lug, 12mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2738 AND source_url = 'https://www.ablogtowatch.com/watch-review-timex-giorgio-galli-s2ti-titanium-gray-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 41mm case, 47mm lug-to-lug, 12.9mm thickness, and 20mm lug width.' WHERE watch_id = 2739 AND source_url = 'https://www.ablogtowatch.com/hands-on-detrash-midnight-sky-dive-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2739, 'https://www.ablogtowatch.com/hands-on-detrash-midnight-sky-dive-watch/', 'aBlogtoWatch article states dimensions of 41mm case, 47mm lug-to-lug, 12.9mm thickness, and 20mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2739 AND source_url = 'https://www.ablogtowatch.com/hands-on-detrash-midnight-sky-dive-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 39mm case, 41.7mm lug-to-lug, 9mm thickness, and 22mm lug width.' WHERE watch_id = 2740 AND source_url = 'https://www.ablogtowatch.com/new-release-gerald-charles-maestro-2-0-ultra-thin-lapis-lazuli-and-maestro-9-0-roman-tourbillon-white-gold-watches/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2740, 'https://www.ablogtowatch.com/new-release-gerald-charles-maestro-2-0-ultra-thin-lapis-lazuli-and-maestro-9-0-roman-tourbillon-white-gold-watches/', 'aBlogtoWatch article states dimensions of 39mm case, 41.7mm lug-to-lug, 9mm thickness, and 22mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2740 AND source_url = 'https://www.ablogtowatch.com/new-release-gerald-charles-maestro-2-0-ultra-thin-lapis-lazuli-and-maestro-9-0-roman-tourbillon-white-gold-watches/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 46mm case, 54mm lug-to-lug, 13.5mm thickness.' WHERE watch_id = 2741 AND source_url = 'https://www.ablogtowatch.com/hands-on-traser-p99-a-tactical-carbon-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2741, 'https://www.ablogtowatch.com/hands-on-traser-p99-a-tactical-carbon-watch/', 'aBlogtoWatch article states dimensions of 46mm case, 54mm lug-to-lug, 13.5mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2741 AND source_url = 'https://www.ablogtowatch.com/hands-on-traser-p99-a-tactical-carbon-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 40mm case, 46mm lug-to-lug, 13mm thickness.' WHERE watch_id = 2742 AND source_url = 'https://www.ablogtowatch.com/actually-affordable-arken-alterum-titanium-dual-time-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2742, 'https://www.ablogtowatch.com/actually-affordable-arken-alterum-titanium-dual-time-watch/', 'aBlogtoWatch article states dimensions of 40mm case, 46mm lug-to-lug, 13mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2742 AND source_url = 'https://www.ablogtowatch.com/actually-affordable-arken-alterum-titanium-dual-time-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 39mm case, 45mm lug-to-lug, 9.7mm thickness.' WHERE watch_id = 2743 AND source_url = 'https://www.ablogtowatch.com/watch-review-paulin-modul-e-automatic/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2743, 'https://www.ablogtowatch.com/watch-review-paulin-modul-e-automatic/', 'aBlogtoWatch article states dimensions of 39mm case, 45mm lug-to-lug, 9.7mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2743 AND source_url = 'https://www.ablogtowatch.com/watch-review-paulin-modul-e-automatic/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 42.4mm case, 50mm lug-to-lug, 14.2mm thickness.' WHERE watch_id = 2744 AND source_url = 'https://www.ablogtowatch.com/the-islander-kings-point-dive-watch-provides-excellent-value-in-a-colorful-package/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2744, 'https://www.ablogtowatch.com/the-islander-kings-point-dive-watch-provides-excellent-value-in-a-colorful-package/', 'aBlogtoWatch article states dimensions of 42.4mm case, 50mm lug-to-lug, 14.2mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2744 AND source_url = 'https://www.ablogtowatch.com/the-islander-kings-point-dive-watch-provides-excellent-value-in-a-colorful-package/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 39mm case, 45mm lug-to-lug, 10.6mm thickness.' WHERE watch_id = 2745 AND source_url = 'https://www.ablogtowatch.com/hands-on-charlie-paris-gr-mecaquartz-chronograph-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2745, 'https://www.ablogtowatch.com/hands-on-charlie-paris-gr-mecaquartz-chronograph-watch/', 'aBlogtoWatch article states dimensions of 39mm case, 45mm lug-to-lug, 10.6mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2745 AND source_url = 'https://www.ablogtowatch.com/hands-on-charlie-paris-gr-mecaquartz-chronograph-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 43mm case, 50mm lug-to-lug, 15mm thickness.' WHERE watch_id = 2746 AND source_url = 'https://www.ablogtowatch.com/hands-on-spinnaker-spongebob-squarepants-automatic-sport-watches/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2746, 'https://www.ablogtowatch.com/hands-on-spinnaker-spongebob-squarepants-automatic-sport-watches/', 'aBlogtoWatch article states dimensions of 43mm case, 50mm lug-to-lug, 15mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2746 AND source_url = 'https://www.ablogtowatch.com/hands-on-spinnaker-spongebob-squarepants-automatic-sport-watches/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 49.8mm case, 54.7mm lug-to-lug, 16.9mm thickness.' WHERE watch_id = 2747 AND source_url = 'https://www.ablogtowatch.com/experience-tradition-and-innovation-with-the-casio-g-shock-mrgb2000js-jyuryoku-maru-san-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2747, 'https://www.ablogtowatch.com/experience-tradition-and-innovation-with-the-casio-g-shock-mrgb2000js-jyuryoku-maru-san-watch/', 'aBlogtoWatch article states dimensions of 49.8mm case, 54.7mm lug-to-lug, 16.9mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2747 AND source_url = 'https://www.ablogtowatch.com/experience-tradition-and-innovation-with-the-casio-g-shock-mrgb2000js-jyuryoku-maru-san-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 36mm case, 42.8mm lug-to-lug, 10.95mm thickness.' WHERE watch_id = 2748 AND source_url = 'https://www.ablogtowatch.com/hands-on-depancel-allure-chronograph-mecaq-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2748, 'https://www.ablogtowatch.com/hands-on-depancel-allure-chronograph-mecaq-watch/', 'aBlogtoWatch article states dimensions of 36mm case, 42.8mm lug-to-lug, 10.95mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2748 AND source_url = 'https://www.ablogtowatch.com/hands-on-depancel-allure-chronograph-mecaq-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 36mm case, 44mm lug-to-lug, 9.25mm thickness.' WHERE watch_id = 2749 AND source_url = 'https://www.ablogtowatch.com/hands-on-shinola-circadian-monster-36mm-automatic-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2749, 'https://www.ablogtowatch.com/hands-on-shinola-circadian-monster-36mm-automatic-watch/', 'aBlogtoWatch article states dimensions of 36mm case, 44mm lug-to-lug, 9.25mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2749 AND source_url = 'https://www.ablogtowatch.com/hands-on-shinola-circadian-monster-36mm-automatic-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 39mm case, 47mm lug-to-lug, 11.3mm thickness.' WHERE watch_id = 2750 AND source_url = 'https://www.ablogtowatch.com/hands-on-heron-marinor-dive-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2750, 'https://www.ablogtowatch.com/hands-on-heron-marinor-dive-watch/', 'aBlogtoWatch article states dimensions of 39mm case, 47mm lug-to-lug, 11.3mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2750 AND source_url = 'https://www.ablogtowatch.com/hands-on-heron-marinor-dive-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 38mm case, 45.4mm lug-to-lug, 9.15mm thickness.' WHERE watch_id = 2751 AND source_url = 'https://www.ablogtowatch.com/hands-on-buser-freres-marine-38mm-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2751, 'https://www.ablogtowatch.com/hands-on-buser-freres-marine-38mm-watch/', 'aBlogtoWatch article states dimensions of 38mm case, 45.4mm lug-to-lug, 9.15mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2751 AND source_url = 'https://www.ablogtowatch.com/hands-on-buser-freres-marine-38mm-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 41mm case, 50.5mm lug-to-lug, 9mm thickness.' WHERE watch_id = 2752 AND source_url = 'https://www.ablogtowatch.com/embrace-art-on-your-wrist-with-the-alexander-shorokhoff-kandy-avantgarde-2-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2752, 'https://www.ablogtowatch.com/embrace-art-on-your-wrist-with-the-alexander-shorokhoff-kandy-avantgarde-2-watch/', 'aBlogtoWatch article states dimensions of 41mm case, 50.5mm lug-to-lug, 9mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2752 AND source_url = 'https://www.ablogtowatch.com/embrace-art-on-your-wrist-with-the-alexander-shorokhoff-kandy-avantgarde-2-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 40mm case, 45.6mm lug-to-lug, 7.8mm thickness.' WHERE watch_id = 2753 AND source_url = 'https://www.ablogtowatch.com/hands-on-parmigiani-fleurier-tonda-pf-micro-rotor-no-date-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2753, 'https://www.ablogtowatch.com/hands-on-parmigiani-fleurier-tonda-pf-micro-rotor-no-date-watch/', 'aBlogtoWatch article states dimensions of 40mm case, 45.6mm lug-to-lug, 7.8mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2753 AND source_url = 'https://www.ablogtowatch.com/hands-on-parmigiani-fleurier-tonda-pf-micro-rotor-no-date-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 43mm case, 53mm lug-to-lug, 13.2mm thickness.' WHERE watch_id = 2754 AND source_url = 'https://www.ablogtowatch.com/hands-on-tudor-pelagos-fxd-chrono-cycling-edition-and-the-role-of-watches-in-professional-cycling/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2754, 'https://www.ablogtowatch.com/hands-on-tudor-pelagos-fxd-chrono-cycling-edition-and-the-role-of-watches-in-professional-cycling/', 'aBlogtoWatch article states dimensions of 43mm case, 53mm lug-to-lug, 13.2mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2754 AND source_url = 'https://www.ablogtowatch.com/hands-on-tudor-pelagos-fxd-chrono-cycling-edition-and-the-role-of-watches-in-professional-cycling/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 42mm case, 48.5mm lug-to-lug, 13mm thickness, and 24mm lug width.' WHERE watch_id = 2755 AND source_url = 'https://www.ablogtowatch.com/hands-on-luminox-pacific-diver-automatic-3100-series-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2755, 'https://www.ablogtowatch.com/hands-on-luminox-pacific-diver-automatic-3100-series-watch/', 'aBlogtoWatch article states dimensions of 42mm case, 48.5mm lug-to-lug, 13mm thickness, and 24mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2755 AND source_url = 'https://www.ablogtowatch.com/hands-on-luminox-pacific-diver-automatic-3100-series-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 39.5mm case, 46.5mm lug-to-lug, 11.7mm thickness.' WHERE watch_id = 2756 AND source_url = 'https://www.ablogtowatch.com/actually-affordable-beaucroft-element-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2756, 'https://www.ablogtowatch.com/actually-affordable-beaucroft-element-watch/', 'aBlogtoWatch article states dimensions of 39.5mm case, 46.5mm lug-to-lug, 11.7mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2756 AND source_url = 'https://www.ablogtowatch.com/actually-affordable-beaucroft-element-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 44.4mm case, 49.5mm lug-to-lug, 13.6mm thickness.' WHERE watch_id = 2757 AND source_url = 'https://www.ablogtowatch.com/long-term-watch-review-casios-high-end-g-shock-mrgb2100/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2757, 'https://www.ablogtowatch.com/long-term-watch-review-casios-high-end-g-shock-mrgb2100/', 'aBlogtoWatch article states dimensions of 44.4mm case, 49.5mm lug-to-lug, 13.6mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2757 AND source_url = 'https://www.ablogtowatch.com/long-term-watch-review-casios-high-end-g-shock-mrgb2100/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 38mm case, 44.35mm lug-to-lug, 9mm thickness.' WHERE watch_id = 2758 AND source_url = 'https://www.ablogtowatch.com/new-release-armin-strom-tribute%c2%b2-copper-edition-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2758, 'https://www.ablogtowatch.com/new-release-armin-strom-tribute%c2%b2-copper-edition-watch/', 'aBlogtoWatch article states dimensions of 38mm case, 44.35mm lug-to-lug, 9mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2758 AND source_url = 'https://www.ablogtowatch.com/new-release-armin-strom-tribute%c2%b2-copper-edition-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 39mm case, 45mm lug-to-lug, 10mm thickness, and 20mm lug width.' WHERE watch_id = 2759 AND source_url = 'https://www.ablogtowatch.com/new-release-formex-essence-39mm-blue-agate-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2759, 'https://www.ablogtowatch.com/new-release-formex-essence-39mm-blue-agate-watch/', 'aBlogtoWatch article states dimensions of 39mm case, 45mm lug-to-lug, 10mm thickness, and 20mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2759 AND source_url = 'https://www.ablogtowatch.com/new-release-formex-essence-39mm-blue-agate-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 38mm case, 44mm lug-to-lug, 10mm thickness.' WHERE watch_id = 2760 AND source_url = 'https://www.ablogtowatch.com/hands-on-debut-circula-facet-sports-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2760, 'https://www.ablogtowatch.com/hands-on-debut-circula-facet-sports-watch/', 'aBlogtoWatch article states dimensions of 38mm case, 44mm lug-to-lug, 10mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2760 AND source_url = 'https://www.ablogtowatch.com/hands-on-debut-circula-facet-sports-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 35mm case, 41mm lug-to-lug, 8.6mm thickness.' WHERE watch_id = 2761 AND source_url = 'https://www.ablogtowatch.com/hands-on-debut-serica-ref-1174-parade-dress-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2761, 'https://www.ablogtowatch.com/hands-on-debut-serica-ref-1174-parade-dress-watch/', 'aBlogtoWatch article states dimensions of 35mm case, 41mm lug-to-lug, 8.6mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2761 AND source_url = 'https://www.ablogtowatch.com/hands-on-debut-serica-ref-1174-parade-dress-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 39mm case, 41.5mm lug-to-lug, 10.7mm thickness, and 18mm lug width.' WHERE watch_id = 2762 AND source_url = 'https://www.ablogtowatch.com/new-release-doxa-sub-200t-diamonds-watches/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2762, 'https://www.ablogtowatch.com/new-release-doxa-sub-200t-diamonds-watches/', 'aBlogtoWatch article states dimensions of 39mm case, 41.5mm lug-to-lug, 10.7mm thickness, and 18mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2762 AND source_url = 'https://www.ablogtowatch.com/new-release-doxa-sub-200t-diamonds-watches/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 35mm case, 45.4mm lug-to-lug, 9.95mm thickness.' WHERE watch_id = 2763 AND source_url = 'https://www.ablogtowatch.com/hands-on-debut-universal-geneve-polerouter-unique-watches-for-polerouter-sas-flights-anniversary/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2763, 'https://www.ablogtowatch.com/hands-on-debut-universal-geneve-polerouter-unique-watches-for-polerouter-sas-flights-anniversary/', 'aBlogtoWatch article states dimensions of 35mm case, 45.4mm lug-to-lug, 9.95mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2763 AND source_url = 'https://www.ablogtowatch.com/hands-on-debut-universal-geneve-polerouter-unique-watches-for-polerouter-sas-flights-anniversary/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 34mm case, 41.5mm lug-to-lug, 8.2mm thickness, and 18mm lug width.' WHERE watch_id = 2764 AND source_url = 'https://www.ablogtowatch.com/nomos-shrinks-its-sports-watch-with-the-club-sport-neomatik-34/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2764, 'https://www.ablogtowatch.com/nomos-shrinks-its-sports-watch-with-the-club-sport-neomatik-34/', 'aBlogtoWatch article states dimensions of 34mm case, 41.5mm lug-to-lug, 8.2mm thickness, and 18mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2764 AND source_url = 'https://www.ablogtowatch.com/nomos-shrinks-its-sports-watch-with-the-club-sport-neomatik-34/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 43.2mm case, 51.6mm lug-to-lug, 16.95mm thickness.' WHERE watch_id = 2765 AND source_url = 'https://www.ablogtowatch.com/hands-on-glashutte-original-seaq-chronograph-silver-screen-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2765, 'https://www.ablogtowatch.com/hands-on-glashutte-original-seaq-chronograph-silver-screen-watch/', 'aBlogtoWatch article states dimensions of 43.2mm case, 51.6mm lug-to-lug, 16.95mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2765 AND source_url = 'https://www.ablogtowatch.com/hands-on-glashutte-original-seaq-chronograph-silver-screen-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 42mm case, 49.5mm lug-to-lug, 11mm thickness, and 22mm lug width.' WHERE watch_id = 2766 AND source_url = 'https://www.ablogtowatch.com/hands-on-traser-p67-officer-pro-field-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2766, 'https://www.ablogtowatch.com/hands-on-traser-p67-officer-pro-field-watch/', 'aBlogtoWatch article states dimensions of 42mm case, 49.5mm lug-to-lug, 11mm thickness, and 22mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2766 AND source_url = 'https://www.ablogtowatch.com/hands-on-traser-p67-officer-pro-field-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 42mm case, 51.21mm lug-to-lug, 12.25mm thickness, and 22mm lug width.' WHERE watch_id = 2767 AND source_url = 'https://www.ablogtowatch.com/new-release-breitling-avenger-night-mission-watches/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2767, 'https://www.ablogtowatch.com/new-release-breitling-avenger-night-mission-watches/', 'aBlogtoWatch article states dimensions of 42mm case, 51.21mm lug-to-lug, 12.25mm thickness, and 22mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2767 AND source_url = 'https://www.ablogtowatch.com/new-release-breitling-avenger-night-mission-watches/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 38mm case, 45mm lug-to-lug, 11mm thickness, and 20mm lug width.' WHERE watch_id = 2768 AND source_url = 'https://www.ablogtowatch.com/actually-affordable-rze-valour-38-field-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2768, 'https://www.ablogtowatch.com/actually-affordable-rze-valour-38-field-watch/', 'aBlogtoWatch article states dimensions of 38mm case, 45mm lug-to-lug, 11mm thickness, and 20mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2768 AND source_url = 'https://www.ablogtowatch.com/actually-affordable-rze-valour-38-field-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 39mm case, 47mm lug-to-lug, 12.5mm thickness.' WHERE watch_id = 2769 AND source_url = 'https://www.ablogtowatch.com/hands-on-timex-x-pan-am-waterbury-gmt-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2769, 'https://www.ablogtowatch.com/hands-on-timex-x-pan-am-waterbury-gmt-watch/', 'aBlogtoWatch article states dimensions of 39mm case, 47mm lug-to-lug, 12.5mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2769 AND source_url = 'https://www.ablogtowatch.com/hands-on-timex-x-pan-am-waterbury-gmt-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 43.84mm case, 49.94mm lug-to-lug, 16.19mm thickness.' WHERE watch_id = 2770 AND source_url = 'https://www.ablogtowatch.com/new-release-richard-mille-rm-65-01-automatic-split-seconds-chronograph-mclaren-w1-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2770, 'https://www.ablogtowatch.com/new-release-richard-mille-rm-65-01-automatic-split-seconds-chronograph-mclaren-w1-watch/', 'aBlogtoWatch article states dimensions of 43.84mm case, 49.94mm lug-to-lug, 16.19mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2770 AND source_url = 'https://www.ablogtowatch.com/new-release-richard-mille-rm-65-01-automatic-split-seconds-chronograph-mclaren-w1-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 42mm case, 52mm lug-to-lug, 12.55mm thickness, and 20mm lug width.' WHERE watch_id = 2771 AND source_url = 'https://www.ablogtowatch.com/hands-on-debut-titoni-seascoper-300-bicolor-watches/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2771, 'https://www.ablogtowatch.com/hands-on-debut-titoni-seascoper-300-bicolor-watches/', 'aBlogtoWatch article states dimensions of 42mm case, 52mm lug-to-lug, 12.55mm thickness, and 20mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2771 AND source_url = 'https://www.ablogtowatch.com/hands-on-debut-titoni-seascoper-300-bicolor-watches/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 46mm case, 51.88mm lug-to-lug, 13.95mm thickness, and 24mm lug width.' WHERE watch_id = 2772 AND source_url = 'https://www.ablogtowatch.com/new-release-breitling-navitimer-b01-chronograph-46-north-american-limited-edition-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2772, 'https://www.ablogtowatch.com/new-release-breitling-navitimer-b01-chronograph-46-north-american-limited-edition-watch/', 'aBlogtoWatch article states dimensions of 46mm case, 51.88mm lug-to-lug, 13.95mm thickness, and 24mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2772 AND source_url = 'https://www.ablogtowatch.com/new-release-breitling-navitimer-b01-chronograph-46-north-american-limited-edition-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 36mm case, 43mm lug-to-lug, 12.1mm thickness.' WHERE watch_id = 2773 AND source_url = 'https://www.ablogtowatch.com/hands-on-papar-anillo-gmt-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2773, 'https://www.ablogtowatch.com/hands-on-papar-anillo-gmt-watch/', 'aBlogtoWatch article states dimensions of 36mm case, 43mm lug-to-lug, 12.1mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2773 AND source_url = 'https://www.ablogtowatch.com/hands-on-papar-anillo-gmt-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 36mm case, 44mm lug-to-lug, 12mm thickness, and 18mm lug width.' WHERE watch_id = 2774 AND source_url = 'https://www.ablogtowatch.com/new-release-zodiac-x-craft-tailored-super-sea-wolf-ref-691-limited-edition-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2774, 'https://www.ablogtowatch.com/new-release-zodiac-x-craft-tailored-super-sea-wolf-ref-691-limited-edition-watch/', 'aBlogtoWatch article states dimensions of 36mm case, 44mm lug-to-lug, 12mm thickness, and 18mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2774 AND source_url = 'https://www.ablogtowatch.com/new-release-zodiac-x-craft-tailored-super-sea-wolf-ref-691-limited-edition-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 38mm case, 46mm lug-to-lug, 11.25mm thickness.' WHERE watch_id = 2775 AND source_url = 'https://www.ablogtowatch.com/hands-on-tuul-filthy-13-bronze-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2775, 'https://www.ablogtowatch.com/hands-on-tuul-filthy-13-bronze-watch/', 'aBlogtoWatch article states dimensions of 38mm case, 46mm lug-to-lug, 11.25mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2775 AND source_url = 'https://www.ablogtowatch.com/hands-on-tuul-filthy-13-bronze-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 40.5mm case, 47.5mm lug-to-lug, 11.8mm thickness, and 20mm lug width.' WHERE watch_id = 2776 AND source_url = 'https://www.ablogtowatch.com/new-release-seiko-presage-cocktail-time-star-bar-limited-edition-srpk93-and-sre015-watches/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2776, 'https://www.ablogtowatch.com/new-release-seiko-presage-cocktail-time-star-bar-limited-edition-srpk93-and-sre015-watches/', 'aBlogtoWatch article states dimensions of 40.5mm case, 47.5mm lug-to-lug, 11.8mm thickness, and 20mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2776 AND source_url = 'https://www.ablogtowatch.com/new-release-seiko-presage-cocktail-time-star-bar-limited-edition-srpk93-and-sre015-watches/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 46mm case, 50.3mm lug-to-lug, 13.6mm thickness.' WHERE watch_id = 2777 AND source_url = 'https://www.ablogtowatch.com/hands-on-casio-pro-trek-prjb001b-2-outdoor-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2777, 'https://www.ablogtowatch.com/hands-on-casio-pro-trek-prjb001b-2-outdoor-watch/', 'aBlogtoWatch article states dimensions of 46mm case, 50.3mm lug-to-lug, 13.6mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2777 AND source_url = 'https://www.ablogtowatch.com/hands-on-casio-pro-trek-prjb001b-2-outdoor-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 41mm case, 47mm lug-to-lug, 11.8mm thickness, and 20mm lug width.' WHERE watch_id = 2778 AND source_url = 'https://www.ablogtowatch.com/hands-on-debut-formex-stratos-utc-automatic-41mm-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2778, 'https://www.ablogtowatch.com/hands-on-debut-formex-stratos-utc-automatic-41mm-watch/', 'aBlogtoWatch article states dimensions of 41mm case, 47mm lug-to-lug, 11.8mm thickness, and 20mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2778 AND source_url = 'https://www.ablogtowatch.com/hands-on-debut-formex-stratos-utc-automatic-41mm-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 40.2mm case, 48mm lug-to-lug, 12.4mm thickness.' WHERE watch_id = 2779 AND source_url = 'https://www.ablogtowatch.com/new-release-seiko-presage-craftsmanship-series-urushi-lacquer-dial-spb447-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2779, 'https://www.ablogtowatch.com/new-release-seiko-presage-craftsmanship-series-urushi-lacquer-dial-spb447-watch/', 'aBlogtoWatch article states dimensions of 40.2mm case, 48mm lug-to-lug, 12.4mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2779 AND source_url = 'https://www.ablogtowatch.com/new-release-seiko-presage-craftsmanship-series-urushi-lacquer-dial-spb447-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 38mm case, 46mm lug-to-lug, 9.5mm thickness.' WHERE watch_id = 2780 AND source_url = 'https://www.ablogtowatch.com/the-karl-leimon-classic-field-watch-is-a-sophisticated-all-arounder/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2780, 'https://www.ablogtowatch.com/the-karl-leimon-classic-field-watch-is-a-sophisticated-all-arounder/', 'aBlogtoWatch article states dimensions of 38mm case, 46mm lug-to-lug, 9.5mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2780 AND source_url = 'https://www.ablogtowatch.com/the-karl-leimon-classic-field-watch-is-a-sophisticated-all-arounder/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 39mm case, 47.4mm lug-to-lug, 14.35mm thickness.' WHERE watch_id = 2781 AND source_url = 'https://www.ablogtowatch.com/new-release-tag-heuer-monaco-chronograph-racing-green-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2781, 'https://www.ablogtowatch.com/new-release-tag-heuer-monaco-chronograph-racing-green-watch/', 'aBlogtoWatch article states dimensions of 39mm case, 47.4mm lug-to-lug, 14.35mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2781 AND source_url = 'https://www.ablogtowatch.com/new-release-tag-heuer-monaco-chronograph-racing-green-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 38mm case, 46mm lug-to-lug, 12mm thickness.' WHERE watch_id = 2782 AND source_url = 'https://www.ablogtowatch.com/hands-on-vero-smokey-bear-80th-anniversary-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2782, 'https://www.ablogtowatch.com/hands-on-vero-smokey-bear-80th-anniversary-watch/', 'aBlogtoWatch article states dimensions of 38mm case, 46mm lug-to-lug, 12mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2782 AND source_url = 'https://www.ablogtowatch.com/hands-on-vero-smokey-bear-80th-anniversary-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 32mm case, 41mm lug-to-lug, 9mm thickness.' WHERE watch_id = 2783 AND source_url = 'https://www.ablogtowatch.com/hands-on-debut-victorinox-inox-small-32mm-watches/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2783, 'https://www.ablogtowatch.com/hands-on-debut-victorinox-inox-small-32mm-watches/', 'aBlogtoWatch article states dimensions of 32mm case, 41mm lug-to-lug, 9mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2783 AND source_url = 'https://www.ablogtowatch.com/hands-on-debut-victorinox-inox-small-32mm-watches/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 38.6mm case, 45.8mm lug-to-lug, 10.7mm thickness, and 19mm lug width.' WHERE watch_id = 2784 AND source_url = 'https://www.ablogtowatch.com/new-release-king-seiko-sje103-sje105-and-sje107-watches/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2784, 'https://www.ablogtowatch.com/new-release-king-seiko-sje103-sje105-and-sje107-watches/', 'aBlogtoWatch article states dimensions of 38.6mm case, 45.8mm lug-to-lug, 10.7mm thickness, and 19mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2784 AND source_url = 'https://www.ablogtowatch.com/new-release-king-seiko-sje103-sje105-and-sje107-watches/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 39.5mm case, 46.29mm lug-to-lug, 10.28mm thickness.' WHERE watch_id = 2785 AND source_url = 'https://www.ablogtowatch.com/watch-review-horage-supersede-date-dive-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2785, 'https://www.ablogtowatch.com/watch-review-horage-supersede-date-dive-watch/', 'aBlogtoWatch article states dimensions of 39.5mm case, 46.29mm lug-to-lug, 10.28mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2785 AND source_url = 'https://www.ablogtowatch.com/watch-review-horage-supersede-date-dive-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 41mm case, 43.5mm lug-to-lug, 12.95mm thickness.' WHERE watch_id = 2787 AND source_url = 'https://www.ablogtowatch.com/hands-on-aonic-automat-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2787, 'https://www.ablogtowatch.com/hands-on-aonic-automat-watch/', 'aBlogtoWatch article states dimensions of 41mm case, 43.5mm lug-to-lug, 12.95mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2787 AND source_url = 'https://www.ablogtowatch.com/hands-on-aonic-automat-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 40.5mm case, 46.6mm lug-to-lug, 11.8mm thickness.' WHERE watch_id = 2788 AND source_url = 'https://www.ablogtowatch.com/hands-on-nodus-contrail-gmt-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2788, 'https://www.ablogtowatch.com/hands-on-nodus-contrail-gmt-watch/', 'aBlogtoWatch article states dimensions of 40.5mm case, 46.6mm lug-to-lug, 11.8mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2788 AND source_url = 'https://www.ablogtowatch.com/hands-on-nodus-contrail-gmt-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 42.5mm case, 44.5mm lug-to-lug, 14mm thickness.' WHERE watch_id = 2789 AND source_url = 'https://www.ablogtowatch.com/new-release-doxa-sub-300t-aristera-left-handed-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2789, 'https://www.ablogtowatch.com/new-release-doxa-sub-300t-aristera-left-handed-watch/', 'aBlogtoWatch article states dimensions of 42.5mm case, 44.5mm lug-to-lug, 14mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2789 AND source_url = 'https://www.ablogtowatch.com/new-release-doxa-sub-300t-aristera-left-handed-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 40mm case, 46.5mm lug-to-lug, 10.8mm thickness.' WHERE watch_id = 2790 AND source_url = 'https://www.ablogtowatch.com/new-release-bangalore-watch-company-mach-1-avalanche-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2790, 'https://www.ablogtowatch.com/new-release-bangalore-watch-company-mach-1-avalanche-watch/', 'aBlogtoWatch article states dimensions of 40mm case, 46.5mm lug-to-lug, 10.8mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2790 AND source_url = 'https://www.ablogtowatch.com/new-release-bangalore-watch-company-mach-1-avalanche-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 38.5mm case, 44.8mm lug-to-lug, 12.4mm thickness, and 20mm lug width.' WHERE watch_id = 2791 AND source_url = 'https://www.ablogtowatch.com/hands-on-seiko-5-sports-heritage-limited-edition-srpl03-and-srpl05-watches/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2791, 'https://www.ablogtowatch.com/hands-on-seiko-5-sports-heritage-limited-edition-srpl03-and-srpl05-watches/', 'aBlogtoWatch article states dimensions of 38.5mm case, 44.8mm lug-to-lug, 12.4mm thickness, and 20mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2791 AND source_url = 'https://www.ablogtowatch.com/hands-on-seiko-5-sports-heritage-limited-edition-srpl03-and-srpl05-watches/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 39mm case, 47mm lug-to-lug, 13mm thickness, and 20mm lug width.' WHERE watch_id = 2792 AND source_url = 'https://www.ablogtowatch.com/hands-on-nivada-grenchen-depthmaster-bronze-pac-man-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2792, 'https://www.ablogtowatch.com/hands-on-nivada-grenchen-depthmaster-bronze-pac-man-watch/', 'aBlogtoWatch article states dimensions of 39mm case, 47mm lug-to-lug, 13mm thickness, and 20mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2792 AND source_url = 'https://www.ablogtowatch.com/hands-on-nivada-grenchen-depthmaster-bronze-pac-man-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 42mm case, 50mm lug-to-lug, 12mm thickness.' WHERE watch_id = 2793 AND source_url = 'https://www.ablogtowatch.com/hands-on-norqain-wild-one-skeleton-coral-green-watches/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2793, 'https://www.ablogtowatch.com/hands-on-norqain-wild-one-skeleton-coral-green-watches/', 'aBlogtoWatch article states dimensions of 42mm case, 50mm lug-to-lug, 12mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2793 AND source_url = 'https://www.ablogtowatch.com/hands-on-norqain-wild-one-skeleton-coral-green-watches/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 38mm case, 47mm lug-to-lug, 9mm thickness, and 18mm lug width.' WHERE watch_id = 2794 AND source_url = 'https://www.ablogtowatch.com/hands-on-timex-x-ghostly-navi-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2794, 'https://www.ablogtowatch.com/hands-on-timex-x-ghostly-navi-watch/', 'aBlogtoWatch article states dimensions of 38mm case, 47mm lug-to-lug, 9mm thickness, and 18mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2794 AND source_url = 'https://www.ablogtowatch.com/hands-on-timex-x-ghostly-navi-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 38mm case, 44mm lug-to-lug, 10.7mm thickness, and 20mm lug width.' WHERE watch_id = 2795 AND source_url = 'https://www.ablogtowatch.com/hands-on-bremont-terra-nova-38-field-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2795, 'https://www.ablogtowatch.com/hands-on-bremont-terra-nova-38-field-watch/', 'aBlogtoWatch article states dimensions of 38mm case, 44mm lug-to-lug, 10.7mm thickness, and 20mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2795 AND source_url = 'https://www.ablogtowatch.com/hands-on-bremont-terra-nova-38-field-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 43.5mm case, 50mm lug-to-lug, 13.6mm thickness.' WHERE watch_id = 2796 AND source_url = 'https://www.ablogtowatch.com/review-laco-hamburg-din-8330-certified-pilot-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2796, 'https://www.ablogtowatch.com/review-laco-hamburg-din-8330-certified-pilot-watch/', 'aBlogtoWatch article states dimensions of 43.5mm case, 50mm lug-to-lug, 13.6mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2796 AND source_url = 'https://www.ablogtowatch.com/review-laco-hamburg-din-8330-certified-pilot-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 42.5mm case, 45mm lug-to-lug, 13.4mm thickness, and 20mm lug width.' WHERE watch_id = 2797 AND source_url = 'https://www.ablogtowatch.com/watch-review-doxa-sub-300-carbon-searambler-dive-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2797, 'https://www.ablogtowatch.com/watch-review-doxa-sub-300-carbon-searambler-dive-watch/', 'aBlogtoWatch article states dimensions of 42.5mm case, 45mm lug-to-lug, 13.4mm thickness, and 20mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2797 AND source_url = 'https://www.ablogtowatch.com/watch-review-doxa-sub-300-carbon-searambler-dive-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 42mm case, 47.3mm lug-to-lug, 13.75mm thickness, and 20mm lug width.' WHERE watch_id = 2798 AND source_url = 'https://www.ablogtowatch.com/new-release-omega-x-swatch-moonswatch-mission-to-the-super-blue-moonphase-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2798, 'https://www.ablogtowatch.com/new-release-omega-x-swatch-moonswatch-mission-to-the-super-blue-moonphase-watch/', 'aBlogtoWatch article states dimensions of 42mm case, 47.3mm lug-to-lug, 13.75mm thickness, and 20mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2798 AND source_url = 'https://www.ablogtowatch.com/new-release-omega-x-swatch-moonswatch-mission-to-the-super-blue-moonphase-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 40mm case, 49mm lug-to-lug, 12mm thickness.' WHERE watch_id = 2799 AND source_url = 'https://www.ablogtowatch.com/hands-on-debut-unimatic-modello-quattro-toolwatch-ut4-gmt-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2799, 'https://www.ablogtowatch.com/hands-on-debut-unimatic-modello-quattro-toolwatch-ut4-gmt-watch/', 'aBlogtoWatch article states dimensions of 40mm case, 49mm lug-to-lug, 12mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2799 AND source_url = 'https://www.ablogtowatch.com/hands-on-debut-unimatic-modello-quattro-toolwatch-ut4-gmt-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 40mm case, 47mm lug-to-lug, 11.9mm thickness, and 20mm lug width.' WHERE watch_id = 2800 AND source_url = 'https://www.ablogtowatch.com/actually-affordable-tuseno-shellback-v2-dive-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2800, 'https://www.ablogtowatch.com/actually-affordable-tuseno-shellback-v2-dive-watch/', 'aBlogtoWatch article states dimensions of 40mm case, 47mm lug-to-lug, 11.9mm thickness, and 20mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2800 AND source_url = 'https://www.ablogtowatch.com/actually-affordable-tuseno-shellback-v2-dive-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 40.5mm case, 47mm lug-to-lug, 10.8mm thickness.' WHERE watch_id = 2801 AND source_url = 'https://www.ablogtowatch.com/hands-on-delma-midland-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2801, 'https://www.ablogtowatch.com/hands-on-delma-midland-watch/', 'aBlogtoWatch article states dimensions of 40.5mm case, 47mm lug-to-lug, 10.8mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2801 AND source_url = 'https://www.ablogtowatch.com/hands-on-delma-midland-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 41mm case, 48mm lug-to-lug, 14mm thickness.' WHERE watch_id = 2802 AND source_url = 'https://www.ablogtowatch.com/watch-review-marathon-jeep-rubicon-gsar-41mm-automatic-collaboration/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2802, 'https://www.ablogtowatch.com/watch-review-marathon-jeep-rubicon-gsar-41mm-automatic-collaboration/', 'aBlogtoWatch article states dimensions of 41mm case, 48mm lug-to-lug, 14mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2802 AND source_url = 'https://www.ablogtowatch.com/watch-review-marathon-jeep-rubicon-gsar-41mm-automatic-collaboration/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 43mm case, 53mm lug-to-lug, 14mm thickness.' WHERE watch_id = 2803 AND source_url = 'https://www.ablogtowatch.com/review-victorinox-dive-pro-titanium-quartz-automatic-watches/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2803, 'https://www.ablogtowatch.com/review-victorinox-dive-pro-titanium-quartz-automatic-watches/', 'aBlogtoWatch article states dimensions of 43mm case, 53mm lug-to-lug, 14mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2803 AND source_url = 'https://www.ablogtowatch.com/review-victorinox-dive-pro-titanium-quartz-automatic-watches/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 41mm case, 47.12mm lug-to-lug, 13.75mm thickness.' WHERE watch_id = 2804 AND source_url = 'https://www.ablogtowatch.com/hands-on-debut-christopher-ward-c65-super-compressor-elite-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2804, 'https://www.ablogtowatch.com/hands-on-debut-christopher-ward-c65-super-compressor-elite-watch/', 'aBlogtoWatch article states dimensions of 41mm case, 47.12mm lug-to-lug, 13.75mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2804 AND source_url = 'https://www.ablogtowatch.com/hands-on-debut-christopher-ward-c65-super-compressor-elite-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 38.5mm case, 47mm lug-to-lug, 10.7mm thickness, and 20mm lug width.' WHERE watch_id = 2805 AND source_url = 'https://www.ablogtowatch.com/new-release-monta-noble-voyager-gmt-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2805, 'https://www.ablogtowatch.com/new-release-monta-noble-voyager-gmt-watch/', 'aBlogtoWatch article states dimensions of 38.5mm case, 47mm lug-to-lug, 10.7mm thickness, and 20mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2805 AND source_url = 'https://www.ablogtowatch.com/new-release-monta-noble-voyager-gmt-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 39mm case, 47.7mm lug-to-lug, 10.85mm thickness, and 20mm lug width.' WHERE watch_id = 2806 AND source_url = 'https://www.ablogtowatch.com/new-release-airain-type-20-x-seconde-seconde-up-in-the-air-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2806, 'https://www.ablogtowatch.com/new-release-airain-type-20-x-seconde-seconde-up-in-the-air-watch/', 'aBlogtoWatch article states dimensions of 39mm case, 47.7mm lug-to-lug, 10.85mm thickness, and 20mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2806 AND source_url = 'https://www.ablogtowatch.com/new-release-airain-type-20-x-seconde-seconde-up-in-the-air-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 39mm case, 46mm lug-to-lug, 9.5mm thickness, and 19mm lug width.' WHERE watch_id = 2807 AND source_url = 'https://www.ablogtowatch.com/hands-on-yema-navygraf-slim-cmm-20-limited-edition-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2807, 'https://www.ablogtowatch.com/hands-on-yema-navygraf-slim-cmm-20-limited-edition-watch/', 'aBlogtoWatch article states dimensions of 39mm case, 46mm lug-to-lug, 9.5mm thickness, and 19mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2807 AND source_url = 'https://www.ablogtowatch.com/hands-on-yema-navygraf-slim-cmm-20-limited-edition-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 37mm case, 43.5mm lug-to-lug, 7mm thickness, and 20mm lug width.' WHERE watch_id = 2808 AND source_url = 'https://www.ablogtowatch.com/hands-on-debut-zelos-nova-37mm-dress-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2808, 'https://www.ablogtowatch.com/hands-on-debut-zelos-nova-37mm-dress-watch/', 'aBlogtoWatch article states dimensions of 37mm case, 43.5mm lug-to-lug, 7mm thickness, and 20mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2808 AND source_url = 'https://www.ablogtowatch.com/hands-on-debut-zelos-nova-37mm-dress-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 38mm case, 44.7mm lug-to-lug, 12.1mm thickness, and 18mm lug width.' WHERE watch_id = 2809 AND source_url = 'https://www.ablogtowatch.com/new-release-breitling-endurance-pro-38-watches/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2809, 'https://www.ablogtowatch.com/new-release-breitling-endurance-pro-38-watches/', 'aBlogtoWatch article states dimensions of 38mm case, 44.7mm lug-to-lug, 12.1mm thickness, and 18mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2809 AND source_url = 'https://www.ablogtowatch.com/new-release-breitling-endurance-pro-38-watches/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 40mm case, 47.8mm lug-to-lug, 13.2mm thickness.' WHERE watch_id = 2810 AND source_url = 'https://www.ablogtowatch.com/hands-on-islander-port-jefferson-gmt-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2810, 'https://www.ablogtowatch.com/hands-on-islander-port-jefferson-gmt-watch/', 'aBlogtoWatch article states dimensions of 40mm case, 47.8mm lug-to-lug, 13.2mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2810 AND source_url = 'https://www.ablogtowatch.com/hands-on-islander-port-jefferson-gmt-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 44.4mm case, 49.3mm lug-to-lug, 11.9mm thickness.' WHERE watch_id = 2811 AND source_url = 'https://www.ablogtowatch.com/casio-g-shock-updates-the-g-steel-2100-series-watch-with-new-metal-covered-bezels-and-colorful-dials/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2811, 'https://www.ablogtowatch.com/casio-g-shock-updates-the-g-steel-2100-series-watch-with-new-metal-covered-bezels-and-colorful-dials/', 'aBlogtoWatch article states dimensions of 44.4mm case, 49.3mm lug-to-lug, 11.9mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2811 AND source_url = 'https://www.ablogtowatch.com/casio-g-shock-updates-the-g-steel-2100-series-watch-with-new-metal-covered-bezels-and-colorful-dials/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 38mm case, 45mm lug-to-lug, 10.1mm thickness.' WHERE watch_id = 2812 AND source_url = 'https://www.ablogtowatch.com/celebrate-equity-and-equality-with-code41s-unify-watch-collection/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2812, 'https://www.ablogtowatch.com/celebrate-equity-and-equality-with-code41s-unify-watch-collection/', 'aBlogtoWatch article states dimensions of 38mm case, 45mm lug-to-lug, 10.1mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2812 AND source_url = 'https://www.ablogtowatch.com/celebrate-equity-and-equality-with-code41s-unify-watch-collection/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 44.4mm case, 39.2mm lug-to-lug, 12.1mm thickness.' WHERE watch_id = 2813 AND source_url = 'https://www.ablogtowatch.com/new-release-hautlence-retrovision-47-watch/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2813, 'https://www.ablogtowatch.com/new-release-hautlence-retrovision-47-watch/', 'aBlogtoWatch article states dimensions of 44.4mm case, 39.2mm lug-to-lug, 12.1mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2813 AND source_url = 'https://www.ablogtowatch.com/new-release-hautlence-retrovision-47-watch/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 40.5mm case, 47mm lug-to-lug, 12mm thickness.' WHERE watch_id = 2814 AND source_url = 'https://www.ablogtowatch.com/watch-review-bremont-terra-nova-40-5-turning-bezel-power-reserve/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2814, 'https://www.ablogtowatch.com/watch-review-bremont-terra-nova-40-5-turning-bezel-power-reserve/', 'aBlogtoWatch article states dimensions of 40.5mm case, 47mm lug-to-lug, 12mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2814 AND source_url = 'https://www.ablogtowatch.com/watch-review-bremont-terra-nova-40-5-turning-bezel-power-reserve/');
+UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 41mm case, 47.4mm lug-to-lug, 9.85mm thickness.' WHERE watch_id = 2815 AND source_url = 'https://www.ablogtowatch.com/new-release-swatch-olympic-games-paris-2024-watches/';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2815, 'https://www.ablogtowatch.com/new-release-swatch-olympic-games-paris-2024-watches/', 'aBlogtoWatch article states dimensions of 41mm case, 47.4mm lug-to-lug, 9.85mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2815 AND source_url = 'https://www.ablogtowatch.com/new-release-swatch-olympic-games-paris-2024-watches/');

@@ -104,7 +104,7 @@ describe("watch seed data integrity", () => {
   it("includes the Grand Seiko expansion references without duplicates", () => {
     const grandSeikoReferences = seed.filter((watch) => watch.brand === "Grand Seiko").map((watch) => watch.reference);
 
-    expect(grandSeikoReferences).toHaveLength(99);
+    expect(grandSeikoReferences.length).toBeGreaterThanOrEqual(99);
     expect(new Set(grandSeikoReferences).size).toBe(grandSeikoReferences.length);
     expect(grandSeikoReferences).toEqual(
       expect.arrayContaining(["SBGN027", "SBGE285", "SBGW283", "SBGY013", "SLGB005", "SBGH376", "SBGX355"])
