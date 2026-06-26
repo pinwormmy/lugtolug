@@ -15385,6 +15385,10 @@
       {
         "sourceUrl": "https://www.seikowatches.com/kr-ko/products/presage/spb497j1",
         "note": "Manufacturer page: 40.6 mm case, 49.1 mm lug-to-lug, 12.5 mm thickness, and 20 mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-seiko-presage-classic-series-unglazed-arita-porcelain-dial-spb497-watch/",
+        "note": "aBlogtoWatch article states dimensions of 40.6mm case, 49.1mm lug-to-lug, 12.5mm thickness, and 20mm lug width."
       }
     ]
   },
@@ -43501,6 +43505,1606 @@
       {
         "sourceUrl": "https://www.ablogtowatch.com/jack-mason-introduces-born-raised-founder-release-model-with-palmera-skin-diver-watch/",
         "note": "aBlogtoWatch release coverage lists 39mm diameter, 47mm lug-to-lug, 10.8mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2614,
+    "brand": "Tudor",
+    "model": "Black Bay Chrono 39 Bumblebee",
+    "reference": "Black Bay Chrono 39 Bumblebee",
+    "lugToLugMm": 47,
+    "caseMm": 39,
+    "thicknessMm": 13.1,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/tudor-black-bay-chrono-39-bumblebee-watch-review-slimming-down-a-great-value-in-swiss-chronographs/",
+        "note": "aBlogtoWatch article states dimensions of 39mm case, 47mm lug-to-lug, 13.1mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2615,
+    "brand": "Tsar Bomba",
+    "model": "Light Matter",
+    "reference": "Light Matter",
+    "lugToLugMm": 51,
+    "caseMm": 45,
+    "thicknessMm": 14.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/tsar-bomba-light-matter-review-a-surprisingly-beautiful-affordable-tonneau-shaped-sapphire-watch/",
+        "note": "aBlogtoWatch article states dimensions of 45mm case, 51mm lug-to-lug, 14.3mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2616,
+    "brand": "NORQAIN",
+    "model": "Wild ONE Maroon Meteorite Special-Edition",
+    "reference": "Wild ONE Maroon Meteorite",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/norqain-wild-one-maroon-meteorite-special-edition-watch-with-real-space-metal-hands-on/",
+        "note": "aBlogtoWatch article states dimensions of 42mm case, 49.4mm lug-to-lug, 12.3mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2617,
+    "brand": "Bremont",
+    "model": "Altitude MB Meteor Time Zones",
+    "reference": "Altitude MB Meteor Time Zones",
+    "lugToLugMm": 49.3,
+    "caseMm": 42,
+    "thicknessMm": 12.23,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-the-bremont-altitude-mb-meteor-time-zones-marks-a-return-to-form-for-the-brand/",
+        "note": "aBlogtoWatch article states dimensions of 42mm case, 49.3mm lug-to-lug, 12.23mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2618,
+    "brand": "Straum",
+    "model": "Jan Mayen Titanium Purple Borealis",
+    "reference": "Jan Mayen Titanium Purple Borealis",
+    "lugToLugMm": 45.7,
+    "caseMm": 38.7,
+    "thicknessMm": 11.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/straum-jan-mayen-titanium-purple-borealis-watch-review-heavy-metal-sensible/",
+        "note": "aBlogtoWatch article states dimensions of 38.7mm case, 45.7mm lug-to-lug, 11.5mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2619,
+    "brand": "Citizen",
+    "model": "Promaster Land GMT",
+    "reference": "Promaster Land GMT",
+    "lugToLugMm": 45,
+    "caseMm": 39.5,
+    "thicknessMm": 13.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-the-citizen-promaster-land-gmt-watch-adds-a-second-timezone-to-a-fan-favorite-design/",
+        "note": "aBlogtoWatch article states dimensions of 39.5mm case, 45mm lug-to-lug, 13.5mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2620,
+    "brand": "Filippo Loreti",
+    "model": "Atelier Loreti Celestial Tourbillon",
+    "reference": "Atelier Loreti Celestial Tourbillon",
+    "lugToLugMm": 49,
+    "caseMm": 42,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/filippo-loreti-atelier-loreti-celestial-tourbillon-review-redefining-a-once-haute-complication/",
+        "note": "aBlogtoWatch article states dimensions of 42mm case, 49mm lug-to-lug, 14mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2621,
+    "brand": "Cartier",
+    "model": "Prive Tank Normale",
+    "reference": "Tank Normale",
+    "lugToLugMm": 32.6,
+    "caseMm": 25.7,
+    "thicknessMm": 6.85,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-the-cartier-prive-la-collection-tank-normale-celebrates-the-original-1917-design/",
+        "note": "aBlogtoWatch article states dimensions of 25.7mm case, 32.6mm lug-to-lug, 6.85mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2622,
+    "brand": "Jaeger-LeCoultre",
+    "model": "114.100.54 Baby Midas",
+    "reference": "114.100.54",
+    "lugToLugMm": 35,
+    "caseMm": 27.5,
+    "thicknessMm": 5.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/time-machines-diving-into-the-unknown-with-the-1981-jaeger-lecoultre-114-100-54-baby-midas-watch/",
+        "note": "aBlogtoWatch article states dimensions of 27.5mm case, 35mm lug-to-lug, 5.5mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2623,
+    "brand": "Fears",
+    "model": "Brunswick 38 De Stijl Edition",
+    "reference": "Brunswick 38 De Stijl",
+    "lugToLugMm": 42,
+    "caseMm": 38,
+    "thicknessMm": 11.69,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-the-ace-jewelers-x-fears-brunswick-38-de-stijl-edition-watch-brings-dutch-art-to-the-wrist/",
+        "note": "aBlogtoWatch article states dimensions of 38mm case, 42mm lug-to-lug, 11.69mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2624,
+    "brand": "Timex",
+    "model": "Automatic 1983 E Line",
+    "reference": "Automatic 1983 E Line",
+    "lugToLugMm": 41,
+    "caseMm": 34,
+    "thicknessMm": 12.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/actually-affordable-timex-automatic-1983-e-line-watch/",
+        "note": "aBlogtoWatch article states dimensions of 34mm case, 41mm lug-to-lug, 12.5mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2625,
+    "brand": "Sartory-Billard",
+    "model": "SB04-E",
+    "reference": "SB04-E",
+    "lugToLugMm": 46,
+    "caseMm": 39.5,
+    "thicknessMm": 10.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/sartory-billard-sb04-e-hands-on-getting-creative-with-a-skin-tone-stone-dial-and-a-steel-bracelet/",
+        "note": "aBlogtoWatch article states dimensions of 39.5mm case, 46mm lug-to-lug, 10.3mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2626,
+    "brand": "Titan",
+    "model": "Stellar Wandering Hour Automatic",
+    "reference": "Stellar Wandering Hour Automatic",
+    "lugToLugMm": 49.6,
+    "caseMm": 42,
+    "thicknessMm": 13.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/titan-stellar-wandering-hour-automatic-review-an-enthusiast-timepiece-from-indias-biggest-watchmaker/",
+        "note": "aBlogtoWatch article states dimensions of 42mm case, 49.6mm lug-to-lug, 13.9mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2627,
+    "brand": "Traska",
+    "model": "Chronograph",
+    "reference": "Chronograph",
+    "lugToLugMm": 46.5,
+    "caseMm": 39,
+    "thicknessMm": 13.75,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/traska-chronograph-watch-review-is-this-the-watch-that-will-convince-me-to-like-chronographs/",
+        "note": "aBlogtoWatch article states dimensions of 39mm case, 46.5mm lug-to-lug, 13.75mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2628,
+    "brand": "NORQAIN",
+    "model": "Adventure 40mm",
+    "reference": "Adventure 40mm",
+    "lugToLugMm": 48.3,
+    "caseMm": 40,
+    "thicknessMm": 12.55,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-the-norqain-adventure-watches-gets-a-40mm-case-and-a-slew-of-updates/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 48.3mm lug-to-lug, 12.55mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2629,
+    "brand": "Richard Mille",
+    "model": "RM 41-01 Tourbillon Soccer",
+    "reference": "RM 41-01",
+    "lugToLugMm": 49.65,
+    "caseMm": 43.23,
+    "thicknessMm": 16.08,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-the-richard-mille-rm-41-01-tourbillon-soccer-watch-is-a-fully-mechanical-match-tracker/",
+        "note": "aBlogtoWatch article states dimensions of 43.23mm case, 49.65mm lug-to-lug, 16.08mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2630,
+    "brand": "Santurce",
+    "model": "Tiburon & Picua",
+    "reference": "Tiburon & Picua",
+    "lugToLugMm": 40,
+    "caseMm": 39,
+    "thicknessMm": 13,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/santurce-tiburon-picua-watches-review-better-than-average-indie-divers-from-puerto-rico/",
+        "note": "aBlogtoWatch article states dimensions of 39mm case, 40mm lug-to-lug, 13mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2631,
+    "brand": "Jack Mason",
+    "model": "Strat-o-Timer GMT Frontier",
+    "reference": "Strat-o-Timer GMT Frontier",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/jack-mason-strat-o-timer-gmt-frontier/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 47mm lug-to-lug, 13mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2632,
+    "brand": "Astor+Banks",
+    "model": "Terra Scout",
+    "reference": "Terra Scout",
+    "lugToLugMm": 46,
+    "caseMm": 38.5,
+    "thicknessMm": 12.4,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/astor-banks-terra-scout-watch-review-the-chicago-brands-take-on-the-field-watch/",
+        "note": "aBlogtoWatch article states dimensions of 38.5mm case, 46mm lug-to-lug, 12.4mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2633,
+    "brand": "Louis Erard",
+    "model": "2340",
+    "reference": "2340",
+    "lugToLugMm": 39.5,
+    "caseMm": 40,
+    "thicknessMm": 9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/louis-erard-2340-watch-review-the-brands-take-on-the-integrated-sports-watch/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 39.5mm lug-to-lug, 9mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2634,
+    "brand": "Cimier",
+    "model": "47 North",
+    "reference": "47 North",
+    "lugToLugMm": 46,
+    "caseMm": 38,
+    "thicknessMm": 11.25,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/cimier-47-north-review-an-unimpeachably-solid-field-watch/",
+        "note": "aBlogtoWatch article states dimensions of 38mm case, 46mm lug-to-lug, 11.25mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2635,
+    "brand": "Vaer",
+    "model": "C4 Tactical",
+    "reference": "C4 Tactical",
+    "lugToLugMm": 48,
+    "caseMm": 41.5,
+    "thicknessMm": 12.87,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-the-vaer-c4-tactical-is-the-brands-most-rugged-tool-watch/",
+        "note": "aBlogtoWatch article states dimensions of 41.5mm case, 48mm lug-to-lug, 12.87mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2636,
+    "brand": "Delma",
+    "model": "Oceanmaster Lume",
+    "reference": "Oceanmaster Lume",
+    "lugToLugMm": 51,
+    "caseMm": 44,
+    "thicknessMm": 13.8,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/delma-oceanmaster-lume-review-a-lume-centric-dive-watch-for-the-world-of-sailing/",
+        "note": "aBlogtoWatch article states dimensions of 44mm case, 51mm lug-to-lug, 13.8mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2637,
+    "brand": "Oris",
+    "model": "Year Of The Horse Limited Edition",
+    "reference": "Year Of The Horse Limited Edition",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 13.1,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-the-oris-year-of-the-horse-limited-edition-watch-has-a-strap-made-from-its-zodiac-animal/",
+        "note": "aBlogtoWatch article states dimensions of 43mm case, 50mm lug-to-lug, 13.1mm thickness, and 22mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2638,
+    "brand": "Traser",
+    "model": "P96 OdP Color",
+    "reference": "P96 OdP Color",
+    "lugToLugMm": 51,
+    "caseMm": 44,
+    "thicknessMm": 13.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/actually-affordable-traser-p96-odp-color-watch-with-spectralight/",
+        "note": "aBlogtoWatch article states dimensions of 44mm case, 51mm lug-to-lug, 13.5mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2639,
+    "brand": "Vario",
+    "model": "Futurist",
+    "reference": "Futurist",
+    "lugToLugMm": 48,
+    "caseMm": 39,
+    "thicknessMm": 10,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-the-vario-futurist-is-an-ode-to-the-funkiest-watch-styles-from-the-1970s/",
+        "note": "aBlogtoWatch article states dimensions of 39mm case, 48mm lug-to-lug, 10mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2640,
+    "brand": "Aera",
+    "model": "M-1 Dune",
+    "reference": "M-1 Dune",
+    "lugToLugMm": 47.6,
+    "caseMm": 39,
+    "thicknessMm": 13,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/aera-m-1-dune-watch-review-how-to-make-a-modern-watch-without-being-loud-about-it/",
+        "note": "aBlogtoWatch article states dimensions of 39mm case, 47.6mm lug-to-lug, 13mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2641,
+    "brand": "Spinnaker",
+    "model": "Croft 39 GMT Automatic",
+    "reference": "Croft 39 GMT Automatic",
+    "lugToLugMm": 47,
+    "caseMm": 39,
+    "thicknessMm": 13,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/spinnaker-croft-39-gmt-automatic-review-vacation-vibes-with-three-time-zones/",
+        "note": "aBlogtoWatch article states dimensions of 39mm case, 47mm lug-to-lug, 13mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2642,
+    "brand": "Urwerk",
+    "model": "UR-230 Black Star",
+    "reference": "UR-230 Black Star",
+    "lugToLugMm": 53.55,
+    "caseMm": 44.8,
+    "thicknessMm": 14.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-the-urwerk-ur-230-black-star-completes-the-trilogy-of-ur-230-watches/",
+        "note": "aBlogtoWatch article states dimensions of 44.8mm case, 53.55mm lug-to-lug, 14.3mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2643,
+    "brand": "March LA.B",
+    "model": "Mansart Small Second",
+    "reference": "Mansart Small Second",
+    "lugToLugMm": 39,
+    "caseMm": 35,
+    "thicknessMm": 11.1,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/march-la-b-mansart-small-second-review-a-bold-yet-elegant-dress-watch/",
+        "note": "aBlogtoWatch article states dimensions of 35mm case, 39mm lug-to-lug, 11.1mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2644,
+    "brand": "AVI-8",
+    "model": "Automatic 1942 Pixel Limited-Edition",
+    "reference": "Automatic 1942 Pixel",
+    "lugToLugMm": 56,
+    "caseMm": 42,
+    "thicknessMm": 13.8,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/avi-8-automatic-1942-pixel-limited-edition-watch-review-retro-video-game-pilot-style-fun/",
+        "note": "aBlogtoWatch article states dimensions of 42mm case, 56mm lug-to-lug, 13.8mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2645,
+    "brand": "Peren",
+    "model": "Regia Lunar Eclipse Dark",
+    "reference": "Regia Lunar Eclipse Dark",
+    "lugToLugMm": 45.3,
+    "caseMm": 39,
+    "thicknessMm": 12.8,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/peren-regia-lunar-eclipse-dark-review-an-aggressively-priced-modern-39mm-swiss-tool-watch/",
+        "note": "aBlogtoWatch article states dimensions of 39mm case, 45.3mm lug-to-lug, 12.8mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2646,
+    "brand": "RZE",
+    "model": "UTD-8000-CKG",
+    "reference": "UTD-8000-CKG",
+    "lugToLugMm": 49.5,
+    "caseMm": 42,
+    "thicknessMm": 13.4,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-the-rze-utd-8000-ckg-in-green-cerakote-celebrates-1990s-dad-watch-nostalgia/",
+        "note": "aBlogtoWatch article states dimensions of 42mm case, 49.5mm lug-to-lug, 13.4mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2647,
+    "brand": "Vaer",
+    "model": "DS2 Meridian Dive",
+    "reference": "DS2 Meridian Dive",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/actually-affordable-vaer-ds2-meridian-dive-watch/",
+        "note": "aBlogtoWatch article states dimensions of 39mm case, 46mm lug-to-lug, 10.4mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2648,
+    "brand": "Timex",
+    "model": "Marlin Quartz GMT",
+    "reference": "Marlin Quartz GMT",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/timex-marlin-quartz-gmt-review-how-good-is-a-199-gmt-watch/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 48mm lug-to-lug, 13mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2649,
+    "brand": "Favre Leuba",
+    "model": "Sea Sky Revival",
+    "reference": "Sea Sky Revival",
+    "lugToLugMm": 49,
+    "caseMm": 40,
+    "thicknessMm": 15.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/favre-leuba-sea-sky-revival-review-a-satisfying-retro-hybrid-sports-watch-in-brown/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 49mm lug-to-lug, 15.2mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2650,
+    "brand": "Jack Mason",
+    "model": "Strat-O-Timer Titanium Diver GMT",
+    "reference": "Strat-O-Timer Titanium Diver GMT",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-the-jack-mason-strat-o-timer-titanium-diver-gmt-watch-levels-up-a-fan-favorite/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 47mm lug-to-lug, 13mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2651,
+    "brand": "Haim",
+    "model": "Annum",
+    "reference": "Annum",
+    "lugToLugMm": 45,
+    "caseMm": 38,
+    "thicknessMm": 12,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-the-haim-annum-watch-brings-an-annual-calendar-to-the-microbrand-scene/",
+        "note": "aBlogtoWatch article states dimensions of 38mm case, 45mm lug-to-lug, 12mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2652,
+    "brand": "Casio",
+    "model": "G-Shock MRGB5000HT-1",
+    "reference": "MRGB5000HT-1",
+    "lugToLugMm": 49.4,
+    "caseMm": 43.2,
+    "thicknessMm": 12.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/casio-g-shock-mrgb5000ht-1-watch-review-hand-hammered-discreet-luxury-meets-practicality/",
+        "note": "aBlogtoWatch article states dimensions of 43.2mm case, 49.4mm lug-to-lug, 12.9mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2653,
+    "brand": "Movado",
+    "model": "Heritage 1917 Automatic 35mm",
+    "reference": "Heritage 1917 Automatic",
+    "lugToLugMm": 44.6,
+    "caseMm": 35,
+    "thicknessMm": 9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/watch-review-movado-heritage-1917-automatic-35mm/",
+        "note": "aBlogtoWatch article states dimensions of 35mm case, 44.6mm lug-to-lug, 9mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2654,
+    "brand": "NORQAIN",
+    "model": "Independence Skeleton Chrono 42mm",
+    "reference": "Independence Skeleton Chrono 42mm",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-norqain-independence-skeleton-chrono-42mm-watches/",
+        "note": "aBlogtoWatch article states dimensions of 42mm case, 50mm lug-to-lug, 14mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2655,
+    "brand": "Timex",
+    "model": "Deepwater Meridian 200 Automatic",
+    "reference": "Deepwater Meridian 200",
+    "lugToLugMm": 51,
+    "caseMm": 44,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/watch-review-timex-deepwater-meridian-200-automatic/",
+        "note": "aBlogtoWatch article states dimensions of 44mm case, 51mm lug-to-lug, 14mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2656,
+    "brand": "AXIA Time",
+    "model": "NGA Argos Collaboration",
+    "reference": "NGA Argos",
+    "lugToLugMm": 47.8,
+    "caseMm": 42,
+    "thicknessMm": 13.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/from-seabed-to-space-with-the-axia-time-nga-argos-collaboration-watch/",
+        "note": "aBlogtoWatch article states dimensions of 42mm case, 47.8mm lug-to-lug, 13.3mm thickness, and 22mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2657,
+    "brand": "RZE",
+    "model": "Urbanist BubbleGum Solar Field",
+    "reference": "Urbanist BubbleGum Solar Field",
+    "lugToLugMm": 43,
+    "caseMm": 36,
+    "thicknessMm": 11,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-rze-urbanist-bubblegum-solar-field-watch/",
+        "note": "aBlogtoWatch article states dimensions of 36mm case, 43mm lug-to-lug, 11mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2658,
+    "brand": "Papar",
+    "model": "Cenote Dive",
+    "reference": "Cenote Dive",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-papar-cenote-dive-watch/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 47mm lug-to-lug, 10.9mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2659,
+    "brand": "Crafter Blue",
+    "model": "Mechanic Ocean Mark II Dive",
+    "reference": "Mechanic Ocean Mark II",
+    "lugToLugMm": 51.5,
+    "caseMm": 41,
+    "thicknessMm": 13.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/actually-affordable-crafter-blue-mechanic-ocean-mark-ii-dive-watch/",
+        "note": "aBlogtoWatch article states dimensions of 41mm case, 51.5mm lug-to-lug, 13.5mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2660,
+    "brand": "Hamilton",
+    "model": "Khaki Field Power Reserve",
+    "reference": "Khaki Field Power Reserve",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 12,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/watch-review-hamilton-khaki-field-power-reserve/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 47mm lug-to-lug, 12mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2661,
+    "brand": "Doxa",
+    "model": "SUB 750T",
+    "reference": "SUB 750T",
+    "lugToLugMm": 47,
+    "caseMm": 45,
+    "thicknessMm": 11.95,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-doxa-sub-750t-dive-watches/",
+        "note": "aBlogtoWatch article states dimensions of 45mm case, 47mm lug-to-lug, 11.95mm thickness, and 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2662,
+    "brand": "Unimatic",
+    "model": "Diving Heritage GMT Tropical Brown",
+    "reference": "Diving Heritage GMT Tropical Brown",
+    "lugToLugMm": 49,
+    "caseMm": 41.5,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/watch-review-unimatic-diving-heritage-gmt-tropical-brown/",
+        "note": "aBlogtoWatch article states dimensions of 41.5mm case, 49mm lug-to-lug, 14mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2663,
+    "brand": "Berneron",
+    "model": "Quantieme Annuel",
+    "reference": "Quantieme Annuel",
+    "lugToLugMm": 45,
+    "caseMm": 38,
+    "thicknessMm": 10,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-berneron-quantieme-annuel-watch/",
+        "note": "aBlogtoWatch article states dimensions of 38mm case, 45mm lug-to-lug, 10mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2664,
+    "brand": "Favre Leuba",
+    "model": "Chief Skeleton",
+    "reference": "Chief Skeleton",
+    "lugToLugMm": 47.59,
+    "caseMm": 40,
+    "thicknessMm": 11.76,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-favre-leuba-chief-skeleton-watch/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 47.59mm lug-to-lug, 11.76mm thickness, and 22mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2665,
+    "brand": "Casio",
+    "model": "Baby-G BGA-10 Playful Hearts",
+    "reference": "BGA-10 Playful Hearts",
+    "lugToLugMm": 46.6,
+    "caseMm": 42.1,
+    "thicknessMm": 11.4,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-casio-baby-g-bga-10-playful-hearts-watch/",
+        "note": "aBlogtoWatch article states dimensions of 42.1mm case, 46.6mm lug-to-lug, 11.4mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2666,
+    "brand": "Glashutte Original",
+    "model": "PanoMaticCalendar Blue of Dawn",
+    "reference": "PanoMaticCalendar Blue of Dawn",
+    "lugToLugMm": 49.28,
+    "caseMm": 42,
+    "thicknessMm": 12.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-glashutte-original-panomaticcalendar-blue-of-dawn-watch/",
+        "note": "aBlogtoWatch article states dimensions of 42mm case, 49.28mm lug-to-lug, 12.4mm thickness, and 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2667,
+    "brand": "Casio",
+    "model": "G-Shock GMD-B300",
+    "reference": "GMD-B300",
+    "lugToLugMm": 46.4,
+    "caseMm": 43.8,
+    "thicknessMm": 12,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-casio-g-shock-gmd-b300-smaller-sized-bluetooth-activity-watch/",
+        "note": "aBlogtoWatch article states dimensions of 43.8mm case, 46.4mm lug-to-lug, 12mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2668,
+    "brand": "Armitron",
+    "model": "Knox",
+    "reference": "Knox",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 9.6,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/actually-affordable-armitron-knox-watch-genuine-diamonds/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 48mm lug-to-lug, 9.6mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2669,
+    "brand": "Certina",
+    "model": "DS-X GMT",
+    "reference": "DS-X GMT",
+    "lugToLugMm": 48.2,
+    "caseMm": 41.2,
+    "thicknessMm": 12.15,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-certina-ds-x-gmt-watch/",
+        "note": "aBlogtoWatch article states dimensions of 41.2mm case, 48.2mm lug-to-lug, 12.15mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2670,
+    "brand": "Timex",
+    "model": "x seconde/seconde/ IYKYK Smurf",
+    "reference": "IYKYK Smurf",
+    "lugToLugMm": 44.8,
+    "caseMm": 38,
+    "thicknessMm": 11.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-timex-x-seconde-seconde-iykyk-smurf-watch/",
+        "note": "aBlogtoWatch article states dimensions of 38mm case, 44.8mm lug-to-lug, 11.5mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2671,
+    "brand": "Loci",
+    "model": "Pacific Coast Highway",
+    "reference": "Pacific Coast Highway",
+    "lugToLugMm": 48,
+    "caseMm": 39.5,
+    "thicknessMm": 10.8,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-loci-pacific-coast-highway-watch/",
+        "note": "aBlogtoWatch article states dimensions of 39.5mm case, 48mm lug-to-lug, 10.8mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2672,
+    "brand": "Formex",
+    "model": "Essence 41mm Space Ghost",
+    "reference": "Essence Space Ghost",
+    "lugToLugMm": 46.5,
+    "caseMm": 41,
+    "thicknessMm": 10.6,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-formex-essence-41mm-space-ghost-watch/",
+        "note": "aBlogtoWatch article states dimensions of 41mm case, 46.5mm lug-to-lug, 10.6mm thickness, and 22mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2673,
+    "brand": "Vostra",
+    "model": "Vector Chronograph",
+    "reference": "Vector Chronograph",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 11.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-vostra-vector-chronograph-watch/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 47mm lug-to-lug, 11.6mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2674,
+    "brand": "Nuun",
+    "model": "Origen Anti-Shock Crew",
+    "reference": "Origen Anti-Shock Crew",
+    "lugToLugMm": 47,
+    "caseMm": 40.5,
+    "thicknessMm": 11,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/watch-review-nuun-origen-anti-shock-crew/",
+        "note": "aBlogtoWatch article states dimensions of 40.5mm case, 47mm lug-to-lug, 11mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2675,
+    "brand": "TITONI",
+    "model": "Seascoper Chronograph",
+    "reference": "Seascoper Chronograph",
+    "lugToLugMm": 52.3,
+    "caseMm": 42,
+    "thicknessMm": 16,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-titoni-seascoper-chronograph-watch/",
+        "note": "aBlogtoWatch article states dimensions of 42mm case, 52.3mm lug-to-lug, 16mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2676,
+    "brand": "NOMOS",
+    "model": "Ace Jewelers x NOMOS Metro neomatik Orange",
+    "reference": "Metro neomatik Orange",
+    "lugToLugMm": 42.1,
+    "caseMm": 35,
+    "thicknessMm": 8.1,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-ace-jewelers-x-nomos-metro-neomatik-orange-watches/",
+        "note": "aBlogtoWatch article states dimensions of 35mm case, 42.1mm lug-to-lug, 8.1mm thickness, and 17mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2677,
+    "brand": "Hampden",
+    "model": "Model 1 Sullivan",
+    "reference": "Model 1 Sullivan",
+    "lugToLugMm": 51,
+    "caseMm": 42,
+    "thicknessMm": 12,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/watch-review-hampden-model-1-sullivan/",
+        "note": "aBlogtoWatch article states dimensions of 42mm case, 51mm lug-to-lug, 12mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2678,
+    "brand": "Vario x RZE",
+    "model": "UltraHex Trench",
+    "reference": "UltraHex Trench",
+    "lugToLugMm": 45,
+    "caseMm": 37,
+    "thicknessMm": 10,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-vario-x-rze-ultrahex-trench-watch/",
+        "note": "aBlogtoWatch article states dimensions of 37mm case, 45mm lug-to-lug, 10mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2679,
+    "brand": "Maurice de Mauriac",
+    "model": "Racquet Rallymaster III",
+    "reference": "Racquet Rallymaster III",
+    "lugToLugMm": 47,
+    "caseMm": 39,
+    "thicknessMm": 12,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-maurice-de-mauriac-x-racquet-rallymaster-iii-tennis-themed-watch/",
+        "note": "aBlogtoWatch article states dimensions of 39mm case, 47mm lug-to-lug, 12mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2680,
+    "brand": "Citizen",
+    "model": "Promaster Dive 41mm BN0261-51E",
+    "reference": "BN0261-51E",
+    "lugToLugMm": 47.5,
+    "caseMm": 41,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/actually-affordable-citizen-promaster-dive-41mm-bn0261-51e-watch/",
+        "note": "aBlogtoWatch article states dimensions of 41mm case, 47.5mm lug-to-lug, 11.5mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2681,
+    "brand": "Traser",
+    "model": "P99 Iris Limited-Edition",
+    "reference": "P99 Iris",
+    "lugToLugMm": 54,
+    "caseMm": 46,
+    "thicknessMm": 16.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-traser-p99-iris-limited-edition-watch/",
+        "note": "aBlogtoWatch article states dimensions of 46mm case, 54mm lug-to-lug, 16.5mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2682,
+    "brand": "Piaget",
+    "model": "Andy Warhol",
+    "reference": "Andy Warhol",
+    "lugToLugMm": 43,
+    "caseMm": 45,
+    "thicknessMm": 8.08,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-piaget-andy-warhol-watch/",
+        "note": "aBlogtoWatch article states dimensions of 45mm case, 43mm lug-to-lug, 8.08mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2683,
+    "brand": "NORQAIN",
+    "model": "Independence Skeleton 40mm",
+    "reference": "Independence Skeleton 40mm",
+    "lugToLugMm": 46.3,
+    "caseMm": 40,
+    "thicknessMm": 12.05,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-norqain-independence-skeleton-40mm-watches/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 46.3mm lug-to-lug, 12.05mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2684,
+    "brand": "Louis Erard",
+    "model": "x Konstantin Chaykin Time Eater Tourbillon",
+    "reference": "Time Eater Tourbillon",
+    "lugToLugMm": 49.6,
+    "caseMm": 42,
+    "thicknessMm": 12.65,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-louis-erard-x-konstantin-chaykin-time-eater-tourbillon-watches/",
+        "note": "aBlogtoWatch article states dimensions of 42mm case, 49.6mm lug-to-lug, 12.65mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2685,
+    "brand": "Mu:n",
+    "model": "Orion Moonphase",
+    "reference": "Orion Moonphase",
+    "lugToLugMm": 46,
+    "caseMm": 38,
+    "thicknessMm": 10.6,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-mun-orion-moonphase-watch/",
+        "note": "aBlogtoWatch article states dimensions of 38mm case, 46mm lug-to-lug, 10.6mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2686,
+    "brand": "Casio",
+    "model": "G-Shock MR-G Goliath Frogman MRGBF1000RG3",
+    "reference": "MRGBF1000RG3",
+    "lugToLugMm": 56,
+    "caseMm": 49.7,
+    "thicknessMm": 18.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-casio-g-shock-mr-g-goliath-frogman-mrgbf1000rg3-dive-watch/",
+        "note": "aBlogtoWatch article states dimensions of 49.7mm case, 56mm lug-to-lug, 18.6mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2687,
+    "brand": "Cornell Watch Company",
+    "model": "Lozier",
+    "reference": "Lozier",
+    "lugToLugMm": 46.8,
+    "caseMm": 37.4,
+    "thicknessMm": 8.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-cornell-watch-company-lozier-with-american-made-components/",
+        "note": "aBlogtoWatch article states dimensions of 37.4mm case, 46.8mm lug-to-lug, 8.5mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2688,
+    "brand": "Jack Mason",
+    "model": "Strat-O-Timer GMT Black Widow",
+    "reference": "Strat-O-Timer GMT Black Widow",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-jack-mason-strat-o-timer-gmt-black-widow-watch/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 47mm lug-to-lug, 13mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2689,
+    "brand": "Depancel",
+    "model": "Allure D[R]IVER Calendar",
+    "reference": "Allure D[R]IVER Calendar",
+    "lugToLugMm": 44,
+    "caseMm": 39,
+    "thicknessMm": 13.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-depancel-allure-driver-calendar-watch/",
+        "note": "aBlogtoWatch article states dimensions of 39mm case, 44mm lug-to-lug, 13.5mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2690,
+    "brand": "Marathon",
+    "model": "SSNAV-D Navigator Blue Yonder & Arctic White",
+    "reference": "SSNAV-D Navigator",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 11,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-marathon-ssnav-d-navigator-blue-yonder-arctic-white-watches/",
+        "note": "aBlogtoWatch article states dimensions of 41mm case, 48mm lug-to-lug, 11mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2691,
+    "brand": "Albishorn",
+    "model": "Type 10 Chronograph",
+    "reference": "Type 10 Chronograph",
+    "lugToLugMm": 47.7,
+    "caseMm": 39,
+    "thicknessMm": 11.1,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/watch-review-albishorn-type-10-chronograph-vintage-style-watch/",
+        "note": "aBlogtoWatch article states dimensions of 39mm case, 47.7mm lug-to-lug, 11.1mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2692,
+    "brand": "Chronoswiss",
+    "model": "Small Second",
+    "reference": "Small Second",
+    "lugToLugMm": 50,
+    "caseMm": 40,
+    "thicknessMm": 11.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/watch-review-chronoswiss-small-second/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 50mm lug-to-lug, 11.5mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2694,
+    "brand": "Schwarz Etienne",
+    "model": "1902 Petite Seconde",
+    "reference": "1902 Petite Seconde",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-schwarz-etienne-1902-petite-seconde-watches/",
+        "note": "aBlogtoWatch article states dimensions of 39mm case, 45mm lug-to-lug, 10.9mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2695,
+    "brand": "Nodus",
+    "model": "Sector II Field Titanium",
+    "reference": "Sector II Field Titanium",
+    "lugToLugMm": 47,
+    "caseMm": 38,
+    "thicknessMm": 11.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/actually-affordable-nodus-sector-ii-field-titanium-watch/",
+        "note": "aBlogtoWatch article states dimensions of 38mm case, 47mm lug-to-lug, 11.7mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2696,
+    "brand": "NOMOS",
+    "model": "Club Campus Starlight And Night Sky",
+    "reference": "Club Campus Starlight And Night Sky",
+    "lugToLugMm": 47.5,
+    "caseMm": 36,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-nomos-club-campus-starlight-and-night-sky-watches/",
+        "note": "aBlogtoWatch article states dimensions of 36mm case, 47.5mm lug-to-lug, 8.2mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2697,
+    "brand": "VicenTerra",
+    "model": "AstroLUNA T1 Aventurine",
+    "reference": "AstroLUNA T1 Aventurine",
+    "lugToLugMm": 51.6,
+    "caseMm": 43.5,
+    "thicknessMm": 13.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/watch-review-vicenterra-astroluna-t1-aventurine/",
+        "note": "aBlogtoWatch article states dimensions of 43.5mm case, 51.6mm lug-to-lug, 13.5mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2698,
+    "brand": "Formex",
+    "model": "Essence Ceramica Skeleton 41mm",
+    "reference": "Essence Ceramica Skeleton 41mm",
+    "lugToLugMm": 46.4,
+    "caseMm": 41,
+    "thicknessMm": 11.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/watch-review-formex-essence-ceramica-skeleton-41mm/",
+        "note": "aBlogtoWatch article states dimensions of 41mm case, 46.4mm lug-to-lug, 11.2mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2699,
+    "brand": "Formex",
+    "model": "Field Automatic Gen 2",
+    "reference": "Field Automatic Gen 2",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-formex-field-automatic-gen-2-watches/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 48mm lug-to-lug, 10.5mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2700,
+    "brand": "Casio",
+    "model": "G-Shock GMC-B2100ZE-1A",
+    "reference": "GMC-B2100ZE-1A",
+    "lugToLugMm": 51.3,
+    "caseMm": 46.3,
+    "thicknessMm": 12.4,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-casio-g-shock-gmc-b2100ze-1a-50th-anniversary-watch/",
+        "note": "aBlogtoWatch article states dimensions of 46.3mm case, 51.3mm lug-to-lug, 12.4mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2701,
+    "brand": "TAG Heuer",
+    "model": "Carrera Chronograph 44mm Steel & Ceramic",
+    "reference": "Carrera Chronograph 44mm Steel & Ceramic",
+    "lugToLugMm": 48,
+    "caseMm": 44,
+    "thicknessMm": 15,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/watch-review-tag-heuer-carrera-chronograph-44mm-steel-ceramic/",
+        "note": "aBlogtoWatch article states dimensions of 44mm case, 48mm lug-to-lug, 15mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2702,
+    "brand": "Lobner",
+    "model": "Steelracer Asymmetric Chronograph",
+    "reference": "Steelracer Asymmetric Chronograph",
+    "lugToLugMm": 55,
+    "caseMm": 42.5,
+    "thicknessMm": 14.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/watch-review-lobner-steelracer-asymmetric-chronograph/",
+        "note": "aBlogtoWatch article states dimensions of 42.5mm case, 55mm lug-to-lug, 14.3mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2703,
+    "brand": "CIGA Design",
+    "model": "Z Series Hunter",
+    "reference": "Z Series Hunter",
+    "lugToLugMm": 48,
+    "caseMm": 43,
+    "thicknessMm": 12,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-ciga-design-z-series-hunter-watch/",
+        "note": "aBlogtoWatch article states dimensions of 43mm case, 48mm lug-to-lug, 12mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2704,
+    "brand": "Edox",
+    "model": "Grand Ocean Power Reserve Automatic",
+    "reference": "Grand Ocean Power Reserve",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 13.4,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/watch-review-edox-grand-ocean-power-reserve-automatic/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 48mm lug-to-lug, 13.4mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2705,
+    "brand": "Citizen",
+    "model": "Suratto Ultra-Thin",
+    "reference": "Suratto Ultra-Thin",
+    "lugToLugMm": 44,
+    "caseMm": 38.4,
+    "thicknessMm": 4.71,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/actually-affordable-citizen-suratto-ultra-thin-watch/",
+        "note": "aBlogtoWatch article states dimensions of 38.4mm case, 44mm lug-to-lug, 4.71mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2706,
+    "brand": "Formex",
+    "model": "Essence Space Glacier",
+    "reference": "Essence Space Glacier",
+    "lugToLugMm": 49,
+    "caseMm": 39,
+    "thicknessMm": 10,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-formex-essence-space-glacier-watches/",
+        "note": "aBlogtoWatch article states dimensions of 39mm case, 49mm lug-to-lug, 10mm thickness, and 22mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2707,
+    "brand": "AWAKE",
+    "model": "Son Mai Jurassic",
+    "reference": "Son Mai Jurassic",
+    "lugToLugMm": 45.6,
+    "caseMm": 39,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-awake-son-mai-jurassic-watch/",
+        "note": "aBlogtoWatch article states dimensions of 39mm case, 45.6mm lug-to-lug, 11.8mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2708,
+    "brand": "Doxa",
+    "model": "SUB 250T GMT Exquisite Gulfshore and Afterglow",
+    "reference": "SUB 250T GMT Exquisite",
+    "lugToLugMm": 42.9,
+    "caseMm": 40,
+    "thicknessMm": 10.85,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-doxa-sub-250t-gmt-exquisite-gulfshore-and-afterglow-watches/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 42.9mm lug-to-lug, 10.85mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2709,
+    "brand": "Zenith",
+    "model": "G.F.J.",
+    "reference": "G.F.J.",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 10.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-zenith-g-f-j-watch/",
+        "note": "aBlogtoWatch article states dimensions of 39mm case, 45.75mm lug-to-lug, 10.5mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2710,
+    "brand": "Doxa",
+    "model": "SUB 250T GMT",
+    "reference": "SUB 250T GMT",
+    "lugToLugMm": 42.9,
+    "caseMm": 40,
+    "thicknessMm": 10.85,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-doxa-sub-250t-gmt-watches/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 42.9mm lug-to-lug, 10.85mm thickness, and 18mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2711,
+    "brand": "Urwerk",
+    "model": "UR-230 Polaris",
+    "reference": "UR-230 Polaris",
+    "lugToLugMm": 53.55,
+    "caseMm": 44.81,
+    "thicknessMm": 18.38,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-urwerk-ur-230-polaris-watch/",
+        "note": "aBlogtoWatch article states dimensions of 44.81mm case, 53.55mm lug-to-lug, 18.38mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2712,
+    "brand": "Jaeger-LeCoultre",
+    "model": "Reverso Tribute Minute Repeater",
+    "reference": "Reverso Tribute Minute Repeater",
+    "lugToLugMm": 51.1,
+    "caseMm": 31,
+    "thicknessMm": 12.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-jaeger-lecoultre-reverso-tribute-minute-repeater-watch/",
+        "note": "aBlogtoWatch article states dimensions of 31mm case, 51.1mm lug-to-lug, 12.6mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2713,
+    "brand": "Vaer",
+    "model": "R1 USA Racing Chronograph",
+    "reference": "R1 USA Racing Chronograph",
+    "lugToLugMm": 46,
+    "caseMm": 38,
+    "thicknessMm": 12.6,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-vaer-r1-usa-racing-chronograph-watch/",
+        "note": "aBlogtoWatch article states dimensions of 38mm case, 46mm lug-to-lug, 12.6mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2714,
+    "brand": "NORQAIN",
+    "model": "Wild ONE Skeleton 39mm",
+    "reference": "Wild ONE Skeleton 39mm",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-norqain-wild-one-skeleton-39mm-watches/",
+        "note": "aBlogtoWatch article states dimensions of 39mm case, 45.75mm lug-to-lug, 11.75mm thickness, and 20mm lug width."
       }
     ]
   }
