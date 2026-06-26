@@ -3,6 +3,7 @@ import type { D1 } from "@/lib/db/connection";
 import { mapSubmission, type SubmissionRow } from "@/lib/db/rows";
 import {
   findWatchId,
+  findWatchIdByProductIdentity,
   findWatchIdById,
   getSubmissionWatchSlugs,
   insertApprovedSource,
@@ -90,7 +91,8 @@ export async function updateApprovedSubmission(
   const nextSlugs = getSubmissionWatchSlugs(nextPayload);
   const currentWatch = currentPayload.reportedWatchId
     ? await findWatchIdById(db, currentPayload.reportedWatchId)
-    : await findWatchId(db, currentSlugs);
+    : (await findWatchId(db, currentSlugs)) ??
+      (await findWatchIdByProductIdentity(db, currentSlugs.brandSlug, currentPayload.reference));
   let watchId: number;
 
   if (currentWatch) {
@@ -121,7 +123,9 @@ export async function returnSubmissionToPending(
   if (!db) throw new Error("D1 database is required.");
 
   const slugs = getSubmissionWatchSlugs(payload);
-  const watch = payload.reportedWatchId ? await findWatchIdById(db, payload.reportedWatchId) : await findWatchId(db, slugs);
+  const watch = payload.reportedWatchId
+    ? await findWatchIdById(db, payload.reportedWatchId)
+    : (await findWatchId(db, slugs)) ?? (await findWatchIdByProductIdentity(db, slugs.brandSlug, payload.reference));
   if (watch) {
     await db
       .prepare("UPDATE watches SET status = 'pending', updated_at = CURRENT_TIMESTAMP WHERE id = ?")

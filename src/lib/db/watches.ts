@@ -4,6 +4,7 @@ import { mapSource, mapWatch, type SourceRow, type WatchRow } from "@/lib/db/row
 import { normalizeSearch, slugify } from "@/lib/slug";
 import { searchSeedWatches, seedWatches } from "@/lib/seed";
 import { getSearchTokens, getWatchSearchText, watchMatchesSearchQuery } from "@/lib/watch";
+import { getReferenceProductIdentity } from "@/lib/watchIdentity";
 
 export interface SubmissionWatchSlugs {
   brandSlug: string;
@@ -13,6 +14,11 @@ export interface SubmissionWatchSlugs {
 }
 
 type WatchKeyParts = Pick<Watch, "brandSlug" | "modelSlug" | "referenceSlug">;
+type WatchReferenceIdentityParts = Pick<Watch, "brandSlug" | "reference">;
+interface SuppressedSeedMatches {
+  keys: Set<string>;
+  referenceIdentities: Set<string>;
+}
 const SOURCE_HYDRATION_BATCH_SIZE = 100;
 
 export async function searchWatches(db: D1, query: string): Promise<WatchWithSources[]> {
@@ -31,14 +37,18 @@ export async function searchWatches(db: D1, query: string): Promise<WatchWithSou
   const watches = (await hydrateSources(db, rows.results.map(mapWatch))).filter((watch) =>
     watchMatchesSearchQuery(watch, query)
   );
-  return mergeSeedWatches(watches, searchSeedWatches(query), await listSuppressedSeedKeys(db)).slice(0, 50);
+  return mergeSeedWatches(watches, searchSeedWatches(query), await listSuppressedSeedMatches(db)).slice(0, 50);
 }
 
 export async function listWatches(db: D1): Promise<WatchWithSources[]> {
   if (!db) return seedWatches;
 
   const rows = await db.prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY brand, model").all<WatchRow>();
-  return mergeSeedWatches(await hydrateSources(db, rows.results.map(mapWatch)), seedWatches, await listSuppressedSeedKeys(db));
+  return mergeSeedWatches(
+    await hydrateSources(db, rows.results.map(mapWatch)),
+    seedWatches,
+    await listSuppressedSeedMatches(db)
+  );
 }
 
 export async function listRecentWatches(db: D1, limit = 5): Promise<WatchWithSources[]> {
@@ -49,7 +59,7 @@ export async function listRecentWatches(db: D1, limit = 5): Promise<WatchWithSou
     .bind(limit)
     .all<WatchRow>();
   const watches = await hydrateSources(db, rows.results.map(mapWatch));
-  return mergeRecentSeedWatches(watches, seedWatches, await listSuppressedSeedKeys(db), limit);
+  return mergeRecentSeedWatches(watches, seedWatches, await listSuppressedSeedMatches(db), limit);
 }
 
 export async function listAdminWatches(db: D1, status: WatchStatus | "all" = "pending"): Promise<WatchWithSources[]> {
@@ -139,7 +149,7 @@ export async function listBrandWatches(db: D1, brandSlug: string): Promise<Watch
   return mergeSeedWatches(
     await hydrateSources(db, rows.results.map(mapWatch)),
     seedWatches.filter((watch) => watch.brandSlug === brandSlug),
-    await listSuppressedSeedKeys(db, brandSlug)
+    await listSuppressedSeedMatches(db, brandSlug)
   );
 }
 
@@ -159,15 +169,26 @@ function findSeedWatchBySlugs(
 function mergeSeedWatches(
   watches: WatchWithSources[],
   seeds: WatchWithSources[],
-  suppressedSeedKeys = new Set<string>()
+  suppressedSeedMatches: SuppressedSeedMatches = emptySuppressedSeedMatches()
 ): WatchWithSources[] {
   const merged = [...watches];
   const seen = new Set(watches.map(getWatchKey));
+  const seenReferenceIdentities = new Set(watches.map(getWatchReferenceIdentity).filter(Boolean));
   for (const seed of seeds) {
     const key = getWatchKey(seed);
-    if (seen.has(key) || suppressedSeedKeys.has(key)) continue;
+    const referenceIdentity = getWatchReferenceIdentity(seed);
+    if (
+      seen.has(key) ||
+      suppressedSeedMatches.keys.has(key) ||
+      (referenceIdentity &&
+        (seenReferenceIdentities.has(referenceIdentity) ||
+          suppressedSeedMatches.referenceIdentities.has(referenceIdentity)))
+    ) {
+      continue;
+    }
     merged.push(seed);
     seen.add(key);
+    if (referenceIdentity) seenReferenceIdentities.add(referenceIdentity);
   }
   return merged.sort((a, b) => a.brand.localeCompare(b.brand) || a.model.localeCompare(b.model));
 }
@@ -175,16 +196,26 @@ function mergeSeedWatches(
 function mergeRecentSeedWatches(
   watches: WatchWithSources[],
   seeds: WatchWithSources[],
-  suppressedSeedKeys: Set<string>,
+  suppressedSeedMatches: SuppressedSeedMatches,
   limit: number
 ): WatchWithSources[] {
   const seen = new Set(watches.map(getWatchKey));
+  const seenReferenceIdentities = new Set(watches.map(getWatchReferenceIdentity).filter(Boolean));
   const recentSeeds = seeds
     .slice()
     .sort((a, b) => b.id - a.id)
     .filter((seed) => {
       const key = getWatchKey(seed);
-      return !seen.has(key) && !suppressedSeedKeys.has(key);
+      const referenceIdentity = getWatchReferenceIdentity(seed);
+      const shouldKeep =
+        !seen.has(key) &&
+        !suppressedSeedMatches.keys.has(key) &&
+        (!referenceIdentity ||
+          (!seenReferenceIdentities.has(referenceIdentity) &&
+            !suppressedSeedMatches.referenceIdentities.has(referenceIdentity)));
+
+      if (shouldKeep && referenceIdentity) seenReferenceIdentities.add(referenceIdentity);
+      return shouldKeep;
     });
 
   const emptySlots = Math.max(0, limit - watches.length);
@@ -199,24 +230,43 @@ function getWatchKey(watch: WatchKeyParts): string {
   return `${watch.brandSlug}/${watch.modelSlug}/${watch.referenceSlug}`;
 }
 
-async function listSuppressedSeedKeys(db: D1Database, brandSlug?: string): Promise<Set<string>> {
+function getWatchReferenceIdentity(watch: WatchReferenceIdentityParts): string | null {
+  return getReferenceProductIdentity(watch);
+}
+
+function emptySuppressedSeedMatches(): SuppressedSeedMatches {
+  return {
+    keys: new Set(),
+    referenceIdentities: new Set()
+  };
+}
+
+async function listSuppressedSeedMatches(db: D1Database, brandSlug?: string): Promise<SuppressedSeedMatches> {
   const query = brandSlug
-    ? "SELECT brand_slug, model_slug, reference_slug FROM watches WHERE status != 'approved' AND brand_slug = ?"
-    : "SELECT brand_slug, model_slug, reference_slug FROM watches WHERE status != 'approved'";
+    ? "SELECT brand_slug, model_slug, reference_slug, reference FROM watches WHERE status != 'approved' AND brand_slug = ?"
+    : "SELECT brand_slug, model_slug, reference_slug, reference FROM watches WHERE status != 'approved'";
   const statement = db.prepare(query);
   const rows = brandSlug
-    ? await statement.bind(brandSlug).all<Pick<WatchRow, "brand_slug" | "model_slug" | "reference_slug">>()
-    : await statement.all<Pick<WatchRow, "brand_slug" | "model_slug" | "reference_slug">>();
+    ? await statement.bind(brandSlug).all<Pick<WatchRow, "brand_slug" | "model_slug" | "reference_slug" | "reference">>()
+    : await statement.all<Pick<WatchRow, "brand_slug" | "model_slug" | "reference_slug" | "reference">>();
 
-  return new Set(
-    rows.results.map((row) =>
+  return rows.results.reduce((matches, row) => {
+    matches.keys.add(
       getWatchKey({
         brandSlug: row.brand_slug,
         modelSlug: row.model_slug,
         referenceSlug: row.reference_slug
       })
-    )
-  );
+    );
+
+    const referenceIdentity = getReferenceProductIdentity({
+      brandSlug: row.brand_slug,
+      reference: row.reference
+    });
+    if (referenceIdentity) matches.referenceIdentities.add(referenceIdentity);
+
+    return matches;
+  }, emptySuppressedSeedMatches());
 }
 
 async function hydrateSources(db: D1Database, watches: Watch[]): Promise<WatchWithSources[]> {
@@ -261,7 +311,8 @@ export async function pendingWatch(db: D1, payload: SubmissionPayload): Promise<
   if (!db) throw new Error("D1 database is required.");
 
   const slugs = getSubmissionWatchSlugs(payload);
-  const existing = await findWatchId(db, slugs);
+  const existing =
+    (await findWatchId(db, slugs)) ?? (await findWatchIdByProductIdentity(db, slugs.brandSlug, payload.reference));
   let watchId: number;
 
   if (existing) {
@@ -295,6 +346,12 @@ export async function upsertApprovedWatch(db: D1Database, payload: SubmissionPay
     return existing.id;
   }
 
+  const productIdentityMatch = await findWatchIdByProductIdentity(db, slugs.brandSlug, payload.reference);
+  if (productIdentityMatch) {
+    await updateWatchFromSubmission(db, productIdentityMatch.id, payload, slugs);
+    return productIdentityMatch.id;
+  }
+
   return insertWatchFromSubmission(db, payload, slugs);
 }
 
@@ -311,6 +368,29 @@ export async function findWatchId(db: D1Database, slugs: SubmissionWatchSlugs): 
     .prepare("SELECT id FROM watches WHERE brand_slug = ? AND model_slug = ? AND reference_slug = ?")
     .bind(slugs.brandSlug, slugs.modelSlug, slugs.referenceSlug)
     .first<{ id: number }>();
+}
+
+export async function findWatchIdByProductIdentity(
+  db: D1Database,
+  brandSlug: string,
+  reference: string
+): Promise<{ id: number } | null> {
+  const productIdentity = getReferenceProductIdentity({ brandSlug, reference });
+  if (!productIdentity) return null;
+
+  const rows = await db
+    .prepare(
+      `SELECT id, brand_slug, reference, status, updated_at FROM watches
+       WHERE brand_slug = ? AND status != 'archived'
+       ORDER BY CASE WHEN status = 'approved' THEN 0 ELSE 1 END, updated_at DESC, id DESC`
+    )
+    .bind(brandSlug)
+    .all<Pick<WatchRow, "id" | "brand_slug" | "reference" | "status" | "updated_at">>();
+
+  const match = rows.results.find(
+    (row) => getReferenceProductIdentity({ brandSlug: row.brand_slug, reference: row.reference }) === productIdentity
+  );
+  return match ? { id: match.id } : null;
 }
 
 export async function findWatchIdById(db: D1Database, id: number): Promise<{ id: number } | null> {

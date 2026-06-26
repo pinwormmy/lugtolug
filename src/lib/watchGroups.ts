@@ -1,6 +1,7 @@
 import type { WatchWithSources } from "@/types";
 import { normalizeSearch } from "@/lib/slug";
 import { getWatchSearchText } from "@/lib/watch";
+import { compactReference } from "@/lib/watchIdentity";
 
 export interface WatchDisplayGroup extends WatchWithSources {
   variantCount: number;
@@ -27,7 +28,7 @@ function getDisplayGroupKey(watch: WatchWithSources): string {
 }
 
 export function getCompactReferenceSearchText(reference: string): string {
-  return reference.replace(/[^a-z0-9]+/gi, "").toLowerCase();
+  return compactReference(reference).toLowerCase();
 }
 
 export function shouldUseCompactReferenceSearch(query: string): boolean {

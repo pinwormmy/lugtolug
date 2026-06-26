@@ -7,7 +7,8 @@ import {
   listWatches,
   pendingWatch,
   unpublishWatch,
-  updateWatch
+  updateWatch,
+  upsertApprovedWatch
 } from "@/lib/db/watches";
 import type { SourceRow, WatchRow } from "@/lib/db/rows";
 import { seedWatches } from "@/lib/seed";
@@ -15,6 +16,29 @@ import { seedWatches } from "@/lib/seed";
 function createMockDb(watchRows: WatchRow[], sourceRows: SourceRow[] = []) {
   const prepareCalls: string[] = [];
   const bindCalls: unknown[][] = [];
+  const matchingSlugRows = (args: unknown[]) =>
+    watchRows.filter(
+      (watch) => watch.brand_slug === args[0] && watch.model_slug === args[1] && watch.reference_slug === args[2]
+    );
+  const matchingIdRows = (args: unknown[]) => watchRows.filter((watch) => watch.id === args[0]);
+  const filteredWatchRows = (sql: string, args: unknown[]) => {
+    if (sql.includes("WHERE brand_slug = ? AND model_slug = ? AND reference_slug = ?")) {
+      return matchingSlugRows(args);
+    }
+    if (sql.includes("WHERE id = ?")) return matchingIdRows(args);
+    if (sql.includes("status != 'approved'")) return watchRows.filter((watch) => watch.status !== "approved");
+    if (sql.includes("status != 'archived'") && sql.includes("brand_slug = ?")) {
+      return watchRows.filter((watch) => watch.brand_slug === args[0] && watch.status !== "archived");
+    }
+    if (sql.includes("status = 'pending' OR status = 'draft'")) {
+      return watchRows.filter((watch) => watch.status === "pending" || watch.status === "draft");
+    }
+    if (sql.includes("status = 'approved' AND brand_slug = ?")) {
+      return watchRows.filter((watch) => watch.status === "approved" && watch.brand_slug === args[0]);
+    }
+    if (sql.includes("status = 'approved'")) return watchRows.filter((watch) => watch.status === "approved");
+    return watchRows;
+  };
 
   const db = {
     prepare(sql: string) {
@@ -27,7 +51,7 @@ function createMockDb(watchRows: WatchRow[], sourceRows: SourceRow[] = []) {
           return statement;
         },
         async all() {
-          if (sql.includes("FROM watches")) return { results: watchRows };
+          if (sql.includes("FROM watches")) return { results: filteredWatchRows(sql, boundArgs) };
           if (sql.includes("FROM watch_sources")) {
             const requestedIds = new Set(boundArgs);
             return {
@@ -37,7 +61,7 @@ function createMockDb(watchRows: WatchRow[], sourceRows: SourceRow[] = []) {
           throw new Error(`Unexpected query: ${sql}`);
         },
         async first() {
-          if (sql.includes("FROM watches")) return watchRows[0] ?? null;
+          if (sql.includes("FROM watches")) return filteredWatchRows(sql, boundArgs)[0] ?? null;
           throw new Error(`Unexpected query: ${sql}`);
         },
         async run() {
@@ -130,6 +154,63 @@ describe("recent watches", () => {
         .slice(0, 2)
         .map((watch) => watch.reference)
     );
+  });
+
+  it("deduplicates seed rows by product number when database model names differ", async () => {
+    const { db } = createMockDb([
+      watchRow({
+        id: 7,
+        brand: "Tissot",
+        model: "Seastar1000 Automatic 43mm",
+        reference: "T1204071105100",
+        brand_slug: "tissot",
+        model_slug: "seastar1000-automatic-43mm",
+        reference_slug: "t1204071105100",
+        lug_to_lug_mm: 49,
+        case_mm: 43,
+        thickness_mm: 12.7,
+        lug_width_mm: 21
+      })
+    ]);
+
+    const watches = await listWatches(db);
+    const matches = watches.filter(
+      (watch) => watch.brandSlug === "tissot" && ["T1204071105100", "T120.407.11.051.00"].includes(watch.reference)
+    );
+
+    expect(matches).toHaveLength(1);
+    expect(matches[0].id).toBe(7);
+  });
+
+  it("updates an existing approved product-number match instead of inserting a similar-name duplicate", async () => {
+    const { db, prepareCalls, bindCalls } = createMockDb([
+      watchRow({
+        id: 7,
+        brand: "Tissot",
+        model: "Seastar1000 Automatic 43mm",
+        reference: "T1204071105100",
+        brand_slug: "tissot",
+        model_slug: "seastar1000-automatic-43mm",
+        reference_slug: "t1204071105100"
+      })
+    ]);
+
+    const watchId = await upsertApprovedWatch(db, {
+      brand: "Tissot",
+      model: "Seastar 1000 Automatic 2018",
+      reference: "T120.407.11.051.00",
+      lugToLugMm: 49,
+      caseMm: 43,
+      thicknessMm: 12.7,
+      lugWidthMm: 21,
+      sourceUrl: "https://example.com/tissot"
+    });
+
+    const updateBind = bindCalls.find((args) => args.includes("Seastar 1000 Automatic 2018"));
+    expect(watchId).toBe(7);
+    expect(prepareCalls.some((sql) => sql.includes("INSERT INTO watches"))).toBe(false);
+    expect(prepareCalls.some((sql) => sql.includes("status != 'archived'"))).toBe(true);
+    expect(updateBind).toContain(7);
   });
 
   it("resolves editable watches by slugs instead of a public seed id", async () => {

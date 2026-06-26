@@ -2,13 +2,10 @@ import { describe, expect, it } from "vitest";
 import { readFileSync } from "node:fs";
 import seed from "../../data/watches.seed.json";
 import { searchSeedWatches, seedWatches } from "./seed";
+import { compactReference } from "./watchIdentity";
 import { groupWatchesForDisplay } from "./watchGroups";
 
 const seedSql = readFileSync(new URL("../../data/seed.sql", import.meta.url), "utf8");
-
-function compactReference(reference: string): string {
-  return reference.replace(/[^a-z0-9]+/gi, "").toUpperCase();
-}
 
 function metricKey(value: number | null | undefined): string {
   return value == null ? "null" : Number(value).toFixed(2);
