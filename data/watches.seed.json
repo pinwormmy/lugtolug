@@ -43179,5 +43179,329 @@
         "note": "Worn & Wound review states the case measures 34mm across, 45mm lug-to-lug, and 6.4mm tall."
       }
     ]
+  },
+  {
+    "id": 2594,
+    "brand": "Bravur",
+    "model": "x Zwift Limited Edition",
+    "reference": "Bravur x Zwift Limited Edition",
+    "lugToLugMm": 44.6,
+    "caseMm": 37,
+    "thicknessMm": 11.4,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-the-bravur-x-zwift-limited-edition-watch-brings-cycling-fun-to-the-wrist/",
+        "note": "aBlogtoWatch hands-on states the stainless steel case is 37mm, with a 44.6mm lug-to-lug and 11.4mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2595,
+    "brand": "ATOWAK",
+    "model": "Mars Age",
+    "reference": "Mars Age",
+    "lugToLugMm": 47.2,
+    "caseMm": 40,
+    "thicknessMm": 14.4,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/join-the-mars-age-with-atowaks-mars-themed-watch/",
+        "note": "aBlogtoWatch launch coverage lists the Mars Age at 40mm diameter, 47.2mm lug-to-lug, and 14.4mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2596,
+    "brand": "YEMA",
+    "model": "Granvelle Renaissance CMM.29",
+    "reference": "Granvelle Renaissance CMM.29",
+    "lugToLugMm": 46.3,
+    "caseMm": 37.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/the-yema-granvelle-renaissance-cmm-29-brings-french-manufacture-watchmaking-to-a-refined-37-5mm-format/",
+        "note": "aBlogtoWatch release coverage lists a 37.5mm cushion case, 46.30mm lug-to-lug, and 8.50mm profile."
+      }
+    ]
+  },
+  {
+    "id": 2597,
+    "brand": "Doxa",
+    "model": "SUB 200 T-Graph II",
+    "reference": "SUB 200 T-Graph II",
+    "lugToLugMm": 44.5,
+    "caseMm": 42,
+    "thicknessMm": 14.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-the-doxa-sub-200-t-graph-ii-revives-one-of-the-rarest-diving-chronographs-of-the-1970s/",
+        "note": "aBlogtoWatch hands-on states the SUB 200 T-Graph II has a 42mm case, 14.6mm thickness, and 44.5mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 2598,
+    "brand": "Aera",
+    "model": "D-1 Diver Whiteout",
+    "reference": "D-1 Diver Whiteout",
+    "lugToLugMm": 49.5,
+    "caseMm": 44,
+    "thicknessMm": 15.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/aera-d-1-diver-whiteout-watch-review-for-blizzard-swimming-with-todd-snyder/",
+        "note": "aBlogtoWatch review states the titanium D-1 Diver case is 44mm wide, 15.9mm thick, and 49.5mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 2599,
+    "brand": "Ming",
+    "model": "x J.N. Shapiro 37.06 Lightning",
+    "reference": "37.06 Lightning",
+    "lugToLugMm": 44.5,
+    "caseMm": 38,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/ming-x-j-n-shapiro-37-06-lightning-watch-review-handmade-guilloche-meets-heat-treated-titanium/",
+        "note": "aBlogtoWatch review lists 38mm diameter, 10.9mm thickness, 20mm lug spacing, and 44.5mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 2600,
+    "brand": "Richard Mille",
+    "model": "RM 43-01 Tourbillon Split-Seconds Chronograph Ferrari",
+    "reference": "RM 43-01",
+    "lugToLugMm": 51.2,
+    "caseMm": 42.9,
+    "thicknessMm": 17.1,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/richard-mille-rm-43-01-tourbillon-split-seconds-chronograph-ferrari-watch-hands-on-a-supercar-you-can-wear/",
+        "note": "aBlogtoWatch hands-on states the RM 43-01 case is 42.9mm wide, 17.1mm thick, and 51.2mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 2601,
+    "brand": "Palmos",
+    "model": "One",
+    "reference": "One",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 9.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/palmos-one-watch-review-integrated-vibes-without-the-integrated-bracelet/",
+        "note": "aBlogtoWatch review lists a 40mm diameter, 9.2mm thickness, 20mm lug spacing, and 46mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 2602,
+    "brand": "ACIZEM",
+    "model": "Enygmah",
+    "reference": "Enygmah",
+    "lugToLugMm": 49,
+    "caseMm": 42.5,
+    "thicknessMm": 13.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/acizem-watches-debuts-with-the-enygmah-collection-an-ottawa-based-brand-reframing-independent-watch-design/",
+        "note": "aBlogtoWatch technical specifications list a 42.5mm case size, 13.5mm thickness, and 49mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 2603,
+    "brand": "AWAKE",
+    "model": "Son Mai - Guilloche Main",
+    "reference": "Son Mai - Guilloche Main",
+    "lugToLugMm": 44.75,
+    "caseMm": 38,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/awake-combines-two-ancient-metiers-dart-to-create-the-new-son-mai-guilloche-main-watch-collection/",
+        "note": "aBlogtoWatch release coverage lists a 38mm case, 44.75mm lug-to-lug, 11.5mm height, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2604,
+    "brand": "Timex",
+    "model": "x Todd Snyder 1976 Lexington",
+    "reference": "1976 Lexington",
+    "lugToLugMm": 35.5,
+    "caseMm": 21,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/actually-affordable-timex-x-todd-snyder-1976-lexington-dress-watch/",
+        "note": "aBlogtoWatch review lists 21mm diameter, 35.5mm lug-to-lug, 8.5mm thickness, and 18mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2605,
+    "brand": "Timex",
+    "model": "Expedition Freedive Solar",
+    "reference": "Expedition Freedive Solar",
+    "lugToLugMm": 53.6,
+    "caseMm": 46,
+    "thicknessMm": 14,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-the-timex-expedition-freedive-solar-is-a-colorful-and-care-free-sports-watch/",
+        "note": "aBlogtoWatch hands-on states the case is 46mm diameter, 14mm thick, with 22mm lugs and a 53.6mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 2606,
+    "brand": "RZE",
+    "model": "Resolute Type A",
+    "reference": "Resolute Type A",
+    "lugToLugMm": 46,
+    "caseMm": 39.5,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-the-rze-resolute-type-a-reimagines-the-classic-pilots-watch/",
+        "note": "aBlogtoWatch hands-on lists a 39.5mm case, 11.5mm thickness, 20mm lug spacing, and 46mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 2607,
+    "brand": "Vaer",
+    "model": "G2 Meridian GMT",
+    "reference": "G2 Meridian GMT",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-the-vaer-g2-meridian-gmt-watch-is-an-affordable-travel-companion/",
+        "note": "aBlogtoWatch review lists a 39mm case, 46mm lug-to-lug, 20mm lug width, and 10.8mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2608,
+    "brand": "Camp",
+    "model": "Fieldtimer",
+    "reference": "Fieldtimer",
+    "lugToLugMm": 47.2,
+    "caseMm": 39,
+    "thicknessMm": 10,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-the-camp-fieldtimer-is-secretly-a-car-inspired-watch/",
+        "note": "aBlogtoWatch hands-on states the Fieldtimer case is 39mm diameter, 47.2mm lug-to-lug, and 10mm tall."
+      }
+    ]
+  },
+  {
+    "id": 2609,
+    "brand": "Casio",
+    "model": "G-Shock x Joshua Vides DW5600JV-7",
+    "canonicalModel": "G-Shock DW5600JV-7",
+    "modelGroup": "casio-g-shock-dw5600jv-7",
+    "reference": "DW5600JV-7",
+    "lugToLugMm": 48.9,
+    "caseMm": 42.8,
+    "thicknessMm": 13.4,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-from-reality-to-idea-with-the-casio-g-shock-x-joshua-vides-dw5600jv-7-watch/",
+        "note": "aBlogtoWatch hands-on states the DW5600JV-7 keeps standard DW5600 dimensions: 42.8mm diameter, 13.4mm thickness, and 48.9mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 2610,
+    "brand": "Guinand",
+    "model": "HS109",
+    "reference": "HS109",
+    "lugToLugMm": 48.8,
+    "caseMm": 40.9,
+    "thicknessMm": 12.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/guinand-hs109-watch-review-a-funky-and-unexpected-1960s-skin-diver-tribute-to-helmut-sinn/",
+        "note": "aBlogtoWatch review describes the case as just under 41mm, with 48.8mm lug-to-lug, 12.4mm height, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2611,
+    "brand": "Le Forban Securite Mer",
+    "model": "Marseillaise",
+    "reference": "Marseillaise",
+    "lugToLugMm": 46,
+    "caseMm": 40.8,
+    "thicknessMm": 12,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/le-forban-securite-mer-marseillaise-watch-review-a-retro-diver-remake-gets-the-first-rubber-bund-strap/",
+        "note": "aBlogtoWatch review states the modern Marseillaise is 40.8mm wide, 12mm thick, and 46mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 2612,
+    "brand": "Monceau",
+    "model": "Model 01",
+    "reference": "Model 01",
+    "lugToLugMm": 44.7,
+    "caseMm": 39,
+    "thicknessMm": 10.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/monceau-model-01-watch-review-an-on-trend-debut/",
+        "note": "aBlogtoWatch review states the Model 01 case is 39mm across, 44.7mm lug-to-lug, and 10.2mm thick."
+      }
+    ]
+  },
+  {
+    "id": 2613,
+    "brand": "Jack Mason",
+    "model": "Palmera Skin Diver Born & Raised Founder Release",
+    "canonicalModel": "Palmera Skin Diver",
+    "modelGroup": "jack-mason-palmera-skin-diver-39mm",
+    "reference": "Palmera Skin Diver Born & Raised",
+    "lugToLugMm": 47,
+    "caseMm": 39,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/jack-mason-introduces-born-raised-founder-release-model-with-palmera-skin-diver-watch/",
+        "note": "aBlogtoWatch release coverage lists 39mm diameter, 47mm lug-to-lug, 10.8mm thickness, and 20mm lug width."
+      }
+    ]
   }
 ]
