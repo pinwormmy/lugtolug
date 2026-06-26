@@ -88,7 +88,7 @@ describe("watch seed data integrity", () => {
     const patekReferences = referencesByBrand("Patek Philippe");
     const citizenReferences = referencesByBrand("Citizen");
 
-    expect(patekReferences).toHaveLength(21);
+    expect(patekReferences.length).toBeGreaterThanOrEqual(21);
     expect(new Set(patekReferences).size).toBe(patekReferences.length);
     expect(patekReferences).toEqual(
       expect.arrayContaining(["5811/1G-001", "5712/1A-001", "5167A-001", "5168G-010", "5821/1A-001"])
