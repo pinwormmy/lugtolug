@@ -4,6 +4,7 @@ import {
   getWatchBySlugs,
   listAdminWatches,
   listRecentWatches,
+  listWatches,
   pendingWatch,
   unpublishWatch,
   updateWatch
@@ -18,14 +19,21 @@ function createMockDb(watchRows: WatchRow[], sourceRows: SourceRow[] = []) {
   const db = {
     prepare(sql: string) {
       prepareCalls.push(sql);
+      let boundArgs: unknown[] = [];
       const statement = {
         bind(...args: unknown[]) {
           bindCalls.push(args);
+          boundArgs = args;
           return statement;
         },
         async all() {
           if (sql.includes("FROM watches")) return { results: watchRows };
-          if (sql.includes("FROM watch_sources")) return { results: sourceRows };
+          if (sql.includes("FROM watch_sources")) {
+            const requestedIds = new Set(boundArgs);
+            return {
+              results: boundArgs.length > 0 ? sourceRows.filter((source) => requestedIds.has(source.watch_id)) : sourceRows
+            };
+          }
           throw new Error(`Unexpected query: ${sql}`);
         },
         async first() {
@@ -309,5 +317,34 @@ describe("recent watches", () => {
     expect(watches).toHaveLength(1);
     expect(watches[0].status).toBe("pending");
     expect(watches[0].brand).toBe("Tissot");
+  });
+
+  it("hydrates sources in bounded batches for large watch lists", async () => {
+    const watchRows = Array.from({ length: 205 }, (_, index) =>
+      watchRow({
+        id: index + 1,
+        brand: `Brand ${index + 1}`,
+        model: `Model ${index + 1}`,
+        reference: `REF-${index + 1}`,
+        brand_slug: `brand-${index + 1}`,
+        model_slug: `model-${index + 1}`,
+        reference_slug: `ref-${index + 1}`
+      })
+    );
+    const sourceRows = watchRows.map((watch) => ({
+      id: watch.id,
+      watch_id: watch.id,
+      source_url: `https://example.com/${watch.id}`,
+      note: null
+    }));
+    const { db, prepareCalls, bindCalls } = createMockDb(watchRows, sourceRows);
+
+    const watches = await listWatches(db);
+
+    const sourceQueries = prepareCalls.filter((sql) => sql.includes("FROM watch_sources"));
+    const sourceBinds = bindCalls.filter((args) => typeof args[0] === "number");
+    expect(sourceQueries).toHaveLength(3);
+    expect(sourceBinds.map((args) => args.length)).toEqual([100, 100, 5]);
+    expect(watches.filter((watch) => watch.brand.startsWith("Brand ") && watch.sources.length === 1)).toHaveLength(205);
   });
 });

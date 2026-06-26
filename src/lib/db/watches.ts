@@ -13,6 +13,7 @@ export interface SubmissionWatchSlugs {
 }
 
 type WatchKeyParts = Pick<Watch, "brandSlug" | "modelSlug" | "referenceSlug">;
+const SOURCE_HYDRATION_BATCH_SIZE = 100;
 
 export async function searchWatches(db: D1, query: string): Promise<WatchWithSources[]> {
   if (!db) return searchSeedWatches(query);
@@ -221,14 +222,19 @@ async function listSuppressedSeedKeys(db: D1Database, brandSlug?: string): Promi
 async function hydrateSources(db: D1Database, watches: Watch[]): Promise<WatchWithSources[]> {
   if (watches.length === 0) return [];
 
-  const ids = watches.map((watch) => watch.id);
-  const placeholders = ids.map(() => "?").join(",");
-  const sourceRows = await db
-    .prepare(`SELECT * FROM watch_sources WHERE watch_id IN (${placeholders}) ORDER BY id`)
-    .bind(...ids)
-    .all<SourceRow>();
+  const sourceRows: SourceRow[] = [];
+  for (let index = 0; index < watches.length; index += SOURCE_HYDRATION_BATCH_SIZE) {
+    const ids = watches.slice(index, index + SOURCE_HYDRATION_BATCH_SIZE).map((watch) => watch.id);
+    const placeholders = ids.map(() => "?").join(",");
+    const rows = await db
+      .prepare(`SELECT * FROM watch_sources WHERE watch_id IN (${placeholders}) ORDER BY id`)
+      .bind(...ids)
+      .all<SourceRow>();
+    sourceRows.push(...rows.results);
+  }
+
   const byWatch = new Map<number, WatchSource[]>();
-  for (const source of sourceRows.results.map(mapSource)) {
+  for (const source of sourceRows.map(mapSource)) {
     const current = byWatch.get(source.watchId) ?? [];
     current.push(source);
     byWatch.set(source.watchId, current);
