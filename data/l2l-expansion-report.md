@@ -682,16 +682,74 @@ Excluded from this batch:
 - Monta Noble 40: no explicit lug-to-lug value found in the Worn & Wound article text.
 - Citizen ATTESA Shades of Red Super Titanium: Worn & Wound gives case size and thickness but does not publish a discrete lug-to-lug value.
 
+## 2026-06-28 Hodinkee Lug-To-Lug Batch
+
+### Hodinkee
+
+- Candidate scope checked: public Hodinkee sitemap article URLs were scanned until 86 article candidates containing `lug-to-lug` or equivalent text were captured for review.
+- Added models: 22
+- Existing models augmented with Hodinkee source notes: 4
+- Official-source additions: 0
+- Verified-external additions: 26
+- Duplicate candidates skipped: 1
+- Insufficient-information exclusions: 0
+- Source-conflict exclusions: 4
+
+This batch records Hodinkee articles where the article text explicitly published lug-to-lug values and enough adjacent sizing data to populate the approved seed record. Where Hodinkee did not publish lug width, `lugWidthMm` is stored as `null` rather than inferred. Existing exact records were updated with Hodinkee source notes instead of duplicated.
+
+Added references:
+
+- Stowa Marine Original
+- Obris Morgan Branco
+- Sinn 103 St Sa E
+- Halios Seaforth
+- Oris ChronOris Date
+- CWC 1980 Royal Navy Diver Re-Issue
+- Panerai PAM00682
+- William L. 1985 Automatic Chronograph
+- Tudor Black Bay GMT M79830RB
+- Aquadive Bathysphere 100 GMT
+- Halios Seaforth GMT
+- Yes Equilibrium
+- Jaeger-LeCoultre Q3926480
+- Casio A500WGA-9DF
+- Maurice de Mauriac L2 Deep Blue Diver
+- Meraud Bonaire Diver
+- Citizen Tsuno Eco-Drive Chronograph Racer
+- anOrdain Model 1
+- Farer Eldridge
+- Omega 311.92.44.30.01.001
+- Cartier Santos-Dumont Small
+- Cartier Santos-Dumont Large
+
+Existing records augmented:
+
+- Baltic Aquascaphe Classic Blue Gilt
+- Unimatic Modello Tre U3
+- Oak & Oscar Humboldt
+- Richard Mille RM 12-01 Tourbillon
+
+Skipped duplicate:
+
+- Richard Mille RM 12-01 Tourbillon: existing seed record was retained and augmented with the Hodinkee source.
+
+Excluded for source conflict or safer follow-up:
+
+- Longines Avigation BigEye: existing seed value and Hodinkee review value differ materially for lug-to-lug, so no record was changed.
+- NOMOS Tangente Neomatik 39 Silvercut: existing official-source dimensions are more specific than the rounded Hodinkee review value.
+- Maen Hudson 38 Automatic: existing seed value and Hodinkee review value differ for lug-to-lug, so no record was changed.
+- Unimatic Modello Uno U1-E/U1 variants: existing seed value and Hodinkee article family value differ enough to avoid a broad family overwrite.
+
 ## Cumulative totals
 
-- Brands added: 25
-- Models added: 240
+- Brands added: 34
+- Models added: 262
 - Official-source additions: 231
-- Verified-external additions: 22
-- Duplicate candidates skipped: 4
+- Verified-external additions: 48
+- Duplicate candidates skipped: 5
 - Exact duplicate seed rows merged: 4
 - Insufficient-information exclusions: 8
-- Source-conflict exclusions: 11
+- Source-conflict exclusions: 15
 
 ## Modified files
 

@@ -21723,6 +21723,10 @@
       {
         "sourceUrl": "https://baltic-watches.com/en/products/aquascaphe-classic-blue-gilt",
         "note": "Official Baltic product page lists 39 mm case diameter, 47 mm lug-to-lug, 13 mm thickness, and 20 mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/baltic-aquascaphe-diver-hands-on",
+        "note": "Hodinkee hands-on review states 39mm case size, 47mm lug-to-lug, and 12mm thickness at the domed crystal; official Baltic page remains the source for 20mm lug width and current 13mm thickness."
       }
     ]
   },
@@ -49473,6 +49477,10 @@
       {
         "sourceUrl": "https://www.ablogtowatch.com/unimatic-modello-tre-u3-watch/",
         "note": "aBlogtoWatch article states dimensions of 40mm case, 51mm lug-to-lug, 13.7mm thickness."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/unimatic-u3-dive-chronograph-u2-field-watch-introducing",
+        "note": "Hodinkee article states the Modello Tre U3 measures 40mm across, 13.7mm thick, and 51mm lug-to-lug."
       }
     ]
   },
@@ -49505,6 +49513,10 @@
       {
         "sourceUrl": "https://www.ablogtowatch.com/oak-oscar-humboldt-watch/",
         "note": "aBlogtoWatch article states dimensions of 40mm case, 46.8mm lug-to-lug, 12.4mm thickness."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/oak-and-oscar-humboldt-introducing",
+        "note": "Hodinkee introduction states 40mm diameter, 12.4mm thickness, and 46.8mm lug-to-lug."
       }
     ]
   },
@@ -49569,6 +49581,10 @@
       {
         "sourceUrl": "https://www.ablogtowatch.com/richard-mille-rm-12-01-tourbillon-watch-bridge-event-2018/",
         "note": "aBlogtoWatch article states dimensions of 39.3mm case, 48mm lug-to-lug, 13.84mm thickness."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/richard-mille-rm-12-01-tourbillon-introducing",
+        "note": "Hodinkee basics list RM 12-01 with 39.3mm diameter, 48mm lug-to-lug, and 13.84mm thickness."
       }
     ]
   },
@@ -50417,6 +50433,358 @@
       {
         "sourceUrl": "https://www.ablogtowatch.com/new-release-breitling-superocean-automatic-46-super-diver-watches/",
         "note": "aBlogtoWatch article states dimensions of 46mm case, 52.25mm lug-to-lug, 14.5mm thickness, and 24mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 3046,
+    "brand": "Stowa",
+    "model": "Marine Original",
+    "reference": "Marine Original",
+    "lugToLugMm": 50.2,
+    "caseMm": 41,
+    "thicknessMm": 12,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/in-depth-stowa-marine-original",
+        "note": "Hodinkee technical details list 41.00mm diameter, 12.00mm height, 22mm strap width, and 50.20mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 3047,
+    "brand": "Obris Morgan",
+    "model": "Branco",
+    "reference": "Branco",
+    "lugToLugMm": 51,
+    "caseMm": 43,
+    "thicknessMm": 12,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/branco-post",
+        "note": "Hodinkee specifications list 43mm diameter, 12mm thickness, 22mm lug width, and 51mm lug-to-lug width."
+      }
+    ]
+  },
+  {
+    "id": 3048,
+    "brand": "Sinn",
+    "model": "103 St Sa E",
+    "reference": "103 St Sa E",
+    "lugToLugMm": 47,
+    "caseMm": 41,
+    "thicknessMm": 17,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/sinn-103-st-sa-e-not-just-another-vintage-inspired-pilots-chronograph",
+        "note": "Hodinkee states the watch measures 41mm side-to-side, 47mm lug-to-lug, and 17mm thick with the domed crystal."
+      }
+    ]
+  },
+  {
+    "id": 3049,
+    "brand": "Halios",
+    "model": "Seaforth",
+    "reference": "Seaforth",
+    "lugToLugMm": 47,
+    "caseMm": 41,
+    "thicknessMm": 12,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/halios-seaforth-value-proposition",
+        "note": "Hodinkee states the Seaforth is 41mm wide for rotating-bezel versions, 12mm thick, and 47mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 3050,
+    "brand": "Oris",
+    "model": "ChronOris Date",
+    "reference": "ChronOris Date",
+    "lugToLugMm": 43,
+    "caseMm": 39,
+    "thicknessMm": 12.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/oris-chronoris-date-hands-on",
+        "note": "Hodinkee hands-on review states 39mm width, 43mm lug-to-lug, and 12.5mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 3051,
+    "brand": "CWC",
+    "model": "1980 Royal Navy Diver Re-Issue",
+    "reference": "1980 Royal Navy Diver Re-Issue",
+    "lugToLugMm": 46,
+    "caseMm": 42,
+    "thicknessMm": 12,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/cwc-1980-royal-navy-diver-re-issue",
+        "note": "Hodinkee states the watch is 42mm across, 46mm lug-to-lug, and 12mm tall."
+      }
+    ]
+  },
+  {
+    "id": 3052,
+    "brand": "Panerai",
+    "model": "Luminor Submersible 1950 3 Days Automatic Acciaio 42mm",
+    "reference": "PAM00682",
+    "lugToLugMm": 51,
+    "caseMm": 42,
+    "thicknessMm": 14.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/panerai-luminor-submersible-1950-3-days-automatic-acciaio-42mm-hands-on",
+        "note": "Hodinkee identifies the watch as PAM00682 and states 42mm width, 14.5mm thickness, and 51mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 3053,
+    "brand": "William L. 1985",
+    "model": "Automatic Chronograph",
+    "reference": "Automatic Chronograph",
+    "lugToLugMm": 45,
+    "caseMm": 41,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/the-william-l-1985-automatic-chronograph",
+        "note": "Hodinkee value-proposition review states 41mm case size, 14mm thickness, and about 45mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 3054,
+    "brand": "Tudor",
+    "model": "Black Bay GMT",
+    "reference": "M79830RB",
+    "lugToLugMm": 50,
+    "caseMm": 41,
+    "thicknessMm": 15,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/tudor-black-bay-gmt-review",
+        "note": "Hodinkee review states the steel case is about 41mm wide, 15mm thick to the top of the sapphire crystal, and about 50mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 3055,
+    "brand": "Aquadive",
+    "model": "Bathysphere 100 GMT",
+    "reference": "Bathysphere 100 GMT",
+    "lugToLugMm": 49,
+    "caseMm": 43,
+    "thicknessMm": 15,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/diving-with-the-aquadive-bathysphere-100-gmt",
+        "note": "Hodinkee states the Bathysphere 100 GMT has a 43mm by 49mm case, 49mm lug-to-lug length, and 15mm stack height."
+      }
+    ]
+  },
+  {
+    "id": 3056,
+    "brand": "Halios",
+    "model": "Seaforth GMT",
+    "reference": "Seaforth GMT",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 12,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/halios-seaforth-gmt-introducing",
+        "note": "Hodinkee states the steel case measures 40mm for fixed-bezel versions, 48mm lug-to-lug, and 12mm thick at the top of the crystal."
+      }
+    ]
+  },
+  {
+    "id": 3057,
+    "brand": "Yes",
+    "model": "Equilibrium",
+    "reference": "Equilibrium",
+    "lugToLugMm": 55,
+    "caseMm": 48,
+    "thicknessMm": 17,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/yes-equilibrium-watch-hands-on",
+        "note": "Hodinkee states the titanium case measures 48mm across, 17mm thick, and about 55mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 3058,
+    "brand": "Jaeger-LeCoultre",
+    "model": "Reverso Tribute Tourbillon Duoface",
+    "reference": "Q3926480",
+    "lugToLugMm": 45.5,
+    "caseMm": 27.4,
+    "thicknessMm": 9.15,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/jaeger-lecoultre-reverso-tribute-tourbillon-duoface-introducing",
+        "note": "Hodinkee basics list reference Q3926480 with 27.4mm diameter, 45.5mm lug-to-lug, and 9.15mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 3059,
+    "brand": "Casio",
+    "model": "A500WGA-9DF World Timer",
+    "reference": "A500WGA-9DF",
+    "lugToLugMm": 38,
+    "caseMm": 34,
+    "thicknessMm": 9.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/gold-casio-a500wga-9df-world-timer-hands-on",
+        "note": "Hodinkee hands-on review states 34mm width, 38mm lug-to-lug, and 9.6mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 3061,
+    "brand": "Maurice de Mauriac",
+    "model": "L2 Deep Blue Diver",
+    "reference": "L2 Deep Blue Diver",
+    "lugToLugMm": 51.5,
+    "caseMm": 42,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/maurice-de-mauriac-l2-deep-blue-diver-hands-on",
+        "note": "Hodinkee hands-on review states 42mm width, 14mm thickness, and 51.5mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 3062,
+    "brand": "Meraud",
+    "model": "Bonaire Diver",
+    "reference": "Bonaire Diver",
+    "lugToLugMm": 48,
+    "caseMm": 39,
+    "thicknessMm": 12.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/the-meraud-bonaire-diver",
+        "note": "Hodinkee hands-on review states the Bonaire is 39mm wide, 12.5mm thick, and 48mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 3063,
+    "brand": "Citizen",
+    "model": "Tsuno Eco-Drive Chronograph Racer",
+    "reference": "Tsuno Eco-Drive Chronograph Racer",
+    "lugToLugMm": 48,
+    "caseMm": 45,
+    "thicknessMm": 16,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/citizen-tsuno-eco-drive-chronograph-racer-introducing",
+        "note": "Hodinkee states the chronograph is 45mm in diameter, 16mm thick, and about 48mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 3064,
+    "brand": "anOrdain",
+    "model": "Model 1",
+    "reference": "Model 1",
+    "lugToLugMm": 45,
+    "caseMm": 38,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/anordain-model-1-value-proposition",
+        "note": "Hodinkee value-proposition review states 38mm case size, 45mm lug-to-lug, 12.3mm thickness, and 18mm-wide strap."
+      }
+    ]
+  },
+  {
+    "id": 3065,
+    "brand": "Farer",
+    "model": "Eldridge Chronograph Automatic",
+    "reference": "Eldridge",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 12.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/farer-eldridge-chronograph-automatic-hands-on",
+        "note": "Hodinkee hands-on review states 39mm width, 45mm lug-to-lug, and 12.5mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 3066,
+    "brand": "Omega",
+    "model": "Speedmaster Moonwatch Apollo 8 Dark Side Of The Moon",
+    "reference": "311.92.44.30.01.001",
+    "lugToLugMm": 49,
+    "caseMm": 44.25,
+    "thicknessMm": 12,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/omega-speedmaster-moonwatch-apollo-8-dark-side-of-the-moon",
+        "note": "Hodinkee review states the Apollo 8 ceramic case is 44.25mm wide, 12mm thick, and 49mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 3067,
+    "brand": "Cartier",
+    "model": "Santos-Dumont Small",
+    "reference": "Santos-Dumont Small",
+    "lugToLugMm": 38.5,
+    "caseMm": 27.5,
+    "thicknessMm": 7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/cartier-santos-dumont-hands-on",
+        "note": "Hodinkee hands-on review states the smaller Santos-Dumont is 27.5mm wide, 38.5mm lug-to-lug, and 7mm thick."
+      }
+    ]
+  },
+  {
+    "id": 3068,
+    "brand": "Cartier",
+    "model": "Santos-Dumont Large",
+    "reference": "Santos-Dumont Large",
+    "lugToLugMm": 43.5,
+    "caseMm": 31.4,
+    "thicknessMm": 7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/cartier-santos-dumont-hands-on",
+        "note": "Hodinkee hands-on review states the larger Santos-Dumont is 31.4mm wide, 43.5mm lug-to-lug, and 7mm thick."
       }
     ]
   }

@@ -3033,7 +3033,29 @@ VALUES
 (3042, 'Retter', 'Mistral Dress', NULL, NULL, NULL, 'Mistral Dress', 'retter', 'mistral-dress', 'mistral-dress', 'retter mistral dress mistral dress lug to lug 42 4 42 4mm case 38 38mm thickness 6 8 6 8mm lug width 20 20mm', 42.4, 38, 6.8, 20, 'approved'),
 (3043, 'Seiko', 'Astron GPS Solar SSJ027 And SSH157 Limited Edition', NULL, NULL, NULL, 'SSJ027 SSH157', 'seiko', 'astron-gps-solar-ssj027-and-ssh157-limited-edition', 'ssj027-ssh157', 'seiko astron gps solar ssj027 and ssh157 limited edition ssj027 ssh157 lug to lug 48 6 48 6mm case 41 2 41 2mm thickness 12 12mm', 48.6, 41.2, 12, NULL, 'approved'),
 (3044, 'Doxa', 'SUB 300 Beta', NULL, NULL, NULL, 'SUB 300 Beta', 'doxa', 'sub-300-beta', 'sub-300-beta', 'doxa sub 300 beta sub 300 beta lug to lug 44 5 44 5mm case 42 5 42 5mm thickness 11 95 11 95mm lug width 20 20mm', 44.5, 42.5, 11.95, 20, 'approved'),
-(3045, 'Breitling', 'Superocean Automatic 46 Super Diver', NULL, NULL, NULL, 'Superocean Automatic 46 Super Diver', 'breitling', 'superocean-automatic-46-super-diver', 'superocean-automatic-46-super-diver', 'breitling superocean automatic 46 super diver superocean automatic 46 super diver lug to lug 52 25 52 25mm case 46 46mm thickness 14 5 14 5mm lug width 24 24mm', 52.25, 46, 14.5, 24, 'approved')
+(3045, 'Breitling', 'Superocean Automatic 46 Super Diver', NULL, NULL, NULL, 'Superocean Automatic 46 Super Diver', 'breitling', 'superocean-automatic-46-super-diver', 'superocean-automatic-46-super-diver', 'breitling superocean automatic 46 super diver superocean automatic 46 super diver lug to lug 52 25 52 25mm case 46 46mm thickness 14 5 14 5mm lug width 24 24mm', 52.25, 46, 14.5, 24, 'approved'),
+(3046, 'Stowa', 'Marine Original', NULL, NULL, NULL, 'Marine Original', 'stowa', 'marine-original', 'marine-original', 'stowa marine original marine original lug to lug 50 2 50 2mm case 41 41mm thickness 12 12mm lug width 22 22mm', 50.2, 41, 12, 22, 'approved'),
+(3047, 'Obris Morgan', 'Branco', NULL, NULL, NULL, 'Branco', 'obris-morgan', 'branco', 'branco', 'obris morgan branco branco lug to lug 51 51mm case 43 43mm thickness 12 12mm lug width 22 22mm', 51, 43, 12, 22, 'approved'),
+(3048, 'Sinn', '103 St Sa E', NULL, NULL, NULL, '103 St Sa E', 'sinn', '103-st-sa-e', '103-st-sa-e', 'sinn 103 st sa e 103 st sa e lug to lug 47 47mm case 41 41mm thickness 17 17mm', 47, 41, 17, NULL, 'approved'),
+(3049, 'Halios', 'Seaforth', NULL, NULL, NULL, 'Seaforth', 'halios', 'seaforth', 'seaforth', 'halios seaforth seaforth lug to lug 47 47mm case 41 41mm thickness 12 12mm', 47, 41, 12, NULL, 'approved'),
+(3050, 'Oris', 'ChronOris Date', NULL, NULL, NULL, 'ChronOris Date', 'oris', 'chronoris-date', 'chronoris-date', 'oris chronoris date chronoris date lug to lug 43 43mm case 39 39mm thickness 12 5 12 5mm', 43, 39, 12.5, NULL, 'approved'),
+(3051, 'CWC', '1980 Royal Navy Diver Re-Issue', NULL, NULL, NULL, '1980 Royal Navy Diver Re-Issue', 'cwc', '1980-royal-navy-diver-re-issue', '1980-royal-navy-diver-re-issue', 'cwc 1980 royal navy diver re issue 1980 royal navy diver re issue lug to lug 46 46mm case 42 42mm thickness 12 12mm', 46, 42, 12, NULL, 'approved'),
+(3052, 'Panerai', 'Luminor Submersible 1950 3 Days Automatic Acciaio 42mm', NULL, NULL, NULL, 'PAM00682', 'panerai', 'luminor-submersible-1950-3-days-automatic-acciaio-42mm', 'pam00682', 'panerai luminor submersible 1950 3 days automatic acciaio 42mm pam00682 lug to lug 51 51mm case 42 42mm thickness 14 5 14 5mm', 51, 42, 14.5, NULL, 'approved'),
+(3053, 'William L. 1985', 'Automatic Chronograph', NULL, NULL, NULL, 'Automatic Chronograph', 'william-l-1985', 'automatic-chronograph', 'automatic-chronograph', 'william l 1985 automatic chronograph automatic chronograph lug to lug 45 45mm case 41 41mm thickness 14 14mm', 45, 41, 14, NULL, 'approved'),
+(3054, 'Tudor', 'Black Bay GMT', NULL, NULL, NULL, 'M79830RB', 'tudor', 'black-bay-gmt', 'm79830rb', 'tudor black bay gmt m79830rb lug to lug 50 50mm case 41 41mm thickness 15 15mm', 50, 41, 15, NULL, 'approved'),
+(3055, 'Aquadive', 'Bathysphere 100 GMT', NULL, NULL, NULL, 'Bathysphere 100 GMT', 'aquadive', 'bathysphere-100-gmt', 'bathysphere-100-gmt', 'aquadive bathysphere 100 gmt bathysphere 100 gmt lug to lug 49 49mm case 43 43mm thickness 15 15mm', 49, 43, 15, NULL, 'approved'),
+(3056, 'Halios', 'Seaforth GMT', NULL, NULL, NULL, 'Seaforth GMT', 'halios', 'seaforth-gmt', 'seaforth-gmt', 'halios seaforth gmt seaforth gmt lug to lug 48 48mm case 40 40mm thickness 12 12mm', 48, 40, 12, NULL, 'approved'),
+(3057, 'Yes', 'Equilibrium', NULL, NULL, NULL, 'Equilibrium', 'yes', 'equilibrium', 'equilibrium', 'yes equilibrium equilibrium lug to lug 55 55mm case 48 48mm thickness 17 17mm', 55, 48, 17, NULL, 'approved'),
+(3058, 'Jaeger-LeCoultre', 'Reverso Tribute Tourbillon Duoface', NULL, NULL, NULL, 'Q3926480', 'jaeger-lecoultre', 'reverso-tribute-tourbillon-duoface', 'q3926480', 'jaeger lecoultre reverso tribute tourbillon duoface q3926480 lug to lug 45 5 45 5mm case 27 4 27 4mm thickness 9 15 9 15mm', 45.5, 27.4, 9.15, NULL, 'approved'),
+(3059, 'Casio', 'A500WGA-9DF World Timer', NULL, NULL, NULL, 'A500WGA-9DF', 'casio', 'a500wga-9df-world-timer', 'a500wga-9df', 'casio a500wga 9df world timer a500wga 9df lug to lug 38 38mm case 34 34mm thickness 9 6 9 6mm', 38, 34, 9.6, NULL, 'approved'),
+(3061, 'Maurice de Mauriac', 'L2 Deep Blue Diver', NULL, NULL, NULL, 'L2 Deep Blue Diver', 'maurice-de-mauriac', 'l2-deep-blue-diver', 'l2-deep-blue-diver', 'maurice de mauriac l2 deep blue diver l2 deep blue diver lug to lug 51 5 51 5mm case 42 42mm thickness 14 14mm', 51.5, 42, 14, NULL, 'approved'),
+(3062, 'Meraud', 'Bonaire Diver', NULL, NULL, NULL, 'Bonaire Diver', 'meraud', 'bonaire-diver', 'bonaire-diver', 'meraud bonaire diver bonaire diver lug to lug 48 48mm case 39 39mm thickness 12 5 12 5mm', 48, 39, 12.5, NULL, 'approved'),
+(3063, 'Citizen', 'Tsuno Eco-Drive Chronograph Racer', NULL, NULL, NULL, 'Tsuno Eco-Drive Chronograph Racer', 'citizen', 'tsuno-eco-drive-chronograph-racer', 'tsuno-eco-drive-chronograph-racer', 'citizen tsuno eco drive chronograph racer tsuno eco drive chronograph racer lug to lug 48 48mm case 45 45mm thickness 16 16mm', 48, 45, 16, NULL, 'approved'),
+(3064, 'anOrdain', 'Model 1', NULL, NULL, NULL, 'Model 1', 'anordain', 'model-1', 'model-1', 'anordain model 1 model 1 lug to lug 45 45mm case 38 38mm thickness 12 3 12 3mm lug width 18 18mm', 45, 38, 12.3, 18, 'approved'),
+(3065, 'Farer', 'Eldridge Chronograph Automatic', NULL, NULL, NULL, 'Eldridge', 'farer', 'eldridge-chronograph-automatic', 'eldridge', 'farer eldridge chronograph automatic eldridge lug to lug 45 45mm case 39 39mm thickness 12 5 12 5mm', 45, 39, 12.5, NULL, 'approved'),
+(3066, 'Omega', 'Speedmaster Moonwatch Apollo 8 Dark Side Of The Moon', NULL, NULL, NULL, '311.92.44.30.01.001', 'omega', 'speedmaster-moonwatch-apollo-8-dark-side-of-the-moon', '311-92-44-30-01-001', 'omega speedmaster moonwatch apollo 8 dark side of the moon 311 92 44 30 01 001 lug to lug 49 49mm case 44 25 44 25mm thickness 12 12mm', 49, 44.25, 12, NULL, 'approved'),
+(3067, 'Cartier', 'Santos-Dumont Small', NULL, NULL, NULL, 'Santos-Dumont Small', 'cartier', 'santos-dumont-small', 'santos-dumont-small', 'cartier santos dumont small santos dumont small lug to lug 38 5 38 5mm case 27 5 27 5mm thickness 7 7mm', 38.5, 27.5, 7, NULL, 'approved'),
+(3068, 'Cartier', 'Santos-Dumont Large', NULL, NULL, NULL, 'Santos-Dumont Large', 'cartier', 'santos-dumont-large', 'santos-dumont-large', 'cartier santos dumont large santos dumont large lug to lug 43 5 43 5mm case 31 4 31 4mm thickness 7 7mm', 43.5, 31.4, 7, NULL, 'approved')
 ON CONFLICT(id) DO UPDATE SET
   brand = excluded.brand,
   model = excluded.model,
@@ -9193,6 +9215,10 @@ UPDATE watch_sources SET note = 'Official Baltic product page lists 39 mm case d
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 1300, 'https://baltic-watches.com/en/products/aquascaphe-classic-blue-gilt', 'Official Baltic product page lists 39 mm case diameter, 47 mm lug-to-lug, 13 mm thickness, and 20 mm lug width.'
 WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 1300 AND source_url = 'https://baltic-watches.com/en/products/aquascaphe-classic-blue-gilt');
+UPDATE watch_sources SET note = 'Hodinkee hands-on review states 39mm case size, 47mm lug-to-lug, and 12mm thickness at the domed crystal; official Baltic page remains the source for 20mm lug width and current 13mm thickness.' WHERE watch_id = 1300 AND source_url = 'https://www.hodinkee.com/articles/baltic-aquascaphe-diver-hands-on';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 1300, 'https://www.hodinkee.com/articles/baltic-aquascaphe-diver-hands-on', 'Hodinkee hands-on review states 39mm case size, 47mm lug-to-lug, and 12mm thickness at the domed crystal; official Baltic page remains the source for 20mm lug width and current 13mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 1300 AND source_url = 'https://www.hodinkee.com/articles/baltic-aquascaphe-diver-hands-on');
 UPDATE watch_sources SET note = 'Official Baltic product page lists 39.5 mm case diameter, 47 mm lug-to-lug, 13.5 mm thickness, and 20 mm lug width.' WHERE watch_id = 1301 AND source_url = 'https://baltic-watches.com/en/products/scalegraph-classic-panda';
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 1301, 'https://baltic-watches.com/en/products/scalegraph-classic-panda', 'Official Baltic product page lists 39.5 mm case diameter, 47 mm lug-to-lug, 13.5 mm thickness, and 20 mm lug width.'
@@ -16041,6 +16067,10 @@ UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 40mm 
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 2986, 'https://www.ablogtowatch.com/unimatic-modello-tre-u3-watch/', 'aBlogtoWatch article states dimensions of 40mm case, 51mm lug-to-lug, 13.7mm thickness.'
 WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2986 AND source_url = 'https://www.ablogtowatch.com/unimatic-modello-tre-u3-watch/');
+UPDATE watch_sources SET note = 'Hodinkee article states the Modello Tre U3 measures 40mm across, 13.7mm thick, and 51mm lug-to-lug.' WHERE watch_id = 2986 AND source_url = 'https://www.hodinkee.com/articles/unimatic-u3-dive-chronograph-u2-field-watch-introducing';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2986, 'https://www.hodinkee.com/articles/unimatic-u3-dive-chronograph-u2-field-watch-introducing', 'Hodinkee article states the Modello Tre U3 measures 40mm across, 13.7mm thick, and 51mm lug-to-lug.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2986 AND source_url = 'https://www.hodinkee.com/articles/unimatic-u3-dive-chronograph-u2-field-watch-introducing');
 UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 42.5mm case, 47mm lug-to-lug, 16mm thickness.' WHERE watch_id = 2987 AND source_url = 'https://www.ablogtowatch.com/le-jour-mark-i-meteorite-watch-review/';
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 2987, 'https://www.ablogtowatch.com/le-jour-mark-i-meteorite-watch-review/', 'aBlogtoWatch article states dimensions of 42.5mm case, 47mm lug-to-lug, 16mm thickness.'
@@ -16049,6 +16079,10 @@ UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 40mm 
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 2988, 'https://www.ablogtowatch.com/oak-oscar-humboldt-watch/', 'aBlogtoWatch article states dimensions of 40mm case, 46.8mm lug-to-lug, 12.4mm thickness.'
 WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2988 AND source_url = 'https://www.ablogtowatch.com/oak-oscar-humboldt-watch/');
+UPDATE watch_sources SET note = 'Hodinkee introduction states 40mm diameter, 12.4mm thickness, and 46.8mm lug-to-lug.' WHERE watch_id = 2988 AND source_url = 'https://www.hodinkee.com/articles/oak-and-oscar-humboldt-introducing';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2988, 'https://www.hodinkee.com/articles/oak-and-oscar-humboldt-introducing', 'Hodinkee introduction states 40mm diameter, 12.4mm thickness, and 46.8mm lug-to-lug.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2988 AND source_url = 'https://www.hodinkee.com/articles/oak-and-oscar-humboldt-introducing');
 UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 48mm case, 57mm lug-to-lug, 15mm thickness.' WHERE watch_id = 2989 AND source_url = 'https://www.ablogtowatch.com/giorgio-piola-g5-watch-review/';
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 2989, 'https://www.ablogtowatch.com/giorgio-piola-g5-watch-review/', 'aBlogtoWatch article states dimensions of 48mm case, 57mm lug-to-lug, 15mm thickness.'
@@ -16065,6 +16099,10 @@ UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 39.3m
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 2992, 'https://www.ablogtowatch.com/richard-mille-rm-12-01-tourbillon-watch-bridge-event-2018/', 'aBlogtoWatch article states dimensions of 39.3mm case, 48mm lug-to-lug, 13.84mm thickness.'
 WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2992 AND source_url = 'https://www.ablogtowatch.com/richard-mille-rm-12-01-tourbillon-watch-bridge-event-2018/');
+UPDATE watch_sources SET note = 'Hodinkee basics list RM 12-01 with 39.3mm diameter, 48mm lug-to-lug, and 13.84mm thickness.' WHERE watch_id = 2992 AND source_url = 'https://www.hodinkee.com/articles/richard-mille-rm-12-01-tourbillon-introducing';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 2992, 'https://www.hodinkee.com/articles/richard-mille-rm-12-01-tourbillon-introducing', 'Hodinkee basics list RM 12-01 with 39.3mm diameter, 48mm lug-to-lug, and 13.84mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 2992 AND source_url = 'https://www.hodinkee.com/articles/richard-mille-rm-12-01-tourbillon-introducing');
 UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 37mm case, 53mm lug-to-lug, 13mm thickness.' WHERE watch_id = 2993 AND source_url = 'https://www.ablogtowatch.com/mr-jones-king-xl-watch-review/';
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 2993, 'https://www.ablogtowatch.com/mr-jones-king-xl-watch-review/', 'aBlogtoWatch article states dimensions of 37mm case, 53mm lug-to-lug, 13mm thickness.'
@@ -16277,3 +16315,91 @@ UPDATE watch_sources SET note = 'aBlogtoWatch article states dimensions of 46mm 
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 3045, 'https://www.ablogtowatch.com/new-release-breitling-superocean-automatic-46-super-diver-watches/', 'aBlogtoWatch article states dimensions of 46mm case, 52.25mm lug-to-lug, 14.5mm thickness, and 24mm lug width.'
 WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3045 AND source_url = 'https://www.ablogtowatch.com/new-release-breitling-superocean-automatic-46-super-diver-watches/');
+UPDATE watch_sources SET note = 'Hodinkee technical details list 41.00mm diameter, 12.00mm height, 22mm strap width, and 50.20mm lug-to-lug.' WHERE watch_id = 3046 AND source_url = 'https://www.hodinkee.com/articles/in-depth-stowa-marine-original';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3046, 'https://www.hodinkee.com/articles/in-depth-stowa-marine-original', 'Hodinkee technical details list 41.00mm diameter, 12.00mm height, 22mm strap width, and 50.20mm lug-to-lug.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3046 AND source_url = 'https://www.hodinkee.com/articles/in-depth-stowa-marine-original');
+UPDATE watch_sources SET note = 'Hodinkee specifications list 43mm diameter, 12mm thickness, 22mm lug width, and 51mm lug-to-lug width.' WHERE watch_id = 3047 AND source_url = 'https://www.hodinkee.com/articles/branco-post';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3047, 'https://www.hodinkee.com/articles/branco-post', 'Hodinkee specifications list 43mm diameter, 12mm thickness, 22mm lug width, and 51mm lug-to-lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3047 AND source_url = 'https://www.hodinkee.com/articles/branco-post');
+UPDATE watch_sources SET note = 'Hodinkee states the watch measures 41mm side-to-side, 47mm lug-to-lug, and 17mm thick with the domed crystal.' WHERE watch_id = 3048 AND source_url = 'https://www.hodinkee.com/articles/sinn-103-st-sa-e-not-just-another-vintage-inspired-pilots-chronograph';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3048, 'https://www.hodinkee.com/articles/sinn-103-st-sa-e-not-just-another-vintage-inspired-pilots-chronograph', 'Hodinkee states the watch measures 41mm side-to-side, 47mm lug-to-lug, and 17mm thick with the domed crystal.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3048 AND source_url = 'https://www.hodinkee.com/articles/sinn-103-st-sa-e-not-just-another-vintage-inspired-pilots-chronograph');
+UPDATE watch_sources SET note = 'Hodinkee states the Seaforth is 41mm wide for rotating-bezel versions, 12mm thick, and 47mm lug-to-lug.' WHERE watch_id = 3049 AND source_url = 'https://www.hodinkee.com/articles/halios-seaforth-value-proposition';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3049, 'https://www.hodinkee.com/articles/halios-seaforth-value-proposition', 'Hodinkee states the Seaforth is 41mm wide for rotating-bezel versions, 12mm thick, and 47mm lug-to-lug.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3049 AND source_url = 'https://www.hodinkee.com/articles/halios-seaforth-value-proposition');
+UPDATE watch_sources SET note = 'Hodinkee hands-on review states 39mm width, 43mm lug-to-lug, and 12.5mm thickness.' WHERE watch_id = 3050 AND source_url = 'https://www.hodinkee.com/articles/oris-chronoris-date-hands-on';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3050, 'https://www.hodinkee.com/articles/oris-chronoris-date-hands-on', 'Hodinkee hands-on review states 39mm width, 43mm lug-to-lug, and 12.5mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3050 AND source_url = 'https://www.hodinkee.com/articles/oris-chronoris-date-hands-on');
+UPDATE watch_sources SET note = 'Hodinkee states the watch is 42mm across, 46mm lug-to-lug, and 12mm tall.' WHERE watch_id = 3051 AND source_url = 'https://www.hodinkee.com/articles/cwc-1980-royal-navy-diver-re-issue';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3051, 'https://www.hodinkee.com/articles/cwc-1980-royal-navy-diver-re-issue', 'Hodinkee states the watch is 42mm across, 46mm lug-to-lug, and 12mm tall.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3051 AND source_url = 'https://www.hodinkee.com/articles/cwc-1980-royal-navy-diver-re-issue');
+UPDATE watch_sources SET note = 'Hodinkee identifies the watch as PAM00682 and states 42mm width, 14.5mm thickness, and 51mm lug-to-lug.' WHERE watch_id = 3052 AND source_url = 'https://www.hodinkee.com/articles/panerai-luminor-submersible-1950-3-days-automatic-acciaio-42mm-hands-on';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3052, 'https://www.hodinkee.com/articles/panerai-luminor-submersible-1950-3-days-automatic-acciaio-42mm-hands-on', 'Hodinkee identifies the watch as PAM00682 and states 42mm width, 14.5mm thickness, and 51mm lug-to-lug.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3052 AND source_url = 'https://www.hodinkee.com/articles/panerai-luminor-submersible-1950-3-days-automatic-acciaio-42mm-hands-on');
+UPDATE watch_sources SET note = 'Hodinkee value-proposition review states 41mm case size, 14mm thickness, and about 45mm lug-to-lug.' WHERE watch_id = 3053 AND source_url = 'https://www.hodinkee.com/articles/the-william-l-1985-automatic-chronograph';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3053, 'https://www.hodinkee.com/articles/the-william-l-1985-automatic-chronograph', 'Hodinkee value-proposition review states 41mm case size, 14mm thickness, and about 45mm lug-to-lug.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3053 AND source_url = 'https://www.hodinkee.com/articles/the-william-l-1985-automatic-chronograph');
+UPDATE watch_sources SET note = 'Hodinkee review states the steel case is about 41mm wide, 15mm thick to the top of the sapphire crystal, and about 50mm lug-to-lug.' WHERE watch_id = 3054 AND source_url = 'https://www.hodinkee.com/articles/tudor-black-bay-gmt-review';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3054, 'https://www.hodinkee.com/articles/tudor-black-bay-gmt-review', 'Hodinkee review states the steel case is about 41mm wide, 15mm thick to the top of the sapphire crystal, and about 50mm lug-to-lug.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3054 AND source_url = 'https://www.hodinkee.com/articles/tudor-black-bay-gmt-review');
+UPDATE watch_sources SET note = 'Hodinkee states the Bathysphere 100 GMT has a 43mm by 49mm case, 49mm lug-to-lug length, and 15mm stack height.' WHERE watch_id = 3055 AND source_url = 'https://www.hodinkee.com/articles/diving-with-the-aquadive-bathysphere-100-gmt';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3055, 'https://www.hodinkee.com/articles/diving-with-the-aquadive-bathysphere-100-gmt', 'Hodinkee states the Bathysphere 100 GMT has a 43mm by 49mm case, 49mm lug-to-lug length, and 15mm stack height.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3055 AND source_url = 'https://www.hodinkee.com/articles/diving-with-the-aquadive-bathysphere-100-gmt');
+UPDATE watch_sources SET note = 'Hodinkee states the steel case measures 40mm for fixed-bezel versions, 48mm lug-to-lug, and 12mm thick at the top of the crystal.' WHERE watch_id = 3056 AND source_url = 'https://www.hodinkee.com/articles/halios-seaforth-gmt-introducing';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3056, 'https://www.hodinkee.com/articles/halios-seaforth-gmt-introducing', 'Hodinkee states the steel case measures 40mm for fixed-bezel versions, 48mm lug-to-lug, and 12mm thick at the top of the crystal.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3056 AND source_url = 'https://www.hodinkee.com/articles/halios-seaforth-gmt-introducing');
+UPDATE watch_sources SET note = 'Hodinkee states the titanium case measures 48mm across, 17mm thick, and about 55mm lug-to-lug.' WHERE watch_id = 3057 AND source_url = 'https://www.hodinkee.com/articles/yes-equilibrium-watch-hands-on';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3057, 'https://www.hodinkee.com/articles/yes-equilibrium-watch-hands-on', 'Hodinkee states the titanium case measures 48mm across, 17mm thick, and about 55mm lug-to-lug.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3057 AND source_url = 'https://www.hodinkee.com/articles/yes-equilibrium-watch-hands-on');
+UPDATE watch_sources SET note = 'Hodinkee basics list reference Q3926480 with 27.4mm diameter, 45.5mm lug-to-lug, and 9.15mm thickness.' WHERE watch_id = 3058 AND source_url = 'https://www.hodinkee.com/articles/jaeger-lecoultre-reverso-tribute-tourbillon-duoface-introducing';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3058, 'https://www.hodinkee.com/articles/jaeger-lecoultre-reverso-tribute-tourbillon-duoface-introducing', 'Hodinkee basics list reference Q3926480 with 27.4mm diameter, 45.5mm lug-to-lug, and 9.15mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3058 AND source_url = 'https://www.hodinkee.com/articles/jaeger-lecoultre-reverso-tribute-tourbillon-duoface-introducing');
+UPDATE watch_sources SET note = 'Hodinkee hands-on review states 34mm width, 38mm lug-to-lug, and 9.6mm thickness.' WHERE watch_id = 3059 AND source_url = 'https://www.hodinkee.com/articles/gold-casio-a500wga-9df-world-timer-hands-on';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3059, 'https://www.hodinkee.com/articles/gold-casio-a500wga-9df-world-timer-hands-on', 'Hodinkee hands-on review states 34mm width, 38mm lug-to-lug, and 9.6mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3059 AND source_url = 'https://www.hodinkee.com/articles/gold-casio-a500wga-9df-world-timer-hands-on');
+UPDATE watch_sources SET note = 'Hodinkee hands-on review states 42mm width, 14mm thickness, and 51.5mm lug-to-lug.' WHERE watch_id = 3061 AND source_url = 'https://www.hodinkee.com/articles/maurice-de-mauriac-l2-deep-blue-diver-hands-on';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3061, 'https://www.hodinkee.com/articles/maurice-de-mauriac-l2-deep-blue-diver-hands-on', 'Hodinkee hands-on review states 42mm width, 14mm thickness, and 51.5mm lug-to-lug.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3061 AND source_url = 'https://www.hodinkee.com/articles/maurice-de-mauriac-l2-deep-blue-diver-hands-on');
+UPDATE watch_sources SET note = 'Hodinkee hands-on review states the Bonaire is 39mm wide, 12.5mm thick, and 48mm lug-to-lug.' WHERE watch_id = 3062 AND source_url = 'https://www.hodinkee.com/articles/the-meraud-bonaire-diver';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3062, 'https://www.hodinkee.com/articles/the-meraud-bonaire-diver', 'Hodinkee hands-on review states the Bonaire is 39mm wide, 12.5mm thick, and 48mm lug-to-lug.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3062 AND source_url = 'https://www.hodinkee.com/articles/the-meraud-bonaire-diver');
+UPDATE watch_sources SET note = 'Hodinkee states the chronograph is 45mm in diameter, 16mm thick, and about 48mm lug-to-lug.' WHERE watch_id = 3063 AND source_url = 'https://www.hodinkee.com/articles/citizen-tsuno-eco-drive-chronograph-racer-introducing';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3063, 'https://www.hodinkee.com/articles/citizen-tsuno-eco-drive-chronograph-racer-introducing', 'Hodinkee states the chronograph is 45mm in diameter, 16mm thick, and about 48mm lug-to-lug.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3063 AND source_url = 'https://www.hodinkee.com/articles/citizen-tsuno-eco-drive-chronograph-racer-introducing');
+UPDATE watch_sources SET note = 'Hodinkee value-proposition review states 38mm case size, 45mm lug-to-lug, 12.3mm thickness, and 18mm-wide strap.' WHERE watch_id = 3064 AND source_url = 'https://www.hodinkee.com/articles/anordain-model-1-value-proposition';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3064, 'https://www.hodinkee.com/articles/anordain-model-1-value-proposition', 'Hodinkee value-proposition review states 38mm case size, 45mm lug-to-lug, 12.3mm thickness, and 18mm-wide strap.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3064 AND source_url = 'https://www.hodinkee.com/articles/anordain-model-1-value-proposition');
+UPDATE watch_sources SET note = 'Hodinkee hands-on review states 39mm width, 45mm lug-to-lug, and 12.5mm thickness.' WHERE watch_id = 3065 AND source_url = 'https://www.hodinkee.com/articles/farer-eldridge-chronograph-automatic-hands-on';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3065, 'https://www.hodinkee.com/articles/farer-eldridge-chronograph-automatic-hands-on', 'Hodinkee hands-on review states 39mm width, 45mm lug-to-lug, and 12.5mm thickness.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3065 AND source_url = 'https://www.hodinkee.com/articles/farer-eldridge-chronograph-automatic-hands-on');
+UPDATE watch_sources SET note = 'Hodinkee review states the Apollo 8 ceramic case is 44.25mm wide, 12mm thick, and 49mm lug-to-lug.' WHERE watch_id = 3066 AND source_url = 'https://www.hodinkee.com/articles/omega-speedmaster-moonwatch-apollo-8-dark-side-of-the-moon';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3066, 'https://www.hodinkee.com/articles/omega-speedmaster-moonwatch-apollo-8-dark-side-of-the-moon', 'Hodinkee review states the Apollo 8 ceramic case is 44.25mm wide, 12mm thick, and 49mm lug-to-lug.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3066 AND source_url = 'https://www.hodinkee.com/articles/omega-speedmaster-moonwatch-apollo-8-dark-side-of-the-moon');
+UPDATE watch_sources SET note = 'Hodinkee hands-on review states the smaller Santos-Dumont is 27.5mm wide, 38.5mm lug-to-lug, and 7mm thick.' WHERE watch_id = 3067 AND source_url = 'https://www.hodinkee.com/articles/cartier-santos-dumont-hands-on';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3067, 'https://www.hodinkee.com/articles/cartier-santos-dumont-hands-on', 'Hodinkee hands-on review states the smaller Santos-Dumont is 27.5mm wide, 38.5mm lug-to-lug, and 7mm thick.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3067 AND source_url = 'https://www.hodinkee.com/articles/cartier-santos-dumont-hands-on');
+UPDATE watch_sources SET note = 'Hodinkee hands-on review states the larger Santos-Dumont is 31.4mm wide, 43.5mm lug-to-lug, and 7mm thick.' WHERE watch_id = 3068 AND source_url = 'https://www.hodinkee.com/articles/cartier-santos-dumont-hands-on';
+INSERT INTO watch_sources (watch_id, source_url, note)
+SELECT 3068, 'https://www.hodinkee.com/articles/cartier-santos-dumont-hands-on', 'Hodinkee hands-on review states the larger Santos-Dumont is 31.4mm wide, 43.5mm lug-to-lug, and 7mm thick.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 3068 AND source_url = 'https://www.hodinkee.com/articles/cartier-santos-dumont-hands-on');
