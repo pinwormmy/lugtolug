@@ -3,6 +3,11 @@ import type { WatchWithSources } from "@/types";
 import { slugify } from "@/lib/slug";
 import { watchMatchesSearchQuery } from "@/lib/watch";
 
+interface SeedSource {
+  sourceUrl: string;
+  note?: string;
+}
+
 function optionalString(value: unknown): string | null {
   return typeof value === "string" && value.trim() ? value : null;
 }
@@ -24,7 +29,7 @@ export const seedWatches: WatchWithSources[] = seed.map((watch) => ({
   lugWidthMm: watch.lugWidthMm,
   status: "approved",
   updatedAt: new Date().toISOString(),
-  sources: watch.sources.map((source, index) => ({
+  sources: watch.sources.map((source: SeedSource, index: number) => ({
     id: index + 1,
     watchId: watch.id,
     sourceUrl: source.sourceUrl,

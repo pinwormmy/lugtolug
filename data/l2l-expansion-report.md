@@ -13,6 +13,19 @@ Updated: 2026-06-19
 
 ## Completed batches
 
+### Delugs Strap Finder
+
+- Added models: 1,984
+- Source rows reviewed: 8,544
+- Rows with numeric lug-to-lug and case diameter: 2,228
+- Existing brand/reference records skipped: 244
+- Panerai rows reviewed: 68
+- Panerai rows with numeric lug-to-lug: 1
+- Panerai additions: PAM02973
+- Insufficient-information Panerai exclusions: 67
+
+Delugs Strap Finder publishes a public API used by its strap finder page. This batch imported only active API rows with numeric `lugToLugDistance` and `caseDiameter` values. Existing seed records with the same brand/reference were left unchanged to avoid overwriting stronger or conflicting sources. Delugs rows whose lug-to-lug value was `-` were excluded rather than published with inferred measurements.
+
 ### Grand Seiko
 
 - Added models: 18
