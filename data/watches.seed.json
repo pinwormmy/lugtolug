@@ -14205,6 +14205,10 @@
       {
         "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/hbf001j1",
         "note": "Manufacturer page: 42.6 mm case, 49.3 mm lug-to-lug, 14.1 mm thickness, and 20 mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/introducing-the-updated-seiko-prospex-marinemaster-hbf001-and-hbf002/",
+        "note": "Fratello introduction lists the HBF001/HBF002 Marinemaster case family at 42.6 mm diameter, 14.1 mm thickness, and 49 mm lug-to-lug."
       }
     ]
   },
@@ -14221,6 +14225,10 @@
       {
         "sourceUrl": "https://www.seikowatches.com/kr-ko/products/prospex/hbf002j1",
         "note": "Manufacturer page: 42.6 mm case, 49.3 mm lug-to-lug, 14.1 mm thickness, and 20 mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/introducing-the-updated-seiko-prospex-marinemaster-hbf001-and-hbf002/",
+        "note": "Fratello introduction lists the HBF001/HBF002 Marinemaster case family at 42.6 mm diameter, 14.1 mm thickness, and 49 mm lug-to-lug."
       }
     ]
   },
@@ -37585,6 +37593,10 @@
       {
         "sourceUrl": "https://timeandtidewatches.com/yema-skin-diver-slim-full-lume-hands-on/",
         "note": "Time+Tide article table lists reference 12.26.20.67.SNL.U7 with case dimensions 39mm (D) x 10mm (T) x 47mm (LTL)."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/hands-on-with-the-yema-skin-diver-slim-full-lume-cmm-20-limited-edition/",
+        "note": "Fratello hands-on article confirms the 39 mm case and 47 mm lug-to-lug, while noting 12.2 mm total thickness including the double-domed sapphire crystal."
       }
     ]
   },
@@ -43257,6 +43269,10 @@
       {
         "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-the-doxa-sub-200-t-graph-ii-revives-one-of-the-rarest-diving-chronographs-of-the-1970s/",
         "note": "aBlogtoWatch hands-on states the SUB 200 T-Graph II has a 42mm case, 14.6mm thickness, and 44.5mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/hands-on-the-new-doxa-sub-200-t-graph-ii-an-iconic-dive-chronograph-returns/",
+        "note": "Fratello hands-on article cross-checks the SUB 200 T.Graph II at 42 mm diameter, 14.6 mm thickness, and a compact 44.5 mm lug-to-lug."
       }
     ]
   },
@@ -47781,6 +47797,10 @@
       {
         "sourceUrl": "https://www.ablogtowatch.com/new-release-blancpain-x-swatch-scuba-fifty-fathoms-ocean-of-storms-watch/",
         "note": "aBlogtoWatch article states dimensions of 42.3mm case, 48mm lug-to-lug, 14.4mm thickness, and 22mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/into-the-pacific-with-the-blancpain-x-swatch-scuba-fifty-fathoms-ocean-of-storms/",
+        "note": "Fratello article states the Ocean Of Storms shares the Scuba Fifty Fathoms dimensions: 42.3 mm diameter, 14.4 mm thickness, and 48 mm lug-to-lug."
       }
     ]
   },
@@ -82529,6 +82549,646 @@
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 37.5mm case diameter, 46.5mm lug-to-lug distance, 20mm lug width for Zenith Chronomaster Chronomaster Revival A384 Lupin The Third - Final Edition 95.L384.400/50.M384."
+      }
+    ]
+  },
+  {
+    "id": 5053,
+    "brand": "Fears",
+    "model": "Brunswick 40 Filton",
+    "reference": "Brunswick 40 Filton",
+    "lugToLugMm": 46.5,
+    "caseMm": 40,
+    "thicknessMm": 11.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/dont-sleep-on-these-cushions-hands-on-with-three-fears-brunswick-models/",
+        "note": "Fratello hands-on article lists the Brunswick 40 Filton at 40 mm diameter, 46.5 mm lug-to-lug, and 11.9 mm thickness including the domed sapphire crystal."
+      }
+    ]
+  },
+  {
+    "id": 5054,
+    "brand": "Unimatic",
+    "model": "Modello Uno UT1-IPP",
+    "reference": "UT1-IPP",
+    "lugToLugMm": 49,
+    "caseMm": 40,
+    "thicknessMm": 13.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/built-for-long-summer-days-the-unimatic-modello-uno-ut1-ipp/",
+        "note": "Fratello review states the UT1-IPP has a 40 mm mid-case diameter, 49 mm lug-to-lug, and 13.2 mm profile."
+      }
+    ]
+  },
+  {
+    "id": 5055,
+    "brand": "Hanhart",
+    "model": "Thermosphere",
+    "reference": "Thermosphere",
+    "lugToLugMm": 49,
+    "caseMm": 42,
+    "thicknessMm": 12.95,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/new-hanhart-thermosphere/",
+        "note": "Fratello article lists the Thermosphere at 42 mm case diameter, 12.95 mm thickness, and 49 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 5056,
+    "brand": "Fears",
+    "model": "Brunswick 40 Helmsman Endurance Specification",
+    "reference": "Brunswick 40 Helmsman Endurance Specification",
+    "lugToLugMm": 46.5,
+    "caseMm": 40,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/introducing-the-fears-brunswick-40-helmsman-endurance-specification/",
+        "note": "Fratello introduction confirms the Brunswick 40 Helmsman Endurance Specification at 46.5 mm lug-to-lug, 11.9 mm profile, and a 20 mm strap."
+      }
+    ]
+  },
+  {
+    "id": 5057,
+    "brand": "Maen",
+    "model": "Manhattan 37 Ultra-Thin Boutique Exclusive",
+    "reference": "Manhattan 37 Ultra-Thin Boutique Exclusive",
+    "lugToLugMm": 47.4,
+    "caseMm": 37,
+    "thicknessMm": 7.1,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/maen-kick-starts-its-boutique-exclusive-series-with-a-new-manhattan-37-ultra-thin/",
+        "note": "Fratello article lists the Manhattan 37 Ultra-Thin Boutique Exclusive at 37 mm diameter, 7.1 mm profile, and 47.4 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 5058,
+    "brand": "Nomos",
+    "model": "Ahoi Neomatik 36 Sky/Sand",
+    "reference": "Ahoi Neomatik 36 Sky/Sand",
+    "lugToLugMm": 45.5,
+    "caseMm": 36.3,
+    "thicknessMm": 9.1,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/the-nomos-ahoi-neomatik-gets-new-sky-and-sand-dials-in-the-compact-36-3mm-case/",
+        "note": "Fratello article lists the compact Ahoi Neomatik Sky and Sand models at 36.3 mm diameter, 45.5 mm lug-to-lug, and 9.1 mm profile."
+      }
+    ]
+  },
+  {
+    "id": 5059,
+    "brand": "Certina",
+    "model": "DS Super PH2000M STC",
+    "reference": "DS Super PH2000M STC",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 16,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/the-certina-ds-super-ph2000m-stc-has-no-business-going-this-deep/",
+        "note": "Fratello article states the DS Super PH2000M STC has a 43 mm titanium case, 16 mm total thickness, and 50 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 5060,
+    "brand": "Traska",
+    "model": "Venturer GMT 38.5mm 2026",
+    "reference": "Venturer GMT 38.5mm 2026",
+    "lugToLugMm": 46.1,
+    "caseMm": 38.5,
+    "thicknessMm": 12.1,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/the-updated-traska-venturer-gmt-doesnt-wander-far/",
+        "note": "Fratello hands-on article lists the updated Venturer GMT at 38.5 mm diameter, 12.1 mm profile including the box sapphire, 46.1 mm lug-to-lug, and 21 mm lug spacing."
+      }
+    ]
+  },
+  {
+    "id": 5061,
+    "brand": "Timex",
+    "model": "Atelier Chronograph 40mm",
+    "reference": "Atelier Chronograph 40mm",
+    "lugToLugMm": 48.11,
+    "caseMm": 40,
+    "thicknessMm": 12.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/watch-out-the-new-timex-atelier-chronographs-are-really-good/",
+        "note": "Fratello article states the steel Atelier Chronograph has a 40 mm case, 48.11 mm lug-to-lug, and 12.7 mm profile."
+      }
+    ]
+  },
+  {
+    "id": 5062,
+    "brand": "Farer",
+    "model": "Pilot Series II Curtis",
+    "reference": "Curtis",
+    "lugToLugMm": 43,
+    "caseMm": 40,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/hands-on-with-the-farer-pilot-series-ii-curtis-a-fresh-take-on-the-pilots-watch/",
+        "note": "Fratello hands-on article lists the Curtis at 40 mm diameter, 43 mm lug-to-lug, 10.9 mm thickness, and 20 mm lug spacing."
+      }
+    ]
+  },
+  {
+    "id": 5063,
+    "brand": "Charlie Paris",
+    "model": "Alliance",
+    "reference": "Alliance",
+    "lugToLugMm": 46.5,
+    "caseMm": 39.5,
+    "thicknessMm": 11,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/hands-on-with-the-versatile-and-thoroughly-modern-charlie-paris-alliance/",
+        "note": "Fratello hands-on article lists the Alliance at 39.5 mm diameter, 46.5 mm lug-to-lug, and roughly 11 mm overall profile including the domed sapphire."
+      }
+    ]
+  },
+  {
+    "id": 5064,
+    "brand": "Hanhart",
+    "model": "417 TI Desert Pilot Chronograph 39mm",
+    "reference": "417 TI Desert Pilot 39mm",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 13.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/hands-on-hanhart-417-ti-desert-pilot/",
+        "note": "Fratello article lists the smaller 417 TI Desert Pilot at 39 mm titanium case diameter, 13.6 mm total thickness, and 46 mm length."
+      }
+    ]
+  },
+  {
+    "id": 5065,
+    "brand": "Hanhart",
+    "model": "417 TI Desert Pilot Chronograph 42mm",
+    "reference": "417 TI Desert Pilot 42mm",
+    "lugToLugMm": 49,
+    "caseMm": 42,
+    "thicknessMm": 13.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/hands-on-hanhart-417-ti-desert-pilot/",
+        "note": "Fratello article lists the larger 417 TI Desert Pilot at 42 mm titanium case diameter, 13.6 mm profile, and 49 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 5066,
+    "brand": "Wolbrook",
+    "model": "Pan4Timer Automatic",
+    "reference": "Pan4Timer Automatic",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/hands-on-with-the-wolbrook-pan4timer-automatic-brilliant-or-needlessly-complicated/",
+        "note": "Fratello hands-on article lists the Pan4Timer Automatic at 40 mm diameter, 48 mm lug-to-lug, 13 mm profile, and 20 mm lug spacing."
+      }
+    ]
+  },
+  {
+    "id": 5067,
+    "brand": "Christopher Ward",
+    "model": "C60 Pool Diver Seconde/Seconde/",
+    "reference": "C60 Pool Diver Seconde/Seconde/",
+    "lugToLugMm": 47.9,
+    "caseMm": 41,
+    "thicknessMm": 11.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/introducing-the-christopher-ward-c60-pool-diver-with-seconde-seconde/",
+        "note": "Fratello introduction states the C60 Pool Diver seconde/seconde/ uses a 41 mm case with 47.9 mm lug-to-lug and 11.5 mm profile."
+      }
+    ]
+  },
+  {
+    "id": 5068,
+    "brand": "Oris",
+    "model": "Artelier Holstein Edition 2026",
+    "reference": "Holstein Edition 2026",
+    "lugToLugMm": 45.5,
+    "caseMm": 39.5,
+    "thicknessMm": 11.1,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/renders-can-ruin-a-watch-hands-on-with-the-oris-holstein-edition-2026/",
+        "note": "Fratello hands-on article lists the Oris Artelier Holstein Edition 2026 at 39.5 mm diameter, 45.5 mm lug-to-lug, and 11.1 mm profile."
+      }
+    ]
+  },
+  {
+    "id": 5069,
+    "brand": "Albishorn",
+    "model": "Marinagraph Paraiba Racing",
+    "reference": "Marinagraph Paraiba Racing",
+    "lugToLugMm": 47.7,
+    "caseMm": 39,
+    "thicknessMm": 13,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/hands-on-with-the-albishorn-marinagraph-paraiba-racing/",
+        "note": "Fratello hands-on article lists the Marinagraph Paraiba Racing at 39 mm case diameter excluding bezel, 47.7 mm lug-to-lug, and 13 mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 5070,
+    "brand": "Sinn",
+    "model": "103 St Ty Hd",
+    "reference": "103 St Ty Hd",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 14.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/hands-on-with-my-latest-purchase-the-sinn-103-st-ty-hd/",
+        "note": "Fratello hands-on article lists the Sinn 103 St Ty Hd at 41 mm diameter, 48 mm lug-to-lug, and 14.7 mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 5071,
+    "brand": "Girard-Perregaux",
+    "model": "Laureato Fifty Steel",
+    "reference": "Laureato Fifty Steel",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 10.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/hands-on-the-new-steel-girard-perregaux-laureato-fifty/",
+        "note": "Fratello hands-on article lists the steel Laureato Fifty at 39 mm case diameter, 46 mm lug-to-lug, and 10.2 mm profile."
+      }
+    ]
+  },
+  {
+    "id": 5072,
+    "brand": "Seiko",
+    "model": "Prospex Turtle PADI 60th Anniversary",
+    "reference": "HBB002",
+    "lugToLugMm": 47.7,
+    "caseMm": 45,
+    "thicknessMm": 13.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/new-seiko-prospex-turtle-padi-60th-anniversary-hbb002/",
+        "note": "Fratello introduction lists the PADI 60th Anniversary Turtle HBB002 at 45 mm diameter, 13.2 mm thickness, and 47.7 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 5073,
+    "brand": "Arken",
+    "model": "Alterum Sage Grey GMT",
+    "reference": "Alterum Sage Grey GMT",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/hands-on-arken-alterum-sage-grey/",
+        "note": "Fratello hands-on article states the Alterum has a 40 mm titanium case, 13 mm thickness, and 46 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 5074,
+    "brand": "Oris",
+    "model": "Big Crown Pointer Date Lou Gehrig Limited Edition",
+    "reference": "Lou Gehrig Limited Edition",
+    "lugToLugMm": 48.2,
+    "caseMm": 40,
+    "thicknessMm": 12.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/oris-honors-lou-gehrig-with-a-limited-edition-big-crown-pointer-date/",
+        "note": "Fratello article lists the Lou Gehrig Big Crown Pointer Date at 40 mm case diameter, 48.2 mm lug-to-lug, and 12.2 mm thickness including the double-domed sapphire."
+      }
+    ]
+  },
+  {
+    "id": 5075,
+    "brand": "Zenith",
+    "model": "G.F.J. Calibre 135 Naoya Hida & Co.",
+    "reference": "G.F.J. Naoya Hida",
+    "lugToLugMm": 45.75,
+    "caseMm": 39.15,
+    "thicknessMm": 10.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/introducing-the-zenith-g-f-j-calibre-135-double-signed-with-naoya-hida-co/",
+        "note": "Fratello introduction lists the Naoya Hida double-signed G.F.J. at 39.15 mm case diameter, 10.5 mm thickness, and 45.75 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 5076,
+    "brand": "Patek Philippe",
+    "model": "Calatrava 5227G-015",
+    "reference": "5227G-015",
+    "lugToLugMm": 46.7,
+    "caseMm": 39,
+    "thicknessMm": 9.24,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/patek-philippes-hidden-gem-is-the-new-calatrava-5227g-015/",
+        "note": "Fratello article lists the Calatrava 5227G-015 at 39 mm case diameter, 9.24 mm profile, and 46.7 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 5077,
+    "brand": "Czapek",
+    "model": "Time Jumper Steel",
+    "reference": "Time Jumper Steel",
+    "lugToLugMm": 42.4,
+    "caseMm": 40.5,
+    "thicknessMm": 12.35,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/half-hunter-czapek-time-jumper/",
+        "note": "Fratello hands-on article lists the steel Time Jumper at 40.5 mm diameter, 42.4 mm lug-to-lug, and 12.35 mm thickness with the magnifying crystal."
+      }
+    ]
+  },
+  {
+    "id": 5078,
+    "brand": "Nivada Grenchen",
+    "model": "Antarctic Glacier 35mm",
+    "reference": "Antarctic Glacier 35mm",
+    "lugToLugMm": 42,
+    "caseMm": 35,
+    "thicknessMm": 10.1,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/my-time-with-the-nivada-grenchen-antarctic-glacier-35mm/",
+        "note": "Fratello review lists the Antarctic Glacier 35 mm case at 35 mm diameter, 10.1 mm thickness, and 42 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 5079,
+    "brand": "Armin Strom",
+    "model": "Minute Repeater Resonance 12:59 First Edition",
+    "reference": "Minute Repeater Resonance 12:59 First Edition",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 11.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/introducing-the-awe-inspiring-armin-strom-minute-repeater-resonance-1259-first-edition/",
+        "note": "Fratello introduction lists the Minute Repeater Resonance 12:59 First Edition at 42 mm titanium case diameter, 11.7 mm thickness, and 48 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 5080,
+    "brand": "Cartier",
+    "model": "Santos-Dumont LM Bracelet",
+    "reference": "Santos-Dumont LM Bracelet",
+    "lugToLugMm": 43.5,
+    "caseMm": 31.4,
+    "thicknessMm": 7.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/cartier-turns-up-the-dandy-vibes-with-three-santos-dumont-models-on-bracelets/",
+        "note": "Fratello article lists the Santos-Dumont LM bracelet models at 31.4 mm case width, 43.5 mm lug-to-lug, and 7.3 mm profile."
+      }
+    ]
+  },
+  {
+    "id": 5081,
+    "brand": "Cartier",
+    "model": "Roadster Large 2026",
+    "reference": "Roadster Large 2026",
+    "lugToLugMm": 47,
+    "caseMm": 38,
+    "thicknessMm": 10.06,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/cartier-roadster-comes-roaring-back/",
+        "note": "Fratello article lists the large 2026 Cartier Roadster at 38 mm case width, 47 mm lug-to-lug, and 10.06 mm profile."
+      }
+    ]
+  },
+  {
+    "id": 5082,
+    "brand": "Cartier",
+    "model": "Roadster Medium 2026",
+    "reference": "Roadster Medium 2026",
+    "lugToLugMm": 42.5,
+    "caseMm": 34.9,
+    "thicknessMm": 9.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/cartier-roadster-comes-roaring-back/",
+        "note": "Fratello article lists the medium 2026 Cartier Roadster case as 34.9 x 42.5 x 9.7 mm."
+      }
+    ]
+  },
+  {
+    "id": 5083,
+    "brand": "HTD",
+    "model": "Phantom",
+    "reference": "Phantom",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/how-htds-new-phantom-finally-keeps-the-pilot-watch-formula-in-check/",
+        "note": "Fratello article lists the HTD Phantom at 37 mm case diameter, 44 mm lug-to-lug, and 9 mm profile."
+      }
+    ]
+  },
+  {
+    "id": 5084,
+    "brand": "Makina",
+    "model": "Uriel_VII",
+    "reference": "Uriel_VII",
+    "lugToLugMm": 44,
+    "caseMm": 38,
+    "thicknessMm": 12.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/hands-on-the-makina-uriel_vii/",
+        "note": "Fratello hands-on article lists the Uriel_VII at 38 mm case diameter, 12.9 mm profile, and 44 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 5085,
+    "brand": "Ressence",
+    "model": "Type 11",
+    "reference": "Type 11",
+    "lugToLugMm": 45,
+    "caseMm": 41,
+    "thicknessMm": 11,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/ressence-type-11-and-rw-01/",
+        "note": "Fratello article lists the Ressence Type 11 at 41 mm diameter, 45 mm lug-to-lug, and 11 mm profile including the domed sapphire crystal."
+      }
+    ]
+  },
+  {
+    "id": 5086,
+    "brand": "Casio",
+    "model": "Edifice EFK-110 Series",
+    "reference": "EFK-110",
+    "lugToLugMm": 43,
+    "caseMm": 38,
+    "thicknessMm": 11.8,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/hands-on-with-the-impressive-casio-edifice-efk-110-series-a-welcome-evolution-of-the-efk-100/",
+        "note": "Fratello hands-on article states the stainless steel EFK-110 measures 38 mm in diameter, 11.8 mm thick, and 43 mm from lug to lug."
+      }
+    ]
+  },
+  {
+    "id": 5087,
+    "brand": "Chronoswiss",
+    "model": "Pulse GMT",
+    "reference": "Pulse GMT",
+    "lugToLugMm": 46.27,
+    "caseMm": 41,
+    "thicknessMm": 13,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/traveling-locally-with-the-new-and-exciting-chronoswiss-pulse-gmt/",
+        "note": "Fratello hands-on article lists the Pulse GMT case at 41 mm diameter, 13 mm thickness, and 46.27 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 5088,
+    "brand": "Nivada Grenchen",
+    "model": "Antarctic Erotic",
+    "reference": "Antarctic Erotic",
+    "lugToLugMm": 45,
+    "caseMm": 38,
+    "thicknessMm": 12.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/the-nivada-grenchen-antarctic-erotic-a-classic-with-a-secret/",
+        "note": "Fratello article lists the Antarctic Erotic at 38 mm diameter, 12.45 mm thickness, and 45 mm lug-to-lug span."
+      }
+    ]
+  },
+  {
+    "id": 5089,
+    "brand": "Baltic",
+    "model": "Heures Du Monde Stone Dials",
+    "reference": "Heures Du Monde Stone Dials",
+    "lugToLugMm": 45,
+    "caseMm": 36,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/hands-on-introduction-baltic-heures-du-monde/",
+        "note": "Fratello hands-on article lists the Heures du Monde stone-dial models at 36 mm diameter, 45 mm lug-to-lug, and 11.3 mm total thickness."
+      }
+    ]
+  },
+  {
+    "id": 5090,
+    "brand": "Tissot",
+    "model": "Gentleman Powermatic 80 38mm",
+    "reference": "Gentleman 38mm",
+    "lugToLugMm": 45.7,
+    "caseMm": 38,
+    "thicknessMm": 12,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/reawakening-the-gentleman-in-us-the-new-tissot-gentleman-38mm/",
+        "note": "Fratello article lists the smaller Gentleman 38 mm case at 45.7 mm lug-to-lug and 12 mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 5091,
+    "brand": "Semicolon",
+    "model": "Anachron Jump-Hour",
+    "reference": "Anachron Jump-Hour",
+    "lugToLugMm": 45.5,
+    "caseMm": 38,
+    "thicknessMm": 11.75,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/celebrating-the-spirit-of-the-1920s-with-the-semicolon-anachron-jump-hour-watch/",
+        "note": "Fratello article lists the Anachron Jump-Hour at 38 mm case diameter, 11.75 mm profile, and 45.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 5092,
+    "brand": "IWC",
+    "model": "Aquatimer 2000",
+    "reference": "IW353803",
+    "lugToLugMm": 49,
+    "caseMm": 42,
+    "thicknessMm": 15.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/taking-a-20-year-old-iwc-aquatimer-2000-into-the-ocean/",
+        "note": "Fratello long-term article lists the IWC Aquatimer 2000 ref. IW353803 at 42 mm diameter, 15.5 mm thickness, and 49 mm lug-to-lug."
       }
     ]
   }
