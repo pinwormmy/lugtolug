@@ -83191,5 +83191,261 @@
         "note": "Fratello long-term article lists the IWC Aquatimer 2000 ref. IW353803 at 42 mm diameter, 15.5 mm thickness, and 49 mm lug-to-lug."
       }
     ]
+  },
+  {
+    "id": 5093,
+    "brand": "Panerai",
+    "model": "Luminor Due 42mm Burgundy Bracelet",
+    "reference": "PAM01539",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 10.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/watch-review-panerai-luminor-due-42mm-on-new-bracelet/",
+        "note": "aBlogtoWatch review lists the Luminor Due PAM01539 at 42 mm diameter, 10.7 mm thickness, and approximately 50 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 5094,
+    "brand": "Panerai",
+    "model": "Luminor Due 42mm Burgundy",
+    "reference": "PAM01424",
+    "lugToLugMm": 49,
+    "caseMm": 42,
+    "thicknessMm": null,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://timeandtidewatches.com/panerai-luminor-due-pam01424-introducing/",
+        "note": "Time+Tide article lists the Luminor Due PAM01424 at 42 mm diameter and 49 mm lug-to-lug in its case dimensions table."
+      }
+    ]
+  },
+  {
+    "id": 5095,
+    "brand": "Panerai",
+    "model": "Luminor Marina Carbotech Blu Notte",
+    "reference": "PAM01664",
+    "lugToLugMm": 54,
+    "caseMm": 44,
+    "thicknessMm": 13.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/panerai-luminor-marina-carbotech-blu-notte-pam1664-limited-edition-watch/",
+        "note": "aBlogtoWatch hands-on article lists the PAM01664 case at 44 mm diameter, about 13.5 mm thickness, and 54 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 5096,
+    "brand": "Panerai",
+    "model": "Luminor Chrono White Dial",
+    "reference": "PAM01218",
+    "lugToLugMm": 53.8,
+    "caseMm": 44,
+    "thicknessMm": 15.65,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/panerai-luminor-chrono-hands-on/",
+        "note": "aBlogtoWatch hands-on article states the new Luminor Chronos measure 44 mm wide with a 53.8 mm lug-to-lug height; steel models are about 15.6 mm thick."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/panerai-luminor-chrono-introducing",
+        "note": "HODINKEE identifies PAM01218 as a steel Luminor Chrono reference and lists the steel case at 44 mm diameter and 15.65 mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 5097,
+    "brand": "Panerai",
+    "model": "Luminor Chrono Black Dial",
+    "reference": "PAM01109",
+    "lugToLugMm": 53.8,
+    "caseMm": 44,
+    "thicknessMm": 15.65,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/panerai-luminor-chrono-hands-on/",
+        "note": "aBlogtoWatch hands-on article states the new Luminor Chronos measure 44 mm wide with a 53.8 mm lug-to-lug height; steel models are about 15.6 mm thick."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/panerai-luminor-chrono-introducing",
+        "note": "HODINKEE identifies PAM01109 as a steel Luminor Chrono reference and lists the steel case at 44 mm diameter and 15.65 mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 5098,
+    "brand": "Panerai",
+    "model": "Luminor Chrono Blue Dial",
+    "reference": "PAM01110",
+    "lugToLugMm": 53.8,
+    "caseMm": 44,
+    "thicknessMm": 15.65,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/panerai-luminor-chrono-hands-on/",
+        "note": "aBlogtoWatch hands-on article states the new Luminor Chronos measure 44 mm wide with a 53.8 mm lug-to-lug height; steel models are about 15.6 mm thick."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/panerai-luminor-chrono-introducing",
+        "note": "HODINKEE identifies PAM01110 as a steel Luminor Chrono reference and lists the steel case at 44 mm diameter and 15.65 mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 5099,
+    "brand": "Panerai",
+    "model": "Luminor Chrono Goldtech Blu Notte",
+    "reference": "PAM01111",
+    "lugToLugMm": 53.8,
+    "caseMm": 44,
+    "thicknessMm": 15.1,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/panerai-luminor-chrono-hands-on/",
+        "note": "aBlogtoWatch hands-on article identifies the Goldtech Blu Notte PAM01111 and states the Luminor Chronos measure 44 mm wide with a 53.8 mm lug-to-lug height; the Goldtech model is about 15.1 mm thick."
+      }
+    ]
+  },
+  {
+    "id": 5100,
+    "brand": "Panerai",
+    "model": "Submersible Verde Militare 42mm",
+    "reference": "PAM01055",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 14.37,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/debut-panerai-submersible-verde-militare-42mm-e-commerce-exclusive-watch/",
+        "note": "aBlogtoWatch hands-on article lists the PAM01055 at 42 mm diameter, 14.37 mm thickness, and just over 50 mm lug-to-lug; lug-to-lug is stored as 50 mm."
+      }
+    ]
+  },
+  {
+    "id": 5101,
+    "brand": "Panerai",
+    "model": "Submersible 42mm Blue Bezel",
+    "reference": "PAM00959",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": null,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/panerai-luminor-submersible-42mm-pam00683-pam00959-pam00959-watches/",
+        "note": "aBlogtoWatch hands-on article identifies PAM00959 as a 42 mm Submersible and states the 42 mm Submersible case measures a few hairs over 50 mm lug-to-lug; lug-to-lug is stored as 50 mm."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/panerai-submersible-42mm-introducing",
+        "note": "HODINKEE identifies PAM00959 as the grey-dial, blue-bezel 42 mm Submersible reference."
+      }
+    ]
+  },
+  {
+    "id": 5102,
+    "brand": "Panerai",
+    "model": "Submersible Carbotech 42mm",
+    "reference": "PAM00960",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": null,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/panerai-luminor-submersible-42mm-pam00683-pam00959-pam00959-watches/",
+        "note": "aBlogtoWatch hands-on article identifies PAM00960 as a 42 mm Submersible Carbotech and states the 42 mm Submersible case measures a few hairs over 50 mm lug-to-lug; lug-to-lug is stored as 50 mm."
+      }
+    ]
+  },
+  {
+    "id": 5103,
+    "brand": "Panerai",
+    "model": "Submersible Mike Horn Edition 47mm",
+    "reference": "PAM00984",
+    "lugToLugMm": 56,
+    "caseMm": 47,
+    "thicknessMm": 15,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/panerai-submersible-mike-horn-edition-pam00984-watch-review/",
+        "note": "aBlogtoWatch review lists the PAM00984 Eco-Titanium Submersible case at 47 mm diameter, about 15 mm thickness, and roughly 56 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 5104,
+    "brand": "Panerai",
+    "model": "Radiomir California 3 Days",
+    "reference": "PAM00424",
+    "lugToLugMm": 52,
+    "caseMm": 47,
+    "thicknessMm": null,
+    "lugWidthMm": 27,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/panerai-radiomir-california-pam00424/",
+        "note": "Fratello review lists the PAM00424 at 47 mm diameter, 52 mm lug-to-lug, and 27 mm strap width between the lugs."
+      }
+    ]
+  },
+  {
+    "id": 5105,
+    "brand": "Panerai",
+    "model": "Luminor Titanium",
+    "reference": "PAM00055",
+    "lugToLugMm": 52.8,
+    "caseMm": 44,
+    "thicknessMm": 14,
+    "lugWidthMm": 24,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/monday-morning-watches-a-titanium-panerai-with-a-delicious-coffee-brown-dial/",
+        "note": "Fratello article lists the PAM00055 at 44 mm diameter, 14 mm height, 24 mm strap width, and about 52.8 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 5106,
+    "brand": "Panerai",
+    "model": "Submersible QuarantaQuattro eSteel Verde Smeraldo",
+    "reference": "PAM01287",
+    "lugToLugMm": 54,
+    "caseMm": 44,
+    "thicknessMm": 13.4,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://timeandtidewatches.com/hands-on-the-panerai-submersible-quarantaquattro-esteel-is-green-in-multiple-ways/",
+        "note": "Time+Tide hands-on article lists the PAM01287 at 44 mm diameter, 13.4 mm thickness, and 54 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 5107,
+    "brand": "Panerai",
+    "model": "Submersible Azzurro 42mm",
+    "reference": "PAM01209",
+    "lugToLugMm": 51,
+    "caseMm": 42,
+    "thicknessMm": 14.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/buying-comparison-omega-seamaster-300-vs-panerai-submersible-azzurro/",
+        "note": "Fratello comparison article lists the PAM01209 Submersible Azzurro at 42 mm diameter, 14.5 mm thickness, and 51 mm lug-to-lug."
+      }
+    ]
   }
 ]

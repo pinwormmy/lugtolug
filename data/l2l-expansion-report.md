@@ -1,6 +1,6 @@
 # Lug-to-Lug Data Expansion Report
 
-Updated: 2026-06-19
+Updated: 2026-06-30
 
 ## Repository conventions
 
@@ -12,6 +12,44 @@ Updated: 2026-06-19
 - Optional fields that are not published are left as `null`; the schema was not changed.
 
 ## Completed batches
+
+### Panerai
+
+- Added models: 15
+- Reached 30-model target: no
+- Official-source additions: 0
+- Verified-external additions: 15
+- Duplicate candidates skipped: 1
+- Insufficient-information exclusions: 15+
+- Source-conflict exclusions: 0
+
+Panerai official product pages generally do not publish lug-to-lug length, so this batch used established watch publications where the article identifies the reference and publishes a lug-to-lug measurement in the same review or in a corroborated case-family context. Sources used include aBlogtoWatch, Fratello, Time+Tide, and HODINKEE. Approximate wording such as "roughly" or "just over" is preserved in `sources[].note`; stored values are rounded to the nearest practical millimeter where the source does not give a decimal.
+
+Added references:
+
+- PAM01539
+- PAM01424
+- PAM01664
+- PAM01218
+- PAM01109
+- PAM01110
+- PAM01111
+- PAM01055
+- PAM00959
+- PAM00960
+- PAM00984
+- PAM00424
+- PAM00055
+- PAM01287
+- PAM01209
+
+Notable exclusions:
+
+- Delugs Strap Finder: reviewed 68 Panerai rows; only PAM02973 had numeric lug-to-lug and it already existed.
+- WatchCharts and Bernard Watch pages were blocked behind anti-bot challenges during verification, so they were not used for new rows.
+- Time+Tide Radiomir California 45mm and Submersible Carbotech/Blu Abisso articles published dimensions but not reference numbers in the article tables, so they were not added.
+- Time+Tide Luminor Marina Quaranta PAM01270/PAM01271/PAM01272 coverage extrapolated expected dimensions from PAM048 rather than publishing direct model dimensions, so those references were not added.
+- HODINKEE Panerai introductions commonly list diameter and thickness but not lug-to-lug; they were used only as supporting reference identification where another reviewed source provided lug-to-lug.
 
 ### Delugs Strap Finder
 
