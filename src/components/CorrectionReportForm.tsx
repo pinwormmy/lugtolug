@@ -103,8 +103,8 @@ export default function CorrectionReportForm({ watch }: Props) {
       ))}
 
       <div className="form-field full">
-        <label htmlFor="issueDetails">Details</label>
-        <textarea className="textarea" id="issueDetails" maxLength={900} name="issueDetails" placeholder="Add a source, measurement note, or what should be corrected." required />
+        <label htmlFor="issueDetails">Details, optional</label>
+        <textarea className="textarea" id="issueDetails" maxLength={900} name="issueDetails" placeholder="Add a source, measurement note, or what should be corrected." />
       </div>
 
       <div className="form-field full">
