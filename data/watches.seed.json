@@ -27978,11 +27978,15 @@
     "lugToLugMm": 48.5,
     "caseMm": 41,
     "thicknessMm": 15.2,
-    "lugWidthMm": null,
+    "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://timeandtidewatches.com/ball-roadmaster-m-model-a-hands-on/",
         "note": "Time+Tide article table lists reference DA9100C-S1-BKR with case dimensions 41mm (D) x 15.2mm (T) x 48.5mm (LTL)."
+      },
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DA9100C-S1-BKR?model=DA9100C-S1-BKR",
+        "note": "Ball Watch product page lists 41mm case, 15.2mm height, 20mm lug width, 48.5mm lug-to-lug for reference DA9100C-S1-BKR."
       }
     ]
   },
@@ -27999,6 +28003,10 @@
       {
         "sourceUrl": "https://timeandtidewatches.com/ball-x-oracle-time-engineer-ii-dazzle-introducing/",
         "note": "Time+Tide article table lists reference NM9016C-S8C-BK with case dimensions 40mm (W) x 11.5mm (T) x 46.6mm (LTL)."
+      },
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/dazzle",
+        "note": "Ball Watch product page lists 40mm case, 11.5mm height, 20mm lug width, approx. 46.6mm lug-to-lug for reference NM9016C-S8C-BK."
       }
     ]
   },
@@ -83445,6 +83453,3478 @@
       {
         "sourceUrl": "https://www.fratellowatches.com/buying-comparison-omega-seamaster-300-vs-panerai-submersible-azzurro/",
         "note": "Fratello comparison article lists the PAM01209 Submersible Azzurro at 42 mm diameter, 14.5 mm thickness, and 51 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 5108,
+    "brand": "Ball",
+    "model": "Engineer M Marvelight Patriot",
+    "reference": "NM2128C-S7C-ABE2",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9032C-09-NM2128C-07-ABE?model=NM2128C-S7C-ABE2",
+        "note": "Ball Watch product page lists 43mm case, 13.4mm height, 21mm lug width, approx. 50mm lug-to-lug for reference NM2128C-S7C-ABE2."
+      }
+    ]
+  },
+  {
+    "id": 5109,
+    "brand": "Ball",
+    "model": "Engineer M Marvelight Patriot",
+    "reference": "NM2128C-S7C-MSL2",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9032C-09-NM2128C-07-MSL?model=NM2128C-S7C-MSL2",
+        "note": "Ball Watch product page lists 43mm case, 13.4mm height, 21mm lug width, approx. 50mm lug-to-lug for reference NM2128C-S7C-MSL2."
+      }
+    ]
+  },
+  {
+    "id": 5110,
+    "brand": "Ball",
+    "model": "Engineer III Marvelight Patriot",
+    "reference": "NM9028C-S51C-ABE2",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 12.75,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9026C-59-NM9028C-51-ABE?model=NM9028C-S51C-ABE2",
+        "note": "Ball Watch product page lists 43mm case, 12.75mm height, 21mm lug width, approx. 50mm lug-to-lug for reference NM9028C-S51C-ABE2."
+      }
+    ]
+  },
+  {
+    "id": 5111,
+    "brand": "Ball",
+    "model": "Engineer II Moon Phase Chronometer",
+    "reference": "NM2282C-S1C-IBE",
+    "lugToLugMm": 47.6,
+    "caseMm": 41,
+    "thicknessMm": 13.95,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2282C-S1C?model=NM2282C-S1C-IBE",
+        "note": "Ball Watch product page lists 41mm case, 13.95mm height, 20mm lug width, approx. 47.6mm lug-to-lug for reference NM2282C-S1C-IBE."
+      }
+    ]
+  },
+  {
+    "id": 5112,
+    "brand": "Ball",
+    "model": "Fireman Victory",
+    "reference": "NM2098C-S28J-IBER",
+    "lugToLugMm": 48.5,
+    "caseMm": 40,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2098C-S28J-IBE?model=NM2098C-S28J-IBER",
+        "note": "Ball Watch product page lists 40mm case, 11.3mm height, 20mm lug width, 48.5mm lug-to-lug for reference NM2098C-S28J-IBER."
+      }
+    ]
+  },
+  {
+    "id": 5113,
+    "brand": "Ball",
+    "model": "Engineer M Ascension",
+    "reference": "NM9032C-S8C-BKJ",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 12.05,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9032C-S8C-BKJ",
+        "note": "Ball Watch product page lists 40mm case, 12.05mm height, 20mm lug width, 46.6mm lug-to-lug for reference NM9032C-S8C-BKJ."
+      }
+    ]
+  },
+  {
+    "id": 5114,
+    "brand": "Ball",
+    "model": "Engineer Master II Snoopy Flying Ace",
+    "reference": "NM2638C-L2J-BK",
+    "lugToLugMm": 53.5,
+    "caseMm": 46,
+    "thicknessMm": 12.35,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2638C-L2J-BK",
+        "note": "Ball Watch product page lists 46mm case, 12.35mm height, 22mm lug width, approx. 53.5mm lug-to-lug for reference NM2638C-L2J-BK."
+      }
+    ]
+  },
+  {
+    "id": 5115,
+    "brand": "Ball",
+    "model": "Roadmaster CSAR Chronograph",
+    "reference": "DC3030C-S5C-BE",
+    "lugToLugMm": 49.8,
+    "caseMm": 42,
+    "thicknessMm": 14.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DC3030C-04-05?model=DC3030C-S5C-BE",
+        "note": "Ball Watch product page lists 42mm case, 14.8mm height, 20mm lug width, 49.8mm lug-to-lug for reference DC3030C-S5C-BE."
+      }
+    ]
+  },
+  {
+    "id": 5116,
+    "brand": "Ball",
+    "model": "Roadmaster CSAR With Rotor-LOCK",
+    "reference": "GM3180B-S6-BE",
+    "lugToLugMm": 48.5,
+    "caseMm": 41,
+    "thicknessMm": 15.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/GM3180B-S6-BE",
+        "note": "Ball Watch product page lists 41mm case, 15.2mm height, 20mm lug width, 48.5mm lug-to-lug for reference GM3180B-S6-BE."
+      }
+    ]
+  },
+  {
+    "id": 5117,
+    "brand": "Ball",
+    "model": "Roadmaster CSAR",
+    "reference": "GM3180B-S5-BE",
+    "lugToLugMm": 48.5,
+    "caseMm": 41,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/GM3180B-S5-BE",
+        "note": "Ball Watch product page lists 41mm case, 12.9mm height, 20mm lug width, 48.5mm lug-to-lug for reference GM3180B-S5-BE."
+      }
+    ]
+  },
+  {
+    "id": 5118,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT Moon Phase Meteorite",
+    "reference": "DG3220A-S9C-MSL",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 14.55,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/mgmpmsl09?model=DG3220A-S9C-MSL",
+        "note": "Ball Watch product page lists 42mm case, 14.55mm height, 20mm lug width, approx. 49.7mm lug-to-lug for reference DG3220A-S9C-MSL."
+      }
+    ]
+  },
+  {
+    "id": 5119,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT Moon Phase",
+    "reference": "DG3220A-S9C-BE",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 14.55,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/marinegmtmp09?model=DG3220A-S9C-BE",
+        "note": "Ball Watch product page lists 42mm case, 14.55mm height, 20mm lug width, approx. 49.7mm lug-to-lug for reference DG3220A-S9C-BE."
+      }
+    ]
+  },
+  {
+    "id": 5120,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT Meteorite",
+    "reference": "DG3000A-S16C-MSL",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/marinegmtmsl0916?model=DG3000A-S16C-MSL",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3000A-S16C-MSL."
+      }
+    ]
+  },
+  {
+    "id": 5121,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3000A-S16C-BE",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/marinegmt0916?model=DG3000A-S16C-BE",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3000A-S16C-BE."
+      }
+    ]
+  },
+  {
+    "id": 5122,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon AeroGMT II Patriot",
+    "reference": "DG2018C-S24C-MSL",
+    "lugToLugMm": 54,
+    "caseMm": 42,
+    "thicknessMm": 13.85,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/aerogmt-24-msl?model=DG2018C-S24C-MSL",
+        "note": "Ball Watch product page lists 42mm case, 13.85mm height, 21mm lug width, 54mm lug-to-lug for reference DG2018C-S24C-MSL."
+      }
+    ]
+  },
+  {
+    "id": 5123,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon AeroGMT II Patriot",
+    "reference": "DG2018C-S24C-ABE",
+    "lugToLugMm": 54,
+    "caseMm": 42,
+    "thicknessMm": 13.85,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/aerogmt-24-abe?model=DG2018C-S24C-ABE",
+        "note": "Ball Watch product page lists 42mm case, 13.85mm height, 21mm lug width, 54mm lug-to-lug for reference DG2018C-S24C-ABE."
+      }
+    ]
+  },
+  {
+    "id": 5124,
+    "brand": "Ball",
+    "model": "Engineer II Galloping Horse",
+    "reference": "NM9016C-S11-YTE",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9016C-S11-YTE",
+        "note": "Ball Watch product page lists 40mm case, 11.5mm height, 20mm lug width, approx. 46.6mm lug-to-lug for reference NM9016C-S11-YTE."
+      }
+    ]
+  },
+  {
+    "id": 5125,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT Moon Phase Meteorite",
+    "reference": "DG3220A-S8C-MSL",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 14.55,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3220A-S8C-MSL?model=DG3220A-S8C-MSL",
+        "note": "Ball Watch product page lists 42mm case, 14.55mm height, 20mm lug width, approx. 49.7mm lug-to-lug for reference DG3220A-S8C-MSL."
+      }
+    ]
+  },
+  {
+    "id": 5126,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT Moon Phase",
+    "reference": "DG3220A-S8C-WH",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 14.55,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3220A-S8C?model=DG3220A-S8C-WH",
+        "note": "Ball Watch product page lists 42mm case, 14.55mm height, 20mm lug width, approx. 49.7mm lug-to-lug for reference DG3220A-S8C-WH."
+      }
+    ]
+  },
+  {
+    "id": 5127,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT Meteorite",
+    "reference": "DG3222A-S8C-MSL",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 14.55,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3222A-S8C-MSL?model=DG3222A-S8C-MSL",
+        "note": "Ball Watch product page lists 42mm case, 14.55mm height, 20mm lug width, approx. 49.7mm lug-to-lug for reference DG3222A-S8C-MSL."
+      }
+    ]
+  },
+  {
+    "id": 5128,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3222A-S8C-WH",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 14.55,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3222A-S8C?model=DG3222A-S8C-WH",
+        "note": "Ball Watch product page lists 42mm case, 14.55mm height, 20mm lug width, approx. 49.7mm lug-to-lug for reference DG3222A-S8C-WH."
+      }
+    ]
+  },
+  {
+    "id": 5129,
+    "brand": "Ball",
+    "model": "Fireman 2-Tone",
+    "reference": "NL2110C-2T-SJ-SL",
+    "lugToLugMm": 37.5,
+    "caseMm": 31,
+    "thicknessMm": 10.1,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NL2110C-2T-SJ-SL",
+        "note": "Ball Watch product page lists 31mm case, 10.1mm height, 16mm lug width, 37.5mm lug-to-lug for reference NL2110C-2T-SJ-SL."
+      }
+    ]
+  },
+  {
+    "id": 5130,
+    "brand": "Ball",
+    "model": "Fireman 2-Tone",
+    "reference": "NM2110C-SJ-SL",
+    "lugToLugMm": 48.5,
+    "caseMm": 40,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2110C-SJ-SL",
+        "note": "Ball Watch product page lists 40mm case, 11.7mm height, 20mm lug width, 48.5mm lug-to-lug for reference NM2110C-SJ-SL."
+      }
+    ]
+  },
+  {
+    "id": 5131,
+    "brand": "Ball",
+    "model": "Engineer III Ohio Chronometer",
+    "reference": "NM9026C-S5CJ-GR",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 12.45,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9026C-S5CJ-GR",
+        "note": "Ball Watch product page lists 40mm case, 12.45mm height, 20mm lug width, 46.6mm lug-to-lug for reference NM9026C-S5CJ-GR."
+      }
+    ]
+  },
+  {
+    "id": 5132,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT Meteorite",
+    "reference": "DG3000A-S15C-MSL",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3222A-DG3000A-07-15?model=DG3000A-S15C-MSL",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3000A-S15C-MSL."
+      }
+    ]
+  },
+  {
+    "id": 5133,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3000A-S15C-BK",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3222A-DG3000A?model=DG3000A-S15C-BK",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3000A-S15C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5134,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon AeroGMT II Meteorite",
+    "reference": "DG2018C-S23C-MSL",
+    "lugToLugMm": 54,
+    "caseMm": 42,
+    "thicknessMm": 13.85,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/aerogmt23?model=DG2018C-S23C-MSL",
+        "note": "Ball Watch product page lists 42mm case, 13.85mm height, 21mm lug width, 54mm lug-to-lug for reference DG2018C-S23C-MSL."
+      }
+    ]
+  },
+  {
+    "id": 5135,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3000A-S14CJ-BK",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3000A-S14CJ-BK",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3000A-S14CJ-BK."
+      }
+    ]
+  },
+  {
+    "id": 5136,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT Meteorite",
+    "reference": "DG3000A-S14CJ-MSL",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3000A-S14CJ-MSL?model=DG3000A-S14CJ-MSL",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3000A-S14CJ-MSL."
+      }
+    ]
+  },
+  {
+    "id": 5137,
+    "brand": "Ball",
+    "model": "Engineer III Outlier",
+    "reference": "DG9002B-S2C-WH",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG9002B-02?model=DG9002B-S2C-WH",
+        "note": "Ball Watch product page lists 40mm case, 13.8mm height, 20mm lug width, approx. 46.6mm lug-to-lug for reference DG9002B-S2C-WH."
+      }
+    ]
+  },
+  {
+    "id": 5138,
+    "brand": "Ball",
+    "model": "Engineer III Outlier",
+    "reference": "DG9000B-S2C-TQ",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG9000B-02",
+        "note": "Ball Watch product page lists 40mm case, 13.8mm height, 20mm lug width, approx. 46.6mm lug-to-lug for reference DG9000B-S2C-TQ."
+      }
+    ]
+  },
+  {
+    "id": 5139,
+    "brand": "Ball",
+    "model": "Roadmaster Perseverer",
+    "reference": "NM9050C-S1-IBE",
+    "lugToLugMm": 44.5,
+    "caseMm": 40,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9050C-01?model=NM9050C-S1-IBE",
+        "note": "Ball Watch product page lists 40mm case, 12mm height, 20mm lug width, 44.5mm lug-to-lug for reference NM9050C-S1-IBE."
+      }
+    ]
+  },
+  {
+    "id": 5140,
+    "brand": "Ball",
+    "model": "Engineer III BRIGHT PATH",
+    "reference": "NL9616C-S10CJ-YTE",
+    "lugToLugMm": 41.94,
+    "caseMm": 36,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NL9616C-S10CJ-YTE",
+        "note": "Ball Watch product page lists 36mm case, 11.5mm height, 20mm lug width, approx. 41.94mm lug-to-lug for reference NL9616C-S10CJ-YTE."
+      }
+    ]
+  },
+  {
+    "id": 5141,
+    "brand": "Ball",
+    "model": "Engineer III BRIGHT PATH",
+    "reference": "NM9028C-S46CJ-YTE",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 12.75,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/BrightPath-40-43?model=NM9028C-S46CJ-YTE",
+        "note": "Ball Watch product page lists 43mm case, 12.75mm height, 21mm lug width, approx. 50mm lug-to-lug for reference NM9028C-S46CJ-YTE."
+      }
+    ]
+  },
+  {
+    "id": 5142,
+    "brand": "Ball",
+    "model": "Fireman Victory MOP",
+    "reference": "NM2098C-S26J-WHR",
+    "lugToLugMm": 48.5,
+    "caseMm": 40,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2098C-S26J-WH?model=NM2098C-S26J-WHR",
+        "note": "Ball Watch product page lists 40mm case, 11.3mm height, 20mm lug width, 48.5mm lug-to-lug for reference NM2098C-S26J-WHR."
+      }
+    ]
+  },
+  {
+    "id": 5143,
+    "brand": "Ball",
+    "model": "Engineer III Invigorating Serpent",
+    "reference": "NM9026C-S47-MAL",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9026C-S47-MAL",
+        "note": "Ball Watch product page lists 40mm case, 12.5mm height, 20mm lug width, approx. 46.6mm lug-to-lug for reference NM9026C-S47-MAL."
+      }
+    ]
+  },
+  {
+    "id": 5144,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon AeroGMT II Meteorite",
+    "reference": "DG2018C-S22C-MBK",
+    "lugToLugMm": 54,
+    "caseMm": 42,
+    "thicknessMm": 13.85,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/aerogmtmbk22?model=DG2018C-S22C-MBK",
+        "note": "Ball Watch product page lists 42mm case, 13.85mm height, 21mm lug width, 54mm lug-to-lug for reference DG2018C-S22C-MBK."
+      }
+    ]
+  },
+  {
+    "id": 5145,
+    "brand": "Ball",
+    "model": "Engineer III Marvelight Chronometer Meteorite",
+    "reference": "NM9026C-S46C-MSL",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 12.45,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9026C-S46C?model=NM9026C-S46C-MSL",
+        "note": "Ball Watch product page lists 40mm case, 12.45mm height, 20mm lug width, approx. 46.6mm lug-to-lug for reference NM9026C-S46C-MSL."
+      }
+    ]
+  },
+  {
+    "id": 5146,
+    "brand": "Ball",
+    "model": "Engineer Master II Ballistic Diver",
+    "reference": "DM2280A-S6-BK",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DM2280A-S6-BK",
+        "note": "Ball Watch product page lists 42mm case, 13.5mm height, 21mm lug width, 50mm lug-to-lug for reference DM2280A-S6-BK."
+      }
+    ]
+  },
+  {
+    "id": 5147,
+    "brand": "Ball",
+    "model": "Engineer Master II Ballistic Diver (42mm COSC)",
+    "reference": "DM2280A-S6C-BK",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DM2280A-S6C-BK",
+        "note": "Ball Watch product page lists 42mm case, 13.5mm height, 21mm lug width, 50mm lug-to-lug for reference DM2280A-S6C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5148,
+    "brand": "Ball",
+    "model": "Roadmaster Rescue Chronograph",
+    "reference": "DC3030C-S2-WH",
+    "lugToLugMm": 49.8,
+    "caseMm": 42,
+    "thicknessMm": 14.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DC3030C-S2?model=DC3030C-S2-WH",
+        "note": "Ball Watch product page lists 42mm case, 14.8mm height, 20mm lug width, 49.8mm lug-to-lug for reference DC3030C-S2-WH."
+      }
+    ]
+  },
+  {
+    "id": 5149,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon AeroGMT II Meteorite",
+    "reference": "DG2018C-S21C-MSL",
+    "lugToLugMm": 54,
+    "caseMm": 42,
+    "thicknessMm": 13.85,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/aerogmtmsl21?model=DG2018C-S21C-MSL",
+        "note": "Ball Watch product page lists 42mm case, 13.85mm height, 21mm lug width, 54mm lug-to-lug for reference DG2018C-S21C-MSL."
+      }
+    ]
+  },
+  {
+    "id": 5150,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon AeroGMT II Meteorite",
+    "reference": "DG2018C-S20C-MSL",
+    "lugToLugMm": 54,
+    "caseMm": 42,
+    "thicknessMm": 13.85,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/aerogmtmsl?model=DG2018C-S20C-MSL",
+        "note": "Ball Watch product page lists 42mm case, 13.85mm height, 21mm lug width, 54mm lug-to-lug for reference DG2018C-S20C-MSL."
+      }
+    ]
+  },
+  {
+    "id": 5151,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon Spacemaster II",
+    "reference": "DM2236A-S2CJ-IBE",
+    "lugToLugMm": 53.55,
+    "caseMm": 42,
+    "thicknessMm": 16.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DM2236A-S2CJ?model=DM2236A-S2CJ-IBE",
+        "note": "Ball Watch product page lists 42mm case, 16.5mm height, 21mm lug width, approx. 53.55mm lug-to-lug for reference DM2236A-S2CJ-IBE."
+      }
+    ]
+  },
+  {
+    "id": 5152,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon Spacemaster II",
+    "reference": "DM2276A-S5CJ-IBE",
+    "lugToLugMm": 53.55,
+    "caseMm": 42,
+    "thicknessMm": 16.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DM2276A-S5CJ?model=DM2276A-S5CJ-IBE",
+        "note": "Ball Watch product page lists 42mm case, 16.5mm height, 21mm lug width, approx. 53.55mm lug-to-lug for reference DM2276A-S5CJ-IBE."
+      }
+    ]
+  },
+  {
+    "id": 5153,
+    "brand": "Ball",
+    "model": "Engineer Master II Normandy",
+    "reference": "NM3500C-S4-BK",
+    "lugToLugMm": 52.9,
+    "caseMm": 45,
+    "thicknessMm": 14.05,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM3500C-S4-BK",
+        "note": "Ball Watch product page lists 45mm case, 14.05mm height, 22mm lug width, approx. 52.9mm lug-to-lug for reference NM3500C-S4-BK."
+      }
+    ]
+  },
+  {
+    "id": 5154,
+    "brand": "Ball",
+    "model": "Engineer M Normandy",
+    "reference": "NM2128C-S4C-BK",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2128C-S4C-BK",
+        "note": "Ball Watch product page lists 43mm case, 13.4mm height, 21mm lug width, approx. 50mm lug-to-lug for reference NM2128C-S4C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5155,
+    "brand": "Ball",
+    "model": "Engineer M Normandy",
+    "reference": "NM2032C-S2C-BK",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 12.05,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2032C-S2C-BK",
+        "note": "Ball Watch product page lists 40mm case, 12.05mm height, 20mm lug width, approx. 46.6mm lug-to-lug for reference NM2032C-S2C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5156,
+    "brand": "Ball",
+    "model": "Engineer III Marvelight Chronometer",
+    "reference": "NM9026C-S44C-TQR",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 12.45,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9026C-S44C?model=NM9026C-S44C-TQR",
+        "note": "Ball Watch product page lists 40mm case, 12.45mm height, 20mm lug width, 46.6mm lug-to-lug for reference NM9026C-S44C-TQR."
+      }
+    ]
+  },
+  {
+    "id": 5157,
+    "brand": "Ball",
+    "model": "Engineer M Star Magna",
+    "reference": "ND2186C-L2CJ-GR",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/ND2186C-L2CJ?model=ND2186C-L2CJ-GR",
+        "note": "Ball Watch product page lists 43mm case, 13.5mm height, 21mm lug width, approx. 50mm lug-to-lug for reference ND2186C-L2CJ-GR."
+      }
+    ]
+  },
+  {
+    "id": 5158,
+    "brand": "Ball",
+    "model": "Engineer III Marvelight Chronometer",
+    "reference": "NM9026C-S27C-RD",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 12.45,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9026C-S27C?model=NM9026C-S27C-RD",
+        "note": "Ball Watch product page lists 40mm case, 12.45mm height, 20mm lug width, 46.6mm lug-to-lug for reference NM9026C-S27C-RD."
+      }
+    ]
+  },
+  {
+    "id": 5159,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon DeepQUEST II",
+    "reference": "DM3002A-PC-WH",
+    "lugToLugMm": 53,
+    "caseMm": 42,
+    "thicknessMm": 15.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DM3002A-SC?model=DM3002A-PC-WH",
+        "note": "Ball Watch product page lists 42mm case, 15.5mm height, 21mm lug width, 53mm lug-to-lug for reference DM3002A-PC-WH."
+      }
+    ]
+  },
+  {
+    "id": 5160,
+    "brand": "Ball",
+    "model": "Roadmaster Pilot GMT Meteorite",
+    "reference": "DG3038A-S9CJ-MSL",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3038A-S9CJ-MSL",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3038A-S9CJ-MSL."
+      }
+    ]
+  },
+  {
+    "id": 5161,
+    "brand": "Ball",
+    "model": "Roadmaster M Perseverer (40mm & 43mm)",
+    "reference": "NM9352C-S1C-IBE",
+    "lugToLugMm": 47.8,
+    "caseMm": 43,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/rmmperseverer?model=NM9352C-S1C-IBE",
+        "note": "Ball Watch product page lists 43mm case, 12.2mm height, 20mm lug width, 47.8mm lug-to-lug for reference NM9352C-S1C-IBE."
+      }
+    ]
+  },
+  {
+    "id": 5162,
+    "brand": "Ball",
+    "model": "Fireman Enterprise",
+    "reference": "NM2098C-S20J-WH",
+    "lugToLugMm": 48.5,
+    "caseMm": 40,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2098C-S20J-WH",
+        "note": "Ball Watch product page lists 40mm case, 11.3mm height, 20mm lug width, 48.5mm lug-to-lug for reference NM2098C-S20J-WH."
+      }
+    ]
+  },
+  {
+    "id": 5163,
+    "brand": "Ball",
+    "model": "Fireman Enterprise",
+    "reference": "NM2098C-S20J-BK",
+    "lugToLugMm": 48.5,
+    "caseMm": 40,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2098C-S20J-BK",
+        "note": "Ball Watch product page lists 40mm case, 11.3mm height, 20mm lug width, 48.5mm lug-to-lug for reference NM2098C-S20J-BK."
+      }
+    ]
+  },
+  {
+    "id": 5164,
+    "brand": "Ball",
+    "model": "Engineer III Marvelight Chronometer",
+    "reference": "NM9028C-S36CJ-IBER",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9028C-S36CJ-IBER",
+        "note": "Ball Watch product page lists 43mm case, 13.6mm height, 21mm lug width, 50mm lug-to-lug for reference NM9028C-S36CJ-IBER."
+      }
+    ]
+  },
+  {
+    "id": 5165,
+    "brand": "Ball",
+    "model": "Engineer M Skindiver III",
+    "reference": "DD3100A-S1C-BE",
+    "lugToLugMm": 52,
+    "caseMm": 41.5,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DD3100A-S1C?model=DD3100A-S1C-BE",
+        "note": "Ball Watch product page lists 41.5mm case, 13.8mm height, 22mm lug width, 52mm lug-to-lug for reference DD3100A-S1C-BE."
+      }
+    ]
+  },
+  {
+    "id": 5166,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT Moon Phase Meteorite",
+    "reference": "DG3220A-S2C-MSL",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 14.55,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3220A-S2C-MSL?model=DG3220A-S2C-MSL",
+        "note": "Ball Watch product page lists 42mm case, 14.55mm height, 20mm lug width, approx. 49.7mm lug-to-lug for reference DG3220A-S2C-MSL."
+      }
+    ]
+  },
+  {
+    "id": 5167,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT Moon Phase",
+    "reference": "DG3220A-S2C-GR",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 14.55,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3220A-S2C?model=DG3220A-S2C-GR",
+        "note": "Ball Watch product page lists 42mm case, 14.55mm height, 20mm lug width, approx. 49.7mm lug-to-lug for reference DG3220A-S2C-GR."
+      }
+    ]
+  },
+  {
+    "id": 5168,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT Meteorite",
+    "reference": "DG3222A-S2C-MSL",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 14.55,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3222A-S2C-MSL?model=DG3222A-S2C-MSL",
+        "note": "Ball Watch product page lists 42mm case, 14.55mm height, 20mm lug width, approx. 49.7mm lug-to-lug for reference DG3222A-S2C-MSL."
+      }
+    ]
+  },
+  {
+    "id": 5169,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3222A-S2C-GR",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 14.55,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3222A-S2C?model=DG3222A-S2C-GR",
+        "note": "Ball Watch product page lists 42mm case, 14.55mm height, 20mm lug width, approx. 49.7mm lug-to-lug for reference DG3222A-S2C-GR."
+      }
+    ]
+  },
+  {
+    "id": 5170,
+    "brand": "Ball",
+    "model": "Engineer III Ohio Chronometer",
+    "reference": "NM9026C-S5CJ-SL",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 12.45,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9026C-S5CJ?model=NM9026C-S5CJ-SL",
+        "note": "Ball Watch product page lists 40mm case, 12.45mm height, 20mm lug width, 46.6mm lug-to-lug for reference NM9026C-S5CJ-SL."
+      }
+    ]
+  },
+  {
+    "id": 5171,
+    "brand": "Ball",
+    "model": "Roadmaster M Archangel II",
+    "reference": "DM3150B-S14CJ-GR",
+    "lugToLugMm": 50.8,
+    "caseMm": 43,
+    "thicknessMm": 13.85,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/rmmarchangelii?model=DM3150B-S14CJ-GR",
+        "note": "Ball Watch product page lists 43mm case, 13.85mm height, 21mm lug width, approx. 50.8mm lug-to-lug for reference DM3150B-S14CJ-GR."
+      }
+    ]
+  },
+  {
+    "id": 5172,
+    "brand": "Ball",
+    "model": "Engineer M Pioneer II",
+    "reference": "NM2128C-S2CJ-IBE",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2128C-S2CJ?model=NM2128C-S2CJ-IBE",
+        "note": "Ball Watch product page lists 43mm case, 13.4mm height, 21mm lug width, approx. 50mm lug-to-lug for reference NM2128C-S2CJ-IBE."
+      }
+    ]
+  },
+  {
+    "id": 5173,
+    "brand": "Ball",
+    "model": "Engineer M Pioneer II",
+    "reference": "NM2128C-S3CJ-BKR",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2128C-S3CJ-BKR?model=NM2128C-S3CJ-BKR",
+        "note": "Ball Watch product page lists 43mm case, 13.4mm height, 21mm lug width, approx. 50mm lug-to-lug for reference NM2128C-S3CJ-BKR."
+      }
+    ]
+  },
+  {
+    "id": 5174,
+    "brand": "Ball",
+    "model": "Engineer M Pioneer II",
+    "reference": "NM9032C-S4CJ-IBE",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 12.05,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9032C-S4CJ?model=NM9032C-S4CJ-IBE",
+        "note": "Ball Watch product page lists 40mm case, 12.05mm height, 20mm lug width, approx. 46.6mm lug-to-lug for reference NM9032C-S4CJ-IBE."
+      }
+    ]
+  },
+  {
+    "id": 5175,
+    "brand": "Ball",
+    "model": "Engineer M Pioneer II",
+    "reference": "NM9032C-S5CJ-BKR",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 12.05,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9032C-S5CJ-BKR?model=NM9032C-S5CJ-BKR",
+        "note": "Ball Watch product page lists 40mm case, 12.05mm height, 20mm lug width, approx. 46.6mm lug-to-lug for reference NM9032C-S5CJ-BKR."
+      }
+    ]
+  },
+  {
+    "id": 5176,
+    "brand": "Ball",
+    "model": "Engineer III Pioneer II",
+    "reference": "NM9028C-S40CJ-IBE",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 12.75,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9028C-S40CJ?model=NM9028C-S40CJ-IBE",
+        "note": "Ball Watch product page lists 43mm case, 12.75mm height, 21mm lug width, approx. 50mm lug-to-lug for reference NM9028C-S40CJ-IBE."
+      }
+    ]
+  },
+  {
+    "id": 5177,
+    "brand": "Ball",
+    "model": "Engineer III Pioneer II",
+    "reference": "NM9028C-S41CJ-BKR",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 12.75,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9028C-S41CJ-BKR?model=NM9028C-S41CJ-BKR",
+        "note": "Ball Watch product page lists 43mm case, 12.75mm height, 21mm lug width, approx. 50mm lug-to-lug for reference NM9028C-S41CJ-BKR."
+      }
+    ]
+  },
+  {
+    "id": 5178,
+    "brand": "Ball",
+    "model": "Engineer III Pioneer II",
+    "reference": "NM9036C-S2CJ-IBE",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9036C-S2CJ?model=NM9036C-S2CJ-IBE",
+        "note": "Ball Watch product page lists 40mm case, 13mm height, 20mm lug width, approx. 46.6mm lug-to-lug for reference NM9036C-S2CJ-IBE."
+      }
+    ]
+  },
+  {
+    "id": 5179,
+    "brand": "Ball",
+    "model": "Engineer III Pioneer II",
+    "reference": "NM9036C-S3CJ-BKR",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9036C-S3CJ-BKR?model=NM9036C-S3CJ-BKR",
+        "note": "Ball Watch product page lists 40mm case, 13mm height, 20mm lug width, approx. 46.6mm lug-to-lug for reference NM9036C-S3CJ-BKR."
+      }
+    ]
+  },
+  {
+    "id": 5180,
+    "brand": "Ball",
+    "model": "Engineer III Pioneer II",
+    "reference": "NL9616C-S4CJ-IBE",
+    "lugToLugMm": 41.94,
+    "caseMm": 36,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NL9616C-S4CJ?model=NL9616C-S4CJ-IBE",
+        "note": "Ball Watch product page lists 36mm case, 11.5mm height, 20mm lug width, approx. 41.94mm lug-to-lug for reference NL9616C-S4CJ-IBE."
+      }
+    ]
+  },
+  {
+    "id": 5181,
+    "brand": "Ball",
+    "model": "Engineer III Pioneer II",
+    "reference": "NL9616C-S5CJ-BKR",
+    "lugToLugMm": 41.94,
+    "caseMm": 36,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NL9616C-S5CJ-BKR?model=NL9616C-S5CJ-BKR",
+        "note": "Ball Watch product page lists 36mm case, 11.5mm height, 20mm lug width, approx. 41.94mm lug-to-lug for reference NL9616C-S5CJ-BKR."
+      }
+    ]
+  },
+  {
+    "id": 5182,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT Moon Phase",
+    "reference": "DG3220A-S1CJ-SL",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 14.55,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3220A-S1CJ?model=DG3220A-S1CJ-SL",
+        "note": "Ball Watch product page lists 42mm case, 14.55mm height, 20mm lug width, approx. 49.7mm lug-to-lug for reference DG3220A-S1CJ-SL."
+      }
+    ]
+  },
+  {
+    "id": 5183,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3222A-S1CJ-SL",
+    "lugToLugMm": 49.7,
+    "caseMm": 42,
+    "thicknessMm": 14.55,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3222A-S1CJ?model=DG3222A-S1CJ-SL",
+        "note": "Ball Watch product page lists 42mm case, 14.55mm height, 20mm lug width, approx. 49.7mm lug-to-lug for reference DG3222A-S1CJ-SL."
+      }
+    ]
+  },
+  {
+    "id": 5184,
+    "brand": "Ball",
+    "model": "Engineer M Endurance",
+    "reference": "NM9032C-S3CJ-IBE",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 12.05,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9032C-S3CJ?model=NM9032C-S3CJ-IBE",
+        "note": "Ball Watch product page lists 40mm case, 12.05mm height, 20mm lug width, 46.6mm lug-to-lug for reference NM9032C-S3CJ-IBE."
+      }
+    ]
+  },
+  {
+    "id": 5185,
+    "brand": "Ball",
+    "model": "Engineer II M Skindiver Heritage",
+    "reference": "DD3208B-P2C-BK",
+    "lugToLugMm": 53,
+    "caseMm": 42,
+    "thicknessMm": 15.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/eIImskindiverheritage02?model=DD3208B-P2C-BK",
+        "note": "Ball Watch product page lists 42mm case, 15.2mm height, 22mm lug width, 53mm lug-to-lug for reference DD3208B-P2C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5186,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT Meteorite",
+    "reference": "DG3000A-S13CJ-MSL",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3000A-S10CJ-MSL?model=DG3000A-S13CJ-MSL",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3000A-S13CJ-MSL."
+      }
+    ]
+  },
+  {
+    "id": 5187,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon EOD",
+    "reference": "DM3200A-S2C-BK",
+    "lugToLugMm": 53.2,
+    "caseMm": 42,
+    "thicknessMm": 13.7,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DM3200A-S2C-BK",
+        "note": "Ball Watch product page lists 42mm case, 13.7mm height, 21mm lug width, 53.2mm lug-to-lug for reference DM3200A-S2C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5188,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon EOD",
+    "reference": "DM3200A-S1C-BK",
+    "lugToLugMm": 53.2,
+    "caseMm": 42,
+    "thicknessMm": 13.7,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DM3200A-S1C-BK",
+        "note": "Ball Watch product page lists 42mm case, 13.7mm height, 21mm lug width, 53.2mm lug-to-lug for reference DM3200A-S1C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5189,
+    "brand": "Ball",
+    "model": "Engineer II Navigator World Time Chronograph",
+    "reference": "CM3388D-S1-SLBK",
+    "lugToLugMm": 51,
+    "caseMm": 44,
+    "thicknessMm": 16.2,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/eiinwtc01?model=CM3388D-S1-SLBK",
+        "note": "Ball Watch product page lists 44mm case, 16.2mm height, 21mm lug width, approx. 51mm lug-to-lug for reference CM3388D-S1-SLBK."
+      }
+    ]
+  },
+  {
+    "id": 5190,
+    "brand": "Ball",
+    "model": "Trainmaster Standard Time GMT",
+    "reference": "NM3888D-S5CJ-WH",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 11.15,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM3888D-S5CJ-WH",
+        "note": "Ball Watch product page lists 40mm case, 11.15mm height, 20mm lug width, 46mm lug-to-lug for reference NM3888D-S5CJ-WH."
+      }
+    ]
+  },
+  {
+    "id": 5191,
+    "brand": "Ball",
+    "model": "Roadmaster First Responder With Rotor-LOCK",
+    "reference": "GM3180B-S2-BK",
+    "lugToLugMm": 48.5,
+    "caseMm": 41,
+    "thicknessMm": 15.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/GM3180B-S2-BK",
+        "note": "Ball Watch product page lists 41mm case, 15.2mm height, 20mm lug width, 48.5mm lug-to-lug for reference GM3180B-S2-BK."
+      }
+    ]
+  },
+  {
+    "id": 5192,
+    "brand": "Ball",
+    "model": "Roadmaster First Responder",
+    "reference": "GM3180B-S1-BK",
+    "lugToLugMm": 48.5,
+    "caseMm": 41,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/GM3180B-S1-BK",
+        "note": "Ball Watch product page lists 41mm case, 12.9mm height, 20mm lug width, 48.5mm lug-to-lug for reference GM3180B-S1-BK."
+      }
+    ]
+  },
+  {
+    "id": 5193,
+    "brand": "Ball",
+    "model": "Roadmaster Rescue Chronograph",
+    "reference": "DC3030C-S3-IBEBE",
+    "lugToLugMm": 49.8,
+    "caseMm": 42,
+    "thicknessMm": 14.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DC3030C-S3?model=DC3030C-S3-IBEBE",
+        "note": "Ball Watch product page lists 42mm case, 14.8mm height, 20mm lug width, 49.8mm lug-to-lug for reference DC3030C-S3-IBEBE."
+      }
+    ]
+  },
+  {
+    "id": 5194,
+    "brand": "Ball",
+    "model": "Roadmaster Challenger Moonphase",
+    "reference": "DM3150B-S13J-GR",
+    "lugToLugMm": 50.8,
+    "caseMm": 43,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/rmchallengermoonphase?model=DM3150B-S13J-GR",
+        "note": "Ball Watch product page lists 43mm case, 14.4mm height, 21mm lug width, approx. 50.8mm lug-to-lug for reference DM3150B-S13J-GR."
+      }
+    ]
+  },
+  {
+    "id": 5195,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon AeroGMT Sled Driver",
+    "reference": "DG2018C-S18C-BK",
+    "lugToLugMm": 54,
+    "caseMm": 42,
+    "thicknessMm": 13.85,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/sled-driver-40-42?model=DG2018C-S18C-BK",
+        "note": "Ball Watch product page lists 42mm case, 13.85mm height, 21mm lug width, 54mm lug-to-lug for reference DG2018C-S18C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5196,
+    "brand": "Ball",
+    "model": "Roadmaster Pilot GMT",
+    "reference": "DG3038A-S7CJ-BK",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3038A-S7CJ?model=DG3038A-S7CJ-BK",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3038A-S7CJ-BK."
+      }
+    ]
+  },
+  {
+    "id": 5197,
+    "brand": "Ball",
+    "model": "Engineer M Marvelight",
+    "reference": "NM9032C-L1CJ-GY",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 12.05,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9032C-01CJ?model=NM9032C-L1CJ-GY",
+        "note": "Ball Watch product page lists 40mm case, 12.05mm height, 20mm lug width, 46.6mm lug-to-lug for reference NM9032C-L1CJ-GY."
+      }
+    ]
+  },
+  {
+    "id": 5198,
+    "brand": "Ball",
+    "model": "Engineer III Marvelight Chronometer",
+    "reference": "NL9616C-S1C-IBE",
+    "lugToLugMm": 40,
+    "caseMm": 36,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NL9616C-S1C?model=NL9616C-S1C-IBE",
+        "note": "Ball Watch product page lists 36mm case, 11.5mm height, 20mm lug width, approx. 40mm lug-to-lug for reference NL9616C-S1C-IBE."
+      }
+    ]
+  },
+  {
+    "id": 5199,
+    "brand": "Ball",
+    "model": "Engineer III Marvelight Chronometer",
+    "reference": "NL9616C-S1C-PK",
+    "lugToLugMm": 40,
+    "caseMm": 36,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NL9616C-S1C-PK?model=NL9616C-S1C-PK",
+        "note": "Ball Watch product page lists 36mm case, 11.5mm height, 20mm lug width, approx. 40mm lug-to-lug for reference NL9616C-S1C-PK."
+      }
+    ]
+  },
+  {
+    "id": 5200,
+    "brand": "Ball",
+    "model": "Engineer III Marvelight Chronometer Day-Date",
+    "reference": "NM9036C-S1C-IBE",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9036C-S1C?model=NM9036C-S1C-IBE",
+        "note": "Ball Watch product page lists 40mm case, 13mm height, 20mm lug width, 46.6mm lug-to-lug for reference NM9036C-S1C-IBE."
+      }
+    ]
+  },
+  {
+    "id": 5201,
+    "brand": "Ball",
+    "model": "Engineer Master II Diver Chronometer",
+    "reference": "DM2280A-P3C-BRR",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DM2280A-P?model=DM2280A-P3C-BRR",
+        "note": "Ball Watch product page lists 42mm case, 13.5mm height, 21mm lug width, 50mm lug-to-lug for reference DM2280A-P3C-BRR."
+      }
+    ]
+  },
+  {
+    "id": 5202,
+    "brand": "Ball",
+    "model": "Engineer Master II Diver Chronometer",
+    "reference": "DM2280A-S3C-BRR",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DM2280A-S?model=DM2280A-S3C-BRR",
+        "note": "Ball Watch product page lists 42mm case, 13.5mm height, 21mm lug width, 50mm lug-to-lug for reference DM2280A-S3C-BRR."
+      }
+    ]
+  },
+  {
+    "id": 5203,
+    "brand": "Ball",
+    "model": "Engineer II Timetrekker",
+    "reference": "GM9020C-SC-BK",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/GM9020C-SC?model=GM9020C-SC-BK",
+        "note": "Ball Watch product page lists 40mm case, 12.8mm height, 20mm lug width, 46.6mm lug-to-lug for reference GM9020C-SC-BK."
+      }
+    ]
+  },
+  {
+    "id": 5204,
+    "brand": "Ball",
+    "model": "Engineer III Legend Arabic",
+    "reference": "NM9016C-S7C-WH",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9016C-S7C?model=NM9016C-S7C-WH",
+        "note": "Ball Watch product page lists 40mm case, 11.5mm height, 20mm lug width, approx. 46.6mm lug-to-lug for reference NM9016C-S7C-WH."
+      }
+    ]
+  },
+  {
+    "id": 5205,
+    "brand": "Ball",
+    "model": "Engineer Master II Diver",
+    "reference": "DM1020A-PAJ-BKOR",
+    "lugToLugMm": 47.6,
+    "caseMm": 42,
+    "thicknessMm": 12.1,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DM1020A-PAJ-BKOR",
+        "note": "Ball Watch product page lists 42mm case, 12.1mm height, 20mm lug width, approx. 47.6mm lug-to-lug for reference DM1020A-PAJ-BKOR."
+      }
+    ]
+  },
+  {
+    "id": 5206,
+    "brand": "Ball",
+    "model": "Engineer III Marvelight Chronometer",
+    "reference": "NM9026C-S39CJ-OR",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 12.45,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9026C-S39CJ-OR",
+        "note": "Ball Watch product page lists 40mm case, 12.45mm height, 20mm lug width, approx. 46.6mm lug-to-lug for reference NM9026C-S39CJ-OR."
+      }
+    ]
+  },
+  {
+    "id": 5207,
+    "brand": "Ball",
+    "model": "Roadmaster Archangel Power Reserve",
+    "reference": "DP3306A-S6CJ-GR",
+    "lugToLugMm": 50.8,
+    "caseMm": 43,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DP3006A-DP3306A-04-05-06?model=DP3306A-S6CJ-GR",
+        "note": "Ball Watch product page lists 43mm case, 14.4mm height, 21mm lug width, 50.8mm lug-to-lug for reference DP3306A-S6CJ-GR."
+      }
+    ]
+  },
+  {
+    "id": 5208,
+    "brand": "Ball",
+    "model": "Roadmaster Pilot GMT",
+    "reference": "DG3038A-S5CJ-BK",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3038A-S5CJ?model=DG3038A-S5CJ-BK",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3038A-S5CJ-BK."
+      }
+    ]
+  },
+  {
+    "id": 5209,
+    "brand": "Ball",
+    "model": "Engineer Master II Doolittle Raiders",
+    "reference": "NM3000C-S1-GR",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM3000C-S1?model=NM3000C-S1-GR",
+        "note": "Ball Watch product page lists 40mm case, 13.6mm height, 20mm lug width, approx. 46.6mm lug-to-lug for reference NM3000C-S1-GR."
+      }
+    ]
+  },
+  {
+    "id": 5210,
+    "brand": "Ball",
+    "model": "Roadmaster M Marvelight Bronze",
+    "reference": "DD3072B-L4CJ-BE",
+    "lugToLugMm": 50.8,
+    "caseMm": 43,
+    "thicknessMm": 14.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DD3072B-03-04?model=DD3072B-L4CJ-BE",
+        "note": "Ball Watch product page lists 43mm case, 14.5mm height, 21mm lug width, approx. 50.8mm lug-to-lug for reference DD3072B-L4CJ-BE."
+      }
+    ]
+  },
+  {
+    "id": 5211,
+    "brand": "Ball",
+    "model": "Roadmaster Marvelight Bronze",
+    "reference": "DM3070B-L4CJ-BE",
+    "lugToLugMm": 49.8,
+    "caseMm": 42,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DM3070B-03-04?model=DM3070B-L4CJ-BE",
+        "note": "Ball Watch product page lists 42mm case, 14.4mm height, 21mm lug width, approx. 49.8mm lug-to-lug for reference DM3070B-L4CJ-BE."
+      }
+    ]
+  },
+  {
+    "id": 5212,
+    "brand": "Ball",
+    "model": "Roadmaster Pilot GMT",
+    "reference": "DG3038A-S4C-BK",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3038A-S4C?model=DG3038A-S4C-BK",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3038A-S4C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5213,
+    "brand": "Ball",
+    "model": "Engineer III Maverick GMT",
+    "reference": "DG3028C-S1CJ-IBE",
+    "lugToLugMm": 51.2,
+    "caseMm": 40,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3028C-S1CJ?model=DG3028C-S1CJ-IBE",
+        "note": "Ball Watch product page lists 40mm case, 12.8mm height, 22mm lug width, approx. 51.2mm lug-to-lug for reference DG3028C-S1CJ-IBE."
+      }
+    ]
+  },
+  {
+    "id": 5214,
+    "brand": "Ball",
+    "model": "Trainmaster Titanium",
+    "reference": "NM1038D-L5J-BK",
+    "lugToLugMm": 45.5,
+    "caseMm": 38,
+    "thicknessMm": 10.35,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM1038D-L5J-BK",
+        "note": "Ball Watch product page lists 38mm case, 10.35mm height, 19mm lug width, approx. 45.5mm lug-to-lug for reference NM1038D-L5J-BK."
+      }
+    ]
+  },
+  {
+    "id": 5215,
+    "brand": "Ball",
+    "model": "Trainmaster Legend",
+    "reference": "NM9080D-S1J-SL",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 11.45,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9080D-01?model=NM9080D-S1J-SL",
+        "note": "Ball Watch product page lists 40mm case, 11.45mm height, 20mm lug width, approx. 46mm lug-to-lug for reference NM9080D-S1J-SL."
+      }
+    ]
+  },
+  {
+    "id": 5216,
+    "brand": "Ball",
+    "model": "Engineer Master II Endurance 1917",
+    "reference": "NM3500C-S2C-IBE",
+    "lugToLugMm": 52.9,
+    "caseMm": 45,
+    "thicknessMm": 14.05,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM3500C-S2C?model=NM3500C-S2C-IBE",
+        "note": "Ball Watch product page lists 45mm case, 14.05mm height, 22mm lug width, approx. 52.9mm lug-to-lug for reference NM3500C-S2C-IBE."
+      }
+    ]
+  },
+  {
+    "id": 5217,
+    "brand": "Ball",
+    "model": "Engineer Master II Endurance 1917",
+    "reference": "NM3000C-S2C-BE",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM3000C-S2C?model=NM3000C-S2C-BE",
+        "note": "Ball Watch product page lists 40mm case, 13.6mm height, 20mm lug width, approx. 46.6mm lug-to-lug for reference NM3000C-S2C-BE."
+      }
+    ]
+  },
+  {
+    "id": 5218,
+    "brand": "Ball",
+    "model": "Engineer III Endurance 1917 GMT",
+    "reference": "GM9100C-S2C-BER",
+    "lugToLugMm": 47.6,
+    "caseMm": 41,
+    "thicknessMm": 13.15,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/GM9100C-S2C?model=GM9100C-S2C-BER",
+        "note": "Ball Watch product page lists 41mm case, 13.15mm height, 20mm lug width, approx. 47.6mm lug-to-lug for reference GM9100C-S2C-BER."
+      }
+    ]
+  },
+  {
+    "id": 5219,
+    "brand": "Ball",
+    "model": "Engineer III Marvelight Chronometer",
+    "reference": "NM9026C-S6CJ-SLR",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 12.45,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/marvelight-chronometer-NM9026C-S6CJ?model=NM9026C-S6CJ-SLR",
+        "note": "Ball Watch product page lists 40mm case, 12.45mm height, 20mm lug width, 46.6mm lug-to-lug for reference NM9026C-S6CJ-SLR."
+      }
+    ]
+  },
+  {
+    "id": 5220,
+    "brand": "Ball",
+    "model": "Engineer Master II Diver Worldtime",
+    "reference": "DG2232A-PC-GRBK",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/diver-worldtime-DG2232A-PC-GRBK-42mm",
+        "note": "Ball Watch product page lists 42mm case, 14.4mm height, 20mm lug width, 48mm lug-to-lug for reference DG2232A-PC-GRBK."
+      }
+    ]
+  },
+  {
+    "id": 5221,
+    "brand": "Ball",
+    "model": "Engineer Master II Diver Worldtime",
+    "reference": "DG2232A-SC-GR",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/diver-worldtime-DG2232A-SC-GR-42mm",
+        "note": "Ball Watch product page lists 42mm case, 14.4mm height, 20mm lug width, 48mm lug-to-lug for reference DG2232A-SC-GR."
+      }
+    ]
+  },
+  {
+    "id": 5222,
+    "brand": "Ball",
+    "model": "Engineer Master II Diver Worldtime",
+    "reference": "DG2232A-SC-GRBK",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/diver-worldtime-DG2232A-SC-GRBK-42mm",
+        "note": "Ball Watch product page lists 42mm case, 14.4mm height, 20mm lug width, 48mm lug-to-lug for reference DG2232A-SC-GRBK."
+      }
+    ]
+  },
+  {
+    "id": 5223,
+    "brand": "Ball",
+    "model": "Engineer Master II Diver Worldtime",
+    "reference": "DG2232A-PC-GR",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/diver-worldtime-DG2232A-PC-GR-42mm",
+        "note": "Ball Watch product page lists 42mm case, 14.4mm height, 20mm lug width, 48mm lug-to-lug for reference DG2232A-PC-GR."
+      }
+    ]
+  },
+  {
+    "id": 5224,
+    "brand": "Ball",
+    "model": "Engineer Master II Doolittle Raiders",
+    "reference": "NM2638C-L1-GRR",
+    "lugToLugMm": 53.5,
+    "caseMm": 46,
+    "thicknessMm": 12.35,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2638C-L1?model=NM2638C-L1-GRR",
+        "note": "Ball Watch product page lists 46mm case, 12.35mm height, 22mm lug width, approx. 53.5mm lug-to-lug for reference NM2638C-L1-GRR."
+      }
+    ]
+  },
+  {
+    "id": 5225,
+    "brand": "Ball",
+    "model": "Engineer Master II Doolittle Raiders",
+    "reference": "NM3500C-S1-GRR",
+    "lugToLugMm": 52.9,
+    "caseMm": 45,
+    "thicknessMm": 14.65,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM3500C-S1?model=NM3500C-S1-GRR",
+        "note": "Ball Watch product page lists 45mm case, 14.65mm height, 22mm lug width, approx. 52.9mm lug-to-lug for reference NM3500C-S1-GRR."
+      }
+    ]
+  },
+  {
+    "id": 5226,
+    "brand": "Ball",
+    "model": "Roadmaster Ocean Explorer",
+    "reference": "DM3120C-S1CJ-BK",
+    "lugToLugMm": 48.5,
+    "caseMm": 41,
+    "thicknessMm": 12.95,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DM3120C-S1CJ?model=DM3120C-S1CJ-BK",
+        "note": "Ball Watch product page lists 41mm case, 12.95mm height, 20mm lug width, 48.5mm lug-to-lug for reference DM3120C-S1CJ-BK."
+      }
+    ]
+  },
+  {
+    "id": 5227,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon Submarine Warfare Chronograph",
+    "reference": "DC2276A-SJ-BK",
+    "lugToLugMm": 53.55,
+    "caseMm": 42,
+    "thicknessMm": 17.9,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DC2276A-SJ-BK?model=DC2276A-SJ-BK",
+        "note": "Ball Watch product page lists 42mm case, 17.9mm height, 21mm lug width, 53.55mm lug-to-lug for reference DC2276A-SJ-BK."
+      }
+    ]
+  },
+  {
+    "id": 5228,
+    "brand": "Ball",
+    "model": "Roadmaster Pilot GMT",
+    "reference": "DG3038A-S3C-BK",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3038A?model=DG3038A-S3C-BK",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3038A-S3C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5229,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon DeepQUEST Ceramic",
+    "reference": "DM3002A-P4CJ-GR",
+    "lugToLugMm": 53,
+    "caseMm": 42,
+    "thicknessMm": 15.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/deepquestceramic?model=DM3002A-P4CJ-GR",
+        "note": "Ball Watch product page lists 42mm case, 15.5mm height, 21mm lug width, 53mm lug-to-lug for reference DM3002A-P4CJ-GR."
+      }
+    ]
+  },
+  {
+    "id": 5230,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon Hope",
+    "reference": "DL2016B-S5CAJ-PK",
+    "lugToLugMm": 45.5,
+    "caseMm": 36,
+    "thicknessMm": 13.1,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DL2016B-S5CAJ-PK",
+        "note": "Ball Watch product page lists 36mm case, 13.1mm height, 16mm lug width, 45.5mm lug-to-lug for reference DL2016B-S5CAJ-PK."
+      }
+    ]
+  },
+  {
+    "id": 5231,
+    "brand": "Ball",
+    "model": "Trainmaster MSF Humanity",
+    "reference": "NM1038D-S10J-WH",
+    "lugToLugMm": 45.5,
+    "caseMm": 38,
+    "thicknessMm": 10.35,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/TR_MSF_Humanity",
+        "note": "Ball Watch product page lists 38mm case, 10.35mm height, 19mm lug width, 45.5mm lug-to-lug for reference NM1038D-S10J-WH."
+      }
+    ]
+  },
+  {
+    "id": 5232,
+    "brand": "Ball",
+    "model": "Roadmaster Challenger Power Reserve",
+    "reference": "DP3306A-S3CJ-GR",
+    "lugToLugMm": 50.8,
+    "caseMm": 43,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DP3006A?model=DP3306A-S3CJ-GR",
+        "note": "Ball Watch product page lists 43mm case, 14.4mm height, 21mm lug width, 50.8mm lug-to-lug for reference DP3306A-S3CJ-GR."
+      }
+    ]
+  },
+  {
+    "id": 5233,
+    "brand": "Ball",
+    "model": "Engineer M Skindiver III Beyond",
+    "reference": "DD3100A-S2C-BE",
+    "lugToLugMm": 52,
+    "caseMm": 41.5,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DD3100A-S2C-BE",
+        "note": "Ball Watch product page lists 41.5mm case, 13.8mm height, 22mm lug width, 52mm lug-to-lug for reference DD3100A-S2C-BE."
+      }
+    ]
+  },
+  {
+    "id": 5234,
+    "brand": "Ball",
+    "model": "Roadmaster Rescue Chronograph",
+    "reference": "DC3030C-S-WHBK",
+    "lugToLugMm": 49.8,
+    "caseMm": 42,
+    "thicknessMm": 14.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DC3030C-S-WHBK",
+        "note": "Ball Watch product page lists 42mm case, 14.8mm height, 20mm lug width, 49.8mm lug-to-lug for reference DC3030C-S-WHBK."
+      }
+    ]
+  },
+  {
+    "id": 5235,
+    "brand": "Ball",
+    "model": "Roadmaster Rescue Chronograph",
+    "reference": "DC3030C-S-BKWH",
+    "lugToLugMm": 49.8,
+    "caseMm": 42,
+    "thicknessMm": 14.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DC3030C-S-BKWH",
+        "note": "Ball Watch product page lists 42mm case, 14.8mm height, 20mm lug width, 49.8mm lug-to-lug for reference DC3030C-S-BKWH."
+      }
+    ]
+  },
+  {
+    "id": 5236,
+    "brand": "Ball",
+    "model": "Roadmaster Ocean Explorer",
+    "reference": "DM3120C-SCJ-BE",
+    "lugToLugMm": 48.5,
+    "caseMm": 41,
+    "thicknessMm": 12.95,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DM3120C-SCJ-BE",
+        "note": "Ball Watch product page lists 41mm case, 12.95mm height, 20mm lug width, 48.5mm lug-to-lug for reference DM3120C-SCJ-BE."
+      }
+    ]
+  },
+  {
+    "id": 5237,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3000A-S9CJ-GR",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3030B-S9CJ-GR",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3000A-S9CJ-GR."
+      }
+    ]
+  },
+  {
+    "id": 5238,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3030B-S9CJ-WH",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3030B-S9CJ-WH",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3030B-S9CJ-WH."
+      }
+    ]
+  },
+  {
+    "id": 5239,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3030B-S9CJ-BK",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3030B-S9CJ-BK",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3030B-S9CJ-BK."
+      }
+    ]
+  },
+  {
+    "id": 5240,
+    "brand": "Ball",
+    "model": "Engineer Master II Diver Chronometer",
+    "reference": "DM2280A-P1C-BER",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DM2280A-P1C-BE?model=DM2280A-P1C-BER",
+        "note": "Ball Watch product page lists 42mm case, 13.5mm height, 21mm lug width, 50mm lug-to-lug for reference DM2280A-P1C-BER."
+      }
+    ]
+  },
+  {
+    "id": 5241,
+    "brand": "Ball",
+    "model": "Engineer Master II Diver Chronometer",
+    "reference": "DM2280A-P1C-BKR",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DM2280A-P1C-BK?model=DM2280A-P1C-BKR",
+        "note": "Ball Watch product page lists 42mm case, 13.5mm height, 21mm lug width, 50mm lug-to-lug for reference DM2280A-P1C-BKR."
+      }
+    ]
+  },
+  {
+    "id": 5242,
+    "brand": "Ball",
+    "model": "Engineer Master II Diver Chronometer",
+    "reference": "DM2280A-S1C-BER",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DM2280A-S1C-BE?model=DM2280A-S1C-BER",
+        "note": "Ball Watch product page lists 42mm case, 13.5mm height, 21mm lug width, 50mm lug-to-lug for reference DM2280A-S1C-BER."
+      }
+    ]
+  },
+  {
+    "id": 5243,
+    "brand": "Ball",
+    "model": "Engineer Master II Diver Chronometer",
+    "reference": "DM2280A-S1C-BKR",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DM2280A-S1C-BK?model=DM2280A-S1C-BKR",
+        "note": "Ball Watch product page lists 42mm case, 13.5mm height, 21mm lug width, 50mm lug-to-lug for reference DM2280A-S1C-BKR."
+      }
+    ]
+  },
+  {
+    "id": 5244,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3000A-S8CJ-WH",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3000A-S8CJ-WH",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3000A-S8CJ-WH."
+      }
+    ]
+  },
+  {
+    "id": 5245,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3000A-S8CJ-BK",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3030B-S8CJ-BK",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3000A-S8CJ-BK."
+      }
+    ]
+  },
+  {
+    "id": 5246,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3000A-S8CJ-BE",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3000A-S8CJ-BE",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3000A-S8CJ-BE."
+      }
+    ]
+  },
+  {
+    "id": 5247,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon AeroGMT Sled Driver (42 mm)",
+    "reference": "DG2018C-P17C-BK",
+    "lugToLugMm": 54,
+    "caseMm": 42,
+    "thicknessMm": 13.85,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG2018C-S17C-BK?model=DG2018C-P17C-BK",
+        "note": "Ball Watch product page lists 42mm case, 13.85mm height, 21mm lug width, 54mm lug-to-lug for reference DG2018C-P17C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5248,
+    "brand": "Ball",
+    "model": "Roadmaster Rescue Chronograph",
+    "reference": "DC3030C-S1-BE",
+    "lugToLugMm": 49.8,
+    "caseMm": 42,
+    "thicknessMm": 14.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DC3030C-S1-BE",
+        "note": "Ball Watch product page lists 42mm case, 14.8mm height, 20mm lug width, 49.8mm lug-to-lug for reference DC3030C-S1-BE."
+      }
+    ]
+  },
+  {
+    "id": 5249,
+    "brand": "Ball",
+    "model": "Roadmaster Rescue Chronograph",
+    "reference": "DC3030C-S1-WH",
+    "lugToLugMm": 49.8,
+    "caseMm": 42,
+    "thicknessMm": 14.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DC3030C-S1-WH",
+        "note": "Ball Watch product page lists 42mm case, 14.8mm height, 20mm lug width, 49.8mm lug-to-lug for reference DC3030C-S1-WH."
+      }
+    ]
+  },
+  {
+    "id": 5250,
+    "brand": "Ball",
+    "model": "Engineer M Pioneer",
+    "reference": "NM9032C-S2C-BK2",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 12.05,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9032C-S2C-BK?model=NM9032C-S2C-BK2",
+        "note": "Ball Watch product page lists 40mm case, 12.05mm height, 20mm lug width, approx. 46.6mm lug-to-lug for reference NM9032C-S2C-BK2."
+      }
+    ]
+  },
+  {
+    "id": 5251,
+    "brand": "Ball",
+    "model": "Engineer M Pioneer",
+    "reference": "NM9032C-S2C-BE2",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 12.05,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9032C-S2C-BE?model=NM9032C-S2C-BE2",
+        "note": "Ball Watch product page lists 40mm case, 12.05mm height, 20mm lug width, approx. 46.6mm lug-to-lug for reference NM9032C-S2C-BE2."
+      }
+    ]
+  },
+  {
+    "id": 5252,
+    "brand": "Ball",
+    "model": "Engineer M Pioneer",
+    "reference": "NM9032C-S2C-GR2",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 12.05,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9032C-S2C-GR?model=NM9032C-S2C-GR2",
+        "note": "Ball Watch product page lists 40mm case, 12.05mm height, 20mm lug width, approx. 46.6mm lug-to-lug for reference NM9032C-S2C-GR2."
+      }
+    ]
+  },
+  {
+    "id": 5253,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3000A-S7CJ-BE",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3030B-S7CJ-BE",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3000A-S7CJ-BE."
+      }
+    ]
+  },
+  {
+    "id": 5254,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3000A-S7CJ-WH",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3030B-S7CJ-WH",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3000A-S7CJ-WH."
+      }
+    ]
+  },
+  {
+    "id": 5255,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3030B-S7CJ-BK",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3030B-S7CJ-BK",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3030B-S7CJ-BK."
+      }
+    ]
+  },
+  {
+    "id": 5256,
+    "brand": "Ball",
+    "model": "Engineer III Marvelight Chronometer",
+    "reference": "PM9026C-S3C-SL2",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 13.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/PM9026C-S3C-SL?model=PM9026C-S3C-SL2",
+        "note": "Ball Watch product page lists 40mm case, 13.75mm height, 20mm lug width, 47mm lug-to-lug for reference PM9026C-S3C-SL2."
+      }
+    ]
+  },
+  {
+    "id": 5257,
+    "brand": "Ball",
+    "model": "Engineer III Marvelight Chronometer",
+    "reference": "PM9026C-S3C-BE2",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 13.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/PM9026C-S3C-BE?model=PM9026C-S3C-BE2",
+        "note": "Ball Watch product page lists 40mm case, 13.75mm height, 20mm lug width, 47mm lug-to-lug for reference PM9026C-S3C-BE2."
+      }
+    ]
+  },
+  {
+    "id": 5258,
+    "brand": "Ball",
+    "model": "Engineer III Marvelight Chronometer",
+    "reference": "PM9026C-S3C-BK2",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 13.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/PM9026C-S3C-BK?model=PM9026C-S3C-BK2",
+        "note": "Ball Watch product page lists 40mm case, 13.75mm height, 20mm lug width, 47mm lug-to-lug for reference PM9026C-S3C-BK2."
+      }
+    ]
+  },
+  {
+    "id": 5259,
+    "brand": "Ball",
+    "model": "Roadmaster Pilot GMT",
+    "reference": "DG3038A-S2C-WH",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3038A-S2C-WH",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3038A-S2C-WH."
+      }
+    ]
+  },
+  {
+    "id": 5260,
+    "brand": "Ball",
+    "model": "Roadmaster Pilot GMT",
+    "reference": "DG3038A-S2C-BE",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3038A-S2C-BE",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3038A-S2C-BE."
+      }
+    ]
+  },
+  {
+    "id": 5261,
+    "brand": "Ball",
+    "model": "Roadmaster Pilot GMT",
+    "reference": "DG3038A-S2C-BK",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3038A-S2C-BK",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3038A-S2C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5262,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3030B-S6CJ-BE",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3030B-S6CJ-BE",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3030B-S6CJ-BE."
+      }
+    ]
+  },
+  {
+    "id": 5263,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3000A-S6CJ-WH",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3030B-S6CJ-WH",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3000A-S6CJ-WH."
+      }
+    ]
+  },
+  {
+    "id": 5264,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3030B-S6CJ-BK",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3030B-S6CJ-BK",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3030B-S6CJ-BK."
+      }
+    ]
+  },
+  {
+    "id": 5265,
+    "brand": "Ball",
+    "model": "Engineer III Dreamer",
+    "reference": "NM9026C-S19-BE",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9026C-19?model=NM9026C-S19-BE",
+        "note": "Ball Watch product page lists 40mm case, 13.6mm height, 20mm lug width, 46.6mm lug-to-lug for reference NM9026C-S19-BE."
+      }
+    ]
+  },
+  {
+    "id": 5266,
+    "brand": "Ball",
+    "model": "Roadmaster Rescue Chronograph",
+    "reference": "DC3030C-S-BE",
+    "lugToLugMm": 49.8,
+    "caseMm": 42,
+    "thicknessMm": 14.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DC3030C-S-BE",
+        "note": "Ball Watch product page lists 42mm case, 14.8mm height, 20mm lug width, 49.8mm lug-to-lug for reference DC3030C-S-BE."
+      }
+    ]
+  },
+  {
+    "id": 5267,
+    "brand": "Ball",
+    "model": "Roadmaster Rescue Chronograph",
+    "reference": "DC3030C-S-BK",
+    "lugToLugMm": 49.8,
+    "caseMm": 42,
+    "thicknessMm": 14.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DC3030C-S-BK",
+        "note": "Ball Watch product page lists 42mm case, 14.8mm height, 20mm lug width, 49.8mm lug-to-lug for reference DC3030C-S-BK."
+      }
+    ]
+  },
+  {
+    "id": 5268,
+    "brand": "Ball",
+    "model": "Roadmaster Pilot GMT",
+    "reference": "DG3038A-S1C-WH",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3038A-S1C-WH",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3038A-S1C-WH."
+      }
+    ]
+  },
+  {
+    "id": 5269,
+    "brand": "Ball",
+    "model": "Roadmaster Pilot GMT",
+    "reference": "DG3038A-S1C-BE",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3038A-S1C-BE",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3038A-S1C-BE."
+      }
+    ]
+  },
+  {
+    "id": 5270,
+    "brand": "Ball",
+    "model": "Roadmaster Pilot GMT",
+    "reference": "DG3038A-S1C-BK",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3038A-S1C-BK",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3038A-S1C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5271,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon Original 43mm",
+    "reference": "DM2218B-P2CJ-GR",
+    "lugToLugMm": 54,
+    "caseMm": 43,
+    "thicknessMm": 15.3,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DM2218B?model=DM2218B-P2CJ-GR",
+        "note": "Ball Watch product page lists 43mm case, 15.3mm height, 21mm lug width, approx. 54mm lug-to-lug for reference DM2218B-P2CJ-GR."
+      }
+    ]
+  },
+  {
+    "id": 5272,
+    "brand": "Ball",
+    "model": "Engineer M Best Bronze",
+    "reference": "ND2186C-L1C-BE",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/ND2186C-L1C-BE",
+        "note": "Ball Watch product page lists 43mm case, 13.5mm height, 21mm lug width, approx. 50mm lug-to-lug for reference ND2186C-L1C-BE."
+      }
+    ]
+  },
+  {
+    "id": 5273,
+    "brand": "Ball",
+    "model": "Engineer M Best Bronze",
+    "reference": "ND2186C-L1C-BK",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/ND2186C-L1C-BK",
+        "note": "Ball Watch product page lists 43mm case, 13.5mm height, 21mm lug width, approx. 50mm lug-to-lug for reference ND2186C-L1C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5274,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3000A-S5C-GR",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3030B-S5C-GR",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3000A-S5C-GR."
+      }
+    ]
+  },
+  {
+    "id": 5275,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3000A-S5C-BK",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3030B-S5C-BK",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, approx. 47.8mm lug-to-lug for reference DG3000A-S5C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5276,
+    "brand": "Ball",
+    "model": "Fireman Victory Ladies",
+    "reference": "NL2098C-S3J-BK",
+    "lugToLugMm": 39,
+    "caseMm": 31,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NL2098C-S3J?model=NL2098C-S3J-BK",
+        "note": "Ball Watch product page lists 31mm case, 10.4mm height, 16mm lug width, 39mm lug-to-lug for reference NL2098C-S3J-BK."
+      }
+    ]
+  },
+  {
+    "id": 5277,
+    "brand": "Ball",
+    "model": "Engineer III Pioneer",
+    "reference": "NM9026C-S15CJ-BE",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 12.45,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2026C-S15CJ?model=NM9026C-S15CJ-BE",
+        "note": "Ball Watch product page lists 40mm case, 12.45mm height, 20mm lug width, 46.6mm lug-to-lug for reference NM9026C-S15CJ-BE."
+      }
+    ]
+  },
+  {
+    "id": 5278,
+    "brand": "Ball",
+    "model": "Engineer II Moon Phase",
+    "reference": "NM2282C-SJ-GY",
+    "lugToLugMm": 47.6,
+    "caseMm": 41,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2282C-SJ-GY?model=NM2282C-SJ-GY",
+        "note": "Ball Watch product page lists 41mm case, 14mm height, 20mm lug width, 47.6mm lug-to-lug for reference NM2282C-SJ-GY."
+      }
+    ]
+  },
+  {
+    "id": 5279,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon Submarine Warfare",
+    "reference": "DM2276A-S3CJ-BK",
+    "lugToLugMm": 53.55,
+    "caseMm": 42,
+    "thicknessMm": 16.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DM2276A-S3CJ-BK",
+        "note": "Ball Watch product page lists 42mm case, 16.5mm height, 21mm lug width, 53.55mm lug-to-lug for reference DM2276A-S3CJ-BK."
+      }
+    ]
+  },
+  {
+    "id": 5280,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon NEDU",
+    "reference": "DC3226A-P4C-BK",
+    "lugToLugMm": 53.55,
+    "caseMm": 42,
+    "thicknessMm": 17.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DC3026A-NEDU?model=DC3226A-P4C-BK",
+        "note": "Ball Watch product page lists 42mm case, 17.3mm height, 53.55mm lug-to-lug for reference DC3226A-P4C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5281,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3000A-S4C-BE",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3000A-S4C-BE",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, 47.8mm lug-to-lug for reference DG3000A-S4C-BE."
+      }
+    ]
+  },
+  {
+    "id": 5282,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3000A-S4C-BK",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3000A-S4C-BK",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, 47.8mm lug-to-lug for reference DG3000A-S4C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5283,
+    "brand": "Ball",
+    "model": "Engineer III King",
+    "reference": "NM2028C-L13A-BE",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2028C-L13A?model=NM2028C-L13A-BE",
+        "note": "Ball Watch product page lists 43mm case, 13.6mm height, 21mm lug width, 50mm lug-to-lug for reference NM2028C-L13A-BE."
+      }
+    ]
+  },
+  {
+    "id": 5284,
+    "brand": "Ball",
+    "model": "Roadmaster TMT (43mm Fahrenheit scale)",
+    "reference": "DT3050B-S4-BEF",
+    "lugToLugMm": 51,
+    "caseMm": 43,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/TMT-DT3050B-S4-BEF",
+        "note": "Ball Watch product page lists 43mm case, 13.5mm height, 21mm lug width, 51mm lug-to-lug for reference DT3050B-S4-BEF."
+      }
+    ]
+  },
+  {
+    "id": 5285,
+    "brand": "Ball",
+    "model": "Roadmaster TMT (43mm Fahrenheit scale)",
+    "reference": "DT3050B-S3-BKF",
+    "lugToLugMm": 51,
+    "caseMm": 43,
+    "thicknessMm": 13.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/TMT-DT3050B-S3-BKF",
+        "note": "Ball Watch product page lists 43mm case, 13.5mm height, 21mm lug width, 51mm lug-to-lug for reference DT3050B-S3-BKF."
+      }
+    ]
+  },
+  {
+    "id": 5286,
+    "brand": "Ball",
+    "model": "Roadmaster TMT (40mm Celsius scale)",
+    "reference": "DT3030B-S4-BEC",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DT3030B-S4-BEC",
+        "note": "Ball Watch product page lists 40mm case, 13mm height, 20mm lug width, 47mm lug-to-lug for reference DT3030B-S4-BEC."
+      }
+    ]
+  },
+  {
+    "id": 5287,
+    "brand": "Ball",
+    "model": "Roadmaster TMT (40mm Celsius scale)",
+    "reference": "DT3030B-S3-BKC",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DT3030B-S3-BKC",
+        "note": "Ball Watch product page lists 40mm case, 13mm height, 20mm lug width, 47mm lug-to-lug for reference DT3030B-S3-BKC."
+      }
+    ]
+  },
+  {
+    "id": 5288,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3000A-S2C-GR",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3030B-S2C-GR",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, 47.8mm lug-to-lug for reference DG3000A-S2C-GR."
+      }
+    ]
+  },
+  {
+    "id": 5289,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3000A-S2C-BK",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3030B-S2C-BK",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, 47.8mm lug-to-lug for reference DG3000A-S2C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5290,
+    "brand": "Ball",
+    "model": "Fireman Victory",
+    "reference": "NM2098C-S3J-SL",
+    "lugToLugMm": 48.5,
+    "caseMm": 40,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2098C?model=NM2098C-S3J-SL",
+        "note": "Ball Watch product page lists 40mm case, 11.3mm height, 20mm lug width, 48.5mm lug-to-lug for reference NM2098C-S3J-SL."
+      }
+    ]
+  },
+  {
+    "id": 5291,
+    "brand": "Ball",
+    "model": "Trainmaster Secometer Pocket Watch",
+    "reference": "PW1098E-WH",
+    "lugToLugMm": 44.5,
+    "caseMm": 45,
+    "thicknessMm": 12,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/PW1098E-WH",
+        "note": "Ball Watch product page lists 45mm case, 12mm height, 44.5mm lug-to-lug for reference PW1098E-WH."
+      }
+    ]
+  },
+  {
+    "id": 5292,
+    "brand": "Ball",
+    "model": "Engineer Master II Diver Worldtime",
+    "reference": "DG2232A-SC-BE",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG2232A-SC-BE",
+        "note": "Ball Watch product page lists 42mm case, 14.4mm height, 20mm lug width, 48mm lug-to-lug for reference DG2232A-SC-BE."
+      }
+    ]
+  },
+  {
+    "id": 5293,
+    "brand": "Ball",
+    "model": "Engineer Master II Diver Worldtime",
+    "reference": "DG2232A-PC-BK",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG2232A-PC-BK",
+        "note": "Ball Watch product page lists 42mm case, 14.4mm height, 20mm lug width, 48mm lug-to-lug for reference DG2232A-PC-BK."
+      }
+    ]
+  },
+  {
+    "id": 5294,
+    "brand": "Ball",
+    "model": "Engineer Master II Diver Worldtime",
+    "reference": "DG2232A-PC-BE",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG2232A-PC-BE",
+        "note": "Ball Watch product page lists 42mm case, 14.4mm height, 20mm lug width, 48mm lug-to-lug for reference DG2232A-PC-BE."
+      }
+    ]
+  },
+  {
+    "id": 5295,
+    "brand": "Ball",
+    "model": "Engineer Master II Diver Worldtime",
+    "reference": "DG2232A-SC-BK",
+    "lugToLugMm": 48,
+    "caseMm": 42,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG2232A-SC-BK",
+        "note": "Ball Watch product page lists 42mm case, 14.4mm height, 20mm lug width, 48mm lug-to-lug for reference DG2232A-SC-BK."
+      }
+    ]
+  },
+  {
+    "id": 5296,
+    "brand": "Ball",
+    "model": "Trainmaster Eternity",
+    "reference": "NM2080D-S1J-BE",
+    "lugToLugMm": 46,
+    "caseMm": 39.5,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2080D-S1J?model=NM2080D-S1J-BE",
+        "note": "Ball Watch product page lists 39.5mm case, 11.8mm height, 20mm lug width, 46mm lug-to-lug for reference NM2080D-S1J-BE."
+      }
+    ]
+  },
+  {
+    "id": 5297,
+    "brand": "Ball",
+    "model": "Engineer M Marvelight",
+    "reference": "NM2128C-S1C-GY",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2128C-01C?model=NM2128C-S1C-GY",
+        "note": "Ball Watch product page lists 43mm case, 13.4mm height, 21mm lug width, 50mm lug-to-lug for reference NM2128C-S1C-GY."
+      }
+    ]
+  },
+  {
+    "id": 5298,
+    "brand": "Ball",
+    "model": "Engineer II M Skindiver Heritage",
+    "reference": "DD3208B-P1C-BK",
+    "lugToLugMm": 53,
+    "caseMm": 42,
+    "thicknessMm": 15.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DD3208B?model=DD3208B-P1C-BK",
+        "note": "Ball Watch product page lists 42mm case, 15.2mm height, 22mm lug width, 53mm lug-to-lug for reference DD3208B-P1C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5299,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3000A-S1CJ-BE",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3030B-S1CJ-BE",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, 47.8mm lug-to-lug for reference DG3000A-S1CJ-BE."
+      }
+    ]
+  },
+  {
+    "id": 5300,
+    "brand": "Ball",
+    "model": "Roadmaster Marine GMT",
+    "reference": "DG3000A-S1CJ-BK",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DG3030B-S1CJ-BK",
+        "note": "Ball Watch product page lists 40mm case, 14mm height, 20mm lug width, 47.8mm lug-to-lug for reference DG3000A-S1CJ-BK."
+      }
+    ]
+  },
+  {
+    "id": 5301,
+    "brand": "Ball",
+    "model": "Trainmaster Eternity Ladies",
+    "reference": "NL2080D-S2J-IBE",
+    "lugToLugMm": 36,
+    "caseMm": 31,
+    "thicknessMm": 10.35,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NL2080D-S?model=NL2080D-S2J-IBE",
+        "note": "Ball Watch product page lists 31mm case, 10.35mm height, 16mm lug width, 36mm lug-to-lug for reference NL2080D-S2J-IBE."
+      }
+    ]
+  },
+  {
+    "id": 5302,
+    "brand": "Ball",
+    "model": "Engineer Master II Skindiver Heritage",
+    "reference": "DM3308A-P1C-BE",
+    "lugToLugMm": 53,
+    "caseMm": 42,
+    "thicknessMm": 15.2,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/DM3308A?model=DM3308A-P1C-BE",
+        "note": "Ball Watch product page lists 42mm case, 15.2mm height, 22mm lug width, 53mm lug-to-lug for reference DM3308A-P1C-BE."
+      }
+    ]
+  },
+  {
+    "id": 5303,
+    "brand": "Ball",
+    "model": "Fireman Ducks Unlimited Camouflage with free NATO strap",
+    "reference": "NM2188C-S22-CO",
+    "lugToLugMm": 48.5,
+    "caseMm": 40,
+    "thicknessMm": 11.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/Ducks-NM2188C-S22-CO",
+        "note": "Ball Watch product page lists 40mm case, 11.3mm height, 20mm lug width, 48.5mm lug-to-lug for reference NM2188C-S22-CO."
+      }
+    ]
+  },
+  {
+    "id": 5304,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon AeroGMT II (40 mm)",
+    "reference": "DG2118C-S9C-BE",
+    "lugToLugMm": 51,
+    "caseMm": 40,
+    "thicknessMm": 14.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/AeroGMTII40?model=DG2118C-S9C-BE",
+        "note": "Ball Watch product page lists 40mm case, 14.5mm height, 20mm lug width, 51mm lug-to-lug for reference DG2118C-S9C-BE."
+      }
+    ]
+  },
+  {
+    "id": 5305,
+    "brand": "Ball",
+    "model": "Roadmaster Vanguard",
+    "reference": "DG3036B-S2C-BE",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/Vanguard-DG3036B-S2C-BE",
+        "note": "Ball Watch product page lists 40mm case, 14.2mm height, 20mm lug width, 47.8mm lug-to-lug for reference DG3036B-S2C-BE."
+      }
+    ]
+  },
+  {
+    "id": 5306,
+    "brand": "Ball",
+    "model": "Roadmaster Vanguard",
+    "reference": "DG3036B-S2C-BK",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/Vanguard-DG3036B-S2C-BK",
+        "note": "Ball Watch product page lists 40mm case, 14.2mm height, 20mm lug width, 47.8mm lug-to-lug for reference DG3036B-S2C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5307,
+    "brand": "Ball",
+    "model": "Roadmaster Vanguard",
+    "reference": "DG3036B-S1C-BE",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/Vanguard-DG3036B-S1C-BE",
+        "note": "Ball Watch product page lists 40mm case, 14.2mm height, 20mm lug width, 47.8mm lug-to-lug for reference DG3036B-S1C-BE."
+      }
+    ]
+  },
+  {
+    "id": 5308,
+    "brand": "Ball",
+    "model": "Roadmaster Vanguard",
+    "reference": "DG3036B-S1C-BK",
+    "lugToLugMm": 47.8,
+    "caseMm": 40,
+    "thicknessMm": 14.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/Vanguard-DG3036B-S1C-BK",
+        "note": "Ball Watch product page lists 40mm case, 14.2mm height, 20mm lug width, 47.8mm lug-to-lug for reference DG3036B-S1C-BK."
+      }
+    ]
+  },
+  {
+    "id": 5309,
+    "brand": "Ball",
+    "model": "Engineer Hydrocarbon AeroGMT II (42 mm)",
+    "reference": "DG2018C-S9C-BE",
+    "lugToLugMm": 54,
+    "caseMm": 42,
+    "thicknessMm": 13.85,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/AeroGMTII?model=DG2018C-S9C-BE",
+        "note": "Ball Watch product page lists 42mm case, 13.85mm height, 21mm lug width, 54mm lug-to-lug for reference DG2018C-S9C-BE."
+      }
+    ]
+  },
+  {
+    "id": 5310,
+    "brand": "Ball",
+    "model": "Roadmaster Worldtime",
+    "reference": "DG3032A-S-BKRD",
+    "lugToLugMm": 48.5,
+    "caseMm": 42,
+    "thicknessMm": 14.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/rms_worldtime_615",
+        "note": "Ball Watch product page lists 42mm case, 14.5mm height, 20mm lug width, 48.5mm lug-to-lug for reference DG3032A-S-BKRD."
+      }
+    ]
+  },
+  {
+    "id": 5311,
+    "brand": "Ball",
+    "model": "Roadmaster Worldtime",
+    "reference": "DG3032A-S-BKBE",
+    "lugToLugMm": 48.5,
+    "caseMm": 42,
+    "thicknessMm": 14.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/rms_worldtime_614",
+        "note": "Ball Watch product page lists 42mm case, 14.5mm height, 20mm lug width, 48.5mm lug-to-lug for reference DG3032A-S-BKBE."
+      }
+    ]
+  },
+  {
+    "id": 5312,
+    "brand": "Ball",
+    "model": "Roadmaster Worldtime",
+    "reference": "DG3032A-S-BKBK",
+    "lugToLugMm": 48.5,
+    "caseMm": 42,
+    "thicknessMm": 14.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/rms_worldtime_613",
+        "note": "Ball Watch product page lists 42mm case, 14.5mm height, 20mm lug width, 48.5mm lug-to-lug for reference DG3032A-S-BKBK."
+      }
+    ]
+  },
+  {
+    "id": 5313,
+    "brand": "Ball",
+    "model": "Roadmaster Worldtime (42mm COSC)",
+    "reference": "DG3032A-SC-BKRD",
+    "lugToLugMm": 48.5,
+    "caseMm": 42,
+    "thicknessMm": 14.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/rms_worldtime_612",
+        "note": "Ball Watch product page lists 42mm case, 14.5mm height, 20mm lug width, 48.5mm lug-to-lug for reference DG3032A-SC-BKRD."
+      }
+    ]
+  },
+  {
+    "id": 5314,
+    "brand": "Ball",
+    "model": "Roadmaster Worldtime (42mm COSC)",
+    "reference": "DG3032A-SC-BKBE",
+    "lugToLugMm": 48.5,
+    "caseMm": 42,
+    "thicknessMm": 14.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/rms_worldtime_611",
+        "note": "Ball Watch product page lists 42mm case, 14.5mm height, 20mm lug width, 48.5mm lug-to-lug for reference DG3032A-SC-BKBE."
+      }
+    ]
+  },
+  {
+    "id": 5315,
+    "brand": "Ball",
+    "model": "Roadmaster Worldtime (42mm COSC)",
+    "reference": "DG3032A-SC-BKBK",
+    "lugToLugMm": 48.5,
+    "caseMm": 42,
+    "thicknessMm": 14.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/rms_worldtime_610",
+        "note": "Ball Watch product page lists 42mm case, 14.5mm height, 20mm lug width, 48.5mm lug-to-lug for reference DG3032A-SC-BKBK."
+      }
+    ]
+  },
+  {
+    "id": 5316,
+    "brand": "Ball",
+    "model": "Roadmaster StarLight Bronze (43mm Cal. RRM7309-C)",
+    "reference": "DD3072B-LC-BR",
+    "lugToLugMm": 49.8,
+    "caseMm": 43,
+    "thicknessMm": 14.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/StarLight_Bronze-DD3072B-LC-BR",
+        "note": "Ball Watch product page lists 43mm case, 14.5mm height, 21mm lug width, 49.8mm lug-to-lug for reference DD3072B-LC-BR."
+      }
+    ]
+  },
+  {
+    "id": 5317,
+    "brand": "Ball",
+    "model": "Roadmaster StarLight Bronze (43mm Cal. RRM7309-C)",
+    "reference": "DD3072B-LC-BE",
+    "lugToLugMm": 49.8,
+    "caseMm": 43,
+    "thicknessMm": 14.5,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/StarLight_Bronze-DD3072B-LC-BE",
+        "note": "Ball Watch product page lists 43mm case, 14.5mm height, 21mm lug width, 49.8mm lug-to-lug for reference DD3072B-LC-BE."
+      }
+    ]
+  },
+  {
+    "id": 5318,
+    "brand": "Ball",
+    "model": "Roadmaster StarLight Bronze",
+    "reference": "DM3070B-LC-BR",
+    "lugToLugMm": 49.8,
+    "caseMm": 42,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/StarLight_Bronze-DM3070B-LC-BR",
+        "note": "Ball Watch product page lists 42mm case, 14.4mm height, 21mm lug width, 49.8mm lug-to-lug for reference DM3070B-LC-BR."
+      }
+    ]
+  },
+  {
+    "id": 5319,
+    "brand": "Ball",
+    "model": "Roadmaster StarLight Bronze (42mm RR1102-C)",
+    "reference": "DM3070B-LC-BE",
+    "lugToLugMm": 49.8,
+    "caseMm": 42,
+    "thicknessMm": 14.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/StarLight_Bronze-DM3070B-LC-BE",
+        "note": "Ball Watch product page lists 42mm case, 14.4mm height, 21mm lug width, 49.8mm lug-to-lug for reference DM3070B-LC-BE."
+      }
+    ]
+  },
+  {
+    "id": 5320,
+    "brand": "Ball",
+    "model": "Engineer III Dreamer TiC",
+    "reference": "NM2028C-LBR20-GR",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2028C-20?model=NM2028C-LBR20-GR",
+        "note": "Ball Watch product page lists 43mm case, 13.6mm height, 21mm lug width, 50mm lug-to-lug for reference NM2028C-LBR20-GR."
+      }
+    ]
+  },
+  {
+    "id": 5321,
+    "brand": "Ball",
+    "model": "Engineer III Dreamer",
+    "reference": "NM9028C-S19-BK",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM9028C-19?model=NM9028C-S19-BK",
+        "note": "Ball Watch product page lists 43mm case, 13.6mm height, 21mm lug width, 50mm lug-to-lug for reference NM9028C-S19-BK."
+      }
+    ]
+  },
+  {
+    "id": 5322,
+    "brand": "Ball",
+    "model": "Engineer M Challenger 43mm",
+    "reference": "NM2128C-SCA-BE",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2128C-SCA-BE",
+        "note": "Ball Watch product page lists 43mm case, 13.4mm height, 21mm lug width, 50mm lug-to-lug for reference NM2128C-SCA-BE."
+      }
+    ]
+  },
+  {
+    "id": 5323,
+    "brand": "Ball",
+    "model": "Engineer M Challenger 43mm",
+    "reference": "NM2128C-SCA-BK",
+    "lugToLugMm": 50,
+    "caseMm": 43,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NM2128C-SCA-BK",
+        "note": "Ball Watch product page lists 43mm case, 13.4mm height, 21mm lug width, 50mm lug-to-lug for reference NM2128C-SCA-BK."
+      }
+    ]
+  },
+  {
+    "id": 5324,
+    "brand": "Ball",
+    "model": "Engineer III Legend",
+    "reference": "NL1026C-S4A-BKGR",
+    "lugToLugMm": 36,
+    "caseMm": 31,
+    "thicknessMm": 10.7,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ballwatch.com/en/NL1026C?model=NL1026C-S4A-BKGR",
+        "note": "Ball Watch product page lists 31mm case, 10.7mm height, 16mm lug width, 36mm lug-to-lug for reference NL1026C-S4A-BKGR."
       }
     ]
   }
