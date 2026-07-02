@@ -124,21 +124,25 @@ describe("watch seed data integrity", () => {
     const expectedGroups = [
       ["omega-seamaster-diver-300m-42mm", [6, 7]],
       ["omega-speedmaster-moonwatch-professional-42mm", [2]],
-      ["formex-reef-39-5mm-automatic-cosc-300m", [5]],
+      ["formex-reef-39-5mm-automatic-cosc-300m", [7]],
       ["traska-commuter-36", [3]],
       ["zelos-hammerhead-43-field", [7]],
       ["mido-multifort-tv-big-date-40mm", [4]],
       ["grand-seiko-sport-quartz-gmt-39mm", [2]],
       ["grand-seiko-elegance-manual-winding-37-3mm", [5]],
-      ["grand-seiko-hand-winding-spring-drive-38-5mm", [3]],
-      ["grand-seiko-evolution-9-spring-drive-5-days-40mm", [3]],
+      ["grand-seiko-hand-winding-spring-drive-38-5mm", [4]],
+      ["grand-seiko-evolution-9-spring-drive-5-days-40mm", [4]],
       ["grand-seiko-spring-drive-u-f-a-37mm", [4]],
-      ["grand-seiko-62gs-mechanical-hi-beat-36000-38mm", [3]],
+      ["grand-seiko-62gs-mechanical-hi-beat-36000-38mm", [4]],
       ["fears-brunswick-40-5-jump-hour", [4]],
       ["mido-multifort-tv-big-date", [6]],
       ["sternglas-naos-automatic-38mm-black", [2]],
       ["sternglas-naos-automatic-38mm-blue", [2]],
-      ["sternglas-naos-automatic-38mm-white", [4]]
+      ["sternglas-naos-automatic-38mm-white", [4]],
+      ["breitling-chronomat-b01-42-nfl", [26]],
+      ["swatch-moonswatch", [20]],
+      ["christopher-ward-bel-canto-c1", [20]],
+      ["seiko-5-sports", [20]]
     ] as const;
 
     for (const [modelGroup, variantCounts] of expectedGroups) {

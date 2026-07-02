@@ -2,7 +2,7 @@ import seed from "../data/watches.seed.json" with { type: "json" };
 import { writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
-const RETIRED_WATCH_IDS = [7, 14, 17, 18, 1462, 1463, 1464, 1468, 1469, 1933, 1972, 2001, 2002];
+const RETIRED_WATCH_IDS = [7, 14, 17, 18, 1462, 1463, 1464, 1468, 1469, 1933, 1972, 2001, 2002, 2761, 4463, 4477, 4486];
 
 const WATCH_COLUMNS = [
   "id",
