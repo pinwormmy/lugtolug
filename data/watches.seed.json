@@ -14028,7 +14028,7 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80 35mm",
     "reference": "T137.207.11.041.00",
-    "lugToLugMm": 44.9,
+    "lugToLugMm": 44.7,
     "caseMm": 35,
     "thicknessMm": 10.93,
     "lugWidthMm": 11,
@@ -14052,7 +14052,7 @@
     "brand": "Tissot",
     "model": "PRX Automatic Chronograph 42mm",
     "reference": "T137.427.11.011.00",
-    "lugToLugMm": 41.5,
+    "lugToLugMm": 56,
     "caseMm": 42,
     "thicknessMm": 14.54,
     "lugWidthMm": 13,
@@ -37124,7 +37124,7 @@
     "brand": "Tissot",
     "model": "PRX 40mm UFO Robot Grendizer 50th Anniversary Special Edition",
     "reference": "T137.407.33.051.01",
-    "lugToLugMm": 44.9,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.9,
     "lugWidthMm": null,
@@ -37132,6 +37132,10 @@
       {
         "sourceUrl": "https://timeandtidewatches.com/tissot-prx-40mm-ufo-robot-grendizer-50th-anniversary-special-edition-introducing/",
         "note": "Time+Tide article table lists reference T137.407.33.051.01 with case dimensions 40mm (D) x 10.9mm (T) x 44.9mm (LTL)."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -37140,7 +37144,7 @@
     "brand": "Tissot",
     "model": "PRX 40mm UFO Robot Grendizer Special Edition",
     "reference": "T137.407.11.041.02",
-    "lugToLugMm": 44.9,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.9,
     "lugWidthMm": null,
@@ -37148,6 +37152,10 @@
       {
         "sourceUrl": "https://timeandtidewatches.com/tissot-prx-40mm-ufo-robot-grendizer-special-edition-hands-on/",
         "note": "Time+Tide article table lists reference T137.407.11.041.02 with case dimensions 40mm (D) x 10.9mm (T) x 44.9mm (LTL), 51mm (ELTL)."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -37156,7 +37164,7 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80",
     "reference": "T137.407.11.091.00",
-    "lugToLugMm": 51,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.9,
     "lugWidthMm": null,
@@ -37164,6 +37172,10 @@
       {
         "sourceUrl": "https://timeandtidewatches.com/tissot-prx-powermatic-80-green-hands-on/",
         "note": "Time+Tide article table lists reference T137.407.11.091.00 with case dimensions 40mm x 10.9mm, 51mm effective lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41551,7 +41563,7 @@
     "brand": "Tissot",
     "model": "PRX 40",
     "reference": "T137.410.11.031.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.4,
     "lugWidthMm": 12,
@@ -41559,6 +41571,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-11-031-00",
         "note": "Helveti product parameters list reference T137.410.11.031.00, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41567,7 +41583,7 @@
     "brand": "Tissot",
     "model": "PRX 40",
     "reference": "T137.410.11.041.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.4,
     "lugWidthMm": 12,
@@ -41575,6 +41591,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-11-041-00",
         "note": "Helveti product parameters list reference T137.410.11.041.00, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41583,7 +41603,7 @@
     "brand": "Tissot",
     "model": "PRX 40",
     "reference": "T137.410.11.051.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.4,
     "lugWidthMm": 12,
@@ -41591,6 +41611,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-11-051-00",
         "note": "Helveti product parameters list reference T137.410.11.051.00, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41599,7 +41623,7 @@
     "brand": "Tissot",
     "model": "PRX 40",
     "reference": "T137.410.11.091.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.4,
     "lugWidthMm": 12,
@@ -41607,6 +41631,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-11-091-00",
         "note": "Helveti product parameters list reference T137.410.11.091.00, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41615,7 +41643,7 @@
     "brand": "Tissot",
     "model": "PRX 40",
     "reference": "T137.410.11.091.01",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.4,
     "lugWidthMm": 12,
@@ -41623,6 +41651,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-11-091-01",
         "note": "Helveti product parameters list reference T137.410.11.091.01, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41631,7 +41663,7 @@
     "brand": "Tissot",
     "model": "PRX 40",
     "reference": "T137.410.11.421.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.4,
     "lugWidthMm": 12,
@@ -41639,6 +41671,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-11-421-00",
         "note": "Helveti product parameters list reference T137.410.11.421.00, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41647,7 +41683,7 @@
     "brand": "Tissot",
     "model": "PRX 40",
     "reference": "T137.410.16.041.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.4,
     "lugWidthMm": 12,
@@ -41655,6 +41691,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-16-041-00",
         "note": "Helveti product parameters list reference T137.410.16.041.00, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41663,7 +41703,7 @@
     "brand": "Tissot",
     "model": "PRX 40",
     "reference": "T137.410.17.011.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.4,
     "lugWidthMm": 12,
@@ -41671,6 +41711,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-17-011-00",
         "note": "Helveti product parameters list reference T137.410.17.011.00, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41679,7 +41723,7 @@
     "brand": "Tissot",
     "model": "PRX 40",
     "reference": "T137.410.17.041.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.4,
     "lugWidthMm": 12,
@@ -41687,6 +41731,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-17-041-00",
         "note": "Helveti product parameters list reference T137.410.17.041.00, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41695,7 +41743,7 @@
     "brand": "Tissot",
     "model": "PRX 40",
     "reference": "T137.410.17.051.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.4,
     "lugWidthMm": 12,
@@ -41703,6 +41751,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-17-051-00",
         "note": "Helveti product parameters list reference T137.410.17.051.00, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41711,7 +41763,7 @@
     "brand": "Tissot",
     "model": "PRX 40",
     "reference": "T137.410.33.021.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.4,
     "lugWidthMm": 12,
@@ -41719,6 +41771,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-40-t137-410-33-021-00",
         "note": "Helveti product parameters list reference T137.410.33.021.00, 40 mm case size, 44.6 mm lug-to-lug, 10.4 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41727,7 +41783,7 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80",
     "reference": "T137.407.11.051.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.9,
     "lugWidthMm": 12,
@@ -41735,6 +41791,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-11-051-00",
         "note": "Helveti product parameters list reference T137.407.11.051.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41743,7 +41803,7 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80",
     "reference": "T137.407.11.051.01",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.9,
     "lugWidthMm": 12,
@@ -41751,6 +41811,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-11-051-01",
         "note": "Helveti product parameters list reference T137.407.11.051.01, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41759,7 +41823,7 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80",
     "reference": "T137.407.11.091.01",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.9,
     "lugWidthMm": 12,
@@ -41767,6 +41831,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-11-091-01",
         "note": "Helveti product parameters list reference T137.407.11.091.01, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41775,7 +41843,7 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80",
     "reference": "T137.407.11.351.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.9,
     "lugWidthMm": 22,
@@ -41783,6 +41851,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-11-351-00",
         "note": "Helveti product parameters list reference T137.407.11.351.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 22 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41791,7 +41863,7 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80",
     "reference": "T137.407.11.351.01",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.9,
     "lugWidthMm": 12,
@@ -41799,6 +41871,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-11-351-01",
         "note": "Helveti product parameters list reference T137.407.11.351.01, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41807,7 +41883,7 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80",
     "reference": "T137.407.16.041.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.9,
     "lugWidthMm": 12,
@@ -41815,6 +41891,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-16-041-00",
         "note": "Helveti product parameters list reference T137.407.16.041.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41823,7 +41903,7 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80",
     "reference": "T137.407.16.051.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.9,
     "lugWidthMm": 12,
@@ -41831,6 +41911,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-16-051-00",
         "note": "Helveti product parameters list reference T137.407.16.051.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41839,7 +41923,7 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80",
     "reference": "T137.407.17.041.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.9,
     "lugWidthMm": 22,
@@ -41847,6 +41931,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-17-041-00",
         "note": "Helveti product parameters list reference T137.407.17.041.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 22 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41855,7 +41943,7 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80",
     "reference": "T137.407.17.051.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.9,
     "lugWidthMm": 12,
@@ -41863,6 +41951,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-17-051-00",
         "note": "Helveti product parameters list reference T137.407.17.051.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41871,7 +41963,7 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80",
     "reference": "T137.407.21.031.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.9,
     "lugWidthMm": 12,
@@ -41879,6 +41971,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-21-031-00",
         "note": "Helveti product parameters list reference T137.407.21.031.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41887,7 +41983,7 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80",
     "reference": "T137.407.33.021.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.9,
     "lugWidthMm": 12,
@@ -41895,6 +41991,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-33-021-00",
         "note": "Helveti product parameters list reference T137.407.33.021.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41903,7 +42003,7 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80",
     "reference": "T137.407.33.041.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.9,
     "lugWidthMm": 12,
@@ -41911,6 +42011,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-407-33-041-00",
         "note": "Helveti product parameters list reference T137.407.33.041.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41919,7 +42023,7 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80",
     "reference": "T137.907.97.201.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40.5,
     "thicknessMm": 11.2,
     "lugWidthMm": 12,
@@ -41927,6 +42031,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-t137-907-97-201-00",
         "note": "Helveti product parameters list reference T137.907.97.201.00, 40.5 mm case size, 44.6 mm lug-to-lug, 11.2 mm case height, and 12 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41935,7 +42043,7 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80 Steel &amp; 18K Gold",
     "reference": "T931.407.41.031.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.9,
     "lugWidthMm": 22,
@@ -41943,6 +42051,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-steel-18k-gold-t931-407-41-031-00",
         "note": "Helveti product parameters list reference T931.407.41.031.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 22 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41951,7 +42063,7 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80 Steel &amp; 18K Gold",
     "reference": "T931.407.41.031.01",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.9,
     "lugWidthMm": 22,
@@ -41959,6 +42071,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-steel-18k-gold-t931-407-41-031-01",
         "note": "Helveti product parameters list reference T931.407.41.031.01, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 22 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -41967,7 +42083,7 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80 Steel &amp; 18K Gold",
     "reference": "T931.407.41.041.00",
-    "lugToLugMm": 44.6,
+    "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.9,
     "lugWidthMm": 22,
@@ -41975,6 +42091,10 @@
       {
         "sourceUrl": "https://www.helveti.eu/tissot-prx-powermatic-80-steel-18k-gold-t931-407-41-041-00",
         "note": "Helveti product parameters list reference T931.407.41.041.00, 40 mm case size, 44.6 mm lug-to-lug, 10.9 mm case height, and 22 mm strap width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
       }
     ]
   },
@@ -82022,7 +82142,7 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80 (35mm) PRX Powermatic 80 35mm",
     "reference": "T137.207.11.111.00",
-    "lugToLugMm": 44.9,
+    "lugToLugMm": 44.7,
     "caseMm": 35,
     "thicknessMm": null,
     "lugWidthMm": 11,
@@ -82030,6 +82150,10 @@
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 35mm case diameter, 44.9mm lug-to-lug distance, 11mm lug width for Tissot PRX Powermatic 80 (35mm) PRX Powermatic 80 35mm T137.207.11.111.00."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 35 mm PRX effective wearing length (fixed first bracelet link included) at approximately 44.9 mm versus a stated ~38.5 mm; seed records the effective wearing length."
       }
     ]
   },
@@ -82038,7 +82162,7 @@
     "brand": "Tissot",
     "model": "PRX (35mm) PRX 35mm",
     "reference": "T137.210.11.351.00",
-    "lugToLugMm": 39,
+    "lugToLugMm": 44.7,
     "caseMm": 35,
     "thicknessMm": null,
     "lugWidthMm": 11,
@@ -82046,6 +82170,10 @@
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 35mm case diameter, 39mm lug-to-lug distance, 11mm lug width for Tissot PRX (35mm) PRX 35mm T137.210.11.351.00."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 35 mm PRX effective wearing length (fixed first bracelet link included) at approximately 44.9 mm versus a stated ~38.5 mm; seed records the effective wearing length."
       }
     ]
   },
@@ -82054,7 +82182,7 @@
     "brand": "Tissot",
     "model": "PRX (35mm) PRX 35mm",
     "reference": "T137.210.33.021.00",
-    "lugToLugMm": 39,
+    "lugToLugMm": 44.7,
     "caseMm": 35,
     "thicknessMm": null,
     "lugWidthMm": 11,
@@ -82062,6 +82190,10 @@
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 35mm case diameter, 39mm lug-to-lug distance, 11mm lug width for Tissot PRX (35mm) PRX 35mm T137.210.33.021.00."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 35 mm PRX effective wearing length (fixed first bracelet link included) at approximately 44.9 mm versus a stated ~38.5 mm; seed records the effective wearing length."
       }
     ]
   },
@@ -82070,7 +82202,7 @@
     "brand": "Tissot",
     "model": "PRX (35mm) PRX 35mm",
     "reference": "T137.210.11.031.00",
-    "lugToLugMm": 39,
+    "lugToLugMm": 44.7,
     "caseMm": 35,
     "thicknessMm": null,
     "lugWidthMm": 11,
@@ -82078,6 +82210,10 @@
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 35mm case diameter, 39mm lug-to-lug distance, 11mm lug width for Tissot PRX (35mm) PRX 35mm T137.210.11.031.00."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 35 mm PRX effective wearing length (fixed first bracelet link included) at approximately 44.9 mm versus a stated ~38.5 mm; seed records the effective wearing length."
       }
     ]
   },
@@ -82086,7 +82222,7 @@
     "brand": "Tissot",
     "model": "PRX (35mm) PRX 35mm",
     "reference": "T137.210.11.081.00",
-    "lugToLugMm": 39,
+    "lugToLugMm": 44.7,
     "caseMm": 35,
     "thicknessMm": null,
     "lugWidthMm": 11,
@@ -82094,6 +82230,10 @@
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 35mm case diameter, 39mm lug-to-lug distance, 11mm lug width for Tissot PRX (35mm) PRX 35mm T137.210.11.081.00."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 35 mm PRX effective wearing length (fixed first bracelet link included) at approximately 44.9 mm versus a stated ~38.5 mm; seed records the effective wearing length."
       }
     ]
   },
@@ -82102,7 +82242,7 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80 (35mm) PRX Powermatic 80 35mm",
     "reference": "T137.207.11.091.00",
-    "lugToLugMm": 44.9,
+    "lugToLugMm": 44.7,
     "caseMm": 35,
     "thicknessMm": null,
     "lugWidthMm": 11,
@@ -82110,6 +82250,10 @@
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 35mm case diameter, 44.9mm lug-to-lug distance, 11mm lug width for Tissot PRX Powermatic 80 (35mm) PRX Powermatic 80 35mm T137.207.11.091.00."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 35 mm PRX effective wearing length (fixed first bracelet link included) at approximately 44.9 mm versus a stated ~38.5 mm; seed records the effective wearing length."
       }
     ]
   },
