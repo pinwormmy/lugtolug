@@ -34,11 +34,21 @@ export function getWatchHref(watch: Pick<Watch, "brandSlug" | "modelSlug" | "ref
   return `/watches/${watch.brandSlug}/${watch.modelSlug}/${watch.referenceSlug}`;
 }
 
-export function getWatchDisplayModel(watch: Pick<Watch, "model" | "canonicalModel">): string {
-  return watch.canonicalModel || watch.model;
+function caseSizePattern(caseMm: number): RegExp {
+  const [whole, fraction] = String(caseMm).split(".");
+  // Match the case size already written in the name ("40", "40mm", "38.5", "44,25", "44 25 mm"),
+  // without treating the "40" in "40.5" or "1940" as a match for a 40 mm case.
+  const body = fraction ? `${whole}[.,\\s]?${fraction}` : `${whole}(?![.,]\\d)`;
+  return new RegExp(`\\b${body}(\\s?mm)?\\b`);
 }
 
-export function getWatchDisplayName(watch: Pick<Watch, "brand" | "model" | "canonicalModel">): string {
+export function getWatchDisplayModel(watch: Pick<Watch, "model" | "canonicalModel" | "caseMm">): string {
+  const name = watch.canonicalModel || watch.model;
+  if (watch.caseMm == null || caseSizePattern(watch.caseMm).test(name)) return name;
+  return `${name} ${watch.caseMm}mm`;
+}
+
+export function getWatchDisplayName(watch: Pick<Watch, "brand" | "model" | "canonicalModel" | "caseMm">): string {
   return [watch.brand, getWatchDisplayModel(watch)].filter(Boolean).join(" ");
 }
 
