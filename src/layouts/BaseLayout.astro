@@ -2,7 +2,7 @@
 import "@/styles/global.css";
 import { getAdminSession } from "@/lib/auth";
 import { getDb } from "@/lib/db";
-import { recordVisitor } from "@/lib/db/visitors";
+import { getVisitorCounts } from "@/lib/db/visitors";
 
 interface Props {
   title?: string;
@@ -17,7 +17,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://lugtolug.pa
 const db = getDb(Astro.locals);
 const [adminSession, visitorCounts] = await Promise.all([
   getAdminSession(db, Astro.request),
-  recordVisitor(db, Astro.cookies)
+  getVisitorCounts(db)
 ]);
 ---
 
@@ -74,5 +74,19 @@ const [adminSession, visitorCounts] = await Promise.all([
         </dl>
       </footer>
     </div>
+    <script is:inline>
+      (function () {
+        try {
+          // KST-day guard: send the visit beacon at most once per day per browser.
+          var kstDay = new Date(Date.now() + 9 * 3600000).toISOString().slice(0, 10);
+          if (localStorage.getItem("l2l_visit_day") === kstDay) return;
+          fetch("/api/visit", { method: "POST", keepalive: true }).then(function (res) {
+            if (res.ok) localStorage.setItem("l2l_visit_day", kstDay);
+          });
+        } catch (e) {
+          /* counting is best-effort */
+        }
+      })();
+    </script>
   </body>
 </html>
