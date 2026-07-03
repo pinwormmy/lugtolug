@@ -2,13 +2,11 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import SearchApp from "@/components/SearchApp";
 import WatchRow from "@/components/WatchRow.astro";
-import { getDb, listRecentWatches, listWatches } from "@/lib/db";
+import { getDb, listRecentWatches } from "@/lib/db";
 import { readSearchState } from "@/lib/searchState";
 
-const db = getDb(Astro.locals);
-const watches = await listWatches(db);
 const showRecentWatches = false;
-const recentWatches = showRecentWatches ? await listRecentWatches(db, 5) : [];
+const recentWatches = showRecentWatches ? await listRecentWatches(getDb(Astro.locals), 5) : [];
 const initialSearchState = readSearchState(Astro.url.searchParams);
 ---
 
@@ -19,7 +17,6 @@ const initialSearchState = readSearchState(Astro.url.searchParams);
       initialDimensionFilters={initialSearchState.dimensionFilters}
       initialQuery={initialSearchState.query}
       initialSort={initialSearchState.sort}
-      watches={watches}
     />
   </section>
 

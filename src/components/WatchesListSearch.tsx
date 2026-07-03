@@ -1,15 +1,19 @@
 import { Search } from "lucide-react";
 import { useDeferredValue, useEffect, useMemo, useState } from "react";
-import type { WatchDisplayGroup } from "@/lib/watchGroups";
+import { useWatchDatabase } from "@/hooks/useWatchDatabase";
+import { groupWatchesForDisplay } from "@/lib/watchGroups";
 import { formatMm, getWatchDisplayName, getWatchHref, searchTextMatchesQuery } from "@/lib/watch";
 import { buildSearchUrl, readSearchState } from "@/lib/searchState";
+import type { WatchWithSources } from "@/types";
 
 interface Props {
-  watches: WatchDisplayGroup[];
+  watches?: WatchWithSources[];
   initialQuery?: string;
 }
 
-export default function WatchesListSearch({ watches, initialQuery = "" }: Props) {
+export default function WatchesListSearch({ watches: providedWatches, initialQuery = "" }: Props) {
+  const { watches: allWatches, status: databaseStatus, retry } = useWatchDatabase(providedWatches);
+  const watches = useMemo(() => groupWatchesForDisplay(allWatches), [allWatches]);
   const [query, setQuery] = useState(initialQuery);
   const deferredQuery = useDeferredValue(query);
   const hasSearchQuery = deferredQuery.trim().length > 0;
@@ -60,7 +64,18 @@ export default function WatchesListSearch({ watches, initialQuery = "" }: Props)
           <h1 className="page-title">Watch database</h1>
           <p className="lede watches-lede">Approved records with watch names and references. Search to find matching references.</p>
         </div>
-        <span>{filtered.length.toLocaleString()} / {watches.length.toLocaleString()} records</span>
+        {databaseStatus === "loading" && <span>Loading records…</span>}
+        {databaseStatus === "error" && (
+          <span>
+            Couldn&apos;t load the database.{" "}
+            <button className="link-button" onClick={retry} type="button">
+              Retry
+            </button>
+          </span>
+        )}
+        {databaseStatus === "ready" && (
+          <span>{filtered.length.toLocaleString()} / {watches.length.toLocaleString()} records</span>
+        )}
       </div>
 
       <div className="watch-list">
@@ -77,7 +92,7 @@ export default function WatchesListSearch({ watches, initialQuery = "" }: Props)
         ))}
       </div>
 
-      {filtered.length === 0 && (
+      {filtered.length === 0 && databaseStatus === "ready" && (
         <p className="empty-state">No matching watches yet.</p>
       )}
     </section>
