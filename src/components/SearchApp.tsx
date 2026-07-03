@@ -1,6 +1,7 @@
 import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import SearchFilters from "@/components/search/SearchFilters";
 import WatchSearchResults from "@/components/search/WatchSearchResults";
+import { useWatchDatabase } from "@/hooks/useWatchDatabase";
 import type { WatchWithSources } from "@/types";
 import { normalizeSearch } from "@/lib/slug";
 import { searchTextMatchesQuery } from "@/lib/watch";
@@ -19,7 +20,7 @@ import {
 } from "@/lib/watchGroups";
 
 interface Props {
-  watches: WatchWithSources[];
+  watches?: WatchWithSources[];
   initialQuery?: string;
   initialSort?: WatchSortKey;
   initialDimensionFilters?: SearchState["dimensionFilters"];
@@ -36,11 +37,12 @@ function sortWatches(watches: WatchDisplayGroup[], sort: WatchSortKey): WatchDis
 }
 
 export default function SearchApp({
-  watches,
+  watches: providedWatches,
   initialQuery = "",
   initialSort = "recent",
   initialDimensionFilters = createEmptyDimensionFilters()
 }: Props) {
+  const { watches, status: databaseStatus, retry } = useWatchDatabase(providedWatches);
   const [query, setQuery] = useState(initialQuery);
   const [sort, setSort] = useState<WatchSortKey>(initialSort);
   const [dimensionFilters, setDimensionFilters] = useState(() => initialDimensionFilters);
@@ -120,7 +122,16 @@ export default function SearchApp({
           <p>Search results stay compact. Select a watch to inspect its full record.</p>
         </div>
         <div className="status-strip" aria-label="Database status">
-          <span>{groupedWatches.length.toLocaleString()} records</span>
+          {databaseStatus === "loading" && <span>Loading records…</span>}
+          {databaseStatus === "error" && (
+            <span>
+              Couldn&apos;t load the database.{" "}
+              <button className="link-button" onClick={retry} type="button">
+                Retry
+              </button>
+            </span>
+          )}
+          {databaseStatus === "ready" && <span>{groupedWatches.length.toLocaleString()} records</span>}
         </div>
       </div>
 
@@ -139,7 +150,7 @@ export default function SearchApp({
       {shouldShowResults && (
         <WatchSearchResults
           filteredCount={filtered.length}
-          isPending={isPending}
+          isPending={isPending || databaseStatus === "loading"}
           onSortChange={setSort}
           results={results}
           sort={sort}
