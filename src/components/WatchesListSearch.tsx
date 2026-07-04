@@ -4,10 +4,10 @@ import { useWatchDatabase } from "@/hooks/useWatchDatabase";
 import { groupWatchesForDisplay } from "@/lib/watchGroups";
 import { formatMm, getWatchDisplayName, getWatchHref, searchTextMatchesQuery } from "@/lib/watch";
 import { buildSearchUrl, readSearchState } from "@/lib/searchState";
-import type { WatchWithSources } from "@/types";
+import type { Watch } from "@/types";
 
 interface Props {
-  watches?: WatchWithSources[];
+  watches?: Watch[];
   initialQuery?: string;
 }
 

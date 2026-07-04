@@ -1,16 +1,16 @@
 import { useEffect, useState } from "react";
-import type { WatchWithSources } from "@/types";
+import type { Watch } from "@/types";
 
 export type WatchDatabaseStatus = "loading" | "ready" | "error";
 
 interface WatchDatabaseState {
-  watches: WatchWithSources[];
+  watches: Watch[];
   status: WatchDatabaseStatus;
   retry: () => void;
 }
 
-export function useWatchDatabase(providedWatches?: WatchWithSources[]): WatchDatabaseState {
-  const [fetchedWatches, setFetchedWatches] = useState<WatchWithSources[] | null>(null);
+export function useWatchDatabase(providedWatches?: Watch[]): WatchDatabaseState {
+  const [fetchedWatches, setFetchedWatches] = useState<Watch[] | null>(null);
   const [status, setStatus] = useState<WatchDatabaseStatus>(providedWatches ? "ready" : "loading");
   const [attempt, setAttempt] = useState(0);
 
@@ -22,7 +22,7 @@ export function useWatchDatabase(providedWatches?: WatchWithSources[]): WatchDat
     fetch("/api/watches.json")
       .then((response) => {
         if (!response.ok) throw new Error(`Unexpected status ${response.status}`);
-        return response.json() as Promise<{ watches: WatchWithSources[] }>;
+        return response.json() as Promise<{ watches: Watch[] }>;
       })
       .then((data) => {
         if (cancelled) return;

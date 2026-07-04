@@ -1,5 +1,5 @@
 import type { APIRoute } from "astro";
-import { getDb, listWatches } from "@/lib/db";
+import { getDb, listSearchWatches } from "@/lib/db";
 import { json } from "@/lib/http";
 
 const CACHE_CONTROL = "public, max-age=300, stale-while-revalidate=86400";
@@ -18,7 +18,7 @@ export const GET: APIRoute = async ({ locals, request }) => {
     if (cached) return cached;
   }
 
-  const watches = await listWatches(getDb(locals));
+  const watches = await listSearchWatches(getDb(locals));
   const response = json({ watches }, { headers: { "cache-control": CACHE_CONTROL } });
 
   if (cache) await cache.put(cacheKey, response.clone());

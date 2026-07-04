@@ -2,7 +2,7 @@ import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import SearchFilters from "@/components/search/SearchFilters";
 import WatchSearchResults from "@/components/search/WatchSearchResults";
 import { useWatchDatabase } from "@/hooks/useWatchDatabase";
-import type { WatchWithSources } from "@/types";
+import type { Watch } from "@/types";
 import { normalizeSearch } from "@/lib/slug";
 import { searchTextMatchesQuery } from "@/lib/watch";
 import {
@@ -13,14 +13,15 @@ import {
 } from "@/lib/watchFilters";
 import { buildSearchUrl, type SearchState, type WatchSortKey } from "@/lib/searchState";
 import {
+  buildWatchGroups,
   getCompactReferenceSearchText,
-  groupWatchesForDisplay,
+  resolveDisplayGroups,
   shouldUseCompactReferenceSearch,
   type WatchDisplayGroup
 } from "@/lib/watchGroups";
 
 interface Props {
-  watches?: WatchWithSources[];
+  watches?: Watch[];
   initialQuery?: string;
   initialSort?: WatchSortKey;
   initialDimensionFilters?: SearchState["dimensionFilters"];
@@ -60,7 +61,8 @@ export default function SearchApp({
     0
   );
 
-  const groupedWatches = useMemo(() => groupWatchesForDisplay(watches, deferredQuery), [deferredQuery, watches]);
+  const watchGroups = useMemo(() => buildWatchGroups(watches), [watches]);
+  const groupedWatches = useMemo(() => resolveDisplayGroups(watchGroups, deferredQuery), [deferredQuery, watchGroups]);
   const filtered = useMemo(() => {
     const matches = groupedWatches.filter((watch) => {
       const matchesSearch = !hasSearchQuery || (

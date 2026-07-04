@@ -7,6 +7,7 @@ export {
   listAdminWatches,
   listBrandWatches,
   listRecentWatches,
+  listSearchWatches,
   listWatches,
   publishWatch,
   searchWatches,

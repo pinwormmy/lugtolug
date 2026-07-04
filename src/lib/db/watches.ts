@@ -51,6 +51,41 @@ export async function listWatches(db: D1): Promise<WatchWithSources[]> {
   );
 }
 
+// Search islands never read `sources`, so the search API skips source hydration
+// (dozens of extra D1 reads on cache miss) and ships source-free records, roughly
+// halving the JSON payload the client must download and parse before searching.
+export async function listSearchWatches(db: D1): Promise<Watch[]> {
+  if (!db) return seedWatches.map(toWatchSummary);
+
+  const rows = await db.prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY brand, model").all<WatchRow>();
+  return mergeSeedWatches<Watch>(
+    rows.results.map(mapWatch),
+    seedWatches,
+    await listSuppressedSeedMatches(db)
+  ).map(toWatchSummary);
+}
+
+function toWatchSummary(watch: Watch): Watch {
+  return {
+    id: watch.id,
+    brand: watch.brand,
+    model: watch.model,
+    canonicalModel: watch.canonicalModel ?? null,
+    modelGroup: watch.modelGroup ?? null,
+    variant: watch.variant ?? null,
+    reference: watch.reference,
+    brandSlug: watch.brandSlug,
+    modelSlug: watch.modelSlug,
+    referenceSlug: watch.referenceSlug,
+    lugToLugMm: watch.lugToLugMm,
+    caseMm: watch.caseMm,
+    thicknessMm: watch.thicknessMm,
+    lugWidthMm: watch.lugWidthMm,
+    status: watch.status,
+    updatedAt: watch.updatedAt
+  };
+}
+
 export async function listRecentWatches(db: D1, limit = 5): Promise<WatchWithSources[]> {
   if (!db) return seedWatches.slice().sort((a, b) => b.id - a.id).slice(0, limit);
 
@@ -166,11 +201,11 @@ function findSeedWatchBySlugs(
   );
 }
 
-function mergeSeedWatches(
-  watches: WatchWithSources[],
-  seeds: WatchWithSources[],
+function mergeSeedWatches<T extends Watch>(
+  watches: T[],
+  seeds: T[],
   suppressedSeedMatches: SuppressedSeedMatches = emptySuppressedSeedMatches()
-): WatchWithSources[] {
+): T[] {
   const merged = [...watches];
   const seen = new Set(watches.map(getWatchKey));
   const seenReferenceIdentities = new Set(watches.map(getWatchReferenceIdentity).filter(Boolean));
