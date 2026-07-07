@@ -7,9 +7,23 @@ import { groupWatchesForDisplay } from "@/lib/watchGroups";
 const brandSlug = Astro.params.brand!;
 const watches = groupWatchesForDisplay(await listBrandWatches(getDb(Astro.locals), brandSlug));
 const brandName = watches[0]?.brand ?? brandSlug;
+const description = `${brandName} lug-to-lug, case diameter, thickness, and lug width measurements for ${watches.length} watch record${watches.length === 1 ? "" : "s"}.`;
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? "https://lugtolug.pages.dev").toString();
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: `${brandName} watch records`,
+  description,
+  url: canonicalUrl,
+  mainEntity: {
+    "@type": "ItemList",
+    numberOfItems: watches.length
+  }
+};
 ---
 
-<BaseLayout title={`${brandName} watch records | Lug to Lug Finder`} description={`Browse published ${brandName} watch records.`}>
+<BaseLayout title={`${brandName} watch records | Lug to Lug Finder`} description={description}>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)} />
   <section class="section" style="margin-top: 0;">
     <h1 class="page-title">{brandName}</h1>
     <p class="lede">Approved records for {brandName} watches.</p>
