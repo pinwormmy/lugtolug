@@ -19,7 +19,7 @@ const pending = Astro.url.searchParams.get("pending") === "1";
 const updated = Astro.url.searchParams.get("updated") === "1";
 ---
 
-<BaseLayout title="Admin watches | Lug to Lug Finder" description="Review pending and published watch records.">
+<BaseLayout title="Admin watches | Lug to Lug Finder" description="Review pending and published watch records." noindex>
   <section class="section" style="margin-top: 0;">
     <div style="display: flex; justify-content: space-between; gap: 16px; align-items: center;">
       <div>

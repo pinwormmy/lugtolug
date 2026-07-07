@@ -13,7 +13,7 @@ const db = getDb(Astro.locals);
 const watch = await getWatchBySlugs(db, brand!, model!, reference!);
 
 if (!watch) {
-  return Astro.redirect("/watches", 302);
+  return Astro.rewrite("/404");
 }
 
 const adminSession = await getAdminSession(db, Astro.request);

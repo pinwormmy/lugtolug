@@ -42,7 +42,7 @@ const pendingAction = `/api/admin/watches/manage/${brand}/${model}/${reference}/
 const pendingHiddenFields = Object.entries(payload).map(([name, value]) => [name, value ?? ""] as const);
 ---
 
-<BaseLayout title="Manage watch | Lug to Lug Finder" description="Edit a published watch record.">
+<BaseLayout title="Manage watch | Lug to Lug Finder" description="Edit a published watch record." noindex>
   <section class="section" style="margin-top: 0;">
     <p class="small"><a href={`/watches/${watch.brandSlug}/${watch.modelSlug}/${watch.referenceSlug}`}>View public page</a></p>
     <h1 class="page-title" style="font-size: clamp(2.4rem, 6vw, 4rem);">Manage watch</h1>

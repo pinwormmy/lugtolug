@@ -1,0 +1,16 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+
+Astro.response.status = 404;
+---
+
+<BaseLayout title="Page not found | Lug to Lug Finder" description="The page you are looking for could not be found." noindex>
+  <section class="section" style="margin-top: 0;">
+    <h1 class="page-title">Page not found</h1>
+    <p class="lede">That record or page does not exist. Try searching the watch database instead.</p>
+    <p style="margin-top: 24px;">
+      <a class="button accent" href="/">Search watches</a>
+      <a class="button secondary" href="/watches">Browse all records</a>
+    </p>
+  </section>
+</BaseLayout>

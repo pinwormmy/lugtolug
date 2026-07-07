@@ -7,11 +7,14 @@ import { getVisitorCounts } from "@/lib/db/visitors";
 interface Props {
   title?: string;
   description?: string;
+  /** Set to keep the page out of search indexes (admin/utility pages). */
+  noindex?: boolean;
 }
 
 const {
   title = "Lug to Lug Finder",
-  description = "Search watch records by brand, model, and reference."
+  description = "Search watch records by brand, model, and reference.",
+  noindex = false
 } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://lugtolug.pages.dev").toString();
 const db = getDb(Astro.locals);
@@ -31,6 +34,7 @@ const [adminSession, visitorCounts] = await Promise.all([
     <meta name="description" content={description} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />

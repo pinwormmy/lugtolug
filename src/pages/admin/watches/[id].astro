@@ -37,7 +37,7 @@ const pending = Astro.url.searchParams.get("pending") === "1";
 const validationError = Astro.url.searchParams.get("error") === "validation";
 ---
 
-<BaseLayout title="Manage watch | Lug to Lug Finder" description="Edit a published watch record.">
+<BaseLayout title="Manage watch | Lug to Lug Finder" description="Edit a published watch record." noindex>
   <section class="section" style="margin-top: 0;">
     {watch.status === "approved" && (
       <p class="small"><a href={`/watches/${watch.brandSlug}/${watch.modelSlug}/${watch.referenceSlug}`}>View public page</a></p>

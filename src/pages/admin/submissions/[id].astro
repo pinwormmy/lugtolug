@@ -22,7 +22,7 @@ const updated = Astro.url.searchParams.get("updated") === "1";
 const validationError = Astro.url.searchParams.get("error") === "validation";
 ---
 
-<BaseLayout title="Review submission | Lug to Lug Finder" description="Review one private watch submission.">
+<BaseLayout title="Review submission | Lug to Lug Finder" description="Review one private watch submission." noindex>
   <section class="section" style="margin-top: 0;">
     <h1 class="page-title" style="font-size: clamp(2.4rem, 6vw, 4rem);">Review submission</h1>
     <p class="lede">{[payload.brand, payload.model].filter(Boolean).join(" ")} · {payload.reference || "No reference"} · {isCorrection ? "Correction report" : "New watch"} · {submission.status}</p>

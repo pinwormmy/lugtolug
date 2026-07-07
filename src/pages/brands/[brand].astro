@@ -6,6 +6,11 @@ import { groupWatchesForDisplay } from "@/lib/watchGroups";
 
 const brandSlug = Astro.params.brand!;
 const watches = groupWatchesForDisplay(await listBrandWatches(getDb(Astro.locals), brandSlug));
+
+if (watches.length === 0) {
+  return Astro.rewrite("/404");
+}
+
 const brandName = watches[0]?.brand ?? brandSlug;
 const description = `${brandName} lug-to-lug, case diameter, thickness, and lug width measurements for ${watches.length} watch record${watches.length === 1 ? "" : "s"}.`;
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? "https://lugtolug.pages.dev").toString();

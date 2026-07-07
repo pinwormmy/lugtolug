@@ -23,7 +23,7 @@ const reviewed = Astro.url.searchParams.get("error") === "reviewed";
 const notApproved = Astro.url.searchParams.get("error") === "not-approved";
 ---
 
-<BaseLayout title="Admin submissions | Lug to Lug Finder" description="Review private watch submissions.">
+<BaseLayout title="Admin submissions | Lug to Lug Finder" description="Review private watch submissions." noindex>
   <section class="section" style="margin-top: 0;">
     <div style="display: flex; justify-content: space-between; gap: 16px; align-items: center;">
       <div>
