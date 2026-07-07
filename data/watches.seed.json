@@ -62622,14 +62622,18 @@
     "brand": "Cartier",
     "model": "Tank Cintrée Tank Cintree Large",
     "reference": "WGTA0057/ 2021",
-    "lugToLugMm": 4.5,
+    "lugToLugMm": 46.3,
     "caseMm": 23,
     "thicknessMm": null,
     "lugWidthMm": 16,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
-        "note": "Delugs Strap Finder API lists 23mm case diameter, 4.5mm lug-to-lug distance, 16mm lug width for Cartier Tank Cintrée Tank Cintree Large WGTA0057/ 2021."
+        "note": "Delugs Strap Finder API lists 23mm case diameter, 4.5mm lug-to-lug distance, 16mm lug width for Cartier Tank Cintrée Tank Cintree Large WGTA0057/ 2021. The 4.5mm lug-to-lug value is an upstream data error and was not used."
+      },
+      {
+        "sourceUrl": "https://www.jewelsbylove.com/wgta0057-tank-cintree-large-model-hand-wound-mechanical-movement-yellow-gold-leather.html",
+        "note": "Retailer spec sheet lists Ref. WGTA0057 with 46.3mm case length, 23mm case width, 6.03mm thickness, matching Cartier's published 46.3mm x 23mm Tank Cintrée Large case."
       }
     ]
   },
@@ -62830,14 +62834,18 @@
     "brand": "Cartier",
     "model": "Tank Cintrée Tank Cintree Large",
     "reference": "WGTA0025",
-    "lugToLugMm": 4.5,
+    "lugToLugMm": 46.3,
     "caseMm": 23,
     "thicknessMm": null,
     "lugWidthMm": 16,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
-        "note": "Delugs Strap Finder API lists 23mm case diameter, 4.5mm lug-to-lug distance, 16mm lug width for Cartier Tank Cintrée Tank Cintree Large WGTA0025."
+        "note": "Delugs Strap Finder API lists 23mm case diameter, 4.5mm lug-to-lug distance, 16mm lug width for Cartier Tank Cintrée Tank Cintree Large WGTA0025. The 4.5mm lug-to-lug value is an upstream data error and was not used."
+      },
+      {
+        "sourceUrl": "https://luxurywatchesusa.com/product/tank-cintree-watch-wgta0025/",
+        "note": "Retailer spec sheet lists Ref. WGTA0025 with case dimensions 46.3mm x 23mm and 7.2mm thickness, matching Cartier's published 46.3mm x 23mm Tank Cintrée Large case."
       }
     ]
   },
@@ -62894,14 +62902,18 @@
     "brand": "Cartier",
     "model": "Tank Cintrée Tank Cintree Large",
     "reference": "WHTA0009/ 2020",
-    "lugToLugMm": 4.5,
+    "lugToLugMm": 46.3,
     "caseMm": 23,
     "thicknessMm": null,
     "lugWidthMm": 16,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
-        "note": "Delugs Strap Finder API lists 23mm case diameter, 4.5mm lug-to-lug distance, 16mm lug width for Cartier Tank Cintrée Tank Cintree Large WHTA0009/ 2020."
+        "note": "Delugs Strap Finder API lists 23mm case diameter, 4.5mm lug-to-lug distance, 16mm lug width for Cartier Tank Cintrée Tank Cintree Large WHTA0009/ 2020. The 4.5mm lug-to-lug value is an upstream data error and was not used."
+      },
+      {
+        "sourceUrl": "https://www.24diamonds.com/cartier-tank-cintree-skeleton-platinum-watch-whta0009_32054.html",
+        "note": "Retailer spec sheet lists Ref. WHTA0009 with Case Size 46.3mm x 23.0mm and 8.0mm thickness, matching Cartier's published 46.3mm x 23mm Tank Cintrée Large case."
       }
     ]
   },
