@@ -36,6 +36,16 @@ npm run smoke:workflow -- --base-url http://127.0.0.1:4321
 
 The smoke script expects a running local preview server and a seeded D1 database. It submits two watches, approves one, rejects the other, and verifies the approved watch page is reachable.
 
+## Marketing automation
+
+SEO indexing (IndexNow) and Reddit keyword monitoring are documented in
+[docs/marketing-automation.md](docs/marketing-automation.md).
+
+```bash
+npm run seo:indexnow -- --dry-run
+npm run monitor:keywords
+```
+
 ## Cloudflare deployment
 
 Live deployment naming:

@@ -10,3 +10,5 @@ dist/
 
 .DS_Store
 npm-debug.log*
+
+data/keyword-monitor.state.json

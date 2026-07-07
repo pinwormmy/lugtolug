@@ -20,6 +20,8 @@
     "admin:sql": "node scripts/create-admin-sql.mjs",
     "data:duplicates": "node scripts/watch-duplicate-candidates.mjs",
     "data:seed-sql": "node scripts/generate-seed-sql.mjs",
+    "seo:indexnow": "node scripts/submit-indexnow.mjs",
+    "monitor:keywords": "node scripts/keyword-monitor.mjs",
     "smoke:workflow": "node scripts/workflow-smoke.mjs",
     "test": "vitest run",
     "typecheck": "ASTRO_TELEMETRY_DISABLED=1 astro check"
