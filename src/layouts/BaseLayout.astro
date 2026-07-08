@@ -3,20 +3,26 @@ import "@/styles/global.css";
 import { getAdminSession } from "@/lib/auth";
 import { getDb } from "@/lib/db";
 import { getVisitorCounts } from "@/lib/db/visitors";
+import { DEFAULT_DESCRIPTION, GOOGLE_SITE_VERIFICATION, SITE_NAME, SITE_URL } from "@/lib/seo";
 
 interface Props {
   title?: string;
   description?: string;
   /** Set to keep the page out of search indexes (admin/utility pages). */
   noindex?: boolean;
+  /** Absolute or site-relative URL for the Open Graph / Twitter card image. */
+  image?: string;
 }
 
 const {
-  title = "Lug to Lug Finder",
-  description = "Search watch records by brand, model, and reference.",
-  noindex = false
+  title = SITE_NAME,
+  description = DEFAULT_DESCRIPTION,
+  noindex = false,
+  image
 } = Astro.props;
-const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://lugtolug.pages.dev").toString();
+const siteOrigin = Astro.site ?? new URL(SITE_URL);
+const canonical = new URL(Astro.url.pathname, siteOrigin).toString();
+const ogImage = image ? new URL(image, siteOrigin).toString() : undefined;
 const db = getDb(Astro.locals);
 const [adminSession, visitorCounts] = await Promise.all([
   getAdminSession(db, Astro.request),
@@ -29,7 +35,7 @@ const [adminSession, visitorCounts] = await Promise.all([
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="google-site-verification" content="sRDq2qTrJwd7gYcwaSBzNrIXs1h0W0E7Ela0tJaQDW0" />
+    {GOOGLE_SITE_VERIFICATION && <meta name="google-site-verification" content={GOOGLE_SITE_VERIFICATION} />}
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -39,10 +45,12 @@ const [adminSession, visitorCounts] = await Promise.all([
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
-    <meta property="og:site_name" content="Lug to Lug Finder" />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:site_name" content={SITE_NAME} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta name="twitter:card" content={ogImage ? "summary_large_image" : "summary"} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
+    {ogImage && <meta name="twitter:image" content={ogImage} />}
   </head>
   <body>
     <div class="site-shell">

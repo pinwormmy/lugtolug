@@ -1,8 +1,15 @@
 import type { APIRoute } from "astro";
+import { resolveOrigin } from "@/lib/seo";
 
 export const GET: APIRoute = ({ site }) => {
-  const origin = site?.toString().replace(/\/$/, "") ?? "https://lugtolug.pages.dev";
-  return new Response(`User-agent: *\nAllow: /\nDisallow: /admin\nSitemap: ${origin}/sitemap.xml\n`, {
-    headers: { "content-type": "text/plain; charset=utf-8" }
+  const origin = resolveOrigin(site);
+  const body = ["User-agent: *", "Allow: /", "Disallow: /admin", "Disallow: /api/", "", `Sitemap: ${origin}/sitemap.xml`, ""].join(
+    "\n"
+  );
+  return new Response(body, {
+    headers: {
+      "content-type": "text/plain; charset=utf-8",
+      "cache-control": "public, max-age=3600"
+    }
   });
 };

@@ -7,6 +7,7 @@ import { getManagePublishedWatchHref } from "@/lib/adminRoutes";
 import { getDb, getWatchBySlugs } from "@/lib/db";
 import { mmToInches } from "@/lib/fit";
 import { formatMm, getWatchDisplayModel, getWatchDisplayName, isHttpUrl, WATCH_METRICS } from "@/lib/watch";
+import { resolveOrigin } from "@/lib/seo";
 
 const { brand, model, reference } = Astro.params;
 const db = getDb(Astro.locals);
@@ -25,7 +26,7 @@ const variantLabel = watch.variant ? `${referenceLabel} · ${watch.variant}` : r
 const formatInches = (value: number | null | undefined) => value == null ? "Not provided" : `${mmToInches(value).toFixed(2)} in`;
 const title = `${watchName} | Lug to Lug Finder`;
 const description = `${watchName}: ${formatMm(watch.lugToLugMm)} lug-to-lug, ${formatMm(watch.caseMm)} case, ${formatMm(watch.thicknessMm)} thickness, ${formatMm(watch.lugWidthMm)} lug width.`;
-const siteOrigin = Astro.site ?? "https://lugtolug.pages.dev";
+const siteOrigin = resolveOrigin(Astro.site);
 const canonicalUrl = new URL(Astro.url.pathname, siteOrigin).toString();
 const structuredData = {
   "@context": "https://schema.org",

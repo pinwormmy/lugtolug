@@ -3,6 +3,7 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import WatchRow from "@/components/WatchRow.astro";
 import { getDb, listBrandWatches } from "@/lib/db";
 import { groupWatchesForDisplay } from "@/lib/watchGroups";
+import { resolveOrigin } from "@/lib/seo";
 
 const brandSlug = Astro.params.brand!;
 const watches = groupWatchesForDisplay(await listBrandWatches(getDb(Astro.locals), brandSlug));
@@ -13,7 +14,7 @@ if (watches.length === 0) {
 
 const brandName = watches[0]?.brand ?? brandSlug;
 const description = `${brandName} lug-to-lug, case diameter, thickness, and lug width measurements for ${watches.length} watch record${watches.length === 1 ? "" : "s"}.`;
-const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? "https://lugtolug.pages.dev").toString();
+const canonicalUrl = new URL(Astro.url.pathname, resolveOrigin(Astro.site)).toString();
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",

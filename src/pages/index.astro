@@ -4,13 +4,19 @@ import SearchApp from "@/components/SearchApp";
 import WatchRow from "@/components/WatchRow.astro";
 import { getDb, listRecentWatches } from "@/lib/db";
 import { readSearchState } from "@/lib/searchState";
+import { buildOrganizationSchema, buildWebSiteSchema, resolveOrigin } from "@/lib/seo";
 
 const showRecentWatches = false;
 const recentWatches = showRecentWatches ? await listRecentWatches(getDb(Astro.locals), 5) : [];
 const initialSearchState = readSearchState(Astro.url.searchParams);
+const origin = resolveOrigin(Astro.site);
+const homeStructuredData = [buildWebSiteSchema(origin), buildOrganizationSchema(origin)];
 ---
 
 <BaseLayout title="Lug to Lug Finder | Watch database" description="Search watch records by brand, model, and reference.">
+  {homeStructuredData.map((schema) => (
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />
+  ))}
   <section class="home-workbench">
     <SearchApp
       client:load
