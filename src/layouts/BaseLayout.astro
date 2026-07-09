@@ -91,19 +91,5 @@ const [adminSession, visitorCounts] = await Promise.all([
         </dl>
       </footer>
     </div>
-    <script is:inline>
-      (function () {
-        try {
-          // KST-day guard: send the visit beacon at most once per day per browser.
-          var kstDay = new Date(Date.now() + 9 * 3600000).toISOString().slice(0, 10);
-          if (localStorage.getItem("l2l_visit_day") === kstDay) return;
-          fetch("/api/visit", { method: "POST", keepalive: true }).then(function (res) {
-            if (res.ok) localStorage.setItem("l2l_visit_day", kstDay);
-          });
-        } catch (e) {
-          /* counting is best-effort */
-        }
-      })();
-    </script>
   </body>
 </html>

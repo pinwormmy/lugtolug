@@ -2,6 +2,8 @@ import type { D1 } from "@/lib/db/connection";
 
 const VISITOR_COOKIE = "l2l_visitor";
 const VISITOR_COOKIE_MAX_AGE = 60 * 60 * 24 * 365 * 2;
+const VISIT_DAY_COOKIE = "l2l_visit_day";
+const VISIT_DAY_COOKIE_MAX_AGE = 60 * 60 * 24;
 
 const BOT_UA_PATTERN =
   /bot|crawl|spider|slurp|preview|fetch|monitor|curl|wget|python|httpx|axios|node-fetch|go-http|java|headless|lighthouse/i;
@@ -40,9 +42,14 @@ export async function recordVisit(db: D1, cookies: AstroCookies, request: Reques
   const userAgent = request.headers.get("user-agent") ?? "";
   if (!userAgent || BOT_UA_PATTERN.test(userAgent)) return;
 
+  const visitDate = getKstDate();
+  // Day-guard cookie: after a successful record, repeat views the same KST day skip the writes.
+  if (cookies.get(VISIT_DAY_COOKIE)?.value === visitDate && cookies.get(VISITOR_COOKIE)?.value) {
+    return;
+  }
+
   try {
     const visitorId = getOrSetVisitorId(cookies);
-    const visitDate = getKstDate();
 
     await db
       .prepare(
@@ -59,7 +66,16 @@ export async function recordVisit(db: D1, cookies: AstroCookies, request: Reques
       )
       .bind(visitorId, visitDate)
       .run();
+
+    cookies.set(VISIT_DAY_COOKIE, visitDate, {
+      httpOnly: true,
+      maxAge: VISIT_DAY_COOKIE_MAX_AGE,
+      path: "/",
+      sameSite: "lax",
+      secure: true
+    });
   } catch (error) {
+    // Cookie not set on failure, so the next page view retries.
     console.warn("Failed to record visit.", error);
   }
 }
