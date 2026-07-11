@@ -18,14 +18,21 @@
 
 ## 배포
 
-1. 현재 브랜치, HEAD, 변경사항을 확인하고 현재 요청과 관련된 변경만 작업 단위 커밋으로 보존한다.
-2. 작업 트리가 깨끗한지 확인한 뒤 `git fetch origin main`을 실행하고, 현재 작업 브랜치를 최신 `origin/main` 위로 rebase한다. 임시 배포 브랜치나 별도 체크아웃은 만들지 않는다.
-3. 충돌이 발생하면 자동 해결하거나 push하지 않는다. `ours`, `theirs`, 파일 전체 교체도 사용하지 않고 충돌 내용을 보고한다.
-4. `git status`, `git log --oneline origin/main..HEAD`, `git diff origin/main...HEAD`로 실제 배포 범위를 확인한다. unrelated 변경, 예상하지 않은 삭제, 기존 기능 제거가 있으면 중단한다.
-5. 최신 `origin/main` 위의 최종 상태에서 필요한 테스트와 빌드를 실행한다. 실패하면 push하지 않는다.
-6. push 직전에 `git fetch origin main`을 다시 실행한다. 원격이 변경되었다면 현재 작업 브랜치를 다시 rebase하고 검토와 검증을 반복한다.
-7. `git merge-base --is-ancestor origin/main HEAD`를 확인한 뒤 `git push origin HEAD:main`으로 fast-forward push한다. force push는 사용하지 않는다.
-8. push 결과와 자동 배포 트리거 여부를 보고한다.
+이 프로젝트는 소규모 변경을 수시로 배포하므로, 변경 위험도에 비례해 검증 범위를 정한다. 모든 배포에 전체 테스트를 기계적으로 반복하지 않는다.
+
+1. 현재 요청과 관련된 변경만 작업 단위 커밋으로 보존하고 `git status`로 작업 트리가 깨끗한지 확인한다.
+2. 변경 유형에 맞는 최소 검증을 수행한다.
+   - 문구, 스타일, 정적 데이터: 관련 화면이나 데이터 검증 및 필요한 경우 가벼운 빌드
+   - 일반 기능: 관련 테스트와 빌드
+   - 인증, 결제, 데이터베이스, 마이그레이션, 인프라: 영향 범위 검토와 전체 테스트 및 빌드
+   - 긴급 수정: 최소 관련 테스트 후 배포할 수 있으나 생략한 검증을 결과에 명시
+3. 검증이 실패하면 push하지 않는다.
+4. `git fetch origin main`을 실행하고 현재 작업 브랜치를 최신 `origin/main` 위로 rebase한다. 임시 배포 브랜치나 별도 체크아웃은 만들지 않는다.
+5. 충돌이 발생하면 자동 해결하거나 push하지 않는다. `ours`, `theirs`, 파일 전체 교체도 사용하지 않고 충돌 내용을 보고한다.
+6. rebase로 코드나 커밋 내용이 실제로 변경된 경우에만 영향받는 검증을 다시 수행한다.
+7. `git status`, `git log --oneline origin/main..HEAD`, `git diff --stat origin/main...HEAD`로 실제 배포 범위를 확인한다. 필요할 때만 전체 diff를 추가로 확인한다. unrelated 변경, 예상하지 않은 삭제, 기존 기능 제거가 있으면 중단한다.
+8. `git merge-base --is-ancestor origin/main HEAD`를 확인한 뒤 `git push origin HEAD:main`으로 fast-forward push한다. 원격 변경으로 push가 거부되면 다시 fetch, rebase, 범위 확인 및 필요한 검증을 수행한다. force push는 사용하지 않는다.
+9. push 결과, 수행한 검증, 자동 배포 트리거 여부와 생략한 검증이 있으면 함께 보고한다.
 
 ## 기타 명령
 
