@@ -141,7 +141,7 @@ describe("watch seed data integrity", () => {
       ["sternglas-naos-automatic-38mm-white", [4]],
       ["breitling-chronomat-b01-42-nfl", [26]],
       ["swatch-moonswatch", [20]],
-      ["christopher-ward-bel-canto-c1", [20]],
+      ["christopher-ward-bel-canto-c1", [1, 19]],
       ["seiko-5-sports", [20]]
     ] as const;
 

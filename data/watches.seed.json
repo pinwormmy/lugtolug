@@ -29983,6 +29983,10 @@
     "lugWidthMm": 20,
     "sources": [
       {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Jump-Hour-Mk-V/C01-39AJH4-S00B0-B1.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00B0-B1."
+      },
+      {
         "sourceUrl": "https://timeandtidewatches.com/christopher-ward-c1-jump-hour-mk-v-introducing/",
         "note": "Time+Tide article table lists reference C01-39AJH4-S00B0-B1 with case dimensions 39mm (D) x 14mm (T) x 47.3mm (LTL)."
       }
@@ -63150,9 +63154,13 @@
     "reference": "C60-42ADA31S0KW1-B0",
     "lugToLugMm": 49.3,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 11.5,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Pro-300/C60-42ADA31S0KW1-B0.html",
+        "note": "Official Christopher Ward product page lists 42mm case diameter, 49.3mm lug-to-lug, 11.5mm height for C60 Trident Pro 300 C60-42ADA31S0KW1-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 42mm case diameter, 49.3mm lug-to-lug distance, 22mm lug width for Christopher Ward Trident C60 Pro 300 C60-42ADA31S0KW1-B0."
@@ -63198,9 +63206,13 @@
     "reference": "C12-38H2H1-S00W0-B0",
     "lugToLugMm": 43.3,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 6.6,
     "lugWidthMm": null,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve-660/C12-38H2H1-S00W0-B0.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.3mm lug-to-lug, 6.6mm height for The Twelve 660 C12-38H2H1-S00W0-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.3mm lug-to-lug distance for Christopher Ward The Twelve 660 C12 C12-38H2H1-S00W0-B0."
@@ -63214,9 +63226,13 @@
     "reference": "C60-40ADA31S0KK1-B0",
     "lugToLugMm": 47.45,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 11.3,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/trident-pro-300-watches/C60-Trident-Pro-300/C60-40ADA31S0KK1-B0.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 47.45mm lug-to-lug, 11.3mm height for C60 Trident Pro 300 C60-40ADA31S0KK1-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 47.45mm lug-to-lug distance, 20mm lug width for Christopher Ward Trident C60 Pro 300 C60-40ADA31S0KK1-B0."
@@ -63280,9 +63296,13 @@
     "reference": "C01-41APT0-T00B1-VLB",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/this-years-best-watches/C1-Bel-Canto/C01-41APT0-T00B1-VLB.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00B1-VLB."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto C01-41APT0-T00B1-VLB."
@@ -63312,9 +63332,13 @@
     "reference": "C65-38C3H4-B00V0-VT",
     "lugToLugMm": 43.6,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 11.7,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Dune-Aeolian-Bronze/C65-38C3H4-B00V0-VT.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.6mm lug-to-lug, 11.7mm height for C65 Dune Aeolian Bronze C65-38C3H4-B00V0-VT."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.6mm lug-to-lug distance, 20mm lug width for Christopher Ward Dune C65 Dune Aeolian Bronze C65-38C3H4-B00V0-VT."
@@ -63346,9 +63370,13 @@
     "reference": "C65-38A3H4-S00E0-WC",
     "lugToLugMm": 43.6,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 11.7,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Dune-Aeolian/C65-38A3H4-S00E0-WC.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.6mm lug-to-lug, 11.7mm height for C65 Dune Aeolian C65-38A3H4-S00E0-WC."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.6mm lug-to-lug distance, 20mm lug width for Christopher Ward Dune C65 Dune Aeolian Automatic C65-38A3H4-S00E0-WC."
@@ -63396,9 +63424,13 @@
     "reference": "C01-41APT0-T00P0-MK",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto/C01-41APT0-T00P0-MK.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00P0-MK."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto C01-41APT0-T00P0-MK."
@@ -63462,9 +63494,13 @@
     "reference": "C01-40AMP2-S00B0-MB1",
     "lugToLugMm": 47.9,
     "caseMm": 40.5,
-    "thicknessMm": null,
+    "thicknessMm": 13.3,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Moonphase-40/C01-40AMP2-S00B0-MB1.html",
+        "note": "Official Christopher Ward product page lists 40.5mm case diameter, 47.9mm lug-to-lug, 13.3mm height for C1 Moonphase 40 C01-40AMP2-S00B0-MB1."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40.5mm case diameter, 47.9mm lug-to-lug distance, 20mm lug width for Christopher Ward Bel Canto C1 Moonphase 40 C01-40AMP2-S00B0-MB1."
@@ -63496,9 +63532,13 @@
     "reference": "C60-40ADA31S00W1-RW",
     "lugToLugMm": 47.4,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 11.3,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Atoll-300/C60-40ADA31S00W1-RW.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 47.4mm lug-to-lug, 11.3mm height for C60 Atoll 300 C60-40ADA31S00W1-RW."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 47.4mm lug-to-lug distance, 20mm lug width for Christopher Ward Trident C60 Atoll 300 C60-40ADA31S00W1-RW."
@@ -63598,9 +63638,13 @@
     "reference": "C12-40ADC1-T00B0-B0",
     "lugToLugMm": 44.5,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 8.95,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve-40-%28Ti%29/C12-40ADC1-T00B0-B0.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 44.5mm lug-to-lug, 8.95mm height for The Twelve 40 (Ti) C12-40ADC1-T00B0-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 44.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The Twelve 40 (Ti) C12-40ADC1-T00B0-B0."
@@ -63706,9 +63750,13 @@
     "reference": "C01-41APT0-T00B1-MG",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto/C01-41APT0-T00B1-MG.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00B1-MG."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto C01-41APT0-T00B1-MG."
@@ -63758,9 +63806,13 @@
     "reference": "C01-41APT0-T00K0-MK",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto/C01-41APT0-T00K0-MK.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00K0-MK."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto C01-41APT0-T00K0-MK."
@@ -63792,9 +63844,13 @@
     "reference": "C12-41A5D0-T00K0-B0",
     "lugToLugMm": 46.3,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 12.3,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/watch-collectors/Twelve-X-%28Ti%29/C12-41A5D0-T00K0-B0.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 46.3mm lug-to-lug, 12.3mm height for Twelve X (Ti) C12-41A5D0-T00K0-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 46.3mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 C12-41A5D0-T00K0-B0."
@@ -63810,9 +63866,13 @@
     "reference": "C12-40ADA1-S00B1-B0",
     "lugToLugMm": 44.5,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 9.95,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-40ADA1-S00B1-B0.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 44.5mm lug-to-lug, 9.95mm height for The Twelve C12-40ADA1-S00B1-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 44.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 C12-40ADA1-S00B1-B0."
@@ -63826,9 +63886,13 @@
     "reference": "C60-40ADA31S00B1-B0",
     "lugToLugMm": 47.4,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 11.3,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Atoll-300/C60-40ADA31S00B1-B0.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 47.4mm lug-to-lug, 11.3mm height for C60 Atoll 300 C60-40ADA31S00B1-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 47.4mm lug-to-lug distance, 20mm lug width for Christopher Ward Trident C60 Atoll 300 C60-40ADA31S00B1-B0."
@@ -63858,9 +63922,13 @@
     "reference": "C65-38C3H4-B00K0-WC",
     "lugToLugMm": 43.6,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 11.7,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Dune-Aeolian-Bronze/C65-38C3H4-B00K0-WC.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.6mm lug-to-lug, 11.7mm height for C65 Dune Aeolian Bronze C65-38C3H4-B00K0-WC."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.6mm lug-to-lug distance, 20mm lug width for Christopher Ward Dune C65 Dune Aeolian Bronze C65-38C3H4-B00K0-WC."
@@ -63926,9 +63994,13 @@
     "reference": "C01-41APT3-T00A0-MT",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.2,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto-Classic/C01-41APT3-T00A0-MT.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13.2mm height for C1 Bel Canto Classic C01-41APT3-T00A0-MT."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto Classic C01-41APT3-T00A0-MT."
@@ -64012,9 +64084,13 @@
     "reference": "C12-41H6D1-S00B0-RO",
     "lugToLugMm": 47.5,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.7,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-C12-Loco/C12-41H6D1-S00B0-RO.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.5mm lug-to-lug, 13.7mm height for The C12 Loco C12-41H6D1-S00B0-RO."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 47.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The C12 Loco C12-41H6D1-S00B0-RO."
@@ -64065,9 +64141,13 @@
     "reference": "C01-40AMP2-S00K0-B1",
     "lugToLugMm": 47.9,
     "caseMm": 40.5,
-    "thicknessMm": null,
+    "thicknessMm": 12.9,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Moonglow/C01-40AMP2-S00K0-B1.html",
+        "note": "Official Christopher Ward product page lists 40.5mm case diameter, 47.9mm lug-to-lug, 12.9mm height for C1 Moonglow C01-40AMP2-S00K0-B1."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40.5mm case diameter, 47.9mm lug-to-lug distance, 20mm lug width for Christopher Ward Bel Canto C1 Moonglow C01-40AMP2-S00K0-B1."
@@ -64147,9 +64227,13 @@
     "reference": "C12-40ADA1-S00W0-B0",
     "lugToLugMm": 44.5,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 9.95,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-40ADA1-S00W0-B0.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 44.5mm lug-to-lug, 9.95mm height for The Twelve C12-40ADA1-S00W0-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 44.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 C12-40ADA1-S00W0-B0."
@@ -64183,9 +64267,13 @@
     "reference": "C60-42ADA31S0BB3-B0",
     "lugToLugMm": 49.32,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 10.7,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Sapphire-Edge/C60-42ADA31S0BB3-B0.html",
+        "note": "Official Christopher Ward product page lists 42mm case diameter, 49.32mm lug-to-lug, 10.7mm height for C60 Sapphire Edge C60-42ADA31S0BB3-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 42mm case diameter, 49.32mm lug-to-lug distance, 22mm lug width for Christopher Ward Trident C60 Sapphire Edge C60-42ADA31S0BB3-B0."
@@ -64285,9 +64373,13 @@
     "reference": "C60-42ADA31S0BB1-B0",
     "lugToLugMm": 49.3,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 11.5,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Pro-300/C60-42ADA31S0BB1-B0.html",
+        "note": "Official Christopher Ward product page lists 42mm case diameter, 49.3mm lug-to-lug, 11.5mm height for C60 Trident Pro 300 C60-42ADA31S0BB1-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 42mm case diameter, 49.3mm lug-to-lug distance, 22mm lug width for Christopher Ward Trident C60 Pro 300 C60-42ADA31S0BB1-B0."
@@ -64317,9 +64409,13 @@
     "reference": "C01-41APT3-T00G0-MB",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.2,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto-Classic/C01-41APT3-T00G0-MB.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13.2mm height for C1 Bel Canto Classic C01-41APT3-T00G0-MB."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto Classic C01-41APT3-T00G0-MB."
@@ -64333,9 +64429,13 @@
     "reference": "C60-40ADA31S0BB1-B0",
     "lugToLugMm": 47.45,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 11.3,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/ocean-lovers/C60-Trident-Pro-300/C60-40ADA31S0BB1-B0.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 47.45mm lug-to-lug, 11.3mm height for C60 Trident Pro 300 C60-40ADA31S0BB1-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 47.45mm lug-to-lug distance, 20mm lug width for Christopher Ward Trident C60 Pro 300 C60-40ADA31S0BB1-B0."
@@ -64367,9 +64467,13 @@
     "reference": "C01-41APT0-T00A0-MK",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto/C01-41APT0-T00A0-MK.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00A0-MK."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto C01-41APT0-T00A0-MK."
@@ -64385,9 +64489,13 @@
     "reference": "C01-40AMP2-S00B0-B1",
     "lugToLugMm": 47.9,
     "caseMm": 40.5,
-    "thicknessMm": null,
+    "thicknessMm": 13.3,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Moonphase-40/C01-40AMP2-S00B0-B1.html",
+        "note": "Official Christopher Ward product page lists 40.5mm case diameter, 47.9mm lug-to-lug, 13.3mm height for C1 Moonphase 40 C01-40AMP2-S00B0-B1."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40.5mm case diameter, 47.9mm lug-to-lug distance, 20mm lug width for Christopher Ward Bel Canto C1 Moonphase 40 C01-40AMP2-S00B0-B1."
@@ -64401,9 +64509,13 @@
     "reference": "C65-38C3H4-B00V0-WC",
     "lugToLugMm": 43.6,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 11.7,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Dune-Aeolian-Bronze/C65-38C3H4-B00V0-WC.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.6mm lug-to-lug, 11.7mm height for C65 Dune Aeolian Bronze C65-38C3H4-B00V0-WC."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.6mm lug-to-lug distance, 20mm lug width for Christopher Ward Dune C65 Dune Aeolian Bronze C65-38C3H4-B00V0-WC."
@@ -64451,9 +64563,13 @@
     "reference": "C60-40ADA31S0KK1-B1",
     "lugToLugMm": 47.45,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 11.3,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Pro-300/C60-40ADA31S0KK1-B1.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 47.45mm lug-to-lug, 11.3mm height for C60 Trident Pro 300 C60-40ADA31S0KK1-B1."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 47.45mm lug-to-lug distance, 20mm lug width for Christopher Ward Trident C60 Pro 300 C60-40ADA31S0KK1-B1."
@@ -64499,9 +64615,13 @@
     "reference": "C60-40ADA31S00W1-B0",
     "lugToLugMm": 47.4,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 11.3,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Atoll-300/C60-40ADA31S00W1-B0.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 47.4mm lug-to-lug, 11.3mm height for C60 Atoll 300 C60-40ADA31S00W1-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 47.4mm lug-to-lug distance, 20mm lug width for Christopher Ward Trident C60 Atoll 300 C60-40ADA31S00W1-B0."
@@ -64517,9 +64637,13 @@
     "reference": "C65-38A3H4-S00G0-VG",
     "lugToLugMm": 43.6,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 11.7,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Dune-Aeolian/C65-38A3H4-S00G0-VG.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.6mm lug-to-lug, 11.7mm height for C65 Dune Aeolian C65-38A3H4-S00G0-VG."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.6mm lug-to-lug distance, 20mm lug width for Christopher Ward Dune C65 Dune Aeolian C65-38A3H4-S00G0-VG."
@@ -64535,9 +64659,13 @@
     "reference": "C63-39QCC3-S00K0-B0",
     "lugToLugMm": 45.8,
     "caseMm": 39,
-    "thicknessMm": null,
+    "thicknessMm": 11.55,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Valour/C63-39QCC3-S00K0-B0.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 45.8mm lug-to-lug, 11.55mm height for C63 Valour C63-39QCC3-S00K0-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 39mm case diameter, 45.8mm lug-to-lug distance, 20mm lug width for Christopher Ward Sealander C63 Valour C63-39QCC3-S00K0-B0."
@@ -64637,9 +64765,13 @@
     "reference": "C01-41APT0-T00K0-VK",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto/C01-41APT0-T00K0-VK.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00K0-VK."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto C01-41APT0-T00K0-VK."
@@ -64669,9 +64801,13 @@
     "reference": "C60-40AGM31S0BB0-RBB",
     "lugToLugMm": 47.5,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 11.7,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-GMT-300/C60-40AGM31S0BB0-RBB.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 47.5mm lug-to-lug, 11.7mm height for C60 Trident GMT 300 C60-40AGM31S0BB0-RBB."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 47.5mm lug-to-lug distance, 20mm lug width for Christopher Ward Trident C60 GMT 300 C60-40AGM31S0BB0-RBB."
@@ -64687,9 +64823,13 @@
     "reference": "C01-41APT0-T00P0-MG",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto/C01-41APT0-T00P0-MG.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00P0-MG."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto C01-41APT0-T00P0-MG."
@@ -64703,9 +64843,13 @@
     "reference": "C12-40ADC1-T00B0-RK",
     "lugToLugMm": 44.5,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 8.95,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve-40-%28Ti%29/C12-40ADC1-T00B0-RK.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 44.5mm lug-to-lug, 8.95mm height for The Twelve 40 (Ti) C12-40ADC1-T00B0-RK."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 44.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The Twelve 40 (Ti) C12-40ADC1-T00B0-RK."
@@ -64721,9 +64865,13 @@
     "reference": "C12-40ADA1-S00B1-RLB",
     "lugToLugMm": 44.5,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 9.95,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-40ADA1-S00B1-RLB.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 44.5mm lug-to-lug, 9.95mm height for The Twelve C12-40ADA1-S00B1-RLB."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 44.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The Twelve 40 C12-40ADA1-S00B1-RLB."
@@ -64874,9 +65022,13 @@
     "reference": "C12-41H6D1-S00O0-RB",
     "lugToLugMm": 47.5,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.7,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-C12-Loco/C12-41H6D1-S00O0-RB.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.5mm lug-to-lug, 13.7mm height for The C12 Loco C12-41H6D1-S00O0-RB."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 47.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The C12 Loco C12-41H6D1-S00O0-RB."
@@ -64924,9 +65076,13 @@
     "reference": "C65-38C3H4-B00V0-VG",
     "lugToLugMm": 43.6,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 11.7,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Dune-Aeolian-Bronze/C65-38C3H4-B00V0-VG.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.6mm lug-to-lug, 11.7mm height for C65 Dune Aeolian Bronze C65-38C3H4-B00V0-VG."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.6mm lug-to-lug distance, 20mm lug width for Christopher Ward Dune C65 Dune Aeolian Bronze C65-38C3H4-B00V0-VG."
@@ -64942,9 +65098,13 @@
     "reference": "C01-41APT0-T00K0-B0",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/this-years-best-watches/C1-Bel-Canto/C01-41APT0-T00K0-B0.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00K0-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 C01-41APT0-T00K0-B0."
@@ -64978,9 +65138,13 @@
     "reference": "C65-38A3H4-S00E0-VB",
     "lugToLugMm": 43.6,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 11.7,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Dune-Aeolian/C65-38A3H4-S00E0-VB.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.6mm lug-to-lug, 11.7mm height for C65 Dune Aeolian C65-38A3H4-S00E0-VB."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.6mm lug-to-lug distance, 20mm lug width for Christopher Ward Dune C65 Dune Aeolian C65-38A3H4-S00E0-VB."
@@ -65014,9 +65178,13 @@
     "reference": "C65-38A3H3-S00K0-VC",
     "lugToLugMm": 43.7,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 11.9,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Sandhurst-Series-2/C65-38A3H3-S00K0-VC.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.7mm lug-to-lug, 11.9mm height for C65 Sandhurst Series 2 C65-38A3H3-S00K0-VC."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.7mm lug-to-lug distance, 20mm lug width for Christopher Ward Dune C65 Sandhurst Series 2 C65-38A3H3-S00K0-VC."
@@ -65098,9 +65266,13 @@
     "reference": "C63-39QCC3-S00K0-RK",
     "lugToLugMm": 45.8,
     "caseMm": 39,
-    "thicknessMm": null,
+    "thicknessMm": 11.55,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Valour/C63-39QCC3-S00K0-RK.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 45.8mm lug-to-lug, 11.55mm height for C63 Valour C63-39QCC3-S00K0-RK."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 39mm case diameter, 45.8mm lug-to-lug distance, 20mm lug width for Christopher Ward Sealander C63 Valour C63-39QCC3-S00K0-RK."
@@ -65114,9 +65286,13 @@
     "reference": "C60-40ADA31S00W1-RO",
     "lugToLugMm": 47.4,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 11.3,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Atoll-300/C60-40ADA31S00W1-RO.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 47.4mm lug-to-lug, 11.3mm height for C60 Atoll 300 C60-40ADA31S00W1-RO."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 47.4mm lug-to-lug distance, 20mm lug width for Christopher Ward Trident C60 Atoll 300 C60-40ADA31S00W1-RO."
@@ -65184,9 +65360,13 @@
     "reference": "C60-42ADA31S0BB3-RBW",
     "lugToLugMm": 49.32,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 10.7,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Sapphire-Edge/C60-42ADA31S0BB3-RBW.html",
+        "note": "Official Christopher Ward product page lists 42mm case diameter, 49.32mm lug-to-lug, 10.7mm height for C60 Sapphire Edge C60-42ADA31S0BB3-RBW."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 42mm case diameter, 49.32mm lug-to-lug distance, 22mm lug width for Christopher Ward Trident C60 Sapphire Edge C60-42ADA31S0BB3-RBW."
@@ -65218,9 +65398,13 @@
     "reference": "C01-41APT3-T00B0-B1",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.2,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto-Classic/C01-41APT3-T00B0-B1.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13.2mm height for C1 Bel Canto Classic C01-41APT3-T00B0-B1."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto Classic C01-41APT3-T00B0-B1."
@@ -65352,9 +65536,13 @@
     "reference": "C01-41APT3-T00B0-B0",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.2,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/bel-canto-classic-watches/C1-Bel-Canto-Classic/C01-41APT3-T00B0-B0.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13.2mm height for C1 Bel Canto Classic C01-41APT3-T00B0-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto Classic C01-41APT3-T00B0-B0."
@@ -65368,9 +65556,13 @@
     "reference": "C12-41H6D1-S00K0-RW",
     "lugToLugMm": 47.5,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.7,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/the-c12-loco-watches/The-C12-Loco/C12-41H6D1-S00K0-RW.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.5mm lug-to-lug, 13.7mm height for The C12 Loco C12-41H6D1-S00K0-RW."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 47.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The C12 Loco C12-41H6D1-S00K0-RW."
@@ -65384,9 +65576,13 @@
     "reference": "C01-41APT3-T00G0-B1",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.2,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto-Classic/C01-41APT3-T00G0-B1.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13.2mm height for C1 Bel Canto Classic C01-41APT3-T00G0-B1."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto Classic C01-41APT3-T00G0-B1."
@@ -65402,9 +65598,13 @@
     "reference": "C01-41APT0-T00K0-MG",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto/C01-41APT0-T00K0-MG.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00K0-MG."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto C01-41APT0-T00K0-MG."
@@ -65418,9 +65618,13 @@
     "reference": "C60-40ADA31S0BB1-B1",
     "lugToLugMm": 47.45,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 11.3,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Pro-300/C60-40ADA31S0BB1-B1.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 47.45mm lug-to-lug, 11.3mm height for C60 Trident Pro 300 C60-40ADA31S0BB1-B1."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 47.45mm lug-to-lug distance, 20mm lug width for Christopher Ward Trident C60 Pro 300 C60-40ADA31S0BB1-B1."
@@ -65450,9 +65654,13 @@
     "reference": "C01-41APT3-T00B0-MB",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.2,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/bel-canto-classic-watches/C1-Bel-Canto-Classic/C01-41APT3-T00B0-MB.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13.2mm height for C1 Bel Canto Classic C01-41APT3-T00B0-MB."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto Classic C01-41APT3-T00B0-MB."
@@ -65498,9 +65706,13 @@
     "reference": "C01-41APT3-T00B0-MG",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.2,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/bel-canto-classic-watches/C1-Bel-Canto-Classic/C01-41APT3-T00B0-MG.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13.2mm height for C1 Bel Canto Classic C01-41APT3-T00B0-MG."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto Classic C01-41APT3-T00B0-MG."
@@ -65516,9 +65728,13 @@
     "reference": "C01-41APT0-T00A0-MT",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto/C01-41APT0-T00A0-MT.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00A0-MT."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto C01-41APT0-T00A0-MT."
@@ -65534,9 +65750,13 @@
     "reference": "C01-41APT0-T00P0-B0",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto/C01-41APT0-T00P0-B0.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00P0-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto C01-41APT0-T00P0-B0."
@@ -65552,9 +65772,13 @@
     "reference": "C01-41APT0-T00K0-VC",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto/C01-41APT0-T00K0-VC.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00K0-VC."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto C01-41APT0-T00K0-VC."
@@ -65568,9 +65792,13 @@
     "reference": "C60-42A3H1-SGKK0-BG",
     "lugToLugMm": 49.3,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 13.8,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Lympstone/C60-42A3H1-SGKK0-BG.html",
+        "note": "Official Christopher Ward product page lists 42mm case diameter, 49.3mm lug-to-lug, 13.8mm height for C60 Lympstone C60-42A3H1-SGKK0-BG."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 42mm case diameter, 49.3mm lug-to-lug distance, 22mm lug width for Christopher Ward Trident C60 Lympstone C60-42A3H1-SGKK0-BG."
@@ -65618,9 +65846,13 @@
     "reference": "C65-38A3H4-S00E0-VC",
     "lugToLugMm": 43.6,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 11.7,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Dune-Aeolian/C65-38A3H4-S00E0-VC.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.6mm lug-to-lug, 11.7mm height for C65 Dune Aeolian C65-38A3H4-S00E0-VC."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.6mm lug-to-lug distance, 20mm lug width for Christopher Ward Dune C65 Dune Aeolian C65-38A3H4-S00E0-VC."
@@ -65636,9 +65868,13 @@
     "reference": "C12-38ADA1-S00W0-RK",
     "lugToLugMm": 43.3,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 9.95,
     "lugWidthMm": 23,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-38ADA1-S00W0-RK.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.3mm lug-to-lug, 9.95mm height for The Twelve C12-38ADA1-S00W0-RK."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.3mm lug-to-lug distance, 23mm lug width for Christopher Ward The Twelve C12 The Twelve 38 C12-38ADA1-S00W0-RK."
@@ -65654,9 +65890,13 @@
     "reference": "C63-39QCC3-S00K0-B1",
     "lugToLugMm": 45.8,
     "caseMm": 39,
-    "thicknessMm": null,
+    "thicknessMm": 11.55,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Valour/C63-39QCC3-S00K0-B1.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 45.8mm lug-to-lug, 11.55mm height for C63 Valour C63-39QCC3-S00K0-B1."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 39mm case diameter, 45.8mm lug-to-lug distance, 20mm lug width for Christopher Ward Sealander C63 Valour C63-39QCC3-S00K0-B1."
@@ -65672,9 +65912,13 @@
     "reference": "C65-38A3H3-S00K0-WC",
     "lugToLugMm": 43.7,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 11.9,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Sandhurst-Series-2/C65-38A3H3-S00K0-WC.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.7mm lug-to-lug, 11.9mm height for C65 Sandhurst Series 2 C65-38A3H3-S00K0-WC."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.7mm lug-to-lug distance, 20mm lug width for Christopher Ward Dune C65 Sandhurst Series 2 C65-38A3H3-S00K0-WC."
@@ -65724,9 +65968,13 @@
     "reference": "C12-38ADA1-S00W0-RW",
     "lugToLugMm": 43.3,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 9.95,
     "lugWidthMm": 23,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-38ADA1-S00W0-RW.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.3mm lug-to-lug, 9.95mm height for The Twelve C12-38ADA1-S00W0-RW."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.3mm lug-to-lug distance, 23mm lug width for Christopher Ward The Twelve C12 The Twelve 38 C12-38ADA1-S00W0-RW."
@@ -65761,9 +66009,13 @@
     "reference": "C65-38A3H4-S00G0-VC",
     "lugToLugMm": 43.6,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 11.7,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Dune-Aeolian/C65-38A3H4-S00G0-VC.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.6mm lug-to-lug, 11.7mm height for C65 Dune Aeolian C65-38A3H4-S00G0-VC."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.6mm lug-to-lug distance, 20mm lug width for Christopher Ward Dune C65 Dune Aeolian C65-38A3H4-S00G0-VC."
@@ -65779,9 +66031,13 @@
     "reference": "C65-38A3H3-S00K1-VC",
     "lugToLugMm": 43.7,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 11.9,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Cranwell-Series-2/C65-38A3H3-S00K1-VC.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.7mm lug-to-lug, 11.9mm height for C65 Cranwell Series 2 C65-38A3H3-S00K1-VC."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.7mm lug-to-lug distance, 20mm lug width for Christopher Ward Dune C65 Cranwell Series 2 C65-38A3H3-S00K1-VC."
@@ -65883,9 +66139,13 @@
     "reference": "C65-38A3H4-S00B0-VB",
     "lugToLugMm": 43.6,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 11.7,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/aquitaine/C65-Dune-Aeolian/C65-38A3H4-S00B0-VB.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.6mm lug-to-lug, 11.7mm height for C65 Dune Aeolian C65-38A3H4-S00B0-VB."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.6mm lug-to-lug distance, 20mm lug width for Christopher Ward Dune C65 Dune Aeolian C65-38A3H4-S00B0-VB."
@@ -65901,9 +66161,13 @@
     "reference": "C12-41A5D0-T00K0-RK",
     "lugToLugMm": 46.3,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 12.3,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/Twelve-X-%28Ti%29/C12-41A5D0-T00K0-RK.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 46.3mm lug-to-lug, 12.3mm height for Twelve X (Ti) C12-41A5D0-T00K0-RK."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 46.3mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 Twelve X (Ti) C12-41A5D0-T00K0-RK."
@@ -65919,9 +66183,13 @@
     "reference": "C01-41APT0-T00P0-VP",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/this-years-best-watches/C1-Bel-Canto/C01-41APT0-T00P0-VP.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00P0-VP."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto C01-41APT0-T00P0-VP."
@@ -65937,9 +66205,13 @@
     "reference": "C01-41APT0-T00K0-B1",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto/C01-41APT0-T00K0-B1.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00K0-B1."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto C01-41APT0-T00K0-B1."
@@ -65973,9 +66245,13 @@
     "reference": "C12-38ADA1-S00B0-RK",
     "lugToLugMm": 43.3,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 9.95,
     "lugWidthMm": 23,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-38ADA1-S00B0-RK.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.3mm lug-to-lug, 9.95mm height for The Twelve C12-38ADA1-S00B0-RK."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.3mm lug-to-lug distance, 23mm lug width for Christopher Ward The Twelve C12 C12-38ADA1-S00B0-RK."
@@ -66005,9 +66281,13 @@
     "reference": "C12-41H6D1-S00O0-B0",
     "lugToLugMm": 47.5,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.7,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/the-c12-loco-watches/The-C12-Loco/C12-41H6D1-S00O0-B0.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.5mm lug-to-lug, 13.7mm height for The C12 Loco C12-41H6D1-S00O0-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 47.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The C12 Loco C12-41H6D1-S00O0-B0."
@@ -66105,9 +66385,13 @@
     "reference": "C12-41H6D1-S00W0-RW",
     "lugToLugMm": 47.5,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.7,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-C12-Loco/C12-41H6D1-S00W0-RW.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.5mm lug-to-lug, 13.7mm height for The C12 Loco C12-41H6D1-S00W0-RW."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 47.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The C12 Loco C12-41H6D1-S00W0-RW."
@@ -66137,9 +66421,13 @@
     "reference": "C12-41H6D1-S00K0-RB",
     "lugToLugMm": 47.5,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.7,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-C12-Loco/C12-41H6D1-S00K0-RB.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.5mm lug-to-lug, 13.7mm height for The C12 Loco C12-41H6D1-S00K0-RB."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 47.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The C12 Loco C12-41H6D1-S00K0-RB."
@@ -66205,9 +66493,13 @@
     "reference": "C12-41H6D1-S00K0-RK",
     "lugToLugMm": 47.5,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.7,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/the-c12-loco-watches/The-C12-Loco/C12-41H6D1-S00K0-RK.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.5mm lug-to-lug, 13.7mm height for The C12 Loco C12-41H6D1-S00K0-RK."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 47.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The C12 Loco C12-41H6D1-S00K0-RK."
@@ -66273,9 +66565,13 @@
     "reference": "C12-41H6D1-S00B0-RB",
     "lugToLugMm": 47.5,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.7,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-C12-Loco/C12-41H6D1-S00B0-RB.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.5mm lug-to-lug, 13.7mm height for The C12 Loco C12-41H6D1-S00B0-RB."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 47.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The C12 Loco C12-41H6D1-S00B0-RB."
@@ -66289,9 +66585,13 @@
     "reference": "C12-41H6D1-S00W0-RB",
     "lugToLugMm": 47.5,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.7,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-C12-Loco/C12-41H6D1-S00W0-RB.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.5mm lug-to-lug, 13.7mm height for The C12 Loco C12-41H6D1-S00W0-RB."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 47.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The C12 Loco C12-41H6D1-S00W0-RB."
@@ -66323,9 +66623,13 @@
     "reference": "C65-38A3H4-S00B0-VC",
     "lugToLugMm": 43.6,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 11.7,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Dune-Aeolian/C65-38A3H4-S00B0-VC.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.6mm lug-to-lug, 11.7mm height for C65 Dune Aeolian C65-38A3H4-S00B0-VC."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.6mm lug-to-lug distance, 20mm lug width for Christopher Ward Dune C65 Dune Aeolian C65-38A3H4-S00B0-VC."
@@ -66389,9 +66693,13 @@
     "reference": "C01-41APT0-T00A0-B0",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/this-years-best-watches/C1-Bel-Canto/C01-41APT0-T00A0-B0.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00A0-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto C01-41APT0-T00A0-B0."
@@ -66473,9 +66781,13 @@
     "reference": "C01-41APT0-T00B1-MK",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto/C01-41APT0-T00B1-MK.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00B1-MK."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto C01-41APT0-T00B1-MK."
@@ -66507,9 +66819,13 @@
     "reference": "C01-41APT0-T00A0-VK",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto/C01-41APT0-T00A0-VK.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00A0-VK."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto C01-41APT0-T00A0-VK."
@@ -66523,9 +66839,13 @@
     "reference": "C12-41H6D1-S00B0-RK",
     "lugToLugMm": 47.5,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.7,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-C12-Loco/C12-41H6D1-S00B0-RK.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.5mm lug-to-lug, 13.7mm height for The C12 Loco C12-41H6D1-S00B0-RK."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 47.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The C12 Loco C12-41H6D1-S00B0-RK."
@@ -66573,9 +66893,13 @@
     "reference": "C12-41H6D1-S00O0-RO",
     "lugToLugMm": 47.5,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.7,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/the-c12-loco-watches/The-C12-Loco/C12-41H6D1-S00O0-RO.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.5mm lug-to-lug, 13.7mm height for The C12 Loco C12-41H6D1-S00O0-RO."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 47.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The C12 Loco C12-41H6D1-S00O0-RO."
@@ -66609,9 +66933,13 @@
     "reference": "C01-41APT0-T00P0-VK",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto/C01-41APT0-T00P0-VK.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00P0-VK."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto C01-41APT0-T00P0-VK."
@@ -66677,9 +67005,13 @@
     "reference": "C01-41APT0-T00A0-VT",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/titanium-watches/C1-Bel-Canto/C01-41APT0-T00A0-VT.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00A0-VT."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto C01-41APT0-T00A0-VT."
@@ -66693,9 +67025,13 @@
     "reference": "C12-41H6D1-S00W0-B0",
     "lugToLugMm": 47.5,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.7,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/the-c12-loco-watches/The-C12-Loco/C12-41H6D1-S00W0-B0.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.5mm lug-to-lug, 13.7mm height for The C12 Loco C12-41H6D1-S00W0-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 47.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The C12 Loco C12-41H6D1-S00W0-B0."
@@ -66725,9 +67061,13 @@
     "reference": "C65-41CSC2-S0WB0-B0",
     "lugToLugMm": 47.12,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.75,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Super-Compressor-Elite/C65-41CSC2-S0WB0-B0.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.12mm lug-to-lug, 13.75mm height for C65 Super Compressor Elite C65-41CSC2-S0WB0-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 47.12mm lug-to-lug distance, 22mm lug width for Christopher Ward Dune C65 Super Compressor Elite C65-41CSC2-S0WB0-B0."
@@ -66741,9 +67081,13 @@
     "reference": "C12-41H6D1-S00W0-RO",
     "lugToLugMm": 47.5,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.7,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-C12-Loco/C12-41H6D1-S00W0-RO.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.5mm lug-to-lug, 13.7mm height for The C12 Loco C12-41H6D1-S00W0-RO."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 47.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The C12 Loco C12-41H6D1-S00W0-RO."
@@ -66757,9 +67101,13 @@
     "reference": "C12-41H6D1-S00K0-B0",
     "lugToLugMm": 47.5,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.7,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/the-c12-loco-watches/The-C12-Loco/C12-41H6D1-S00K0-B0.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.5mm lug-to-lug, 13.7mm height for The C12 Loco C12-41H6D1-S00K0-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 47.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The C12 Loco C12-41H6D1-S00K0-B0."
@@ -66775,9 +67123,13 @@
     "reference": "C60-41C3H31T0KO0-RKO",
     "lugToLugMm": 47.9,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 10.85,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Lumi%C3%A8re/C60-41C3H31T0KO0-RKO.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.9mm lug-to-lug, 10.85mm height for C60 Trident Lumière C60-41C3H31T0KO0-RKO."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 47.9mm lug-to-lug distance, 22mm lug width for Christopher Ward Trident C60 Lumière C60-41C3H31T0KO0-RKO."
@@ -66843,9 +67195,13 @@
     "reference": "C12-41H6D1-S00B0-B0",
     "lugToLugMm": 47.5,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13.7,
     "lugWidthMm": 25,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/the-c12-loco-watches/The-C12-Loco/C12-41H6D1-S00B0-B0.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.5mm lug-to-lug, 13.7mm height for The C12 Loco C12-41H6D1-S00B0-B0."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 47.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The C12 Loco C12-41H6D1-S00B0-B0."
@@ -66909,9 +67265,13 @@
     "reference": "C65-38C3H4-B00K0-VT",
     "lugToLugMm": 43.6,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 11.7,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Dune-Aeolian-Bronze/C65-38C3H4-B00K0-VT.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.6mm lug-to-lug, 11.7mm height for C65 Dune Aeolian Bronze C65-38C3H4-B00K0-VT."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.6mm lug-to-lug distance, 20mm lug width for Christopher Ward Dune C65 Dune Aeolian Bronze C65-38C3H4-B00K0-VT."
@@ -66925,9 +67285,13 @@
     "reference": "C65-38C3H4-B00K0-VG",
     "lugToLugMm": 43.6,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 11.7,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Dune-Aeolian-Bronze/C65-38C3H4-B00K0-VG.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.6mm lug-to-lug, 11.7mm height for C65 Dune Aeolian Bronze C65-38C3H4-B00K0-VG."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.6mm lug-to-lug distance, 20mm lug width for Christopher Ward Dune C65 Dune Aeolian Bronze C65-38C3H4-B00K0-VG."
@@ -88138,6 +88502,2182 @@
       {
         "sourceUrl": "https://www.ballwatch.com/en/NL1026C?model=NL1026C-S4A-BKGR",
         "note": "Ball Watch product page lists 31mm case, 10.7mm height, 16mm lug width, 36mm lug-to-lug for reference NL1026C-S4A-BKGR."
+      }
+    ]
+  },
+  {
+    "id": 5325,
+    "brand": "Christopher Ward",
+    "model": "The Twelve Midnight",
+    "reference": "C12-38ADA1-MXII-RK",
+    "lugToLugMm": 43.3,
+    "caseMm": 38,
+    "thicknessMm": 9.95,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve-Midnight/C12-38ADA1-MXII-RK.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.3mm lug-to-lug, 9.95mm height for The Twelve Midnight C12-38ADA1-MXII-RK."
+      }
+    ]
+  },
+  {
+    "id": 5326,
+    "brand": "Christopher Ward",
+    "model": "C1 Jump Hour Mk V",
+    "reference": "C01-39AJH4-S00B0-MB",
+    "lugToLugMm": 47.3,
+    "caseMm": 39,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Jump-Hour-Mk-V/C01-39AJH4-S00B0-MB.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00B0-MB."
+      }
+    ]
+  },
+  {
+    "id": 5327,
+    "brand": "Christopher Ward",
+    "model": "C1 Jump Hour Mk V",
+    "reference": "C01-39AJH4-S00B0-ME",
+    "lugToLugMm": 47.3,
+    "caseMm": 39,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/watches/C1-Jump-Hour-Mk-V/C01-39AJH4-S00B0-ME.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00B0-ME."
+      }
+    ]
+  },
+  {
+    "id": 5328,
+    "brand": "Christopher Ward",
+    "model": "C1 Jump Hour Mk V",
+    "reference": "C01-39AJH4-S00B0-MG",
+    "lugToLugMm": 47.3,
+    "caseMm": 39,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Jump-Hour-Mk-V/C01-39AJH4-S00B0-MG.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00B0-MG."
+      }
+    ]
+  },
+  {
+    "id": 5329,
+    "brand": "Christopher Ward",
+    "model": "C1 Jump Hour Mk V",
+    "reference": "C01-39AJH4-S00B0-MK",
+    "lugToLugMm": 47.3,
+    "caseMm": 39,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/watches/C1-Jump-Hour-Mk-V/C01-39AJH4-S00B0-MK.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00B0-MK."
+      }
+    ]
+  },
+  {
+    "id": 5330,
+    "brand": "Christopher Ward",
+    "model": "C1 Jump Hour Mk V",
+    "reference": "C01-39AJH4-S00B0-MT",
+    "lugToLugMm": 47.3,
+    "caseMm": 39,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/watches/C1-Jump-Hour-Mk-V/C01-39AJH4-S00B0-MT.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00B0-MT."
+      }
+    ]
+  },
+  {
+    "id": 5331,
+    "brand": "Christopher Ward",
+    "model": "C1 Jump Hour Mk V",
+    "reference": "C01-39AJH4-S00E0-B1",
+    "lugToLugMm": 47.3,
+    "caseMm": 39,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Jump-Hour-Mk-V/C01-39AJH4-S00E0-B1.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00E0-B1."
+      }
+    ]
+  },
+  {
+    "id": 5332,
+    "brand": "Christopher Ward",
+    "model": "C1 Jump Hour Mk V",
+    "reference": "C01-39AJH4-S00E0-MB",
+    "lugToLugMm": 47.3,
+    "caseMm": 39,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/watches/C1-Jump-Hour-Mk-V/C01-39AJH4-S00E0-MB.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00E0-MB."
+      }
+    ]
+  },
+  {
+    "id": 5333,
+    "brand": "Christopher Ward",
+    "model": "C1 Jump Hour Mk V",
+    "reference": "C01-39AJH4-S00E0-ME",
+    "lugToLugMm": 47.3,
+    "caseMm": 39,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Jump-Hour-Mk-V/C01-39AJH4-S00E0-ME.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00E0-ME."
+      }
+    ]
+  },
+  {
+    "id": 5334,
+    "brand": "Christopher Ward",
+    "model": "C1 Jump Hour Mk V",
+    "reference": "C01-39AJH4-S00E0-MG",
+    "lugToLugMm": 47.3,
+    "caseMm": 39,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/watches/C1-Jump-Hour-Mk-V/C01-39AJH4-S00E0-MG.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00E0-MG."
+      }
+    ]
+  },
+  {
+    "id": 5335,
+    "brand": "Christopher Ward",
+    "model": "C1 Jump Hour Mk V",
+    "reference": "C01-39AJH4-S00E0-MK",
+    "lugToLugMm": 47.3,
+    "caseMm": 39,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/watches/C1-Jump-Hour-Mk-V/C01-39AJH4-S00E0-MK.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00E0-MK."
+      }
+    ]
+  },
+  {
+    "id": 5336,
+    "brand": "Christopher Ward",
+    "model": "C1 Jump Hour Mk V",
+    "reference": "C01-39AJH4-S00E0-MT",
+    "lugToLugMm": 47.3,
+    "caseMm": 39,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Jump-Hour-Mk-V/C01-39AJH4-S00E0-MT.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00E0-MT."
+      }
+    ]
+  },
+  {
+    "id": 5337,
+    "brand": "Christopher Ward",
+    "model": "C1 Jump Hour Mk V",
+    "reference": "C01-39AJH4-S00R0-B1",
+    "lugToLugMm": 47.3,
+    "caseMm": 39,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Jump-Hour-Mk-V/C01-39AJH4-S00R0-B1.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00R0-B1."
+      }
+    ]
+  },
+  {
+    "id": 5338,
+    "brand": "Christopher Ward",
+    "model": "C1 Jump Hour Mk V",
+    "reference": "C01-39AJH4-S00R0-MB",
+    "lugToLugMm": 47.3,
+    "caseMm": 39,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/watches/C1-Jump-Hour-Mk-V/C01-39AJH4-S00R0-MB.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00R0-MB."
+      }
+    ]
+  },
+  {
+    "id": 5339,
+    "brand": "Christopher Ward",
+    "model": "C1 Jump Hour Mk V",
+    "reference": "C01-39AJH4-S00R0-ME",
+    "lugToLugMm": 47.3,
+    "caseMm": 39,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/watches/C1-Jump-Hour-Mk-V/C01-39AJH4-S00R0-ME.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00R0-ME."
+      }
+    ]
+  },
+  {
+    "id": 5340,
+    "brand": "Christopher Ward",
+    "model": "C1 Jump Hour Mk V",
+    "reference": "C01-39AJH4-S00R0-MG",
+    "lugToLugMm": 47.3,
+    "caseMm": 39,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/watches/C1-Jump-Hour-Mk-V/C01-39AJH4-S00R0-MG.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00R0-MG."
+      }
+    ]
+  },
+  {
+    "id": 5341,
+    "brand": "Christopher Ward",
+    "model": "C1 Jump Hour Mk V",
+    "reference": "C01-39AJH4-S00R0-MK",
+    "lugToLugMm": 47.3,
+    "caseMm": 39,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Jump-Hour-Mk-V/C01-39AJH4-S00R0-MK.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00R0-MK."
+      }
+    ]
+  },
+  {
+    "id": 5342,
+    "brand": "Christopher Ward",
+    "model": "C1 Jump Hour Mk V",
+    "reference": "C01-39AJH4-S00R0-MT",
+    "lugToLugMm": 47.3,
+    "caseMm": 39,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/watches/C1-Jump-Hour-Mk-V/C01-39AJH4-S00R0-MT.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00R0-MT."
+      }
+    ]
+  },
+  {
+    "id": 5343,
+    "brand": "Christopher Ward",
+    "model": "C1 Bel Canto",
+    "reference": "C01-41APT0-T00A0-B1",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 13,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto/C01-41APT0-T00A0-B1.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00A0-B1."
+      }
+    ]
+  },
+  {
+    "id": 5344,
+    "brand": "Christopher Ward",
+    "model": "C1 Bel Canto",
+    "reference": "C01-41APT0-T00B1-B0",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 13,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto/C01-41APT0-T00B1-B0.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00B1-B0."
+      }
+    ]
+  },
+  {
+    "id": 5345,
+    "brand": "Christopher Ward",
+    "model": "C1 Bel Canto",
+    "reference": "C01-41APT0-T00B1-B1",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 13,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto/C01-41APT0-T00B1-B1.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00B1-B1."
+      }
+    ]
+  },
+  {
+    "id": 5346,
+    "brand": "Christopher Ward",
+    "model": "C1 Bel Canto",
+    "reference": "C01-41APT0-T00B1-VC",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 13,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto/C01-41APT0-T00B1-VC.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00B1-VC."
+      }
+    ]
+  },
+  {
+    "id": 5347,
+    "brand": "Christopher Ward",
+    "model": "C1 Bel Canto",
+    "reference": "C01-41APT0-T00P0-B1",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 13,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Bel-Canto/C01-41APT0-T00P0-B1.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13mm height for C1 Bel Canto C01-41APT0-T00P0-B1."
+      }
+    ]
+  },
+  {
+    "id": 5348,
+    "brand": "Christopher Ward",
+    "model": "C1 Bel Canto Classic",
+    "reference": "C01-41APT3-T00A0-B0",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 13.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/bel-canto-classic-watches/C1-Bel-Canto-Classic/C01-41APT3-T00A0-B0.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13.2mm height for C1 Bel Canto Classic C01-41APT3-T00A0-B0."
+      }
+    ]
+  },
+  {
+    "id": 5349,
+    "brand": "Christopher Ward",
+    "model": "C1 Bel Canto Classic",
+    "reference": "C01-41APT3-T00A0-B1",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 13.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/titanium-watches/C1-Bel-Canto-Classic/C01-41APT3-T00A0-B1.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13.2mm height for C1 Bel Canto Classic C01-41APT3-T00A0-B1."
+      }
+    ]
+  },
+  {
+    "id": 5350,
+    "brand": "Christopher Ward",
+    "model": "C1 Bel Canto Classic",
+    "reference": "C01-41APT3-T00A0-MK",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 13.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/bel-canto-classic-watches/C1-Bel-Canto-Classic/C01-41APT3-T00A0-MK.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13.2mm height for C1 Bel Canto Classic C01-41APT3-T00A0-MK."
+      }
+    ]
+  },
+  {
+    "id": 5351,
+    "brand": "Christopher Ward",
+    "model": "C1 Bel Canto Classic",
+    "reference": "C01-41APT3-T00B0-MC",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 13.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/bel-canto-classic-watches/C1-Bel-Canto-Classic/C01-41APT3-T00B0-MC.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13.2mm height for C1 Bel Canto Classic C01-41APT3-T00B0-MC."
+      }
+    ]
+  },
+  {
+    "id": 5352,
+    "brand": "Christopher Ward",
+    "model": "C1 Bel Canto Classic",
+    "reference": "C01-41APT3-T00G0-B0",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 13.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/bel-canto-classic-watches/C1-Bel-Canto-Classic/C01-41APT3-T00G0-B0.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13.2mm height for C1 Bel Canto Classic C01-41APT3-T00G0-B0."
+      }
+    ]
+  },
+  {
+    "id": 5353,
+    "brand": "Christopher Ward",
+    "model": "C1 Bel Canto Classic",
+    "reference": "C01-41APT3-T00G0-MT",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 13.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/bel-canto-classic-watches/C1-Bel-Canto-Classic/C01-41APT3-T00G0-MT.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13.2mm height for C1 Bel Canto Classic C01-41APT3-T00G0-MT."
+      }
+    ]
+  },
+  {
+    "id": 5354,
+    "brand": "Christopher Ward",
+    "model": "C1 Bel Canto Classic",
+    "reference": "C01-41APT3-T00O0-B0",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 13.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/bel-canto-classic-watches/C1-Bel-Canto-Classic/C01-41APT3-T00O0-B0.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13.2mm height for C1 Bel Canto Classic C01-41APT3-T00O0-B0."
+      }
+    ]
+  },
+  {
+    "id": 5355,
+    "brand": "Christopher Ward",
+    "model": "C1 Bel Canto Classic",
+    "reference": "C01-41APT3-T00O0-B1",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 13.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/bel-canto-classic-watches/C1-Bel-Canto-Classic/C01-41APT3-T00O0-B1.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13.2mm height for C1 Bel Canto Classic C01-41APT3-T00O0-B1."
+      }
+    ]
+  },
+  {
+    "id": 5356,
+    "brand": "Christopher Ward",
+    "model": "C1 Bel Canto Classic",
+    "reference": "C01-41APT3-T00O0-MB",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 13.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/bel-canto-classic-watches/C1-Bel-Canto-Classic/C01-41APT3-T00O0-MB.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13.2mm height for C1 Bel Canto Classic C01-41APT3-T00O0-MB."
+      }
+    ]
+  },
+  {
+    "id": 5357,
+    "brand": "Christopher Ward",
+    "model": "C1 Bel Canto Classic",
+    "reference": "C01-41APT3-T00O0-MW",
+    "lugToLugMm": 48,
+    "caseMm": 41,
+    "thicknessMm": 13.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/bel-canto-classic-watches/C1-Bel-Canto-Classic/C01-41APT3-T00O0-MW.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 48mm lug-to-lug, 13.2mm height for C1 Bel Canto Classic C01-41APT3-T00O0-MW."
+      }
+    ]
+  },
+  {
+    "id": 5358,
+    "brand": "Christopher Ward",
+    "model": "The Twelve 660",
+    "reference": "C12-38H2H1-S00B0-B0",
+    "lugToLugMm": 43.3,
+    "caseMm": 38,
+    "thicknessMm": 6.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve-660/C12-38H2H1-S00B0-B0.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.3mm lug-to-lug, 6.6mm height for The Twelve 660 C12-38H2H1-S00B0-B0."
+      }
+    ]
+  },
+  {
+    "id": 5359,
+    "brand": "Christopher Ward",
+    "model": "The Twelve 660",
+    "reference": "C12-38H2H1-S00B0-RK",
+    "lugToLugMm": 43.3,
+    "caseMm": 38,
+    "thicknessMm": 6.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve-660/C12-38H2H1-S00B0-RK.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.3mm lug-to-lug, 6.6mm height for The Twelve 660 C12-38H2H1-S00B0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5360,
+    "brand": "Christopher Ward",
+    "model": "The Twelve 660",
+    "reference": "C12-38H2H1-S00V0-B0",
+    "lugToLugMm": 43.3,
+    "caseMm": 38,
+    "thicknessMm": 6.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve-660/C12-38H2H1-S00V0-B0.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.3mm lug-to-lug, 6.6mm height for The Twelve 660 C12-38H2H1-S00V0-B0."
+      }
+    ]
+  },
+  {
+    "id": 5361,
+    "brand": "Christopher Ward",
+    "model": "The Twelve 660",
+    "reference": "C12-38H2H1-S00V0-RK",
+    "lugToLugMm": 43.3,
+    "caseMm": 38,
+    "thicknessMm": 6.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve-660/C12-38H2H1-S00V0-RK.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.3mm lug-to-lug, 6.6mm height for The Twelve 660 C12-38H2H1-S00V0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5362,
+    "brand": "Christopher Ward",
+    "model": "The Twelve 660",
+    "reference": "C12-38H2H1-S00W0-RK",
+    "lugToLugMm": 43.3,
+    "caseMm": 38,
+    "thicknessMm": 6.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve-660/C12-38H2H1-S00W0-RK.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.3mm lug-to-lug, 6.6mm height for The Twelve 660 C12-38H2H1-S00W0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5363,
+    "brand": "Christopher Ward",
+    "model": "The Twelve 660",
+    "reference": "C12-38H2H1-SK0K0-B0",
+    "lugToLugMm": 43.3,
+    "caseMm": 38,
+    "thicknessMm": 6.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve-660/C12-38H2H1-SK0K0-B0.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.3mm lug-to-lug, 6.6mm height for The Twelve 660 C12-38H2H1-SK0K0-B0."
+      }
+    ]
+  },
+  {
+    "id": 5364,
+    "brand": "Christopher Ward",
+    "model": "The Twelve 660",
+    "reference": "C12-38H2H1-SK0K0-RK",
+    "lugToLugMm": 43.3,
+    "caseMm": 38,
+    "thicknessMm": 6.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve-660/C12-38H2H1-SK0K0-RK.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.3mm lug-to-lug, 6.6mm height for The Twelve 660 C12-38H2H1-SK0K0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5365,
+    "brand": "Christopher Ward",
+    "model": "The Twelve",
+    "reference": "C12-40ADA1-S00B0-B0",
+    "lugToLugMm": 44.5,
+    "caseMm": 40,
+    "thicknessMm": 9.95,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-40ADA1-S00B0-B0.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 44.5mm lug-to-lug, 9.95mm height for The Twelve C12-40ADA1-S00B0-B0."
+      }
+    ]
+  },
+  {
+    "id": 5366,
+    "brand": "Christopher Ward",
+    "model": "The Twelve",
+    "reference": "C12-40ADA1-S00W0-RK",
+    "lugToLugMm": 44.5,
+    "caseMm": 40,
+    "thicknessMm": 9.95,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-40ADA1-S00W0-RK.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 44.5mm lug-to-lug, 9.95mm height for The Twelve C12-40ADA1-S00W0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5367,
+    "brand": "Christopher Ward",
+    "model": "Twelve X Black Shadow",
+    "reference": "C12-41A5D1-SD0K0-B0",
+    "lugToLugMm": 44.5,
+    "caseMm": 41,
+    "thicknessMm": 12.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/Twelve-X-Black-Shadow/C12-41A5D1-SD0K0-B0.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 44.5mm lug-to-lug, 12.3mm height for Twelve X Black Shadow C12-41A5D1-SD0K0-B0."
+      }
+    ]
+  },
+  {
+    "id": 5368,
+    "brand": "Christopher Ward",
+    "model": "Twelve X Black Shadow",
+    "reference": "C12-41A5D1-SD0K0-RK",
+    "lugToLugMm": 44.5,
+    "caseMm": 41,
+    "thicknessMm": 12.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/Twelve-X-Black-Shadow/C12-41A5D1-SD0K0-RK.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 44.5mm lug-to-lug, 12.3mm height for Twelve X Black Shadow C12-41A5D1-SD0K0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5369,
+    "brand": "Christopher Ward",
+    "model": "The C12 Loco",
+    "reference": "C12-41H6D1-S00B0-RW",
+    "lugToLugMm": 47.5,
+    "caseMm": 41,
+    "thicknessMm": 13.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/the-c12-loco-watches/The-C12-Loco/C12-41H6D1-S00B0-RW.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.5mm lug-to-lug, 13.7mm height for The C12 Loco C12-41H6D1-S00B0-RW."
+      }
+    ]
+  },
+  {
+    "id": 5370,
+    "brand": "Christopher Ward",
+    "model": "The C12 Loco",
+    "reference": "C12-41H6D1-S00K0-RO",
+    "lugToLugMm": 47.5,
+    "caseMm": 41,
+    "thicknessMm": 13.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-C12-Loco/C12-41H6D1-S00K0-RO.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.5mm lug-to-lug, 13.7mm height for The C12 Loco C12-41H6D1-S00K0-RO."
+      }
+    ]
+  },
+  {
+    "id": 5371,
+    "brand": "Christopher Ward",
+    "model": "The C12 Loco",
+    "reference": "C12-41H6D1-S00O0-RK",
+    "lugToLugMm": 47.5,
+    "caseMm": 41,
+    "thicknessMm": 13.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/the-c12-loco-watches/The-C12-Loco/C12-41H6D1-S00O0-RK.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.5mm lug-to-lug, 13.7mm height for The C12 Loco C12-41H6D1-S00O0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5372,
+    "brand": "Christopher Ward",
+    "model": "The C12 Loco",
+    "reference": "C12-41H6D1-S00O0-RW",
+    "lugToLugMm": 47.5,
+    "caseMm": 41,
+    "thicknessMm": 13.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-C12-Loco/C12-41H6D1-S00O0-RW.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.5mm lug-to-lug, 13.7mm height for The C12 Loco C12-41H6D1-S00O0-RW."
+      }
+    ]
+  },
+  {
+    "id": 5373,
+    "brand": "Christopher Ward",
+    "model": "The C12 Loco",
+    "reference": "C12-41H6D1-S00W0-RK",
+    "lugToLugMm": 47.5,
+    "caseMm": 41,
+    "thicknessMm": 13.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/the-c12-loco-watches/The-C12-Loco/C12-41H6D1-S00W0-RK.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.5mm lug-to-lug, 13.7mm height for The C12 Loco C12-41H6D1-S00W0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5374,
+    "brand": "Christopher Ward",
+    "model": "C60 Atoll 300",
+    "reference": "C60-40ADA31S00B1-RB",
+    "lugToLugMm": 47.4,
+    "caseMm": 40,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Atoll-300/C60-40ADA31S00B1-RB.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 47.4mm lug-to-lug, 11.3mm height for C60 Atoll 300 C60-40ADA31S00B1-RB."
+      }
+    ]
+  },
+  {
+    "id": 5375,
+    "brand": "Christopher Ward",
+    "model": "C60 Atoll 300",
+    "reference": "C60-40ADA31S00W1-RK",
+    "lugToLugMm": 47.4,
+    "caseMm": 40,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Atoll-300/C60-40ADA31S00W1-RK.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 47.4mm lug-to-lug, 11.3mm height for C60 Atoll 300 C60-40ADA31S00W1-RK."
+      }
+    ]
+  },
+  {
+    "id": 5376,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Pro 300",
+    "reference": "C60-40ADA31S0BB1-HB",
+    "lugToLugMm": 47.45,
+    "caseMm": 40,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/trident-pro-300-watches/C60-Trident-Pro-300/C60-40ADA31S0BB1-HB.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 47.45mm lug-to-lug, 11.3mm height for C60 Trident Pro 300 C60-40ADA31S0BB1-HB."
+      }
+    ]
+  },
+  {
+    "id": 5377,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Pro 300",
+    "reference": "C60-40ADA31S0KK1-HK",
+    "lugToLugMm": 47.45,
+    "caseMm": 40,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Pro-300/C60-40ADA31S0KK1-HK.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 47.45mm lug-to-lug, 11.3mm height for C60 Trident Pro 300 C60-40ADA31S0KK1-HK."
+      }
+    ]
+  },
+  {
+    "id": 5378,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Pro 300",
+    "reference": "C60-40ADA31S0KK1-RK",
+    "lugToLugMm": 47.45,
+    "caseMm": 40,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/trident-pro-300-watches/C60-Trident-Pro-300/C60-40ADA31S0KK1-RK.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 47.45mm lug-to-lug, 11.3mm height for C60 Trident Pro 300 C60-40ADA31S0KK1-RK."
+      }
+    ]
+  },
+  {
+    "id": 5379,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident GMT 300",
+    "reference": "C60-40AGM31S0BB0-B0",
+    "lugToLugMm": 47.5,
+    "caseMm": 40,
+    "thicknessMm": 11.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-GMT-300/C60-40AGM31S0BB0-B0.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 47.5mm lug-to-lug, 11.7mm height for C60 Trident GMT 300 C60-40AGM31S0BB0-B0."
+      }
+    ]
+  },
+  {
+    "id": 5380,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident GMT 300",
+    "reference": "C60-40AGM31S0BB0-B1",
+    "lugToLugMm": 47.5,
+    "caseMm": 40,
+    "thicknessMm": 11.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-GMT-300/C60-40AGM31S0BB0-B1.html",
+        "note": "Official Christopher Ward product page lists 40mm case diameter, 47.5mm lug-to-lug, 11.7mm height for C60 Trident GMT 300 C60-40AGM31S0BB0-B1."
+      }
+    ]
+  },
+  {
+    "id": 5381,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-41A3H31S0BB0-B0",
+    "lugToLugMm": 47.9,
+    "caseMm": 41,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-41A3H31S0BB0-B0.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.9mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-41A3H31S0BB0-B0."
+      }
+    ]
+  },
+  {
+    "id": 5382,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-41A3H31S0BB0-RK",
+    "lugToLugMm": 47.9,
+    "caseMm": 41,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-41A3H31S0BB0-RK.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.9mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-41A3H31S0BB0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5383,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-41A3H31S0BB0-RV",
+    "lugToLugMm": 47.9,
+    "caseMm": 41,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-41A3H31S0BB0-RV.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.9mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-41A3H31S0BB0-RV."
+      }
+    ]
+  },
+  {
+    "id": 5384,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-41A3H31S0BB0-RW",
+    "lugToLugMm": 47.9,
+    "caseMm": 41,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-41A3H31S0BB0-RW.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.9mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-41A3H31S0BB0-RW."
+      }
+    ]
+  },
+  {
+    "id": 5385,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-41A3H31S0BB0-RY",
+    "lugToLugMm": 47.9,
+    "caseMm": 41,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-41A3H31S0BB0-RY.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.9mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-41A3H31S0BB0-RY."
+      }
+    ]
+  },
+  {
+    "id": 5386,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-41A3H31S0OO0-B0",
+    "lugToLugMm": 47.9,
+    "caseMm": 41,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-41A3H31S0OO0-B0.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.9mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-41A3H31S0OO0-B0."
+      }
+    ]
+  },
+  {
+    "id": 5387,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-41A3H31S0OO0-RK",
+    "lugToLugMm": 47.9,
+    "caseMm": 41,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-41A3H31S0OO0-RK.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.9mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-41A3H31S0OO0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5388,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-41A3H31S0OO0-RV",
+    "lugToLugMm": 47.9,
+    "caseMm": 41,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-41A3H31S0OO0-RV.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.9mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-41A3H31S0OO0-RV."
+      }
+    ]
+  },
+  {
+    "id": 5389,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-41A3H31S0OO0-RW",
+    "lugToLugMm": 47.9,
+    "caseMm": 41,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-41A3H31S0OO0-RW.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.9mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-41A3H31S0OO0-RW."
+      }
+    ]
+  },
+  {
+    "id": 5390,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-41A3H31S0OO0-RY",
+    "lugToLugMm": 47.9,
+    "caseMm": 41,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-41A3H31S0OO0-RY.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.9mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-41A3H31S0OO0-RY."
+      }
+    ]
+  },
+  {
+    "id": 5391,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Lumière",
+    "reference": "C60-41C3H31T0BB0-RO",
+    "lugToLugMm": 47.9,
+    "caseMm": 41,
+    "thicknessMm": 10.85,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Lumi%C3%A8re/C60-41C3H31T0BB0-RO.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.9mm lug-to-lug, 10.85mm height for C60 Trident Lumière C60-41C3H31T0BB0-RO."
+      }
+    ]
+  },
+  {
+    "id": 5392,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Lumière",
+    "reference": "C60-41C3H31T0KO0-RO",
+    "lugToLugMm": 47.9,
+    "caseMm": 41,
+    "thicknessMm": 10.85,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Lumi%C3%A8re/C60-41C3H31T0KO0-RO.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.9mm lug-to-lug, 10.85mm height for C60 Trident Lumière C60-41C3H31T0KO0-RO."
+      }
+    ]
+  },
+  {
+    "id": 5393,
+    "brand": "Christopher Ward",
+    "model": "C60 Lympstone",
+    "reference": "C60-42A3H1-SGKK0-HK",
+    "lugToLugMm": 49.3,
+    "caseMm": 42,
+    "thicknessMm": 13.8,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Lympstone/C60-42A3H1-SGKK0-HK.html",
+        "note": "Official Christopher Ward product page lists 42mm case diameter, 49.3mm lug-to-lug, 13.8mm height for C60 Lympstone C60-42A3H1-SGKK0-HK."
+      }
+    ]
+  },
+  {
+    "id": 5394,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Pro 300",
+    "reference": "C60-42ADA31S0BB1-HB",
+    "lugToLugMm": 49.3,
+    "caseMm": 42,
+    "thicknessMm": 11.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/trident-pro-300-watches/C60-Trident-Pro-300/C60-42ADA31S0BB1-HB.html",
+        "note": "Official Christopher Ward product page lists 42mm case diameter, 49.3mm lug-to-lug, 11.5mm height for C60 Trident Pro 300 C60-42ADA31S0BB1-HB."
+      }
+    ]
+  },
+  {
+    "id": 5395,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Pro 300",
+    "reference": "C60-42ADA31S0KW1-HK",
+    "lugToLugMm": 49.3,
+    "caseMm": 42,
+    "thicknessMm": 11.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/trident-pro-300-watches/C60-Trident-Pro-300/C60-42ADA31S0KW1-HK.html",
+        "note": "Official Christopher Ward product page lists 42mm case diameter, 49.3mm lug-to-lug, 11.5mm height for C60 Trident Pro 300 C60-42ADA31S0KW1-HK."
+      }
+    ]
+  },
+  {
+    "id": 5396,
+    "brand": "Christopher Ward",
+    "model": "C60 Sapphire Edge",
+    "reference": "C60-42ADA31S0KW3-B0",
+    "lugToLugMm": 49.32,
+    "caseMm": 42,
+    "thicknessMm": 10.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Sapphire-Edge/C60-42ADA31S0KW3-B0.html",
+        "note": "Official Christopher Ward product page lists 42mm case diameter, 49.32mm lug-to-lug, 10.7mm height for C60 Sapphire Edge C60-42ADA31S0KW3-B0."
+      }
+    ]
+  },
+  {
+    "id": 5397,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-44A3H31S0BB0-RK",
+    "lugToLugMm": 51.41,
+    "caseMm": 44,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-44A3H31S0BB0-RK.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.41mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-44A3H31S0BB0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5398,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-44A3H31S0BB0-RV",
+    "lugToLugMm": 51.41,
+    "caseMm": 44,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-44A3H31S0BB0-RV.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.41mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-44A3H31S0BB0-RV."
+      }
+    ]
+  },
+  {
+    "id": 5399,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-44A3H31S0BB0-RW",
+    "lugToLugMm": 51.41,
+    "caseMm": 44,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-44A3H31S0BB0-RW.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.41mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-44A3H31S0BB0-RW."
+      }
+    ]
+  },
+  {
+    "id": 5400,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-44A3H31S0BB0-RY",
+    "lugToLugMm": 51.41,
+    "caseMm": 44,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-44A3H31S0BB0-RY.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.41mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-44A3H31S0BB0-RY."
+      }
+    ]
+  },
+  {
+    "id": 5401,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-44A3H31S0KK0-RK",
+    "lugToLugMm": 51.41,
+    "caseMm": 44,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-44A3H31S0KK0-RK.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.41mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-44A3H31S0KK0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5402,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-44A3H31S0KK0-RV",
+    "lugToLugMm": 51.41,
+    "caseMm": 44,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-44A3H31S0KK0-RV.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.41mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-44A3H31S0KK0-RV."
+      }
+    ]
+  },
+  {
+    "id": 5403,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-44A3H31S0KK0-RW",
+    "lugToLugMm": 51.41,
+    "caseMm": 44,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-44A3H31S0KK0-RW.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.41mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-44A3H31S0KK0-RW."
+      }
+    ]
+  },
+  {
+    "id": 5404,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-44A3H31S0KK0-RY",
+    "lugToLugMm": 51.41,
+    "caseMm": 44,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-44A3H31S0KK0-RY.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.41mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-44A3H31S0KK0-RY."
+      }
+    ]
+  },
+  {
+    "id": 5405,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-44A3H31S0OO0-RK",
+    "lugToLugMm": 51.41,
+    "caseMm": 44,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-44A3H31S0OO0-RK.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.41mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-44A3H31S0OO0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5406,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-44A3H31S0OO0-RV",
+    "lugToLugMm": 51.41,
+    "caseMm": 44,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-44A3H31S0OO0-RV.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.41mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-44A3H31S0OO0-RV."
+      }
+    ]
+  },
+  {
+    "id": 5407,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-44A3H31S0OO0-RW",
+    "lugToLugMm": 51.41,
+    "caseMm": 44,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-44A3H31S0OO0-RW.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.41mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-44A3H31S0OO0-RW."
+      }
+    ]
+  },
+  {
+    "id": 5408,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-44A3H31S0OO0-RY",
+    "lugToLugMm": 51.41,
+    "caseMm": 44,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-44A3H31S0OO0-RY.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.41mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-44A3H31S0OO0-RY."
+      }
+    ]
+  },
+  {
+    "id": 5409,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-44A3H31S0WW0-RK",
+    "lugToLugMm": 51.41,
+    "caseMm": 44,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-44A3H31S0WW0-RK.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.41mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-44A3H31S0WW0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5410,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-44A3H31S0WW0-RV",
+    "lugToLugMm": 51.41,
+    "caseMm": 44,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-44A3H31S0WW0-RV.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.41mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-44A3H31S0WW0-RV."
+      }
+    ]
+  },
+  {
+    "id": 5411,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-44A3H31S0WW0-RW",
+    "lugToLugMm": 51.41,
+    "caseMm": 44,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-44A3H31S0WW0-RW.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.41mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-44A3H31S0WW0-RW."
+      }
+    ]
+  },
+  {
+    "id": 5412,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Reef",
+    "reference": "C60-44A3H31S0WW0-RY",
+    "lugToLugMm": 51.41,
+    "caseMm": 44,
+    "thicknessMm": 11.45,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Reef/C60-44A3H31S0WW0-RY.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.41mm lug-to-lug, 11.45mm height for C60 Trident Reef C60-44A3H31S0WW0-RY."
+      }
+    ]
+  },
+  {
+    "id": 5413,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Pro 300",
+    "reference": "C60-44ADA31S0BB1-B0",
+    "lugToLugMm": 51.4,
+    "caseMm": 44,
+    "thicknessMm": 11.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Pro-300/C60-44ADA31S0BB1-B0.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.4mm lug-to-lug, 11.7mm height for C60 Trident Pro 300 C60-44ADA31S0BB1-B0."
+      }
+    ]
+  },
+  {
+    "id": 5414,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Pro 300",
+    "reference": "C60-44ADA31S0KK1-B0",
+    "lugToLugMm": 51.4,
+    "caseMm": 44,
+    "thicknessMm": 11.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Pro-300/C60-44ADA31S0KK1-B0.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.4mm lug-to-lug, 11.7mm height for C60 Trident Pro 300 C60-44ADA31S0KK1-B0."
+      }
+    ]
+  },
+  {
+    "id": 5415,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Pro 300",
+    "reference": "C60-44ADA31S0KK1-RK",
+    "lugToLugMm": 51.4,
+    "caseMm": 44,
+    "thicknessMm": 11.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Pro-300/C60-44ADA31S0KK1-RK.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.4mm lug-to-lug, 11.7mm height for C60 Trident Pro 300 C60-44ADA31S0KK1-RK."
+      }
+    ]
+  },
+  {
+    "id": 5416,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Pro 300",
+    "reference": "C60-44ADA31S0KW1-B0",
+    "lugToLugMm": 51.4,
+    "caseMm": 44,
+    "thicknessMm": 11.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Pro-300/C60-44ADA31S0KW1-B0.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.4mm lug-to-lug, 11.7mm height for C60 Trident Pro 300 C60-44ADA31S0KW1-B0."
+      }
+    ]
+  },
+  {
+    "id": 5417,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident GMT 300",
+    "reference": "C60-44AGM31S0BW0-B0",
+    "lugToLugMm": 51.4,
+    "caseMm": 44,
+    "thicknessMm": 12.15,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-GMT-300/C60-44AGM31S0BW0-B0.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.4mm lug-to-lug, 12.15mm height for C60 Trident GMT 300 C60-44AGM31S0BW0-B0."
+      }
+    ]
+  },
+  {
+    "id": 5418,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident GMT 300",
+    "reference": "C60-44AGM31S0KK0-B0",
+    "lugToLugMm": 51.4,
+    "caseMm": 44,
+    "thicknessMm": 12.15,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-GMT-300/C60-44AGM31S0KK0-B0.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.4mm lug-to-lug, 12.15mm height for C60 Trident GMT 300 C60-44AGM31S0KK0-B0."
+      }
+    ]
+  },
+  {
+    "id": 5419,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident GMT 300",
+    "reference": "C60-44AGM31S0KK0-RK",
+    "lugToLugMm": 51.4,
+    "caseMm": 44,
+    "thicknessMm": 12.15,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-GMT-300/C60-44AGM31S0KK0-RK.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.4mm lug-to-lug, 12.15mm height for C60 Trident GMT 300 C60-44AGM31S0KK0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5420,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander Automatic",
+    "reference": "C63-36ADA4-S00B0-B0",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 10.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-Automatic/C63-36ADA4-S00B0-B0.html",
+        "note": "Official Christopher Ward product page lists 36mm case diameter, 42mm lug-to-lug, 10.9mm height for C63 Sealander Automatic C63-36ADA4-S00B0-B0."
+      }
+    ]
+  },
+  {
+    "id": 5421,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander Automatic",
+    "reference": "C63-36ADA4-S00B0-B1",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 10.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-Automatic/C63-36ADA4-S00B0-B1.html",
+        "note": "Official Christopher Ward product page lists 36mm case diameter, 42mm lug-to-lug, 10.9mm height for C63 Sealander Automatic C63-36ADA4-S00B0-B1."
+      }
+    ]
+  },
+  {
+    "id": 5422,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander Automatic",
+    "reference": "C63-36ADA4-S00B0-RK",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 10.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-Automatic/C63-36ADA4-S00B0-RK.html",
+        "note": "Official Christopher Ward product page lists 36mm case diameter, 42mm lug-to-lug, 10.9mm height for C63 Sealander Automatic C63-36ADA4-S00B0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5423,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander Automatic",
+    "reference": "C63-36ADA4-S00B0-VK",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 10.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-Automatic/C63-36ADA4-S00B0-VK.html",
+        "note": "Official Christopher Ward product page lists 36mm case diameter, 42mm lug-to-lug, 10.9mm height for C63 Sealander Automatic C63-36ADA4-S00B0-VK."
+      }
+    ]
+  },
+  {
+    "id": 5424,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-36AGM4-S00B0-B0",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/new-watches/C63-Sealander-GMT/C63-36AGM4-S00B0-B0.html",
+        "note": "Official Christopher Ward product page lists 36mm case diameter, 42mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-36AGM4-S00B0-B0."
+      }
+    ]
+  },
+  {
+    "id": 5425,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-36AGM4-S00B0-B1",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-GMT/C63-36AGM4-S00B0-B1.html",
+        "note": "Official Christopher Ward product page lists 36mm case diameter, 42mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-36AGM4-S00B0-B1."
+      }
+    ]
+  },
+  {
+    "id": 5426,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-36AGM4-S00B0-RK",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-GMT/C63-36AGM4-S00B0-RK.html",
+        "note": "Official Christopher Ward product page lists 36mm case diameter, 42mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-36AGM4-S00B0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5427,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-36AGM4-S00B0-VK",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-GMT/C63-36AGM4-S00B0-VK.html",
+        "note": "Official Christopher Ward product page lists 36mm case diameter, 42mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-36AGM4-S00B0-VK."
+      }
+    ]
+  },
+  {
+    "id": 5428,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-36AGM4-S00W0-B0",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-GMT/C63-36AGM4-S00W0-B0.html",
+        "note": "Official Christopher Ward product page lists 36mm case diameter, 42mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-36AGM4-S00W0-B0."
+      }
+    ]
+  },
+  {
+    "id": 5429,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-36AGM4-S00W0-B1",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-GMT/C63-36AGM4-S00W0-B1.html",
+        "note": "Official Christopher Ward product page lists 36mm case diameter, 42mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-36AGM4-S00W0-B1."
+      }
+    ]
+  },
+  {
+    "id": 5430,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-36AGM4-S00W0-RK",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-GMT/C63-36AGM4-S00W0-RK.html",
+        "note": "Official Christopher Ward product page lists 36mm case diameter, 42mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-36AGM4-S00W0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5431,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-36AGM4-S00W0-VC",
+    "lugToLugMm": 42,
+    "caseMm": 36,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-GMT/C63-36AGM4-S00W0-VC.html",
+        "note": "Official Christopher Ward product page lists 36mm case diameter, 42mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-36AGM4-S00W0-VC."
+      }
+    ]
+  },
+  {
+    "id": 5432,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-39AGM4-S00B0-B0",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-GMT/C63-39AGM4-S00B0-B0.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 45mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-39AGM4-S00B0-B0."
+      }
+    ]
+  },
+  {
+    "id": 5433,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-39AGM4-S00B0-RK",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-GMT/C63-39AGM4-S00B0-RK.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 45mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-39AGM4-S00B0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5434,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-39AGM4-S00B0-VK",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-GMT/C63-39AGM4-S00B0-VK.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 45mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-39AGM4-S00B0-VK."
+      }
+    ]
+  },
+  {
+    "id": 5435,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-39AGM4-S00K0-B0",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-GMT/C63-39AGM4-S00K0-B0.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 45mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-39AGM4-S00K0-B0."
+      }
+    ]
+  },
+  {
+    "id": 5436,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-39AGM4-S00K0-RK",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-GMT/C63-39AGM4-S00K0-RK.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 45mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-39AGM4-S00K0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5437,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-39AGM4-S00K0-VC",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-GMT/C63-39AGM4-S00K0-VC.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 45mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-39AGM4-S00K0-VC."
+      }
+    ]
+  },
+  {
+    "id": 5438,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-39AGM4-S00V0-B0",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-GMT/C63-39AGM4-S00V0-B0.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 45mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-39AGM4-S00V0-B0."
+      }
+    ]
+  },
+  {
+    "id": 5439,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-39AGM4-S00V0-RK",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-GMT/C63-39AGM4-S00V0-RK.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 45mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-39AGM4-S00V0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5440,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-39AGM4-S00V0-VK",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-GMT/C63-39AGM4-S00V0-VK.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 45mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-39AGM4-S00V0-VK."
+      }
+    ]
+  },
+  {
+    "id": 5441,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-42AGM4-S00K0-B0",
+    "lugToLugMm": 48.5,
+    "caseMm": 42,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-GMT/C63-42AGM4-S00K0-B0.html",
+        "note": "Official Christopher Ward product page lists 42mm case diameter, 48.5mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-42AGM4-S00K0-B0."
+      }
+    ]
+  },
+  {
+    "id": 5442,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-42AGM4-S00K0-B1",
+    "lugToLugMm": 48.5,
+    "caseMm": 42,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-GMT/C63-42AGM4-S00K0-B1.html",
+        "note": "Official Christopher Ward product page lists 42mm case diameter, 48.5mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-42AGM4-S00K0-B1."
+      }
+    ]
+  },
+  {
+    "id": 5443,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-42AGM4-S00K0-RK",
+    "lugToLugMm": 48.5,
+    "caseMm": 42,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-GMT/C63-42AGM4-S00K0-RK.html",
+        "note": "Official Christopher Ward product page lists 42mm case diameter, 48.5mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-42AGM4-S00K0-RK."
+      }
+    ]
+  },
+  {
+    "id": 5444,
+    "brand": "Christopher Ward",
+    "model": "C63 Sealander GMT",
+    "reference": "C63-42AGM4-S00K0-VC",
+    "lugToLugMm": 48.5,
+    "caseMm": 42,
+    "thicknessMm": 11.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Sealander-GMT/C63-42AGM4-S00K0-VC.html",
+        "note": "Official Christopher Ward product page lists 42mm case diameter, 48.5mm lug-to-lug, 11.3mm height for C63 Sealander GMT C63-42AGM4-S00K0-VC."
+      }
+    ]
+  },
+  {
+    "id": 5445,
+    "brand": "Christopher Ward",
+    "model": "C65 Dune Aeolian",
+    "reference": "C65-38A3H4-S00B0-WC",
+    "lugToLugMm": 43.6,
+    "caseMm": 38,
+    "thicknessMm": 11.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Dune-Aeolian/C65-38A3H4-S00B0-WC.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.6mm lug-to-lug, 11.7mm height for C65 Dune Aeolian C65-38A3H4-S00B0-WC."
+      }
+    ]
+  },
+  {
+    "id": 5446,
+    "brand": "Christopher Ward",
+    "model": "C65 Dune Aeolian",
+    "reference": "C65-38A3H4-S00G0-WC",
+    "lugToLugMm": 43.6,
+    "caseMm": 38,
+    "thicknessMm": 11.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Dune-Aeolian/C65-38A3H4-S00G0-WC.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.6mm lug-to-lug, 11.7mm height for C65 Dune Aeolian C65-38A3H4-S00G0-WC."
+      }
+    ]
+  },
+  {
+    "id": 5447,
+    "brand": "Christopher Ward",
+    "model": "C65 Dune Aeolian",
+    "reference": "C65-38A3H4-S00V0-VC",
+    "lugToLugMm": 43.6,
+    "caseMm": 38,
+    "thicknessMm": 11.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Dune-Aeolian/C65-38A3H4-S00V0-VC.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.6mm lug-to-lug, 11.7mm height for C65 Dune Aeolian C65-38A3H4-S00V0-VC."
+      }
+    ]
+  },
+  {
+    "id": 5448,
+    "brand": "Christopher Ward",
+    "model": "C65 Dune Aeolian",
+    "reference": "C65-38A3H4-S00V0-VG",
+    "lugToLugMm": 43.6,
+    "caseMm": 38,
+    "thicknessMm": 11.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Dune-Aeolian/C65-38A3H4-S00V0-VG.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.6mm lug-to-lug, 11.7mm height for C65 Dune Aeolian C65-38A3H4-S00V0-VG."
+      }
+    ]
+  },
+  {
+    "id": 5449,
+    "brand": "Christopher Ward",
+    "model": "C65 Dune Aeolian",
+    "reference": "C65-38A3H4-S00V0-WC",
+    "lugToLugMm": 43.6,
+    "caseMm": 38,
+    "thicknessMm": 11.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Dune-Aeolian/C65-38A3H4-S00V0-WC.html",
+        "note": "Official Christopher Ward product page lists 38mm case diameter, 43.6mm lug-to-lug, 11.7mm height for C65 Dune Aeolian C65-38A3H4-S00V0-WC."
+      }
+    ]
+  },
+  {
+    "id": 5450,
+    "brand": "Christopher Ward",
+    "model": "C1 Jump Hour Mk V",
+    "reference": "C01-39AJH4-S00B0-MLB",
+    "lugToLugMm": 47.3,
+    "caseMm": 39,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Jump-Hour-Mk-V/C01-39AJH4-S00B0-MLB.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00B0-MLB."
+      }
+    ]
+  },
+  {
+    "id": 5451,
+    "brand": "Christopher Ward",
+    "model": "C1 Jump Hour Mk V",
+    "reference": "C01-39AJH4-S00E0-MLB",
+    "lugToLugMm": 47.3,
+    "caseMm": 39,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/watches/C1-Jump-Hour-Mk-V/C01-39AJH4-S00E0-MLB.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00E0-MLB."
+      }
+    ]
+  },
+  {
+    "id": 5452,
+    "brand": "Christopher Ward",
+    "model": "C1 Jump Hour Mk V",
+    "reference": "C01-39AJH4-S00R0-MLB",
+    "lugToLugMm": 47.3,
+    "caseMm": 39,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/watches/C1-Jump-Hour-Mk-V/C01-39AJH4-S00R0-MLB.html",
+        "note": "Official Christopher Ward product page lists 39mm case diameter, 47.3mm lug-to-lug, 14mm height for C1 Jump Hour Mk V C01-39AJH4-S00R0-MLB."
+      }
+    ]
+  },
+  {
+    "id": 5453,
+    "brand": "Christopher Ward",
+    "model": "C1 Moonglow",
+    "reference": "C01-40AMP2-S00K0-VK1",
+    "lugToLugMm": 47.9,
+    "caseMm": 40.5,
+    "thicknessMm": 12.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C1-Moonglow/C01-40AMP2-S00K0-VK1.html",
+        "note": "Official Christopher Ward product page lists 40.5mm case diameter, 47.9mm lug-to-lug, 12.9mm height for C1 Moonglow C01-40AMP2-S00K0-VK1."
+      }
+    ]
+  },
+  {
+    "id": 5454,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident Lumière",
+    "reference": "C60-41C3H31T0BB0-RBO",
+    "lugToLugMm": 47.9,
+    "caseMm": 41,
+    "thicknessMm": 10.85,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Lumi%C3%A8re/C60-41C3H31T0BB0-RBO.html",
+        "note": "Official Christopher Ward product page lists 41mm case diameter, 47.9mm lug-to-lug, 10.85mm height for C60 Trident Lumière C60-41C3H31T0BB0-RBO."
+      }
+    ]
+  },
+  {
+    "id": 5455,
+    "brand": "Christopher Ward",
+    "model": "C60 Sapphire Edge",
+    "reference": "C60-42ADA31S0BB3-RKW",
+    "lugToLugMm": 49.32,
+    "caseMm": 42,
+    "thicknessMm": 10.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Sapphire-Edge/C60-42ADA31S0BB3-RKW.html",
+        "note": "Official Christopher Ward product page lists 42mm case diameter, 49.32mm lug-to-lug, 10.7mm height for C60 Sapphire Edge C60-42ADA31S0BB3-RKW."
+      }
+    ]
+  },
+  {
+    "id": 5456,
+    "brand": "Christopher Ward",
+    "model": "C60 Sapphire Edge",
+    "reference": "C60-42ADA31S0BB3-ROW",
+    "lugToLugMm": 49.32,
+    "caseMm": 42,
+    "thicknessMm": 10.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Sapphire-Edge/C60-42ADA31S0BB3-ROW.html",
+        "note": "Official Christopher Ward product page lists 42mm case diameter, 49.32mm lug-to-lug, 10.7mm height for C60 Sapphire Edge C60-42ADA31S0BB3-ROW."
+      }
+    ]
+  },
+  {
+    "id": 5457,
+    "brand": "Christopher Ward",
+    "model": "C60 Sapphire Edge",
+    "reference": "C60-42ADA31S0KW3-RBW",
+    "lugToLugMm": 49.32,
+    "caseMm": 42,
+    "thicknessMm": 10.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Sapphire-Edge/C60-42ADA31S0KW3-RBW.html",
+        "note": "Official Christopher Ward product page lists 42mm case diameter, 49.32mm lug-to-lug, 10.7mm height for C60 Sapphire Edge C60-42ADA31S0KW3-RBW."
+      }
+    ]
+  },
+  {
+    "id": 5458,
+    "brand": "Christopher Ward",
+    "model": "C60 Sapphire Edge",
+    "reference": "C60-42ADA31S0KW3-RKW",
+    "lugToLugMm": 49.32,
+    "caseMm": 42,
+    "thicknessMm": 10.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Sapphire-Edge/C60-42ADA31S0KW3-RKW.html",
+        "note": "Official Christopher Ward product page lists 42mm case diameter, 49.32mm lug-to-lug, 10.7mm height for C60 Sapphire Edge C60-42ADA31S0KW3-RKW."
+      }
+    ]
+  },
+  {
+    "id": 5459,
+    "brand": "Christopher Ward",
+    "model": "C60 Sapphire Edge",
+    "reference": "C60-42ADA31S0KW3-ROW",
+    "lugToLugMm": 49.32,
+    "caseMm": 42,
+    "thicknessMm": 10.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Sapphire-Edge/C60-42ADA31S0KW3-ROW.html",
+        "note": "Official Christopher Ward product page lists 42mm case diameter, 49.32mm lug-to-lug, 10.7mm height for C60 Sapphire Edge C60-42ADA31S0KW3-ROW."
+      }
+    ]
+  },
+  {
+    "id": 5460,
+    "brand": "Christopher Ward",
+    "model": "C60 Trident GMT 300",
+    "reference": "C60-44AGM31S0BW0-RBB",
+    "lugToLugMm": 51.4,
+    "caseMm": 44,
+    "thicknessMm": 12.15,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-GMT-300/C60-44AGM31S0BW0-RBB.html",
+        "note": "Official Christopher Ward product page lists 44mm case diameter, 51.4mm lug-to-lug, 12.15mm height for C60 Trident GMT 300 C60-44AGM31S0BW0-RBB."
       }
     ]
   }
