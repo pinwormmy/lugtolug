@@ -91459,5 +91459,741 @@
         "note": "Official AV86 product page lists 39mm case diameter, 46mm lug-to-lug, 11.35mm case thickness, 20mm lug width for 1968 Sixtyeight, Steel / White 110406."
       }
     ]
+  },
+  {
+    "id": 5502,
+    "brand": "Gruppo Gamma",
+    "model": "피스메이커 PN-07",
+    "reference": "피스메이커 PN-07 IW358",
+    "lugToLugMm": 52.5,
+    "caseMm": 43,
+    "thicknessMm": null,
+    "lugWidthMm": 24,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=358&cate_no=29",
+        "note": "IntoWatch product specification image lists 43 mm case, 52.5 mm lug-to-lug, and 24 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5503,
+    "brand": "Gruppo Gamma",
+    "model": "피스메이커 PN-08",
+    "reference": "피스메이커 PN-08 IW359",
+    "lugToLugMm": 52.5,
+    "caseMm": 43,
+    "thicknessMm": null,
+    "lugWidthMm": 24,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=359&cate_no=29",
+        "note": "IntoWatch product specification image lists 43 mm case, 52.5 mm lug-to-lug, and 24 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5504,
+    "brand": "Unimatic",
+    "model": "Modello Due U2-AB",
+    "reference": "Modello Due U2-AB IW27",
+    "lugToLugMm": 47.5,
+    "caseMm": 39,
+    "thicknessMm": 15.7,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=27&cate_no=30",
+        "note": "IntoWatch product specification image lists 39 mm case, 47.5 mm lug-to-lug, 15.7 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5505,
+    "brand": "Unimatic",
+    "model": "Modello Due U2-AG",
+    "reference": "Modello Due U2-AG IW26",
+    "lugToLugMm": 47.5,
+    "caseMm": 39,
+    "thicknessMm": 15.7,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=26&cate_no=30",
+        "note": "IntoWatch product specification image lists 39 mm case, 47.5 mm lug-to-lug, 15.7 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5506,
+    "brand": "Unimatic",
+    "model": "Modello Uno U1-B",
+    "reference": "Modello Uno U1-B IW25",
+    "lugToLugMm": 49,
+    "caseMm": 41.5,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=25&cate_no=30",
+        "note": "IntoWatch product specification image lists 41.5 mm case, 49 mm lug-to-lug, 13.6 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5507,
+    "brand": "Unimatic",
+    "model": "Modello Uno U1-A",
+    "reference": "Modello Uno U1-A IW14",
+    "lugToLugMm": 49,
+    "caseMm": 41.5,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=14&cate_no=30",
+        "note": "IntoWatch product specification image lists 41.5 mm case, 49 mm lug-to-lug, 13.6 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5508,
+    "brand": "Borealis",
+    "model": "씨스톰 GMT '판다' 넌데이트",
+    "reference": "씨스톰 GMT '판다' 넌데이트 IW353",
+    "lugToLugMm": 48.5,
+    "caseMm": 41.5,
+    "thicknessMm": null,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=353&cate_no=46",
+        "note": "IntoWatch product specification image lists 41.5 mm case, 48.5 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5509,
+    "brand": "Borealis",
+    "model": "씨스톰 GMT '판다' 데이트",
+    "reference": "씨스톰 GMT '판다' 데이트 IW352",
+    "lugToLugMm": 48.5,
+    "caseMm": 41.5,
+    "thicknessMm": null,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=352&cate_no=46",
+        "note": "IntoWatch product specification image lists 41.5 mm case, 48.5 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5510,
+    "brand": "Borealis",
+    "model": "씨스톰 GMT '스프라이트' 데이트",
+    "reference": "씨스톰 GMT '스프라이트' 데이트 IW355",
+    "lugToLugMm": 48.5,
+    "caseMm": 41.5,
+    "thicknessMm": null,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=355&cate_no=46",
+        "note": "IntoWatch product specification image lists 41.5 mm case, 48.5 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5511,
+    "brand": "Borealis",
+    "model": "씨스톰 GMT '펩시' 데이트",
+    "reference": "씨스톰 GMT '펩시' 데이트 IW354",
+    "lugToLugMm": 48.5,
+    "caseMm": 41.5,
+    "thicknessMm": null,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=354&cate_no=46",
+        "note": "IntoWatch product specification image lists 41.5 mm case, 48.5 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5512,
+    "brand": "Borealis",
+    "model": "씨스톰 GMT '펩시' 넌데이트",
+    "reference": "씨스톰 GMT '펩시' 넌데이트 IW356",
+    "lugToLugMm": 48.5,
+    "caseMm": 41.5,
+    "thicknessMm": null,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=356&cate_no=46",
+        "note": "IntoWatch product specification image lists 41.5 mm case, 48.5 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5513,
+    "brand": "Borealis",
+    "model": "씨스톰 GMT '코크' 데이트",
+    "reference": "씨스톰 GMT '코크' 데이트 IW357",
+    "lugToLugMm": 48.5,
+    "caseMm": 41.5,
+    "thicknessMm": null,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=357&cate_no=46",
+        "note": "IntoWatch product specification image lists 41.5 mm case, 48.5 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5514,
+    "brand": "Borealis",
+    "model": "아드라가 2BG1",
+    "reference": "아드라가 2BG1 IW287",
+    "lugToLugMm": 47.5,
+    "caseMm": 39.5,
+    "thicknessMm": null,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=287&cate_no=46",
+        "note": "IntoWatch product specification image lists 39.5 mm case, 47.5 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5515,
+    "brand": "Prometheus",
+    "model": "Zenobia Blue Date",
+    "reference": "Zenobia Blue Date IW113",
+    "lugToLugMm": 49,
+    "caseMm": 43,
+    "thicknessMm": 14.15,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=113&cate_no=59",
+        "note": "IntoWatch product specification image lists 43 mm case, 49 mm lug-to-lug, 14.15 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5516,
+    "brand": "Prometheus",
+    "model": "Zenobia Black Date",
+    "reference": "Zenobia Black Date IW112",
+    "lugToLugMm": 49,
+    "caseMm": 43,
+    "thicknessMm": 14.15,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=112&cate_no=59",
+        "note": "IntoWatch product specification image lists 43 mm case, 49 mm lug-to-lug, 14.15 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5517,
+    "brand": "Prometheus",
+    "model": "Zenobia Meteorite Non-Date",
+    "reference": "Zenobia Meteorite Non-Date IW118",
+    "lugToLugMm": 49,
+    "caseMm": 43,
+    "thicknessMm": 14.15,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=118&cate_no=59",
+        "note": "IntoWatch product specification image lists 43 mm case, 49 mm lug-to-lug, 14.15 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5518,
+    "brand": "Prometheus",
+    "model": "Zenobia Orange Non-Date",
+    "reference": "Zenobia Orange Non-Date IW117",
+    "lugToLugMm": 49,
+    "caseMm": 43,
+    "thicknessMm": 14.15,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=117&cate_no=59",
+        "note": "IntoWatch product specification image lists 43 mm case, 49 mm lug-to-lug, 14.15 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5519,
+    "brand": "Prometheus",
+    "model": "Zenobia Orange Date",
+    "reference": "Zenobia Orange Date IW116",
+    "lugToLugMm": 49,
+    "caseMm": 43,
+    "thicknessMm": 14.15,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=116&cate_no=59",
+        "note": "IntoWatch product specification image lists 43 mm case, 49 mm lug-to-lug, 14.15 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5520,
+    "brand": "Prometheus",
+    "model": "Zenobia Yellow Date",
+    "reference": "Zenobia Yellow Date IW115",
+    "lugToLugMm": 49,
+    "caseMm": 43,
+    "thicknessMm": 14.15,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=115&cate_no=59",
+        "note": "IntoWatch product specification image lists 43 mm case, 49 mm lug-to-lug, 14.15 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5521,
+    "brand": "Prometheus",
+    "model": "Zenobia Green Date",
+    "reference": "Zenobia Green Date IW114",
+    "lugToLugMm": 49,
+    "caseMm": 43,
+    "thicknessMm": 14.15,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=114&cate_no=59",
+        "note": "IntoWatch product specification image lists 43 mm case, 49 mm lug-to-lug, 14.15 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5522,
+    "brand": "Prometheus",
+    "model": "Prometheus Eagle Ray 4D.1",
+    "reference": "Prometheus Eagle Ray 4D.1 IW78",
+    "lugToLugMm": 49,
+    "caseMm": 42,
+    "thicknessMm": 14.75,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=78&cate_no=59",
+        "note": "IntoWatch product specification image lists 42 mm case, 49 mm lug-to-lug, 14.75 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5523,
+    "brand": "Prometheus",
+    "model": "Prometheus Eagle Ray 4C",
+    "reference": "Prometheus Eagle Ray 4C IW77",
+    "lugToLugMm": 49,
+    "caseMm": 42,
+    "thicknessMm": 14.75,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=77&cate_no=59",
+        "note": "IntoWatch product specification image lists 42 mm case, 49 mm lug-to-lug, 14.75 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5524,
+    "brand": "Prometheus",
+    "model": "Prometheus Eagle Ray 4A.1",
+    "reference": "Prometheus Eagle Ray 4A.1 IW76",
+    "lugToLugMm": 49,
+    "caseMm": 42,
+    "thicknessMm": 14.75,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=76&cate_no=59",
+        "note": "IntoWatch product specification image lists 42 mm case, 49 mm lug-to-lug, 14.75 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5525,
+    "brand": "NTH",
+    "model": "데빌레이 오렌지 데이트",
+    "reference": "데빌레이 오렌지 데이트 IW266",
+    "lugToLugMm": 46,
+    "caseMm": 43,
+    "thicknessMm": null,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=266&cate_no=60",
+        "note": "IntoWatch product specification image lists 43 mm case, 46 mm lug-to-lug, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5526,
+    "brand": "NTH",
+    "model": "데빌레이 터키 데이트",
+    "reference": "데빌레이 터키 데이트 IW268",
+    "lugToLugMm": 46,
+    "caseMm": 43,
+    "thicknessMm": null,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=268&cate_no=60",
+        "note": "IntoWatch product specification image lists 43 mm case, 46 mm lug-to-lug, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5527,
+    "brand": "NTH",
+    "model": "2K1 트레셔 블랙 데이트",
+    "reference": "2K1 트레셔 블랙 데이트 IW208",
+    "lugToLugMm": 51,
+    "caseMm": 43.75,
+    "thicknessMm": 13,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=208&cate_no=60",
+        "note": "IntoWatch product specification image lists 43.75 mm case, 51 mm lug-to-lug, 13 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5528,
+    "brand": "NTH",
+    "model": "2K1 트레셔 블루 데이트",
+    "reference": "2K1 트레셔 블루 데이트 IW209",
+    "lugToLugMm": 51,
+    "caseMm": 43.75,
+    "thicknessMm": 13,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=209&cate_no=60",
+        "note": "IntoWatch product specification image lists 43.75 mm case, 51 mm lug-to-lug, 13 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5529,
+    "brand": "NTH",
+    "model": "나켄 빈티지 화이트 V2 넌데이트",
+    "reference": "나켄 빈티지 화이트 V2 넌데이트 IW342",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=342&cate_no=60",
+        "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5530,
+    "brand": "Venturo",
+    "model": "Field Watch #1 - 블랙",
+    "reference": "Field Watch #1 - 블랙 IW95",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": null,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=95&cate_no=64",
+        "note": "IntoWatch product specification image lists 42 mm case, 50 mm lug-to-lug. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5531,
+    "brand": "Venturo",
+    "model": "Field Watch #1 - 블루",
+    "reference": "Field Watch #1 - 블루 IW94",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": null,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=94&cate_no=64",
+        "note": "IntoWatch product specification image lists 42 mm case, 50 mm lug-to-lug. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5532,
+    "brand": "Venturo",
+    "model": "스킨다이버 C3 데이트",
+    "reference": "스킨다이버 C3 데이트 IW210",
+    "lugToLugMm": 48.5,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=210&cate_no=64",
+        "note": "IntoWatch product specification image lists 40 mm case, 48.5 mm lug-to-lug, 13 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5533,
+    "brand": "Venturo",
+    "model": "스킨다이버 올드 라듐 넌데이트",
+    "reference": "스킨다이버 올드 라듐 넌데이트 IW196",
+    "lugToLugMm": 48.5,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=196&cate_no=64",
+        "note": "IntoWatch product specification image lists 40 mm case, 48.5 mm lug-to-lug, 13 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5534,
+    "brand": "Axios",
+    "model": "아이언클래드 40 - 호라이즌",
+    "reference": "아이언클래드 40 - 호라이즌 IW216",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=216&cate_no=70",
+        "note": "IntoWatch product specification image lists 40 mm case, 46 mm lug-to-lug, 13.8 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5535,
+    "brand": "Axios",
+    "model": "아이언클래드 40 - 딥블루 미디어라이트",
+    "reference": "아이언클래드 40 - 딥블루 미디어라이트 IW219",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=219&cate_no=70",
+        "note": "IntoWatch product specification image lists 40 mm case, 46 mm lug-to-lug, 13.8 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5536,
+    "brand": "Axios",
+    "model": "아이언클래드 40 - 블랙 펄",
+    "reference": "아이언클래드 40 - 블랙 펄 IW218",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=218&cate_no=70",
+        "note": "IntoWatch product specification image lists 40 mm case, 46 mm lug-to-lug, 13.8 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5537,
+    "brand": "Axios",
+    "model": "아이언클래드 40 - 스노우",
+    "reference": "아이언클래드 40 - 스노우 IW217",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=217&cate_no=70",
+        "note": "IntoWatch product specification image lists 40 mm case, 46 mm lug-to-lug, 13.8 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5538,
+    "brand": "Axios",
+    "model": "아이언클래드 40 - 퍼스트 라이트",
+    "reference": "아이언클래드 40 - 퍼스트 라이트 IW215",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=215&cate_no=70",
+        "note": "IntoWatch product specification image lists 40 mm case, 46 mm lug-to-lug, 13.8 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5539,
+    "brand": "Axios",
+    "model": "플래그쉽 40 - 테메레르",
+    "reference": "플래그쉽 40 - 테메레르 IW169",
+    "lugToLugMm": 46.5,
+    "caseMm": 40,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=169&cate_no=70",
+        "note": "IntoWatch product specification image lists 40 mm case, 46.5 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5540,
+    "brand": "Axios",
+    "model": "플래그쉽 40 - 아약스",
+    "reference": "플래그쉽 40 - 아약스 IW168",
+    "lugToLugMm": 46.5,
+    "caseMm": 40,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=168&cate_no=70",
+        "note": "IntoWatch product specification image lists 40 mm case, 46.5 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5541,
+    "brand": "Axios",
+    "model": "플래그쉽 40 - 빅토리",
+    "reference": "플래그쉽 40 - 빅토리 IW167",
+    "lugToLugMm": 46.5,
+    "caseMm": 40,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=167&cate_no=70",
+        "note": "IntoWatch product specification image lists 40 mm case, 46.5 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5542,
+    "brand": "Axios",
+    "model": "플래그쉽 40 - 디파이언스",
+    "reference": "플래그쉽 40 - 디파이언스 IW166",
+    "lugToLugMm": 46.5,
+    "caseMm": 40,
+    "thicknessMm": 13.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=166&cate_no=70",
+        "note": "IntoWatch product specification image lists 40 mm case, 46.5 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5543,
+    "brand": "Axios",
+    "model": "아이언클래드 40 - 에메랄드 나이트",
+    "reference": "아이언클래드 40 - 에메랄드 나이트 IW164",
+    "lugToLugMm": 46,
+    "caseMm": 40,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=164&cate_no=70",
+        "note": "IntoWatch product specification image lists 40 mm case, 46 mm lug-to-lug, 13.8 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5544,
+    "brand": "WMT",
+    "model": "로열 마린 - 로열 네이비",
+    "reference": "로열 마린 - 로열 네이비 IW176",
+    "lugToLugMm": 47,
+    "caseMm": 39.5,
+    "thicknessMm": null,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=176&cate_no=72",
+        "note": "IntoWatch product specification image lists 39.5 mm case, 47 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5545,
+    "brand": "WMT",
+    "model": "그린라벨 - 아쿠아마린 AM0020C",
+    "reference": "그린라벨 - 아쿠아마린 AM0020C IW392",
+    "lugToLugMm": 41.5,
+    "caseMm": 43.17,
+    "thicknessMm": 10.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=392&cate_no=72",
+        "note": "IntoWatch product specification image lists 43.17 mm case, 41.5 mm lug-to-lug, 10.3 mm thickness. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5546,
+    "brand": "WMT",
+    "model": "그린라벨 - 아쿠아마린 AM0010C",
+    "reference": "그린라벨 - 아쿠아마린 AM0010C IW429",
+    "lugToLugMm": 41.5,
+    "caseMm": 43.17,
+    "thicknessMm": 10.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=429&cate_no=72",
+        "note": "IntoWatch product specification image lists 43.17 mm case, 41.5 mm lug-to-lug, 10.3 mm thickness. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5547,
+    "brand": "WMT",
+    "model": "그린라벨 - 아쿠아마린 AM0070C",
+    "reference": "그린라벨 - 아쿠아마린 AM0070C IW389",
+    "lugToLugMm": 41.5,
+    "caseMm": 43.17,
+    "thicknessMm": 10.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=389&cate_no=72",
+        "note": "IntoWatch product specification image lists 43.17 mm case, 41.5 mm lug-to-lug, 10.3 mm thickness. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
   }
 ]

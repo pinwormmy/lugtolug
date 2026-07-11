@@ -1,0 +1,50 @@
+# IntoWatch import report
+
+Imported 46 current microbrand watch records from the first visible product page of each brand category. Product specifications are image-based; values were transcribed with macOS Vision OCR and grouped only where the image clearly exposed case and lug-to-lug dimensions. Vintage watches, straps, and ambiguous OCR results were excluded.
+
+- Gruppo Gamma — 피스메이커 PN-07 (PN-07); source product 358
+- Gruppo Gamma — 피스메이커 PN-08 (PN-08); source product 359
+- Unimatic — Modello Due U2-AB (U2-AB); source product 27
+- Unimatic — Modello Due U2-AG (U2-AG); source product 26
+- Unimatic — Modello Uno U1-B (U1-B); source product 25
+- Unimatic — Modello Uno U1-A (U1-A); source product 14
+- Borealis — 씨스톰 GMT '판다' 넌데이트 (씨스톰 GMT '판다' 넌데이트); source product 353
+- Borealis — 씨스톰 GMT '판다' 데이트 (씨스톰 GMT '판다' 데이트); source product 352
+- Borealis — 씨스톰 GMT '스프라이트' 데이트 (씨스톰 GMT '스프라이트' 데이트); source product 355
+- Borealis — 씨스톰 GMT '펩시' 데이트 (씨스톰 GMT '펩시' 데이트); source product 354
+- Borealis — 씨스톰 GMT '펩시' 넌데이트 (씨스톰 GMT '펩시' 넌데이트); source product 356
+- Borealis — 씨스톰 GMT '코크' 데이트 (씨스톰 GMT '코크' 데이트); source product 357
+- Borealis — 아드라가 2BG1 (아드라가 2BG1); source product 287
+- Prometheus — Zenobia Blue Date (Zenobia Blue Date); source product 113
+- Prometheus — Zenobia Black Date (Zenobia Black Date); source product 112
+- Prometheus — Zenobia Meteorite Non-Date (Zenobia Meteorite Non-Date); source product 118
+- Prometheus — Zenobia Orange Non-Date (Zenobia Orange Non-Date); source product 117
+- Prometheus — Zenobia Orange Date (Zenobia Orange Date); source product 116
+- Prometheus — Zenobia Yellow Date (Zenobia Yellow Date); source product 115
+- Prometheus — Zenobia Green Date (Zenobia Green Date); source product 114
+- Prometheus — Prometheus Eagle Ray 4D.1 (Prometheus Eagle Ray 4D.1); source product 78
+- Prometheus — Prometheus Eagle Ray 4C (Prometheus Eagle Ray 4C); source product 77
+- Prometheus — Prometheus Eagle Ray 4A.1 (Prometheus Eagle Ray 4A.1); source product 76
+- NTH — 데빌레이 오렌지 데이트 (데빌레이 오렌지 데이트); source product 266
+- NTH — 데빌레이 터키 데이트 (데빌레이 터키 데이트); source product 268
+- NTH — 2K1 트레셔 블랙 데이트 (2K1 트레셔 블랙 데이트); source product 208
+- NTH — 2K1 트레셔 블루 데이트 (2K1 트레셔 블루 데이트); source product 209
+- NTH — 나켄 빈티지 화이트 V2 넌데이트 (V2); source product 342
+- Venturo — Field Watch #1 - 블랙 (Field Watch #1 - 블랙); source product 95
+- Venturo — Field Watch #1 - 블루 (Field Watch #1 - 블루); source product 94
+- Venturo — 스킨다이버 C3 데이트 (C3); source product 210
+- Venturo — 스킨다이버 올드 라듐 넌데이트 (스킨다이버 올드 라듐 넌데이트); source product 196
+- Axios — 아이언클래드 40 - 호라이즌 (아이언클래드 40 - 호라이즌); source product 216
+- Axios — 아이언클래드 40 - 딥블루 미디어라이트 (아이언클래드 40 - 딥블루 미디어라이트); source product 219
+- Axios — 아이언클래드 40 - 블랙 펄 (아이언클래드 40 - 블랙 펄); source product 218
+- Axios — 아이언클래드 40 - 스노우 (아이언클래드 40 - 스노우); source product 217
+- Axios — 아이언클래드 40 - 퍼스트 라이트 (아이언클래드 40 - 퍼스트 라이트); source product 215
+- Axios — 플래그쉽 40 - 테메레르 (플래그쉽 40 - 테메레르); source product 169
+- Axios — 플래그쉽 40 - 아약스 (플래그쉽 40 - 아약스); source product 168
+- Axios — 플래그쉽 40 - 빅토리 (플래그쉽 40 - 빅토리); source product 167
+- Axios — 플래그쉽 40 - 디파이언스 (플래그쉽 40 - 디파이언스); source product 166
+- Axios — 아이언클래드 40 - 에메랄드 나이트 (아이언클래드 40 - 에메랄드 나이트); source product 164
+- WMT — 로열 마린 - 로열 네이비 (로열 마린 - 로열 네이비); source product 176
+- WMT — 그린라벨 - 아쿠아마린 AM0020C (AM0020C); source product 392
+- WMT — 그린라벨 - 아쿠아마린 AM0010C (AM0010C); source product 429
+- WMT — 그린라벨 - 아쿠아마린 AM0070C (AM0070C); source product 389
