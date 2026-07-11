@@ -103,4 +103,16 @@ describe("watch search matching", () => {
     expect(watchMatchesSearchQuery(watch, "muhle glashutte")).toBe(true);
     expect(watchMatchesSearchQuery(watch, "muehle glashuette")).toBe(true);
   });
+
+  it("matches configured historical and regional brand aliases", () => {
+    const watch = {
+      brand: "AV86",
+      model: "1815 Chronograph",
+      reference: "116026"
+    };
+
+    expect(watchMatchesSearchQuery(watch, "AV86")).toBe(true);
+    expect(watchMatchesSearchQuery(watch, "About Vintage")).toBe(true);
+    expect(watchMatchesSearchQuery(watch, "Skov Andersen")).toBe(true);
+  });
 });

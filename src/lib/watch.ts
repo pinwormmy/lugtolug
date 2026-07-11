@@ -1,5 +1,8 @@
 import type { Watch } from "@/types";
 import { normalizeSearch, normalizeSearchWithAliases } from "@/lib/slug";
+import brandSearchAliases from "../../data/brand-search-aliases.json";
+
+const BRAND_SEARCH_ALIASES: Record<string, string[]> = brandSearchAliases;
 
 export const WATCH_METRICS = [
   {
@@ -62,7 +65,7 @@ export function getWatchSearchText(
   }).join(" ");
 
   return normalizeSearchWithAliases(
-    `${watch.brand} ${watch.model} ${watch.canonicalModel ?? ""} ${watch.modelGroup ?? ""} ${watch.variant ?? ""} ${watch.reference} ${metricText}`
+    `${watch.brand} ${(BRAND_SEARCH_ALIASES[watch.brand] ?? []).join(" ")} ${watch.model} ${watch.canonicalModel ?? ""} ${watch.modelGroup ?? ""} ${watch.variant ?? ""} ${watch.reference} ${metricText}`
   );
 }
 

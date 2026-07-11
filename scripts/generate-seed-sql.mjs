@@ -1,4 +1,5 @@
 import seed from "../data/watches.seed.json" with { type: "json" };
+import brandSearchAliases from "../data/brand-search-aliases.json" with { type: "json" };
 import { writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { resolve } from "node:path";
@@ -81,7 +82,7 @@ function getWatchSearchText(watch) {
   }).join(" ");
 
   return normalizeSearchWithAliases(
-    `${watch.brand} ${watch.model} ${watch.canonicalModel ?? ""} ${watch.modelGroup ?? ""} ${watch.variant ?? ""} ${watch.reference} ${metricText}`
+    `${watch.brand} ${(brandSearchAliases[watch.brand] ?? []).join(" ")} ${watch.model} ${watch.canonicalModel ?? ""} ${watch.modelGroup ?? ""} ${watch.variant ?? ""} ${watch.reference} ${metricText}`
   );
 }
 

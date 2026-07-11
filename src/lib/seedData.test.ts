@@ -120,6 +120,16 @@ describe("watch seed data integrity", () => {
     }
   });
 
+  it("returns AV86 records through current, historical, and regional brand names", () => {
+    const av86Records = seed.filter((watch) => watch.brand === "AV86");
+
+    expect(av86Records).toHaveLength(41);
+    for (const query of ["AV86", "About Vintage", "Skov Andersen"]) {
+      expect(searchSeedWatches(query).filter((watch) => watch.brand === "AV86")).toHaveLength(41);
+    }
+    expect(seedSql).toContain("av86 about vintage skov andersen");
+  });
+
   it("groups normalized variant-only seed families for display", () => {
     const expectedGroups = [
       ["omega-seamaster-diver-300m-42mm", [6, 7]],

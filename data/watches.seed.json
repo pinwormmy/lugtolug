@@ -90680,5 +90680,784 @@
         "note": "Official Christopher Ward product page lists 44mm case diameter, 51.4mm lug-to-lug, 12.15mm height for C60 Trident GMT 300 C60-44AGM31S0BW0-RBB."
       }
     ]
+  },
+  {
+    "id": 5461,
+    "brand": "AV86",
+    "model": "1815 Chronograph, Steel / Green Sunray",
+    "canonicalModel": "1815 Chronograph",
+    "modelGroup": "av86-1815-chronograph",
+    "variant": "Steel / Green Sunray",
+    "reference": "116026",
+    "lugToLugMm": 46.6,
+    "caseMm": 41,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1815-chronograph-steel-green-sunray-special-edition",
+        "note": "Official AV86 product page lists 41mm case diameter, 46.6mm lug-to-lug, 11mm case thickness, 20mm lug width for 1815 Chronograph, Steel / Green Sunray 116026."
+      }
+    ]
+  },
+  {
+    "id": 5462,
+    "brand": "AV86",
+    "model": "1815 Chronograph, Rose Gold / White",
+    "canonicalModel": "1815 Chronograph",
+    "modelGroup": "av86-1815-chronograph",
+    "variant": "Rose Gold / White",
+    "reference": "105129",
+    "lugToLugMm": 46.6,
+    "caseMm": 41,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1815-chronograph-rose-gold",
+        "note": "Official AV86 product page lists 41mm case diameter, 46.6mm lug-to-lug, 11mm case thickness, 20mm lug width for 1815 Chronograph, Rose Gold / White 105129."
+      }
+    ]
+  },
+  {
+    "id": 5463,
+    "brand": "AV86",
+    "model": "1815 Chronograph, Steel / Blue Sunray",
+    "canonicalModel": "1815 Chronograph",
+    "modelGroup": "av86-1815-chronograph",
+    "variant": "Steel / Blue Sunray",
+    "reference": "117177",
+    "lugToLugMm": 46.6,
+    "caseMm": 41,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1815-chronograph-steel-blue-sunray-special-edition",
+        "note": "Official AV86 product page lists 41mm case diameter, 46.6mm lug-to-lug, 11mm case thickness, 20mm lug width for 1815 Chronograph, Steel / Blue Sunray 117177."
+      }
+    ]
+  },
+  {
+    "id": 5464,
+    "brand": "AV86",
+    "model": "1844 Chronograph, Steel / White",
+    "canonicalModel": "1844 Chronograph",
+    "modelGroup": "av86-1844-chronograph",
+    "variant": "Steel / White",
+    "reference": "103026",
+    "lugToLugMm": 46.6,
+    "caseMm": 41,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1844-chronograph-brown-strap",
+        "note": "Official AV86 product page lists 41mm case diameter, 46.6mm lug-to-lug, 11mm case thickness, 20mm lug width for 1844 Chronograph, Steel / White 103026."
+      }
+    ]
+  },
+  {
+    "id": 5465,
+    "brand": "AV86",
+    "model": "1969 Vintage, Gold / Midnight Blue - Special Edition – 39mm",
+    "canonicalModel": "1969 Vintage",
+    "modelGroup": "av86-1969-vintage",
+    "variant": "Gold / Midnight Blue - Special Edition – 39mm",
+    "reference": "124182",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1969-vintage-gold-midnight-blue-special-edition-36-39mm",
+        "note": "Official AV86 product page lists 39mm case diameter, 45mm lug-to-lug, 8mm case thickness, 20mm lug width for 1969 Vintage, Gold / Midnight Blue - Special Edition – 39mm 124182."
+      }
+    ]
+  },
+  {
+    "id": 5466,
+    "brand": "AV86",
+    "model": "1815 Chronograph, Steel / White",
+    "canonicalModel": "1815 Chronograph",
+    "modelGroup": "av86-1815-chronograph",
+    "variant": "Steel / White",
+    "reference": "101022",
+    "lugToLugMm": 46.6,
+    "caseMm": 41,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1815-chronograph-steel-white",
+        "note": "Official AV86 product page lists 41mm case diameter, 46.6mm lug-to-lug, 11mm case thickness, 20mm lug width for 1815 Chronograph, Steel / White 101022."
+      }
+    ]
+  },
+  {
+    "id": 5467,
+    "brand": "AV86",
+    "model": "1844 Chronograph, Steel / Black",
+    "canonicalModel": "1844 Chronograph",
+    "modelGroup": "av86-1844-chronograph",
+    "variant": "Steel / Black",
+    "reference": "115012",
+    "lugToLugMm": 46.6,
+    "caseMm": 41,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1844-chronograph-steel-black",
+        "note": "Official AV86 product page lists 41mm case diameter, 46.6mm lug-to-lug, 11mm case thickness, 20mm lug width for 1844 Chronograph, Steel / Black 115012."
+      }
+    ]
+  },
+  {
+    "id": 5468,
+    "brand": "AV86",
+    "model": "1971 Stagediver, Steel / Black – 39mm",
+    "canonicalModel": "1971 Stagediver",
+    "modelGroup": "av86-1971-stagediver",
+    "variant": "Steel / Black – 39mm",
+    "reference": "181710",
+    "lugToLugMm": 47.5,
+    "caseMm": 39,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1971-roskilde-steel-black",
+        "note": "Official AV86 product page lists 39mm case diameter, 47.5mm lug-to-lug, 12mm case thickness, 20mm lug width for 1971 Stagediver, Steel / Black – 39mm 181710."
+      }
+    ]
+  },
+  {
+    "id": 5469,
+    "brand": "AV86",
+    "model": "1970 Haagen GMT Automatic, Steel / Burgundy - Swiss Made",
+    "canonicalModel": "1970 Haagen GMT Automatic",
+    "modelGroup": "av86-1970-haagen-gmt-automatic",
+    "variant": "Steel / Burgundy - Swiss Made",
+    "reference": "184285",
+    "lugToLugMm": 47.5,
+    "caseMm": 40,
+    "thicknessMm": 11,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1970-haagen-gmt-automatic-steel-burgundy",
+        "note": "Official AV86 product page lists 40mm case diameter, 47.5mm lug-to-lug, 11mm case thickness, 20mm lug width for 1970 Haagen GMT Automatic, Steel / Burgundy - Swiss Made 184285."
+      }
+    ]
+  },
+  {
+    "id": 5470,
+    "brand": "AV86",
+    "model": "Fandango 'BOB', Green / Green",
+    "canonicalModel": "Fandango 'BOB'",
+    "modelGroup": "av86-fandango-bob",
+    "variant": "Green / Green",
+    "reference": "853822",
+    "lugToLugMm": 39,
+    "caseMm": 32,
+    "thicknessMm": 11,
+    "lugWidthMm": 14,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/fandango-bob-green-green",
+        "note": "Official AV86 product page lists 32mm case diameter, 39mm lug-to-lug, 11mm case thickness, 14mm lug width for Fandango 'BOB', Green / Green 853822."
+      }
+    ]
+  },
+  {
+    "id": 5471,
+    "brand": "AV86",
+    "model": "Fandango 'IBI', Pink / Army",
+    "canonicalModel": "Fandango 'IBI'",
+    "modelGroup": "av86-fandango-ibi",
+    "variant": "Pink / Army",
+    "reference": "853815",
+    "lugToLugMm": 39,
+    "caseMm": 32,
+    "thicknessMm": 11,
+    "lugWidthMm": 14,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/fandango-ibi-pink-army",
+        "note": "Official AV86 product page lists 32mm case diameter, 39mm lug-to-lug, 11mm case thickness, 14mm lug width for Fandango 'IBI', Pink / Army 853815."
+      }
+    ]
+  },
+  {
+    "id": 5472,
+    "brand": "AV86",
+    "model": "Fandango 'KAI', Dark Blue / Army",
+    "canonicalModel": "Fandango 'KAI'",
+    "modelGroup": "av86-fandango-kai",
+    "variant": "Dark Blue / Army",
+    "reference": "853792",
+    "lugToLugMm": 39,
+    "caseMm": 32,
+    "thicknessMm": 11,
+    "lugWidthMm": 14,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/fandango-kai-dark-blue-army",
+        "note": "Official AV86 product page lists 32mm case diameter, 39mm lug-to-lug, 11mm case thickness, 14mm lug width for Fandango 'KAI', Dark Blue / Army 853792."
+      }
+    ]
+  },
+  {
+    "id": 5473,
+    "brand": "AV86",
+    "model": "Fandango 'UMA', Pink / Pink",
+    "canonicalModel": "Fandango 'UMA'",
+    "modelGroup": "av86-fandango-uma",
+    "variant": "Pink / Pink",
+    "reference": "853808",
+    "lugToLugMm": 39,
+    "caseMm": 32,
+    "thicknessMm": 11,
+    "lugWidthMm": 14,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/fandango-uma-pink-pink",
+        "note": "Official AV86 product page lists 32mm case diameter, 39mm lug-to-lug, 11mm case thickness, 14mm lug width for Fandango 'UMA', Pink / Pink 853808."
+      }
+    ]
+  },
+  {
+    "id": 5474,
+    "brand": "AV86",
+    "model": "1960 Racing Chronograph, Steel / Midnight Blue",
+    "canonicalModel": "1960 Racing Chronograph",
+    "modelGroup": "av86-1960-racing-chronograph",
+    "variant": "Steel / Midnight Blue",
+    "reference": "169350",
+    "lugToLugMm": 47.5,
+    "caseMm": 40,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1960-racing-chronograph-steel-midnight-blue",
+        "note": "Official AV86 product page lists 40mm case diameter, 47.5mm lug-to-lug, 12.7mm case thickness, 20mm lug width for 1960 Racing Chronograph, Steel / Midnight Blue 169350."
+      }
+    ]
+  },
+  {
+    "id": 5475,
+    "brand": "AV86",
+    "model": "1960 Racing Chronograph, Steel / Off White & Black",
+    "canonicalModel": "1960 Racing Chronograph",
+    "modelGroup": "av86-1960-racing-chronograph",
+    "variant": "Steel / Off White & Black",
+    "reference": "167356",
+    "lugToLugMm": 47.5,
+    "caseMm": 40,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1960-racing-chronograph-steel-off-white-black",
+        "note": "Official AV86 product page lists 40mm case diameter, 47.5mm lug-to-lug, 12.7mm case thickness, 20mm lug width for 1960 Racing Chronograph, Steel / Off White & Black 167356."
+      }
+    ]
+  },
+  {
+    "id": 5476,
+    "brand": "AV86",
+    "model": "1970 Glacier GMT Automatic, Steel / White - Swiss Made",
+    "canonicalModel": "1970 Glacier GMT Automatic",
+    "modelGroup": "av86-1970-glacier-gmt-automatic",
+    "variant": "Steel / White - Swiss Made",
+    "reference": "154516",
+    "lugToLugMm": 47.5,
+    "caseMm": 41,
+    "thicknessMm": 12,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1970-glacier-gmt-automatic-steel-white-swiss-made",
+        "note": "Official AV86 product page lists 41mm case diameter, 47.5mm lug-to-lug, 12mm case thickness, 20mm lug width for 1970 Glacier GMT Automatic, Steel / White - Swiss Made 154516."
+      }
+    ]
+  },
+  {
+    "id": 5477,
+    "brand": "AV86",
+    "model": "1934 Telechron, Steel / Off White & Black",
+    "canonicalModel": "1934 Telechron",
+    "modelGroup": "av86-1934-telechron",
+    "variant": "Steel / Off White & Black",
+    "reference": "157395",
+    "lugToLugMm": 49.6,
+    "caseMm": 42,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1934-telechron-steel-off-white-black",
+        "note": "Official AV86 product page lists 42mm case diameter, 49.6mm lug-to-lug, 13mm case thickness, 20mm lug width for 1934 Telechron, Steel / Off White & Black 157395."
+      }
+    ]
+  },
+  {
+    "id": 5478,
+    "brand": "AV86",
+    "model": "1934 Telechron, Steel / Off White",
+    "canonicalModel": "1934 Telechron",
+    "modelGroup": "av86-1934-telechron",
+    "variant": "Steel / Off White",
+    "reference": "157388",
+    "lugToLugMm": 49.6,
+    "caseMm": 42,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1934-telechron-steel-off-white",
+        "note": "Official AV86 product page lists 42mm case diameter, 49.6mm lug-to-lug, 13mm case thickness, 20mm lug width for 1934 Telechron, Steel / Off White 157388."
+      }
+    ]
+  },
+  {
+    "id": 5479,
+    "brand": "AV86",
+    "model": "1934 Telechron, Steel / Green",
+    "canonicalModel": "1934 Telechron",
+    "modelGroup": "av86-1934-telechron",
+    "variant": "Steel / Green",
+    "reference": "157401",
+    "lugToLugMm": 49.6,
+    "caseMm": 42,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1934-telechron-steel-green",
+        "note": "Official AV86 product page lists 42mm case diameter, 49.6mm lug-to-lug, 13mm case thickness, 20mm lug width for 1934 Telechron, Steel / Green 157401."
+      }
+    ]
+  },
+  {
+    "id": 5480,
+    "brand": "AV86",
+    "model": "1934 Telechron, Steel / Blue",
+    "canonicalModel": "1934 Telechron",
+    "modelGroup": "av86-1934-telechron",
+    "variant": "Steel / Blue",
+    "reference": "157418",
+    "lugToLugMm": 49.6,
+    "caseMm": 42,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1934-telechron-steel-blue",
+        "note": "Official AV86 product page lists 42mm case diameter, 49.6mm lug-to-lug, 13mm case thickness, 20mm lug width for 1934 Telechron, Steel / Blue 157418."
+      }
+    ]
+  },
+  {
+    "id": 5481,
+    "brand": "AV86",
+    "model": "1934 Telechron, Steel / Black",
+    "canonicalModel": "1934 Telechron",
+    "modelGroup": "av86-1934-telechron",
+    "variant": "Steel / Black",
+    "reference": "157425",
+    "lugToLugMm": 49.6,
+    "caseMm": 42,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1934-telechron-steel-black",
+        "note": "Official AV86 product page lists 42mm case diameter, 49.6mm lug-to-lug, 13mm case thickness, 20mm lug width for 1934 Telechron, Steel / Black 157425."
+      }
+    ]
+  },
+  {
+    "id": 5482,
+    "brand": "AV86",
+    "model": "1960 Racing Chronograph, Steel / Off White",
+    "canonicalModel": "1960 Racing Chronograph",
+    "modelGroup": "av86-1960-racing-chronograph",
+    "variant": "Steel / Off White",
+    "reference": "129774",
+    "lugToLugMm": 47.5,
+    "caseMm": 40,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1960-racing-chronograph-steel-off-white",
+        "note": "Official AV86 product page lists 40mm case diameter, 47.5mm lug-to-lug, 12.7mm case thickness, 20mm lug width for 1960 Racing Chronograph, Steel / Off White 129774."
+      }
+    ]
+  },
+  {
+    "id": 5483,
+    "brand": "AV86",
+    "model": "1960 Racing Chronograph, Steel / Black & Off White",
+    "canonicalModel": "1960 Racing Chronograph",
+    "modelGroup": "av86-1960-racing-chronograph",
+    "variant": "Steel / Black & Off White",
+    "reference": "128777",
+    "lugToLugMm": 47.5,
+    "caseMm": 40,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1960-racing-chronograph-steel-black-off-white",
+        "note": "Official AV86 product page lists 40mm case diameter, 47.5mm lug-to-lug, 12.7mm case thickness, 20mm lug width for 1960 Racing Chronograph, Steel / Black & Off White 128777."
+      }
+    ]
+  },
+  {
+    "id": 5484,
+    "brand": "AV86",
+    "model": "1956 Marine Automatic, Steel / Black",
+    "canonicalModel": "1956 Marine Automatic",
+    "modelGroup": "av86-1956-marine-automatic",
+    "variant": "Steel / Black",
+    "reference": "000301",
+    "lugToLugMm": 49.2,
+    "caseMm": 41,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1956-marine-automatic-steel-black",
+        "note": "Official AV86 product page lists 41mm case diameter, 49.2mm lug-to-lug, 13.8mm case thickness, 20mm lug width for 1956 Marine Automatic, Steel / Black 000301."
+      }
+    ]
+  },
+  {
+    "id": 5485,
+    "brand": "AV86",
+    "model": "1956 Marine Automatic, Steel / Blue",
+    "canonicalModel": "1956 Marine Automatic",
+    "modelGroup": "av86-1956-marine-automatic",
+    "variant": "Steel / Blue",
+    "reference": "000202",
+    "lugToLugMm": 49.2,
+    "caseMm": 41,
+    "thicknessMm": 13.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1956-marine-automatic-steel-blue",
+        "note": "Official AV86 product page lists 41mm case diameter, 49.2mm lug-to-lug, 13.8mm case thickness, 20mm lug width for 1956 Marine Automatic, Steel / Blue 000202."
+      }
+    ]
+  },
+  {
+    "id": 5486,
+    "brand": "AV86",
+    "model": "1956 Marine, Steel / Black",
+    "canonicalModel": "1956 Marine",
+    "modelGroup": "av86-1956-marine",
+    "variant": "Steel / Black",
+    "reference": "010300",
+    "lugToLugMm": 49.2,
+    "caseMm": 41,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1956-marine-quartz-steel-black",
+        "note": "Official AV86 product page lists 41mm case diameter, 49.2mm lug-to-lug, 12.5mm case thickness, 20mm lug width for 1956 Marine, Steel / Black 010300."
+      }
+    ]
+  },
+  {
+    "id": 5487,
+    "brand": "AV86",
+    "model": "1956 Marine, Steel / Navy & Off White",
+    "canonicalModel": "1956 Marine",
+    "modelGroup": "av86-1956-marine",
+    "variant": "Steel / Navy & Off White",
+    "reference": "011208",
+    "lugToLugMm": 49.2,
+    "caseMm": 41,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1956-marine-quartz-steel-navy-white",
+        "note": "Official AV86 product page lists 41mm case diameter, 49.2mm lug-to-lug, 12.5mm case thickness, 20mm lug width for 1956 Marine, Steel / Navy & Off White 011208."
+      }
+    ]
+  },
+  {
+    "id": 5488,
+    "brand": "AV86",
+    "model": "1960 Racing Chronograph, Steel / Navy & White",
+    "canonicalModel": "1960 Racing Chronograph",
+    "modelGroup": "av86-1960-racing-chronograph",
+    "variant": "Steel / Navy & White",
+    "reference": "051204",
+    "lugToLugMm": 47.5,
+    "caseMm": 40,
+    "thicknessMm": 12.7,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1960-racing-chronograph-steel-navy-white",
+        "note": "Official AV86 product page lists 40mm case diameter, 47.5mm lug-to-lug, 12.7mm case thickness, 20mm lug width for 1960 Racing Chronograph, Steel / Navy & White 051204."
+      }
+    ]
+  },
+  {
+    "id": 5489,
+    "brand": "AV86",
+    "model": "1968 Mechanical, Steel / White",
+    "canonicalModel": "1968 Mechanical",
+    "modelGroup": "av86-1968-mechanical",
+    "variant": "Steel / White",
+    "reference": "100407",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 11.35,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1968-mechanical-steel-white",
+        "note": "Official AV86 product page lists 39mm case diameter, 46mm lug-to-lug, 11.35mm case thickness, 20mm lug width for 1968 Mechanical, Steel / White 100407."
+      }
+    ]
+  },
+  {
+    "id": 5490,
+    "brand": "AV86",
+    "model": "1968 Mechanical, Steel / White & Rose Gold",
+    "canonicalModel": "1968 Mechanical",
+    "modelGroup": "av86-1968-mechanical",
+    "variant": "Steel / White & Rose Gold",
+    "reference": "100490",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 11.35,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1968-mechanical-steel-white-rose-gold",
+        "note": "Official AV86 product page lists 39mm case diameter, 46mm lug-to-lug, 11.35mm case thickness, 20mm lug width for 1968 Mechanical, Steel / White & Rose Gold 100490."
+      }
+    ]
+  },
+  {
+    "id": 5491,
+    "brand": "AV86",
+    "model": "1968 Mechanical, Gold / White",
+    "canonicalModel": "1968 Mechanical",
+    "modelGroup": "av86-1968-mechanical",
+    "variant": "Gold / White",
+    "reference": "100421",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 11.35,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1968-mechanical-gold-white",
+        "note": "Official AV86 product page lists 39mm case diameter, 46mm lug-to-lug, 11.35mm case thickness, 20mm lug width for 1968 Mechanical, Gold / White 100421."
+      }
+    ]
+  },
+  {
+    "id": 5492,
+    "brand": "AV86",
+    "model": "1564 Chronodate Automatic, Steel / Off White",
+    "canonicalModel": "1564 Chronodate Automatic",
+    "modelGroup": "av86-1564-chronodate-automatic",
+    "variant": "Steel / Off White",
+    "reference": "120702",
+    "lugToLugMm": 49.2,
+    "caseMm": 39,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1564-chronodate-automatic-steel-off-white",
+        "note": "Official AV86 product page lists 39mm case diameter, 49.2mm lug-to-lug, 13mm case thickness, 20mm lug width for 1564 Chronodate Automatic, Steel / Off White 120702."
+      }
+    ]
+  },
+  {
+    "id": 5493,
+    "brand": "AV86",
+    "model": "1564 Chronodate Automatic, Steel / Black",
+    "canonicalModel": "1564 Chronodate Automatic",
+    "modelGroup": "av86-1564-chronodate-automatic",
+    "variant": "Steel / Black",
+    "reference": "120306",
+    "lugToLugMm": 49.2,
+    "caseMm": 39,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1564-chronodate-automatic-steel-black",
+        "note": "Official AV86 product page lists 39mm case diameter, 49.2mm lug-to-lug, 13mm case thickness, 20mm lug width for 1564 Chronodate Automatic, Steel / Black 120306."
+      }
+    ]
+  },
+  {
+    "id": 5494,
+    "brand": "AV86",
+    "model": "1564 Chronodate Automatic, Steel / Limoncello",
+    "canonicalModel": "1564 Chronodate Automatic",
+    "modelGroup": "av86-1564-chronodate-automatic",
+    "variant": "Steel / Limoncello",
+    "reference": "122508",
+    "lugToLugMm": 49.2,
+    "caseMm": 39,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1564-chronodate-automatic-steel-limoncello",
+        "note": "Official AV86 product page lists 39mm case diameter, 49.2mm lug-to-lug, 13mm case thickness, 20mm lug width for 1564 Chronodate Automatic, Steel / Limoncello 122508."
+      }
+    ]
+  },
+  {
+    "id": 5495,
+    "brand": "AV86",
+    "model": "1564 Chronodate Automatic, Steel / Garnish Green",
+    "canonicalModel": "1564 Chronodate Automatic",
+    "modelGroup": "av86-1564-chronodate-automatic",
+    "variant": "Steel / Garnish Green",
+    "reference": "120504",
+    "lugToLugMm": 49.2,
+    "caseMm": 39,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1564-chronodate-automatic-steel-garnish-green",
+        "note": "Official AV86 product page lists 39mm case diameter, 49.2mm lug-to-lug, 13mm case thickness, 20mm lug width for 1564 Chronodate Automatic, Steel / Garnish Green 120504."
+      }
+    ]
+  },
+  {
+    "id": 5496,
+    "brand": "AV86",
+    "model": "1564 Chronodate Automatic, Steel / Ice Blue",
+    "canonicalModel": "1564 Chronodate Automatic",
+    "modelGroup": "av86-1564-chronodate-automatic",
+    "variant": "Steel / Ice Blue",
+    "reference": "121808",
+    "lugToLugMm": 49.2,
+    "caseMm": 39,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1564-chronodate-automatic-steel-ice-blue",
+        "note": "Official AV86 product page lists 39mm case diameter, 49.2mm lug-to-lug, 13mm case thickness, 20mm lug width for 1564 Chronodate Automatic, Steel / Ice Blue 121808."
+      }
+    ]
+  },
+  {
+    "id": 5497,
+    "brand": "AV86",
+    "model": "1564 Chronodate Automatic, Steel / Negroni",
+    "canonicalModel": "1564 Chronodate Automatic",
+    "modelGroup": "av86-1564-chronodate-automatic",
+    "variant": "Steel / Negroni",
+    "reference": "122607",
+    "lugToLugMm": 49.2,
+    "caseMm": 39,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1564-chronodate-automatic-steel-negroni",
+        "note": "Official AV86 product page lists 39mm case diameter, 49.2mm lug-to-lug, 13mm case thickness, 20mm lug width for 1564 Chronodate Automatic, Steel / Negroni 122607."
+      }
+    ]
+  },
+  {
+    "id": 5498,
+    "brand": "AV86",
+    "model": "1968 Sixtyeight, Gold / White",
+    "canonicalModel": "1968 Sixtyeight",
+    "modelGroup": "av86-1968-sixtyeight",
+    "variant": "Gold / White",
+    "reference": "110420",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 11.35,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1968-sixtyeight-gold-white",
+        "note": "Official AV86 product page lists 39mm case diameter, 46mm lug-to-lug, 11.35mm case thickness, 20mm lug width for 1968 Sixtyeight, Gold / White 110420."
+      }
+    ]
+  },
+  {
+    "id": 5499,
+    "brand": "AV86",
+    "model": "1968 Sixtyeight, Steel / Blue Sunray",
+    "canonicalModel": "1968 Sixtyeight",
+    "modelGroup": "av86-1968-sixtyeight",
+    "variant": "Steel / Blue Sunray",
+    "reference": "110208",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 11.35,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1968-sixtyeight-steel-blue-sunray",
+        "note": "Official AV86 product page lists 39mm case diameter, 46mm lug-to-lug, 11.35mm case thickness, 20mm lug width for 1968 Sixtyeight, Steel / Blue Sunray 110208."
+      }
+    ]
+  },
+  {
+    "id": 5500,
+    "brand": "AV86",
+    "model": "1968 Sixtyeight, Steel / Champagne",
+    "canonicalModel": "1968 Sixtyeight",
+    "modelGroup": "av86-1968-sixtyeight",
+    "variant": "Steel / Champagne",
+    "reference": "110703",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 11.35,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1968-sixtyeight-steel-champagne",
+        "note": "Official AV86 product page lists 39mm case diameter, 46mm lug-to-lug, 11.35mm case thickness, 20mm lug width for 1968 Sixtyeight, Steel / Champagne 110703."
+      }
+    ]
+  },
+  {
+    "id": 5501,
+    "brand": "AV86",
+    "model": "1968 Sixtyeight, Steel / White",
+    "canonicalModel": "1968 Sixtyeight",
+    "modelGroup": "av86-1968-sixtyeight",
+    "variant": "Steel / White",
+    "reference": "110406",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 11.35,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://av86.com/products/1968-sixtyeight-steel-white",
+        "note": "Official AV86 product page lists 39mm case diameter, 46mm lug-to-lug, 11.35mm case thickness, 20mm lug width for 1968 Sixtyeight, Steel / White 110406."
+      }
+    ]
   }
 ]
