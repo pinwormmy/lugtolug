@@ -102,7 +102,7 @@ function watchRow(watch) {
     optionalString(watch.variant),
     watch.reference,
     slugify(watch.brand),
-    slugify(watch.model),
+    slugify(watch.model) || slugify(watch.reference),
     slugify(watch.reference),
     getWatchSearchText(watch),
     watch.lugToLugMm,

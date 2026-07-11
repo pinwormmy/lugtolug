@@ -21,7 +21,7 @@ export const seedWatches: WatchWithSources[] = seed.map((watch) => ({
   variant: optionalString("variant" in watch ? watch.variant : null),
   reference: watch.reference,
   brandSlug: slugify(watch.brand),
-  modelSlug: slugify(watch.model),
+  modelSlug: slugify(watch.model) || slugify(watch.reference),
   referenceSlug: slugify(watch.reference),
   lugToLugMm: watch.lugToLugMm,
   caseMm: watch.caseMm,
