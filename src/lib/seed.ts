@@ -33,7 +33,7 @@ export const seedWatches: WatchWithSources[] = seed.map((watch) => ({
     id: index + 1,
     watchId: watch.id,
     sourceUrl: source.sourceUrl,
-    note: source.note
+    note: source.note ?? null
   }))
 }));
 

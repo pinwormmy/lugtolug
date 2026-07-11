@@ -33782,6 +33782,10 @@
     "lugWidthMm": 20,
     "sources": [
       {
+        "sourceUrl": "https://norqain.com/products/freedom-60-chrono-43mm-limited-edition",
+        "note": "Official NORQAIN product page lists 43mm case diameter, 53.1mm lug-to-lug, 15mm thickness, 20mm width between lugs for Freedom Chrono Limited Edition 43mm N2200.19S02.C01.L01."
+      },
+      {
         "sourceUrl": "https://timeandtidewatches.com/norqain-freedom-60-43mm-off-white-in-the-shop/",
         "note": "Time+Tide article table lists reference N2200.19S02.C01.L01 with case dimensions 43mm (D) x 15mm (T) x 53.1mm (LTL)."
       }
@@ -33790,16 +33794,20 @@
   {
     "id": 1997,
     "brand": "Norqain",
-    "model": "Freedom 60 43mm Off-White - black perlon rubber",
+    "model": "Freedom Chrono Enjoy Life \"Ice Cream\" 40mm",
     "canonicalModel": "Freedom 60 43mm Off-White",
     "modelGroup": "norqain-freedom-60-43mm-off-white",
     "variant": "black perlon rubber",
     "reference": "N2201.19S01.C01.R01",
-    "lugToLugMm": 53.1,
-    "caseMm": 43,
-    "thicknessMm": 15,
+    "lugToLugMm": 49.2,
+    "caseMm": 40,
+    "thicknessMm": 14.9,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-60-chrono-40mm-enjoy-life-special-edition",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 49.2mm lug-to-lug, 14.9mm thickness, 20mm width between lugs for Freedom Chrono Enjoy Life \"Ice Cream\" 40mm N2201.19S01.C01.R01."
+      },
       {
         "sourceUrl": "https://timeandtidewatches.com/norqain-freedom-60-43mm-off-white-in-the-shop/",
         "note": "Time+Tide article table lists reference N2201.19S01.C01.R01 with case dimensions 43mm (D) x 15mm (T) x 53.1mm (LTL)."
@@ -33819,6 +33827,10 @@
     "thicknessMm": 15,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-60-chrono-43mm-limited-edition",
+        "note": "Official NORQAIN product page lists 43mm case diameter, 53.1mm lug-to-lug, 15mm thickness, 20mm width between lugs for Freedom Chrono Limited Edition 43mm N2200.19S02.C01.S01."
+      },
       {
         "sourceUrl": "https://timeandtidewatches.com/norqain-freedom-60-43mm-off-white-in-the-shop/",
         "note": "Time+Tide article table lists reference N2200.19S02.C01.S01 with case dimensions 43mm (D) x 15mm (T) x 53.1mm (LTL)."
@@ -44129,22 +44141,6 @@
     ]
   },
   {
-    "id": 2616,
-    "brand": "NORQAIN",
-    "model": "Wild ONE Maroon Meteorite Special-Edition",
-    "reference": "Wild ONE Maroon Meteorite",
-    "lugToLugMm": 49.4,
-    "caseMm": 42,
-    "thicknessMm": 12.3,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://www.ablogtowatch.com/norqain-wild-one-maroon-meteorite-special-edition-watch-with-real-space-metal-hands-on/",
-        "note": "aBlogtoWatch article states dimensions of 42mm case, 49.4mm lug-to-lug, 12.3mm thickness."
-      }
-    ]
-  },
-  {
     "id": 2617,
     "brand": "Bremont",
     "model": "Altitude MB Meteor Time Zones",
@@ -44321,22 +44317,6 @@
       {
         "sourceUrl": "https://www.ablogtowatch.com/traska-chronograph-watch-review-is-this-the-watch-that-will-convince-me-to-like-chronographs/",
         "note": "aBlogtoWatch article states dimensions of 39mm case, 46.5mm lug-to-lug, 13.75mm thickness."
-      }
-    ]
-  },
-  {
-    "id": 2628,
-    "brand": "NORQAIN",
-    "model": "Adventure 40mm",
-    "reference": "Adventure 40mm",
-    "lugToLugMm": 48.3,
-    "caseMm": 40,
-    "thicknessMm": 12.55,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://www.ablogtowatch.com/new-release-the-norqain-adventure-watches-gets-a-40mm-case-and-a-slew-of-updates/",
-        "note": "aBlogtoWatch article states dimensions of 40mm case, 48.3mm lug-to-lug, 12.55mm thickness."
       }
     ]
   },
@@ -44737,22 +44717,6 @@
       {
         "sourceUrl": "https://www.ablogtowatch.com/watch-review-movado-heritage-1917-automatic-35mm/",
         "note": "aBlogtoWatch article states dimensions of 35mm case, 44.6mm lug-to-lug, 9mm thickness."
-      }
-    ]
-  },
-  {
-    "id": 2654,
-    "brand": "NORQAIN",
-    "model": "Independence Skeleton Chrono 42mm",
-    "reference": "Independence Skeleton Chrono 42mm",
-    "lugToLugMm": 50,
-    "caseMm": 42,
-    "thicknessMm": 14,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://www.ablogtowatch.com/hands-on-norqain-independence-skeleton-chrono-42mm-watches/",
-        "note": "aBlogtoWatch article states dimensions of 42mm case, 50mm lug-to-lug, 14mm thickness."
       }
     ]
   },
@@ -45205,22 +45169,6 @@
       {
         "sourceUrl": "https://www.ablogtowatch.com/hands-on-piaget-andy-warhol-watch/",
         "note": "aBlogtoWatch article states dimensions of 45mm case, 43mm lug-to-lug, 8.08mm thickness."
-      }
-    ]
-  },
-  {
-    "id": 2683,
-    "brand": "NORQAIN",
-    "model": "Independence Skeleton 40mm",
-    "reference": "Independence Skeleton 40mm",
-    "lugToLugMm": 46.3,
-    "caseMm": 40,
-    "thicknessMm": 12.05,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://www.ablogtowatch.com/new-release-norqain-independence-skeleton-40mm-watches/",
-        "note": "aBlogtoWatch article states dimensions of 40mm case, 46.3mm lug-to-lug, 12.05mm thickness."
       }
     ]
   },
@@ -45693,22 +45641,6 @@
       {
         "sourceUrl": "https://www.ablogtowatch.com/hands-on-vaer-r1-usa-racing-chronograph-watch/",
         "note": "aBlogtoWatch article states dimensions of 38mm case, 46mm lug-to-lug, 12.6mm thickness, and 20mm lug width."
-      }
-    ]
-  },
-  {
-    "id": 2714,
-    "brand": "NORQAIN",
-    "model": "Wild ONE Skeleton 39mm",
-    "reference": "Wild ONE Skeleton 39mm",
-    "lugToLugMm": 45.75,
-    "caseMm": 39,
-    "thicknessMm": 11.75,
-    "lugWidthMm": 20,
-    "sources": [
-      {
-        "sourceUrl": "https://www.ablogtowatch.com/new-release-norqain-wild-one-skeleton-39mm-watches/",
-        "note": "aBlogtoWatch article states dimensions of 39mm case, 45.75mm lug-to-lug, 11.75mm thickness, and 20mm lug width."
       }
     ]
   },
@@ -46935,22 +46867,6 @@
     ]
   },
   {
-    "id": 2793,
-    "brand": "NORQAIN",
-    "model": "Wild ONE Skeleton Coral & Green",
-    "reference": "Wild ONE Skeleton Coral Green",
-    "lugToLugMm": 50,
-    "caseMm": 42,
-    "thicknessMm": 12,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://www.ablogtowatch.com/hands-on-norqain-wild-one-skeleton-coral-green-watches/",
-        "note": "aBlogtoWatch article states dimensions of 42mm case, 50mm lug-to-lug, 12mm thickness."
-      }
-    ]
-  },
-  {
     "id": 2794,
     "brand": "Timex",
     "model": "x Ghostly Navi",
@@ -47907,22 +47823,6 @@
       {
         "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-rze-fortitude-gmt-pilots-watch/",
         "note": "aBlogtoWatch article states dimensions of 41mm case, 47mm lug-to-lug, 12mm thickness, and 20mm lug width."
-      }
-    ]
-  },
-  {
-    "id": 2854,
-    "brand": "NORQAIN",
-    "model": "Adventure Sport Chrono Limited Edition",
-    "reference": "Adventure Sport Chrono Limited Edition",
-    "lugToLugMm": 52,
-    "caseMm": 44,
-    "thicknessMm": 16,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://www.ablogtowatch.com/new-release-norqain-adventure-sport-chrono-44mm-and-adventure-sport-chrono-day-date-41mm-limited-edition-watches/",
-        "note": "aBlogtoWatch article states dimensions of 44mm case, 52mm lug-to-lug, 16mm thickness."
       }
     ]
   },
@@ -49583,22 +49483,6 @@
     ]
   },
   {
-    "id": 2958,
-    "brand": "NORQAIN",
-    "model": "Independence 40mm Hakuna Mipaka",
-    "reference": "Independence 40mm Hakuna Mipaka",
-    "lugToLugMm": 46.3,
-    "caseMm": 40,
-    "thicknessMm": 12.05,
-    "lugWidthMm": 20,
-    "sources": [
-      {
-        "sourceUrl": "https://www.ablogtowatch.com/norqain-and-dean-schneider-unveil-the-independence-40mm-hakuna-mipaka-watch/",
-        "note": "aBlogtoWatch article states dimensions of 40mm case, 46.3mm lug-to-lug, 12.05mm thickness, and 20mm lug width."
-      }
-    ]
-  },
-  {
     "id": 2959,
     "brand": "Richard Mille",
     "model": "RM 07-04 Automatic Sport",
@@ -49743,22 +49627,6 @@
     ]
   },
   {
-    "id": 2968,
-    "brand": "NORQAIN",
-    "model": "Freedom 60 Chrono 40mm Bronze",
-    "reference": "Freedom 60 Chrono 40mm Bronze",
-    "lugToLugMm": 49.27,
-    "caseMm": 40,
-    "thicknessMm": 14.9,
-    "lugWidthMm": 20,
-    "sources": [
-      {
-        "sourceUrl": "https://www.ablogtowatch.com/norqain-debuts-the-freedom-60-chrono-40mm-bronze-watch/",
-        "note": "aBlogtoWatch article states dimensions of 40mm case, 49.27mm lug-to-lug, 14.9mm thickness, and 20mm lug width."
-      }
-    ]
-  },
-  {
     "id": 2969,
     "brand": "Raymond Weil",
     "model": "Freelancer GMT",
@@ -49883,22 +49751,6 @@
       {
         "sourceUrl": "https://www.ablogtowatch.com/seiko-unveils-new-presage-cocktail-time-star-bar-limited-edition-watches/",
         "note": "aBlogtoWatch article states dimensions of 40.5mm case, 47.5mm lug-to-lug, 11.6mm thickness, and 20mm lug width."
-      }
-    ]
-  },
-  {
-    "id": 2977,
-    "brand": "NORQAIN",
-    "model": "Independence Wild ONE",
-    "reference": "Independence Wild ONE",
-    "lugToLugMm": 49.4,
-    "caseMm": 42,
-    "thicknessMm": 12.3,
-    "lugWidthMm": 22,
-    "sources": [
-      {
-        "sourceUrl": "https://www.ablogtowatch.com/norqain-unveils-the-independence-wild-one-watch-collection-with-jean-claude-biver/",
-        "note": "aBlogtoWatch article states dimensions of 42mm case, 49.4mm lug-to-lug, 12.3mm thickness, and 22mm lug width."
       }
     ]
   },
@@ -92193,6 +92045,1990 @@
       {
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=389&cate_no=72",
         "note": "IntoWatch product specification image lists 43.17 mm case, 41.5 mm lug-to-lug, 10.3 mm thickness. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      }
+    ]
+  },
+  {
+    "id": 5548,
+    "brand": "Norqain",
+    "model": "Adventure 37mm",
+    "reference": "N1800.08S05.W01.R03",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-37mm-white",
+        "note": "Official NORQAIN product page lists 37mm case diameter, 44mm lug-to-lug, 11.5mm thickness, 18mm width between lugs for Adventure 37mm N1800.08S05.W01.R03."
+      }
+    ]
+  },
+  {
+    "id": 5549,
+    "brand": "Norqain",
+    "model": "Adventure 37mm",
+    "reference": "N1800.08S05.W01.S02",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-37mm-white",
+        "note": "Official NORQAIN product page lists 37mm case diameter, 44mm lug-to-lug, 11.5mm thickness, 18mm width between lugs for Adventure 37mm N1800.08S05.W01.S02."
+      }
+    ]
+  },
+  {
+    "id": 5550,
+    "brand": "Norqain",
+    "model": "Adventure 37mm",
+    "reference": "N1800.08S05.W01.R01",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-37mm-white",
+        "note": "Official NORQAIN product page lists 37mm case diameter, 44mm lug-to-lug, 11.5mm thickness, 18mm width between lugs for Adventure 37mm N1800.08S05.W01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5551,
+    "brand": "Norqain",
+    "model": "Adventure 37mm",
+    "reference": "N1800.08S05.W01.V01",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-37mm-white",
+        "note": "Official NORQAIN product page lists 37mm case diameter, 44mm lug-to-lug, 11.5mm thickness, 18mm width between lugs for Adventure 37mm N1800.08S05.W01.V01."
+      }
+    ]
+  },
+  {
+    "id": 5552,
+    "brand": "Norqain",
+    "model": "Adventure Chrono 44mm",
+    "reference": "N1200.19B01.B01.R01",
+    "lugToLugMm": 52,
+    "caseMm": 44,
+    "thicknessMm": 16,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-chrono-44mm-dlc",
+        "note": "Official NORQAIN product page lists 44mm case diameter, 52mm lug-to-lug, 16mm thickness, 22mm width between lugs for Adventure Chrono 44mm N1200.19B01.B01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5553,
+    "brand": "Norqain",
+    "model": "Adventure Chrono 44mm",
+    "reference": "N1200.19B01.B01.R02",
+    "lugToLugMm": 52,
+    "caseMm": 44,
+    "thicknessMm": 16,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-chrono-44mm-dlc",
+        "note": "Official NORQAIN product page lists 44mm case diameter, 52mm lug-to-lug, 16mm thickness, 22mm width between lugs for Adventure Chrono 44mm N1200.19B01.B01.R02."
+      }
+    ]
+  },
+  {
+    "id": 5554,
+    "brand": "Norqain",
+    "model": "Adventure Chrono 44mm",
+    "reference": "N1200.19B01.B01.F03",
+    "lugToLugMm": 52,
+    "caseMm": 44,
+    "thicknessMm": 16,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-chrono-44mm-dlc",
+        "note": "Official NORQAIN product page lists 44mm case diameter, 52mm lug-to-lug, 16mm thickness, 22mm width between lugs for Adventure Chrono 44mm N1200.19B01.B01.F03."
+      }
+    ]
+  },
+  {
+    "id": 5555,
+    "brand": "Norqain",
+    "model": "Adventure Chrono 44mm",
+    "reference": "N1200.19B01.B01.F01",
+    "lugToLugMm": 52,
+    "caseMm": 44,
+    "thicknessMm": 16,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-chrono-44mm-dlc",
+        "note": "Official NORQAIN product page lists 44mm case diameter, 52mm lug-to-lug, 16mm thickness, 22mm width between lugs for Adventure Chrono 44mm N1200.19B01.B01.F01."
+      }
+    ]
+  },
+  {
+    "id": 5556,
+    "brand": "Norqain",
+    "model": "Adventure Chrono 44mm",
+    "reference": "N1200.19B01.B01.B01",
+    "lugToLugMm": 52,
+    "caseMm": 44,
+    "thicknessMm": 16,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-chrono-44mm-dlc",
+        "note": "Official NORQAIN product page lists 44mm case diameter, 52mm lug-to-lug, 16mm thickness, 22mm width between lugs for Adventure Chrono 44mm N1200.19B01.B01.B01."
+      }
+    ]
+  },
+  {
+    "id": 5557,
+    "brand": "Norqain",
+    "model": "Adventure 37mm",
+    "reference": "N1800.08S07.G01.R01",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-37mm-s-g-grey",
+        "note": "Official NORQAIN product page lists 37mm case diameter, 44mm lug-to-lug, 11.5mm thickness, 18mm width between lugs for Adventure 37mm N1800.08S07.G01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5558,
+    "brand": "Norqain",
+    "model": "Adventure 37mm",
+    "reference": "N1800.08S07.G01.S02",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-37mm-s-g-grey",
+        "note": "Official NORQAIN product page lists 37mm case diameter, 44mm lug-to-lug, 11.5mm thickness, 18mm width between lugs for Adventure 37mm N1800.08S07.G01.S02."
+      }
+    ]
+  },
+  {
+    "id": 5559,
+    "brand": "Norqain",
+    "model": "Adventure 37mm",
+    "reference": "N1800.08S08.W01.R04",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-37mm-s-g-mop",
+        "note": "Official NORQAIN product page lists 37mm case diameter, 44mm lug-to-lug, 11.5mm thickness, 18mm width between lugs for Adventure 37mm N1800.08S08.W01.R04."
+      }
+    ]
+  },
+  {
+    "id": 5560,
+    "brand": "Norqain",
+    "model": "Adventure 37mm",
+    "reference": "N1800.08S08.W01.R03",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-37mm-s-g-mop",
+        "note": "Official NORQAIN product page lists 37mm case diameter, 44mm lug-to-lug, 11.5mm thickness, 18mm width between lugs for Adventure 37mm N1800.08S08.W01.R03."
+      }
+    ]
+  },
+  {
+    "id": 5561,
+    "brand": "Norqain",
+    "model": "Adventure 37mm",
+    "reference": "N1800.08S08.W01.S01",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-37mm-s-g-mop",
+        "note": "Official NORQAIN product page lists 37mm case diameter, 44mm lug-to-lug, 11.5mm thickness, 18mm width between lugs for Adventure 37mm N1800.08S08.W01.S01."
+      }
+    ]
+  },
+  {
+    "id": 5562,
+    "brand": "Norqain",
+    "model": "Adventure 37mm",
+    "reference": "N1800.08S08.W01.R01",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-37mm-s-g-mop",
+        "note": "Official NORQAIN product page lists 37mm case diameter, 44mm lug-to-lug, 11.5mm thickness, 18mm width between lugs for Adventure 37mm N1800.08S08.W01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5563,
+    "brand": "Norqain",
+    "model": "Adventure 37mm",
+    "reference": "N1800.08S08.W01.V01",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-37mm-s-g-mop",
+        "note": "Official NORQAIN product page lists 37mm case diameter, 44mm lug-to-lug, 11.5mm thickness, 18mm width between lugs for Adventure 37mm N1800.08S08.W01.V01."
+      }
+    ]
+  },
+  {
+    "id": 5564,
+    "brand": "Norqain",
+    "model": "Adventure 37mm",
+    "reference": "N1800.08S02.P01.S01",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-37mm-purple",
+        "note": "Official NORQAIN product page lists 37mm case diameter, 44mm lug-to-lug, 11.5mm thickness, 18mm width between lugs for Adventure 37mm N1800.08S02.P01.S01."
+      }
+    ]
+  },
+  {
+    "id": 5565,
+    "brand": "Norqain",
+    "model": "Freedom Chrono 43mm",
+    "reference": "N2200.18S01.C01.V01",
+    "lugToLugMm": 53.1,
+    "caseMm": 43,
+    "thicknessMm": 15,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-60-chrono-43mm-cream",
+        "note": "Official NORQAIN product page lists 43mm case diameter, 53.1mm lug-to-lug, 15mm thickness, 20mm width between lugs for Freedom Chrono 43mm N2200.18S01.C01.V01."
+      }
+    ]
+  },
+  {
+    "id": 5566,
+    "brand": "Norqain",
+    "model": "Freedom Chrono 43mm",
+    "reference": "N2200.18S01.C01.R03",
+    "lugToLugMm": 53.1,
+    "caseMm": 43,
+    "thicknessMm": 15,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-60-chrono-43mm-cream",
+        "note": "Official NORQAIN product page lists 43mm case diameter, 53.1mm lug-to-lug, 15mm thickness, 20mm width between lugs for Freedom Chrono 43mm N2200.18S01.C01.R03."
+      }
+    ]
+  },
+  {
+    "id": 5567,
+    "brand": "Norqain",
+    "model": "Freedom Chrono 43mm",
+    "reference": "N2200.18S01.C01.T02",
+    "lugToLugMm": 53.1,
+    "caseMm": 43,
+    "thicknessMm": 15,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-60-chrono-43mm-cream",
+        "note": "Official NORQAIN product page lists 43mm case diameter, 53.1mm lug-to-lug, 15mm thickness, 20mm width between lugs for Freedom Chrono 43mm N2200.18S01.C01.T02."
+      }
+    ]
+  },
+  {
+    "id": 5568,
+    "brand": "Norqain",
+    "model": "Freedom Chrono 43mm",
+    "reference": "N2200.18S01.C01.T01",
+    "lugToLugMm": 53.1,
+    "caseMm": 43,
+    "thicknessMm": 15,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-60-chrono-43mm-cream",
+        "note": "Official NORQAIN product page lists 43mm case diameter, 53.1mm lug-to-lug, 15mm thickness, 20mm width between lugs for Freedom Chrono 43mm N2200.18S01.C01.T01."
+      }
+    ]
+  },
+  {
+    "id": 5569,
+    "brand": "Norqain",
+    "model": "Freedom Chrono 43mm",
+    "reference": "N2200.18S01.C01.S01",
+    "lugToLugMm": 53.1,
+    "caseMm": 43,
+    "thicknessMm": 15,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-60-chrono-43mm-cream",
+        "note": "Official NORQAIN product page lists 43mm case diameter, 53.1mm lug-to-lug, 15mm thickness, 20mm width between lugs for Freedom Chrono 43mm N2200.18S01.C01.S01."
+      }
+    ]
+  },
+  {
+    "id": 5570,
+    "brand": "Norqain",
+    "model": "Freedom Chrono 43mm",
+    "reference": "N2200.18S01.B01.T01",
+    "lugToLugMm": 53.1,
+    "caseMm": 43,
+    "thicknessMm": 15,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-60-chrono-43mm-black",
+        "note": "Official NORQAIN product page lists 43mm case diameter, 53.1mm lug-to-lug, 15mm thickness, 20mm width between lugs for Freedom Chrono 43mm N2200.18S01.B01.T01."
+      }
+    ]
+  },
+  {
+    "id": 5571,
+    "brand": "Norqain",
+    "model": "Freedom Chrono 43mm",
+    "reference": "N2200.18S01.B01.R03",
+    "lugToLugMm": 53.1,
+    "caseMm": 43,
+    "thicknessMm": 15,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-60-chrono-43mm-black",
+        "note": "Official NORQAIN product page lists 43mm case diameter, 53.1mm lug-to-lug, 15mm thickness, 20mm width between lugs for Freedom Chrono 43mm N2200.18S01.B01.R03."
+      }
+    ]
+  },
+  {
+    "id": 5572,
+    "brand": "Norqain",
+    "model": "Freedom Chrono 43mm",
+    "reference": "N2200.18S01.B01.R01",
+    "lugToLugMm": 53.1,
+    "caseMm": 43,
+    "thicknessMm": 15,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-60-chrono-43mm-black",
+        "note": "Official NORQAIN product page lists 43mm case diameter, 53.1mm lug-to-lug, 15mm thickness, 20mm width between lugs for Freedom Chrono 43mm N2200.18S01.B01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5573,
+    "brand": "Norqain",
+    "model": "Freedom Chrono 43mm",
+    "reference": "N2200.18S01.B01.L10",
+    "lugToLugMm": 53.1,
+    "caseMm": 43,
+    "thicknessMm": 15,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-60-chrono-43mm-black",
+        "note": "Official NORQAIN product page lists 43mm case diameter, 53.1mm lug-to-lug, 15mm thickness, 20mm width between lugs for Freedom Chrono 43mm N2200.18S01.B01.L10."
+      }
+    ]
+  },
+  {
+    "id": 5574,
+    "brand": "Norqain",
+    "model": "Freedom Chrono 43mm",
+    "reference": "N2200.18S01.B01.T02",
+    "lugToLugMm": 53.1,
+    "caseMm": 43,
+    "thicknessMm": 15,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-60-chrono-43mm-black",
+        "note": "Official NORQAIN product page lists 43mm case diameter, 53.1mm lug-to-lug, 15mm thickness, 20mm width between lugs for Freedom Chrono 43mm N2200.18S01.B01.T02."
+      }
+    ]
+  },
+  {
+    "id": 5575,
+    "brand": "Norqain",
+    "model": "Freedom Chrono 43mm",
+    "reference": "N2200.18S01.B01.S01",
+    "lugToLugMm": 53.1,
+    "caseMm": 43,
+    "thicknessMm": 15,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-60-chrono-43mm-black",
+        "note": "Official NORQAIN product page lists 43mm case diameter, 53.1mm lug-to-lug, 15mm thickness, 20mm width between lugs for Freedom Chrono 43mm N2200.18S01.B01.S01."
+      }
+    ]
+  },
+  {
+    "id": 5576,
+    "brand": "Norqain",
+    "model": "Independence Skeleton 42mm",
+    "reference": "N3000.07S01.B01.S01",
+    "lugToLugMm": 48.75,
+    "caseMm": 42,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/independence-skeleton-42mm",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 48.75mm lug-to-lug, 11.8mm thickness, 22mm width between lugs for Independence Skeleton 42mm N3000.07S01.B01.S01."
+      }
+    ]
+  },
+  {
+    "id": 5577,
+    "brand": "Norqain",
+    "model": "Independence Skeleton 42mm",
+    "reference": "N3000.07S01.B01.R01",
+    "lugToLugMm": 48.75,
+    "caseMm": 42,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/independence-skeleton-42mm",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 48.75mm lug-to-lug, 11.8mm thickness, 22mm width between lugs for Independence Skeleton 42mm N3000.07S01.B01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5578,
+    "brand": "Norqain",
+    "model": "Independence Skeleton 42mm",
+    "reference": "N3000.07S01.A01.R01",
+    "lugToLugMm": 48.75,
+    "caseMm": 42,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/independence-skeleton-42mm-blue",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 48.75mm lug-to-lug, 11.8mm thickness, 22mm width between lugs for Independence Skeleton 42mm N3000.07S01.A01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5579,
+    "brand": "Norqain",
+    "model": "Independence Skeleton 42mm",
+    "reference": "N3000.07S01.A01.S01",
+    "lugToLugMm": 48.75,
+    "caseMm": 42,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/independence-skeleton-42mm-blue",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 48.75mm lug-to-lug, 11.8mm thickness, 22mm width between lugs for Independence Skeleton 42mm N3000.07S01.A01.S01."
+      }
+    ]
+  },
+  {
+    "id": 5580,
+    "brand": "Norqain",
+    "model": "Wild ONE 42mm",
+    "reference": "N3000.21Q24.B02.R02",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-42mm-khaki",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.4mm lug-to-lug, 12.3mm thickness, 22mm width between lugs for Wild ONE 42mm N3000.21Q24.B02.R02."
+      }
+    ]
+  },
+  {
+    "id": 5581,
+    "brand": "Norqain",
+    "model": "Wild ONE 42mm",
+    "reference": "N3000.21Q24.B02.R03",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-42mm-khaki",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.4mm lug-to-lug, 12.3mm thickness, 22mm width between lugs for Wild ONE 42mm N3000.21Q24.B02.R03."
+      }
+    ]
+  },
+  {
+    "id": 5582,
+    "brand": "Norqain",
+    "model": "Wild ONE 42mm",
+    "reference": "N3000.21Q24.B02.R01",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-42mm-khaki",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.4mm lug-to-lug, 12.3mm thickness, 22mm width between lugs for Wild ONE 42mm N3000.21Q24.B02.R01."
+      }
+    ]
+  },
+  {
+    "id": 5583,
+    "brand": "Norqain",
+    "model": "Wild ONE 42mm",
+    "reference": "N3000.21Q24.B02.R04",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-42mm-khaki",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.4mm lug-to-lug, 12.3mm thickness, 22mm width between lugs for Wild ONE 42mm N3000.21Q24.B02.R04."
+      }
+    ]
+  },
+  {
+    "id": 5584,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton 42mm",
+    "reference": "N3000.07Q27.B07.R01",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-42mm-turquoise",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.4mm lug-to-lug, 12.3mm thickness, 22mm width between lugs for Wild ONE Skeleton 42mm N3000.07Q27.B07.R01."
+      }
+    ]
+  },
+  {
+    "id": 5585,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton 42mm",
+    "reference": "N3000.07Q27.B07.R02",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-42mm-turquoise",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.4mm lug-to-lug, 12.3mm thickness, 22mm width between lugs for Wild ONE Skeleton 42mm N3000.07Q27.B07.R02."
+      }
+    ]
+  },
+  {
+    "id": 5586,
+    "brand": "Norqain",
+    "model": "Adventure 37mm",
+    "reference": "N1800.08S01.E01.S01",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-37mm-green",
+        "note": "Official NORQAIN product page lists 37mm case diameter, 44mm lug-to-lug, 11.5mm thickness, 18mm width between lugs for Adventure 37mm N1800.08S01.E01.S01."
+      }
+    ]
+  },
+  {
+    "id": 5587,
+    "brand": "Norqain",
+    "model": "Adventure 37mm",
+    "reference": "N1800.08S01.E01.R01",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-37mm-green",
+        "note": "Official NORQAIN product page lists 37mm case diameter, 44mm lug-to-lug, 11.5mm thickness, 18mm width between lugs for Adventure 37mm N1800.08S01.E01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5588,
+    "brand": "Norqain",
+    "model": "Adventure 37mm",
+    "reference": "N1800.08S01.E01.R02",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-37mm-green",
+        "note": "Official NORQAIN product page lists 37mm case diameter, 44mm lug-to-lug, 11.5mm thickness, 18mm width between lugs for Adventure 37mm N1800.08S01.E01.R02."
+      }
+    ]
+  },
+  {
+    "id": 5589,
+    "brand": "Norqain",
+    "model": "Adventure 37mm",
+    "reference": "N1800.08S01.E01.V01",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-37mm-green",
+        "note": "Official NORQAIN product page lists 37mm case diameter, 44mm lug-to-lug, 11.5mm thickness, 18mm width between lugs for Adventure 37mm N1800.08S01.E01.V01."
+      }
+    ]
+  },
+  {
+    "id": 5590,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton Generali Genève Marathon 42mm",
+    "reference": "N3000.07Q32.B15.R01",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-42mm-generali-geneve-marathon",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.4mm lug-to-lug, 12.3mm thickness, 22mm width between lugs for Wild ONE Skeleton Generali Genève Marathon 42mm N3000.07Q32.B15.R01."
+      }
+    ]
+  },
+  {
+    "id": 5591,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton 42mm",
+    "reference": "N3000.07Q31.B13.R01",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-42mm-coral",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.4mm lug-to-lug, 12.3mm thickness, 22mm width between lugs for Wild ONE Skeleton 42mm N3000.07Q31.B13.R01."
+      }
+    ]
+  },
+  {
+    "id": 5592,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton 42mm",
+    "reference": "N3000.07Q31.B13.R02",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-42mm-coral",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.4mm lug-to-lug, 12.3mm thickness, 22mm width between lugs for Wild ONE Skeleton 42mm N3000.07Q31.B13.R02."
+      }
+    ]
+  },
+  {
+    "id": 5593,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton 42mm",
+    "reference": "N3000.07Q20.B14.R01",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-42mm-gecko",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.4mm lug-to-lug, 12.3mm thickness, 22mm width between lugs for Wild ONE Skeleton 42mm N3000.07Q20.B14.R01."
+      }
+    ]
+  },
+  {
+    "id": 5594,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton 42mm",
+    "reference": "N3000.07Q20.B14.R02",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-42mm-gecko",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.4mm lug-to-lug, 12.3mm thickness, 22mm width between lugs for Wild ONE Skeleton 42mm N3000.07Q20.B14.R02."
+      }
+    ]
+  },
+  {
+    "id": 5595,
+    "brand": "Norqain",
+    "model": "Adventure Matterhorn Ultraks",
+    "reference": "N1000.08B01.B02.R01",
+    "lugToLugMm": 50.2,
+    "caseMm": 42,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-42mm-matterhorn-ultraks",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 50.2mm lug-to-lug, 12.8mm thickness, 22mm width between lugs for Adventure Matterhorn Ultraks N1000.08B01.B02.R01."
+      }
+    ]
+  },
+  {
+    "id": 5596,
+    "brand": "Norqain",
+    "model": "Adventure Matterhorn Ultraks",
+    "reference": "N1000.08B01.B02.F01",
+    "lugToLugMm": 50.2,
+    "caseMm": 42,
+    "thicknessMm": 12.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-42mm-matterhorn-ultraks",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 50.2mm lug-to-lug, 12.8mm thickness, 22mm width between lugs for Adventure Matterhorn Ultraks N1000.08B01.B02.F01."
+      }
+    ]
+  },
+  {
+    "id": 5597,
+    "brand": "Norqain",
+    "model": "Adventure 37mm",
+    "reference": "N1800.08S11.P01.S01",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-37mm-purple-gradient-diamond-bezel",
+        "note": "Official NORQAIN product page lists 37mm case diameter, 44mm lug-to-lug, 11.5mm thickness, 18mm width between lugs for Adventure 37mm N1800.08S11.P01.S01."
+      }
+    ]
+  },
+  {
+    "id": 5598,
+    "brand": "Norqain",
+    "model": "Adventure 37mm",
+    "reference": "N1800.08S11.P01.R01",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-37mm-purple-gradient-diamond-bezel",
+        "note": "Official NORQAIN product page lists 37mm case diameter, 44mm lug-to-lug, 11.5mm thickness, 18mm width between lugs for Adventure 37mm N1800.08S11.P01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5599,
+    "brand": "Norqain",
+    "model": "Independence Skeleton Chrono 42mm",
+    "reference": "N3200.40S01.B01.R01",
+    "lugToLugMm": 49.8,
+    "caseMm": 42,
+    "thicknessMm": 13.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/independence-skeleton-chrono-42mm",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.8mm lug-to-lug, 13.9mm thickness, 22mm width between lugs for Independence Skeleton Chrono 42mm N3200.40S01.B01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5600,
+    "brand": "Norqain",
+    "model": "Independence Skeleton Chrono 42mm",
+    "reference": "N3200.40S01.B01.S01",
+    "lugToLugMm": 49.8,
+    "caseMm": 42,
+    "thicknessMm": 13.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/independence-skeleton-chrono-42mm",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.8mm lug-to-lug, 13.9mm thickness, 22mm width between lugs for Independence Skeleton Chrono 42mm N3200.40S01.B01.S01."
+      }
+    ]
+  },
+  {
+    "id": 5601,
+    "brand": "Norqain",
+    "model": "Independence Skeleton 42mm",
+    "reference": "N3000.07S02.G01.R01",
+    "lugToLugMm": 48.75,
+    "caseMm": 42,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/independence-skeleton-42mm-grey-gold",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 48.75mm lug-to-lug, 11.8mm thickness, 22mm width between lugs for Independence Skeleton 42mm N3000.07S02.G01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5602,
+    "brand": "Norqain",
+    "model": "Independence Skeleton 42mm",
+    "reference": "N3000.07S02.G01.S01",
+    "lugToLugMm": 48.75,
+    "caseMm": 42,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/independence-skeleton-42mm-grey-gold",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 48.75mm lug-to-lug, 11.8mm thickness, 22mm width between lugs for Independence Skeleton 42mm N3000.07S02.G01.S01."
+      }
+    ]
+  },
+  {
+    "id": 5603,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton 42mm",
+    "reference": "N3000.07Q42.B18.R01",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-42mm-grey",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.4mm lug-to-lug, 12.3mm thickness, 22mm width between lugs for Wild ONE Skeleton 42mm N3000.07Q42.B18.R01."
+      }
+    ]
+  },
+  {
+    "id": 5604,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton 42mm",
+    "reference": "N3000.07Q42.B18.R02",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-42mm-grey",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.4mm lug-to-lug, 12.3mm thickness, 22mm width between lugs for Wild ONE Skeleton 42mm N3000.07Q42.B18.R02."
+      }
+    ]
+  },
+  {
+    "id": 5605,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton Red Gold",
+    "reference": "N3000.07G04.N01.R01",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-42mm-gold",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.4mm lug-to-lug, 12.3mm thickness, 22mm width between lugs for Wild ONE Skeleton Red Gold N3000.07G04.N01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5606,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton Red Gold",
+    "reference": "N3000.07G04.N01.R02",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-42mm-gold",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.4mm lug-to-lug, 12.3mm thickness, 22mm width between lugs for Wild ONE Skeleton Red Gold N3000.07G04.N01.R02."
+      }
+    ]
+  },
+  {
+    "id": 5607,
+    "brand": "Norqain",
+    "model": "Adventure 37mm",
+    "reference": "N1800.08B02.B01.R01",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-37mm-dlc-gold",
+        "note": "Official NORQAIN product page lists 37mm case diameter, 44mm lug-to-lug, 11.5mm thickness, 18mm width between lugs for Adventure 37mm N1800.08B02.B01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5608,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton 39mm",
+    "reference": "N3001.07Q04.B03.R01",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-hyper-pink",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton 39mm N3001.07Q04.B03.R01."
+      }
+    ]
+  },
+  {
+    "id": 5609,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton 39mm",
+    "reference": "N3001.07Q04.B03.R03",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-hyper-pink",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton 39mm N3001.07Q04.B03.R03."
+      }
+    ]
+  },
+  {
+    "id": 5610,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton 39mm",
+    "reference": "N3001.07Q04.B03.R02",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-hyper-pink",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton 39mm N3001.07Q04.B03.R02."
+      }
+    ]
+  },
+  {
+    "id": 5611,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton 39mm",
+    "reference": "N3001.07Q04.B03.R04",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-hyper-pink",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton 39mm N3001.07Q04.B03.R04."
+      }
+    ]
+  },
+  {
+    "id": 5612,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton Limited Edition 39mm",
+    "reference": "N3001.07Q03.B01.R01",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-mint-limited-edition",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton Limited Edition 39mm N3001.07Q03.B01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5613,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton Limited Edition 39mm",
+    "reference": "N3001.07Q03.B01.R03",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-mint-limited-edition",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton Limited Edition 39mm N3001.07Q03.B01.R03."
+      }
+    ]
+  },
+  {
+    "id": 5614,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton Limited Edition 39mm",
+    "reference": "N3001.07Q03.B01.R02",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-mint-limited-edition",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton Limited Edition 39mm N3001.07Q03.B01.R02."
+      }
+    ]
+  },
+  {
+    "id": 5615,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton Limited Edition 39mm",
+    "reference": "N3001.07Q03.B01.R04",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-mint-limited-edition",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton Limited Edition 39mm N3001.07Q03.B01.R04."
+      }
+    ]
+  },
+  {
+    "id": 5616,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton 39mm",
+    "reference": "N3001.07Q02.B02.R01",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-sky-blue",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton 39mm N3001.07Q02.B02.R01."
+      }
+    ]
+  },
+  {
+    "id": 5617,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton 39mm",
+    "reference": "N3001.07Q02.B02.R03",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-sky-blue",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton 39mm N3001.07Q02.B02.R03."
+      }
+    ]
+  },
+  {
+    "id": 5618,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton 39mm",
+    "reference": "N3001.07Q02.B02.R02",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-sky-blue",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton 39mm N3001.07Q02.B02.R02."
+      }
+    ]
+  },
+  {
+    "id": 5619,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton 39mm",
+    "reference": "N3001.07Q02.B02.R04",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-sky-blue",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton 39mm N3001.07Q02.B02.R04."
+      }
+    ]
+  },
+  {
+    "id": 5620,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton 39mm",
+    "reference": "N3001.07Q05.P01.R01",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-purple-ice-blue",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton 39mm N3001.07Q05.P01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5621,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton 39mm",
+    "reference": "N3001.07Q05.P01.R02",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-purple-ice-blue",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton 39mm N3001.07Q05.P01.R02."
+      }
+    ]
+  },
+  {
+    "id": 5622,
+    "brand": "Norqain",
+    "model": "Independence Skeleton Chrono Limited Edition 42mm",
+    "reference": "N3200.40T02.J01.R01",
+    "lugToLugMm": 49.8,
+    "caseMm": 42,
+    "thicknessMm": 13.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/independence-skeleton-chrono-42mm-titanium-jade-green-limited-edition",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.8mm lug-to-lug, 13.9mm thickness, 22mm width between lugs for Independence Skeleton Chrono Limited Edition 42mm N3200.40T02.J01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5623,
+    "brand": "Norqain",
+    "model": "Independence Skeleton Chrono Limited Edition 42mm",
+    "reference": "N3200.40T02.J01.R02",
+    "lugToLugMm": 49.8,
+    "caseMm": 42,
+    "thicknessMm": 13.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/independence-skeleton-chrono-42mm-titanium-jade-green-limited-edition",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.8mm lug-to-lug, 13.9mm thickness, 22mm width between lugs for Independence Skeleton Chrono Limited Edition 42mm N3200.40T02.J01.R02."
+      }
+    ]
+  },
+  {
+    "id": 5624,
+    "brand": "Norqain",
+    "model": "Independence Skeleton Chrono 42mm",
+    "reference": "N3200.40T03.P01.R01",
+    "lugToLugMm": 49.8,
+    "caseMm": 42,
+    "thicknessMm": 13.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/independence-skeleton-chrono-42mm-titanium-purple",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.8mm lug-to-lug, 13.9mm thickness, 22mm width between lugs for Independence Skeleton Chrono 42mm N3200.40T03.P01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5625,
+    "brand": "Norqain",
+    "model": "Freedom Chrono Enjoy Life \"Ice Cream\" 40mm",
+    "reference": "N2201.19S01.C01.S01",
+    "lugToLugMm": 49.2,
+    "caseMm": 40,
+    "thicknessMm": 14.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-60-chrono-40mm-enjoy-life-special-edition",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 49.2mm lug-to-lug, 14.9mm thickness, 20mm width between lugs for Freedom Chrono Enjoy Life \"Ice Cream\" 40mm N2201.19S01.C01.S01."
+      }
+    ]
+  },
+  {
+    "id": 5626,
+    "brand": "Norqain",
+    "model": "Freedom Chrono Enjoy Life \"Ice Cream\" 40mm",
+    "reference": "N2201.19S01.C01.R02",
+    "lugToLugMm": 49.2,
+    "caseMm": 40,
+    "thicknessMm": 14.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-60-chrono-40mm-enjoy-life-special-edition",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 49.2mm lug-to-lug, 14.9mm thickness, 20mm width between lugs for Freedom Chrono Enjoy Life \"Ice Cream\" 40mm N2201.19S01.C01.R02."
+      }
+    ]
+  },
+  {
+    "id": 5627,
+    "brand": "Norqain",
+    "model": "Freedom Chrono Enjoy Life \"Ice Cream\" 40mm",
+    "reference": "N2201.19S01.C01.L01",
+    "lugToLugMm": 49.2,
+    "caseMm": 40,
+    "thicknessMm": 14.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-60-chrono-40mm-enjoy-life-special-edition",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 49.2mm lug-to-lug, 14.9mm thickness, 20mm width between lugs for Freedom Chrono Enjoy Life \"Ice Cream\" 40mm N2201.19S01.C01.L01."
+      }
+    ]
+  },
+  {
+    "id": 5628,
+    "brand": "Norqain",
+    "model": "Freedom Chrono Enjoy Life \"Ice Cream\" 40mm",
+    "reference": "N2201.19S01.C01.L02",
+    "lugToLugMm": 49.2,
+    "caseMm": 40,
+    "thicknessMm": 14.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-60-chrono-40mm-enjoy-life-special-edition",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 49.2mm lug-to-lug, 14.9mm thickness, 20mm width between lugs for Freedom Chrono Enjoy Life \"Ice Cream\" 40mm N2201.19S01.C01.L02."
+      }
+    ]
+  },
+  {
+    "id": 5629,
+    "brand": "Norqain",
+    "model": "Adventure Swiss Football National Team Limited Edition 37mm",
+    "reference": "N1800.08S03.W01.R01",
+    "lugToLugMm": 44,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-sport-37mm-swiss-football-national-team-limited-edition",
+        "note": "Official NORQAIN product page lists 37mm case diameter, 44mm lug-to-lug, 11.5mm thickness, 18mm width between lugs for Adventure Swiss Football National Team Limited Edition 37mm N1800.08S03.W01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5630,
+    "brand": "Norqain",
+    "model": "Independence Skeleton 40mm",
+    "reference": "N3008.07S01.G01.R01",
+    "lugToLugMm": 46.3,
+    "caseMm": 40,
+    "thicknessMm": 12.05,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/independence-skeleton-40mm-anthracite-turquoise",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 46.3mm lug-to-lug, 12.05mm thickness, 20mm width between lugs for Independence Skeleton 40mm N3008.07S01.G01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5631,
+    "brand": "Norqain",
+    "model": "Independence Skeleton 40mm",
+    "reference": "N3008.07S01.G01.S01",
+    "lugToLugMm": 46.3,
+    "caseMm": 40,
+    "thicknessMm": 12.05,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/independence-skeleton-40mm-anthracite-turquoise",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 46.3mm lug-to-lug, 12.05mm thickness, 20mm width between lugs for Independence Skeleton 40mm N3008.07S01.G01.S01."
+      }
+    ]
+  },
+  {
+    "id": 5632,
+    "brand": "Norqain",
+    "model": "Independence Skeleton 40mm",
+    "reference": "N3008.07B01.G01.R02",
+    "lugToLugMm": 46.3,
+    "caseMm": 40,
+    "thicknessMm": 12.05,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/independence-skeleton-40mm-dlc-anthracite-orange",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 46.3mm lug-to-lug, 12.05mm thickness, 20mm width between lugs for Independence Skeleton 40mm N3008.07B01.G01.R02."
+      }
+    ]
+  },
+  {
+    "id": 5633,
+    "brand": "Norqain",
+    "model": "Independence Skeleton 40mm",
+    "reference": "N3008.07B01.G01.R04",
+    "lugToLugMm": 46.3,
+    "caseMm": 40,
+    "thicknessMm": 12.05,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/independence-skeleton-40mm-dlc-anthracite-orange",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 46.3mm lug-to-lug, 12.05mm thickness, 20mm width between lugs for Independence Skeleton 40mm N3008.07B01.G01.R04."
+      }
+    ]
+  },
+  {
+    "id": 5634,
+    "brand": "Norqain",
+    "model": "Independence Skeleton 40mm",
+    "reference": "N3008.07B01.G01.R01",
+    "lugToLugMm": 46.3,
+    "caseMm": 40,
+    "thicknessMm": 12.05,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/independence-skeleton-40mm-dlc-anthracite-orange",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 46.3mm lug-to-lug, 12.05mm thickness, 20mm width between lugs for Independence Skeleton 40mm N3008.07B01.G01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5635,
+    "brand": "Norqain",
+    "model": "Independence Skeleton 40mm",
+    "reference": "N3008.07B01.G01.R03",
+    "lugToLugMm": 46.3,
+    "caseMm": 40,
+    "thicknessMm": 12.05,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/independence-skeleton-40mm-dlc-anthracite-orange",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 46.3mm lug-to-lug, 12.05mm thickness, 20mm width between lugs for Independence Skeleton 40mm N3008.07B01.G01.R03."
+      }
+    ]
+  },
+  {
+    "id": 5636,
+    "brand": "Norqain",
+    "model": "Freedom Chrono Limited Edition 43mm",
+    "reference": "N2200.19S02.C01.R01",
+    "lugToLugMm": 53.1,
+    "caseMm": 43,
+    "thicknessMm": 15,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-60-chrono-43mm-limited-edition",
+        "note": "Official NORQAIN product page lists 43mm case diameter, 53.1mm lug-to-lug, 15mm thickness, 20mm width between lugs for Freedom Chrono Limited Edition 43mm N2200.19S02.C01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5637,
+    "brand": "Norqain",
+    "model": "Independence Skeleton Chrono 42mm",
+    "reference": "N3200.40S01.O01.R01",
+    "lugToLugMm": 49.8,
+    "caseMm": 42,
+    "thicknessMm": 13.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/independence-skeleton-chrono-42mm-orange",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.8mm lug-to-lug, 13.9mm thickness, 22mm width between lugs for Independence Skeleton Chrono 42mm N3200.40S01.O01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5638,
+    "brand": "Norqain",
+    "model": "Independence Skeleton Chrono 42mm",
+    "reference": "N3200.40S01.O01.S01",
+    "lugToLugMm": 49.8,
+    "caseMm": 42,
+    "thicknessMm": 13.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/independence-skeleton-chrono-42mm-orange",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.8mm lug-to-lug, 13.9mm thickness, 22mm width between lugs for Independence Skeleton Chrono 42mm N3200.40S01.O01.S01."
+      }
+    ]
+  },
+  {
+    "id": 5639,
+    "brand": "Norqain",
+    "model": "Wild ONE Meteorite Special Edition 42mm",
+    "reference": "N3000.21Q47.M02.R01",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-42mm-meteorite-special-edition",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.4mm lug-to-lug, 12.3mm thickness, 22mm width between lugs for Wild ONE Meteorite Special Edition 42mm N3000.21Q47.M02.R01."
+      }
+    ]
+  },
+  {
+    "id": 5640,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton Yellow Gold Limited Edition 39mm",
+    "reference": "N3001.07G06.B01.R01",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-limited-edition-yellowgold",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton Yellow Gold Limited Edition 39mm N3001.07G06.B01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5641,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton Yellow Gold Limited Edition 39mm",
+    "reference": "N3001.07G06.B01.R02",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-limited-edition-yellowgold",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton Yellow Gold Limited Edition 39mm N3001.07G06.B01.R02."
+      }
+    ]
+  },
+  {
+    "id": 5642,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton Yellow Gold Limited Edition 39mm",
+    "reference": "N3001.07G06.B01.R05",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-limited-edition-yellowgold",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton Yellow Gold Limited Edition 39mm N3001.07G06.B01.R05."
+      }
+    ]
+  },
+  {
+    "id": 5643,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton Yellow Gold Limited Edition 39mm",
+    "reference": "N3001.07G06.B01.R03",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-limited-edition-yellowgold",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton Yellow Gold Limited Edition 39mm N3001.07G06.B01.R03."
+      }
+    ]
+  },
+  {
+    "id": 5644,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton Yellow Gold Limited Edition 39mm",
+    "reference": "N3001.07G06.B01.R04",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-limited-edition-yellowgold",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton Yellow Gold Limited Edition 39mm N3001.07G06.B01.R04."
+      }
+    ]
+  },
+  {
+    "id": 5645,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton Yellow Gold Limited Edition 39mm",
+    "reference": "N3001.07G06.B01.R06",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-limited-edition-yellowgold",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton Yellow Gold Limited Edition 39mm N3001.07G06.B01.R06."
+      }
+    ]
+  },
+  {
+    "id": 5646,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton Spengler Cup Limited Edition 42mm",
+    "reference": "N3000.07Q07.B01.R01",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-spengler-cup-limited-edition",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.4mm lug-to-lug, 12.3mm thickness, 22mm width between lugs for Wild ONE Skeleton Spengler Cup Limited Edition 42mm N3000.07Q07.B01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5647,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton Spengler Cup Limited Edition 42mm",
+    "reference": "N3000.07Q07.B01.R02",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-spengler-cup-limited-edition",
+        "note": "Official NORQAIN product page lists 42mm case diameter, 49.4mm lug-to-lug, 12.3mm thickness, 22mm width between lugs for Wild ONE Skeleton Spengler Cup Limited Edition 42mm N3000.07Q07.B01.R02."
+      }
+    ]
+  },
+  {
+    "id": 5648,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton Red Gold 39mm",
+    "reference": "N3001.07G01.W01.R01",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-redgold",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton Red Gold 39mm N3001.07G01.W01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5649,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton Red Gold 39mm",
+    "reference": "N3001.07G01.W01.R02",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-redgold",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton Red Gold 39mm N3001.07G01.W01.R02."
+      }
+    ]
+  },
+  {
+    "id": 5650,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton Red Gold 39mm",
+    "reference": "N3001.07G01.W01.R04",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-redgold",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton Red Gold 39mm N3001.07G01.W01.R04."
+      }
+    ]
+  },
+  {
+    "id": 5651,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton Red Gold 39mm",
+    "reference": "N3001.07G01.W01.R05",
+    "lugToLugMm": 45.75,
+    "caseMm": 39,
+    "thicknessMm": 11.75,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/wild-one-skeleton-39mm-redgold",
+        "note": "Official NORQAIN product page lists 39mm case diameter, 45.75mm lug-to-lug, 11.75mm thickness, 20mm width between lugs for Wild ONE Skeleton Red Gold 39mm N3001.07G01.W01.R05."
+      }
+    ]
+  },
+  {
+    "id": 5652,
+    "brand": "Norqain",
+    "model": "Adventure Chrono NHL Limited Edition 41mm",
+    "reference": "N1500.17S05.W01.R01",
+    "lugToLugMm": 48.9,
+    "caseMm": 41,
+    "thicknessMm": 15,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-chrono-41mm-nhl-limited-edition",
+        "note": "Official NORQAIN product page lists 41mm case diameter, 48.9mm lug-to-lug, 15mm thickness, 20mm width between lugs for Adventure Chrono NHL Limited Edition 41mm N1500.17S05.W01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5653,
+    "brand": "Norqain",
+    "model": "Adventure Chrono NHL Limited Edition 41mm",
+    "reference": "N1500.17S05.W01.S01",
+    "lugToLugMm": 48.9,
+    "caseMm": 41,
+    "thicknessMm": 15,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-chrono-41mm-nhl-limited-edition",
+        "note": "Official NORQAIN product page lists 41mm case diameter, 48.9mm lug-to-lug, 15mm thickness, 20mm width between lugs for Adventure Chrono NHL Limited Edition 41mm N1500.17S05.W01.S01."
+      }
+    ]
+  },
+  {
+    "id": 5654,
+    "brand": "Norqain",
+    "model": "Adventure 40mm",
+    "reference": "N1300.08S01.G01.S01",
+    "lugToLugMm": 48.3,
+    "caseMm": 40,
+    "thicknessMm": 12.55,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-40mm-grey",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 48.3mm lug-to-lug, 12.55mm thickness, 20mm width between lugs for Adventure 40mm N1300.08S01.G01.S01."
+      }
+    ]
+  },
+  {
+    "id": 5655,
+    "brand": "Norqain",
+    "model": "Adventure 40mm",
+    "reference": "N1300.08S01.G01.R01",
+    "lugToLugMm": 48.3,
+    "caseMm": 40,
+    "thicknessMm": 12.55,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-40mm-grey",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 48.3mm lug-to-lug, 12.55mm thickness, 20mm width between lugs for Adventure 40mm N1300.08S01.G01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5656,
+    "brand": "Norqain",
+    "model": "Adventure 40mm",
+    "reference": "N1300.08S02.E01.R01",
+    "lugToLugMm": 48.3,
+    "caseMm": 40,
+    "thicknessMm": 12.55,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-40mm-green",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 48.3mm lug-to-lug, 12.55mm thickness, 20mm width between lugs for Adventure 40mm N1300.08S02.E01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5657,
+    "brand": "Norqain",
+    "model": "Adventure 40mm",
+    "reference": "N1300.08S02.E01.S01",
+    "lugToLugMm": 48.3,
+    "caseMm": 40,
+    "thicknessMm": 12.55,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-40mm-green",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 48.3mm lug-to-lug, 12.55mm thickness, 20mm width between lugs for Adventure 40mm N1300.08S02.E01.S01."
+      }
+    ]
+  },
+  {
+    "id": 5658,
+    "brand": "Norqain",
+    "model": "Adventure NEVEREST Limited Edition 40mm",
+    "reference": "N1300.08B01.B01.R02",
+    "lugToLugMm": 48.3,
+    "caseMm": 40,
+    "thicknessMm": 12.55,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-neverest-40mm-limited-edition",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 48.3mm lug-to-lug, 12.55mm thickness, 20mm width between lugs for Adventure NEVEREST Limited Edition 40mm N1300.08B01.B01.R02."
+      }
+    ]
+  },
+  {
+    "id": 5659,
+    "brand": "Norqain",
+    "model": "Adventure NEVEREST Limited Edition 40mm",
+    "reference": "N1300.08B01.B01.R01",
+    "lugToLugMm": 48.3,
+    "caseMm": 40,
+    "thicknessMm": 12.55,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-neverest-40mm-limited-edition",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 48.3mm lug-to-lug, 12.55mm thickness, 20mm width between lugs for Adventure NEVEREST Limited Edition 40mm N1300.08B01.B01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5660,
+    "brand": "Norqain",
+    "model": "Freedom Chrono Enjoy Life \"Sprinkles\" 40mm",
+    "reference": "N2201.19S04.A01.S01",
+    "lugToLugMm": 49.2,
+    "caseMm": 40,
+    "thicknessMm": 14.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-chrono-40mm-enjoy-life-sprinkles-blue",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 49.2mm lug-to-lug, 14.9mm thickness, 20mm width between lugs for Freedom Chrono Enjoy Life \"Sprinkles\" 40mm N2201.19S04.A01.S01."
+      }
+    ]
+  },
+  {
+    "id": 5661,
+    "brand": "Norqain",
+    "model": "Freedom Chrono Enjoy Life \"Sprinkles\" 40mm",
+    "reference": "N2201.19S04.A01.R01",
+    "lugToLugMm": 49.2,
+    "caseMm": 40,
+    "thicknessMm": 14.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-chrono-40mm-enjoy-life-sprinkles-blue",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 49.2mm lug-to-lug, 14.9mm thickness, 20mm width between lugs for Freedom Chrono Enjoy Life \"Sprinkles\" 40mm N2201.19S04.A01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5662,
+    "brand": "Norqain",
+    "model": "Freedom Chrono Enjoy Life \"Sprinkles\" 40mm",
+    "reference": "N2201.19S04.K01.S01",
+    "lugToLugMm": 49.2,
+    "caseMm": 40,
+    "thicknessMm": 14.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-chrono-40mm-enjoy-life-sprinkles-pink",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 49.2mm lug-to-lug, 14.9mm thickness, 20mm width between lugs for Freedom Chrono Enjoy Life \"Sprinkles\" 40mm N2201.19S04.K01.S01."
+      }
+    ]
+  },
+  {
+    "id": 5663,
+    "brand": "Norqain",
+    "model": "Freedom Chrono Enjoy Life \"Sprinkles\" 40mm",
+    "reference": "N2201.19S04.K01.R01",
+    "lugToLugMm": 49.2,
+    "caseMm": 40,
+    "thicknessMm": 14.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-chrono-40mm-enjoy-life-sprinkles-pink",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 49.2mm lug-to-lug, 14.9mm thickness, 20mm width between lugs for Freedom Chrono Enjoy Life \"Sprinkles\" 40mm N2201.19S04.K01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5664,
+    "brand": "Norqain",
+    "model": "Freedom Chrono Zermatt Unplugged Special Edition 40mm",
+    "reference": "N2201.19S05.B01.S01",
+    "lugToLugMm": 49.2,
+    "caseMm": 40,
+    "thicknessMm": 14.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-chrono-zermatt-unplugged-special-edition",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 49.2mm lug-to-lug, 14.9mm thickness, 20mm width between lugs for Freedom Chrono Zermatt Unplugged Special Edition 40mm N2201.19S05.B01.S01."
+      }
+    ]
+  },
+  {
+    "id": 5665,
+    "brand": "Norqain",
+    "model": "Freedom Chrono Zermatt Unplugged Special Edition 40mm",
+    "reference": "N2201.19S05.B01.T01",
+    "lugToLugMm": 49.2,
+    "caseMm": 40,
+    "thicknessMm": 14.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-chrono-zermatt-unplugged-special-edition",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 49.2mm lug-to-lug, 14.9mm thickness, 20mm width between lugs for Freedom Chrono Zermatt Unplugged Special Edition 40mm N2201.19S05.B01.T01."
+      }
+    ]
+  },
+  {
+    "id": 5666,
+    "brand": "Norqain",
+    "model": "Freedom Chrono Zermatt Unplugged Special Edition 40mm",
+    "reference": "N2201.19S05.B01.T02",
+    "lugToLugMm": 49.2,
+    "caseMm": 40,
+    "thicknessMm": 14.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-chrono-zermatt-unplugged-special-edition",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 49.2mm lug-to-lug, 14.9mm thickness, 20mm width between lugs for Freedom Chrono Zermatt Unplugged Special Edition 40mm N2201.19S05.B01.T02."
+      }
+    ]
+  },
+  {
+    "id": 5667,
+    "brand": "Norqain",
+    "model": "Freedom Chrono Zermatt Unplugged Special Edition 40mm",
+    "reference": "N2201.19S05.B01.R01",
+    "lugToLugMm": 49.2,
+    "caseMm": 40,
+    "thicknessMm": 14.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-chrono-zermatt-unplugged-special-edition",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 49.2mm lug-to-lug, 14.9mm thickness, 20mm width between lugs for Freedom Chrono Zermatt Unplugged Special Edition 40mm N2201.19S05.B01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5668,
+    "brand": "Norqain",
+    "model": "Freedom Chrono Zermatt Unplugged Special Edition 40mm",
+    "reference": "N2201.19S05.B01.R02",
+    "lugToLugMm": 49.2,
+    "caseMm": 40,
+    "thicknessMm": 14.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-chrono-zermatt-unplugged-special-edition",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 49.2mm lug-to-lug, 14.9mm thickness, 20mm width between lugs for Freedom Chrono Zermatt Unplugged Special Edition 40mm N2201.19S05.B01.R02."
+      }
+    ]
+  },
+  {
+    "id": 5669,
+    "brand": "Norqain",
+    "model": "Freedom GMT Enjoy Life \"Holiday\" Limited Edition 40mm",
+    "reference": "N2100.22S02.W01.S01",
+    "lugToLugMm": 49.3,
+    "caseMm": 40,
+    "thicknessMm": 14.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-gmt-enjoy-life-holiday-limited-edition",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 49.3mm lug-to-lug, 14.5mm thickness, 20mm width between lugs for Freedom GMT Enjoy Life \"Holiday\" Limited Edition 40mm N2100.22S02.W01.S01."
+      }
+    ]
+  },
+  {
+    "id": 5670,
+    "brand": "Norqain",
+    "model": "Freedom GMT Enjoy Life \"Holiday\" Limited Edition 40mm",
+    "reference": "N2100.22S02.W01.R01",
+    "lugToLugMm": 49.3,
+    "caseMm": 40,
+    "thicknessMm": 14.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/freedom-gmt-enjoy-life-holiday-limited-edition",
+        "note": "Official NORQAIN product page lists 40mm case diameter, 49.3mm lug-to-lug, 14.5mm thickness, 20mm width between lugs for Freedom GMT Enjoy Life \"Holiday\" Limited Edition 40mm N2100.22S02.W01.R01."
+      }
+    ]
+  },
+  {
+    "id": 5671,
+    "brand": "Norqain",
+    "model": "Adventure Chrono Swiss Football National Team Limited Edition 41mm",
+    "reference": "N1500.19S01.E01.S01",
+    "lugToLugMm": 48.9,
+    "caseMm": 41,
+    "thicknessMm": 15,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://norqain.com/products/adventure-chrono-swiss-football-national-team-limited-edition",
+        "note": "Official NORQAIN product page lists 41mm case diameter, 48.9mm lug-to-lug, 15mm thickness, 20mm width between lugs for Adventure Chrono Swiss Football National Team Limited Edition 41mm N1500.19S01.E01.S01."
       }
     ]
   }

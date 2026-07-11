@@ -19,6 +19,7 @@
     "kv:create:session": "wrangler kv namespace create SESSION",
     "admin:sql": "node scripts/create-admin-sql.mjs",
     "data:duplicates": "node scripts/watch-duplicate-candidates.mjs",
+    "data:import:norqain": "node scripts/import-norqain.mjs",
     "data:seed-sql": "node scripts/generate-seed-sql.mjs",
     "seo:indexnow": "node scripts/submit-indexnow.mjs",
     "monitor:keywords": "node scripts/keyword-monitor.mjs",
