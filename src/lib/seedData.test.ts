@@ -144,14 +144,16 @@ describe("watch seed data integrity", () => {
       ["grand-seiko-evolution-9-spring-drive-5-days-40mm", [4]],
       ["grand-seiko-spring-drive-u-f-a-37mm", [4]],
       ["grand-seiko-62gs-mechanical-hi-beat-36000-38mm", [4]],
-      ["fears-brunswick-40-5-jump-hour", [4]],
+      // The two delugs-sourced colorways carry no thickness, so they display
+      // as a second group next to the four fully-measured rows.
+      ["fears-brunswick-40-5-jump-hour", [2, 4]],
       ["mido-multifort-tv-big-date", [6]],
       ["sternglas-naos-automatic-38mm-black", [2]],
       ["sternglas-naos-automatic-38mm-blue", [2]],
       ["sternglas-naos-automatic-38mm-white", [4]],
       ["breitling-chronomat-b01-42-nfl", [26]],
-      ["swatch-moonswatch", [20]],
-      ["christopher-ward-bel-canto-c1", [1, 19]],
+      ["swatch-moonswatch", [21]],
+      ["christopher-ward-bel-canto-c1", [2, 19]],
       ["seiko-5-sports", [20]]
     ] as const;
 
