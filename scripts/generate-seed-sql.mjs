@@ -3,6 +3,9 @@ import brandSearchAliases from "../data/brand-search-aliases.json" with { type: 
 import { writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { resolve } from "node:path";
+// Shared with the app so runtime search text and the D1 search_text column
+// cannot drift. Requires Node with TypeScript type stripping (>= 23.6).
+import { buildWatchSearchText, getWatchModelSlug, slugify } from "../src/lib/watchText.ts";
 
 const RETIRED_WATCH_IDS = [7, 14, 17, 18, 1462, 1463, 1464, 1468, 1469, 1933, 1972, 2001, 2002, 2761, 4463, 4477, 4486];
 const brandArg = process.argv.find((argument) => argument.startsWith("--brand="));
@@ -31,59 +34,8 @@ const WATCH_COLUMNS = [
   "status"
 ];
 
-const METRICS = [
-  ["lugToLugMm", "Lug-to-lug"],
-  ["caseMm", "Case"],
-  ["thicknessMm", "Thickness"],
-  ["lugWidthMm", "Lug width"]
-];
-
-function slugify(value) {
-  return String(value)
-    .trim()
-    .toLowerCase()
-    .replace(/&/g, " and ")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
-}
-
-function normalizeSearch(value) {
-  return String(value)
-    .trim()
-    .toLowerCase()
-    .normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-z0-9]+/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-function transliterateGermanSearch(value) {
-  return String(value).toLowerCase().replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/ß/g, "ss");
-}
-
-function normalizeSearchWithAliases(value) {
-  const normalized = normalizeSearch(value);
-  const germanTransliterated = normalizeSearch(transliterateGermanSearch(value));
-
-  return [normalized, germanTransliterated]
-    .filter((part, index, parts) => part.length > 0 && parts.indexOf(part) === index)
-    .join(" ");
-}
-
 function optionalString(value) {
   return typeof value === "string" && value.trim() ? value.trim() : null;
-}
-
-function getWatchSearchText(watch) {
-  const metricText = METRICS.flatMap(([key, label]) => {
-    const value = watch[key];
-    return value == null ? [] : [label, String(value), `${value}mm`];
-  }).join(" ");
-
-  return normalizeSearchWithAliases(
-    `${watch.brand} ${(brandSearchAliases[watch.brand] ?? []).join(" ")} ${watch.model} ${watch.canonicalModel ?? ""} ${watch.modelGroup ?? ""} ${watch.variant ?? ""} ${watch.reference} ${metricText}`
-  );
 }
 
 function sqlValue(value) {
@@ -102,9 +54,9 @@ function watchRow(watch) {
     optionalString(watch.variant),
     watch.reference,
     slugify(watch.brand),
-    slugify(watch.model) || slugify(watch.reference),
+    getWatchModelSlug(watch),
     slugify(watch.reference),
-    getWatchSearchText(watch),
+    buildWatchSearchText(watch, brandSearchAliases),
     watch.lugToLugMm,
     watch.caseMm,
     watch.thicknessMm,

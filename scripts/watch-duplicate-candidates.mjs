@@ -1,4 +1,5 @@
 import seed from "../data/watches.seed.json" with { type: "json" };
+import { compactReference } from "../src/lib/watchText.ts";
 
 const DEFAULT_BRANDS = new Set(["tissot", "citizen", "seiko"]);
 const EXACT_ONLY = process.argv.includes("--exact");
@@ -11,10 +12,6 @@ function normalize(value) {
     .replace(/\b(mm|automatic|auto|powermatic|mechanical|watch|date|dial|bracelet|strap)\b/g, " ")
     .replace(/\s+/g, " ")
     .trim();
-}
-
-function compactReference(reference) {
-  return String(reference).replace(/[^a-z0-9]+/gi, "").toUpperCase();
 }
 
 function dimensionKey(watch) {

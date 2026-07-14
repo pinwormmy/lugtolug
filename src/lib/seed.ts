@@ -1,6 +1,7 @@
 import seed from "../../data/watches.seed.json";
 import type { WatchWithSources } from "@/types";
 import { slugify } from "@/lib/slug";
+import { getWatchModelSlug } from "@/lib/watchText";
 import { watchMatchesSearchQuery } from "@/lib/watch";
 
 interface SeedSource {
@@ -21,7 +22,7 @@ export const seedWatches: WatchWithSources[] = seed.map((watch) => ({
   variant: optionalString("variant" in watch ? watch.variant : null),
   reference: watch.reference,
   brandSlug: slugify(watch.brand),
-  modelSlug: slugify(watch.model) || slugify(watch.reference),
+  modelSlug: getWatchModelSlug(watch),
   referenceSlug: slugify(watch.reference),
   lugToLugMm: watch.lugToLugMm,
   caseMm: watch.caseMm,

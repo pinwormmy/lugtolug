@@ -1,12 +1,11 @@
 import type { Watch } from "@/types";
+import { compactReference } from "@/lib/watchText";
+
+export { compactReference };
 
 export interface WatchReferenceIdentityParts {
   brandSlug: string;
   reference: string;
-}
-
-export function compactReference(reference: string): string {
-  return reference.replace(/[^a-z0-9]+/gi, "").toUpperCase();
 }
 
 export function hasProductNumberIdentity(reference: string): boolean {
