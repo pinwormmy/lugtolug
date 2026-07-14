@@ -34962,11 +34962,15 @@
     "lugToLugMm": 43.6,
     "caseMm": 39.4,
     "thicknessMm": 9.9,
-    "lugWidthMm": null,
+    "lugWidthMm": 19,
     "sources": [
       {
         "sourceUrl": "https://timeandtidewatches.com/king-seiko-ks1969-sje109-sje111-sje113-sje115-hands-on/",
         "note": "Time+Tide article table lists reference SJE115 with case dimensions 39.4mm (D) x 9.9mm (T) x 43.6mm (LTL)."
+      },
+      {
+        "sourceUrl": "https://www.seikowatches.com/kr-ko/products/kingseiko/sje109j1",
+        "note": "Lug width 19 mm taken from the sibling record SJE109 (id 886), which shares the same seiko-king-seiko-ks1969-39-4mm case."
       }
     ],
     "canonicalModel": "King Seiko KS1969 39.4mm",
@@ -37292,7 +37296,7 @@
     "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.9,
-    "lugWidthMm": null,
+    "lugWidthMm": 12,
     "sources": [
       {
         "sourceUrl": "https://timeandtidewatches.com/tissot-prx-40mm-ufo-robot-grendizer-special-edition-hands-on/",
@@ -37301,6 +37305,10 @@
       {
         "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
         "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
+      },
+      {
+        "sourceUrl": "https://www.tissotwatches.com/ja-jp/T1374071104100.html",
+        "note": "Lug width 12 mm taken from the sibling record T137.407.11.041.00 (id 854), which shares the same tissot-prx-powermatic-80-40mm case."
       }
     ],
     "modelGroup": "tissot-prx-powermatic-80-40mm",
@@ -37315,7 +37323,7 @@
     "lugToLugMm": 51.5,
     "caseMm": 40,
     "thicknessMm": 10.9,
-    "lugWidthMm": null,
+    "lugWidthMm": 12,
     "sources": [
       {
         "sourceUrl": "https://timeandtidewatches.com/tissot-prx-powermatic-80-green-hands-on/",
@@ -37324,6 +37332,10 @@
       {
         "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
         "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
+      },
+      {
+        "sourceUrl": "https://www.tissotwatches.com/ja-jp/T1374071104100.html",
+        "note": "Lug width 12 mm taken from the sibling record T137.407.11.041.00 (id 854), which shares the same tissot-prx-powermatic-80-40mm case."
       }
     ],
     "modelGroup": "tissot-prx-powermatic-80-40mm",
@@ -63558,12 +63570,16 @@
     "reference": "C60-42ADC31B0KK0-VT1",
     "lugToLugMm": 49.3,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 11.5,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 42mm case diameter, 49.3mm lug-to-lug distance, 22mm lug width for Christopher Ward Trident C60 Trident Pro 300 C60-42ADC31B0KK0-VT1."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Pro-300/C60-42ADA31S0KW1-B0.html",
+        "note": "Thickness 11.5 mm taken from the sibling record C60-42ADA31S0KW1-B0 (id 3791), which shares the same christopher-ward-trident-c60-pro-300 case."
       }
     ],
     "modelGroup": "christopher-ward-trident-c60-pro-300",
@@ -63832,12 +63848,16 @@
     "reference": "C60-42ADC31B0BB0-VT",
     "lugToLugMm": 49.3,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 11.5,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 42mm case diameter, 49.3mm lug-to-lug distance, 22mm lug width for Christopher Ward Trident C60 C60-42ADC31B0BB0-VT."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Pro-300/C60-42ADA31S0KW1-B0.html",
+        "note": "Thickness 11.5 mm taken from the sibling record C60-42ADA31S0KW1-B0 (id 3791), which shares the same christopher-ward-trident-c60-pro-300 case."
       }
     ]
   },
@@ -63886,12 +63906,16 @@
     "reference": "C60-41C3H31T0KK0-B0",
     "lugToLugMm": 47.9,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 10.85,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 47.9mm lug-to-lug distance, 22mm lug width for Christopher Ward Trident C60 Trident Lumière C60-41C3H31T0KK0-B0."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Lumi%C3%A8re/C60-41C3H31T0KO0-RKO.html",
+        "note": "Thickness 10.85 mm taken from the sibling record C60-41C3H31T0KO0-RKO (id 4005), which shares the same christopher-ward-trident-c60-lumi-re case."
       }
     ]
   },
@@ -63922,12 +63946,16 @@
     "reference": "C12-38ADA1-S00W0-B0",
     "lugToLugMm": 43.3,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 9.95,
     "lugWidthMm": 23,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.3mm lug-to-lug distance, 23mm lug width for Christopher Ward The Twelve C12 C12-38ADA1-S00W0-B0."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-38ADA1-S00W0-RK.html",
+        "note": "Thickness 9.95 mm taken from the sibling record C12-38ADA1-S00W0-RK (id 3938), which shares the same christopher-ward-the-twelve-c12 case."
       }
     ]
   },
@@ -63940,12 +63968,16 @@
     "reference": "C12-38ADA1-S00B1-B0",
     "lugToLugMm": 43.3,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 9.95,
     "lugWidthMm": 23,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.3mm lug-to-lug distance, 23mm lug width for Christopher Ward The Twelve C12 The Twelve 38 C12-38ADA1-S00B1-B0."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-38ADA1-S00W0-RK.html",
+        "note": "Thickness 9.95 mm taken from the sibling record C12-38ADA1-S00W0-B0 (id 3816), which shares the same christopher-ward-the-twelve-c12 case."
       }
     ]
   },
@@ -63996,12 +64028,16 @@
     "reference": "C65-38A3H3-S00K0-B0",
     "lugToLugMm": 43.7,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 11.9,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.7mm lug-to-lug distance, 20mm lug width for Christopher Ward Dune C65 Sandhurst Series 2 C65-38A3H3-S00K0-B0."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Sandhurst-Series-2/C65-38A3H3-S00K0-VC.html",
+        "note": "Thickness 11.9 mm taken from the sibling record C65-38A3H3-S00K0-VC (id 3901), which shares the same christopher-ward-dune-c65-sandhurst-series-2 case."
       }
     ]
   },
@@ -64032,12 +64068,16 @@
     "reference": "C12-38ADA1-S00B0-B0",
     "lugToLugMm": 43.3,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 9.95,
     "lugWidthMm": 23,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.3mm lug-to-lug distance, 23mm lug width for Christopher Ward The Twelve C12 C12-38ADA1-S00B0-B0."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-38ADA1-S00W0-RK.html",
+        "note": "Thickness 9.95 mm taken from the sibling record C12-38ADA1-S00W0-B0 (id 3816), which shares the same christopher-ward-the-twelve-c12 case."
       }
     ]
   },
@@ -64050,12 +64090,16 @@
     "reference": "C60-42ADA31S0BB2-B0",
     "lugToLugMm": 49.3,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 11.5,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 42mm case diameter, 49.3mm lug-to-lug distance, 22mm lug width for Christopher Ward Trident C60 Pro 300 C60-42ADA31S0BB2-B0."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Pro-300/C60-42ADA31S0KW1-B0.html",
+        "note": "Thickness 11.5 mm taken from the sibling record C60-42ADA31S0KW1-B0 (id 3791), which shares the same christopher-ward-trident-c60-pro-300 case."
       }
     ]
   },
@@ -64262,12 +64306,16 @@
     "reference": "C60-42ADA31S0KK1-B0",
     "lugToLugMm": 49.3,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 11.5,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 42mm case diameter, 49.3mm lug-to-lug distance, 22mm lug width for Christopher Ward Trident C60 Pro 300 C60-42ADA31S0KK1-B0."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Pro-300/C60-42ADA31S0KW1-B0.html",
+        "note": "Thickness 11.5 mm taken from the sibling record C60-42ADA31S0KW1-B0 (id 3791), which shares the same christopher-ward-trident-c60-pro-300 case."
       }
     ]
   },
@@ -64280,12 +64328,16 @@
     "reference": "C60-41C3H31T0BB0-B0",
     "lugToLugMm": 47.9,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 10.85,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 47.9mm lug-to-lug distance, 22mm lug width for Christopher Ward Trident C60 Lumière C60-41C3H31T0BB0-B0."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Lumi%C3%A8re/C60-41C3H31T0KO0-RKO.html",
+        "note": "Thickness 10.85 mm taken from the sibling record C60-41C3H31T0KK0-B0 (id 3814), which shares the same christopher-ward-trident-c60-lumi-re case."
       }
     ]
   },
@@ -64336,12 +64388,16 @@
     "reference": "C65-38A3H4-S00B0-B0",
     "lugToLugMm": 43.6,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 11.7,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.6mm lug-to-lug distance, 20mm lug width for Christopher Ward Dune C65 Dune Aeolian C65-38A3H4-S00B0-B0."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Dune-Aeolian/C65-38A3H4-S00E0-WC.html",
+        "note": "Thickness 11.7 mm taken from the sibling record C65-38A3H4-S00E0-WC (id 3803), which shares the same christopher-ward-dune-c65-aeolian case."
       }
     ]
   },
@@ -64354,12 +64410,16 @@
     "reference": "C60-41C3H31T0KO0-B0",
     "lugToLugMm": 47.9,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 10.85,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 47.9mm lug-to-lug distance, 22mm lug width for Christopher Ward Trident C60 Lumière C60-41C3H31T0KO0-B0."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Lumi%C3%A8re/C60-41C3H31T0KO0-RKO.html",
+        "note": "Thickness 10.85 mm taken from the sibling record C60-41C3H31T0KK0-B0 (id 3814), which shares the same christopher-ward-trident-c60-lumi-re case."
       }
     ]
   },
@@ -64569,12 +64629,16 @@
     "reference": "C12-40ADA1-S00K0-B0",
     "lugToLugMm": 44.5,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 9.95,
     "lugWidthMm": 25,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 44.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The Twelve 40 C12-40ADA1-S00K0-B0."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-40ADA1-S00B1-B0.html",
+        "note": "Thickness 9.95 mm taken from the sibling record C12-40ADA1-S00B1-B0 (id 3830), which shares the same christopher-ward-the-twelve-c12 case."
       }
     ]
   },
@@ -64659,12 +64723,16 @@
     "reference": "C60-42ADA31S0BB1-RO",
     "lugToLugMm": 49.3,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 11.5,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 42mm case diameter, 49.3mm lug-to-lug distance, 22mm lug width for Christopher Ward Trident C60 Pro 300 C60-42ADA31S0BB1-RO."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Pro-300/C60-42ADA31S0KW1-B0.html",
+        "note": "Thickness 11.5 mm taken from the sibling record C60-42ADA31S0KW1-B0 (id 3791), which shares the same christopher-ward-trident-c60-pro-300 case."
       }
     ]
   },
@@ -64853,12 +64921,16 @@
     "reference": "C60-42ADC31B0KK0-HK",
     "lugToLugMm": 49.3,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 11.5,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 42mm case diameter, 49.3mm lug-to-lug distance, 22mm lug width for Christopher Ward Trident C60 Pro 300 C60-42ADC31B0KK0-HK."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Pro-300/C60-42ADA31S0KW1-B0.html",
+        "note": "Thickness 11.5 mm taken from the sibling record C60-42ADA31S0KW1-B0 (id 3791), which shares the same christopher-ward-trident-c60-pro-300 case."
       }
     ]
   },
@@ -65210,12 +65282,16 @@
     "reference": "C01-41APT3-T00V0-B0",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto Classic C01-41APT3-T00V0-B0."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/this-years-best-watches/C1-Bel-Canto/C01-41APT0-T00B1-VLB.html",
+        "note": "Thickness 13 mm taken from the sibling record C01-41APT0-T00B1-VLB (id 3799), which shares the same christopher-ward-bel-canto-c1 case."
       }
     ],
     "modelGroup": "christopher-ward-bel-canto-c1",
@@ -65232,12 +65308,16 @@
     "reference": "C12-38ADA1-S00V1-BRV",
     "lugToLugMm": 43.3,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 9.95,
     "lugWidthMm": 23,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.3mm lug-to-lug distance, 23mm lug width for Christopher Ward The Twelve C12 Ice Cream Twelve 38 C12-38ADA1-S00V1-BRV."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-38ADA1-S00W0-RK.html",
+        "note": "Thickness 9.95 mm taken from the sibling record C12-38ADA1-S00W0-B0 (id 3816), which shares the same christopher-ward-the-twelve-c12 case."
       }
     ]
   },
@@ -65282,12 +65362,16 @@
     "reference": "C12-40ADA1-S00B2-B0",
     "lugToLugMm": 44.5,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 9.95,
     "lugWidthMm": 25,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 44.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The Twelve 40 C12-40ADA1-S00B2-B0."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-40ADA1-S00B1-B0.html",
+        "note": "Thickness 9.95 mm taken from the sibling record C12-40ADA1-S00B1-B0 (id 3830), which shares the same christopher-ward-the-twelve-c12 case."
       }
     ]
   },
@@ -65300,12 +65384,16 @@
     "reference": "C63-39QCC3-S00B0-B1",
     "lugToLugMm": 45.8,
     "caseMm": 39,
-    "thicknessMm": null,
+    "thicknessMm": 11.55,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 39mm case diameter, 45.8mm lug-to-lug distance, 20mm lug width for Christopher Ward Sealander C63 Valour C63-39QCC3-S00B0-B1."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C63-Valour/C63-39QCC3-S00K0-B0.html",
+        "note": "Thickness 11.55 mm taken from the sibling record C63-39QCC3-S00K0-B0 (id 3873), which shares the same christopher-ward-sealander-c63-valour case."
       }
     ]
   },
@@ -65336,12 +65424,16 @@
     "reference": "C12-40ADA1-S00B0-RB",
     "lugToLugMm": 44.5,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 9.95,
     "lugWidthMm": 25,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 44.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The Twelve 40 C12-40ADA1-S00B0-RB."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-40ADA1-S00B1-B0.html",
+        "note": "Thickness 9.95 mm taken from the sibling record C12-40ADA1-S00B1-B0 (id 3830), which shares the same christopher-ward-the-twelve-c12 case."
       }
     ]
   },
@@ -65390,12 +65482,16 @@
     "reference": "C60-42ADC31B0BB0-HB",
     "lugToLugMm": 49.3,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 11.5,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 42mm case diameter, 49.3mm lug-to-lug distance, 22mm lug width for Christopher Ward Trident C60 Pro 300 C60-42ADC31B0BB0-HB."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Pro-300/C60-42ADA31S0KW1-B0.html",
+        "note": "Thickness 11.5 mm taken from the sibling record C60-42ADA31S0KW1-B0 (id 3791), which shares the same christopher-ward-trident-c60-pro-300 case."
       }
     ]
   },
@@ -65490,12 +65586,16 @@
     "reference": "C60-42ADA31S0KW1-RO",
     "lugToLugMm": 49.3,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 11.5,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 42mm case diameter, 49.3mm lug-to-lug distance, 22mm lug width for Christopher Ward Trident C60 Pro 300 C60-42ADA31S0KW1-RO."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Pro-300/C60-42ADA31S0KW1-B0.html",
+        "note": "Thickness 11.5 mm taken from the sibling record C60-42ADA31S0KW1-B0 (id 3791), which shares the same christopher-ward-trident-c60-pro-300 case."
       }
     ]
   },
@@ -65562,12 +65662,16 @@
     "reference": "C12-38ADA1-S00A1-RK",
     "lugToLugMm": 43.3,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 9.95,
     "lugWidthMm": 23,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.3mm lug-to-lug distance, 23mm lug width for Christopher Ward The Twelve C12 The Twelve 38 C12-38ADA1-S00A1-RK."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-38ADA1-S00W0-RK.html",
+        "note": "Thickness 9.95 mm taken from the sibling record C12-38ADA1-S00W0-B0 (id 3816), which shares the same christopher-ward-the-twelve-c12 case."
       }
     ]
   },
@@ -65712,12 +65816,16 @@
     "reference": "C12-40ADA1-S00A0-RK",
     "lugToLugMm": 44.5,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 9.95,
     "lugWidthMm": 25,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 44.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 C12-40ADA1-S00A0-RK."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-40ADA1-S00B1-B0.html",
+        "note": "Thickness 9.95 mm taken from the sibling record C12-40ADA1-S00B1-B0 (id 3830), which shares the same christopher-ward-the-twelve-c12 case."
       }
     ]
   },
@@ -65816,12 +65924,16 @@
     "reference": "C12-41A5D1-S00B0-B0",
     "lugToLugMm": 46.3,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 12.3,
     "lugWidthMm": 25,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 46.3mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 C12-41A5D1-S00B0-B0."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/watch-collectors/Twelve-X-%28Ti%29/C12-41A5D0-T00K0-B0.html",
+        "note": "Thickness 12.3 mm taken from the sibling record C12-41A5D0-T00K0-B0 (id 3829), which shares the same christopher-ward-the-twelve-x-c12 case."
       }
     ]
   },
@@ -66280,12 +66392,16 @@
     "reference": "C12-40ADA1-S00K0-RK",
     "lugToLugMm": 44.5,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 9.95,
     "lugWidthMm": 25,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 44.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The Twelve 40 C12-40ADA1-S00K0-RK."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-40ADA1-S00B1-B0.html",
+        "note": "Thickness 9.95 mm taken from the sibling record C12-40ADA1-S00B1-B0 (id 3830), which shares the same christopher-ward-the-twelve-c12 case."
       }
     ]
   },
@@ -66383,12 +66499,16 @@
     "reference": "C65-38A3H3-S00K1-B0",
     "lugToLugMm": 43.7,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 11.9,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.7mm lug-to-lug distance, 20mm lug width for Christopher Ward Dune C65 Cranwell Series 2 C65-38A3H3-S00K1-B0."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Cranwell-Series-2/C65-38A3H3-S00K1-VC.html",
+        "note": "Thickness 11.9 mm taken from the sibling record C65-38A3H3-S00K1-VC (id 3946), which shares the same christopher-ward-dune-c65-cranwell-series-2 case."
       }
     ]
   },
@@ -66417,12 +66537,16 @@
     "reference": "C12-38ADA1-S00A1-B0",
     "lugToLugMm": 43.3,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 9.95,
     "lugWidthMm": 23,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.3mm lug-to-lug distance, 23mm lug width for Christopher Ward The Twelve C12 The Twelve 38 C12-38ADA1-S00A1-B0."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-38ADA1-S00W0-RK.html",
+        "note": "Thickness 9.95 mm taken from the sibling record C12-38ADA1-S00W0-B0 (id 3816), which shares the same christopher-ward-the-twelve-c12 case."
       }
     ]
   },
@@ -66451,12 +66575,16 @@
     "reference": "C65-38A3H4-S00G0-B0",
     "lugToLugMm": 43.6,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 11.7,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.6mm lug-to-lug distance, 20mm lug width for Christopher Ward Dune C65 Dune Aeolian C65-38A3H4-S00G0-B0."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C65-Dune-Aeolian/C65-38A3H4-S00E0-WC.html",
+        "note": "Thickness 11.7 mm taken from the sibling record C65-38A3H4-S00E0-WC (id 3803), which shares the same christopher-ward-dune-c65-aeolian case."
       }
     ]
   },
@@ -66649,12 +66777,16 @@
     "reference": "C60-42ADA31S0BB1-HBO",
     "lugToLugMm": 49.3,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 11.5,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 42mm case diameter, 49.3mm lug-to-lug distance, 22mm lug width for Christopher Ward Trident C60 Pro 300 C60-42ADA31S0BB1-HBO."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/C60-Trident-Pro-300/C60-42ADA31S0KW1-B0.html",
+        "note": "Thickness 11.5 mm taken from the sibling record C60-42ADA31S0KW1-B0 (id 3791), which shares the same christopher-ward-trident-c60-pro-300 case."
       }
     ]
   },
@@ -66699,12 +66831,16 @@
     "reference": "C12-38ADA1-S00B1-RK",
     "lugToLugMm": 43.3,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 9.95,
     "lugWidthMm": 23,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.3mm lug-to-lug distance, 23mm lug width for Christopher Ward The Twelve C12 The Twelve 38 C12-38ADA1-S00B1-RK."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-38ADA1-S00W0-RK.html",
+        "note": "Thickness 9.95 mm taken from the sibling record C12-38ADA1-S00W0-B0 (id 3816), which shares the same christopher-ward-the-twelve-c12 case."
       }
     ]
   },
@@ -66773,12 +66909,16 @@
     "reference": "C12-40ADA1-S00B2-RK",
     "lugToLugMm": 44.5,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 9.95,
     "lugWidthMm": 25,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 44.5mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 The Twelve 40 C12-40ADA1-S00B2-RK."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-40ADA1-S00B1-B0.html",
+        "note": "Thickness 9.95 mm taken from the sibling record C12-40ADA1-S00B1-B0 (id 3830), which shares the same christopher-ward-the-twelve-c12 case."
       }
     ]
   },
@@ -66791,12 +66931,16 @@
     "reference": "C12-41A5D1-S00B0-RB",
     "lugToLugMm": 46.3,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 12.3,
     "lugWidthMm": 25,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 46.3mm lug-to-lug distance, 25mm lug width for Christopher Ward The Twelve C12 C12-41A5D1-S00B0-RB."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/watch-collectors/Twelve-X-%28Ti%29/C12-41A5D0-T00K0-B0.html",
+        "note": "Thickness 12.3 mm taken from the sibling record C12-41A5D0-T00K0-B0 (id 3829), which shares the same christopher-ward-the-twelve-x-c12 case."
       }
     ]
   },
@@ -67210,12 +67354,16 @@
     "reference": "C12-38ADA1-S00B1-RW",
     "lugToLugMm": 43.3,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 9.95,
     "lugWidthMm": 23,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 43.3mm lug-to-lug distance, 23mm lug width for Christopher Ward The Twelve C12 C12-38ADA1-S00B1-RW."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/The-Twelve/C12-38ADA1-S00W0-RK.html",
+        "note": "Thickness 9.95 mm taken from the sibling record C12-38ADA1-S00W0-B0 (id 3816), which shares the same christopher-ward-the-twelve-c12 case."
       }
     ]
   },
@@ -67550,12 +67698,16 @@
     "reference": "C01-41APT0-T00B1-VLB-Skeletonised-Openwork",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 41mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Christopher Ward Bel Canto C1 Bel Canto C01-41APT0-T00B1-VLB-Skeletonised-Openwork."
+      },
+      {
+        "sourceUrl": "https://www.christopherward.com/int/this-years-best-watches/C1-Bel-Canto/C01-41APT0-T00B1-VLB.html",
+        "note": "Thickness 13 mm taken from the sibling record C01-41APT0-T00B1-VLB (id 3799), which shares the same christopher-ward-bel-canto-c1 case."
       }
     ],
     "variant": "Skeletonised Openwork"
@@ -70359,12 +70511,16 @@
     "reference": "Brunswick 40.5 Jump Hour Raven Black",
     "lugToLugMm": 47,
     "caseMm": 40.5,
-    "thicknessMm": null,
+    "thicknessMm": 12.8,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40.5mm case diameter, 47mm lug-to-lug distance, 20mm lug width for Fears Brunswick Brunswick Jump Hour Raven Black Brunswick 40.5 Jump Hour Raven Black."
+      },
+      {
+        "sourceUrl": "https://timeandtidewatches.com/fears-geneva-watch-days-2025-releases-introducing/",
+        "note": "Thickness 12.8 mm taken from the sibling record BS240.500A (id 1798), which shares the same fears-brunswick-40-5-jump-hour case."
       }
     ],
     "modelGroup": "fears-brunswick-40-5-jump-hour",
@@ -70432,12 +70588,16 @@
     "reference": "Brunswick 40.5 Jump Hour Coral Lacquer",
     "lugToLugMm": 47,
     "caseMm": 40.5,
-    "thicknessMm": null,
+    "thicknessMm": 12.8,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40.5mm case diameter, 47mm lug-to-lug distance, 20mm lug width for Fears Brunswick Brunswick Jump Hour Coral Lacquer Brunswick 40.5 Jump Hour Coral Lacquer."
+      },
+      {
+        "sourceUrl": "https://timeandtidewatches.com/fears-geneva-watch-days-2025-releases-introducing/",
+        "note": "Thickness 12.8 mm taken from the sibling record BS240.500A (id 1798), which shares the same fears-brunswick-40-5-jump-hour case."
       }
     ],
     "modelGroup": "fears-brunswick-40-5-jump-hour",
@@ -72111,12 +72271,16 @@
     "reference": "SLGH017",
     "lugToLugMm": 47,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 11.7,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 47mm lug-to-lug distance, 22mm lug width for Grand Seiko Evolution 9 Evolution 9 Collection SLGH017."
+      },
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slgh005g",
+        "note": "Thickness 11.7 mm taken from the sibling record SLGH005 (id 126), which shares the same grand-seiko-hi-beat-36000-80-hours-40mm case."
       }
     ]
   },
@@ -72562,12 +72726,16 @@
     "reference": "SBGJ275",
     "lugToLugMm": 50.6,
     "caseMm": 44.2,
-    "thicknessMm": null,
+    "thicknessMm": 14.4,
     "lugWidthMm": 21,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 44.2mm case diameter, 50.6mm lug-to-lug distance, 21mm lug width for Grand Seiko Sport Sport Collection Caliber 9S 25Th Anniversary Limited Edition SBGJ275."
+      },
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgj237g",
+        "note": "Thickness 14.4 mm taken from the sibling record SBGJ237 (id 103), which shares the same grand-seiko-sport-mechanical-hi-beat-36000-gmt-44-2mm case."
       }
     ]
   },
@@ -72956,12 +73124,16 @@
     "reference": "SLGH003",
     "lugToLugMm": 47,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 11.7,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 47mm lug-to-lug distance, 22mm lug width for Grand Seiko Evolution 9 Grand Seiko 60th Anniversary SLGH003."
+      },
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slgh005g",
+        "note": "Thickness 11.7 mm taken from the sibling record SLGH005 (id 126), which shares the same grand-seiko-hi-beat-36000-80-hours-40mm case."
       }
     ]
   },
@@ -73104,12 +73276,16 @@
     "reference": "SBGJ239",
     "lugToLugMm": 50.6,
     "caseMm": 44.2,
-    "thicknessMm": null,
+    "thicknessMm": 14.4,
     "lugWidthMm": 21,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 44.2mm case diameter, 50.6mm lug-to-lug distance, 21mm lug width for Grand Seiko Sport Sport Collection SBGJ239."
+      },
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgj237g",
+        "note": "Thickness 14.4 mm taken from the sibling record SBGJ237 (id 103), which shares the same grand-seiko-sport-mechanical-hi-beat-36000-gmt-44-2mm case."
       }
     ]
   },
@@ -76361,12 +76537,16 @@
     "reference": "85237AA44.BVA179",
     "lugToLugMm": 49.6,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 12.25,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 42mm case diameter, 49.6mm lug-to-lug distance, 22mm lug width for Louis Erard Noirmont X Le Régulateur Louis Erard x Kudoke White Mop 85237AA44.BVA179."
+      },
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/le-regulateur-louis-erard-x-kudoke-forest-green-42mm",
+        "note": "Thickness 12.25 mm taken from the sibling record 85237AA49.BVA178 (id 1552), which shares the same louis-erard-x-kudoke-le-regulateur-42mm case."
       }
     ],
     "modelGroup": "louis-erard-x-kudoke-le-regulateur-42mm",
@@ -76399,12 +76579,16 @@
     "reference": "85237AA46.BVA173",
     "lugToLugMm": 49.6,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 12.25,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 42mm case diameter, 49.6mm lug-to-lug distance, 22mm lug width for Louis Erard Noirmont X Le Régulateur Louis Erard x Kudoke Purple 85237AA46.BVA173."
+      },
+      {
+        "sourceUrl": "https://teddybaldassarre.com/en-int/products/le-regulateur-louis-erard-x-kudoke-forest-green-42mm",
+        "note": "Thickness 12.25 mm taken from the sibling record 85237AA49.BVA178 (id 1552), which shares the same louis-erard-x-kudoke-le-regulateur-42mm case."
       }
     ],
     "modelGroup": "louis-erard-x-kudoke-le-regulateur-42mm",
@@ -77460,12 +77644,16 @@
     "reference": "Duality II Unity White",
     "lugToLugMm": 48,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 11.5,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 48mm lug-to-lug distance, 20mm lug width for Nodus Duality II Duality II Unity White Duality II Unity White."
+      },
+      {
+        "sourceUrl": "https://www.noduswatches.com/duality/p/duality-ii-chasm-black",
+        "note": "Thickness 11.5 mm taken from the sibling record Duality II - Chasm Black (id 1320), which shares the same nodus-duality-ii case."
       }
     ],
     "modelGroup": "nodus-duality-ii",
@@ -77495,12 +77683,16 @@
     "reference": "Duality II Night Shade LE",
     "lugToLugMm": 48,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 11.5,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 48mm lug-to-lug distance, 20mm lug width for Nodus Duality II Duality II Chasm Black Duality II Night Shade LE."
+      },
+      {
+        "sourceUrl": "https://www.noduswatches.com/duality/p/duality-ii-chasm-black",
+        "note": "Thickness 11.5 mm taken from the sibling record Duality II - Chasm Black (id 1320), which shares the same nodus-duality-ii case."
       }
     ],
     "modelGroup": "nodus-duality-ii",
@@ -92769,14 +92961,21 @@
     "reference": "데빌레이 오렌지 데이트 IW266",
     "lugToLugMm": 46,
     "caseMm": 43,
-    "thicknessMm": null,
+    "thicknessMm": 14.5,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=266&cate_no=60",
         "note": "IntoWatch product specification image lists 43 mm case, 46 mm lug-to-lug, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      },
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=154&cate_no=60",
+        "note": "Thickness 14.5 mm taken from the sibling record 데빌레이 블랙 데이트 IW154 (id 5719), which shares the same nth-devilray case."
       }
-    ]
+    ],
+    "modelGroup": "nth-devilray",
+    "canonicalModel": "DevilRay",
+    "variant": "Orange Date"
   },
   {
     "id": 5526,
@@ -92785,14 +92984,21 @@
     "reference": "데빌레이 터키 데이트 IW268",
     "lugToLugMm": 46,
     "caseMm": 43,
-    "thicknessMm": null,
+    "thicknessMm": 14.5,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=268&cate_no=60",
         "note": "IntoWatch product specification image lists 43 mm case, 46 mm lug-to-lug, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      },
+      {
+        "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=266&cate_no=60",
+        "note": "Thickness 14.5 mm taken from the sibling record 데빌레이 오렌지 데이트 IW266 (id 5525), which shares the same nth-devilray case."
       }
-    ]
+    ],
+    "modelGroup": "nth-devilray",
+    "canonicalModel": "DevilRay",
+    "variant": "Turquoise Date"
   },
   {
     "id": 5527,
@@ -92808,7 +93014,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=208&cate_no=60",
         "note": "IntoWatch product specification image lists 43.75 mm case, 51 mm lug-to-lug, 13 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "modelGroup": "nth-2k1-thresher",
+    "canonicalModel": "2K1 Thresher",
+    "variant": "Black Date"
   },
   {
     "id": 5528,
@@ -92824,7 +93033,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=209&cate_no=60",
         "note": "IntoWatch product specification image lists 43.75 mm case, 51 mm lug-to-lug, 13 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "modelGroup": "nth-2k1-thresher",
+    "canonicalModel": "2K1 Thresher",
+    "variant": "Blue Date"
   },
   {
     "id": 5529,
@@ -95416,7 +95628,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=89&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-scorpene",
+    "canonicalModel": "Scorpène",
+    "variant": "Blue Non-Date"
   },
   {
     "id": 5677,
@@ -95486,7 +95701,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=97&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-nacken-modern",
+    "canonicalModel": "Näcken Modern",
+    "variant": "Blue Non-Date"
   },
   {
     "id": 5681,
@@ -95502,7 +95720,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=99&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-nacken-modern",
+    "canonicalModel": "Näcken Modern",
+    "variant": "Black Date"
   },
   {
     "id": 5682,
@@ -95518,7 +95739,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=100&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-nacken-modern",
+    "canonicalModel": "Näcken Modern",
+    "variant": "Black Non-Date"
   },
   {
     "id": 5683,
@@ -95534,7 +95758,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=101&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-skipjack",
+    "canonicalModel": "Skipjack",
+    "variant": "Date"
   },
   {
     "id": 5684,
@@ -95550,7 +95777,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=102&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-skipjack",
+    "canonicalModel": "Skipjack",
+    "variant": "Non-Date"
   },
   {
     "id": 5685,
@@ -95566,7 +95796,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=103&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-barracuda-vintage-black",
+    "canonicalModel": "Barracuda Vintage Black",
+    "variant": "Date"
   },
   {
     "id": 5686,
@@ -95582,7 +95815,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=104&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-barracuda-vintage-black",
+    "canonicalModel": "Barracuda Vintage Black",
+    "variant": "Non-Date"
   },
   {
     "id": 5687,
@@ -95878,7 +96114,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=133&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-scorpene-nomad",
+    "canonicalModel": "Scorpène Nomad",
+    "variant": "Black Non-Date"
   },
   {
     "id": 5704,
@@ -95894,7 +96133,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=134&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-scorpene-nomad",
+    "canonicalModel": "Scorpène Nomad",
+    "variant": "Black Date"
   },
   {
     "id": 5705,
@@ -96143,7 +96385,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=154&cate_no=60",
         "note": "IntoWatch product specification image lists 43 mm case, 46 mm lug-to-lug, 14.5 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-devilray",
+    "canonicalModel": "DevilRay",
+    "variant": "Black Date"
   },
   {
     "id": 5720,
@@ -96159,7 +96404,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=155&cate_no=60",
         "note": "IntoWatch product specification image lists 43 mm case, 46 mm lug-to-lug, 14.5 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-devilray",
+    "canonicalModel": "DevilRay",
+    "variant": "Black Non-Date"
   },
   {
     "id": 5721,
@@ -96175,7 +96423,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=156&cate_no=60",
         "note": "IntoWatch product specification image lists 43 mm case, 46 mm lug-to-lug, 14.5 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-devilray",
+    "canonicalModel": "DevilRay",
+    "variant": "Blue Date"
   },
   {
     "id": 5722,
@@ -96191,7 +96442,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=157&cate_no=60",
         "note": "IntoWatch product specification image lists 43 mm case, 46 mm lug-to-lug, 14.5 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-devilray",
+    "canonicalModel": "DevilRay",
+    "variant": "Blue Non-Date"
   },
   {
     "id": 5723,
@@ -96207,7 +96461,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=158&cate_no=60",
         "note": "IntoWatch product specification image lists 43 mm case, 46 mm lug-to-lug, 14.5 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-devilray",
+    "canonicalModel": "DevilRay",
+    "variant": "White Date"
   },
   {
     "id": 5724,
@@ -96223,7 +96480,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=159&cate_no=60",
         "note": "IntoWatch product specification image lists 43 mm case, 46 mm lug-to-lug, 14.5 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-devilray",
+    "canonicalModel": "DevilRay",
+    "variant": "White Non-Date"
   },
   {
     "id": 5725,
@@ -96271,7 +96531,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=170&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-nacken-modern",
+    "canonicalModel": "Näcken Modern",
+    "variant": "Blue Date"
   },
   {
     "id": 5728,
@@ -96319,7 +96582,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=183&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-barracuda-polar-white",
+    "canonicalModel": "Barracuda Polar White",
+    "variant": "Non-Date"
   },
   {
     "id": 5731,
@@ -96335,7 +96601,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=184&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-barracuda-polar-white",
+    "canonicalModel": "Barracuda Polar White",
+    "variant": "Date"
   },
   {
     "id": 5732,
@@ -96351,7 +96620,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=185&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-scorpene",
+    "canonicalModel": "Scorpène",
+    "variant": "White Non-Date"
   },
   {
     "id": 5733,
@@ -96479,7 +96751,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=202&cate_no=60",
         "note": "IntoWatch product specification image lists 43.75 mm case, 51 mm lug-to-lug, 13 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-2k1-swiftsure",
+    "canonicalModel": "2K1 Swiftsure",
+    "variant": "Black Non-Date"
   },
   {
     "id": 5741,
@@ -96495,7 +96770,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=203&cate_no=60",
         "note": "IntoWatch product specification image lists 43.75 mm case, 51 mm lug-to-lug, 13 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-2k1-swiftsure",
+    "canonicalModel": "2K1 Swiftsure",
+    "variant": "Blue Non-Date"
   },
   {
     "id": 5742,
@@ -96511,7 +96789,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=204&cate_no=60",
         "note": "IntoWatch product specification image lists 43.75 mm case, 51 mm lug-to-lug, 13 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-2k1-swiftsure",
+    "canonicalModel": "2K1 Swiftsure",
+    "variant": "White Non-Date"
   },
   {
     "id": 5743,
@@ -96607,7 +96888,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=245&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-tropics-azores",
+    "canonicalModel": "Tropics Azores",
+    "variant": "Blue Curaçao"
   },
   {
     "id": 5749,
@@ -96623,7 +96907,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=246&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-tropics-azores",
+    "canonicalModel": "Tropics Azores",
+    "variant": "Absinthe"
   },
   {
     "id": 5750,
@@ -96639,7 +96926,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=247&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-tropics-antilles",
+    "canonicalModel": "Tropics Antilles",
+    "variant": "Cointreau"
   },
   {
     "id": 5751,
@@ -96655,7 +96945,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=248&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-tropics-antilles",
+    "canonicalModel": "Tropics Antilles",
+    "variant": "Dark Rum"
   },
   {
     "id": 5752,
@@ -96719,7 +97012,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=265&cate_no=60",
         "note": "IntoWatch product specification image lists 43 mm case, 46 mm lug-to-lug, 14.5 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-devilray",
+    "canonicalModel": "DevilRay",
+    "variant": "Orange Non-Date"
   },
   {
     "id": 5756,
@@ -96735,7 +97031,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=267&cate_no=60",
         "note": "IntoWatch product specification image lists 43 mm case, 46 mm lug-to-lug, 14.5 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-devilray",
+    "canonicalModel": "DevilRay",
+    "variant": "Turquoise Non-Date"
   },
   {
     "id": 5757,
@@ -96767,7 +97066,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=275&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-tropics-antilles",
+    "canonicalModel": "Tropics Antilles",
+    "variant": "Hypnotic"
   },
   {
     "id": 5759,
@@ -96783,7 +97085,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=276&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-tropics-antilles",
+    "canonicalModel": "Tropics Antilles",
+    "variant": "Rosé"
   },
   {
     "id": 5760,
@@ -96927,7 +97232,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=295&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-barracuda-vintage-black-v2",
+    "canonicalModel": "Barracuda Vintage Black V2",
+    "variant": "Non-Date"
   },
   {
     "id": 5769,
@@ -96943,7 +97251,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=296&cate_no=60",
         "note": "IntoWatch product specification image lists 40 mm case, 48 mm lug-to-lug, 11.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "modelGroup": "nth-subs-barracuda-vintage-black-v2",
+    "canonicalModel": "Barracuda Vintage Black V2",
+    "variant": "Date"
   },
   {
     "id": 5770,

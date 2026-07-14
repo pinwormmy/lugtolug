@@ -252,3 +252,79 @@ Candidates were same-brand rows with identical published dimensions (lug-to-lug,
 - group 195: Defy Skyline Black Ceramic vs Skyline Skeleton - skeleton is a distinct dial/model line
 - group 196: A384 Revival vs /3817 dial-coded row (likely A3817) - different named revival models
 - group 197: A385 Revival vs Chronomaster 50th Anniversary (A384-style silver dial) - different named revival models
+
+## Pass 2 (2026-07-14) — null-dimension fills and NTH grouping
+
+### Missing dimensions filled from sibling records (50 values)
+
+Rows inside a curated modelGroup family that displayed apart from their siblings only because a metric was null. Each fill required every complete sibling matching the row on all mutually known metrics to agree on one value; a source entry citing the donor record was appended to the filled row. One conflicting case was refused (Bel Canto C1 Moonphase id 3944: donors disagree 13.3 vs 12.9 mm).
+
+- id 4309 (Grand Seiko Sport Collection Caliber 9S 25Th Anniversary Limited Edition): thickness = 14.4 mm ← sibling id 103 `SBGJ237`
+- id 4342 (Grand Seiko Sport Collection): thickness = 14.4 mm ← sibling id 103 `SBGJ237`
+- id 4282 (Grand Seiko Evolution 9 Collection): thickness = 11.7 mm ← sibling id 126 `SLGH005`
+- id 4333 (Grand Seiko Evolution 9 Grand Seiko 60th Anniversary): thickness = 11.7 mm ← sibling id 126 `SLGH005`
+- id 2197 (Tissot PRX 40mm UFO Robot Grendizer Special Edition): lugWidth = 12 mm ← sibling id 854 `T137.407.11.041.00`
+- id 2198 (Tissot PRX Powermatic 80): lugWidth = 12 mm ← sibling id 854 `T137.407.11.041.00`
+- id 2059 (Seiko King Seiko KS1969): lugWidth = 19 mm ← sibling id 886 `SJE109`
+- id 4613 (Nodus Duality II Unity White): thickness = 11.5 mm ← sibling id 1320 `Duality II - Chasm Black`
+- id 4615 (Nodus Duality II Chasm Black): thickness = 11.5 mm ← sibling id 1320 `Duality II - Chasm Black`
+- id 4546 (Louis Erard Noirmont X Le Régulateur Louis Erard x Kudoke White Mop): thickness = 12.25 mm ← sibling id 1552 `85237AA49.BVA178`
+- id 4548 (Louis Erard Noirmont X Le Régulateur Louis Erard x Kudoke Purple): thickness = 12.25 mm ← sibling id 1552 `85237AA49.BVA178`
+- id 4175 (Fears Brunswick Jump Hour Raven Black): thickness = 12.8 mm ← sibling id 1798 `BS240.500A`
+- id 4179 (Fears Brunswick Jump Hour Coral Lacquer): thickness = 12.8 mm ← sibling id 1798 `BS240.500A`
+- id 3796 (Christopher Ward Trident C60 Trident Pro 300): thickness = 11.5 mm ← sibling id 3791 `C60-42ADA31S0KW1-B0`
+- id 3811 (Christopher Ward Trident C60): thickness = 11.5 mm ← sibling id 3791 `C60-42ADA31S0KW1-B0`
+- id 3823 (Christopher Ward Trident C60 Pro 300): thickness = 11.5 mm ← sibling id 3791 `C60-42ADA31S0KW1-B0`
+- id 3834 (Christopher Ward Trident C60 Pro 300): thickness = 11.5 mm ← sibling id 3791 `C60-42ADA31S0KW1-B0`
+- id 3856 (Christopher Ward Trident C60 Pro 300): thickness = 11.5 mm ← sibling id 3791 `C60-42ADA31S0KW1-B0`
+- id 3866 (Christopher Ward Trident C60 Pro 300): thickness = 11.5 mm ← sibling id 3791 `C60-42ADA31S0KW1-B0`
+- id 3895 (Christopher Ward Trident C60 Pro 300): thickness = 11.5 mm ← sibling id 3791 `C60-42ADA31S0KW1-B0`
+- id 3900 (Christopher Ward Trident C60 Pro 300): thickness = 11.5 mm ← sibling id 3791 `C60-42ADA31S0KW1-B0`
+- id 3961 (Christopher Ward Trident C60 Pro 300): thickness = 11.5 mm ← sibling id 3791 `C60-42ADA31S0KW1-B0`
+- id 3885 (Christopher Ward Bel Canto C1 Bel Canto Classic): thickness = 13 mm ← sibling id 3799 `C01-41APT0-T00B1-VLB`
+- id 4010 (Christopher Ward Bel Canto C1 Bel Canto): thickness = 13 mm ← sibling id 3799 `C01-41APT0-T00B1-VLB`
+- id 3838 (Christopher Ward Dune C65 Dune Aeolian): thickness = 11.7 mm ← sibling id 3803 `C65-38A3H4-S00E0-WC`
+- id 3951 (Christopher Ward Dune C65 Dune Aeolian): thickness = 11.7 mm ← sibling id 3803 `C65-38A3H4-S00E0-WC`
+- id 3814 (Christopher Ward Trident C60 Trident Lumière): thickness = 10.85 mm ← sibling id 4005 `C60-41C3H31T0KO0-RKO`
+- id 3835 (Christopher Ward Trident C60 Lumière): thickness = 10.85 mm ← sibling id 3814 `C60-41C3H31T0KK0-B0`
+- id 3839 (Christopher Ward Trident C60 Lumière): thickness = 10.85 mm ← sibling id 3814 `C60-41C3H31T0KK0-B0`
+- id 3816 (Christopher Ward The Twelve C12): thickness = 9.95 mm ← sibling id 3938 `C12-38ADA1-S00W0-RK`
+- id 3817 (Christopher Ward The Twelve C12 The Twelve 38): thickness = 9.95 mm ← sibling id 3816 `C12-38ADA1-S00W0-B0`
+- id 3822 (Christopher Ward The Twelve C12): thickness = 9.95 mm ← sibling id 3816 `C12-38ADA1-S00W0-B0`
+- id 3851 (Christopher Ward The Twelve C12 The Twelve 40): thickness = 9.95 mm ← sibling id 3830 `C12-40ADA1-S00B1-B0`
+- id 3886 (Christopher Ward The Twelve C12 Ice Cream Twelve 38): thickness = 9.95 mm ← sibling id 3816 `C12-38ADA1-S00W0-B0`
+- id 3889 (Christopher Ward The Twelve C12 The Twelve 40): thickness = 9.95 mm ← sibling id 3830 `C12-40ADA1-S00B1-B0`
+- id 3892 (Christopher Ward The Twelve C12 The Twelve 40): thickness = 9.95 mm ← sibling id 3830 `C12-40ADA1-S00B1-B0`
+- id 3904 (Christopher Ward The Twelve C12 The Twelve 38): thickness = 9.95 mm ← sibling id 3816 `C12-38ADA1-S00W0-B0`
+- id 3912 (Christopher Ward The Twelve C12): thickness = 9.95 mm ← sibling id 3830 `C12-40ADA1-S00B1-B0`
+- id 3942 (Christopher Ward The Twelve C12 The Twelve 40): thickness = 9.95 mm ← sibling id 3830 `C12-40ADA1-S00B1-B0`
+- id 3949 (Christopher Ward The Twelve C12 The Twelve 38): thickness = 9.95 mm ← sibling id 3816 `C12-38ADA1-S00W0-B0`
+- id 3964 (Christopher Ward The Twelve C12 The Twelve 38): thickness = 9.95 mm ← sibling id 3816 `C12-38ADA1-S00W0-B0`
+- id 3968 (Christopher Ward The Twelve C12 The Twelve 40): thickness = 9.95 mm ← sibling id 3830 `C12-40ADA1-S00B1-B0`
+- id 3992 (Christopher Ward The Twelve C12): thickness = 9.95 mm ← sibling id 3816 `C12-38ADA1-S00W0-B0`
+- id 3820 (Christopher Ward Dune C65 Sandhurst Series 2): thickness = 11.9 mm ← sibling id 3901 `C65-38A3H3-S00K0-VC`
+- id 3918 (Christopher Ward The Twelve C12): thickness = 12.3 mm ← sibling id 3829 `C12-41A5D0-T00K0-B0`
+- id 3969 (Christopher Ward The Twelve C12): thickness = 12.3 mm ← sibling id 3829 `C12-41A5D0-T00K0-B0`
+- id 3890 (Christopher Ward Sealander C63 Valour): thickness = 11.55 mm ← sibling id 3873 `C63-39QCC3-S00K0-B0`
+- id 3947 (Christopher Ward Dune C65 Cranwell Series 2): thickness = 11.9 mm ← sibling id 3946 `C65-38A3H3-S00K1-VC`
+- id 5525 (NTH 데빌레이 오렌지 데이트): thickness = 14.5 mm ← sibling id 5719 `데빌레이 블랙 데이트 IW154`
+- id 5526 (NTH 데빌레이 터키 데이트): thickness = 14.5 mm ← sibling id 5525 `데빌레이 오렌지 데이트 IW266`
+
+### NTH grouping convention (new)
+
+One modelGroup per named design line and generation: shared-case colorway and date/no-date variants group; V2 generations get their own group (or stay single), DLC case coatings and single-member designs stay ungrouped. English canonicalModel/variant labels are set on Korean-named IntoWatch rows so they surface in text search (Korean is stripped from search_text).
+
+- `nth-devilray` (10): 5525 Orange Date; 5526 Turquoise Date; 5719 Black Date; 5720 Black Non-Date; 5721 Blue Date; 5722 Blue Non-Date; 5723 White Date; 5724 White Non-Date; 5755 Orange Non-Date; 5756 Turquoise Non-Date
+- `nth-subs-nacken-modern` (4): 5680 Blue Non-Date; 5681 Black Date; 5682 Black Non-Date; 5727 Blue Date
+- `nth-subs-skipjack` (2): 5683 Date; 5684 Non-Date
+- `nth-subs-barracuda-vintage-black` (2): 5685 Date; 5686 Non-Date
+- `nth-subs-barracuda-vintage-black-v2` (2): 5768 Non-Date; 5769 Date
+- `nth-subs-barracuda-polar-white` (2): 5730 Non-Date; 5731 Date
+- `nth-subs-scorpene` (2): 5676 Blue Non-Date; 5732 White Non-Date
+- `nth-subs-scorpene-nomad` (2): 5703 Black Non-Date; 5704 Black Date
+- `nth-subs-tropics-azores` (2): 5748 Blue Curaçao; 5749 Absinthe
+- `nth-subs-tropics-antilles` (4): 5750 Cointreau; 5751 Dark Rum; 5758 Hypnotic; 5759 Rosé
+- `nth-2k1-thresher` (2): 5527 Black Date; 5528 Blue Date
+- `nth-2k1-swiftsure` (3): 5740 Black Non-Date; 5741 Blue Non-Date; 5742 White Non-Date
+
+Left ungrouped on purpose: Näcken Renegade/Vintage (cross-generation pair), Odin, Vanguard, Tikuna, Bahia, Amphion Vintage Gilt V1/V2 (generations), Oberon II, Barracuda Brown, Barracuda Vintage Black DLC (case coating), Näzario, Upholder V2, Todaro V2, Näcken Modern Blue V2, Scorpène Black V2 — singles or generation/coating mismatches.
