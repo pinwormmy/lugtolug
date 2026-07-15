@@ -102143,5 +102143,25 @@
         "note": "Official DOXA product page lists SKU 823.50.121.20-SE14 and 42.5mm case diameter, 45mm case length/lug-to-lug, 13.4mm height, 20mm lug width; the second diameter value is stored as lug-to-lug."
       }
     ]
+  },
+  {
+    "id": 6071,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80 Titanium 38mm",
+    "reference": "T137.807.44.041.00",
+    "lugToLugMm": 49.2,
+    "caseMm": 38,
+    "thicknessMm": 10.98,
+    "lugWidthMm": 11,
+    "sources": [
+      {
+        "sourceUrl": "https://www.tissotwatches.com/en-us/T1378074404100.html",
+        "note": "Manufacturer page for the exact reference lists 38 mm width, 37.5 mm length, 10.98 mm thickness, and 11 mm lug width; Tissot's published 43.2 mm lug-to-lug excludes the fixed first bracelet link."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/tissot-prx-powermatic-80-damascus-steel-38mm-tissot-prx-powermatic-80-titanium-38mm-video-review/",
+        "note": "Hands-on review measures the 38 mm titanium PRX at 49.2 mm lug-to-lug including the first non-articulated bracelet link; this effective wearing length is stored to match existing PRX records."
+      }
+    ]
   }
 ]
