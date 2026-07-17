@@ -61,6 +61,7 @@ export default function FitCalculator({ lugToLugMm }: Props) {
     return getFitGuidance(lugToLugMm, wristFlatWidthMm);
   }, [lugToLugMm, value]);
   const markerPosition = fit ? getFitScaleMarkerPositionForRatio(fit.ratio) : 0;
+  const standardMarkerPosition = getFitScaleMarkerPositionForRatio(FIT_RATIO_STANDARD);
 
   return (
     <div className="panel fit-analyzer">
@@ -85,13 +86,15 @@ export default function FitCalculator({ lugToLugMm }: Props) {
       {fit ? (
         <>
           <div className="fit-scale" aria-label={`Fit verdict ${fit.label}, ratio ${fit.ratio.toFixed(2)} against standard ${FIT_RATIO_STANDARD.toFixed(2)}`}>
-            <span className="fit-scale-standard" aria-hidden="true" style={{ left: "50%" }} />
+            <span className="fit-scale-standard" aria-hidden="true" style={{ left: `${standardMarkerPosition}%` }} />
             <span style={{ left: `${markerPosition}%` }} />
           </div>
           <div className="fit-scale-labels">
-            <span>Small</span>
+            <span>Compact</span>
             <span>Balanced</span>
             <span>Large</span>
+            <span>Edge</span>
+            <span>Overhang</span>
           </div>
           <div className={`fit-verdict ${fit.category}`}>
             <strong>{fit.label}</strong>

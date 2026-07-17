@@ -1,15 +1,15 @@
-export type FitCategory = "small" | "balanced" | "large";
+export type FitCategory = "compact" | "balanced" | "large" | "borderline" | "overhang";
 
-export const FIT_SCALE_MARKER_POSITIONS: Record<FitCategory, number> = {
-  small: 16.67,
-  balanced: 50,
-  large: 83.33
+export const FIT_RATIO_STANDARD = 0.8;
+export const FIT_RATIO_THRESHOLDS = {
+  balancedMin: 0.75,
+  balancedMax: 0.9,
+  largeMax: 0.95,
+  borderlineMax: 1
 } as const;
-
-export const FIT_RATIO_STANDARD = 0.85;
 export const FIT_RATIO_SCALE = {
-  min: 0.75,
-  max: 0.95
+  min: 0.7,
+  max: 1.05
 } as const;
 
 export interface FitResult {
@@ -22,10 +22,6 @@ export interface FitResult {
   guidance: string;
 }
 
-export function getFitScaleMarkerPosition(category: FitCategory): number {
-  return FIT_SCALE_MARKER_POSITIONS[category];
-}
-
 export function getFitScaleMarkerPositionForRatio(ratio: number): number {
   const normalized = (ratio - FIT_RATIO_SCALE.min) / (FIT_RATIO_SCALE.max - FIT_RATIO_SCALE.min);
   return Number(Math.min(100, Math.max(0, normalized * 100)).toFixed(2));
@@ -35,19 +31,19 @@ export function getFitGuidance(lugToLugMm: number, wristFlatWidthMm: number): Fi
   const ratio = lugToLugMm / wristFlatWidthMm;
   const ratioDeltaFromStandard = ratio - FIT_RATIO_STANDARD;
 
-  if (ratio < 0.8) {
+  if (ratio < FIT_RATIO_THRESHOLDS.balancedMin) {
     return {
-      category: "small",
+      category: "compact",
       ratio,
       standardRatio: FIT_RATIO_STANDARD,
       ratioDeltaFromStandard,
       wristFlatWidthMm,
-      label: "Small",
-      guidance: "Sits short across the wrist with visible margin on both sides."
+      label: "Compact",
+      guidance: "Leaves generous margin on both sides, matching classic and dress-watch proportions."
     };
   }
 
-  if (ratio <= 0.9) {
+  if (ratio <= FIT_RATIO_THRESHOLDS.balancedMax) {
     return {
       category: "balanced",
       ratio,
@@ -59,14 +55,38 @@ export function getFitGuidance(lugToLugMm: number, wristFlatWidthMm: number): Fi
     };
   }
 
+  if (ratio <= FIT_RATIO_THRESHOLDS.largeMax) {
+    return {
+      category: "large",
+      ratio,
+      standardRatio: FIT_RATIO_STANDARD,
+      ratioDeltaFromStandard,
+      wristFlatWidthMm,
+      label: "Large",
+      guidance: "Fills most of the wrist for a bold, sporty fit; lug shape and end links matter."
+    };
+  }
+
+  if (ratio <= FIT_RATIO_THRESHOLDS.borderlineMax) {
+    return {
+      category: "borderline",
+      ratio,
+      standardRatio: FIT_RATIO_STANDARD,
+      ratioDeltaFromStandard,
+      wristFlatWidthMm,
+      label: "Borderline",
+      guidance: "Uses nearly the full wrist width; trying the watch on is strongly recommended."
+    };
+  }
+
   return {
-    category: "large",
+    category: "overhang",
     ratio,
     standardRatio: FIT_RATIO_STANDARD,
     ratioDeltaFromStandard,
     wristFlatWidthMm,
-    label: "Large",
-    guidance: "Sits near or beyond the wrist edge; case shape and strap angle matter."
+    label: "Likely overhang",
+    guidance: "Exceeds the measured wrist width and is likely to extend beyond the wrist edge."
   };
 }
 

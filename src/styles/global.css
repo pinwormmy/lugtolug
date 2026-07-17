@@ -1054,6 +1054,7 @@ button {
   border-radius: var(--radius-md);
   display: grid;
   gap: 12px;
+  min-width: 0;
   padding: 14px;
 }
 
@@ -1070,7 +1071,14 @@ button {
 }
 
 .fit-scale {
-  background: linear-gradient(90deg, var(--muted-soft), var(--accent-strong) 45%, var(--amber) 76%, var(--danger));
+  background: linear-gradient(
+    90deg,
+    var(--muted-soft) 0% 14.29%,
+    var(--accent-strong) 14.29% 57.14%,
+    var(--amber) 57.14% 71.43%,
+    #d98d68 71.43% 85.71%,
+    var(--danger) 85.71% 100%
+  );
   border-radius: 999px;
   height: 4px;
   margin: 10px 7px 0;
@@ -1100,20 +1108,21 @@ button {
   color: var(--muted);
   display: grid;
   font-family: var(--mono);
-  font-size: 0.6rem;
-  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
-  letter-spacing: 0.06em;
+  font-size: 0.54rem;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 3fr) repeat(3, minmax(0, 1fr));
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.fit-scale-labels span {
+  justify-self: center;
+  min-width: 0;
+  text-align: center;
 }
 
 .fit-scale-labels span:first-child {
   justify-self: start;
   text-align: left;
-}
-
-.fit-scale-labels span:nth-child(2) {
-  justify-self: center;
-  text-align: center;
 }
 
 .fit-scale-labels span:last-child {
@@ -1139,7 +1148,19 @@ button {
   margin: 0;
 }
 
+.fit-verdict.compact {
+  border-color: rgba(147, 164, 184, 0.45);
+}
+
 .fit-verdict.large {
+  border-color: rgba(227, 194, 104, 0.55);
+}
+
+.fit-verdict.borderline {
+  border-color: rgba(217, 141, 104, 0.65);
+}
+
+.fit-verdict.overhang {
   border-color: rgba(224, 104, 95, 0.55);
 }
 
@@ -1362,6 +1383,14 @@ button {
   display: grid;
   gap: 18px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-2 > * {
+  min-width: 0;
+}
+
+.grid-2 .panel a {
+  overflow-wrap: anywhere;
 }
 
 .spec-grid {
