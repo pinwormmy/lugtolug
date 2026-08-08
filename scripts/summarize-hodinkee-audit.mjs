@@ -57,7 +57,9 @@ function unique(values) {
 }
 
 function millimeterValues(value) {
-  return [...value.matchAll(/\b(\d{1,2}(?:\.\d+)?)\s*mm\b/giu)].map((match) => Number(match[1]));
+  return [...value.replace(/(?<=\d),(?=\d)/gu, ".").matchAll(/\b(\d{1,2}(?:\.\d+)?)\s*(?:mm|millimet(?:er|re)s?)\b/giu)].map(
+    (match) => Number(match[1])
+  );
 }
 
 function plausibleLugToLugValues(values) {
@@ -82,14 +84,17 @@ const DIRECT_LUG_TO_LUG_SOURCE = String.raw`(?:\bl\s*2\s*l\b|lug(?:\s|\u00a0|[-\
 
 function directLugToLugMentions(context) {
   const mentions = [];
-  const lines = context.split("\n").filter((line) => new RegExp(DIRECT_LUG_TO_LUG_SOURCE, "iu").test(line));
-  const directPattern = new RegExp(DIRECT_LUG_TO_LUG_SOURCE, "giu");
-  const valuePattern = /\b(\d{1,2}(?:\.\d+)?)\s*(?:mm|millimeters?)\b/giu;
+  const lines = context
+    .replace(/(?<=\d),(?=\d)/gu, ".")
+    .split("\n")
+    .filter((line) => new RegExp(DIRECT_LUG_TO_LUG_SOURCE, "iu").test(line));
+  const valuePattern = /\b(\d{1,2}(?:\.\d+)?)\s*(?:mm|millimet(?:er|re)s?)\b/giu;
   const approximatePattern = /\b(?:about|around|approximately|roughly|just\s+(?:over|under)|a\s+hair\s+under)\b/iu;
 
   for (const line of lines) {
     const sentences = line.split(/(?<=[.!?])\s+(?=[A-Z0-9])/u);
-    for (const sentence of sentences) {
+    for (let sentenceIndex = 0; sentenceIndex < sentences.length; sentenceIndex += 1) {
+      const sentence = sentences[sentenceIndex];
       if (!new RegExp(DIRECT_LUG_TO_LUG_SOURCE, "iu").test(sentence)) continue;
       if (
         /\b(?:do(?:es)?\s+not|don[’']t|doesn[’']t)\s+(?:yet\s+)?(?:have|list|publish|provide)|\b(?:not|never)\s+(?:published|provided|available|known|stated)|\bunstated\b|\bunknown\b/iu.test(
@@ -99,14 +104,14 @@ function directLugToLugMentions(context) {
         continue;
       }
 
-      for (const phrase of sentence.matchAll(directPattern)) {
+      for (const phrase of sentence.matchAll(new RegExp(DIRECT_LUG_TO_LUG_SOURCE, "giu"))) {
         const before = sentence.slice(Math.max(0, phrase.index - 100), phrase.index);
         const after = sentence.slice(phrase.index + phrase[0].length, phrase.index + phrase[0].length + 220);
         const values = [];
 
         // A value immediately before the phrase: "47.5mm lug-to-lug".
         const beforeMatch = before.match(
-          /(?:about|around|approximately|roughly|just\s+(?:over|under)|a\s+hair\s+under)?\s*(\d{1,2}(?:\.\d+)?)\s*(?:mm|millimeters?)\s*(?:in\s+length|long|length|measurement|of|from)?[\s(\[,\-\u2010-\u2015:]*$/iu
+          /(?:about|around|approximately|roughly|just\s+(?:over|under)|a\s+hair\s+under)?\s*(\d{1,2}(?:\.\d+)?)\s*(?:mm|millimet(?:er|re)s?)\s*(?:in\s+length|in|long|length|measurement|of|from)?[\s(\[,\-\u2010-\u2015:]*$/iu
         ) ??
           before.match(
             /\b(\d{1,2}(?:\.\d+)?)\s*(?:from)?[\s(\[,\-\u2010-\u2015:]*$/iu
@@ -116,7 +121,7 @@ function directLugToLugMentions(context) {
         // and bracelet/end-link alternatives while excluding nearby case
         // diameter, thickness, and lug-width figures.
         const afterMetricWindow = after.split(
-          /(?<!\d)\.(?=\s|$)|;|\b(?:case\s+(?:diameter|size|width)|diameter|thickness|lug\s+width|between\s+the\s+lugs)\b/iu,
+          /(?<!\d)\.(?=\s|$)|;|\s+(?:[-\u2010-\u2015]\s*)?(?:and\s+)?(?:that(?:[’']s|\s+is)\s+)?(?:far\s+)?(?=(?:smaller|shorter|longer|larger|less|more)\s+than\b)|(?=\b\d{1,2}(?:\.\d+)?\s*(?:mm|millimet(?:er|re)s?)\s*(?:case\s+(?:diameter|size|width)|diameter|thickness|lug\s+width|between\s+the\s+lugs|strap\s+attachment)\b)|\b(?:case\s+(?:diameter|size|width)|diameter|thickness|lug\s+width|between\s+the\s+lugs|strap\s+attachment)\b/iu,
           1
         )[0];
         const commaSegments = afterMetricWindow.split(",");
@@ -128,7 +133,7 @@ function directLugToLugMentions(context) {
         if (firstMeasurementSegment < 0) firstMeasurementSegment = 0;
         let afterWindow = commaSegments.slice(0, firstMeasurementSegment + 1).join(",");
         for (const segment of commaSegments.slice(firstMeasurementSegment + 1)) {
-          if (!/\b(?:with|without|versus|vs\.?|or|to)\b/iu.test(segment)) break;
+          if (!/^\s*(?:with|without|versus|vs\.?|or|to)\b/iu.test(segment)) break;
           afterWindow += `,${segment}`;
         }
 
@@ -137,7 +142,7 @@ function directLugToLugMentions(context) {
         // "Diameter: 40mm (lug to lug: 48mm)" where the number immediately
         // before the phrase is the case width, not the lug-to-lug value.
         const afterStartsWithMeasurement = new RegExp(
-          String.raw`^[\s()\[\],:\-\u2010-\u2015]*(?:(?:measurement|measure|length|figure|dimension)(?:\s+(?:is|of|at|comes\s+in\s+at|changes?\s+from))?|(?:is|of|at|measures?|from|comes\s+in\s+at))?[\s()\[\],:\-\u2010-\u2015]*(?:about|around|approximately|roughly|just\s+(?:over|under)|a\s+hair\s+under)?\s*\d{1,2}(?:\.\d+)?\s*(?:mm|millimeters?)\b`,
+          String.raw`^[\s()\[\]:]*(?:(?:measurement|measure|length|height|size|width|span|figure|dimension)(?:\s+(?:is|of|at|comes\s+in\s+at|changes?\s+from))?|(?:the\s+watches?\s+)?(?:(?:is|measures?)(?:\s+[a-z]+){0,4}\s*(?:at|of)?|of|at|from|comes\s+in\s+at))?[\s()\[\]:]*(?:about|around|approximately|roughly|just\s+(?:over|under)|a\s+hair\s+under)?\s*\d{1,2}(?:\.\d+)?\s*(?:mm|millimet(?:er|re)s?)\b`,
           "iu"
         ).test(afterWindow);
 
@@ -145,6 +150,57 @@ function directLugToLugMentions(context) {
           for (const valueMatch of afterWindow.matchAll(valuePattern)) values.push(Number(valueMatch[1]));
         } else if (beforeMatch) {
           values.push(Number(beforeMatch[1]));
+        }
+
+        if (!values.length) {
+          // MONOCHROME commonly writes variants such as "lug-to-lug height
+          // of approximately 46mm", "lug-to-lug size is 54mm", and
+          // "lug-to-lug the watch measures 45mm". Keep the fallback local
+          // to the same sentence and reject a different named metric before
+          // accepting the first following value.
+          const looseAfter = after.match(/^([^.;]{0,140}?)\b(\d{1,2}(?:\.\d+)?)\s*(?:mm|millimet(?:er|re)s?)\b/iu);
+          const lead = looseAfter?.[1] ?? "";
+          if (
+            looseAfter &&
+            !/\b(?:case\s+(?:diameter|size|width)|diameter|thickness|thick|lug\s+width|between\s+the\s+lugs)\b/iu.test(
+              lead
+            ) &&
+            !/\b(?:(?:smaller|shorter|longer|larger|less|more)\s+than|feels?\s+(?:more\s+)?like|equated\s+(?:in\s+size\s+)?to)\b/iu.test(
+              lead
+            )
+          ) {
+            // Reuse the metric-bounded window above so a comparison later
+            // in the sentence (for example, "45mm, less than a 42mm
+            // watch") cannot become a second lug-to-lug measurement.
+            const relatedWindow = afterWindow;
+            const relatedValues = [...relatedWindow.matchAll(valuePattern)].map((match) => Number(match[1]));
+            values.push(...(relatedValues.length ? relatedValues : [Number(looseAfter[2])]));
+            if (/\b(?:and|or|versus|vs\.?)\b/iu.test(lead)) {
+              values.push(...[...lead.matchAll(/\b(\d{2}(?:\.\d+)?)\b/gu)].map((match) => Number(match[1])));
+            }
+          }
+        }
+
+        if (!values.length) {
+          const looseBefore = before.match(
+            /\b(\d{1,2}(?:\.\d+)?)\s*(?:mm|millimet(?:er|re)s?)(?:\s*\([^)]{0,24}\))?[\s(\[,\-\u2010-\u2015:]*(?:(?:long|wide|high|claimed)\s*)?(?:(?:in|from)\s*)?$/iu
+          );
+          if (looseBefore) values.push(Number(looseBefore[1]));
+        }
+
+        if (!values.length) {
+          const unitlessAfter = after.match(
+            /^[\s()\[\],:\-\u2010-\u2015]*(?:(?:measurement|measure|length|height|size|width|span|distance|dimension)(?:\s+(?:is|of|at|comes\s+in\s+at))?|(?:is|of|at|measures?|comes\s+in\s+at))?[\s()\[\],:\-\u2010-\u2015]*(\d{2}(?:\.\d+)?)\b/iu
+          );
+          if (unitlessAfter) values.push(Number(unitlessAfter[1]));
+        }
+
+        if (!values.length && /\b(?:latter|second|last)\s+(?:figure|dimension|measurement|value)\b/iu.test(sentence)) {
+          const previousSentence = sentences[sentenceIndex - 1] ?? "";
+          const pair = previousSentence.match(
+            /\b(\d{1,2}(?:\.\d+)?)\s*(?:mm\s*)?(?:[x\u00d7]|by)\s*(\d{1,2}(?:\.\d+)?)\s*mm\b/iu
+          );
+          if (pair) values.push(Number(pair[2]));
         }
 
         for (const value of plausibleLugToLugValues(values)) {
@@ -203,14 +259,27 @@ function referencesFromFacts(facts) {
   );
 }
 
+const seedBySourceUrl = new Map();
+const seedByReference = new Map();
+for (const watch of seed) {
+  for (const source of watch.sources) {
+    const key = source.sourceUrl.replace(/\/$/u, "");
+    const matches = seedBySourceUrl.get(key) ?? [];
+    matches.push(watch);
+    seedBySourceUrl.set(key, matches);
+  }
+  const referenceKey = compactReference(watch.reference);
+  if (referenceKey) {
+    const matches = seedByReference.get(referenceKey) ?? [];
+    matches.push(watch);
+    seedByReference.set(referenceKey, matches);
+  }
+}
+
 function seedMatches(candidate, facts) {
-  const sourceMatches = seed.filter((watch) =>
-    watch.sources.some((source) => source.sourceUrl.replace(/\/$/u, "") === candidate.url.replace(/\/$/u, ""))
-  );
+  const sourceMatches = seedBySourceUrl.get(candidate.url.replace(/\/$/u, "")) ?? [];
   const references = referencesFromFacts(facts).map(compactReference).filter(Boolean);
-  const referenceMatches = references.length
-    ? seed.filter((watch) => references.includes(compactReference(watch.reference)))
-    : [];
+  const referenceMatches = references.flatMap((reference) => seedByReference.get(reference) ?? []);
 
   return unique([...sourceMatches, ...referenceMatches].map((watch) => watch.id)).map((id) => {
     const watch = seed.find((candidateWatch) => candidateWatch.id === id);
@@ -236,6 +305,7 @@ const preparedSeed = seed.map((watch) => ({
 }));
 
 function fuzzySeedMatches(candidate, facts, exactMatches) {
+  if (!candidate.signals.includes("direct-lug-to-lug")) return [];
   const factText = facts.map((fact) => `${fact.label} ${fact.value}`).join(" ");
   const haystack = normalizedWords(`${candidate.title ?? ""} ${factText}`);
   const compactHaystack = compactReference(haystack);
@@ -301,8 +371,11 @@ const candidates = audit.candidates.map((candidate) => {
   }));
 
   return {
+    id: candidate.id ?? null,
     url: candidate.url,
+    slug: candidate.slug ?? null,
     title: candidate.title,
+    categories: candidate.categories ?? [],
     publishedAt: candidate.publishedAt,
     lastModified: candidate.lastModified,
     signals: candidate.signals,
@@ -322,7 +395,7 @@ const candidates = audit.candidates.map((candidate) => {
 const output = {
   generatedAt: new Date().toISOString(),
   auditGeneratedAt: audit.generatedAt,
-  sitemapArticleCount: audit.sitemapArticleCount,
+  sitemapArticleCount: audit.sitemapArticleCount ?? audit.siteArticleCount,
   completedArticleCount: audit.completedArticleCount,
   failureCount: audit.failureCount,
   candidateCount: candidates.length,

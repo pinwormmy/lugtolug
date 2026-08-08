@@ -166,6 +166,27 @@ describe("watch seed data integrity", () => {
     });
   });
 
+  it("includes the full-site MONOCHROME lug-to-lug audit import", () => {
+    const monochromeRecords = seed.filter((watch) =>
+      watch.sources.some((source: SeedSource) => source.sourceUrl.startsWith("https://monochrome-watches.com/"))
+    );
+    const monochromeSources = monochromeRecords.flatMap((watch) =>
+      watch.sources.filter((source: SeedSource) => source.sourceUrl.startsWith("https://monochrome-watches.com/"))
+    );
+    const monochromePages = new Set(monochromeSources.map((source) => source.sourceUrl));
+
+    expect(monochromeRecords.length).toBeGreaterThanOrEqual(1_617);
+    expect(monochromeSources.length).toBeGreaterThanOrEqual(2_246);
+    expect(monochromePages.size).toBeGreaterThanOrEqual(1_404);
+    expect(monochromeRecords.map((watch) => watch.reference)).toEqual(
+      expect.arrayContaining(["5200G", "SBGW289", "UR-100V", "HU-01"])
+    );
+    expect(monochromeRecords.find((watch) => watch.reference === "SBGW289")).toMatchObject({
+      lugToLugMm: 42.7,
+      caseMm: 36.5
+    });
+  });
+
   it("returns planned expansion records through seed search", () => {
     for (const query of ["5712", "5167", "Promaster", "TSUYOSA", "Series8", "SBGN027", "SLGB005", "SBGX355"]) {
       expect(searchSeedWatches(query).length).toBeGreaterThan(0);
