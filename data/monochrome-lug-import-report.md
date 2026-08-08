@@ -79,8 +79,14 @@ npm run data:summarize:monochrome
 npm run data:import:monochrome
 npm run data:import:monochrome -- --apply
 npm run data:seed-sql
+npm run data:seed-delta-sql -- --base-ref=7ce4dd3
 ```
 
 The audit and summary artifacts default to `/private/tmp` because the full-text
 audit is large. The compact seed, generated SQL, importer, and this report are
 versioned in the repository.
+
+For the production D1 update, the full seed exceeded the importer's memory
+limit and was rolled back atomically. The delta generator produced 551 watch
+upserts and 2,230 source upserts, which were applied successfully in small,
+idempotent chunks after confirming that IDs 6945–7495 were unused remotely.
