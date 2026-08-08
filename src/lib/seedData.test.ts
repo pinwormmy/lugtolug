@@ -5,6 +5,10 @@ import { searchSeedWatches, seedWatches } from "./seed";
 import { compactReference } from "./watchIdentity";
 import { groupWatchesForDisplay } from "./watchGroups";
 
+interface SeedSource {
+  sourceUrl: string;
+}
+
 const seedSql = readFileSync(new URL("../../data/seed.sql", import.meta.url), "utf8");
 const seedSqlLines = seedSql.split("\n");
 const seedWatchRowsById = new Map<number, string>();
@@ -127,13 +131,13 @@ describe("watch seed data integrity", () => {
     const officialDoxaRecords = seed.filter(
       (watch) =>
         watch.brand === "Doxa" &&
-        watch.sources.some((source) => source.sourceUrl.startsWith("https://doxawatches.com/products/"))
+        watch.sources.some((source: SeedSource) => source.sourceUrl.startsWith("https://doxawatches.com/products/"))
     );
     const officialDoxaPages = new Set(
       officialDoxaRecords.flatMap((watch) =>
         watch.sources
-          .filter((source) => source.sourceUrl.startsWith("https://doxawatches.com/products/"))
-          .map((source) => source.sourceUrl)
+          .filter((source: SeedSource) => source.sourceUrl.startsWith("https://doxawatches.com/products/"))
+          .map((source: SeedSource) => source.sourceUrl)
       )
     );
 

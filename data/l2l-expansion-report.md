@@ -1,6 +1,6 @@
 # Lug-to-Lug Data Expansion Report
 
-Updated: 2026-06-30
+Updated: 2026-08-08
 
 ## Repository conventions
 
@@ -791,7 +791,7 @@ Excluded for source conflict or safer follow-up:
 - Maen Hudson 38 Automatic: existing seed value and Hodinkee review value differ for lug-to-lug, so no record was changed.
 - Unimatic Modello Uno U1-E/U1 variants: existing seed value and Hodinkee article family value differ enough to avoid a broad family overwrite.
 
-## Cumulative totals
+## Prior cumulative totals (through 2026-06-30)
 
 - Brands added: 34
 - Models added: 262
@@ -824,3 +824,51 @@ Excluded for source conflict or safer follow-up:
   - Duplicate normalized `brand + model + reference + caseMm` keys: 0
   - Duplicate compact `reference + full dimensions` keys: 0
   - Missing or invalid source URLs: 0
+
+## 2026-08-08 Full Hodinkee Sitemap Audit
+
+### Scope and results
+
+- Public sitemap article URLs scanned: 12,813
+- Completed article fetches: 12,813
+- Fetch failures: 0
+- Broad sizing candidates retained for analysis: 3,083
+- Articles with direct `lug-to-lug` or `L2L` language: 746
+- Direct articles linked to seed data: 707
+- Direct articles explicitly excluded because a value was unavailable, inapplicable, or referred to another metric: 14
+- Direct articles using the terminology without a numeric planar value: 25
+- Direct articles with an unresolved numeric value: 0
+- Indirect `height`, `length`, top-to-bottom, end-to-end, shaped-case, or dimension-pair candidates: 2,337
+- Confirmed indirect planar articles: 315
+- Confirmed indirect planar records: 404
+- Added watch records: 873
+- Source associations appended to pre-existing seed records: 431
+- Additional source associations appended to records created in this import: 90
+- Total source augmentations: 521
+- Existing records corrected after source reconciliation: 2
+- Conflicting source associations retained without overwriting the existing measurement: 30
+- Final seed records: 6,910
+
+The audit scanned both structured fact tables and article-body text. Direct matching covered spelling and punctuation variants of `lug-to-lug` and `L2L`. The wider pass also captured `height`, `length`, `top-to-bottom`, `end-to-end`, `tip-to-tip`, `north-to-south`, wrist-span language, and two- or three-axis case dimensions so that rectangular, tonneau, cushion, and digital cases were not missed.
+
+Only a dimension that clearly described the planar case span along the wrist was stored as `lugToLugMm`. Uses of `height`, `tall`, or the third axis that described case thickness were excluded from lug-to-lug import. Articles were attached through an explicit reference or manually reviewed model identity; matching on dimensions alone was not used. Collection-level records were retained only when Hodinkee did not publish a unique reference.
+
+The 30 conflicts represent articles whose rounded, measured, or comparison value differs from an already stored value. The existing value was preserved, while the Hodinkee value and article URL were added to the source note for later comparison. Two clear seed errors were corrected:
+
+- Tudor Pelagos 39: transcribed `50 / 42` dimensions corrected to `47mm` lug-to-lug, `39mm` case width, and `11.8mm` thickness.
+- Omega Seamaster Ploprof: transposed dimensions corrected from `55mm` lug-to-lug and `48mm` case width to `48mm` lug-to-lug and `55mm` case width.
+
+The crawler output and review intermediates remain outside the repository under `/private/tmp`; the repository contains the reproducible audit, summarization, proposal, and import scripts rather than a 16MB page-text snapshot.
+
+### Verification
+
+- Unique Hodinkee article URLs represented in the final seed: 1,028
+- Import idempotency: a second run produced 0 additions, 0 source augmentations, and 0 corrections
+- Duplicate IDs: 0
+- Duplicate normalized `brand + model + reference + caseMm` keys: 0
+- Missing or malformed source records: 0
+- `git diff --check`: passed
+- `npm run deploy:check`: passed
+  - Typecheck: 0 errors, warnings, or hints
+  - Tests: 14 files passed, 83 tests passed
+  - Production build: passed
