@@ -7,7 +7,11 @@ import { resolve } from "node:path";
 // cannot drift. Requires Node with TypeScript type stripping (>= 23.6).
 import { buildWatchSearchText, getWatchModelSlug, slugify } from "../src/lib/watchText.ts";
 
-const RETIRED_WATCH_IDS = [7, 14, 17, 18, 1462, 1463, 1464, 1468, 1469, 1933, 1972, 2001, 2002, 2761, 3100, 3105, 4463, 4477, 4486];
+const RETIRED_WATCH_IDS = [
+  7, 14, 17, 18, 1462, 1463, 1464, 1468, 1469, 1933, 1972, 2001, 2002, 2761, 3100, 3105, 4463, 4477, 4486,
+  6984, 7036, 7093, 7135, 7151, 7165, 7167, 7169, 7175, 7227, 7232, 7234, 7248, 7267, 7280, 7336, 7339, 7353,
+  7371, 7404, 7427, 7430, 7448, 7450
+];
 const brandArg = process.argv.find((argument) => argument.startsWith("--brand="));
 const outputArg = process.argv.find((argument) => argument.startsWith("--output="));
 const selectedBrand = brandArg?.slice("--brand=".length).trim() || null;

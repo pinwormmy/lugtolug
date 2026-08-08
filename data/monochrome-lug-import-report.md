@@ -90,3 +90,12 @@ For the production D1 update, the full seed exceeded the importer's memory
 limit and was rolled back atomically. The delta generator produced 551 watch
 upserts and 2,230 source upserts, which were applied successfully in small,
 idempotent chunks after confirming that IDs 6945–7495 were unused remotely.
+
+## Post-import duplicate review
+
+A cross-source identity review subsequently merged 24 collection/article-title
+rows into stronger existing reference records while preserving all 1,404
+unique MONOCHROME article pages. The final seed contains 7,437 watches and
+2,274 MONOCHROME source associations across 1,644 watch records. See
+`data/monochrome-dedup-report.md` for the mappings and retained near-match
+rules.

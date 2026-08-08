@@ -187,6 +187,38 @@ describe("watch seed data integrity", () => {
     });
   });
 
+  it("keeps confirmed MONOCHROME import duplicates retired and their sources reassigned", () => {
+    const retiredDuplicateIds = [
+      6984, 7036, 7093, 7135, 7151, 7165, 7167, 7169, 7175, 7227, 7232, 7234, 7248, 7267, 7280, 7336, 7339,
+      7353, 7371, 7404, 7427, 7430, 7448, 7450
+    ];
+    const seedIds = new Set(seed.map((watch) => watch.id));
+
+    expect(retiredDuplicateIds.filter((id) => seedIds.has(id))).toEqual([]);
+    expect(seed.find((watch) => watch.id === 347)?.sources).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({
+          sourceUrl: "https://monochrome-watches.com/omega-speedmaster-silver-snoopy-award-50th-anniversary-review-price/"
+        })
+      ])
+    );
+    expect(seed.find((watch) => watch.id === 6694)?.sources).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({
+          sourceUrl: "https://monochrome-watches.com/konstantin-chaykin-takes-on-the-silver-screen/"
+        })
+      ])
+    );
+    expect(seed.find((watch) => watch.id === 7396)?.sources).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({
+          sourceUrl:
+            "https://monochrome-watches.com/introducing-gerald-charles-genta-maestro-9-0-roman-tourbillon-hand-hammered-dial-vaucher-specs-price/"
+        })
+      ])
+    );
+  });
+
   it("returns planned expansion records through seed search", () => {
     for (const query of ["5712", "5167", "Promaster", "TSUYOSA", "Series8", "SBGN027", "SLGB005", "SBGX355"]) {
       expect(searchSeedWatches(query).length).toBeGreaterThan(0);

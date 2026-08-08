@@ -108,13 +108,50 @@ for (const watch of seed) {
 
 await mkdir(outputDir, { recursive: true });
 for (const filename of await readdir(outputDir)) {
-  if (/^(?:watch|source)-\d+\.sql$/u.test(filename) || filename === "manifest.json") {
+  if (/^(?:retired|watch|source|source-delete)-\d+\.sql$/u.test(filename) || filename === "manifest.json") {
     await unlink(resolve(outputDir, filename));
   }
 }
 
 const updateColumns = WATCH_COLUMNS.filter((column) => !["id", "status"].includes(column));
 const files = [];
+const seedIds = new Set(seed.map((watch) => watch.id));
+const retiredWatches = baseSeed.filter((watch) => !seedIds.has(watch.id));
+const currentById = new Map(seed.map((watch) => [watch.id, watch]));
+const removedSources = [];
+
+for (const baseWatch of baseSeed) {
+  const currentSources = new Set((currentById.get(baseWatch.id)?.sources ?? []).map((source) => source.sourceUrl));
+  for (const source of baseWatch.sources) {
+    if (!currentSources.has(source.sourceUrl)) {
+      removedSources.push({ watchId: baseWatch.id, sourceUrl: source.sourceUrl });
+    }
+  }
+}
+
+for (const [index, batch] of chunks(retiredWatches, watchBatchSize).entries()) {
+  const filename = `retired-${String(index + 1).padStart(3, "0")}.sql`;
+  const sql = [
+    `-- Retired seed watches removed since ${baseRef}; chunk ${index + 1}.`,
+    `UPDATE watches SET status = 'archived', updated_at = CURRENT_TIMESTAMP WHERE id IN (${batch.map((watch) => watch.id).join(", ")}) AND status = 'approved';`,
+    ""
+  ].join("\n");
+  await writeFile(resolve(outputDir, filename), sql);
+  files.push(filename);
+}
+
+for (const [index, batch] of chunks(removedSources, sourceBatchSize).entries()) {
+  const filename = `source-delete-${String(index + 1).padStart(3, "0")}.sql`;
+  const statements = batch.map(
+    (source) =>
+      `DELETE FROM watch_sources WHERE watch_id = ${sqlValue(source.watchId)} AND source_url = ${sqlValue(source.sourceUrl)};`
+  );
+  await writeFile(
+    resolve(outputDir, filename),
+    [`-- Seed source removals since ${baseRef}; chunk ${index + 1}.`, ...statements, ""].join("\n")
+  );
+  files.push(filename);
+}
 
 for (const [index, batch] of chunks(changedWatches, watchBatchSize).entries()) {
   const filename = `watch-${String(index + 1).padStart(3, "0")}.sql`;
@@ -162,7 +199,9 @@ for (const [index, batch] of chunks(changedSources, sourceBatchSize).entries()) 
 const manifest = {
   generatedAt: new Date().toISOString(),
   baseRef,
+  retiredWatchCount: retiredWatches.length,
   changedWatchCount: changedWatches.length,
+  removedSourceCount: removedSources.length,
   changedSourceCount: changedSources.length,
   watchBatchSize,
   sourceBatchSize,
@@ -171,5 +210,6 @@ const manifest = {
 await writeFile(resolve(outputDir, "manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`);
 process.stdout.write(
   `Generated ${files.length} delta SQL chunks in ${outputDir}: ` +
-    `${changedWatches.length} watches and ${changedSources.length} sources.\n`
+    `${retiredWatches.length} retired watches, ${changedWatches.length} changed watches, ` +
+    `${removedSources.length} removed sources, and ${changedSources.length} changed sources.\n`
 );
