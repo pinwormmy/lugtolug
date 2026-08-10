@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   getEditableWatchBySlugs,
+  getSubmissionWatchSlugs,
   getWatchBySlugs,
   listAdminWatches,
   listRecentWatches,
@@ -211,6 +212,21 @@ describe("recent watches", () => {
     expect(prepareCalls.some((sql) => sql.includes("INSERT INTO watches"))).toBe(false);
     expect(prepareCalls.some((sql) => sql.includes("status != 'archived'"))).toBe(true);
     expect(updateBind).toContain(7);
+  });
+
+  it("uses the reference as the model slug for non-Latin watch names", () => {
+    const slugs = getSubmissionWatchSlugs({
+      brand: "Mido",
+      model: "문페이즈",
+      reference: "M123.45",
+      lugToLugMm: 44,
+      caseMm: 38,
+      thicknessMm: 10,
+      lugWidthMm: 20,
+      sourceUrl: "https://example.com/mido"
+    });
+
+    expect(slugs.modelSlug).toBe("m123-45");
   });
 
   it("resolves editable watches by slugs instead of a public seed id", async () => {

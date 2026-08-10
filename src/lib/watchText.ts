@@ -89,6 +89,16 @@ export interface SearchTextWatch {
   lugWidthMm?: number | null;
 }
 
+export interface WatchSlugs {
+  brandSlug: string;
+  modelSlug: string;
+  referenceSlug: string;
+}
+
+export function normalizeOptionalString(value: unknown): string | null {
+  return typeof value === "string" && value.trim() ? value.trim() : null;
+}
+
 // Runtime search and the generated D1 search_text column must stay identical,
 // so both go through this builder.
 export function buildWatchSearchText(watch: SearchTextWatch, brandAliases: Record<string, string[]>): string {
@@ -106,4 +116,16 @@ export function buildWatchSearchText(watch: SearchTextWatch, brandAliases: Recor
 // detail URLs stay routable (see commit 08a0da2).
 export function getWatchModelSlug(watch: Pick<SearchTextWatch, "model" | "reference">): string {
   return slugify(watch.model) || slugify(watch.reference);
+}
+
+// Runtime seed records, generated D1 rows, and admin mutations must resolve to
+// the same URL. The fallbacks also keep incomplete user submissions routable.
+export function getWatchSlugs(
+  watch: Pick<SearchTextWatch, "brand" | "model" | "reference">
+): WatchSlugs {
+  return {
+    brandSlug: slugify(watch.brand) || "unknown-brand",
+    modelSlug: getWatchModelSlug(watch) || "watch",
+    referenceSlug: slugify(watch.reference) || "no-reference"
+  };
 }

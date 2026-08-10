@@ -1,1 +1,8 @@
-export { slugify, normalizeSearch, normalizeSearchWithAliases } from "@/lib/watchText";
+export {
+  getWatchModelSlug,
+  getWatchSlugs,
+  normalizeOptionalString,
+  normalizeSearch,
+  normalizeSearchWithAliases,
+  slugify
+} from "@/lib/watchText";

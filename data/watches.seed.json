@@ -32629,6 +32629,8 @@
     "id": 1773,
     "brand": "Chronoswiss",
     "model": "PULSE GMT Enamel Sky Gold/Silver Guilloche",
+    "canonicalModel": "PULSE GMT Enamel Sky Gold/Silver Guilloche",
+    "modelGroup": "chronoswiss-pulse-gmt-enamel-sky-gold-silver-guilloche",
     "variant": "Enamel Sky Gold",
     "reference": "CH-4221REM-GRBL",
     "lugToLugMm": 46.27,
@@ -46338,7 +46340,7 @@
   {
     "id": 2489,
     "brand": "Tissot",
-    "model": "PRX Powermatic 80 Steel &amp; 18K Gold",
+    "model": "PRX Powermatic 80 Steel & 18K Gold",
     "reference": "T931.407.41.031.00",
     "lugToLugMm": 51.5,
     "caseMm": 40,
@@ -46358,7 +46360,7 @@
   {
     "id": 2490,
     "brand": "Tissot",
-    "model": "PRX Powermatic 80 Steel &amp; 18K Gold",
+    "model": "PRX Powermatic 80 Steel & 18K Gold",
     "reference": "T931.407.41.031.01",
     "lugToLugMm": 51.5,
     "caseMm": 40,
@@ -46378,7 +46380,7 @@
   {
     "id": 2491,
     "brand": "Tissot",
-    "model": "PRX Powermatic 80 Steel &amp; 18K Gold",
+    "model": "PRX Powermatic 80 Steel & 18K Gold",
     "reference": "T931.407.41.041.00",
     "lugToLugMm": 51.5,
     "caseMm": 40,

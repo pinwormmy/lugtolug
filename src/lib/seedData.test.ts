@@ -97,6 +97,27 @@ describe("watch seed data integrity", () => {
     }
   });
 
+  it("keeps display and grouping metadata clean", () => {
+    const htmlEntityPattern = /&(?:amp|quot|apos|lt|gt|#\d+|#x[\da-f]+);/iu;
+
+    for (const watch of seed) {
+      const record = watch as Record<string, unknown>;
+      for (const field of ["brand", "model", "reference", "canonicalModel", "modelGroup", "variant"]) {
+        const value = record[field];
+        if (value == null) continue;
+        expect(value, `${watch.id}:${field}`).toBeTypeOf("string");
+        expect(String(value), `${watch.id}:${field}`).toBe(String(value).trim());
+        expect(String(value), `${watch.id}:${field}`).not.toMatch(htmlEntityPattern);
+      }
+
+      expect(Boolean(record.canonicalModel), `${watch.id}:canonicalModel/modelGroup`).toBe(Boolean(record.modelGroup));
+      if (record.variant) {
+        expect(record.canonicalModel, `${watch.id}:variant canonicalModel`).toBeTruthy();
+        expect(record.modelGroup, `${watch.id}:variant modelGroup`).toBeTruthy();
+      }
+    }
+  });
+
   it("includes the planned Patek Philippe and Citizen expansion references without duplicates", () => {
     const referencesByBrand = (brand: string) =>
       seed.filter((watch) => watch.brand === brand).map((watch) => watch.reference);

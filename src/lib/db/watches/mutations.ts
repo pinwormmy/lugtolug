@@ -1,7 +1,7 @@
 import type { SubmissionPayload, WatchStatus } from "@/types";
 import type { D1 } from "@/lib/db/connection";
 import type { WatchRow } from "@/lib/db/rows";
-import { slugify } from "@/lib/slug";
+import { getWatchSlugs } from "@/lib/slug";
 import { getWatchSearchText } from "@/lib/watch";
 import { getReferenceProductIdentity } from "@/lib/watchIdentity";
 
@@ -76,9 +76,7 @@ export async function upsertApprovedWatch(db: D1Database, payload: SubmissionPay
 }
 
 export function getSubmissionWatchSlugs(payload: SubmissionPayload): SubmissionWatchSlugs {
-  const brandSlug = slugify(payload.brand) || "unknown-brand";
-  const modelSlug = slugify(payload.model) || "watch";
-  const referenceSlug = slugify(payload.reference) || "no-reference";
+  const { brandSlug, modelSlug, referenceSlug } = getWatchSlugs(payload);
   const searchText = getWatchSearchText(payload);
   return { brandSlug, modelSlug, referenceSlug, searchText };
 }

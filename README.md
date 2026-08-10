@@ -36,6 +36,19 @@ npm run smoke:workflow -- --base-url http://127.0.0.1:4321
 
 The smoke script expects a running local preview server and a seeded D1 database. It submits two watches, approves one, rejects the other, and verifies the approved watch page is reachable.
 
+## Data maintenance
+
+The JSON seed is the source of truth and `data/seed.sql` is generated from it.
+
+```bash
+npm run data:audit
+npm run data:seed-sql
+```
+
+The audit checks text cleanliness, metric validity, source URLs, product identities,
+route collisions, normalization metadata, and exact JSON/SQL synchronization. It is
+also included in `npm run deploy:check`.
+
 ## Marketing automation
 
 SEO indexing (IndexNow) and Reddit keyword monitoring are documented in
