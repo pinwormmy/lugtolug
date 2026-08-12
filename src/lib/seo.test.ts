@@ -3,6 +3,7 @@ import {
   absoluteUrl,
   buildOrganizationSchema,
   buildWebSiteSchema,
+  getCanonicalHostRedirect,
   resolveOrigin,
   SITE_URL
 } from "@/lib/seo";
@@ -28,6 +29,21 @@ describe("absoluteUrl", () => {
   it("joins origin and path", () => {
     expect(absoluteUrl(origin, "/watches")).toBe("https://lugtolugfinder.com/watches");
     expect(absoluteUrl(origin, "watches")).toBe("https://lugtolugfinder.com/watches");
+  });
+});
+
+describe("getCanonicalHostRedirect", () => {
+  it("redirects the www alias to the apex while preserving the request target", () => {
+    const redirect = getCanonicalHostRedirect(
+      new URL("https://www.lugtolugfinder.com/watches/omega?q=speedmaster")
+    );
+
+    expect(redirect?.toString()).toBe("https://lugtolugfinder.com/watches/omega?q=speedmaster");
+  });
+
+  it("does not redirect the canonical or an unrelated host", () => {
+    expect(getCanonicalHostRedirect(new URL("https://lugtolugfinder.com/watches"))).toBeNull();
+    expect(getCanonicalHostRedirect(new URL("https://preview.example.com/watches"))).toBeNull();
   });
 });
 

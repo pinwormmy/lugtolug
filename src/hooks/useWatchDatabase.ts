@@ -9,13 +9,15 @@ interface WatchDatabaseState {
   retry: () => void;
 }
 
-export function useWatchDatabase(providedWatches?: Watch[]): WatchDatabaseState {
-  const [fetchedWatches, setFetchedWatches] = useState<Watch[] | null>(null);
-  const [status, setStatus] = useState<WatchDatabaseStatus>(providedWatches ? "ready" : "loading");
+export function useWatchDatabase(providedWatches?: Watch[], refreshProvided = false): WatchDatabaseState {
+  const [fetchedWatches, setFetchedWatches] = useState<Watch[] | null>(providedWatches ?? null);
+  const [status, setStatus] = useState<WatchDatabaseStatus>(
+    providedWatches && !refreshProvided ? "ready" : "loading"
+  );
   const [attempt, setAttempt] = useState(0);
 
   useEffect(() => {
-    if (providedWatches) return;
+    if (providedWatches && !refreshProvided) return;
 
     let cancelled = false;
     setStatus("loading");
@@ -36,11 +38,11 @@ export function useWatchDatabase(providedWatches?: Watch[]): WatchDatabaseState 
     return () => {
       cancelled = true;
     };
-  }, [attempt, providedWatches]);
+  }, [attempt, providedWatches, refreshProvided]);
 
   return {
-    watches: providedWatches ?? fetchedWatches ?? [],
-    status: providedWatches ? "ready" : status,
+    watches: fetchedWatches ?? providedWatches ?? [],
+    status: providedWatches && !refreshProvided ? "ready" : status,
     retry: () => setAttempt((current) => current + 1)
   };
 }

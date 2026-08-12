@@ -77,12 +77,12 @@ export function mergeSeedWatches<T extends Watch>(
   return merged.sort((a, b) => a.brand.localeCompare(b.brand) || a.model.localeCompare(b.model));
 }
 
-export function mergeRecentSeedWatches(
-  watches: WatchWithSources[],
-  seeds: WatchWithSources[],
+export function mergeRecentSeedWatches<T extends Watch>(
+  watches: T[],
+  seeds: T[],
   suppressedSeedMatches: SuppressedSeedMatches,
   limit: number
-): WatchWithSources[] {
+): T[] {
   const seen = new Set(watches.map(getWatchKey));
   const seenReferenceIdentities = new Set(watches.map(getWatchReferenceIdentity).filter(Boolean));
   const recentSeeds = seeds

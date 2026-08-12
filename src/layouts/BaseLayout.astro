@@ -70,6 +70,7 @@ const [adminSession, visitorCounts] = await Promise.all([
           </span>
         </a>
         <nav class="nav" aria-label="Main navigation">
+          <a href="/watches">Browse</a>
           <a href="/submit">Submit</a>
           <a class="nav-admin" href={adminSession ? "/admin/submissions" : "/admin/login"}>Admin</a>
         </nav>

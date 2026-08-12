@@ -2,15 +2,51 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import SearchApp from "@/components/SearchApp";
 import WatchRow from "@/components/WatchRow.astro";
-import { getDb, listRecentWatches } from "@/lib/db";
+import { getDb, getWatchDirectoryStats, listPopularBrands, listRecentSearchWatches } from "@/lib/db";
 import { readSearchState } from "@/lib/searchState";
 import { buildOrganizationSchema, buildWebSiteSchema, resolveOrigin } from "@/lib/seo";
+import { hasActiveDimensionFilters } from "@/lib/watchFilters";
+import { groupWatchesForDisplay } from "@/lib/watchGroups";
 
-const showRecentWatches = false;
-const recentWatches = showRecentWatches ? await listRecentWatches(getDb(Astro.locals), 5) : [];
+const db = getDb(Astro.locals);
+const [recentWatches, popularBrands, directoryStats] = await Promise.all([
+  listRecentSearchWatches(db, 18),
+  listPopularBrands(db, 12),
+  getWatchDirectoryStats(db)
+]);
+const recentWatchGroups = groupWatchesForDisplay(recentWatches).slice(0, 8);
 const initialSearchState = readSearchState(Astro.url.searchParams);
+const hideDirectoryInitially = Boolean(
+  initialSearchState.query.trim() || hasActiveDimensionFilters(initialSearchState.dimensionFilters)
+);
 const origin = resolveOrigin(Astro.site);
 const homeStructuredData = [buildWebSiteSchema(origin), buildOrganizationSchema(origin)];
+const sizeCollections = [
+  {
+    href: "/?lugToLugMmMax=42&sort=lug-asc",
+    label: "Lug-to-lug up to 42 mm",
+    detail: "The most compact spans in the database.",
+    count: directoryStats.lugToLugUnder42
+  },
+  {
+    href: "/?lugToLugMmMax=44&sort=lug-asc",
+    label: "Lug-to-lug up to 44 mm",
+    detail: "Short-wearing watches across every case shape.",
+    count: directoryStats.lugToLugUnder44
+  },
+  {
+    href: "/?lugToLugMmMax=46&sort=lug-asc",
+    label: "Lug-to-lug up to 46 mm",
+    detail: "A broad compact-to-balanced range.",
+    count: directoryStats.lugToLugUnder46
+  },
+  {
+    href: "/?thicknessMmMax=10&sort=lug-asc",
+    label: "Thickness up to 10 mm",
+    detail: "Low-profile watches with recorded thickness.",
+    count: directoryStats.thicknessUnder10
+  }
+];
 ---
 
 <BaseLayout title="Lug to Lug Finder | Watch database" description="Search watch records by brand, model, and reference.">
@@ -26,14 +62,61 @@ const homeStructuredData = [buildWebSiteSchema(origin), buildOrganizationSchema(
     />
   </section>
 
-  {
-    showRecentWatches && (
-      <section class="section" data-recent-watches>
-        <h2>Recently approved watches</h2>
-        <div class="watch-list">
-          {recentWatches.map((watch) => <WatchRow watch={watch} />)}
+  <div class="home-directory" data-home-directory hidden={hideDirectoryInitially}>
+    <header class="directory-heading">
+      <div>
+        <p class="eyebrow">Browse</p>
+        <h2>Explore the watch database.</h2>
+        <p>
+          {directoryStats.totalRecords.toLocaleString("en-US")} references across {directoryStats.brandCount.toLocaleString("en-US")} brands, organized for direct browsing.
+        </p>
+      </div>
+      <a class="button secondary" href="/watches">Browse all records</a>
+    </header>
+
+    <div class="directory-columns">
+      <section class="directory-block" aria-labelledby="size-directory-title">
+        <div class="directory-block-heading">
+          <h3 id="size-directory-title">Browse by dimensions</h3>
+          <span>Live counts</span>
+        </div>
+        <div class="directory-link-list">
+          {sizeCollections.map((collection) => (
+            <a class="directory-link-row" href={collection.href}>
+              <span>
+                <strong>{collection.label}</strong>
+                <small>{collection.detail}</small>
+              </span>
+              <b>{collection.count.toLocaleString("en-US")}</b>
+            </a>
+          ))}
         </div>
       </section>
-    )
-  }
+
+      <section class="directory-block" aria-labelledby="brand-directory-title">
+        <div class="directory-block-heading">
+          <h3 id="brand-directory-title">Most represented brands</h3>
+          <span>By references</span>
+        </div>
+        <div class="brand-directory-grid">
+          {popularBrands.map((brand) => (
+            <a href={`/brands/${brand.brandSlug}`}>
+              <strong>{brand.brand}</strong>
+              <span>{brand.watchCount.toLocaleString("en-US")}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    </div>
+
+    <section class="directory-recent" aria-labelledby="recent-directory-title">
+      <div class="directory-block-heading">
+        <h3 id="recent-directory-title">Recently added records</h3>
+        <a href="/watches">Open directory</a>
+      </div>
+      <div class="recent-directory-grid">
+        {recentWatchGroups.map((watch) => <WatchRow watch={watch} />)}
+      </div>
+    </section>
+  </div>
 </BaseLayout>

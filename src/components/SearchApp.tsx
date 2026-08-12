@@ -88,11 +88,11 @@ export default function SearchApp({
   const results = filtered.slice(0, 80);
 
   useEffect(() => {
-    const recentSection = document.querySelector<HTMLElement>("[data-recent-watches]");
-    if (!recentSection) return;
-    recentSection.hidden = shouldShowResults;
+    const homeDirectory = document.querySelector<HTMLElement>("[data-home-directory]");
+    if (!homeDirectory) return;
+    homeDirectory.hidden = shouldShowResults;
     return () => {
-      recentSection.hidden = false;
+      homeDirectory.hidden = false;
     };
   }, [shouldShowResults]);
 

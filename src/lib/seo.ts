@@ -23,6 +23,19 @@ export function absoluteUrl(origin: string, path: string): string {
   return `${origin}${path.startsWith("/") ? path : `/${path}`}`;
 }
 
+/** Redirect the optional www alias to the configured apex canonical host. */
+export function getCanonicalHostRedirect(url: URL, canonicalOrigin = SITE_URL): URL | null {
+  const canonical = new URL(canonicalOrigin);
+  const apexHost = canonical.hostname.replace(/^www\./, "");
+
+  if (canonical.hostname !== apexHost || url.hostname !== `www.${apexHost}`) return null;
+
+  const redirectUrl = new URL(url);
+  redirectUrl.protocol = canonical.protocol;
+  redirectUrl.host = canonical.host;
+  return redirectUrl;
+}
+
 /** WebSite schema with a sitelinks search box wired to the homepage search. */
 export function buildWebSiteSchema(origin: string): Record<string, unknown> {
   return {

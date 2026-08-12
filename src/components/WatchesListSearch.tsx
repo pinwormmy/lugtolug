@@ -7,12 +7,14 @@ import { buildSearchUrl, readSearchState } from "@/lib/searchState";
 import type { Watch } from "@/types";
 
 interface Props {
-  watches?: Watch[];
+  initialWatches?: Watch[];
   initialQuery?: string;
 }
 
-export default function WatchesListSearch({ watches: providedWatches, initialQuery = "" }: Props) {
-  const { watches: allWatches, status: databaseStatus, retry } = useWatchDatabase(providedWatches);
+const MAX_VISIBLE_WATCHES = 120;
+
+export default function WatchesListSearch({ initialWatches, initialQuery = "" }: Props) {
+  const { watches: allWatches, status: databaseStatus, retry } = useWatchDatabase(initialWatches, true);
   const watches = useMemo(() => groupWatchesForDisplay(allWatches), [allWatches]);
   const [query, setQuery] = useState(initialQuery);
   const deferredQuery = useDeferredValue(query);
@@ -24,6 +26,7 @@ export default function WatchesListSearch({ watches: providedWatches, initialQue
       searchTextMatchesQuery(watch.groupSearchText, deferredQuery)
     ));
   }, [deferredQuery, hasSearchQuery, watches]);
+  const visibleWatches = filtered.slice(0, MAX_VISIBLE_WATCHES);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -64,7 +67,9 @@ export default function WatchesListSearch({ watches: providedWatches, initialQue
           <h1 className="page-title">Watch database</h1>
           <p className="lede watches-lede">Approved records with watch names and references. Search to find matching references.</p>
         </div>
-        {databaseStatus === "loading" && <span>Loading records…</span>}
+        {databaseStatus === "loading" && (
+          <span>{initialWatches?.length ? "Refreshing directory…" : "Loading records…"}</span>
+        )}
         {databaseStatus === "error" && (
           <span>
             Couldn&apos;t load the database.{" "}
@@ -79,7 +84,7 @@ export default function WatchesListSearch({ watches: providedWatches, initialQue
       </div>
 
       <div className="watch-list">
-        {filtered.map((watch) => (
+        {visibleWatches.map((watch) => (
           <a className="watch-row watch-row--summary" href={getWatchHref(watch)} key={watch.id}>
             <div className="watch-summary">
               <div className="watch-summary-name">
@@ -91,6 +96,12 @@ export default function WatchesListSearch({ watches: providedWatches, initialQue
           </a>
         ))}
       </div>
+
+      {filtered.length > visibleWatches.length && (
+        <p className="small directory-result-note">
+          Showing the first {visibleWatches.length.toLocaleString()} records. Narrow the search to inspect more.
+        </p>
+      )}
 
       {filtered.length === 0 && databaseStatus === "ready" && (
         <p className="empty-state">No matching watches yet.</p>

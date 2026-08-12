@@ -1,11 +1,13 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import WatchesListSearch from "@/components/WatchesListSearch";
+import { getDb, listRecentSearchWatches } from "@/lib/db";
 import { readSearchState } from "@/lib/searchState";
 
 const initialSearchState = readSearchState(Astro.url.searchParams);
+const initialWatches = await listRecentSearchWatches(getDb(Astro.locals), 48);
 ---
 
 <BaseLayout title="Watch database | Lug to Lug Finder" description="Browse approved watch records by brand, model, and reference number.">
-  <WatchesListSearch client:load initialQuery={initialSearchState.query} />
+  <WatchesListSearch client:load initialQuery={initialSearchState.query} initialWatches={initialWatches} />
 </BaseLayout>

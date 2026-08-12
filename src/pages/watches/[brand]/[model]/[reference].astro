@@ -2,9 +2,10 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import CorrectionReportForm from "@/components/CorrectionReportForm";
 import FitCalculator from "@/components/FitCalculator";
+import WatchRow from "@/components/WatchRow.astro";
 import { getAdminSession } from "@/lib/auth";
 import { getManagePublishedWatchHref } from "@/lib/adminRoutes";
-import { getDb, getWatchBySlugs } from "@/lib/db";
+import { getDb, getWatchBySlugs, listSimilarWatches } from "@/lib/db";
 import { mmToInches } from "@/lib/fit";
 import { formatMm, getWatchDisplayModel, getWatchDisplayName, isHttpUrl, WATCH_METRICS } from "@/lib/watch";
 import { resolveOrigin } from "@/lib/seo";
@@ -17,15 +18,19 @@ if (!watch) {
   return Astro.rewrite("/404");
 }
 
-const adminSession = await getAdminSession(db, Astro.request);
+const [adminSession, similarWatches] = await Promise.all([
+  getAdminSession(db, Astro.request),
+  listSimilarWatches(db, watch, 6)
+]);
 const manageHref = getManagePublishedWatchHref(watch);
 const watchModel = getWatchDisplayModel(watch);
 const watchName = getWatchDisplayName(watch);
 const referenceLabel = watch.reference || "Reference not provided";
 const variantLabel = watch.variant ? `${referenceLabel} · ${watch.variant}` : referenceLabel;
 const formatInches = (value: number | null | undefined) => value == null ? "Not provided" : `${mmToInches(value).toFixed(2)} in`;
-const title = `${watchName} | Lug to Lug Finder`;
-const description = `${watchName}: ${formatMm(watch.lugToLugMm)} lug-to-lug, ${formatMm(watch.caseMm)} case, ${formatMm(watch.thicknessMm)} thickness, ${formatMm(watch.lugWidthMm)} lug width.`;
+const titleIdentity = [watch.brand, watchModel, watch.reference].filter(Boolean).join(" ");
+const title = `${titleIdentity} lug-to-lug, dimensions & wrist fit`;
+const description = `${watchName} ${referenceLabel} dimensions: ${formatMm(watch.lugToLugMm)} lug-to-lug, ${formatMm(watch.caseMm)} case, ${formatMm(watch.thicknessMm)} thickness, and ${formatMm(watch.lugWidthMm)} lug width. Check wrist fit and cited sources.`;
 const siteOrigin = resolveOrigin(Astro.site);
 const canonicalUrl = new URL(Astro.url.pathname, siteOrigin).toString();
 const structuredData = {
@@ -59,7 +64,15 @@ const breadcrumbData = {
   <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbData)} />
   <section class="section detail-record" style="margin-top: 0;">
     <div>
-      {watch.brand && <p class="eyebrow"><a href={`/brands/${watch.brandSlug}`}>{watch.brand}</a></p>}
+      <nav class="detail-breadcrumb" aria-label="Breadcrumb">
+        <a href="/watches">Watch database</a>
+        {watch.brand && (
+          <>
+            <span aria-hidden="true">/</span>
+            <a href={`/brands/${watch.brandSlug}`}>{watch.brand}</a>
+          </>
+        )}
+      </nav>
       <h1 class="page-title">{watchModel}</h1>
       <p class="lede">{variantLabel}</p>
     </div>
@@ -91,6 +104,21 @@ const breadcrumbData = {
       </ul>
     </div>
   </section>
+
+  {similarWatches.length > 0 && (
+    <section class="section related-watches" aria-labelledby="related-watches-title">
+      <div class="related-watches-heading">
+        <div>
+          <p class="eyebrow">Compare</p>
+          <h2 id="related-watches-title">Similar dimensions</h2>
+        </div>
+        <p>Nearby lug-to-lug and case measurements, excluding variants from this model family.</p>
+      </div>
+      <div class="related-watch-grid">
+        {similarWatches.map((similarWatch) => <WatchRow watch={similarWatch} />)}
+      </div>
+    </section>
+  )}
 
   <section class="section" id="notes">
     <CorrectionReportForm client:load watch={watch} />

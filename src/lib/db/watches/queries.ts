@@ -5,6 +5,14 @@ import { normalizeSearch } from "@/lib/slug";
 import { searchSeedWatches, seedWatches } from "@/lib/seed";
 import { getSearchTokens, watchMatchesSearchQuery } from "@/lib/watch";
 import {
+  buildPopularBrands,
+  buildWatchDirectoryStats,
+  rankSimilarWatches,
+  type BrandSummary,
+  type WatchDirectoryStats
+} from "@/lib/watchDiscovery";
+import type { WatchDisplayGroup } from "@/lib/watchGroups";
+import {
   hydrateOne,
   hydrateSources,
   listSuppressedSeedMatches,
@@ -93,6 +101,80 @@ export async function listRecentWatches(db: D1, limit = 5): Promise<WatchWithSou
     .all<WatchRow>();
   const watches = await hydrateSources(db, rows.results.map(mapWatch));
   return mergeRecentSeedWatches(watches, seedWatches, await listSuppressedSeedMatches(db), limit);
+}
+
+export async function listRecentSearchWatches(db: D1, limit = 48): Promise<Watch[]> {
+  if (!db) {
+    return seedWatches
+      .slice()
+      .sort((a, b) => b.id - a.id)
+      .slice(0, limit)
+      .map(toWatchSummary);
+  }
+
+  const rows = await db
+    .prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY updated_at DESC, id DESC LIMIT ?")
+    .bind(limit)
+    .all<WatchRow>();
+  return mergeRecentSeedWatches(
+    rows.results.map(mapWatch),
+    seedWatches.map(toWatchSummary),
+    await listSuppressedSeedMatches(db),
+    limit
+  );
+}
+
+export async function listPopularBrands(_db: D1, limit = 12): Promise<BrandSummary[]> {
+  // The checked-in seed is the complete public catalog; D1 can contain only
+  // operator overrides and recent approvals, so it must not be treated as the
+  // denominator for directory summaries.
+  return buildPopularBrands(seedWatches, limit);
+}
+
+export async function getWatchDirectoryStats(_db: D1): Promise<WatchDirectoryStats> {
+  return buildWatchDirectoryStats(seedWatches);
+}
+
+export async function listSimilarWatches(db: D1, target: Watch, limit = 6): Promise<WatchDisplayGroup[]> {
+  if (!db) return rankSimilarWatches(seedWatches, target, limit);
+
+  const targetCase = target.caseMm ?? target.lugToLugMm;
+  const targetThickness = target.thicknessMm ?? 0;
+  const candidateLimit = Math.max(limit * 8, 32);
+  const rows = await db
+    .prepare(
+      `SELECT * FROM watches
+       WHERE status = 'approved'
+         AND NOT (brand_slug = ? AND model_slug = ? AND reference_slug = ?)
+       ORDER BY
+         ABS(lug_to_lug_mm - ?) * 3 +
+         ABS(COALESCE(case_mm, ?) - ?) * 1.25 +
+         ABS(COALESCE(thickness_mm, ?) - ?) * 0.35
+       LIMIT ?`
+    )
+    .bind(
+      target.brandSlug,
+      target.modelSlug,
+      target.referenceSlug,
+      target.lugToLugMm,
+      targetCase,
+      targetCase,
+      targetThickness,
+      targetThickness,
+      candidateLimit
+    )
+    .all<WatchRow>();
+
+  const seedCandidates = seedWatches.filter((watch) => (
+    Math.abs(watch.lugToLugMm - target.lugToLugMm) <= 6 &&
+    (target.caseMm == null || watch.caseMm == null || Math.abs(watch.caseMm - target.caseMm) <= 8)
+  ));
+  const candidates = mergeSeedWatches<Watch>(
+    rows.results.map(mapWatch),
+    seedCandidates,
+    await listSuppressedSeedMatches(db)
+  );
+  return rankSimilarWatches(candidates, target, limit);
 }
 
 export async function listAdminWatches(db: D1, status: WatchStatus | "all" = "pending"): Promise<WatchWithSources[]> {

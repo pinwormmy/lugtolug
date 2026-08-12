@@ -1,10 +1,10 @@
 ---
-import type { WatchWithSources } from "@/types";
+import type { Watch } from "@/types";
 import { formatMm, getWatchDisplayName, getWatchHref } from "@/lib/watch";
 import type { WatchDisplayGroup } from "@/lib/watchGroups";
 
 interface Props {
-  watch: WatchWithSources | WatchDisplayGroup;
+  watch: Watch | WatchDisplayGroup;
 }
 
 const { watch } = Astro.props;

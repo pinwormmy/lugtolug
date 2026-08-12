@@ -207,6 +207,180 @@ button {
   max-width: 1480px;
 }
 
+.home-directory {
+  display: grid;
+  gap: 34px;
+  margin: 52px auto 0;
+  max-width: 1480px;
+}
+
+.directory-heading {
+  align-items: end;
+  border-top: 1px solid var(--line-strong);
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  padding-top: 24px;
+}
+
+.directory-heading h2 {
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+  font-weight: 400;
+  line-height: 1.08;
+  margin: 0;
+}
+
+.directory-heading p:not(.eyebrow) {
+  color: var(--muted);
+  font-style: italic;
+  line-height: 1.55;
+  margin: 10px 0 0;
+}
+
+.directory-columns {
+  display: grid;
+  gap: clamp(30px, 5vw, 72px);
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+}
+
+.directory-block,
+.directory-recent {
+  border-top: 1px solid var(--line);
+  min-width: 0;
+  padding-top: 16px;
+}
+
+.directory-block-heading {
+  align-items: baseline;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.directory-block-heading h3 {
+  font-family: var(--serif);
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.directory-block-heading > span,
+.directory-block-heading > a {
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.directory-block-heading > a {
+  text-decoration-color: var(--line-strong);
+  text-underline-offset: 4px;
+}
+
+.directory-link-list {
+  display: grid;
+}
+
+.directory-link-row {
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  gap: 18px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  padding: 16px 4px;
+  text-decoration: none;
+  transition: background-color 0.16s ease, padding 0.16s ease;
+}
+
+.directory-link-row:hover,
+.directory-link-row:focus-visible {
+  background: var(--panel);
+  outline: none;
+  padding-inline: 12px;
+}
+
+.directory-link-row strong,
+.directory-link-row small {
+  display: block;
+}
+
+.directory-link-row strong {
+  font-size: 1rem;
+}
+
+.directory-link-row small {
+  color: var(--muted);
+  font-style: italic;
+  line-height: 1.4;
+  margin-top: 4px;
+}
+
+.directory-link-row b {
+  color: var(--accent-strong);
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+.brand-directory-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.brand-directory-grid a {
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  min-width: 0;
+  padding: 14px 10px 14px 4px;
+  text-decoration: none;
+  transition: background-color 0.16s ease, color 0.16s ease;
+}
+
+.brand-directory-grid a:nth-child(odd) {
+  border-right: 1px solid var(--line);
+  padding-right: 16px;
+}
+
+.brand-directory-grid a:nth-child(even) {
+  padding-left: 16px;
+}
+
+.brand-directory-grid a:hover,
+.brand-directory-grid a:focus-visible {
+  background: var(--panel);
+  color: var(--accent-strong);
+  outline: none;
+}
+
+.brand-directory-grid strong {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.brand-directory-grid span {
+  color: var(--muted);
+  flex: 0 0 auto;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+}
+
+.recent-directory-grid {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.directory-result-note {
+  margin: -8px 0 0;
+  text-align: right;
+}
+
 .hero {
   align-items: start;
   display: grid;
@@ -1371,6 +1545,62 @@ button {
   justify-content: space-between;
 }
 
+.detail-breadcrumb {
+  align-items: center;
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  gap: 8px;
+  letter-spacing: 0.12em;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.detail-breadcrumb a {
+  text-decoration-color: var(--line-strong);
+  text-underline-offset: 4px;
+}
+
+.detail-breadcrumb a:hover {
+  color: var(--accent-strong);
+}
+
+.related-watches {
+  border-top: 1px solid var(--line-strong);
+  padding-top: 22px;
+}
+
+.related-watches-heading {
+  align-items: end;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.related-watches-heading h2 {
+  font-size: clamp(1.45rem, 2.4vw, 2.1rem);
+  font-weight: 400;
+  margin: 0;
+}
+
+.related-watches-heading > p {
+  color: var(--muted);
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 480px;
+  text-align: right;
+}
+
+.related-watch-grid {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .detail-shell {
   display: grid;
 }
@@ -1629,7 +1859,8 @@ button {
   .workbench-head,
   .database-layout,
   .hero,
-  .grid-2 {
+  .grid-2,
+  .directory-columns {
     grid-template-columns: 1fr;
   }
 
@@ -1737,6 +1968,7 @@ button {
   }
 
   .home-workbench,
+  .home-directory,
   .watches-browser,
   .database-workbench,
   .workbench-head,
@@ -1746,6 +1978,58 @@ button {
     max-width: min(calc(100vw - 24px), 366px);
     margin-inline: 0;
     width: 100%;
+  }
+
+  .home-directory {
+    gap: 28px;
+    margin-top: 38px;
+  }
+
+  .directory-heading {
+    align-items: stretch;
+    display: grid;
+    gap: 18px;
+  }
+
+  .related-watches-heading {
+    align-items: start;
+    display: grid;
+    gap: 10px;
+  }
+
+  .related-watches-heading > p {
+    text-align: left;
+  }
+
+  .related-watch-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .directory-heading .button {
+    width: 100%;
+  }
+
+  .directory-columns {
+    gap: 28px;
+  }
+
+  .brand-directory-grid,
+  .recent-directory-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .brand-directory-grid a:nth-child(odd) {
+    border-right: 0;
+    padding-right: 10px;
+  }
+
+  .brand-directory-grid a:nth-child(even) {
+    padding-left: 4px;
+  }
+
+  .directory-link-row:hover,
+  .directory-link-row:focus-visible {
+    padding-inline: 8px;
   }
 
   .workbench-head h1,

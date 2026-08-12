@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS watches (
 
 INSERT INTO watches
 SELECT id, brand, model, reference, brand_slug, model_slug, reference_slug, search_text,
-       lug_to_lug_mm, case_mm, thickness_mm, lug_width_mm, status, created_at, updated_at
+       lug_to_lug_mm, diameter_mm, thickness_mm, lug_width_mm, status, created_at, updated_at
 FROM watches_legacy;
 
 DROP TABLE watches_legacy;

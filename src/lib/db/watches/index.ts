@@ -7,12 +7,16 @@ export type { SubmissionWatchSlugs } from "@/lib/db/watches/mutations";
 
 export {
   getEditableWatchBySlugs,
+  getWatchDirectoryStats,
   getWatchById,
   getWatchBySlugs,
   listAdminWatches,
   listBrandWatches,
+  listPopularBrands,
   listRecentWatches,
+  listRecentSearchWatches,
   listSearchWatches,
+  listSimilarWatches,
   listWatches,
   searchWatches
 } from "@/lib/db/watches/queries";
