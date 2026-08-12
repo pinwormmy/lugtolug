@@ -133573,5 +133573,1157 @@
         "note": "MONOCHROME reports 30.6mm lug-to-lug, 32mm case size/width for Toledano & Chan Horology Club Teams Up with Toledano & Chan, to Release the Breutalist in “The Horology Club Teams Up with Toledano & Chan, to Release the Breutalist.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
       }
     ]
+  },
+  {
+    "id": 7496,
+    "brand": "Union Glashütte",
+    "model": "Averin Chronograph Limited Edition Sachsen Classic",
+    "reference": "D015.527.17.011.09",
+    "lugToLugMm": 49.47,
+    "caseMm": 41,
+    "thicknessMm": 15.5,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0155271701109.html",
+        "note": "Official Union Glashütte product page lists reference D015.527.17.011.09 and 41mm case diameter, 49.47mm lug-to-lug, 15.5mm thickness, 22mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7497,
+    "brand": "Union Glashütte",
+    "model": "1893 Johannes Dürrstein Edition \"Double Moon Phase\"",
+    "reference": "D007.458.16.039.00",
+    "lugToLugMm": 50.05,
+    "caseMm": 41,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0074581603900.html",
+        "note": "Official Union Glashütte product page lists reference D007.458.16.039.00 and 41mm case diameter, 50.05mm lug-to-lug, 12.2mm thickness, 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7498,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph Limited Edition Silvretta Classic",
+    "reference": "D009.427.18.011.09",
+    "lugToLugMm": 52.99,
+    "caseMm": 44,
+    "thicknessMm": 15,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0094271801109.html",
+        "note": "Official Union Glashütte product page lists reference D009.427.18.011.09 and 44mm case diameter, 52.99mm lug-to-lug, 15mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7499,
+    "brand": "Union Glashütte",
+    "model": "Noramis Date Sport",
+    "reference": "D012.907.11.057.00",
+    "lugToLugMm": 49.43,
+    "caseMm": 42,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0129071105700.html",
+        "note": "Official Union Glashütte product page lists reference D012.907.11.057.00 and 42mm case diameter, 49.43mm lug-to-lug, 12.9mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7500,
+    "brand": "Union Glashütte",
+    "model": "Noramis Date Limited Edition Petro Surf 2026",
+    "reference": "D016.407.16.050.08",
+    "lugToLugMm": 48.13,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0164071605008.html",
+        "note": "Official Union Glashütte product page lists reference D016.407.16.050.08 and 40mm case diameter, 48.13mm lug-to-lug, 10.4mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7501,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph Moon Phase",
+    "reference": "D014.425.11.042.00",
+    "lugToLugMm": 50.6,
+    "caseMm": 42,
+    "thicknessMm": 14.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0144251104200.html",
+        "note": "Official Union Glashütte product page lists reference D014.425.11.042.00 and 42mm case diameter, 50.6mm lug-to-lug, 14.8mm thickness, 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7502,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph Sport",
+    "reference": "D014.927.11.057.00",
+    "lugToLugMm": 51.76,
+    "caseMm": 43,
+    "thicknessMm": 14.7,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0149271105700.html",
+        "note": "Official Union Glashütte product page lists reference D014.927.11.057.00 and 43mm case diameter, 51.76mm lug-to-lug, 14.7mm thickness, 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7503,
+    "brand": "Union Glashütte",
+    "model": "Averin Chronograph",
+    "reference": "D015.527.17.041.02",
+    "lugToLugMm": 49.47,
+    "caseMm": 41,
+    "thicknessMm": 15.5,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0155271704102.html",
+        "note": "Official Union Glashütte product page lists reference D015.527.17.041.02 and 41mm case diameter, 49.47mm lug-to-lug, 15.5mm thickness, 22mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7504,
+    "brand": "Union Glashütte",
+    "model": "Averin Chronograph",
+    "reference": "D015.527.17.011.02",
+    "lugToLugMm": 49.47,
+    "caseMm": 41,
+    "thicknessMm": 15.5,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0155271701102.html",
+        "note": "Official Union Glashütte product page lists reference D015.527.17.011.02 and 41mm case diameter, 49.47mm lug-to-lug, 15.5mm thickness, 22mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7505,
+    "brand": "Union Glashütte",
+    "model": "1893 Johannes Dürrstein Edition Small Second",
+    "reference": "D0072281633100",
+    "lugToLugMm": 41.59,
+    "caseMm": 34,
+    "thicknessMm": 9.5,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0072281633100.html",
+        "note": "Official Union Glashütte product page lists reference D0072281633100 and 34mm case diameter, 41.59mm lug-to-lug, 9.5mm thickness, 16mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7506,
+    "brand": "Union Glashütte",
+    "model": "1893 Johannes Dürrstein Edition Small Second",
+    "reference": "D0072281640100",
+    "lugToLugMm": 41.59,
+    "caseMm": 34,
+    "thicknessMm": 9.5,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0072281640100.html",
+        "note": "Official Union Glashütte product page lists reference D0072281640100 and 34mm case diameter, 41.59mm lug-to-lug, 9.5mm thickness, 16mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7507,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph Speedster Limited Edition",
+    "reference": "D009.427.17.042.09",
+    "lugToLugMm": 52.99,
+    "caseMm": 44,
+    "thicknessMm": 15,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0094271704209.html",
+        "note": "Official Union Glashütte product page lists reference D009.427.17.042.09 and 44mm case diameter, 52.99mm lug-to-lug, 15mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7508,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph",
+    "reference": "D009.227.16.042.00",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 14.7,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0092271604200.html",
+        "note": "Official Union Glashütte product page lists reference D009.227.16.042.00 and 40mm case diameter, 48mm lug-to-lug, 14.7mm thickness, 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7509,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph",
+    "reference": "D009.227.11.052.00",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 14.7,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0092271105200.html",
+        "note": "Official Union Glashütte product page lists reference D009.227.11.052.00 and 40mm case diameter, 48mm lug-to-lug, 14.7mm thickness, 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7510,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph",
+    "reference": "D009.227.11.012.00",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 14.7,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0092271101200.html",
+        "note": "Official Union Glashütte product page lists reference D009.227.11.012.00 and 40mm case diameter, 48mm lug-to-lug, 14.7mm thickness, 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7511,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph Moon Phase",
+    "reference": "D907.425.46.047.01",
+    "lugToLugMm": 50.6,
+    "caseMm": 42,
+    "thicknessMm": 14.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d9074254604701.html",
+        "note": "Official Union Glashütte product page lists reference D907.425.46.047.01 and 42mm case diameter, 50.6mm lug-to-lug, 14.8mm thickness, 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7512,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph Moon Phase",
+    "reference": "D014.425.16.047.01",
+    "lugToLugMm": 50.6,
+    "caseMm": 42,
+    "thicknessMm": 14.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0144251604701.html",
+        "note": "Official Union Glashütte product page lists reference D014.425.16.047.01 and 42mm case diameter, 50.6mm lug-to-lug, 14.8mm thickness, 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7513,
+    "brand": "Union Glashütte",
+    "model": "Noramis Chronograph Limited Edition Sachsen Classic 2025",
+    "reference": "D012.427.16.032.09",
+    "lugToLugMm": 50.63,
+    "caseMm": 42,
+    "thicknessMm": 14.5,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0124271603209.html",
+        "note": "Official Union Glashütte product page lists reference D012.427.16.032.09 and 42mm case diameter, 50.63mm lug-to-lug, 14.5mm thickness, 22mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7514,
+    "brand": "Union Glashütte",
+    "model": "Noramis Chronograph Sport",
+    "reference": "D012.927.11.047.00",
+    "lugToLugMm": 51.38,
+    "caseMm": 43,
+    "thicknessMm": 15.8,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0129271104700.html",
+        "note": "Official Union Glashütte product page lists reference D012.927.11.047.00 and 43mm case diameter, 51.38mm lug-to-lug, 15.8mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7515,
+    "brand": "Union Glashütte",
+    "model": "Noramis Date Sport",
+    "reference": "D012.907.11.047.02",
+    "lugToLugMm": 49.43,
+    "caseMm": 42,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0129071104702.html",
+        "note": "Official Union Glashütte product page lists reference D012.907.11.047.02 and 42mm case diameter, 49.43mm lug-to-lug, 12.9mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7516,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph",
+    "reference": "D009.427.11.082.00",
+    "lugToLugMm": 52.99,
+    "caseMm": 44,
+    "thicknessMm": 15,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0094271108200.html",
+        "note": "Official Union Glashütte product page lists reference D009.427.11.082.00 and 44mm case diameter, 52.99mm lug-to-lug, 15mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7517,
+    "brand": "Union Glashütte",
+    "model": "Viro Date 39 mm",
+    "reference": "D017.407.16.031.00",
+    "lugToLugMm": 47.66,
+    "caseMm": 39,
+    "thicknessMm": 9.3,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0174071603100.html",
+        "note": "Official Union Glashütte product page lists reference D017.407.16.031.00 and 39mm case diameter, 47.66mm lug-to-lug, 9.3mm thickness, 18mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7518,
+    "brand": "Union Glashütte",
+    "model": "Viro Date 39 mm",
+    "reference": "D017.407.11.091.00",
+    "lugToLugMm": 47.66,
+    "caseMm": 39,
+    "thicknessMm": 9.3,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0174071109100.html",
+        "note": "Official Union Glashütte product page lists reference D017.407.11.091.00 and 39mm case diameter, 47.66mm lug-to-lug, 9.3mm thickness, 18mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7519,
+    "brand": "Union Glashütte",
+    "model": "Viro Date 39 mm",
+    "reference": "D017.407.11.041.00",
+    "lugToLugMm": 47.66,
+    "caseMm": 39,
+    "thicknessMm": 9.3,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0174071104100.html",
+        "note": "Official Union Glashütte product page lists reference D017.407.11.041.00 and 39mm case diameter, 47.66mm lug-to-lug, 9.3mm thickness, 18mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7520,
+    "brand": "Union Glashütte",
+    "model": "Viro Date 39 mm",
+    "reference": "D017.407.11.051.00",
+    "lugToLugMm": 47.66,
+    "caseMm": 39,
+    "thicknessMm": 9.3,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0174071105100.html",
+        "note": "Official Union Glashütte product page lists reference D017.407.11.051.00 and 39mm case diameter, 47.66mm lug-to-lug, 9.3mm thickness, 18mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7521,
+    "brand": "Union Glashütte",
+    "model": "1893 JOHANNES DÜRRSTEIN EDITION MOON PHASE LIMITED EDITION",
+    "reference": "D903.458.76.013.09",
+    "lugToLugMm": 50.05,
+    "caseMm": 41,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d9034587601309.html",
+        "note": "Official Union Glashütte product page lists reference D903.458.76.013.09 and 41mm case diameter, 50.05mm lug-to-lug, 12.2mm thickness, 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7522,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph Sport",
+    "reference": "D014.927.16.057.00",
+    "lugToLugMm": 51.76,
+    "caseMm": 43,
+    "thicknessMm": 14.7,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0149271605700.html",
+        "note": "Official Union Glashütte product page lists reference D014.927.16.057.00 and 43mm case diameter, 51.76mm lug-to-lug, 14.7mm thickness, 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7523,
+    "brand": "Union Glashütte",
+    "model": "Noramis Chronograph Sport",
+    "reference": "D012.927.17.047.00",
+    "lugToLugMm": 51.38,
+    "caseMm": 43,
+    "thicknessMm": 15.8,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0129271704700.html",
+        "note": "Official Union Glashütte product page lists reference D012.927.17.047.00 and 43mm case diameter, 51.38mm lug-to-lug, 15.8mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7524,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph Limitierte Edition Silvretta Classic",
+    "reference": "D009.427.16.290.09",
+    "lugToLugMm": 52.99,
+    "caseMm": 44,
+    "thicknessMm": 15,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0094271629009.html",
+        "note": "Official Union Glashütte product page lists reference D009.427.16.290.09 and 44mm case diameter, 52.99mm lug-to-lug, 15mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7525,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph Moon Phase",
+    "reference": "D014.425.11.087.00",
+    "lugToLugMm": 50.6,
+    "caseMm": 42,
+    "thicknessMm": 14.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0144251108700.html",
+        "note": "Official Union Glashütte product page lists reference D014.425.11.087.00 and 42mm case diameter, 50.6mm lug-to-lug, 14.8mm thickness, 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7526,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph",
+    "reference": "D009.427.18.012.00",
+    "lugToLugMm": 52.99,
+    "caseMm": 44,
+    "thicknessMm": 15,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0094271801200.html",
+        "note": "Official Union Glashütte product page lists reference D009.427.18.012.00 and 44mm case diameter, 52.99mm lug-to-lug, 15mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7527,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph",
+    "reference": "D009.427.17.082.00",
+    "lugToLugMm": 52.99,
+    "caseMm": 44,
+    "thicknessMm": 15,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0094271708200.html",
+        "note": "Official Union Glashütte product page lists reference D009.427.17.082.00 and 44mm case diameter, 52.99mm lug-to-lug, 15mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7528,
+    "brand": "Union Glashütte",
+    "model": "Noramis Date",
+    "reference": "D016.407.16.057.00",
+    "lugToLugMm": 48.13,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0164071605700.html",
+        "note": "Official Union Glashütte product page lists reference D016.407.16.057.00 and 40mm case diameter, 48.13mm lug-to-lug, 10.4mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7529,
+    "brand": "Union Glashütte",
+    "model": "Noramis Date",
+    "reference": "D016.407.16.037.01",
+    "lugToLugMm": 48.13,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0164071603701.html",
+        "note": "Official Union Glashütte product page lists reference D016.407.16.037.01 and 40mm case diameter, 48.13mm lug-to-lug, 10.4mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7530,
+    "brand": "Union Glashütte",
+    "model": "Noramis Chronograph Sport",
+    "reference": "D012.927.18.097.00",
+    "lugToLugMm": 51.38,
+    "caseMm": 43,
+    "thicknessMm": 15.8,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0129271809700.html",
+        "note": "Official Union Glashütte product page lists reference D012.927.18.097.00 and 43mm case diameter, 51.38mm lug-to-lug, 15.8mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7531,
+    "brand": "Union Glashütte",
+    "model": "Noramis Chronograph Sport",
+    "reference": "D012.927.18.057.00",
+    "lugToLugMm": 51.38,
+    "caseMm": 43,
+    "thicknessMm": 15.8,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0129271805700.html",
+        "note": "Official Union Glashütte product page lists reference D012.927.18.057.00 and 43mm case diameter, 51.38mm lug-to-lug, 15.8mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7532,
+    "brand": "Union Glashütte",
+    "model": "Belisar Date Sport Pro",
+    "reference": "D014.907.27.051.00",
+    "lugToLugMm": 49.12,
+    "caseMm": 42,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0149072705100.html",
+        "note": "Official Union Glashütte product page lists reference D014.907.27.051.00 and 42mm case diameter, 49.12mm lug-to-lug, 11.9mm thickness, 22mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7533,
+    "brand": "Union Glashütte",
+    "model": "Belisar Date Sport Pro",
+    "reference": "D014.907.11.041.00",
+    "lugToLugMm": 49.12,
+    "caseMm": 42,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0149071104100.html",
+        "note": "Official Union Glashütte product page lists reference D014.907.11.041.00 and 42mm case diameter, 49.12mm lug-to-lug, 11.9mm thickness, 22mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7534,
+    "brand": "Union Glashütte",
+    "model": "Belisar Date Sport Pro",
+    "reference": "D014.907.11.051.00",
+    "lugToLugMm": 49.12,
+    "caseMm": 42,
+    "thicknessMm": 11.9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0149071105100.html",
+        "note": "Official Union Glashütte product page lists reference D014.907.11.051.00 and 42mm case diameter, 49.12mm lug-to-lug, 11.9mm thickness, 22mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7535,
+    "brand": "Union Glashütte",
+    "model": "Seris Date",
+    "reference": "D013.207.11.296.00",
+    "lugToLugMm": 39.39,
+    "caseMm": 33,
+    "thicknessMm": 9.5,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0132071129600.html",
+        "note": "Official Union Glashütte product page lists reference D013.207.11.296.00 and 33mm case diameter, 39.39mm lug-to-lug, 9.5mm thickness, 16mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7536,
+    "brand": "Union Glashütte",
+    "model": "Seris Date",
+    "reference": "D013.207.11.116.00",
+    "lugToLugMm": 39.39,
+    "caseMm": 33,
+    "thicknessMm": 9.5,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0132071111600.html",
+        "note": "Official Union Glashütte product page lists reference D013.207.11.116.00 and 33mm case diameter, 39.39mm lug-to-lug, 9.5mm thickness, 16mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7537,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph Moon Phase",
+    "reference": "D014.425.16.017.01",
+    "lugToLugMm": 50.6,
+    "caseMm": 42,
+    "thicknessMm": 14.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0144251601701.html",
+        "note": "Official Union Glashütte product page lists reference D014.425.16.017.01 and 42mm case diameter, 50.6mm lug-to-lug, 14.8mm thickness, 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7538,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph Moon Phase",
+    "reference": "D014.425.16.017.00",
+    "lugToLugMm": 50.6,
+    "caseMm": 42,
+    "thicknessMm": 14.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0144251601700.html",
+        "note": "Official Union Glashütte product page lists reference D014.425.16.017.00 and 42mm case diameter, 50.6mm lug-to-lug, 14.8mm thickness, 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7539,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph Moon Phase",
+    "reference": "D014.425.16.057.01",
+    "lugToLugMm": 50.6,
+    "caseMm": 42,
+    "thicknessMm": 14.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0144251605701.html",
+        "note": "Official Union Glashütte product page lists reference D014.425.16.057.01 and 42mm case diameter, 50.6mm lug-to-lug, 14.8mm thickness, 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7540,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph Moon Phase",
+    "reference": "D014.425.16.087.00",
+    "lugToLugMm": 50.6,
+    "caseMm": 42,
+    "thicknessMm": 14.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0144251608700.html",
+        "note": "Official Union Glashütte product page lists reference D014.425.16.087.00 and 42mm case diameter, 50.6mm lug-to-lug, 14.8mm thickness, 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7541,
+    "brand": "Union Glashütte",
+    "model": "Noramis Date Sport",
+    "reference": "D012.907.17.367.00",
+    "lugToLugMm": 49.43,
+    "caseMm": 42,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0129071736700.html",
+        "note": "Official Union Glashütte product page lists reference D012.907.17.367.00 and 42mm case diameter, 49.43mm lug-to-lug, 12.9mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7542,
+    "brand": "Union Glashütte",
+    "model": "1893 Johannes Dürrstein Edition Power Reserve",
+    "reference": "D007.456.16.082.00",
+    "lugToLugMm": 50.05,
+    "caseMm": 41,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0074561608200.html",
+        "note": "Official Union Glashütte product page lists reference D007.456.16.082.00 and 41mm case diameter, 50.05mm lug-to-lug, 12.2mm thickness, 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7543,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph",
+    "reference": "D009.427.16.092.00",
+    "lugToLugMm": 52.99,
+    "caseMm": 44,
+    "thicknessMm": 15,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0094271609200.html",
+        "note": "Official Union Glashütte product page lists reference D009.427.16.092.00 and 44mm case diameter, 52.99mm lug-to-lug, 15mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7544,
+    "brand": "Union Glashütte",
+    "model": "Seris Date",
+    "reference": "D013.207.17.026.00",
+    "lugToLugMm": 39.39,
+    "caseMm": 33,
+    "thicknessMm": null,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0132071702600.html",
+        "note": "Official Union Glashütte product page lists reference D013.207.17.026.00 and 33mm case diameter, 39.39mm lug-to-lug, 16mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7545,
+    "brand": "Union Glashütte",
+    "model": "Seris Date",
+    "reference": "D013.207.16.116.00",
+    "lugToLugMm": 39.39,
+    "caseMm": 33,
+    "thicknessMm": null,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0132071611600.html",
+        "note": "Official Union Glashütte product page lists reference D013.207.16.116.00 and 33mm case diameter, 39.39mm lug-to-lug, 16mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7546,
+    "brand": "Union Glashütte",
+    "model": "Averin Chronograph Moonphase",
+    "reference": "D015.525.16.051.00",
+    "lugToLugMm": 49.47,
+    "caseMm": 41,
+    "thicknessMm": 15.5,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0155251605100.html",
+        "note": "Official Union Glashütte product page lists reference D015.525.16.051.00 and 41mm case diameter, 49.47mm lug-to-lug, 15.5mm thickness, 22mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7547,
+    "brand": "Union Glashütte",
+    "model": "Seris Small Second",
+    "reference": "D013.228.11.121.00",
+    "lugToLugMm": 42.67,
+    "caseMm": 36,
+    "thicknessMm": 9.9,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0132281112100.html",
+        "note": "Official Union Glashütte product page lists reference D013.228.11.121.00 and 36mm case diameter, 42.67mm lug-to-lug, 9.9mm thickness, 18mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7548,
+    "brand": "Union Glashütte",
+    "model": "Seris Small Second",
+    "reference": "D905.228.46.081.01",
+    "lugToLugMm": 42.67,
+    "caseMm": 36,
+    "thicknessMm": 9.9,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d9052284608101.html",
+        "note": "Official Union Glashütte product page lists reference D905.228.46.081.01 and 36mm case diameter, 42.67mm lug-to-lug, 9.9mm thickness, 18mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7549,
+    "brand": "Union Glashütte",
+    "model": "Seris Small Second",
+    "reference": "D013.228.16.121.00",
+    "lugToLugMm": 42.67,
+    "caseMm": 36,
+    "thicknessMm": 9.9,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0132281612100.html",
+        "note": "Official Union Glashütte product page lists reference D013.228.16.121.00 and 36mm case diameter, 42.67mm lug-to-lug, 9.9mm thickness, 18mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7550,
+    "brand": "Union Glashütte",
+    "model": "Seris Small Second",
+    "reference": "D013.228.16.011.00",
+    "lugToLugMm": 42.67,
+    "caseMm": 36,
+    "thicknessMm": 9.9,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0132281601100.html",
+        "note": "Official Union Glashütte product page lists reference D013.228.16.011.00 and 36mm case diameter, 42.67mm lug-to-lug, 9.9mm thickness, 18mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7551,
+    "brand": "Union Glashütte",
+    "model": "1893 Johannes Dürrstein Edition Chronograph",
+    "reference": "D007.459.16.017.00",
+    "lugToLugMm": 50.72,
+    "caseMm": 42,
+    "thicknessMm": 14.2,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0074591601700.html",
+        "note": "Official Union Glashütte product page lists reference D007.459.16.017.00 and 42mm case diameter, 50.72mm lug-to-lug, 14.2mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7552,
+    "brand": "Union Glashütte",
+    "model": "1893 Johannes Dürrstein Edition Moon Phase",
+    "reference": "D007.458.16.017.00",
+    "lugToLugMm": 50.05,
+    "caseMm": 41,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0074581601700.html",
+        "note": "Official Union Glashütte product page lists reference D007.458.16.017.00 and 41mm case diameter, 50.05mm lug-to-lug, 12.2mm thickness, 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7553,
+    "brand": "Union Glashütte",
+    "model": "1893 Johannes Dürrstein Edition Moon Phase",
+    "reference": "D007.458.11.017.00",
+    "lugToLugMm": 41,
+    "caseMm": 41,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0074581101700.html",
+        "note": "Official Union Glashütte product page lists reference D007.458.11.017.00 and 41mm case diameter, 41mm lug-to-lug, 12.2mm thickness, 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7554,
+    "brand": "Union Glashütte",
+    "model": "1893 Johannes Dürrstein Edition Power Reserve",
+    "reference": "D007.456.16.017.00",
+    "lugToLugMm": 50.05,
+    "caseMm": 41,
+    "thicknessMm": 12.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0074561601700.html",
+        "note": "Official Union Glashütte product page lists reference D007.456.16.017.00 and 41mm case diameter, 50.05mm lug-to-lug, 12.2mm thickness, 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7555,
+    "brand": "Union Glashütte",
+    "model": "Belisar Date Sport",
+    "reference": "D009.907.11.057.00",
+    "lugToLugMm": 53,
+    "caseMm": 45,
+    "thicknessMm": 12.1,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0099071105700.html",
+        "note": "Official Union Glashütte product page lists reference D009.907.11.057.00 and 45mm case diameter, 53mm lug-to-lug, 12.1mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7556,
+    "brand": "Union Glashütte",
+    "model": "Belisar Date Sport",
+    "reference": "D009.907.11.047.00",
+    "lugToLugMm": 53,
+    "caseMm": 45,
+    "thicknessMm": 12.1,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0099071104700.html",
+        "note": "Official Union Glashütte product page lists reference D009.907.11.047.00 and 45mm case diameter, 53mm lug-to-lug, 12.1mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7557,
+    "brand": "Union Glashütte",
+    "model": "Belisar Date Sport",
+    "reference": "D009.907.27.057.00",
+    "lugToLugMm": 53,
+    "caseMm": 45,
+    "thicknessMm": 12.1,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0099072705700.html",
+        "note": "Official Union Glashütte product page lists reference D009.907.27.057.00 and 45mm case diameter, 53mm lug-to-lug, 12.1mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7558,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph Moon Phase",
+    "reference": "D009.425.16.087.00",
+    "lugToLugMm": 52.99,
+    "caseMm": 44,
+    "thicknessMm": 15.4,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0094251608700.html",
+        "note": "Official Union Glashütte product page lists reference D009.425.16.087.00 and 44mm case diameter, 52.99mm lug-to-lug, 15.4mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7559,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph",
+    "reference": "D009.427.16.262.02",
+    "lugToLugMm": 52.99,
+    "caseMm": 44,
+    "thicknessMm": 15,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0094271626202.html",
+        "note": "Official Union Glashütte product page lists reference D009.427.16.262.02 and 44mm case diameter, 52.99mm lug-to-lug, 15mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7560,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph",
+    "reference": "D009.427.16.267.02",
+    "lugToLugMm": 44,
+    "caseMm": 44,
+    "thicknessMm": 15,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0094271626702.html",
+        "note": "Official Union Glashütte product page lists reference D009.427.16.267.02 and 44mm case diameter, 44mm lug-to-lug, 15mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7561,
+    "brand": "Union Glashütte",
+    "model": "Belisar Chronograph",
+    "reference": "D009.427.16.052.02",
+    "lugToLugMm": 52.99,
+    "caseMm": 44,
+    "thicknessMm": 15,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0094271605202.html",
+        "note": "Official Union Glashütte product page lists reference D009.427.16.052.02 and 44mm case diameter, 52.99mm lug-to-lug, 15mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7562,
+    "brand": "Union Glashütte",
+    "model": "Noramis Date Sport",
+    "reference": "D012.907.18.057.00",
+    "lugToLugMm": 49.43,
+    "caseMm": 42,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0129071805700.html",
+        "note": "Official Union Glashütte product page lists reference D012.907.18.057.00 and 42mm case diameter, 49.43mm lug-to-lug, 12.9mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7563,
+    "brand": "Union Glashütte",
+    "model": "Noramis Date Sport",
+    "reference": "D012.907.11.047.00",
+    "lugToLugMm": 49.43,
+    "caseMm": 42,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0129071104700.html",
+        "note": "Official Union Glashütte product page lists reference D012.907.11.047.00 and 42mm case diameter, 49.43mm lug-to-lug, 12.9mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7564,
+    "brand": "Union Glashütte",
+    "model": "Noramis Date Sport",
+    "reference": "D012.907.18.097.00",
+    "lugToLugMm": 49.43,
+    "caseMm": 42,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0129071809700.html",
+        "note": "Official Union Glashütte product page lists reference D012.907.18.097.00 and 42mm case diameter, 49.43mm lug-to-lug, 12.9mm thickness, 21mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7565,
+    "brand": "Union Glashütte",
+    "model": "Noramis Chronograph",
+    "reference": "D012.427.16.017.00",
+    "lugToLugMm": 50.63,
+    "caseMm": 42,
+    "thicknessMm": 14.5,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0124271601700.html",
+        "note": "Official Union Glashütte product page lists reference D012.427.16.017.00 and 42mm case diameter, 50.63mm lug-to-lug, 14.5mm thickness, 22mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7566,
+    "brand": "Union Glashütte",
+    "model": "Noramis Chronograph",
+    "reference": "D012.427.16.037.01",
+    "lugToLugMm": 50.63,
+    "caseMm": 42,
+    "thicknessMm": 14.5,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0124271603701.html",
+        "note": "Official Union Glashütte product page lists reference D012.427.16.037.01 and 42mm case diameter, 50.63mm lug-to-lug, 14.5mm thickness, 22mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7567,
+    "brand": "Union Glashütte",
+    "model": "Noramis Chronograph",
+    "reference": "D012.427.11.057.00",
+    "lugToLugMm": 50.63,
+    "caseMm": 42,
+    "thicknessMm": 14.5,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.union-glashuette.com/en_int/d0124271105700.html",
+        "note": "Official Union Glashütte product page lists reference D012.427.11.057.00 and 42mm case diameter, 50.63mm lug-to-lug, 14.5mm thickness, 22mm lug width."
+      }
+    ]
   }
 ]

@@ -187,6 +187,49 @@ describe("watch seed data integrity", () => {
     });
   });
 
+  it("includes the full official Union Glashütte catalog import", () => {
+    const officialUnionRecords = seed.filter(
+      (watch) =>
+        watch.brand === "Union Glashütte" &&
+        watch.sources.some((source: SeedSource) =>
+          /^https:\/\/www\.union-glashuette\.com\/en_int\/d\d+\.html$/u.test(source.sourceUrl)
+        )
+    );
+    const officialUnionPages = new Set(
+      officialUnionRecords.flatMap((watch) =>
+        watch.sources
+          .filter((source: SeedSource) =>
+            /^https:\/\/www\.union-glashuette\.com\/en_int\/d\d+\.html$/u.test(source.sourceUrl)
+          )
+          .map((source: SeedSource) => source.sourceUrl)
+      )
+    );
+
+    expect(officialUnionRecords).toHaveLength(72);
+    expect(officialUnionPages.size).toBe(72);
+    expect(new Set(officialUnionRecords.map((watch) => compactReference(watch.reference))).size).toBe(72);
+    expect(officialUnionRecords.map((watch) => watch.reference)).toEqual(
+      expect.arrayContaining([
+        "D015.527.17.011.09",
+        "D007.458.16.039.00",
+        "D014.927.11.057.00",
+        "D017.407.11.091.00"
+      ])
+    );
+    expect(officialUnionRecords.find((watch) => watch.reference === "D015.527.17.011.09")).toMatchObject({
+      lugToLugMm: 49.47,
+      caseMm: 41,
+      thicknessMm: 15.5,
+      lugWidthMm: 22
+    });
+    expect(officialUnionRecords.find((watch) => watch.reference === "D013.207.17.026.00")).toMatchObject({
+      lugToLugMm: 39.39,
+      caseMm: 33,
+      thicknessMm: null,
+      lugWidthMm: 16
+    });
+  });
+
   it("includes the full-site MONOCHROME lug-to-lug audit import", () => {
     const monochromeRecords = seed.filter((watch) =>
       watch.sources.some((source: SeedSource) => source.sourceUrl.startsWith("https://monochrome-watches.com/"))
