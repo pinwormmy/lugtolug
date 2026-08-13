@@ -24,9 +24,7 @@ function getDisplayGroupKey(watch: Watch): string {
     watch.brandSlug,
     modelKey,
     metricKey(watch.lugToLugMm),
-    metricKey(watch.caseMm),
-    metricKey(watch.thicknessMm),
-    metricKey(watch.lugWidthMm)
+    metricKey(watch.caseMm)
   ].join("|");
 }
 

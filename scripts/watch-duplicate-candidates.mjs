@@ -14,6 +14,17 @@ function normalize(value) {
     .trim();
 }
 
+function normalizeBrandIdentity(value) {
+  return String(value)
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/gu, "")
+    .toLowerCase()
+    .replace(/&/gu, " and ")
+    .replace(/\b(?:watches?|company|co)\b/gu, " ")
+    .replace(/[^a-z0-9]+/gu, "")
+    .trim();
+}
+
 function dimensionKey(watch) {
   return [watch.lugToLugMm, watch.caseMm, watch.thicknessMm, watch.lugWidthMm]
     .map((value) => (value == null ? "null" : Number(value).toFixed(1)))
@@ -63,7 +74,7 @@ function exactDuplicateGroups() {
     const reference = compactReference(watch.reference);
     if (!reference) continue;
 
-    const key = [reference, dimensionKey(watch)].join("|");
+    const key = [normalizeBrandIdentity(watch.brand), reference].join("|");
     const current = groups.get(key) ?? [];
     current.push(watch);
     groups.set(key, current);
@@ -83,19 +94,19 @@ const exactGroups = exactDuplicateGroups();
 const exactKeys = new Set(
   exactGroups.map((group) => {
     const [first] = group;
-    return [compactReference(first.reference), dimensionKey(first)].join("|");
+    return [normalizeBrandIdentity(first.brand), compactReference(first.reference)].join("|");
   })
 );
 
 console.log("# Watch Duplicate Candidate Report");
 console.log("");
 console.log(`Scope: ${brands ? [...brands].join(", ") : "all brands"}`);
-console.log(`Exact compact reference + dimension duplicate groups: ${exactGroups.length}`);
+console.log(`Exact brand + compact reference duplicate groups: ${exactGroups.length}`);
 
 for (const group of exactGroups) {
   const [first] = group;
   console.log("");
-  console.log(`## exact: ref ${compactReference(first.reference)}, dimensions ${dimensionKey(first)}`);
+  console.log(`## exact: ${first.brand}, ref ${compactReference(first.reference)}`);
   for (const watch of group) console.log(formatWatch(watch));
 }
 
@@ -104,7 +115,7 @@ if (EXACT_ONLY) process.exit(0);
 const groups = new Map();
 
 for (const watch of scopedSeed) {
-  const brandKey = normalize(watch.brand).replace(/\s+/g, "-");
+  const brandKey = normalizeBrandIdentity(watch.brand);
 
   const key = [brandKey, dimensionKey(watch), referenceFamily(watch.reference)].join("|");
   const current = groups.get(key) ?? [];
@@ -130,7 +141,7 @@ const candidates = [...groups.values()]
   })
   .filter((candidate) => {
     const [first] = candidate.group;
-    return !exactKeys.has([compactReference(first.reference), dimensionKey(first)].join("|"));
+    return !exactKeys.has([normalizeBrandIdentity(first.brand), compactReference(first.reference)].join("|"));
   })
   .sort((left, right) => left.group[0].brand.localeCompare(right.group[0].brand) || right.score - left.score);
 

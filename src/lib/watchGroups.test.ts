@@ -63,14 +63,43 @@ describe("watch display groups", () => {
     expect(groups[0].canonicalModel).toBe("Seastar 1000 Powermatic 80 43mm");
   });
 
-  it("keeps watches with different dimensions in separate groups", () => {
+  it("groups the same case family even when thickness or lug width differs", () => {
     const groups = groupWatchesForDisplay([
-      watch({ id: 1, thicknessMm: 13.2 }),
-      watch({ id: 2, reference: "310.30.42.50.01.004", referenceSlug: "310-30-42-50-01-004", thicknessMm: 13.5 })
+      watch({ id: 1, thicknessMm: 13.2, lugWidthMm: 20 }),
+      watch({
+        id: 2,
+        reference: "310.30.42.50.01.004",
+        referenceSlug: "310-30-42-50-01-004",
+        thicknessMm: 13.5,
+        lugWidthMm: 21
+      })
     ]);
 
-    expect(groups).toHaveLength(2);
-    expect(groups.map((group) => group.variantCount)).toEqual([1, 1]);
+    expect(groups).toHaveLength(1);
+    expect(groups[0].variantCount).toBe(2);
+  });
+
+  it("keeps different case or lug-to-lug sizes in separate groups", () => {
+    const groups = groupWatchesForDisplay([
+      watch({ id: 1, caseMm: 42, lugToLugMm: 47.5 }),
+      watch({
+        id: 2,
+        reference: "310.30.42.50.01.004",
+        referenceSlug: "310-30-42-50-01-004",
+        caseMm: 42,
+        lugToLugMm: 48
+      }),
+      watch({
+        id: 3,
+        reference: "310.30.43.50.01.001",
+        referenceSlug: "310-30-43-50-01-001",
+        caseMm: 43,
+        lugToLugMm: 47.5
+      })
+    ]);
+
+    expect(groups).toHaveLength(3);
+    expect(groups.map((group) => group.variantCount)).toEqual([1, 1, 1]);
   });
 
   it("uses the matching reference as the representative for reference searches", () => {
@@ -114,11 +143,11 @@ describe("watch display groups", () => {
     expect(groups[0].groupSearchText).toContain("case 42");
   });
 
-  it("handles null dimensions as part of the grouping key", () => {
+  it("handles null case dimensions as part of the grouping key", () => {
     const groups = groupWatchesForDisplay([
-      watch({ id: 1, lugWidthMm: null }),
-      watch({ id: 2, reference: "428.17.26.60.04.004", referenceSlug: "428-17-26-60-04-004", lugWidthMm: null }),
-      watch({ id: 3, reference: "428.17.26.60.04.005", referenceSlug: "428-17-26-60-04-005", lugWidthMm: 13 })
+      watch({ id: 1, caseMm: null }),
+      watch({ id: 2, reference: "428.17.26.60.04.004", referenceSlug: "428-17-26-60-04-004", caseMm: null }),
+      watch({ id: 3, reference: "428.17.26.60.04.005", referenceSlug: "428-17-26-60-04-005", caseMm: 26 })
     ]);
 
     expect(groups).toHaveLength(2);

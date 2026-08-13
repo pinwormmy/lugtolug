@@ -30,6 +30,7 @@
     "data:summarize:monochrome": "node scripts/summarize-hodinkee-audit.mjs --input=/private/tmp/monochrome-lug-audit.json --output=/private/tmp/monochrome-lug-candidates.json",
     "data:import:monochrome": "node scripts/import-monochrome-audit.mjs",
     "data:dedup:monochrome": "node scripts/deduplicate-monochrome-import.mjs",
+    "data:normalize": "node scripts/normalize-watch-data.mjs",
     "data:audit": "node scripts/audit-seed-data.mjs",
     "data:seed-sql": "node scripts/generate-seed-sql.mjs",
     "data:seed-delta-sql": "node scripts/generate-seed-delta-sql.mjs",
