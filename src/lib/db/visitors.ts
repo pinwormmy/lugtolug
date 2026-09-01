@@ -1,4 +1,6 @@
 import type { D1 } from "@/lib/db/connection";
+import { getEdgeCache } from "@/lib/http";
+import { SITE_URL } from "@/lib/seo";
 
 const VISITOR_COOKIE = "l2l_visitor";
 const VISITOR_COOKIE_MAX_AGE = 60 * 60 * 24 * 365 * 2;
@@ -18,6 +20,17 @@ export async function getVisitorCounts(db: D1): Promise<VisitorCounts> {
 
   try {
     const visitDate = getKstDate();
+    // The layout asks for these counts on every page render, and COUNT(*) scans
+    // the whole visitors table, so crawler traffic alone burns through the D1
+    // read quota. A short edge cache bounds that; the key includes the KST date
+    // so the daily figure resets at midnight instead of serving yesterday's.
+    const cache = getEdgeCache();
+    const cacheKey = new Request(`${SITE_URL}/__internal/visitor-counts?date=${visitDate}`);
+    if (cache) {
+      const cached = await cache.match(cacheKey);
+      if (cached) return (await cached.json()) as VisitorCounts;
+    }
+
     const [dailyRow, totalRow] = await Promise.all([
       db
         .prepare("SELECT COUNT(*) AS count FROM site_daily_visits WHERE visit_date = ?")
@@ -26,10 +39,23 @@ export async function getVisitorCounts(db: D1): Promise<VisitorCounts> {
       db.prepare("SELECT COUNT(*) AS count FROM site_visitors").first<{ count: number }>()
     ]);
 
-    return {
+    const counts: VisitorCounts = {
       dailyVisitors: dailyRow?.count ?? 0,
       totalVisitors: totalRow?.count ?? 0
     };
+
+    if (cache) {
+      await cache.put(
+        cacheKey,
+        new Response(JSON.stringify(counts), {
+          headers: {
+            "content-type": "application/json; charset=utf-8",
+            "cache-control": "public, max-age=300"
+          }
+        })
+      );
+    }
+    return counts;
   } catch (error) {
     console.warn("Visitor counts are unavailable.", error);
     return { dailyVisitors: 0, totalVisitors: 0 };

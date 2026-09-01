@@ -1,7 +1,12 @@
 import type { APIRoute } from "astro";
-import { getDb, listWatches } from "@/lib/db";
+import { getDb, listSearchWatches } from "@/lib/db";
+import { getEdgeCache } from "@/lib/http";
 import { getWatchHref } from "@/lib/watch";
 import { resolveOrigin } from "@/lib/seo";
+
+// Search engines fetch the sitemap several times a day; a 24h edge cache keeps
+// those fetches from re-reading the whole catalog out of D1 on every request.
+const CACHE_CONTROL = "public, max-age=86400";
 
 interface SitemapEntry {
   path: string;
@@ -17,9 +22,18 @@ function toLastmod(value: string | null | undefined): string | undefined {
   return match ? match[0] : undefined;
 }
 
-export const GET: APIRoute = async ({ locals, site }) => {
+export const GET: APIRoute = async ({ locals, site, request }) => {
+  const cache = getEdgeCache();
+  const cacheKey = new Request(new URL("/sitemap.xml", request.url), { method: "GET" });
+
+  if (cache) {
+    const cached = await cache.match(cacheKey);
+    if (cached) return cached;
+  }
+
   const origin = resolveOrigin(site);
-  const watches = await listWatches(getDb(locals));
+  // The sitemap never renders sources, so the summary list skips hydrating them.
+  const watches = await listSearchWatches(getDb(locals));
 
   const brandLastmod = new Map<string, string | undefined>();
   for (const watch of watches) {
@@ -61,10 +75,13 @@ ${entries
   .join("\n")}
 </urlset>`;
 
-  return new Response(body, {
+  const response = new Response(body, {
     headers: {
       "content-type": "application/xml; charset=utf-8",
-      "cache-control": "public, max-age=3600"
+      "cache-control": CACHE_CONTROL
     }
   });
+
+  if (cache) await cache.put(cacheKey, response.clone());
+  return response;
 };

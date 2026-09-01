@@ -1,13 +1,8 @@
 import type { APIRoute } from "astro";
 import { getDb, listSearchWatches } from "@/lib/db";
-import { json } from "@/lib/http";
+import { getEdgeCache, json } from "@/lib/http";
 
 const CACHE_CONTROL = "public, max-age=300, stale-while-revalidate=86400";
-
-function getEdgeCache(): Cache | undefined {
-  if (typeof caches === "undefined") return undefined;
-  return (caches as unknown as { default?: Cache }).default;
-}
 
 export const GET: APIRoute = async ({ locals, request }) => {
   const cache = getEdgeCache();

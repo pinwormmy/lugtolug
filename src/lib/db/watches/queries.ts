@@ -135,34 +135,17 @@ export async function getWatchDirectoryStats(_db: D1): Promise<WatchDirectorySta
   return buildWatchDirectoryStats(seedWatches);
 }
 
+// The checked-in seed is the complete public catalog, so similarity ranking runs
+// on seed candidates plus this many of the newest approved D1 rows (the ones that
+// may not be folded into the seed yet) instead of proximity-scanning the table.
+const SIMILAR_RECENT_APPROVED_LIMIT = 200;
+
 export async function listSimilarWatches(db: D1, target: Watch, limit = 6): Promise<WatchDisplayGroup[]> {
   if (!db) return rankSimilarWatches(seedWatches, target, limit);
 
-  const targetCase = target.caseMm ?? target.lugToLugMm;
-  const targetThickness = target.thicknessMm ?? 0;
-  const candidateLimit = Math.max(limit * 8, 32);
   const rows = await db
-    .prepare(
-      `SELECT * FROM watches
-       WHERE status = 'approved'
-         AND NOT (brand_slug = ? AND model_slug = ? AND reference_slug = ?)
-       ORDER BY
-         ABS(lug_to_lug_mm - ?) * 3 +
-         ABS(COALESCE(case_mm, ?) - ?) * 1.25 +
-         ABS(COALESCE(thickness_mm, ?) - ?) * 0.35
-       LIMIT ?`
-    )
-    .bind(
-      target.brandSlug,
-      target.modelSlug,
-      target.referenceSlug,
-      target.lugToLugMm,
-      targetCase,
-      targetCase,
-      targetThickness,
-      targetThickness,
-      candidateLimit
-    )
+    .prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY updated_at DESC, id DESC LIMIT ?")
+    .bind(SIMILAR_RECENT_APPROVED_LIMIT)
     .all<WatchRow>();
 
   const seedCandidates = seedWatches.filter((watch) => (

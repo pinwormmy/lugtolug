@@ -1,3 +1,9 @@
+/** Cloudflare's non-standard default cache; absent in dev/test runtimes. */
+export function getEdgeCache(): Cache | undefined {
+  if (typeof caches === "undefined") return undefined;
+  return (caches as unknown as { default?: Cache }).default;
+}
+
 export function json(data: unknown, init: ResponseInit = {}) {
   return new Response(JSON.stringify(data), {
     ...init,
