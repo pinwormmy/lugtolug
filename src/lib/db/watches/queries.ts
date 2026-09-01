@@ -48,34 +48,50 @@ function findSeedWatchBySlugs(
   );
 }
 
+// The seed is the complete public catalog, so when a D1 read fails (e.g. the
+// free-tier daily read quota is exhausted, which errors every query until the
+// midnight-UTC reset) public pages serve the seed instead of failing to render.
+async function withSeedFallback<T>(fallback: () => T, run: () => Promise<T>): Promise<T> {
+  try {
+    return await run();
+  } catch (error) {
+    console.warn("D1 read failed; serving the seed catalog instead.", error);
+    return fallback();
+  }
+}
+
 export async function searchWatches(db: D1, query: string): Promise<WatchWithSources[]> {
   if (!db) return searchSeedWatches(query);
 
   const normalized = normalizeSearch(query);
   if (!normalized) return [];
 
-  const tokens = getSearchTokens(query);
-  const searchConditions = tokens.map(() => "search_text LIKE ?").join(" AND ");
-  const rows = await db
-    .prepare(`SELECT * FROM watches WHERE status = 'approved' AND ${searchConditions} ORDER BY brand, model LIMIT 50`)
-    .bind(...tokens.map((token) => `%${token}%`))
-    .all<WatchRow>();
+  return withSeedFallback(() => searchSeedWatches(query).slice(0, 50), async () => {
+    const tokens = getSearchTokens(query);
+    const searchConditions = tokens.map(() => "search_text LIKE ?").join(" AND ");
+    const rows = await db
+      .prepare(`SELECT * FROM watches WHERE status = 'approved' AND ${searchConditions} ORDER BY brand, model LIMIT 50`)
+      .bind(...tokens.map((token) => `%${token}%`))
+      .all<WatchRow>();
 
-  const watches = (await hydrateSources(db, rows.results.map(mapWatch))).filter((watch) =>
-    watchMatchesSearchQuery(watch, query)
-  );
-  return mergeSeedWatches(watches, searchSeedWatches(query), await listSuppressedSeedMatches(db)).slice(0, 50);
+    const watches = (await hydrateSources(db, rows.results.map(mapWatch))).filter((watch) =>
+      watchMatchesSearchQuery(watch, query)
+    );
+    return mergeSeedWatches(watches, searchSeedWatches(query), await listSuppressedSeedMatches(db)).slice(0, 50);
+  });
 }
 
 export async function listWatches(db: D1): Promise<WatchWithSources[]> {
   if (!db) return seedWatches;
 
-  const rows = await db.prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY brand, model").all<WatchRow>();
-  return mergeSeedWatches(
-    await hydrateSources(db, rows.results.map(mapWatch)),
-    seedWatches,
-    await listSuppressedSeedMatches(db)
-  );
+  return withSeedFallback(() => seedWatches, async () => {
+    const rows = await db.prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY brand, model").all<WatchRow>();
+    return mergeSeedWatches(
+      await hydrateSources(db, rows.results.map(mapWatch)),
+      seedWatches,
+      await listSuppressedSeedMatches(db)
+    );
+  });
 }
 
 // Search islands never read `sources`, so the search API skips source hydration
@@ -84,44 +100,51 @@ export async function listWatches(db: D1): Promise<WatchWithSources[]> {
 export async function listSearchWatches(db: D1): Promise<Watch[]> {
   if (!db) return seedWatches.map(toWatchSummary);
 
-  const rows = await db.prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY brand, model").all<WatchRow>();
-  return mergeSeedWatches<Watch>(
-    rows.results.map(mapWatch),
-    seedWatches,
-    await listSuppressedSeedMatches(db)
-  ).map(toWatchSummary);
+  return withSeedFallback(() => seedWatches.map(toWatchSummary), async () => {
+    const rows = await db.prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY brand, model").all<WatchRow>();
+    return mergeSeedWatches<Watch>(
+      rows.results.map(mapWatch),
+      seedWatches,
+      await listSuppressedSeedMatches(db)
+    ).map(toWatchSummary);
+  });
 }
 
 export async function listRecentWatches(db: D1, limit = 5): Promise<WatchWithSources[]> {
-  if (!db) return seedWatches.slice().sort((a, b) => b.id - a.id).slice(0, limit);
+  const fromSeed = () => seedWatches.slice().sort((a, b) => b.id - a.id).slice(0, limit);
+  if (!db) return fromSeed();
 
-  const rows = await db
-    .prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY updated_at DESC, id DESC LIMIT ?")
-    .bind(limit)
-    .all<WatchRow>();
-  const watches = await hydrateSources(db, rows.results.map(mapWatch));
-  return mergeRecentSeedWatches(watches, seedWatches, await listSuppressedSeedMatches(db), limit);
+  return withSeedFallback(fromSeed, async () => {
+    const rows = await db
+      .prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY updated_at DESC, id DESC LIMIT ?")
+      .bind(limit)
+      .all<WatchRow>();
+    const watches = await hydrateSources(db, rows.results.map(mapWatch));
+    return mergeRecentSeedWatches(watches, seedWatches, await listSuppressedSeedMatches(db), limit);
+  });
 }
 
 export async function listRecentSearchWatches(db: D1, limit = 48): Promise<Watch[]> {
-  if (!db) {
-    return seedWatches
+  const fromSeed = () =>
+    seedWatches
       .slice()
       .sort((a, b) => b.id - a.id)
       .slice(0, limit)
       .map(toWatchSummary);
-  }
+  if (!db) return fromSeed();
 
-  const rows = await db
-    .prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY updated_at DESC, id DESC LIMIT ?")
-    .bind(limit)
-    .all<WatchRow>();
-  return mergeRecentSeedWatches(
-    rows.results.map(mapWatch),
-    seedWatches.map(toWatchSummary),
-    await listSuppressedSeedMatches(db),
-    limit
-  );
+  return withSeedFallback(fromSeed, async () => {
+    const rows = await db
+      .prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY updated_at DESC, id DESC LIMIT ?")
+      .bind(limit)
+      .all<WatchRow>();
+    return mergeRecentSeedWatches(
+      rows.results.map(mapWatch),
+      seedWatches.map(toWatchSummary),
+      await listSuppressedSeedMatches(db),
+      limit
+    );
+  });
 }
 
 export async function listPopularBrands(_db: D1, limit = 12): Promise<BrandSummary[]> {
@@ -143,21 +166,23 @@ const SIMILAR_RECENT_APPROVED_LIMIT = 200;
 export async function listSimilarWatches(db: D1, target: Watch, limit = 6): Promise<WatchDisplayGroup[]> {
   if (!db) return rankSimilarWatches(seedWatches, target, limit);
 
-  const rows = await db
-    .prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY updated_at DESC, id DESC LIMIT ?")
-    .bind(SIMILAR_RECENT_APPROVED_LIMIT)
-    .all<WatchRow>();
+  return withSeedFallback(() => rankSimilarWatches(seedWatches, target, limit), async () => {
+    const rows = await db
+      .prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY updated_at DESC, id DESC LIMIT ?")
+      .bind(SIMILAR_RECENT_APPROVED_LIMIT)
+      .all<WatchRow>();
 
-  const seedCandidates = seedWatches.filter((watch) => (
-    Math.abs(watch.lugToLugMm - target.lugToLugMm) <= 6 &&
-    (target.caseMm == null || watch.caseMm == null || Math.abs(watch.caseMm - target.caseMm) <= 8)
-  ));
-  const candidates = mergeSeedWatches<Watch>(
-    rows.results.map(mapWatch),
-    seedCandidates,
-    await listSuppressedSeedMatches(db)
-  );
-  return rankSimilarWatches(candidates, target, limit);
+    const seedCandidates = seedWatches.filter((watch) => (
+      Math.abs(watch.lugToLugMm - target.lugToLugMm) <= 6 &&
+      (target.caseMm == null || watch.caseMm == null || Math.abs(watch.caseMm - target.caseMm) <= 8)
+    ));
+    const candidates = mergeSeedWatches<Watch>(
+      rows.results.map(mapWatch),
+      seedCandidates,
+      await listSuppressedSeedMatches(db)
+    );
+    return rankSimilarWatches(candidates, target, limit);
+  });
 }
 
 export async function listAdminWatches(db: D1, status: WatchStatus | "all" = "pending"): Promise<WatchWithSources[]> {
@@ -188,11 +213,13 @@ export async function getWatchBySlugs(
 ): Promise<WatchWithSources | null> {
   if (!db) return findSeedWatchBySlugs(brandSlug, modelSlug, referenceSlug);
 
-  const row = await findWatchRowBySlugs(db, brandSlug, modelSlug, referenceSlug);
-  if (!row) return findSeedWatchBySlugs(brandSlug, modelSlug, referenceSlug);
-  if (row.status !== "approved") return null;
+  return withSeedFallback(() => findSeedWatchBySlugs(brandSlug, modelSlug, referenceSlug), async () => {
+    const row = await findWatchRowBySlugs(db, brandSlug, modelSlug, referenceSlug);
+    if (!row) return findSeedWatchBySlugs(brandSlug, modelSlug, referenceSlug);
+    if (row.status !== "approved") return null;
 
-  return hydrateOne(db, row);
+    return hydrateOne(db, row);
+  });
 }
 
 export async function getWatchById(db: D1, id: number): Promise<WatchWithSources | null> {
@@ -219,15 +246,18 @@ export async function getEditableWatchBySlugs(
 }
 
 export async function listBrandWatches(db: D1, brandSlug: string): Promise<WatchWithSources[]> {
-  if (!db) return seedWatches.filter((watch) => watch.brandSlug === brandSlug);
+  const fromSeed = () => seedWatches.filter((watch) => watch.brandSlug === brandSlug);
+  if (!db) return fromSeed();
 
-  const rows = await db
-    .prepare("SELECT * FROM watches WHERE status = 'approved' AND brand_slug = ? ORDER BY model")
-    .bind(brandSlug)
-    .all<WatchRow>();
-  return mergeSeedWatches(
-    await hydrateSources(db, rows.results.map(mapWatch)),
-    seedWatches.filter((watch) => watch.brandSlug === brandSlug),
-    await listSuppressedSeedMatches(db, brandSlug)
-  );
+  return withSeedFallback(fromSeed, async () => {
+    const rows = await db
+      .prepare("SELECT * FROM watches WHERE status = 'approved' AND brand_slug = ? ORDER BY model")
+      .bind(brandSlug)
+      .all<WatchRow>();
+    return mergeSeedWatches(
+      await hydrateSources(db, rows.results.map(mapWatch)),
+      fromSeed(),
+      await listSuppressedSeedMatches(db, brandSlug)
+    );
+  });
 }

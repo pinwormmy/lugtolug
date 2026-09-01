@@ -445,3 +445,35 @@ describe("recent watches", () => {
     expect(watches.filter((watch) => watch.brand.startsWith("Brand ") && watch.sources.length === 1)).toHaveLength(205);
   });
 });
+
+describe("seed fallback when D1 reads fail", () => {
+  function createFailingDb() {
+    const statement = {
+      bind: () => statement,
+      all: async () => {
+        throw new Error("D1 read quota exceeded");
+      },
+      first: async () => {
+        throw new Error("D1 read quota exceeded");
+      },
+      run: async () => {
+        throw new Error("D1 read quota exceeded");
+      }
+    };
+    return { prepare: () => statement } as never;
+  }
+
+  it("serves the full seed catalog from listWatches", async () => {
+    const watches = await listWatches(createFailingDb());
+
+    expect(watches).toHaveLength(seedWatches.length);
+  });
+
+  it("resolves a watch by slugs from the seed", async () => {
+    const sample = seedWatches[0];
+
+    const watch = await getWatchBySlugs(createFailingDb(), sample.brandSlug, sample.modelSlug, sample.referenceSlug);
+
+    expect(watch?.reference).toBe(sample.reference);
+  });
+});
