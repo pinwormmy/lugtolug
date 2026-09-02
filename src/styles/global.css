@@ -1623,6 +1623,19 @@ button {
   overflow-wrap: anywhere;
 }
 
+.wearability h2 {
+  margin: 8px 0 14px;
+}
+
+.wearability p {
+  margin: 0 0 12px;
+  max-width: 78ch;
+}
+
+.wearability p:last-child {
+  margin-bottom: 0;
+}
+
 .spec-grid {
   display: grid;
   gap: 10px;

@@ -38,15 +38,19 @@
     "monitor:keywords": "node scripts/keyword-monitor.mjs",
     "smoke:workflow": "node scripts/workflow-smoke.mjs",
     "test": "vitest run",
-    "typecheck": "ASTRO_TELEMETRY_DISABLED=1 astro check"
+    "typecheck": "ASTRO_TELEMETRY_DISABLED=1 astro check",
+    "og:generate": "tsx --tsconfig tsconfig.json scripts/generate-og-images.ts"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.6.2",
     "@astrojs/react": "^4.3.0",
+    "@resvg/resvg-js": "^2.6.2",
     "astro": "^5.9.3",
+    "dejavu-fonts-ttf": "^2.37.3",
     "lucide-react": "^0.468.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "tsx": "^4.23.13"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",

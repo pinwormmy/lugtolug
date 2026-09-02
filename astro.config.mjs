@@ -1,6 +1,7 @@
 import { defineConfig, passthroughImageService } from "astro/config";
 import react from "@astrojs/react";
 import cloudflare from "@astrojs/cloudflare";
+import { ogImages } from "./src/integrations/ogImages.ts";
 
 const site = process.env.PUBLIC_SITE_URL ?? "https://lugtolugfinder.com";
 
@@ -15,6 +16,6 @@ export default defineConfig({
   image: {
     service: passthroughImageService()
   },
-  integrations: [react()],
+  integrations: [react(), ogImages()],
   site
 });
