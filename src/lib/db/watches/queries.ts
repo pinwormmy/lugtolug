@@ -110,6 +110,17 @@ export async function listSearchWatches(db: D1): Promise<Watch[]> {
   });
 }
 
+// The seed catalog minus records retired in D1: the cheap read (~130 rows) the
+// wrist and lug-to-lug guide pages use, since they need the whole catalog.
+export async function listCatalogWatches(db: D1): Promise<Watch[]> {
+  const fromSeed = () => seedWatches.map(toWatchSummary);
+  if (!db) return fromSeed();
+
+  return withSeedFallback(fromSeed, async () =>
+    mergeSeedWatches<Watch>([], fromSeed(), await listSuppressedSeedMatches(db))
+  );
+}
+
 export async function listRecentWatches(db: D1, limit = 5): Promise<WatchWithSources[]> {
   const fromSeed = () => seedWatches.slice().sort((a, b) => b.id - a.id).slice(0, limit);
   if (!db) return fromSeed();

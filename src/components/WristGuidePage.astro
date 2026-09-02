@@ -1,0 +1,187 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import WatchRow from "@/components/WatchRow.astro";
+import { resolveOrigin } from "@/lib/seo";
+import { buildFaqSchema } from "@/lib/watchWearability";
+import {
+  LUG_TO_LUG_LIMITS,
+  WRIST_SIZES,
+  getLugToLugLimitHref,
+  getWristGuideHref,
+  type WristGuide
+} from "@/lib/wristGuide";
+import { buildItemListSchema, describeWristGuide, uniqueByModel } from "@/lib/wristGuideCopy";
+
+interface Props {
+  guide: WristGuide;
+}
+
+const { guide } = Astro.props;
+const { size, genre, bands, counts } = guide;
+const copy = describeWristGuide(guide);
+const noun = genre ? genre.name.toLowerCase() : "watches";
+const balancedRows = uniqueByModel(guide.balanced, 48);
+const compactRows = uniqueByModel(guide.compact, 12);
+const largeRows = uniqueByModel(guide.large, 12);
+const searchHref = `/?lugToLugMmMin=${bands.compactMaxMm}&lugToLugMmMax=${bands.balancedMaxMm}&sort=lug-asc`;
+const origin = resolveOrigin(Astro.site);
+const canonicalUrl = new URL(Astro.url.pathname, origin).toString();
+const bandRows = [
+  { band: "Compact", range: `under ${bands.compactMaxMm} mm`, note: "Generous margin; classic and dress proportions.", count: counts.compact, current: false },
+  { band: "Balanced", range: `${bands.compactMaxMm}–${bands.balancedMaxMm} mm`, note: `Sweet spot near ${bands.sweetSpotMm} mm.`, count: counts.balanced, current: true },
+  { band: "Large", range: `${bands.balancedMaxMm}–${bands.largeMaxMm} mm`, note: "Fills the wrist; lug shape and end links matter.", count: counts.large, current: false },
+  { band: "Borderline", range: `${bands.largeMaxMm}–${bands.borderlineMaxMm} mm`, note: "Try it on before buying.", count: counts.borderline, current: false },
+  { band: "Overhang", range: `over ${bands.borderlineMaxMm} mm`, note: "Likely to extend past the wrist.", count: counts.overhang, current: false }
+];
+const breadcrumbData = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { name: "Wrist size guide", item: new URL("/wrist", origin).toString() },
+    { name: `${size.label} wrist`, item: new URL(getWristGuideHref(size), origin).toString() },
+    ...(genre ? [{ name: genre.name, item: canonicalUrl }] : [])
+  ].map((crumb, index) => ({ "@type": "ListItem", position: index + 1, ...crumb }))
+};
+---
+
+<BaseLayout title={copy.title} description={copy.description}>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbData)} />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(buildFaqSchema(copy.faq))} />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(buildItemListSchema(origin, guide.balanced))} />
+
+  <section class="section" style="margin-top: 0;">
+    <nav class="detail-breadcrumb" aria-label="Breadcrumb">
+      <a href="/wrist">Wrist size guide</a>
+      {genre && (
+        <>
+          <span aria-hidden="true">/</span>
+          <a href={getWristGuideHref(size)}>{size.label} wrist</a>
+        </>
+      )}
+    </nav>
+    <h1 class="page-title">{copy.heading}</h1>
+    <p class="lede">{copy.lede}</p>
+  </section>
+
+  <section class="section grid-2">
+    <div class="panel">
+      <p class="eyebrow">Fit bands</p>
+      <h2>Lug-to-lug ranges for a {size.label} wrist</h2>
+      <table class="fit-bands">
+        <thead>
+          <tr><th>Fit</th><th>Lug-to-lug</th><th>{noun}</th></tr>
+        </thead>
+        <tbody>
+          {bandRows.map((row) => (
+            <tr class:list={[{ "is-current": row.current }]}>
+              <td><strong>{row.band}</strong><small>{row.note}</small></td>
+              <td>{row.range}</td>
+              <td>{row.count.toLocaleString("en-US")}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <p class="small">
+        Flat wrist width is estimated at 35% of circumference ({bands.flatWidthMm} mm here). Measure straight across the top of your wrist and use the fit calculator on any watch page for an exact result.
+      </p>
+    </div>
+    <div class="panel">
+      {genre ? (
+        <>
+          <p class="eyebrow">Narrowed to</p>
+          <h2>{genre.name}</h2>
+          <p class="small">Matched by model name, so a few {noun} may be missing. <a href={getWristGuideHref(size)}>See every watch for a {size.label} wrist</a>.</p>
+        </>
+      ) : (
+        <>
+          <p class="eyebrow">Narrow down</p>
+          <h2>By type</h2>
+          {guide.genreCounts.length > 0 ? (
+            <div class="guide-chips">
+              {guide.genreCounts.map((entry) => (
+                <a href={getWristGuideHref(size, entry.genre)}>{entry.genre.name} <b>{entry.count.toLocaleString("en-US")}</b></a>
+              ))}
+            </div>
+          ) : (
+            <p class="small">No typed collections land in the balanced range for this wrist.</p>
+          )}
+        </>
+      )}
+      {guide.topBrands.length > 0 && (
+        <>
+          <p class="eyebrow" style="margin-top: 20px;">Brands with the most balanced options</p>
+          <div class="brand-directory-grid">
+            {guide.topBrands.map((brand) => (
+              <a href={`/brands/${brand.brandSlug}`}>
+                <strong>{brand.brand}</strong>
+                <span>{brand.count.toLocaleString("en-US")}</span>
+              </a>
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+  </section>
+
+  <section class="section related-watches" aria-labelledby="balanced-title">
+    <div class="related-watches-heading">
+      <div>
+        <p class="eyebrow">Balanced fit</p>
+        <h2 id="balanced-title">{counts.balanced.toLocaleString("en-US")} {noun} between {bands.compactMaxMm} and {bands.balancedMaxMm} mm</h2>
+      </div>
+      <p>Closest to the {bands.sweetSpotMm} mm sweet spot first, one entry per model family. <a href={searchHref}>Open this range in search</a>.</p>
+    </div>
+    {balancedRows.length > 0 ? (
+      <div class="related-watch-grid">
+        {balancedRows.map((watch) => <WatchRow watch={watch} />)}
+      </div>
+    ) : (
+      <p class="small">Nothing in the database lands in this range yet.</p>
+    )}
+  </section>
+
+  {(compactRows.length > 0 || largeRows.length > 0) && (
+    <section class="section grid-2">
+      <div class="panel">
+        <p class="eyebrow">Compact</p>
+        <h2>Under {bands.compactMaxMm} mm</h2>
+        <p class="small">{counts.compact.toLocaleString("en-US")} {noun} leave generous margin on this wrist; the closest to balanced first.</p>
+        <div class="watch-list">
+          {compactRows.map((watch) => <WatchRow watch={watch} />)}
+        </div>
+      </div>
+      <div class="panel">
+        <p class="eyebrow">Large</p>
+        <h2>{bands.balancedMaxMm}–{bands.largeMaxMm} mm</h2>
+        <p class="small">{counts.large.toLocaleString("en-US")} {noun} fill the wrist but stay wearable; the shortest first.</p>
+        <div class="watch-list">
+          {largeRows.map((watch) => <WatchRow watch={watch} />)}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="section panel wearability" aria-labelledby="guide-faq-title">
+    <p class="eyebrow">Questions</p>
+    <h2 id="guide-faq-title">Sizing a {size.label} wrist</h2>
+    {copy.faq.map((entry) => (
+      <>
+        <h3>{entry.question}</h3>
+        <p>{entry.answer}</p>
+      </>
+    ))}
+  </section>
+
+  <section class="section panel" aria-label="Other guides">
+    <p class="eyebrow">Other wrist sizes</p>
+    <div class="guide-chips">
+      {WRIST_SIZES.map((entry) => (
+        <a href={getWristGuideHref(entry, genre)} aria-current={entry.slug === size.slug ? "page" : undefined}>{entry.label}</a>
+      ))}
+    </div>
+    <p class="eyebrow" style="margin-top: 16px;">By lug-to-lug ceiling</p>
+    <div class="guide-chips">
+      {LUG_TO_LUG_LIMITS.map((limit) => <a href={getLugToLugLimitHref(limit)}>{limit.label}</a>)}
+    </div>
+  </section>
+</BaseLayout>

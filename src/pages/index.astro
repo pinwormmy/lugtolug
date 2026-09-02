@@ -7,6 +7,8 @@ import { readSearchState } from "@/lib/searchState";
 import { buildOrganizationSchema, buildWebSiteSchema, resolveOrigin } from "@/lib/seo";
 import { hasActiveDimensionFilters } from "@/lib/watchFilters";
 import { groupWatchesForDisplay } from "@/lib/watchGroups";
+import { seedWatches } from "@/lib/seed";
+import { WRIST_SIZES, classifyFit, getWristFitBands, getWristGuideHref } from "@/lib/wristGuide";
 
 const db = getDb(Astro.locals);
 const [recentWatches, popularBrands, directoryStats] = await Promise.all([
@@ -23,19 +25,19 @@ const origin = resolveOrigin(Astro.site);
 const homeStructuredData = [buildWebSiteSchema(origin), buildOrganizationSchema(origin)];
 const sizeCollections = [
   {
-    href: "/?lugToLugMmMax=42&sort=lug-asc",
+    href: "/lug-to-lug/under-42mm",
     label: "Lug-to-lug up to 42 mm",
     detail: "The most compact spans in the database.",
     count: directoryStats.lugToLugUnder42
   },
   {
-    href: "/?lugToLugMmMax=44&sort=lug-asc",
+    href: "/lug-to-lug/under-44mm",
     label: "Lug-to-lug up to 44 mm",
     detail: "Short-wearing watches across every case shape.",
     count: directoryStats.lugToLugUnder44
   },
   {
-    href: "/?lugToLugMmMax=46&sort=lug-asc",
+    href: "/lug-to-lug/under-46mm",
     label: "Lug-to-lug up to 46 mm",
     detail: "A broad compact-to-balanced range.",
     count: directoryStats.lugToLugUnder46
@@ -47,6 +49,15 @@ const sizeCollections = [
     count: directoryStats.thicknessUnder10
   }
 ];
+const wristCollections = WRIST_SIZES.map((size) => {
+  const bands = getWristFitBands(size);
+  return {
+    href: getWristGuideHref(size),
+    label: `${size.label} wrist`,
+    detail: `Balanced from ${bands.compactMaxMm} to ${bands.balancedMaxMm} mm lug-to-lug.`,
+    count: seedWatches.filter((watch) => classifyFit(watch.lugToLugMm, size) === "balanced").length
+  };
+});
 ---
 
 <BaseLayout title="Lug to Lug Finder | Watch database" description="Search watch records by brand, model, and reference.">
@@ -82,6 +93,21 @@ const sizeCollections = [
         </div>
         <div class="directory-link-list">
           {sizeCollections.map((collection) => (
+            <a class="directory-link-row" href={collection.href}>
+              <span>
+                <strong>{collection.label}</strong>
+                <small>{collection.detail}</small>
+              </span>
+              <b>{collection.count.toLocaleString("en-US")}</b>
+            </a>
+          ))}
+        </div>
+        <div class="directory-block-heading" style="margin-top: 22px;">
+          <h3 id="wrist-directory-title">Browse by wrist size</h3>
+          <a href="/wrist">Full guide</a>
+        </div>
+        <div class="directory-link-list">
+          {wristCollections.map((collection) => (
             <a class="directory-link-row" href={collection.href}>
               <span>
                 <strong>{collection.label}</strong>

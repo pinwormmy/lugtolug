@@ -7,6 +7,7 @@ export {
   getWatchDirectoryStats,
   listAdminWatches,
   listBrandWatches,
+  listCatalogWatches,
   listPopularBrands,
   listRecentWatches,
   listRecentSearchWatches,

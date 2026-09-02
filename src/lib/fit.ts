@@ -93,3 +93,18 @@ export function getFitGuidance(lugToLugMm: number, wristFlatWidthMm: number): Fi
 export function mmToInches(value: number): number {
   return value / 25.4;
 }
+
+export function inchesToMm(value: number): number {
+  return value * 25.4;
+}
+
+// Flat wrist width (straight across the top of the wrist, the measure the fit
+// bands use) runs close to 35% of wrist circumference for most adults. The
+// wrist-size guides use this to translate the circumference people search for
+// into the flat width the fit ratio needs; the fit calculator on each watch
+// page takes a measured flat width instead.
+export const WRIST_FLAT_WIDTH_RATIO = 0.35;
+
+export function flatWristWidthFromCircumference(circumferenceMm: number): number {
+  return circumferenceMm * WRIST_FLAT_WIDTH_RATIO;
+}

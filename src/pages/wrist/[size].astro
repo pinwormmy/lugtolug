@@ -1,0 +1,15 @@
+---
+import WristGuidePage from "@/components/WristGuidePage.astro";
+import { getDb, listCatalogWatches } from "@/lib/db";
+import { buildWristGuide, getWristSize } from "@/lib/wristGuide";
+
+const size = getWristSize(Astro.params.size!);
+
+if (!size) {
+  return Astro.rewrite("/404");
+}
+
+const guide = buildWristGuide(await listCatalogWatches(getDb(Astro.locals)), size);
+---
+
+<WristGuidePage guide={guide} />

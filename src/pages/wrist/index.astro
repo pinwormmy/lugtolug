@@ -1,0 +1,81 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getDb, listCatalogWatches } from "@/lib/db";
+import { resolveOrigin } from "@/lib/seo";
+import {
+  LUG_TO_LUG_LIMITS,
+  WATCH_GENRES,
+  WRIST_SIZES,
+  classifyFit,
+  getLugToLugLimitHref,
+  getWristFitBands,
+  getWristGuideHref
+} from "@/lib/wristGuide";
+
+const watches = await listCatalogWatches(getDb(Astro.locals));
+const sizes = WRIST_SIZES.map((size) => ({
+  size,
+  bands: getWristFitBands(size),
+  balanced: watches.filter((watch) => classifyFit(watch.lugToLugMm, size) === "balanced").length
+}));
+const limits = LUG_TO_LUG_LIMITS.map((limit) => ({
+  limit,
+  count: watches.filter((watch) => watch.lugToLugMm <= limit.maxMm).length
+}));
+const total = watches.length.toLocaleString("en-US");
+const title = "Watch size guide by wrist: which lug-to-lug fits you";
+const description = `Lug-to-lug ranges for 5.5 to 8 inch wrists, with the balanced sweet spot for each and ${total} watches sorted by fit. Plus every watch under 40 to 48 mm lug-to-lug.`;
+const origin = resolveOrigin(Astro.site);
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: title,
+  description,
+  url: new URL("/wrist", origin).toString()
+};
+---
+
+<BaseLayout title={title} description={description}>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+
+  <section class="section" style="margin-top: 0;">
+    <h1 class="page-title">Which lug-to-lug fits your wrist?</h1>
+    <p class="lede">
+      Case diameter says little about fit; the lug-to-lug span does. Pick your wrist circumference below to see the balanced range, the sweet spot, and the {total} watches in the database ranked by how well they sit.
+    </p>
+  </section>
+
+  <section class="section panel" aria-labelledby="wrist-table-title">
+    <p class="eyebrow">By wrist circumference</p>
+    <h2 id="wrist-table-title">Balanced lug-to-lug by wrist size</h2>
+    <table class="fit-bands guide-table">
+      <thead>
+        <tr><th>Wrist</th><th>Flat width</th><th>Balanced range</th><th>Sweet spot</th><th>Watches</th></tr>
+      </thead>
+      <tbody>
+        {sizes.map(({ size, bands, balanced }) => (
+          <tr>
+            <td><a href={getWristGuideHref(size)}><strong>{size.label}</strong></a></td>
+            <td>{bands.flatWidthMm} mm</td>
+            <td>{bands.compactMaxMm}–{bands.balancedMaxMm} mm</td>
+            <td>{bands.sweetSpotMm} mm</td>
+            <td>{balanced.toLocaleString("en-US")}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p class="small">
+      Flat width is estimated at 35% of circumference. Each wrist page also narrows the list to {WATCH_GENRES.map((genre) => genre.name.toLowerCase()).join(", ")}.
+    </p>
+  </section>
+
+  <section class="section panel" aria-labelledby="limit-title">
+    <p class="eyebrow">By lug-to-lug ceiling</p>
+    <h2 id="limit-title">Every watch under a given span</h2>
+    <div class="guide-chips">
+      {limits.map(({ limit, count }) => (
+        <a href={getLugToLugLimitHref(limit)}>{limit.label} <b>{count.toLocaleString("en-US")}</b></a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

@@ -3,6 +3,13 @@ import { getDb, listSearchWatches } from "@/lib/db";
 import { getEdgeCache } from "@/lib/http";
 import { getWatchHref } from "@/lib/watch";
 import { resolveOrigin } from "@/lib/seo";
+import {
+  LUG_TO_LUG_LIMITS,
+  WATCH_GENRES,
+  WRIST_SIZES,
+  getLugToLugLimitHref,
+  getWristGuideHref
+} from "@/lib/wristGuide";
 
 // Search engines fetch the sitemap several times a day; a 24h edge cache keeps
 // those fetches from re-reading the whole catalog out of D1 on every request.
@@ -48,6 +55,12 @@ export const GET: APIRoute = async ({ locals, site, request }) => {
     { path: "", changefreq: "daily", priority: "1.0" },
     { path: "/watches", changefreq: "daily", priority: "0.9" },
     { path: "/submit", changefreq: "monthly", priority: "0.3" },
+    { path: "/wrist", changefreq: "weekly", priority: "0.7" },
+    ...WRIST_SIZES.map((size) => ({ path: getWristGuideHref(size), changefreq: "weekly", priority: "0.7" })),
+    ...WRIST_SIZES.flatMap((size) =>
+      WATCH_GENRES.map((genre) => ({ path: getWristGuideHref(size, genre), changefreq: "weekly", priority: "0.6" }))
+    ),
+    ...LUG_TO_LUG_LIMITS.map((limit) => ({ path: getLugToLugLimitHref(limit), changefreq: "weekly", priority: "0.7" })),
     ...[...brandLastmod.entries()].map(([brandSlug, lastmod]) => ({
       path: `/brands/${brandSlug}`,
       lastmod,

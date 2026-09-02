@@ -12,6 +12,7 @@ export {
   getWatchBySlugs,
   listAdminWatches,
   listBrandWatches,
+  listCatalogWatches,
   listPopularBrands,
   listRecentWatches,
   listRecentSearchWatches,
