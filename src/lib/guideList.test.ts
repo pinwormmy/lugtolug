@@ -56,3 +56,10 @@ describe("uniqueByModel", () => {
     expect(uniqueByModel(catalog, 3).map((entry) => entry.id)).toEqual([1, 2, 4]);
   });
 });
+
+describe("exclusive upper bound", () => {
+  it("drops watches sitting exactly on the ceiling when asked", () => {
+    expect(filterGuideWatches(catalog, { maxMm: 44, sort: "newest" }).map((w) => w.id)).toEqual([6, 4]);
+    expect(filterGuideWatches(catalog, { maxMm: 44, maxExclusive: true, sort: "newest" }).map((w) => w.id)).toEqual([4]);
+  });
+});

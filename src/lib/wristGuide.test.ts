@@ -2,14 +2,17 @@ import { describe, expect, it } from "vitest";
 import type { Watch } from "@/types";
 import {
   LUG_TO_LUG_LIMITS,
+  LUG_TO_LUG_RANGES,
   WATCH_GENRES,
   WRIST_SIZES,
   buildWristGuide,
   classifyFit,
+  getLugToLugLimit,
   getWatchGenre,
   getWristFitBands,
   getWristSize,
   matchesGenre,
+  matchesLugToLug,
   smallestBalancedWrist,
   smallestCompactWrist
 } from "@/lib/wristGuide";
@@ -116,5 +119,26 @@ describe("wrist guide", () => {
     expect(guide.balanced.map((entry) => entry.model)).toEqual(["Seamaster Diver 300M"]);
     expect(guide.large.map((entry) => entry.model)).toEqual(["Planet Ocean 45"]);
     expect(guide.genreCounts).toEqual([]);
+  });
+});
+
+describe("lug-to-lug collections", () => {
+  it("offers non-overlapping practical ranges that cover every span", () => {
+    expect(LUG_TO_LUG_RANGES.map((range) => range.slug)).toEqual(["under-42mm", "42-45mm", "45-48mm", "48-51mm", "over-51mm"]);
+    for (const span of [30, 41.9, 42, 44.9, 45, 47.5, 48, 50.9, 51, 60]) {
+      const hits = LUG_TO_LUG_RANGES.filter((range) => matchesLugToLug({ lugToLugMm: span }, range));
+      expect(hits, `span ${span}`).toHaveLength(1);
+    }
+    expect(matchesLugToLug({ lugToLugMm: 42 }, LUG_TO_LUG_RANGES[0])).toBe(false);
+    expect(matchesLugToLug({ lugToLugMm: 42 }, LUG_TO_LUG_RANGES[1])).toBe(true);
+  });
+
+  it("describes each bucket with the wrist it suits", () => {
+    expect(LUG_TO_LUG_RANGES[2].label).toBe("45–48 mm lug-to-lug");
+    expect(LUG_TO_LUG_RANGES[2].wristHint).toBe("Sweet spot for 6.3–6.7 in wrists (16.1–17.1 cm).");
+    expect(LUG_TO_LUG_RANGES[2].representativeMm).toBe(46.5);
+    expect(getLugToLugLimit("over-51mm")?.kind).toBe("floor");
+    expect(getLugToLugLimit("under-44mm")?.representativeMm).toBe(44);
+    expect(getLugToLugLimit("43-46mm")).toBeNull();
   });
 });

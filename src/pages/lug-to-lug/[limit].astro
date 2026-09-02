@@ -6,12 +6,14 @@ import { resolveOrigin } from "@/lib/seo";
 import { buildFaqSchema } from "@/lib/watchWearability";
 import {
   LUG_TO_LUG_LIMITS,
+  LUG_TO_LUG_RANGES,
   WRIST_SIZES,
   classifyFit,
   countByBrand,
   getLugToLugLimit,
   getLugToLugLimitHref,
   getWristGuideHref,
+  matchesLugToLug,
   type WristFitBand
 } from "@/lib/wristGuide";
 import { uniqueByModel } from "@/lib/guideList";
@@ -24,7 +26,7 @@ if (!limit) {
 }
 
 const watches = await listCatalogWatches(getDb(Astro.locals));
-const under = watches.filter((watch) => watch.lugToLugMm <= limit.maxMm);
+const under = watches.filter((watch) => matchesLugToLug(watch, limit));
 const topBrands = countByBrand(under, 12);
 const brandCount = new Set(under.map((watch) => watch.brandSlug)).size;
 const copy = describeLugToLugLimit(limit, { count: under.length, brandCount, topBrands });
@@ -36,8 +38,12 @@ const BAND_LABELS: Record<WristFitBand, string> = {
   borderline: "Borderline",
   overhang: "Overhang"
 };
-const wristFit = WRIST_SIZES.map((size) => ({ size, band: classifyFit(limit.maxMm, size) }));
-const searchHref = `/?lugToLugMmMax=${limit.maxMm}&sort=lug-asc`;
+const wristFit = WRIST_SIZES.map((size) => ({ size, band: classifyFit(limit.representativeMm, size) }));
+const searchHref =
+  "/?" +
+  [limit.minMm != null ? `lugToLugMmMin=${limit.minMm}` : null, limit.maxMm != null ? `lugToLugMmMax=${limit.maxMm}` : null, "sort=lug-asc"]
+    .filter(Boolean)
+    .join("&");
 const origin = resolveOrigin(Astro.site);
 const breadcrumbData = {
   "@context": "https://schema.org",
@@ -65,10 +71,10 @@ const breadcrumbData = {
   <section class="section grid-2">
     <div class="panel">
       <p class="eyebrow">By wrist</p>
-      <h2>How a {limit.maxMm} mm span wears</h2>
+      <h2>How a {limit.representativeMm} mm span wears</h2>
       <table class="fit-bands guide-table">
         <thead>
-          <tr><th>Wrist</th><th>Fit at {limit.maxMm} mm</th></tr>
+          <tr><th>Wrist</th><th>Fit at {limit.representativeMm} mm</th></tr>
         </thead>
         <tbody>
           {wristFit.map(({ size, band }) => (
@@ -79,11 +85,11 @@ const breadcrumbData = {
           ))}
         </tbody>
       </table>
-      <p class="small">Every watch on this page is at or under {limit.maxMm} mm, so the smaller wrists above get the widest choice.</p>
+      <p class="small">{limit.wristHint} Every watch on this page spans {limit.rangeLabel}.</p>
     </div>
     <div class="panel">
       <p class="eyebrow">Brands</p>
-      <h2>Most options under {limit.maxMm} mm</h2>
+      <h2>Most options {limit.rangeLabel}</h2>
       <div class="brand-directory-grid">
         {topBrands.map((brand) => (
           <a href={`/brands/${brand.brandSlug}`}>
@@ -99,16 +105,25 @@ const breadcrumbData = {
     <div class="related-watches-heading">
       <div>
         <p class="eyebrow">Recently added</p>
-        <h2 id="newest-title">Newest watches under {limit.maxMm} mm lug-to-lug</h2>
+        <h2 id="newest-title">Newest watches {limit.rangeLabel} lug-to-lug</h2>
       </div>
       <p>One entry per model family. <a href={searchHref}>Open all {under.length.toLocaleString("en-US")} in search</a>, sorted shortest first.</p>
     </div>
-    <GuideListSearch client:load initialWatches={newest} totalCount={under.length} maxMm={limit.maxMm} sort="newest" noun="watches" />
+    <GuideListSearch
+      client:load
+      initialWatches={newest}
+      totalCount={under.length}
+      minMm={limit.minMm ?? undefined}
+      maxMm={limit.maxMm ?? undefined}
+      maxExclusive
+      sort="newest"
+      noun="watches"
+    />
   </section>
 
   <section class="section panel wearability" aria-labelledby="limit-faq-title">
     <p class="eyebrow">Questions</p>
-    <h2 id="limit-faq-title">Under {limit.maxMm} mm lug-to-lug</h2>
+    <h2 id="limit-faq-title">Lug-to-lug {limit.rangeLabel}</h2>
     {copy.faq.map((entry) => (
       <>
         <h3>{entry.question}</h3>
@@ -118,7 +133,13 @@ const breadcrumbData = {
   </section>
 
   <section class="section panel" aria-label="Other guides">
-    <p class="eyebrow">Other ceilings</p>
+    <p class="eyebrow">Lug-to-lug ranges</p>
+    <div class="guide-chips">
+      {LUG_TO_LUG_RANGES.map((entry) => (
+        <a href={getLugToLugLimitHref(entry)} aria-current={entry.slug === limit.slug ? "page" : undefined}>{entry.label}</a>
+      ))}
+    </div>
+    <p class="eyebrow" style="margin-top: 16px;">Or everything under a ceiling</p>
     <div class="guide-chips">
       {LUG_TO_LUG_LIMITS.map((entry) => (
         <a href={getLugToLugLimitHref(entry)} aria-current={entry.slug === limit.slug ? "page" : undefined}>{entry.label}</a>

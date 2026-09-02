@@ -2,8 +2,10 @@ import type { Watch } from "@/types";
 import {
   FIT_RATIO_STANDARD,
   FIT_RATIO_THRESHOLDS,
+  WRIST_FLAT_WIDTH_RATIO,
   flatWristWidthFromCircumference,
-  inchesToMm
+  inchesToMm,
+  mmToInches
 } from "@/lib/fit";
 
 // Static, indexable "what fits my wrist" guides built from the seed catalog:
@@ -22,11 +24,26 @@ export interface WristSize {
   small: boolean;
 }
 
-export interface LugToLugLimit {
+export type LugToLugCollectionKind = "ceiling" | "range" | "floor";
+
+/** A lug-to-lug bucket: `minMm` inclusive, `maxMm` exclusive, either may be open. */
+export interface LugToLugCollection {
   slug: string;
-  maxMm: number;
+  kind: LugToLugCollectionKind;
+  minMm: number | null;
+  maxMm: number | null;
+  /** "Under 44 mm lug-to-lug", "45–48 mm lug-to-lug", "Over 51 mm lug-to-lug" */
   label: string;
+  /** "under 44 mm", "45 to 48 mm", "over 51 mm" — for prose. */
+  rangeLabel: string;
+  /** Which wrists the bucket's sweet spot serves. */
+  wristHint: string;
+  /** The span used when the bucket is reduced to one number (e.g. wrist fit tables). */
+  representativeMm: number;
 }
+
+/** @deprecated kept for readability at call sites; same shape as LugToLugCollection. */
+export type LugToLugLimit = LugToLugCollection;
 
 export interface WatchGenre {
   slug: string;
@@ -92,11 +109,81 @@ function wristSize(inches: number): WristSize {
 
 export const WRIST_SIZES: WristSize[] = [5.5, 6, 6.5, 7, 7.5, 8].map(wristSize);
 
-export const LUG_TO_LUG_LIMITS: LugToLugLimit[] = [40, 42, 44, 46, 48].map((maxMm) => ({
-  slug: `under-${maxMm}mm`,
-  maxMm,
-  label: `Under ${maxMm} mm lug-to-lug`
-}));
+/** Wrist circumference whose fit sweet spot (ratio 0.8 of flat width) is this span. */
+function sweetSpotWristInches(lugToLugMm: number): number {
+  return mmToInches(lugToLugMm / (FIT_RATIO_STANDARD * WRIST_FLAT_WIDTH_RATIO));
+}
+
+function wristHintFor(minMm: number | null, maxMm: number | null): string {
+  const inches = (mm: number) => sweetSpotWristInches(mm).toFixed(1);
+  const cm = (mm: number) => (inchesToMm(sweetSpotWristInches(mm)) / 10).toFixed(1);
+  if (minMm == null && maxMm != null) return `Sweet spot for wrists up to ${inches(maxMm)} in (${cm(maxMm)} cm).`;
+  if (minMm != null && maxMm == null) return `Sweet spot for wrists from ${inches(minMm)} in (${cm(minMm)} cm).`;
+  if (minMm != null && maxMm != null) return `Sweet spot for ${inches(minMm)}–${inches(maxMm)} in wrists (${cm(minMm)}–${cm(maxMm)} cm).`;
+  return "";
+}
+
+function lugToLugCollection(minMm: number | null, maxMm: number | null): LugToLugCollection {
+  if (minMm == null && maxMm != null) {
+    return {
+      slug: `under-${maxMm}mm`,
+      kind: "ceiling",
+      minMm,
+      maxMm,
+      label: `Under ${maxMm} mm lug-to-lug`,
+      rangeLabel: `under ${maxMm} mm`,
+      wristHint: wristHintFor(minMm, maxMm),
+      representativeMm: maxMm
+    };
+  }
+  if (minMm != null && maxMm == null) {
+    return {
+      slug: `over-${minMm}mm`,
+      kind: "floor",
+      minMm,
+      maxMm,
+      label: `Over ${minMm} mm lug-to-lug`,
+      rangeLabel: `over ${minMm} mm`,
+      wristHint: wristHintFor(minMm, maxMm),
+      representativeMm: minMm
+    };
+  }
+  if (minMm == null || maxMm == null) throw new Error("A lug-to-lug collection needs at least one bound.");
+  return {
+    slug: `${minMm}-${maxMm}mm`,
+    kind: "range",
+    minMm,
+    maxMm,
+    label: `${minMm}–${maxMm} mm lug-to-lug`,
+    rangeLabel: `${minMm} to ${maxMm} mm`,
+    wristHint: wristHintFor(minMm, maxMm),
+    representativeMm: round1((minMm + maxMm) / 2)
+  };
+}
+
+/** Cumulative "under X" ceilings: the thresholds people search for. */
+export const LUG_TO_LUG_LIMITS: LugToLugCollection[] = [40, 42, 44, 46, 48].map((maxMm) => lugToLugCollection(null, maxMm));
+
+/** Non-overlapping practical buckets for browsing, each roughly one wrist size. */
+export const LUG_TO_LUG_RANGES: LugToLugCollection[] = [
+  LUG_TO_LUG_LIMITS.find((limit) => limit.maxMm === 42)!,
+  lugToLugCollection(42, 45),
+  lugToLugCollection(45, 48),
+  lugToLugCollection(48, 51),
+  lugToLugCollection(51, null)
+];
+
+export const LUG_TO_LUG_COLLECTIONS: LugToLugCollection[] = [
+  ...LUG_TO_LUG_LIMITS,
+  ...LUG_TO_LUG_RANGES.filter((range) => range.kind !== "ceiling")
+];
+
+export function matchesLugToLug(watch: Pick<Watch, "lugToLugMm">, collection: LugToLugCollection): boolean {
+  return (
+    (collection.minMm == null || watch.lugToLugMm >= collection.minMm) &&
+    (collection.maxMm == null || watch.lugToLugMm < collection.maxMm)
+  );
+}
 
 // Conservative name-based matchers: a miss only drops a watch from a genre page,
 // while a false match puts a three-hander on a "chronographs" page.
@@ -127,8 +214,8 @@ export function getWristSize(slug: string): WristSize | null {
   return WRIST_SIZES.find((size) => size.slug === slug) ?? null;
 }
 
-export function getLugToLugLimit(slug: string): LugToLugLimit | null {
-  return LUG_TO_LUG_LIMITS.find((limit) => limit.slug === slug) ?? null;
+export function getLugToLugLimit(slug: string): LugToLugCollection | null {
+  return LUG_TO_LUG_COLLECTIONS.find((collection) => collection.slug === slug) ?? null;
 }
 
 export function getWatchGenre(slug: string): WatchGenre | null {
@@ -139,7 +226,7 @@ export function getWristGuideHref(size: WristSize, genre?: WatchGenre | null): s
   return genre ? `/wrist/${size.slug}/${genre.slug}` : `/wrist/${size.slug}`;
 }
 
-export function getLugToLugLimitHref(limit: LugToLugLimit): string {
+export function getLugToLugLimitHref(limit: LugToLugCollection): string {
   return `/lug-to-lug/${limit.slug}`;
 }
 

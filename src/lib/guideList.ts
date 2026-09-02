@@ -10,6 +10,8 @@ export type GuideListSort = "sweet-spot" | "newest";
 export interface GuideListOptions {
   minMm?: number;
   maxMm?: number;
+  /** Treat `maxMm` as exclusive (lug-to-lug collections) instead of inclusive (wrist bands). */
+  maxExclusive?: boolean;
   genreSlug?: string;
   query?: string;
   sort: GuideListSort;
@@ -40,7 +42,7 @@ export function filterGuideWatches(watches: Watch[], options: GuideListOptions):
 
   const matches = watches.filter((watch) => (
     (options.minMm == null || watch.lugToLugMm >= options.minMm) &&
-    (options.maxMm == null || watch.lugToLugMm <= options.maxMm) &&
+    (options.maxMm == null || (options.maxExclusive ? watch.lugToLugMm < options.maxMm : watch.lugToLugMm <= options.maxMm)) &&
     (!genre || matchesGenre(watch, genre)) &&
     (query === "" || watchMatchesSearchQuery(watch, query))
   ));

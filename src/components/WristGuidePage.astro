@@ -6,7 +6,7 @@ import { FIT_RATIO_STANDARD, FIT_RATIO_THRESHOLDS } from "@/lib/fit";
 import { resolveOrigin } from "@/lib/seo";
 import { buildFaqSchema } from "@/lib/watchWearability";
 import {
-  LUG_TO_LUG_LIMITS,
+  LUG_TO_LUG_RANGES,
   WRIST_SIZES,
   getLugToLugLimitHref,
   getWristGuideHref,
@@ -193,9 +193,9 @@ const breadcrumbData = {
         <a href={getWristGuideHref(entry, genre)} aria-current={entry.slug === size.slug ? "page" : undefined}>{entry.label}</a>
       ))}
     </div>
-    <p class="eyebrow" style="margin-top: 16px;">By lug-to-lug ceiling</p>
+    <p class="eyebrow" style="margin-top: 16px;">By lug-to-lug range</p>
     <div class="guide-chips">
-      {LUG_TO_LUG_LIMITS.map((limit) => <a href={getLugToLugLimitHref(limit)}>{limit.label}</a>)}
+      {LUG_TO_LUG_RANGES.map((range) => <a href={getLugToLugLimitHref(range)}>{range.label}</a>)}
     </div>
   </section>
 </BaseLayout>

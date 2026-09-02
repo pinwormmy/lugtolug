@@ -4,12 +4,14 @@ import { getDb, listCatalogWatches } from "@/lib/db";
 import { resolveOrigin } from "@/lib/seo";
 import {
   LUG_TO_LUG_LIMITS,
+  LUG_TO_LUG_RANGES,
   WATCH_GENRES,
   WRIST_SIZES,
   classifyFit,
   getLugToLugLimitHref,
   getWristFitBands,
-  getWristGuideHref
+  getWristGuideHref,
+  matchesLugToLug
 } from "@/lib/wristGuide";
 
 const watches = await listCatalogWatches(getDb(Astro.locals));
@@ -18,9 +20,13 @@ const sizes = WRIST_SIZES.map((size) => ({
   bands: getWristFitBands(size),
   balanced: watches.filter((watch) => classifyFit(watch.lugToLugMm, size) === "balanced").length
 }));
+const ranges = LUG_TO_LUG_RANGES.map((range) => ({
+  range,
+  count: watches.filter((watch) => matchesLugToLug(watch, range)).length
+}));
 const limits = LUG_TO_LUG_LIMITS.map((limit) => ({
   limit,
-  count: watches.filter((watch) => watch.lugToLugMm <= limit.maxMm).length
+  count: watches.filter((watch) => matchesLugToLug(watch, limit)).length
 }));
 const total = watches.length.toLocaleString("en-US");
 const title = "Watch size guide by wrist: which lug-to-lug fits you";
@@ -76,9 +82,24 @@ const structuredData = {
     <p class="fit-compare-link"><a class="button secondary" href="/compare">Open the comparison</a></p>
   </section>
 
-  <section class="section panel" aria-labelledby="limit-title">
-    <p class="eyebrow">By lug-to-lug ceiling</p>
-    <h2 id="limit-title">Every watch under a given span</h2>
+  <section class="section panel" aria-labelledby="range-title">
+    <p class="eyebrow">By lug-to-lug range</p>
+    <h2 id="range-title">Browse by span</h2>
+    <table class="fit-bands guide-table">
+      <thead>
+        <tr><th>Lug-to-lug</th><th>Suits</th><th>Watches</th></tr>
+      </thead>
+      <tbody>
+        {ranges.map(({ range, count }) => (
+          <tr>
+            <td><a href={getLugToLugLimitHref(range)}><strong>{range.label}</strong></a></td>
+            <td>{range.wristHint}</td>
+            <td>{count.toLocaleString("en-US")}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p class="eyebrow" style="margin-top: 16px;">Or everything under a ceiling</p>
     <div class="guide-chips">
       {limits.map(({ limit, count }) => (
         <a href={getLugToLugLimitHref(limit)}>{limit.label} <b>{count.toLocaleString("en-US")}</b></a>

@@ -12,6 +12,7 @@ interface Props {
   totalCount: number;
   minMm?: number;
   maxMm?: number;
+  maxExclusive?: boolean;
   genreSlug?: string;
   sort: GuideListSort;
   sweetSpotMm?: number;
@@ -24,7 +25,7 @@ const PAGE_SIZE = 48;
 // The guide pages render their top rows on the server; this island adds a
 // search box over the whole catalog restricted to the same range. The catalog
 // (~7k summaries) is only fetched once the visitor focuses the field.
-export default function GuideListSearch({ initialWatches, totalCount, minMm, maxMm, genreSlug, sort, sweetSpotMm, noun }: Props) {
+export default function GuideListSearch({ initialWatches, totalCount, minMm, maxMm, maxExclusive, genreSlug, sort, sweetSpotMm, noun }: Props) {
   const [query, setQuery] = useState("");
   const [catalogWanted, setCatalogWanted] = useState(false);
   const [limit, setLimit] = useState(PAGE_SIZE);
@@ -33,8 +34,8 @@ export default function GuideListSearch({ initialWatches, totalCount, minMm, max
   const { watches: catalog, status, retry } = useWatchDatabase(initialWatches, catalogWanted);
 
   const results = useMemo(
-    () => (hasQuery ? filterGuideWatches(catalog, { minMm, maxMm, genreSlug, query: deferredQuery, sort, sweetSpotMm }) : initialWatches),
-    [catalog, deferredQuery, genreSlug, hasQuery, initialWatches, maxMm, minMm, sort, sweetSpotMm]
+    () => (hasQuery ? filterGuideWatches(catalog, { minMm, maxMm, maxExclusive, genreSlug, query: deferredQuery, sort, sweetSpotMm }) : initialWatches),
+    [catalog, deferredQuery, genreSlug, hasQuery, initialWatches, maxExclusive, maxMm, minMm, sort, sweetSpotMm]
   );
   const visible = results.slice(0, limit);
   const loadingCatalog = catalogWanted && status === "loading";

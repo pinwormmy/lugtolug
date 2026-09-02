@@ -92,24 +92,31 @@ export interface LugToLugLimitStats {
 
 export function describeLugToLugLimit(limit: LugToLugLimit, stats: LugToLugLimitStats): GuideCopy {
   const count = stats.count.toLocaleString("en-US");
-  const balancedFrom = smallestBalancedWrist(limit.maxMm);
-  const compactFrom = smallestCompactWrist(limit.maxMm);
+  const span = limit.representativeMm;
+  const balancedFrom = smallestBalancedWrist(span);
+  const compactFrom = smallestCompactWrist(span);
   const wristSentence =
-    (balancedFrom ? `A ${limit.maxMm} mm span reads as balanced from a ${balancedFrom.label} wrist` : `A ${limit.maxMm} mm span reads as balanced on wrists larger than those listed here`) +
+    (balancedFrom ? `A ${span} mm span reads as balanced from a ${balancedFrom.label} wrist` : `A ${span} mm span reads as balanced on wrists larger than those listed here`) +
     (compactFrom ? ` and as compact from ${compactFrom.label}.` : ".");
+  const heading =
+    limit.kind === "ceiling"
+      ? `Watches under ${limit.maxMm} mm lug-to-lug`
+      : limit.kind === "floor"
+        ? `Watches over ${limit.minMm} mm lug-to-lug`
+        : `Watches with a ${limit.minMm}–${limit.maxMm} mm lug-to-lug`;
 
   return {
-    title: `Watches under ${limit.maxMm} mm lug-to-lug: ${count} models`,
-    description: `${count} watches with a lug-to-lug of ${limit.maxMm} mm or less across ${stats.brandCount} brands. ${wristSentence}`,
-    heading: `Watches under ${limit.maxMm} mm lug-to-lug`,
-    lede: `${count} ${plural(stats.count, "watch", "watches")} in the database span ${limit.maxMm} mm or less from lug tip to lug tip. ${wristSentence}`,
+    title: `${heading}: ${count} models`,
+    description: `${count} watches with a lug-to-lug ${limit.rangeLabel} across ${stats.brandCount} brands. ${limit.wristHint} ${wristSentence}`,
+    heading,
+    lede: `${count} ${plural(stats.count, "watch", "watches")} in the database span ${limit.rangeLabel} from lug tip to lug tip. ${limit.wristHint} ${wristSentence}`,
     faq: [
       {
-        question: `Which wrist sizes suit a ${limit.maxMm} mm lug-to-lug?`,
-        answer: WRIST_SIZES.map((size) => `${size.label}: ${BAND_LABELS[classifyFit(limit.maxMm, size)]}`).join("; ") + "."
+        question: `Which wrist sizes suit a lug-to-lug ${limit.rangeLabel}?`,
+        answer: `Taking ${span} mm as the reference span: ` + WRIST_SIZES.map((size) => `${size.label}: ${BAND_LABELS[classifyFit(span, size)]}`).join("; ") + "."
       },
       {
-        question: `How many watches under ${limit.maxMm} mm lug-to-lug are listed?`,
+        question: `How many watches ${limit.rangeLabel} lug-to-lug are listed?`,
         answer:
           `${count} watches from ${stats.brandCount} brands, ` +
           `led by ${stats.topBrands.slice(0, 3).map((brand) => `${brand.brand} (${brand.count})`).join(", ")}.`

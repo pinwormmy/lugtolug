@@ -4,7 +4,7 @@ import { getEdgeCache } from "@/lib/http";
 import { getWatchHref } from "@/lib/watch";
 import { resolveOrigin } from "@/lib/seo";
 import {
-  LUG_TO_LUG_LIMITS,
+  LUG_TO_LUG_COLLECTIONS,
   WATCH_GENRES,
   WRIST_SIZES,
   getLugToLugLimitHref,
@@ -61,7 +61,7 @@ export const GET: APIRoute = async ({ locals, site, request }) => {
     ...WRIST_SIZES.flatMap((size) =>
       WATCH_GENRES.map((genre) => ({ path: getWristGuideHref(size, genre), changefreq: "weekly", priority: "0.6" }))
     ),
-    ...LUG_TO_LUG_LIMITS.map((limit) => ({ path: getLugToLugLimitHref(limit), changefreq: "weekly", priority: "0.7" })),
+    ...LUG_TO_LUG_COLLECTIONS.map((limit) => ({ path: getLugToLugLimitHref(limit), changefreq: "weekly", priority: "0.7" })),
     ...[...brandLastmod.entries()].map(([brandSlug, lastmod]) => ({
       path: `/brands/${brandSlug}`,
       lastmod,

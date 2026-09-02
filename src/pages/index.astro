@@ -8,7 +8,7 @@ import { buildOrganizationSchema, buildWebSiteSchema, resolveOrigin } from "@/li
 import { hasActiveDimensionFilters } from "@/lib/watchFilters";
 import { groupWatchesForDisplay } from "@/lib/watchGroups";
 import { seedWatches } from "@/lib/seed";
-import { WRIST_SIZES, classifyFit, getWristFitBands, getWristGuideHref } from "@/lib/wristGuide";
+import { LUG_TO_LUG_RANGES, WRIST_SIZES, classifyFit, getLugToLugLimitHref, getWristFitBands, getWristGuideHref, matchesLugToLug } from "@/lib/wristGuide";
 
 const db = getDb(Astro.locals);
 const [recentWatches, popularBrands, directoryStats] = await Promise.all([
@@ -24,24 +24,12 @@ const hideDirectoryInitially = Boolean(
 const origin = resolveOrigin(Astro.site);
 const homeStructuredData = [buildWebSiteSchema(origin), buildOrganizationSchema(origin)];
 const sizeCollections = [
-  {
-    href: "/lug-to-lug/under-42mm",
-    label: "Lug-to-lug up to 42 mm",
-    detail: "The most compact spans in the database.",
-    count: directoryStats.lugToLugUnder42
-  },
-  {
-    href: "/lug-to-lug/under-44mm",
-    label: "Lug-to-lug up to 44 mm",
-    detail: "Short-wearing watches across every case shape.",
-    count: directoryStats.lugToLugUnder44
-  },
-  {
-    href: "/lug-to-lug/under-46mm",
-    label: "Lug-to-lug up to 46 mm",
-    detail: "A broad compact-to-balanced range.",
-    count: directoryStats.lugToLugUnder46
-  },
+  ...LUG_TO_LUG_RANGES.map((range) => ({
+    href: getLugToLugLimitHref(range),
+    label: range.label,
+    detail: range.wristHint,
+    count: seedWatches.filter((watch) => matchesLugToLug(watch, range)).length
+  })),
   {
     href: "/?thicknessMmMax=10&sort=lug-asc",
     label: "Thickness up to 10 mm",
