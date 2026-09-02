@@ -1,6 +1,7 @@
 import type { Watch, WatchSource, WatchWithSources } from "@/types";
 import { mapSource, mapWatch, type SourceRow, type WatchRow } from "@/lib/db/rows";
 import { getReferenceProductIdentity } from "@/lib/watchIdentity";
+import { internalCacheKey, withEdgeCachedJson } from "@/lib/http";
 
 type WatchKeyParts = Pick<Watch, "brandSlug" | "modelSlug" | "referenceSlug">;
 type WatchReferenceIdentityParts = Pick<Watch, "brandSlug" | "reference">;
@@ -11,6 +12,11 @@ export interface SuppressedSeedMatches {
 }
 
 const SOURCE_HYDRATION_BATCH_SIZE = 100;
+// Retired seed records change only when an operator unpublishes or approves
+// something, so nearly every page can share one lookup per colo per window.
+const SUPPRESSED_SEEDS_CACHE_SECONDS = 600;
+
+type SuppressedSeedRow = Pick<WatchRow, "brand_slug" | "model_slug" | "reference_slug" | "reference">;
 
 function getWatchKey(watch: WatchKeyParts): string {
   return `${watch.brandSlug}/${watch.modelSlug}/${watch.referenceSlug}`;
@@ -110,16 +116,23 @@ export function mergeRecentSeedWatches<T extends Watch>(
   return [...watches.slice(0, dbSlots), ...recentSeeds.slice(0, reservedSeedSlots)].slice(0, limit);
 }
 
-export async function listSuppressedSeedMatches(db: D1Database, brandSlug?: string): Promise<SuppressedSeedMatches> {
+async function loadSuppressedSeedRows(db: D1Database, brandSlug?: string): Promise<SuppressedSeedRow[]> {
   const query = brandSlug
     ? "SELECT brand_slug, model_slug, reference_slug, reference FROM watches WHERE status != 'approved' AND brand_slug = ?"
     : "SELECT brand_slug, model_slug, reference_slug, reference FROM watches WHERE status != 'approved'";
   const statement = db.prepare(query);
-  const rows = brandSlug
-    ? await statement.bind(brandSlug).all<Pick<WatchRow, "brand_slug" | "model_slug" | "reference_slug" | "reference">>()
-    : await statement.all<Pick<WatchRow, "brand_slug" | "model_slug" | "reference_slug" | "reference">>();
+  const rows = brandSlug ? await statement.bind(brandSlug).all<SuppressedSeedRow>() : await statement.all<SuppressedSeedRow>();
+  return rows.results;
+}
 
-  return rows.results.reduce((matches, row) => {
+export async function listSuppressedSeedMatches(db: D1Database, brandSlug?: string): Promise<SuppressedSeedMatches> {
+  const rows = await withEdgeCachedJson(
+    internalCacheKey("suppressed-seeds", { brand: brandSlug ?? "" }),
+    SUPPRESSED_SEEDS_CACHE_SECONDS,
+    () => loadSuppressedSeedRows(db, brandSlug)
+  );
+
+  return rows.reduce((matches, row) => {
     matches.keys.add(
       getWatchKey({
         brandSlug: row.brand_slug,

@@ -20,6 +20,7 @@ import {
   mergeSeedWatches,
   toWatchSummary
 } from "@/lib/db/watches/merge";
+import { internalCacheKey, withEdgeCachedJson } from "@/lib/http";
 
 const WATCH_BY_SLUGS_SQL = `SELECT * FROM watches
        WHERE brand_slug = ? AND model_slug = ? AND reference_slug = ?
@@ -173,15 +174,28 @@ export async function getWatchDirectoryStats(_db: D1): Promise<WatchDirectorySta
 // on seed candidates plus this many of the newest approved D1 rows (the ones that
 // may not be folded into the seed yet) instead of proximity-scanning the table.
 const SIMILAR_RECENT_APPROVED_LIMIT = 200;
+// Every watch page needs the same recent-approvals slice; share it per colo.
+const SIMILAR_RECENT_CACHE_SECONDS = 600;
+
+async function loadRecentApprovedRows(db: D1Database): Promise<WatchRow[]> {
+  const rows = await db
+    .prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY updated_at DESC, id DESC LIMIT ?")
+    .bind(SIMILAR_RECENT_APPROVED_LIMIT)
+    .all<WatchRow>();
+  return rows.results;
+}
 
 export async function listSimilarWatches(db: D1, target: Watch, limit = 6): Promise<WatchDisplayGroup[]> {
   if (!db) return rankSimilarWatches(seedWatches, target, limit);
 
   return withSeedFallback(() => rankSimilarWatches(seedWatches, target, limit), async () => {
-    const rows = await db
-      .prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY updated_at DESC, id DESC LIMIT ?")
-      .bind(SIMILAR_RECENT_APPROVED_LIMIT)
-      .all<WatchRow>();
+    const rows = {
+      results: await withEdgeCachedJson(
+        internalCacheKey("recent-approved", { limit: String(SIMILAR_RECENT_APPROVED_LIMIT) }),
+        SIMILAR_RECENT_CACHE_SECONDS,
+        () => loadRecentApprovedRows(db)
+      )
+    };
 
     const seedCandidates = seedWatches.filter((watch) => (
       Math.abs(watch.lugToLugMm - target.lugToLugMm) <= 6 &&

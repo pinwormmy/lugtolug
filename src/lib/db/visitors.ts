@@ -1,11 +1,11 @@
 import type { D1 } from "@/lib/db/connection";
-import { getEdgeCache } from "@/lib/http";
-import { SITE_URL } from "@/lib/seo";
+import { internalCacheKey, withEdgeCachedJson } from "@/lib/http";
 
 const VISITOR_COOKIE = "l2l_visitor";
 const VISITOR_COOKIE_MAX_AGE = 60 * 60 * 24 * 365 * 2;
 const VISIT_DAY_COOKIE = "l2l_visit_day";
 const VISIT_DAY_COOKIE_MAX_AGE = 60 * 60 * 24;
+const VISITOR_COUNTS_CACHE_SECONDS = 300;
 
 const BOT_UA_PATTERN =
   /bot|crawl|spider|slurp|preview|fetch|monitor|curl|wget|python|httpx|axios|node-fetch|go-http|java|headless|lighthouse/i;
@@ -19,43 +19,28 @@ export async function getVisitorCounts(db: D1): Promise<VisitorCounts> {
   if (!db) return { dailyVisitors: 0, totalVisitors: 0 };
 
   try {
+    // The layout asks for these counts on every page render, so crawler traffic
+    // would repeat the reads endlessly; a short edge cache bounds that. The key
+    // includes the KST date so the daily figure resets at midnight instead of
+    // serving yesterday's.
     const visitDate = getKstDate();
-    // The layout asks for these counts on every page render, and COUNT(*) scans
-    // the whole visitors table, so crawler traffic alone burns through the D1
-    // read quota. A short edge cache bounds that; the key includes the KST date
-    // so the daily figure resets at midnight instead of serving yesterday's.
-    const cache = getEdgeCache();
-    const cacheKey = new Request(`${SITE_URL}/__internal/visitor-counts?date=${visitDate}`);
-    if (cache) {
-      const cached = await cache.match(cacheKey);
-      if (cached) return (await cached.json()) as VisitorCounts;
-    }
+    return await withEdgeCachedJson(internalCacheKey("visitor-counts", { date: visitDate }), VISITOR_COUNTS_CACHE_SECONDS, async () => {
+      const [dailyRow, totalRow] = await Promise.all([
+        db
+          .prepare("SELECT COUNT(*) AS count FROM site_daily_visits WHERE visit_date = ?")
+          .bind(visitDate)
+          .first<{ count: number }>(),
+        // site_visitors is a rowid table that never sees deletes, so its highest
+        // rowid is the row count; COUNT(*) would scan every visitor row (the D1
+        // free tier bills scanned rows) while MAX(rowid) reads one.
+        db.prepare("SELECT MAX(rowid) AS count FROM site_visitors").first<{ count: number | null }>()
+      ]);
 
-    const [dailyRow, totalRow] = await Promise.all([
-      db
-        .prepare("SELECT COUNT(*) AS count FROM site_daily_visits WHERE visit_date = ?")
-        .bind(visitDate)
-        .first<{ count: number }>(),
-      db.prepare("SELECT COUNT(*) AS count FROM site_visitors").first<{ count: number }>()
-    ]);
-
-    const counts: VisitorCounts = {
-      dailyVisitors: dailyRow?.count ?? 0,
-      totalVisitors: totalRow?.count ?? 0
-    };
-
-    if (cache) {
-      await cache.put(
-        cacheKey,
-        new Response(JSON.stringify(counts), {
-          headers: {
-            "content-type": "application/json; charset=utf-8",
-            "cache-control": "public, max-age=300"
-          }
-        })
-      );
-    }
-    return counts;
+      return {
+        dailyVisitors: dailyRow?.count ?? 0,
+        totalVisitors: totalRow?.count ?? 0
+      };
+    });
   } catch (error) {
     console.warn("Visitor counts are unavailable.", error);
     return { dailyVisitors: 0, totalVisitors: 0 };
