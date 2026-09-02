@@ -1,0 +1,33 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import WristCompare from "@/components/WristCompare";
+import { getDb, getWatchBySlugs } from "@/lib/db";
+import { toWatchSummary } from "@/lib/db/watches/merge";
+import { getWatchDisplayName } from "@/lib/watch";
+import { COMPARE_WRIST_PARAM, parseCompareKeys, parseWristFlatWidth } from "@/lib/wristCompare";
+
+const db = getDb(Astro.locals);
+const keys = parseCompareKeys(Astro.url.searchParams);
+const resolved = await Promise.all(keys.map((key) => getWatchBySlugs(db, key.brandSlug, key.modelSlug, key.referenceSlug)));
+const watches = resolved.filter((watch) => watch != null).map(toWatchSummary);
+const wristFlatWidthMm = parseWristFlatWidth(Astro.url.searchParams.get(COMPARE_WRIST_PARAM));
+const names = watches.map(getWatchDisplayName);
+const title = names.length > 0 ? `${names.join(" vs ")} on your wrist` : "Compare watches on your wrist, to scale";
+const description =
+  names.length > 0
+    ? `${names.join(", ")} drawn to scale on a wrist of your width, with lug-to-lug, case, and thickness side by side and a fit verdict for each.`
+    : "Pick up to three watches and see them drawn to scale on a wrist of your width: lug-to-lug span, case, and thickness side by side with a fit verdict for each.";
+---
+
+<BaseLayout title={title} description={description}>
+  <section class="section" style="margin-top: 0;">
+    <nav class="detail-breadcrumb" aria-label="Breadcrumb">
+      <a href="/wrist">Wrist size guide</a>
+    </nav>
+    <h1 class="page-title">Compare watches on your wrist</h1>
+    <p class="lede">
+      Every watch is drawn at the same scale on a wrist of your flat width, so lug-to-lug overhang, case size, and thickness are visible at a glance. Add watches, adjust the wrist, and copy the link to share the comparison.
+    </p>
+  </section>
+  <WristCompare client:load initialWatches={watches} initialWristFlatWidthMm={wristFlatWidthMm} />
+</BaseLayout>

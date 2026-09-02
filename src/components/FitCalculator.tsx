@@ -4,55 +4,31 @@ import {
   getFitGuidance,
   getFitScaleMarkerPositionForRatio
 } from "@/lib/fit";
+import { buildCompareHref, readSavedWristFlatWidth, saveWristFlatWidth, type WatchSlugKey } from "@/lib/wristCompare";
 
 interface Props {
   lugToLugMm: number;
+  /** When given, offers to open this watch in the on-wrist comparison. */
+  compareWatch?: WatchSlugKey;
 }
 
-const STORAGE_KEY = "lugtolug-finder:wrist-fit-v1";
-
-function readSavedFitSettings(): { value: string } | null {
-  if (typeof window === "undefined") return null;
-
-  try {
-    const raw = window.localStorage.getItem(STORAGE_KEY);
-    if (!raw) return null;
-
-    const parsed = JSON.parse(raw) as Partial<{ unit: string; value: unknown }>;
-    if (typeof parsed.value !== "string") {
-      return null;
-    }
-
-    if (parsed.unit === "cm") {
-      return { value: `${(((Number(parsed.value) * 10) / Math.PI)).toFixed(1)}` };
-    }
-
-    if (parsed.unit === "in") {
-      return { value: `${(((Number(parsed.value) * 25.4) / Math.PI)).toFixed(1)}` };
-    }
-
-    return { value: parsed.value };
-  } catch {
-    return null;
-  }
-}
-
-export default function FitCalculator({ lugToLugMm }: Props) {
+export default function FitCalculator({ lugToLugMm, compareWatch }: Props) {
   const [value, setValue] = useState("54.0");
   const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
-    const saved = readSavedFitSettings();
+    // Shared with the compare page, so the wrist entered anywhere applies everywhere.
+    const saved = readSavedWristFlatWidth();
     if (saved) {
-      setValue(saved.value);
+      setValue(saved);
     }
     setHydrated(true);
   }, []);
 
   useEffect(() => {
-    if (!hydrated || typeof window === "undefined") return;
+    if (!hydrated) return;
 
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify({ value }));
+    saveWristFlatWidth(value);
   }, [hydrated, value]);
 
   const fit = useMemo(() => {
@@ -103,6 +79,13 @@ export default function FitCalculator({ lugToLugMm }: Props) {
         </>
       ) : (
         <p className="small">Enter a flat wrist width to estimate the fit.</p>
+      )}
+      {compareWatch && (
+        <p className="fit-compare-link">
+          <a className="button secondary" href={buildCompareHref([compareWatch], fit ? fit.wristFlatWidthMm : null)}>
+            Compare on your wrist
+          </a>
+        </p>
       )}
     </div>
   );

@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import WatchRow from "@/components/WatchRow.astro";
+import GuideListSearch from "@/components/GuideListSearch";
 import { getDb, listCatalogWatches } from "@/lib/db";
 import { resolveOrigin } from "@/lib/seo";
 import { buildFaqSchema } from "@/lib/watchWearability";
@@ -14,7 +14,8 @@ import {
   getWristGuideHref,
   type WristFitBand
 } from "@/lib/wristGuide";
-import { buildItemListSchema, describeLugToLugLimit, uniqueByModel } from "@/lib/wristGuideCopy";
+import { uniqueByModel } from "@/lib/guideList";
+import { buildItemListSchema, describeLugToLugLimit } from "@/lib/wristGuideCopy";
 
 const limit = getLugToLugLimit(Astro.params.limit!);
 
@@ -102,9 +103,7 @@ const breadcrumbData = {
       </div>
       <p>One entry per model family. <a href={searchHref}>Open all {under.length.toLocaleString("en-US")} in search</a>, sorted shortest first.</p>
     </div>
-    <div class="related-watch-grid">
-      {newest.map((watch) => <WatchRow watch={watch} />)}
-    </div>
+    <GuideListSearch client:load initialWatches={newest} totalCount={under.length} maxMm={limit.maxMm} sort="newest" noun="watches" />
   </section>
 
   <section class="section panel wearability" aria-labelledby="limit-faq-title">

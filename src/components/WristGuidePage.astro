@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
+import GuideListSearch from "@/components/GuideListSearch";
 import WatchRow from "@/components/WatchRow.astro";
+import { FIT_RATIO_STANDARD, FIT_RATIO_THRESHOLDS } from "@/lib/fit";
 import { resolveOrigin } from "@/lib/seo";
 import { buildFaqSchema } from "@/lib/watchWearability";
 import {
@@ -10,7 +12,8 @@ import {
   getWristGuideHref,
   type WristGuide
 } from "@/lib/wristGuide";
-import { buildItemListSchema, describeWristGuide, uniqueByModel } from "@/lib/wristGuideCopy";
+import { uniqueByModel } from "@/lib/guideList";
+import { buildItemListSchema, describeWristGuide } from "@/lib/wristGuideCopy";
 
 interface Props {
   guide: WristGuide;
@@ -24,6 +27,10 @@ const balancedRows = uniqueByModel(guide.balanced, 48);
 const compactRows = uniqueByModel(guide.compact, 12);
 const largeRows = uniqueByModel(guide.large, 12);
 const searchHref = `/?lugToLugMmMin=${bands.compactMaxMm}&lugToLugMmMax=${bands.balancedMaxMm}&sort=lug-asc`;
+// Unrounded band edges so the in-page search matches exactly what the counts describe.
+const balancedMinMm = size.flatWidthMm * FIT_RATIO_THRESHOLDS.balancedMin;
+const balancedMaxMm = size.flatWidthMm * FIT_RATIO_THRESHOLDS.balancedMax;
+const sweetSpotMm = size.flatWidthMm * FIT_RATIO_STANDARD;
 const origin = resolveOrigin(Astro.site);
 const canonicalUrl = new URL(Astro.url.pathname, origin).toString();
 const bandRows = [
@@ -84,6 +91,9 @@ const breadcrumbData = {
       <p class="small">
         Flat wrist width is estimated at 35% of circumference ({bands.flatWidthMm} mm here). Measure straight across the top of your wrist and use the fit calculator on any watch page for an exact result.
       </p>
+      <p class="fit-compare-link">
+        <a class="button secondary" href={`/compare?wrist=${bands.flatWidthMm}`}>Draw watches on this wrist</a>
+      </p>
     </div>
     <div class="panel">
       {genre ? (
@@ -131,13 +141,17 @@ const breadcrumbData = {
       </div>
       <p>Closest to the {bands.sweetSpotMm} mm sweet spot first, one entry per model family. <a href={searchHref}>Open this range in search</a>.</p>
     </div>
-    {balancedRows.length > 0 ? (
-      <div class="related-watch-grid">
-        {balancedRows.map((watch) => <WatchRow watch={watch} />)}
-      </div>
-    ) : (
-      <p class="small">Nothing in the database lands in this range yet.</p>
-    )}
+    <GuideListSearch
+      client:load
+      initialWatches={balancedRows}
+      totalCount={counts.balanced}
+      minMm={balancedMinMm}
+      maxMm={balancedMaxMm}
+      sweetSpotMm={sweetSpotMm}
+      genreSlug={genre?.slug}
+      sort="sweet-spot"
+      noun={noun}
+    />
   </section>
 
   {(compactRows.length > 0 || largeRows.length > 0) && (

@@ -100,7 +100,7 @@ const breadcrumbData = {
   </section>
 
   <section class="section grid-2">
-    <FitCalculator client:load lugToLugMm={watch.lugToLugMm} />
+    <FitCalculator client:load lugToLugMm={watch.lugToLugMm} compareWatch={{ brandSlug: watch.brandSlug, modelSlug: watch.modelSlug, referenceSlug: watch.referenceSlug }} />
     <div class="panel" id="sources">
       <h2>Sources</h2>
       <ul>

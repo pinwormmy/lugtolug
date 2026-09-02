@@ -130,17 +130,3 @@ export function buildItemListSchema(origin: string, watches: Watch[], limit = 20
     }))
   };
 }
-
-/** One entry per model family, keeping the input order (first occurrence wins). */
-export function uniqueByModel<T extends Watch>(watches: T[], limit: number): T[] {
-  const seen = new Set<string>();
-  const result: T[] = [];
-  for (const watch of watches) {
-    const key = `${watch.brandSlug}/${watch.modelGroup ?? watch.modelSlug}`;
-    if (seen.has(key)) continue;
-    seen.add(key);
-    result.push(watch);
-    if (result.length >= limit) break;
-  }
-  return result;
-}

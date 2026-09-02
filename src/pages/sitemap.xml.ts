@@ -56,6 +56,7 @@ export const GET: APIRoute = async ({ locals, site, request }) => {
     { path: "/watches", changefreq: "daily", priority: "0.9" },
     { path: "/submit", changefreq: "monthly", priority: "0.3" },
     { path: "/wrist", changefreq: "weekly", priority: "0.7" },
+    { path: "/compare", changefreq: "monthly", priority: "0.6" },
     ...WRIST_SIZES.map((size) => ({ path: getWristGuideHref(size), changefreq: "weekly", priority: "0.7" })),
     ...WRIST_SIZES.flatMap((size) =>
       WATCH_GENRES.map((genre) => ({ path: getWristGuideHref(size, genre), changefreq: "weekly", priority: "0.6" }))
