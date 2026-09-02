@@ -39,7 +39,8 @@
     "smoke:workflow": "node scripts/workflow-smoke.mjs",
     "test": "vitest run",
     "typecheck": "ASTRO_TELEMETRY_DISABLED=1 astro check",
-    "og:generate": "tsx --tsconfig tsconfig.json scripts/generate-og-images.ts"
+    "og:generate": "tsx --tsconfig tsconfig.json scripts/generate-og-images.ts",
+    "data:import:d1-approved": "node scripts/import-d1-approved.mjs"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.6.2",
