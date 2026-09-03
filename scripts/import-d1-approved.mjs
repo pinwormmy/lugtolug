@@ -1,6 +1,9 @@
-// Fold approved D1 records that are missing from data/watches.seed.json into
-// the seed, so public pages never depend on D1 for them (the seed is the
-// complete public catalog; D1 holds operator approvals until they land here).
+// Fold approved D1 records into data/watches.seed.json so public pages never
+// depend on D1 for them (the seed is the complete public catalog; D1 holds
+// operator approvals and edits until they land here). Two cases:
+//   - a D1 row whose id is not in the seed is appended (with its D1 id)
+//   - a D1 row whose id is in the seed but whose fields differ is an operator
+//     edit made in the admin UI; the seed entry is updated from D1
 //
 //   node scripts/import-d1-approved.mjs            # report only
 //   node scripts/import-d1-approved.mjs --write    # append to the seed
@@ -130,50 +133,83 @@ function toSeedEntry(row, sources, problems) {
 }
 
 const seed = JSON.parse(readFileSync(seedPath, "utf8"));
+const seedById = new Map(seed.map((watch) => [watch.id, watch]));
 const seedKeys = new Set(seed.map((watch) => watchKey(getWatchSlugs(watch))));
-const seedIds = new Set(seed.map((watch) => watch.id));
+
+const COMPARED_FIELDS = ["brand", "model", "canonicalModel", "modelGroup", "variant", "reference", "lugToLugMm", "caseMm", "thicknessMm", "lugWidthMm"];
+
+function fieldDiff(current, next) {
+  return COMPARED_FIELDS.filter((field) => (current[field] ?? null) !== (next[field] ?? null)).map(
+    (field) => `${field}: ${JSON.stringify(current[field] ?? null)} -> ${JSON.stringify(next[field] ?? null)}`
+  );
+}
 
 const { watches, sources: providedSources } = loadRows();
-const missing = watches.filter((row) => {
+const candidates = watches.filter((row) => {
+  const existing = seedById.get(row.id);
+  if (existing) return true; // reconcile below; cheap to compare
   const key = `${row.brand_slug}/${row.model_slug}/${row.reference_slug}`;
   const computed = watchKey(getWatchSlugs({ brand: row.brand ?? "", model: row.model ?? "", reference: row.reference ?? "" }));
   return !seedKeys.has(key) && !seedKeys.has(computed);
 });
-console.log(`Approved in D1: ${watches.length}. Missing from the seed: ${missing.length}.`);
 
-const sourceRows = loadSources(providedSources, missing.map((row) => row.id));
+// Only rows that are new or differ from the seed need their sources fetched.
+const changed = candidates.filter((row) => {
+  const existing = seedById.get(row.id);
+  if (!existing) return true;
+  const probe = toSeedEntry(row, [{ source_url: "https://placeholder.invalid/" }], []);
+  return fieldDiff(existing, probe).length > 0;
+});
+console.log(`Approved in D1: ${watches.length}. New: ${changed.filter((row) => !seedById.has(row.id)).length}. Edited in D1: ${changed.filter((row) => seedById.has(row.id)).length}.`);
+
+const sourceRows = loadSources(providedSources, changed.map((row) => row.id));
 const added = [];
+const updated = [];
 const skipped = [];
-for (const row of missing) {
+for (const row of changed) {
   const problems = [];
-  if (seedIds.has(row.id)) problems.push(`seed already uses id ${row.id}`);
-  const entry = toSeedEntry(row, sourceRows.filter((source) => source.watch_id === row.id), problems);
+  const existing = seedById.get(row.id);
+  const rowSources = sourceRows.filter((source) => source.watch_id === row.id);
+  const entry = toSeedEntry(row, rowSources, problems);
+  if (existing) {
+    // Keep every source the seed already cites; D1 may hold a subset.
+    const seen = new Set(entry.sources.map((source) => source.sourceUrl));
+    for (const source of existing.sources ?? []) {
+      if (!seen.has(source.sourceUrl)) entry.sources.push(source);
+    }
+    problems.splice(0, problems.length, ...problems.filter((problem) => problem !== "no valid source URL" || entry.sources.length === 0));
+  }
   const fatal = problems.filter((problem) => !problem.startsWith("dropping"));
   if (fatal.length > 0) {
     skipped.push({ row, problems });
     continue;
   }
   if (problems.length > 0) console.log(`  note ${row.id} ${row.brand} ${row.model}: ${problems.join("; ")}`);
-  added.push(entry);
+  if (existing) updated.push({ existing, entry, diff: fieldDiff(existing, entry) });
+  else added.push(entry);
 }
 
 for (const entry of added) {
   console.log(`  + ${entry.id} ${entry.brand} ${entry.model} ${entry.reference} (L2L ${entry.lugToLugMm}, ${entry.sources.length} source${entry.sources.length === 1 ? "" : "s"})`);
+}
+for (const { entry, diff } of updated) {
+  console.log(`  ~ ${entry.id} ${entry.brand} ${entry.model} ${entry.reference}: ${diff.join("; ")}`);
 }
 for (const { row, problems } of skipped) {
   console.log(`  ! skipped ${row.id} ${row.brand} ${row.model} ${row.reference}: ${problems.join("; ")}`);
 }
 
 if (!shouldWrite) {
-  console.log(added.length > 0 ? "Dry run; pass --write to append these to the seed." : "Nothing to add.");
+  console.log(added.length + updated.length > 0 ? "Dry run; pass --write to apply these to the seed." : "Nothing to change.");
   process.exit(0);
 }
 
-if (added.length === 0) {
+if (added.length + updated.length === 0) {
   console.log("Nothing to write.");
   process.exit(0);
 }
 
-const merged = [...seed, ...added].sort((a, b) => a.id - b.id);
+const updatedById = new Map(updated.map(({ entry }) => [entry.id, entry]));
+const merged = [...seed.map((watch) => updatedById.get(watch.id) ?? watch), ...added].sort((a, b) => a.id - b.id);
 writeFileSync(seedPath, `${JSON.stringify(merged, null, 2)}\n`);
-console.log(`Wrote ${added.length} record${added.length === 1 ? "" : "s"} to ${seedPath}. Now run npm run data:audit && npm run data:seed-sql.`);
+console.log(`Wrote ${added.length} new and ${updated.length} updated record(s) to ${seedPath}. Now run npm run data:audit && npm run data:seed-sql.`);

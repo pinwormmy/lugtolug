@@ -494,6 +494,22 @@
     ]
   },
   {
+    "id": 15,
+    "brand": "Tissot",
+    "model": "PRC100 Solar 39mm",
+    "reference": "T151.422.11.031.00",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 9.22,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://windupwatchshop.com/products/prc-100-solar-quartz",
+        "note": "Windup Watch Shop lists reference T151.422.11.031.00 with a 39 mm diameter, 46 mm length (lug-to-lug), 9.22 mm thickness, and 20 mm lug width."
+      }
+    ]
+  },
+  {
     "id": 16,
     "brand": "Sinn",
     "model": "556 I",
@@ -44013,7 +44029,7 @@
   {
     "id": 2368,
     "brand": "Hamilton",
-    "model": "Khaki Navy Scuba Car",
+    "model": "Khaki Navy Scuba Auto",
     "reference": "H82505140",
     "lugToLugMm": 52,
     "caseMm": 43,
@@ -44029,7 +44045,7 @@
   {
     "id": 2369,
     "brand": "Hamilton",
-    "model": "Khaki Navy Scuba Car",
+    "model": "Khaki Navy Scuba Auto",
     "reference": "H82505150",
     "lugToLugMm": 52,
     "caseMm": 43,
@@ -44045,7 +44061,7 @@
   {
     "id": 2370,
     "brand": "Hamilton",
-    "model": "Khaki Navy Scuba Car",
+    "model": "Khaki Navy Scuba Auto",
     "reference": "H82515130",
     "lugToLugMm": 52,
     "caseMm": 43,
@@ -44061,7 +44077,7 @@
   {
     "id": 2371,
     "brand": "Hamilton",
-    "model": "Khaki Navy Scuba Car",
+    "model": "Khaki Navy Scuba Auto",
     "reference": "H82515330",
     "lugToLugMm": 52,
     "caseMm": 43,
@@ -44077,7 +44093,7 @@
   {
     "id": 2372,
     "brand": "Hamilton",
-    "model": "Khaki Navy Scuba Car",
+    "model": "Khaki Navy Scuba Auto",
     "reference": "H82525160",
     "lugToLugMm": 52,
     "caseMm": 43,
@@ -48677,6 +48693,22 @@
     ]
   },
   {
+    "id": 2616,
+    "brand": "Norqain",
+    "model": "Wild ONE Maroon Meteorite Special-Edition",
+    "reference": "Wild ONE Maroon Meteorite",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/norqain-wild-one-maroon-meteorite-special-edition-watch-with-real-space-metal-hands-on/",
+        "note": "aBlogtoWatch article states dimensions of 42mm case, 49.4mm lug-to-lug, 12.3mm thickness."
+      }
+    ]
+  },
+  {
     "id": 2617,
     "brand": "Bremont",
     "model": "Altitude MB Meteor Time Zones",
@@ -49301,6 +49333,22 @@
       {
         "sourceUrl": "https://www.ablogtowatch.com/watch-review-movado-heritage-1917-automatic-35mm/",
         "note": "aBlogtoWatch article states dimensions of 35mm case, 44.6mm lug-to-lug, 9mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 2654,
+    "brand": "Norqain",
+    "model": "Independence Skeleton Chrono 42mm",
+    "reference": "Independence Skeleton Chrono 42mm",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 14,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-norqain-independence-skeleton-chrono-42mm-watches/",
+        "note": "aBlogtoWatch article states dimensions of 42mm case, 50mm lug-to-lug, 14mm thickness."
       }
     ]
   },
@@ -51538,6 +51586,22 @@
     ]
   },
   {
+    "id": 2793,
+    "brand": "Norqain",
+    "model": "Wild ONE Skeleton Coral & Green",
+    "reference": "Wild ONE Skeleton Coral Green",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 12,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-norqain-wild-one-skeleton-coral-green-watches/",
+        "note": "aBlogtoWatch article states dimensions of 42mm case, 50mm lug-to-lug, 12mm thickness."
+      }
+    ]
+  },
+  {
     "id": 2794,
     "brand": "Timex",
     "model": "x Ghostly Navi",
@@ -52508,6 +52572,22 @@
       {
         "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-rze-fortitude-gmt-pilots-watch/",
         "note": "aBlogtoWatch article states dimensions of 41mm case, 47mm lug-to-lug, 12mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 2854,
+    "brand": "Norqain",
+    "model": "Adventure Sport Chrono Limited Edition",
+    "reference": "Adventure Sport Chrono Limited Edition",
+    "lugToLugMm": 52,
+    "caseMm": 44,
+    "thicknessMm": 16,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-norqain-adventure-sport-chrono-44mm-and-adventure-sport-chrono-day-date-41mm-limited-edition-watches/",
+        "note": "aBlogtoWatch article states dimensions of 44mm case, 52mm lug-to-lug, 16mm thickness."
       }
     ]
   },
@@ -54197,6 +54277,22 @@
     ]
   },
   {
+    "id": 2958,
+    "brand": "Norqain",
+    "model": "Independence 40mm Hakuna Mipaka",
+    "reference": "Independence 40mm Hakuna Mipaka",
+    "lugToLugMm": 46.3,
+    "caseMm": 40,
+    "thicknessMm": 12.05,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/norqain-and-dean-schneider-unveil-the-independence-40mm-hakuna-mipaka-watch/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 46.3mm lug-to-lug, 12.05mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
     "id": 2959,
     "brand": "Richard Mille",
     "model": "RM 07-04 Automatic Sport",
@@ -54345,6 +54441,22 @@
     ]
   },
   {
+    "id": 2968,
+    "brand": "Norqain",
+    "model": "Freedom 60 Chrono 40mm Bronze",
+    "reference": "Freedom 60 Chrono 40mm Bronze",
+    "lugToLugMm": 49.27,
+    "caseMm": 40,
+    "thicknessMm": 14.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/norqain-debuts-the-freedom-60-chrono-40mm-bronze-watch/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 49.27mm lug-to-lug, 14.9mm thickness, and 20mm lug width."
+      }
+    ]
+  },
+  {
     "id": 2969,
     "brand": "Raymond Weil",
     "model": "Freelancer GMT",
@@ -54460,6 +54572,22 @@
       {
         "sourceUrl": "https://www.hodinkee.com/articles/bremont-builds-heat-with-the-supernova",
         "note": "Hodinkee reports 53mm lug-to-lug, 40mm case size/width, 11.1mm thickness for Bremont Supernova in “Hands-On: Bremont Builds Heat With The Supernova.”"
+      }
+    ]
+  },
+  {
+    "id": 2977,
+    "brand": "Norqain",
+    "model": "Independence Wild ONE",
+    "reference": "Independence Wild ONE",
+    "lugToLugMm": 49.4,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/norqain-unveils-the-independence-wild-one-watch-collection-with-jean-claude-biver/",
+        "note": "aBlogtoWatch article states dimensions of 42mm case, 49.4mm lug-to-lug, 12.3mm thickness, and 22mm lug width."
       }
     ]
   },
@@ -100029,6 +100157,10 @@
       {
         "sourceUrl": "https://monochrome-watches.com/hand-on-more-compact-norqain-wild-one-skeleton-39mm-specs-price/",
         "note": "MONOCHROME reports 45.75mm lug-to-lug, 39mm case size/width, 11.75mm thickness for Norqain Wild ONE Skeleton 39mm in “The More Compact Norqain Wild One Skeleton 39mm.”"
+      },
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-norqain-wild-one-skeleton-39mm-watches/",
+        "note": "aBlogtoWatch article states dimensions of 39mm case, 45.75mm lug-to-lug, 11.75mm thickness, and 20mm lug width."
       }
     ],
     "modelGroup": "norqain-wild-one-skeleton-39mm",
@@ -100506,6 +100638,10 @@
       {
         "sourceUrl": "https://monochrome-watches.com/more-compact-40mm-version-of-the-norqain-independence-skeleton-review-price/",
         "note": "MONOCHROME reports 46.3mm lug-to-lug, 40mm case size/width for Norqain Independence Skeleton 40mm in “A More Compact 40mm Version of the Norqain Independence Skeleton.”"
+      },
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-norqain-independence-skeleton-40mm-watches/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 46.3mm lug-to-lug, 12.05mm thickness."
       }
     ]
   },
@@ -100937,6 +101073,10 @@
       {
         "sourceUrl": "https://monochrome-watches.com/2026-norqain-adventure-40mm-updated-collection-all-terrain-sports-watch-introducing-price/",
         "note": "MONOCHROME reports 48.3mm lug-to-lug, 40mm case size/width for Norqain Adventure 40mm in “The Norqain Adventure Gets a new 40mm Case and a Range of Updates.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
+      },
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/new-release-the-norqain-adventure-watches-gets-a-40mm-case-and-a-slew-of-updates/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 48.3mm lug-to-lug, 12.55mm thickness."
       }
     ],
     "modelGroup": "norqain-adventure-40mm",
