@@ -20,6 +20,7 @@ DB(`data/watches.seed.json` + D1 승인 레코드)를 홍보 자산으로 바꾸
 npm run seo:indexnow                 # 라이브 sitemap의 모든 URL 제출
 npm run seo:indexnow -- --dry-run    # 제출 없이 확인만
 npm run seo:indexnow -- /watches/rolex/submariner-date/126610ln   # 특정 페이지만
+npm run seo:indexnow -- /wrist /wrist/6-inch   # 여러 경로는 공백으로 나열 (한 번의 요청으로 제출)
 ```
 
 - 키 파일: `public/863843d321b54f1373b1546d09cf0c6c.txt` (배포되면 사이트 루트에서 서빙됨 — **이 변경이 배포된 뒤부터 동작**)

@@ -4,8 +4,13 @@
 // Usage:
 //   node scripts/submit-indexnow.mjs                          # submit every URL in the live sitemap
 //   node scripts/submit-indexnow.mjs --dry-run                # show what would be submitted
-//   node scripts/submit-indexnow.mjs /watches/rolex/submariner-date/126610ln
-//                                                             # submit specific paths or absolute URLs
+//   node scripts/submit-indexnow.mjs /wrist /wrist/6-inch     # submit specific paths (one request)
+//   node scripts/submit-indexnow.mjs https://lugtolugfinder.com/watches/rolex/submariner-date/126610ln
+//                                                             # absolute URLs on the site origin also work
+//
+// Each path must start with "/". Several paths can be passed as separate
+// arguments or inside one quoted argument ("/wrist /wrist/6-inch"); they are
+// deduplicated and sent together in a single IndexNow request.
 //
 // The site origin defaults to https://lugtolugfinder.com and can be overridden
 // with PUBLIC_SITE_URL. The IndexNow key is read from the public/<key>.txt file
@@ -37,17 +42,48 @@ async function fetchSitemapUrls(origin) {
   return [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1].trim());
 }
 
-async function main() {
-  const args = process.argv.slice(2);
-  const dryRun = args.includes("--dry-run");
-  const explicitTargets = args.filter((arg) => !arg.startsWith("--"));
+const KNOWN_FLAGS = new Set(["--dry-run"]);
 
+// Turn CLI arguments into absolute URLs. Every non-flag argument is a target;
+// an argument that contains whitespace is split into several targets so that
+// `"/wrist /wrist/6-inch"` (paths joined by a shell or npm wrapper) does not
+// become one bogus URL. Paths must start with "/"; absolute http(s) URLs are
+// accepted as-is.
+function parseArgs(argv, origin) {
+  const flags = new Set();
+  const targets = [];
+  for (const arg of argv) {
+    if (arg.startsWith("--")) {
+      if (!KNOWN_FLAGS.has(arg)) throw new Error(`Unknown flag: ${arg}`);
+      flags.add(arg);
+      continue;
+    }
+    for (const token of arg.split(/\s+/)) {
+      if (token.length === 0) continue;
+      targets.push(token);
+    }
+  }
+
+  const urls = [];
+  for (const target of targets) {
+    if (/^https?:\/\//.test(target)) {
+      urls.push(target);
+    } else if (target.startsWith("/")) {
+      urls.push(`${origin}${target}`);
+    } else {
+      throw new Error(`Invalid target "${target}": paths must start with "/" (e.g. /wrist/6-inch).`);
+    }
+  }
+
+  return { dryRun: flags.has("--dry-run"), urls: [...new Set(urls)] };
+}
+
+async function main() {
   const origin = (process.env.PUBLIC_SITE_URL ?? "https://lugtolugfinder.com").replace(/\/$/, "");
+  const { dryRun, urls: explicitUrls } = parseArgs(process.argv.slice(2), origin);
   const key = findIndexNowKey();
 
-  const urls = explicitTargets.length
-    ? explicitTargets.map((target) => (target.startsWith("http") ? target : `${origin}${target}`))
-    : await fetchSitemapUrls(origin);
+  const urls = explicitUrls.length ? explicitUrls : await fetchSitemapUrls(origin);
 
   if (urls.length === 0) throw new Error("No URLs to submit.");
 
