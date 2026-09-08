@@ -1,4 +1,5 @@
 const SESSION_COOKIE = "llt_session";
+const SESSION_TTL_MS = 1000 * 60 * 60 * 24 * 14;
 const encoder = new TextEncoder();
 
 export interface AdminUser {
@@ -34,6 +35,21 @@ async function sha256Hex(value: string): Promise<string> {
   return bytesToHex(new Uint8Array(digest));
 }
 
+/**
+ * Constant-time string comparison. A plain `===` returns as soon as a byte
+ * differs, which leaks how much of a secret (password hash, CSRF token) matched.
+ */
+export function timingSafeEqual(a: string, b: string): boolean {
+  const left = encoder.encode(a);
+  const right = encoder.encode(b);
+  let diff = left.length ^ right.length;
+  const length = Math.max(left.length, right.length);
+  for (let index = 0; index < length; index += 1) {
+    diff |= (left[index] ?? 0) ^ (right[index] ?? 0);
+  }
+  return diff === 0;
+}
+
 export async function hashPassword(password: string, salt = randomHex(16), iterations = 100_000) {
   const keyMaterial = await crypto.subtle.importKey("raw", encoder.encode(password), "PBKDF2", false, ["deriveBits"]);
   const bits = await crypto.subtle.deriveBits(
@@ -55,7 +71,18 @@ export async function hashPassword(password: string, salt = randomHex(16), itera
 
 export async function verifyPassword(password: string, salt: string, iterations: number, expectedHash: string) {
   const result = await hashPassword(password, salt, iterations);
-  return result.hash === expectedHash;
+  return timingSafeEqual(result.hash, expectedHash);
+}
+
+// Placeholder credentials checked when the email is unknown, so a login attempt
+// costs the same PBKDF2 work whether or not the account exists. Otherwise the
+// response time would reveal which emails are registered.
+const UNKNOWN_USER_SALT = "0".repeat(32);
+const UNKNOWN_USER_ITERATIONS = 100_000;
+
+export async function verifyUnknownUserPassword(password: string): Promise<false> {
+  await hashPassword(password, UNKNOWN_USER_SALT, UNKNOWN_USER_ITERATIONS);
+  return false;
 }
 
 export function getSessionCookie(request: Request): string | null {
@@ -74,9 +101,13 @@ export function clearSessionCookie(): string {
 }
 
 export async function createSession(db: D1Database, userId: number, request: Request): Promise<{ token: string; csrf: string; expires: Date }> {
+  // Expired rows are useless once past expires_at; dropping them on login keeps
+  // the table bounded by the number of live sessions.
+  await db.prepare("DELETE FROM admin_sessions WHERE datetime(expires_at) <= datetime('now')").run();
+
   const token = randomHex(32);
   const csrf = randomHex(24);
-  const expires = new Date(Date.now() + 1000 * 60 * 60 * 24 * 14);
+  const expires = new Date(Date.now() + SESSION_TTL_MS);
   await db
     .prepare(
       `INSERT INTO admin_sessions
@@ -100,23 +131,20 @@ export async function getAdminSession(db: D1Database | undefined, request: Reque
   const token = getSessionCookie(request);
   if (!token) return null;
   const tokenHash = await sha256Hex(token);
+  // expires_at is stored as an ISO timestamp while CURRENT_TIMESTAMP uses a space
+  // separator, so both sides go through datetime() to compare as instants rather
+  // than as strings (a plain string comparison kept same-day expiries alive).
   const row = await db
     .prepare(
       `SELECT s.csrf_token, u.id, u.email
        FROM admin_sessions s
        JOIN admin_users u ON u.id = s.admin_user_id
-       WHERE s.token_hash = ? AND s.expires_at > CURRENT_TIMESTAMP`
+       WHERE s.token_hash = ? AND datetime(s.expires_at) > datetime('now')`
     )
     .bind(tokenHash)
     .first<{ csrf_token: string; id: number; email: string }>();
   if (!row) return null;
   return { user: { id: row.id, email: row.email }, csrfToken: row.csrf_token };
-}
-
-export async function requireAdmin(db: D1Database | undefined, request: Request): Promise<AdminSession> {
-  const session = await getAdminSession(db, request);
-  if (!session) throw new Response(null, { status: 302, headers: { Location: "/admin/login" } });
-  return session;
 }
 
 export async function destroySession(db: D1Database | undefined, request: Request): Promise<void> {
@@ -126,8 +154,6 @@ export async function destroySession(db: D1Database | undefined, request: Reques
   await db.prepare("DELETE FROM admin_sessions WHERE token_hash = ?").bind(await sha256Hex(token)).run();
 }
 
-export function assertCsrfToken(session: AdminSession, token: string): void {
-  if (token !== session.csrfToken) {
-    throw new Response("Invalid CSRF token", { status: 403 });
-  }
+export function isValidCsrfToken(session: AdminSession, token: string): boolean {
+  return token.length > 0 && timingSafeEqual(token, session.csrfToken);
 }

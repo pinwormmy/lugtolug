@@ -19,6 +19,7 @@ const error = Astro.url.searchParams.get("error");
       <div class="form-field full">
         <button class="button accent" type="submit">Log in</button>
         {error === "invalid" && <p class="error">Invalid email or password.</p>}
+        {error === "throttled" && <p class="error">Too many login attempts. Wait 15 minutes and try again.</p>}
         {error === "db" && <p class="error">D1 database is not configured for this environment.</p>}
       </div>
     </form>
