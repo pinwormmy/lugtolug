@@ -22,6 +22,10 @@ import {
 } from "@/lib/db/watches/merge";
 import { internalCacheKey, withEdgeCachedJson } from "@/lib/http";
 
+// Each token adds a LIKE clause to the search query; the rest of the query still
+// participates in the in-memory match, so extra tokens only cost D1 work.
+const MAX_SEARCH_SQL_TOKENS = 8;
+
 const WATCH_BY_SLUGS_SQL = `SELECT * FROM watches
        WHERE brand_slug = ? AND model_slug = ? AND reference_slug = ?
        ORDER BY CASE WHEN status = 'approved' THEN 1 ELSE 0 END, updated_at DESC, id DESC
@@ -68,7 +72,7 @@ export async function searchWatches(db: D1, query: string): Promise<WatchWithSou
   if (!normalized) return [];
 
   return withSeedFallback(() => searchSeedWatches(query).slice(0, 50), async () => {
-    const tokens = getSearchTokens(query);
+    const tokens = getSearchTokens(query).slice(0, MAX_SEARCH_SQL_TOKENS);
     const searchConditions = tokens.map(() => "search_text LIKE ?").join(" AND ");
     const rows = await db
       .prepare(`SELECT * FROM watches WHERE status = 'approved' AND ${searchConditions} ORDER BY brand, model LIMIT 50`)
