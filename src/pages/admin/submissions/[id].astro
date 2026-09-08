@@ -3,6 +3,7 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import AdminWatchForm from "@/components/AdminWatchForm.astro";
 import { getAdminSession } from "@/lib/auth";
 import { getDb, getSubmission } from "@/lib/db";
+import { isWatchPagePath } from "@/lib/watch";
 
 const db = getDb(Astro.locals);
 const session = await getAdminSession(db, Astro.request);
@@ -66,7 +67,14 @@ const validationError = Astro.url.searchParams.get("error") === "validation";
     <div class="panel">
       <h2>Private contributor details</h2>
       {isCorrection && (
-        <p><strong>Reported page:</strong> {payload.reportedWatchPath ? <a href={payload.reportedWatchPath}>{payload.reportedWatchPath}</a> : "Not provided"}</p>
+        <p>
+          <strong>Reported page:</strong>{" "}
+          {payload.reportedWatchPath
+            ? isWatchPagePath(payload.reportedWatchPath)
+              ? <a href={payload.reportedWatchPath}>{payload.reportedWatchPath}</a>
+              : payload.reportedWatchPath
+            : "Not provided"}
+        </p>
       )}
       <p><strong>Email:</strong> {payload.contactEmail || "Not provided"}</p>
       <p><strong>Private comment:</strong></p>

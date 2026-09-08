@@ -3,6 +3,8 @@ import {
   getSearchTokens,
   getWatchDisplayModel,
   getWatchDisplayName,
+  isHttpUrl,
+  isWatchPagePath,
   searchTextMatchesQuery,
   watchMatchesSearchQuery
 } from "@/lib/watch";
@@ -114,5 +116,25 @@ describe("watch search matching", () => {
     expect(watchMatchesSearchQuery(watch, "AV86")).toBe(true);
     expect(watchMatchesSearchQuery(watch, "About Vintage")).toBe(true);
     expect(watchMatchesSearchQuery(watch, "Skov Andersen")).toBe(true);
+  });
+});
+
+describe("link safety helpers", () => {
+  it("accepts only site-relative watch detail paths", () => {
+    expect(isWatchPagePath("/watches/rolex/explorer/124270")).toBe(true);
+    expect(isWatchPagePath("/watches/unknown-brand/watch/no-reference")).toBe(true);
+    expect(isWatchPagePath("javascript:alert(1)")).toBe(false);
+    expect(isWatchPagePath("https://lugtolugfinder.com/watches/rolex/explorer/124270")).toBe(false);
+    expect(isWatchPagePath("/watches/rolex/explorer/124270?x=1")).toBe(false);
+    expect(isWatchPagePath("/watches/rolex/explorer/124270/")).toBe(false);
+    expect(isWatchPagePath("/watches/Rolex/Explorer/124270")).toBe(false);
+  });
+
+  it("only treats http(s) URLs as linkable sources", () => {
+    expect(isHttpUrl("https://example.com/source")).toBe(true);
+    expect(isHttpUrl("http://example.com/source")).toBe(true);
+    expect(isHttpUrl("javascript:alert(1)")).toBe(false);
+    expect(isHttpUrl("data:text/html,hi")).toBe(false);
+    expect(isHttpUrl("Measured by owner from calipers")).toBe(false);
   });
 });

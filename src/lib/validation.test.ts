@@ -48,6 +48,28 @@ describe("submission validation", () => {
     expect(result.payload?.sourceUrl).toBe("Measured by owner from calipers");
   });
 
+  it("rejects a reported watch path that is not a site-relative watch page", () => {
+    for (const reportedWatchPath of [
+      "javascript:alert(document.cookie)",
+      "https://evil.example/phish",
+      "//evil.example/phish",
+      "/admin/submissions",
+      "/watches/rolex/explorer/124270/../../../admin",
+      "/watches/rolex/explorer"
+    ]) {
+      const result = parseSubmission({
+        submissionType: "correction",
+        reportedWatchId: "12",
+        reportedWatchPath,
+        model: "Explorer",
+        lugToLugMm: "43"
+      });
+
+      expect(result.ok, reportedWatchPath).toBe(false);
+      expect(result.errors.reportedWatchPath).toBe("Enter a valid watch page path");
+    }
+  });
+
   it("accepts correction report metadata", () => {
     const result = parseSubmission({
       submissionType: "correction",

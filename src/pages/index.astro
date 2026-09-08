@@ -4,7 +4,7 @@ import SearchApp from "@/components/SearchApp";
 import WatchRow from "@/components/WatchRow.astro";
 import { getDb, getWatchDirectoryStats, listPopularBrands, listRecentSearchWatches } from "@/lib/db";
 import { readSearchState } from "@/lib/searchState";
-import { buildOrganizationSchema, buildWebSiteSchema, resolveOrigin } from "@/lib/seo";
+import { buildOrganizationSchema, buildWebSiteSchema, resolveOrigin, toJsonLd } from "@/lib/seo";
 import { hasActiveDimensionFilters } from "@/lib/watchFilters";
 import { groupWatchesForDisplay } from "@/lib/watchGroups";
 import { seedWatches } from "@/lib/seed";
@@ -50,7 +50,7 @@ const wristCollections = WRIST_SIZES.map((size) => {
 
 <BaseLayout title="Lug to Lug Finder | Watch database" description="Search watch records by brand, model, and reference.">
   {homeStructuredData.map((schema) => (
-    <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />
+    <script is:inline type="application/ld+json" set:html={toJsonLd(schema)} />
   ))}
   <section class="home-workbench">
     <SearchApp

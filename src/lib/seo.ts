@@ -36,6 +36,23 @@ export function getCanonicalHostRedirect(url: URL, canonicalOrigin = SITE_URL): 
   return redirectUrl;
 }
 
+/**
+ * Serialize structured data for an inline `<script type="application/ld+json">` block.
+ * `JSON.stringify` leaves `<`, `>` and `&` untouched, so a stored value containing
+ * `</script>` would close the block early and inject markup into the page. Encoding
+ * those characters as JSON unicode escapes keeps the payload valid JSON-LD while
+ * making it inert inside the script element.
+ */
+export function toJsonLd(value: unknown): string {
+  const json = JSON.stringify(value) ?? "null";
+  return json
+    .replace(/</g, "\\u003c")
+    .replace(/>/g, "\\u003e")
+    .replace(/&/g, "\\u0026")
+    .replace(/\u2028/g, "\\u2028")
+    .replace(/\u2029/g, "\\u2029");
+}
+
 /** WebSite schema with a sitelinks search box wired to the homepage search. */
 export function buildWebSiteSchema(origin: string): Record<string, unknown> {
   return {

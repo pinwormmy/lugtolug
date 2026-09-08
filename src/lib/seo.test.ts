@@ -5,7 +5,8 @@ import {
   buildWebSiteSchema,
   getCanonicalHostRedirect,
   resolveOrigin,
-  SITE_URL
+  SITE_URL,
+  toJsonLd
 } from "@/lib/seo";
 
 const origin = "https://lugtolugfinder.com";
@@ -60,5 +61,28 @@ describe("buildOrganizationSchema", () => {
   it("points the logo at the favicon", () => {
     const schema = buildOrganizationSchema(origin);
     expect(schema.logo).toBe("https://lugtolugfinder.com/favicon.svg");
+  });
+});
+
+describe("toJsonLd", () => {
+  it("escapes characters that could terminate the script block", () => {
+    const html = toJsonLd({ name: "Rolex </script><script>alert(1)</script>", note: "a & b > c" });
+
+    expect(html).not.toContain("</script>");
+    expect(html).not.toContain("<");
+    expect(html).not.toContain(">");
+    expect(html).not.toContain("&");
+    expect(JSON.parse(html)).toEqual({ name: "Rolex </script><script>alert(1)</script>", note: "a & b > c" });
+  });
+
+  it("escapes line separators that break inline scripts", () => {
+    const html = toJsonLd({ text: "line\u2028break\u2029end" });
+
+    expect(html).toBe('{"text":"line\\u2028break\\u2029end"}');
+    expect(JSON.parse(html)).toEqual({ text: "line\u2028break\u2029end" });
+  });
+
+  it("serializes undefined as null so the block stays valid JSON", () => {
+    expect(toJsonLd(undefined)).toBe("null");
   });
 });

@@ -4,7 +4,7 @@ import WatchRow from "@/components/WatchRow.astro";
 import { getDb, listBrandWatches } from "@/lib/db";
 import { resolveBrandOgImage } from "@/lib/ogImage";
 import { groupWatchesForDisplay } from "@/lib/watchGroups";
-import { resolveOrigin } from "@/lib/seo";
+import { resolveOrigin, toJsonLd } from "@/lib/seo";
 
 const brandSlug = Astro.params.brand!;
 const watches = groupWatchesForDisplay(await listBrandWatches(getDb(Astro.locals), brandSlug));
@@ -30,7 +30,7 @@ const structuredData = {
 ---
 
 <BaseLayout title={`${brandName} watch records | Lug to Lug Finder`} description={description} image={resolveBrandOgImage(brandSlug)}>
-  <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script is:inline type="application/ld+json" set:html={toJsonLd(structuredData)} />
   <section class="section" style="margin-top: 0;">
     <h1 class="page-title">{brandName}</h1>
     <p class="lede">Approved records for {brandName} watches.</p>

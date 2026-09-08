@@ -61,6 +61,14 @@ export function formatMm(value: number | null | undefined): string {
   return `${value} mm`;
 }
 
+// Site-relative watch detail path built from slugs (see getWatchHref). Used to
+// validate the correction-report page reference before it is stored or linked.
+const WATCH_PAGE_PATH_PATTERN = /^\/watches\/[a-z0-9-]+\/[a-z0-9-]+\/[a-z0-9-]+$/;
+
+export function isWatchPagePath(value: string): boolean {
+  return WATCH_PAGE_PATH_PATTERN.test(value);
+}
+
 export function isHttpUrl(value: string): boolean {
   try {
     const url = new URL(value);

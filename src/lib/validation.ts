@@ -1,4 +1,5 @@
 import type { SubmissionPayload } from "@/types";
+import { isWatchPagePath } from "@/lib/watch";
 import {
   NORMALIZATION_TEXT_FIELDS,
   NUMBER_LIMITS,
@@ -83,6 +84,10 @@ export function parseSubmission(input: FormData | Record<string, unknown>): Vali
   const reportedWatchPath = String(get("reportedWatchPath") ?? "").trim();
   if (reportedWatchPath.length > TEXT_LIMITS.reportedWatchPath) {
     errors.reportedWatchPath = `Must be ${TEXT_LIMITS.reportedWatchPath} characters or fewer`;
+  } else if (reportedWatchPath && !isWatchPagePath(reportedWatchPath)) {
+    // The admin review page links to this path, so only site-relative watch
+    // pages are accepted (never javascript:, protocol-relative, or external URLs).
+    errors.reportedWatchPath = "Enter a valid watch page path";
   }
   const ok = Object.keys(errors).length === 0;
 
