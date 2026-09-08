@@ -212,6 +212,21 @@ for (const matches of watchesByNamedDimensions.values()) {
   }
 }
 
+// Brand pages are keyed by the display name, so one brand stored under two
+// spellings (Nomos/NOMOS, Glashutte/Glashütte, "Watch Co." suffixes) splits its
+// records across separate pages. Merge spellings with
+// scripts/normalize-brand-names.mjs instead of importing a new variant.
+const brandSpellings = new Map();
+for (const brand of brands) {
+  const identity = normalizeBrandIdentity(brand);
+  const spellings = brandSpellings.get(identity) ?? [];
+  spellings.push(brand);
+  brandSpellings.set(identity, spellings);
+}
+for (const spellings of brandSpellings.values()) {
+  if (spellings.length > 1) addIssue(null, `brand is stored under several spellings: ${spellings.join(" / ")}`);
+}
+
 const committedSeedSql = await readFile(new URL("../data/seed.sql", import.meta.url), "utf8");
 if (committedSeedSql !== renderSeedSql(seed)) {
   addIssue(null, "data/seed.sql is stale; run npm run data:seed-sql.");

@@ -22083,6 +22083,10 @@
       {
         "sourceUrl": "https://monochrome-watches.com/jaeger-lecoultre-grande-reverso-ultra-thin-tribute-1931/",
         "note": "MONOCHROME reports 46mm lug-to-lug, 27.5mm case size/width for Jaeger-LeCoultre Master Ultra Thin Moon in “Jaeger LeCoultre Grande Reverso Ultra Thin and Tribute to 1931.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
+      },
+      {
+        "sourceUrl": "https://sf.delugs.com/api/strap-finder",
+        "note": "Delugs Strap Finder API lists 39mm case diameter, 46.7mm lug-to-lug distance, 21mm lug width for JLC Master Ultra Thin Master Ultra Thin Moon Q1368430. Canonical target dimensions retained: 39mm case and 45.7mm lug-to-lug (JLC alias of Jaeger-LeCoultre Master Ultra Thin Moon Q1368430)."
       }
     ]
   },
@@ -28170,7 +28174,7 @@
   },
   {
     "id": 1519,
-    "brand": "Brew Watch Co.",
+    "brand": "Brew",
     "model": "Brew Metric Teddy Baldassarre Edition 36mm - Blue on Bracelet",
     "reference": "TEDDYxBrew",
     "lugToLugMm": 41.5,
@@ -29530,7 +29534,7 @@
   },
   {
     "id": 1591,
-    "brand": "NOMOS Glashütte",
+    "brand": "NOMOS",
     "model": "Club Campus \"Starlight\" Sapphire Back 38mm - Yellow on Strap",
     "reference": "721.GB",
     "lugToLugMm": 48.9,
@@ -29546,7 +29550,7 @@
   },
   {
     "id": 1592,
-    "brand": "NOMOS Glashütte",
+    "brand": "NOMOS",
     "model": "Club Campus 36mm - Cream Coral on Leather Strap",
     "reference": "714",
     "lugToLugMm": 47.5,
@@ -29562,7 +29566,7 @@
   },
   {
     "id": 1593,
-    "brand": "NOMOS Glashütte",
+    "brand": "NOMOS",
     "model": "Club Campus 38mm - Nonstop Red on Strap",
     "reference": "723",
     "lugToLugMm": 48.9,
@@ -29578,7 +29582,7 @@
   },
   {
     "id": 1594,
-    "brand": "NOMOS Glashütte",
+    "brand": "NOMOS",
     "model": "Club Campus Glass Back 38.5mm - Rose on Leather Strap",
     "reference": "720.GB",
     "lugToLugMm": 46.7,
@@ -29594,7 +29598,7 @@
   },
   {
     "id": 1595,
-    "brand": "NOMOS Glashütte",
+    "brand": "NOMOS",
     "model": "Club Campus Steel Back 38.5mm - Rose on Leather Strap",
     "reference": "720",
     "lugToLugMm": 48.9,
@@ -29610,7 +29614,7 @@
   },
   {
     "id": 1596,
-    "brand": "NOMOS Glashütte",
+    "brand": "NOMOS",
     "model": "Club Sport Neomatik 37mm - Polar Blue on Bracelet",
     "reference": "750",
     "lugToLugMm": 47.7,
@@ -29626,10 +29630,10 @@
   },
   {
     "id": 1597,
-    "brand": "NOMOS Glashütte",
+    "brand": "NOMOS",
     "model": "Minimatik Date 39mm - Blue on Leather Strap",
     "canonicalModel": "Minimatik Date",
-    "modelGroup": "nomos-glash-tte-minimatik-date",
+    "modelGroup": "nomos-minimatik-date",
     "variant": "Blue dial",
     "reference": "1252",
     "lugToLugMm": 47.7,
@@ -29645,10 +29649,10 @@
   },
   {
     "id": 1598,
-    "brand": "NOMOS Glashütte",
+    "brand": "NOMOS",
     "model": "Minimatik Date 39mm - White Silver-Plated on Leather Strap",
     "canonicalModel": "Minimatik Date",
-    "modelGroup": "nomos-glash-tte-minimatik-date",
+    "modelGroup": "nomos-minimatik-date",
     "variant": "White Silver-Plated dial",
     "reference": "1250",
     "lugToLugMm": 47.7,
@@ -29664,10 +29668,10 @@
   },
   {
     "id": 1599,
-    "brand": "NOMOS Glashütte",
+    "brand": "NOMOS",
     "model": "Minimatik Date Gold Hands 39mm - White Silver-Plated on Leather Strap",
     "canonicalModel": "Minimatik Date",
-    "modelGroup": "nomos-glash-tte-minimatik-date",
+    "modelGroup": "nomos-minimatik-date",
     "variant": "Gold Hands, White Silver-Plated dial",
     "reference": "1251",
     "lugToLugMm": 47.7,
@@ -29683,8 +29687,8 @@
   },
   {
     "id": 1600,
-    "brand": "NOMOS Glashütte",
-    "model": "Tangente 38mm - White on Leather Strap",
+    "brand": "NOMOS",
+    "model": "Tangente 38",
     "reference": "164",
     "lugToLugMm": 47.7,
     "caseMm": 37.5,
@@ -29694,13 +29698,17 @@
       {
         "sourceUrl": "https://teddybaldassarre.com/en-int/products/tangente-38",
         "note": "Teddy Baldassarre product page lists reference 164 and 37.5 mm case, 6.8 mm case height, 47.7 mm lug-to-lug, 19 mm lug width."
+      },
+      {
+        "sourceUrl": "https://sf.delugs.com/api/strap-finder",
+        "note": "Delugs Strap Finder API lists 38mm case diameter, 47.7mm lug-to-lug distance, 19mm lug width for Nomos Tangente Tangente 38 164. Canonical target dimensions retained: 37.5mm case and 47.7mm lug-to-lug (Nomos alias of NOMOS Tangente 38 reference 164)."
       }
     ]
   },
   {
     "id": 1601,
-    "brand": "NOMOS Glashütte",
-    "model": "Tangente Date 38mm - White Silver-Plated on Leather Strap",
+    "brand": "NOMOS",
+    "model": "Tangente 38 Date",
     "reference": "130",
     "lugToLugMm": 47.7,
     "caseMm": 37.5,
@@ -29710,12 +29718,16 @@
       {
         "sourceUrl": "https://teddybaldassarre.com/en-int/products/tangente-38-date",
         "note": "Teddy Baldassarre product page lists reference 130 and 37.5 mm case, 6.8 mm case height, 47.7 mm lug-to-lug, 19 mm lug width."
+      },
+      {
+        "sourceUrl": "https://sf.delugs.com/api/strap-finder",
+        "note": "Delugs Strap Finder API lists 37.5mm case diameter, 47.7mm lug-to-lug distance, 19mm lug width for Nomos Tangente Tangente 38 Date 130."
       }
     ]
   },
   {
     "id": 1602,
-    "brand": "NOMOS Glashütte",
+    "brand": "NOMOS",
     "model": "Tetra Ochra Sapphire Back 29.5mm - Ocher Yellow on Strap",
     "reference": "437",
     "lugToLugMm": 40.5,
@@ -31110,7 +31122,7 @@
   },
   {
     "id": 1679,
-    "brand": "Boldr Supply Co.",
+    "brand": "Boldr",
     "model": "Venture Blue Fuel",
     "reference": "VE-BF-TI-38-20",
     "lugToLugMm": 44,
@@ -31126,7 +31138,7 @@
   },
   {
     "id": 1680,
-    "brand": "Boldr Supply Co.",
+    "brand": "Boldr",
     "model": "Venture Rally SRW",
     "reference": "VE-RSRW-TI-20-44",
     "lugToLugMm": 44,
@@ -32299,8 +32311,8 @@
   },
   {
     "id": 1751,
-    "brand": "Casio G-Shock",
-    "model": "Full Metal 2100 Series",
+    "brand": "Casio",
+    "model": "G-Shock Full Metal 2100 Series",
     "reference": "GM-B2100GD-9",
     "lugToLugMm": 49.8,
     "caseMm": 44.4,
@@ -32315,7 +32327,7 @@
   },
   {
     "id": 1752,
-    "brand": "Casio G-Shock",
+    "brand": "Casio",
     "model": "G-Shock CasiOak Moonlander Fratello x IFL Watches",
     "reference": "2100BB-1AER",
     "lugToLugMm": 49.3,
@@ -32331,7 +32343,7 @@
   },
   {
     "id": 1753,
-    "brand": "Casio G-Shock",
+    "brand": "Casio",
     "model": "G-Squad HRM",
     "reference": "DWH5600-1D",
     "lugToLugMm": 51.7,
@@ -32347,7 +32359,7 @@
   },
   {
     "id": 1754,
-    "brand": "Casio G-Shock",
+    "brand": "Casio",
     "model": "G-Squad HRM",
     "reference": "DWH5600-2D",
     "lugToLugMm": 51.7,
@@ -32363,7 +32375,7 @@
   },
   {
     "id": 1755,
-    "brand": "Casio G-Shock",
+    "brand": "Casio",
     "model": "G-Squad HRM",
     "reference": "DWH5600EX-1D",
     "lugToLugMm": 51.7,
@@ -32379,7 +32391,7 @@
   },
   {
     "id": 1756,
-    "brand": "Casio G-Shock",
+    "brand": "Casio",
     "model": "G-Squad HRM",
     "reference": "DWH5600MB-1D",
     "lugToLugMm": 51.7,
@@ -32395,7 +32407,7 @@
   },
   {
     "id": 1757,
-    "brand": "Casio G-Shock",
+    "brand": "Casio",
     "model": "G-Squad HRM",
     "reference": "DWH5600MB-2D",
     "lugToLugMm": 51.7,
@@ -32411,9 +32423,9 @@
   },
   {
     "id": 1758,
-    "brand": "Casio G-Shock",
-    "model": "G-Steel Metal Covered - lime green",
-    "canonicalModel": "G-Steel Metal Covered",
+    "brand": "Casio",
+    "model": "G-Shock G-Steel Metal Covered - lime green",
+    "canonicalModel": "G-Shock G-Steel Metal Covered",
     "modelGroup": "casio-g-shock-g-steel-metal-covered",
     "variant": "lime green",
     "reference": "GM2110D-3A",
@@ -32430,9 +32442,9 @@
   },
   {
     "id": 1759,
-    "brand": "Casio G-Shock",
-    "model": "G-Steel Metal Covered - navy blue",
-    "canonicalModel": "G-Steel Metal Covered",
+    "brand": "Casio",
+    "model": "G-Shock G-Steel Metal Covered - navy blue",
+    "canonicalModel": "G-Shock G-Steel Metal Covered",
     "modelGroup": "casio-g-shock-g-steel-metal-covered",
     "variant": "navy blue",
     "reference": "GM2110D-2B",
@@ -32449,9 +32461,9 @@
   },
   {
     "id": 1760,
-    "brand": "Casio G-Shock",
-    "model": "G-Steel Metal Covered - orange",
-    "canonicalModel": "G-Steel Metal Covered",
+    "brand": "Casio",
+    "model": "G-Shock G-Steel Metal Covered - orange",
+    "canonicalModel": "G-Shock G-Steel Metal Covered",
     "modelGroup": "casio-g-shock-g-steel-metal-covered",
     "variant": "orange",
     "reference": "GM2110D-4A",
@@ -32468,9 +32480,9 @@
   },
   {
     "id": 1761,
-    "brand": "Casio G-Shock",
-    "model": "G-Steel Metal Covered - silver",
-    "canonicalModel": "G-Steel Metal Covered",
+    "brand": "Casio",
+    "model": "G-Shock G-Steel Metal Covered - silver",
+    "canonicalModel": "G-Shock G-Steel Metal Covered",
     "modelGroup": "casio-g-shock-g-steel-metal-covered",
     "variant": "silver",
     "reference": "GM2110D-7A",
@@ -32487,9 +32499,9 @@
   },
   {
     "id": 1762,
-    "brand": "Casio G-Shock",
-    "model": "G-Steel Metal Covered - sky blue",
-    "canonicalModel": "G-Steel Metal Covered",
+    "brand": "Casio",
+    "model": "G-Shock G-Steel Metal Covered - sky blue",
+    "canonicalModel": "G-Shock G-Steel Metal Covered",
     "modelGroup": "casio-g-shock-g-steel-metal-covered",
     "variant": "sky blue",
     "reference": "GM2110D-2A",
@@ -32506,8 +32518,8 @@
   },
   {
     "id": 1763,
-    "brand": "Casio Vintage",
-    "model": "Back to the Future 40th Anniversary",
+    "brand": "Casio",
+    "model": "Vintage Back to the Future 40th Anniversary",
     "reference": "CA-500WEBF-1A",
     "lugToLugMm": 43.2,
     "caseMm": 34.4,
@@ -32517,6 +32529,10 @@
       {
         "sourceUrl": "https://timeandtidewatches.com/casio-x-back-to-the-future-ca-500webf-1a-introducing/",
         "note": "Time+Tide article table lists reference CA-500WEBF-1A with case dimensions 34.4mm (D) x 8.2mm (T) x 43.2mm (LTL)."
+      },
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-outatime-casio-calculator-ca-500w-watch-celebrates-back-to-the-future-movie-40th-anniversary/",
+        "note": "aBlogtoWatch article states dimensions of 34.4mm case, 43.2mm lug-to-lug, 8.2mm thickness."
       }
     ]
   },
@@ -35644,6 +35660,10 @@
       {
         "sourceUrl": "https://monochrome-watches.com/jaeger-lecoultre-reverso-tribute-chronograph-pink-gold-q389256j-introducing-specs-price/",
         "note": "MONOCHROME reports 49.4mm lug-to-lug, 29.9mm case size/width for Jaeger-LeCoultre Reverso Tribute Chronograph in “The Jaeger-LeCoultre Reverso Tribute Chronograph, now in full Pink Gold.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
+      },
+      {
+        "sourceUrl": "https://sf.delugs.com/api/strap-finder",
+        "note": "Delugs Strap Finder API lists 29.9mm case diameter, 49.4mm lug-to-lug distance, 22mm lug width for JLC Reverso Reverso Tribute Chronograph Q389848J."
       }
     ]
   },
@@ -35716,6 +35736,10 @@
       {
         "sourceUrl": "https://monochrome-watches.com/jaeger-lecoultre-reverso-tribute-burgundy-and-two-new-reverso-duoface-hands-on/",
         "note": "MONOCHROME reports 45.6mm lug-to-lug, 27.4mm case size/width for Jaeger-LeCoultre Reverso Tribute Duoface Tourbillon in “Jaeger-LeCoultre Reverso Tribute Burgundy and Two New Reverso Duoface (Hands-On).” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
+      },
+      {
+        "sourceUrl": "https://sf.delugs.com/api/strap-finder",
+        "note": "Delugs Strap Finder API lists 27.4mm case diameter, 45.5mm lug-to-lug distance, 20mm lug width for JLC Reverso Reverso Tribute Duoface Tourbillon Q392242J. Canonical target dimensions retained: 27.4mm case and 45.4mm lug-to-lug (JLC alias of Jaeger-LeCoultre Reverso Tribute Duoface Tourbillon Q392242J)."
       }
     ]
   },
@@ -35864,6 +35888,10 @@
       {
         "sourceUrl": "https://www.hodinkee.com/articles/the-jaeger-lecoultre-reverso-monoface-in-steel-now-back-with-a-smaller-case-live-pics",
         "note": "Hodinkee reports 40.1mm lug-to-lug, 24.4mm case size/width, 7.56mm thickness for Jaeger-LeCoultre Reverso Tribute Monoface in “Introducing: The Jaeger-LeCoultre Reverso Monoface In Steel – Now Back With A Smaller Case (Live Pics).” The article's planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
+      },
+      {
+        "sourceUrl": "https://sf.delugs.com/api/strap-finder",
+        "note": "Delugs Strap Finder API lists 24.4mm case diameter, 40.1mm lug-to-lug distance, 18mm lug width for JLC Reverso Monoface Q716848J."
       }
     ]
   },
@@ -48338,7 +48366,7 @@
   },
   {
     "id": 2596,
-    "brand": "YEMA",
+    "brand": "Yema",
     "model": "Granvelle Renaissance CMM.29",
     "reference": "Granvelle Renaissance CMM.29",
     "lugToLugMm": 46.3,
@@ -48490,7 +48518,7 @@
   },
   {
     "id": 2603,
-    "brand": "AWAKE",
+    "brand": "Awake",
     "model": "Son Mai - Guilloche Main",
     "reference": "Son Mai - Guilloche Main",
     "lugToLugMm": 44.75,
@@ -48624,7 +48652,7 @@
   },
   {
     "id": 2611,
-    "brand": "Le Forban Securite Mer",
+    "brand": "Le Forban Sécurité Mer",
     "model": "Marseillaise",
     "reference": "Marseillaise",
     "lugToLugMm": 46,
@@ -48962,7 +48990,7 @@
   },
   {
     "id": 2632,
-    "brand": "Astor+Banks",
+    "brand": "Astor + Banks",
     "model": "Terra Scout",
     "reference": "Terra Scout",
     "lugToLugMm": 46,
@@ -49682,7 +49710,7 @@
   },
   {
     "id": 2675,
-    "brand": "TITONI",
+    "brand": "Titoni",
     "model": "Seascoper Chronograph",
     "reference": "Seascoper Chronograph",
     "lugToLugMm": 52.3,
@@ -49870,7 +49898,7 @@
   },
   {
     "id": 2687,
-    "brand": "Cornell Watch Company",
+    "brand": "Cornell Watch Co.",
     "model": "Lozier",
     "reference": "Lozier",
     "lugToLugMm": 46.8,
@@ -50194,7 +50222,7 @@
   },
   {
     "id": 2707,
-    "brand": "AWAKE",
+    "brand": "Awake",
     "model": "Son Mai Jurassic",
     "reference": "Son Mai Jurassic",
     "lugToLugMm": 45.6,
@@ -51091,7 +51119,7 @@
   },
   {
     "id": 2763,
-    "brand": "Universal Geneve",
+    "brand": "Universal Genève",
     "model": "Polerouter Unique",
     "reference": "Polerouter Unique",
     "lugToLugMm": 45.4,
@@ -51123,7 +51151,7 @@
   },
   {
     "id": 2765,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "SeaQ Chronograph Silver Screen",
     "reference": "SeaQ Chronograph Silver Screen",
     "lugToLugMm": 51.6,
@@ -51227,7 +51255,7 @@
   },
   {
     "id": 2771,
-    "brand": "TITONI",
+    "brand": "Titoni",
     "model": "Seascoper 300 Bicolor",
     "reference": "Seascoper 300 Bicolor",
     "lugToLugMm": 52,
@@ -51973,8 +52001,8 @@
   },
   {
     "id": 2819,
-    "brand": "Casio G-Shock",
-    "model": "GMAP2100SG Sunset Glow",
+    "brand": "Casio",
+    "model": "G-Shock GMAP2100SG Sunset Glow",
     "reference": "GMAP2100SG",
     "lugToLugMm": 48.5,
     "caseMm": 45.4,
@@ -52161,7 +52189,7 @@
   },
   {
     "id": 2830,
-    "brand": "Bangalore Watch Co.",
+    "brand": "Bangalore Watch Company",
     "model": "Apogee Karman Line",
     "reference": "Apogee Karman Line",
     "lugToLugMm": 44,
@@ -52593,8 +52621,8 @@
   },
   {
     "id": 2855,
-    "brand": "Casio G-Shock",
-    "model": "GAB2100CT-5A COEXIST",
+    "brand": "Casio",
+    "model": "G-Shock GAB2100CT-5A COEXIST",
     "reference": "GAB2100CT-5A",
     "lugToLugMm": 48.5,
     "caseMm": 45.4,
@@ -52673,8 +52701,8 @@
   },
   {
     "id": 2860,
-    "brand": "Casio G-Shock",
-    "model": "MRGB5000R-1 COBARION Bezel",
+    "brand": "Casio",
+    "model": "G-Shock MRGB5000R-1 COBARION Bezel",
     "reference": "MRGB5000R-1",
     "lugToLugMm": 49.4,
     "caseMm": 43.2,
@@ -53088,8 +53116,8 @@
   },
   {
     "id": 2885,
-    "brand": "Casio G-Shock",
-    "model": "GCWB5000 Carbon Edition",
+    "brand": "Casio",
+    "model": "G-Shock GCWB5000 Carbon Edition",
     "reference": "GCWB5000",
     "lugToLugMm": 49.1,
     "caseMm": 45,
@@ -53446,8 +53474,8 @@
   },
   {
     "id": 2907,
-    "brand": "Casio G-Shock",
-    "model": "GM-6900BAPE-1",
+    "brand": "Casio",
+    "model": "G-Shock GM-6900BAPE-1",
     "reference": "GM-6900BAPE-1",
     "lugToLugMm": 53.9,
     "caseMm": 49.7,
@@ -53494,9 +53522,9 @@
   },
   {
     "id": 2910,
-    "brand": "Le Forban",
-    "model": "Securite Mer Rochelaise",
-    "reference": "Securite Mer Rochelaise",
+    "brand": "Le Forban Sécurité Mer",
+    "model": "La Rochelaise",
+    "reference": "La Rochelaise",
     "lugToLugMm": 46,
     "caseMm": 39,
     "thicknessMm": 11.4,
@@ -53505,6 +53533,10 @@
       {
         "sourceUrl": "https://www.ablogtowatch.com/hands-on-le-forban-securite-mer-rochelaise-dive-watch/",
         "note": "aBlogtoWatch article states dimensions of 39mm case, 46mm lug-to-lug, 11.4mm thickness, and 20mm lug width."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/introducing-le-forban-securite-mer-la-rochelaise-compressor-dive-watch-value-proposition-specs-price/",
+        "note": "MONOCHROME reports 46mm lug-to-lug, 39mm case size/width, 11.4mm thickness for Le Forban Sécurité Mer La Rochelaise (La Rochelaise) in “Le Forban Sécurité Mer Presents Its New Diver, La Rochelaise.”"
       }
     ]
   },
@@ -53526,7 +53558,7 @@
   },
   {
     "id": 2912,
-    "brand": "NOMOS Glashütte",
+    "brand": "NOMOS",
     "model": "Metro 33",
     "reference": "Metro 33",
     "lugToLugMm": 40,
@@ -53886,7 +53918,7 @@
   },
   {
     "id": 2935,
-    "brand": "Bangalore Watch Co.",
+    "brand": "Bangalore Watch Company",
     "model": "MACH 1 Admiral",
     "reference": "MACH 1 Admiral",
     "lugToLugMm": 46.5,
@@ -53906,9 +53938,9 @@
   },
   {
     "id": 2936,
-    "brand": "Casio G-Shock",
-    "model": "x Coca-Cola Limited Edition",
-    "reference": "x Coca-Cola Limited Edition",
+    "brand": "Casio",
+    "model": "G-Shock x Coca-Cola Limited Edition",
+    "reference": "G-Shock x Coca-Cola Limited Edition",
     "lugToLugMm": 48.9,
     "caseMm": 43.8,
     "thicknessMm": 13.5,
@@ -53922,8 +53954,8 @@
   },
   {
     "id": 2937,
-    "brand": "Casio G-Shock",
-    "model": "DW5600ONS234 Kentucky Bourbon",
+    "brand": "Casio",
+    "model": "G-Shock DW5600ONS234 Kentucky Bourbon",
     "reference": "DW5600ONS234",
     "lugToLugMm": 48.9,
     "caseMm": 43.8,
@@ -54941,8 +54973,8 @@
   },
   {
     "id": 2998,
-    "brand": "Casio G-Shock",
-    "model": "GBA-800 'Training Timer'",
+    "brand": "Casio",
+    "model": "G-Shock GBA-800 'Training Timer'",
     "reference": "GBA-800 'Training Timer'",
     "lugToLugMm": 54.1,
     "caseMm": 48.6,
@@ -55366,22 +55398,6 @@
     ]
   },
   {
-    "id": 3024,
-    "brand": "Casio",
-    "model": "OUTATIME Calculator CA-500W",
-    "reference": "CA-500W OUTATIME",
-    "lugToLugMm": 43.2,
-    "caseMm": 34.4,
-    "thicknessMm": 8.2,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://www.ablogtowatch.com/hands-on-outatime-casio-calculator-ca-500w-watch-celebrates-back-to-the-future-movie-40th-anniversary/",
-        "note": "aBlogtoWatch article states dimensions of 34.4mm case, 43.2mm lug-to-lug, 8.2mm thickness."
-      }
-    ]
-  },
-  {
     "id": 3026,
     "brand": "Maen x IFL Watches",
     "model": "Manhattan After Dark Limited Edition",
@@ -55625,7 +55641,7 @@
   },
   {
     "id": 3041,
-    "brand": "CVSTOS",
+    "brand": "Cvstos",
     "model": "Metropolitan Chrono Skeleton Sapphire",
     "reference": "Metropolitan Chrono Skeleton Sapphire",
     "lugToLugMm": 51,
@@ -55989,7 +56005,7 @@
   },
   {
     "id": 3062,
-    "brand": "Meraud",
+    "brand": "Méraud",
     "model": "Bonaire Diver",
     "reference": "Bonaire Diver",
     "lugToLugMm": 48,
@@ -56773,7 +56789,7 @@
   },
   {
     "id": 3115,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2 Porcelain-Black",
     "reference": "Model 2 Porcelain-Black",
     "lugToLugMm": 46,
@@ -56793,7 +56809,7 @@
   },
   {
     "id": 3116,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 3 Archive Sunburst",
     "reference": "Model 3 - Sunburst",
     "lugToLugMm": 46,
@@ -56809,7 +56825,7 @@
   },
   {
     "id": 3117,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1-Run Out Edition",
     "reference": "Model 1-Run Out Edition",
     "lugToLugMm": 45,
@@ -56825,7 +56841,7 @@
   },
   {
     "id": 3118,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2-White",
     "reference": "Model 2-White",
     "lugToLugMm": 43,
@@ -56841,7 +56857,7 @@
   },
   {
     "id": 3119,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2-Midnight Green",
     "reference": "Model 2-Midnight Green",
     "lugToLugMm": 43,
@@ -56860,7 +56876,7 @@
   },
   {
     "id": 3120,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2-Grey",
     "reference": "Model 2-Grey",
     "lugToLugMm": 43,
@@ -56879,7 +56895,7 @@
   },
   {
     "id": 3121,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2-Turquoise Fumé",
     "reference": "Model 2-Turquoise Fumé",
     "lugToLugMm": 43,
@@ -56898,7 +56914,7 @@
   },
   {
     "id": 3122,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 3 Method-Aqua",
     "reference": "Model 3 Method-Aqua",
     "lugToLugMm": 46,
@@ -56917,7 +56933,7 @@
   },
   {
     "id": 3123,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1 Pink",
     "reference": "Model 1 Pink",
     "lugToLugMm": 46,
@@ -56933,7 +56949,7 @@
   },
   {
     "id": 3124,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2-Purple",
     "reference": "Model 2-Purple",
     "lugToLugMm": 43,
@@ -56952,7 +56968,7 @@
   },
   {
     "id": 3125,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2 Brown Fumé",
     "reference": "Model 2 Brown Fumé",
     "lugToLugMm": 43,
@@ -56971,7 +56987,7 @@
   },
   {
     "id": 3126,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 3 Method-Lichen",
     "reference": "Model 3 Method-Lichen",
     "lugToLugMm": 46,
@@ -56990,7 +57006,7 @@
   },
   {
     "id": 3127,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2-Torr Blue",
     "reference": "Model 2-Torr Blue",
     "lugToLugMm": 43,
@@ -57009,7 +57025,7 @@
   },
   {
     "id": 3128,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 3 Archive Pink Dial Project",
     "reference": "Model 3 -Pink Dial Project",
     "lugToLugMm": 46,
@@ -57025,7 +57041,7 @@
   },
   {
     "id": 3129,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1- Translucent Blue",
     "reference": "Model 1- Translucent Blue",
     "lugToLugMm": 45,
@@ -57041,7 +57057,7 @@
   },
   {
     "id": 3130,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2-Purple Fumé",
     "reference": "Model 2-Purple Fumé",
     "lugToLugMm": 43,
@@ -57060,7 +57076,7 @@
   },
   {
     "id": 3131,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2-Orange Fumé",
     "reference": "Model 2-Orange Fumé",
     "lugToLugMm": 43,
@@ -57076,7 +57092,7 @@
   },
   {
     "id": 3132,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2-Green Fumé",
     "reference": "Model 2-Green Fumé",
     "lugToLugMm": 43,
@@ -57095,7 +57111,7 @@
   },
   {
     "id": 3133,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2-Moss Green",
     "reference": "Model 2-Moss Green",
     "lugToLugMm": 43,
@@ -57114,7 +57130,7 @@
   },
   {
     "id": 3134,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2-Blue Fumé",
     "reference": "Model 2-Blue Fumé",
     "lugToLugMm": 43,
@@ -57133,7 +57149,7 @@
   },
   {
     "id": 3135,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1-Hebridean Blue",
     "reference": "Model 1-Hebridean Blue",
     "lugToLugMm": 45,
@@ -57149,7 +57165,7 @@
   },
   {
     "id": 3136,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1 Medium Plum Fumé",
     "reference": "Medium Model 1-Plum Fumé",
     "lugToLugMm": 46,
@@ -57168,7 +57184,7 @@
   },
   {
     "id": 3137,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1 Medium Teal",
     "reference": "Medium Model 1-Teal",
     "lugToLugMm": 46,
@@ -57187,7 +57203,7 @@
   },
   {
     "id": 3138,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1 Medium Blue Fumé",
     "reference": "Medium Model 1-Blue Fumé",
     "lugToLugMm": 46,
@@ -57206,7 +57222,7 @@
   },
   {
     "id": 3139,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1 Medium Iron Cream",
     "reference": "Medium Model 1-Iron Cream",
     "lugToLugMm": 46,
@@ -57225,7 +57241,7 @@
   },
   {
     "id": 3140,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2 Medium White",
     "canonicalModel": "Model 2 Medium",
     "modelGroup": "anordain-model-2-medium",
@@ -57244,7 +57260,7 @@
   },
   {
     "id": 3141,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1 Medium Paynes Grey",
     "reference": "Medium Model 1-Paynes Grey",
     "lugToLugMm": 46,
@@ -57263,7 +57279,7 @@
   },
   {
     "id": 3142,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2 Medium Grey Haar",
     "reference": "Medium Model 2-Grey Haar",
     "lugToLugMm": 43,
@@ -57282,7 +57298,7 @@
   },
   {
     "id": 3143,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1 Medium Parisian Blue",
     "reference": "Medium Model 1 -Parisian Blue",
     "lugToLugMm": 46,
@@ -57301,7 +57317,7 @@
   },
   {
     "id": 3144,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1 Medium Japanese Oxblood",
     "reference": "Medium Model 1-Japanese Oxblood",
     "lugToLugMm": 46,
@@ -57320,7 +57336,7 @@
   },
   {
     "id": 3145,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1 Medium Green Fumé",
     "reference": "Medium Model 1-Green Fumé",
     "lugToLugMm": 46,
@@ -57339,7 +57355,7 @@
   },
   {
     "id": 3146,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2 Medium Racing Green",
     "reference": "Medium Model 2-Racing Green",
     "lugToLugMm": 43,
@@ -57358,7 +57374,7 @@
   },
   {
     "id": 3147,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2 Medium Flax",
     "canonicalModel": "Model 2 Medium",
     "modelGroup": "anordain-model-2-medium",
@@ -57377,7 +57393,7 @@
   },
   {
     "id": 3148,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1 Small Iron Cream",
     "reference": "Small Model 1-Iron Cream",
     "lugToLugMm": 42,
@@ -57396,7 +57412,7 @@
   },
   {
     "id": 3149,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1 Small Japanese Oxblood",
     "reference": "Small Model 1-Japanese Oxblood",
     "lugToLugMm": 42,
@@ -57415,7 +57431,7 @@
   },
   {
     "id": 3150,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1 Small Parisian Blue",
     "reference": "Small Model 1-Parisian Blue",
     "lugToLugMm": 42,
@@ -57434,7 +57450,7 @@
   },
   {
     "id": 3151,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1 Small Teal",
     "reference": "Small Model 1-Teal",
     "lugToLugMm": 42,
@@ -57453,7 +57469,7 @@
   },
   {
     "id": 3152,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1 Large Japanese Oxblood",
     "reference": "Large Model 1-Japanese Oxblood",
     "lugToLugMm": 50,
@@ -57472,7 +57488,7 @@
   },
   {
     "id": 3153,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1 Precious Metal Archive Black Rhodium",
     "reference": "The Model 1 Precious Metal- Black Rhodium",
     "lugToLugMm": 46,
@@ -57488,7 +57504,7 @@
   },
   {
     "id": 3154,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1 Large Iron Cream",
     "reference": "Large Model 1-Iron Cream",
     "lugToLugMm": 50,
@@ -57507,7 +57523,7 @@
   },
   {
     "id": 3155,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Fabrik Model 1 Off-white",
     "reference": "Fabrik Model 1-Off-white",
     "lugToLugMm": 46,
@@ -57526,7 +57542,7 @@
   },
   {
     "id": 3156,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2 Large White",
     "reference": "Large Model 2-White",
     "lugToLugMm": 46,
@@ -57545,7 +57561,7 @@
   },
   {
     "id": 3157,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1 Precious Metal White Gold",
     "reference": "The Model 1 Precious Metal-White Gold",
     "lugToLugMm": 46,
@@ -57561,7 +57577,7 @@
   },
   {
     "id": 3158,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2 Large Grey Haar",
     "reference": "Large Model 2-Grey Haar",
     "lugToLugMm": 46,
@@ -57580,7 +57596,7 @@
   },
   {
     "id": 3159,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2 OT: Edition",
     "reference": "The Model 2 OT: Edition",
     "lugToLugMm": 46,
@@ -57596,7 +57612,7 @@
   },
   {
     "id": 3160,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1 Large Teal",
     "reference": "Large Model 1-Teal",
     "lugToLugMm": 50,
@@ -57615,7 +57631,7 @@
   },
   {
     "id": 3161,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2 Large Racing Green",
     "reference": "Large Model 2-Racing Green",
     "lugToLugMm": 46,
@@ -57638,7 +57654,7 @@
   },
   {
     "id": 3162,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Fabrik Model 1 GMT",
     "reference": "Fabrik Model 1-GMT",
     "lugToLugMm": 46,
@@ -57654,7 +57670,7 @@
   },
   {
     "id": 3163,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Fabrik Model 1 Salmon",
     "reference": "Fabrik Model 1-Salmon",
     "lugToLugMm": 46,
@@ -57673,7 +57689,7 @@
   },
   {
     "id": 3164,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1 Large Parisian Blue",
     "reference": "Large Model 1-Parisian Blue",
     "lugToLugMm": 50,
@@ -57692,7 +57708,7 @@
   },
   {
     "id": 3165,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2 Large Flax",
     "reference": "Large Model 2-Flax",
     "lugToLugMm": 46,
@@ -57711,7 +57727,7 @@
   },
   {
     "id": 3166,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 1 Precious Metal Red Gold",
     "reference": "The Model 1 Precious Metal-Red Gold",
     "lugToLugMm": 46,
@@ -57727,7 +57743,7 @@
   },
   {
     "id": 3167,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Fabrik Model 1 Blue",
     "reference": "Fabrik Model 1-Blue",
     "lugToLugMm": 46,
@@ -57746,7 +57762,7 @@
   },
   {
     "id": 3168,
-    "brand": "Anordain",
+    "brand": "anOrdain",
     "model": "Model 2 OT: Edition",
     "reference": "The Model 2 OT: Edition-Purple-Bordeaux",
     "lugToLugMm": 46,
@@ -75899,7 +75915,7 @@
   },
   {
     "id": 4215,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "PanoReserve",
     "reference": "1-65-01-26-12-61",
     "lugToLugMm": 47.1,
@@ -75915,7 +75931,7 @@
   },
   {
     "id": 4216,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "PanoMaticLunar",
     "reference": "1-90-02-43-32-62",
     "lugToLugMm": 47.2,
@@ -75935,7 +75951,7 @@
   },
   {
     "id": 4217,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Vintage Sixties",
     "reference": "1-39-52-01-01-04",
     "lugToLugMm": 45,
@@ -75951,7 +75967,7 @@
   },
   {
     "id": 4219,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "PanoMaticLunar",
     "reference": "1-90-02-43-32-71",
     "lugToLugMm": 47.2,
@@ -75971,7 +75987,7 @@
   },
   {
     "id": 4220,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Chronograph Panorama Date",
     "reference": "1-37-01-03-02-33",
     "lugToLugMm": 48.8,
@@ -75987,7 +76003,7 @@
   },
   {
     "id": 4222,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "PanoReserve",
     "reference": "1-65-01-26-12-71",
     "lugToLugMm": 47.1,
@@ -76003,7 +76019,7 @@
   },
   {
     "id": 4223,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Vintage Sixties Chronograph",
     "reference": "1-39-34-03-22-04",
     "lugToLugMm": 48.3,
@@ -76019,7 +76035,7 @@
   },
   {
     "id": 4224,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Vintage Sixties Annual Edition",
     "reference": "1-39-52-14-02-04",
     "lugToLugMm": 45,
@@ -76035,7 +76051,7 @@
   },
   {
     "id": 4225,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "PanoMaticCalendar",
     "reference": "1-92-09-02-05-62",
     "lugToLugMm": 49.4,
@@ -76051,7 +76067,7 @@
   },
   {
     "id": 4226,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Spezialist SeaQ",
     "reference": "1-39-11-17-91-33",
     "lugToLugMm": 47.3,
@@ -76067,7 +76083,7 @@
   },
   {
     "id": 4227,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Excellence",
     "reference": "1-36-01-03-02-65",
     "lugToLugMm": 46.5,
@@ -76083,7 +76099,7 @@
   },
   {
     "id": 4228,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Spezialist SeaQ Chronograph",
     "reference": "1-37-23-02-81-70",
     "lugToLugMm": 51.3,
@@ -76099,7 +76115,7 @@
   },
   {
     "id": 4229,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Spezialist SeaQ",
     "reference": "1-39-11-09-82-34",
     "lugToLugMm": 47.3,
@@ -76115,7 +76131,7 @@
   },
   {
     "id": 4230,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "PanoInverse",
     "reference": "1-66-06-04-22-62",
     "lugToLugMm": 48,
@@ -76131,7 +76147,7 @@
   },
   {
     "id": 4231,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "PanoMaticInverse",
     "reference": "1-91-02-01-05-62",
     "lugToLugMm": 48.1,
@@ -76147,7 +76163,7 @@
   },
   {
     "id": 4232,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Chronograph Panorama Date",
     "reference": "1-37-01-03-02-35",
     "lugToLugMm": 49,
@@ -76163,7 +76179,7 @@
   },
   {
     "id": 4233,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Spezialist SeaQ Panorama Date",
     "reference": "1-36-13-02-81-36",
     "lugToLugMm": 51.5,
@@ -76179,7 +76195,7 @@
   },
   {
     "id": 4234,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Spezialist SeaQ Panorama Date",
     "reference": "1-36-13-03-90-33",
     "lugToLugMm": 51.5,
@@ -76195,7 +76211,7 @@
   },
   {
     "id": 4235,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Spezialist SeaQ Panorama Date",
     "reference": "1-36-13-04-91-34",
     "lugToLugMm": 51.5,
@@ -76211,7 +76227,7 @@
   },
   {
     "id": 4236,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Excellence",
     "reference": "1-36-01-02-05-61",
     "lugToLugMm": 46.5,
@@ -76227,7 +76243,7 @@
   },
   {
     "id": 4237,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Observer",
     "reference": "100-14-02-02-14",
     "lugToLugMm": 51,
@@ -76243,7 +76259,7 @@
   },
   {
     "id": 4238,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Chronograph Panorama Date",
     "reference": "1-37-01-05-02-71",
     "lugToLugMm": 48.8,
@@ -76259,7 +76275,7 @@
   },
   {
     "id": 4239,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Vintage Sixties Panorama Date",
     "reference": "2-39-47-01-01-04",
     "lugToLugMm": 48.7,
@@ -76275,7 +76291,7 @@
   },
   {
     "id": 4240,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "PanoMaticLunar",
     "reference": "1-90-02-23-35-61",
     "lugToLugMm": 47.2,
@@ -76295,7 +76311,7 @@
   },
   {
     "id": 4241,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Excellence Perpetual Calendar",
     "reference": "1-36-12-03-02-64",
     "lugToLugMm": 49,
@@ -76311,7 +76327,7 @@
   },
   {
     "id": 4242,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Cosmopolite",
     "reference": "1-89-02-03-02-61",
     "lugToLugMm": 51.5,
@@ -76327,7 +76343,7 @@
   },
   {
     "id": 4243,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "PanoInverse",
     "reference": "1-66-12-01-03-62",
     "lugToLugMm": 48,
@@ -76343,7 +76359,7 @@
   },
   {
     "id": 4244,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "PanoInverse",
     "reference": "1-66-06-04-22-71",
     "lugToLugMm": 48,
@@ -76359,7 +76375,7 @@
   },
   {
     "id": 4245,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Observer",
     "reference": "100-14-07-02-30",
     "lugToLugMm": 51,
@@ -76375,7 +76391,7 @@
   },
   {
     "id": 4246,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Excellence Perpetual Calendar",
     "reference": "1-36-12-03-02-71",
     "lugToLugMm": 49,
@@ -76391,7 +76407,7 @@
   },
   {
     "id": 4247,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Chronometer Regulator",
     "reference": "1-58-04-04-04-04",
     "lugToLugMm": 48,
@@ -76407,7 +76423,7 @@
   },
   {
     "id": 4248,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Cosmopolite",
     "reference": "1-89-02-03-02-70",
     "lugToLugMm": 51.5,
@@ -76423,7 +76439,7 @@
   },
   {
     "id": 4249,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Chronograph Panorama Date",
     "reference": "1-37-01-05-02-33",
     "lugToLugMm": 48.8,
@@ -76439,7 +76455,7 @@
   },
   {
     "id": 4250,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Observer",
     "reference": "100-14-02-02-04",
     "lugToLugMm": 51,
@@ -76455,7 +76471,7 @@
   },
   {
     "id": 4251,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Excellence Panorama Date Moon Phase",
     "reference": "1-36-04-04-02-30",
     "lugToLugMm": 48.3,
@@ -76471,7 +76487,7 @@
   },
   {
     "id": 4253,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "PanoGraph",
     "reference": "1-61-03-25-15-05",
     "lugToLugMm": 47.3,
@@ -76487,7 +76503,7 @@
   },
   {
     "id": 4254,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Excellence Perpetual Calendar",
     "reference": "1-36-12-02-05-62",
     "lugToLugMm": 49,
@@ -76503,7 +76519,7 @@
   },
   {
     "id": 4255,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Chronometer Tourbillon",
     "reference": "1-58-06-01-03-61",
     "lugToLugMm": 49.2,
@@ -76519,7 +76535,7 @@
   },
   {
     "id": 4256,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "PanoMaticInverse",
     "reference": "1-91-03-01-03-61",
     "lugToLugMm": 48.1,
@@ -76535,7 +76551,7 @@
   },
   {
     "id": 4257,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Chronograph Panorama Date",
     "reference": "1-37-01-02-03-30",
     "lugToLugMm": 48.8,
@@ -76551,7 +76567,7 @@
   },
   {
     "id": 4258,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Chronograph Panorama Date",
     "reference": "1-37-01-03-02-71",
     "lugToLugMm": 48.8,
@@ -76567,7 +76583,7 @@
   },
   {
     "id": 4259,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Chronometer Tourbillon",
     "reference": "1-58-05-01-03-30",
     "lugToLugMm": 49.2,
@@ -76583,7 +76599,7 @@
   },
   {
     "id": 4260,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Cosmopolite",
     "reference": "1-89-02-01-04-30",
     "lugToLugMm": 51.5,
@@ -76599,7 +76615,7 @@
   },
   {
     "id": 4261,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "PanoMaticCalendar",
     "reference": "1-92-10-01-03-62",
     "lugToLugMm": 49.4,
@@ -76615,7 +76631,7 @@
   },
   {
     "id": 4262,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Spezialist SeaQ",
     "reference": "1-39-11-09-82-70",
     "lugToLugMm": 47.3,
@@ -76631,7 +76647,7 @@
   },
   {
     "id": 4263,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Spezialist SeaQ Chronograph",
     "reference": "1-37-23-02-81-36",
     "lugToLugMm": 51.3,
@@ -76647,7 +76663,7 @@
   },
   {
     "id": 4264,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "PanoInverse",
     "reference": "1-66-13-01-05-61",
     "lugToLugMm": 48,
@@ -76663,7 +76679,7 @@
   },
   {
     "id": 4266,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Manual Winding Skeletonised Edition",
     "reference": "1-49-18-01-05-30",
     "lugToLugMm": 48.9,
@@ -76679,7 +76695,7 @@
   },
   {
     "id": 4267,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Chronometer Regulator",
     "reference": "1-58-04-04-05-04",
     "lugToLugMm": 48,
@@ -76695,7 +76711,7 @@
   },
   {
     "id": 4268,
-    "brand": "Glashutte Original",
+    "brand": "Glashütte Original",
     "model": "Senator Chronograph Panorama Date",
     "reference": "1-37-01-01-05-30",
     "lugToLugMm": 48.8,
@@ -78336,7 +78352,7 @@
   },
   {
     "id": 4364,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Pioneer Centre Seconds",
     "reference": "3200-1217",
     "lugToLugMm": 48.3,
@@ -78356,7 +78372,7 @@
   },
   {
     "id": 4365,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Pioneer Centre Seconds",
     "reference": "3200-1205",
     "lugToLugMm": 51,
@@ -78372,7 +78388,7 @@
   },
   {
     "id": 4366,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Endeavour Centre Seconds Concept",
     "reference": "1343-0212",
     "lugToLugMm": 48,
@@ -78388,7 +78404,7 @@
   },
   {
     "id": 4367,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Endeavour Centre Seconds Blue Lagoon",
     "reference": "1200-1240",
     "lugToLugMm": 45.4,
@@ -78404,7 +78420,7 @@
   },
   {
     "id": 4368,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Heritage Dual Time",
     "reference": "8809-1200",
     "lugToLugMm": 46.8,
@@ -78420,7 +78436,7 @@
   },
   {
     "id": 4369,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Endeavour Perpetual Calendar",
     "reference": "1800-2000",
     "lugToLugMm": 48.5,
@@ -78436,7 +78452,7 @@
   },
   {
     "id": 4370,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Pioneer Perpetual Calendar",
     "reference": "3808-1201",
     "lugToLugMm": 51,
@@ -78452,7 +78468,7 @@
   },
   {
     "id": 4371,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Heritage Tourbillon",
     "reference": "8804-1200",
     "lugToLugMm": 48,
@@ -78468,7 +78484,7 @@
   },
   {
     "id": 4372,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Heritage Perpetual Calendar",
     "reference": "8800-0203",
     "lugToLugMm": 47,
@@ -78484,7 +78500,7 @@
   },
   {
     "id": 4373,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Pioneer Tourbillon",
     "reference": "3804-1208",
     "lugToLugMm": 47.8,
@@ -78500,7 +78516,7 @@
   },
   {
     "id": 4374,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Endeavour Centre Seconds Concept Lime Green",
     "canonicalModel": "Endeavour Centre Seconds Concept",
     "modelGroup": "h-moser-and-cie-endeavour-centre-seconds-concept",
@@ -78519,7 +78535,7 @@
   },
   {
     "id": 4375,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Endeavour Perpetual Calendar",
     "reference": "1800-0204",
     "lugToLugMm": 48.4,
@@ -78535,7 +78551,7 @@
   },
   {
     "id": 4376,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Endeavour Centre Seconds",
     "reference": "1200-1213",
     "lugToLugMm": 47.5,
@@ -78551,7 +78567,7 @@
   },
   {
     "id": 4377,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Endeavour Perpetual Moon Concept",
     "reference": "1801-0400",
     "lugToLugMm": 48.2,
@@ -78567,7 +78583,7 @@
   },
   {
     "id": 4378,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Endeavour Centre Seconds Vantablack",
     "canonicalModel": "Endeavour Centre Seconds Concept",
     "modelGroup": "h-moser-and-cie-endeavour-centre-seconds-concept",
@@ -78586,7 +78602,7 @@
   },
   {
     "id": 4379,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Venturer Big Date",
     "reference": "2100-0200",
     "lugToLugMm": 48.6,
@@ -78602,7 +78618,7 @@
   },
   {
     "id": 4380,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Venturer Small Seconds Purity",
     "reference": "2327-0207",
     "lugToLugMm": 44.8,
@@ -78618,7 +78634,7 @@
   },
   {
     "id": 4381,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Heritage Bronze “Since 1828”",
     "reference": "8200-1701",
     "lugToLugMm": 46,
@@ -78634,7 +78650,7 @@
   },
   {
     "id": 4382,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Venturer",
     "reference": "2327-0410",
     "lugToLugMm": 44.8,
@@ -78650,7 +78666,7 @@
   },
   {
     "id": 4383,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Venturer Small Seconds",
     "reference": "2327-0401",
     "lugToLugMm": 44.8,
@@ -78666,7 +78682,7 @@
   },
   {
     "id": 4384,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Endeavour Tourbillon Ox Eye",
     "reference": "1804-0401",
     "lugToLugMm": 47.1,
@@ -78682,7 +78698,7 @@
   },
   {
     "id": 4385,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Pioneer Cylindrical Tourbillon Skeleton",
     "reference": "3811-1200",
     "lugToLugMm": 51.1,
@@ -78698,7 +78714,7 @@
   },
   {
     "id": 4386,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Endeavour Flying Hours Limited Edition",
     "reference": "1806-0200",
     "lugToLugMm": 48.2,
@@ -78714,7 +78730,7 @@
   },
   {
     "id": 4387,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Venturer",
     "reference": "2327-1202",
     "lugToLugMm": 48.8,
@@ -78730,7 +78746,7 @@
   },
   {
     "id": 4388,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Endeavour Perpetual Calendar",
     "reference": "1800-0202",
     "lugToLugMm": 48.1,
@@ -78746,7 +78762,7 @@
   },
   {
     "id": 4389,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Venturer Big Date",
     "reference": "2100-0202",
     "lugToLugMm": 48.3,
@@ -78762,7 +78778,7 @@
   },
   {
     "id": 4390,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Endeavour Tourbillon Limited Edition",
     "reference": "1804-0209",
     "lugToLugMm": 48.2,
@@ -78778,7 +78794,7 @@
   },
   {
     "id": 4391,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Endeavour Flying Hours Cosmic Green",
     "reference": "1806-0201",
     "lugToLugMm": 48,
@@ -78794,7 +78810,7 @@
   },
   {
     "id": 4392,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Endeavour Perpetual Calendar",
     "reference": "1341-0500",
     "lugToLugMm": 48.7,
@@ -78810,7 +78826,7 @@
   },
   {
     "id": 4393,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Endeavour Tourbillon",
     "reference": "1804-0400",
     "lugToLugMm": 47.2,
@@ -78826,7 +78842,7 @@
   },
   {
     "id": 4394,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Endeavour Concept Minute Repeater",
     "reference": "1904-0400",
     "lugToLugMm": 47.5,
@@ -78842,7 +78858,7 @@
   },
   {
     "id": 4395,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Venturer Big Date",
     "reference": "2100-0401",
     "lugToLugMm": 48.4,
@@ -78858,7 +78874,7 @@
   },
   {
     "id": 4396,
-    "brand": "Habring2",
+    "brand": "Habring²",
     "model": "Felix",
     "reference": "Felix",
     "lugToLugMm": 46,
@@ -78958,7 +78974,7 @@
   },
   {
     "id": 4401,
-    "brand": "Hermes",
+    "brand": "Hermès",
     "model": "Hermes H08 H08",
     "reference": "W049430WW00",
     "lugToLugMm": 42,
@@ -78974,7 +78990,7 @@
   },
   {
     "id": 4402,
-    "brand": "Hermes",
+    "brand": "Hermès",
     "model": "Heure H",
     "reference": "W036732WW00",
     "lugToLugMm": 25,
@@ -78990,7 +79006,7 @@
   },
   {
     "id": 4403,
-    "brand": "Hermes",
+    "brand": "Hermès",
     "model": "Hermes H08 H08",
     "reference": "W049432WW00",
     "lugToLugMm": 42,
@@ -79006,7 +79022,7 @@
   },
   {
     "id": 4404,
-    "brand": "Hermes",
+    "brand": "Hermès",
     "model": "H08 Carbon Fiber Ceramic Orange",
     "reference": "W402992WW00",
     "lugToLugMm": 42,
@@ -79022,7 +79038,7 @@
   },
   {
     "id": 4405,
-    "brand": "Hermes",
+    "brand": "Hermès",
     "model": "Hermes H08 H08 La Matiere Du Temps",
     "reference": "W060124WW00",
     "lugToLugMm": 42,
@@ -79038,7 +79054,7 @@
   },
   {
     "id": 4406,
-    "brand": "Hermes",
+    "brand": "Hermès",
     "model": "Hermes H08 H08",
     "reference": "W056950WW00",
     "lugToLugMm": 42,
@@ -79274,7 +79290,7 @@
   },
   {
     "id": 4419,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Reverso Tribute Duoface Small Seconds",
     "reference": "Q3988482",
     "lugToLugMm": 47,
@@ -79290,7 +79306,7 @@
   },
   {
     "id": 4420,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Reverso Classic Duoface Small Seconds",
     "reference": "Q2458422",
     "lugToLugMm": 42.9,
@@ -79306,7 +79322,7 @@
   },
   {
     "id": 4421,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Reverso Classic Monoface Small Seconds",
     "reference": "Q2438522",
     "lugToLugMm": 42.9,
@@ -79321,24 +79337,8 @@
     ]
   },
   {
-    "id": 4422,
-    "brand": "JLC",
-    "model": "Master Ultra Thin Moon",
-    "reference": "Q1368430",
-    "lugToLugMm": 46.7,
-    "caseMm": 39,
-    "thicknessMm": null,
-    "lugWidthMm": 21,
-    "sources": [
-      {
-        "sourceUrl": "https://sf.delugs.com/api/strap-finder",
-        "note": "Delugs Strap Finder API lists 39mm case diameter, 46.7mm lug-to-lug distance, 21mm lug width for JLC Master Ultra Thin Master Ultra Thin Moon Q1368430."
-      }
-    ]
-  },
-  {
     "id": 4423,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Reverso Classic Large Duoface Small Seconds",
     "reference": "Q3848423",
     "lugToLugMm": 47,
@@ -79353,24 +79353,8 @@
     ]
   },
   {
-    "id": 4424,
-    "brand": "JLC",
-    "model": "Reverso Tribute Chronograph",
-    "reference": "Q389848J",
-    "lugToLugMm": 49.4,
-    "caseMm": 29.9,
-    "thicknessMm": null,
-    "lugWidthMm": 22,
-    "sources": [
-      {
-        "sourceUrl": "https://sf.delugs.com/api/strap-finder",
-        "note": "Delugs Strap Finder API lists 29.9mm case diameter, 49.4mm lug-to-lug distance, 22mm lug width for JLC Reverso Reverso Tribute Chronograph Q389848J."
-      }
-    ]
-  },
-  {
     "id": 4425,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Reverso Tribute Monoface Small Seconds",
     "reference": "Q713842J",
     "lugToLugMm": 45.6,
@@ -79386,7 +79370,7 @@
   },
   {
     "id": 4426,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Reverso Classic Monoface",
     "reference": "Q2518540",
     "lugToLugMm": 40.1,
@@ -79402,7 +79386,7 @@
   },
   {
     "id": 4427,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Reverso Tribute Duoface Small Seconds",
     "reference": "Q3908410",
     "lugToLugMm": 42.9,
@@ -79418,7 +79402,7 @@
   },
   {
     "id": 4428,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Reverso Monoface Small Seconds",
     "reference": "Q397846J",
     "lugToLugMm": 45.6,
@@ -79434,7 +79418,7 @@
   },
   {
     "id": 4429,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Reverso Tribute Duoface Calendar",
     "reference": "Q3918420",
     "lugToLugMm": 49.4,
@@ -79450,7 +79434,7 @@
   },
   {
     "id": 4430,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Reverso Classic Monoface",
     "reference": "Q2602540",
     "lugToLugMm": 35.78,
@@ -79465,24 +79449,8 @@
     ]
   },
   {
-    "id": 4431,
-    "brand": "JLC",
-    "model": "Reverso Tribute Duoface Tourbillon",
-    "reference": "Q392242J",
-    "lugToLugMm": 45.5,
-    "caseMm": 27.4,
-    "thicknessMm": null,
-    "lugWidthMm": 20,
-    "sources": [
-      {
-        "sourceUrl": "https://sf.delugs.com/api/strap-finder",
-        "note": "Delugs Strap Finder API lists 27.4mm case diameter, 45.5mm lug-to-lug distance, 20mm lug width for JLC Reverso Reverso Tribute Duoface Tourbillon Q392242J."
-      }
-    ]
-  },
-  {
     "id": 4432,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Reverso Classic Monoface",
     "reference": "Q2618540",
     "lugToLugMm": 35.78,
@@ -79497,24 +79465,8 @@
     ]
   },
   {
-    "id": 4433,
-    "brand": "JLC",
-    "model": "Reverso Monoface",
-    "reference": "Q716848J",
-    "lugToLugMm": 40.1,
-    "caseMm": 24.4,
-    "thicknessMm": null,
-    "lugWidthMm": 18,
-    "sources": [
-      {
-        "sourceUrl": "https://sf.delugs.com/api/strap-finder",
-        "note": "Delugs Strap Finder API lists 24.4mm case diameter, 40.1mm lug-to-lug distance, 18mm lug width for JLC Reverso Monoface Q716848J."
-      }
-    ]
-  },
-  {
     "id": 4434,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Reverso Classic Duetto",
     "reference": "Q2668432",
     "lugToLugMm": 34.2,
@@ -79530,7 +79482,7 @@
   },
   {
     "id": 4435,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Reverso Sun-Moon",
     "reference": "240.8.27",
     "lugToLugMm": 47,
@@ -79546,7 +79498,7 @@
   },
   {
     "id": 4436,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Polaris Automatic",
     "reference": "Q9008170",
     "lugToLugMm": 47.6,
@@ -79562,7 +79514,7 @@
   },
   {
     "id": 4437,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Reverso One Duetto",
     "reference": "Q334848J",
     "lugToLugMm": 40.1,
@@ -79578,7 +79530,7 @@
   },
   {
     "id": 4438,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Master Ultra Thin Power Reserve",
     "reference": "Q1378420",
     "lugToLugMm": 46,
@@ -79594,7 +79546,7 @@
   },
   {
     "id": 4439,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Master Calendar Gray Meteorite Dial",
     "reference": "Q1558421",
     "lugToLugMm": 46.9,
@@ -79610,7 +79562,7 @@
   },
   {
     "id": 4440,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Master Control Chronograph Calendar",
     "reference": "Q413813J",
     "lugToLugMm": 47.5,
@@ -79626,7 +79578,7 @@
   },
   {
     "id": 4441,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Reverso Steel / Gold Manual Winding",
     "reference": "250.5.86",
     "lugToLugMm": 38.5,
@@ -79642,7 +79594,7 @@
   },
   {
     "id": 4442,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Reverso One Monoface",
     "reference": "Q3288420",
     "lugToLugMm": 40.1,
@@ -79658,7 +79610,7 @@
   },
   {
     "id": 4443,
-    "brand": "JLC",
+    "brand": "Jaeger-LeCoultre",
     "model": "Reverso One Duetto Jewellery",
     "reference": "Q336247J",
     "lugToLugMm": 40,
@@ -82774,7 +82726,7 @@
   },
   {
     "id": 4626,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Club Sport Neomatik Worldtimer Glacier",
     "reference": "790.S4",
     "lugToLugMm": 48,
@@ -82794,7 +82746,7 @@
   },
   {
     "id": 4627,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Club Campus 38",
     "reference": "735",
     "lugToLugMm": 48.9,
@@ -82810,7 +82762,7 @@
   },
   {
     "id": 4628,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Club Campus Endless Blue",
     "reference": "717",
     "lugToLugMm": 47.5,
@@ -82830,7 +82782,7 @@
   },
   {
     "id": 4629,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Club",
     "reference": "701.1",
     "lugToLugMm": 47.5,
@@ -82845,24 +82797,8 @@
     ]
   },
   {
-    "id": 4630,
-    "brand": "Nomos",
-    "model": "Tangente 38",
-    "reference": "164",
-    "lugToLugMm": 47.7,
-    "caseMm": 38,
-    "thicknessMm": null,
-    "lugWidthMm": 19,
-    "sources": [
-      {
-        "sourceUrl": "https://sf.delugs.com/api/strap-finder",
-        "note": "Delugs Strap Finder API lists 38mm case diameter, 47.7mm lug-to-lug distance, 19mm lug width for Nomos Tangente Tangente 38 164."
-      }
-    ]
-  },
-  {
     "id": 4631,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Club Sport Neomatik Worldtimer Blue",
     "reference": "790",
     "lugToLugMm": 48,
@@ -82882,7 +82818,7 @@
   },
   {
     "id": 4632,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Metro Date Power Reserve",
     "reference": "1101",
     "lugToLugMm": 43.6,
@@ -82898,7 +82834,7 @@
   },
   {
     "id": 4633,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Club Campus 38 Future Orange",
     "reference": "729",
     "lugToLugMm": 48.9,
@@ -82914,7 +82850,7 @@
   },
   {
     "id": 4634,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Tangente",
     "reference": "139",
     "lugToLugMm": 45,
@@ -82938,7 +82874,7 @@
   },
   {
     "id": 4635,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Club Sport Neomatik Petrol",
     "reference": "745",
     "lugToLugMm": 47.7,
@@ -82958,7 +82894,7 @@
   },
   {
     "id": 4636,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Club Campus 38 Night Sky",
     "reference": "722",
     "lugToLugMm": 48.9,
@@ -82974,7 +82910,7 @@
   },
   {
     "id": 4637,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Club Automatic Date",
     "reference": "775",
     "lugToLugMm": 53,
@@ -82989,24 +82925,8 @@
     ]
   },
   {
-    "id": 4638,
-    "brand": "Nomos",
-    "model": "Tangente 38 Date",
-    "reference": "130",
-    "lugToLugMm": 47.7,
-    "caseMm": 37.5,
-    "thicknessMm": null,
-    "lugWidthMm": 19,
-    "sources": [
-      {
-        "sourceUrl": "https://sf.delugs.com/api/strap-finder",
-        "note": "Delugs Strap Finder API lists 37.5mm case diameter, 47.7mm lug-to-lug distance, 19mm lug width for Nomos Tangente Tangente 38 Date 130."
-      }
-    ]
-  },
-  {
     "id": 4639,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Tangente Neomatik 41 Update",
     "reference": "180",
     "lugToLugMm": 49.3,
@@ -83022,7 +82942,7 @@
   },
   {
     "id": 4640,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Zürich World Time",
     "reference": "805",
     "lugToLugMm": 49.4,
@@ -83038,7 +82958,7 @@
   },
   {
     "id": 4641,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Orion",
     "reference": "301",
     "lugToLugMm": 45,
@@ -83054,7 +82974,7 @@
   },
   {
     "id": 4642,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Ahoi Neomatik Atlantic",
     "reference": "566",
     "lugToLugMm": 45.5,
@@ -83070,7 +82990,7 @@
   },
   {
     "id": 4643,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Orion 33",
     "reference": "321",
     "lugToLugMm": 42.3,
@@ -83086,7 +83006,7 @@
   },
   {
     "id": 4644,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Ahoi Neomatik",
     "reference": "560",
     "lugToLugMm": 45.5,
@@ -83102,7 +83022,7 @@
   },
   {
     "id": 4645,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Club Sport Neomatik 39 Tabac",
     "reference": "759",
     "lugToLugMm": 49.5,
@@ -83118,7 +83038,7 @@
   },
   {
     "id": 4646,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Ahoi Neomatik 38 Date Sky",
     "reference": "526",
     "lugToLugMm": 48.7,
@@ -83134,7 +83054,7 @@
   },
   {
     "id": 4647,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Metro Neomatik 41 Update",
     "reference": "1165",
     "lugToLugMm": 47.5,
@@ -83150,7 +83070,7 @@
   },
   {
     "id": 4648,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Club Campus Absolute Gray",
     "reference": "712",
     "lugToLugMm": 47.5,
@@ -83166,7 +83086,7 @@
   },
   {
     "id": 4649,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Club Sport Neomatik 42 Date Black",
     "reference": "781",
     "lugToLugMm": 52.3,
@@ -83182,7 +83102,7 @@
   },
   {
     "id": 4650,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Tangomat",
     "reference": "641",
     "lugToLugMm": 48,
@@ -83198,7 +83118,7 @@
   },
   {
     "id": 4651,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Tangente 38 Midnight Blue",
     "reference": "167",
     "lugToLugMm": 47.7,
@@ -83214,7 +83134,7 @@
   },
   {
     "id": 4652,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Minimatik",
     "canonicalModel": "Minimatik",
     "modelGroup": "nomos-minimatik",
@@ -83232,7 +83152,7 @@
   },
   {
     "id": 4653,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Ludwig 33",
     "reference": "243",
     "lugToLugMm": 42.2,
@@ -83248,7 +83168,7 @@
   },
   {
     "id": 4654,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Metro 38 Date Urban Gray",
     "reference": "1103",
     "lugToLugMm": 45.3,
@@ -83264,7 +83184,7 @@
   },
   {
     "id": 4655,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Orion Neomatik 39 New Black",
     "reference": "346",
     "lugToLugMm": 47.5,
@@ -83280,7 +83200,7 @@
   },
   {
     "id": 4656,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Ludwig 38 - 375 Years Of The Peace Of Westphalia",
     "reference": "234.S4",
     "lugToLugMm": 47.5,
@@ -83296,7 +83216,7 @@
   },
   {
     "id": 4657,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Tangente Power Reserve",
     "reference": "172",
     "lugToLugMm": 45,
@@ -83312,7 +83232,7 @@
   },
   {
     "id": 4658,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Tangente 33 Gray",
     "reference": "125",
     "lugToLugMm": 42.2,
@@ -83328,7 +83248,7 @@
   },
   {
     "id": 4659,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Tetra – Die Fuchsteufelswilde",
     "reference": "475",
     "lugToLugMm": 40.5,
@@ -83344,7 +83264,7 @@
   },
   {
     "id": 4660,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Tetra - Die Kapriziöse",
     "reference": "474",
     "lugToLugMm": 40.5,
@@ -83360,7 +83280,7 @@
   },
   {
     "id": 4661,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Metro Neomatik",
     "reference": "1106",
     "lugToLugMm": 40.9,
@@ -83376,7 +83296,7 @@
   },
   {
     "id": 4662,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Metro Neomatik 39",
     "reference": "1113",
     "lugToLugMm": 45.5,
@@ -83392,7 +83312,7 @@
   },
   {
     "id": 4663,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Tetra 27 Duo",
     "reference": "405",
     "lugToLugMm": 38.5,
@@ -83408,7 +83328,7 @@
   },
   {
     "id": 4664,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Tangente Sport Neomatik 42 Date",
     "reference": "580",
     "lugToLugMm": 52.6,
@@ -83424,7 +83344,7 @@
   },
   {
     "id": 4665,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Zürich Date",
     "reference": "802",
     "lugToLugMm": 49.4,
@@ -83440,7 +83360,7 @@
   },
   {
     "id": 4666,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Tangente 33 Duo",
     "reference": "120",
     "lugToLugMm": 42.2,
@@ -83456,7 +83376,7 @@
   },
   {
     "id": 4667,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Ludwig",
     "reference": "201",
     "lugToLugMm": 45,
@@ -83476,7 +83396,7 @@
   },
   {
     "id": 4668,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Tangente 33 Karat",
     "reference": "126",
     "lugToLugMm": 42.2,
@@ -83492,7 +83412,7 @@
   },
   {
     "id": 4669,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Orion 38 Gray",
     "reference": "383",
     "lugToLugMm": 48,
@@ -83508,7 +83428,7 @@
   },
   {
     "id": 4670,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Zürich",
     "reference": "806",
     "lugToLugMm": 49.4,
@@ -83528,7 +83448,7 @@
   },
   {
     "id": 4671,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Ludwig 38 Enamel White",
     "reference": "236",
     "lugToLugMm": 47.5,
@@ -83544,7 +83464,7 @@
   },
   {
     "id": 4672,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Orion 1989",
     "reference": "326",
     "lugToLugMm": 42.3,
@@ -83560,7 +83480,7 @@
   },
   {
     "id": 4673,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Ludwig Neomatik 39",
     "reference": "250",
     "lugToLugMm": 48.5,
@@ -83576,7 +83496,7 @@
   },
   {
     "id": 4674,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Ludwig Automatic",
     "reference": "251",
     "lugToLugMm": 50.1,
@@ -83592,7 +83512,7 @@
   },
   {
     "id": 4675,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Ludwig - 375 Years Of The Peace Of Westphalia",
     "reference": "205.S4",
     "lugToLugMm": 45,
@@ -83608,7 +83528,7 @@
   },
   {
     "id": 4676,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Ludwig 33 - 375 Years Of The Peace Of Westphalia",
     "reference": "243.S4",
     "lugToLugMm": 42.2,
@@ -83624,7 +83544,7 @@
   },
   {
     "id": 4677,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Tangomat Date",
     "reference": "602",
     "lugToLugMm": 48,
@@ -83640,7 +83560,7 @@
   },
   {
     "id": 4678,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Autobahn Neomatik 41 Date",
     "canonicalModel": "Autobahn Neomatik 41 Date",
     "modelGroup": "nomos-autobahn-neomatik-41-date",
@@ -83658,7 +83578,7 @@
   },
   {
     "id": 4679,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Autobahn Neomatik 41 Date Midnight Blue",
     "canonicalModel": "Autobahn Neomatik 41 Date",
     "modelGroup": "nomos-autobahn-neomatik-41-date",
@@ -83677,7 +83597,7 @@
   },
   {
     "id": 4680,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Metro 33 Sage",
     "reference": "1124",
     "lugToLugMm": 40,
@@ -83693,7 +83613,7 @@
   },
   {
     "id": 4681,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Metro Neomatik Midnight Blue",
     "reference": "1110",
     "lugToLugMm": 42.1,
@@ -83709,7 +83629,7 @@
   },
   {
     "id": 4682,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Zürich Zurich World Time",
     "reference": "807",
     "lugToLugMm": 49.4,
@@ -83725,7 +83645,7 @@
   },
   {
     "id": 4683,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Ludwig Neomatik Champagne",
     "reference": "283",
     "lugToLugMm": 46,
@@ -83741,7 +83661,7 @@
   },
   {
     "id": 4684,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Orion Rose",
     "reference": "352",
     "lugToLugMm": 45,
@@ -83757,7 +83677,7 @@
   },
   {
     "id": 4685,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Metro Rose Gold Neomatik 39",
     "reference": "1180",
     "lugToLugMm": 45.5,
@@ -83773,7 +83693,7 @@
   },
   {
     "id": 4686,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Tangomat GMT",
     "reference": "635",
     "lugToLugMm": 50.5,
@@ -83789,7 +83709,7 @@
   },
   {
     "id": 4687,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Ludwig 33 Duo",
     "reference": "240",
     "lugToLugMm": 42.2,
@@ -83805,7 +83725,7 @@
   },
   {
     "id": 4688,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Orion 33 Duo",
     "reference": "319",
     "lugToLugMm": 42.3,
@@ -83821,7 +83741,7 @@
   },
   {
     "id": 4689,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Orion 38 Silver",
     "reference": "378",
     "lugToLugMm": 48,
@@ -83837,7 +83757,7 @@
   },
   {
     "id": 4690,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Orion Neomatik New Black",
     "reference": "396",
     "lugToLugMm": 45,
@@ -83857,7 +83777,7 @@
   },
   {
     "id": 4691,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Tetra Neomatik 39",
     "reference": "421",
     "lugToLugMm": 45.3,
@@ -83877,7 +83797,7 @@
   },
   {
     "id": 4692,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Tangente Neomatik 39 Silvercut",
     "reference": "141",
     "lugToLugMm": 47.3,
@@ -83897,7 +83817,7 @@
   },
   {
     "id": 4693,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Ludwig Neomatik 41 Date",
     "reference": "262",
     "lugToLugMm": 49,
@@ -83913,7 +83833,7 @@
   },
   {
     "id": 4694,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Lambda 39 Velvet Black",
     "reference": "954",
     "lugToLugMm": 47.9,
@@ -83929,7 +83849,7 @@
   },
   {
     "id": 4695,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Ludwig Automatic - 375 Years Of The Peace Of Westphalia",
     "reference": "251.S4",
     "lugToLugMm": 50.1,
@@ -83945,7 +83865,7 @@
   },
   {
     "id": 4696,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Orion Neomatik 41 Date New Black",
     "reference": "366",
     "lugToLugMm": 50.5,
@@ -83961,7 +83881,7 @@
   },
   {
     "id": 4697,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Ludwig Neomatik 41 Date",
     "reference": "260",
     "lugToLugMm": 51,
@@ -83981,7 +83901,7 @@
   },
   {
     "id": 4698,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Lambda White Gold",
     "reference": "931",
     "lugToLugMm": 51.6,
@@ -83997,7 +83917,7 @@
   },
   {
     "id": 4699,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Lux White Gold Light",
     "reference": "921",
     "lugToLugMm": 48.6,
@@ -84013,7 +83933,7 @@
   },
   {
     "id": 4700,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Lambda Deep Blue",
     "reference": "935",
     "lugToLugMm": 51.6,
@@ -84029,7 +83949,7 @@
   },
   {
     "id": 4701,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Orion Neomatik Champagne",
     "reference": "393",
     "lugToLugMm": 45,
@@ -84045,7 +83965,7 @@
   },
   {
     "id": 4702,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Orion Neomatik 39 Midnight Blue",
     "reference": "343",
     "lugToLugMm": 47.5,
@@ -84061,7 +83981,7 @@
   },
   {
     "id": 4703,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Metro 33 Muted Red",
     "reference": "1123.SB",
     "lugToLugMm": 40,
@@ -84077,7 +83997,7 @@
   },
   {
     "id": 4704,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Minimatik Midnight Blue",
     "canonicalModel": "Minimatik",
     "modelGroup": "nomos-minimatik",
@@ -84096,7 +84016,7 @@
   },
   {
     "id": 4705,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Orion Neomatik 41 Date Midnight Blue",
     "reference": "363",
     "lugToLugMm": 50.5,
@@ -84112,7 +84032,7 @@
   },
   {
     "id": 4706,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Tangente Rose Gold Neomatik - 175 Years Watchmaking Glashütte",
     "reference": "160.S1",
     "lugToLugMm": 43,
@@ -84128,7 +84048,7 @@
   },
   {
     "id": 4707,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Lambda 39",
     "reference": "952",
     "lugToLugMm": 47.9,
@@ -84144,7 +84064,7 @@
   },
   {
     "id": 4708,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Metro Rose Gold 33",
     "reference": "1170",
     "lugToLugMm": 40,
@@ -84160,7 +84080,7 @@
   },
   {
     "id": 4709,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Lux Hermelin",
     "reference": "940",
     "lugToLugMm": 46.1,
@@ -84176,7 +84096,7 @@
   },
   {
     "id": 4710,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Lux Zikade",
     "reference": "941",
     "lugToLugMm": 46.1,
@@ -90388,7 +90308,7 @@
   },
   {
     "id": 5058,
-    "brand": "Nomos",
+    "brand": "NOMOS",
     "model": "Ahoi Neomatik 36 Sky/Sand",
     "reference": "Ahoi Neomatik 36 Sky/Sand",
     "lugToLugMm": 45.5,
@@ -109015,7 +108935,7 @@
   },
   {
     "id": 6086,
-    "brand": "Brew Watch Co.",
+    "brand": "Brew",
     "model": "Metric Digital Blend",
     "reference": "Metric Digital Blend",
     "lugToLugMm": 43,
@@ -109031,7 +108951,7 @@
   },
   {
     "id": 6087,
-    "brand": "Brew Watch Co.",
+    "brand": "Brew",
     "model": "Metric Manual Wind",
     "reference": "Metric Manual Wind",
     "lugToLugMm": 41.5,
@@ -109535,7 +109455,7 @@
   },
   {
     "id": 6115,
-    "brand": "MING",
+    "brand": "Ming",
     "model": "37.11 Odyssey",
     "reference": "37.11 Odyssey",
     "lugToLugMm": 44.5,
@@ -109804,22 +109724,6 @@
       {
         "sourceUrl": "https://www.hodinkee.com/articles/intro-unimatic-ut1-pd-prodiver",
         "note": "Hodinkee reports 49mm lug-to-lug, 40mm case size/width, 13.6mm thickness for Unimatic UT1-PD in “Introducing: Unimatic UT1-PD.”"
-      }
-    ]
-  },
-  {
-    "id": 6128,
-    "brand": "Venustas Per Constantiam – VPC",
-    "model": "37HW",
-    "reference": "37HW",
-    "lugToLugMm": 45,
-    "caseMm": 37.5,
-    "thicknessMm": 9.8,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://www.hodinkee.com/articles/intro-vpc-type-37hw",
-        "note": "Hodinkee reports 45mm lug-to-lug, 37.5mm case size/width, 9.8mm thickness for Venustas Per Constantiam – VPC 37HW in “Introducing: The VPC Type 37HW.”"
       }
     ]
   },
@@ -111793,7 +111697,7 @@
   },
   {
     "id": 6235,
-    "brand": "Haim Watch Company",
+    "brand": "Haim",
     "model": "Viajero \"Global Citizen\"",
     "reference": "Viajero \"Global Citizen\"",
     "lugToLugMm": 45.5,
@@ -111961,7 +111865,7 @@
   },
   {
     "id": 6244,
-    "brand": "Brew Watch Co. x Worn & Wound",
+    "brand": "Brew x Worn & Wound",
     "model": "Metro Chrono Regulator Lumint",
     "reference": "Metro Chrono Regulator Lumint",
     "lugToLugMm": 41.5,
@@ -112033,7 +111937,7 @@
   },
   {
     "id": 6248,
-    "brand": "Monochrome x Habring²",
+    "brand": "Habring² x Monochrome",
     "model": "Montre de Souscription 1",
     "reference": "Montre de Souscription 1",
     "lugToLugMm": 46,
@@ -112633,7 +112537,7 @@
   },
   {
     "id": 6281,
-    "brand": "Venustas Per Constantiam",
+    "brand": "VPC",
     "model": "Type 39VM",
     "reference": "Type 39VM",
     "lugToLugMm": 47,
@@ -113613,7 +113517,7 @@
   },
   {
     "id": 6338,
-    "brand": "LIP",
+    "brand": "Lip",
     "model": "Instantanée LIP by S&A",
     "reference": "Instantanée LIP by S&A",
     "lugToLugMm": 44.5,
@@ -114851,7 +114755,7 @@
   },
   {
     "id": 6410,
-    "brand": "NOMOS Glashütte",
+    "brand": "NOMOS",
     "model": "Tangente 2date",
     "reference": "Tangente 2date",
     "lugToLugMm": 47.7,
@@ -116774,8 +116678,8 @@
   },
   {
     "id": 6520,
-    "brand": "G-Shock",
-    "model": "Nano Ring Watch",
+    "brand": "Casio",
+    "model": "G-Shock Nano Ring Watch",
     "reference": "DWN5600",
     "lugToLugMm": 23.4,
     "caseMm": 20,
@@ -119402,7 +119306,7 @@
   },
   {
     "id": 6668,
-    "brand": "Gérald Charles",
+    "brand": "Gerald Charles",
     "model": "Masterlink Perpetual Calendar",
     "reference": "Masterlink Perpetual Calendar",
     "lugToLugMm": 40,
@@ -120298,7 +120202,7 @@
   },
   {
     "id": 6720,
-    "brand": "Bvlgari",
+    "brand": "Bulgari",
     "model": "1970s Time-Only Gerald Genta Commission",
     "reference": "1970s Time-Only Gerald Genta Commission",
     "lugToLugMm": 25,
@@ -121294,7 +121198,7 @@
   },
   {
     "id": 6775,
-    "brand": "Ōtsuka Lōtec",
+    "brand": "Otsuka Lotec",
     "model": "No. 9",
     "reference": "No. 9",
     "lugToLugMm": 41.3,
@@ -124047,6 +123951,10 @@
       {
         "sourceUrl": "https://www.hodinkee.com/articles/the-vpc-type-37hw",
         "note": "Hodinkee reports 45mm lug-to-lug, 37.5mm case size/width, 9.8mm thickness for VPC Type 37HW in “Hands-On: The VPC Type 37HW.” The article's planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/intro-vpc-type-37hw",
+        "note": "Hodinkee reports 45mm lug-to-lug, 37.5mm case size/width, 9.8mm thickness for Venustas Per Constantiam – VPC 37HW in “Introducing: The VPC Type 37HW.”"
       }
     ]
   },
@@ -124180,7 +124088,7 @@
   },
   {
     "id": 6937,
-    "brand": "NOMOS Glashütte",
+    "brand": "NOMOS",
     "model": "Tetra Terra",
     "reference": "438",
     "lugToLugMm": 40.5,
@@ -124196,7 +124104,7 @@
   },
   {
     "id": 6938,
-    "brand": "NOMOS Glashütte",
+    "brand": "NOMOS",
     "model": "Tetra Salvia",
     "reference": "439",
     "lugToLugMm": 40.5,
@@ -124212,7 +124120,7 @@
   },
   {
     "id": 6939,
-    "brand": "NOMOS Glashütte",
+    "brand": "NOMOS",
     "model": "Tetra Basalt",
     "reference": "440",
     "lugToLugMm": 40.5,
@@ -124619,7 +124527,7 @@
   },
   {
     "id": 6963,
-    "brand": "Reservoir Watches",
+    "brand": "Reservoir",
     "model": "Hydrosphere Air Gauge",
     "reference": "Hydrosphere Air Gauge",
     "lugToLugMm": 45,
@@ -124903,7 +124811,7 @@
   },
   {
     "id": 6980,
-    "brand": "echo/neutra",
+    "brand": "Echo/Neutra",
     "model": "Cortina 1956 Collection",
     "reference": "Cortina 1956 Collection",
     "lugToLugMm": 46,
@@ -125035,7 +124943,7 @@
   },
   {
     "id": 6989,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Streamliner Flyback Chronograph Funky Blue",
     "reference": "Streamliner Flyback Chronograph Funky Blue",
     "lugToLugMm": 45,
@@ -125270,7 +125178,7 @@
   },
   {
     "id": 7004,
-    "brand": "Meistersinger",
+    "brand": "MeisterSinger",
     "model": "Stratoscope",
     "reference": "Stratoscope",
     "lugToLugMm": 51,
@@ -125318,7 +125226,7 @@
   },
   {
     "id": 7007,
-    "brand": "Meistersinger",
+    "brand": "MeisterSinger",
     "model": "Unomat",
     "reference": "Unomat",
     "lugToLugMm": 50.6,
@@ -125750,7 +125658,7 @@
   },
   {
     "id": 7034,
-    "brand": "Speake Marin",
+    "brand": "Speake-Marin",
     "model": "London Chronograph",
     "reference": "London Chronograph",
     "lugToLugMm": 51,
@@ -125818,7 +125726,7 @@
   },
   {
     "id": 7040,
-    "brand": "Isotope Watches",
+    "brand": "Isotope",
     "model": "GMT 0º Terra Maris",
     "reference": "GMT 0º Terra Maris",
     "lugToLugMm": 44.7,
@@ -125854,7 +125762,7 @@
   },
   {
     "id": 7043,
-    "brand": "Meistersinger",
+    "brand": "MeisterSinger",
     "model": "Singularis",
     "reference": "Singularis",
     "lugToLugMm": 50.6,
@@ -126380,7 +126288,7 @@
   },
   {
     "id": 7074,
-    "brand": "Merci",
+    "brand": "Merci Instruments",
     "model": "Trio Of Merci Instruments LMM-01",
     "reference": "LMM-01",
     "lugToLugMm": 46,
@@ -126753,22 +126661,6 @@
     ]
   },
   {
-    "id": 7099,
-    "brand": "Le Forban Sécurité Mer",
-    "model": "La Rochelaise",
-    "reference": "La Rochelaise",
-    "lugToLugMm": 46,
-    "caseMm": 39,
-    "thicknessMm": 11.4,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://monochrome-watches.com/introducing-le-forban-securite-mer-la-rochelaise-compressor-dive-watch-value-proposition-specs-price/",
-        "note": "MONOCHROME reports 46mm lug-to-lug, 39mm case size/width, 11.4mm thickness for Le Forban Sécurité Mer La Rochelaise in “Le Forban Sécurité Mer Presents Its New Diver, La Rochelaise.”"
-      }
-    ]
-  },
-  {
     "id": 7100,
     "brand": "Armando Legin",
     "model": "Inveniō",
@@ -127115,7 +127007,7 @@
   },
   {
     "id": 7123,
-    "brand": "H. Moser & Cie",
+    "brand": "H. Moser & Cie.",
     "model": "Pioneer Concept Citrus Green",
     "reference": "Pioneer Concept Citrus Green",
     "lugToLugMm": 51,
@@ -127798,7 +127690,7 @@
   },
   {
     "id": 7170,
-    "brand": "Meistersinger",
+    "brand": "MeisterSinger",
     "model": "Kaenos & Kaenos Open Date",
     "reference": "Kaenos & Kaenos Open Date",
     "lugToLugMm": 47,
@@ -128201,7 +128093,7 @@
   },
   {
     "id": 7197,
-    "brand": "Hermes",
+    "brand": "Hermès",
     "model": "H08 Chronograph Naples Yellow",
     "reference": "H08 Chronograph Naples Yellow",
     "lugToLugMm": 45,
@@ -129402,7 +129294,7 @@
   },
   {
     "id": 7277,
-    "brand": "Girard Perregaux",
+    "brand": "Girard-Perregaux",
     "model": "Vintage 1945 Large Date and Moon-Phases",
     "reference": "Vintage 1945 Large Date and Moon-Phases",
     "lugToLugMm": 36.1,
@@ -129784,7 +129676,7 @@
   },
   {
     "id": 7299,
-    "brand": "Hermes",
+    "brand": "Hermès",
     "model": "2017 Hermès Cape Cod TGM Collection For Men",
     "reference": "2017 Hermès Cape Cod TGM Collection For Men",
     "lugToLugMm": 33,
@@ -130456,7 +130348,7 @@
   },
   {
     "id": 7341,
-    "brand": "Girard Perregaux",
+    "brand": "Girard-Perregaux",
     "model": "Vintage 1945 Infinity Edition",
     "reference": "Vintage 1945 Infinity Edition",
     "lugToLugMm": 36.1,
@@ -130496,7 +130388,7 @@
   },
   {
     "id": 7343,
-    "brand": "Jacob & Co",
+    "brand": "Jacob & Co.",
     "model": "Astronomia Casino",
     "reference": "Astronomia Casino",
     "lugToLugMm": 47,
@@ -131145,7 +131037,7 @@
   },
   {
     "id": 7381,
-    "brand": "Isotope Watches",
+    "brand": "Isotope",
     "model": "Old Radium Bronze Pilot",
     "reference": "Old Radium Bronze Pilot",
     "lugToLugMm": 47,
@@ -131483,7 +131375,7 @@
   },
   {
     "id": 7401,
-    "brand": "Hermes",
+    "brand": "Hermès",
     "model": "H08 Chronograph",
     "reference": "H08 Chronograph",
     "lugToLugMm": 41,
@@ -131626,7 +131518,7 @@
   },
   {
     "id": 7410,
-    "brand": "Jacob & Co",
+    "brand": "Jacob & Co.",
     "model": "The World Is Yours Dual Time Zone",
     "reference": "The World Is Yours Dual Time Zone",
     "lugToLugMm": 50,
@@ -131642,7 +131534,7 @@
   },
   {
     "id": 7411,
-    "brand": "Balmont Watches",
+    "brand": "Balmont",
     "model": "Adventure Automatic Collection",
     "reference": "Adventure Automatic Collection",
     "lugToLugMm": 48,
@@ -132672,7 +132564,7 @@
   },
   {
     "id": 7482,
-    "brand": "Jacob & Co",
+    "brand": "Jacob & Co.",
     "model": "Billionaire Double Tourbillon Angel",
     "reference": "Billionaire Double Tourbillon Angel",
     "lugToLugMm": 54,
@@ -132723,7 +132615,7 @@
   },
   {
     "id": 7485,
-    "brand": "Jacob & Co",
+    "brand": "Jacob & Co.",
     "model": "Godfather II",
     "reference": "Godfather II",
     "lugToLugMm": 44,

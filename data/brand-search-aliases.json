@@ -1,3 +1,18 @@
 {
-  "AV86": ["About Vintage", "Skov Andersen"]
+  "AV86": [
+    "About Vintage",
+    "Skov Andersen"
+  ],
+  "NOMOS": [
+    "NOMOS Glashütte"
+  ],
+  "Jaeger-LeCoultre": [
+    "JLC"
+  ],
+  "Bulgari": [
+    "Bvlgari"
+  ],
+  "VPC": [
+    "Venustas Per Constantiam"
+  ]
 }
