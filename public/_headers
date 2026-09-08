@@ -1,0 +1,9 @@
+# Headers for static assets served directly by Cloudflare Pages. Server-rendered
+# responses get their security headers from src/middleware.ts.
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+  X-Content-Type-Options: nosniff
+/og/*
+  X-Content-Type-Options: nosniff
+/favicon.svg
+  X-Content-Type-Options: nosniff

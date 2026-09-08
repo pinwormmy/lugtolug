@@ -17,5 +17,25 @@ export default defineConfig({
     service: passthroughImageService()
   },
   integrations: [react(), ogImages()],
-  site
+  site,
+  experimental: {
+    // Astro hashes its own inline hydration scripts and scoped styles at build
+    // time and emits a Content-Security-Policy header for every rendered page.
+    // src/middleware.ts adds the remaining headers (and style-src-attr for the
+    // inline style attributes used in templates).
+    csp: {
+      directives: [
+        "default-src 'self'",
+        "img-src 'self' data:",
+        "font-src 'self' data:",
+        "connect-src 'self'",
+        "object-src 'none'",
+        "base-uri 'self'",
+        "form-action 'self'",
+        "frame-ancestors 'none'"
+      ],
+      styleDirective: { resources: ["'self'"] },
+      scriptDirective: { resources: ["'self'"] }
+    }
+  }
 });
