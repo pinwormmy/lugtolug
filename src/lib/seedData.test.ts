@@ -363,6 +363,68 @@ describe("watch seed data integrity", () => {
     });
   });
 
+  it("includes the official Orient and Orient Star catalog import", () => {
+    const globalPagePattern =
+      /^https:\/\/orient-watch\.com\/en\/(?:orient|orientstar)\/collection\/[a-z0-9_-]+\/[a-z0-9_-]+\/[A-Z]{2}-?[A-Z0-9]+\/$/u;
+    const ukPagePattern = /^https:\/\/www\.orientwatch\.co\.uk\/or\/en_GB\/[a-z0-9/-]+\/p\/[A-Z]{2}-?[A-Z0-9]+$/u;
+    const officialOrientRecords = seed.filter(
+      (watch) =>
+        (watch.brand === "Orient" || watch.brand === "Orient Star") &&
+        watch.sources.some(
+          (source: SeedSource) => globalPagePattern.test(source.sourceUrl) || ukPagePattern.test(source.sourceUrl)
+        )
+    );
+    const onBothSites = officialOrientRecords.filter(
+      (watch) =>
+        watch.sources.some((source: SeedSource) => globalPagePattern.test(source.sourceUrl)) &&
+        watch.sources.some((source: SeedSource) => ukPagePattern.test(source.sourceUrl))
+    );
+
+    expect(officialOrientRecords).toHaveLength(411);
+    expect(officialOrientRecords.filter((watch) => watch.brand === "Orient")).toHaveLength(284);
+    expect(officialOrientRecords.filter((watch) => watch.brand === "Orient Star")).toHaveLength(127);
+    expect(new Set(officialOrientRecords.map((watch) => compactReference(watch.reference))).size).toBe(411);
+    expect(onBothSites).toHaveLength(134);
+    // The global site's case height matches the UK store's explicit lug-to-lug.
+    expect(officialOrientRecords.find((watch) => watch.reference === "RA-AA0824L")).toMatchObject({
+      brand: "Orient",
+      model: "Mako",
+      lugToLugMm: 46.8,
+      caseMm: 41.8,
+      thicknessMm: 12.8,
+      lugWidthMm: 22
+    });
+    expect(officialOrientRecords.find((watch) => watch.reference === "RE-ND0020L")).toMatchObject({
+      brand: "Orient Star",
+      model: "Semi Skeleton"
+    });
+    // A disputed thickness is left empty; both official pages stay as sources.
+    const disputed = officialOrientRecords.find((watch) => watch.reference === "RA-AC0024L");
+    expect(disputed).toMatchObject({ model: "Bambino 40.5mm", lugToLugMm: 46.5, caseMm: 40.5, thicknessMm: null, lugWidthMm: 21 });
+    expect(disputed?.sources).toHaveLength(2);
+    // A disputed case size excludes the reference.
+    expect(seed.find((watch) => watch.reference === "RE-AV0A03B")).toBeUndefined();
+    // US catalog numbers are regional variants of the official reference and keep their sources.
+    expect(seed.find((watch) => watch.id === 1247)).toMatchObject({
+      reference: "RA-AC0033Y30B",
+      model: "Bambino Version 7 40.5mm",
+      lugToLugMm: 46.5,
+      thicknessMm: 12.3
+    });
+    expect(seed.find((watch) => watch.id === 1247)?.sources.map((source: SeedSource) => source.sourceUrl)).toEqual([
+      "https://orient-watch.com/en/orient/collection/classic/classic-and-simple-style/RA-AC0033Y/",
+      "https://www.orientwatch.co.uk/or/en_GB/brands/orient/orient-bambino-40-5mm/p/RA-AC0033Y",
+      "https://www.orientwatchusa.com/collections/orient-bambino/ra-ac0033y30b"
+    ]);
+    expect(seed.find((watch) => watch.id === 19)).toMatchObject({
+      reference: "FAC00009N0",
+      lugToLugMm: 46.5,
+      caseMm: 40.5,
+      thicknessMm: 12.5,
+      lugWidthMm: 21
+    });
+  });
+
   it("includes the full-site MONOCHROME lug-to-lug audit import", () => {
     const monochromeRecords = seed.filter((watch) =>
       watch.sources.some((source: SeedSource) => source.sourceUrl.startsWith("https://monochrome-watches.com/"))
