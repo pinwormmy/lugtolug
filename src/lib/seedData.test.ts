@@ -425,6 +425,63 @@ describe("watch seed data integrity", () => {
     });
   });
 
+  it("includes the official Grand Seiko catalog import", () => {
+    const officialNotePrefix = "Official Grand Seiko ";
+    const pagePattern = /^https:\/\/www\.grand-seiko\.com\/(global-en|us-en)\/collections\/[a-z]{3,4}\d{3}[a-z]?$/u;
+    const officialGrandSeikoRecords = seed.filter(
+      (watch) =>
+        watch.brand === "Grand Seiko" &&
+        watch.sources.some(
+          (source: SeedSource & { note?: string }) =>
+            pagePattern.test(source.sourceUrl) && source.note?.startsWith(officialNotePrefix)
+        )
+    );
+    const importedPages = officialGrandSeikoRecords.flatMap((watch) =>
+      watch.sources
+        .filter((source: SeedSource & { note?: string }) => source.note?.startsWith(officialNotePrefix))
+        .map((source: SeedSource) => source.sourceUrl)
+    );
+
+    expect(officialGrandSeikoRecords).toHaveLength(145);
+    expect(new Set(importedPages).size).toBe(145);
+    expect(importedPages.filter((url) => url.includes("/global-en/"))).toHaveLength(120);
+    expect(importedPages.filter((url) => url.includes("/us-en/"))).toHaveLength(25);
+    expect(new Set(officialGrandSeikoRecords.map((watch) => compactReference(watch.reference))).size).toBe(145);
+    // Existing rows keep their name and their earlier US-site source.
+    expect(seed.find((watch) => watch.id === 10)).toMatchObject({
+      model: "Snowflake Spring Drive",
+      reference: "SBGA211",
+      lugToLugMm: 49,
+      caseMm: 41,
+      thicknessMm: 12.5,
+      lugWidthMm: 20
+    });
+    expect(seed.find((watch) => watch.id === 10)?.sources.slice(0, 2).map((source: SeedSource) => source.sourceUrl)).toEqual([
+      "https://www.grand-seiko.com/global-en/collections/sbga211g",
+      "https://www.grand-seiko.com/us-en/collections/SBGA211G"
+    ]);
+    // A US-only reference is read from the us-en page.
+    expect(seed.find((watch) => watch.id === 1840)).toMatchObject({
+      reference: "SBGA489",
+      lugToLugMm: 46.2,
+      caseMm: 40,
+      thicknessMm: 12.5,
+      lugWidthMm: 19
+    });
+    expect(officialGrandSeikoRecords.find((watch) => watch.reference === "SLGB009")).toMatchObject({
+      model: "Evolution 9 Spring Drive U.F.A. Self-winding",
+      lugToLugMm: 47.2,
+      caseMm: 40,
+      thicknessMm: 11.7,
+      lugWidthMm: 22
+    });
+    expect(officialGrandSeikoRecords.find((watch) => watch.reference === "SBGH349")).toMatchObject({
+      id: 4299,
+      lugToLugMm: 46.6,
+      thicknessMm: 13
+    });
+  });
+
   it("includes the full-site MONOCHROME lug-to-lug audit import", () => {
     const monochromeRecords = seed.filter((watch) =>
       watch.sources.some((source: SeedSource) => source.sourceUrl.startsWith("https://monochrome-watches.com/"))

@@ -354,6 +354,10 @@
     "lugWidthMm": 20,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbga211g",
+        "note": "Official Grand Seiko global product page lists SBGA211 with case size Diameter 41.0mm Lug-to-lug 49.0mm Thickness 12.5mm, band width 20 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/SBGA211G",
         "note": "Manufacturer page: 41.0 mm diameter, 49.0 mm lug-to-lug, 12.5 mm thickness, 20 mm band width."
       },
@@ -1756,6 +1760,10 @@
     "lugWidthMm": 20,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbga465g",
+        "note": "Official Grand Seiko global product page lists SBGA465 with case size Diameter 40.0mm Lug-to-lug 46.6mm Thickness 12.3mm, band width 20 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbga465g",
         "note": "Manufacturer page: 40.0 mm diameter, 46.6 mm lug-to-lug, 12.3 mm thickness, and 20 mm band width."
       }
@@ -1774,6 +1782,10 @@
     "thicknessMm": 12.8,
     "lugWidthMm": 21,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbga413g",
+        "note": "Official Grand Seiko global product page lists SBGA413 with case size Diameter 40.0mm Lug-to-lug 47.0mm Thickness 12.8mm, band width 21 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbga413g",
         "note": "Manufacturer page: 40.0 mm diameter, 47.0 mm lug-to-lug, 12.8 mm thickness, and 21 mm band width."
@@ -1798,6 +1810,10 @@
     "lugWidthMm": 19,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgy043g",
+        "note": "Official Grand Seiko global product page lists SBGY043 with case size Diameter 38.5mm Lug-to-lug 43.7mm Thickness 10.2mm, band width 19 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgy043g",
         "note": "Manufacturer page: 38.5 mm diameter, 43.7 mm lug-to-lug, 10.2 mm thickness, and 19 mm band width."
       },
@@ -1817,6 +1833,10 @@
     "thicknessMm": 13.3,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgh299g",
+        "note": "Official Grand Seiko global product page lists SBGH299 with case size Diameter 40.0mm Lug-to-lug 46.2mm Thickness 13.3mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgh299g",
         "note": "Manufacturer page: 40.0 mm diameter, 46.2 mm lug-to-lug, 13.3 mm thickness, and 19 mm band width."
@@ -1840,6 +1860,10 @@
     "lugWidthMm": 19,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgx261g",
+        "note": "Official Grand Seiko global product page lists SBGX261 with case size Diameter 37.0mm Lug-to-lug 44.6mm Thickness 10.0mm, band width 19 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/SBGX261G",
         "note": "Manufacturer page: 37.0 mm diameter, 44.6 mm lug-to-lug, 10.0 mm thickness, and 19 mm band width."
       }
@@ -1857,7 +1881,7 @@
     "sources": [
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgv245j",
-        "note": "Manufacturer page: 40.0 mm diameter, 47.1 mm lug-to-lug, 11.8 mm thickness, and 20 mm band width."
+        "note": "Official Grand Seiko US product page lists SBGV245 with case size Diameter 40.0mm Lug-to-lug 47.1mm Thickness 11.8mm, band width 20mm (stored as lug width)."
       }
     ]
   },
@@ -1871,6 +1895,10 @@
     "thicknessMm": 12.8,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbga293g",
+        "note": "Official Grand Seiko global product page lists SBGA293 with case size Diameter 40.2mm Lug-to-lug 48.5mm Thickness 12.8mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbga293g",
         "note": "Manufacturer page: 40.2 mm diameter, 48.5 mm lug-to-lug, 12.8 mm thickness, and 19 mm band width."
@@ -1891,6 +1919,10 @@
     "thicknessMm": 12.8,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbga407g",
+        "note": "Official Grand Seiko global product page lists SBGA407 with case size Diameter 40.2mm Lug-to-lug 48.5mm Thickness 12.8mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbga407g",
         "note": "Manufacturer page: 40.2 mm diameter, 48.5 mm lug-to-lug, 12.8 mm thickness, and 19 mm band width."
@@ -1914,6 +1946,10 @@
     "lugWidthMm": 21,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbga415g",
+        "note": "Official Grand Seiko global product page lists SBGA415 with case size Diameter 40.0mm Lug-to-lug 47.0mm Thickness 12.8mm, band width 21 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbga415g",
         "note": "Manufacturer page: 40.0 mm diameter, 47.0 mm lug-to-lug, 12.8 mm thickness, and 21 mm band width."
       }
@@ -1930,6 +1966,10 @@
     "lugWidthMm": 23,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbga481g",
+        "note": "Official Grand Seiko global product page lists SBGA481 with case size Diameter 44.5mm Lug-to-lug 50.0mm Thickness 14.3mm, band width 23mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbga481g",
         "note": "Manufacturer page: 44.5 mm diameter, 50.0 mm lug-to-lug, 14.3 mm thickness, and 23 mm band width."
       }
@@ -1945,6 +1985,10 @@
     "thicknessMm": 16.8,
     "lugWidthMm": 23,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgc253g",
+        "note": "Official Grand Seiko global product page lists SBGC253 with case size Diameter 44.5mm Lug-to-lug 50.0mm Thickness 16.8mm, band width 23mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgc253g",
         "note": "Manufacturer page: 44.5 mm diameter, 50.0 mm lug-to-lug, 16.8 mm thickness, and 23 mm band width."
@@ -1966,6 +2010,10 @@
     "lugWidthMm": 22,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgd201j",
+        "note": "Official Grand Seiko global product page lists SBGD201 with case size Diameter 43.0mm Lug-to-lug 51.8mm Thickness 13.2mm, band width 22mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgd201j",
         "note": "Manufacturer page: 43.0 mm diameter, 51.8 mm lug-to-lug, 13.2 mm thickness, and 22 mm band width."
       }
@@ -1981,6 +2029,10 @@
     "thicknessMm": 13.2,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgd202j",
+        "note": "Official Grand Seiko global product page lists SBGD202 with case size Diameter 43.0mm Lug-to-lug 51.8mm Thickness 13.2mm, band width 22mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgd202j",
         "note": "Manufacturer page: 43.0 mm diameter, 51.8 mm lug-to-lug, 13.2 mm thickness, and 22 mm band width."
@@ -2014,6 +2066,10 @@
     "lugWidthMm": 23,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgd228j",
+        "note": "Official Grand Seiko global product page lists SBGD228 with case size Diameter 44.5mm Lug-to-lug 52.0mm Thickness 14.4mm, band width 23mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgd228j",
         "note": "Manufacturer page: 44.5 mm diameter, 52.0 mm lug-to-lug, 14.4 mm thickness, and 23 mm band width."
       }
@@ -2029,6 +2085,10 @@
     "thicknessMm": 14.7,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbge253g",
+        "note": "Official Grand Seiko global product page lists SBGE253 with case size Diameter 40.5mm Lug-to-lug 48.7mm Thickness 14.7mm, band width 20 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbge253g",
         "note": "Manufacturer page: 40.5 mm diameter, 48.7 mm lug-to-lug, 14.7 mm thickness, and 20 mm band width."
@@ -2054,6 +2114,10 @@
     "lugWidthMm": 20,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbge255g",
+        "note": "Official Grand Seiko global product page lists SBGE255 with case size Diameter 40.5mm Lug-to-lug 48.7mm Thickness 14.7mm, band width 20 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbge255g",
         "note": "Manufacturer page: 40.5 mm diameter, 48.7 mm lug-to-lug, 14.7 mm thickness, and 20 mm band width."
       },
@@ -2073,6 +2137,10 @@
     "thicknessMm": 14.7,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbge257g",
+        "note": "Official Grand Seiko global product page lists SBGE257 with case size Diameter 40.5mm Lug-to-lug 48.7mm Thickness 14.7mm, band width 20 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbge257g",
         "note": "Manufacturer page: 40.5 mm diameter, 48.7 mm lug-to-lug, 14.7 mm thickness, and 20 mm band width."
@@ -2094,6 +2162,10 @@
     "lugWidthMm": 21,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbge295g",
+        "note": "Official Grand Seiko global product page lists SBGE295 with case size Diameter 44.0mm Lug-to-lug 50.8mm Thickness 14.7mm, band width 21 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbge295g",
         "note": "Manufacturer page: 44.0 mm diameter, 50.8 mm lug-to-lug, 14.7 mm thickness, and 21 mm band width."
       }
@@ -2109,6 +2181,10 @@
     "thicknessMm": 14.7,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgh289g",
+        "note": "Official Grand Seiko global product page lists SBGH289 with case size Diameter 43.8mm Lug-to-lug 51.0mm Thickness 14.7mm, band width 22mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgh289g",
         "note": "Manufacturer page: 43.8 mm diameter, 51.0 mm lug-to-lug, 14.7 mm thickness, and 22 mm band width."
@@ -2128,6 +2204,10 @@
     "lugWidthMm": 20,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgh341g",
+        "note": "Official Grand Seiko global product page lists SBGH341 with case size Diameter 38.0mm Lug-to-lug 44.7mm Thickness 12.9mm, band width 20 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgh341g",
         "note": "Manufacturer page: 38.0 mm diameter, 44.7 mm lug-to-lug, 12.9 mm thickness, and 20 mm band width."
       }
@@ -2146,6 +2226,10 @@
     "lugWidthMm": 20,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgh343g",
+        "note": "Official Grand Seiko global product page lists SBGH343 with case size Diameter 38.0mm Lug-to-lug 44.7mm Thickness 12.9mm, band width 20 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgh343g",
         "note": "Manufacturer page: 38.0 mm diameter, 44.7 mm lug-to-lug, 12.9 mm thickness, and 20 mm band width."
       }
@@ -2161,6 +2245,10 @@
     "thicknessMm": 13.3,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgh347g",
+        "note": "Official Grand Seiko global product page lists SBGH347 with case size Diameter 37.0mm Lug-to-lug 44.6mm Thickness 13.3mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgh347g",
         "note": "Manufacturer page: 37.0 mm diameter, 44.6 mm lug-to-lug, 13.3 mm thickness, and 19 mm band width."
@@ -2184,6 +2272,10 @@
     "lugWidthMm": 21,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgj237g",
+        "note": "Official Grand Seiko global product page lists SBGJ237 with case size Diameter 44.2mm Lug-to-lug 50.6mm Thickness 14.4mm, band width 21 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgj237g",
         "note": "Manufacturer page: 44.2 mm diameter, 50.6 mm lug-to-lug, 14.4 mm thickness, and 21 mm band width."
       }
@@ -2202,6 +2294,10 @@
     "lugWidthMm": 21,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgj277g",
+        "note": "Official Grand Seiko global product page lists SBGJ277 with case size Diameter 44.2mm Lug-to-lug 50.6mm Thickness 14.4mm, band width 21 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgj277g",
         "note": "Manufacturer page: 44.2 mm diameter, 50.6 mm lug-to-lug, 14.4 mm thickness, and 21 mm band width."
       }
@@ -2218,6 +2314,10 @@
     "lugWidthMm": 19,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgk007g",
+        "note": "Official Grand Seiko global product page lists SBGK007 with case size Diameter 39.0mm Lug-to-lug 44.0mm Thickness 11.6mm, band width 19 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgk007g",
         "note": "Manufacturer page: 39.0 mm diameter, 44.0 mm lug-to-lug, 11.6 mm thickness, and 19 mm band width."
       }
@@ -2233,6 +2333,10 @@
     "thicknessMm": 13.7,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgm221g",
+        "note": "Official Grand Seiko global product page lists SBGM221 with case size Diameter 39.5mm Lug-to-lug 46.9mm Thickness 13.7mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgm221g",
         "note": "Manufacturer page: 39.5 mm diameter, 46.9 mm lug-to-lug, 13.7 mm thickness, and 19 mm band width."
@@ -2258,6 +2362,10 @@
     "lugWidthMm": 19,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgm255g",
+        "note": "Official Grand Seiko global product page lists SBGM255 with case size Diameter 39.5mm Lug-to-lug 46.9mm Thickness 14.1mm, band width 19 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgm255g",
         "note": "Manufacturer page: 39.5 mm diameter, 46.9 mm lug-to-lug, 14.1 mm thickness, and 19 mm band width."
       },
@@ -2277,6 +2385,10 @@
     "thicknessMm": 14.1,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgm257g",
+        "note": "Official Grand Seiko global product page lists SBGM257 with case size Diameter 39.5mm Lug-to-lug 46.9mm Thickness 14.1mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgm257g",
         "note": "Manufacturer page: 39.5 mm diameter, 46.9 mm lug-to-lug, 14.1 mm thickness, and 19 mm band width."
@@ -2300,6 +2412,10 @@
     "lugWidthMm": 19,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgw281g",
+        "note": "Official Grand Seiko global product page lists SBGW281 with case size Diameter 37.3mm Lug-to-lug 44.3mm Thickness 11.7mm, band width 19 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgw281g",
         "note": "Manufacturer page: 37.3 mm diameter, 44.3 mm lug-to-lug, 11.7 mm thickness, and 19 mm band width."
       },
@@ -2322,6 +2438,10 @@
     "lugWidthMm": 19,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgw301g",
+        "note": "Official Grand Seiko global product page lists SBGW301 with case size Diameter 37.3mm Lug-to-lug 44.3mm Thickness 11.7mm, band width 19mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgw301g",
         "note": "Manufacturer page: 37.3 mm diameter, 44.3 mm lug-to-lug, 11.7 mm thickness, and 19 mm band width."
       },
@@ -2342,6 +2462,10 @@
     "lugWidthMm": 18,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgx353g",
+        "note": "Official Grand Seiko global product page lists SBGX353 with case size Diameter 34.0mm Lug-to-lug 41.5mm Thickness 10.7mm, band width 18mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgx353g",
         "note": "Manufacturer page: 34.0 mm diameter, 41.5 mm lug-to-lug, 10.7 mm thickness, and 18 mm band width."
       }
@@ -2358,6 +2482,10 @@
     "lugWidthMm": 15,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgx363g",
+        "note": "Official Grand Seiko global product page lists SBGX363 with case size Diameter 32.3mm Lug-to-lug 39.0mm Thickness 9.0mm, band width 15 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgx363g",
         "note": "Manufacturer page: 32.3 mm diameter, 39.0 mm lug-to-lug, 9 mm thickness, and 15 mm band width."
       }
@@ -2373,6 +2501,10 @@
     "thicknessMm": 9,
     "lugWidthMm": 15,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgx365g",
+        "note": "Official Grand Seiko global product page lists SBGX365 with case size Diameter 32.3mm Lug-to-lug 39.0mm Thickness 9.0mm, band width 15 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgx365g",
         "note": "Manufacturer page: 32.3 mm diameter, 39.0 mm lug-to-lug, 9 mm thickness, and 15 mm band width."
@@ -2392,6 +2524,10 @@
     "lugWidthMm": 19,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgy007g",
+        "note": "Official Grand Seiko global product page lists SBGY007 with case size Diameter 38.5mm Lug-to-lug 43.7mm Thickness 10.2mm, band width 19 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgy007g",
         "note": "Manufacturer page: 38.5 mm diameter, 43.7 mm lug-to-lug, 10.2 mm thickness, and 19 mm band width."
       }
@@ -2407,6 +2543,10 @@
     "thicknessMm": 9.8,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgz003j",
+        "note": "Official Grand Seiko global product page lists SBGZ003 with case size Diameter 38.5mm Lug-to-lug 43.7mm Thickness 9.8mm, band width 19mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgz003j",
         "note": "Manufacturer page: 38.5 mm diameter, 43.7 mm lug-to-lug, 9.8 mm thickness, and 19 mm band width."
@@ -2424,6 +2564,10 @@
     "lugWidthMm": 19,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgz011j",
+        "note": "Official Grand Seiko global product page lists SBGZ011 with case size Diameter 40.0mm Lug-to-lug 45.2mm Thickness 9.6mm, band width 19mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgz011j",
         "note": "Manufacturer page: 40.0 mm diameter, 45.2 mm lug-to-lug, 9.6 mm thickness, and 19 mm band width."
       }
@@ -2439,6 +2583,10 @@
     "thicknessMm": 13.8,
     "lugWidthMm": 23,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slga015g",
+        "note": "Official Grand Seiko global product page lists SLGA015 with case size Diameter 43.8mm Lug-to-lug 51.5mm Thickness 13.8mm, band width 23mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slga015g",
         "note": "Manufacturer page: 43.8 mm diameter, 51.5 mm lug-to-lug, 13.8 mm thickness, and 23 mm band width."
@@ -2457,6 +2605,10 @@
     "thicknessMm": 11.8,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slga019g",
+        "note": "Official Grand Seiko global product page lists SLGA019 with case size Diameter 40.0mm Lug-to-lug 47.9mm Thickness 11.8mm, band width 22mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slga019g",
         "note": "Manufacturer page: 40.0 mm diameter, 47.9 mm lug-to-lug, 11.8 mm thickness, and 22 mm band width."
@@ -2483,6 +2635,10 @@
     "thicknessMm": 11.8,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slga021g",
+        "note": "Official Grand Seiko global product page lists SLGA021 with case size Diameter 40.0mm Lug-to-lug 47.9mm Thickness 11.8mm, band width 22 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slga021g",
         "note": "Manufacturer page: 40.0 mm diameter, 47.9 mm lug-to-lug, 11.8 mm thickness, and 22 mm band width."
@@ -2532,6 +2688,10 @@
     "lugWidthMm": 20,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgb003g",
+        "note": "Official Grand Seiko global product page lists SLGB003 with case size Diameter 37.0mm Lug-to-lug 44.3mm Thickness 11.4mm, band width 20 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slgb003g",
         "note": "Manufacturer page: 37.0 mm diameter, 44.3 mm lug-to-lug, 11.4 mm thickness, and 20 mm band width."
       },
@@ -2552,6 +2712,10 @@
     "lugWidthMm": 21,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgb023g",
+        "note": "Official Grand Seiko global product page lists SLGB023 with case size Diameter 40.8mm Lug-to-lug 48.5mm Thickness 12.9mm, band width 21mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slgb023g",
         "note": "Manufacturer page: 40.8 mm diameter, 48.5 mm lug-to-lug, 12.9 mm thickness, and 21 mm band width."
       }
@@ -2567,6 +2731,10 @@
     "thicknessMm": 12.9,
     "lugWidthMm": 21,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgb025g",
+        "note": "Official Grand Seiko global product page lists SLGB025 with case size Diameter 40.8mm Lug-to-lug 48.5mm Thickness 12.9mm, band width 21mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slgb025g",
         "note": "Manufacturer page: 40.8 mm diameter, 48.5 mm lug-to-lug, 12.9 mm thickness, and 21 mm band width."
@@ -2586,6 +2754,10 @@
     "lugWidthMm": 23,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgc001g",
+        "note": "Official Grand Seiko global product page lists SLGC001 with case size Diameter 43.2mm Lug-to-lug 51.5mm Thickness 15.3mm, band width 23 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slgc001g",
         "note": "Manufacturer page: 43.2 mm diameter, 51.5 mm lug-to-lug, 15.3 mm thickness, and 23 mm band width."
       }
@@ -2601,6 +2773,10 @@
     "thicknessMm": 15.6,
     "lugWidthMm": 23,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgc009g",
+        "note": "Official Grand Seiko global product page lists SLGC009 with case size Diameter 43.0mm Lug-to-lug 50.0mm Thickness 15.6mm, band width 23mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slgc009g",
         "note": "Manufacturer page: 43.0 mm diameter, 50.0 mm lug-to-lug, 15.6 mm thickness, and 23 mm band width."
@@ -2624,6 +2800,10 @@
     "thicknessMm": 11.7,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgh005g",
+        "note": "Official Grand Seiko global product page lists SLGH005 with case size Diameter 40.0mm Lug-to-lug 47.0mm Thickness 11.7mm, band width 22 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slgh005g",
         "note": "Manufacturer page: 40.0 mm diameter, 47.0 mm lug-to-lug, 11.7 mm thickness, and 22 mm band width."
@@ -2650,6 +2830,10 @@
     "thicknessMm": 9.95,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgw003g",
+        "note": "Official Grand Seiko global product page lists SLGW003 with case size Diameter 38.6mm Lug-to-lug 45.0mm Thickness 9.95mm, band width 20 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slgw003g",
         "note": "Manufacturer page: 38.6 mm diameter, 45.0 mm lug-to-lug, 9.95 mm thickness, and 20 mm band width."
@@ -2682,6 +2866,10 @@
     "thicknessMm": 10.5,
     "lugWidthMm": 15,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/stgk031g",
+        "note": "Official Grand Seiko global product page lists STGK031 with case size Diameter 30.0mm Lug-to-lug 36.2mm Thickness 10.5mm, band width 15 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/stgk031g",
         "note": "Manufacturer page: 30.0 mm diameter, 36.2 mm lug-to-lug, 10.5 mm thickness, and 15 mm band width."
@@ -27880,6 +28068,10 @@
     "lugWidthMm": 19,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgn027g",
+        "note": "Official Grand Seiko global product page lists SBGN027 with case size Diameter 39.0mm Lug-to-lug 45.9mm Thickness 12.3mm, band width 19 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgn027g",
         "note": "Manufacturer page: 39.0 mm diameter, 45.9 mm lug-to-lug, 12.3 mm thickness, and 19 mm band width."
       }
@@ -27899,6 +28091,10 @@
     "lugWidthMm": 19,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgn029g",
+        "note": "Official Grand Seiko global product page lists SBGN029 with case size Diameter 39.0mm Lug-to-lug 45.9mm Thickness 12.3mm, band width 19 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgn029g",
         "note": "Manufacturer page: 39.0 mm diameter, 45.9 mm lug-to-lug, 12.3 mm thickness, and 19 mm band width."
       }
@@ -27917,6 +28113,10 @@
     "thicknessMm": 13.9,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbge285g",
+        "note": "Official Grand Seiko global product page lists SBGE285 with case size Diameter 41.0mm Lug-to-lug 48.3mm Thickness 13.9mm, band width 22 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbge285g",
         "note": "Manufacturer page: 41.0 mm diameter, 48.3 mm lug-to-lug, 13.9 mm thickness, and 22 mm band width."
@@ -27940,6 +28140,10 @@
     "thicknessMm": 14.9,
     "lugWidthMm": 23,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbge307g",
+        "note": "Official Grand Seiko global product page lists SBGE307 with case size Diameter 44.5mm Lug-to-lug 50.0mm Thickness 14.9mm, band width 23mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbge307g",
         "note": "Manufacturer page: 44.5 mm diameter, 50.0 mm lug-to-lug, 14.9 mm thickness, and 23 mm band width."
@@ -27979,6 +28183,10 @@
     "lugWidthMm": 19,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgw283g",
+        "note": "Official Grand Seiko global product page lists SBGW283 with case size Diameter 37.3mm Lug-to-lug 44.3mm Thickness 11.7mm, band width 19 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgw283g",
         "note": "Manufacturer page: 37.3 mm diameter, 44.3 mm lug-to-lug, 11.7 mm thickness, and 19 mm band width."
       }
@@ -27998,6 +28206,10 @@
     "lugWidthMm": 19,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgw285g",
+        "note": "Official Grand Seiko global product page lists SBGW285 with case size Diameter 37.3mm Lug-to-lug 44.3mm Thickness 11.7mm, band width 19 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgw285g",
         "note": "Manufacturer page: 37.3 mm diameter, 44.3 mm lug-to-lug, 11.7 mm thickness, and 19 mm band width."
       }
@@ -28016,6 +28228,10 @@
     "thicknessMm": 11.7,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgw287g",
+        "note": "Official Grand Seiko global product page lists SBGW287 with case size Diameter 37.3mm Lug-to-lug 44.3mm Thickness 11.7mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgw287g",
         "note": "Manufacturer page: 37.3 mm diameter, 44.3 mm lug-to-lug, 11.7 mm thickness, and 19 mm band width."
@@ -28040,6 +28256,10 @@
     "lugWidthMm": 19,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgy011g",
+        "note": "Official Grand Seiko global product page lists SBGY011 with case size Diameter 40.0mm Lug-to-lug 46.2mm Thickness 10.5mm, band width 19 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgy011g",
         "note": "Manufacturer page: 40.0 mm diameter, 46.2 mm lug-to-lug, 10.5 mm thickness, and 19 mm band width."
       },
@@ -28062,6 +28282,10 @@
     "thicknessMm": 10.2,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgy013g",
+        "note": "Official Grand Seiko global product page lists SBGY013 with case size Diameter 38.5mm Lug-to-lug 43.7mm Thickness 10.2mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgy013g",
         "note": "Manufacturer page: 38.5 mm diameter, 43.7 mm lug-to-lug, 10.2 mm thickness, and 19 mm band width."
@@ -28090,6 +28314,10 @@
     "lugWidthMm": 15,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgx359g",
+        "note": "Official Grand Seiko global product page lists SBGX359 with case size Diameter 33.0mm Lug-to-lug 39.7mm Thickness 9.1mm, band width 15mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgx359g",
         "note": "Manufacturer page: 33.0 mm diameter, 39.7 mm lug-to-lug, 9.1 mm thickness, and 15 mm band width."
       }
@@ -28109,6 +28337,10 @@
     "lugWidthMm": 15,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgx361g",
+        "note": "Official Grand Seiko global product page lists SBGX361 with case size Diameter 33.0mm Lug-to-lug 39.7mm Thickness 9.1mm, band width 15mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgx361g",
         "note": "Manufacturer page: 33.0 mm diameter, 39.7 mm lug-to-lug, 9.1 mm thickness, and 15 mm band width."
       }
@@ -28127,6 +28359,10 @@
     "thicknessMm": 11.8,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slga009g",
+        "note": "Official Grand Seiko global product page lists SLGA009 with case size Diameter 40.0mm Lug-to-lug 47.9mm Thickness 11.8mm, band width 22 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slga009g",
         "note": "Manufacturer page: 40.0 mm diameter, 47.9 mm lug-to-lug, 11.8 mm thickness, and 22 mm band width."
@@ -28186,6 +28422,10 @@
     "lugWidthMm": 20,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgb006g",
+        "note": "Official Grand Seiko global product page lists SLGB006 with case size Diameter 37.0mm Lug-to-lug 44.3mm Thickness 11.4mm, band width 20 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slgb006j",
         "note": "Manufacturer page: 37.0 mm diameter, 44.3 mm lug-to-lug, 11.4 mm thickness, and 20 mm band width."
       },
@@ -28208,6 +28448,10 @@
     "thicknessMm": 11.7,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgh013g",
+        "note": "Official Grand Seiko global product page lists SLGH013 with case size Diameter 40.0mm Lug-to-lug 47.2mm Thickness 11.7mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slgh013g",
         "note": "Manufacturer page: 40.0 mm diameter, 47.2 mm lug-to-lug, 11.7 mm thickness, and 19 mm band width."
@@ -28232,6 +28476,10 @@
     "lugWidthMm": 20,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgh376j",
+        "note": "Official Grand Seiko global product page lists SBGH376 with case size Diameter 38.0mm Lug-to-lug 44.7mm Thickness 12.9mm, band width 20 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgh376j",
         "note": "Manufacturer page: 38.0 mm diameter, 44.7 mm lug-to-lug, 12.9 mm thickness, and 20 mm band width."
       },
@@ -28254,6 +28502,10 @@
     "thicknessMm": 10.6,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgx355g",
+        "note": "Official Grand Seiko global product page lists SBGX355 with case size Diameter 37.0mm Lug-to-lug 44.6mm Thickness 10.6mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgx355g",
         "note": "Manufacturer page: 37.0 mm diameter, 44.6 mm lug-to-lug, 10.6 mm thickness, and 19 mm band width."
@@ -34172,8 +34424,12 @@
     "lugToLugMm": 46.2,
     "caseMm": 40,
     "thicknessMm": 12.5,
-    "lugWidthMm": null,
+    "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbga489g",
+        "note": "Official Grand Seiko US product page lists SBGA489 with case size Diameter 40.0mm Lug-to-lug 46.2mm Thickness 12.5mm, band width 19mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://timeandtidewatches.com/grand-seiko-sbga489-sbga491-sbga493-introducing/",
         "note": "Time+Tide article table lists reference SBGA489 with case dimensions 40mm (D) x 12.5mm (T) x 46.2mm (L2L)."
@@ -34192,8 +34448,12 @@
     "lugToLugMm": 46.2,
     "caseMm": 40,
     "thicknessMm": 12.5,
-    "lugWidthMm": null,
+    "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbga491g",
+        "note": "Official Grand Seiko US product page lists SBGA491 with case size Diameter 40.0mm Lug-to-lug 46.2mm Thickness 12.5mm, band width 19mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://timeandtidewatches.com/grand-seiko-sbga489-sbga491-sbga493-introducing/",
         "note": "Time+Tide article table lists reference SBGA491 with case dimensions 40mm (D) x 12.5mm (T) x 46.2mm (L2L)."
@@ -34212,8 +34472,12 @@
     "lugToLugMm": 46.2,
     "caseMm": 40,
     "thicknessMm": 12.5,
-    "lugWidthMm": null,
+    "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbga493g",
+        "note": "Official Grand Seiko US product page lists SBGA493 with case size Diameter 40.0mm Lug-to-lug 46.2mm Thickness 12.5mm, band width 19mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://timeandtidewatches.com/grand-seiko-sbga489-sbga491-sbga493-introducing/",
         "note": "Time+Tide article table lists reference SBGA493 with case dimensions 40mm (D) x 12.5mm (T) x 46.2mm (L2L)."
@@ -34289,8 +34553,12 @@
     "lugToLugMm": 42.7,
     "caseMm": 36.5,
     "thicknessMm": 11.6,
-    "lugWidthMm": null,
+    "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgw323g",
+        "note": "Official Grand Seiko global product page lists SBGW323 with case size Diameter 36.5mm Lug-to-lug 42.7mm Thickness 11.6mm, band width 18mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://timeandtidewatches.com/every-grand-seiko-from-watches-and-wonders-2025-including-the-micro-adjustable-ice-forest-and-new-tentagraph-case/",
         "note": "Time+Tide article table lists reference SBGW323 with case dimensions 36.5mm (D) x 11.6mm (T) x 42.7mm (LTL)."
@@ -34345,6 +34613,10 @@
     "lugWidthMm": 20,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgw007g",
+        "note": "Official Grand Seiko global product page lists SLGW007 with case size Diameter 38.6mm Lug-to-lug 45.0mm Thickness 9.95mm, band width 20 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://timeandtidewatches.com/grand-seiko-slgw007-watch-review/",
         "note": "Time+Tide article table lists reference SLGW007 with case dimensions 38.6mm (D) x 9.95mm (T) x 45mm (LTL)."
       },
@@ -34387,6 +34659,10 @@
     "lugWidthMm": 22,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slga025g",
+        "note": "Official Grand Seiko global product page lists SLGA025 with case size Diameter 40.0mm Lug-to-lug 47.9mm Thickness 11.8mm, band width 22 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://timeandtidewatches.com/grand-seiko-slga025-atera-blue-hands-on/",
         "note": "Time+Tide article table lists reference SLGA025 with case dimensions 40mm (D) x 11.8mm (T) x 47.9mm (LTL)."
       },
@@ -34414,6 +34690,10 @@
     "lugWidthMm": 22,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgh011g",
+        "note": "Official Grand Seiko global product page lists SLGH011 with case size Diameter 40.0mm Lug-to-lug 47.0mm Thickness 11.7mm, band width 22 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://timeandtidewatches.com/grand-seiko-sbga469-slgh011-slgh019-hands-on-review/",
         "note": "Time+Tide article table lists reference SLGH011 with case dimensions 40mm (D) x 11.7mm (T) x 47mm (LTL)."
       },
@@ -34440,6 +34720,10 @@
     "thicknessMm": 11.7,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slgh019g",
+        "note": "Official Grand Seiko US product page lists SLGH019 with case size Diameter 40.0mm Lug-to-lug 47.0mm Thickness 11.7mm, band width 22mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://timeandtidewatches.com/grand-seiko-sbga469-slgh011-slgh019-hands-on-review/",
         "note": "Time+Tide article table lists reference SLGH019 with case dimensions 40mm (D) x 11.7mm (T) x 47mm (LTL)."
@@ -34474,8 +34758,12 @@
     "lugToLugMm": 51.5,
     "caseMm": 43.2,
     "thicknessMm": 15.3,
-    "lugWidthMm": null,
+    "lugWidthMm": 23,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgc007g",
+        "note": "Official Grand Seiko global product page lists SLGC007 with case size Diameter 43.2mm Lug-to-lug 51.5mm Thickness 15.3mm, band width 23 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://timeandtidewatches.com/grand-seiko-slgc007-tentagraph-hands-on/",
         "note": "Time+Tide article table lists reference SLGC007 with case dimensions 43.2mm (D) x 15.3mm (T) x 51.5mm (LTL)."
@@ -34499,6 +34787,10 @@
     "lugWidthMm": 19,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgx265g",
+        "note": "Official Grand Seiko global product page lists SBGX265 with case size Diameter 37.0mm Lug-to-lug 44.6mm Thickness 10.0mm, band width 19 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://timeandtidewatches.com/grand-seiko-sbgm255-snowdrop-sbgm257-moondrop-sbgx265-sbgx357-skyflake-introducing/",
         "note": "Time+Tide article table lists reference SBGX265 with case dimensions 37mm (D) x 10mm (T) x 44.6mm (LTL)."
       }
@@ -34513,9 +34805,13 @@
     "reference": "SBGX357",
     "lugToLugMm": 44.6,
     "caseMm": 37,
-    "thicknessMm": 10,
+    "thicknessMm": 10.6,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgx357g",
+        "note": "Official Grand Seiko global product page lists SBGX357 with case size Diameter 37.0mm Lug-to-lug 44.6mm Thickness 10.6mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://timeandtidewatches.com/grand-seiko-sbgm255-snowdrop-sbgm257-moondrop-sbgx265-sbgx357-skyflake-introducing/",
         "note": "Time+Tide article table lists reference SBGX357 with case dimensions 37mm (D) x 10mm (T) x 44.6mm (LTL)."
@@ -34546,8 +34842,12 @@
     "lugToLugMm": 42.7,
     "caseMm": 36.5,
     "thicknessMm": 11.6,
-    "lugWidthMm": null,
+    "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgw297g",
+        "note": "Official Grand Seiko global product page lists SBGW297 with case size Diameter 36.5mm Lug-to-lug 42.7mm Thickness 11.6mm, band width 18mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://timeandtidewatches.com/grand-seiko-sbgw297-sbgw299-introducing/",
         "note": "Time+Tide article table lists reference SBGW297 with case dimensions 36.5mm (D) x 11.6mm (T) x 42.7mm (LTL)."
@@ -34566,8 +34866,12 @@
     "lugToLugMm": 42.7,
     "caseMm": 36.5,
     "thicknessMm": 11.6,
-    "lugWidthMm": null,
+    "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgw299g",
+        "note": "Official Grand Seiko global product page lists SBGW299 with case size Diameter 36.5mm Lug-to-lug 42.7mm Thickness 11.6mm, band width 18mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://timeandtidewatches.com/grand-seiko-sbgw297-sbgw299-introducing/",
         "note": "Time+Tide article table lists reference SBGW299 with case dimensions 36.5mm (D) x 11.6mm (T) x 42.7mm (LTL)."
@@ -34586,8 +34890,12 @@
     "lugToLugMm": 46.2,
     "caseMm": 40,
     "thicknessMm": 12.5,
-    "lugWidthMm": null,
+    "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbga507g",
+        "note": "Official Grand Seiko US product page lists SBGA507 with case size Diameter 40.0mm Lug-to-lug 46.2mm Thickness 12.5mm, band width 19mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://timeandtidewatches.com/grand-seiko-sbga507-sbga509-usa-limited-editions-introducing/",
         "note": "Time+Tide article table lists reference SBGA507 with case dimensions 40mm (D) x 12.5mm (T) x 46.2mm (LTL)."
@@ -34606,8 +34914,12 @@
     "lugToLugMm": 46.2,
     "caseMm": 40,
     "thicknessMm": 12.5,
-    "lugWidthMm": null,
+    "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbga509g",
+        "note": "Official Grand Seiko US product page lists SBGA509 with case size Diameter 40.0mm Lug-to-lug 46.2mm Thickness 12.5mm, band width 19mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://timeandtidewatches.com/grand-seiko-sbga507-sbga509-usa-limited-editions-introducing/",
         "note": "Time+Tide article table lists reference SBGA509 with case dimensions 40mm (D) x 12.5mm (T) x 46.2mm (LTL)."
@@ -34632,6 +34944,10 @@
     "lugWidthMm": 20,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgh368j",
+        "note": "Official Grand Seiko global product page lists SBGH368 with case size Diameter 38.0mm Lug-to-lug 44.7mm Thickness 12.9mm, band width 20 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://timeandtidewatches.com/grand-seiko-sbgh368-sakura-kakushi-hands-on/",
         "note": "Time+Tide article table lists reference SBGH368 with case dimensions 38mm (D) x 12.9mm (T) x 44.7mm (LTL)."
       }
@@ -34645,8 +34961,12 @@
     "lugToLugMm": 47,
     "caseMm": 40,
     "thicknessMm": 12.9,
-    "lugWidthMm": null,
+    "lugWidthMm": 21,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgh351g",
+        "note": "Official Grand Seiko global product page lists SBGH351 with case size Diameter 40.0mm Lug-to-lug 47.0mm Thickness 12.9mm, band width 21 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://timeandtidewatches.com/grand-seiko-sbgh351-rikka-sbgh353-shubun-introducing/",
         "note": "Time+Tide article table lists reference SBGH351 with case dimensions 40mm (D) x 12.9mm (T) x 47mm (LTL)."
@@ -34661,8 +34981,12 @@
     "lugToLugMm": 47,
     "caseMm": 40,
     "thicknessMm": 12.9,
-    "lugWidthMm": null,
+    "lugWidthMm": 21,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgh353g",
+        "note": "Official Grand Seiko global product page lists SBGH353 with case size Diameter 40.0mm Lug-to-lug 47.0mm Thickness 12.9mm, band width 21 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://timeandtidewatches.com/grand-seiko-sbgh351-rikka-sbgh353-shubun-introducing/",
         "note": "Time+Tide article table lists reference SBGH353 with case dimensions 40mm (D) x 12.9mm (T) x 47mm (LTL)."
@@ -34677,8 +35001,12 @@
     "lugToLugMm": 36.2,
     "caseMm": 30,
     "thicknessMm": 10.5,
-    "lugWidthMm": null,
+    "lugWidthMm": 15,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/stgk033g",
+        "note": "Official Grand Seiko global product page lists STGK033 with case size Diameter 30.0mm Lug-to-lug 36.2mm Thickness 10.5mm, band width 15 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://timeandtidewatches.com/grand-seiko-62gs-stgk031-stgk033-introducing/",
         "note": "Time+Tide article table lists reference STGK033 with case dimensions 30mm (D) x 10.5mm (T) x 36.2mm (LTL)."
@@ -34696,6 +35024,10 @@
     "lugWidthMm": 20,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbga469g",
+        "note": "Official Grand Seiko global product page lists SBGA469 with case size Diameter 41.0mm Lug-to-lug 49.0mm Thickness 12.5mm, band width 20 mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://timeandtidewatches.com/grand-seiko-sbga469-slgh011-slgh019-hands-on-review/",
         "note": "Time+Tide article table lists reference SBGA469 with case dimensions 41mm (D) x 12.5mm (T) x 49mm (LTL)."
       }
@@ -34708,9 +35040,13 @@
     "reference": "SBGJ271",
     "lugToLugMm": 46.9,
     "caseMm": 39.5,
-    "thicknessMm": 14,
+    "thicknessMm": 14.1,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgj271g",
+        "note": "Official Grand Seiko global product page lists SBGJ271 with case size Diameter 39.5mm Lug-to-lug 46.9mm Thickness 14.1mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://timeandtidewatches.com/high-end-and-high-tech-gmt-duo-the-grand-seiko-tokyo-lion-sbgc253-and-yukigesho-sbgj271/",
         "note": "Time+Tide article table lists reference SBGJ271 with case dimensions 39.5mm (D) x 14mm (T) x 46.9mm (L2L)."
@@ -76948,9 +77284,13 @@
     "reference": "SBGJ249",
     "lugToLugMm": 46.9,
     "caseMm": 39.5,
-    "thicknessMm": null,
+    "thicknessMm": 14.1,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgj249g",
+        "note": "Official Grand Seiko global product page lists SBGJ249 with case size Diameter 39.5mm Lug-to-lug 46.9mm Thickness 14.1mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 39.5mm case diameter, 46.9mm lug-to-lug distance, 19mm lug width for Grand Seiko Elegance Elegance Collection SBGJ249."
@@ -76964,9 +77304,13 @@
     "reference": "SBGR261",
     "lugToLugMm": 46.9,
     "caseMm": 39.5,
-    "thicknessMm": null,
+    "thicknessMm": 13.1,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgr261g",
+        "note": "Official Grand Seiko global product page lists SBGR261 with case size Diameter 39.5mm Lug-to-lug 46.9mm Thickness 13.1mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 39.5mm case diameter, 46.9mm lug-to-lug distance, 19mm lug width for Grand Seiko Elegance Elegance Collection SBGR261."
@@ -76980,9 +77324,13 @@
     "reference": "SBGP013",
     "lugToLugMm": 47,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 10.6,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgp013g",
+        "note": "Official Grand Seiko global product page lists SBGP013 with case size Diameter 40.0mm Lug-to-lug 47.0mm Thickness 10.6mm, band width 20 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 47mm lug-to-lug distance, 20mm lug width for Grand Seiko Heritage Heritage Collection SBGP013."
@@ -77012,9 +77360,13 @@
     "reference": "SBGJ273",
     "lugToLugMm": 46.9,
     "caseMm": 39.5,
-    "thicknessMm": null,
+    "thicknessMm": 14.1,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgj273g",
+        "note": "Official Grand Seiko global product page lists SBGJ273 with case size Diameter 39.5mm Lug-to-lug 46.9mm Thickness 14.1mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 39.5mm case diameter, 46.9mm lug-to-lug distance, 19mm lug width for Grand Seiko Elegance Elegance Collection SBGJ273."
@@ -77044,9 +77396,13 @@
     "reference": "SBGW291",
     "lugToLugMm": 42.7,
     "caseMm": 36.5,
-    "thicknessMm": null,
+    "thicknessMm": 11.6,
     "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgw291g",
+        "note": "Official Grand Seiko global product page lists SBGW291 with case size Diameter 36.5mm Lug-to-lug 42.7mm Thickness 11.6mm, band width 18mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 36.5mm case diameter, 42.7mm lug-to-lug distance, 18mm lug width for Grand Seiko Heritage Heritage Collection SBGW291."
@@ -77082,9 +77438,13 @@
     "reference": "SBGJ251",
     "lugToLugMm": 46.9,
     "caseMm": 39.5,
-    "thicknessMm": null,
+    "thicknessMm": 14.1,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgj251g",
+        "note": "Official Grand Seiko global product page lists SBGJ251 with case size Diameter 39.5mm Lug-to-lug 46.9mm Thickness 14.1mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 39.5mm case diameter, 46.9mm lug-to-lug distance, 19mm lug width for Grand Seiko Elegance Elegance Collection SBGJ251."
@@ -77103,6 +77463,10 @@
     "thicknessMm": 11.7,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgh017g",
+        "note": "Official Grand Seiko global product page lists SLGH017 with case size Diameter 40.0mm Lug-to-lug 47.0mm Thickness 11.7mm, band width 22 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 47mm lug-to-lug distance, 22mm lug width for Grand Seiko Evolution 9 Evolution 9 Collection SLGH017."
@@ -77158,9 +77522,13 @@
     "reference": "SBGJ267",
     "lugToLugMm": 46.2,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 14,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgj267g",
+        "note": "Official Grand Seiko global product page lists SBGJ267 with case size Diameter 40.0mm Lug-to-lug 46.2mm Thickness 14.0mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 46.2mm lug-to-lug distance, 19mm lug width for Grand Seiko Heritage Heritage Collection SBGJ267."
@@ -77176,9 +77544,13 @@
     "reference": "SBGA375",
     "lugToLugMm": 46.2,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 12.5,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbga375g",
+        "note": "Official Grand Seiko global product page lists SBGA375 with case size Diameter 40.0mm Lug-to-lug 46.2mm Thickness 12.5mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 46.2mm lug-to-lug distance, 19mm lug width for Grand Seiko Heritage Heritage Collection SBGA375."
@@ -77243,9 +77615,13 @@
     "reference": "SBGP009",
     "lugToLugMm": 47,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 10.6,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgp009g",
+        "note": "Official Grand Seiko global product page lists SBGP009 with case size Diameter 40.0mm Lug-to-lug 47.0mm Thickness 10.6mm, band width 20 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 47mm lug-to-lug distance, 20mm lug width for Grand Seiko Heritage Heritage Collection SBGP009."
@@ -77277,9 +77653,13 @@
     "reference": "SBGH345",
     "lugToLugMm": 46.2,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 13.3,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgh345g",
+        "note": "Official Grand Seiko global product page lists SBGH345 with case size Diameter 40.0mm Lug-to-lug 46.2mm Thickness 13.3mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 46.2mm lug-to-lug distance, 19mm lug width for Grand Seiko Heritage Heritage Collection SBGH345."
@@ -77309,9 +77689,13 @@
     "reference": "SBGM247",
     "lugToLugMm": 48.6,
     "caseMm": 40.5,
-    "thicknessMm": null,
+    "thicknessMm": 14.4,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgm247g",
+        "note": "Official Grand Seiko global product page lists SBGM247 with case size Diameter 40.5mm Lug-to-lug 48.6mm Thickness 14.4mm, band width 20 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40.5mm case diameter, 48.6mm lug-to-lug distance, 20mm lug width for Grand Seiko Sport Sport Collection SBGM247."
@@ -77341,9 +77725,13 @@
     "reference": "SBGA437",
     "lugToLugMm": 46.6,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 12.3,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbga437g",
+        "note": "Official Grand Seiko global product page lists SBGA437 with case size Diameter 40.0mm Lug-to-lug 46.6mm Thickness 12.3mm, band width 20 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 46.6mm lug-to-lug distance, 20mm lug width for Grand Seiko Heritage Heritage Collection SBGA437."
@@ -77389,11 +77777,15 @@
     "brand": "Grand Seiko",
     "model": "Heritage Icefall",
     "reference": "SBGH349",
-    "lugToLugMm": 46,
+    "lugToLugMm": 46.6,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgh349g",
+        "note": "Official Grand Seiko global product page lists SBGH349 with case size Diameter 40.0mm Lug-to-lug 46.6mm Thickness 13.0mm, band width 20mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 46mm lug-to-lug distance, 20mm lug width for Grand Seiko Heritage Icefall SBGH349."
@@ -77411,9 +77803,13 @@
     "reference": "SBGY002",
     "lugToLugMm": 43.7,
     "caseMm": 38.5,
-    "thicknessMm": null,
+    "thicknessMm": 10.2,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgy002g",
+        "note": "Official Grand Seiko global product page lists SBGY002 with case size Diameter 38.5mm Lug-to-lug 43.7mm Thickness 10.2mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38.5mm case diameter, 43.7mm lug-to-lug distance, 19mm lug width for Grand Seiko Elegance Elegance Collection SBGY002."
@@ -77427,9 +77823,13 @@
     "reference": "STGF359",
     "lugToLugMm": 35.4,
     "caseMm": 28.9,
-    "thicknessMm": null,
+    "thicknessMm": 8.7,
     "lugWidthMm": 14,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/stgf359g",
+        "note": "Official Grand Seiko global product page lists STGF359 with case size Diameter 28.9mm Lug-to-lug 35.4mm Thickness 8.7mm, band width 14 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 28.9mm case diameter, 35.4mm lug-to-lug distance, 14mm lug width for Grand Seiko Heritage Heritage Collection STGF359."
@@ -77443,9 +77843,13 @@
     "reference": "SBGA439",
     "lugToLugMm": 46.6,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 12.3,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbga439g",
+        "note": "Official Grand Seiko global product page lists SBGA439 with case size Diameter 40.0mm Lug-to-lug 46.6mm Thickness 12.3mm, band width 20 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 46.6mm lug-to-lug distance, 20mm lug width for Grand Seiko Heritage Heritage Collection SBGA439."
@@ -77461,9 +77865,13 @@
     "reference": "SBGJ263",
     "lugToLugMm": 46.2,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 14,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgj263g",
+        "note": "Official Grand Seiko global product page lists SBGJ263 with case size Diameter 40.0mm Lug-to-lug 46.2mm Thickness 14.0mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 46.2mm lug-to-lug distance, 19mm lug width for Grand Seiko Heritage Heritage Collection SBGJ263."
@@ -77497,9 +77905,13 @@
     "reference": "SBGE277",
     "lugToLugMm": 50.8,
     "caseMm": 44,
-    "thicknessMm": null,
+    "thicknessMm": 14.7,
     "lugWidthMm": 21,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbge277g",
+        "note": "Official Grand Seiko global product page lists SBGE277 with case size Diameter 44.0mm Lug-to-lug 50.8mm Thickness 14.7mm, band width 21mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 44mm case diameter, 50.8mm lug-to-lug distance, 21mm lug width for Grand Seiko Sport Sport Collection SBGE277."
@@ -77703,9 +78115,13 @@
     "reference": "SBGM245",
     "lugToLugMm": 48.6,
     "caseMm": 40.5,
-    "thicknessMm": null,
+    "thicknessMm": 14.4,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgm245g",
+        "note": "Official Grand Seiko global product page lists SBGM245 with case size Diameter 40.5mm Lug-to-lug 48.6mm Thickness 14.4mm, band width 20 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40.5mm case diameter, 48.6mm lug-to-lug distance, 20mm lug width for Grand Seiko Sport Sport Collection SBGM245."
@@ -77871,9 +78287,13 @@
     "reference": "SBGH301",
     "lugToLugMm": 46.2,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 13.3,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgh301g",
+        "note": "Official Grand Seiko global product page lists SBGH301 with case size Diameter 40.0mm Lug-to-lug 46.2mm Thickness 13.3mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 46.2mm lug-to-lug distance, 19mm lug width for Grand Seiko Heritage Heritage Collection SBGH301."
@@ -78211,9 +78631,13 @@
     "reference": "STGK009",
     "lugToLugMm": 33.5,
     "caseMm": 27.8,
-    "thicknessMm": null,
+    "thicknessMm": 11.2,
     "lugWidthMm": 13,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/stgk009g",
+        "note": "Official Grand Seiko global product page lists STGK009 with case size Diameter 27.8mm Lug-to-lug 33.5mm Thickness 11.2mm, band width 13 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 27.8mm case diameter, 33.5mm lug-to-lug distance, 13mm lug width for Grand Seiko Elegance Elegance Collection STGK009."
@@ -78245,9 +78669,13 @@
     "reference": "STGK007",
     "lugToLugMm": 33.5,
     "caseMm": 27.8,
-    "thicknessMm": null,
+    "thicknessMm": 11.2,
     "lugWidthMm": 13,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/stgk007g",
+        "note": "Official Grand Seiko global product page lists STGK007 with case size Diameter 27.8mm Lug-to-lug 33.5mm Thickness 11.2mm, band width 13 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 27.8mm case diameter, 33.5mm lug-to-lug distance, 13mm lug width for Grand Seiko Elegance Elegance Collection STGK007."
@@ -78263,9 +78691,13 @@
     "reference": "STGK021",
     "lugToLugMm": 33.5,
     "caseMm": 27.8,
-    "thicknessMm": null,
+    "thicknessMm": 11.2,
     "lugWidthMm": 13,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/stgk021g",
+        "note": "Official Grand Seiko global product page lists STGK021 with case size Diameter 27.8mm Lug-to-lug 33.5mm Thickness 11.2mm, band width 13 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 27.8mm case diameter, 33.5mm lug-to-lug distance, 13mm lug width for Grand Seiko Elegance Elegance Collection STGK021."
@@ -78295,9 +78727,13 @@
     "reference": "STGF385",
     "lugToLugMm": 35.4,
     "caseMm": 28.9,
-    "thicknessMm": null,
+    "thicknessMm": 8.8,
     "lugWidthMm": 14,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/stgf385g",
+        "note": "Official Grand Seiko global product page lists STGF385 with case size Diameter 28.9mm Lug-to-lug 35.4mm Thickness 8.8mm, band width 14mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 28.9mm case diameter, 35.4mm lug-to-lug distance, 14mm lug width for Grand Seiko Heritage Heritage Collection STGF385."
@@ -78313,9 +78749,13 @@
     "reference": "STGK019",
     "lugToLugMm": 33.5,
     "caseMm": 27.8,
-    "thicknessMm": null,
+    "thicknessMm": 11.2,
     "lugWidthMm": 13,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/stgk019g",
+        "note": "Official Grand Seiko global product page lists STGK019 with case size Diameter 27.8mm Lug-to-lug 33.5mm Thickness 11.2mm, band width 13 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 27.8mm case diameter, 33.5mm lug-to-lug distance, 13mm lug width for Grand Seiko Elegance Elegance Collection Ladies Automatic STGK019."
@@ -109612,6 +110052,10 @@
     "lugWidthMm": 23,
     "sources": [
       {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slga023g",
+        "note": "Official Grand Seiko global product page lists SLGA023 with case size Diameter 43.8mm Lug-to-lug 51.5mm Thickness 13.8mm, band width 23mm (stored as lug width)."
+      },
+      {
         "sourceUrl": "https://www.hodinkee.com/articles/grand-seikos-latest-diver-the-evolution-9-5-day-diver-ushio-slga023live-pics",
         "note": "Hodinkee reports 51.5mm lug-to-lug, 43.8mm case size/width, 13.8mm thickness, 23mm lug width for Grand Seiko Evolution 9 Collection 5 Day Diver's 200m \"Ushio\" in “Introducing: Grand Seiko's Latest Diver – The Evolution 9 5-Day Diver 'Ushio' SLGA023 (Live Pics).”"
       }
@@ -115238,11 +115682,15 @@
     "brand": "Grand Seiko",
     "model": "Soko Shadow Special Edition",
     "reference": "SBGA429",
-    "lugToLugMm": 47,
+    "lugToLugMm": 46.8,
     "caseMm": 39,
     "thicknessMm": 12.3,
-    "lugWidthMm": null,
+    "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbga429g",
+        "note": "Official Grand Seiko US product page lists SBGA429 with case size Diameter 39.0mm Lug-to-lug 46.8mm Thickness 12.3mm, band width 19mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://www.hodinkee.com/articles/the-grand-seiko-soko-special-edition-sees-the-forest-for-the-trees",
         "note": "Hodinkee reports 47mm lug-to-lug, 39mm case size/width, 12.3mm thickness for Grand Seiko Soko Shadow Special Edition in “The Spec Sheet: The Grand Seiko 'Soko' Special Edition Sees The Forest For The Trees.”"
@@ -129182,11 +129630,15 @@
     "brand": "Grand Seiko",
     "model": "Evolution 9 Spring Drive U.F.A. SLGB007",
     "reference": "SLGB007",
-    "lugToLugMm": 48,
+    "lugToLugMm": 47.2,
     "caseMm": 40,
-    "thicknessMm": null,
-    "lugWidthMm": null,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgb007g",
+        "note": "Official Grand Seiko global product page lists SLGB007 with case size Diameter 40.0mm Lug-to-lug 47.2mm Thickness 11.7mm, band width 22mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://monochrome-watches.com/grand-seiko-evolution-9-spring-drive-ufa-lake-suwa-slgb007-40mm-micro-adjust-titanium-review-price/",
         "note": "MONOCHROME reports 48mm lug-to-lug, 40mm case size/width for Grand Seiko Evolution 9 Spring Drive U.F.A. SLGB007 in “Grand Seiko Brings the UFA Calibre and Micro-Adjustment to the Black 40mm Lake Suwa SLGB007.”"
@@ -132002,9 +132454,13 @@
     "reference": "SBGW305",
     "lugToLugMm": 44.3,
     "caseMm": 37.3,
-    "thicknessMm": null,
-    "lugWidthMm": null,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgw305g",
+        "note": "Official Grand Seiko global product page lists SBGW305 with case size Diameter 37.3mm Lug-to-lug 44.3mm Thickness 11.7mm, band width 19 mm (stored as lug width)."
+      },
       {
         "sourceUrl": "https://monochrome-watches.com/introducing-classic-grand-seiko-elegance-hand-wound-sbgw305-now-on-beads-of-rice-bracelet-specs-price/",
         "note": "MONOCHROME reports 44.3mm lug-to-lug, 37.3mm case size/width for Grand Seiko Elegance Hand-Wound SBGW305, Now on Beads-of-Rice in “The Grand Seiko Elegance Hand-Wound SBGW305, Now on Beads-of-Rice.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
@@ -144203,6 +144659,486 @@
       {
         "sourceUrl": "https://www.orientwatch.co.uk/or/en_GB/styles/everyday/orient-star-m34-f7-semi-skeleton/p/RK-BY0002A",
         "note": "Official Orient Star UK store product page lists RK-BY0002A with 40mm width, 47.3mm lug-to-lug, 13.0mm thickness, 20mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 8137,
+    "brand": "Grand Seiko",
+    "model": "Heritage Collection Spring Drive Self-winding with Manual-winding",
+    "reference": "SBGA384",
+    "lugToLugMm": 46.2,
+    "caseMm": 40,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbga384g",
+        "note": "Official Grand Seiko US product page lists SBGA384 with case size Diameter 40.0mm Lug-to-lug 46.2mm Thickness 12.5mm, band width 19mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8138,
+    "brand": "Grand Seiko",
+    "model": "Heritage Collection Spring Drive Self-winding with Manual-winding",
+    "reference": "SBGA385",
+    "lugToLugMm": 46.2,
+    "caseMm": 40,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbga385g",
+        "note": "Official Grand Seiko US product page lists SBGA385 with case size Diameter 40.0mm Lug-to-lug 46.2mm Thickness 12.5mm, band width 19mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8139,
+    "brand": "Grand Seiko",
+    "model": "Heritage Collection Spring Drive Self-winding with Manual-winding",
+    "reference": "SBGA427",
+    "lugToLugMm": 46.8,
+    "caseMm": 39,
+    "thicknessMm": 12.3,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbga427g",
+        "note": "Official Grand Seiko US product page lists SBGA427 with case size Diameter 39.0mm Lug-to-lug 46.8mm Thickness 12.3mm, band width 19mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8140,
+    "brand": "Grand Seiko",
+    "model": "Heritage Collection Self-winding with manual-winding",
+    "reference": "SBGH281",
+    "lugToLugMm": 46.2,
+    "caseMm": 40,
+    "thicknessMm": 13.3,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgh281g",
+        "note": "Official Grand Seiko US product page lists SBGH281 with case size Diameter 40.0mm Lug-to-lug 46.2mm Thickness 13.3mm, band width 19mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8141,
+    "brand": "Grand Seiko",
+    "model": "Heritage Collection Self-winding with manual-winding",
+    "reference": "SBGH295",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 12.9,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgh295g",
+        "note": "Official Grand Seiko US product page lists SBGH295 with case size Diameter 40.0mm Lug-to-lug 47.0mm Thickness 12.9mm, band width 21mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8142,
+    "brand": "Grand Seiko",
+    "model": "U.S. Special Edition inspired by A Bamboo Garden Path",
+    "reference": "SBGJ259",
+    "lugToLugMm": 46.2,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgj259g",
+        "note": "Official Grand Seiko US product page lists SBGJ259 with case size Diameter 40.0mm Lug-to-lug 46.2mm Thickness 14.0mm, band width 19mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8143,
+    "brand": "Grand Seiko",
+    "model": "Heritage Collection",
+    "reference": "SBGJ265",
+    "lugToLugMm": 46.2,
+    "caseMm": 40,
+    "thicknessMm": 14,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgj265g",
+        "note": "Official Grand Seiko global product page lists SBGJ265 with case size Diameter 40.0mm Lug-to-lug 46.2mm Thickness 14.0mm, band width 19 mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8144,
+    "brand": "Grand Seiko",
+    "model": "Heritage Collection Quartz",
+    "reference": "SBGP007",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 10.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgp007g",
+        "note": "Official Grand Seiko US product page lists SBGP007 with case size Diameter 40.0mm Lug-to-lug 47.0mm Thickness 10.8mm, band width 20mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8145,
+    "brand": "Grand Seiko",
+    "model": "Sport Collection Quartz",
+    "reference": "SBGP015",
+    "lugToLugMm": 47.1,
+    "caseMm": 40,
+    "thicknessMm": 12.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgp015g",
+        "note": "Official Grand Seiko US product page lists SBGP015 with case size Diameter 40.0mm Lug-to-lug 47.1mm Thickness 12.4mm, band width 20mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8146,
+    "brand": "Grand Seiko",
+    "model": "Heritage Collection Self-winding with manual-winding",
+    "reference": "SBGR299",
+    "lugToLugMm": 47.9,
+    "caseMm": 42,
+    "thicknessMm": 13.1,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgr299g",
+        "note": "Official Grand Seiko US product page lists SBGR299 with case size Diameter 42.0mm Lug-to-lug 47.9mm Thickness 13.1mm, band width 21mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8147,
+    "brand": "Grand Seiko",
+    "model": "Heritage Collection Self-winding with manual-winding",
+    "reference": "SBGR321",
+    "lugToLugMm": 46.6,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgr321g",
+        "note": "Official Grand Seiko US product page lists SBGR321 with case size Diameter 40.0mm Lug-to-lug 46.6mm Thickness 13.0mm, band width 20mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8148,
+    "brand": "Grand Seiko",
+    "model": "Heritage Collection Quartz",
+    "reference": "SBGV239",
+    "lugToLugMm": 46.2,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgv239j",
+        "note": "Official Grand Seiko US product page lists SBGV239 with case size Diameter 40.0mm Lug-to-lug 46.2mm Thickness 10.4mm, band width 19mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8149,
+    "brand": "Grand Seiko",
+    "model": "Heritage Collection Manual-winding",
+    "reference": "SBGW306",
+    "lugToLugMm": 42.7,
+    "caseMm": 36.5,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgw306j",
+        "note": "Official Grand Seiko US product page lists SBGW306 with case size Diameter 36.5mm Lug-to-lug 42.7mm Thickness 11.7mm, band width 18mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8150,
+    "brand": "Grand Seiko",
+    "model": "Heritage Collection Quartz",
+    "reference": "SBGX263",
+    "lugToLugMm": 44.6,
+    "caseMm": 37,
+    "thicknessMm": 10,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/sbgx263g",
+        "note": "Official Grand Seiko global product page lists SBGX263 with case size Diameter 37.0mm Lug-to-lug 44.6mm Thickness 10.0mm, band width 19 mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8151,
+    "brand": "Grand Seiko",
+    "model": "Elegance Collection Spring Drive Manual winding",
+    "reference": "SBGY023",
+    "lugToLugMm": 43.7,
+    "caseMm": 38.5,
+    "thicknessMm": 10.2,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgy023g",
+        "note": "Official Grand Seiko US product page lists SBGY023 with case size Diameter 38.5mm Lug-to-lug 43.7mm Thickness 10.2mm, band width 19mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8152,
+    "brand": "Grand Seiko",
+    "model": "Sport Collection Spring Drive Self-winding with Manual-winding",
+    "reference": "SLGA001",
+    "lugToLugMm": 50.8,
+    "caseMm": 46.9,
+    "thicknessMm": 16,
+    "lugWidthMm": 23,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/slga001g",
+        "note": "Official Grand Seiko US product page lists SLGA001 with case size Diameter 46.9mm Lug-to-lug 50.8mm Thickness 16.0mm, band width 23mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8153,
+    "brand": "Grand Seiko",
+    "model": "Evolution 9 Spring Drive U.F.A. Self-winding",
+    "reference": "SLGB009",
+    "lugToLugMm": 47.2,
+    "caseMm": 40,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgb009g",
+        "note": "Official Grand Seiko global product page lists SLGB009 with case size Diameter 40.0mm Lug-to-lug 47.2mm Thickness 11.7mm, band width 22mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8154,
+    "brand": "Grand Seiko",
+    "model": "Evolution 9 Spring Drive U.F.A. Self-winding",
+    "reference": "SLGB011",
+    "lugToLugMm": 47.2,
+    "caseMm": 40,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgb011g",
+        "note": "Official Grand Seiko global product page lists SLGB011 with case size Diameter 40.0mm Lug-to-lug 47.2mm Thickness 11.7mm, band width 22mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8155,
+    "brand": "Grand Seiko",
+    "model": "Evolution 9 Spring Drive U.F.A. Self-winding",
+    "reference": "SLGB013",
+    "lugToLugMm": 47.2,
+    "caseMm": 40,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgb013g",
+        "note": "Official Grand Seiko global product page lists SLGB013 with case size Diameter 40.0mm Lug-to-lug 47.2mm Thickness 11.7mm, band width 22mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8156,
+    "brand": "Grand Seiko",
+    "model": "Evolution 9 Spring Drive U.F.A. Self-winding",
+    "reference": "SLGB015",
+    "lugToLugMm": 44.3,
+    "caseMm": 37,
+    "thicknessMm": 11.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgb015g",
+        "note": "Official Grand Seiko global product page lists SLGB015 with case size Diameter 37.0mm Lug-to-lug 44.3mm Thickness 11.4mm, band width 20mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8157,
+    "brand": "Grand Seiko",
+    "model": "Evolution 9 Hi-Beat 36000 Self-winding 80 Hours",
+    "reference": "SLGH029",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgh029g",
+        "note": "Official Grand Seiko global product page lists SLGH029 with case size Diameter 40.0mm Lug-to-lug 47.0mm Thickness 11.7mm, band width 22mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8158,
+    "brand": "Grand Seiko",
+    "model": "Evolution 9 Hi-Beat 36000 Self-winding 80 Hours",
+    "reference": "SLGH031",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgh031g",
+        "note": "Official Grand Seiko global product page lists SLGH031 with case size Diameter 40.0mm Lug-to-lug 47.0mm Thickness 11.7mm, band width 22mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8159,
+    "brand": "Grand Seiko",
+    "model": "Evolution 9 Hi-Beat 36000 Self-winding 80 Hours",
+    "reference": "SLGH033",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgh033g",
+        "note": "Official Grand Seiko global product page lists SLGH033 with case size Diameter 40.0mm Lug-to-lug 47.0mm Thickness 11.7mm, band width 22mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8160,
+    "brand": "Grand Seiko",
+    "model": "Evolution 9 Hi-Beat 36000 Self-winding 80 Hours",
+    "reference": "SLGH035",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/slgh035g",
+        "note": "Official Grand Seiko global product page lists SLGH035 with case size Diameter 40.0mm Lug-to-lug 47.0mm Thickness 11.7mm, band width 22mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8161,
+    "brand": "Grand Seiko",
+    "model": "Heritage Collection 62GS 26mm",
+    "reference": "STGF387",
+    "lugToLugMm": 32.9,
+    "caseMm": 26,
+    "thicknessMm": 8.1,
+    "lugWidthMm": 13,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/stgf387g",
+        "note": "Official Grand Seiko global product page lists STGF387 with case size Diameter 26.0mm Lug-to-lug 32.9mm Thickness 8.1mm, band width 13 mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8162,
+    "brand": "Grand Seiko",
+    "model": "Heritage Collection 62GS 26mm",
+    "reference": "STGF389",
+    "lugToLugMm": 32.9,
+    "caseMm": 26,
+    "thicknessMm": 8.1,
+    "lugWidthMm": 13,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/stgf389g",
+        "note": "Official Grand Seiko global product page lists STGF389 with case size Diameter 26.0mm Lug-to-lug 32.9mm Thickness 8.1mm, band width 13 mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8163,
+    "brand": "Grand Seiko",
+    "model": "Heritage Collection Self-winding with manual-winding",
+    "reference": "STGK003",
+    "lugToLugMm": 35.1,
+    "caseMm": 28.7,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 14,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/stgk003j",
+        "note": "Official Grand Seiko US product page lists STGK003 with case size Diameter 28.7mm Lug-to-lug 35.1mm Thickness 10.9mm, band width 14mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8164,
+    "brand": "Grand Seiko",
+    "model": "Heritage Collection",
+    "reference": "STGK004",
+    "lugToLugMm": 35.1,
+    "caseMm": 28.7,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 14,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/stgk004j",
+        "note": "Official Grand Seiko US product page lists STGK004 with case size Diameter 28.7mm Lug-to-lug 35.1mm Thickness 10.9mm, band width 14mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8165,
+    "brand": "Grand Seiko",
+    "model": "Heritage Collection Self-winding with manual-winding",
+    "reference": "STGK006",
+    "lugToLugMm": 35.1,
+    "caseMm": 28.7,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 14,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/us-en/collections/stgk006j",
+        "note": "Official Grand Seiko US product page lists STGK006 with case size Diameter 28.7mm Lug-to-lug 35.1mm Thickness 10.9mm, band width 14mm (stored as lug width)."
+      }
+    ]
+  },
+  {
+    "id": 8166,
+    "brand": "Grand Seiko",
+    "model": "Heritage Collection",
+    "reference": "STGK023",
+    "lugToLugMm": 33.5,
+    "caseMm": 27.8,
+    "thicknessMm": 11.2,
+    "lugWidthMm": 13,
+    "sources": [
+      {
+        "sourceUrl": "https://www.grand-seiko.com/global-en/collections/stgk023g",
+        "note": "Official Grand Seiko global product page lists STGK023 with case size Diameter 27.8mm Lug-to-lug 33.5mm Thickness 11.2mm, band width 13 mm (stored as lug width)."
       }
     ]
   }
