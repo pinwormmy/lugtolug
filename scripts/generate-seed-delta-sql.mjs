@@ -76,7 +76,9 @@ for (const [index, batch] of chunkValues(retiredWatches, watchBatchSize).entries
   const filename = `retired-${String(index + 1).padStart(3, "0")}.sql`;
   const sql = [
     `-- Retired seed watches removed since ${baseRef}; chunk ${index + 1}.`,
-    `UPDATE watches SET status = 'archived', updated_at = CURRENT_TIMESTAMP WHERE id IN (${batch.map((watch) => watch.id).join(", ")}) AND status = 'approved';`,
+    // idx_watches_slugs is not partial, so a retired row must also give up its
+    // route slug: the record it was merged into usually takes that route.
+    `UPDATE watches SET status = 'archived', reference_slug = 'archived-' || id, updated_at = CURRENT_TIMESTAMP WHERE id IN (${batch.map((watch) => watch.id).join(", ")}) AND status = 'approved';`,
     ""
   ].join("\n");
   await writeFile(resolve(outputDir, filename), sql);
