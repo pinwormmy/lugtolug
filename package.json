@@ -20,6 +20,7 @@
     "admin:sql": "node scripts/create-admin-sql.mjs",
     "data:duplicates": "node scripts/watch-duplicate-candidates.mjs",
     "data:import:doxa": "node scripts/import-doxa.mjs",
+    "data:import:nomos": "node scripts/import-nomos.mjs",
     "data:import:norqain": "node scripts/import-norqain.mjs",
     "data:import:union-glashuette": "node scripts/import-union-glashuette.mjs",
     "data:audit:hodinkee": "node scripts/audit-hodinkee.mjs",

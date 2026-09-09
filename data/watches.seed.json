@@ -23242,7 +23242,7 @@
     "sources": [
       {
         "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-101",
-        "note": "Official NOMOS product page lists 35 mm diameter, 45 mm lug-to-lug, 6.2 mm height, and 18 mm lug width."
+        "note": "Official NOMOS Glashütte product page lists Ref. 101 (stainless steel back) and 35.0 mm case diameter, 6.2 mm height, 45.0 mm lug-to-lug, 18 mm lug width."
       },
       {
         "sourceUrl": "https://monochrome-watches.com/revisiting-the-most-classic-nomos-the-35mm-hand-wound-tangente-review-price/",
@@ -23277,9 +23277,13 @@
     "reference": "149",
     "lugToLugMm": 47.3,
     "caseMm": 38.5,
-    "thicknessMm": 7.2,
+    "thicknessMm": 6.9,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-39-149",
+        "note": "Official NOMOS Glashütte product page lists Ref. 149 (stainless steel back) and 38.5 mm case diameter, 6.9 mm height, 47.3 mm lug-to-lug, 19 mm lug width."
+      },
       {
         "sourceUrl": "https://nomos-glashuette.com/en-us/tangente/tangente-neomatik-39-149",
         "note": "Official NOMOS product page lists 38.5 mm diameter, 47.3 mm lug-to-lug, 7.2 mm height, and 19 mm lug width."
@@ -23297,6 +23301,10 @@
     "lugWidthMm": 20,
     "sources": [
       {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-41-update-midnight-blue-182",
+        "note": "Official NOMOS Glashütte product page lists Ref. 182 (sapphire crystal glass back) and 40.5 mm case diameter, 7.8 mm height, 49.3 mm lug-to-lug, 20 mm lug width."
+      },
+      {
         "sourceUrl": "https://nomos-glashuette.com/en-us/tangente/tangente-neomatik-41-update-midnight-blue-182",
         "note": "Official NOMOS product page lists 40.5 mm diameter, 49.3 mm lug-to-lug, 7.8 mm height, and 20 mm lug width."
       }
@@ -23312,6 +23320,10 @@
     "thicknessMm": 8.2,
     "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-703.1",
+        "note": "Official NOMOS Glashütte product page lists Ref. 703.1 (sapphire crystal glass back) and 36.0 mm case diameter, 8.2 mm height, 44.3 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://nomos-glashuette.com/en-us/club/club-703.1",
         "note": "Official NOMOS product page lists 36 mm diameter, 44.3 mm lug-to-lug, 8.2 mm height, and 18 mm lug width."
@@ -23330,7 +23342,7 @@
     "sources": [
       {
         "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-708",
-        "note": "Official NOMOS product page lists 36 mm diameter, 44.3 mm lug-to-lug, 8.2 mm height, and 18 mm lug width."
+        "note": "Official NOMOS Glashütte product page lists Ref. 708 (stainless steel back) and 36.0 mm case diameter, 8.2 mm height, 44.3 mm lug-to-lug, 18 mm lug width."
       }
     ]
   },
@@ -23344,6 +23356,10 @@
     "thicknessMm": 7.8,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/metro/metro-38-1108",
+        "note": "Official NOMOS Glashütte product page lists Ref. 1108 (sapphire crystal glass back) and 38.5 mm case diameter, 7.8 mm height, 45.3 mm lug-to-lug, 19 mm lug width."
+      },
       {
         "sourceUrl": "https://nomos-glashuette.com/en-us/metro/metro-38-1108",
         "note": "Official NOMOS product page lists 38.5 mm diameter, 45.3 mm lug-to-lug, 7.8 mm height, and 19 mm lug width."
@@ -23365,6 +23381,10 @@
     "lugWidthMm": 19,
     "sources": [
       {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-38-384",
+        "note": "Official NOMOS Glashütte product page lists Ref. 384 (domed sapphire crystal glass back) and 38.0 mm case diameter, 8.9 mm height, 48.0 mm lug-to-lug, 19 mm lug width."
+      },
+      {
         "sourceUrl": "https://nomos-glashuette.com/en-us/orion/orion-38-384",
         "note": "Official NOMOS product page lists 38 mm diameter, 48 mm lug-to-lug, 8.9 mm height, and 19 mm lug width."
       }
@@ -23381,6 +23401,10 @@
     "lugWidthMm": 18,
     "sources": [
       {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-27-401",
+        "note": "Official NOMOS Glashütte product page lists Ref. 401 (stainless steel back) and 27.5 mm × 27.5 mm case size (the first value, the case width, is stored as the case diameter), 6.1 mm height, 38.5 mm lug-to-lug, 18 mm lug width."
+      },
+      {
         "sourceUrl": "https://nomos-glashuette.com/en-us/tetra/tetra-27-401",
         "note": "Official NOMOS product page lists 27.5 x 27.5 mm case size, 38.5 mm lug-to-lug, 6.1 mm height, and 18 mm lug width."
       }
@@ -23393,12 +23417,12 @@
     "reference": "408",
     "lugToLugMm": 40.5,
     "caseMm": 29.5,
-    "thicknessMm": 6.5,
+    "thicknessMm": 6.3,
     "lugWidthMm": 18,
     "sources": [
       {
         "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-408",
-        "note": "Official NOMOS product page lists 29.5 x 29.5 mm case size, 40.5 mm lug-to-lug, 6.5 mm height, and 18 mm lug width."
+        "note": "Official NOMOS Glashütte product page lists Ref. 408 (stainless steel back) and 29.5 mm × 29.5 mm case size (the first value, the case width, is stored as the case diameter), 6.3 mm height, 40.5 mm lug-to-lug, 18 mm lug width."
       }
     ]
   },
@@ -29537,11 +29561,15 @@
     "brand": "NOMOS",
     "model": "Club Campus \"Starlight\" Sapphire Back 38mm - Yellow on Strap",
     "reference": "721.GB",
-    "lugToLugMm": 48.9,
+    "lugToLugMm": 46.7,
     "caseMm": 38.5,
     "thicknessMm": 8.5,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-starlight-721.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 721.GB (sapphire crystal glass back) and 38.5 mm case diameter, 8.5 mm height, 46.7 mm lug-to-lug, 20 mm lug width."
+      },
       {
         "sourceUrl": "https://teddybaldassarre.com/en-int/products/club-campus-sapphire-back-38mm-starlight-on-leather-strap",
         "note": "Teddy Baldassarre product page lists reference 721.GB and 38.5 mm case, 8.5 mm case height, 48.9 mm lug-to-lug, 20 mm lug width."
@@ -29559,6 +29587,10 @@
     "lugWidthMm": 18,
     "sources": [
       {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-cream-coral-714",
+        "note": "Official NOMOS Glashütte product page lists Ref. 714 (stainless steel back) and 36.0 mm case diameter, 8.2 mm height, 47.5 mm lug-to-lug."
+      },
+      {
         "sourceUrl": "https://teddybaldassarre.com/en-int/products/club-campus-36-cream-coral",
         "note": "Teddy Baldassarre product page lists reference 714 and 36 mm case, 8.2 mm case height, 47.5 mm lug-to-lug, 18 mm lug width."
       }
@@ -29574,6 +29606,10 @@
     "thicknessMm": 8.5,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-nonstop-red-723",
+        "note": "Official NOMOS Glashütte product page lists Ref. 723 (stainless steel back) and 38.5 mm case diameter, 8.5 mm height, 48.9 mm lug-to-lug, 20 mm lug width."
+      },
       {
         "sourceUrl": "https://teddybaldassarre.com/en-int/products/club-campus-38-nonstop-red-steel-back",
         "note": "Teddy Baldassarre product page lists reference 723 and 38.5 mm case, 8.5 mm case height, 48.9 mm lug-to-lug, 20 mm lug width."
@@ -29591,6 +29627,10 @@
     "lugWidthMm": 20,
     "sources": [
       {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-full-rose-720.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 720.GB (sapphire crystal glass back) and 38.5 mm case diameter, 8.5 mm height, 46.7 mm lug-to-lug, 20 mm lug width."
+      },
+      {
         "sourceUrl": "https://teddybaldassarre.com/en-int/products/club-campus-glass-caseback-38mm-rose-on-leather-strap",
         "note": "Teddy Baldassarre product page lists reference 720.GB and 38.5 mm case, 8.5 mm case height, 46.7 mm lug-to-lug, 20 mm lug width."
       }
@@ -29601,11 +29641,15 @@
     "brand": "NOMOS",
     "model": "Club Campus Steel Back 38.5mm - Rose on Leather Strap",
     "reference": "720",
-    "lugToLugMm": 48.9,
+    "lugToLugMm": 46.7,
     "caseMm": 38.5,
     "thicknessMm": 8.4,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-full-rose-720",
+        "note": "Official NOMOS Glashütte product page lists Ref. 720 (stainless steel back) and 38.5 mm case diameter, 8.4 mm height, 46.7 mm lug-to-lug, 20 mm lug width."
+      },
       {
         "sourceUrl": "https://teddybaldassarre.com/en-int/products/new-38mm-rose-steel-back",
         "note": "Teddy Baldassarre product page lists reference 720 and 38.5 mm case, 8.4 mm case height, 48.9 mm lug-to-lug, 20 mm lug width."
@@ -29622,6 +29666,10 @@
     "thicknessMm": 8.4,
     "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-polar-750",
+        "note": "Official NOMOS Glashütte product page lists Ref. 750 (sapphire crystal glass back) and 37.0 mm case diameter, 8.4 mm height, 47.7 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://teddybaldassarre.com/en-int/products/club-sport-neomatik-polar-37mm",
         "note": "Teddy Baldassarre product page lists reference 750 and 37 mm case, 8.4 mm case height, 47.7 mm lug-to-lug, 18 mm lug width."
@@ -29642,6 +29690,10 @@
     "lugWidthMm": 20,
     "sources": [
       {
+        "sourceUrl": "https://nomos-glashuette.com/en/minimatik/minimatik-39-date-blue-1252",
+        "note": "Official NOMOS Glashütte product page lists Ref. 1252 (sapphire crystal glass back) and 39.5 mm case diameter, 7.5 mm height, 47.7 mm lug-to-lug, 20 mm lug width."
+      },
+      {
         "sourceUrl": "https://teddybaldassarre.com/en-int/products/minimatik-date-39mm-blue-on-leather-strap",
         "note": "Teddy Baldassarre product page lists reference 1252 and 39.5 mm case, 7.5 mm case height, 47.7 mm lug-to-lug, 20 mm lug width."
       }
@@ -29660,6 +29712,10 @@
     "thicknessMm": 7.5,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/minimatik/minimatik-39-date-1250",
+        "note": "Official NOMOS Glashütte product page lists Ref. 1250 (sapphire crystal glass back) and 39.5 mm case diameter, 7.5 mm height, 47.7 mm lug-to-lug, 20 mm lug width."
+      },
       {
         "sourceUrl": "https://teddybaldassarre.com/en-int/products/minimatik-date-39mm-white-silver-plated-on-leather-strap",
         "note": "Teddy Baldassarre product page lists reference 1250 and 39.5 mm case, 7.5 mm case height, 47.7 mm lug-to-lug, 20 mm lug width."
@@ -29680,6 +29736,10 @@
     "lugWidthMm": 20,
     "sources": [
       {
+        "sourceUrl": "https://nomos-glashuette.com/en/minimatik/minimatik-39-date-gold-1251",
+        "note": "Official NOMOS Glashütte product page lists Ref. 1251 (sapphire crystal glass back) and 39.5 mm case diameter, 7.5 mm height, 47.7 mm lug-to-lug, 20 mm lug width."
+      },
+      {
         "sourceUrl": "https://teddybaldassarre.com/en-int/products/minimatik-date-gold-hands-39mm-white-silver-plated-on-leather-strap",
         "note": "Teddy Baldassarre product page lists reference 1251 and 39.5 mm case, 7.5 mm case height, 47.7 mm lug-to-lug, 20 mm lug width."
       }
@@ -29695,6 +29755,10 @@
     "thicknessMm": 6.8,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-38-164",
+        "note": "Official NOMOS Glashütte product page lists Ref. 164 (sapphire crystal glass back) and 37.5 mm case diameter, 6.8 mm height, 47.7 mm lug-to-lug, 19 mm lug width."
+      },
       {
         "sourceUrl": "https://teddybaldassarre.com/en-int/products/tangente-38",
         "note": "Teddy Baldassarre product page lists reference 164 and 37.5 mm case, 6.8 mm case height, 47.7 mm lug-to-lug, 19 mm lug width."
@@ -29716,6 +29780,10 @@
     "lugWidthMm": 19,
     "sources": [
       {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-38-date-130",
+        "note": "Official NOMOS Glashütte product page lists Ref. 130 (sapphire crystal glass back) and 37.5 mm case diameter, 6.8 mm height, 47.7 mm lug-to-lug, 19 mm lug width."
+      },
+      {
         "sourceUrl": "https://teddybaldassarre.com/en-int/products/tangente-38-date",
         "note": "Teddy Baldassarre product page lists reference 130 and 37.5 mm case, 6.8 mm case height, 47.7 mm lug-to-lug, 19 mm lug width."
       },
@@ -29735,6 +29803,10 @@
     "thicknessMm": 6.5,
     "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-ochra-437",
+        "note": "Official NOMOS Glashütte product page lists Ref. 437 (sapphire crystal glass back) and 29.5 mm × 29.5 mm case size (the first value, the case width, is stored as the case diameter), 6.5 mm height, 40.5 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://teddybaldassarre.com/en-int/products/tetra-ochra-sapphire-back-29-5mm-ocher-yellow-on-leather-strap",
         "note": "Teddy Baldassarre product page lists reference 437 and 29.5 mm case, 6.5 mm case height, 40.5 mm lug-to-lug, 18 mm lug width."
@@ -82731,9 +82803,13 @@
     "reference": "790.S4",
     "lugToLugMm": 48,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 9.9,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-worldtimer-glacier-790.s4",
+        "note": "Official NOMOS Glashütte product page lists Ref. 790.S4 (sapphire crystal glass back) and 40.0 mm case diameter, 9.9 mm height, 48.0 mm lug-to-lug."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 48mm lug-to-lug distance, 20mm lug width for Nomos Club Club Sport Neomatik Worldtimer Glacier 790.S4."
@@ -82751,9 +82827,13 @@
     "reference": "735",
     "lugToLugMm": 48.9,
     "caseMm": 38.5,
-    "thicknessMm": null,
+    "thicknessMm": 8.5,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-735",
+        "note": "Official NOMOS Glashütte product page lists Ref. 735 (stainless steel back) and 38.5 mm case diameter, 8.5 mm height, 48.9 mm lug-to-lug, 20 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38.5mm case diameter, 48.9mm lug-to-lug distance, 20mm lug width for Nomos Club Club Campus 38 735."
@@ -82765,11 +82845,15 @@
     "brand": "NOMOS",
     "model": "Club Campus Endless Blue",
     "reference": "717",
-    "lugToLugMm": 47.5,
+    "lugToLugMm": 44.3,
     "caseMm": 36,
-    "thicknessMm": null,
+    "thicknessMm": 8.2,
     "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-endless-blue-717",
+        "note": "Official NOMOS Glashütte product page lists Ref. 717 (stainless steel back) and 36.0 mm case diameter, 8.2 mm height, 44.3 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 36mm case diameter, 47.5mm lug-to-lug distance, 18mm lug width for Nomos Club Club Campus Endless Blue 717."
@@ -82785,11 +82869,15 @@
     "brand": "NOMOS",
     "model": "Club",
     "reference": "701.1",
-    "lugToLugMm": 47.5,
+    "lugToLugMm": 44.3,
     "caseMm": 36,
-    "thicknessMm": null,
+    "thicknessMm": 8,
     "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-701.1",
+        "note": "Official NOMOS Glashütte product page lists Ref. 701.1 (stainless steel back) and 36.0 mm case diameter, 8.0 mm height, 44.3 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 36mm case diameter, 47.5mm lug-to-lug distance, 18mm lug width for Nomos Club Club 701.1."
@@ -82803,9 +82891,13 @@
     "reference": "790",
     "lugToLugMm": 48,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 9.9,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-worldtimer-blue-790",
+        "note": "Official NOMOS Glashütte product page lists Ref. 790 (sapphire crystal glass back) and 40.0 mm case diameter, 9.9 mm height, 48.0 mm lug-to-lug, 20 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 48mm lug-to-lug distance, 20mm lug width for Nomos Club Sport Neomatik Worldtimer Blue 790."
@@ -82823,9 +82915,13 @@
     "reference": "1101",
     "lugToLugMm": 43.6,
     "caseMm": 37,
-    "thicknessMm": null,
+    "thicknessMm": 7.7,
     "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/metro/metro-date-power-reserve-1101",
+        "note": "Official NOMOS Glashütte product page lists Ref. 1101 (sapphire crystal glass back) and 37.0 mm case diameter, 7.7 mm height, 43.6 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 37mm case diameter, 43.6mm lug-to-lug distance, 18mm lug width for Nomos Metro Metro Date Power Reserve 1101."
@@ -82855,9 +82951,13 @@
     "reference": "139",
     "lugToLugMm": 45,
     "caseMm": 35,
-    "thicknessMm": null,
+    "thicknessMm": 6.6,
     "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-139",
+        "note": "Official NOMOS Glashütte product page lists Ref. 139 (sapphire crystal glass back) and 35.0 mm case diameter, 6.6 mm height, 45.0 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 35mm case diameter, 45mm lug-to-lug distance, 18mm lug width for Nomos Tangente Tangente 139."
@@ -82879,9 +82979,13 @@
     "reference": "745",
     "lugToLugMm": 47.7,
     "caseMm": 37,
-    "thicknessMm": null,
+    "thicknessMm": 8.3,
     "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-petrol-745",
+        "note": "Official NOMOS Glashütte product page lists Ref. 745 (stainless steel back) and 37.0 mm case diameter, 8.3 mm height, 47.7 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 37mm case diameter, 47.7mm lug-to-lug distance, 18mm lug width for Nomos Club Club Sport Neomatik Petrol 745."
@@ -82897,11 +83001,15 @@
     "brand": "NOMOS",
     "model": "Club Campus 38 Night Sky",
     "reference": "722",
-    "lugToLugMm": 48.9,
+    "lugToLugMm": 46.7,
     "caseMm": 38.5,
-    "thicknessMm": null,
+    "thicknessMm": 8.5,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-night-sky-722",
+        "note": "Official NOMOS Glashütte product page lists Ref. 722 (stainless steel back) and 38.5 mm case diameter, 8.5 mm height, 46.7 mm lug-to-lug, 20 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38.5mm case diameter, 48.9mm lug-to-lug distance, 20mm lug width for Nomos Club Club Campus 38 Night Sky 722."
@@ -82931,9 +83039,13 @@
     "reference": "180",
     "lugToLugMm": 49.3,
     "caseMm": 40.5,
-    "thicknessMm": null,
+    "thicknessMm": 7.8,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-41-update-180",
+        "note": "Official NOMOS Glashütte product page lists Ref. 180 (sapphire crystal glass back) and 40.5 mm case diameter, 7.8 mm height, 49.3 mm lug-to-lug, 20 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40.5mm case diameter, 49.3mm lug-to-lug distance, 20mm lug width for Nomos Tangente Tangente Neomatik 41 Update 180."
@@ -82947,9 +83059,13 @@
     "reference": "805",
     "lugToLugMm": 49.4,
     "caseMm": 39.9,
-    "thicknessMm": null,
+    "thicknessMm": 10.9,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/zuerich/zuerich-worldtimer-805",
+        "note": "Official NOMOS Glashütte product page lists Ref. 805 (sapphire crystal glass back) and 39.9 mm case diameter, 10.9 mm height, 49.4 mm lug-to-lug, 20 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 39.9mm case diameter, 49.4mm lug-to-lug distance, 20mm lug width for Nomos Zürich Zürich World Time 805."
@@ -82963,9 +83079,13 @@
     "reference": "301",
     "lugToLugMm": 45,
     "caseMm": 35,
-    "thicknessMm": null,
+    "thicknessMm": 7.4,
     "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-301",
+        "note": "Official NOMOS Glashütte product page lists Ref. 301 (stainless steel back) and 35.0 mm case diameter, 7.4 mm height, 45.0 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 35mm case diameter, 45mm lug-to-lug distance, 18mm lug width for Nomos Orion Orion 301."
@@ -82979,9 +83099,13 @@
     "reference": "566",
     "lugToLugMm": 45.5,
     "caseMm": 36.3,
-    "thicknessMm": null,
+    "thicknessMm": 9.5,
     "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ahoi/ahoi-neomatik-atlantic-566",
+        "note": "Official NOMOS Glashütte product page lists Ref. 566 (stainless steel back) and 36.3 mm case diameter, 9.5 mm height, 45.5 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 36.3mm case diameter, 45.5mm lug-to-lug distance, 18mm lug width for Nomos Ahoi Ahoi Neomatik Atlantic 566."
@@ -83011,9 +83135,13 @@
     "reference": "560",
     "lugToLugMm": 45.5,
     "caseMm": 36.3,
-    "thicknessMm": null,
+    "thicknessMm": 9.6,
     "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ahoi/ahoi-neomatik-560",
+        "note": "Official NOMOS Glashütte product page lists Ref. 560 (sapphire crystal glass back) and 36.3 mm case diameter, 9.6 mm height, 45.5 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 36.3mm case diameter, 45.5mm lug-to-lug distance, 18mm lug width for Nomos Ahoi Ahoi Neomatik 560."
@@ -83027,9 +83155,13 @@
     "reference": "759",
     "lugToLugMm": 49.5,
     "caseMm": 39.5,
-    "thicknessMm": null,
+    "thicknessMm": 8.4,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-39-tabac-759",
+        "note": "Official NOMOS Glashütte product page lists Ref. 759 (stainless steel back) and 39.5 mm case diameter, 8.4 mm height, 49.5 mm lug-to-lug, 20 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 39.5mm case diameter, 49.5mm lug-to-lug distance, 20mm lug width for Nomos Club Club Sport Neomatik 39 Tabac 759."
@@ -83043,9 +83175,13 @@
     "reference": "526",
     "lugToLugMm": 48.7,
     "caseMm": 38.5,
-    "thicknessMm": null,
+    "thicknessMm": 9.9,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ahoi/ahoi-neomatik-38-date-sky-526",
+        "note": "Official NOMOS Glashütte product page lists Ref. 526 (sapphire crystal glass back) and 38.5 mm case diameter, 9.9 mm height, 48.7 mm lug-to-lug, 20 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38.5mm case diameter, 48.7mm lug-to-lug distance, 20mm lug width for Nomos Ahoi Ahoi Neomatik 38 Date Sky 526."
@@ -83059,9 +83195,13 @@
     "reference": "1165",
     "lugToLugMm": 47.5,
     "caseMm": 40.5,
-    "thicknessMm": null,
+    "thicknessMm": 9.1,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/metro/metro-neomatik-41-update-1165",
+        "note": "Official NOMOS Glashütte product page lists Ref. 1165 (sapphire crystal glass back) and 40.5 mm case diameter, 9.1 mm height, 47.5 mm lug-to-lug, 20 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40.5mm case diameter, 47.5mm lug-to-lug distance, 20mm lug width for Nomos Metro Metro Neomatik 41 Update 1165."
@@ -83091,9 +83231,13 @@
     "reference": "781",
     "lugToLugMm": 52.3,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 10.2,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-42-date-black-781",
+        "note": "Official NOMOS Glashütte product page lists Ref. 781 (sapphire crystal glass back) and 42.0 mm case diameter, 10.2 mm height, 52.3 mm lug-to-lug, 20 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 42mm case diameter, 52.3mm lug-to-lug distance, 20mm lug width for Nomos Club Club Sport Neomatik 42 Date Black 781."
@@ -83123,9 +83267,13 @@
     "reference": "167",
     "lugToLugMm": 47.7,
     "caseMm": 37.5,
-    "thicknessMm": null,
+    "thicknessMm": 6.8,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-38-midnight-blue-167",
+        "note": "Official NOMOS Glashütte product page lists Ref. 167 (sapphire crystal glass back) and 37.5 mm case diameter, 6.8 mm height, 47.7 mm lug-to-lug, 19 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 37.5mm case diameter, 47.7mm lug-to-lug distance, 19mm lug width for Nomos Tangente Tangente 38 Midnight Blue 167."
@@ -83157,9 +83305,13 @@
     "reference": "243",
     "lugToLugMm": 42.2,
     "caseMm": 32.8,
-    "thicknessMm": null,
+    "thicknessMm": 6.6,
     "lugWidthMm": 17,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-33-243",
+        "note": "Official NOMOS Glashütte product page lists Ref. 243 (stainless steel back) and 32.8 mm case diameter, 6.6 mm height, 42.2 mm lug-to-lug, 17 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 32.8mm case diameter, 42.2mm lug-to-lug distance, 17mm lug width for Nomos Ludwig Ludwig 33 243."
@@ -83189,9 +83341,13 @@
     "reference": "346",
     "lugToLugMm": 47.5,
     "caseMm": 38.5,
-    "thicknessMm": null,
+    "thicknessMm": 8.7,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-neomatik-39-new-black-346",
+        "note": "Official NOMOS Glashütte product page lists Ref. 346 (domed sapphire crystal glass back) and 38.5 mm case diameter, 8.7 mm height, 47.5 mm lug-to-lug, 19 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38.5mm case diameter, 47.5mm lug-to-lug distance, 19mm lug width for Nomos Orion Orion Neomatik 39 New Black 346."
@@ -83221,9 +83377,13 @@
     "reference": "172",
     "lugToLugMm": 45,
     "caseMm": 35,
-    "thicknessMm": null,
+    "thicknessMm": 6.6,
     "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-power-reserve-172",
+        "note": "Official NOMOS Glashütte product page lists Ref. 172 (sapphire crystal glass back) and 35.0 mm case diameter, 6.6 mm height, 45.0 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 35mm case diameter, 45mm lug-to-lug distance, 18mm lug width for Nomos Tangente Tangente Power Reserve 172."
@@ -83253,9 +83413,13 @@
     "reference": "475",
     "lugToLugMm": 40.5,
     "caseMm": 29.5,
-    "thicknessMm": null,
+    "thicknessMm": 6.5,
     "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-die-fuchsteufelswilde-475",
+        "note": "Official NOMOS Glashütte product page lists Ref. 475 (sapphire crystal glass back) and 29.5 mm × 29.5 mm case size (the first value, the case width, is stored as the case diameter), 6.5 mm height, 40.5 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 29.5mm case diameter, 40.5mm lug-to-lug distance, 18mm lug width for Nomos Tetra Tetra – Die Fuchsteufelswilde 475."
@@ -83269,9 +83433,13 @@
     "reference": "474",
     "lugToLugMm": 40.5,
     "caseMm": 29.5,
-    "thicknessMm": null,
+    "thicknessMm": 6.5,
     "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-die-kaprizioese-474",
+        "note": "Official NOMOS Glashütte product page lists Ref. 474 (sapphire crystal glass back) and 29.5 mm × 29.5 mm case size (the first value, the case width, is stored as the case diameter), 6.5 mm height, 40.5 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 29.5mm case diameter, 40.5mm lug-to-lug distance, 18mm lug width for Nomos Tetra Tetra - Die Kapriziöse 474."
@@ -83283,11 +83451,15 @@
     "brand": "NOMOS",
     "model": "Metro Neomatik",
     "reference": "1106",
-    "lugToLugMm": 40.9,
+    "lugToLugMm": 42.1,
     "caseMm": 35,
-    "thicknessMm": null,
+    "thicknessMm": 8.1,
     "lugWidthMm": 17,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/metro/metro-neomatik-1106",
+        "note": "Official NOMOS Glashütte product page lists Ref. 1106 (sapphire crystal glass back) and 35.0 mm case diameter, 8.1 mm height, 42.1 mm lug-to-lug, 17 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 35mm case diameter, 40.9mm lug-to-lug distance, 17mm lug width for Nomos Metro Metro Neomatik 1106."
@@ -83301,9 +83473,13 @@
     "reference": "1113",
     "lugToLugMm": 45.5,
     "caseMm": 38.5,
-    "thicknessMm": null,
+    "thicknessMm": 8.4,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/metro/metro-neomatik-39-1113",
+        "note": "Official NOMOS Glashütte product page lists Ref. 1113 (sapphire crystal glass back) and 38.5 mm case diameter, 8.4 mm height, 45.5 mm lug-to-lug, 19 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38.5mm case diameter, 45.5mm lug-to-lug distance, 19mm lug width for Nomos Metro Metro Neomatik 39 1113."
@@ -83317,9 +83493,13 @@
     "reference": "405",
     "lugToLugMm": 38.5,
     "caseMm": 27.5,
-    "thicknessMm": null,
+    "thicknessMm": 6.1,
     "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-27-duo-dore-405",
+        "note": "Official NOMOS Glashütte product page lists Ref. 405 (stainless steel back) and 27.5 mm × 27.5 mm case size (the first value, the case width, is stored as the case diameter), 6.1 mm height, 38.5 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 27.5mm case diameter, 38.5mm lug-to-lug distance, 18mm lug width for Nomos Tetra Tetra 27 Duo 405."
@@ -83333,9 +83513,13 @@
     "reference": "580",
     "lugToLugMm": 52.6,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 10.9,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-sport-neomatik-42-date-580",
+        "note": "Official NOMOS Glashütte product page lists Ref. 580 (sapphire crystal glass back) and 42.0 mm case diameter, 10.9 mm height, 52.6 mm lug-to-lug, 20 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 42mm case diameter, 52.6mm lug-to-lug distance, 20mm lug width for Nomos Tangente Tangente Sport Neomatik 42 Date 580."
@@ -83365,9 +83549,13 @@
     "reference": "120",
     "lugToLugMm": 42.2,
     "caseMm": 32.8,
-    "thicknessMm": null,
+    "thicknessMm": 6.5,
     "lugWidthMm": 17,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-33-duo-dore-120",
+        "note": "Official NOMOS Glashütte product page lists Ref. 120 (stainless steel back) and 32.8 mm case diameter, 6.5 mm height, 42.2 mm lug-to-lug, 17 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 32.8mm case diameter, 42.2mm lug-to-lug distance, 17mm lug width for Nomos Tangente Tangente 33 Duo 120."
@@ -83381,9 +83569,13 @@
     "reference": "201",
     "lugToLugMm": 45,
     "caseMm": 35,
-    "thicknessMm": null,
+    "thicknessMm": 6.3,
     "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-201",
+        "note": "Official NOMOS Glashütte product page lists Ref. 201 (stainless steel back) and 35.0 mm case diameter, 6.3 mm height, 45.0 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 35mm case diameter, 45mm lug-to-lug distance, 18mm lug width for Nomos Ludwig Ludwig 201."
@@ -83401,9 +83593,13 @@
     "reference": "126",
     "lugToLugMm": 42.2,
     "caseMm": 32.8,
-    "thicknessMm": null,
+    "thicknessMm": 6.5,
     "lugWidthMm": 17,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-33-karat-126",
+        "note": "Official NOMOS Glashütte product page lists Ref. 126 (sapphire crystal glass back) and 32.8 mm case diameter, 6.5 mm height, 42.2 mm lug-to-lug, 17 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 32.8mm case diameter, 42.2mm lug-to-lug distance, 17mm lug width for Nomos Tangente Tangente 33 Karat 126."
@@ -83453,9 +83649,13 @@
     "reference": "236",
     "lugToLugMm": 47.5,
     "caseMm": 37.5,
-    "thicknessMm": null,
+    "thicknessMm": 6.7,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-38-enamel-white-236",
+        "note": "Official NOMOS Glashütte product page lists Ref. 236 (stainless steel back) and 37.5 mm case diameter, 6.7 mm height, 47.5 mm lug-to-lug, 19 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 37.5mm case diameter, 47.5mm lug-to-lug distance, 19mm lug width for Nomos Ludwig Ludwig 38 Enamel White 236."
@@ -83469,9 +83669,13 @@
     "reference": "326",
     "lugToLugMm": 42.3,
     "caseMm": 32.8,
-    "thicknessMm": null,
+    "thicknessMm": 8.5,
     "lugWidthMm": 17,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-1989-326",
+        "note": "Official NOMOS Glashütte product page lists Ref. 326 (domed sapphire crystal glass back) and 32.8 mm case diameter, 8.5 mm height, 42.3 mm lug-to-lug, 17 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 32.8mm case diameter, 42.3mm lug-to-lug distance, 17mm lug width for Nomos Orion Orion 1989 326."
@@ -83501,9 +83705,13 @@
     "reference": "251",
     "lugToLugMm": 50.1,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 8.4,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-automatic-251",
+        "note": "Official NOMOS Glashütte product page lists Ref. 251 (sapphire crystal glass back) and 40.0 mm case diameter, 8.4 mm height, 50.1 mm lug-to-lug, 20 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 50.1mm lug-to-lug distance, 20mm lug width for Nomos Ludwig Ludwig Automatic 251."
@@ -83602,9 +83810,13 @@
     "reference": "1124",
     "lugToLugMm": 40,
     "caseMm": 33,
-    "thicknessMm": null,
+    "thicknessMm": 7.5,
     "lugWidthMm": 16,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/metro/metro-33-sage-1124",
+        "note": "Official NOMOS Glashütte product page lists Ref. 1124 (sapphire crystal glass back) and 33.0 mm case diameter, 7.5 mm height, 40.0 mm lug-to-lug, 16 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 33mm case diameter, 40mm lug-to-lug distance, 16mm lug width for Nomos Metro 33 Metro 33 Sage 1124."
@@ -83618,9 +83830,13 @@
     "reference": "1110",
     "lugToLugMm": 42.1,
     "caseMm": 35,
-    "thicknessMm": null,
+    "thicknessMm": 8.1,
     "lugWidthMm": 17,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/metro/metro-neomatik-midnight-blue-1110",
+        "note": "Official NOMOS Glashütte product page lists Ref. 1110 (sapphire crystal glass back) and 35.0 mm case diameter, 8.1 mm height, 42.1 mm lug-to-lug, 17 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 35mm case diameter, 42.1mm lug-to-lug distance, 17mm lug width for Nomos Metro Metro Neomatik Midnight Blue 1110."
@@ -83633,10 +83849,14 @@
     "model": "Zürich Zurich World Time",
     "reference": "807",
     "lugToLugMm": 49.4,
-    "caseMm": 40,
-    "thicknessMm": null,
+    "caseMm": 39.9,
+    "thicknessMm": 10.9,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/zuerich/zuerich-worldtimer-midnight-blue-807",
+        "note": "Official NOMOS Glashütte product page lists Ref. 807 (sapphire crystal glass back) and 39.9 mm case diameter, 10.9 mm height, 49.4 mm lug-to-lug, 20 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 49.4mm lug-to-lug distance, 20mm lug width for Nomos Zürich Zurich World Time 807."
@@ -83682,9 +83902,13 @@
     "reference": "1180",
     "lugToLugMm": 45.5,
     "caseMm": 38.5,
-    "thicknessMm": null,
+    "thicknessMm": 8.4,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/metro/metro-rose-gold-neomatik-39-1180",
+        "note": "Official NOMOS Glashütte product page lists Ref. 1180 (sapphire crystal glass back) and 38.5 mm case diameter, 8.4 mm height, 45.5 mm lug-to-lug."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38.5mm case diameter, 45.5mm lug-to-lug distance, 19mm lug width for Nomos Metro Metro Rose Gold Neomatik 39 1180."
@@ -83698,9 +83922,13 @@
     "reference": "635",
     "lugToLugMm": 50.5,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 10.9,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangomat/tangomat-gmt-635",
+        "note": "Official NOMOS Glashütte product page lists Ref. 635 (sapphire crystal glass back) and 40.0 mm case diameter, 10.9 mm height, 50.5 mm lug-to-lug, 20 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40mm case diameter, 50.5mm lug-to-lug distance, 20mm lug width for Nomos Tangomat Tangomat GMT 635."
@@ -83714,9 +83942,13 @@
     "reference": "240",
     "lugToLugMm": 42.2,
     "caseMm": 32.8,
-    "thicknessMm": null,
+    "thicknessMm": 6.5,
     "lugWidthMm": 17,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-33-duo-dore-240",
+        "note": "Official NOMOS Glashütte product page lists Ref. 240 (stainless steel back) and 32.8 mm case diameter, 6.5 mm height, 42.2 mm lug-to-lug, 17 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 32.8mm case diameter, 42.2mm lug-to-lug distance, 17mm lug width for Nomos Ludwig Ludwig 33 Duo 240."
@@ -83728,11 +83960,15 @@
     "brand": "NOMOS",
     "model": "Orion 33 Duo",
     "reference": "319",
-    "lugToLugMm": 42.3,
+    "lugToLugMm": 41.3,
     "caseMm": 32.8,
-    "thicknessMm": null,
+    "thicknessMm": 7.6,
     "lugWidthMm": 17,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-33-duo-dore-319",
+        "note": "Official NOMOS Glashütte product page lists Ref. 319 (stainless steel back) and 32.8 mm case diameter, 7.6 mm height, 41.3 mm lug-to-lug, 17 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 32.8mm case diameter, 42.3mm lug-to-lug distance, 17mm lug width for Nomos Orion Orion 33 Duo 319."
@@ -83746,9 +83982,13 @@
     "reference": "378",
     "lugToLugMm": 48,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 7.9,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-38-silver-378",
+        "note": "Official NOMOS Glashütte product page lists Ref. 378 (stainless steel back) and 38.0 mm case diameter, 7.9 mm height, 48.0 mm lug-to-lug, 19 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38mm case diameter, 48mm lug-to-lug distance, 19mm lug width for Nomos Orion 38 Orion 38 Silver 378."
@@ -83762,9 +84002,13 @@
     "reference": "396",
     "lugToLugMm": 45,
     "caseMm": 36.4,
-    "thicknessMm": null,
+    "thicknessMm": 8.5,
     "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-neomatik-new-black-396",
+        "note": "Official NOMOS Glashütte product page lists Ref. 396 (domed sapphire crystal glass back) and 36.4 mm case diameter, 8.5 mm height, 45.0 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 36.4mm case diameter, 45mm lug-to-lug distance, 18mm lug width for Nomos Orion Orion Neomatik New Black 396."
@@ -83822,9 +84066,13 @@
     "reference": "262",
     "lugToLugMm": 49,
     "caseMm": 40.5,
-    "thicknessMm": null,
+    "thicknessMm": 7.7,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-neomatik-41-date-262",
+        "note": "Official NOMOS Glashütte product page lists Ref. 262 (sapphire crystal glass back) and 40.5 mm case diameter, 7.7 mm height, 49.0 mm lug-to-lug, 20 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40.5mm case diameter, 49mm lug-to-lug distance, 20mm lug width for Nomos Ludwig Ludwig Neomatik 41 Date 262."
@@ -83838,9 +84086,13 @@
     "reference": "954",
     "lugToLugMm": 47.9,
     "caseMm": 39,
-    "thicknessMm": null,
+    "thicknessMm": 9.1,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/lambda/lambda-39-velvet-black-954",
+        "note": "Official NOMOS Glashütte product page lists Ref. 954 (sapphire crystal glass back) and 39.0 mm case diameter, 9.1 mm height, 47.9 mm lug-to-lug, 20 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 39mm case diameter, 47.9mm lug-to-lug distance, 20mm lug width for Nomos Lambda Lambda 39 Velvet Black 954."
@@ -83870,9 +84122,13 @@
     "reference": "366",
     "lugToLugMm": 50.5,
     "caseMm": 40.5,
-    "thicknessMm": null,
+    "thicknessMm": 9.4,
     "lugWidthMm": 20,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-neomatik-41-date-new-black-366",
+        "note": "Official NOMOS Glashütte product page lists Ref. 366 (domed sapphire crystal glass back) and 40.5 mm case diameter, 9.4 mm height, 50.5 mm lug-to-lug, 20 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 40.5mm case diameter, 50.5mm lug-to-lug distance, 20mm lug width for Nomos Orion Orion Neomatik 41 Date New Black 366."
@@ -83906,9 +84162,13 @@
     "reference": "931",
     "lugToLugMm": 51.6,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 9,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/lambda/lambda-white-gold-931",
+        "note": "Official NOMOS Glashütte product page lists Ref. 931 (sapphire crystal glass back) and 42.0 mm case diameter, 9.0 mm height, 51.6 mm lug-to-lug, 22 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 42mm case diameter, 51.6mm lug-to-lug distance, 22mm lug width for Nomos Lambda Lambda White Gold 931."
@@ -83922,9 +84182,13 @@
     "reference": "921",
     "lugToLugMm": 48.6,
     "caseMm": 36,
-    "thicknessMm": null,
+    "thicknessMm": 9,
     "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/lux/lux-white-gold-light-921",
+        "note": "Official NOMOS Glashütte product page lists Ref. 921 (sapphire crystal glass back) and 36.0 mm × 40.5 mm case size (the first value, the case width, is stored as the case diameter), 9.0 mm height, 48.6 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 36mm case diameter, 48.6mm lug-to-lug distance, 18mm lug width for Nomos Lux Lux White Gold Light 921."
@@ -83938,9 +84202,13 @@
     "reference": "935",
     "lugToLugMm": 51.6,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 9,
     "lugWidthMm": 22,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/lambda/lambda-deep-blue-935",
+        "note": "Official NOMOS Glashütte product page lists Ref. 935 (sapphire crystal glass back) and 42.0 mm case diameter, 9.0 mm height, 51.6 mm lug-to-lug, 22 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 42mm case diameter, 51.6mm lug-to-lug distance, 22mm lug width for Nomos Lambda Lambda Deep Blue 935."
@@ -83970,9 +84238,13 @@
     "reference": "343",
     "lugToLugMm": 47.5,
     "caseMm": 38.5,
-    "thicknessMm": null,
+    "thicknessMm": 8.7,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-neomatik-39-midnight-blue-343",
+        "note": "Official NOMOS Glashütte product page lists Ref. 343 (domed sapphire crystal glass back) and 38.5 mm case diameter, 8.7 mm height, 47.5 mm lug-to-lug, 19 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 38.5mm case diameter, 47.5mm lug-to-lug distance, 19mm lug width for Nomos Orion Orion Neomatik 39 Midnight Blue 343."
@@ -83986,9 +84258,13 @@
     "reference": "1123.SB",
     "lugToLugMm": 40,
     "caseMm": 33,
-    "thicknessMm": null,
+    "thicknessMm": 7.5,
     "lugWidthMm": 16,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/metro/metro-33-muted-red-1123.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 1123.SB (stainless steel back) and 33.0 mm case diameter, 7.5 mm height, 40.0 mm lug-to-lug, 16 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 33mm case diameter, 40mm lug-to-lug distance, 16mm lug width for Nomos Metro Metro 33 Muted Red 1123.SB."
@@ -84069,9 +84345,13 @@
     "reference": "1170",
     "lugToLugMm": 40,
     "caseMm": 33,
-    "thicknessMm": null,
+    "thicknessMm": 7.7,
     "lugWidthMm": 16,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/metro/metro-rose-gold-33-1170",
+        "note": "Official NOMOS Glashütte product page lists Ref. 1170 (sapphire crystal glass back) and 33.0 mm case diameter, 7.7 mm height, 40.0 mm lug-to-lug, 16 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 33mm case diameter, 40mm lug-to-lug distance, 16mm lug width for Nomos Metro Metro Rose Gold 33 1170."
@@ -84085,9 +84365,13 @@
     "reference": "940",
     "lugToLugMm": 46.1,
     "caseMm": 34,
-    "thicknessMm": null,
+    "thicknessMm": 9,
     "lugWidthMm": 17,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/lux/lux-hermelin-940",
+        "note": "Official NOMOS Glashütte product page lists Ref. 940 (sapphire crystal glass back) and 34.0 mm × 38.5 mm case size (the first value, the case width, is stored as the case diameter), 9.0 mm height, 46.1 mm lug-to-lug, 17 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 34mm case diameter, 46.1mm lug-to-lug distance, 17mm lug width for Nomos Lux Lux Hermelin 940."
@@ -84101,9 +84385,13 @@
     "reference": "941",
     "lugToLugMm": 46.1,
     "caseMm": 34,
-    "thicknessMm": null,
+    "thicknessMm": 9,
     "lugWidthMm": 17,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/lux/lux-zikade-941",
+        "note": "Official NOMOS Glashütte product page lists Ref. 941 (sapphire crystal glass back) and 34.0 mm × 38.5 mm case size (the first value, the case width, is stored as the case diameter), 9.0 mm height, 46.1 mm lug-to-lug, 17 mm lug width."
+      },
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 34mm case diameter, 46.1mm lug-to-lug distance, 17mm lug width for Nomos Lux Lux Zikade 941."
@@ -114754,22 +115042,6 @@
     ]
   },
   {
-    "id": 6410,
-    "brand": "NOMOS",
-    "model": "Tangente 2date",
-    "reference": "Tangente 2date",
-    "lugToLugMm": 47.7,
-    "caseMm": 37.5,
-    "thicknessMm": 6.8,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://www.hodinkee.com/articles/nomos-glashutte-introduces-the-tangente-2date-with-a-brand-new-movement",
-        "note": "Hodinkee reports 47.7mm lug-to-lug, 37.5mm case size/width, 6.8mm thickness for NOMOS Glashütte Tangente 2date in “Hands-On: Nomos Glashütte Introduces The Tangente 2date With A Brand New Movement.”"
-      }
-    ]
-  },
-  {
     "id": 6411,
     "brand": "Omega",
     "model": "Seamaster Planet Ocean 36th America's Cup Limited Edition",
@@ -117525,11 +117797,15 @@
     "brand": "NOMOS",
     "model": "Tangente Neomatik 39",
     "reference": "140",
-    "lugToLugMm": 48,
+    "lugToLugMm": 47.3,
     "caseMm": 38.5,
     "thicknessMm": 7.2,
     "lugWidthMm": 19,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-39-140",
+        "note": "Official NOMOS Glashütte product page lists Ref. 140 (sapphire crystal glass back) and 38.5 mm case diameter, 7.2 mm height, 47.3 mm lug-to-lug, 19 mm lug width."
+      },
       {
         "sourceUrl": "https://www.hodinkee.com/articles/nomos-tangente-junghans-max-bill-bauhaus",
         "note": "Hodinkee reports 48mm lug-to-lug, 38.5mm case size/width, 7.2mm thickness, 19mm lug width for NOMOS Tangente Neomatik 39 in “Steal Vs. Splurge: Minimalist Madness With NOMOS And Junghans.”"
@@ -124094,8 +124370,12 @@
     "lugToLugMm": 40.5,
     "caseMm": 29.5,
     "thicknessMm": 6.5,
-    "lugWidthMm": null,
+    "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-terra-438",
+        "note": "Official NOMOS Glashütte product page lists Ref. 438 (sapphire crystal glass back) and 29.5 mm × 29.5 mm case size (the first value, the case width, is stored as the case diameter), 6.5 mm height, 40.5 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://www.hodinkee.com/articles/nomos-glashutte-refreshes-its-square-silhouette-with-the-tetra-origins-collection",
         "note": "Hodinkee reports 40.5mm lug-to-lug, 29.5mm case size/width, 6.5mm thickness for NOMOS Glashütte Tetra Terra in “Hands-On: Nomos Glashütte Refreshes Its Square Silhouette With The Tetra Origins Collection.”"
@@ -124110,8 +124390,12 @@
     "lugToLugMm": 40.5,
     "caseMm": 29.5,
     "thicknessMm": 6.5,
-    "lugWidthMm": null,
+    "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-salvia-439",
+        "note": "Official NOMOS Glashütte product page lists Ref. 439 (sapphire crystal glass back) and 29.5 mm × 29.5 mm case size (the first value, the case width, is stored as the case diameter), 6.5 mm height, 40.5 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://www.hodinkee.com/articles/nomos-glashutte-refreshes-its-square-silhouette-with-the-tetra-origins-collection",
         "note": "Hodinkee reports 40.5mm lug-to-lug, 29.5mm case size/width, 6.5mm thickness for NOMOS Glashütte Tetra Salvia in “Hands-On: Nomos Glashütte Refreshes Its Square Silhouette With The Tetra Origins Collection.”"
@@ -124126,8 +124410,12 @@
     "lugToLugMm": 40.5,
     "caseMm": 29.5,
     "thicknessMm": 6.5,
-    "lugWidthMm": null,
+    "lugWidthMm": 18,
     "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-basalt-440",
+        "note": "Official NOMOS Glashütte product page lists Ref. 440 (sapphire crystal glass back) and 29.5 mm × 29.5 mm case size (the first value, the case width, is stored as the case diameter), 6.5 mm height, 40.5 mm lug-to-lug, 18 mm lug width."
+      },
       {
         "sourceUrl": "https://www.hodinkee.com/articles/nomos-glashutte-refreshes-its-square-silhouette-with-the-tetra-origins-collection",
         "note": "Hodinkee reports 40.5mm lug-to-lug, 29.5mm case size/width, 6.5mm thickness for NOMOS Glashütte Tetra Basalt in “Hands-On: Nomos Glashütte Refreshes Its Square Silhouette With The Tetra Origins Collection.”"
@@ -134211,6 +134499,2778 @@
       {
         "sourceUrl": "https://www.union-glashuette.com/en_int/d0124271105700.html",
         "note": "Official Union Glashütte product page lists reference D012.427.11.057.00 and 42mm case diameter, 50.63mm lug-to-lug, 14.5mm thickness, 22mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7568,
+    "brand": "NOMOS",
+    "model": "Tangente 33",
+    "reference": "123",
+    "lugToLugMm": 42.2,
+    "caseMm": 32.8,
+    "thicknessMm": 6.5,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-33-123",
+        "note": "Official NOMOS Glashütte product page lists Ref. 123 (sapphire crystal glass back) and 32.8 mm case diameter, 6.5 mm height, 42.2 mm lug-to-lug, 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7569,
+    "brand": "NOMOS",
+    "model": "Tangente 33",
+    "reference": "122",
+    "lugToLugMm": 42.2,
+    "caseMm": 32.8,
+    "thicknessMm": 6.5,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-33-122",
+        "note": "Official NOMOS Glashütte product page lists Ref. 122 (stainless steel back) and 32.8 mm case diameter, 6.5 mm height, 42.2 mm lug-to-lug, 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7570,
+    "brand": "NOMOS",
+    "model": "Tangente 33 champagne",
+    "reference": "150",
+    "lugToLugMm": 42.2,
+    "caseMm": 32.8,
+    "thicknessMm": 6.5,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-33-champagne-150",
+        "note": "Official NOMOS Glashütte product page lists Ref. 150 (stainless steel back) and 32.8 mm case diameter, 6.5 mm height, 42.2 mm lug-to-lug, 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7571,
+    "brand": "NOMOS",
+    "model": "Tangente 33 champagne",
+    "reference": "151",
+    "lugToLugMm": 42.2,
+    "caseMm": 32.8,
+    "thicknessMm": 6.6,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-33-champagne-151",
+        "note": "Official NOMOS Glashütte product page lists Ref. 151 (sapphire crystal glass back) and 32.8 mm case diameter, 6.6 mm height, 42.2 mm lug-to-lug, 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7572,
+    "brand": "NOMOS",
+    "model": "Tangente 33 duo doré",
+    "reference": "127",
+    "lugToLugMm": 42.2,
+    "caseMm": 32.8,
+    "thicknessMm": 6.6,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-33-duo-dore-127",
+        "note": "Official NOMOS Glashütte product page lists Ref. 127 (sapphire crystal glass back) and 32.8 mm case diameter, 6.6 mm height, 42.2 mm lug-to-lug, 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7573,
+    "brand": "NOMOS",
+    "model": "Tangente gold 33",
+    "reference": "104",
+    "lugToLugMm": 42.2,
+    "caseMm": 32.8,
+    "thicknessMm": 6.6,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-gold-33-104",
+        "note": "Official NOMOS Glashütte product page lists Ref. 104 (sapphire crystal glass back) and 32.8 mm case diameter, 6.6 mm height, 42.2 mm lug-to-lug, 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7574,
+    "brand": "NOMOS",
+    "model": "Tangente gold 33 doré",
+    "reference": "105",
+    "lugToLugMm": 42.2,
+    "caseMm": 32.8,
+    "thicknessMm": 6.6,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-gold-33-dore-105",
+        "note": "Official NOMOS Glashütte product page lists Ref. 105 (sapphire crystal glass back) and 32.8 mm case diameter, 6.6 mm height, 42.2 mm lug-to-lug, 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7575,
+    "brand": "NOMOS",
+    "model": "Tangente midnight blue",
+    "reference": "132",
+    "lugToLugMm": 45,
+    "caseMm": 35,
+    "thicknessMm": 6.2,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-midnight-blue-132",
+        "note": "Official NOMOS Glashütte product page lists Ref. 132 (stainless steel back) and 35.0 mm case diameter, 6.2 mm height, 45.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7576,
+    "brand": "NOMOS",
+    "model": "Tangente midnight blue",
+    "reference": "133",
+    "lugToLugMm": 45,
+    "caseMm": 35,
+    "thicknessMm": 6.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-midnight-blue-133",
+        "note": "Official NOMOS Glashütte product page lists Ref. 133 (sapphire crystal glass back) and 35.0 mm case diameter, 6.5 mm height, 45.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7577,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik blue gold",
+    "reference": "191",
+    "lugToLugMm": 43,
+    "caseMm": 35,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-blue-gold-191",
+        "note": "Official NOMOS Glashütte product page lists Ref. 191 (sapphire crystal glass back) and 35.0 mm case diameter, 6.9 mm height, 43.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7578,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik blue gold",
+    "reference": "190",
+    "lugToLugMm": 43,
+    "caseMm": 35,
+    "thicknessMm": 6.7,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-blue-gold-190",
+        "note": "Official NOMOS Glashütte product page lists Ref. 190 (stainless steel back) and 35.0 mm case diameter, 6.7 mm height, 43.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7579,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik champagne",
+    "reference": "176",
+    "lugToLugMm": 43,
+    "caseMm": 35,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-champagne-176",
+        "note": "Official NOMOS Glashütte product page lists Ref. 176 (sapphire crystal glass back) and 35.0 mm case diameter, 6.9 mm height, 43.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7580,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik doré",
+    "reference": "192",
+    "lugToLugMm": 43,
+    "caseMm": 35,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-dore-192",
+        "note": "Official NOMOS Glashütte product page lists Ref. 192 (sapphire crystal glass back) and 35.0 mm case diameter, 6.9 mm height, 43.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7581,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik doré",
+    "reference": "192.SB",
+    "lugToLugMm": 43,
+    "caseMm": 35,
+    "thicknessMm": 6.7,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-dore-192.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 192.SB (stainless steel back) and 35.0 mm case diameter, 6.7 mm height, 43.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7582,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik platinum gray",
+    "reference": "189",
+    "lugToLugMm": 43,
+    "caseMm": 35,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-platinum-gray-189",
+        "note": "Official NOMOS Glashütte product page lists Ref. 189 (sapphire crystal glass back) and 35.0 mm case diameter, 6.9 mm height, 43.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7583,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik platinum gray",
+    "reference": "188",
+    "lugToLugMm": 43,
+    "caseMm": 35,
+    "thicknessMm": 6.7,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-platinum-gray-188",
+        "note": "Official NOMOS Glashütte product page lists Ref. 188 (stainless steel back) and 35.0 mm case diameter, 6.7 mm height, 43.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7584,
+    "brand": "NOMOS",
+    "model": "Tangente 2date",
+    "reference": "135.SB",
+    "lugToLugMm": 47.7,
+    "caseMm": 37.5,
+    "thicknessMm": 6.7,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-2date-135.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 135.SB (stainless steel back) and 37.5 mm case diameter, 6.7 mm height, 47.7 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7585,
+    "brand": "NOMOS",
+    "model": "Tangente 2date",
+    "reference": "135",
+    "lugToLugMm": 47.7,
+    "caseMm": 37.5,
+    "thicknessMm": 6.8,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-2date-135",
+        "note": "Official NOMOS Glashütte product page lists Ref. 135 (sapphire crystal glass back) and 37.5 mm case diameter, 6.8 mm height, 47.7 mm lug-to-lug, 19 mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/nomos-glashutte-introduces-the-tangente-2date-with-a-brand-new-movement",
+        "note": "Hodinkee reports 47.7mm lug-to-lug, 37.5mm case size/width, 6.8mm thickness for NOMOS Glashütte Tangente 2date in “Hands-On: Nomos Glashütte Introduces The Tangente 2date With A Brand New Movement.”"
+      }
+    ]
+  },
+  {
+    "id": 7586,
+    "brand": "NOMOS",
+    "model": "Tangente 2date blue",
+    "reference": "136",
+    "lugToLugMm": 47.7,
+    "caseMm": 37.5,
+    "thicknessMm": 6.8,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-2date-blue-136",
+        "note": "Official NOMOS Glashütte product page lists Ref. 136 (sapphire crystal glass back) and 37.5 mm case diameter, 6.8 mm height, 47.7 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7587,
+    "brand": "NOMOS",
+    "model": "Tangente 2date blue",
+    "reference": "136.SB",
+    "lugToLugMm": 47.7,
+    "caseMm": 37.5,
+    "thicknessMm": 6.7,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-2date-blue-136.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 136.SB (stainless steel back) and 37.5 mm case diameter, 6.7 mm height, 47.7 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7588,
+    "brand": "NOMOS",
+    "model": "Tangente 38",
+    "reference": "165",
+    "lugToLugMm": 47.7,
+    "caseMm": 37.5,
+    "thicknessMm": 6.7,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-38-165",
+        "note": "Official NOMOS Glashütte product page lists Ref. 165 (stainless steel back) and 37.5 mm case diameter, 6.7 mm height, 47.7 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7589,
+    "brand": "NOMOS",
+    "model": "Tangente 38 midnight blue",
+    "reference": "166",
+    "lugToLugMm": 47.7,
+    "caseMm": 37.5,
+    "thicknessMm": 6.7,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-38-midnight-blue-166",
+        "note": "Official NOMOS Glashütte product page lists Ref. 166 (stainless steel back) and 37.5 mm case diameter, 6.7 mm height, 47.7 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7590,
+    "brand": "NOMOS",
+    "model": "Tangente gold neomatik 38 Update",
+    "reference": "195",
+    "lugToLugMm": 47.3,
+    "caseMm": 38.5,
+    "thicknessMm": 7.4,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-gold-neomatik-38-update-195",
+        "note": "Official NOMOS Glashütte product page lists Ref. 195 (sapphire crystal glass back) and 38.5 mm case diameter, 7.4 mm height, 47.3 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7591,
+    "brand": "NOMOS",
+    "model": "Tangente gold neomatik 38 Update doré",
+    "reference": "196",
+    "lugToLugMm": 47.3,
+    "caseMm": 38.5,
+    "thicknessMm": 7.4,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-gold-neomatik-38-update-dore-196",
+        "note": "Official NOMOS Glashütte product page lists Ref. 196 (sapphire crystal glass back) and 38.5 mm case diameter, 7.4 mm height, 47.3 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7592,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik 38 Update",
+    "reference": "147.SB",
+    "lugToLugMm": 47.3,
+    "caseMm": 38.5,
+    "thicknessMm": 7.3,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-38-update-147.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 147.SB (stainless steel back) and 38.5 mm case diameter, 7.3 mm height, 47.3 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7593,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik 38 Update",
+    "reference": "147",
+    "lugToLugMm": 47.3,
+    "caseMm": 38.5,
+    "thicknessMm": 7.4,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-38-update-147",
+        "note": "Official NOMOS Glashütte product page lists Ref. 147 (sapphire crystal glass back) and 38.5 mm case diameter, 7.4 mm height, 47.3 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7594,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik 38 Update forest green",
+    "reference": "148.SB",
+    "lugToLugMm": 47.3,
+    "caseMm": 38.5,
+    "thicknessMm": 7.3,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-38-update-forest-green-148.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 148.SB (stainless steel back) and 38.5 mm case diameter, 7.3 mm height, 47.3 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7595,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik 38 Update forest green",
+    "reference": "148",
+    "lugToLugMm": 47.3,
+    "caseMm": 38.5,
+    "thicknessMm": 7.4,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-38-update-forest-green-148",
+        "note": "Official NOMOS Glashütte product page lists Ref. 148 (sapphire crystal glass back) and 38.5 mm case diameter, 7.4 mm height, 47.3 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7596,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik 39 blue gold",
+    "reference": "146",
+    "lugToLugMm": 47.3,
+    "caseMm": 38.5,
+    "thicknessMm": 7.2,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-39-blue-gold-146",
+        "note": "Official NOMOS Glashütte product page lists Ref. 146 (sapphire crystal glass back) and 38.5 mm case diameter, 7.2 mm height, 47.3 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7597,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik 39 blue gold",
+    "reference": "145",
+    "lugToLugMm": 47.3,
+    "caseMm": 38.5,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-39-blue-gold-145",
+        "note": "Official NOMOS Glashütte product page lists Ref. 145 (stainless steel back) and 38.5 mm case diameter, 6.9 mm height, 47.3 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7598,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik 39 midnight blue",
+    "reference": "142",
+    "lugToLugMm": 47.3,
+    "caseMm": 38.5,
+    "thicknessMm": 7.2,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-39-midnight-blue-142",
+        "note": "Official NOMOS Glashütte product page lists Ref. 142 (sapphire crystal glass back) and 38.5 mm case diameter, 7.2 mm height, 47.3 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7599,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik 39 platinum gray",
+    "reference": "143",
+    "lugToLugMm": 47.3,
+    "caseMm": 38.5,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-39-platinum-gray-143",
+        "note": "Official NOMOS Glashütte product page lists Ref. 143 (stainless steel back) and 38.5 mm case diameter, 6.9 mm height, 47.3 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7600,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik 39 platinum gray",
+    "reference": "144",
+    "lugToLugMm": 47.3,
+    "caseMm": 38.5,
+    "thicknessMm": 7.2,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-39-platinum-gray-144",
+        "note": "Official NOMOS Glashütte product page lists Ref. 144 (sapphire crystal glass back) and 38.5 mm case diameter, 7.2 mm height, 47.3 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7601,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik 41 Update",
+    "reference": "180.SB",
+    "lugToLugMm": 49.3,
+    "caseMm": 40.5,
+    "thicknessMm": 7.7,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-41-update-180.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 180.SB (stainless steel back) and 40.5 mm case diameter, 7.7 mm height, 49.3 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7602,
+    "brand": "NOMOS",
+    "model": "Tangente neomatik 41 Update midnight blue",
+    "reference": "182.SB",
+    "lugToLugMm": 49.3,
+    "caseMm": 40.5,
+    "thicknessMm": 7.7,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-neomatik-41-update-midnight-blue-182.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 182.SB (stainless steel back) and 40.5 mm case diameter, 7.7 mm height, 49.3 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7603,
+    "brand": "NOMOS",
+    "model": "Tangente Sport neomatik 42 date marine black",
+    "reference": "581",
+    "lugToLugMm": 52.6,
+    "caseMm": 42,
+    "thicknessMm": 10.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-sport-neomatik-42-date-marine-black-581",
+        "note": "Official NOMOS Glashütte product page lists Ref. 581 (sapphire crystal glass back) and 42.0 mm case diameter, 10.9 mm height, 52.6 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7604,
+    "brand": "NOMOS",
+    "model": "Tangente gold neomatik",
+    "reference": "161",
+    "lugToLugMm": 43,
+    "caseMm": 35,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-gold-neomatik-161",
+        "note": "Official NOMOS Glashütte product page lists Ref. 161 (sapphire crystal glass back) and 35.0 mm case diameter, 6.9 mm height, 43.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7605,
+    "brand": "NOMOS",
+    "model": "Tangente gold neomatik doré",
+    "reference": "162",
+    "lugToLugMm": 43,
+    "caseMm": 35,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-gold-neomatik-dore-162",
+        "note": "Official NOMOS Glashütte product page lists Ref. 162 (sapphire crystal glass back) and 35.0 mm case diameter, 6.9 mm height, 43.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7606,
+    "brand": "NOMOS",
+    "model": "Tangente gold neomatik ruthenium",
+    "reference": "163",
+    "lugToLugMm": 43,
+    "caseMm": 35,
+    "thicknessMm": 6.9,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tangente/tangente-gold-neomatik-ruthenium-163",
+        "note": "Official NOMOS Glashütte product page lists Ref. 163 (sapphire crystal glass back) and 35.0 mm case diameter, 6.9 mm height, 43.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7607,
+    "brand": "NOMOS",
+    "model": "Ludwig 33",
+    "reference": "244",
+    "lugToLugMm": 42.2,
+    "caseMm": 32.8,
+    "thicknessMm": 6.5,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-33-244",
+        "note": "Official NOMOS Glashütte product page lists Ref. 244 (sapphire crystal glass back) and 32.8 mm case diameter, 6.5 mm height, 42.2 mm lug-to-lug, 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7608,
+    "brand": "NOMOS",
+    "model": "Ludwig 33 duo doré",
+    "reference": "241",
+    "lugToLugMm": 42.2,
+    "caseMm": 32.8,
+    "thicknessMm": 6.6,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-33-duo-dore-241",
+        "note": "Official NOMOS Glashütte product page lists Ref. 241 (sapphire crystal glass back) and 32.8 mm case diameter, 6.6 mm height, 42.2 mm lug-to-lug, 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7609,
+    "brand": "NOMOS",
+    "model": "Ludwig 33 duo enamel white",
+    "reference": "242",
+    "lugToLugMm": 42.2,
+    "caseMm": 32.8,
+    "thicknessMm": 6.5,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-33-duo-enamel-white-242",
+        "note": "Official NOMOS Glashütte product page lists Ref. 242 (stainless steel back) and 32.8 mm case diameter, 6.5 mm height, 42.2 mm lug-to-lug, 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7610,
+    "brand": "NOMOS",
+    "model": "Ludwig 33 duo enamel white",
+    "reference": "249",
+    "lugToLugMm": 42.2,
+    "caseMm": 32.8,
+    "thicknessMm": 6.6,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-33-duo-enamel-white-249",
+        "note": "Official NOMOS Glashütte product page lists Ref. 249 (sapphire crystal glass back) and 32.8 mm case diameter, 6.6 mm height, 42.2 mm lug-to-lug, 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7611,
+    "brand": "NOMOS",
+    "model": "Ludwig 33 noir",
+    "reference": "226",
+    "lugToLugMm": 42.2,
+    "caseMm": 32.8,
+    "thicknessMm": 6.5,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-33-noir-226",
+        "note": "Official NOMOS Glashütte product page lists Ref. 226 (stainless steel back) and 32.8 mm case diameter, 6.5 mm height, 42.2 mm lug-to-lug, 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7612,
+    "brand": "NOMOS",
+    "model": "Ludwig 33 noir",
+    "reference": "227",
+    "lugToLugMm": 42.2,
+    "caseMm": 32.8,
+    "thicknessMm": 6.6,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-33-noir-227",
+        "note": "Official NOMOS Glashütte product page lists Ref. 227 (sapphire crystal glass back) and 32.8 mm case diameter, 6.6 mm height, 42.2 mm lug-to-lug, 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7613,
+    "brand": "NOMOS",
+    "model": "Ludwig gold 33 doré",
+    "reference": "210",
+    "lugToLugMm": 42.2,
+    "caseMm": 32.8,
+    "thicknessMm": 6.6,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-gold-33-dore-210",
+        "note": "Official NOMOS Glashütte product page lists Ref. 210 (sapphire crystal glass back) and 32.8 mm case diameter, 6.6 mm height, 42.2 mm lug-to-lug, 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7614,
+    "brand": "NOMOS",
+    "model": "Ludwig",
+    "reference": "205",
+    "lugToLugMm": 45,
+    "caseMm": 35,
+    "thicknessMm": 6.8,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-205",
+        "note": "Official NOMOS Glashütte product page lists Ref. 205 (sapphire crystal glass back) and 35.0 mm case diameter, 6.8 mm height, 45.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7615,
+    "brand": "NOMOS",
+    "model": "Ludwig gold",
+    "reference": "211.GOB",
+    "lugToLugMm": 45,
+    "caseMm": 35,
+    "thicknessMm": 6.3,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-gold-211.gob",
+        "note": "Official NOMOS Glashütte product page lists Ref. 211.GOB (gold back) and 35.0 mm case diameter, 6.3 mm height, 45.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7616,
+    "brand": "NOMOS",
+    "model": "Ludwig gold doré",
+    "reference": "212.GOB",
+    "lugToLugMm": 45,
+    "caseMm": 35,
+    "thicknessMm": 6.3,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-gold-dore-212.gob",
+        "note": "Official NOMOS Glashütte product page lists Ref. 212.GOB (gold back) and 35.0 mm case diameter, 6.3 mm height, 45.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7617,
+    "brand": "NOMOS",
+    "model": "Ludwig gold enamel white",
+    "reference": "215",
+    "lugToLugMm": 45,
+    "caseMm": 35,
+    "thicknessMm": 6.7,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-gold-enamel-white-215",
+        "note": "Official NOMOS Glashütte product page lists Ref. 215 (sapphire crystal glass back) and 35.0 mm case diameter, 6.7 mm height, 45.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7618,
+    "brand": "NOMOS",
+    "model": "Ludwig gold enamel white doré",
+    "reference": "216",
+    "lugToLugMm": 45,
+    "caseMm": 35,
+    "thicknessMm": 6.7,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-gold-enamel-white-dore-216",
+        "note": "Official NOMOS Glashütte product page lists Ref. 216 (sapphire crystal glass back) and 35.0 mm case diameter, 6.7 mm height, 45.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7619,
+    "brand": "NOMOS",
+    "model": "Ludwig 38",
+    "reference": "235",
+    "lugToLugMm": 47.5,
+    "caseMm": 37.5,
+    "thicknessMm": 6.7,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-38-235",
+        "note": "Official NOMOS Glashütte product page lists Ref. 235 (stainless steel back) and 37.5 mm case diameter, 6.7 mm height, 47.5 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7620,
+    "brand": "NOMOS",
+    "model": "Ludwig 38",
+    "reference": "234",
+    "lugToLugMm": 47.5,
+    "caseMm": 37.5,
+    "thicknessMm": 6.8,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-38-234",
+        "note": "Official NOMOS Glashütte product page lists Ref. 234 (sapphire crystal glass back) and 37.5 mm case diameter, 6.8 mm height, 47.5 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7621,
+    "brand": "NOMOS",
+    "model": "Ludwig 38 date",
+    "reference": "231",
+    "lugToLugMm": 47.5,
+    "caseMm": 37.5,
+    "thicknessMm": 6.8,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-38-date-231",
+        "note": "Official NOMOS Glashütte product page lists Ref. 231 (sapphire crystal glass back) and 37.5 mm case diameter, 6.8 mm height, 47.5 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7622,
+    "brand": "NOMOS",
+    "model": "Ludwig 38 enamel white",
+    "reference": "237",
+    "lugToLugMm": 47.5,
+    "caseMm": 37.5,
+    "thicknessMm": 6.8,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-38-enamel-white-237",
+        "note": "Official NOMOS Glashütte product page lists Ref. 237 (sapphire crystal glass back) and 37.5 mm case diameter, 6.8 mm height, 47.5 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7623,
+    "brand": "NOMOS",
+    "model": "Ludwig neomatik für Ärzte ohne Grenzen",
+    "reference": "282.S2",
+    "lugToLugMm": 46,
+    "caseMm": 36.4,
+    "thicknessMm": 7,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-neomatik-fuer-aerzte-ohne-grenzen-282.s2",
+        "note": "Official NOMOS Glashütte product page lists Ref. 282.S2 (sapphire crystal glass back) and 36.4 mm case diameter, 7.0 mm height, 46.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7624,
+    "brand": "NOMOS",
+    "model": "Ludwig neomatik 39 für Ärzte ohne Grenzen",
+    "reference": "250.S2",
+    "lugToLugMm": 48.5,
+    "caseMm": 38.5,
+    "thicknessMm": 7,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ludwig/ludwig-neomatik-39-fuer-aerzte-ohne-grenzen-250.s2",
+        "note": "Official NOMOS Glashütte product page lists Ref. 250.S2 (sapphire crystal glass back) and 38.5 mm case diameter, 7.0 mm height, 48.5 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7625,
+    "brand": "NOMOS",
+    "model": "Orion 33 duo doré",
+    "reference": "320",
+    "lugToLugMm": 42.3,
+    "caseMm": 32.8,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-33-duo-dore-320",
+        "note": "Official NOMOS Glashütte product page lists Ref. 320 (sapphire crystal glass back) and 32.8 mm case diameter, 8.5 mm height, 42.3 mm lug-to-lug, 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7626,
+    "brand": "NOMOS",
+    "model": "Orion 33 midnight blue",
+    "reference": "330",
+    "lugToLugMm": 42.3,
+    "caseMm": 32.8,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-33-midnight-blue-330",
+        "note": "Official NOMOS Glashütte product page lists Ref. 330 (stainless steel back) and 32.8 mm case diameter, 8.5 mm height, 42.3 mm lug-to-lug, 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7627,
+    "brand": "NOMOS",
+    "model": "Orion 33 midnight blue",
+    "reference": "329",
+    "lugToLugMm": 42.3,
+    "caseMm": 32.8,
+    "thicknessMm": 7.6,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-33-midnight-blue-329",
+        "note": "Official NOMOS Glashütte product page lists Ref. 329 (domed sapphire crystal glass back) and 32.8 mm case diameter, 7.6 mm height, 42.3 mm lug-to-lug, 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7628,
+    "brand": "NOMOS",
+    "model": "Orion 33 rose",
+    "reference": "315",
+    "lugToLugMm": 41.3,
+    "caseMm": 32.8,
+    "thicknessMm": 7.6,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-33-rose-315",
+        "note": "Official NOMOS Glashütte product page lists Ref. 315 (stainless steel back) and 32.8 mm case diameter, 7.6 mm height, 41.3 mm lug-to-lug, 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7629,
+    "brand": "NOMOS",
+    "model": "Orion 33 rose",
+    "reference": "325",
+    "lugToLugMm": 41.3,
+    "caseMm": 32.8,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-33-rose-325",
+        "note": "Official NOMOS Glashütte product page lists Ref. 325 (domed sapphire crystal glass back) and 32.8 mm case diameter, 8.5 mm height, 41.3 mm lug-to-lug, 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7630,
+    "brand": "NOMOS",
+    "model": "Orion",
+    "reference": "309",
+    "lugToLugMm": 45,
+    "caseMm": 35,
+    "thicknessMm": 7.8,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-309",
+        "note": "Official NOMOS Glashütte product page lists Ref. 309 (sapphire crystal glass back) and 35.0 mm case diameter, 7.8 mm height, 45.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7631,
+    "brand": "NOMOS",
+    "model": "Orion gold neomatik",
+    "reference": "348",
+    "lugToLugMm": 45,
+    "caseMm": 36.4,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-gold-neomatik-348",
+        "note": "Official NOMOS Glashütte product page lists Ref. 348 (domed sapphire crystal glass back) and 36.4 mm case diameter, 8.5 mm height, 45.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7632,
+    "brand": "NOMOS",
+    "model": "Orion gold neomatik doré",
+    "reference": "349",
+    "lugToLugMm": 45,
+    "caseMm": 36.4,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-gold-neomatik-dore-349",
+        "note": "Official NOMOS Glashütte product page lists Ref. 349 (domed sapphire crystal glass back) and 36.4 mm case diameter, 8.5 mm height, 45.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7633,
+    "brand": "NOMOS",
+    "model": "Orion gold neomatik new black",
+    "reference": "350",
+    "lugToLugMm": 45,
+    "caseMm": 36.4,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-gold-neomatik-new-black-350",
+        "note": "Official NOMOS Glashütte product page lists Ref. 350 (domed sapphire crystal glass back) and 36.4 mm case diameter, 8.5 mm height, 45.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7634,
+    "brand": "NOMOS",
+    "model": "Orion neomatik doré",
+    "reference": "397",
+    "lugToLugMm": 45,
+    "caseMm": 36.4,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-neomatik-dore-397",
+        "note": "Official NOMOS Glashütte product page lists Ref. 397 (domed sapphire crystal glass back) and 36.4 mm case diameter, 8.5 mm height, 45.0 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7635,
+    "brand": "NOMOS",
+    "model": "Orion 38",
+    "reference": "387",
+    "lugToLugMm": 48,
+    "caseMm": 38,
+    "thicknessMm": 7.9,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-38-387",
+        "note": "Official NOMOS Glashütte product page lists Ref. 387 (stainless steel back) and 38.0 mm case diameter, 7.9 mm height, 48.0 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7636,
+    "brand": "NOMOS",
+    "model": "Orion 38 silver",
+    "reference": "379",
+    "lugToLugMm": 48,
+    "caseMm": 38,
+    "thicknessMm": 8.9,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/orion/orion-38-silver-379",
+        "note": "Official NOMOS Glashütte product page lists Ref. 379 (domed sapphire crystal glass back) and 38.0 mm case diameter, 8.9 mm height, 48.0 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7637,
+    "brand": "NOMOS",
+    "model": "Tetra 27",
+    "reference": "401.GB",
+    "lugToLugMm": 38.5,
+    "caseMm": 27.5,
+    "thicknessMm": 6.4,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-27-401.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 401.GB (sapphire crystal glass back) and 27.5 mm × 27.5 mm case size (the first value, the case width, is stored as the case diameter), 6.4 mm height, 38.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7638,
+    "brand": "NOMOS",
+    "model": "Tetra 27 duo",
+    "reference": "410.GB",
+    "lugToLugMm": 38.5,
+    "caseMm": 27.5,
+    "thicknessMm": 6.4,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-27-duo-410.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 410.GB (sapphire crystal glass back) and 27.5 mm × 27.5 mm case size (the first value, the case width, is stored as the case diameter), 6.4 mm height, 38.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7639,
+    "brand": "NOMOS",
+    "model": "Tetra 27 duo",
+    "reference": "410",
+    "lugToLugMm": 38.5,
+    "caseMm": 27.5,
+    "thicknessMm": 6.1,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-27-duo-410",
+        "note": "Official NOMOS Glashütte product page lists Ref. 410 (stainless steel back) and 27.5 mm × 27.5 mm case size (the first value, the case width, is stored as the case diameter), 6.1 mm height, 38.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7640,
+    "brand": "NOMOS",
+    "model": "Tetra 27 duo doré",
+    "reference": "405.GB",
+    "lugToLugMm": 38.5,
+    "caseMm": 27.5,
+    "thicknessMm": 6.4,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-27-duo-dore-405.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 405.GB (sapphire crystal glass back) and 27.5 mm × 27.5 mm case size (the first value, the case width, is stored as the case diameter), 6.4 mm height, 38.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7641,
+    "brand": "NOMOS",
+    "model": "Tetra 27 white",
+    "reference": "402",
+    "lugToLugMm": 38.5,
+    "caseMm": 27.5,
+    "thicknessMm": 6.1,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-27-white-402",
+        "note": "Official NOMOS Glashütte product page lists Ref. 402 (stainless steel back) and 27.5 mm × 27.5 mm case size (the first value, the case width, is stored as the case diameter), 6.1 mm height, 38.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7642,
+    "brand": "NOMOS",
+    "model": "Tetra 27 white",
+    "reference": "402.GB",
+    "lugToLugMm": 38.5,
+    "caseMm": 27.5,
+    "thicknessMm": 6.4,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-27-white-402.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 402.GB (sapphire crystal glass back) and 27.5 mm × 27.5 mm case size (the first value, the case width, is stored as the case diameter), 6.4 mm height, 38.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7643,
+    "brand": "NOMOS",
+    "model": "Tetra gold 27",
+    "reference": "418",
+    "lugToLugMm": 38.5,
+    "caseMm": 27.5,
+    "thicknessMm": 6.4,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-gold-27-418",
+        "note": "Official NOMOS Glashütte product page lists Ref. 418 (sapphire crystal glass back) and 27.5 mm × 27.5 mm case size (the first value, the case width, is stored as the case diameter), 6.4 mm height, 38.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7644,
+    "brand": "NOMOS",
+    "model": "Tetra gold 27 doré",
+    "reference": "419",
+    "lugToLugMm": 38.5,
+    "caseMm": 27.5,
+    "thicknessMm": 6.4,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-gold-27-dore-419",
+        "note": "Official NOMOS Glashütte product page lists Ref. 419 (sapphire crystal glass back) and 27.5 mm × 27.5 mm case size (the first value, the case width, is stored as the case diameter), 6.4 mm height, 38.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7645,
+    "brand": "NOMOS",
+    "model": "Tetra",
+    "reference": "406",
+    "lugToLugMm": 40.5,
+    "caseMm": 29.5,
+    "thicknessMm": 6.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-406",
+        "note": "Official NOMOS Glashütte product page lists Ref. 406 (sapphire crystal glass back) and 29.5 mm × 29.5 mm case size (the first value, the case width, is stored as the case diameter), 6.5 mm height, 40.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7646,
+    "brand": "NOMOS",
+    "model": "Tetra Basalt",
+    "reference": "440.SB",
+    "lugToLugMm": 40.5,
+    "caseMm": 29.5,
+    "thicknessMm": 6.3,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-basalt-440.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 440.SB (stainless steel back) and 29.5 mm × 29.5 mm case size (the first value, the case width, is stored as the case diameter), 6.3 mm height, 40.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7647,
+    "brand": "NOMOS",
+    "model": "Tetra Ochra",
+    "reference": "437.SB",
+    "lugToLugMm": 40.5,
+    "caseMm": 29.5,
+    "thicknessMm": 6.3,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-ochra-437.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 437.SB (stainless steel back) and 29.5 mm × 29.5 mm case size (the first value, the case width, is stored as the case diameter), 6.3 mm height, 40.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7648,
+    "brand": "NOMOS",
+    "model": "Tetra Salvia",
+    "reference": "439.SB",
+    "lugToLugMm": 40.5,
+    "caseMm": 29.5,
+    "thicknessMm": 6.3,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-salvia-439.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 439.SB (stainless steel back) and 29.5 mm × 29.5 mm case size (the first value, the case width, is stored as the case diameter), 6.3 mm height, 40.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7649,
+    "brand": "NOMOS",
+    "model": "Tetra Terra",
+    "reference": "438.SB",
+    "lugToLugMm": 40.5,
+    "caseMm": 29.5,
+    "thicknessMm": 6.3,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-terra-438.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 438.SB (stainless steel back) and 29.5 mm × 29.5 mm case size (the first value, the case width, is stored as the case diameter), 6.3 mm height, 40.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7650,
+    "brand": "NOMOS",
+    "model": "Tetra – Die Fuchsteufelswilde",
+    "reference": "425",
+    "lugToLugMm": 40.5,
+    "caseMm": 29.5,
+    "thicknessMm": 6.3,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-die-fuchsteufelswilde-425",
+        "note": "Official NOMOS Glashütte product page lists Ref. 425 (stainless steel back) and 29.5 mm × 29.5 mm case size (the first value, the case width, is stored as the case diameter), 6.3 mm height, 40.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7651,
+    "brand": "NOMOS",
+    "model": "Tetra – Die Unerreichbare",
+    "reference": "427",
+    "lugToLugMm": 40.5,
+    "caseMm": 29.5,
+    "thicknessMm": 6.3,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-die-unerreichbare-427",
+        "note": "Official NOMOS Glashütte product page lists Ref. 427 (stainless steel back) and 29.5 mm × 29.5 mm case size (the first value, the case width, is stored as the case diameter), 6.3 mm height, 40.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7652,
+    "brand": "NOMOS",
+    "model": "Tetra – Die Unerreichbare",
+    "reference": "477",
+    "lugToLugMm": 40.5,
+    "caseMm": 29.5,
+    "thicknessMm": 6.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-die-unerreichbare-477",
+        "note": "Official NOMOS Glashütte product page lists Ref. 477 (sapphire crystal glass back) and 29.5 mm × 29.5 mm case size (the first value, the case width, is stored as the case diameter), 6.5 mm height, 40.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7653,
+    "brand": "NOMOS",
+    "model": "Tetra – Die Kapriziöse",
+    "reference": "424",
+    "lugToLugMm": 40.5,
+    "caseMm": 29.5,
+    "thicknessMm": 6.3,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-die-kaprizioese-424",
+        "note": "Official NOMOS Glashütte product page lists Ref. 424 (stainless steel back) and 29.5 mm × 29.5 mm case size (the first value, the case width, is stored as the case diameter), 6.3 mm height, 40.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7654,
+    "brand": "NOMOS",
+    "model": "Tetra – Die Wildentschlossene",
+    "reference": "476",
+    "lugToLugMm": 40.5,
+    "caseMm": 29.5,
+    "thicknessMm": 6.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-die-wildentschlossene-476",
+        "note": "Official NOMOS Glashütte product page lists Ref. 476 (sapphire crystal glass back) and 29.5 mm × 29.5 mm case size (the first value, the case width, is stored as the case diameter), 6.5 mm height, 40.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7655,
+    "brand": "NOMOS",
+    "model": "Tetra – Die Wildentschlossene",
+    "reference": "426",
+    "lugToLugMm": 40.5,
+    "caseMm": 29.5,
+    "thicknessMm": 6.3,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/tetra/tetra-die-wildentschlossene-426",
+        "note": "Official NOMOS Glashütte product page lists Ref. 426 (stainless steel back) and 29.5 mm × 29.5 mm case size (the first value, the case width, is stored as the case diameter), 6.3 mm height, 40.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7656,
+    "brand": "NOMOS",
+    "model": "Ahoi neomatik Atlantic",
+    "reference": "567",
+    "lugToLugMm": 45.5,
+    "caseMm": 36.3,
+    "thicknessMm": 9.6,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ahoi/ahoi-neomatik-atlantic-567",
+        "note": "Official NOMOS Glashütte product page lists Ref. 567 (sapphire crystal glass back) and 36.3 mm case diameter, 9.6 mm height, 45.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7657,
+    "brand": "NOMOS",
+    "model": "Ahoi neomatik sand",
+    "reference": "569.SB",
+    "lugToLugMm": 45.5,
+    "caseMm": 36.3,
+    "thicknessMm": 9,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ahoi/ahoi-neomatik-sand-569.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 569.SB (stainless steel back) and 36.3 mm case diameter, 9.0 mm height, 45.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7658,
+    "brand": "NOMOS",
+    "model": "Ahoi neomatik sand",
+    "reference": "569",
+    "lugToLugMm": 45.5,
+    "caseMm": 36.3,
+    "thicknessMm": 9.1,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ahoi/ahoi-neomatik-sand-569",
+        "note": "Official NOMOS Glashütte product page lists Ref. 569 (sapphire crystal glass back) and 36.3 mm case diameter, 9.1 mm height, 45.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7659,
+    "brand": "NOMOS",
+    "model": "Ahoi neomatik siren red",
+    "reference": "563",
+    "lugToLugMm": 45.5,
+    "caseMm": 36.3,
+    "thicknessMm": 9.6,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ahoi/ahoi-neomatik-siren-red-563",
+        "note": "Official NOMOS Glashütte product page lists Ref. 563 (sapphire crystal glass back) and 36.3 mm case diameter, 9.6 mm height, 45.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7660,
+    "brand": "NOMOS",
+    "model": "Ahoi neomatik sky",
+    "reference": "568",
+    "lugToLugMm": 45.5,
+    "caseMm": 36.3,
+    "thicknessMm": 9.1,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ahoi/ahoi-neomatik-sky-568",
+        "note": "Official NOMOS Glashütte product page lists Ref. 568 (sapphire crystal glass back) and 36.3 mm case diameter, 9.1 mm height, 45.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7661,
+    "brand": "NOMOS",
+    "model": "Ahoi neomatik sky",
+    "reference": "568.SB",
+    "lugToLugMm": 45.5,
+    "caseMm": 36.3,
+    "thicknessMm": 9,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ahoi/ahoi-neomatik-sky-568.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 568.SB (stainless steel back) and 36.3 mm case diameter, 9.0 mm height, 45.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7662,
+    "brand": "NOMOS",
+    "model": "Ahoi neomatik 38 date",
+    "reference": "525",
+    "lugToLugMm": 48.7,
+    "caseMm": 38.5,
+    "thicknessMm": 9.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ahoi/ahoi-neomatik-38-date-525",
+        "note": "Official NOMOS Glashütte product page lists Ref. 525 (sapphire crystal glass back) and 38.5 mm case diameter, 9.9 mm height, 48.7 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7663,
+    "brand": "NOMOS",
+    "model": "Ahoi neomatik 38 date",
+    "reference": "525.SB",
+    "lugToLugMm": 48.7,
+    "caseMm": 38.5,
+    "thicknessMm": 9.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ahoi/ahoi-neomatik-38-date-525.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 525.SB (stainless steel back) and 38.5 mm case diameter, 9.8 mm height, 48.7 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7664,
+    "brand": "NOMOS",
+    "model": "Ahoi neomatik 38 date Atlantic",
+    "reference": "528",
+    "lugToLugMm": 48.7,
+    "caseMm": 38.5,
+    "thicknessMm": 9.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ahoi/ahoi-neomatik-38-date-atlantic-528",
+        "note": "Official NOMOS Glashütte product page lists Ref. 528 (sapphire crystal glass back) and 38.5 mm case diameter, 9.9 mm height, 48.7 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7665,
+    "brand": "NOMOS",
+    "model": "Ahoi neomatik 38 date Atlantic",
+    "reference": "518",
+    "lugToLugMm": 48.7,
+    "caseMm": 38.5,
+    "thicknessMm": 9.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ahoi/ahoi-neomatik-38-date-atlantic-518",
+        "note": "Official NOMOS Glashütte product page lists Ref. 518 (stainless steel back) and 38.5 mm case diameter, 9.8 mm height, 48.7 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7666,
+    "brand": "NOMOS",
+    "model": "Ahoi neomatik 38 date sand",
+    "reference": "527",
+    "lugToLugMm": 48.7,
+    "caseMm": 38.5,
+    "thicknessMm": 9.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ahoi/ahoi-neomatik-38-date-sand-527",
+        "note": "Official NOMOS Glashütte product page lists Ref. 527 (sapphire crystal glass back) and 38.5 mm case diameter, 9.9 mm height, 48.7 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7667,
+    "brand": "NOMOS",
+    "model": "Ahoi neomatik 38 date sand",
+    "reference": "517",
+    "lugToLugMm": 48.7,
+    "caseMm": 38.5,
+    "thicknessMm": 9.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ahoi/ahoi-neomatik-38-date-sand-517",
+        "note": "Official NOMOS Glashütte product page lists Ref. 517 (stainless steel back) and 38.5 mm case diameter, 9.8 mm height, 48.7 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7668,
+    "brand": "NOMOS",
+    "model": "Ahoi neomatik 38 date sky",
+    "reference": "516",
+    "lugToLugMm": 48.7,
+    "caseMm": 38.5,
+    "thicknessMm": 9.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/ahoi/ahoi-neomatik-38-date-sky-516",
+        "note": "Official NOMOS Glashütte product page lists Ref. 516 (stainless steel back) and 38.5 mm case diameter, 9.8 mm height, 48.7 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7669,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik 34 gold",
+    "reference": "755",
+    "lugToLugMm": 41.5,
+    "caseMm": 34,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-34-gold-755",
+        "note": "Official NOMOS Glashütte product page lists Ref. 755 (sapphire crystal glass back) and 34.0 mm case diameter, 8.2 mm height, 41.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7670,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik 34 gold",
+    "reference": "755.SB",
+    "lugToLugMm": 41.5,
+    "caseMm": 34,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-34-gold-755.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 755.SB (stainless steel back) and 34.0 mm case diameter, 8.2 mm height, 41.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7671,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik 34 purple",
+    "reference": "757",
+    "lugToLugMm": 41.5,
+    "caseMm": 34,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-34-purple-757",
+        "note": "Official NOMOS Glashütte product page lists Ref. 757 (sapphire crystal glass back) and 34.0 mm case diameter, 8.2 mm height, 41.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7672,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik 34 purple",
+    "reference": "757.SB",
+    "lugToLugMm": 41.5,
+    "caseMm": 34,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-34-purple-757.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 757.SB (stainless steel back) and 34.0 mm case diameter, 8.2 mm height, 41.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7673,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik 34 rosé",
+    "reference": "756.SB",
+    "lugToLugMm": 41.5,
+    "caseMm": 34,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-34-rose-756.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 756.SB (stainless steel back) and 34.0 mm case diameter, 8.2 mm height, 41.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7674,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik 34 rosé",
+    "reference": "756",
+    "lugToLugMm": 41.5,
+    "caseMm": 34,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-34-rose-756",
+        "note": "Official NOMOS Glashütte product page lists Ref. 756 (sapphire crystal glass back) and 34.0 mm case diameter, 8.2 mm height, 41.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7675,
+    "brand": "NOMOS",
+    "model": "Club Campus",
+    "reference": "709",
+    "lugToLugMm": 44.3,
+    "caseMm": 36,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-709",
+        "note": "Official NOMOS Glashütte product page lists Ref. 709 (sapphire crystal glass back) and 36.0 mm case diameter, 8.2 mm height, 44.3 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7676,
+    "brand": "NOMOS",
+    "model": "Club Campus all olive",
+    "reference": "707",
+    "lugToLugMm": 44.3,
+    "caseMm": 36,
+    "thicknessMm": 8.1,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-all-olive-707",
+        "note": "Official NOMOS Glashütte product page lists Ref. 707 (stainless steel back) and 36.0 mm case diameter, 8.1 mm height, 44.3 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7677,
+    "brand": "NOMOS",
+    "model": "Club Campus all olive",
+    "reference": "707.GB",
+    "lugToLugMm": 44.3,
+    "caseMm": 36,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-all-olive-707.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 707.GB (sapphire crystal glass back) and 36.0 mm case diameter, 8.2 mm height, 44.3 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7678,
+    "brand": "NOMOS",
+    "model": "Club Campus cream coral",
+    "reference": "714.GB",
+    "lugToLugMm": 47.5,
+    "caseMm": 36,
+    "thicknessMm": 8.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-cream-coral-714.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 714.GB (sapphire crystal glass back) and 36.0 mm case diameter, 8.2 mm height, 47.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 7679,
+    "brand": "NOMOS",
+    "model": "Club Campus deep pink",
+    "reference": "711",
+    "lugToLugMm": 44.3,
+    "caseMm": 36,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-deep-pink-711",
+        "note": "Official NOMOS Glashütte product page lists Ref. 711 (stainless steel back) and 36.0 mm case diameter, 8.2 mm height, 44.3 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7680,
+    "brand": "NOMOS",
+    "model": "Club Campus deep pink",
+    "reference": "711.GB",
+    "lugToLugMm": 47.5,
+    "caseMm": 36,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-deep-pink-711.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 711.GB (sapphire crystal glass back) and 36.0 mm case diameter, 8.2 mm height, 47.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7681,
+    "brand": "NOMOS",
+    "model": "Club Campus electric green",
+    "reference": "715.GB",
+    "lugToLugMm": 47.5,
+    "caseMm": 36,
+    "thicknessMm": 8.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-electric-green-715.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 715.GB (sapphire crystal glass back) and 36.0 mm case diameter, 8.2 mm height, 47.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 7682,
+    "brand": "NOMOS",
+    "model": "Club Campus electric green",
+    "reference": "715",
+    "lugToLugMm": 47.5,
+    "caseMm": 36,
+    "thicknessMm": 8.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-electric-green-715",
+        "note": "Official NOMOS Glashütte product page lists Ref. 715 (stainless steel back) and 36.0 mm case diameter, 8.2 mm height, 47.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 7683,
+    "brand": "NOMOS",
+    "model": "Club Campus endless blue",
+    "reference": "717.GB",
+    "lugToLugMm": 44.3,
+    "caseMm": 36,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-endless-blue-717.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 717.GB (sapphire crystal glass back) and 36.0 mm case diameter, 8.2 mm height, 44.3 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7684,
+    "brand": "NOMOS",
+    "model": "Club Campus full rose",
+    "reference": "706.GB",
+    "lugToLugMm": 44.3,
+    "caseMm": 36,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-full-rose-706.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 706.GB (sapphire crystal glass back) and 36.0 mm case diameter, 8.2 mm height, 44.3 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7685,
+    "brand": "NOMOS",
+    "model": "Club Campus full rose",
+    "reference": "706",
+    "lugToLugMm": 44.3,
+    "caseMm": 36,
+    "thicknessMm": 8.1,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-full-rose-706",
+        "note": "Official NOMOS Glashütte product page lists Ref. 706 (stainless steel back) and 36.0 mm case diameter, 8.1 mm height, 44.3 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7686,
+    "brand": "NOMOS",
+    "model": "Club Campus night sky",
+    "reference": "719.GB",
+    "lugToLugMm": 44.3,
+    "caseMm": 36,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-night-sky-719.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 719.GB (sapphire crystal glass back) and 36.0 mm case diameter, 8.2 mm height, 44.3 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7687,
+    "brand": "NOMOS",
+    "model": "Club Campus night sky",
+    "reference": "719",
+    "lugToLugMm": 44.3,
+    "caseMm": 36,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-night-sky-719",
+        "note": "Official NOMOS Glashütte product page lists Ref. 719 (stainless steel back) and 36.0 mm case diameter, 8.2 mm height, 44.3 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7688,
+    "brand": "NOMOS",
+    "model": "Club Campus nonstop red",
+    "reference": "716",
+    "lugToLugMm": 47.5,
+    "caseMm": 36,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-nonstop-red-716",
+        "note": "Official NOMOS Glashütte product page lists Ref. 716 (stainless steel back) and 36.0 mm case diameter, 8.2 mm height, 47.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7689,
+    "brand": "NOMOS",
+    "model": "Club Campus nonstop red",
+    "reference": "716.GB",
+    "lugToLugMm": 47.5,
+    "caseMm": 36,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-nonstop-red-716.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 716.GB (sapphire crystal glass back) and 36.0 mm case diameter, 8.2 mm height, 47.5 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7690,
+    "brand": "NOMOS",
+    "model": "Club Campus starlight",
+    "reference": "718",
+    "lugToLugMm": 44.3,
+    "caseMm": 36,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-starlight-718",
+        "note": "Official NOMOS Glashütte product page lists Ref. 718 (stainless steel back) and 36.0 mm case diameter, 8.2 mm height, 44.3 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7691,
+    "brand": "NOMOS",
+    "model": "Club Campus starlight",
+    "reference": "718.GB",
+    "lugToLugMm": 44.3,
+    "caseMm": 36,
+    "thicknessMm": 8.2,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-starlight-718.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 718.GB (sapphire crystal glass back) and 36.0 mm case diameter, 8.2 mm height, 44.3 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7692,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik petrol",
+    "reference": "746",
+    "lugToLugMm": 47.7,
+    "caseMm": 37,
+    "thicknessMm": 8.4,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-petrol-746",
+        "note": "Official NOMOS Glashütte product page lists Ref. 746 (sapphire crystal glass back) and 37.0 mm case diameter, 8.4 mm height, 47.7 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7693,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik polar",
+    "reference": "747",
+    "lugToLugMm": 47.7,
+    "caseMm": 37,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-polar-747",
+        "note": "Official NOMOS Glashütte product page lists Ref. 747 (stainless steel back) and 37.0 mm case diameter, 8.3 mm height, 47.7 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7694,
+    "brand": "NOMOS",
+    "model": "Club Campus 38",
+    "reference": "737",
+    "lugToLugMm": 46.7,
+    "caseMm": 38.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-737",
+        "note": "Official NOMOS Glashütte product page lists Ref. 737 (sapphire crystal glass back) and 38.5 mm case diameter, 8.5 mm height, 46.7 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7695,
+    "brand": "NOMOS",
+    "model": "Club Campus 38 all olive",
+    "reference": "739",
+    "lugToLugMm": 46.7,
+    "caseMm": 38.5,
+    "thicknessMm": 8.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-all-olive-739",
+        "note": "Official NOMOS Glashütte product page lists Ref. 739 (stainless steel back) and 38.5 mm case diameter, 8.4 mm height, 46.7 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7696,
+    "brand": "NOMOS",
+    "model": "Club Campus 38 all olive",
+    "reference": "739.GB",
+    "lugToLugMm": 46.7,
+    "caseMm": 38.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-all-olive-739.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 739.GB (sapphire crystal glass back) and 38.5 mm case diameter, 8.5 mm height, 46.7 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7697,
+    "brand": "NOMOS",
+    "model": "Club Campus 38 blue purple",
+    "reference": "730",
+    "lugToLugMm": 48.9,
+    "caseMm": 38.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-blue-purple-730",
+        "note": "Official NOMOS Glashütte product page lists Ref. 730 (stainless steel back) and 38.5 mm case diameter, 8.5 mm height, 48.9 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7698,
+    "brand": "NOMOS",
+    "model": "Club Campus 38 cream coral",
+    "reference": "725",
+    "lugToLugMm": 48.9,
+    "caseMm": 38.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-cream-coral-725",
+        "note": "Official NOMOS Glashütte product page lists Ref. 725 (stainless steel back) and 38.5 mm case diameter, 8.5 mm height, 48.9 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7699,
+    "brand": "NOMOS",
+    "model": "Club Campus 38 Cream Coral",
+    "reference": "725.GB",
+    "lugToLugMm": 48.9,
+    "caseMm": 38.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-cream-coral-725.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 725.GB (sapphire crystal glass back) and 38.5 mm case diameter, 8.5 mm height, 48.9 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7700,
+    "brand": "NOMOS",
+    "model": "Club Campus 38 electric green",
+    "reference": "726",
+    "lugToLugMm": 48.9,
+    "caseMm": 38.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-electric-green-726",
+        "note": "Official NOMOS Glashütte product page lists Ref. 726 (stainless steel back) and 38.5 mm case diameter, 8.5 mm height, 48.9 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7701,
+    "brand": "NOMOS",
+    "model": "Club Campus 38 electric green",
+    "reference": "726.GB",
+    "lugToLugMm": 46.7,
+    "caseMm": 38.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-electric-green-726.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 726.GB (sapphire crystal glass back) and 38.5 mm case diameter, 8.5 mm height, 46.7 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7702,
+    "brand": "NOMOS",
+    "model": "Club Campus 38 endless blue",
+    "reference": "724",
+    "lugToLugMm": 46.7,
+    "caseMm": 38.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-endless-blue-724",
+        "note": "Official NOMOS Glashütte product page lists Ref. 724 (stainless steel back) and 38.5 mm case diameter, 8.5 mm height, 46.7 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7703,
+    "brand": "NOMOS",
+    "model": "Club Campus 38 endless blue",
+    "reference": "724.GB",
+    "lugToLugMm": 46.7,
+    "caseMm": 38.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-endless-blue-724.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 724.GB (sapphire crystal glass back) and 38.5 mm case diameter, 8.5 mm height, 46.7 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7704,
+    "brand": "NOMOS",
+    "model": "Club Campus 38 night",
+    "reference": "736",
+    "lugToLugMm": 46.7,
+    "caseMm": 38.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-night-736",
+        "note": "Official NOMOS Glashütte product page lists Ref. 736 (stainless steel back) and 38.5 mm case diameter, 8.5 mm height, 46.7 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7705,
+    "brand": "NOMOS",
+    "model": "Club Campus 38 night",
+    "reference": "738",
+    "lugToLugMm": 46.7,
+    "caseMm": 38.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-night-738",
+        "note": "Official NOMOS Glashütte product page lists Ref. 738 (sapphire crystal glass back) and 38.5 mm case diameter, 8.5 mm height, 46.7 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7706,
+    "brand": "NOMOS",
+    "model": "Club Campus 38 night sky",
+    "reference": "722.GB",
+    "lugToLugMm": 46.7,
+    "caseMm": 38.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-night-sky-722.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 722.GB (sapphire crystal glass back) and 38.5 mm case diameter, 8.5 mm height, 46.7 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7707,
+    "brand": "NOMOS",
+    "model": "Club Campus 38 nonstop red",
+    "reference": "723.GB",
+    "lugToLugMm": 48.9,
+    "caseMm": 38.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-nonstop-red-723.gb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 723.GB (sapphire crystal glass back) and 38.5 mm case diameter, 8.5 mm height, 48.9 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7708,
+    "brand": "NOMOS",
+    "model": "Club Campus 38 starlight",
+    "reference": "721",
+    "lugToLugMm": 48.9,
+    "caseMm": 38.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-campus-38-starlight-721",
+        "note": "Official NOMOS Glashütte product page lists Ref. 721 (stainless steel back) and 38.5 mm case diameter, 8.5 mm height, 48.9 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7709,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik 39 ember",
+    "reference": "762",
+    "lugToLugMm": 49.5,
+    "caseMm": 39.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-39-ember-762",
+        "note": "Official NOMOS Glashütte product page lists Ref. 762 (sapphire crystal glass back) and 39.5 mm case diameter, 8.5 mm height, 49.5 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7710,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik 39 ember",
+    "reference": "761",
+    "lugToLugMm": 49.5,
+    "caseMm": 39.5,
+    "thicknessMm": 8.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-39-ember-761",
+        "note": "Official NOMOS Glashütte product page lists Ref. 761 (stainless steel back) and 39.5 mm case diameter, 8.4 mm height, 49.5 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7711,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik 39 smoke",
+    "reference": "764",
+    "lugToLugMm": 49.5,
+    "caseMm": 39.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-39-smoke-764",
+        "note": "Official NOMOS Glashütte product page lists Ref. 764 (sapphire crystal glass back) and 39.5 mm case diameter, 8.5 mm height, 49.5 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7712,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik 39 smoke",
+    "reference": "763",
+    "lugToLugMm": 49.5,
+    "caseMm": 39.5,
+    "thicknessMm": 8.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-39-smoke-763",
+        "note": "Official NOMOS Glashütte product page lists Ref. 763 (stainless steel back) and 39.5 mm case diameter, 8.4 mm height, 49.5 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7713,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik 39 tabac",
+    "reference": "760",
+    "lugToLugMm": 49.5,
+    "caseMm": 39.5,
+    "thicknessMm": 8.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-39-tabac-760",
+        "note": "Official NOMOS Glashütte product page lists Ref. 760 (sapphire crystal glass back) and 39.5 mm case diameter, 8.5 mm height, 49.5 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7714,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik Worldtimer",
+    "reference": "792",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 9.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-worldtimer-792",
+        "note": "Official NOMOS Glashütte product page lists Ref. 792 (sapphire crystal glass back) and 40.0 mm case diameter, 9.9 mm height, 48.0 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7715,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik Worldtimer",
+    "reference": "792.SB",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 9.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-worldtimer-792.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 792.SB (stainless steel back) and 40.0 mm case diameter, 9.9 mm height, 48.0 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7716,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik Worldtimer blue",
+    "reference": "790.SB",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 9.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-worldtimer-blue-790.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 790.SB (stainless steel back) and 40.0 mm case diameter, 9.9 mm height, 48.0 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7717,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik Worldtimer Grid",
+    "reference": "790.S8",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 9.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-worldtimer-grid-790.s8",
+        "note": "Official NOMOS Glashütte product page lists Ref. 790.S8 (sapphire crystal glass back) and 40.0 mm case diameter, 9.9 mm height, 48.0 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 7718,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik Worldtimer silver",
+    "reference": "791.SB",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 9.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-worldtimer-silver-791.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 791.SB (stainless steel back) and 40.0 mm case diameter, 9.9 mm height, 48.0 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7719,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik Worldtimer silver",
+    "reference": "791",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 9.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-worldtimer-silver-791",
+        "note": "Official NOMOS Glashütte product page lists Ref. 791 (sapphire crystal glass back) and 40.0 mm case diameter, 9.9 mm height, 48.0 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7720,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik Worldtimer Trace",
+    "reference": "790.S7",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 9.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-worldtimer-trace-790.s7",
+        "note": "Official NOMOS Glashütte product page lists Ref. 790.S7 (sapphire crystal glass back) and 40.0 mm case diameter, 9.9 mm height, 48.0 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 7721,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik Worldtimer Vector",
+    "reference": "790.S9",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 9.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-worldtimer-vector-790.s9",
+        "note": "Official NOMOS Glashütte product page lists Ref. 790.S9 (sapphire crystal glass back) and 40.0 mm case diameter, 9.9 mm height, 48.0 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 7722,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik 42 date blue",
+    "reference": "782",
+    "lugToLugMm": 52.3,
+    "caseMm": 42,
+    "thicknessMm": 10.2,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-42-date-blue-782",
+        "note": "Official NOMOS Glashütte product page lists Ref. 782 (sapphire crystal glass back) and 42.0 mm case diameter, 10.2 mm height, 52.3 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7723,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik Worldtimer Canyon",
+    "reference": "790.S3",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 9.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-worldtimer-canyon-790.s3",
+        "note": "Official NOMOS Glashütte product page lists Ref. 790.S3 (sapphire crystal glass back) and 40.0 mm case diameter, 9.9 mm height, 48.0 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 7724,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik Worldtimer Dune",
+    "reference": "790.S6",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 9.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-worldtimer-dune-790.s6",
+        "note": "Official NOMOS Glashütte product page lists Ref. 790.S6 (sapphire crystal glass back) and 40.0 mm case diameter, 9.9 mm height, 48.0 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 7725,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik Worldtimer Jungle",
+    "reference": "790.S2",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 9.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-worldtimer-jungle-790.s2",
+        "note": "Official NOMOS Glashütte product page lists Ref. 790.S2 (sapphire crystal glass back) and 40.0 mm case diameter, 9.9 mm height, 48.0 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 7726,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik Worldtimer Magma",
+    "reference": "790.S5",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 9.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-worldtimer-magma-790.s5",
+        "note": "Official NOMOS Glashütte product page lists Ref. 790.S5 (sapphire crystal glass back) and 40.0 mm case diameter, 9.9 mm height, 48.0 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 7727,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik Worldtimer Reverie",
+    "reference": "790.S11",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 9.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-worldtimer-reverie-790.s11",
+        "note": "Official NOMOS Glashütte product page lists Ref. 790.S11 (sapphire crystal glass back) and 40.0 mm case diameter, 9.9 mm height, 48.0 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7728,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik Worldtimer Roam",
+    "reference": "790.S10",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 9.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-worldtimer-roam-790.s10",
+        "note": "Official NOMOS Glashütte product page lists Ref. 790.S10 (sapphire crystal glass back) and 40.0 mm case diameter, 9.9 mm height, 48.0 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7729,
+    "brand": "NOMOS",
+    "model": "Club Sport neomatik Worldtimer Volcano",
+    "reference": "790.S1",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 9.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/club/club-sport-neomatik-worldtimer-volcano-790.s1",
+        "note": "Official NOMOS Glashütte product page lists Ref. 790.S1 (sapphire crystal glass back) and 40.0 mm case diameter, 9.9 mm height, 48.0 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 7730,
+    "brand": "NOMOS",
+    "model": "Lux Zobel",
+    "reference": "942",
+    "lugToLugMm": 46.1,
+    "caseMm": 34,
+    "thicknessMm": 9,
+    "lugWidthMm": 17,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/lux/lux-zobel-942",
+        "note": "Official NOMOS Glashütte product page lists Ref. 942 (sapphire crystal glass back) and 34.0 mm × 38.5 mm case size (the first value, the case width, is stored as the case diameter), 9.0 mm height, 46.1 mm lug-to-lug, 17 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7731,
+    "brand": "NOMOS",
+    "model": "Lux white gold",
+    "reference": "920",
+    "lugToLugMm": 48.6,
+    "caseMm": 36,
+    "thicknessMm": 9,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/lux/lux-white-gold-920",
+        "note": "Official NOMOS Glashütte product page lists Ref. 920 (sapphire crystal glass back) and 36.0 mm × 40.5 mm case size (the first value, the case width, is stored as the case diameter), 9.0 mm height, 48.6 mm lug-to-lug, 18 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7732,
+    "brand": "NOMOS",
+    "model": "Metro 33 all silver",
+    "reference": "1122",
+    "lugToLugMm": 40,
+    "caseMm": 33,
+    "thicknessMm": 7.5,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/metro/metro-33-all-silver-1122",
+        "note": "Official NOMOS Glashütte product page lists Ref. 1122 (sapphire crystal glass back) and 33.0 mm case diameter, 7.5 mm height, 40.0 mm lug-to-lug, 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7733,
+    "brand": "NOMOS",
+    "model": "Metro 33 all silver",
+    "reference": "1122.SB",
+    "lugToLugMm": 40,
+    "caseMm": 33,
+    "thicknessMm": 7.5,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/metro/metro-33-all-silver-1122.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 1122.SB (stainless steel back) and 33.0 mm case diameter, 7.5 mm height, 40.0 mm lug-to-lug, 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7734,
+    "brand": "NOMOS",
+    "model": "Metro 33 muted red",
+    "reference": "1123",
+    "lugToLugMm": 40,
+    "caseMm": 33,
+    "thicknessMm": 7.5,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/metro/metro-33-muted-red-1123",
+        "note": "Official NOMOS Glashütte product page lists Ref. 1123 (sapphire crystal glass back) and 33.0 mm case diameter, 7.5 mm height, 40.0 mm lug-to-lug, 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7735,
+    "brand": "NOMOS",
+    "model": "Metro 33 sage",
+    "reference": "1124.SB",
+    "lugToLugMm": 40,
+    "caseMm": 33,
+    "thicknessMm": 7.5,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/metro/metro-33-sage-1124.sb",
+        "note": "Official NOMOS Glashütte product page lists Ref. 1124.SB (stainless steel back) and 33.0 mm case diameter, 7.5 mm height, 40.0 mm lug-to-lug, 16 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7736,
+    "brand": "NOMOS",
+    "model": "Metro 38 date",
+    "reference": "1102",
+    "lugToLugMm": 45.3,
+    "caseMm": 38.5,
+    "thicknessMm": 7.8,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/metro/metro-38-date-1102",
+        "note": "Official NOMOS Glashütte product page lists Ref. 1102 (sapphire crystal glass back) and 38.5 mm case diameter, 7.8 mm height, 45.3 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7737,
+    "brand": "NOMOS",
+    "model": "Metro neomatik 39 silvercut",
+    "reference": "1114",
+    "lugToLugMm": 45.5,
+    "caseMm": 38.5,
+    "thicknessMm": 8.4,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/metro/metro-neomatik-39-silvercut-1114",
+        "note": "Official NOMOS Glashütte product page lists Ref. 1114 (sapphire crystal glass back) and 38.5 mm case diameter, 8.4 mm height, 45.5 mm lug-to-lug, 19 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7738,
+    "brand": "NOMOS",
+    "model": "Lambda 39",
+    "reference": "953",
+    "lugToLugMm": 47.9,
+    "caseMm": 39,
+    "thicknessMm": 9.1,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/lambda/lambda-39-953",
+        "note": "Official NOMOS Glashütte product page lists Ref. 953 (sapphire crystal glass back) and 39.0 mm case diameter, 9.1 mm height, 47.9 mm lug-to-lug, 20 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7739,
+    "brand": "NOMOS",
+    "model": "Lambda rose gold",
+    "reference": "930",
+    "lugToLugMm": 51.6,
+    "caseMm": 42,
+    "thicknessMm": 9,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/lambda/lambda-rose-gold-930",
+        "note": "Official NOMOS Glashütte product page lists Ref. 930 (sapphire crystal glass back) and 42.0 mm case diameter, 9.0 mm height, 51.6 mm lug-to-lug, 22 mm lug width."
+      }
+    ]
+  },
+  {
+    "id": 7740,
+    "brand": "NOMOS",
+    "model": "Autobahn neomatik 41 date sports gray",
+    "reference": "1303",
+    "lugToLugMm": 49.6,
+    "caseMm": 41,
+    "thicknessMm": 10.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://nomos-glashuette.com/en/autobahn/autobahn-neomatik-41-date-sports-gray-1303",
+        "note": "Official NOMOS Glashütte product page lists Ref. 1303 (domed sapphire crystal glass back) and 41.0 mm case diameter, 10.5 mm height, 49.6 mm lug-to-lug, 20 mm lug width."
       }
     ]
   }

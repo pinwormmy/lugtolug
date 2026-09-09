@@ -21,7 +21,9 @@ export const D1_ARCHIVED_WATCH_IDS = [
   7248, 7266, 7267, 7269, 7280, 7302, 7332, 7336, 7338, 7339, 7353, 7365, 7369, 7371,
   7372, 7389, 7404, 7427, 7430, 7435, 7445, 7446, 7447, 7448, 7450, 7479, 2683, 2714, 2628,
   // Brand-spelling duplicates merged by scripts/normalize-brand-names.mjs.
-  3024, 4422, 4424, 4431, 4433, 4630, 4638, 6128, 7099];
+  3024, 4422, 4424, 4431, 4433, 4630, 4638, 6128, 7099,
+  // Editorial Tangente 2date row superseded by the official NOMOS Ref. 135 record.
+  6410];
 
 export const WATCH_COLUMNS = [
   "id",

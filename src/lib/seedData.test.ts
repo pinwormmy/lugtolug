@@ -287,6 +287,82 @@ describe("watch seed data integrity", () => {
     });
   });
 
+  it("includes the full official NOMOS catalog import", () => {
+    const officialNotePrefix = "Official NOMOS Glashütte product page lists Ref.";
+    const officialNomosRecords = seed.filter(
+      (watch) =>
+        watch.brand === "NOMOS" &&
+        watch.sources.some(
+          (source: SeedSource & { note?: string }) =>
+            /^https:\/\/nomos-glashuette\.com\/en\/[a-z0-9-]+\/[a-z0-9.-]+$/u.test(source.sourceUrl) &&
+            source.note?.startsWith(officialNotePrefix)
+        )
+    );
+    const officialNomosPages = new Set(
+      officialNomosRecords.flatMap((watch) =>
+        watch.sources
+          .filter((source: SeedSource & { note?: string }) => source.note?.startsWith(officialNotePrefix))
+          .map((source: SeedSource) => source.sourceUrl)
+      )
+    );
+
+    expect(officialNomosRecords).toHaveLength(252);
+    expect(officialNomosPages.size).toBe(252);
+    expect(new Set(officialNomosRecords.map((watch) => compactReference(watch.reference))).size).toBe(252);
+    expect(officialNomosRecords.map((watch) => watch.reference)).toEqual(
+      expect.arrayContaining(["101", "139", "135", "135.SB", "401.GB", "211.GOB", "940", "790.S4"])
+    );
+    // Sapphire-back siblings carry their own height.
+    expect(officialNomosRecords.find((watch) => watch.reference === "101")).toMatchObject({
+      id: 1251,
+      lugToLugMm: 45,
+      caseMm: 35,
+      thicknessMm: 6.2,
+      lugWidthMm: 18
+    });
+    expect(officialNomosRecords.find((watch) => watch.reference === "139")).toMatchObject({
+      lugToLugMm: 45,
+      caseMm: 35,
+      thicknessMm: 6.6,
+      lugWidthMm: 18
+    });
+    // Rectangular cases store the published width as the case size.
+    expect(officialNomosRecords.find((watch) => watch.reference === "940")).toMatchObject({
+      id: 4709,
+      lugToLugMm: 46.1,
+      caseMm: 34,
+      thicknessMm: 9,
+      lugWidthMm: 17
+    });
+    // Existing retailer rows keep their sources and gain the official dimensions.
+    expect(officialNomosRecords.find((watch) => watch.reference === "164")).toMatchObject({
+      id: 1600,
+      model: "Tangente 38",
+      lugToLugMm: 47.7,
+      caseMm: 37.5,
+      thicknessMm: 6.8,
+      lugWidthMm: 19
+    });
+    expect(seed.find((watch) => watch.id === 1600)?.sources.map((source: SeedSource) => source.sourceUrl)).toEqual([
+      "https://nomos-glashuette.com/en/tangente/tangente-38-164",
+      "https://teddybaldassarre.com/en-int/products/tangente-38",
+      "https://sf.delugs.com/api/strap-finder"
+    ]);
+    expect(officialNomosRecords.find((watch) => watch.reference === "720")).toMatchObject({
+      id: 1595,
+      lugToLugMm: 46.7,
+      caseMm: 38.5,
+      thicknessMm: 8.4,
+      lugWidthMm: 20
+    });
+    // Pages without a lug width keep the stored value instead of clearing it.
+    expect(officialNomosRecords.find((watch) => watch.reference === "790.S4")).toMatchObject({
+      id: 4626,
+      thicknessMm: 9.9,
+      lugWidthMm: 20
+    });
+  });
+
   it("includes the full-site MONOCHROME lug-to-lug audit import", () => {
     const monochromeRecords = seed.filter((watch) =>
       watch.sources.some((source: SeedSource) => source.sourceUrl.startsWith("https://monochrome-watches.com/"))
@@ -319,11 +395,20 @@ describe("watch seed data integrity", () => {
       7169, 7175, 7184, 7185, 7227, 7228, 7232, 7234, 7245, 7248, 7266, 7267, 7269, 7280,
       7302, 7332, 7336, 7338, 7339, 7353, 7365, 7369, 7371, 7372, 7389, 7404, 7427, 7430,
       7435, 7445, 7446, 7447, 7448, 7450, 7479,
-      3024, 4422, 4424, 4431, 4433, 4630, 4638, 6128, 7099
+      3024, 4422, 4424, 4431, 4433, 4630, 4638, 6128, 7099,
+      6410
     ];
     const seedIds = new Set(seed.map((watch) => watch.id));
 
     expect(retiredDuplicateIds.filter((id) => seedIds.has(id))).toEqual([]);
+    expect(seed.find((watch) => watch.id === 7585)?.sources).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({
+          sourceUrl:
+            "https://www.hodinkee.com/articles/nomos-glashutte-introduces-the-tangente-2date-with-a-brand-new-movement"
+        })
+      ])
+    );
     expect(seed.find((watch) => watch.id === 347)?.sources).toEqual(
       expect.arrayContaining([
         expect.objectContaining({
