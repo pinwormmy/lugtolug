@@ -370,6 +370,7 @@ function parseUkProduct(url, html) {
 // ---------------------------------------------------------------------------
 
 async function crawlGlobal() {
+  await mkdir(CACHE_DIR, { recursive: true });
   const sitemap = parseSitemap(await requirePage(SITEMAP_URL));
   const candidates = new Map();
   for (const url of sitemap.productUrls) addCandidate(candidates, url, "sitemap");
