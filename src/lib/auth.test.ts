@@ -29,7 +29,9 @@ describe("password hashing", () => {
     expect(salt).toMatch(/^[a-f0-9]{32}$/);
     expect(await verifyPassword("correct horse battery", salt, iterations, hash)).toBe(true);
     expect(await verifyPassword("correct horse batter", salt, iterations, hash)).toBe(false);
-    expect(await verifyPassword("correct horse battery", salt, iterations, `${hash.slice(0, -1)}0`)).toBe(false);
+    // Flip the last hex digit so the tampered hash always differs from the real one.
+    const tamperedHash = `${hash.slice(0, -1)}${hash.endsWith("0") ? "1" : "0"}`;
+    expect(await verifyPassword("correct horse battery", salt, iterations, tamperedHash)).toBe(false);
   });
 
   it("never accepts a password for an unknown account", async () => {
