@@ -49,6 +49,20 @@ The audit checks text cleanliness, metric validity, source URLs, product identit
 route collisions, normalization metadata, and exact JSON/SQL synchronization. It is
 also included in `npm run deploy:check`.
 
+### Brand priority
+
+Public listings put major brands first so a single catalog import (hundreds of
+references for one brand) cannot take over the home page, the `/watches` directory,
+search results, or the wrist and lug-to-lug guides. The tiers live in
+`data/brand-priority.json` (brand slugs as produced by `getWatchSlugs`):
+
+- `tier1`: major houses, shown first. The home page brand grid follows this order.
+- `tier2`: established independents and well-known microbrands, shown next.
+- Everything else follows in the existing order (count, recency, or fit).
+
+Collaboration slugs such as `omega-x-swatch` inherit the tier of the brand before
+`-x-`. A unit test fails if a listed slug does not exist in the seed.
+
 ## Security notes
 
 - Every server-rendered response gets security headers from `src/middleware.ts`
