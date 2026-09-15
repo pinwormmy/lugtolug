@@ -15,6 +15,7 @@
     "db:migrate:remote": "wrangler d1 migrations apply lugtolug-finder --remote",
     "db:seed:local": "node --no-warnings=ExperimentalWarning scripts/seed-local-d1.mjs",
     "db:seed:remote": "wrangler d1 execute lugtolug-finder --remote --file=./data/seed.sql",
+    "db:sync:remote": "npm run db:migrate:remote && npm run db:seed:remote && node scripts/generate-reslug-sql.mjs > .wrangler/reslug.sql && wrangler d1 execute lugtolug-finder --remote --file=.wrangler/reslug.sql",
     "kv:create:session": "wrangler kv namespace create SESSION",
     "admin:sql": "node scripts/create-admin-sql.mjs",
     "data:duplicates": "node scripts/watch-duplicate-candidates.mjs",

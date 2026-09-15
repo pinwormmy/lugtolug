@@ -60,13 +60,23 @@ also included in `npm run deploy:check`.
 Requests for the old dropped-letter slugs (`/brands/glash-tte-original`) redirect
 with a 301 through `src/lib/legacyRoutes.ts`, and `/path/` redirects to `/path`.
 
-The slug rule changed in September 2026. After deploying a slug change:
+The slug rule changed in September 2026. After deploying a slug or name change,
+bring production D1 in line with one command (needs `wrangler login` or
+`CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` in the environment):
+
+```bash
+npm run db:sync:remote
+```
+
+It applies pending migrations, runs `db:seed:remote` (rewrites every seed row's
+slugs by id) and then executes the `data:reslug-sql` output for rows the seed does
+not carry. The individual steps remain available:
 
 ```bash
 npm run data:seed-sql && npm run data:audit   # regenerate and verify data/seed.sql
-npm run db:seed:remote                         # rewrites every seed row's slugs by id
-npm run data:reslug-sql > /tmp/reslug.sql      # rows the seed does not carry
-npx wrangler d1 execute lugtolug-finder --remote --file=/tmp/reslug.sql
+npm run db:migrate:remote
+npm run db:seed:remote
+npm run data:reslug-sql > /tmp/reslug.sql && npx wrangler d1 execute lugtolug-finder --remote --file=/tmp/reslug.sql
 ```
 
 Until `db:seed:remote` runs, D1 still serves seed watches at their old slugs, so
