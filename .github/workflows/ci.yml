@@ -1,0 +1,41 @@
+name: CI
+
+# Runs the same checks as `npm run deploy:check` (seed audit, typecheck, unit
+# tests, production build) so a broken push to main cannot reach Cloudflare Pages
+# unnoticed and pull requests show their status before merge.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Audit, typecheck, test, build
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci --no-audit --no-fund
+
+      - name: Seed data audit
+        run: npm run data:audit
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Unit tests
+        run: npm test
+
+      - name: Production build
+        run: npm run build
