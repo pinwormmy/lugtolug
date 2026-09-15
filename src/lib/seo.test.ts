@@ -4,6 +4,7 @@ import {
   buildOrganizationSchema,
   buildWebSiteSchema,
   getCanonicalHostRedirect,
+  getTrailingSlashRedirect,
   resolveOrigin,
   SITE_URL,
   toJsonLd
@@ -45,6 +46,20 @@ describe("getCanonicalHostRedirect", () => {
   it("does not redirect the canonical or an unrelated host", () => {
     expect(getCanonicalHostRedirect(new URL("https://lugtolugfinder.com/watches"))).toBeNull();
     expect(getCanonicalHostRedirect(new URL("https://preview.example.com/watches"))).toBeNull();
+  });
+});
+
+describe("getTrailingSlashRedirect", () => {
+  it("drops the trailing slash and keeps the query", () => {
+    expect(getTrailingSlashRedirect(new URL("https://lugtolugfinder.com/watches/?q=omega"))?.toString()).toBe(
+      "https://lugtolugfinder.com/watches?q=omega"
+    );
+    expect(getTrailingSlashRedirect(new URL("https://lugtolugfinder.com/brands/oris///"))?.pathname).toBe("/brands/oris");
+  });
+
+  it("leaves the root and slash-free paths alone", () => {
+    expect(getTrailingSlashRedirect(new URL("https://lugtolugfinder.com/"))).toBeNull();
+    expect(getTrailingSlashRedirect(new URL("https://lugtolugfinder.com/watches"))).toBeNull();
   });
 });
 

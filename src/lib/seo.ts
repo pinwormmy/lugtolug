@@ -7,7 +7,8 @@ export const SITE_NAME = "Lug to Lug Finder";
  */
 export const SITE_URL = "https://lugtolugfinder.com";
 
-export const DEFAULT_DESCRIPTION = "Search watch records by brand, model, and reference.";
+export const DEFAULT_DESCRIPTION =
+  "Look up lug-to-lug, case diameter, thickness, and lug width for thousands of watches, with wrist-fit guidance and cited sources.";
 
 /** Google Search Console verification token, rendered site-wide by BaseLayout. */
 export const GOOGLE_SITE_VERIFICATION = "sRDq2qTrJwd7gYcwaSBzNrIXs1h0W0E7Ela0tJaQDW0";
@@ -33,6 +34,19 @@ export function getCanonicalHostRedirect(url: URL, canonicalOrigin = SITE_URL): 
   const redirectUrl = new URL(url);
   redirectUrl.protocol = canonical.protocol;
   redirectUrl.host = canonical.host;
+  return redirectUrl;
+}
+
+/**
+ * Redirect `/path/` to `/path` so each page has one indexable URL. Both forms
+ * rendered the same page with a self-referencing canonical, which search engines
+ * treat as duplicate content. The root and non-page routes are left alone.
+ */
+export function getTrailingSlashRedirect(url: URL): URL | null {
+  if (url.pathname === "/" || !url.pathname.endsWith("/")) return null;
+
+  const redirectUrl = new URL(url);
+  redirectUrl.pathname = url.pathname.replace(/\/+$/, "") || "/";
   return redirectUrl;
 }
 

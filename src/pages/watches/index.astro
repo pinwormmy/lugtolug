@@ -8,6 +8,6 @@ const initialSearchState = readSearchState(Astro.url.searchParams);
 const initialWatches = await listRecentSearchWatches(getDb(Astro.locals), 48);
 ---
 
-<BaseLayout title="Watch database | Lug to Lug Finder" description="Browse approved watch records by brand, model, and reference number.">
+<BaseLayout title="Watch database: every lug-to-lug measurement | Lug to Lug Finder" description="Browse every watch in the database by brand, model, and reference, each with lug-to-lug, case diameter, thickness, and lug width.">
   <WatchesListSearch client:load initialQuery={initialSearchState.query} initialWatches={initialWatches} />
 </BaseLayout>

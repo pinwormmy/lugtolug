@@ -18,7 +18,17 @@ if (watches.length === 0) {
 
 const brandName = watches[0]?.brand ?? brandSlug;
 const description = `${brandName} lug-to-lug, case diameter, thickness, and lug width measurements for ${watches.length} watch record${watches.length === 1 ? "" : "s"}.`;
-const canonicalUrl = new URL(Astro.url.pathname, resolveOrigin(Astro.site)).toString();
+const origin = resolveOrigin(Astro.site);
+const canonicalUrl = new URL(Astro.url.pathname, origin).toString();
+const title = `${brandName} watches: lug-to-lug, case size & thickness | Lug to Lug Finder`;
+const breadcrumbData = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Watches", item: new URL("/watches", origin).toString() },
+    { "@type": "ListItem", position: 2, name: brandName, item: canonicalUrl }
+  ]
+};
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
@@ -32,8 +42,9 @@ const structuredData = {
 };
 ---
 
-<BaseLayout title={`${brandName} watch records | Lug to Lug Finder`} description={description} image={resolveBrandOgImage(brandSlug)}>
+<BaseLayout title={title} description={description} image={resolveBrandOgImage(brandSlug)}>
   <script is:inline type="application/ld+json" set:html={toJsonLd(structuredData)} />
+  <script is:inline type="application/ld+json" set:html={toJsonLd(breadcrumbData)} />
   <section class="section" style="margin-top: 0;">
     <h1 class="page-title">{brandName}</h1>
     <p class="lede">Approved records for {brandName} watches.</p>
