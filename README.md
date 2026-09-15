@@ -24,6 +24,10 @@ npm run db:seed:local
 node scripts/create-admin-sql.mjs operator@example.com "change-this-password"
 ```
 
+`db:seed:local` writes `data/seed.sql` straight into wrangler's local SQLite file
+with Node's built-in `node:sqlite` (Node 22.13 or newer), which takes seconds where
+`wrangler d1 execute --file` takes tens of minutes on the 12 MB seed.
+
 Run the printed SQL against local or remote D1 with `wrangler d1 execute`.
 
 Workflow smoke check:
