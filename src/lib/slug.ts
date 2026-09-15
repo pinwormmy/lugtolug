@@ -1,6 +1,7 @@
 export {
   getWatchModelSlug,
   getWatchSlugs,
+  legacySlugify,
   normalizeOptionalString,
   normalizeSearch,
   normalizeSearchWithAliases,

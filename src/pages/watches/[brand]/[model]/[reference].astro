@@ -9,6 +9,7 @@ import { getDb, getWatchBySlugs, listSimilarWatches } from "@/lib/db";
 import { mmToInches } from "@/lib/fit";
 import { resolveWatchOgImage } from "@/lib/ogImage";
 import { formatMm, getWatchDisplayModel, getWatchDisplayName, isHttpUrl, WATCH_METRICS } from "@/lib/watch";
+import { resolveLegacyWatchHref } from "@/lib/legacyRoutes";
 import { resolveOrigin, toJsonLd } from "@/lib/seo";
 import { buildFaqSchema, describeWearability } from "@/lib/watchWearability";
 
@@ -17,6 +18,8 @@ const db = getDb(Astro.locals);
 const watch = await getWatchBySlugs(db, brand!, model!, reference!);
 
 if (!watch) {
+  const legacyHref = resolveLegacyWatchHref(brand!, model!, reference!);
+  if (legacyHref) return Astro.redirect(legacyHref, 301);
   return Astro.rewrite("/404");
 }
 

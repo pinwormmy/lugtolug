@@ -38,6 +38,7 @@
     "data:audit": "node scripts/audit-seed-data.mjs",
     "data:seed-sql": "node scripts/generate-seed-sql.mjs",
     "data:seed-delta-sql": "node scripts/generate-seed-delta-sql.mjs",
+    "data:reslug-sql": "node scripts/generate-reslug-sql.mjs",
     "seo:indexnow": "node scripts/submit-indexnow.mjs",
     "monitor:keywords": "node scripts/keyword-monitor.mjs",
     "smoke:workflow": "node scripts/workflow-smoke.mjs",

@@ -49,6 +49,25 @@ The audit checks text cleanliness, metric validity, source URLs, product identit
 route collisions, normalization metadata, and exact JSON/SQL synchronization. It is
 also included in `npm run deploy:check`.
 
+### Route slugs
+
+`slugify()` in `src/lib/watchText.ts` transliterates accented letters
+(`Glashütte Original` -> `/brands/glashutte-original`, `Hermès` -> `/brands/hermes`).
+Requests for the old dropped-letter slugs (`/brands/glash-tte-original`) redirect
+with a 301 through `src/lib/legacyRoutes.ts`, and `/path/` redirects to `/path`.
+
+The slug rule changed in September 2026. After deploying a slug change:
+
+```bash
+npm run data:seed-sql && npm run data:audit   # regenerate and verify data/seed.sql
+npm run db:seed:remote                         # rewrites every seed row's slugs by id
+npm run data:reslug-sql > /tmp/reslug.sql      # rows the seed does not carry
+npx wrangler d1 execute lugtolug-finder --remote --file=/tmp/reslug.sql
+```
+
+Until `db:seed:remote` runs, D1 still serves seed watches at their old slugs, so
+old and new URLs both render for a short window; afterwards the old URLs redirect.
+
 ### Brand priority
 
 Public listings put major brands first so a single catalog import (hundreds of
@@ -177,3 +196,5 @@ After deployment, verify:
 - admin approve/reject flow
 - `/sitemap.xml`
 - `/robots.txt`
+- an accented-brand URL such as `/brands/glashutte-original`, and that
+  `/brands/glash-tte-original` and `/watches/` answer with a 301

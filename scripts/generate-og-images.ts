@@ -34,6 +34,8 @@ const SCRIPT_FILE = fileURLToPath(import.meta.url);
 const TSX_CLI = require.resolve("tsx/cli");
 const TSCONFIG = fileURLToPath(new URL("../tsconfig.json", import.meta.url));
 const SEED_FILE = fileURLToPath(new URL("../data/watches.seed.json", import.meta.url));
+// Card paths come from the slug rule, so a slug change must re-render every card.
+const SLUG_MODULE_FILE = fileURLToPath(new URL("../src/lib/watchText.ts", import.meta.url));
 const fontDirectory = path.join(path.dirname(require.resolve("dejavu-fonts-ttf/package.json")), "ttf");
 const FONT_FILES = [path.join(fontDirectory, "DejaVuSans.ttf"), path.join(fontDirectory, "DejaVuSans-Bold.ttf")];
 
@@ -80,6 +82,7 @@ async function currentStamp(): Promise<string> {
   const hash = createHash("sha256");
   hash.update(OG_TEMPLATE_VERSION);
   hash.update(await readFile(SEED_FILE));
+  hash.update(await readFile(SLUG_MODULE_FILE));
   return hash.digest("hex");
 }
 

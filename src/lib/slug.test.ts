@@ -1,10 +1,26 @@
 import { describe, expect, it } from "vitest";
-import { getWatchSlugs, normalizeSearch, normalizeSearchWithAliases, slugify } from "@/lib/slug";
+import { getWatchSlugs, legacySlugify, normalizeSearch, normalizeSearchWithAliases, slugify } from "@/lib/slug";
 
 describe("slug helpers", () => {
   it("creates stable URL slugs", () => {
     expect(slugify("Speedmaster Professional Moonwatch")).toBe("speedmaster-professional-moonwatch");
     expect(slugify("310.30.42.50.01.002")).toBe("310-30-42-50-01-002");
+  });
+
+  it("transliterates accented letters instead of dropping them", () => {
+    expect(slugify("A. Lange & Söhne")).toBe("a-lange-and-sohne");
+    expect(slugify("Glashütte Original")).toBe("glashutte-original");
+    expect(slugify("Hermès")).toBe("hermes");
+    expect(slugify("Universal Genève")).toBe("universal-geneve");
+    expect(slugify("Grøne")).toBe("grone");
+    expect(slugify("Habring²")).toBe("habring2");
+    expect(slugify("Seiko 5 Sports × Worn & Wound")).toBe("seiko-5-sports-x-worn-and-wound");
+    expect(slugify("Prospex Diver’s")).toBe("prospex-diver-s");
+  });
+
+  it("keeps the legacy slug rule for redirects", () => {
+    expect(legacySlugify("Glashütte Original")).toBe("glash-tte-original");
+    expect(legacySlugify("Speedmaster Professional Moonwatch")).toBe("speedmaster-professional-moonwatch");
   });
 
   it("normalizes search text", () => {

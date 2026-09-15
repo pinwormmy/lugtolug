@@ -4,12 +4,15 @@ import WatchRow from "@/components/WatchRow.astro";
 import { getDb, listBrandWatches } from "@/lib/db";
 import { resolveBrandOgImage } from "@/lib/ogImage";
 import { groupWatchesForDisplay } from "@/lib/watchGroups";
+import { resolveLegacyBrandHref } from "@/lib/legacyRoutes";
 import { resolveOrigin, toJsonLd } from "@/lib/seo";
 
 const brandSlug = Astro.params.brand!;
 const watches = groupWatchesForDisplay(await listBrandWatches(getDb(Astro.locals), brandSlug));
 
 if (watches.length === 0) {
+  const legacyHref = resolveLegacyBrandHref(brandSlug);
+  if (legacyHref) return Astro.redirect(legacyHref, 301);
   return Astro.rewrite("/404");
 }
 

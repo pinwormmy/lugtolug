@@ -8,7 +8,8 @@ DB(`data/watches.seed.json` + D1 승인 레코드)를 홍보 자산으로 바꾸
 
 - `<title>` / meta description / canonical / Open Graph / Twitter 카드 (`src/layouts/BaseLayout.astro`)
 - Product + BreadcrumbList JSON-LD (시계 상세), CollectionPage JSON-LD (브랜드 페이지)
-- `/sitemap.xml` — 전체 URL 자동 나열 (현재 약 5,600개), `/robots.txt`가 sitemap 위치 광고
+- `/sitemap.xml` — 전체 URL 자동 나열 (현재 약 8,500개), `/robots.txt`가 sitemap 위치 광고
+- 슬러그는 악센트 문자를 음역한다 (`Glashütte Original` → `/brands/glashutte-original`). 예전 주소(`glash-tte-original`)와 `/path/` 형태는 301로 넘어간다 (`src/lib/legacyRoutes.ts`, `src/middleware.ts`)
 
 즉 시계를 DB에 추가·승인하는 것만으로 색인 대상 페이지가 늘어난다. 별도 페이지 생성 스크립트는 필요 없음.
 

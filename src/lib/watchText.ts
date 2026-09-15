@@ -5,7 +5,40 @@ import type { Watch } from "@/types";
 // The scripts import this file directly under Node's TypeScript type stripping,
 // so keep it free of value imports and non-erasable syntax (no enums/namespaces).
 
+// Letters that NFKD does not decompose into an ASCII base letter.
+const SLUG_LETTER_REPLACEMENTS: Record<string, string> = {
+  "ß": "ss",
+  "æ": "ae",
+  "œ": "oe",
+  "ø": "o",
+  "ł": "l",
+  "đ": "d",
+  "ð": "d",
+  "þ": "th",
+  "×": " x "
+};
+
+/**
+ * URL slug for a brand, model, or reference. Accented Latin letters transliterate
+ * to their base letter (Glashütte Original -> glashutte-original, Hermès -> hermes)
+ * so the URL keeps the brand name readable and searchable; everything that is
+ * not a Latin letter or digit becomes a hyphen. `legacySlugify` keeps the old
+ * output so previously indexed URLs can redirect.
+ */
 export function slugify(value: string): string {
+  return value
+    .trim()
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[ßæœøłđðþ×]/g, (letter) => SLUG_LETTER_REPLACEMENTS[letter] ?? letter)
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+/** The slug rule used before transliteration; only for redirecting old URLs. */
+export function legacySlugify(value: string): string {
   return value
     .trim()
     .toLowerCase()
