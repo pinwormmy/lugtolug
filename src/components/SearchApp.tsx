@@ -28,6 +28,8 @@ interface Props {
   initialDimensionFilters?: SearchState["dimensionFilters"];
 }
 
+const EMPTY_CATALOG: Watch[] = [];
+
 function sortWatches(watches: WatchDisplayGroup[], sort: WatchSortKey): WatchDisplayGroup[] {
   const sorted = [...watches];
   sorted.sort((a, b) => {
@@ -46,17 +48,25 @@ export default function SearchApp({
   initialSort = "recent",
   initialDimensionFilters = createEmptyDimensionFilters()
 }: Props) {
-  const { watches, status: databaseStatus, retry } = useWatchDatabase(providedWatches);
   const [query, setQuery] = useState(initialQuery);
   const [sort, setSort] = useState<WatchSortKey>(initialSort);
   const [dimensionFilters, setDimensionFilters] = useState(() => initialDimensionFilters);
   const [showFilters, setShowFilters] = useState(false);
+  // The full catalog is ~3 MB of JSON; most home visits never search, so it is
+  // fetched only once the visitor focuses the search field, types, or filters.
+  const [catalogWanted, setCatalogWanted] = useState(
+    () => Boolean(providedWatches) || initialQuery.trim().length > 0 || hasActiveDimensionFilters(initialDimensionFilters)
+  );
+  const { watches, status: databaseStatus, retry } = useWatchDatabase(
+    providedWatches ?? (catalogWanted ? undefined : EMPTY_CATALOG)
+  );
   const deferredQuery = useDeferredValue(query);
   const normalized = normalizeSearch(deferredQuery);
   const compactReferenceQuery = getCompactReferenceSearchText(deferredQuery);
   const shouldMatchCompactReference = shouldUseCompactReferenceSearch(compactReferenceQuery);
   const hasSearchQuery = deferredQuery.trim().length > 0;
   const hasActiveFilters = hasActiveDimensionFilters(dimensionFilters);
+  const wantCatalog = () => setCatalogWanted(true);
   const isPending = query !== deferredQuery;
   const shouldShowResults = hasSearchQuery || hasActiveFilters;
   const activeFilterCount = Object.values(dimensionFilters).reduce(
@@ -127,7 +137,7 @@ export default function SearchApp({
           <p>Search results stay compact. Select a watch to inspect its full record.</p>
         </div>
         <div className="status-strip" aria-label="Database status">
-          {databaseStatus === "loading" && <span>Loading records…</span>}
+          {catalogWanted && databaseStatus === "loading" && <span>Loading records…</span>}
           {databaseStatus === "error" && (
             <span>
               Couldn&apos;t load the database.{" "}
@@ -136,7 +146,7 @@ export default function SearchApp({
               </button>
             </span>
           )}
-          {databaseStatus === "ready" && <span>{groupedWatches.length.toLocaleString()} records</span>}
+          {catalogWanted && databaseStatus === "ready" && <span>{groupedWatches.length.toLocaleString()} records</span>}
         </div>
       </div>
 
@@ -145,9 +155,19 @@ export default function SearchApp({
         dimensionFilters={dimensionFilters}
         hasActiveFilters={hasActiveFilters}
         onClear={() => setDimensionFilters(createEmptyDimensionFilters())}
-        onQueryChange={setQuery}
-        onToggle={() => setShowFilters((current) => !current)}
-        onUpdate={updateFilterValue}
+        onQueryChange={(value) => {
+          wantCatalog();
+          setQuery(value);
+        }}
+        onQueryFocus={wantCatalog}
+        onToggle={() => {
+          wantCatalog();
+          setShowFilters((current) => !current);
+        }}
+        onUpdate={(metricKey, bound, value) => {
+          wantCatalog();
+          updateFilterValue(metricKey, bound, value);
+        }}
         query={query}
         showFilters={showFilters}
       />

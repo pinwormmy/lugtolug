@@ -9,6 +9,8 @@ interface Props {
   activeFilterCount: number;
   dimensionFilters: DimensionFilters;
   onQueryChange: (query: string) => void;
+  /** Fired when the search field gains focus, so the catalog can start loading before the first keystroke. */
+  onQueryFocus?: () => void;
   onToggle: () => void;
   onClear: () => void;
   onUpdate: (metricKey: DimensionKey, bound: "min" | "max", value: string) => void;
@@ -21,6 +23,7 @@ export default function SearchFilters({
   activeFilterCount,
   dimensionFilters,
   onQueryChange,
+  onQueryFocus,
   onToggle,
   onClear,
   onUpdate
@@ -38,6 +41,7 @@ export default function SearchFilters({
               placeholder="e.g., Omega Speedmaster or 310.30"
               value={query}
               onChange={(event) => onQueryChange(event.currentTarget.value)}
+              onFocus={onQueryFocus}
             />
           </div>
         </label>

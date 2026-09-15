@@ -15,6 +15,15 @@ describe("SearchApp feature contracts", () => {
     expect(markup).toContain('value="omega"');
   });
 
+  it("does not fetch or announce the catalog until the visitor starts searching", () => {
+    const idle = renderToStaticMarkup(<SearchApp />);
+    expect(idle).not.toContain("Loading records");
+    expect(idle).not.toContain(" records</span>");
+
+    const searching = renderToStaticMarkup(<SearchApp initialQuery="omega" />);
+    expect(searching).toContain("Loading records");
+  });
+
   it("lists major brands first as the default sort option", () => {
     const markup = renderToStaticMarkup(
       <WatchSearchResults filteredCount={0} isPending={false} onSortChange={() => undefined} results={[]} sort="recent" />
