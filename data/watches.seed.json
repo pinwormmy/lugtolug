@@ -103880,8 +103880,8 @@
   {
     "id": 5757,
     "brand": "WMT",
-    "model": "Ember - Aging Edition",
-    "reference": "Ember - Aging Edition IW274",
+    "model": "Ember - Aged Edition",
+    "reference": "Ember - Aged Edition IW274",
     "lugToLugMm": 47,
     "caseMm": 38.5,
     "thicknessMm": 14.5,
@@ -103890,6 +103890,10 @@
       {
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=274&cate_no=72",
         "note": "IntoWatch product specification image lists 38.5 mm case, 47 mm lug-to-lug, 14.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
+      },
+      {
+        "sourceUrl": "https://wmtwatches.com/product/amber-aged-edition-early-bird-17th-aug-16th-sept-2021/",
+        "note": "WMT product page titled 'Ember – Aged Edition' lists 38.5 mm case, 14.5 mm thickness, 47 mm case length, 20 mm bracelet width."
       }
     ]
   },
@@ -104645,8 +104649,8 @@
   {
     "id": 5799,
     "brand": "WMT",
-    "model": "Lupus Milspec MK1 Set",
-    "reference": "Lupus Milspec MK1 Set IW431",
+    "model": "Lupas Mil-spec MKI Set",
+    "reference": "Lupas Mil-spec MKI Set IW431",
     "lugToLugMm": 43.7,
     "caseMm": 36,
     "thicknessMm": 13,
@@ -104655,6 +104659,10 @@
       {
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=431&cate_no=72",
         "note": "IntoWatch product specification image lists 36 mm case, 43.7 mm lug-to-lug, 13 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
+      },
+      {
+        "sourceUrl": "https://wmtwatches.com/product/lupas-mil-spec-mki-limited-50pcs-aged-edition-nato-strap-leather-strap-set-pre-order-delivery-date-end-of-january-2026/",
+        "note": "WMT product page titled 'Lupas - Mil-spec MKI / Limited 50pcs / Aged Edition / Nato Strap + Leather Strap Set' lists 36 mm case and 13 mm thickness."
       }
     ]
   },

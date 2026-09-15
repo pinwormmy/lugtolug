@@ -11,7 +11,8 @@ import { legacySlugify } from "@/lib/watchText";
 // The maps hold only records whose slug actually changed, built once per isolate.
 
 type LegacySlugs = { brandSlug: string; modelSlug: string; referenceSlug: string };
-const RENAMED_WATCH_SLUGS: Record<string, LegacySlugs> = legacyRoutes.watches;
+// A record renamed more than once lists every route it carried before, oldest first.
+const RENAMED_WATCH_SLUGS: Record<string, LegacySlugs | LegacySlugs[]> = legacyRoutes.watches;
 
 let watchRedirects: Map<string, string> | null = null;
 let brandRedirects: Map<string, string> | null = null;
@@ -30,8 +31,8 @@ function buildRedirects(): void {
 
   for (const watch of seedWatches) {
     const renamed = RENAMED_WATCH_SLUGS[String(watch.id)];
-    if (renamed) {
-      const renamedKey = `${renamed.brandSlug}/${renamed.modelSlug}/${renamed.referenceSlug}`;
+    for (const previous of renamed ? [renamed].flat() : []) {
+      const renamedKey = `${previous.brandSlug}/${previous.modelSlug}/${previous.referenceSlug}`;
       if (!watchRedirects.has(renamedKey)) watchRedirects.set(renamedKey, getWatchHref(watch));
     }
 

@@ -25,4 +25,14 @@ describe("legacy route redirects", () => {
     );
     expect(resolveLegacyWatchHref("nth", "v2", "v2-iw292")).toBe("/watches/nth/upholder-v2-non-date/upholder-v2-non-date-iw292");
   });
+
+  it("keeps every route of a watch renamed more than once", () => {
+    // WMT 5799 was "루파스 밀스펙 MK1 세트", then "Lupus Milspec MK1 Set", before the brand spelling.
+    const current = "/watches/wmt/lupas-mil-spec-mki-set/lupas-mil-spec-mki-set-iw431";
+    expect(resolveLegacyWatchHref("wmt", "mk1", "mk1-iw431")).toBe(current);
+    expect(resolveLegacyWatchHref("wmt", "lupus-milspec-mk1-set", "lupus-milspec-mk1-set-iw431")).toBe(current);
+    expect(resolveLegacyWatchHref("wmt", "ember-aging-edition", "ember-aging-edition-iw274")).toBe(
+      "/watches/wmt/ember-aged-edition/ember-aged-edition-iw274"
+    );
+  });
 });

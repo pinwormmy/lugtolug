@@ -396,11 +396,18 @@
       "modelSlug": "iw267",
       "referenceSlug": "iw267"
     },
-    "5757": {
-      "brandSlug": "wmt",
-      "modelSlug": "iw274",
-      "referenceSlug": "iw274"
-    },
+    "5757": [
+      {
+        "brandSlug": "wmt",
+        "modelSlug": "iw274",
+        "referenceSlug": "iw274"
+      },
+      {
+        "brandSlug": "wmt",
+        "modelSlug": "ember-aging-edition",
+        "referenceSlug": "ember-aging-edition-iw274"
+      }
+    ],
     "5758": {
       "brandSlug": "nth",
       "modelSlug": "iw275",
@@ -596,11 +603,18 @@
       "modelSlug": "mkii",
       "referenceSlug": "mkii-iw425"
     },
-    "5799": {
-      "brandSlug": "wmt",
-      "modelSlug": "mk1",
-      "referenceSlug": "mk1-iw431"
-    },
+    "5799": [
+      {
+        "brandSlug": "wmt",
+        "modelSlug": "mk1",
+        "referenceSlug": "mk1-iw431"
+      },
+      {
+        "brandSlug": "wmt",
+        "modelSlug": "lupus-milspec-mk1-set",
+        "referenceSlug": "lupus-milspec-mk1-set-iw431"
+      }
+    ],
     "5800": {
       "brandSlug": "wmt",
       "modelSlug": "mk1",
