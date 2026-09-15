@@ -4,11 +4,13 @@ import WatchRow from "@/components/WatchRow.astro";
 import { getDb, listBrandWatches } from "@/lib/db";
 import { resolveBrandOgImage } from "@/lib/ogImage";
 import { groupWatchesForDisplay } from "@/lib/watchGroups";
+import { describeBrand, summarizeBrand } from "@/lib/brandCopy";
 import { resolveLegacyBrandHref } from "@/lib/legacyRoutes";
 import { resolveOrigin, toJsonLd } from "@/lib/seo";
 
 const brandSlug = Astro.params.brand!;
-const watches = groupWatchesForDisplay(await listBrandWatches(getDb(Astro.locals), brandSlug));
+const brandWatches = await listBrandWatches(getDb(Astro.locals), brandSlug);
+const watches = groupWatchesForDisplay(brandWatches);
 
 if (watches.length === 0) {
   const legacyHref = resolveLegacyBrandHref(brandSlug);
@@ -17,7 +19,11 @@ if (watches.length === 0) {
 }
 
 const brandName = watches[0]?.brand ?? brandSlug;
-const description = `${brandName} lug-to-lug, case diameter, thickness, and lug width measurements for ${watches.length} watch record${watches.length === 1 ? "" : "s"}.`;
+const brandSummary = summarizeBrand(brandWatches);
+const introParagraphs = brandSummary ? describeBrand(brandSummary) : [];
+const description =
+  introParagraphs[0] ??
+  `${brandName} lug-to-lug, case diameter, thickness, and lug width measurements for ${watches.length} watch record${watches.length === 1 ? "" : "s"}.`;
 const origin = resolveOrigin(Astro.site);
 const canonicalUrl = new URL(Astro.url.pathname, origin).toString();
 const title = `${brandName} watches: lug-to-lug, case size & thickness | Lug to Lug Finder`;
@@ -47,7 +53,13 @@ const structuredData = {
   <script is:inline type="application/ld+json" set:html={toJsonLd(breadcrumbData)} />
   <section class="section" style="margin-top: 0;">
     <h1 class="page-title">{brandName}</h1>
-    <p class="lede">Approved records for {brandName} watches.</p>
+    {introParagraphs.length > 0 ? (
+      <div class="brand-intro">
+        {introParagraphs.map((paragraph) => <p class="lede">{paragraph}</p>)}
+      </div>
+    ) : (
+      <p class="lede">Approved records for {brandName} watches.</p>
+    )}
     <div class="watch-list" style="margin-top: 26px;">
       {watches.map((watch) => <WatchRow watch={watch} />)}
     </div>
