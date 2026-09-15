@@ -98924,12 +98924,16 @@
     "reference": "Peacemaker PN-07 IW358",
     "lugToLugMm": 52.5,
     "caseMm": 43,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 24,
     "sources": [
       {
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=358&cate_no=29",
         "note": "IntoWatch product specification image lists 43 mm case, 52.5 mm lug-to-lug, and 24 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      },
+      {
+        "sourceUrl": "https://gruppogamma.com/products/pn-07",
+        "note": "Gruppo Gamma product page for Peacemaker PN-07 lists 43 mm diameter, 13 mm height, 52.5 mm lug-to-lug, 24 mm lug width."
       }
     ],
     "canonicalModel": "Peacemaker",
@@ -98943,12 +98947,16 @@
     "reference": "Peacemaker PN-08 IW359",
     "lugToLugMm": 52.5,
     "caseMm": 43,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": 24,
     "sources": [
       {
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=359&cate_no=29",
         "note": "IntoWatch product specification image lists 43 mm case, 52.5 mm lug-to-lug, and 24 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      },
+      {
+        "sourceUrl": "https://gruppogamma.com/products/pn-08",
+        "note": "Gruppo Gamma product page for Peacemaker PN-08 lists 43 mm diameter, 13 mm height, 52.5 mm lug-to-lug, 24 mm lug width."
       }
     ],
     "canonicalModel": "Peacemaker",
@@ -99046,12 +99054,16 @@
     "reference": "Seastorm GMT 'Panda' Non-Date IW353",
     "lugToLugMm": 48.5,
     "caseMm": 41.5,
-    "thicknessMm": null,
+    "thicknessMm": 14.15,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=353&cate_no=46",
         "note": "IntoWatch product specification image lists 41.5 mm case, 48.5 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      },
+      {
+        "sourceUrl": "https://www.borealiswatch.com/products/pre-order-borealis-sea-storm-mk2-gmt-version-be1-panda-bezel-no-date",
+        "note": "Borealis product page 'Sea Storm MK2 GMT Version BE1 Panda Bezel No Date' lists 41.5 mm case, 14.15 mm height, 48.5 mm lug-to-lug, 20 mm lug width."
       }
     ],
     "canonicalModel": "Seastorm GMT",
@@ -99065,12 +99077,16 @@
     "reference": "Seastorm GMT 'Panda' Date IW352",
     "lugToLugMm": 48.5,
     "caseMm": 41.5,
-    "thicknessMm": null,
+    "thicknessMm": 14.15,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=352&cate_no=46",
         "note": "IntoWatch product specification image lists 41.5 mm case, 48.5 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      },
+      {
+        "sourceUrl": "https://www.borealiswatch.com/products/borealis-sea-storm-mk2-gmt-version-be-panda-bezel-date",
+        "note": "Borealis product page 'Sea Storm MK2 GMT Version BE Panda Bezel Date' lists 41.5 mm case, 14.15 mm height, 48.5 mm lug-to-lug, 20 mm lug width."
       }
     ],
     "canonicalModel": "Seastorm GMT",
@@ -99084,12 +99100,16 @@
     "reference": "Seastorm GMT 'Sprite' Date IW355",
     "lugToLugMm": 48.5,
     "caseMm": 41.5,
-    "thicknessMm": null,
+    "thicknessMm": 14.15,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=355&cate_no=46",
         "note": "IntoWatch product specification image lists 41.5 mm case, 48.5 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      },
+      {
+        "sourceUrl": "https://www.borealiswatch.com/products/borealis-sea-storm-mk2-gmt-version-bi-green-black-bezel-date",
+        "note": "Borealis product page 'Sea Storm MK2 GMT Version BI Green Black Bezel Date' lists 41.5 mm case, 14.15 mm height, 48.5 mm lug-to-lug, 20 mm lug width. The green/black bezel is the variant the retailer lists as 'Sprite'."
       }
     ],
     "canonicalModel": "Seastorm GMT",
@@ -99103,12 +99123,16 @@
     "reference": "Seastorm GMT 'Pepsi' Date IW354",
     "lugToLugMm": 48.5,
     "caseMm": 41.5,
-    "thicknessMm": null,
+    "thicknessMm": 14.15,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=354&cate_no=46",
         "note": "IntoWatch product specification image lists 41.5 mm case, 48.5 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      },
+      {
+        "sourceUrl": "https://www.borealiswatch.com/products/borealis-sea-storm-mk2-gmt-version-aa",
+        "note": "Borealis product page 'Sea Storm MK2 GMT Version AA Pepsi Bezel Date' lists 41.5 mm case, 14.15 mm height, 48.5 mm lug-to-lug, 20 mm lug width."
       }
     ],
     "canonicalModel": "Seastorm GMT",
@@ -99122,12 +99146,16 @@
     "reference": "Seastorm GMT 'Pepsi' Non-Date IW356",
     "lugToLugMm": 48.5,
     "caseMm": 41.5,
-    "thicknessMm": null,
+    "thicknessMm": 14.15,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=356&cate_no=46",
         "note": "IntoWatch product specification image lists 41.5 mm case, 48.5 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      },
+      {
+        "sourceUrl": "https://www.borealiswatch.com/products/borealis-sea-storm-mk2-gmt-version-aa1-pepsi-bezel-no-date",
+        "note": "Borealis product page 'Sea Storm MK2 GMT Version AA1 Pepsi Bezel No Date' lists 41.5 mm case, 14.15 mm height, 48.5 mm lug-to-lug, 20 mm lug width."
       }
     ],
     "canonicalModel": "Seastorm GMT",
@@ -99141,12 +99169,16 @@
     "reference": "Seastorm GMT 'Coke' Date IW357",
     "lugToLugMm": 48.5,
     "caseMm": 41.5,
-    "thicknessMm": null,
+    "thicknessMm": 14.15,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=357&cate_no=46",
         "note": "IntoWatch product specification image lists 41.5 mm case, 48.5 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      },
+      {
+        "sourceUrl": "https://www.borealiswatch.com/products/borealis-sea-storm-mk2-gmt-version-ab-coke-bezel",
+        "note": "Borealis product page 'Sea Storm MK2 GMT Version AB Coke Bezel Date' lists 41.5 mm case, 14.15 mm height, 48.5 mm lug-to-lug, 20 mm lug width."
       }
     ],
     "canonicalModel": "Seastorm GMT",
@@ -99735,12 +99767,16 @@
     "reference": "Royal Marine - Royal Navy IW176",
     "lugToLugMm": 47,
     "caseMm": 39.5,
-    "thicknessMm": null,
+    "thicknessMm": 14.8,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=176&cate_no=72",
         "note": "IntoWatch product specification image lists 39.5 mm case, 47 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+      },
+      {
+        "sourceUrl": "https://wmtwatches.com/product/royal-marine-royal-navy-aged-limited-edition/",
+        "note": "WMT product page 'Royal Marine – Royal Navy \"Aged\" Edition' lists 39.5 mm case, 14.8 mm thickness, 47.5 mm case length, 20 mm lug width."
       }
     ],
     "canonicalModel": "Royal Marine",
