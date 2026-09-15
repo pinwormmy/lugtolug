@@ -17,6 +17,7 @@ import {
   type WristFitBand
 } from "@/lib/wristGuide";
 import { uniqueByModel } from "@/lib/guideList";
+import { compareBrandPriority, pickWithBrandCap } from "@/lib/brandPriority";
 import { buildItemListSchema, describeLugToLugLimit } from "@/lib/wristGuideCopy";
 
 const limit = getLugToLugLimit(Astro.params.limit!);
@@ -30,7 +31,9 @@ const under = watches.filter((watch) => matchesLugToLug(watch, limit));
 const topBrands = countByBrand(under, 12);
 const brandCount = new Set(under.map((watch) => watch.brandSlug)).size;
 const copy = describeLugToLugLimit(limit, { count: under.length, brandCount, topBrands });
-const newest = uniqueByModel([...under].sort((a, b) => b.id - a.id), 48);
+// Newest first with major brands leading, one row per model family and at most a
+// few rows per brand so one catalog import does not take over the section.
+const newest = pickWithBrandCap(uniqueByModel([...under].sort((a, b) => compareBrandPriority(a, b) || b.id - a.id)), 48, 4);
 const BAND_LABELS: Record<WristFitBand, string> = {
   compact: "Compact",
   balanced: "Balanced",
@@ -107,7 +110,7 @@ const breadcrumbData = {
         <p class="eyebrow">Recently added</p>
         <h2 id="newest-title">Newest watches {limit.rangeLabel} lug-to-lug</h2>
       </div>
-      <p>One entry per model family. <a href={searchHref}>Open all {under.length.toLocaleString("en-US")} in search</a>, sorted shortest first.</p>
+      <p>Major brands first, one entry per model family. <a href={searchHref}>Open all {under.length.toLocaleString("en-US")} in search</a>, sorted shortest first.</p>
     </div>
     <GuideListSearch
       client:load

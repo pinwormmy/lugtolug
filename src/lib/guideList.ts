@@ -1,6 +1,7 @@
 import type { Watch } from "@/types";
 import { watchMatchesSearchQuery } from "@/lib/watch";
 import { getWatchGenre, matchesGenre } from "@/lib/wristGuide";
+import { compareBrandPriority } from "@/lib/brandPriority";
 
 // Filtering shared by the guide pages (server-rendered lists) and their
 // in-page search island, so a query returns the same set the page describes.
@@ -47,11 +48,17 @@ export function filterGuideWatches(watches: Watch[], options: GuideListOptions):
     (query === "" || watchMatchesSearchQuery(watch, query))
   ));
 
+  // Major brands first, then the requested order (matches the server-rendered lists).
   if (options.sort === "newest") {
-    matches.sort((a, b) => b.id - a.id);
+    matches.sort((a, b) => compareBrandPriority(a, b) || b.id - a.id);
   } else {
     const sweetSpot = options.sweetSpotMm ?? ((options.minMm ?? 0) + (options.maxMm ?? 0)) / 2;
-    matches.sort((a, b) => Math.abs(a.lugToLugMm - sweetSpot) - Math.abs(b.lugToLugMm - sweetSpot) || byName(a, b));
+    matches.sort(
+      (a, b) =>
+        compareBrandPriority(a, b) ||
+        Math.abs(a.lugToLugMm - sweetSpot) - Math.abs(b.lugToLugMm - sweetSpot) ||
+        byName(a, b)
+    );
   }
 
   return uniqueByModel(matches);

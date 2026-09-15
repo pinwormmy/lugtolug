@@ -15,12 +15,12 @@ describe("SearchApp feature contracts", () => {
     expect(markup).toContain('value="omega"');
   });
 
-  it("lists recently added as the first sort option", () => {
+  it("lists major brands first as the default sort option", () => {
     const markup = renderToStaticMarkup(
       <WatchSearchResults filteredCount={0} isPending={false} onSortChange={() => undefined} results={[]} sort="recent" />
     );
 
-    expect(markup).toContain('<option value="recent" selected="">Recently added</option>');
+    expect(markup).toContain('<option value="recent" selected="">Major brands first</option>');
   });
 
   it("keeps the search query in the URL when updating", () => {

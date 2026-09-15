@@ -48,6 +48,13 @@ describe("watch directory discovery", () => {
       { brand: "Omega", brandSlug: "omega", watchCount: 2 },
       { brand: "Tissot", brandSlug: "tissot", watchCount: 1 }
     ]);
+    expect(
+      buildPopularBrands([
+        ...watches,
+        ...[4, 5, 6].map((id) => watch({ id, brand: "Doxa", brandSlug: "doxa", model: "SUB 300", modelSlug: "sub-300" })),
+        ...[7, 8, 9, 10].map((id) => watch({ id, brand: "Newcomer", brandSlug: "newcomer", model: "One", modelSlug: "one" }))
+      ]).map((brand) => `${brand.brandSlug}:${brand.watchCount}`)
+    ).toEqual(["omega:2", "tissot:1", "doxa:3", "newcomer:4"]);
     expect(buildWatchDirectoryStats(watches)).toEqual({
       totalRecords: 3,
       brandCount: 2,

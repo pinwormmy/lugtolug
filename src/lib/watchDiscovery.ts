@@ -1,5 +1,6 @@
 import type { Watch } from "@/types";
 import { groupWatchesForDisplay, type WatchDisplayGroup } from "@/lib/watchGroups";
+import { compareBrandOrder, compareBrandPriority } from "@/lib/brandPriority";
 
 export interface BrandSummary {
   brand: string;
@@ -32,8 +33,11 @@ export function buildPopularBrands(watches: Watch[], limit = 12): BrandSummary[]
     }
   }
 
+  // The brand grid follows the curated order in data/brand-priority.json, so a
+  // catalog import that adds hundreds of references for one brand does not
+  // push the houses people actually look for out of the directory.
   return [...brands.values()]
-    .sort((a, b) => b.watchCount - a.watchCount || a.brand.localeCompare(b.brand))
+    .sort((a, b) => compareBrandOrder(a, b) || b.watchCount - a.watchCount || a.brand.localeCompare(b.brand))
     .slice(0, limit);
 }
 
@@ -83,6 +87,7 @@ export function rankSimilarWatches(watches: Watch[], target: Watch, limit = 6): 
   return groupWatchesForDisplay(candidates)
     .sort((a, b) => (
       similarityDistance(a, target) - similarityDistance(b, target) ||
+      compareBrandPriority(a, b) ||
       a.brand.localeCompare(b.brand) ||
       a.model.localeCompare(b.model)
     ))

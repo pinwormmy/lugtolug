@@ -1,4 +1,5 @@
 import type { Watch } from "@/types";
+import { compareBrandPriority } from "@/lib/brandPriority";
 import {
   FIT_RATIO_STANDARD,
   FIT_RATIO_THRESHOLDS,
@@ -271,7 +272,7 @@ export function countByBrand(watches: Watch[], limit = 12): BrandCount[] {
     counts.set(watch.brandSlug, entry);
   }
   return [...counts.values()]
-    .sort((a, b) => b.count - a.count || a.brand.localeCompare(b.brand))
+    .sort((a, b) => compareBrandPriority(a, b) || b.count - a.count || a.brand.localeCompare(b.brand))
     .slice(0, limit);
 }
 
@@ -292,9 +293,10 @@ export function buildWristGuide(watches: Watch[], size: WristSize, genre: WatchG
     else if (band === "large") large.push(watch);
   }
 
-  balanced.sort((a, b) => sweetSpotDistance(a) - sweetSpotDistance(b) || byName(a, b));
-  compact.sort((a, b) => b.lugToLugMm - a.lugToLugMm || byName(a, b));
-  large.sort((a, b) => a.lugToLugMm - b.lugToLugMm || byName(a, b));
+  // Major brands first inside every band, then the fit ordering the copy describes.
+  balanced.sort((a, b) => compareBrandPriority(a, b) || sweetSpotDistance(a) - sweetSpotDistance(b) || byName(a, b));
+  compact.sort((a, b) => compareBrandPriority(a, b) || b.lugToLugMm - a.lugToLugMm || byName(a, b));
+  large.sort((a, b) => compareBrandPriority(a, b) || a.lugToLugMm - b.lugToLugMm || byName(a, b));
 
   const genreCounts = genre
     ? []

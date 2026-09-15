@@ -1,4 +1,5 @@
 import type { Watch, WatchStatus, WatchWithSources } from "@/types";
+import { pickWithBrandCap } from "@/lib/brandPriority";
 import type { D1 } from "@/lib/db/connection";
 import { mapWatch, type WatchRow } from "@/lib/db/rows";
 import { normalizeSearch } from "@/lib/slug";
@@ -140,13 +141,27 @@ export async function listRecentWatches(db: D1, limit = 5): Promise<WatchWithSou
   });
 }
 
+// "Recently added" lists build a pool this many times the displayed count, put
+// major brands first and cap how often one brand appears, so a single catalog
+// import (hundreds of rows for one brand) cannot fill the whole list while every
+// entry still comes from the newest records. D1 is only asked for `limit` rows
+// (the newest approvals, which lead the pool); the seed supplies the rest for
+// free, so the wider pool does not add D1 rows_read.
+const RECENT_POOL_MULTIPLIER = 6;
+const RECENT_MAX_PER_BRAND = 3;
+
 export async function listRecentSearchWatches(db: D1, limit = 48): Promise<Watch[]> {
+  const poolLimit = limit * RECENT_POOL_MULTIPLIER;
   const fromSeed = () =>
-    seedWatches
-      .slice()
-      .sort((a, b) => b.id - a.id)
-      .slice(0, limit)
-      .map(toWatchSummary);
+    pickWithBrandCap(
+      seedWatches
+        .slice()
+        .sort((a, b) => b.id - a.id)
+        .slice(0, poolLimit)
+        .map(toWatchSummary),
+      limit,
+      RECENT_MAX_PER_BRAND
+    );
   if (!db) return fromSeed();
 
   return withSeedFallback(fromSeed, async () => {
@@ -154,12 +169,13 @@ export async function listRecentSearchWatches(db: D1, limit = 48): Promise<Watch
       .prepare("SELECT * FROM watches WHERE status = 'approved' ORDER BY updated_at DESC, id DESC LIMIT ?")
       .bind(limit)
       .all<WatchRow>();
-    return mergeRecentSeedWatches(
+    const pool = mergeRecentSeedWatches(
       rows.results.map(mapWatch),
       seedWatches.map(toWatchSummary),
       await listSuppressedSeedMatches(db),
-      limit
+      poolLimit
     );
+    return pickWithBrandCap(pool, limit, RECENT_MAX_PER_BRAND);
   });
 }
 

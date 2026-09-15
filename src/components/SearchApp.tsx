@@ -4,6 +4,7 @@ import WatchSearchResults from "@/components/search/WatchSearchResults";
 import { useWatchDatabase } from "@/hooks/useWatchDatabase";
 import type { Watch } from "@/types";
 import { normalizeSearch } from "@/lib/slug";
+import { compareBrandPriority } from "@/lib/brandPriority";
 import { searchTextMatchesQuery } from "@/lib/watch";
 import {
   createEmptyDimensionFilters,
@@ -30,9 +31,11 @@ interface Props {
 function sortWatches(watches: WatchDisplayGroup[], sort: WatchSortKey): WatchDisplayGroup[] {
   const sorted = [...watches];
   sorted.sort((a, b) => {
-    if (sort === "lug-asc") return a.lugToLugMm - b.lugToLugMm;
-    if (sort === "lug-desc") return b.lugToLugMm - a.lugToLugMm;
-    return new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime();
+    // Explicit dimension sorts keep the metric first and only break ties by brand
+    // tier; the default order leads with major brands, newest inside each tier.
+    if (sort === "lug-asc") return a.lugToLugMm - b.lugToLugMm || compareBrandPriority(a, b);
+    if (sort === "lug-desc") return b.lugToLugMm - a.lugToLugMm || compareBrandPriority(a, b);
+    return compareBrandPriority(a, b) || new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime();
   });
   return sorted;
 }

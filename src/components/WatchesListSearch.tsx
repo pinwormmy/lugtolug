@@ -2,6 +2,7 @@ import { Search } from "lucide-react";
 import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import { useWatchDatabase } from "@/hooks/useWatchDatabase";
 import { groupWatchesForDisplay } from "@/lib/watchGroups";
+import { compareBrandPriority } from "@/lib/brandPriority";
 import { formatMm, getWatchDisplayName, getWatchHref, searchTextMatchesQuery } from "@/lib/watch";
 import { buildSearchUrl, readSearchState } from "@/lib/searchState";
 import type { Watch } from "@/types";
@@ -15,7 +16,15 @@ const MAX_VISIBLE_WATCHES = 120;
 
 export default function WatchesListSearch({ initialWatches, initialQuery = "" }: Props) {
   const { watches: allWatches, status: databaseStatus, retry } = useWatchDatabase(initialWatches, true);
-  const watches = useMemo(() => groupWatchesForDisplay(allWatches), [allWatches]);
+  // The catalog arrives alphabetically; lead with major brands so the first page of
+  // the directory is not just whichever microbrands sort under "A".
+  const watches = useMemo(
+    () =>
+      groupWatchesForDisplay(allWatches).sort(
+        (a, b) => compareBrandPriority(a, b) || a.brand.localeCompare(b.brand) || a.model.localeCompare(b.model)
+      ),
+    [allWatches]
+  );
   const [query, setQuery] = useState(initialQuery);
   const deferredQuery = useDeferredValue(query);
   const hasSearchQuery = deferredQuery.trim().length > 0;
