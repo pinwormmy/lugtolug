@@ -34,9 +34,22 @@ const referenceLabel = watch.reference || "Reference not provided";
 const variantLabel = watch.variant ? `${referenceLabel} · ${watch.variant}` : referenceLabel;
 const wearability = describeWearability(watch);
 const formatInches = (value: number | null | undefined) => value == null ? "Not provided" : `${mmToInches(value).toFixed(2)} in`;
-const titleIdentity = [watch.brand, watchModel, watch.reference].filter(Boolean).join(" ");
+// Retailer-sourced references repeat the product name ("Seastorm GMT IW353"), so
+// the title and description name the watch once and skip such a reference.
+const referenceForTitle = watch.reference && watch.model && watch.reference.startsWith(watch.model) ? "" : watch.reference;
+const titleIdentity = [watch.brand, watchModel, referenceForTitle].filter(Boolean).join(" ");
 const title = `${titleIdentity} lug-to-lug, dimensions & wrist fit`;
-const description = `${watchName} ${referenceLabel} dimensions: ${formatMm(watch.lugToLugMm)} lug-to-lug, ${formatMm(watch.caseMm)} case, ${formatMm(watch.thicknessMm)} thickness, and ${formatMm(watch.lugWidthMm)} lug width. ${wearability.copy.headline}. Check wrist fit and cited sources.`;
+const metricCandidates: [number | null | undefined, string][] = [
+  [watch.lugToLugMm, "lug-to-lug"],
+  [watch.caseMm, "case"],
+  [watch.thicknessMm, "thickness"],
+  [watch.lugWidthMm, "lug width"]
+];
+const providedMetrics = metricCandidates.filter((entry): entry is [number, string] => entry[0] != null);
+const metricSentence = providedMetrics
+  .map(([value, label], index) => `${index === providedMetrics.length - 1 && index > 0 ? "and " : ""}${formatMm(value)} ${label}`)
+  .join(", ");
+const description = `${[watchName, referenceForTitle].filter(Boolean).join(" ")} dimensions: ${metricSentence}. ${wearability.copy.headline}. Check wrist fit and cited sources.`;
 const siteOrigin = resolveOrigin(Astro.site);
 const canonicalUrl = new URL(Astro.url.pathname, siteOrigin).toString();
 const structuredData = {
