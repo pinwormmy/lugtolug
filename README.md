@@ -65,17 +65,19 @@ bring production D1 in line with one command (needs `wrangler login` or
 `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` in the environment):
 
 ```bash
-npm run db:sync:remote
+npm run db:sync:remote -- --base-ref=<commit that was deployed before>
+npm run db:sync:remote -- --base-ref=b144f8a --dry-run   # print the plan only
 ```
 
-It applies pending migrations, runs `db:seed:remote` (rewrites every seed row's
-slugs by id) and then executes the `data:reslug-sql` output for rows the seed does
-not carry. The individual steps remain available:
+It applies pending migrations, upserts the seed rows changed since the base
+commit as small delta chunks (`data:seed-delta-sql`; the full seed exceeds D1's
+import limits), and then executes the `data:reslug-sql` output in chunks for rows
+the seed does not carry. The individual steps remain available:
 
 ```bash
 npm run data:seed-sql && npm run data:audit   # regenerate and verify data/seed.sql
 npm run db:migrate:remote
-npm run db:seed:remote
+npm run data:seed-delta-sql -- --base-ref=<commit>   # chunks in /private/tmp/lugtolug-seed-delta
 npm run data:reslug-sql > /tmp/reslug.sql && npx wrangler d1 execute lugtolug-finder --remote --file=/tmp/reslug.sql
 ```
 
