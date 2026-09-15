@@ -13771,10 +13771,10 @@ UPDATE watch_sources SET note = 'MONOCHROME reports 48.1mm lug-to-lug, 39mm case
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 641, 'https://monochrome-watches.com/2026-longines-hydroconquest-collection-300m-dive-watch-redesigned-all-new-generation-price-review/', 'MONOCHROME reports 48.1mm lug-to-lug, 39mm case size/width, 11.7mm thickness for Longines HydroConquest in “A New Generation of Longines HydroConquest 300m Diver, in 39mm and 42mm.”'
 WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 641 AND source_url = 'https://monochrome-watches.com/2026-longines-hydroconquest-collection-300m-dive-watch-redesigned-all-new-generation-price-review/');
-UPDATE watch_sources SET note = 'Manufacturer page: 39 mm case, 48.1 mm lug-to-lug, 11.7 mm thickness, and 20 mm lug width.' WHERE watch_id = 642 AND source_url = 'https://www.longines.com/kr/p/watch-hydroconquest-l3-779-4-98-6';
+UPDATE watch_sources SET note = 'Manufacturer page: 39 mm case, 48.1 mm lug-to-lug, 11.7 mm thickness, and 20 mm lug width.' WHERE watch_id = 642 AND source_url = 'https://www.longines.com/en-us/p/watch-hydroconquest-l3-779-4-98-6';
 INSERT INTO watch_sources (watch_id, source_url, note)
-SELECT 642, 'https://www.longines.com/kr/p/watch-hydroconquest-l3-779-4-98-6', 'Manufacturer page: 39 mm case, 48.1 mm lug-to-lug, 11.7 mm thickness, and 20 mm lug width.'
-WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 642 AND source_url = 'https://www.longines.com/kr/p/watch-hydroconquest-l3-779-4-98-6');
+SELECT 642, 'https://www.longines.com/en-us/p/watch-hydroconquest-l3-779-4-98-6', 'Manufacturer page: 39 mm case, 48.1 mm lug-to-lug, 11.7 mm thickness, and 20 mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 642 AND source_url = 'https://www.longines.com/en-us/p/watch-hydroconquest-l3-779-4-98-6');
 UPDATE watch_sources SET note = 'MONOCHROME reports 48.1mm lug-to-lug, 39mm case size/width, 11.7mm thickness for Longines HydroConquest Exclusive Edition in “A New Generation of Longines HydroConquest 300m Diver, in 39mm and 42mm.”' WHERE watch_id = 642 AND source_url = 'https://monochrome-watches.com/2026-longines-hydroconquest-collection-300m-dive-watch-redesigned-all-new-generation-price-review/';
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 642, 'https://monochrome-watches.com/2026-longines-hydroconquest-collection-300m-dive-watch-redesigned-all-new-generation-price-review/', 'MONOCHROME reports 48.1mm lug-to-lug, 39mm case size/width, 11.7mm thickness for Longines HydroConquest Exclusive Edition in “A New Generation of Longines HydroConquest 300m Diver, in 39mm and 42mm.”'
@@ -13915,10 +13915,10 @@ UPDATE watch_sources SET note = 'MONOCHROME reports 51.2mm lug-to-lug, 39mm case
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 660, 'https://monochrome-watches.com/2026-longines-hydroconquest-collection-300m-dive-watch-redesigned-all-new-generation-price-review/', 'MONOCHROME reports 51.2mm lug-to-lug, 39mm case size/width, 11.7mm thickness for Longines HydroConquest in “A New Generation of Longines HydroConquest 300m Diver, in 39mm and 42mm.”'
 WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 660 AND source_url = 'https://monochrome-watches.com/2026-longines-hydroconquest-collection-300m-dive-watch-redesigned-all-new-generation-price-review/');
-UPDATE watch_sources SET note = 'Manufacturer page: 42 mm case, 51.2 mm lug-to-lug, 11.7 mm thickness, and 21 mm lug width.' WHERE watch_id = 661 AND source_url = 'https://www.longines.com/kr/p/watch-hydroconquest-l3-788-4-98-6';
+UPDATE watch_sources SET note = 'Manufacturer page: 42 mm case, 51.2 mm lug-to-lug, 11.7 mm thickness, and 21 mm lug width.' WHERE watch_id = 661 AND source_url = 'https://www.longines.com/en-us/p/watch-hydroconquest-l3-788-4-98-6';
 INSERT INTO watch_sources (watch_id, source_url, note)
-SELECT 661, 'https://www.longines.com/kr/p/watch-hydroconquest-l3-788-4-98-6', 'Manufacturer page: 42 mm case, 51.2 mm lug-to-lug, 11.7 mm thickness, and 21 mm lug width.'
-WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 661 AND source_url = 'https://www.longines.com/kr/p/watch-hydroconquest-l3-788-4-98-6');
+SELECT 661, 'https://www.longines.com/en-us/p/watch-hydroconquest-l3-788-4-98-6', 'Manufacturer page: 42 mm case, 51.2 mm lug-to-lug, 11.7 mm thickness, and 21 mm lug width.'
+WHERE NOT EXISTS (SELECT 1 FROM watch_sources WHERE watch_id = 661 AND source_url = 'https://www.longines.com/en-us/p/watch-hydroconquest-l3-788-4-98-6');
 UPDATE watch_sources SET note = 'MONOCHROME reports 51.2mm lug-to-lug, 39mm case size/width, 11.7mm thickness for Longines HydroConquest Exclusive Edition in “A New Generation of Longines HydroConquest 300m Diver, in 39mm and 42mm.”' WHERE watch_id = 661 AND source_url = 'https://monochrome-watches.com/2026-longines-hydroconquest-collection-300m-dive-watch-redesigned-all-new-generation-price-review/';
 INSERT INTO watch_sources (watch_id, source_url, note)
 SELECT 661, 'https://monochrome-watches.com/2026-longines-hydroconquest-collection-300m-dive-watch-redesigned-all-new-generation-price-review/', 'MONOCHROME reports 51.2mm lug-to-lug, 39mm case size/width, 11.7mm thickness for Longines HydroConquest Exclusive Edition in “A New Generation of Longines HydroConquest 300m Diver, in 39mm and 42mm.”'
