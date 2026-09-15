@@ -8,7 +8,7 @@
 //   node scripts/generate-reslug-sql.mjs > /tmp/reslug.sql && \
 //     npx wrangler d1 execute lugtolug-finder --remote --file=/tmp/reslug.sql
 //
-// Placeholder reference slugs (seed-tmp-*, retired-*) are kept; only brand and
+// Placeholder reference slugs (seed-tmp-*, retired-*, archived-*) are kept; only brand and
 // model slugs change on those rows. Rows whose new slugs would collide with
 // another row are reported on stderr and skipped so idx_watches_slugs stays valid.
 import { execFileSync } from "node:child_process";
@@ -17,7 +17,7 @@ import { resolve } from "node:path";
 import { getWatchSlugs } from "../src/lib/watchText.ts";
 
 const DATABASE = "lugtolug-finder";
-const PLACEHOLDER_REFERENCE_SLUG = /^(seed-tmp-|retired-)/;
+const PLACEHOLDER_REFERENCE_SLUG = /^(seed-tmp-|retired-|archived-)/;
 
 function argumentValue(name) {
   const prefix = `--${name}=`;
