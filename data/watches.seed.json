@@ -98931,7 +98931,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=358&cate_no=29",
         "note": "IntoWatch product specification image lists 43 mm case, 52.5 mm lug-to-lug, and 24 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Peacemaker",
+    "modelGroup": "gruppo-gamma-peacemaker",
+    "variant": "PN-07"
   },
   {
     "id": 5503,
@@ -98947,7 +98950,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=359&cate_no=29",
         "note": "IntoWatch product specification image lists 43 mm case, 52.5 mm lug-to-lug, and 24 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Peacemaker",
+    "modelGroup": "gruppo-gamma-peacemaker",
+    "variant": "PN-08"
   },
   {
     "id": 5504,
@@ -99047,7 +99053,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=353&cate_no=46",
         "note": "IntoWatch product specification image lists 41.5 mm case, 48.5 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Seastorm GMT",
+    "modelGroup": "borealis-seastorm-gmt",
+    "variant": "Panda Non-Date"
   },
   {
     "id": 5509,
@@ -99063,7 +99072,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=352&cate_no=46",
         "note": "IntoWatch product specification image lists 41.5 mm case, 48.5 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Seastorm GMT",
+    "modelGroup": "borealis-seastorm-gmt",
+    "variant": "Panda Date"
   },
   {
     "id": 5510,
@@ -99079,7 +99091,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=355&cate_no=46",
         "note": "IntoWatch product specification image lists 41.5 mm case, 48.5 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Seastorm GMT",
+    "modelGroup": "borealis-seastorm-gmt",
+    "variant": "Sprite Date"
   },
   {
     "id": 5511,
@@ -99095,7 +99110,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=354&cate_no=46",
         "note": "IntoWatch product specification image lists 41.5 mm case, 48.5 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Seastorm GMT",
+    "modelGroup": "borealis-seastorm-gmt",
+    "variant": "Pepsi Date"
   },
   {
     "id": 5512,
@@ -99111,7 +99129,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=356&cate_no=46",
         "note": "IntoWatch product specification image lists 41.5 mm case, 48.5 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Seastorm GMT",
+    "modelGroup": "borealis-seastorm-gmt",
+    "variant": "Pepsi Non-Date"
   },
   {
     "id": 5513,
@@ -99127,7 +99148,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=357&cate_no=46",
         "note": "IntoWatch product specification image lists 41.5 mm case, 48.5 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Seastorm GMT",
+    "modelGroup": "borealis-seastorm-gmt",
+    "variant": "Coke Date"
   },
   {
     "id": 5514,
@@ -99452,7 +99476,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=95&cate_no=64",
         "note": "IntoWatch product specification image lists 42 mm case, 50 mm lug-to-lug. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Field Watch #1",
+    "modelGroup": "venturo-field-watch-1",
+    "variant": "Black"
   },
   {
     "id": 5531,
@@ -99468,7 +99495,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=94&cate_no=64",
         "note": "IntoWatch product specification image lists 42 mm case, 50 mm lug-to-lug. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Field Watch #1",
+    "modelGroup": "venturo-field-watch-1",
+    "variant": "Blue"
   },
   {
     "id": 5532,
@@ -99484,7 +99514,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=210&cate_no=64",
         "note": "IntoWatch product specification image lists 40 mm case, 48.5 mm lug-to-lug, 13 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Skindiver",
+    "modelGroup": "venturo-skindiver",
+    "variant": "C3 Date"
   },
   {
     "id": 5533,
@@ -99500,7 +99533,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=196&cate_no=64",
         "note": "IntoWatch product specification image lists 40 mm case, 48.5 mm lug-to-lug, 13 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Skindiver",
+    "modelGroup": "venturo-skindiver",
+    "variant": "Old Radium Non-Date"
   },
   {
     "id": 5534,
@@ -99516,7 +99552,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=216&cate_no=70",
         "note": "IntoWatch product specification image lists 40 mm case, 46 mm lug-to-lug, 13.8 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Ironclad 40",
+    "modelGroup": "axios-ironclad-40",
+    "variant": "Horizon"
   },
   {
     "id": 5535,
@@ -99532,7 +99571,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=219&cate_no=70",
         "note": "IntoWatch product specification image lists 40 mm case, 46 mm lug-to-lug, 13.8 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Ironclad 40",
+    "modelGroup": "axios-ironclad-40",
+    "variant": "Deep Blue Meteorite"
   },
   {
     "id": 5536,
@@ -99548,7 +99590,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=218&cate_no=70",
         "note": "IntoWatch product specification image lists 40 mm case, 46 mm lug-to-lug, 13.8 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Ironclad 40",
+    "modelGroup": "axios-ironclad-40",
+    "variant": "Black Pearl"
   },
   {
     "id": 5537,
@@ -99564,7 +99609,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=217&cate_no=70",
         "note": "IntoWatch product specification image lists 40 mm case, 46 mm lug-to-lug, 13.8 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Ironclad 40",
+    "modelGroup": "axios-ironclad-40",
+    "variant": "Snow"
   },
   {
     "id": 5538,
@@ -99580,7 +99628,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=215&cate_no=70",
         "note": "IntoWatch product specification image lists 40 mm case, 46 mm lug-to-lug, 13.8 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Ironclad 40",
+    "modelGroup": "axios-ironclad-40",
+    "variant": "First Light"
   },
   {
     "id": 5539,
@@ -99596,7 +99647,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=169&cate_no=70",
         "note": "IntoWatch product specification image lists 40 mm case, 46.5 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Flagship 40",
+    "modelGroup": "axios-flagship-40",
+    "variant": "Temeraire"
   },
   {
     "id": 5540,
@@ -99612,7 +99666,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=168&cate_no=70",
         "note": "IntoWatch product specification image lists 40 mm case, 46.5 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Flagship 40",
+    "modelGroup": "axios-flagship-40",
+    "variant": "Ajax"
   },
   {
     "id": 5541,
@@ -99628,7 +99685,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=167&cate_no=70",
         "note": "IntoWatch product specification image lists 40 mm case, 46.5 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Flagship 40",
+    "modelGroup": "axios-flagship-40",
+    "variant": "Victory"
   },
   {
     "id": 5542,
@@ -99644,7 +99704,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=166&cate_no=70",
         "note": "IntoWatch product specification image lists 40 mm case, 46.5 mm lug-to-lug, 13.2 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Flagship 40",
+    "modelGroup": "axios-flagship-40",
+    "variant": "Defiance"
   },
   {
     "id": 5543,
@@ -99660,7 +99723,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=164&cate_no=70",
         "note": "IntoWatch product specification image lists 40 mm case, 46 mm lug-to-lug, 13.8 mm thickness, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Ironclad 40",
+    "modelGroup": "axios-ironclad-40",
+    "variant": "Emerald Night"
   },
   {
     "id": 5544,
@@ -99676,7 +99742,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=176&cate_no=72",
         "note": "IntoWatch product specification image lists 39.5 mm case, 47 mm lug-to-lug, and 20 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Royal Marine",
+    "modelGroup": "wmt-royal-marine",
+    "variant": "Royal Navy"
   },
   {
     "id": 5545,
@@ -99692,7 +99761,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=392&cate_no=72",
         "note": "IntoWatch product specification image lists 43.17 mm case, 41.5 mm lug-to-lug, 10.3 mm thickness. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Green Label",
+    "modelGroup": "wmt-green-label",
+    "variant": "Aquamarine AM0020C"
   },
   {
     "id": 5546,
@@ -99708,7 +99780,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=429&cate_no=72",
         "note": "IntoWatch product specification image lists 43.17 mm case, 41.5 mm lug-to-lug, 10.3 mm thickness. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Green Label",
+    "modelGroup": "wmt-green-label",
+    "variant": "Aquamarine AM0010C"
   },
   {
     "id": 5547,
@@ -99724,7 +99799,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=389&cate_no=72",
         "note": "IntoWatch product specification image lists 43.17 mm case, 41.5 mm lug-to-lug, 10.3 mm thickness. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
       }
-    ]
+    ],
+    "canonicalModel": "Green Label",
+    "modelGroup": "wmt-green-label",
+    "variant": "Aquamarine AM0070C"
   },
   {
     "id": 5548,
@@ -102240,7 +102318,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=73&cate_no=59",
         "note": "IntoWatch product specification image lists 42 mm case, 49 mm lug-to-lug, 14.75 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Eagle Ray 5",
+    "modelGroup": "prometheus-eagle-ray-5",
+    "variant": "5B"
   },
   {
     "id": 5673,
@@ -102256,7 +102337,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=74&cate_no=59",
         "note": "IntoWatch product specification image lists 42 mm case, 49 mm lug-to-lug, 14.75 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Eagle Ray 5",
+    "modelGroup": "prometheus-eagle-ray-5",
+    "variant": "5B.1"
   },
   {
     "id": 5674,
@@ -102272,7 +102356,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=75&cate_no=59",
         "note": "IntoWatch product specification image lists 42 mm case, 49 mm lug-to-lug, 14.75 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Eagle Ray 5",
+    "modelGroup": "prometheus-eagle-ray-5",
+    "variant": "5E.1"
   },
   {
     "id": 5675,
@@ -102510,7 +102597,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=107",
         "note": "IntoWatch product specification image lists 44 mm case, 52 mm lug-to-lug, 14.5 mm thickness, 24 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Divemaster",
+    "modelGroup": "gruppo-gamma-divemaster",
+    "variant": "DG-05"
   },
   {
     "id": 5688,
@@ -102526,7 +102616,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=108",
         "note": "IntoWatch product specification image lists 44 mm case, 52 mm lug-to-lug, 14.5 mm thickness, 24 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Divemaster",
+    "modelGroup": "gruppo-gamma-divemaster",
+    "variant": "DG-07"
   },
   {
     "id": 5689,
@@ -102761,7 +102854,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=131&cate_no=29",
         "note": "IntoWatch product specification image lists 44 mm case, 54 mm lug-to-lug, 13 mm thickness, 24 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Vanguard",
+    "modelGroup": "gruppo-gamma-vanguard",
+    "variant": "AN-17"
   },
   {
     "id": 5702,
@@ -102777,7 +102873,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=132&cate_no=29",
         "note": "IntoWatch product specification image lists 44 mm case, 54 mm lug-to-lug, 13 mm thickness, 24 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Vanguard",
+    "modelGroup": "gruppo-gamma-vanguard",
+    "variant": "AN-18"
   },
   {
     "id": 5703,
@@ -102895,7 +102994,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=141&cate_no=64",
         "note": "IntoWatch product specification image lists 42 mm case, 48.5 mm lug-to-lug, 11 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Field Watch #2",
+    "modelGroup": "venturo-field-watch-2",
+    "variant": "Cream"
   },
   {
     "id": 5710,
@@ -102911,7 +103013,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=142&cate_no=64",
         "note": "IntoWatch product specification image lists 42 mm case, 48.5 mm lug-to-lug, 11 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Field Watch #2",
+    "modelGroup": "venturo-field-watch-2",
+    "variant": "Black"
   },
   {
     "id": 5711,
@@ -102927,7 +103032,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=143&cate_no=64",
         "note": "IntoWatch product specification image lists 42 mm case, 48.5 mm lug-to-lug, 11 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Field Watch #2",
+    "modelGroup": "venturo-field-watch-2",
+    "variant": "Classic Blue"
   },
   {
     "id": 5712,
@@ -102943,7 +103051,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=144&cate_no=64",
         "note": "IntoWatch product specification image lists 42 mm case, 48.5 mm lug-to-lug, 11 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Field Watch #2",
+    "modelGroup": "venturo-field-watch-2",
+    "variant": "Black Sunburst"
   },
   {
     "id": 5713,
@@ -102959,7 +103070,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=145&cate_no=64",
         "note": "IntoWatch product specification image lists 42 mm case, 48.5 mm lug-to-lug, 11 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Field Watch #2",
+    "modelGroup": "venturo-field-watch-2",
+    "variant": "Blue Sunburst"
   },
   {
     "id": 5714,
@@ -102975,7 +103089,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=146&cate_no=64",
         "note": "IntoWatch product specification image lists 42 mm case, 48.5 mm lug-to-lug, 11 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Field Watch #2",
+    "modelGroup": "venturo-field-watch-2",
+    "variant": "Grey Sunburst"
   },
   {
     "id": 5715,
@@ -102991,7 +103108,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=147&cate_no=29",
         "note": "IntoWatch product specification image lists 44 mm case, 52 mm lug-to-lug, 11.5 mm thickness, 24 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Peacemaker",
+    "modelGroup": "gruppo-gamma-peacemaker",
+    "variant": "PN-19"
   },
   {
     "id": 5716,
@@ -103178,7 +103298,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=162&cate_no=70",
         "note": "IntoWatch product specification image lists 40 mm case, 46 mm lug-to-lug, 13 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Ironclad 40",
+    "modelGroup": "axios-ironclad-40",
+    "variant": "Northern Sky"
   },
   {
     "id": 5726,
@@ -103194,7 +103317,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=163&cate_no=70",
         "note": "IntoWatch product specification image lists 40 mm case, 46 mm lug-to-lug, 13 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Ironclad 40",
+    "modelGroup": "axios-ironclad-40",
+    "variant": "Rising Sun"
   },
   {
     "id": 5727,
@@ -103229,7 +103355,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=175",
         "note": "IntoWatch product specification image lists 39.5 mm case, 47 mm lug-to-lug, 14.8 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Royal Marine",
+    "modelGroup": "wmt-royal-marine",
+    "variant": "Subdiver"
   },
   {
     "id": 5729,
@@ -103245,7 +103374,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=180&cate_no=72",
         "note": "IntoWatch product specification image lists 41 mm case, 50 mm lug-to-lug, 14.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Sea Wolf",
+    "modelGroup": "wmt-sea-wolf",
+    "variant": "Milspec"
   },
   {
     "id": 5730,
@@ -103318,7 +103450,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=186&cate_no=29",
         "note": "IntoWatch product specification image lists 44 mm case, 52 mm lug-to-lug, 15.5 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Nexus",
+    "modelGroup": "gruppo-gamma-nexus",
+    "variant": "NG-01"
   },
   {
     "id": 5734,
@@ -103334,7 +103469,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=187&cate_no=29",
         "note": "IntoWatch product specification image lists 44 mm case, 52 mm lug-to-lug, 15.5 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Nexus",
+    "modelGroup": "gruppo-gamma-nexus",
+    "variant": "NV-02"
   },
   {
     "id": 5735,
@@ -103350,7 +103488,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=188&cate_no=29",
         "note": "IntoWatch product specification image lists 44 mm case, 52 mm lug-to-lug, 15.5 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Nexus",
+    "modelGroup": "gruppo-gamma-nexus",
+    "variant": "ND-02"
   },
   {
     "id": 5736,
@@ -103366,7 +103507,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=195&cate_no=64",
         "note": "IntoWatch product specification image lists 40 mm case, 48.5 mm lug-to-lug, 13 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Skindiver",
+    "modelGroup": "venturo-skindiver",
+    "variant": "C3 Non-Date"
   },
   {
     "id": 5737,
@@ -103382,7 +103526,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=197&cate_no=64",
         "note": "IntoWatch product specification image lists 40 mm case, 48.5 mm lug-to-lug, 12 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Skindiver",
+    "modelGroup": "venturo-skindiver",
+    "variant": "Imperfect Edition Non-Date"
   },
   {
     "id": 5738,
@@ -103487,7 +103634,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=205&cate_no=29",
         "note": "IntoWatch product specification image lists 44 mm case, 52 mm lug-to-lug, 14.5 mm thickness, 24 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Divemaster",
+    "modelGroup": "gruppo-gamma-divemaster",
+    "variant": "DG-06"
   },
   {
     "id": 5744,
@@ -103535,7 +103685,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=240",
         "note": "IntoWatch product specification image lists 41 mm case, 50 mm lug-to-lug, 14.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Sea Wolf",
+    "modelGroup": "wmt-sea-wolf",
+    "variant": "Ohio"
   },
   {
     "id": 5747,
@@ -103551,7 +103704,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=242&cate_no=72",
         "note": "IntoWatch product specification image lists 39.5 mm case, 47 mm lug-to-lug, 14.8 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Royal Marine",
+    "modelGroup": "wmt-royal-marine",
+    "variant": "Tropical Brown Set"
   },
   {
     "id": 5748,
@@ -103643,7 +103799,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=254&cate_no=72",
         "note": "IntoWatch product specification image lists 41 mm case, 50 mm lug-to-lug, 14.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Sea Wolf",
+    "modelGroup": "wmt-sea-wolf",
+    "variant": "Republic of Korea Navy (ROKN)"
   },
   {
     "id": 5753,
@@ -103659,7 +103818,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=256&cate_no=72",
         "note": "IntoWatch product specification image lists 39.5 mm case, 47 mm lug-to-lug, 14.8 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Royal Marine",
+    "modelGroup": "wmt-royal-marine",
+    "variant": "Black"
   },
   {
     "id": 5754,
@@ -103783,7 +103945,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=277&cate_no=29",
         "note": "IntoWatch product specification image lists 43 mm case, 52.5 mm lug-to-lug, 13 mm thickness, 24 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Peacemaker",
+    "modelGroup": "gruppo-gamma-peacemaker",
+    "variant": "PG-02"
   },
   {
     "id": 5761,
@@ -103799,7 +103964,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=278&cate_no=29",
         "note": "IntoWatch product specification image lists 43 mm case, 52.5 mm lug-to-lug, 13 mm thickness, 24 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Peacemaker",
+    "modelGroup": "gruppo-gamma-peacemaker",
+    "variant": "PG-03"
   },
   {
     "id": 5762,
@@ -103815,7 +103983,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=279&cate_no=29",
         "note": "IntoWatch product specification image lists 43 mm case, 52.5 mm lug-to-lug, 13 mm thickness, 24 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Peacemaker",
+    "modelGroup": "gruppo-gamma-peacemaker",
+    "variant": "PA-02"
   },
   {
     "id": 5763,
@@ -103831,7 +104002,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=280&cate_no=29",
         "note": "IntoWatch product specification image lists 43 mm case, 52.5 mm lug-to-lug, 13 mm thickness, 24 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Peacemaker",
+    "modelGroup": "gruppo-gamma-peacemaker",
+    "variant": "PA-03"
   },
   {
     "id": 5764,
@@ -103847,7 +104021,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=282&cate_no=29",
         "note": "IntoWatch product specification image lists 43 mm case, 52.5 mm lug-to-lug, 13 mm thickness, 24 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Peacemaker",
+    "modelGroup": "gruppo-gamma-peacemaker",
+    "variant": "PG-00"
   },
   {
     "id": 5765,
@@ -103949,7 +104126,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=325&cate_no=72",
         "note": "IntoWatch product specification image lists 39.5 mm case, 47 mm lug-to-lug, 14.8 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Royal Marine",
+    "modelGroup": "wmt-royal-marine",
+    "variant": "MI6-B"
   },
   {
     "id": 5771,
@@ -103965,7 +104145,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=327&cate_no=29",
         "note": "IntoWatch product specification image lists 44 mm case, 52 mm lug-to-lug, 13.5 mm thickness, 24 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Vanguard",
+    "modelGroup": "gruppo-gamma-vanguard",
+    "variant": "AG-00"
   },
   {
     "id": 5772,
@@ -103981,7 +104164,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=328&cate_no=29",
         "note": "IntoWatch product specification image lists 44 mm case, 52 mm lug-to-lug, 13.5 mm thickness, 24 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Vanguard",
+    "modelGroup": "gruppo-gamma-vanguard",
+    "variant": "AG-01"
   },
   {
     "id": 5773,
@@ -103997,7 +104183,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=329&cate_no=29",
         "note": "IntoWatch product specification image lists 44 mm case, 52 mm lug-to-lug, 13.5 mm thickness, 24 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Vanguard",
+    "modelGroup": "gruppo-gamma-vanguard",
+    "variant": "AV-00"
   },
   {
     "id": 5774,
@@ -104045,7 +104234,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=345&cate_no=46",
         "note": "IntoWatch product specification image lists 38 mm case, 47 mm lug-to-lug, 12.6 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Bull Shark",
+    "modelGroup": "borealis-bull-shark",
+    "variant": "2AA"
   },
   {
     "id": 5777,
@@ -104061,7 +104253,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=346&cate_no=46",
         "note": "IntoWatch product specification image lists 38 mm case, 47 mm lug-to-lug, 12.6 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Bull Shark",
+    "modelGroup": "borealis-bull-shark",
+    "variant": "2AB"
   },
   {
     "id": 5778,
@@ -104077,7 +104272,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=347&cate_no=46",
         "note": "IntoWatch product specification image lists 38 mm case, 47 mm lug-to-lug, 12.6 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Bull Shark",
+    "modelGroup": "borealis-bull-shark",
+    "variant": "2AC"
   },
   {
     "id": 5779,
@@ -104093,7 +104291,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=348&cate_no=46",
         "note": "IntoWatch product specification image lists 38 mm case, 47 mm lug-to-lug, 12.6 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Bull Shark",
+    "modelGroup": "borealis-bull-shark",
+    "variant": "2AD"
   },
   {
     "id": 5780,
@@ -104109,7 +104310,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=349&cate_no=46",
         "note": "IntoWatch product specification image lists 38 mm case, 47 mm lug-to-lug, 12.6 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Bull Shark",
+    "modelGroup": "borealis-bull-shark",
+    "variant": "2AE"
   },
   {
     "id": 5781,
@@ -104125,7 +104329,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=360&cate_no=29",
         "note": "IntoWatch product specification image lists 43 mm case, 52.5 mm lug-to-lug, 13 mm thickness, 24 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Peacemaker",
+    "modelGroup": "gruppo-gamma-peacemaker",
+    "variant": "PN-09"
   },
   {
     "id": 5782,
@@ -104157,7 +104364,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=362&cate_no=72",
         "note": "IntoWatch product specification image lists 36 mm case, 43.7 mm lug-to-lug, 13 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Cabochon",
+    "modelGroup": "wmt-cabochon",
+    "variant": "Oman Red"
   },
   {
     "id": 5784,
@@ -104173,7 +104383,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=365&cate_no=72",
         "note": "IntoWatch product specification image lists 41 mm case, 50 mm lug-to-lug, 14.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Sea Wolf",
+    "modelGroup": "wmt-sea-wolf",
+    "variant": "Milspec 1"
   },
   {
     "id": 5785,
@@ -104189,7 +104402,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=369&cate_no=72",
         "note": "IntoWatch product specification image lists 39.5 mm case, 47 mm lug-to-lug, 14.8 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Green Label",
+    "modelGroup": "wmt-green-label",
+    "variant": "RM0030PO"
   },
   {
     "id": 5786,
@@ -104205,7 +104421,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=370",
         "note": "IntoWatch product specification image lists 39.5 mm case, 47 mm lug-to-lug, 14.8 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Green Label",
+    "modelGroup": "wmt-green-label",
+    "variant": "RM0060C Set"
   },
   {
     "id": 5787,
@@ -104221,7 +104440,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=402&cate_no=29",
         "note": "IntoWatch product specification image lists 42 mm case, 49.5 mm lug-to-lug, 12.6 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Vanguard",
+    "modelGroup": "gruppo-gamma-vanguard",
+    "variant": "AG-10"
   },
   {
     "id": 5788,
@@ -104237,7 +104459,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=403&cate_no=29",
         "note": "IntoWatch product specification image lists 42 mm case, 49.5 mm lug-to-lug, 12.6 mm thickness, 22 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Vanguard",
+    "modelGroup": "gruppo-gamma-vanguard",
+    "variant": "AV-10"
   },
   {
     "id": 5789,
@@ -104253,7 +104478,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=415",
         "note": "IntoWatch product specification image lists 40 mm case, 46.5 mm lug-to-lug, 14 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Green Label",
+    "modelGroup": "wmt-green-label",
+    "variant": "MZ0010C"
   },
   {
     "id": 5790,
@@ -104301,7 +104529,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=419",
         "note": "IntoWatch product specification image lists 41 mm case, 50 mm lug-to-lug, 14.5 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Green Label",
+    "modelGroup": "wmt-green-label",
+    "variant": "SW0020C"
   },
   {
     "id": 5793,
@@ -104317,7 +104548,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=420",
         "note": "IntoWatch product specification image lists 36 mm case, 43.7 mm lug-to-lug, 13 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Green Label",
+    "modelGroup": "wmt-green-label",
+    "variant": "CB0150C"
   },
   {
     "id": 5794,
@@ -104333,7 +104567,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=421",
         "note": "IntoWatch product specification image lists 32 mm case, 39 mm lug-to-lug, 13.05 mm thickness, 18 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Green Label",
+    "modelGroup": "wmt-green-label",
+    "variant": "W150040C"
   },
   {
     "id": 5795,
@@ -104349,7 +104586,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=422",
         "note": "IntoWatch product specification image lists 36 mm case, 43.7 mm lug-to-lug, 13 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Cabochon",
+    "modelGroup": "wmt-cabochon",
+    "variant": "Tropical"
   },
   {
     "id": 5796,
@@ -104365,7 +104605,10 @@
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=424",
         "note": "IntoWatch product specification image lists 36 mm case, 43.7 mm lug-to-lug, 13 mm thickness, 20 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
       }
-    ]
+    ],
+    "canonicalModel": "Cabochon",
+    "modelGroup": "wmt-cabochon",
+    "variant": "Blue Labradorite"
   },
   {
     "id": 5797,

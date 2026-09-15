@@ -10,7 +10,6 @@
     "deploy:check": "npm run data:audit && npm run typecheck && npm test && npm run build",
     "cf:pages:create": "wrangler pages project create lugtolug --production-branch main --compatibility-date 2026-05-16",
     "cf:preview": "npm run build && wrangler pages dev dist --d1 DB=local-development-placeholder",
-    "cf:secret:session": "wrangler pages secret put SESSION_SECRET --project-name lugtolug",
     "db:migrate:local": "wrangler d1 migrations apply DB --local",
     "db:create:remote": "wrangler d1 create lugtolug-finder",
     "db:migrate:remote": "wrangler d1 migrations apply lugtolug-finder --remote",

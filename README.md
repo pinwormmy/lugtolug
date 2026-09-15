@@ -174,7 +174,6 @@ Production setup:
 ```bash
 npm run db:migrate:remote
 npm run db:seed:remote
-npm run cf:secret:session
 npm run admin:sql -- operator@example.com "change-this-password"
 ```
 

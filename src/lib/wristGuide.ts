@@ -43,9 +43,6 @@ export interface LugToLugCollection {
   representativeMm: number;
 }
 
-/** @deprecated kept for readability at call sites; same shape as LugToLugCollection. */
-export type LugToLugLimit = LugToLugCollection;
-
 export interface WatchGenre {
   slug: string;
   /** Plural, e.g. "Dive watches". */

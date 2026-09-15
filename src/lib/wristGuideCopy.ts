@@ -8,7 +8,7 @@ import {
   smallestBalancedWrist,
   smallestCompactWrist,
   type BrandCount,
-  type LugToLugLimit,
+  type LugToLugCollection,
   type WristFitBand,
   type WristGuide
 } from "@/lib/wristGuide";
@@ -90,7 +90,7 @@ export interface LugToLugLimitStats {
   topBrands: BrandCount[];
 }
 
-export function describeLugToLugLimit(limit: LugToLugLimit, stats: LugToLugLimitStats): GuideCopy {
+export function describeLugToLugLimit(limit: LugToLugCollection, stats: LugToLugLimitStats): GuideCopy {
   const count = stats.count.toLocaleString("en-US");
   const span = limit.representativeMm;
   const balancedFrom = smallestBalancedWrist(span);
