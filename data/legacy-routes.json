@@ -1,0 +1,610 @@
+{
+  "$comment": "Route slugs that watches carried before their names were corrected, keyed by watch id. src/lib/legacyRoutes.ts redirects these to the current route with a 301. Add an entry whenever a published watch is renamed.",
+  "watches": {
+    "642": {
+      "brandSlug": "longines",
+      "modelSlug": "hydroconquest",
+      "referenceSlug": "l3-779-4-98-6"
+    },
+    "661": {
+      "brandSlug": "longines",
+      "modelSlug": "hydroconquest",
+      "referenceSlug": "l3-788-4-98-6"
+    },
+    "5502": {
+      "brandSlug": "gruppo-gamma",
+      "modelSlug": "pn-07",
+      "referenceSlug": "pn-07-iw358"
+    },
+    "5503": {
+      "brandSlug": "gruppo-gamma",
+      "modelSlug": "pn-08",
+      "referenceSlug": "pn-08-iw359"
+    },
+    "5508": {
+      "brandSlug": "borealis",
+      "modelSlug": "gmt",
+      "referenceSlug": "gmt-iw353"
+    },
+    "5509": {
+      "brandSlug": "borealis",
+      "modelSlug": "gmt",
+      "referenceSlug": "gmt-iw352"
+    },
+    "5510": {
+      "brandSlug": "borealis",
+      "modelSlug": "gmt",
+      "referenceSlug": "gmt-iw355"
+    },
+    "5511": {
+      "brandSlug": "borealis",
+      "modelSlug": "gmt",
+      "referenceSlug": "gmt-iw354"
+    },
+    "5512": {
+      "brandSlug": "borealis",
+      "modelSlug": "gmt",
+      "referenceSlug": "gmt-iw356"
+    },
+    "5513": {
+      "brandSlug": "borealis",
+      "modelSlug": "gmt",
+      "referenceSlug": "gmt-iw357"
+    },
+    "5514": {
+      "brandSlug": "borealis",
+      "modelSlug": "2bg1",
+      "referenceSlug": "2bg1-iw287"
+    },
+    "5525": {
+      "brandSlug": "nth",
+      "modelSlug": "iw266",
+      "referenceSlug": "iw266"
+    },
+    "5526": {
+      "brandSlug": "nth",
+      "modelSlug": "iw268",
+      "referenceSlug": "iw268"
+    },
+    "5527": {
+      "brandSlug": "nth",
+      "modelSlug": "2k1",
+      "referenceSlug": "2k1-iw208"
+    },
+    "5528": {
+      "brandSlug": "nth",
+      "modelSlug": "2k1",
+      "referenceSlug": "2k1-iw209"
+    },
+    "5529": {
+      "brandSlug": "nth",
+      "modelSlug": "v2",
+      "referenceSlug": "v2-iw342"
+    },
+    "5530": {
+      "brandSlug": "venturo",
+      "modelSlug": "field-watch-1",
+      "referenceSlug": "field-watch-1-iw95"
+    },
+    "5531": {
+      "brandSlug": "venturo",
+      "modelSlug": "field-watch-1",
+      "referenceSlug": "field-watch-1-iw94"
+    },
+    "5532": {
+      "brandSlug": "venturo",
+      "modelSlug": "c3",
+      "referenceSlug": "c3-iw210"
+    },
+    "5533": {
+      "brandSlug": "venturo",
+      "modelSlug": "iw196",
+      "referenceSlug": "iw196"
+    },
+    "5534": {
+      "brandSlug": "axios",
+      "modelSlug": "40",
+      "referenceSlug": "40-iw216"
+    },
+    "5535": {
+      "brandSlug": "axios",
+      "modelSlug": "40",
+      "referenceSlug": "40-iw219"
+    },
+    "5536": {
+      "brandSlug": "axios",
+      "modelSlug": "40",
+      "referenceSlug": "40-iw218"
+    },
+    "5537": {
+      "brandSlug": "axios",
+      "modelSlug": "40",
+      "referenceSlug": "40-iw217"
+    },
+    "5538": {
+      "brandSlug": "axios",
+      "modelSlug": "40",
+      "referenceSlug": "40-iw215"
+    },
+    "5539": {
+      "brandSlug": "axios",
+      "modelSlug": "40",
+      "referenceSlug": "40-iw169"
+    },
+    "5540": {
+      "brandSlug": "axios",
+      "modelSlug": "40",
+      "referenceSlug": "40-iw168"
+    },
+    "5541": {
+      "brandSlug": "axios",
+      "modelSlug": "40",
+      "referenceSlug": "40-iw167"
+    },
+    "5542": {
+      "brandSlug": "axios",
+      "modelSlug": "40",
+      "referenceSlug": "40-iw166"
+    },
+    "5543": {
+      "brandSlug": "axios",
+      "modelSlug": "40",
+      "referenceSlug": "40-iw164"
+    },
+    "5544": {
+      "brandSlug": "wmt",
+      "modelSlug": "iw176",
+      "referenceSlug": "iw176"
+    },
+    "5545": {
+      "brandSlug": "wmt",
+      "modelSlug": "am0020c",
+      "referenceSlug": "am0020c-iw392"
+    },
+    "5546": {
+      "brandSlug": "wmt",
+      "modelSlug": "am0010c",
+      "referenceSlug": "am0010c-iw429"
+    },
+    "5547": {
+      "brandSlug": "wmt",
+      "modelSlug": "am0070c",
+      "referenceSlug": "am0070c-iw389"
+    },
+    "5678": {
+      "brandSlug": "venturo",
+      "modelSlug": "field-watch-1",
+      "referenceSlug": "field-watch-1-iw93"
+    },
+    "5697": {
+      "brandSlug": "borealis",
+      "modelSlug": "2bd",
+      "referenceSlug": "2bd-iw126"
+    },
+    "5709": {
+      "brandSlug": "venturo",
+      "modelSlug": "field-watch-2",
+      "referenceSlug": "field-watch-2-iw141"
+    },
+    "5710": {
+      "brandSlug": "venturo",
+      "modelSlug": "field-watch-2",
+      "referenceSlug": "field-watch-2-iw142"
+    },
+    "5711": {
+      "brandSlug": "venturo",
+      "modelSlug": "field-watch-2",
+      "referenceSlug": "field-watch-2-iw143"
+    },
+    "5712": {
+      "brandSlug": "venturo",
+      "modelSlug": "field-watch-2",
+      "referenceSlug": "field-watch-2-iw144"
+    },
+    "5713": {
+      "brandSlug": "venturo",
+      "modelSlug": "field-watch-2",
+      "referenceSlug": "field-watch-2-iw145"
+    },
+    "5714": {
+      "brandSlug": "venturo",
+      "modelSlug": "field-watch-2",
+      "referenceSlug": "field-watch-2-iw146"
+    },
+    "5719": {
+      "brandSlug": "nth",
+      "modelSlug": "iw154",
+      "referenceSlug": "iw154"
+    },
+    "5720": {
+      "brandSlug": "nth",
+      "modelSlug": "iw155",
+      "referenceSlug": "iw155"
+    },
+    "5721": {
+      "brandSlug": "nth",
+      "modelSlug": "iw156",
+      "referenceSlug": "iw156"
+    },
+    "5722": {
+      "brandSlug": "nth",
+      "modelSlug": "iw157",
+      "referenceSlug": "iw157"
+    },
+    "5723": {
+      "brandSlug": "nth",
+      "modelSlug": "iw158",
+      "referenceSlug": "iw158"
+    },
+    "5724": {
+      "brandSlug": "nth",
+      "modelSlug": "iw159",
+      "referenceSlug": "iw159"
+    },
+    "5725": {
+      "brandSlug": "axios",
+      "modelSlug": "40",
+      "referenceSlug": "40-iw162"
+    },
+    "5726": {
+      "brandSlug": "axios",
+      "modelSlug": "40",
+      "referenceSlug": "40-iw163"
+    },
+    "5728": {
+      "brandSlug": "wmt",
+      "modelSlug": "iw175",
+      "referenceSlug": "iw175"
+    },
+    "5729": {
+      "brandSlug": "wmt",
+      "modelSlug": "iw180",
+      "referenceSlug": "iw180"
+    },
+    "5730": {
+      "brandSlug": "nth",
+      "modelSlug": "iw183",
+      "referenceSlug": "iw183"
+    },
+    "5731": {
+      "brandSlug": "nth",
+      "modelSlug": "iw184",
+      "referenceSlug": "iw184"
+    },
+    "5732": {
+      "brandSlug": "nth",
+      "modelSlug": "iw185",
+      "referenceSlug": "iw185"
+    },
+    "5733": {
+      "brandSlug": "gruppo-gamma",
+      "modelSlug": "ng-01",
+      "referenceSlug": "ng-01-iw186"
+    },
+    "5734": {
+      "brandSlug": "gruppo-gamma",
+      "modelSlug": "nv-02",
+      "referenceSlug": "nv-02-iw187"
+    },
+    "5735": {
+      "brandSlug": "gruppo-gamma",
+      "modelSlug": "nd-02",
+      "referenceSlug": "nd-02-iw188"
+    },
+    "5736": {
+      "brandSlug": "venturo",
+      "modelSlug": "c3",
+      "referenceSlug": "c3-iw195"
+    },
+    "5737": {
+      "brandSlug": "venturo",
+      "modelSlug": "iw197",
+      "referenceSlug": "iw197"
+    },
+    "5738": {
+      "brandSlug": "nth",
+      "modelSlug": "dlc",
+      "referenceSlug": "dlc-iw198"
+    },
+    "5739": {
+      "brandSlug": "nth",
+      "modelSlug": "iw201",
+      "referenceSlug": "iw201"
+    },
+    "5740": {
+      "brandSlug": "nth",
+      "modelSlug": "2k1",
+      "referenceSlug": "2k1-iw202"
+    },
+    "5741": {
+      "brandSlug": "nth",
+      "modelSlug": "2k1",
+      "referenceSlug": "2k1-iw203"
+    },
+    "5742": {
+      "brandSlug": "nth",
+      "modelSlug": "2k1",
+      "referenceSlug": "2k1-iw204"
+    },
+    "5743": {
+      "brandSlug": "gruppo-gamma",
+      "modelSlug": "dg-06",
+      "referenceSlug": "dg-06-iw205"
+    },
+    "5744": {
+      "brandSlug": "nth",
+      "modelSlug": "iw206",
+      "referenceSlug": "iw206"
+    },
+    "5745": {
+      "brandSlug": "wmt",
+      "modelSlug": "iw213",
+      "referenceSlug": "iw213"
+    },
+    "5746": {
+      "brandSlug": "wmt",
+      "modelSlug": "iw240",
+      "referenceSlug": "iw240"
+    },
+    "5747": {
+      "brandSlug": "wmt",
+      "modelSlug": "iw242",
+      "referenceSlug": "iw242"
+    },
+    "5748": {
+      "brandSlug": "nth",
+      "modelSlug": "iw245",
+      "referenceSlug": "iw245"
+    },
+    "5749": {
+      "brandSlug": "nth",
+      "modelSlug": "iw246",
+      "referenceSlug": "iw246"
+    },
+    "5750": {
+      "brandSlug": "nth",
+      "modelSlug": "iw247",
+      "referenceSlug": "iw247"
+    },
+    "5751": {
+      "brandSlug": "nth",
+      "modelSlug": "iw248",
+      "referenceSlug": "iw248"
+    },
+    "5752": {
+      "brandSlug": "wmt",
+      "modelSlug": "rokn",
+      "referenceSlug": "rokn-iw254"
+    },
+    "5753": {
+      "brandSlug": "wmt",
+      "modelSlug": "iw256",
+      "referenceSlug": "iw256"
+    },
+    "5754": {
+      "brandSlug": "wmt",
+      "modelSlug": "iw257",
+      "referenceSlug": "iw257"
+    },
+    "5755": {
+      "brandSlug": "nth",
+      "modelSlug": "iw265",
+      "referenceSlug": "iw265"
+    },
+    "5756": {
+      "brandSlug": "nth",
+      "modelSlug": "iw267",
+      "referenceSlug": "iw267"
+    },
+    "5757": {
+      "brandSlug": "wmt",
+      "modelSlug": "iw274",
+      "referenceSlug": "iw274"
+    },
+    "5758": {
+      "brandSlug": "nth",
+      "modelSlug": "iw275",
+      "referenceSlug": "iw275"
+    },
+    "5759": {
+      "brandSlug": "nth",
+      "modelSlug": "iw276",
+      "referenceSlug": "iw276"
+    },
+    "5760": {
+      "brandSlug": "gruppo-gamma",
+      "modelSlug": "pg-02",
+      "referenceSlug": "pg-02-iw277"
+    },
+    "5761": {
+      "brandSlug": "gruppo-gamma",
+      "modelSlug": "pg-03",
+      "referenceSlug": "pg-03-iw278"
+    },
+    "5762": {
+      "brandSlug": "gruppo-gamma",
+      "modelSlug": "pa-02",
+      "referenceSlug": "pa-02-iw279"
+    },
+    "5763": {
+      "brandSlug": "gruppo-gamma",
+      "modelSlug": "pa-03",
+      "referenceSlug": "pa-03-iw280"
+    },
+    "5764": {
+      "brandSlug": "gruppo-gamma",
+      "modelSlug": "pg-00",
+      "referenceSlug": "pg-00-iw282"
+    },
+    "5765": {
+      "brandSlug": "nth",
+      "modelSlug": "v2",
+      "referenceSlug": "v2-iw292"
+    },
+    "5766": {
+      "brandSlug": "nth",
+      "modelSlug": "v2",
+      "referenceSlug": "v2-iw293"
+    },
+    "5767": {
+      "brandSlug": "nth",
+      "modelSlug": "v2",
+      "referenceSlug": "v2-iw294"
+    },
+    "5768": {
+      "brandSlug": "nth",
+      "modelSlug": "v2",
+      "referenceSlug": "v2-iw295"
+    },
+    "5769": {
+      "brandSlug": "nth",
+      "modelSlug": "v2",
+      "referenceSlug": "v2-iw296"
+    },
+    "5770": {
+      "brandSlug": "wmt",
+      "modelSlug": "mi6-b",
+      "referenceSlug": "mi6-b-iw325"
+    },
+    "5771": {
+      "brandSlug": "gruppo-gamma",
+      "modelSlug": "ag-00",
+      "referenceSlug": "ag-00-iw327"
+    },
+    "5772": {
+      "brandSlug": "gruppo-gamma",
+      "modelSlug": "ag-01",
+      "referenceSlug": "ag-01-iw328"
+    },
+    "5773": {
+      "brandSlug": "gruppo-gamma",
+      "modelSlug": "av-00",
+      "referenceSlug": "av-00-iw329"
+    },
+    "5774": {
+      "brandSlug": "nth",
+      "modelSlug": "v2",
+      "referenceSlug": "v2-iw343"
+    },
+    "5775": {
+      "brandSlug": "nth",
+      "modelSlug": "v2",
+      "referenceSlug": "v2-iw344"
+    },
+    "5776": {
+      "brandSlug": "borealis",
+      "modelSlug": "2aa",
+      "referenceSlug": "2aa-iw345"
+    },
+    "5777": {
+      "brandSlug": "borealis",
+      "modelSlug": "2ab",
+      "referenceSlug": "2ab-iw346"
+    },
+    "5778": {
+      "brandSlug": "borealis",
+      "modelSlug": "2ac",
+      "referenceSlug": "2ac-iw347"
+    },
+    "5779": {
+      "brandSlug": "borealis",
+      "modelSlug": "2ad",
+      "referenceSlug": "2ad-iw348"
+    },
+    "5780": {
+      "brandSlug": "borealis",
+      "modelSlug": "2ae",
+      "referenceSlug": "2ae-iw349"
+    },
+    "5781": {
+      "brandSlug": "gruppo-gamma",
+      "modelSlug": "pn-09",
+      "referenceSlug": "pn-09-iw360"
+    },
+    "5782": {
+      "brandSlug": "wmt",
+      "modelSlug": "iw361",
+      "referenceSlug": "iw361"
+    },
+    "5783": {
+      "brandSlug": "wmt",
+      "modelSlug": "iw362",
+      "referenceSlug": "iw362"
+    },
+    "5784": {
+      "brandSlug": "wmt",
+      "modelSlug": "1",
+      "referenceSlug": "1-iw365"
+    },
+    "5785": {
+      "brandSlug": "wmt",
+      "modelSlug": "rm0030po",
+      "referenceSlug": "rm0030po-iw369"
+    },
+    "5786": {
+      "brandSlug": "wmt",
+      "modelSlug": "rm0060c",
+      "referenceSlug": "rm0060c-iw370"
+    },
+    "5787": {
+      "brandSlug": "gruppo-gamma",
+      "modelSlug": "ag-10",
+      "referenceSlug": "ag-10-iw402"
+    },
+    "5788": {
+      "brandSlug": "gruppo-gamma",
+      "modelSlug": "av-10",
+      "referenceSlug": "av-10-iw403"
+    },
+    "5789": {
+      "brandSlug": "wmt",
+      "modelSlug": "mz0010c",
+      "referenceSlug": "mz0010c-iw415"
+    },
+    "5791": {
+      "brandSlug": "wmt",
+      "modelSlug": "hsc",
+      "referenceSlug": "hsc-iw417"
+    },
+    "5792": {
+      "brandSlug": "wmt",
+      "modelSlug": "sw0020c",
+      "referenceSlug": "sw0020c-iw419"
+    },
+    "5793": {
+      "brandSlug": "wmt",
+      "modelSlug": "cb0150c",
+      "referenceSlug": "cb0150c-iw420"
+    },
+    "5794": {
+      "brandSlug": "wmt",
+      "modelSlug": "w150040c",
+      "referenceSlug": "w150040c-iw421"
+    },
+    "5795": {
+      "brandSlug": "wmt",
+      "modelSlug": "iw422",
+      "referenceSlug": "iw422"
+    },
+    "5796": {
+      "brandSlug": "wmt",
+      "modelSlug": "iw424",
+      "referenceSlug": "iw424"
+    },
+    "5797": {
+      "brandSlug": "wmt",
+      "modelSlug": "mkii",
+      "referenceSlug": "mkii-iw425"
+    },
+    "5799": {
+      "brandSlug": "wmt",
+      "modelSlug": "mk1",
+      "referenceSlug": "mk1-iw431"
+    },
+    "5800": {
+      "brandSlug": "wmt",
+      "modelSlug": "mk1",
+      "referenceSlug": "mk1-iw432"
+    }
+  }
+}

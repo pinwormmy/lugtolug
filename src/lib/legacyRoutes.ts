@@ -1,11 +1,17 @@
+import legacyRoutes from "../../data/legacy-routes.json";
 import { seedWatches } from "@/lib/seed";
 import { getWatchHref } from "@/lib/watch";
 import { legacySlugify } from "@/lib/watchText";
 
-// Slugs used to drop accented letters (Glashütte Original -> glash-tte-original).
-// Those URLs were indexed, so requests for them redirect (301) to the
-// transliterated slug instead of returning 404. The maps hold only records whose
-// slug actually changed, built once per isolate from the seed catalog.
+// Two kinds of old URL redirect (301) to the current page instead of 404ing:
+// - slugs used to drop accented letters (Glashütte Original -> glash-tte-original),
+//   derived here from the seed names with the old rule;
+// - watches whose names were corrected after publication (data/legacy-routes.json,
+//   keyed by watch id with the slugs the record carried before).
+// The maps hold only records whose slug actually changed, built once per isolate.
+
+type LegacySlugs = { brandSlug: string; modelSlug: string; referenceSlug: string };
+const RENAMED_WATCH_SLUGS: Record<string, LegacySlugs> = legacyRoutes.watches;
 
 let watchRedirects: Map<string, string> | null = null;
 let brandRedirects: Map<string, string> | null = null;
@@ -23,6 +29,12 @@ function buildRedirects(): void {
   brandRedirects = new Map();
 
   for (const watch of seedWatches) {
+    const renamed = RENAMED_WATCH_SLUGS[String(watch.id)];
+    if (renamed) {
+      const renamedKey = `${renamed.brandSlug}/${renamed.modelSlug}/${renamed.referenceSlug}`;
+      if (!watchRedirects.has(renamedKey)) watchRedirects.set(renamedKey, getWatchHref(watch));
+    }
+
     const legacy = legacyWatchSlugs(watch);
     const legacyKey = `${legacy.brandSlug}/${legacy.modelSlug}/${legacy.referenceSlug}`;
     const currentKey = `${watch.brandSlug}/${watch.modelSlug}/${watch.referenceSlug}`;

@@ -1,5 +1,15 @@
 # IntoWatch import report
 
+## 2026-09-15 — English product names
+
+122 IntoWatch records (NTH 35, WMT 29, Gruppo Gamma 17, Borealis 16, Venturo 13, Axios 12) and two Longines Korea
+records had been registered with the retailer's Korean product names. They now carry the brands' English names
+(씨스톰 → Seastorm, 피스메이커 → Peacemaker, 데빌레이 → DevilRay, 아이언클래드 → Ironclad, ...); IntoWatch references keep
+the `<model> IW<n>` form. The old routes are listed in `data/legacy-routes.json` and redirect. Five readings are
+transliteration guesses to confirm against the brand catalogs: Axios 5535 "Deep Blue Meteorite" (미디어라이트),
+WMT 5728 "Subdiver" (섭다이버), NTH 5744 "Nazario Vino Rosso" (비노 로소), WMT 5757 "Ember" (엠버), WMT 5799 "Lupus" (루파스).
+`npm run data:audit` now rejects Korean text in any name field.
+
 ## Pass 2 (2026-07-11) — full-catalog sweep
 
 Crawled the complete m.intowatch.com catalog (229 products across 19 categories, 4 s request spacing), OCR'd the long specification images with macOS Vision, and parsed dimensions with a two-pass parser (colon-delimited spec lines take precedence over narrative text; movement-section thickness lines are excluded).

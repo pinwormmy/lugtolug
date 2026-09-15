@@ -17,4 +17,12 @@ describe("legacy route redirects", () => {
     expect(href).toBe(`/watches/glashutte-original/${watch.modelSlug}/${watch.referenceSlug}`);
     expect(resolveLegacyWatchHref("rolex", "submariner-date", "126610ln")).toBeNull();
   });
+
+  it("maps the routes of renamed watches to their current page", () => {
+    // Borealis 5508 was published as "씨스톰 GMT '판다' 넌데이트" before its English name.
+    expect(resolveLegacyWatchHref("borealis", "gmt", "gmt-iw353")).toBe(
+      "/watches/borealis/seastorm-gmt-panda-non-date/seastorm-gmt-panda-non-date-iw353"
+    );
+    expect(resolveLegacyWatchHref("nth", "v2", "v2-iw292")).toBe("/watches/nth/upholder-v2-non-date/upholder-v2-non-date-iw292");
+  });
 });

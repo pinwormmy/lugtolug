@@ -12,6 +12,8 @@ const METRIC_LIMITS = {
   lugWidthMm: 50
 };
 const HTML_ENTITY_PATTERN = /&(?:amp|quot|apos|lt|gt|#\d+|#x[\da-f]+);/iu;
+// Retailer imports (IntoWatch) once carried Korean product names; names must be the brand's English ones.
+const HANGUL_PATTERN = /\p{Script=Hangul}/u;
 const CONTROL_CHARACTER_PATTERN = /[\u0000-\u001f\u007f\ufffd]/u;
 const MAX_PRODUCT_NAME_LENGTH = 90;
 const EDITORIAL_HEADLINE_PATTERN =
@@ -48,6 +50,7 @@ function checkCleanText(watchId, field, value, { required = false } = {}) {
   if (value !== value.trim()) addIssue(watchId, `${field} has leading or trailing whitespace.`);
   if (CONTROL_CHARACTER_PATTERN.test(value)) addIssue(watchId, `${field} contains a control or replacement character.`);
   if (HTML_ENTITY_PATTERN.test(value)) addIssue(watchId, `${field} contains an encoded HTML entity.`);
+  if (HANGUL_PATTERN.test(value)) addIssue(watchId, `${field} contains Korean text; the catalog is English-only: ${value}`);
 }
 
 function registerUnique(map, key, watchId, label) {
