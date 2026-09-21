@@ -2,6 +2,7 @@ import type { Watch } from "@/types";
 import { watchMatchesSearchQuery } from "@/lib/watch";
 import { getWatchGenre, matchesGenre } from "@/lib/wristGuide";
 import { compareBrandPriority } from "@/lib/brandPriority";
+import { compareText } from "@/lib/collate";
 
 // Filtering shared by the guide pages (server-rendered lists) and their
 // in-page search island, so a query returns the same set the page describes.
@@ -20,7 +21,7 @@ export interface GuideListOptions {
 }
 
 function byName(a: Watch, b: Watch): number {
-  return a.brand.localeCompare(b.brand) || a.model.localeCompare(b.model) || a.reference.localeCompare(b.reference);
+  return compareText(a.brand, b.brand) || compareText(a.model, b.model) || compareText(a.reference, b.reference);
 }
 
 /** One entry per model family, keeping the input order (first occurrence wins). */

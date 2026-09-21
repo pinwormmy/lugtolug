@@ -19,7 +19,8 @@ import {
   listSuppressedSeedMatches,
   mergeRecentSeedWatches,
   mergeSeedWatches,
-  toWatchSummary
+  toWatchSummary,
+  type SuppressedSeedMatches
 } from "@/lib/db/watches/merge";
 import { internalCacheKey, withEdgeCachedJson } from "@/lib/http";
 
@@ -118,13 +119,26 @@ export async function listSearchWatches(db: D1): Promise<Watch[]> {
 
 // The seed catalog minus records retired in D1: the cheap read (~130 rows) the
 // wrist and lug-to-lug guide pages use, since they need the whole catalog.
+// Guide pages treat the result as read-only, so one merge is shared per isolate
+// until the retired set changes (the merge is ~10 ms of CPU on its own).
+let catalogMemo: { signature: string; watches: Watch[] } | null = null;
+
+function getSuppressedSignature(matches: SuppressedSeedMatches): string {
+  return [...matches.keys].sort().join("\n") + "\n#\n" + [...matches.referenceIdentities].sort().join("\n");
+}
+
 export async function listCatalogWatches(db: D1): Promise<Watch[]> {
   const fromSeed = () => seedWatches.map(toWatchSummary);
   if (!db) return fromSeed();
 
-  return withSeedFallback(fromSeed, async () =>
-    mergeSeedWatches<Watch>([], fromSeed(), await listSuppressedSeedMatches(db))
-  );
+  return withSeedFallback(fromSeed, async () => {
+    const suppressed = await listSuppressedSeedMatches(db);
+    const signature = getSuppressedSignature(suppressed);
+    if (catalogMemo?.signature !== signature) {
+      catalogMemo = { signature, watches: mergeSeedWatches<Watch>([], fromSeed(), suppressed) };
+    }
+    return catalogMemo.watches;
+  });
 }
 
 export async function listRecentWatches(db: D1, limit = 5): Promise<WatchWithSources[]> {

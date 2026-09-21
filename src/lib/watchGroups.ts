@@ -53,8 +53,9 @@ function pickRepresentative(variants: Watch[], normalizedQuery: string): Watch {
 
 // Build the query-independent group structure. This does the heavy per-record search
 // text normalization, so it should be memoized on the dataset and reused across queries.
-export function buildWatchGroups(watches: Watch[]): WatchGroup[] {
-  const grouped = new Map<string, Watch[]>();
+// Cheap first pass: variants of one display group, in first-seen order.
+export function partitionDisplayGroups<T extends Watch>(watches: T[]): T[][] {
+  const grouped = new Map<string, T[]>();
 
   for (const watch of watches) {
     const key = getDisplayGroupKey(watch);
@@ -66,7 +67,11 @@ export function buildWatchGroups(watches: Watch[]): WatchGroup[] {
     }
   }
 
-  return [...grouped.values()].map((variants) => {
+  return [...grouped.values()];
+}
+
+export function buildWatchGroups(watches: Watch[]): WatchGroup[] {
+  return partitionDisplayGroups(watches).map((variants) => {
     const variantReferences = variants.map((watch) => watch.reference).filter(Boolean);
     const groupSearchText = variants.map(getVariantSearchText).join(" ");
     const groupCompactReferenceSearchText = variantReferences.map(getCompactReferenceSearchText).join(" ");

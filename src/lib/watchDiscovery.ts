@@ -1,6 +1,7 @@
 import type { Watch } from "@/types";
-import { groupWatchesForDisplay, type WatchDisplayGroup } from "@/lib/watchGroups";
+import { groupWatchesForDisplay, partitionDisplayGroups, type WatchDisplayGroup } from "@/lib/watchGroups";
 import { compareBrandOrder, compareBrandPriority } from "@/lib/brandPriority";
+import { compareText } from "@/lib/collate";
 
 export interface BrandSummary {
   brand: string;
@@ -37,7 +38,7 @@ export function buildPopularBrands(watches: Watch[], limit = 12): BrandSummary[]
   // catalog import that adds hundreds of references for one brand does not
   // push the houses people actually look for out of the directory.
   return [...brands.values()]
-    .sort((a, b) => compareBrandOrder(a, b) || b.watchCount - a.watchCount || a.brand.localeCompare(b.brand))
+    .sort((a, b) => compareBrandOrder(a, b) || b.watchCount - a.watchCount || compareText(a.brand, b.brand))
     .slice(0, limit);
 }
 
@@ -84,12 +85,18 @@ export function rankSimilarWatches(watches: Watch[], target: Watch, limit = 6): 
     )
   ));
 
-  return groupWatchesForDisplay(candidates)
+  // Rank groups by their representative (first variant) and build the search-text
+  // heavy display group only for the winners: the candidate pool is thousands of
+  // records, and grouping all of them cost ~200 ms of CPU per watch page.
+  const ranked = partitionDisplayGroups(candidates)
+    .map((variants) => ({ variants, distance: similarityDistance(variants[0], target) }))
     .sort((a, b) => (
-      similarityDistance(a, target) - similarityDistance(b, target) ||
-      compareBrandPriority(a, b) ||
-      a.brand.localeCompare(b.brand) ||
-      a.model.localeCompare(b.model)
+      a.distance - b.distance ||
+      compareBrandPriority(a.variants[0], b.variants[0]) ||
+      compareText(a.variants[0].brand, b.variants[0].brand) ||
+      compareText(a.variants[0].model, b.variants[0].model)
     ))
     .slice(0, limit);
+
+  return ranked.flatMap(({ variants }) => groupWatchesForDisplay(variants));
 }

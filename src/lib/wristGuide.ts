@@ -8,6 +8,7 @@ import {
   inchesToMm,
   mmToInches
 } from "@/lib/fit";
+import { compareText } from "@/lib/collate";
 
 // Static, indexable "what fits my wrist" guides built from the seed catalog:
 // one page per wrist circumference, per lug-to-lug ceiling, and per wrist ×
@@ -258,7 +259,7 @@ export function classifyFit(lugToLugMm: number, size: WristSize): WristFitBand {
 }
 
 function byName(a: Watch, b: Watch): number {
-  return a.brand.localeCompare(b.brand) || a.model.localeCompare(b.model) || a.reference.localeCompare(b.reference);
+  return compareText(a.brand, b.brand) || compareText(a.model, b.model) || compareText(a.reference, b.reference);
 }
 
 export function countByBrand(watches: Watch[], limit = 12): BrandCount[] {
@@ -269,11 +270,27 @@ export function countByBrand(watches: Watch[], limit = 12): BrandCount[] {
     counts.set(watch.brandSlug, entry);
   }
   return [...counts.values()]
-    .sort((a, b) => compareBrandPriority(a, b) || b.count - a.count || a.brand.localeCompare(b.brand))
+    .sort((a, b) => compareBrandPriority(a, b) || b.count - a.count || compareText(a.brand, b.brand))
     .slice(0, limit);
 }
 
+// listCatalogWatches shares one catalog array per isolate, so guides built from
+// it are reused across requests instead of re-sorting thousands of records.
+const guideMemo = new WeakMap<Watch[], Map<string, WristGuide>>();
+
 export function buildWristGuide(watches: Watch[], size: WristSize, genre: WatchGenre | null = null): WristGuide {
+  const key = `${size.slug}|${genre?.slug ?? ""}`;
+  let memo = guideMemo.get(watches);
+  const cached = memo?.get(key);
+  if (cached) return cached;
+
+  const guide = computeWristGuide(watches, size, genre);
+  if (!memo) guideMemo.set(watches, (memo = new Map()));
+  memo.set(key, guide);
+  return guide;
+}
+
+function computeWristGuide(watches: Watch[], size: WristSize, genre: WatchGenre | null): WristGuide {
   const pool = genre ? watches.filter((watch) => matchesGenre(watch, genre)) : watches;
   const bands = getWristFitBands(size);
   const sweetSpotDistance = (watch: Watch) => Math.abs(watch.lugToLugMm / size.flatWidthMm - FIT_RATIO_STANDARD);

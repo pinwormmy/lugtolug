@@ -1,5 +1,6 @@
 import type { Watch } from "@/types";
 import { WRIST_SIZES, classifyFit } from "@/lib/wristGuide";
+import { compareText } from "@/lib/collate";
 
 // Brand pages used to be a heading and a list. This derives a short factual
 // introduction from the records themselves (counts, size ranges, wrist fit), so
@@ -58,7 +59,7 @@ export function summarizeBrand(watches: Watch[]): BrandSummary | null {
   }
   const families = [...familyCounts.entries()]
     .map(([name, count]) => ({ name, count }))
-    .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+    .sort((a, b) => b.count - a.count || compareText(a.name, b.name));
 
   const lugToLug = watches.map((watch) => watch.lugToLugMm);
   const cases = watches.map((watch) => watch.caseMm).filter((value): value is number => value != null);

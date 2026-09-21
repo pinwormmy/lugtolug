@@ -2,6 +2,7 @@ import type { Watch, WatchSource, WatchWithSources } from "@/types";
 import { mapSource, mapWatch, type SourceRow, type WatchRow } from "@/lib/db/rows";
 import { getReferenceProductIdentity } from "@/lib/watchIdentity";
 import { internalCacheKey, withEdgeCachedJson } from "@/lib/http";
+import { compareText } from "@/lib/collate";
 
 type WatchKeyParts = Pick<Watch, "brandSlug" | "modelSlug" | "referenceSlug">;
 type WatchReferenceIdentityParts = Pick<Watch, "brandSlug" | "reference">;
@@ -80,7 +81,7 @@ export function mergeSeedWatches<T extends Watch>(
     seen.add(key);
     if (referenceIdentity) seenReferenceIdentities.add(referenceIdentity);
   }
-  return merged.sort((a, b) => a.brand.localeCompare(b.brand) || a.model.localeCompare(b.model));
+  return merged.sort((a, b) => compareText(a.brand, b.brand) || compareText(a.model, b.model));
 }
 
 export function mergeRecentSeedWatches<T extends Watch>(

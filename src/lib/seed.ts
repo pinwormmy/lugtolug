@@ -2,13 +2,14 @@ import seed from "../../data/watches.seed.json";
 import type { WatchWithSources } from "@/types";
 import { getWatchSlugs, normalizeOptionalString } from "@/lib/slug";
 import { watchMatchesSearchQuery } from "@/lib/watch";
+import { compareText } from "@/lib/collate";
 
 interface SeedSource {
   sourceUrl: string;
   note?: string;
 }
 
-export const seedWatches: WatchWithSources[] = seed.map((watch) => {
+export const seedWatches: WatchWithSources[] = seed.map((watch): WatchWithSources => {
   const slugs = getWatchSlugs(watch);
 
   return {
@@ -33,7 +34,11 @@ export const seedWatches: WatchWithSources[] = seed.map((watch) => {
       note: source.note ?? null
     }))
   };
-});
+})
+  // Pre-sorted once per isolate in the order mergeSeedWatches produces (a stable
+  // sort, so ties keep file order). Re-sorting sorted input is ~6x cheaper, which
+  // keeps catalog pages under the Workers free-plan CPU limit.
+  .sort((a, b) => compareText(a.brand, b.brand) || compareText(a.model, b.model));
 
 export function searchSeedWatches(query: string): WatchWithSources[] {
   return seedWatches.filter((watch) => watchMatchesSearchQuery(watch, query));

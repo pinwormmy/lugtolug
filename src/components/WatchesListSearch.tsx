@@ -6,6 +6,7 @@ import { compareBrandPriority } from "@/lib/brandPriority";
 import { formatMm, getWatchDisplayName, getWatchHref, searchTextMatchesQuery } from "@/lib/watch";
 import { buildSearchUrl, readSearchState } from "@/lib/searchState";
 import type { Watch } from "@/types";
+import { compareText } from "@/lib/collate";
 
 interface Props {
   initialWatches?: Watch[];
@@ -21,7 +22,7 @@ export default function WatchesListSearch({ initialWatches, initialQuery = "" }:
   const watches = useMemo(
     () =>
       groupWatchesForDisplay(allWatches).sort(
-        (a, b) => compareBrandPriority(a, b) || a.brand.localeCompare(b.brand) || a.model.localeCompare(b.model)
+        (a, b) => compareBrandPriority(a, b) || compareText(a.brand, b.brand) || compareText(a.model, b.model)
       ),
     [allWatches]
   );
