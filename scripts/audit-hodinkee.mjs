@@ -2,7 +2,7 @@ import { readFile, rename, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 const DEFAULT_SITEMAP_URL = "https://www.hodinkee.com/sitemap.xml";
-const DEFAULT_OUTPUT_PATH = "/private/tmp/hodinkee-lug-audit.json";
+const DEFAULT_OUTPUT_PATH = "/tmp/hodinkee-lug-audit.json";
 const USER_AGENT = "lugtolug-finder/1.0 (+https://lugtolugfinder.com)";
 
 function argumentValue(name) {

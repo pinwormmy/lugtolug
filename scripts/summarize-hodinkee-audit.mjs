@@ -7,8 +7,8 @@ function argumentValue(name) {
   return process.argv.find((argument) => argument.startsWith(prefix))?.slice(prefix.length);
 }
 
-const inputPath = resolve(argumentValue("input") ?? "/private/tmp/hodinkee-lug-audit.json");
-const outputPath = resolve(argumentValue("output") ?? "/private/tmp/hodinkee-lug-candidates.json");
+const inputPath = resolve(argumentValue("input") ?? "/tmp/hodinkee-lug-audit.json");
+const outputPath = resolve(argumentValue("output") ?? "/tmp/hodinkee-lug-candidates.json");
 
 function compactReference(value) {
   return String(value ?? "").normalize("NFKD").toLowerCase().replace(/[^a-z0-9]/gu, "");

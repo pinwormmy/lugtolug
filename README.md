@@ -80,7 +80,7 @@ the seed does not carry. The individual steps remain available:
 ```bash
 npm run data:seed-sql && npm run data:audit   # regenerate and verify data/seed.sql
 npm run db:migrate:remote
-npm run data:seed-delta-sql -- --base-ref=<commit>   # chunks in /private/tmp/lugtolug-seed-delta
+npm run data:seed-delta-sql -- --base-ref=<commit>   # chunks in /tmp/lugtolug-seed-delta
 npm run data:reslug-sql > /tmp/reslug.sql && npx wrangler d1 execute lugtolug-finder --remote --file=/tmp/reslug.sql
 ```
 

@@ -45,7 +45,7 @@ const UK_SPEC_FIELDS = {
 };
 const METRIC_FIELDS = ["caseMm", "thicknessMm", "lugToLugMm", "lugWidthMm"];
 const FIELD_LABELS = { caseMm: "case width", thicknessMm: "thickness", lugToLugMm: "lug-to-lug", lugWidthMm: "lug width" };
-const CACHE_DIR = process.env.ORIENT_CACHE_DIR ?? "/private/tmp/orient-official-catalog";
+const CACHE_DIR = process.env.ORIENT_CACHE_DIR ?? "/tmp/orient-official-catalog";
 const SEED_PATH = new URL("../data/watches.seed.json", import.meta.url);
 const SHOULD_WRITE = process.argv.includes("--write") || process.argv.includes("--apply");
 const REFRESH = process.argv.includes("--refresh");

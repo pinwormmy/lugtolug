@@ -7,7 +7,7 @@ function argumentValue(name) {
 }
 
 const seedPath = resolve(argumentValue("seed") ?? "data/watches.seed.json");
-const reportPath = resolve(argumentValue("report") ?? "/private/tmp/watch-data-normalization.json");
+const reportPath = resolve(argumentValue("report") ?? "/tmp/watch-data-normalization.json");
 const apply = process.argv.includes("--apply");
 
 // These records were imported from article headlines. The replacements below are

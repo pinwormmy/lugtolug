@@ -3,7 +3,7 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 
 const PRODUCT_SITEMAP = "https://www.christopherward.com/int/sitemap_0-product.xml";
-const CACHE_PATH = "/private/tmp/christopher-ward-products.json";
+const CACHE_PATH = "/tmp/christopher-ward-products.json";
 const SEED_PATH = new URL("../data/watches.seed.json", import.meta.url);
 const SHOULD_WRITE = process.argv.includes("--write");
 const REFRESH = process.argv.includes("--refresh");

@@ -3,7 +3,7 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 
 const PRODUCT_SITEMAP = "https://av86.com/sitemap_products_1.xml?from=330788044823&to=11370264396117";
-const CACHE_PATH = "/private/tmp/av86-products.json";
+const CACHE_PATH = "/tmp/av86-products.json";
 const SEED_PATH = new URL("../data/watches.seed.json", import.meta.url);
 const SHOULD_WRITE = process.argv.includes("--write");
 const WRITE_VERIFIED = process.argv.includes("--write-verified");

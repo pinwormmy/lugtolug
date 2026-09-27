@@ -6,7 +6,7 @@ import { promisify } from "node:util";
 // Official NOMOS Glashütte international (English) store catalog.
 const CATALOG_URL = "https://nomos-glashuette.com/en/store/watches";
 const OFFICIAL_PRODUCT_URL_PATTERN = /^https:\/\/nomos-glashuette\.com\/en\/[a-z0-9-]+\/[a-z0-9.-]+$/u;
-const CACHE_DIR = process.env.NOMOS_CACHE_DIR ?? "/private/tmp/nomos-official-catalog";
+const CACHE_DIR = process.env.NOMOS_CACHE_DIR ?? "/tmp/nomos-official-catalog";
 const SEED_PATH = new URL("../data/watches.seed.json", import.meta.url);
 const BRAND = "NOMOS";
 const SHOULD_WRITE = process.argv.includes("--write") || process.argv.includes("--apply");

@@ -6,9 +6,9 @@ function argumentValue(name) {
   return process.argv.find((argument) => argument.startsWith(prefix))?.slice(prefix.length);
 }
 
-const summaryPath = resolve(argumentValue("input") ?? "/private/tmp/monochrome-lug-candidates.json");
+const summaryPath = resolve(argumentValue("input") ?? "/tmp/monochrome-lug-candidates.json");
 const seedPath = resolve(argumentValue("seed") ?? "data/watches.seed.json");
-const reportPath = resolve(argumentValue("report") ?? "/private/tmp/monochrome-import-report.json");
+const reportPath = resolve(argumentValue("report") ?? "/tmp/monochrome-import-report.json");
 const apply = process.argv.includes("--apply");
 
 function normalize(value) {

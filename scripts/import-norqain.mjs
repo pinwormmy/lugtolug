@@ -3,7 +3,7 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 
 const PRODUCT_SITEMAP = "https://norqain.com/sitemap_products_1.xml?from=8565177319743&to=15634834293113";
-const CACHE_PATH = "/private/tmp/norqain-products.json";
+const CACHE_PATH = "/tmp/norqain-products.json";
 const SEED_PATH = new URL("../data/watches.seed.json", import.meta.url);
 const SHOULD_WRITE = process.argv.includes("--write");
 const REFRESH = process.argv.includes("--refresh");

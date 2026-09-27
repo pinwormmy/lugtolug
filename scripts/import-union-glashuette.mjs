@@ -5,7 +5,7 @@ import { promisify } from "node:util";
 const CATALOG_URL = "https://www.union-glashuette.com/en_int/watches.html";
 const OFFICIAL_PRODUCT_URL_PATTERN =
   /^https:\/\/www\.union-glashuette\.com\/en_int\/d\d+\.html$/u;
-const CACHE_PATH = "/private/tmp/union-glashuette-products.json";
+const CACHE_PATH = "/tmp/union-glashuette-products.json";
 const SEED_PATH = new URL("../data/watches.seed.json", import.meta.url);
 const SHOULD_WRITE = process.argv.includes("--write");
 const REFRESH = process.argv.includes("--refresh");

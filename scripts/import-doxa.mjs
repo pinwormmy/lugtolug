@@ -3,7 +3,7 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 
 const COLLECTION_URL = "https://doxawatches.com/collections/all-doxa-watches/products.json?limit=250";
-const CACHE_PATH = "/private/tmp/doxa-watch-products.json";
+const CACHE_PATH = "/tmp/doxa-watch-products.json";
 const SEED_PATH = new URL("../data/watches.seed.json", import.meta.url);
 const SHOULD_WRITE = process.argv.includes("--write");
 const REFRESH = process.argv.includes("--refresh");

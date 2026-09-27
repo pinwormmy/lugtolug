@@ -7,7 +7,7 @@ function argumentValue(name) {
 }
 
 const seedPath = resolve(argumentValue("seed") ?? "data/watches.seed.json");
-const reportPath = resolve(argumentValue("report") ?? "/private/tmp/monochrome-dedup-result.json");
+const reportPath = resolve(argumentValue("report") ?? "/tmp/monochrome-dedup-result.json");
 const apply = process.argv.includes("--apply");
 
 const duplicateMerges = [

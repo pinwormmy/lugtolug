@@ -22,7 +22,7 @@ function positiveIntegerArgument(name, fallback) {
 }
 
 const baseRef = argumentValue("base-ref") ?? "HEAD^";
-const outputDir = resolve(argumentValue("output-dir") ?? "/private/tmp/lugtolug-seed-delta");
+const outputDir = resolve(argumentValue("output-dir") ?? "/tmp/lugtolug-seed-delta");
 const watchBatchSize = positiveIntegerArgument("watch-batch-size", 50);
 const sourceBatchSize = positiveIntegerArgument("source-batch-size", 100);
 

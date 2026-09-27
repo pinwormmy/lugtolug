@@ -6,10 +6,10 @@ function argumentValue(name) {
   return process.argv.find((argument) => argument.startsWith(prefix))?.slice(prefix.length);
 }
 
-const summaryPath = resolve(argumentValue("input") ?? "/private/tmp/hodinkee-lug-candidates.json");
-const proposalsPath = resolve(argumentValue("proposals") ?? "/private/tmp/hodinkee-lug-proposals.json");
+const summaryPath = resolve(argumentValue("input") ?? "/tmp/hodinkee-lug-candidates.json");
+const proposalsPath = resolve(argumentValue("proposals") ?? "/tmp/hodinkee-lug-proposals.json");
 const seedPath = resolve(argumentValue("seed") ?? "data/watches.seed.json");
-const reportPath = resolve(argumentValue("report") ?? "/private/tmp/hodinkee-import-report.json");
+const reportPath = resolve(argumentValue("report") ?? "/tmp/hodinkee-import-report.json");
 const apply = process.argv.includes("--apply");
 
 function normalize(value) {

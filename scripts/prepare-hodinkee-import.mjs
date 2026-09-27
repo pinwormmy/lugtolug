@@ -7,8 +7,8 @@ function argumentValue(name) {
   return process.argv.find((argument) => argument.startsWith(prefix))?.slice(prefix.length);
 }
 
-const inputPath = resolve(argumentValue("input") ?? "/private/tmp/hodinkee-lug-candidates.json");
-const outputPath = resolve(argumentValue("output") ?? "/private/tmp/hodinkee-lug-proposals.json");
+const inputPath = resolve(argumentValue("input") ?? "/tmp/hodinkee-lug-candidates.json");
+const outputPath = resolve(argumentValue("output") ?? "/tmp/hodinkee-lug-proposals.json");
 
 function normalize(value) {
   return String(value ?? "")

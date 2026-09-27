@@ -8,7 +8,7 @@ function argumentValue(name) {
 }
 
 const seedPath = resolve(argumentValue("seed") ?? "data/watches.seed.json");
-const reportPath = resolve(argumentValue("report") ?? "/private/tmp/brand-name-normalization.json");
+const reportPath = resolve(argumentValue("report") ?? "/tmp/brand-name-normalization.json");
 const apply = process.argv.includes("--apply");
 
 // One brand had been stored under several spellings, so its records were split
