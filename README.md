@@ -135,7 +135,7 @@ Live deployment naming:
 - Product/site name: `Lug to Lug Finder`
 - GitHub repository: `pinwormmy/lugtolug`
 - Cloudflare Pages project: `lugtolug`
-- Production domain: `lugtolug.pages.dev`
+- Production domain: `lugtolugfinder.com` (the Pages default host is `lugtolug.pages.dev`)
 - D1 database: `lugtolug-finder`
 
 The older `lugtolug-finder` Pages project is not the live Git-connected deployment.
@@ -148,31 +148,25 @@ Target Pages settings:
 - Output directory: `dist`
 - Project name: `lugtolug`
 
-### Custom domain setup
+### Custom domain
 
-Until a custom domain is configured, production canonical URLs use:
-
-```bash
-https://lugtolug.pages.dev
-```
-
-After buying a domain, keep the Cloudflare Pages project as the host and add the domain in Cloudflare:
-
-1. Add the domain to Cloudflare DNS, or buy it through Cloudflare Registrar.
-2. In the `lugtolug` Pages project, add the apex domain and `www` as custom domains.
-3. Set the production build environment variable:
+Production canonical URLs use the apex domain:
 
 ```bash
-PUBLIC_SITE_URL=https://www.example.com
+https://lugtolugfinder.com
 ```
 
-Use the preferred public origin here. This value drives canonical URLs, Open Graph URLs, `robots.txt`, and `sitemap.xml`.
+This origin drives canonical URLs, Open Graph URLs, `robots.txt`, and `sitemap.xml`.
+It is the default in `astro.config.mjs` and `SITE_URL` in `src/lib/seo.ts`; a
+`PUBLIC_SITE_URL` build environment variable in the Pages project overrides it.
+`src/middleware.ts` answers requests for the `www.` host with a 301 to the apex.
+The `lugtolug.pages.dev` host keeps serving the site, and its pages carry
+canonical links to the apex.
 
-Recommended DNS shape:
-
-- Apex: Cloudflare Pages custom-domain record managed by Cloudflare.
-- `www`: Cloudflare Pages custom-domain record managed by Cloudflare.
-- Redirect the non-preferred host to the preferred host from Cloudflare once both hosts are active.
+To move to another domain, add it as a custom domain of the `lugtolug` Pages
+project in Cloudflare, then update `SITE_URL` in `src/lib/seo.ts`, the fallbacks in
+`astro.config.mjs` and `scripts/submit-indexnow.mjs`, and `PUBLIC_SITE_URL` in
+`wrangler.toml`.
 
 Cloudflare resources:
 
