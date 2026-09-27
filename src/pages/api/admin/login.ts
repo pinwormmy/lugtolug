@@ -2,7 +2,7 @@ import type { APIRoute } from "astro";
 import { createSession, makeSessionCookie, verifyPassword, verifyUnknownUserPassword } from "@/lib/auth";
 import { getDb } from "@/lib/db";
 import { isLoginRateLimited, recordFailedLogin } from "@/lib/db/loginRateLimits";
-import { redirect } from "@/lib/http";
+import { readFormData, redirect } from "@/lib/http";
 
 // Generous upper bounds; real credentials are far shorter, and capping them keeps
 // PBKDF2 from being fed arbitrarily large inputs.
@@ -18,9 +18,10 @@ export const POST: APIRoute = async ({ locals, request }) => {
     return redirect("/admin/login?error=throttled");
   }
 
-  const form = await request.formData();
-  const email = String(form.get("email") ?? "").trim().toLowerCase();
-  const password = String(form.get("password") ?? "");
+  // A body that is not a valid form counts as a failed attempt with no credentials.
+  const form = await readFormData(request);
+  const email = String(form?.get("email") ?? "").trim().toLowerCase();
+  const password = String(form?.get("password") ?? "");
   if (!email || !password || email.length > MAX_EMAIL_LENGTH || password.length > MAX_PASSWORD_LENGTH) {
     await recordFailedLogin(db, request);
     return redirect("/admin/login?error=invalid");

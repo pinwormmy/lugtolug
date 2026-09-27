@@ -1,7 +1,7 @@
 import type { Submission, WatchWithSources } from "@/types";
 import { getAdminSession, isValidCsrfToken, type AdminSession } from "@/lib/auth";
 import { getSubmission, getWatchById } from "@/lib/db";
-import { redirect } from "@/lib/http";
+import { readFormData, redirect } from "@/lib/http";
 
 export type AdminFormResult =
   | {
@@ -50,10 +50,8 @@ export async function requireAdminForm(db: D1Database | undefined, request: Requ
     return { ok: false, response: redirect("/admin/login") };
   }
 
-  let form: FormData;
-  try {
-    form = await request.formData();
-  } catch {
+  const form = await readFormData(request);
+  if (!form) {
     return { ok: false, response: new Response("Malformed form submission.", { status: 400 }) };
   }
 

@@ -1,7 +1,7 @@
 import type { APIRoute } from "astro";
 import { getAdminSession } from "@/lib/auth";
 import { approveSubmission, createSubmission, getDb, isSubmissionRateLimited, recordSubmissionRateLimit } from "@/lib/db";
-import { json } from "@/lib/http";
+import { json, readFormData } from "@/lib/http";
 import { parseSubmission } from "@/lib/validation";
 
 export const POST: APIRoute = async ({ locals, request }) => {
@@ -10,7 +10,11 @@ export const POST: APIRoute = async ({ locals, request }) => {
     return json({ message: "Submissions require a configured Cloudflare D1 database." }, { status: 503 });
   }
 
-  const form = await request.formData();
+  const form = await readFormData(request);
+  if (!form) {
+    return json({ message: "The submission could not be read. Reload the page and try again." }, { status: 400 });
+  }
+
   const honeypot = String(form.get("website") ?? "").trim();
   if (honeypot) {
     return json({ message: "Check the highlighted fields.", errors: { website: "Leave this field blank." } }, { status: 400 });

@@ -43,6 +43,19 @@ export async function withEdgeCachedJson<T>(key: string, maxAgeSeconds: number, 
   return value;
 }
 
+/**
+ * Parse a form body, or return null when it is not a valid form submission
+ * (wrong content type, broken multipart boundary). `request.formData()` throws
+ * on those, which would otherwise surface as a 500 page.
+ */
+export async function readFormData(request: Request): Promise<FormData | null> {
+  try {
+    return await request.formData();
+  } catch {
+    return null;
+  }
+}
+
 export function json(data: unknown, init: ResponseInit = {}) {
   return new Response(JSON.stringify(data), {
     ...init,
