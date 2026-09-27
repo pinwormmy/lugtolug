@@ -30,6 +30,9 @@ with Node's built-in `node:sqlite` (Node 22.13 or newer), which takes seconds wh
 
 Run the printed SQL against local or remote D1 with `wrangler d1 execute`.
 
+`npm run cf:preview` builds the site and serves it with `wrangler pages dev` on
+port 8788, bound to this same local database through `wrangler.toml`.
+
 Workflow smoke check:
 
 ```bash
