@@ -11,6 +11,9 @@ export default defineConfig({
     imageService: "passthrough",
     platformProxy: {
       enabled: true
+    },
+    workerEntryPoint: {
+      path: "src/worker.ts"
     }
   }),
   image: {
