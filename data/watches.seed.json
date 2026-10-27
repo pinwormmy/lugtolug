@@ -501,6 +501,9 @@
     "id": 15,
     "brand": "Tissot",
     "model": "PRC100 Solar 39mm",
+    "canonicalModel": "PRC 100 Solar 39mm",
+    "modelGroup": "tissot-prc-100-solar-39mm",
+    "variant": "Silver dial",
     "reference": "T151.422.11.031.00",
     "lugToLugMm": 46,
     "caseMm": 39,
@@ -55924,16 +55927,23 @@
   {
     "id": 3021,
     "brand": "Tissot",
-    "model": "Ballade COSC",
-    "reference": "Ballade COSC",
+    "model": "Ballade Powermatic 48 COSC 30mm",
+    "canonicalModel": "Ballade Powermatic 48 COSC 30mm",
+    "modelGroup": "tissot-ballade-powermatic-48-cosc-30mm",
+    "variant": "Silver dial",
+    "reference": "T156.208.11.033.00",
     "lugToLugMm": 37.5,
     "caseMm": 30,
     "thicknessMm": 10.55,
-    "lugWidthMm": 20,
+    "lugWidthMm": 16,
     "sources": [
       {
+        "sourceUrl": "https://www.helveti.eu/tissot-ballade-powermatic-48-cosc-t156-208-11-033-00",
+        "note": "Helveti product parameters list reference T156.208.11.033.00, silver dial on steel, 30 mm case size, 10.5 mm case height, and 16 mm strap width."
+      },
+      {
         "sourceUrl": "https://www.ablogtowatch.com/hands-on-tissot-ballade-cosc-watches-bring-chronometer-performance-to-the-masses/",
-        "note": "aBlogtoWatch article states dimensions of 30mm case, 37.5mm lug-to-lug, 10.55mm thickness, and 20mm lug width."
+        "note": "aBlogtoWatch hands-on lists the 30 mm Ballade COSC at 10.55 mm thick with lugs set 16 mm apart and a 37.5 mm lug-to-lug."
       }
     ]
   },
@@ -146360,6 +146370,398 @@
       {
         "sourceUrl": "https://monochrome-watches.com/first-look-video-review-tissot-gentleman-38mm-powermatic-80-value-proposition-specs-price-live-pics/",
         "note": "Lug-to-lug filled from the Gentleman 38mm family row (id 5090): the article covers the shared 38 mm case of every dial at 45.7 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 8214,
+    "brand": "Tissot",
+    "model": "Ballade Powermatic 80 COSC 39mm",
+    "canonicalModel": "Ballade Powermatic 80 COSC 39mm",
+    "modelGroup": "tissot-ballade-powermatic-80-cosc-39mm",
+    "variant": "Silver dial",
+    "reference": "T156.408.11.033.00",
+    "lugToLugMm": 46.5,
+    "caseMm": 39,
+    "thicknessMm": 10.98,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-ballade-powermatic-80-cosc-t156-408-11-033-00",
+        "note": "Helveti product parameters list reference T156.408.11.033.00, silver dial, 39 mm case size, 11 mm case height, and 20 mm strap width."
+      },
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-tissot-ballade-cosc-watches-bring-chronometer-performance-to-the-masses/",
+        "note": "aBlogtoWatch hands-on lists the 39 mm Ballade COSC at 10.98 mm thick, 20 mm lug width, and 46.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 8215,
+    "brand": "Tissot",
+    "model": "Ballade Powermatic 80 COSC 39mm",
+    "canonicalModel": "Ballade Powermatic 80 COSC 39mm",
+    "modelGroup": "tissot-ballade-powermatic-80-cosc-39mm",
+    "variant": "Blue dial",
+    "reference": "T156.408.11.043.00",
+    "lugToLugMm": 46.5,
+    "caseMm": 39,
+    "thicknessMm": 10.98,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-ballade-powermatic-80-cosc-t156-408-11-043-00",
+        "note": "Helveti product parameters list reference T156.408.11.043.00, blue dial, 39 mm case size, 11 mm case height, and 20 mm strap width."
+      },
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-tissot-ballade-cosc-watches-bring-chronometer-performance-to-the-masses/",
+        "note": "aBlogtoWatch hands-on lists the 39 mm Ballade COSC at 10.98 mm thick, 20 mm lug width, and 46.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 8216,
+    "brand": "Tissot",
+    "model": "Ballade Powermatic 80 COSC 39mm",
+    "canonicalModel": "Ballade Powermatic 80 COSC 39mm",
+    "modelGroup": "tissot-ballade-powermatic-80-cosc-39mm",
+    "variant": "Green dial",
+    "reference": "T156.408.11.093.00",
+    "lugToLugMm": 46.5,
+    "caseMm": 39,
+    "thicknessMm": 10.98,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-ballade-powermatic-80-cosc-t156-408-11-093-00",
+        "note": "Helveti product parameters list reference T156.408.11.093.00, green dial, 39 mm case size, 11 mm case height, and 20 mm strap width."
+      },
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-tissot-ballade-cosc-watches-bring-chronometer-performance-to-the-masses/",
+        "note": "aBlogtoWatch hands-on lists the 39 mm Ballade COSC at 10.98 mm thick, 20 mm lug width, and 46.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 8217,
+    "brand": "Tissot",
+    "model": "Ballade Powermatic 80 COSC 39mm",
+    "canonicalModel": "Ballade Powermatic 80 COSC 39mm",
+    "modelGroup": "tissot-ballade-powermatic-80-cosc-39mm",
+    "variant": "Light blue dial",
+    "reference": "T156.408.11.353.00",
+    "lugToLugMm": 46.5,
+    "caseMm": 39,
+    "thicknessMm": 10.98,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-ballade-powermatic-80-cosc-t156-408-11-353-00",
+        "note": "Helveti product parameters list reference T156.408.11.353.00, light blue dial, 39 mm case size, 11 mm case height, and 20 mm strap width."
+      },
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-tissot-ballade-cosc-watches-bring-chronometer-performance-to-the-masses/",
+        "note": "aBlogtoWatch hands-on lists the 39 mm Ballade COSC at 10.98 mm thick, 20 mm lug width, and 46.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 8218,
+    "brand": "Tissot",
+    "model": "Ballade Powermatic 80 COSC 39mm",
+    "canonicalModel": "Ballade Powermatic 80 COSC 39mm",
+    "modelGroup": "tissot-ballade-powermatic-80-cosc-39mm",
+    "variant": "Silver dial, two-tone",
+    "reference": "T156.408.22.033.00",
+    "lugToLugMm": 46.5,
+    "caseMm": 39,
+    "thicknessMm": 10.98,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-ballade-powermatic-80-cosc-t156-408-22-033-00",
+        "note": "Helveti product parameters list reference T156.408.22.033.00, silver dial on a bicolour PVD case and bracelet, 39 mm case size, 11 mm case height, and 20 mm strap width."
+      },
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-tissot-ballade-cosc-watches-bring-chronometer-performance-to-the-masses/",
+        "note": "aBlogtoWatch hands-on lists the 39 mm Ballade COSC at 10.98 mm thick, 20 mm lug width, and 46.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 8219,
+    "brand": "Tissot",
+    "model": "Ballade Powermatic 48 COSC 30mm",
+    "canonicalModel": "Ballade Powermatic 48 COSC 30mm",
+    "modelGroup": "tissot-ballade-powermatic-48-cosc-30mm",
+    "variant": "Light blue dial",
+    "reference": "T156.208.11.353.00",
+    "lugToLugMm": 37.5,
+    "caseMm": 30,
+    "thicknessMm": 10.55,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-ballade-powermatic-48-cosc-t156-208-11-353-00",
+        "note": "Helveti product parameters list reference T156.208.11.353.00, light blue dial on steel, 30 mm case size, 10.5 mm case height, and 16 mm strap width."
+      },
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-tissot-ballade-cosc-watches-bring-chronometer-performance-to-the-masses/",
+        "note": "aBlogtoWatch hands-on lists the 30 mm Ballade COSC at 10.55 mm thick with lugs set 16 mm apart and a 37.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 8220,
+    "brand": "Tissot",
+    "model": "Ballade Powermatic 48 COSC 30mm",
+    "canonicalModel": "Ballade Powermatic 48 COSC 30mm",
+    "modelGroup": "tissot-ballade-powermatic-48-cosc-30mm",
+    "variant": "Silver dial, rose-gold two-tone",
+    "reference": "T156.208.22.033.00",
+    "lugToLugMm": 37.5,
+    "caseMm": 30,
+    "thicknessMm": 10.55,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-ballade-powermatic-48-cosc-t156-208-22-033-00",
+        "note": "Helveti product parameters list reference T156.208.22.033.00, silver dial with a bicolour rose-gold PVD case and bracelet, 30 mm case size, 10.5 mm case height, and 16 mm strap width."
+      },
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-tissot-ballade-cosc-watches-bring-chronometer-performance-to-the-masses/",
+        "note": "aBlogtoWatch hands-on lists the 30 mm Ballade COSC at 10.55 mm thick with lugs set 16 mm apart and a 37.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 8221,
+    "brand": "Tissot",
+    "model": "Ballade Powermatic 48 COSC 30mm",
+    "canonicalModel": "Ballade Powermatic 48 COSC 30mm",
+    "modelGroup": "tissot-ballade-powermatic-48-cosc-30mm",
+    "variant": "Silver dial, yellow-gold two-tone",
+    "reference": "T156.208.22.033.01",
+    "lugToLugMm": 37.5,
+    "caseMm": 30,
+    "thicknessMm": 10.55,
+    "lugWidthMm": 16,
+    "sources": [
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-ballade-powermatic-48-cosc-t156-208-22-033-01",
+        "note": "Helveti product parameters list reference T156.208.22.033.01, silver dial with a bicolour yellow-gold PVD case and bracelet, 30 mm case size, 10.5 mm case height, and 16 mm strap width."
+      },
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/hands-on-tissot-ballade-cosc-watches-bring-chronometer-performance-to-the-masses/",
+        "note": "aBlogtoWatch hands-on lists the 30 mm Ballade COSC at 10.55 mm thick with lugs set 16 mm apart and a 37.5 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 8222,
+    "brand": "Tissot",
+    "model": "Gentleman Gold Bezel 38mm",
+    "canonicalModel": "Gentleman Gold Bezel 38mm",
+    "modelGroup": "tissot-gentleman-gold-bezel-38mm",
+    "variant": "Blue dial",
+    "reference": "T934.807.41.041.00",
+    "lugToLugMm": 45.7,
+    "caseMm": 38,
+    "thicknessMm": 11.53,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.tissotwatches.com/en-ie/T9348074104100.html",
+        "note": "Manufacturer page lists T934.807.41.041.00 with a blue dial and 18K gold bezel on a 38 mm steel case, 11.53 mm thick, with 18 mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/reawakening-the-gentleman-in-us-the-new-tissot-gentleman-38mm/",
+        "note": "Lug-to-lug filled from the steel Gentleman Powermatic 80 38mm (T165.807.11, ids 5090/8211-8213): the gold-bezel version shares its 38 mm case, 11.53 mm thickness, and 18 mm lugs, and Fratello lists that case at 45.7 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 8223,
+    "brand": "Tissot",
+    "model": "Gentleman Gold Bezel 38mm",
+    "canonicalModel": "Gentleman Gold Bezel 38mm",
+    "modelGroup": "tissot-gentleman-gold-bezel-38mm",
+    "variant": "Green dial",
+    "reference": "T934.807.41.091.00",
+    "lugToLugMm": 45.7,
+    "caseMm": 38,
+    "thicknessMm": 11.53,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.tissotwatches.com/en-ie/T9348074109100.html",
+        "note": "Manufacturer page lists T934.807.41.091.00 with a green dial and 18K gold bezel on a 38 mm steel case, 11.53 mm thick, with 18 mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/reawakening-the-gentleman-in-us-the-new-tissot-gentleman-38mm/",
+        "note": "Lug-to-lug filled from the steel Gentleman Powermatic 80 38mm (T165.807.11, ids 5090/8211-8213): the gold-bezel version shares its 38 mm case, 11.53 mm thickness, and 18 mm lugs, and Fratello lists that case at 45.7 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 8224,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80 40mm",
+    "canonicalModel": "PRX Powermatic 80 40mm",
+    "modelGroup": "tissot-prx-powermatic-80-40mm",
+    "variant": "Blue gradient waffle dial",
+    "reference": "T137.407.11.041.03",
+    "lugToLugMm": 51.5,
+    "caseMm": 40,
+    "thicknessMm": 10.93,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.tissotwatches.com/en-us/T1374071104103.html",
+        "note": "Manufacturer page for the exact reference lists a blue gradient waffle dial, 40 mm width, 39.5 mm length, and 10.93 mm thickness; it does not publish a conventional lug-to-lug value."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/tissot-prx-powermatic-80-35mm-vs-prx-powermatic-80-40mm-face-to-face-comparative-review-specs-price/",
+        "note": "Comparative review lists the 40 mm PRX Powermatic 80 at 51.5 mm lug-to-lug including the fixed first bracelet link."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
+      }
+    ]
+  },
+  {
+    "id": 8225,
+    "brand": "Tissot",
+    "model": "PRX Powermatic 80 40mm",
+    "canonicalModel": "PRX Powermatic 80 40mm",
+    "modelGroup": "tissot-prx-powermatic-80-40mm",
+    "variant": "White mother-of-pearl dial",
+    "reference": "T137.407.11.111.00",
+    "lugToLugMm": 51.5,
+    "caseMm": 40,
+    "thicknessMm": 10.93,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.tissotwatches.com/en-ie/T1374071111100.html",
+        "note": "Manufacturer page for the exact reference lists a white mother-of-pearl dial, 40 mm width, 39.5 mm length, and 10.93 mm thickness; it does not publish a conventional lug-to-lug value."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/tissot-prx-powermatic-80-35mm-vs-prx-powermatic-80-40mm-face-to-face-comparative-review-specs-price/",
+        "note": "Comparative review lists the 40 mm PRX Powermatic 80 at 51.5 mm lug-to-lug including the fixed first bracelet link."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
+      }
+    ]
+  },
+  {
+    "id": 8226,
+    "brand": "Tissot",
+    "model": "PRX 40",
+    "reference": "T137.410.11.401.00",
+    "lugToLugMm": 51.5,
+    "caseMm": 40,
+    "thicknessMm": 10.4,
+    "lugWidthMm": 12,
+    "sources": [
+      {
+        "sourceUrl": "https://www.tissotwatches.com/en-ie/T1374101140100.html",
+        "note": "Manufacturer page lists T137.410.11.401.00 with a purple dial, 40 mm width, 39.5 mm length, 10.4 mm thickness, and 12 mm lug width."
+      },
+      {
+        "sourceUrl": "https://majestixcollection.com/blog/tissot-prx-buying-guide/",
+        "note": "PRX buying guide lists the 40 mm PRX stated lug-to-lug at 44.6 mm and the effective wearing length at approximately 51.5 mm with the fixed first bracelet link included; seed records the effective wearing length."
+      }
+    ]
+  },
+  {
+    "id": 8227,
+    "brand": "Tissot",
+    "model": "PRX Automatic Chronograph 42mm",
+    "reference": "T137.427.11.041.01",
+    "lugToLugMm": 56,
+    "caseMm": 42,
+    "thicknessMm": 14.54,
+    "lugWidthMm": 13,
+    "sources": [
+      {
+        "sourceUrl": "https://www.tissotwatches.com/en-ie/T1374271104101.html",
+        "note": "Manufacturer page lists T137.427.11.041.01 with a blue gradient dial, 42 mm width, 41.50 mm length, 14.54 mm thickness, and 13 mm lug width."
+      },
+      {
+        "sourceUrl": "https://wornandwound.com/review/review-the-tissot-prx-chronograph/",
+        "note": "Hands-on review lists the PRX Chronograph at 41 mm wide, 41.5 mm lug-to-lug, and 14.5 mm thick; seed records the 56 mm effective wearing length used for the PRX Automatic Chronograph 42mm family (id 856)."
+      }
+    ]
+  },
+  {
+    "id": 8228,
+    "brand": "Tissot",
+    "model": "PRC100 Solar 39mm",
+    "canonicalModel": "PRC 100 Solar 39mm",
+    "modelGroup": "tissot-prc-100-solar-39mm",
+    "variant": "Anthracite PVD",
+    "reference": "T151.422.33.061.00",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 9.22,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.tissotwatches.com/en-us/T1514223306100.html",
+        "note": "Manufacturer page lists T151.422.33.061.00 with an anthracite dial on an anthracite PVD case and bracelet, 39 mm case, and 20 mm lug width."
+      },
+      {
+        "sourceUrl": "https://windupwatchshop.com/products/prc-100-solar-quartz",
+        "note": "Lug-to-lug and thickness filled from the PRC 100 Solar 39mm T151.422.11.031.00 (id 15): Windup Watch Shop lists that shared case at 46 mm lug-to-lug and 9.22 mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 8229,
+    "brand": "Tissot",
+    "model": "PRC100 Solar 39mm",
+    "canonicalModel": "PRC 100 Solar 39mm",
+    "modelGroup": "tissot-prc-100-solar-39mm",
+    "variant": "Green dial",
+    "reference": "T151.422.11.091.00",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 9.22,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.tissotwatches.com/en-us/T1514221109100.html",
+        "note": "Manufacturer page lists T151.422.11.091.00 with a green dial on a steel bracelet, 39 mm case, and 20 mm lug width."
+      },
+      {
+        "sourceUrl": "https://windupwatchshop.com/products/prc-100-solar-quartz",
+        "note": "Lug-to-lug and thickness filled from the PRC 100 Solar 39mm T151.422.11.031.00 (id 15): Windup Watch Shop lists that shared case at 46 mm lug-to-lug and 9.22 mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 8230,
+    "brand": "Tissot",
+    "model": "PR 100 Quartz",
+    "canonicalModel": "PR 100 Quartz",
+    "modelGroup": "tissot-pr-100-quartz",
+    "reference": "T150.410.36.391.00",
+    "lugToLugMm": 47,
+    "caseMm": 40,
+    "thicknessMm": 8.3,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.tissotwatches.com/en-us/T1504103639100.html",
+        "note": "Manufacturer page lists T150.410.36.391.00 with a silver dial, yellow-gold PVD bezel, 40 mm case, and 8.25 mm thickness on a brown leather strap."
+      },
+      {
+        "sourceUrl": "https://www.helveti.eu/tissot-pr-100-sport-gent-t150-410-11-041-00",
+        "note": "Lug-to-lug and lug width filled from the PR 100 Quartz T150.410 siblings, which all list 47 mm lug-to-lug, 8.3 mm case height, and 20 mm strap width."
       }
     ]
   }

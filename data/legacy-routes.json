@@ -624,6 +624,11 @@
       "brandSlug": "tissot",
       "modelSlug": "gentleman-powermatic-80-38mm",
       "referenceSlug": "gentleman-38mm"
+    },
+    "3021": {
+      "brandSlug": "tissot",
+      "modelSlug": "ballade-cosc",
+      "referenceSlug": "ballade-cosc"
     }
   }
 }
