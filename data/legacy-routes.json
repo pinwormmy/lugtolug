@@ -619,6 +619,11 @@
       "brandSlug": "wmt",
       "modelSlug": "mk1",
       "referenceSlug": "mk1-iw432"
+    },
+    "5090": {
+      "brandSlug": "tissot",
+      "modelSlug": "gentleman-powermatic-80-38mm",
+      "referenceSlug": "gentleman-38mm"
     }
   }
 }

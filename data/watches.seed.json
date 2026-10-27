@@ -91749,15 +91749,22 @@
     "id": 5090,
     "brand": "Tissot",
     "model": "Gentleman Powermatic 80 38mm",
-    "reference": "Gentleman 38mm",
+    "canonicalModel": "Gentleman Powermatic 80 38mm",
+    "modelGroup": "tissot-gentleman-powermatic-80-38mm",
+    "variant": "Black",
+    "reference": "T165.807.11.051.00",
     "lugToLugMm": 45.7,
     "caseMm": 38,
-    "thicknessMm": 12,
-    "lugWidthMm": null,
+    "thicknessMm": 11.53,
+    "lugWidthMm": 18,
     "sources": [
       {
+        "sourceUrl": "https://www.tissotwatches.com/en-ie/T1658071105100.html",
+        "note": "Manufacturer page lists T165.807.11.051.00 with a black dial, 38 mm diameter, 11.53 mm thickness, and 18 mm lug width."
+      },
+      {
         "sourceUrl": "https://www.fratellowatches.com/reawakening-the-gentleman-in-us-the-new-tissot-gentleman-38mm/",
-        "note": "Fratello article lists the smaller Gentleman 38 mm case at 45.7 mm lug-to-lug and 12 mm thickness."
+        "note": "Fratello article lists the smaller Gentleman 38 mm case at 45.7 mm lug-to-lug and 12 mm thickness. Thickness taken from the manufacturer's 11.53 mm instead of the article's rounded 12 mm."
       },
       {
         "sourceUrl": "https://monochrome-watches.com/first-look-video-review-tissot-gentleman-38mm-powermatic-80-value-proposition-specs-price-live-pics/",
@@ -146272,6 +146279,87 @@
       {
         "sourceUrl": "https://www.fratellowatches.com/hands-on-with-the-glashutte-original-senator-excellence-panorama-date-moon-phase/",
         "note": "Fratello hands-on article lists the Senator Excellence Panorama Date Moon Phase at 40 mm diameter, 46.7 mm lug-to-lug, and 12.2 mm profile."
+      }
+    ]
+  },
+  {
+    "id": 8211,
+    "brand": "Tissot",
+    "model": "Gentleman Powermatic 80 38mm",
+    "canonicalModel": "Gentleman Powermatic 80 38mm",
+    "modelGroup": "tissot-gentleman-powermatic-80-38mm",
+    "variant": "Silver",
+    "reference": "T165.807.11.031.00",
+    "lugToLugMm": 45.7,
+    "caseMm": 38,
+    "thicknessMm": 11.53,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.tissotwatches.com/en-ie/T1658071103100.html",
+        "note": "Manufacturer page lists T165.807.11.031.00 with a silver dial, 38 mm diameter, 11.53 mm thickness, and 18 mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/reawakening-the-gentleman-in-us-the-new-tissot-gentleman-38mm/",
+        "note": "Lug-to-lug filled from the Gentleman 38mm family row (id 5090): the article covers the shared 38 mm case of every dial at 45.7 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/first-look-video-review-tissot-gentleman-38mm-powermatic-80-value-proposition-specs-price-live-pics/",
+        "note": "Lug-to-lug filled from the Gentleman 38mm family row (id 5090): the article covers the shared 38 mm case of every dial at 45.7 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 8212,
+    "brand": "Tissot",
+    "model": "Gentleman Powermatic 80 38mm",
+    "canonicalModel": "Gentleman Powermatic 80 38mm",
+    "modelGroup": "tissot-gentleman-powermatic-80-38mm",
+    "variant": "Blue",
+    "reference": "T165.807.11.041.00",
+    "lugToLugMm": 45.7,
+    "caseMm": 38,
+    "thicknessMm": 11.53,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.tissotwatches.com/fr-ca/T1658071104100.html",
+        "note": "Manufacturer page lists T165.807.11.041.00 with a blue dial, 38 mm diameter, 11.53 mm thickness, and 18 mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/reawakening-the-gentleman-in-us-the-new-tissot-gentleman-38mm/",
+        "note": "Lug-to-lug filled from the Gentleman 38mm family row (id 5090): the article covers the shared 38 mm case of every dial at 45.7 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/first-look-video-review-tissot-gentleman-38mm-powermatic-80-value-proposition-specs-price-live-pics/",
+        "note": "Lug-to-lug filled from the Gentleman 38mm family row (id 5090): the article covers the shared 38 mm case of every dial at 45.7 mm lug-to-lug."
+      }
+    ]
+  },
+  {
+    "id": 8213,
+    "brand": "Tissot",
+    "model": "Gentleman Powermatic 80 38mm",
+    "canonicalModel": "Gentleman Powermatic 80 38mm",
+    "modelGroup": "tissot-gentleman-powermatic-80-38mm",
+    "variant": "Green",
+    "reference": "T165.807.11.091.00",
+    "lugToLugMm": 45.7,
+    "caseMm": 38,
+    "thicknessMm": 11.53,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://www.tissotwatches.com/fr-ca/T1658071109100.html",
+        "note": "Manufacturer page lists T165.807.11.091.00 with a green dial, 38 mm diameter, 11.53 mm thickness, and 18 mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/reawakening-the-gentleman-in-us-the-new-tissot-gentleman-38mm/",
+        "note": "Lug-to-lug filled from the Gentleman 38mm family row (id 5090): the article covers the shared 38 mm case of every dial at 45.7 mm lug-to-lug."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/first-look-video-review-tissot-gentleman-38mm-powermatic-80-value-proposition-specs-price-live-pics/",
+        "note": "Lug-to-lug filled from the Gentleman 38mm family row (id 5090): the article covers the shared 38 mm case of every dial at 45.7 mm lug-to-lug."
       }
     ]
   }
