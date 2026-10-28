@@ -14,45 +14,50 @@
 
 F.P. Journe references are the brand's model codes (Ref. CB, LN, AL2 …), shared by every size of a model. Where two dial variants share a code and identical dimensions (4079/4082 CS, 4095/4104 AL2, 4106/4108 AL), the second row is left empty because the seed requires unique product numbers.
 
-## Duplicate candidates (merge or retire)
+## Duplicates merged
 
-The confirmed reference already belongs to another row, so these are probably the same watch imported twice.
+The confirmed reference already belonged to another row, so 26 rows were the same watch imported twice (once with a real reference, once by name from an article). Each was retired into the numbered row: its sources and any missing thickness/lug width moved over when both rows agree on lug-to-lug and case size, and its old route now redirects to the surviving row. For 2682, 6596, 6842, 7148, 7307 and 7413 the duplicate's figures were misread (e.g. 7148's 44.25 mm case, 7413's 39 mm "lug-to-lug"), so only the redirect moved.
 
-| row | watch | reference | existing row |
-|---|---|---|---|
-| 2682 | Piaget Andy Warhol | G0A50241 | 4864 Andy Warhol Automatic White Gold |
-| 2709 | Zenith G.F.J. | 40.1865.0135/51.C200 | 2265 G.F.J. Calibre 135 |
-| 2733 | Hamilton American Classic Chrono-Matic 50 Auto Chrono Limited Edition | H51606640 | 1870 Chrono-Matic 50 Auto Chrono Limited Edition |
-| 2767 | Breitling Avenger Night Mission | S17328101B1X1 | 3450 Avenger Automatic 42 Night Mission |
-| 2772 | Breitling Navitimer B01 Chronograph 46 North American Limited Edition | UB01372A1C1P1 | 3530 Navitimer B01 Chronograph 46 |
-| 2781 | TAG Heuer Monaco Chronograph Racing Green | CAW218E.FC6565 | 6125 Monaco |
-| 2818 | Breitling Chronomat Giannis Antetokounmpo | A32398A11L1A1 | 1687 Chronomat Automatic GMT 40 Giannis Antetokonumpo |
-| 2836 | Breitling Navitimer 41 And Cosmonaute B12 | RB12302A1L1P1 | 3536 Navitimer B12 Chronograph 41 Cosmonaute |
-| 2848 | Omega Speedmaster Moonwatch White Lacquered Dial | 310.30.42.50.04.001 | 389 Speedmaster Moonwatch Professional Co-Axial Master Chronometer Chronograph 42 mm |
-| 2905 | NOMOS Tangente Rose Gold Neomatik | 160.S1 | 4706 Tangente Rose Gold Neomatik - 175 Years Watchmaking Glashütte |
-| 2919 | Omega Seamaster Planet Ocean Deep Black ETNZ Edition | 215.92.46.51.01.003 | 2004 Seamaster Planet Ocean 600M “ETNZ” Deep Black |
-| 2933 | Glashütte Original Senator Chronometer Silver And Blue | 1-58-08-01-04-61 | 1829 Senator Chronometer |
-| 2938 | Breitling Navitimer B01 Chronograph 46 U.S. Limited-Edition | UB01371A1B1P1 | 3481 Navitimer B01 Chronograph 46 |
-| 5074 | Oris Big Crown Pointer Date Lou Gehrig Limited Edition | 01 754 7785 4091-Set | 1609 Big Crown Pointer Date Lou Gehrig Limited Edition 40mm |
-| 5075 | Zenith G.F.J. Calibre 135 Naoya Hida & Co. | 40.1865-2.0135/01.C220 | 6285 G.F.J. Calibre 135 Double Signed With Naoya Hida & Co. |
-| 6166 | Oris Lou Gehrig Big Crown Pointer Date Limited Edition | 01 754 7785 4091-Set | 1609 Big Crown Pointer Date Lou Gehrig Limited Edition 40mm |
-| 6549 | Omega Seamaster Planet Ocean Ultra Deep Titanium | 215.92.46.21.01.001 | 299 Seamaster Planet Ocean 6000m Co-Axial Master Chronometer 45 5 mm |
-| 6551 | NOMOS Orion Neomatik New Black 36 | 396 | 4690 Orion Neomatik New Black |
-| 6596 | Breitling Top Time B01 Martini Racing | AB01772A1G1X1 | 3495 Top Time B01 Racing |
-| 6626 | Tudor Black Bay Fifty-Four | 79000N | 6213 Black Bay 54 |
-| 6842 | Glashütte Original Seventies X Chronograph | 1-37-02-18-02-70 | 1831 Seventies ‘X’ Chronograph |
-| 7148 | Omega Speedmaster Pilot Flight Qualified | 332.10.41.51.01.002 | 404 Speedmaster Pilot Co-Axial Master Chronometer Chronograph 40 85 mm |
-| 7307 | Chopard L.U.C Heritage Grand Cru | 162296-5001 | 3790 L.U.C Heritage Grand CRU |
-| 7413 | TAG Heuer Monaco Chronograph Night Driver | CBL2181.FC6515 | 2188 Monaco Chronograph Night Driver |
-| 8192 | TAG Heuer Carrera Chronograph x Fragment Limited Edition | CBS221B.BA0045 | 6162 Carrera Chronograph |
-| 8194 | Glashütte Original PanoMaticCalendar Platinum | 1-92-11-01-03-61 | 1827 PanoMaticCalendar “Blue of Dawn” - Louisiana alligator leather strap |
+| retired | → kept |
+|---|---|
+| 2682 | 4864 |
+| 2709 | 2265 |
+| 2733 | 1870 |
+| 2767 | 3450 |
+| 2772 | 3530 |
+| 2781 | 6125 |
+| 2818 | 1687 |
+| 2836 | 3536 |
+| 2848 | 389 |
+| 2905 | 4706 |
+| 2919 | 2004 |
+| 2933 | 1829 |
+| 2938 | 3481 |
+| 5074 | 1609 |
+| 5075 | 6285 |
+| 6166 | 1609 |
+| 6549 | 299 |
+| 6551 | 4690 |
+| 6596 | 3495 |
+| 6626 | 6213 |
+| 6842 | 1831 |
+| 7148 | 404 |
+| 7307 | 3790 |
+| 7413 | 2188 |
+| 8192 | 6162 |
+| 8194 | 1827 |
 
-Empty-reference pairs with identical dimensions (likely duplicates): 2818/6540, 6965/6997, 6967/7218, 7344/7413, 2995/8181, 5074/6166 (and 1609).
+Empty-reference pairs with identical dimensions were checked and are different watches sharing a case size (6540/2818, 6997/6965, 7218/6967, 8181/2995); they stay.
 
-## Row data that looks wrong (left unchanged)
+## Row data corrected
 
-- 6860: the source never mentions a Rangeman; its 61.2 × 54.4 × 16.1 mm belong to the G-Shock GWG-2000 Mudmaster in that article.
-- 7148 Speedmaster Pilot Flight Qualified: caseMm 44.25 is the Speedmaster Racing size; MONOCHROME gives 40.85 mm.
-- 6398 Vacheron Constantin Traditionnelle Twin Beat: dimensions are the Breguet 7077 from the same article (Twin Beat is 42 × 12.3 mm).
-- 6902: JLC's press release identifies the 40.1 × 24.4 × 7.56 mm pink gold watch as the Solo Tempo 'Or Deco' (Q716216J), not a Cocktail model; reference left empty until the name is fixed.
-- 6424 Reverso Tribute Enamel Horse (Q39324D3): caseMm 29.9 against JLC's 27.4 mm width.
+- 6860: renamed G-Shock Mudmaster GWG-2000 — the 61.2 × 54.4 × 16.1 mm in the Hodinkee article are listed under the Mudmaster, not a Rangeman.
+- 6902: renamed Reverso Tribute Monoface Or Deco Solo Tempo, reference Q716216J, lug-to-lug 40.1 mm, per Jaeger-LeCoultre's technical characteristics.
+- 6424 Reverso Tribute Enamel Horse: case width 27.4 mm (was 29.9) per Jaeger-LeCoultre.
+- 7148 Speedmaster Pilot: merged into 404, which already carries the 40.85 mm case.
+- TAG Heuer Monaco 39 mm (7286, 7311, 7314, 7324, 7325, 7328, 7329, 7344, 7377): lug-to-lug 47.4 mm. MONOCHROME's "39 × 39 mm" case figure had been imported as lug-to-lug; Time+Tide, Hodinkee and aBlogtoWatch measure the 39 mm Monaco case at 47.4 mm across Calibre 11, 12 and Heuer 02 references.
+
+## Retired without a replacement
+
+- 6398 Vacheron Constantin Traditionnelle Twin Beat: its figures were the Breguet 7077 from the same article (already row 1681); no Twin Beat lug-to-lug is published.
+- 7363 Monaco Carbon Only Watch and 7492 Monaco Speed 12: the stored lug-to-lug was the case width and no real figure is published.
