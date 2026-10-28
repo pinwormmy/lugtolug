@@ -50,8 +50,8 @@ Citizen Series 8 880 GMT uses the 53.3 mm length including the fixed central lin
 - Already in the seed: Oris Artelier Hölstein Edition 2026 (5068), Tudor Black Bay Chrono 39 "Bumblebee" (6270), Oris Divers Date green (7247), Seiko HBC010, Longines Conquest Heritage Central Power Reserve L1.648.4.92.x (6241/6242).
 - Hamilton Khaki Navy Scuba Auto GMT 43mm new dials, Certina DS-2 black dial on mesh, Glashütte Original Senator Chronograph (non-Navigator): references not confirmed.
 
-## Existing rows that look wrong (left unchanged)
+## Existing rows corrected afterwards
 
-- Certina DS-2 40 mm (1432–1435) store 38 mm lug-to-lug; Fratello measures the DS-2 Powermatic 80 at 46 mm.
-- Hamilton Khaki Field Murph 38mm (6297) stores 52 mm; the other Murph 38 rows and Fratello give 44.7 mm (52 mm is the 42 mm Murph).
-- Citizen Series 8 GMT (6368) stores 47.8 mm without the fixed central link.
+- Certina DS-2 40 mm (1432–1435): lug-to-lug 46 mm (was 38, Certina's case-body length).
+- Hamilton Khaki Field Murph 38mm (6297, 52 mm from a comparison with the 42 mm model): retired into 1877 (H70405710), the same 2024 white-dial launch.
+- Citizen Series 8 GMT (6368, Hodinkee's NB6031-56E hands-on): retired into 8297; Hodinkee's 47.8 mm without the fixed link is kept as a source note.

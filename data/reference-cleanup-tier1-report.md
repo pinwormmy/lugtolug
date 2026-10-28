@@ -61,3 +61,8 @@ Empty-reference pairs with identical dimensions were checked and are different w
 
 - 6398 Vacheron Constantin Traditionnelle Twin Beat: its figures were the Breguet 7077 from the same article (already row 1681); no Twin Beat lug-to-lug is published.
 - 7363 Monaco Carbon Only Watch and 7492 Monaco Speed 12: the stored lug-to-lug was the case width and no real figure is published.
+
+## Also corrected
+
+- Certina DS-2 1432–1435 lug-to-lug 46 mm; Hamilton Murph 38 6297 retired into 1877; Citizen Series 8 GMT 6368 retired into 8297 (see `fratello-novelties-2026-10-report.md`).
+- The name-as-reference heuristic missed names containing a size token (e.g. "Khaki Field Murph 38mm"); the remaining-rows pass needs a wider match.

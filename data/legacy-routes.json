@@ -1,6 +1,21 @@
 {
   "$comment": "Route slugs that watches carried before their names were corrected, keyed by watch id. src/lib/legacyRoutes.ts redirects these to the current route with a 301. Add an entry whenever a published watch is renamed.",
   "watches": {
+    "299": {
+      "brandSlug": "omega",
+      "modelSlug": "seamaster-planet-ocean-ultra-deep-titanium",
+      "referenceSlug": "seamaster-planet-ocean-ultra-deep-titanium"
+    },
+    "389": {
+      "brandSlug": "omega",
+      "modelSlug": "speedmaster-moonwatch-white-lacquered-dial",
+      "referenceSlug": "speedmaster-moonwatch-white-lacquered-dial"
+    },
+    "404": {
+      "brandSlug": "omega",
+      "modelSlug": "speedmaster-pilot-flight-qualified",
+      "referenceSlug": "speedmaster-pilot-flight-qualified"
+    },
     "642": {
       "brandSlug": "longines",
       "modelSlug": "hydroconquest",
@@ -11,10 +26,67 @@
       "modelSlug": "hydroconquest",
       "referenceSlug": "l3-788-4-98-6"
     },
+    "1609": [
+      {
+        "brandSlug": "oris",
+        "modelSlug": "big-crown-pointer-date-lou-gehrig-limited-edition",
+        "referenceSlug": "lou-gehrig-limited-edition"
+      },
+      {
+        "brandSlug": "oris",
+        "modelSlug": "lou-gehrig-big-crown-pointer-date-limited-edition",
+        "referenceSlug": "lou-gehrig-big-crown-pointer-date-limited-edition"
+      }
+    ],
+    "1687": {
+      "brandSlug": "breitling",
+      "modelSlug": "chronomat-giannis-antetokounmpo",
+      "referenceSlug": "chronomat-giannis-antetokounmpo"
+    },
     "1688": {
       "brandSlug": "breitling",
       "modelSlug": "chronomat-b01-42",
       "referenceSlug": "18k-red-gold"
+    },
+    "1827": {
+      "brandSlug": "glashutte-original",
+      "modelSlug": "panomaticcalendar-platinum",
+      "referenceSlug": "panomaticcalendar-platinum"
+    },
+    "1829": {
+      "brandSlug": "glashutte-original",
+      "modelSlug": "senator-chronometer-silver-and-blue",
+      "referenceSlug": "senator-chronometer-silver-and-blue"
+    },
+    "1831": {
+      "brandSlug": "glashutte-original",
+      "modelSlug": "seventies-x-chronograph",
+      "referenceSlug": "seventies-x-chronograph"
+    },
+    "1870": {
+      "brandSlug": "hamilton",
+      "modelSlug": "american-classic-chrono-matic-50-auto-chrono-limited-edition",
+      "referenceSlug": "chrono-matic-50-auto-chrono"
+    },
+    "1877": {
+      "brandSlug": "hamilton",
+      "modelSlug": "khaki-field-murph-38mm",
+      "referenceSlug": "khaki-field-murph-38mm"
+    },
+    "2004": {
+      "brandSlug": "omega",
+      "modelSlug": "seamaster-planet-ocean-deep-black-etnz-edition",
+      "referenceSlug": "seamaster-planet-ocean-deep-black-etnz-edition"
+    },
+    "2188": {
+      "brandSlug": "tag-heuer",
+      "modelSlug": "monaco-chronograph-night-driver",
+      "referenceSlug": "monaco-chronograph-night-driver"
+    },
+    "2265": {
+      "brandSlug": "zenith",
+      "modelSlug": "g-f-j",
+      "referenceSlug": "g-f-j"
     },
     "2605": {
       "brandSlug": "timex",
@@ -261,6 +333,36 @@
       "modelSlug": "tsuno-eco-drive-chronograph-racer",
       "referenceSlug": "tsuno-eco-drive-chronograph-racer"
     },
+    "3450": {
+      "brandSlug": "breitling",
+      "modelSlug": "avenger-night-mission",
+      "referenceSlug": "avenger-night-mission"
+    },
+    "3481": {
+      "brandSlug": "breitling",
+      "modelSlug": "navitimer-b01-chronograph-46-u-s-limited-edition",
+      "referenceSlug": "navitimer-b01-chronograph-46-u-s-limited-edition"
+    },
+    "3495": {
+      "brandSlug": "breitling",
+      "modelSlug": "top-time-b01-martini-racing",
+      "referenceSlug": "top-time-b01-martini-racing"
+    },
+    "3530": {
+      "brandSlug": "breitling",
+      "modelSlug": "navitimer-b01-chronograph-46-north-american-limited-edition",
+      "referenceSlug": "navitimer-b01-chronograph-46-north-american"
+    },
+    "3536": {
+      "brandSlug": "breitling",
+      "modelSlug": "navitimer-41-and-cosmonaute-b12",
+      "referenceSlug": "navitimer-41-and-cosmonaute-b12"
+    },
+    "3790": {
+      "brandSlug": "chopard",
+      "modelSlug": "l-u-c-heritage-grand-cru",
+      "referenceSlug": "l-u-c-heritage-grand-cru"
+    },
     "4076": {
       "brandSlug": "f-p-journe",
       "modelSlug": "classique-chronometre-souverain",
@@ -430,6 +532,21 @@
       "brandSlug": "f-p-journe",
       "modelSlug": "classique-divine-36-mm-set-with-diamonds",
       "referenceSlug": "divine-36-mm-set-with-diamonds"
+    },
+    "4690": {
+      "brandSlug": "nomos",
+      "modelSlug": "orion-neomatik-new-black-36",
+      "referenceSlug": "orion-neomatik-new-black-36"
+    },
+    "4706": {
+      "brandSlug": "nomos",
+      "modelSlug": "tangente-rose-gold-neomatik",
+      "referenceSlug": "tangente-rose-gold-neomatik"
+    },
+    "4864": {
+      "brandSlug": "piaget",
+      "modelSlug": "andy-warhol",
+      "referenceSlug": "andy-warhol"
     },
     "5058": {
       "brandSlug": "nomos",
@@ -1075,6 +1192,11 @@
       "modelSlug": "q-timex-three-time-zone-chronograph",
       "referenceSlug": "q-timex-three-time-zone-chronograph"
     },
+    "6125": {
+      "brandSlug": "tag-heuer",
+      "modelSlug": "monaco-chronograph-racing-green",
+      "referenceSlug": "monaco-chronograph-racing-green"
+    },
     "6153": {
       "brandSlug": "omega",
       "modelSlug": "seamaster-planet-ocean",
@@ -1084,6 +1206,11 @@
       "brandSlug": "oris-x-bamford",
       "modelSlug": "propilot-altimeter-mission-control",
       "referenceSlug": "propilot-altimeter-mission-control"
+    },
+    "6162": {
+      "brandSlug": "tag-heuer",
+      "modelSlug": "carrera-chronograph-x-fragment-limited-edition",
+      "referenceSlug": "carrera-chronograph-fragment"
     },
     "6190": {
       "brandSlug": "oris",
@@ -1095,10 +1222,20 @@
       "modelSlug": "t50",
       "referenceSlug": "t50"
     },
+    "6213": {
+      "brandSlug": "tudor",
+      "modelSlug": "black-bay-fifty-four",
+      "referenceSlug": "black-bay-fifty-four"
+    },
     "6252": {
       "brandSlug": "omega",
       "modelSlug": "constellation-observatory",
       "referenceSlug": "constellation-observatory"
+    },
+    "6285": {
+      "brandSlug": "zenith",
+      "modelSlug": "g-f-j-calibre-135-naoya-hida-and-co",
+      "referenceSlug": "g-f-j-naoya-hida"
     },
     "6287": {
       "brandSlug": "timex",
@@ -1129,11 +1266,6 @@
       "brandSlug": "panerai",
       "modelSlug": "radiomir-quaranta",
       "referenceSlug": "radiomir-quaranta"
-    },
-    "6368": {
-      "brandSlug": "citizen",
-      "modelSlug": "series-8-gmt",
-      "referenceSlug": "series-8-gmt"
     },
     "6372": {
       "brandSlug": "f-p-journe",
@@ -1915,137 +2047,10 @@
       "modelSlug": "senator-meissen-cherry-blossom",
       "referenceSlug": "senator-meissen-cherry-blossom"
     },
-    "4864": {
-      "brandSlug": "piaget",
-      "modelSlug": "andy-warhol",
-      "referenceSlug": "andy-warhol"
-    },
-    "2265": {
-      "brandSlug": "zenith",
-      "modelSlug": "g-f-j",
-      "referenceSlug": "g-f-j"
-    },
-    "1870": {
-      "brandSlug": "hamilton",
-      "modelSlug": "american-classic-chrono-matic-50-auto-chrono-limited-edition",
-      "referenceSlug": "chrono-matic-50-auto-chrono"
-    },
-    "3450": {
-      "brandSlug": "breitling",
-      "modelSlug": "avenger-night-mission",
-      "referenceSlug": "avenger-night-mission"
-    },
-    "3530": {
-      "brandSlug": "breitling",
-      "modelSlug": "navitimer-b01-chronograph-46-north-american-limited-edition",
-      "referenceSlug": "navitimer-b01-chronograph-46-north-american"
-    },
-    "6125": {
-      "brandSlug": "tag-heuer",
-      "modelSlug": "monaco-chronograph-racing-green",
-      "referenceSlug": "monaco-chronograph-racing-green"
-    },
-    "1687": {
-      "brandSlug": "breitling",
-      "modelSlug": "chronomat-giannis-antetokounmpo",
-      "referenceSlug": "chronomat-giannis-antetokounmpo"
-    },
-    "3536": {
-      "brandSlug": "breitling",
-      "modelSlug": "navitimer-41-and-cosmonaute-b12",
-      "referenceSlug": "navitimer-41-and-cosmonaute-b12"
-    },
-    "389": {
-      "brandSlug": "omega",
-      "modelSlug": "speedmaster-moonwatch-white-lacquered-dial",
-      "referenceSlug": "speedmaster-moonwatch-white-lacquered-dial"
-    },
-    "4706": {
-      "brandSlug": "nomos",
-      "modelSlug": "tangente-rose-gold-neomatik",
-      "referenceSlug": "tangente-rose-gold-neomatik"
-    },
-    "2004": {
-      "brandSlug": "omega",
-      "modelSlug": "seamaster-planet-ocean-deep-black-etnz-edition",
-      "referenceSlug": "seamaster-planet-ocean-deep-black-etnz-edition"
-    },
-    "1829": {
-      "brandSlug": "glashutte-original",
-      "modelSlug": "senator-chronometer-silver-and-blue",
-      "referenceSlug": "senator-chronometer-silver-and-blue"
-    },
-    "3481": {
-      "brandSlug": "breitling",
-      "modelSlug": "navitimer-b01-chronograph-46-u-s-limited-edition",
-      "referenceSlug": "navitimer-b01-chronograph-46-u-s-limited-edition"
-    },
-    "1609": [
-      {
-        "brandSlug": "oris",
-        "modelSlug": "big-crown-pointer-date-lou-gehrig-limited-edition",
-        "referenceSlug": "lou-gehrig-limited-edition"
-      },
-      {
-        "brandSlug": "oris",
-        "modelSlug": "lou-gehrig-big-crown-pointer-date-limited-edition",
-        "referenceSlug": "lou-gehrig-big-crown-pointer-date-limited-edition"
-      }
-    ],
-    "6285": {
-      "brandSlug": "zenith",
-      "modelSlug": "g-f-j-calibre-135-naoya-hida-and-co",
-      "referenceSlug": "g-f-j-naoya-hida"
-    },
-    "299": {
-      "brandSlug": "omega",
-      "modelSlug": "seamaster-planet-ocean-ultra-deep-titanium",
-      "referenceSlug": "seamaster-planet-ocean-ultra-deep-titanium"
-    },
-    "4690": {
-      "brandSlug": "nomos",
-      "modelSlug": "orion-neomatik-new-black-36",
-      "referenceSlug": "orion-neomatik-new-black-36"
-    },
-    "3495": {
-      "brandSlug": "breitling",
-      "modelSlug": "top-time-b01-martini-racing",
-      "referenceSlug": "top-time-b01-martini-racing"
-    },
-    "6213": {
-      "brandSlug": "tudor",
-      "modelSlug": "black-bay-fifty-four",
-      "referenceSlug": "black-bay-fifty-four"
-    },
-    "1831": {
-      "brandSlug": "glashutte-original",
-      "modelSlug": "seventies-x-chronograph",
-      "referenceSlug": "seventies-x-chronograph"
-    },
-    "404": {
-      "brandSlug": "omega",
-      "modelSlug": "speedmaster-pilot-flight-qualified",
-      "referenceSlug": "speedmaster-pilot-flight-qualified"
-    },
-    "3790": {
-      "brandSlug": "chopard",
-      "modelSlug": "l-u-c-heritage-grand-cru",
-      "referenceSlug": "l-u-c-heritage-grand-cru"
-    },
-    "2188": {
-      "brandSlug": "tag-heuer",
-      "modelSlug": "monaco-chronograph-night-driver",
-      "referenceSlug": "monaco-chronograph-night-driver"
-    },
-    "6162": {
-      "brandSlug": "tag-heuer",
-      "modelSlug": "carrera-chronograph-x-fragment-limited-edition",
-      "referenceSlug": "carrera-chronograph-fragment"
-    },
-    "1827": {
-      "brandSlug": "glashutte-original",
-      "modelSlug": "panomaticcalendar-platinum",
-      "referenceSlug": "panomaticcalendar-platinum"
+    "8297": {
+      "brandSlug": "citizen",
+      "modelSlug": "series-8-gmt",
+      "referenceSlug": "series-8-gmt"
     }
   }
 }

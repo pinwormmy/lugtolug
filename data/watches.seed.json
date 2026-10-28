@@ -26742,14 +26742,18 @@
     "brand": "Certina",
     "model": "DS-2",
     "reference": "C024.407.18.041.00",
-    "lugToLugMm": 38,
+    "lugToLugMm": 46,
     "caseMm": 40,
     "thicknessMm": 12.65,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://www.certina.com/en/watch/ds-2/c0244071804100",
-        "note": "Official Certina product page lists Ref. C024.407.18.041.00, 38.00 mm Length, 40.00 mm Width, 12.65 mm Height, and 20.00 mm Between lugs; Length is stored as case length/L2L and Width as caseMm."
+        "note": "Official Certina product page lists Ref. C024.407.18.041.00, 38.00 mm Length, 40.00 mm Width, 12.65 mm Height, and 20.00 mm Between lugs; the 38 mm Length is the case body without lugs."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/black-dial-certina-ds-2-powermatic-80/",
+        "note": "Fratello measures the 40 mm DS-2 Powermatic 80 case at 46 mm lug-to-lug and 12.65 mm thick; Certina's 38 mm \"Length\" is the case body without lugs."
       }
     ]
   },
@@ -26758,14 +26762,18 @@
     "brand": "Certina",
     "model": "DS-2",
     "reference": "C024.407.18.081.00",
-    "lugToLugMm": 38,
+    "lugToLugMm": 46,
     "caseMm": 40,
     "thicknessMm": 12.65,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://www.certina.com/en/watch/ds-2/c0244071808100",
-        "note": "Official Certina product page lists Ref. C024.407.18.081.00, 38.00 mm Length, 40.00 mm Width, 12.65 mm Height, and 20.00 mm Between lugs; Length is stored as case length/L2L and Width as caseMm."
+        "note": "Official Certina product page lists Ref. C024.407.18.081.00, 38.00 mm Length, 40.00 mm Width, 12.65 mm Height, and 20.00 mm Between lugs; the 38 mm Length is the case body without lugs."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/black-dial-certina-ds-2-powermatic-80/",
+        "note": "Fratello measures the 40 mm DS-2 Powermatic 80 case at 46 mm lug-to-lug and 12.65 mm thick; Certina's 38 mm \"Length\" is the case body without lugs."
       }
     ]
   },
@@ -26774,14 +26782,18 @@
     "brand": "Certina",
     "model": "DS-2",
     "reference": "C024.407.11.051.00",
-    "lugToLugMm": 38,
+    "lugToLugMm": 46,
     "caseMm": 40,
     "thicknessMm": 12.65,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://www.certina.com/en/watch/ds-2/c0244071105100",
-        "note": "Official Certina product page lists Ref. C024.407.11.051.00, 38.00 mm Length, 40.00 mm Width, 12.65 mm Height, and 20.00 mm Between lugs; Length is stored as case length/L2L and Width as caseMm."
+        "note": "Official Certina product page lists Ref. C024.407.11.051.00, 38.00 mm Length, 40.00 mm Width, 12.65 mm Height, and 20.00 mm Between lugs; the 38 mm Length is the case body without lugs."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/black-dial-certina-ds-2-powermatic-80/",
+        "note": "Fratello measures the 40 mm DS-2 Powermatic 80 case at 46 mm lug-to-lug and 12.65 mm thick; Certina's 38 mm \"Length\" is the case body without lugs."
       }
     ]
   },
@@ -26790,14 +26802,18 @@
     "brand": "Certina",
     "model": "DS-2",
     "reference": "C024.407.37.361.00",
-    "lugToLugMm": 38,
+    "lugToLugMm": 46,
     "caseMm": 40,
     "thicknessMm": 12.65,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://www.certina.com/en/watch/ds-2/c0244073736100",
-        "note": "Official Certina product page lists Ref. C024.407.37.361.00, 38.00 mm Length, 40.00 mm Width, 12.65 mm Height, and 20.00 mm Between lugs; Length is stored as case length/L2L and Width as caseMm."
+        "note": "Official Certina product page lists Ref. C024.407.37.361.00, 38.00 mm Length, 40.00 mm Width, 12.65 mm Height, and 20.00 mm Between lugs; the 38 mm Length is the case body without lugs."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/black-dial-certina-ds-2-powermatic-80/",
+        "note": "Fratello measures the 40 mm DS-2 Powermatic 80 case at 46 mm lug-to-lug and 12.65 mm thick; Certina's 38 mm \"Length\" is the case body without lugs."
       }
     ]
   },
@@ -114026,22 +114042,6 @@
     ]
   },
   {
-    "id": 6297,
-    "brand": "Hamilton",
-    "model": "Khaki Field Murph 38mm",
-    "reference": "Khaki Field Murph 38mm",
-    "lugToLugMm": 52,
-    "caseMm": 38,
-    "thicknessMm": 11.1,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://www.hodinkee.com/articles/woah-hamilton-just-released-the-murph-watch-in-38mm",
-        "note": "Hodinkee reports 52mm lug-to-lug, 38mm case size/width, 11.1mm thickness for Hamilton Khaki Field Murph 38mm in “Introducing: Whoa. Hamilton Just Released The 'Murph' Watch In 38mm.”"
-      }
-    ]
-  },
-  {
     "id": 6298,
     "brand": "Seiko 5 Sports × Worn & Wound",
     "model": "Worn & Wound 10th Anniversary Limited Edition",
@@ -115270,22 +115270,6 @@
       {
         "sourceUrl": "https://www.hodinkee.com/articles/the-leica-zm-11",
         "note": "Hodinkee reports 45.3mm lug-to-lug, 41mm case size/width, 13mm thickness for Leica ZM 11 in “Hands-On: The Leica ZM 11.”"
-      }
-    ]
-  },
-  {
-    "id": 6368,
-    "brand": "Citizen",
-    "model": "Series 8 GMT",
-    "reference": "",
-    "lugToLugMm": 47.8,
-    "caseMm": 41,
-    "thicknessMm": 13.8,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://www.hodinkee.com/articles/the-citizen-series-8-gmt",
-        "note": "Hodinkee reports 47.8mm lug-to-lug, 41mm case size/width, 13.8mm thickness for Citizen Series 8 GMT in “Hands-On: The Citizen Series 8 GMT.”"
       }
     ]
   },
@@ -147996,6 +147980,10 @@
       {
         "sourceUrl": "https://www.fratellowatches.com/the-citizen-series-8-880-gmt-turns-you-into-a-local-twice-over/",
         "note": "Fratello hands-on with NB6031-56E and NB6034-58L lists 41 mm diameter, 47 mm lug-to-lug, and 13.54 mm thickness. With the fixed central bracelet link the length is 53.3 mm; seed records that effective wearing length."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/the-citizen-series-8-gmt",
+        "note": "Hodinkee reports 47.8mm lug-to-lug, 41mm case size/width, 13.8mm thickness for Citizen Series 8 GMT in “Hands-On: The Citizen Series 8 GMT.” Hodinkee's figure excludes the fixed central bracelet link; seed records the 53.3 mm effective length."
       }
     ]
   },
