@@ -3,7 +3,7 @@ import seed from "../data/watches.seed.json" with { type: "json" };
 import { compactReference, getWatchSlugs } from "../src/lib/watchText.ts";
 import { renderSeedSql } from "./lib/seed-sql.mjs";
 
-const REQUIRED_TEXT_FIELDS = ["brand", "model", "reference"];
+const REQUIRED_TEXT_FIELDS = ["brand", "model"];
 const OPTIONAL_TEXT_FIELDS = ["canonicalModel", "modelGroup", "variant"];
 const METRIC_LIMITS = {
   lugToLugMm: 100,
@@ -36,7 +36,7 @@ function addIssue(watchId, message) {
   issues.push(`${watchId == null ? "seed" : `watch ${watchId}`}: ${message}`);
 }
 
-function checkCleanText(watchId, field, value, { required = false } = {}) {
+function checkCleanText(watchId, field, value, { required = false, allowEmpty = false } = {}) {
   if (value == null) {
     if (required) addIssue(watchId, `${field} is required.`);
     return;
@@ -45,7 +45,7 @@ function checkCleanText(watchId, field, value, { required = false } = {}) {
     addIssue(watchId, `${field} must be a string.`);
     return;
   }
-  if (required && value.length === 0) addIssue(watchId, `${field} is required.`);
+  if (required && !allowEmpty && value.length === 0) addIssue(watchId, `${field} is required.`);
   if (!required && value.length === 0) addIssue(watchId, `${field} must be omitted instead of empty.`);
   if (value !== value.trim()) addIssue(watchId, `${field} has leading or trailing whitespace.`);
   if (CONTROL_CHARACTER_PATTERN.test(value)) addIssue(watchId, `${field} contains a control or replacement character.`);
@@ -108,6 +108,8 @@ for (const [index, watch] of seed.entries()) {
   }
 
   for (const field of REQUIRED_TEXT_FIELDS) checkCleanText(watch.id, field, watch[field], { required: true });
+  // An empty reference means no manufacturer reference could be confirmed for the watch.
+  checkCleanText(watch.id, "reference", watch.reference, { required: true, allowEmpty: true });
   for (const field of OPTIONAL_TEXT_FIELDS) checkCleanText(watch.id, field, watch[field]);
   brands.add(watch.brand);
 

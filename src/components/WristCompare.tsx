@@ -248,7 +248,7 @@ export default function WristCompare({ initialWatches, initialWristFlatWidthMm }
                 <li key={watch.id}>
                   <span>
                     <strong>{getWatchDisplayName(watch)}</strong>
-                    <small>{watch.reference} · {formatMm(watch.lugToLugMm)} lug-to-lug</small>
+                    <small>{[watch.reference, `${formatMm(watch.lugToLugMm)} lug-to-lug`].filter(Boolean).join(" · ")}</small>
                   </span>
                   <button className="button secondary" onClick={() => addWatch(watch)} type="button">Add</button>
                 </li>
@@ -272,7 +272,7 @@ export default function WristCompare({ initialWatches, initialWristFlatWidthMm }
                 <article className="compare-card" key={getCompareKey(watch)}>
                   <header>
                     <a href={getWatchHref(watch)}><strong>{getWatchDisplayName(watch)}</strong></a>
-                    <span className="small">{watch.reference}</span>
+                    {watch.reference && <span className="small">{watch.reference}</span>}
                   </header>
                   {fit && <span className={`compare-verdict ${fit.category}`}>{fit.label} · ratio {fit.ratio.toFixed(2)}</span>}
                   <TopView watch={watch} wristFlatWidthMm={wristFlatWidthMm} scene={scene} />

@@ -83,6 +83,8 @@ describe("watch seed data integrity", () => {
     const duplicates: string[] = [];
 
     for (const watch of seed) {
+      // An empty reference means it could not be confirmed, so it identifies nothing.
+      if (!watch.reference) continue;
       const key = [
         compactReference(watch.reference),
         metricKey(watch.lugToLugMm),
@@ -177,7 +179,7 @@ describe("watch seed data integrity", () => {
 
   it("includes the planned Patek Philippe and Citizen expansion references without duplicates", () => {
     const referencesByBrand = (brand: string) =>
-      seed.filter((watch) => watch.brand === brand).map((watch) => watch.reference);
+      seed.filter((watch) => watch.brand === brand && watch.reference).map((watch) => watch.reference);
 
     const patekReferences = referencesByBrand("Patek Philippe");
     const citizenReferences = referencesByBrand("Citizen");
@@ -196,7 +198,9 @@ describe("watch seed data integrity", () => {
   });
 
   it("includes the Grand Seiko expansion references without duplicates", () => {
-    const grandSeikoReferences = seed.filter((watch) => watch.brand === "Grand Seiko").map((watch) => watch.reference);
+    const grandSeikoReferences = seed
+      .filter((watch) => watch.brand === "Grand Seiko" && watch.reference)
+      .map((watch) => watch.reference);
 
     expect(grandSeikoReferences.length).toBeGreaterThanOrEqual(99);
     expect(new Set(grandSeikoReferences).size).toBe(grandSeikoReferences.length);

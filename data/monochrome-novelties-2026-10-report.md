@@ -69,6 +69,8 @@ Instead the 32 tier-1-brand articles quoting a direct lug-to-lug were reviewed b
 
 Later corrections from Hodinkee: the Northflag reference is 9140G1A0U (M91210N in the MONOCHROME images is the 2015 North Flag), and the three-hand Spirit Pilot uses 47.2 mm, matching Hodinkee and the 2025 rows (MONOCHROME: 47.4 mm).
 
+Row 8284 (Captain Cook x European Cricket) was later removed: Rado lists R32138208 at 42 × 12.3 mm, so the article's 43 mm / 16.2 mm / 49.8 mm figures belong to another Captain Cook. Several model-name references here were replaced by the references in each article's spec box (see `reference-cleanup-tier1-report.md`).
+
 ## Not added
 
 - NOMOS Orion gold neomatik new black: already in the seed (id 7633).

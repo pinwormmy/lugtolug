@@ -11,6 +11,521 @@
       "modelSlug": "hydroconquest",
       "referenceSlug": "l3-788-4-98-6"
     },
+    "1688": {
+      "brandSlug": "breitling",
+      "modelSlug": "chronomat-b01-42",
+      "referenceSlug": "18k-red-gold"
+    },
+    "2605": {
+      "brandSlug": "timex",
+      "modelSlug": "expedition-freedive-solar",
+      "referenceSlug": "expedition-freedive-solar"
+    },
+    "2619": {
+      "brandSlug": "citizen",
+      "modelSlug": "promaster-land-gmt",
+      "referenceSlug": "promaster-land-gmt"
+    },
+    "2621": {
+      "brandSlug": "cartier",
+      "modelSlug": "prive-tank-normale",
+      "referenceSlug": "tank-normale"
+    },
+    "2637": {
+      "brandSlug": "oris",
+      "modelSlug": "year-of-the-horse-limited-edition",
+      "referenceSlug": "year-of-the-horse-limited-edition"
+    },
+    "2660": {
+      "brandSlug": "hamilton",
+      "modelSlug": "khaki-field-power-reserve",
+      "referenceSlug": "khaki-field-power-reserve"
+    },
+    "2669": {
+      "brandSlug": "certina",
+      "modelSlug": "ds-x-gmt",
+      "referenceSlug": "ds-x-gmt"
+    },
+    "2670": {
+      "brandSlug": "timex",
+      "modelSlug": "x-seconde-seconde-iykyk-smurf",
+      "referenceSlug": "iykyk-smurf"
+    },
+    "2676": {
+      "brandSlug": "nomos",
+      "modelSlug": "ace-jewelers-x-nomos-metro-neomatik-orange",
+      "referenceSlug": "metro-neomatik-orange"
+    },
+    "2682": {
+      "brandSlug": "piaget",
+      "modelSlug": "andy-warhol",
+      "referenceSlug": "andy-warhol"
+    },
+    "2696": {
+      "brandSlug": "nomos",
+      "modelSlug": "club-campus-starlight-and-night-sky",
+      "referenceSlug": "club-campus-starlight-and-night-sky"
+    },
+    "2705": {
+      "brandSlug": "citizen",
+      "modelSlug": "suratto-ultra-thin",
+      "referenceSlug": "suratto-ultra-thin"
+    },
+    "2709": {
+      "brandSlug": "zenith",
+      "modelSlug": "g-f-j",
+      "referenceSlug": "g-f-j"
+    },
+    "2724": {
+      "brandSlug": "breitling",
+      "modelSlug": "endurance-pro-stanford-university-edition",
+      "referenceSlug": "endurance-pro-stanford-university-edition"
+    },
+    "2727": {
+      "brandSlug": "breitling",
+      "modelSlug": "navitimer-b19-perpetual-calendar-chronograph",
+      "referenceSlug": "navitimer-b19-perpetual-calendar-chronograph"
+    },
+    "2733": {
+      "brandSlug": "hamilton",
+      "modelSlug": "american-classic-chrono-matic-50-auto-chrono-limited-edition",
+      "referenceSlug": "chrono-matic-50-auto-chrono"
+    },
+    "2738": {
+      "brandSlug": "timex",
+      "modelSlug": "giorgio-galli-s2-ti-titanium",
+      "referenceSlug": "giorgio-galli-s2-ti"
+    },
+    "2764": {
+      "brandSlug": "nomos",
+      "modelSlug": "club-sport-neomatik-34",
+      "referenceSlug": "club-sport-neomatik-34"
+    },
+    "2765": {
+      "brandSlug": "glashutte-original",
+      "modelSlug": "seaq-chronograph-silver-screen",
+      "referenceSlug": "seaq-chronograph-silver-screen"
+    },
+    "2767": {
+      "brandSlug": "breitling",
+      "modelSlug": "avenger-night-mission",
+      "referenceSlug": "avenger-night-mission"
+    },
+    "2769": {
+      "brandSlug": "timex",
+      "modelSlug": "x-pan-am-waterbury-gmt",
+      "referenceSlug": "pan-am-waterbury-gmt"
+    },
+    "2772": {
+      "brandSlug": "breitling",
+      "modelSlug": "navitimer-b01-chronograph-46-north-american-limited-edition",
+      "referenceSlug": "navitimer-b01-chronograph-46-north-american"
+    },
+    "2781": {
+      "brandSlug": "tag-heuer",
+      "modelSlug": "monaco-chronograph-racing-green",
+      "referenceSlug": "monaco-chronograph-racing-green"
+    },
+    "2794": {
+      "brandSlug": "timex",
+      "modelSlug": "x-ghostly-navi",
+      "referenceSlug": "ghostly-navi"
+    },
+    "2798": {
+      "brandSlug": "omega-x-swatch",
+      "modelSlug": "moonswatch-mission-to-the-super-blue-moonphase",
+      "referenceSlug": "mission-to-the-super-blue-moonphase"
+    },
+    "2809": {
+      "brandSlug": "breitling",
+      "modelSlug": "endurance-pro-38",
+      "referenceSlug": "endurance-pro-38"
+    },
+    "2816": {
+      "brandSlug": "omega-x-swatch",
+      "modelSlug": "moonswatch-mission-on-earth-lava-polar-lights-and-desert",
+      "referenceSlug": "moonswatch-mission-on-earth-lava-polar-lights-desert"
+    },
+    "2818": {
+      "brandSlug": "breitling",
+      "modelSlug": "chronomat-giannis-antetokounmpo",
+      "referenceSlug": "chronomat-giannis-antetokounmpo"
+    },
+    "2834": {
+      "brandSlug": "omega-x-swatch",
+      "modelSlug": "moonswatch-mission-to-the-moonphase-new-moon",
+      "referenceSlug": "moonswatch-mission-to-the-moonphase-new-moon"
+    },
+    "2836": {
+      "brandSlug": "breitling",
+      "modelSlug": "navitimer-41-and-cosmonaute-b12",
+      "referenceSlug": "navitimer-41-and-cosmonaute-b12"
+    },
+    "2839": {
+      "brandSlug": "breitling",
+      "modelSlug": "aerospace-b70-orbiter",
+      "referenceSlug": "aerospace-b70-orbiter"
+    },
+    "2840": {
+      "brandSlug": "omega-x-swatch",
+      "modelSlug": "moonswatch-mission-to-the-moonphase",
+      "referenceSlug": "moonswatch-mission-to-the-moonphase"
+    },
+    "2848": {
+      "brandSlug": "omega",
+      "modelSlug": "speedmaster-moonwatch-white-lacquered-dial",
+      "referenceSlug": "speedmaster-moonwatch-white-lacquered-dial"
+    },
+    "2852": {
+      "brandSlug": "certina",
+      "modelSlug": "ds-action-gmt-powermatic-80",
+      "referenceSlug": "ds-action-gmt-powermatic-80"
+    },
+    "2858": {
+      "brandSlug": "omega",
+      "modelSlug": "constellation-meteorite-dial",
+      "referenceSlug": "constellation-meteorite-dial"
+    },
+    "2862": {
+      "brandSlug": "breitling",
+      "modelSlug": "chronomat-b01-42-super-bowl-lviii-edition",
+      "referenceSlug": "chronomat-b01-42-super-bowl-lviii-edition"
+    },
+    "2864": {
+      "brandSlug": "hublot",
+      "modelSlug": "spirit-of-big-bang-titanium-dragon",
+      "referenceSlug": "spirit-of-big-bang-titanium-dragon"
+    },
+    "2866": {
+      "brandSlug": "hamilton",
+      "modelSlug": "ventura-blue-suede-shoes-quartz",
+      "referenceSlug": "ventura-blue-suede-shoes"
+    },
+    "2871": {
+      "brandSlug": "omega",
+      "modelSlug": "de-ville-mini-tresor",
+      "referenceSlug": "de-ville-mini-tresor"
+    },
+    "2878": {
+      "brandSlug": "timex",
+      "modelSlug": "marlin-jet-automatic",
+      "referenceSlug": "marlin-jet-automatic"
+    },
+    "2880": {
+      "brandSlug": "blancpain-x-swatch",
+      "modelSlug": "scuba-fifty-fathoms-ocean-of-storms",
+      "referenceSlug": "scuba-fifty-fathoms-ocean-of-storms"
+    },
+    "2897": {
+      "brandSlug": "blancpain-x-swatch",
+      "modelSlug": "scuba-fifty-fathoms-bioceramic",
+      "referenceSlug": "scuba-fifty-fathoms-bioceramic"
+    },
+    "2905": {
+      "brandSlug": "nomos",
+      "modelSlug": "tangente-rose-gold-neomatik",
+      "referenceSlug": "tangente-rose-gold-neomatik"
+    },
+    "2912": {
+      "brandSlug": "nomos",
+      "modelSlug": "metro-33",
+      "referenceSlug": "metro-33"
+    },
+    "2919": {
+      "brandSlug": "omega",
+      "modelSlug": "seamaster-planet-ocean-deep-black-etnz-edition",
+      "referenceSlug": "seamaster-planet-ocean-deep-black-etnz-edition"
+    },
+    "2921": {
+      "brandSlug": "tudor",
+      "modelSlug": "pelagos-fxd-black",
+      "referenceSlug": "pelagos-fxd-black"
+    },
+    "2926": {
+      "brandSlug": "jaeger-lecoultre",
+      "modelSlug": "polaris-chronograph",
+      "referenceSlug": "polaris-chronograph"
+    },
+    "2933": {
+      "brandSlug": "glashutte-original",
+      "modelSlug": "senator-chronometer-silver-and-blue",
+      "referenceSlug": "senator-chronometer-silver-and-blue"
+    },
+    "2936": {
+      "brandSlug": "casio",
+      "modelSlug": "g-shock-x-coca-cola-limited-edition",
+      "referenceSlug": "g-shock-x-coca-cola-limited-edition"
+    },
+    "2938": {
+      "brandSlug": "breitling",
+      "modelSlug": "navitimer-b01-chronograph-46-u-s-limited-edition",
+      "referenceSlug": "navitimer-b01-chronograph-46-u-s-limited-edition"
+    },
+    "2948": {
+      "brandSlug": "breitling",
+      "modelSlug": "classic-avi-chronograph-42",
+      "referenceSlug": "classic-avi-chronograph-42"
+    },
+    "2951": {
+      "brandSlug": "breitling",
+      "modelSlug": "endurance-pro-university-edition",
+      "referenceSlug": "endurance-pro-university-edition"
+    },
+    "2952": {
+      "brandSlug": "timex",
+      "modelSlug": "q-three-time-zone-chronograph",
+      "referenceSlug": "q-three-time-zone-chronograph"
+    },
+    "2955": {
+      "brandSlug": "seiko",
+      "modelSlug": "astron-gps-solar-resident-evil-death-island",
+      "referenceSlug": "astron-resident-evil-death-island"
+    },
+    "2966": {
+      "brandSlug": "timex",
+      "modelSlug": "expedition-north-titanium-automatic",
+      "referenceSlug": "expedition-north-titanium-automatic"
+    },
+    "2995": {
+      "brandSlug": "rado",
+      "modelSlug": "true-open-heart-automatic",
+      "referenceSlug": "true-open-heart-automatic"
+    },
+    "3014": {
+      "brandSlug": "hamilton",
+      "modelSlug": "khaki-field-titanium-auto",
+      "referenceSlug": "khaki-field-titanium-auto"
+    },
+    "3021": {
+      "brandSlug": "tissot",
+      "modelSlug": "ballade-cosc",
+      "referenceSlug": "ballade-cosc"
+    },
+    "3031": {
+      "brandSlug": "hublot",
+      "modelSlug": "big-bang-square-bang",
+      "referenceSlug": "big-bang-square-bang"
+    },
+    "3038": {
+      "brandSlug": "omega",
+      "modelSlug": "seamaster-aqua-terra-black-dial",
+      "referenceSlug": "seamaster-aqua-terra-black-dial"
+    },
+    "3045": {
+      "brandSlug": "breitling",
+      "modelSlug": "superocean-automatic-46-super-diver",
+      "referenceSlug": "superocean-automatic-46-super-diver"
+    },
+    "3050": {
+      "brandSlug": "oris",
+      "modelSlug": "chronoris-date",
+      "referenceSlug": "chronoris-date"
+    },
+    "3063": {
+      "brandSlug": "citizen",
+      "modelSlug": "tsuno-eco-drive-chronograph-racer",
+      "referenceSlug": "tsuno-eco-drive-chronograph-racer"
+    },
+    "4076": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-chronometre-souverain",
+      "referenceSlug": "chronometre-souverain"
+    },
+    "4077": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-chronometre-bleu",
+      "referenceSlug": "chronometre-bleu"
+    },
+    "4078": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-lune",
+      "referenceSlug": "lune"
+    },
+    "4079": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-chronometre-souverain-havana",
+      "referenceSlug": "chronometre-souverain-havana"
+    },
+    "4080": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-automatique-calibre",
+      "referenceSlug": "automatique-calibre"
+    },
+    "4081": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-chronometre-a-resonance",
+      "referenceSlug": "chronometre-a-resonance"
+    },
+    "4082": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-chronometre-souverain-nacre",
+      "referenceSlug": "chronometre-souverain-nacre"
+    },
+    "4083": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-chronometre-optimum",
+      "referenceSlug": "chronometre-optimum"
+    },
+    "4084": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-chronometre-bleu-byblos",
+      "referenceSlug": "chronometre-bleu-byblos"
+    },
+    "4086": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-octa-calendrier",
+      "referenceSlug": "octa-calendrier"
+    },
+    "4087": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-tourbillon-souverain",
+      "referenceSlug": "tourbillon-souverain"
+    },
+    "4088": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-chronometre-holland-and-holland",
+      "referenceSlug": "chronometre-holland-and-holland"
+    },
+    "4089": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-octa-automatique-reserve-havana",
+      "referenceSlug": "octa-automatique-reserve-havana"
+    },
+    "4090": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-tourbillon-souverain-set-with-diamonds",
+      "referenceSlug": "tourbillon-souverain-set-with-diamonds"
+    },
+    "4091": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-octa-reserve-de-marche",
+      "referenceSlug": "octa-reserve-de-marche"
+    },
+    "4092": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-octa-divine",
+      "referenceSlug": "octa-divine"
+    },
+    "4093": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-octa-lune",
+      "referenceSlug": "octa-lune"
+    },
+    "4094": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-repetition-souveraine",
+      "referenceSlug": "repetition-souveraine"
+    },
+    "4095": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-automatique-lune",
+      "referenceSlug": "automatique-lune"
+    },
+    "4096": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-centigraphe-souverain",
+      "referenceSlug": "centigraphe-souverain"
+    },
+    "4097": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-sonnerie-souveraine",
+      "referenceSlug": "sonnerie-souveraine"
+    },
+    "4098": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-octa-chronographe",
+      "referenceSlug": "octa-chronographe"
+    },
+    "4099": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-10-years-anniversary-tourbillon",
+      "referenceSlug": "10-years-anniversary-tourbillon"
+    },
+    "4100": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-quantieme-perpetuel",
+      "referenceSlug": "quantieme-perpetuel"
+    },
+    "4101": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-octa-automatique-reserve",
+      "referenceSlug": "octa-automatique-reserve"
+    },
+    "4102": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-octa-zodiaque",
+      "referenceSlug": "octa-zodiaque"
+    },
+    "4103": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-octa-utc",
+      "referenceSlug": "octa-utc"
+    },
+    "4104": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-automatique-lune-havana",
+      "referenceSlug": "automatique-lune-havana"
+    },
+    "4105": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-centigraphe-anniversaire",
+      "referenceSlug": "centigraphe-anniversaire"
+    },
+    "4106": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-octa-automatique-lune-havana",
+      "referenceSlug": "octa-automatique-lune-havana"
+    },
+    "4107": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-tourbillon-souverain-coeur-de-rubis",
+      "referenceSlug": "tourbillon-souverain-coeur-de-rubis"
+    },
+    "4108": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-octa-automatique-lune-nacre",
+      "referenceSlug": "octa-automatique-lune-nacre"
+    },
+    "4109": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-vagabondage-iii",
+      "referenceSlug": "vagabondage-iii"
+    },
+    "4110": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "classique-divine-36-mm-set-with-diamonds",
+      "referenceSlug": "divine-36-mm-set-with-diamonds"
+    },
+    "5058": {
+      "brandSlug": "nomos",
+      "modelSlug": "ahoi-neomatik-36-sky-sand",
+      "referenceSlug": "ahoi-neomatik-36-sky-sand"
+    },
+    "5071": {
+      "brandSlug": "girard-perregaux",
+      "modelSlug": "laureato-fifty-steel",
+      "referenceSlug": "laureato-fifty-steel"
+    },
+    "5074": {
+      "brandSlug": "oris",
+      "modelSlug": "big-crown-pointer-date-lou-gehrig-limited-edition",
+      "referenceSlug": "lou-gehrig-limited-edition"
+    },
+    "5075": {
+      "brandSlug": "zenith",
+      "modelSlug": "g-f-j-calibre-135-naoya-hida-and-co",
+      "referenceSlug": "g-f-j-naoya-hida"
+    },
+    "5080": {
+      "brandSlug": "cartier",
+      "modelSlug": "santos-dumont-lm-bracelet",
+      "referenceSlug": "santos-dumont-lm-bracelet"
+    },
+    "5090": {
+      "brandSlug": "tissot",
+      "modelSlug": "gentleman-powermatic-80-38mm",
+      "referenceSlug": "gentleman-38mm"
+    },
     "5502": {
       "brandSlug": "gruppo-gamma",
       "modelSlug": "pn-07",
@@ -620,15 +1135,930 @@
       "modelSlug": "mk1",
       "referenceSlug": "mk1-iw432"
     },
-    "5090": {
-      "brandSlug": "tissot",
-      "modelSlug": "gentleman-powermatic-80-38mm",
-      "referenceSlug": "gentleman-38mm"
+    "5802": {
+      "brandSlug": "hamilton",
+      "modelSlug": "mil-w-46374b",
+      "referenceSlug": "mil-w-46374b-iw438"
     },
-    "3021": {
+    "6073": {
+      "brandSlug": "breitling",
+      "modelSlug": "superocean-heritage",
+      "referenceSlug": "superocean-heritage"
+    },
+    "6078": {
+      "brandSlug": "timex",
+      "modelSlug": "q-timex-three-time-zone-chronograph",
+      "referenceSlug": "q-timex-three-time-zone-chronograph"
+    },
+    "6153": {
+      "brandSlug": "omega",
+      "modelSlug": "seamaster-planet-ocean",
+      "referenceSlug": "seamaster-planet-ocean"
+    },
+    "6155": {
+      "brandSlug": "oris-x-bamford",
+      "modelSlug": "propilot-altimeter-mission-control",
+      "referenceSlug": "propilot-altimeter-mission-control"
+    },
+    "6166": {
+      "brandSlug": "oris",
+      "modelSlug": "lou-gehrig-big-crown-pointer-date-limited-edition",
+      "referenceSlug": "lou-gehrig-big-crown-pointer-date-limited-edition"
+    },
+    "6190": {
+      "brandSlug": "oris",
+      "modelSlug": "big-crown-pointer-date-x-fratello-limited-edition",
+      "referenceSlug": "big-crown-pointer-date-x-fratello-limited-edition"
+    },
+    "6205": {
+      "brandSlug": "sinn",
+      "modelSlug": "t50",
+      "referenceSlug": "t50"
+    },
+    "6252": {
+      "brandSlug": "omega",
+      "modelSlug": "constellation-observatory",
+      "referenceSlug": "constellation-observatory"
+    },
+    "6287": {
+      "brandSlug": "timex",
+      "modelSlug": "atlantis-nuptse",
+      "referenceSlug": "atlantis-nuptse"
+    },
+    "6293": {
+      "brandSlug": "hermes",
+      "modelSlug": "h08",
+      "referenceSlug": "h08"
+    },
+    "6324": {
+      "brandSlug": "cartier",
+      "modelSlug": "santos-de-cartier-skeleton-noctambule",
+      "referenceSlug": "santos-de-cartier-skeleton-noctambule"
+    },
+    "6333": {
+      "brandSlug": "sinn",
+      "modelSlug": "u50",
+      "referenceSlug": "u50"
+    },
+    "6362": {
+      "brandSlug": "tag-heuer",
+      "modelSlug": "carrera-skipper",
+      "referenceSlug": "carrera-skipper"
+    },
+    "6365": {
+      "brandSlug": "panerai",
+      "modelSlug": "radiomir-quaranta",
+      "referenceSlug": "radiomir-quaranta"
+    },
+    "6368": {
+      "brandSlug": "citizen",
+      "modelSlug": "series-8-gmt",
+      "referenceSlug": "series-8-gmt"
+    },
+    "6372": {
+      "brandSlug": "f-p-journe",
+      "modelSlug": "elegante-gino-s-dream",
+      "referenceSlug": "elegante-gino-s-dream"
+    },
+    "6373": {
+      "brandSlug": "tag-heuer",
+      "modelSlug": "formula-1-kith",
+      "referenceSlug": "formula-1-kith"
+    },
+    "6375": {
+      "brandSlug": "swatch",
+      "modelSlug": "neon-wave",
+      "referenceSlug": "neon-wave"
+    },
+    "6381": {
+      "brandSlug": "bulgari-x-mb-and-f",
+      "modelSlug": "serpenti",
+      "referenceSlug": "serpenti"
+    },
+    "6396": {
+      "brandSlug": "citizen",
+      "modelSlug": "tsuyosa-x-seconde-seconde",
+      "referenceSlug": "tsuyosa-x-seconde-seconde"
+    },
+    "6398": {
+      "brandSlug": "vacheron-constantin",
+      "modelSlug": "traditionnelle-twin-beat",
+      "referenceSlug": "traditionnelle-twin-beat"
+    },
+    "6409": {
+      "brandSlug": "longines",
+      "modelSlug": "heritage-skin-diver",
+      "referenceSlug": "heritage-skin-diver"
+    },
+    "6415": {
+      "brandSlug": "bulgari",
+      "modelSlug": "octo-finissimo-automatic-blasted-gold",
+      "referenceSlug": "octo-finissimo-automatic-blasted-gold"
+    },
+    "6419": {
+      "brandSlug": "longines",
+      "modelSlug": "ultra-chron-dive-watch",
+      "referenceSlug": "ultra-chron-dive-watch"
+    },
+    "6421": {
+      "brandSlug": "citizen",
+      "modelSlug": "promaster-dive-orca",
+      "referenceSlug": "promaster-dive-orca"
+    },
+    "6422": {
+      "brandSlug": "oris",
+      "modelSlug": "aquis-date-yangtze-jiangtun-limited-edition",
+      "referenceSlug": "aquis-date-yangtze-jiangtun-limited-edition"
+    },
+    "6424": {
+      "brandSlug": "jaeger-lecoultre",
+      "modelSlug": "reverso-tribute-enamel-year-of-the-horse",
+      "referenceSlug": "reverso-tribute-enamel-year-of-the-horse"
+    },
+    "6483": {
+      "brandSlug": "breitling",
+      "modelSlug": "avenger-gmt-44",
+      "referenceSlug": "avenger-gmt-44"
+    },
+    "6484": {
+      "brandSlug": "breitling",
+      "modelSlug": "avenger-automatic-42",
+      "referenceSlug": "avenger-automatic-42"
+    },
+    "6499": {
+      "brandSlug": "audemars-piguet",
+      "modelSlug": "neo-frame-jumping-hour",
+      "referenceSlug": "neo-frame-jumping-hour"
+    },
+    "6515": {
+      "brandSlug": "rado",
+      "modelSlug": "captain-cook-over-pole-limited-edition",
+      "referenceSlug": "captain-cook-over-pole-limited-edition"
+    },
+    "6521": {
+      "brandSlug": "tag-heuer",
+      "modelSlug": "formula-1-original",
+      "referenceSlug": "formula-1-original"
+    },
+    "6526": {
+      "brandSlug": "cartier",
+      "modelSlug": "tank-anglaise-large",
+      "referenceSlug": "tank-anglaise-large"
+    },
+    "6527": {
+      "brandSlug": "vacheron-constantin",
+      "modelSlug": "malte-tourbillon-openworked",
+      "referenceSlug": "malte-tourbillon-openworked"
+    },
+    "6530": {
+      "brandSlug": "cartier",
+      "modelSlug": "prive-tonneau-large",
+      "referenceSlug": "prive-tonneau-large"
+    },
+    "6531": {
+      "brandSlug": "cartier",
+      "modelSlug": "tank-louis-cartier-automatic",
+      "referenceSlug": "tank-louis-cartier-automatic"
+    },
+    "6538": {
       "brandSlug": "tissot",
-      "modelSlug": "ballade-cosc",
-      "referenceSlug": "ballade-cosc"
+      "modelSlug": "gentleman",
+      "referenceSlug": "gentleman"
+    },
+    "6540": {
+      "brandSlug": "breitling",
+      "modelSlug": "chronomat-automatic-gmt-40-nfl-team-editions",
+      "referenceSlug": "chronomat-automatic-gmt-40-nfl-team-editions"
+    },
+    "6541": {
+      "brandSlug": "breitling",
+      "modelSlug": "endurance-pro-nfl-team-editions",
+      "referenceSlug": "endurance-pro-nfl-team-editions"
+    },
+    "6549": {
+      "brandSlug": "omega",
+      "modelSlug": "seamaster-planet-ocean-ultra-deep-titanium",
+      "referenceSlug": "seamaster-planet-ocean-ultra-deep-titanium"
+    },
+    "6550": {
+      "brandSlug": "omega",
+      "modelSlug": "seamaster-planet-ocean-ultra-deep-o-megasteel",
+      "referenceSlug": "seamaster-planet-ocean-ultra-deep-o-megasteel"
+    },
+    "6551": {
+      "brandSlug": "nomos",
+      "modelSlug": "orion-neomatik-new-black-36",
+      "referenceSlug": "orion-neomatik-new-black-36"
+    },
+    "6555": {
+      "brandSlug": "oris",
+      "modelSlug": "aquis-date-cherry-red",
+      "referenceSlug": "aquis-date-cherry-red"
+    },
+    "6578": {
+      "brandSlug": "tag-heuer",
+      "modelSlug": "carrera-glassbox-39",
+      "referenceSlug": "carrera-glassbox-39"
+    },
+    "6588": {
+      "brandSlug": "timex",
+      "modelSlug": "ironman-full-size",
+      "referenceSlug": "ironman-full-size"
+    },
+    "6590": {
+      "brandSlug": "tudor",
+      "modelSlug": "black-bay-chrono",
+      "referenceSlug": "black-bay-chrono"
+    },
+    "6596": {
+      "brandSlug": "breitling",
+      "modelSlug": "top-time-b01-martini-racing",
+      "referenceSlug": "top-time-b01-martini-racing"
+    },
+    "6600": {
+      "brandSlug": "cartier",
+      "modelSlug": "ballon-bleu-42-rose-gold",
+      "referenceSlug": "ballon-bleu-42-rose-gold"
+    },
+    "6606": {
+      "brandSlug": "rado",
+      "modelSlug": "hyperchrome-captain-cook-limited-edition",
+      "referenceSlug": "hyperchrome-captain-cook-limited-edition"
+    },
+    "6617": {
+      "brandSlug": "iwc",
+      "modelSlug": "pilot-s-watch-mark-xx",
+      "referenceSlug": "pilot-s-watch-mark-xx"
+    },
+    "6618": {
+      "brandSlug": "omega",
+      "modelSlug": "speedmaster-chronoscope",
+      "referenceSlug": "speedmaster-chronoscope"
+    },
+    "6619": {
+      "brandSlug": "omega",
+      "modelSlug": "speedmaster-racing-master-chronometer",
+      "referenceSlug": "speedmaster-racing-master-chronometer"
+    },
+    "6620": {
+      "brandSlug": "omega",
+      "modelSlug": "speedmaster-moonwatch-professional-moonshine-gold",
+      "referenceSlug": "speedmaster-moonwatch-professional-moonshine-gold"
+    },
+    "6626": {
+      "brandSlug": "tudor",
+      "modelSlug": "black-bay-fifty-four",
+      "referenceSlug": "black-bay-fifty-four"
+    },
+    "6629": {
+      "brandSlug": "hamilton",
+      "modelSlug": "psr",
+      "referenceSlug": "psr"
+    },
+    "6657": {
+      "brandSlug": "cartier",
+      "modelSlug": "prive-tonneau-xl-skeleton-dual-time",
+      "referenceSlug": "prive-tonneau-xl-skeleton-dual-time"
+    },
+    "6662": {
+      "brandSlug": "rado",
+      "modelSlug": "hyperchrome-tradition-captain-cook-mk-ii",
+      "referenceSlug": "captain-cook-mk-ii"
+    },
+    "6666": {
+      "brandSlug": "cartier",
+      "modelSlug": "tank-of-jacqueline-kennedy-onassis",
+      "referenceSlug": "jacqueline-kennedy-onassis-tank"
+    },
+    "6685": {
+      "brandSlug": "girard-perregaux",
+      "modelSlug": "cat-s-eye-tourbillon-with-gold-bridge",
+      "referenceSlug": "cat-s-eye-tourbillon-with-gold-bridge"
+    },
+    "6695": {
+      "brandSlug": "cartier",
+      "modelSlug": "crash-skeleton-platinum",
+      "referenceSlug": "crash-skeleton-platinum"
+    },
+    "6714": {
+      "brandSlug": "jaeger-lecoultre",
+      "modelSlug": "tribute-reverso-duo",
+      "referenceSlug": "tribute-reverso-duo"
+    },
+    "6715": {
+      "brandSlug": "swatch",
+      "modelSlug": "bioceramic-what-if-collection",
+      "referenceSlug": "bioceramic-what-if-collection"
+    },
+    "6716": {
+      "brandSlug": "swatch",
+      "modelSlug": "what-if-tariffs",
+      "referenceSlug": "what-if-tariffs"
+    },
+    "6736": {
+      "brandSlug": "cartier",
+      "modelSlug": "santos-dumont-xl-precious-metal-limited-models",
+      "referenceSlug": "santos-dumont-xl-precious-metal-limited-models"
+    },
+    "6737": {
+      "brandSlug": "cartier",
+      "modelSlug": "santos-dumont-large-precious-metal-models",
+      "referenceSlug": "santos-dumont-large-precious-metal-models"
+    },
+    "6738": {
+      "brandSlug": "cartier",
+      "modelSlug": "tank-louis-cartier-large-four-dial-collection",
+      "referenceSlug": "tank-louis-cartier-large-four-dial-collection"
+    },
+    "6743": {
+      "brandSlug": "cartier",
+      "modelSlug": "tank-must-solarbeat-large",
+      "referenceSlug": "tank-must-solarbeat-large"
+    },
+    "6744": {
+      "brandSlug": "cartier",
+      "modelSlug": "tank-must-solarbeat-small",
+      "referenceSlug": "tank-must-solarbeat-small"
+    },
+    "6747": {
+      "brandSlug": "cartier",
+      "modelSlug": "prive-tank-normale-skeleton",
+      "referenceSlug": "prive-tank-normale-skeleton"
+    },
+    "6755": {
+      "brandSlug": "jaeger-lecoultre",
+      "modelSlug": "reverso-metiers-rares-tribute-to-ferdinand-hodler",
+      "referenceSlug": "reverso-ferdinand-hodler"
+    },
+    "6812": {
+      "brandSlug": "audemars-piguet",
+      "modelSlug": "john-shaeffer-repeater-archive-case",
+      "referenceSlug": "john-shaeffer-archive-case-no-6"
+    },
+    "6824": {
+      "brandSlug": "girard-perregaux",
+      "modelSlug": "casquette-2-0",
+      "referenceSlug": "casquette-2-0"
+    },
+    "6826": {
+      "brandSlug": "jaeger-lecoultre",
+      "modelSlug": "reverso-classic-large-small-seconds",
+      "referenceSlug": "reverso-classic-large-small-seconds"
+    },
+    "6834": {
+      "brandSlug": "cartier",
+      "modelSlug": "tank-louis-cartier-sapphire-skeleton",
+      "referenceSlug": "tank-lc-sapphire-skeleton"
+    },
+    "6838": {
+      "brandSlug": "hamilton",
+      "modelSlug": "ventura-xxl-bright-dune-limited-edition",
+      "referenceSlug": "ventura-xxl-bright-dune"
+    },
+    "6842": {
+      "brandSlug": "glashutte-original",
+      "modelSlug": "seventies-x-chronograph",
+      "referenceSlug": "seventies-x-chronograph"
+    },
+    "6844": {
+      "brandSlug": "jaeger-lecoultre",
+      "modelSlug": "grande-reverso-night-and-day",
+      "referenceSlug": "grande-reverso-night-and-day"
+    },
+    "6850": {
+      "brandSlug": "jaeger-lecoultre",
+      "modelSlug": "reverso-classic-large-duo-small-second",
+      "referenceSlug": "reverso-classic-large-duo-small-second"
+    },
+    "6852": {
+      "brandSlug": "jaeger-lecoultre",
+      "modelSlug": "reverso-tribute-calendar",
+      "referenceSlug": "reverso-tribute-calendar"
+    },
+    "6854": {
+      "brandSlug": "jaeger-lecoultre",
+      "modelSlug": "reverso-tribute-enamel-hokusai-waterfalls-series",
+      "referenceSlug": "reverso-hokusai-waterfalls-series"
+    },
+    "6859": {
+      "brandSlug": "cartier",
+      "modelSlug": "panthere-de-cartier",
+      "referenceSlug": "panthere-de-cartier-editors-pick"
+    },
+    "6860": {
+      "brandSlug": "casio",
+      "modelSlug": "g-shock-rangeman",
+      "referenceSlug": "g-shock-rangeman-editors-pick"
+    },
+    "6866": {
+      "brandSlug": "rado",
+      "modelSlug": "ceramica-konstantin-grcic",
+      "referenceSlug": "ceramica-konstantin-grcic"
+    },
+    "6870": {
+      "brandSlug": "cartier",
+      "modelSlug": "tank-mc",
+      "referenceSlug": "tank-mc"
+    },
+    "6872": {
+      "brandSlug": "cartier",
+      "modelSlug": "tank-cintree-historical-example",
+      "referenceSlug": "tank-cintree-historical-example"
+    },
+    "6884": {
+      "brandSlug": "jaeger-lecoultre",
+      "modelSlug": "corvo-reverso",
+      "referenceSlug": "corvo-reverso"
+    },
+    "6888": {
+      "brandSlug": "cartier",
+      "modelSlug": "hypnose-small",
+      "referenceSlug": "hypnose-small"
+    },
+    "6889": {
+      "brandSlug": "cartier",
+      "modelSlug": "hypnose-medium",
+      "referenceSlug": "hypnose-medium"
+    },
+    "6893": {
+      "brandSlug": "jaeger-lecoultre",
+      "modelSlug": "reverso-small-shop-example",
+      "referenceSlug": "reverso-small-shop-example"
+    },
+    "6901": {
+      "brandSlug": "jaeger-lecoultre",
+      "modelSlug": "reverso-tribute-monoface-or-deco-cocktail",
+      "referenceSlug": "reverso-or-deco-cocktail"
+    },
+    "6902": {
+      "brandSlug": "jaeger-lecoultre",
+      "modelSlug": "reverso-tribute-monoface-or-deco-cocktail-small",
+      "referenceSlug": "reverso-or-deco-cocktail-small"
+    },
+    "6904": {
+      "brandSlug": "vacheron-constantin",
+      "modelSlug": "malte-high-jewellery-large",
+      "referenceSlug": "malte-high-jewellery-large"
+    },
+    "6910": {
+      "brandSlug": "rolex",
+      "modelSlug": "cellini-prince",
+      "referenceSlug": "cellini-prince-collection"
+    },
+    "6913": {
+      "brandSlug": "jaeger-lecoultre",
+      "modelSlug": "reverso-cordonnet",
+      "referenceSlug": "reverso-cordonnet"
+    },
+    "6917": {
+      "brandSlug": "cartier",
+      "modelSlug": "santos-dumont-cpcp-platinum",
+      "referenceSlug": "santos-dumont-cpcp-platinum"
+    },
+    "6918": {
+      "brandSlug": "cartier",
+      "modelSlug": "london-tank-l-c-small",
+      "referenceSlug": "london-tank-lc-small"
+    },
+    "6919": {
+      "brandSlug": "cartier",
+      "modelSlug": "london-tank-l-c-medium",
+      "referenceSlug": "london-tank-lc-medium"
+    },
+    "6920": {
+      "brandSlug": "cartier",
+      "modelSlug": "london-tank-l-c-large",
+      "referenceSlug": "london-tank-lc-large"
+    },
+    "6925": {
+      "brandSlug": "jaeger-lecoultre",
+      "modelSlug": "reverso-tribute-gyrotourbillon",
+      "referenceSlug": "reverso-tribute-gyrotourbillon"
+    },
+    "6965": {
+      "brandSlug": "tissot",
+      "modelSlug": "heritage-petite-seconde",
+      "referenceSlug": "heritage-petite-seconde"
+    },
+    "6967": {
+      "brandSlug": "tissot",
+      "modelSlug": "heritage-visodate-automatic",
+      "referenceSlug": "heritage-visodate-automatic"
+    },
+    "6979": {
+      "brandSlug": "oris",
+      "modelSlug": "aquis-gmt-date-carysfort-reef-limited-edition",
+      "referenceSlug": "aquis-gmt-date-carysfort-reef-limited-edition"
+    },
+    "6986": {
+      "brandSlug": "montblanc",
+      "modelSlug": "star-legacy-orbis-terrarum-rose-gold-limited-edition",
+      "referenceSlug": "star-legacy-orbis-terrarum-rose-gold-limited-edition"
+    },
+    "6996": {
+      "brandSlug": "oris",
+      "modelSlug": "aquis-gmt-date-whale-shark-limited-edition",
+      "referenceSlug": "aquis-gmt-date-whale-shark-limited-edition"
+    },
+    "6997": {
+      "brandSlug": "longines",
+      "modelSlug": "legend-diver-gradient-dial",
+      "referenceSlug": "legend-diver-gradient-dial"
+    },
+    "7008": {
+      "brandSlug": "longines",
+      "modelSlug": "heritage-classic-sector-dial",
+      "referenceSlug": "heritage-classic-sector-dial"
+    },
+    "7041": {
+      "brandSlug": "orient",
+      "modelSlug": "bambino-38",
+      "referenceSlug": "bambino-38"
+    },
+    "7044": {
+      "brandSlug": "jaeger-lecoultre",
+      "modelSlug": "reverso-chronographe-retrograde",
+      "referenceSlug": "reverso-chronographe-retrograde"
+    },
+    "7045": {
+      "brandSlug": "nomos",
+      "modelSlug": "watch-club-36",
+      "referenceSlug": "watch-club-36"
+    },
+    "7052": {
+      "brandSlug": "omega",
+      "modelSlug": "speedmaster-57-hand-wound",
+      "referenceSlug": "speedmaster-57-hand-wound"
+    },
+    "7062": {
+      "brandSlug": "orient",
+      "modelSlug": "neo-classic-sports-collection",
+      "referenceSlug": "neo-classic-sports-collection"
+    },
+    "7067": {
+      "brandSlug": "orient",
+      "modelSlug": "orient-star-skeleton",
+      "referenceSlug": "orient-star-skeleton"
+    },
+    "7088": {
+      "brandSlug": "mido",
+      "modelSlug": "baroncelli-chronograph-moonphase",
+      "referenceSlug": "baroncelli-chronograph-moonphase"
+    },
+    "7096": {
+      "brandSlug": "iwc",
+      "modelSlug": "big-pilot-markus-buhler-tourbillon",
+      "referenceSlug": "big-pilot-markus-buhler-tourbillon"
+    },
+    "7117": {
+      "brandSlug": "iwc",
+      "modelSlug": "big-pilot-amg-g-63-ceramic-matrix",
+      "referenceSlug": "big-pilot-amg-g-63-ceramic-matrix"
+    },
+    "7136": {
+      "brandSlug": "patek-philippe",
+      "modelSlug": "cubitus-collection",
+      "referenceSlug": "cubitus-collection"
+    },
+    "7147": {
+      "brandSlug": "mido",
+      "modelSlug": "multifort-tv-35",
+      "referenceSlug": "multifort-tv-35"
+    },
+    "7148": {
+      "brandSlug": "omega",
+      "modelSlug": "speedmaster-pilot-flight-qualified",
+      "referenceSlug": "speedmaster-pilot-flight-qualified"
+    },
+    "7150": {
+      "brandSlug": "omega",
+      "modelSlug": "speedmaster-moonphase-meteorite",
+      "referenceSlug": "speedmaster-moonphase-meteorite"
+    },
+    "7161": {
+      "brandSlug": "tudor",
+      "modelSlug": "pelagos-ultra",
+      "referenceSlug": "pelagos-ultra"
+    },
+    "7164": {
+      "brandSlug": "tudor",
+      "modelSlug": "black-bay-68",
+      "referenceSlug": "black-bay-68"
+    },
+    "7171": {
+      "brandSlug": "iwc",
+      "modelSlug": "big-pilot-perpetual-calendar-tourbillon-le-petit-prince",
+      "referenceSlug": "big-pilot-perpetual-calendar-tourbillon-le-petit-prince"
+    },
+    "7189": {
+      "brandSlug": "citizen",
+      "modelSlug": "tsuyosa-37-blue-and-purple",
+      "referenceSlug": "tsuyosa-37-blue-and-purple"
+    },
+    "7197": {
+      "brandSlug": "hermes",
+      "modelSlug": "h08-chronograph-naples-yellow",
+      "referenceSlug": "h08-chronograph-naples-yellow"
+    },
+    "7206": {
+      "brandSlug": "mido",
+      "modelSlug": "multifort-8-two-crowns",
+      "referenceSlug": "multifort-8-two-crowns"
+    },
+    "7212": {
+      "brandSlug": "mido",
+      "modelSlug": "multifort-8-one-crown",
+      "referenceSlug": "multifort-8-one-crown"
+    },
+    "7213": {
+      "brandSlug": "citizen",
+      "modelSlug": "zenshin-60-super-titanium",
+      "referenceSlug": "zenshin-60-super-titanium"
+    },
+    "7218": {
+      "brandSlug": "timex",
+      "modelSlug": "mk1-automatic",
+      "referenceSlug": "mk1-automatic"
+    },
+    "7226": {
+      "brandSlug": "oris",
+      "modelSlug": "artelier-complication",
+      "referenceSlug": "artelier-complication"
+    },
+    "7243": {
+      "brandSlug": "ulysse-nardin",
+      "modelSlug": "freak-x",
+      "referenceSlug": "freak-x"
+    },
+    "7247": {
+      "brandSlug": "oris",
+      "modelSlug": "divers-date-olive-green",
+      "referenceSlug": "divers-date-olive-green"
+    },
+    "7257": {
+      "brandSlug": "omega",
+      "modelSlug": "seamaster-ploprof",
+      "referenceSlug": "seamaster-ploprof"
+    },
+    "7261": {
+      "brandSlug": "hamilton",
+      "modelSlug": "ventura-xxl",
+      "referenceSlug": "ventura-xxl"
+    },
+    "7274": {
+      "brandSlug": "nomos",
+      "modelSlug": "gold-collection",
+      "referenceSlug": "gold-collection"
+    },
+    "7279": {
+      "brandSlug": "vacheron-constantin",
+      "modelSlug": "harmony-ultra-thin-grande-complication-chronograph",
+      "referenceSlug": "harmony-ultra-thin-grande-complication-chronograph"
+    },
+    "7287": {
+      "brandSlug": "seiko",
+      "modelSlug": "giugiaro-design-quartz-chronograph-reissue",
+      "referenceSlug": "giugiaro-design-quartz-chronograph-reissue"
+    },
+    "7298": {
+      "brandSlug": "glashutte-original",
+      "modelSlug": "sixties-iconic-square",
+      "referenceSlug": "sixties-iconic-square"
+    },
+    "7304": {
+      "brandSlug": "cartier",
+      "modelSlug": "drive-de-cartier-moon-phases",
+      "referenceSlug": "drive-de-cartier-moon-phases"
+    },
+    "7307": {
+      "brandSlug": "chopard",
+      "modelSlug": "l-u-c-heritage-grand-cru",
+      "referenceSlug": "l-u-c-heritage-grand-cru"
+    },
+    "7309": {
+      "brandSlug": "rado",
+      "modelSlug": "ceramica-automatic-collection",
+      "referenceSlug": "ceramica-automatic-collection"
+    },
+    "7311": {
+      "brandSlug": "tag-heuer",
+      "modelSlug": "monaco-france-edition",
+      "referenceSlug": "monaco-france-edition"
+    },
+    "7320": {
+      "brandSlug": "omega",
+      "modelSlug": "ploprof-research-programme",
+      "referenceSlug": "ploprof-research-programme"
+    },
+    "7321": {
+      "brandSlug": "jaeger-lecoultre",
+      "modelSlug": "reverso-tribute-to-rembrandt",
+      "referenceSlug": "reverso-tribute-to-rembrandt"
+    },
+    "7326": {
+      "brandSlug": "hamilton",
+      "modelSlug": "ventura-skeleton-limited-edition",
+      "referenceSlug": "ventura-skeleton-limited-edition"
+    },
+    "7329": {
+      "brandSlug": "tag-heuer",
+      "modelSlug": "monaco-calibre-12-final-edition",
+      "referenceSlug": "monaco-calibre-12-final-edition"
+    },
+    "7344": {
+      "brandSlug": "tag-heuer",
+      "modelSlug": "monaco-calibre-heuer-02-black",
+      "referenceSlug": "monaco-calibre-heuer-02-black"
+    },
+    "7347": {
+      "brandSlug": "chopard",
+      "modelSlug": "mille-miglia-lab-one",
+      "referenceSlug": "mille-miglia-lab-one"
+    },
+    "7350": {
+      "brandSlug": "nomos",
+      "modelSlug": "tetra-divine-spark",
+      "referenceSlug": "tetra-divine-spark"
+    },
+    "7363": {
+      "brandSlug": "tag-heuer",
+      "modelSlug": "monaco-carbon-only-watch",
+      "referenceSlug": "monaco-carbon-only-watch"
+    },
+    "7366": {
+      "brandSlug": "oris",
+      "modelSlug": "rectangular-collection",
+      "referenceSlug": "rectangular-collection"
+    },
+    "7367": {
+      "brandSlug": "hamilton",
+      "modelSlug": "psr-mtx-for-the-matrix-resurrections",
+      "referenceSlug": "psr-mtx-for-the-matrix-resurrections"
+    },
+    "7368": {
+      "brandSlug": "nomos",
+      "modelSlug": "tetra-neomatik-silvercut",
+      "referenceSlug": "tetra-neomatik-silvercut"
+    },
+    "7377": {
+      "brandSlug": "tag-heuer",
+      "modelSlug": "monaco-purple-dial-limited-edition",
+      "referenceSlug": "monaco-purple-dial-limited-edition"
+    },
+    "7380": {
+      "brandSlug": "jaeger-lecoultre",
+      "modelSlug": "reverso-tribute-enamel-hokusai-amida-falls",
+      "referenceSlug": "reverso-tribute-enamel-hokusai-amida-falls"
+    },
+    "7382": {
+      "brandSlug": "longines",
+      "modelSlug": "evidenza-sector-dial",
+      "referenceSlug": "evidenza-sector-dial"
+    },
+    "7399": {
+      "brandSlug": "nomos",
+      "modelSlug": "four-bold-new-pink-nomos-tetra-models",
+      "referenceSlug": "four-bold-new-pink-nomos-tetra-models"
+    },
+    "7401": {
+      "brandSlug": "hermes",
+      "modelSlug": "h08-chronograph",
+      "referenceSlug": "h08-chronograph"
+    },
+    "7405": {
+      "brandSlug": "mido",
+      "modelSlug": "multifort-tv-big-date",
+      "referenceSlug": "multifort-tv-big-date-steel"
+    },
+    "7413": {
+      "brandSlug": "tag-heuer",
+      "modelSlug": "monaco-chronograph-night-driver",
+      "referenceSlug": "monaco-chronograph-night-driver"
+    },
+    "7417": {
+      "brandSlug": "iwc",
+      "modelSlug": "pilot-s-watch-performance-chronograph-41",
+      "referenceSlug": "pilot-s-watch-performance-chronograph-41"
+    },
+    "7431": {
+      "brandSlug": "mido",
+      "modelSlug": "multifort-tv-big-date",
+      "referenceSlug": "multifort-tv-big-date-gold-pvd"
+    },
+    "7438": {
+      "brandSlug": "tissot",
+      "modelSlug": "very-best-of-the-tissot-prx-collection",
+      "referenceSlug": "very-best-of-the-tissot-prx-collection"
+    },
+    "7443": {
+      "brandSlug": "rado",
+      "modelSlug": "anatom-high-tech-ceramic",
+      "referenceSlug": "anatom-high-tech-ceramic"
+    },
+    "7453": {
+      "brandSlug": "cartier",
+      "modelSlug": "tank-a-guichets-prive",
+      "referenceSlug": "tank-a-guichets-prive"
+    },
+    "7456": {
+      "brandSlug": "orient",
+      "modelSlug": "orient-star-layered-skeleton",
+      "referenceSlug": "orient-star-layered-skeleton"
+    },
+    "7463": {
+      "brandSlug": "cartier",
+      "modelSlug": "tank-americaine-platinum",
+      "referenceSlug": "tank-americaine-platinum"
+    },
+    "7474": {
+      "brandSlug": "hamilton",
+      "modelSlug": "ventura-edge-skeleton",
+      "referenceSlug": "ventura-edge-skeleton"
+    },
+    "7477": {
+      "brandSlug": "rado",
+      "modelSlug": "anatom-skeleton",
+      "referenceSlug": "anatom-skeleton"
+    },
+    "7492": {
+      "brandSlug": "tag-heuer",
+      "modelSlug": "monaco-speed-12",
+      "referenceSlug": "monaco-speed-12"
+    },
+    "8168": {
+      "brandSlug": "rolex",
+      "modelSlug": "datejust-36-green-ombre-lacquer-dial",
+      "referenceSlug": "datejust-36-green-ombre"
+    },
+    "8172": {
+      "brandSlug": "hermes",
+      "modelSlug": "h08-squelette",
+      "referenceSlug": "h08-squelette"
+    },
+    "8174": {
+      "brandSlug": "breitling",
+      "modelSlug": "superocean-heritage-b01-chronograph-42",
+      "referenceSlug": "superocean-heritage-b01-chronograph-42"
+    },
+    "8181": {
+      "brandSlug": "rado",
+      "modelSlug": "true-round-x-les-couleurs-le-corbusier",
+      "referenceSlug": "true-round-les-couleurs-le-corbusier"
+    },
+    "8192": {
+      "brandSlug": "tag-heuer",
+      "modelSlug": "carrera-chronograph-x-fragment-limited-edition",
+      "referenceSlug": "carrera-chronograph-fragment"
+    },
+    "8194": {
+      "brandSlug": "glashutte-original",
+      "modelSlug": "panomaticcalendar-platinum",
+      "referenceSlug": "panomaticcalendar-platinum"
+    },
+    "8198": {
+      "brandSlug": "zenith",
+      "modelSlug": "chronomaster-revival-daisuke-jigen-edition",
+      "referenceSlug": "chronomaster-revival-daisuke-jigen"
+    },
+    "8208": {
+      "brandSlug": "seiko",
+      "modelSlug": "rotocall-series",
+      "referenceSlug": "rotocall-series"
+    },
+    "8210": {
+      "brandSlug": "glashutte-original",
+      "modelSlug": "senator-excellence-panorama-date-moon-phase",
+      "referenceSlug": "senator-excellence-panorama-date-moon-phase"
+    },
+    "8261": {
+      "brandSlug": "nomos",
+      "modelSlug": "club-sport-neomatik-worldtimer-dark",
+      "referenceSlug": "club-sport-neomatik-worldtimer-dark"
+    },
+    "8265": {
+      "brandSlug": "oris",
+      "modelSlug": "social-club-edition-ii",
+      "referenceSlug": "social-club-edition-ii"
+    },
+    "8269": {
+      "brandSlug": "oris",
+      "modelSlug": "big-crown-pointer-date-x-cervo-volante-burgundy",
+      "referenceSlug": "big-crown-pointer-date-x-cervo-volante-burgundy"
+    },
+    "8283": {
+      "brandSlug": "mido",
+      "modelSlug": "multifort-tv-big-date-dia-de-los-muertos-alebrijes",
+      "referenceSlug": "multifort-tv-big-date-dia-de-los-muertos-alebrijes"
+    },
+    "8285": {
+      "brandSlug": "rado",
+      "modelSlug": "captain-cook-cameron-green-limited-edition",
+      "referenceSlug": "captain-cook-cameron-green-limited-edition"
+    },
+    "8288": {
+      "brandSlug": "glashutte-original",
+      "modelSlug": "senator-meissen-cherry-blossom",
+      "referenceSlug": "senator-meissen-cherry-blossom"
     }
   }
 }
