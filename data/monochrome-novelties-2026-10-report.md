@@ -21,7 +21,7 @@ Instead the 32 tier-1-brand articles quoting a direct lug-to-lug were reviewed b
 | 8241 | Omega | Seamaster Diver 300M Spectre | 210.30.42.20.01.029 | 50 | 42 | 14.23 |
 | 8242 | Omega | Seamaster Diver 300M James Bond | 210.83.42.20.03.001 | 50 | 42 | 14.29 |
 | 8243 | Omega | Seamaster Diver 300M Spectre | 210.83.42.20.01.001 | 50 | 42 | 14.29 |
-| 8244 | Tudor | Northflag GMT | M91210N | 48.8 | 40 | 12.7 |
+| 8244 | Tudor | Northflag GMT | 9140G1A0U | 48.8 | 40 | 12.7 |
 | 8245 | TAG Heuer | Carrera Chronograph Sport 42mm | CDB2110.BA0054 | 48.6 | 42 | 14.17 |
 | 8246 | TAG Heuer | Carrera Chronograph Sport 42mm | CDB2111.BA0054 | 48.6 | 42 | 14.17 |
 | 8247 | TAG Heuer | Carrera Chronograph Sport 42mm | CDB2111.FC8378 | 48.6 | 42 | 14.17 |
@@ -34,8 +34,8 @@ Instead the 32 tier-1-brand articles quoting a direct lug-to-lug were reviewed b
 | 8254 | Glashütte Original | 70s | 1-36-11-01-02-66 | 43.7 | 39 | 9.6 |
 | 8255 | Glashütte Original | 70s | 1-36-11-03-02-71 | 43.7 | 39 | 9.6 |
 | 8256 | Grand Seiko | Elegance Manual winding | SBGW325 | 44.3 | 37.3 | 11.7 |
-| 8257 | Longines | Spirit Pilot | L3.809.4.93.6 | 47.4 | 39 | 11.5 |
-| 8258 | Longines | Spirit Pilot | L3.809.4.93.9 | 47.4 | 39 | 11.5 |
+| 8257 | Longines | Spirit Pilot | L3.809.4.93.6 | 47.2 | 39 | 11.5 |
+| 8258 | Longines | Spirit Pilot | L3.809.4.93.9 | 47.2 | 39 | 11.5 |
 | 8259 | Longines | Spirit Pilot Flyback | L3.721.4.93.6 | 47.4 | 39.5 | 13.4 |
 | 8260 | Longines | Spirit Pilot Flyback | L3.721.4.93.9 | 47.4 | 39.5 | 13.4 |
 | 8261 | NOMOS | Club Sport Neomatik Worldtimer Dark | Club Sport Neomatik Worldtimer Dark | 48 | 40 | 9.9 |
@@ -66,6 +66,8 @@ Instead the 32 tier-1-brand articles quoting a direct lug-to-lug were reviewed b
 | 8286 | Blancpain | Fifty Fathoms Bathyscaphe 70th Anniversary | 5903-1110-63A | 46.5 | 37.4 | 12.3 |
 | 8287 | Breguet | Marine Chronographe 5527 | Marine Chronographe 5527 | 50.7 | 42.3 | 13.9 |
 | 8288 | Glashütte Original | Senator Meissen Cherry Blossom | Senator Meissen Cherry Blossom | 47.09 | 40 | 10.2 |
+
+Later corrections from Hodinkee: the Northflag reference is 9140G1A0U (M91210N in the MONOCHROME images is the 2015 North Flag), and the three-hand Spirit Pilot uses 47.2 mm, matching Hodinkee and the 2025 rows (MONOCHROME: 47.4 mm).
 
 ## Not added
 
