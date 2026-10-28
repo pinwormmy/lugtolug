@@ -146764,5 +146764,1161 @@
         "note": "Lug-to-lug and lug width filled from the PR 100 Quartz T150.410 siblings, which all list 47 mm lug-to-lug, 8.3 mm case height, and 20 mm strap width."
       }
     ]
+  },
+  {
+    "id": 8231,
+    "brand": "Omega",
+    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
+    "canonicalModel": "Speedmaster 38 (2026)",
+    "modelGroup": "omega-speedmaster-38-2026",
+    "variant": "Black dial, no date",
+    "reference": "324.30.38.50.01.002",
+    "lugToLugMm": 44.96,
+    "caseMm": 38,
+    "thicknessMm": 14.75,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/2026-omega-refreshes-the-speedmaster-38mm-collection-including-a-moonwatch-like-black-no-date-with-video-review-price/",
+        "note": "MONOCHROME reports 44.96mm lug-to-lug, 38mm case size/width, 14.75mm thickness in “Omega Refreshes the Speedmaster 38mm Collection, Including a Moonwatch-Like Black No-Date (with Video).” The article names each 2026 reference and describes its dial and bezel."
+      }
+    ]
+  },
+  {
+    "id": 8232,
+    "brand": "Omega",
+    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
+    "canonicalModel": "Speedmaster 38 (2026)",
+    "modelGroup": "omega-speedmaster-38-2026",
+    "variant": "Silvery opaline dial, grey aluminium bezel",
+    "reference": "324.30.38.50.02.003",
+    "lugToLugMm": 44.96,
+    "caseMm": 38,
+    "thicknessMm": 14.75,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/2026-omega-refreshes-the-speedmaster-38mm-collection-including-a-moonwatch-like-black-no-date-with-video-review-price/",
+        "note": "MONOCHROME reports 44.96mm lug-to-lug, 38mm case size/width, 14.75mm thickness in “Omega Refreshes the Speedmaster 38mm Collection, Including a Moonwatch-Like Black No-Date (with Video).” The article names each 2026 reference and describes its dial and bezel."
+      }
+    ]
+  },
+  {
+    "id": 8233,
+    "brand": "Omega",
+    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
+    "canonicalModel": "Speedmaster 38 (2026)",
+    "modelGroup": "omega-speedmaster-38-2026",
+    "variant": "White lacquered dial, blue ceramic bezel",
+    "reference": "324.30.38.50.04.001",
+    "lugToLugMm": 44.96,
+    "caseMm": 38,
+    "thicknessMm": 14.75,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/2026-omega-refreshes-the-speedmaster-38mm-collection-including-a-moonwatch-like-black-no-date-with-video-review-price/",
+        "note": "MONOCHROME reports 44.96mm lug-to-lug, 38mm case size/width, 14.75mm thickness in “Omega Refreshes the Speedmaster 38mm Collection, Including a Moonwatch-Like Black No-Date (with Video).” The article names each 2026 reference and describes its dial and bezel."
+      }
+    ]
+  },
+  {
+    "id": 8234,
+    "brand": "Omega",
+    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
+    "canonicalModel": "Speedmaster 38 (2026)",
+    "modelGroup": "omega-speedmaster-38-2026",
+    "variant": "Steel and Moonshine Gold, green bezel",
+    "reference": "324.20.38.50.02.001",
+    "lugToLugMm": 44.96,
+    "caseMm": 38,
+    "thicknessMm": 14.75,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/2026-omega-refreshes-the-speedmaster-38mm-collection-including-a-moonwatch-like-black-no-date-with-video-review-price/",
+        "note": "MONOCHROME reports 44.96mm lug-to-lug, 38mm case size/width, 14.75mm thickness in “Omega Refreshes the Speedmaster 38mm Collection, Including a Moonwatch-Like Black No-Date (with Video).” The article names each 2026 reference and describes its dial and bezel."
+      }
+    ]
+  },
+  {
+    "id": 8235,
+    "brand": "Omega",
+    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
+    "canonicalModel": "Speedmaster 38 (2026)",
+    "modelGroup": "omega-speedmaster-38-2026",
+    "variant": "Steel and Sedna Gold, ivory dial",
+    "reference": "324.20.38.50.02.002",
+    "lugToLugMm": 44.96,
+    "caseMm": 38,
+    "thicknessMm": 14.75,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/2026-omega-refreshes-the-speedmaster-38mm-collection-including-a-moonwatch-like-black-no-date-with-video-review-price/",
+        "note": "MONOCHROME reports 44.96mm lug-to-lug, 38mm case size/width, 14.75mm thickness in “Omega Refreshes the Speedmaster 38mm Collection, Including a Moonwatch-Like Black No-Date (with Video).” The article names each 2026 reference and describes its dial and bezel."
+      }
+    ]
+  },
+  {
+    "id": 8236,
+    "brand": "Omega",
+    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
+    "canonicalModel": "Speedmaster 38 (2026)",
+    "modelGroup": "omega-speedmaster-38-2026",
+    "variant": "Diamond-set bezel, ice blue dial",
+    "reference": "324.15.38.50.03.001",
+    "lugToLugMm": 44.96,
+    "caseMm": 38,
+    "thicknessMm": 14.75,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/2026-omega-refreshes-the-speedmaster-38mm-collection-including-a-moonwatch-like-black-no-date-with-video-review-price/",
+        "note": "MONOCHROME reports 44.96mm lug-to-lug, 38mm case size/width, 14.75mm thickness in “Omega Refreshes the Speedmaster 38mm Collection, Including a Moonwatch-Like Black No-Date (with Video).” The article names each 2026 reference and describes its dial and bezel."
+      }
+    ]
+  },
+  {
+    "id": 8237,
+    "brand": "Omega",
+    "model": "Speedmaster 38 Co-Axial Chronometer Chronograph 38 mm",
+    "canonicalModel": "Speedmaster 38 (2026)",
+    "modelGroup": "omega-speedmaster-38-2026",
+    "variant": "Diamond-set bezel, mother-of-pearl dial",
+    "reference": "324.15.38.50.05.001",
+    "lugToLugMm": 44.96,
+    "caseMm": 38,
+    "thicknessMm": 14.75,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/2026-omega-refreshes-the-speedmaster-38mm-collection-including-a-moonwatch-like-black-no-date-with-video-review-price/",
+        "note": "MONOCHROME reports 44.96mm lug-to-lug, 38mm case size/width, 14.75mm thickness in “Omega Refreshes the Speedmaster 38mm Collection, Including a Moonwatch-Like Black No-Date (with Video).” The article names each 2026 reference and describes its dial and bezel."
+      }
+    ]
+  },
+  {
+    "id": 8238,
+    "brand": "Omega",
+    "model": "Seamaster Diver 300M James Bond",
+    "canonicalModel": "Seamaster Diver 300M 007 Collection (2026)",
+    "modelGroup": "omega-seamaster-diver-300m-007-2026",
+    "variant": "James Bond, blue wave dial",
+    "reference": "210.30.42.20.03.004",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 14.23,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/omega-seamaster-diver-300m-james-bond-and-spectre-collection-2026-review-price/",
+        "note": "MONOCHROME reports 50mm lug-to-lug, 42mm case size/width, 14.23mm thickness in “The Omega Seamaster Diver 300M James Bond and Spectre Collection.” Quick facts list reference 210.30.42.20.03.004."
+      }
+    ]
+  },
+  {
+    "id": 8239,
+    "brand": "Omega",
+    "model": "Seamaster Diver 300M Spectre",
+    "canonicalModel": "Seamaster Diver 300M 007 Collection (2026)",
+    "modelGroup": "omega-seamaster-diver-300m-007-2026",
+    "variant": "Spectre, black dial",
+    "reference": "210.30.42.20.01.023",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 14.23,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/omega-seamaster-diver-300m-james-bond-and-spectre-collection-2026-review-price/",
+        "note": "MONOCHROME reports 50mm lug-to-lug, 42mm case size/width, 14.23mm thickness in “The Omega Seamaster Diver 300M James Bond and Spectre Collection.” Quick facts list reference 210.30.42.20.01.023."
+      }
+    ]
+  },
+  {
+    "id": 8240,
+    "brand": "Omega",
+    "model": "Seamaster Diver 300M James Bond",
+    "canonicalModel": "Seamaster Diver 300M 007 Collection (2026)",
+    "modelGroup": "omega-seamaster-diver-300m-007-2026",
+    "variant": "James Bond set, steel",
+    "reference": "210.30.42.20.03.005",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 14.23,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/omega-seamaster-diver-300m-james-bond-and-spectre-collection-2026-review-price/",
+        "note": "MONOCHROME reports 50mm lug-to-lug, 42mm case size/width, 14.23mm thickness in “The Omega Seamaster Diver 300M James Bond and Spectre Collection.” Quick facts list reference 210.30.42.20.03.005."
+      }
+    ]
+  },
+  {
+    "id": 8241,
+    "brand": "Omega",
+    "model": "Seamaster Diver 300M Spectre",
+    "canonicalModel": "Seamaster Diver 300M 007 Collection (2026)",
+    "modelGroup": "omega-seamaster-diver-300m-007-2026",
+    "variant": "Spectre set, steel",
+    "reference": "210.30.42.20.01.029",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 14.23,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/omega-seamaster-diver-300m-james-bond-and-spectre-collection-2026-review-price/",
+        "note": "MONOCHROME reports 50mm lug-to-lug, 42mm case size/width, 14.23mm thickness in “The Omega Seamaster Diver 300M James Bond and Spectre Collection.” Quick facts list reference 210.30.42.20.01.029."
+      }
+    ]
+  },
+  {
+    "id": 8242,
+    "brand": "Omega",
+    "model": "Seamaster Diver 300M James Bond",
+    "canonicalModel": "Seamaster Diver 300M 007 Collection (2026)",
+    "modelGroup": "omega-seamaster-diver-300m-007-2026",
+    "variant": "James Bond set, platinum-gold",
+    "reference": "210.83.42.20.03.001",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 14.29,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/omega-seamaster-diver-300m-james-bond-and-spectre-collection-2026-review-price/",
+        "note": "MONOCHROME reports 50mm lug-to-lug, 42mm case size/width, 14.29mm thickness in “The Omega Seamaster Diver 300M James Bond and Spectre Collection.” Quick facts list reference 210.83.42.20.03.001."
+      }
+    ]
+  },
+  {
+    "id": 8243,
+    "brand": "Omega",
+    "model": "Seamaster Diver 300M Spectre",
+    "canonicalModel": "Seamaster Diver 300M 007 Collection (2026)",
+    "modelGroup": "omega-seamaster-diver-300m-007-2026",
+    "variant": "Spectre set, platinum-gold",
+    "reference": "210.83.42.20.01.001",
+    "lugToLugMm": 50,
+    "caseMm": 42,
+    "thicknessMm": 14.29,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/omega-seamaster-diver-300m-james-bond-and-spectre-collection-2026-review-price/",
+        "note": "MONOCHROME reports 50mm lug-to-lug, 42mm case size/width, 14.29mm thickness in “The Omega Seamaster Diver 300M James Bond and Spectre Collection.” Quick facts list reference 210.83.42.20.01.001."
+      }
+    ]
+  },
+  {
+    "id": 8244,
+    "brand": "Tudor",
+    "model": "Northflag GMT",
+    "reference": "M91210N",
+    "lugToLugMm": 48.8,
+    "caseMm": 40,
+    "thicknessMm": 12.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/2026-tudor-northflag-gmt-introducing-price/",
+        "note": "MONOCHROME reports 48.8mm lug-to-lug, 40mm case size/width, 12.7mm thickness in “The Tudor Northflag is Back, now with GMT Movement.” The article pictures reference M91210N."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/tudor-northflag-gmt-2026-return-review-price/",
+        "note": "MONOCHROME reports 48.8mm lug-to-lug, 40mm case size/width, 12.7mm thickness in “The Tudor Northflag, an Improved Successor to the North Flag, now with GMT Function.”"
+      }
+    ]
+  },
+  {
+    "id": 8245,
+    "brand": "TAG Heuer",
+    "model": "Carrera Chronograph Sport 42mm",
+    "canonicalModel": "Carrera Chronograph Sport 42mm",
+    "modelGroup": "tag-heuer-carrera-chronograph-sport-42mm",
+    "variant": "Black dial",
+    "reference": "CDB2110.BA0054",
+    "lugToLugMm": 48.6,
+    "caseMm": 42,
+    "thicknessMm": 14.17,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/2026-tag-heuer-carrera-chronograph-sport-42mm-new-collection-video-review-price/",
+        "note": "MONOCHROME reports 48.6mm lug-to-lug, 42mm case size/width, 14.17mm thickness in “The TAG Heuer Carrera Chronograph Sport Returns in New 42mm Versions (Incl. Video).”"
+      },
+      {
+        "sourceUrl": "https://www.tagheuer.com/ad/en/timepieces/collections/tag-heuer-carrera/42-mm-th20-00/CDB2110.BA0054.html",
+        "note": "Listing identifies CDB2110.BA0054 as the 42 mm TH20-00 Carrera Chronograph Sport with a black dial."
+      }
+    ]
+  },
+  {
+    "id": 8246,
+    "brand": "TAG Heuer",
+    "model": "Carrera Chronograph Sport 42mm",
+    "canonicalModel": "Carrera Chronograph Sport 42mm",
+    "modelGroup": "tag-heuer-carrera-chronograph-sport-42mm",
+    "variant": "Blue dial, bracelet",
+    "reference": "CDB2111.BA0054",
+    "lugToLugMm": 48.6,
+    "caseMm": 42,
+    "thicknessMm": 14.17,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/2026-tag-heuer-carrera-chronograph-sport-42mm-new-collection-video-review-price/",
+        "note": "MONOCHROME reports 48.6mm lug-to-lug, 42mm case size/width, 14.17mm thickness in “The TAG Heuer Carrera Chronograph Sport Returns in New 42mm Versions (Incl. Video).”"
+      },
+      {
+        "sourceUrl": "https://www.thewatchpages.com/watches/tag-heuer-carrera-chronograph-sport-cdb2111ba0054",
+        "note": "Listing identifies CDB2111.BA0054 as the 42 mm TH20-00 Carrera Chronograph Sport with a blue dial, bracelet."
+      }
+    ]
+  },
+  {
+    "id": 8247,
+    "brand": "TAG Heuer",
+    "model": "Carrera Chronograph Sport 42mm",
+    "canonicalModel": "Carrera Chronograph Sport 42mm",
+    "modelGroup": "tag-heuer-carrera-chronograph-sport-42mm",
+    "variant": "Blue dial, leather strap",
+    "reference": "CDB2111.FC8378",
+    "lugToLugMm": 48.6,
+    "caseMm": 42,
+    "thicknessMm": 14.17,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/2026-tag-heuer-carrera-chronograph-sport-42mm-new-collection-video-review-price/",
+        "note": "MONOCHROME reports 48.6mm lug-to-lug, 42mm case size/width, 14.17mm thickness in “The TAG Heuer Carrera Chronograph Sport Returns in New 42mm Versions (Incl. Video).”"
+      },
+      {
+        "sourceUrl": "https://www.thewatchpages.com/watches/tag-heuer-carrera-chronograph-sport-cdb2111fc8378",
+        "note": "Listing identifies CDB2111.FC8378 as the 42 mm TH20-00 Carrera Chronograph Sport with a blue dial, leather strap."
+      }
+    ]
+  },
+  {
+    "id": 8248,
+    "brand": "TAG Heuer",
+    "model": "Carrera Chronograph Sport 42mm",
+    "canonicalModel": "Carrera Chronograph Sport 42mm",
+    "modelGroup": "tag-heuer-carrera-chronograph-sport-42mm",
+    "variant": "Teal green dial",
+    "reference": "CDB2112.BA0054",
+    "lugToLugMm": 48.6,
+    "caseMm": 42,
+    "thicknessMm": 14.17,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/2026-tag-heuer-carrera-chronograph-sport-42mm-new-collection-video-review-price/",
+        "note": "MONOCHROME reports 48.6mm lug-to-lug, 42mm case size/width, 14.17mm thickness in “The TAG Heuer Carrera Chronograph Sport Returns in New 42mm Versions (Incl. Video).”"
+      },
+      {
+        "sourceUrl": "https://www.tagheuer.com/ca/en/timepieces/collections/tag-heuer-carrera/42-mm-th20-00/CDB2112.BA0054.html",
+        "note": "Listing identifies CDB2112.BA0054 as the 42 mm TH20-00 Carrera Chronograph Sport with a teal green dial."
+      }
+    ]
+  },
+  {
+    "id": 8249,
+    "brand": "TAG Heuer",
+    "model": "Carrera Chronograph Sport 42mm",
+    "canonicalModel": "Carrera Chronograph Sport 42mm",
+    "modelGroup": "tag-heuer-carrera-chronograph-sport-42mm",
+    "variant": "Silver panda dial",
+    "reference": "CDB2113.BA0054",
+    "lugToLugMm": 48.6,
+    "caseMm": 42,
+    "thicknessMm": 14.17,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/2026-tag-heuer-carrera-chronograph-sport-42mm-new-collection-video-review-price/",
+        "note": "MONOCHROME reports 48.6mm lug-to-lug, 42mm case size/width, 14.17mm thickness in “The TAG Heuer Carrera Chronograph Sport Returns in New 42mm Versions (Incl. Video).”"
+      },
+      {
+        "sourceUrl": "https://www.tagheuer.com/al/en/timepieces/collections/tag-heuer-carrera/42-mm-th20-00/CDB2113.BA0054.html",
+        "note": "Listing identifies CDB2113.BA0054 as the 42 mm TH20-00 Carrera Chronograph Sport with a silver panda dial."
+      }
+    ]
+  },
+  {
+    "id": 8250,
+    "brand": "Citizen",
+    "model": "Tsuyosa 60 Automatic 37mm",
+    "canonicalModel": "Tsuyosa 60 Automatic 37mm",
+    "modelGroup": "citizen-tsuyosa-60-automatic-37mm",
+    "variant": "Black dial",
+    "reference": "NK0030-51E",
+    "lugToLugMm": 43,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/citizen-tsuyosa-60-automatic-37mm-collection-nk0030-51e-nk0030-51x-nk0032-56a-introducing-pprice/",
+        "note": "MONOCHROME reports 43mm lug-to-lug, 37mm case size/width, 11.5mm thickness in “The More Powerful Citizen Tsuyosa 60 Automatic, now in 37mm.” The article lists references NK0030-51E, NK0030-51X and NK0032-56A and gives the lug-to-lug as about 43mm."
+      }
+    ]
+  },
+  {
+    "id": 8251,
+    "brand": "Citizen",
+    "model": "Tsuyosa 60 Automatic 37mm",
+    "canonicalModel": "Tsuyosa 60 Automatic 37mm",
+    "modelGroup": "citizen-tsuyosa-60-automatic-37mm",
+    "variant": "Light green dial",
+    "reference": "NK0030-51X",
+    "lugToLugMm": 43,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/citizen-tsuyosa-60-automatic-37mm-collection-nk0030-51e-nk0030-51x-nk0032-56a-introducing-pprice/",
+        "note": "MONOCHROME reports 43mm lug-to-lug, 37mm case size/width, 11.5mm thickness in “The More Powerful Citizen Tsuyosa 60 Automatic, now in 37mm.” The article lists references NK0030-51E, NK0030-51X and NK0032-56A and gives the lug-to-lug as about 43mm."
+      }
+    ]
+  },
+  {
+    "id": 8252,
+    "brand": "Citizen",
+    "model": "Tsuyosa 60 Automatic 37mm",
+    "canonicalModel": "Tsuyosa 60 Automatic 37mm",
+    "modelGroup": "citizen-tsuyosa-60-automatic-37mm",
+    "variant": "Gold-tone",
+    "reference": "NK0032-56A",
+    "lugToLugMm": 43,
+    "caseMm": 37,
+    "thicknessMm": 11.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/citizen-tsuyosa-60-automatic-37mm-collection-nk0030-51e-nk0030-51x-nk0032-56a-introducing-pprice/",
+        "note": "MONOCHROME reports 43mm lug-to-lug, 37mm case size/width, 11.5mm thickness in “The More Powerful Citizen Tsuyosa 60 Automatic, now in 37mm.” The article lists references NK0030-51E, NK0030-51X and NK0032-56A and gives the lug-to-lug as about 43mm."
+      }
+    ]
+  },
+  {
+    "id": 8253,
+    "brand": "Glashütte Original",
+    "model": "70s",
+    "canonicalModel": "70s 39mm (2026)",
+    "modelGroup": "glashutte-original-70s-39mm",
+    "variant": "Vinyl Record, black dial, limited edition",
+    "reference": "1-36-10-04-02-86",
+    "lugToLugMm": 43.7,
+    "caseMm": 39,
+    "thicknessMm": 9.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/2026-new-glashutte-original-70s-collection-time-and-date-integrated-sports-watch-introducing-price/",
+        "note": "MONOCHROME reports 43.7mm lug-to-lug, 39mm case size/width, 9.6mm thickness in “The new Glashütte Original 70s Collection, a Reworked Take on the Integrated Sports Watch.”"
+      },
+      {
+        "sourceUrl": "https://www.exquisitetimepieces.com/products/glashutte-original-70s-vinyl-record-1-36-10-04-02-86",
+        "note": "Retailer listing identifies 1-36-10-04-02-86 as the 39 mm 70s Vinyl Record."
+      }
+    ]
+  },
+  {
+    "id": 8254,
+    "brand": "Glashütte Original",
+    "model": "70s",
+    "canonicalModel": "70s 39mm (2026)",
+    "modelGroup": "glashutte-original-70s-39mm",
+    "variant": "Stereo Panel, silver dial, rubber strap",
+    "reference": "1-36-11-01-02-66",
+    "lugToLugMm": 43.7,
+    "caseMm": 39,
+    "thicknessMm": 9.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/2026-new-glashutte-original-70s-collection-time-and-date-integrated-sports-watch-introducing-price/",
+        "note": "MONOCHROME reports 43.7mm lug-to-lug, 39mm case size/width, 9.6mm thickness in “The new Glashütte Original 70s Collection, a Reworked Take on the Integrated Sports Watch.”"
+      },
+      {
+        "sourceUrl": "https://www.exquisitetimepieces.com/collections/glashutte-original/products/glashutte-original-70s-stereo-panel-on-strap-1-36-11-01-02-66",
+        "note": "Retailer listing identifies 1-36-11-01-02-66 as the 39 mm 70s Stereo Panel."
+      }
+    ]
+  },
+  {
+    "id": 8255,
+    "brand": "Glashütte Original",
+    "model": "70s",
+    "canonicalModel": "70s 39mm (2026)",
+    "modelGroup": "glashutte-original-70s-39mm",
+    "variant": "Tweed Amp, brown dial, bracelet",
+    "reference": "1-36-11-03-02-71",
+    "lugToLugMm": 43.7,
+    "caseMm": 39,
+    "thicknessMm": 9.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/2026-new-glashutte-original-70s-collection-time-and-date-integrated-sports-watch-introducing-price/",
+        "note": "MONOCHROME reports 43.7mm lug-to-lug, 39mm case size/width, 9.6mm thickness in “The new Glashütte Original 70s Collection, a Reworked Take on the Integrated Sports Watch.”"
+      },
+      {
+        "sourceUrl": "https://www.exquisitetimepieces.com/collections/glashutte-original/products/glashutte-original-70s-tweed-amp-on-bracelet-1-36-11-03-02-71",
+        "note": "Retailer listing identifies 1-36-11-03-02-71 as the 39 mm 70s Tweed Amp."
+      }
+    ]
+  },
+  {
+    "id": 8256,
+    "brand": "Grand Seiko",
+    "model": "Elegance Manual winding",
+    "reference": "SBGW325",
+    "lugToLugMm": 44.3,
+    "caseMm": 37.3,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 19,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/grand-seiko-elegance-sbgw325-tribute-to-the-first-manual-winding-9s-model-sbgw003-introducing-price/",
+        "note": "MONOCHROME reports 44.3mm lug-to-lug, 37.3mm case size/width, 11.7mm thickness in “The Grand Seiko Elegance SBGW325, Tribute to the First Manual-Winding 9S Model.” Lug width 19 mm taken from the SBGW301/SBGW305 case the article says it shares."
+      }
+    ]
+  },
+  {
+    "id": 8257,
+    "brand": "Longines",
+    "model": "Spirit Pilot",
+    "canonicalModel": "Spirit Pilot 39mm (2026 blue)",
+    "modelGroup": "longines-spirit-pilot-39mm-blue-2026",
+    "variant": "Sky blue dial, bracelet",
+    "reference": "L3.809.4.93.6",
+    "lugToLugMm": 47.4,
+    "caseMm": 39,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/longines-spirit-pilot-and-spirit-pilot-flyback-blue-dials-2026-review-price/",
+        "note": "MONOCHROME reports 47.4mm lug-to-lug, 39mm case size/width, 11.5mm thickness in “Longines Expands the Spirit Pilot Collection with Four New Sky Blue References.” Blue rubber strap is 20mm at the lugs."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/longines-spirit-pilot-and-spirit-pilot-flyback-with-blue-dials/",
+        "note": "Fratello lists the 2026 blue references L3.809.4.93.6/.9 (Spirit Pilot) and L3.721.4.93.6/.9 (Spirit Pilot Flyback)."
+      }
+    ]
+  },
+  {
+    "id": 8258,
+    "brand": "Longines",
+    "model": "Spirit Pilot",
+    "canonicalModel": "Spirit Pilot 39mm (2026 blue)",
+    "modelGroup": "longines-spirit-pilot-39mm-blue-2026",
+    "variant": "Sky blue dial, rubber strap",
+    "reference": "L3.809.4.93.9",
+    "lugToLugMm": 47.4,
+    "caseMm": 39,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/longines-spirit-pilot-and-spirit-pilot-flyback-blue-dials-2026-review-price/",
+        "note": "MONOCHROME reports 47.4mm lug-to-lug, 39mm case size/width, 11.5mm thickness in “Longines Expands the Spirit Pilot Collection with Four New Sky Blue References.” Blue rubber strap is 20mm at the lugs."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/longines-spirit-pilot-and-spirit-pilot-flyback-with-blue-dials/",
+        "note": "Fratello lists the 2026 blue references L3.809.4.93.6/.9 (Spirit Pilot) and L3.721.4.93.6/.9 (Spirit Pilot Flyback)."
+      }
+    ]
+  },
+  {
+    "id": 8259,
+    "brand": "Longines",
+    "model": "Spirit Pilot Flyback",
+    "canonicalModel": "Spirit Pilot Flyback (2026 blue)",
+    "modelGroup": "longines-spirit-pilot-flyback-blue-2026",
+    "variant": "Sky blue dial, bracelet",
+    "reference": "L3.721.4.93.6",
+    "lugToLugMm": 47.4,
+    "caseMm": 39.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/longines-spirit-pilot-and-spirit-pilot-flyback-blue-dials-2026-review-price/",
+        "note": "MONOCHROME reports 47.4mm lug-to-lug, 39.5mm case size/width, 13.4mm thickness in “Longines Expands the Spirit Pilot Collection with Four New Sky Blue References.” Blue rubber strap is 20mm at the lugs."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/longines-spirit-pilot-and-spirit-pilot-flyback-with-blue-dials/",
+        "note": "Fratello lists the 2026 blue references L3.809.4.93.6/.9 (Spirit Pilot) and L3.721.4.93.6/.9 (Spirit Pilot Flyback)."
+      }
+    ]
+  },
+  {
+    "id": 8260,
+    "brand": "Longines",
+    "model": "Spirit Pilot Flyback",
+    "canonicalModel": "Spirit Pilot Flyback (2026 blue)",
+    "modelGroup": "longines-spirit-pilot-flyback-blue-2026",
+    "variant": "Sky blue dial, rubber strap",
+    "reference": "L3.721.4.93.9",
+    "lugToLugMm": 47.4,
+    "caseMm": 39.5,
+    "thicknessMm": 13.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/longines-spirit-pilot-and-spirit-pilot-flyback-blue-dials-2026-review-price/",
+        "note": "MONOCHROME reports 47.4mm lug-to-lug, 39.5mm case size/width, 13.4mm thickness in “Longines Expands the Spirit Pilot Collection with Four New Sky Blue References.” Blue rubber strap is 20mm at the lugs."
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/longines-spirit-pilot-and-spirit-pilot-flyback-with-blue-dials/",
+        "note": "Fratello lists the 2026 blue references L3.809.4.93.6/.9 (Spirit Pilot) and L3.721.4.93.6/.9 (Spirit Pilot Flyback)."
+      }
+    ]
+  },
+  {
+    "id": 8261,
+    "brand": "NOMOS",
+    "model": "Club Sport Neomatik Worldtimer Dark",
+    "reference": "Club Sport Neomatik Worldtimer Dark",
+    "lugToLugMm": 48,
+    "caseMm": 40,
+    "thicknessMm": 9.9,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/nomos-club-sport-neomatik-worldtimer-dark/",
+        "note": "MONOCHROME reports 48mm lug-to-lug, 40mm case size/width, 9.9mm thickness in “The new Nomos Club Sport Neomatik Worldtimer Dark.” Lug width 20 mm matches the other Club Sport Neomatik Worldtimer rows (790)."
+      }
+    ]
+  },
+  {
+    "id": 8262,
+    "brand": "NOMOS",
+    "model": "Club 38",
+    "canonicalModel": "Club 38",
+    "modelGroup": "nomos-club-38",
+    "variant": "Silvery-white dial",
+    "reference": "769",
+    "lugToLugMm": 46.7,
+    "caseMm": 38.5,
+    "thicknessMm": 8.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/2026-nomos-club-38-collection-review-price/",
+        "note": "MONOCHROME reports 46.7mm lug-to-lug, 38.5mm case size/width, 8.4mm thickness in “The New Nomos Club 38, a Fan’s Favourite Gets a Larger Variant.” 8.4mm with the closed caseback (8.5mm with the optional sapphire back); straps taper 20/18mm."
+      },
+      {
+        "sourceUrl": "https://www.thewatchpages.com/watches/nomos-glashutte-club-38-769",
+        "note": "Listing identifies reference 769 as the 38.5 mm Club 38 (silvery-white dial) with a closed caseback."
+      }
+    ]
+  },
+  {
+    "id": 8263,
+    "brand": "NOMOS",
+    "model": "Club 38",
+    "canonicalModel": "Club 38",
+    "modelGroup": "nomos-club-38",
+    "variant": "Ruthenium dial",
+    "reference": "770",
+    "lugToLugMm": 46.7,
+    "caseMm": 38.5,
+    "thicknessMm": 8.4,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/2026-nomos-club-38-collection-review-price/",
+        "note": "MONOCHROME reports 46.7mm lug-to-lug, 38.5mm case size/width, 8.4mm thickness in “The New Nomos Club 38, a Fan’s Favourite Gets a Larger Variant.” 8.4mm with the closed caseback (8.5mm with the optional sapphire back); straps taper 20/18mm."
+      },
+      {
+        "sourceUrl": "https://www.thewatchpages.com/watches/nomos-glashutte-club-38-ruthenium-770",
+        "note": "Listing identifies reference 770 as the 38.5 mm Club 38 (ruthenium dial) with a closed caseback."
+      }
+    ]
+  },
+  {
+    "id": 8264,
+    "brand": "Oris",
+    "model": "ProPilot Bronze",
+    "reference": "01 733 7805 3164-07 6 20 22BRLC",
+    "lugToLugMm": 49,
+    "caseMm": 41,
+    "thicknessMm": 11.7,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/introducing-2026-oris-propilot-bronze-specs-price/",
+        "note": "MONOCHROME reports 49mm lug-to-lug, 41mm case size/width, 11.7mm thickness in “The New Oris ProPilot Bronze.” The case keeps the dimensions of the steel ProPilot Date, which uses 20 mm lugs."
+      },
+      {
+        "sourceUrl": "https://cdpeacock.com/products/oris-propilot-bronze-41-00-mm-01-733-7805-3164-07-6-20-22brlc",
+        "note": "Retailer listing gives reference 01 733 7805 3164-07 6 20 22BRLC for the 41 mm ProPilot Bronze."
+      }
+    ]
+  },
+  {
+    "id": 8265,
+    "brand": "Oris",
+    "model": "Social Club Edition II",
+    "reference": "Social Club Edition II",
+    "lugToLugMm": 51,
+    "caseMm": 43.5,
+    "thicknessMm": null,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/oris-social-club-edition-ii-aquis-date-introducing-price/",
+        "note": "MONOCHROME reports 51mm lug-to-lug, 43.5mm case size/width in “The New Oris Social Club Edition II.” Based on the Aquis Date Relief 43.5mm."
+      }
+    ]
+  },
+  {
+    "id": 8266,
+    "brand": "Oris",
+    "model": "ProPilot X Gonzo Edition",
+    "reference": "01 115 7759 7180-Set",
+    "lugToLugMm": 52,
+    "caseMm": 44,
+    "thicknessMm": 12.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/oris-propilot-x-gonzo-edition-muppets-watch-calobre-115-review-price/",
+        "note": "MONOCHROME reports 52mm lug-to-lug, 44mm case size/width, 12.6mm thickness in “The ProPilot X Gonzo Edition, the new Muppets Watch by Oris.”"
+      },
+      {
+        "sourceUrl": "https://www.oris.ch/en-AU/product/20972/01-115-7759-7180-Set",
+        "note": "Manufacturer page lists the ProPilot X Gonzo Edition as reference 01 115 7759 7180-Set."
+      }
+    ]
+  },
+  {
+    "id": 8267,
+    "brand": "Oris",
+    "model": "Big Crown Pointer Date 29mm",
+    "canonicalModel": "Big Crown Pointer Date 29mm",
+    "modelGroup": "oris-big-crown-pointer-date-29mm",
+    "variant": "Pink dial, bracelet",
+    "reference": "01 534 7804 4052-07 8 14 02",
+    "lugToLugMm": 35.5,
+    "caseMm": 29,
+    "thicknessMm": 11.4,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/oris-big-crown-pointer-date-29mm-introducing-price/",
+        "note": "MONOCHROME reports 35.5mm lug-to-lug, 29mm case size/width, 11.4mm thickness in “The New Oris Big Crown Pointer Date 29mm.”"
+      },
+      {
+        "sourceUrl": "https://www.oris.ch/en-JP/product/watch/big-crown/big-crown-pointer-date/01-534-7804-4052-07-8-14-02",
+        "note": "Manufacturer page lists 01 534 7804 4052-07 8 14 02, the 29 mm Big Crown Pointer Date on a steel bracelet."
+      }
+    ]
+  },
+  {
+    "id": 8268,
+    "brand": "Oris",
+    "model": "Big Crown Pointer Date 29mm",
+    "canonicalModel": "Big Crown Pointer Date 29mm",
+    "modelGroup": "oris-big-crown-pointer-date-29mm",
+    "variant": "Black dial, bracelet",
+    "reference": "01 534 7804 4054-07 8 14 02",
+    "lugToLugMm": 35.5,
+    "caseMm": 29,
+    "thicknessMm": 11.4,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/oris-big-crown-pointer-date-29mm-introducing-price/",
+        "note": "MONOCHROME reports 35.5mm lug-to-lug, 29mm case size/width, 11.4mm thickness in “The New Oris Big Crown Pointer Date 29mm.”"
+      },
+      {
+        "sourceUrl": "https://www.oris.ch/en-US/product/watch/big-crown/big-crown-pointer-date/01-534-7804-4054-07-8-14-02",
+        "note": "Manufacturer page lists 01 534 7804 4054-07 8 14 02, the 29 mm Big Crown Pointer Date on a steel bracelet."
+      }
+    ]
+  },
+  {
+    "id": 8269,
+    "brand": "Oris",
+    "model": "Big Crown Pointer Date x Cervo Volante Burgundy",
+    "reference": "Big Crown Pointer Date x Cervo Volante Burgundy",
+    "lugToLugMm": 48.2,
+    "caseMm": 40,
+    "thicknessMm": 12.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/2026-oris-big-crown-x-cervo-volante-burgundy-dial-review-price/",
+        "note": "MONOCHROME reports 48.2mm lug-to-lug, 40mm case size/width, 12.2mm thickness in “A New Burgundy Dial for the Oris Big Crown x Cervo Volante.”"
+      }
+    ]
+  },
+  {
+    "id": 8270,
+    "brand": "Oris",
+    "model": "ProPilot Calibre 111 43mm",
+    "canonicalModel": "ProPilot Calibre 111 43mm (2026)",
+    "modelGroup": "oris-propilot-calibre-111-43mm-2026",
+    "variant": "Black dial, bracelet",
+    "reference": "01 111 7808 4164-07 8 20 04LC",
+    "lugToLugMm": 51,
+    "caseMm": 43,
+    "thicknessMm": 13.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/oris-propilot-calibre-111-update-2026-introducing-price/",
+        "note": "MONOCHROME reports 51mm lug-to-lug, 43mm case size/width, 13.2mm thickness in “Oris Sharpens the ProPilot Calibre 111.”"
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/oris-propilot-calibre-111-returns/",
+        "note": "Fratello lists the four 2026 ProPilot Calibre 111 references: 01 111 7808 4164/4167-07 6 20 19LC (Cordovan) and -07 8 20 04LC (bracelet)."
+      }
+    ]
+  },
+  {
+    "id": 8271,
+    "brand": "Oris",
+    "model": "ProPilot Calibre 111 43mm",
+    "canonicalModel": "ProPilot Calibre 111 43mm (2026)",
+    "modelGroup": "oris-propilot-calibre-111-43mm-2026",
+    "variant": "Black dial, Cordovan strap",
+    "reference": "01 111 7808 4164-07 6 20 19LC",
+    "lugToLugMm": 51,
+    "caseMm": 43,
+    "thicknessMm": 13.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/oris-propilot-calibre-111-update-2026-introducing-price/",
+        "note": "MONOCHROME reports 51mm lug-to-lug, 43mm case size/width, 13.2mm thickness in “Oris Sharpens the ProPilot Calibre 111.”"
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/oris-propilot-calibre-111-returns/",
+        "note": "Fratello lists the four 2026 ProPilot Calibre 111 references: 01 111 7808 4164/4167-07 6 20 19LC (Cordovan) and -07 8 20 04LC (bracelet)."
+      }
+    ]
+  },
+  {
+    "id": 8272,
+    "brand": "Oris",
+    "model": "ProPilot Calibre 111 43mm",
+    "canonicalModel": "ProPilot Calibre 111 43mm (2026)",
+    "modelGroup": "oris-propilot-calibre-111-43mm-2026",
+    "variant": "Green dial, bracelet",
+    "reference": "01 111 7808 4167-07 8 20 04LC",
+    "lugToLugMm": 51,
+    "caseMm": 43,
+    "thicknessMm": 13.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/oris-propilot-calibre-111-update-2026-introducing-price/",
+        "note": "MONOCHROME reports 51mm lug-to-lug, 43mm case size/width, 13.2mm thickness in “Oris Sharpens the ProPilot Calibre 111.”"
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/oris-propilot-calibre-111-returns/",
+        "note": "Fratello lists the four 2026 ProPilot Calibre 111 references: 01 111 7808 4164/4167-07 6 20 19LC (Cordovan) and -07 8 20 04LC (bracelet)."
+      }
+    ]
+  },
+  {
+    "id": 8273,
+    "brand": "Oris",
+    "model": "ProPilot Calibre 111 43mm",
+    "canonicalModel": "ProPilot Calibre 111 43mm (2026)",
+    "modelGroup": "oris-propilot-calibre-111-43mm-2026",
+    "variant": "Green dial, Cordovan strap",
+    "reference": "01 111 7808 4167-07 6 20 19LC",
+    "lugToLugMm": 51,
+    "caseMm": 43,
+    "thicknessMm": 13.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/oris-propilot-calibre-111-update-2026-introducing-price/",
+        "note": "MONOCHROME reports 51mm lug-to-lug, 43mm case size/width, 13.2mm thickness in “Oris Sharpens the ProPilot Calibre 111.”"
+      },
+      {
+        "sourceUrl": "https://www.fratellowatches.com/oris-propilot-calibre-111-returns/",
+        "note": "Fratello lists the four 2026 ProPilot Calibre 111 references: 01 111 7808 4164/4167-07 6 20 19LC (Cordovan) and -07 8 20 04LC (bracelet)."
+      }
+    ]
+  },
+  {
+    "id": 8274,
+    "brand": "Oris",
+    "model": "Aquis Date Kelp Forest Limited Edition",
+    "reference": "01 733 7787 4187-Set",
+    "lugToLugMm": 49,
+    "caseMm": 41.5,
+    "thicknessMm": 12.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/oris-aquis-date-kelp-forest-limited-edition-introducing-price/",
+        "note": "MONOCHROME reports 49mm lug-to-lug, 41.5mm case size/width, 12.9mm thickness in “Oris Aquis Date Kelp Forest Limited Edition.”"
+      },
+      {
+        "sourceUrl": "https://www.helveti.eu/oris-aquis-date-41-5-mm-kelp-forest-limited-edition-01-733-7787-4187-set",
+        "note": "Retailer listing gives reference 01 733 7787 4187-Set for the 41.5 mm Aquis Date Kelp Forest Limited Edition."
+      }
+    ]
+  },
+  {
+    "id": 8275,
+    "brand": "Seiko",
+    "model": "5 Sports x Honda Motocompo Limited Edition",
+    "reference": "HDB010",
+    "lugToLugMm": 44.4,
+    "caseMm": 36.4,
+    "thicknessMm": 12.5,
+    "lugWidthMm": 18,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/seiko-5-sports-x-honda-motocompo-45th-anniversary-hdb010-limited-edition-introducing-price/",
+        "note": "MONOCHROME reports 44.4mm lug-to-lug, 36.4mm case size/width, 12.5mm thickness in “Seiko 5 Sports Launches a Limited Edition with Honda, Celebrating the Iconic Motocompo.” Lug width 18 mm matches the Mid-Field case it shares (SBSA199, id 4904)."
+      }
+    ]
+  },
+  {
+    "id": 8276,
+    "brand": "Seiko",
+    "model": "5 Sports Field GMT",
+    "canonicalModel": "5 Sports Field GMT (2026)",
+    "modelGroup": "seiko-5-sports-field-gmt-2026",
+    "reference": "HDB001",
+    "lugToLugMm": 47.9,
+    "caseMm": 39.4,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/new-earthy-colourways-2026-seiko-5-sports-field-gmt-series-hdb001-hdb002-value-proposition-introducing/",
+        "note": "MONOCHROME reports 47.9mm lug-to-lug, 39.4mm case size/width, 13.6mm thickness in “New, Earthy Colourways for the Seiko 5 Sports Field GMT Series.” Lug width 20 mm matches the Field GMT SSK023 row."
+      }
+    ]
+  },
+  {
+    "id": 8277,
+    "brand": "Seiko",
+    "model": "5 Sports Field GMT",
+    "canonicalModel": "5 Sports Field GMT (2026)",
+    "modelGroup": "seiko-5-sports-field-gmt-2026",
+    "reference": "HDB002",
+    "lugToLugMm": 47.9,
+    "caseMm": 39.4,
+    "thicknessMm": 13.6,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/new-earthy-colourways-2026-seiko-5-sports-field-gmt-series-hdb001-hdb002-value-proposition-introducing/",
+        "note": "MONOCHROME reports 47.9mm lug-to-lug, 39.4mm case size/width, 13.6mm thickness in “New, Earthy Colourways for the Seiko 5 Sports Field GMT Series.” Lug width 20 mm matches the Field GMT SSK023 row."
+      }
+    ]
+  },
+  {
+    "id": 8278,
+    "brand": "Seiko",
+    "model": "Presage Classic Series x Tradman’s Bonsai Limited Edition",
+    "reference": "HCC009J1",
+    "lugToLugMm": 43.8,
+    "caseMm": 38,
+    "thicknessMm": 12.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/first-look-seiko-presage-classic-series-x-tradmans-bonsai-limited-edition-hcc009j1-specs-price-review/",
+        "note": "MONOCHROME reports 43.8mm lug-to-lug, 38mm case size/width, 12.9mm thickness in “The Seiko Presage Classic Series x Tradman’s Bonsai Limited Edition HCC009J1.”"
+      }
+    ]
+  },
+  {
+    "id": 8279,
+    "brand": "Patek Philippe",
+    "model": "World Time Minute Repeater",
+    "canonicalModel": "World Time Minute Repeater 5531G Milano 2026",
+    "modelGroup": "patek-philippe-5531g-milano-2026",
+    "variant": "Milano 2026 day version",
+    "reference": "5531G-012",
+    "lugToLugMm": 47.35,
+    "caseMm": 42,
+    "thicknessMm": 11.49,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/patek-philippe-world-time-minute-repeater-5531g-012-5531g-013-limited-edition-milano-2026-introducing/",
+        "note": "MONOCHROME reports 47.35mm lug-to-lug, 42mm case size/width, 11.49mm thickness in “The Two Patek Philippe World Time Minute Repeater 5531G Limited Edition Milano 2026.” Strap attachment is 21mm wide."
+      }
+    ]
+  },
+  {
+    "id": 8280,
+    "brand": "Patek Philippe",
+    "model": "World Time Minute Repeater",
+    "canonicalModel": "World Time Minute Repeater 5531G Milano 2026",
+    "modelGroup": "patek-philippe-5531g-milano-2026",
+    "variant": "Milano 2026 night version",
+    "reference": "5531G-013",
+    "lugToLugMm": 47.35,
+    "caseMm": 42,
+    "thicknessMm": 11.49,
+    "lugWidthMm": 21,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/patek-philippe-world-time-minute-repeater-5531g-012-5531g-013-limited-edition-milano-2026-introducing/",
+        "note": "MONOCHROME reports 47.35mm lug-to-lug, 42mm case size/width, 11.49mm thickness in “The Two Patek Philippe World Time Minute Repeater 5531G Limited Edition Milano 2026.” Strap attachment is 21mm wide."
+      }
+    ]
+  },
+  {
+    "id": 8281,
+    "brand": "Mido",
+    "model": "Multifort TV Big Date Chronometer",
+    "canonicalModel": "Multifort TV Big Date Chronometer",
+    "modelGroup": "mido-multifort-tv-big-date-chronometer",
+    "variant": "Blue dial",
+    "reference": "M049.567.11.041.00",
+    "lugToLugMm": 46.85,
+    "caseMm": 40,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/mido-multifort-tv-big-date-chronometer-cosc-introducing-price/",
+        "note": "MONOCHROME reports 46.85mm lug-to-lug, 40mm case size/width, 11.5mm thickness in “The New Mido Multifort TV Big Date Chronometer.” Case is 39.2mm long; lug width 22 mm matches the Multifort TV Big Date rows on the same case."
+      },
+      {
+        "sourceUrl": "https://www.helveti.eu/mido-multifort-tv-big-date-chronometer-m049-567-11-041-00",
+        "note": "Retailer listing identifies M049.567.11.041.00 as the Multifort TV Big Date Chronometer."
+      }
+    ]
+  },
+  {
+    "id": 8282,
+    "brand": "Mido",
+    "model": "Multifort TV Big Date Chronometer",
+    "canonicalModel": "Multifort TV Big Date Chronometer",
+    "modelGroup": "mido-multifort-tv-big-date-chronometer",
+    "variant": "Black and grey dial",
+    "reference": "M049.567.11.051.00",
+    "lugToLugMm": 46.85,
+    "caseMm": 40,
+    "thicknessMm": 11.5,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/mido-multifort-tv-big-date-chronometer-cosc-introducing-price/",
+        "note": "MONOCHROME reports 46.85mm lug-to-lug, 40mm case size/width, 11.5mm thickness in “The New Mido Multifort TV Big Date Chronometer.” Case is 39.2mm long; lug width 22 mm matches the Multifort TV Big Date rows on the same case."
+      },
+      {
+        "sourceUrl": "https://www.helveti.eu/mido-multifort-tv-big-date-chronometer-m049-567-11-051-00",
+        "note": "Retailer listing identifies M049.567.11.051.00 as the Multifort TV Big Date Chronometer."
+      }
+    ]
+  },
+  {
+    "id": 8283,
+    "brand": "Mido",
+    "model": "Multifort TV Big Date Día de los Muertos Alebrijes",
+    "reference": "Multifort TV Big Date Día de los Muertos Alebrijes",
+    "lugToLugMm": 46.85,
+    "caseMm": 40,
+    "thicknessMm": 11.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/mido-multifort-tv-big-date-dia-de-los-muertos-alebrijes-introducing-price/",
+        "note": "MONOCHROME reports 46.85mm lug-to-lug, 40mm case size/width, 11.5mm thickness in “The Fun New Mido Multifort TV Big Date Día de los Muertos Alebrijes.”"
+      }
+    ]
+  },
+  {
+    "id": 8284,
+    "brand": "Rado",
+    "model": "Captain Cook x European Cricket Special Edition",
+    "reference": "Captain Cook x European Cricket Special Edition",
+    "lugToLugMm": 49.8,
+    "caseMm": 43,
+    "thicknessMm": 16.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/introducing-rado-captain-cook-european-cricket-special-edition-r763-dive-watch-specs-price/",
+        "note": "MONOCHROME reports 49.8mm lug-to-lug, 43mm case size/width, 16.2mm thickness in “The New Rado Captain Cook x European Cricket Special Edition.”"
+      }
+    ]
+  },
+  {
+    "id": 8285,
+    "brand": "Rado",
+    "model": "Captain Cook Cameron Green Limited Edition",
+    "reference": "Captain Cook Cameron Green Limited Edition",
+    "lugToLugMm": 48.6,
+    "caseMm": 42,
+    "thicknessMm": 12.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/rado-captain-cook-cameron-green-limited-edition-cricket-introducing-price/",
+        "note": "MONOCHROME reports 48.6mm lug-to-lug, 42mm case size/width, 12.3mm thickness in “Rado Takes the Captain Cook to the Cricket Pitch with Cameron Green.”"
+      }
+    ]
+  },
+  {
+    "id": 8286,
+    "brand": "Blancpain",
+    "model": "Fifty Fathoms Bathyscaphe 70th Anniversary",
+    "reference": "5903-1110-63A",
+    "lugToLugMm": 46.5,
+    "caseMm": 37.4,
+    "thicknessMm": 12.3,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/blancpain-fifty-fathoms-bathyscaphe-70th-anniversary-limited-edition-1968-re-edition-5903-1110-63a-review-price/",
+        "note": "MONOCHROME reports 46.5mm lug-to-lug, 37.4mm case size/width, 12.3mm thickness in “Blancpain Goes Vintage with the new Fifty Fathoms Bathyscaphe 70th Anniversary.” Reference 5903-1110-63A is taken from the article URL."
+      }
+    ]
+  },
+  {
+    "id": 8287,
+    "brand": "Breguet",
+    "model": "Marine Chronographe 5527",
+    "reference": "Marine Chronographe 5527",
+    "lugToLugMm": 50.7,
+    "caseMm": 42.3,
+    "thicknessMm": 13.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/breguet-updates-its-marine-5517-and-marine-chronograph-5527-with-more-refined-dials-introducing-price/",
+        "note": "MONOCHROME reports 50.7mm lug-to-lug, 42.3mm case size/width, 13.9mm thickness in “Breguet Updates its Marine 5517 and Marine Chronograph 5527 with More Refined Dials.” Same case in titanium, 18k rose gold or 18k white gold."
+      }
+    ]
+  },
+  {
+    "id": 8288,
+    "brand": "Glashütte Original",
+    "model": "Senator Meissen Cherry Blossom",
+    "reference": "Senator Meissen Cherry Blossom",
+    "lugToLugMm": 47.09,
+    "caseMm": 40,
+    "thicknessMm": 10.2,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://monochrome-watches.com/glashutte-original-senator-meissen-cherry-blossom-porcelain-dial-introducing-price/",
+        "note": "MONOCHROME reports 47.09mm lug-to-lug, 40mm case size/width, 10.2mm thickness in “Glashütte Original Brings Meissen Porcelain to the Senator Cherry Blossom.”"
+      }
+    ]
   }
 ]
