@@ -19,20 +19,24 @@ describe("legacy route redirects", () => {
   });
 
   it("maps the routes of renamed watches to their current page", () => {
-    // Borealis 5508 was published as "씨스톰 GMT '판다' 넌데이트" before its English name.
-    expect(resolveLegacyWatchHref("borealis", "gmt", "gmt-iw353")).toBe(
-      "/watches/borealis/seastorm-gmt-panda-non-date/seastorm-gmt-panda-non-date-iw353"
-    );
-    expect(resolveLegacyWatchHref("nth", "v2", "v2-iw292")).toBe("/watches/nth/upholder-v2-non-date/upholder-v2-non-date-iw292");
+    // Borealis 5508 was published as "씨스톰 GMT '판다' 넌데이트" before its English name, and its
+    // IntoWatch "name IW353" reference was later dropped because Borealis publishes no references.
+    const seastorm = "/watches/borealis/seastorm-gmt-panda-non-date/no-reference";
+    expect(resolveLegacyWatchHref("borealis", "gmt", "gmt-iw353")).toBe(seastorm);
+    expect(
+      resolveLegacyWatchHref("borealis", "seastorm-gmt-panda-non-date", "seastorm-gmt-panda-non-date-iw353")
+    ).toBe(seastorm);
+    expect(resolveLegacyWatchHref("nth", "v2", "v2-iw292")).toBe("/watches/nth/upholder-v2-non-date/no-reference");
   });
 
   it("keeps every route of a watch renamed more than once", () => {
     // WMT 5799 was "루파스 밀스펙 MK1 세트", then "Lupus Milspec MK1 Set", before the brand spelling.
-    const current = "/watches/wmt/lupas-mil-spec-mki-set/lupas-mil-spec-mki-set-iw431";
+    const current = "/watches/wmt/lupas-mil-spec-mki-set/no-reference";
     expect(resolveLegacyWatchHref("wmt", "mk1", "mk1-iw431")).toBe(current);
     expect(resolveLegacyWatchHref("wmt", "lupus-milspec-mk1-set", "lupus-milspec-mk1-set-iw431")).toBe(current);
+    expect(resolveLegacyWatchHref("wmt", "lupas-mil-spec-mki-set", "lupas-mil-spec-mki-set-iw431")).toBe(current);
     expect(resolveLegacyWatchHref("wmt", "ember-aging-edition", "ember-aging-edition-iw274")).toBe(
-      "/watches/wmt/ember-aged-edition/ember-aged-edition-iw274"
+      "/watches/wmt/ember-aged-edition/no-reference"
     );
   });
 });
