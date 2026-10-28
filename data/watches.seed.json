@@ -147920,5 +147920,739 @@
         "note": "MONOCHROME reports 47.09mm lug-to-lug, 40mm case size/width, 10.2mm thickness in “Glashütte Original Brings Meissen Porcelain to the Senator Cherry Blossom.”"
       }
     ]
+  },
+  {
+    "id": 8289,
+    "brand": "Seiko",
+    "model": "Presage Cocktail Time 38.5mm",
+    "canonicalModel": "Presage Cocktail Time 38.5mm",
+    "modelGroup": "seiko-presage-cocktail-time-38-5mm",
+    "variant": "Blue dial, bracelet",
+    "reference": "HCB001",
+    "lugToLugMm": 45.4,
+    "caseMm": 38.5,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/new-refined-seiko-presage-cocktail-time-hcb001-hcb002-hcb003/",
+        "note": "Fratello article on the HCB001, HCB002 and HCB003 lists 38.5 mm diameter, 45.4 mm lug-to-lug, and 11.8 mm thickness. The case takes 20 mm straps."
+      }
+    ]
+  },
+  {
+    "id": 8290,
+    "brand": "Seiko",
+    "model": "Presage Cocktail Time 38.5mm",
+    "canonicalModel": "Presage Cocktail Time 38.5mm",
+    "modelGroup": "seiko-presage-cocktail-time-38-5mm",
+    "variant": "Green dial, leather strap",
+    "reference": "HCB002",
+    "lugToLugMm": 45.4,
+    "caseMm": 38.5,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/new-refined-seiko-presage-cocktail-time-hcb001-hcb002-hcb003/",
+        "note": "Fratello article on the HCB001, HCB002 and HCB003 lists 38.5 mm diameter, 45.4 mm lug-to-lug, and 11.8 mm thickness. The case takes 20 mm straps."
+      }
+    ]
+  },
+  {
+    "id": 8291,
+    "brand": "Seiko",
+    "model": "Presage Cocktail Time 38.5mm",
+    "canonicalModel": "Presage Cocktail Time 38.5mm",
+    "modelGroup": "seiko-presage-cocktail-time-38-5mm",
+    "variant": "Brown dial, leather strap",
+    "reference": "HCB003",
+    "lugToLugMm": 45.4,
+    "caseMm": 38.5,
+    "thicknessMm": 11.8,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/new-refined-seiko-presage-cocktail-time-hcb001-hcb002-hcb003/",
+        "note": "Fratello article on the HCB001, HCB002 and HCB003 lists 38.5 mm diameter, 45.4 mm lug-to-lug, and 11.8 mm thickness. The case takes 20 mm straps."
+      }
+    ]
+  },
+  {
+    "id": 8292,
+    "brand": "Casio",
+    "model": "Edifice EFK-200",
+    "canonicalModel": "Edifice EFK-200",
+    "modelGroup": "casio-edifice-efk-200",
+    "variant": "Black forged carbon dial",
+    "reference": "EFK-200CD-1A",
+    "lugToLugMm": 43.6,
+    "caseMm": 38,
+    "thicknessMm": 11.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/casio-edifice-automatic-efk-200/",
+        "note": "Fratello article on the Edifice EFK-200 lists 38 mm diameter, 43.6 mm lug-to-lug, and 11.9 mm thickness. The article gives this as the case length of the full-steel models."
+      }
+    ]
+  },
+  {
+    "id": 8293,
+    "brand": "Casio",
+    "model": "Edifice EFK-200",
+    "canonicalModel": "Edifice EFK-200",
+    "modelGroup": "casio-edifice-efk-200",
+    "variant": "Blue dial",
+    "reference": "EFK-200D-2A",
+    "lugToLugMm": 43.6,
+    "caseMm": 38,
+    "thicknessMm": 11.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/casio-edifice-automatic-efk-200/",
+        "note": "Fratello article on the Edifice EFK-200 lists 38 mm diameter, 43.6 mm lug-to-lug, and 11.9 mm thickness. The article gives this as the case length of the full-steel models."
+      }
+    ]
+  },
+  {
+    "id": 8294,
+    "brand": "Casio",
+    "model": "Edifice EFK-200",
+    "canonicalModel": "Edifice EFK-200",
+    "modelGroup": "casio-edifice-efk-200",
+    "variant": "Burgundy dial",
+    "reference": "EFK-200D-4A",
+    "lugToLugMm": 43.6,
+    "caseMm": 38,
+    "thicknessMm": 11.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/casio-edifice-automatic-efk-200/",
+        "note": "Fratello article on the Edifice EFK-200 lists 38 mm diameter, 43.6 mm lug-to-lug, and 11.9 mm thickness. The article gives this as the case length of the full-steel models."
+      }
+    ]
+  },
+  {
+    "id": 8295,
+    "brand": "Casio",
+    "model": "Edifice EFK-200",
+    "canonicalModel": "Edifice EFK-200",
+    "modelGroup": "casio-edifice-efk-200",
+    "variant": "Gold-tone and brown",
+    "reference": "EFK-200DG-5A",
+    "lugToLugMm": 43.6,
+    "caseMm": 38,
+    "thicknessMm": 11.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/casio-edifice-automatic-efk-200/",
+        "note": "Fratello article on the Edifice EFK-200 lists 38 mm diameter, 43.6 mm lug-to-lug, and 11.9 mm thickness. The article gives this as the case length of the full-steel models."
+      }
+    ]
+  },
+  {
+    "id": 8296,
+    "brand": "Casio",
+    "model": "Edifice EFK-200",
+    "canonicalModel": "Edifice EFK-200",
+    "modelGroup": "casio-edifice-efk-200",
+    "variant": "All-black carbon composite",
+    "reference": "EFK-200XPB-1A",
+    "lugToLugMm": 43.8,
+    "caseMm": 38.8,
+    "thicknessMm": 11.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/casio-edifice-automatic-efk-200/",
+        "note": "Fratello article on the Edifice EFK-200 lists 38.8 mm diameter, 43.8 mm lug-to-lug, and 11.9 mm thickness. The article gives this as the case length of the carbon/steel composite EFK-200XPB-1A."
+      }
+    ]
+  },
+  {
+    "id": 8297,
+    "brand": "Citizen",
+    "model": "Series 8 880 GMT",
+    "canonicalModel": "Series 8 880 GMT",
+    "modelGroup": "citizen-series-8-880-gmt",
+    "variant": "Black dial, blue and black bezel",
+    "reference": "NB6031-56E",
+    "lugToLugMm": 53.3,
+    "caseMm": 41,
+    "thicknessMm": 13.54,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/the-citizen-series-8-880-gmt-turns-you-into-a-local-twice-over/",
+        "note": "Fratello hands-on with NB6031-56E and NB6034-58L lists 41 mm diameter, 47 mm lug-to-lug, and 13.54 mm thickness. With the fixed central bracelet link the length is 53.3 mm; seed records that effective wearing length."
+      }
+    ]
+  },
+  {
+    "id": 8298,
+    "brand": "Citizen",
+    "model": "Series 8 880 GMT",
+    "canonicalModel": "Series 8 880 GMT",
+    "modelGroup": "citizen-series-8-880-gmt",
+    "variant": "Blue dial, blue and white bezel",
+    "reference": "NB6034-58L",
+    "lugToLugMm": 53.3,
+    "caseMm": 41,
+    "thicknessMm": 13.54,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/the-citizen-series-8-880-gmt-turns-you-into-a-local-twice-over/",
+        "note": "Fratello hands-on with NB6031-56E and NB6034-58L lists 41 mm diameter, 47 mm lug-to-lug, and 13.54 mm thickness. With the fixed central bracelet link the length is 53.3 mm; seed records that effective wearing length."
+      }
+    ]
+  },
+  {
+    "id": 8299,
+    "brand": "Seiko",
+    "model": "Prospex 1965 Heritage Diver",
+    "reference": "HBC011",
+    "lugToLugMm": 46.4,
+    "caseMm": 40,
+    "thicknessMm": 13,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/new-fan-selected-seiko-prospex-1965-heritage-diver-hbc011/",
+        "note": "Fratello article on the fan-selected HBC011 lists 40 mm diameter, 46.4 mm lug-to-lug, and 13 mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 8300,
+    "brand": "Seiko",
+    "model": "Prospex Speedtimer European Limited Edition",
+    "reference": "HBJ008",
+    "lugToLugMm": 45,
+    "caseMm": 39,
+    "thicknessMm": 13,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/test-driving-the-seiko-speedtimer-hbj008-european-limited-edition-hbj008/",
+        "note": "Fratello hands-on with the HBJ008 lists 39 mm diameter, 45 mm lug-to-lug, and 13 mm thickness. The bracelet is 20 mm wide."
+      }
+    ]
+  },
+  {
+    "id": 8301,
+    "brand": "Seiko",
+    "model": "Panda Chronograph Limited Edition",
+    "canonicalModel": "Panda Chronograph (HHK)",
+    "modelGroup": "seiko-panda-chronograph-hhk",
+    "variant": "White and black panda dial",
+    "reference": "HHK001",
+    "lugToLugMm": 44.1,
+    "caseMm": 43,
+    "thicknessMm": 14.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/seiko-pandagraph-hhk001-hhk002/",
+        "note": "Fratello article on the HHK001 and HHK002 lists 43 mm diameter, 44.1 mm lug-to-lug, and 14.6 mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 8302,
+    "brand": "Seiko",
+    "model": "Panda Chronograph Limited Edition",
+    "canonicalModel": "Panda Chronograph (HHK)",
+    "modelGroup": "seiko-panda-chronograph-hhk",
+    "variant": "Pink and black panda dial",
+    "reference": "HHK002",
+    "lugToLugMm": 44.1,
+    "caseMm": 43,
+    "thicknessMm": 14.6,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/seiko-pandagraph-hhk001-hhk002/",
+        "note": "Fratello article on the HHK001 and HHK002 lists 43 mm diameter, 44.1 mm lug-to-lug, and 14.6 mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 8303,
+    "brand": "IWC",
+    "model": "Pilot's Watch Performance Chronograph 41 Year of the Goat",
+    "reference": "IW388310",
+    "lugToLugMm": 50.8,
+    "caseMm": 41,
+    "thicknessMm": 14.8,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/meet-the-iwc-pilots-watch-performance-chronograph-41-year-of-the-goat/",
+        "note": "Fratello article on the Year of the Goat limited edition lists 41 mm diameter, 50.8 mm lug-to-lug, and 14.8 mm thickness."
+      },
+      {
+        "sourceUrl": "https://www.iwc.com/ch-de/watches/pilot-watches/iw388310-pilots-watch-performance-chronograph-41-year-of-the-goat",
+        "note": "Manufacturer page lists the Pilot's Watch Performance Chronograph 41 Year of the Goat as IW388310."
+      }
+    ]
+  },
+  {
+    "id": 8304,
+    "brand": "Girard-Perregaux",
+    "model": "Laureato Fifty 39mm",
+    "reference": "81008-11-3627-1CM",
+    "lugToLugMm": 46,
+    "caseMm": 39,
+    "thicknessMm": 9.8,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/the-perfect-laureato-hands-on-with-the-girard-perregaux-laureato-fifty-with-a-rose-gold-dial/",
+        "note": "Fratello hands-on with the rose-gold-dial Laureato Fifty ref. 81008-11-3627-1CM lists 39 mm diameter, 46 mm lug-to-lug, and 9.8 mm thickness."
+      }
+    ]
+  },
+  {
+    "id": 8305,
+    "brand": "A. Lange & Söhne",
+    "model": "1815 Up/Down 37.5mm",
+    "canonicalModel": "1815 Up/Down 37.5mm",
+    "modelGroup": "a-lange-sohne-1815-up-down-37-5mm",
+    "variant": "Pink gold, dark blue panda dial",
+    "reference": "244.037",
+    "lugToLugMm": 45,
+    "caseMm": 37.5,
+    "thicknessMm": 8.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/downsizing-with-two-new-a-lange-sohne-1815-up-down-models/",
+        "note": "Fratello article on the two new 1815 Up/Down limited editions lists 37.5 mm diameter, 45 mm lug-to-lug, and 8.7 mm thickness."
+      },
+      {
+        "sourceUrl": "https://watchesbysjx.com/?p=307594",
+        "note": "SJX lists Ref. 244.037 (pink gold) at 37.5 mm by 8.7 mm, limited to 300 pieces."
+      }
+    ]
+  },
+  {
+    "id": 8306,
+    "brand": "A. Lange & Söhne",
+    "model": "1815 Up/Down 37.5mm",
+    "canonicalModel": "1815 Up/Down 37.5mm",
+    "modelGroup": "a-lange-sohne-1815-up-down-37-5mm",
+    "variant": "White gold, dark blue panda dial",
+    "reference": "244.028",
+    "lugToLugMm": 45,
+    "caseMm": 37.5,
+    "thicknessMm": 8.7,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/downsizing-with-two-new-a-lange-sohne-1815-up-down-models/",
+        "note": "Fratello article on the two new 1815 Up/Down limited editions lists 37.5 mm diameter, 45 mm lug-to-lug, and 8.7 mm thickness."
+      },
+      {
+        "sourceUrl": "https://watchesbysjx.com/?p=307594",
+        "note": "SJX lists Ref. 244.028 (white gold) at 37.5 mm by 8.7 mm, limited to 300 pieces."
+      }
+    ]
+  },
+  {
+    "id": 8307,
+    "brand": "Glashütte Original",
+    "model": "Senator Chronograph Navigator",
+    "canonicalModel": "Senator Chronograph Navigator 41mm",
+    "modelGroup": "glashutte-original-senator-chronograph-navigator-41mm",
+    "variant": "Black lacquer dial, textile strap",
+    "reference": "1-37-24-20-12-64",
+    "lugToLugMm": 48.5,
+    "caseMm": 41,
+    "thicknessMm": 12.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/hands-on-glashutte-original-senator-chronograph/",
+        "note": "Fratello hands-on with the 2026 Senator Chronograph and Senator Chronograph Navigator lists 41 mm diameter, 48.5 mm lug-to-lug, and 12.9 mm thickness."
+      },
+      {
+        "sourceUrl": "https://www.exquisitetimepieces.com/collections/glashutte-original/products/glashutte-original-senator-chronograph-navigator-1-37-24-20-12-64",
+        "note": "Retailer listing identifies 1-37-24-20-12-64 as the 41 mm Senator Chronograph Navigator."
+      }
+    ]
+  },
+  {
+    "id": 8308,
+    "brand": "Glashütte Original",
+    "model": "Senator Chronograph Navigator",
+    "canonicalModel": "Senator Chronograph Navigator 41mm",
+    "modelGroup": "glashutte-original-senator-chronograph-navigator-41mm",
+    "variant": "Black lacquer dial, bracelet",
+    "reference": "1-37-24-20-12-71",
+    "lugToLugMm": 48.5,
+    "caseMm": 41,
+    "thicknessMm": 12.9,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/hands-on-glashutte-original-senator-chronograph/",
+        "note": "Fratello hands-on with the 2026 Senator Chronograph and Senator Chronograph Navigator lists 41 mm diameter, 48.5 mm lug-to-lug, and 12.9 mm thickness."
+      },
+      {
+        "sourceUrl": "https://www.exquisitetimepieces.com/collections/glashutte-original-senator-collection/products/glashutte-original-senator-chronograph-navigator-1-37-24-20-12-71",
+        "note": "Retailer listing identifies 1-37-24-20-12-71 as the 41 mm Senator Chronograph Navigator."
+      }
+    ]
+  },
+  {
+    "id": 8309,
+    "brand": "Ulysse Nardin",
+    "model": "Freak One Blue Enamel",
+    "reference": "2403-500LE-3AE-BLUE/3A",
+    "lugToLugMm": 51.5,
+    "caseMm": 44,
+    "thicknessMm": 13.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/ulysse-nardin-freak-one-blue-enamel-and-guilloche/",
+        "note": "Fratello article on the Freak One Blue Enamel and Guilloché lists 44 mm diameter, 51.5 mm lug-to-lug, and 13.5 mm thickness."
+      },
+      {
+        "sourceUrl": "https://www.betteridge.com/Ulysse-Nardin-Freak-One-Blue-Enamel-Limited-Edition-44mm-Titanium-Case-2403+500LE+3AE+BLUE/3A/p/17720890",
+        "note": "Listing gives reference 2403-500LE-3AE-BLUE/3A for the 99-piece Freak One Blue Enamel."
+      }
+    ]
+  },
+  {
+    "id": 8310,
+    "brand": "Ulysse Nardin",
+    "model": "Freak One Guilloché",
+    "reference": "2403-500LE-4A-GUI/3A",
+    "lugToLugMm": 51.5,
+    "caseMm": 44,
+    "thicknessMm": 13.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/ulysse-nardin-freak-one-blue-enamel-and-guilloche/",
+        "note": "Fratello article on the Freak One Blue Enamel and Guilloché lists 44 mm diameter, 51.5 mm lug-to-lug, and 13.5 mm thickness."
+      },
+      {
+        "sourceUrl": "https://www.watchonista.com/editorial/novelties/bold-blue-enamel-grand-guilloche-hallmark-ulysse-nardins-latest-freak-one-offerings/",
+        "note": "Listing gives reference 2403-500LE-4A-GUI/3A for the 99-piece Freak One Guilloché."
+      }
+    ]
+  },
+  {
+    "id": 8311,
+    "brand": "Breitling",
+    "model": "Navitimer B09 Chronograph 41",
+    "canonicalModel": "Navitimer B09 Chronograph 41",
+    "modelGroup": "breitling-navitimer-b09-chronograph-41",
+    "variant": "Black dial, leather strap",
+    "reference": "AB0950211B1X1",
+    "lugToLugMm": 47.09,
+    "caseMm": 41,
+    "thicknessMm": 13,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/breitling-adds-two-new-manual-wind-navitimers-to-the-core-collection/",
+        "note": "Fratello article on the two manual-wind core-collection Navitimers lists 41 mm diameter, 47.09 mm lug-to-lug, and 13 mm thickness."
+      },
+      {
+        "sourceUrl": "https://luxe.digital/news/breitling-navitimer-b09-cosmonaute-41mm-mainline/",
+        "note": "Lists the core-collection references AB0950211B1X1/B1A1 (black) and AB0950211C1X1/C1A1 (blue) for the Navitimer B09 Chronograph 41, and AB0230211B1X1/B1A1 for the Navitimer B02 Chronograph 41 Cosmonaute."
+      }
+    ]
+  },
+  {
+    "id": 8312,
+    "brand": "Breitling",
+    "model": "Navitimer B09 Chronograph 41",
+    "canonicalModel": "Navitimer B09 Chronograph 41",
+    "modelGroup": "breitling-navitimer-b09-chronograph-41",
+    "variant": "Black dial, bracelet",
+    "reference": "AB0950211B1A1",
+    "lugToLugMm": 47.09,
+    "caseMm": 41,
+    "thicknessMm": 13,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/breitling-adds-two-new-manual-wind-navitimers-to-the-core-collection/",
+        "note": "Fratello article on the two manual-wind core-collection Navitimers lists 41 mm diameter, 47.09 mm lug-to-lug, and 13 mm thickness."
+      },
+      {
+        "sourceUrl": "https://luxe.digital/news/breitling-navitimer-b09-cosmonaute-41mm-mainline/",
+        "note": "Lists the core-collection references AB0950211B1X1/B1A1 (black) and AB0950211C1X1/C1A1 (blue) for the Navitimer B09 Chronograph 41, and AB0230211B1X1/B1A1 for the Navitimer B02 Chronograph 41 Cosmonaute."
+      }
+    ]
+  },
+  {
+    "id": 8313,
+    "brand": "Breitling",
+    "model": "Navitimer B09 Chronograph 41",
+    "canonicalModel": "Navitimer B09 Chronograph 41",
+    "modelGroup": "breitling-navitimer-b09-chronograph-41",
+    "variant": "Blue dial, leather strap",
+    "reference": "AB0950211C1X1",
+    "lugToLugMm": 47.09,
+    "caseMm": 41,
+    "thicknessMm": 13,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/breitling-adds-two-new-manual-wind-navitimers-to-the-core-collection/",
+        "note": "Fratello article on the two manual-wind core-collection Navitimers lists 41 mm diameter, 47.09 mm lug-to-lug, and 13 mm thickness."
+      },
+      {
+        "sourceUrl": "https://luxe.digital/news/breitling-navitimer-b09-cosmonaute-41mm-mainline/",
+        "note": "Lists the core-collection references AB0950211B1X1/B1A1 (black) and AB0950211C1X1/C1A1 (blue) for the Navitimer B09 Chronograph 41, and AB0230211B1X1/B1A1 for the Navitimer B02 Chronograph 41 Cosmonaute."
+      }
+    ]
+  },
+  {
+    "id": 8314,
+    "brand": "Breitling",
+    "model": "Navitimer B09 Chronograph 41",
+    "canonicalModel": "Navitimer B09 Chronograph 41",
+    "modelGroup": "breitling-navitimer-b09-chronograph-41",
+    "variant": "Blue dial, bracelet",
+    "reference": "AB0950211C1A1",
+    "lugToLugMm": 47.09,
+    "caseMm": 41,
+    "thicknessMm": 13,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/breitling-adds-two-new-manual-wind-navitimers-to-the-core-collection/",
+        "note": "Fratello article on the two manual-wind core-collection Navitimers lists 41 mm diameter, 47.09 mm lug-to-lug, and 13 mm thickness."
+      },
+      {
+        "sourceUrl": "https://luxe.digital/news/breitling-navitimer-b09-cosmonaute-41mm-mainline/",
+        "note": "Lists the core-collection references AB0950211B1X1/B1A1 (black) and AB0950211C1X1/C1A1 (blue) for the Navitimer B09 Chronograph 41, and AB0230211B1X1/B1A1 for the Navitimer B02 Chronograph 41 Cosmonaute."
+      }
+    ]
+  },
+  {
+    "id": 8315,
+    "brand": "Breitling",
+    "model": "Navitimer B02 Chronograph 41 Cosmonaute",
+    "canonicalModel": "Navitimer B02 Chronograph 41 Cosmonaute (2026)",
+    "modelGroup": "breitling-navitimer-b02-cosmonaute-41-2026",
+    "variant": "Leather strap",
+    "reference": "AB0230211B1X1",
+    "lugToLugMm": 47.09,
+    "caseMm": 41,
+    "thicknessMm": 13,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/breitling-adds-two-new-manual-wind-navitimers-to-the-core-collection/",
+        "note": "Fratello article on the two manual-wind core-collection Navitimers lists 41 mm diameter, 47.09 mm lug-to-lug, and 13 mm thickness."
+      },
+      {
+        "sourceUrl": "https://luxe.digital/news/breitling-navitimer-b09-cosmonaute-41mm-mainline/",
+        "note": "Lists the core-collection references AB0950211B1X1/B1A1 (black) and AB0950211C1X1/C1A1 (blue) for the Navitimer B09 Chronograph 41, and AB0230211B1X1/B1A1 for the Navitimer B02 Chronograph 41 Cosmonaute."
+      }
+    ]
+  },
+  {
+    "id": 8316,
+    "brand": "Breitling",
+    "model": "Navitimer B02 Chronograph 41 Cosmonaute",
+    "canonicalModel": "Navitimer B02 Chronograph 41 Cosmonaute (2026)",
+    "modelGroup": "breitling-navitimer-b02-cosmonaute-41-2026",
+    "variant": "Bracelet",
+    "reference": "AB0230211B1A1",
+    "lugToLugMm": 47.09,
+    "caseMm": 41,
+    "thicknessMm": 13,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/breitling-adds-two-new-manual-wind-navitimers-to-the-core-collection/",
+        "note": "Fratello article on the two manual-wind core-collection Navitimers lists 41 mm diameter, 47.09 mm lug-to-lug, and 13 mm thickness."
+      },
+      {
+        "sourceUrl": "https://luxe.digital/news/breitling-navitimer-b09-cosmonaute-41mm-mainline/",
+        "note": "Lists the core-collection references AB0950211B1X1/B1A1 (black) and AB0950211C1X1/C1A1 (blue) for the Navitimer B09 Chronograph 41, and AB0230211B1X1/B1A1 for the Navitimer B02 Chronograph 41 Cosmonaute."
+      }
+    ]
+  },
+  {
+    "id": 8317,
+    "brand": "Citizen",
+    "model": "Eco-Drive Super Titanium AW1900",
+    "canonicalModel": "Eco-Drive Super Titanium AW1900",
+    "modelGroup": "citizen-eco-drive-super-titanium-aw1900",
+    "variant": "Black dial",
+    "reference": "AW1900-50E",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 9.49,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/the-citizen-eco-drive-aw1900-series-pushes-the-boundaries-of-affordability/",
+        "note": "Fratello hands-on with the four Eco-Drive AW1900 models lists 40 mm diameter, 45 mm lug-to-lug, and 9.49 mm thickness. The bracelet is 22 mm wide at the lugs."
+      },
+      {
+        "sourceUrl": "https://citizenwatch.eu/p/aw1900-50e/",
+        "note": "Manufacturer page lists AW1900-50E in the 40 mm Super Titanium AW1900 series."
+      }
+    ]
+  },
+  {
+    "id": 8318,
+    "brand": "Citizen",
+    "model": "Eco-Drive Super Titanium AW1900",
+    "canonicalModel": "Eco-Drive Super Titanium AW1900",
+    "modelGroup": "citizen-eco-drive-super-titanium-aw1900",
+    "variant": "Silver dial",
+    "reference": "AW1900-50A",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 9.49,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/the-citizen-eco-drive-aw1900-series-pushes-the-boundaries-of-affordability/",
+        "note": "Fratello hands-on with the four Eco-Drive AW1900 models lists 40 mm diameter, 45 mm lug-to-lug, and 9.49 mm thickness. The bracelet is 22 mm wide at the lugs."
+      },
+      {
+        "sourceUrl": "https://citizenwatch.eu/p/aw1900-50a/",
+        "note": "Manufacturer page lists AW1900-50A in the 40 mm Super Titanium AW1900 series."
+      }
+    ]
+  },
+  {
+    "id": 8319,
+    "brand": "Citizen",
+    "model": "Eco-Drive Super Titanium AW1900",
+    "canonicalModel": "Eco-Drive Super Titanium AW1900",
+    "modelGroup": "citizen-eco-drive-super-titanium-aw1900",
+    "variant": "Green dial",
+    "reference": "AW1900-50X",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 9.49,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/the-citizen-eco-drive-aw1900-series-pushes-the-boundaries-of-affordability/",
+        "note": "Fratello hands-on with the four Eco-Drive AW1900 models lists 40 mm diameter, 45 mm lug-to-lug, and 9.49 mm thickness. The bracelet is 22 mm wide at the lugs."
+      },
+      {
+        "sourceUrl": "https://citizenwatch.eu/p/aw1900-50x/",
+        "note": "Manufacturer page lists AW1900-50X in the 40 mm Super Titanium AW1900 series."
+      }
+    ]
+  },
+  {
+    "id": 8320,
+    "brand": "Citizen",
+    "model": "Eco-Drive Super Titanium AW1900",
+    "canonicalModel": "Eco-Drive Super Titanium AW1900",
+    "modelGroup": "citizen-eco-drive-super-titanium-aw1900",
+    "variant": "Blue dial",
+    "reference": "AW1900-50L",
+    "lugToLugMm": 45,
+    "caseMm": 40,
+    "thicknessMm": 9.49,
+    "lugWidthMm": 22,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/the-citizen-eco-drive-aw1900-series-pushes-the-boundaries-of-affordability/",
+        "note": "Fratello hands-on with the four Eco-Drive AW1900 models lists 40 mm diameter, 45 mm lug-to-lug, and 9.49 mm thickness. The bracelet is 22 mm wide at the lugs."
+      },
+      {
+        "sourceUrl": "https://citizenwatch.eu/p/aw1900-50l/",
+        "note": "Manufacturer page lists AW1900-50L in the 40 mm Super Titanium AW1900 series."
+      }
+    ]
+  },
+  {
+    "id": 8321,
+    "brand": "Sinn",
+    "model": "140 A S Anniversary",
+    "reference": "140.050",
+    "lugToLugMm": 46,
+    "caseMm": 44,
+    "thicknessMm": 15.5,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/new-sinn-140-a-s-anniversary/",
+        "note": "Fratello article on the 140 A S Anniversary Chronograph lists 44 mm diameter, 46 mm lug-to-lug, and 15.5 mm thickness."
+      },
+      {
+        "sourceUrl": "https://ocarat.com/en/140-a-s-aniversary-chronograph-watch-140050-sinn-130529.html",
+        "note": "Retailer listing gives reference 140.050 for the 300-piece 140 A S Anniversary chronograph."
+      }
+    ]
+  },
+  {
+    "id": 8322,
+    "brand": "Hamilton",
+    "model": "Khaki Field Murph 38mm",
+    "reference": "H70405140",
+    "lugToLugMm": 44.7,
+    "caseMm": 38,
+    "thicknessMm": 11.1,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/murphy-coopers-choice-the-hamilton-khaki-field-murph-38mm-with-a-new-blue-dial/",
+        "note": "Fratello hands-on with the blue-dial Khaki Field Murph 38mm lists 38 mm diameter, 44.7 mm lug-to-lug, and 11.1 mm thickness. Lug spacing is 20 mm."
+      },
+      {
+        "sourceUrl": "https://notes.nicolasdeville.com/watches/hamilton-murph-blue/",
+        "note": "Lists H70405140 (bracelet) and H70405740 (leather) for the blue-dial Khaki Field Murph 38mm."
+      }
+    ]
+  },
+  {
+    "id": 8323,
+    "brand": "Hamilton",
+    "model": "Khaki Field Murph 38mm",
+    "reference": "H70405740",
+    "lugToLugMm": 44.7,
+    "caseMm": 38,
+    "thicknessMm": 11.1,
+    "lugWidthMm": 20,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/murphy-coopers-choice-the-hamilton-khaki-field-murph-38mm-with-a-new-blue-dial/",
+        "note": "Fratello hands-on with the blue-dial Khaki Field Murph 38mm lists 38 mm diameter, 44.7 mm lug-to-lug, and 11.1 mm thickness. Lug spacing is 20 mm."
+      },
+      {
+        "sourceUrl": "https://notes.nicolasdeville.com/watches/hamilton-murph-blue/",
+        "note": "Lists H70405140 (bracelet) and H70405740 (leather) for the blue-dial Khaki Field Murph 38mm."
+      }
+    ]
+  },
+  {
+    "id": 8324,
+    "brand": "Glashütte Original",
+    "model": "Sixties Chronograph Annual Edition 2026",
+    "reference": "Sixties Chronograph Annual Edition 2026",
+    "lugToLugMm": 48.5,
+    "caseMm": 42,
+    "thicknessMm": 12.4,
+    "lugWidthMm": null,
+    "sources": [
+      {
+        "sourceUrl": "https://www.fratellowatches.com/glashutte-original-sixties-chronograph-purple/",
+        "note": "Fratello hands-on with the purple-dial Sixties Chronograph Annual Edition lists 42 mm diameter, 48.5 mm lug-to-lug, and 12.4 mm thickness."
+      }
+    ]
   }
 ]
