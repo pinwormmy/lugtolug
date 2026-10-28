@@ -151,11 +151,18 @@
       "modelSlug": "aquascaphe-gmt-green",
       "referenceSlug": "aquascaphe-gmt-green"
     },
-    "1298": {
-      "brandSlug": "baltic",
-      "modelSlug": "mr-classic-salmon",
-      "referenceSlug": "mr-classic-salmon"
-    },
+    "1298": [
+      {
+        "brandSlug": "baltic",
+        "modelSlug": "mr-classic-salmon",
+        "referenceSlug": "mr-classic-salmon"
+      },
+      {
+        "brandSlug": "baltic",
+        "modelSlug": "mr-classic-mr01-salmon",
+        "referenceSlug": "mr01-salmon"
+      }
+    ],
     "1299": {
       "brandSlug": "baltic",
       "modelSlug": "prismic-grey-blue",
@@ -1060,11 +1067,6 @@
       "modelSlug": "astroluna-t1-aventurine",
       "referenceSlug": "astroluna-t1-aventurine"
     },
-    "2698": {
-      "brandSlug": "formex",
-      "modelSlug": "essence-ceramica-skeleton-41mm",
-      "referenceSlug": "essence-ceramica-skeleton-41mm"
-    },
     "2699": {
       "brandSlug": "formex",
       "modelSlug": "field-automatic-gen-2",
@@ -1120,11 +1122,18 @@
       "modelSlug": "duality-ii",
       "referenceSlug": "duality-ii"
     },
-    "2718": {
-      "brandSlug": "formex",
-      "modelSlug": "essence-ceramica-skeleton-cosc-automatic-41mm",
-      "referenceSlug": "essence-ceramica-skeleton-cosc-41mm"
-    },
+    "2718": [
+      {
+        "brandSlug": "formex",
+        "modelSlug": "essence-ceramica-skeleton-cosc-automatic-41mm",
+        "referenceSlug": "essence-ceramica-skeleton-cosc-41mm"
+      },
+      {
+        "brandSlug": "formex",
+        "modelSlug": "essence-ceramica-skeleton-41mm",
+        "referenceSlug": "essence-ceramica-skeleton-41mm"
+      }
+    ],
     "2719": {
       "brandSlug": "chronoswiss",
       "modelSlug": "pulse-one",
@@ -1305,11 +1314,18 @@
       "modelSlug": "filthy-13-bronze",
       "referenceSlug": "filthy-13-bronze"
     },
-    "2778": {
-      "brandSlug": "formex",
-      "modelSlug": "stratos-utc-automatic-41mm",
-      "referenceSlug": "stratos-utc-automatic-41mm"
-    },
+    "2778": [
+      {
+        "brandSlug": "formex",
+        "modelSlug": "stratos-utc-automatic-41mm",
+        "referenceSlug": "stratos-utc-automatic-41mm"
+      },
+      {
+        "brandSlug": "formex",
+        "modelSlug": "stratos-utc",
+        "referenceSlug": "stratos-utc"
+      }
+    ],
     "2780": {
       "brandSlug": "karl-leimon",
       "modelSlug": "classic-field",
@@ -1744,11 +1760,18 @@
       "modelSlug": "avenger-2023",
       "referenceSlug": "avenger-2023"
     },
-    "2908": {
-      "brandSlug": "balmont",
-      "modelSlug": "bdx",
-      "referenceSlug": "bdx"
-    },
+    "2908": [
+      {
+        "brandSlug": "balmont",
+        "modelSlug": "bdx",
+        "referenceSlug": "bdx"
+      },
+      {
+        "brandSlug": "balmont",
+        "modelSlug": "adventure-automatic-collection",
+        "referenceSlug": "adventure-automatic-collection"
+      }
+    ],
     "2909": {
       "brandSlug": "luminox",
       "modelSlug": "master-carbon-seal-automatic-45mm",
@@ -1863,11 +1886,6 @@
       "brandSlug": "straum",
       "modelSlug": "jan-mayen",
       "referenceSlug": "jan-mayen"
-    },
-    "2947": {
-      "brandSlug": "bangalore-watch-company",
-      "modelSlug": "s-space",
-      "referenceSlug": "s-space"
     },
     "2948": {
       "brandSlug": "breitling",
@@ -2485,11 +2503,6 @@
       "brandSlug": "atelier-wen",
       "modelSlug": "porcelain-odyssey-hao-purple-edition",
       "referenceSlug": "porcelain-odyssey-hao-purple-edition"
-    },
-    "3273": {
-      "brandSlug": "baltic",
-      "modelSlug": "mr-classic-mr01-salmon",
-      "referenceSlug": "mr01-salmon"
     },
     "3274": {
       "brandSlug": "baltic",
@@ -4009,11 +4022,18 @@
       "modelSlug": "laureato-fifty-steel",
       "referenceSlug": "laureato-fifty-steel"
     },
-    "5073": {
-      "brandSlug": "arken",
-      "modelSlug": "alterum-sage-grey-gmt",
-      "referenceSlug": "alterum-sage-grey-gmt"
-    },
+    "5073": [
+      {
+        "brandSlug": "arken",
+        "modelSlug": "alterum-sage-grey-gmt",
+        "referenceSlug": "alterum-sage-grey-gmt"
+      },
+      {
+        "brandSlug": "arken",
+        "modelSlug": "alterum",
+        "referenceSlug": "alterum"
+      }
+    ],
     "5077": {
       "brandSlug": "czapek",
       "modelSlug": "time-jumper-steel",
@@ -4029,16 +4049,30 @@
       "modelSlug": "santos-dumont-lm-bracelet",
       "referenceSlug": "santos-dumont-lm-bracelet"
     },
-    "5081": {
-      "brandSlug": "cartier",
-      "modelSlug": "roadster-large-2026",
-      "referenceSlug": "roadster-large-2026"
-    },
-    "5082": {
-      "brandSlug": "cartier",
-      "modelSlug": "roadster-medium-2026",
-      "referenceSlug": "roadster-medium-2026"
-    },
+    "5081": [
+      {
+        "brandSlug": "cartier",
+        "modelSlug": "roadster-large-2026",
+        "referenceSlug": "roadster-large-2026"
+      },
+      {
+        "brandSlug": "cartier",
+        "modelSlug": "roadster-large",
+        "referenceSlug": "roadster-large-2025"
+      }
+    ],
+    "5082": [
+      {
+        "brandSlug": "cartier",
+        "modelSlug": "roadster-medium-2026",
+        "referenceSlug": "roadster-medium-2026"
+      },
+      {
+        "brandSlug": "cartier",
+        "modelSlug": "roadster-midsize",
+        "referenceSlug": "roadster-midsize-2025"
+      }
+    ],
     "5083": {
       "brandSlug": "htd",
       "modelSlug": "phantom",
@@ -4064,11 +4098,18 @@
       "modelSlug": "antarctic-erotic",
       "referenceSlug": "antarctic-erotic"
     },
-    "5089": {
-      "brandSlug": "baltic",
-      "modelSlug": "heures-du-monde-stone-dials",
-      "referenceSlug": "heures-du-monde-stone-dials"
-    },
+    "5089": [
+      {
+        "brandSlug": "baltic",
+        "modelSlug": "heures-du-monde-stone-dials",
+        "referenceSlug": "heures-du-monde-stone-dials"
+      },
+      {
+        "brandSlug": "baltic",
+        "modelSlug": "heures-du-monde",
+        "referenceSlug": "heures-du-monde"
+      }
+    ],
     "5090": {
       "brandSlug": "tissot",
       "modelSlug": "gentleman-powermatic-80-38mm",
@@ -5962,11 +6003,6 @@
       "modelSlug": "marinagraph-classic-racing",
       "referenceSlug": "marinagraph-classic-racing"
     },
-    "6132": {
-      "brandSlug": "baltic",
-      "modelSlug": "heures-du-monde",
-      "referenceSlug": "heures-du-monde"
-    },
     "6133": {
       "brandSlug": "baltic",
       "modelSlug": "mr-moissanite",
@@ -6126,11 +6162,6 @@
       "brandSlug": "aera",
       "modelSlug": "m-1",
       "referenceSlug": "m-1"
-    },
-    "6218": {
-      "brandSlug": "arken",
-      "modelSlug": "alterum",
-      "referenceSlug": "alterum"
     },
     "6219": {
       "brandSlug": "barrelhand",
@@ -6512,6 +6543,11 @@
         "brandSlug": "berneron",
         "modelSlug": "mirage",
         "referenceSlug": "mirage-prussian-blue-sienna"
+      },
+      {
+        "brandSlug": "berneron",
+        "modelSlug": "mirage-prototype",
+        "referenceSlug": "mirage-prototype"
       }
     ],
     "6379": {
@@ -6899,11 +6935,6 @@
       "modelSlug": "gentleman",
       "referenceSlug": "gentleman"
     },
-    "6539": {
-      "brandSlug": "berneron",
-      "modelSlug": "mirage-prototype",
-      "referenceSlug": "mirage-prototype"
-    },
     "6540": {
       "brandSlug": "breitling",
       "modelSlug": "chronomat-automatic-gmt-40-nfl-team-editions",
@@ -7018,11 +7049,6 @@
       "brandSlug": "farer",
       "modelSlug": "aquamatic-thurso",
       "referenceSlug": "aquamatic-thurso"
-    },
-    "6615": {
-      "brandSlug": "formex",
-      "modelSlug": "stratos-utc",
-      "referenceSlug": "stratos-utc"
     },
     "6616": {
       "brandSlug": "grand-seiko",
@@ -7450,16 +7476,6 @@
       "brandSlug": "cartier",
       "modelSlug": "tank-must-solarbeat-small",
       "referenceSlug": "tank-must-solarbeat-small"
-    },
-    "6745": {
-      "brandSlug": "cartier",
-      "modelSlug": "roadster-large",
-      "referenceSlug": "roadster-large-2025"
-    },
-    "6746": {
-      "brandSlug": "cartier",
-      "modelSlug": "roadster-midsize",
-      "referenceSlug": "roadster-midsize-2025"
     },
     "6747": {
       "brandSlug": "cartier",
@@ -8678,11 +8694,18 @@
       "modelSlug": "argon-spaceone",
       "referenceSlug": "argon-spaceone"
     },
-    "7083": {
-      "brandSlug": "bangalore-watch-company",
-      "modelSlug": "apogee-manzinus-and-earthshine",
-      "referenceSlug": "apogee-manzinus-and-earthshine"
-    },
+    "7083": [
+      {
+        "brandSlug": "bangalore-watch-company",
+        "modelSlug": "apogee-manzinus-and-earthshine",
+        "referenceSlug": "apogee-manzinus-and-earthshine"
+      },
+      {
+        "brandSlug": "bangalore-watch-company",
+        "modelSlug": "s-space",
+        "referenceSlug": "s-space"
+      }
+    ],
     "7084": {
       "brandSlug": "marnaut",
       "modelSlug": "dark-surge",
@@ -8858,11 +8881,18 @@
       "modelSlug": "c-titanium-edition-six",
       "referenceSlug": "c-titanium-edition-six"
     },
-    "7129": {
-      "brandSlug": "sherpa",
-      "modelSlug": "ops-compressor-trts-edition",
-      "referenceSlug": "ops-compressor-trts-edition"
-    },
+    "7129": [
+      {
+        "brandSlug": "sherpa",
+        "modelSlug": "ops-compressor-trts-edition",
+        "referenceSlug": "ops-compressor-trts-edition"
+      },
+      {
+        "brandSlug": "sherpa",
+        "modelSlug": "sleek-sherpa-x-trts-ops-in-sandblasted-steel",
+        "referenceSlug": "sleek-sherpa-x-trts-ops-in-sandblasted-steel"
+      }
+    ],
     "7130": {
       "brandSlug": "dietrich",
       "modelSlug": "ed-1-made-for-daily-wear",
@@ -9488,11 +9518,6 @@
       "modelSlug": "monaco-gulf-2018-special-edition",
       "referenceSlug": "monaco-gulf-2018-special-edition"
     },
-    "7315": {
-      "brandSlug": "rgm",
-      "modelSlug": "william-penn-series",
-      "referenceSlug": "william-penn-series"
-    },
     "7316": {
       "brandSlug": "parmigiani-fleurier",
       "modelSlug": "kalpa-qualite-fleurier",
@@ -9587,11 +9612,6 @@
       "brandSlug": "girard-perregaux",
       "modelSlug": "vintage-1945-infinity-edition",
       "referenceSlug": "vintage-1945-infinity-edition"
-    },
-    "7343": {
-      "brandSlug": "jacob-and-co",
-      "modelSlug": "astronomia-casino",
-      "referenceSlug": "astronomia-casino"
     },
     "7344": {
       "brandSlug": "tag-heuer",
@@ -9840,16 +9860,6 @@
       "modelSlug": "recital-23",
       "referenceSlug": "recital-23"
     },
-    "7410": {
-      "brandSlug": "jacob-and-co",
-      "modelSlug": "the-world-is-yours-dual-time-zone",
-      "referenceSlug": "the-world-is-yours-dual-time-zone"
-    },
-    "7411": {
-      "brandSlug": "balmont",
-      "modelSlug": "adventure-automatic-collection",
-      "referenceSlug": "adventure-automatic-collection"
-    },
     "7414": {
       "brandSlug": "raymond-weil",
       "modelSlug": "freelancer-collection",
@@ -9869,11 +9879,6 @@
       "brandSlug": "atelier-wen",
       "modelSlug": "perception-wristcheck-x-seconde-seconde",
       "referenceSlug": "perception-wristcheck-x-seconde-seconde"
-    },
-    "7422": {
-      "brandSlug": "sherpa",
-      "modelSlug": "sleek-sherpa-x-trts-ops-in-sandblasted-steel",
-      "referenceSlug": "sleek-sherpa-x-trts-ops-in-sandblasted-steel"
     },
     "7423": {
       "brandSlug": "bausele",
@@ -10000,11 +10005,6 @@
       "modelSlug": "1972-competition-chronograph-black-and-white",
       "referenceSlug": "1972-competition-chronograph-black-and-white"
     },
-    "7458": {
-      "brandSlug": "briston",
-      "modelSlug": "streamliner-kennedy-automatic",
-      "referenceSlug": "streamliner-kennedy-automatic"
-    },
     "7459": {
       "brandSlug": "mb-and-f",
       "modelSlug": "sp-one",
@@ -10049,11 +10049,6 @@
       "brandSlug": "beda-a",
       "modelSlug": "beda-a-angles-mecaline",
       "referenceSlug": "beda-a-angles-mecaline"
-    },
-    "7469": {
-      "brandSlug": "briston",
-      "modelSlug": "clubmaster-legend-classic",
-      "referenceSlug": "clubmaster-legend-classic"
     },
     "7471": {
       "brandSlug": "praesidus",
@@ -10124,11 +10119,6 @@
       "brandSlug": "lorige",
       "modelSlug": "bl-endurance-evolution-bleu-asphalte-gold",
       "referenceSlug": "bl-endurance-evolution-bleu-asphalte-gold"
-    },
-    "7488": {
-      "brandSlug": "briston",
-      "modelSlug": "clubmaster-legend-diver-ocean",
-      "referenceSlug": "clubmaster-legend-diver-ocean"
     },
     "7489": {
       "brandSlug": "a-lange-and-sohne",

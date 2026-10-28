@@ -24418,6 +24418,10 @@
       {
         "sourceUrl": "https://baltic-watches.com/en/products/mr-classic-salmon",
         "note": "Official Baltic product page lists 36 mm case diameter, 44 mm lug-to-lug, 9.9 mm thickness, and 20 mm lug width."
+      },
+      {
+        "sourceUrl": "https://sf.delugs.com/api/strap-finder",
+        "note": "Delugs Strap Finder API lists 36mm case diameter, 44mm lug-to-lug distance, 20mm lug width for Baltic MR Classic MR01 Salmon MR01 Salmon."
       }
     ]
   },
@@ -24576,12 +24580,12 @@
     "reference": "",
     "lugToLugMm": 45,
     "caseMm": 39,
-    "thicknessMm": 11.8,
+    "thicknessMm": 10.9,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://farer.com/products/resolute-iii",
-        "note": "Official Farer product page lists 39 mm diameter, 45 mm lug-to-lug, 11.8 mm depth, and 20 mm lug width."
+        "note": "Official Farer product page lists 39 mm diameter, 45 mm lug-to-lug, 11.8 mm depth, and 20 mm lug width. Corrected (thicknessMm 11.8): farer.com lists 10.9 mm."
       }
     ]
   },
@@ -24656,12 +24660,12 @@
     "reference": "",
     "lugToLugMm": 45,
     "caseMm": 39,
-    "thicknessMm": 11.8,
+    "thicknessMm": 10.9,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://farer.com/products/aurora",
-        "note": "Official Farer product page lists 39 mm diameter, 45 mm lug-to-lug, 11.8 mm depth, and 20 mm lug width."
+        "note": "Official Farer product page lists 39 mm diameter, 45 mm lug-to-lug, 11.8 mm depth, and 20 mm lug width. Corrected (thicknessMm 11.8): farer.com lists 10.9 mm."
       }
     ]
   },
@@ -36104,7 +36108,7 @@
     "model": "Pilot’s Watch Performance Chronograph 41 - Ceratanium on bracelet",
     "canonicalModel": "Pilot’s Watch Performance Chronograph 41",
     "modelGroup": "iwc-pilot-s-watch-performance-chronograph-41",
-    "variant": "Ceratanium on bracelet",
+    "variant": "Ceratanium on rubber strap",
     "reference": "IW388306",
     "lugToLugMm": 51.8,
     "caseMm": 41.1,
@@ -50606,12 +50610,12 @@
     "reference": "",
     "lugToLugMm": 47.7,
     "caseMm": 39,
-    "thicknessMm": 11.1,
+    "thicknessMm": 12,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.ablogtowatch.com/watch-review-albishorn-type-10-chronograph-vintage-style-watch/",
-        "note": "aBlogtoWatch article states dimensions of 39mm case, 47.7mm lug-to-lug, 11.1mm thickness."
+        "note": "aBlogtoWatch article states dimensions of 39mm case, 47.7mm lug-to-lug, 11.1mm thickness. Corrected (thicknessMm 11.1): 12 mm including the sapphire (11.1 mm excluded it)."
       }
     ]
   },
@@ -50700,26 +50704,6 @@
       {
         "sourceUrl": "https://monochrome-watches.com/hands-on-review-vicenterra-astroluna-t1-aventurine-independent-watchmaking-specs-price/",
         "note": "MONOCHROME reports 51.64mm lug-to-lug, 43.5mm case size/width, 13.5mm thickness for VicenTerra AstroLUNA T1 Aventurine in “The Mesmerizing Vicenterra Astroluna T1 Aventurine.”"
-      }
-    ]
-  },
-  {
-    "id": 2698,
-    "brand": "Formex",
-    "model": "Essence Ceramica Skeleton 41mm",
-    "reference": "",
-    "lugToLugMm": 46.4,
-    "caseMm": 41,
-    "thicknessMm": 11.2,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://www.ablogtowatch.com/watch-review-formex-essence-ceramica-skeleton-41mm/",
-        "note": "aBlogtoWatch article states dimensions of 41mm case, 46.4mm lug-to-lug, 11.2mm thickness."
-      },
-      {
-        "sourceUrl": "https://monochrome-watches.com/formex-essence-ceramica-41mm-automatic-cosc-new-soprod-movement-full-ceramic-price-introducing/",
-        "note": "MONOCHROME reports 46.2mm lug-to-lug, 41mm case size/width, 11.2mm thickness for Formex Essence Ceramica Skeleton 41mm in “Formex Dresses its Bestseller in Full-Ceramic with the New Essence Ceramica.”"
       }
     ]
   },
@@ -51901,6 +51885,10 @@
       {
         "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-formex-stratos-utc-automatic-41mm-watch/",
         "note": "aBlogtoWatch article states dimensions of 41mm case, 47mm lug-to-lug, 11.8mm thickness, and 20mm lug width."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/the-formex-stratos-utc-a-practical-new-take-on-the-gmt-live-pics",
+        "note": "Hodinkee reports 47mm lug-to-lug, 41mm case size/width, 11.8mm thickness, 20mm lug width for Formex Stratos UTC in “Introducing: The Formex Stratos UTC – A Practical New Take On The GMT (Live Pics).”"
       }
     ]
   },
@@ -52317,12 +52305,12 @@
     "reference": "427.406",
     "lugToLugMm": 47.7,
     "caseMm": 39,
-    "thicknessMm": 10.85,
+    "thicknessMm": 14.77,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://www.ablogtowatch.com/new-release-airain-type-20-x-seconde-seconde-up-in-the-air-watch/",
-        "note": "aBlogtoWatch article states dimensions of 39mm case, 47.7mm lug-to-lug, 10.85mm thickness, and 20mm lug width."
+        "note": "aBlogtoWatch article states dimensions of 39mm case, 47.7mm lug-to-lug, 10.85mm thickness, and 20mm lug width. Corrected (thicknessMm 10.85): Airain gives 14.77 mm overall (10.85 mm excluded the crystal)."
       },
       {
         "sourceUrl": "https://www.airain.com/product/airain-type-20-up-in-the-air-x-seconde-seconde/",
@@ -52629,12 +52617,12 @@
     "reference": "",
     "lugToLugMm": 46,
     "caseMm": 40,
-    "thicknessMm": 12,
+    "thicknessMm": 12.5,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.ablogtowatch.com/actually-affordable-zelos-mako-300m-gmt-watch/",
-        "note": "aBlogtoWatch article states dimensions of 40mm case, 46mm lug-to-lug, 12mm thickness."
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 46mm lug-to-lug, 12mm thickness. Corrected (thicknessMm 12): Zelos lists 12.5 mm."
       }
     ]
   },
@@ -52780,12 +52768,12 @@
     "reference": "DB.CH.931",
     "lugToLugMm": 51.6,
     "caseMm": 41.8,
-    "thicknessMm": 11.7,
+    "thicknessMm": 15.9,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-brellum-duobox-triple-calendar-moophase-chronometer-watch/",
-        "note": "aBlogtoWatch article states dimensions of 41.8mm case, 51.6mm lug-to-lug, 11.7mm thickness, and 22mm lug width."
+        "note": "aBlogtoWatch article states dimensions of 41.8mm case, 51.6mm lug-to-lug, 11.7mm thickness, and 22mm lug width. Corrected (thicknessMm 11.7): 15.9 mm full height including the box crystals."
       },
       {
         "sourceUrl": "https://www.fratellowatches.com/hands-on-with-the-brellum-duobox-triple-calendar-moonphase-chronometer/",
@@ -52816,12 +52804,12 @@
     "reference": "WW194013DT-0112",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": 13,
+    "thicknessMm": 11,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://www.ablogtowatch.com/hands-on-marathon-navigator-desert-tan-pilots-watch/",
-        "note": "aBlogtoWatch article states dimensions of 41mm case, 48mm lug-to-lug, 13mm thickness, and 20mm lug width."
+        "note": "aBlogtoWatch article states dimensions of 41mm case, 48mm lug-to-lug, 13mm thickness, and 20mm lug width. Corrected (thicknessMm 13): aBlogtoWatch gives 41 x 11 mm."
       }
     ]
   },
@@ -53185,12 +53173,12 @@
     "reference": "",
     "lugToLugMm": 46,
     "caseMm": 38.5,
-    "thicknessMm": 10,
+    "thicknessMm": 12.5,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://www.ablogtowatch.com/hands-on-traska-venturer-gmt-watch/",
-        "note": "aBlogtoWatch article states dimensions of 38.5mm case, 46mm lug-to-lug, 10mm thickness, and 20mm lug width."
+        "note": "aBlogtoWatch article states dimensions of 38.5mm case, 46mm lug-to-lug, 10mm thickness, and 20mm lug width. Corrected (thicknessMm 10): about 12.5 mm overall (10 mm excluded the box crystal)."
       }
     ]
   },
@@ -53702,14 +53690,14 @@
     "brand": "Formex",
     "model": "Baby Reef 39.5mm Automatic COSC 300M",
     "reference": "",
-    "lugToLugMm": 47,
-    "caseMm": 42,
-    "thicknessMm": 11.4,
+    "lugToLugMm": 45.5,
+    "caseMm": 39.5,
+    "thicknessMm": 11,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-formex-baby-reef-39-5mm-automatic-cosc-300m-watch/",
-        "note": "aBlogtoWatch article states dimensions of 42mm case, 47mm lug-to-lug, 11.4mm thickness."
+        "note": "aBlogtoWatch article states dimensions of 42mm case, 47mm lug-to-lug, 11.4mm thickness. Corrected (lugToLugMm 47, caseMm 42, thicknessMm 11.4): aBlogtoWatch gives the Baby Reef 39.5 mm, 45.5 mm lug-to-lug, 11 mm thick; 42/47/11.4 are the full-size Reef."
       }
     ]
   },
@@ -53790,12 +53778,12 @@
     "reference": "",
     "lugToLugMm": 42,
     "caseMm": 35,
-    "thicknessMm": 7,
+    "thicknessMm": 10.1,
     "lugWidthMm": 18,
     "sources": [
       {
         "sourceUrl": "https://www.ablogtowatch.com/hands-on-debut-nivada-grenchen-antarctic-35mm-watch/",
-        "note": "aBlogtoWatch article states dimensions of 35mm case, 42mm lug-to-lug, 7mm thickness, and 18mm lug width."
+        "note": "aBlogtoWatch article states dimensions of 35mm case, 42mm lug-to-lug, 7mm thickness, and 18mm lug width. Corrected (thicknessMm 7): 10.1 mm total height (7 mm excluded the crystal)."
       },
       {
         "sourceUrl": "https://www.hodinkee.com/articles/vintage-or-modern-the-new-nivada-grenchen-antarctic-35mm-helps-us-take-on-the-age-old-debate",
@@ -53952,6 +53940,10 @@
       {
         "sourceUrl": "https://www.ablogtowatch.com/new-release-balmont-introduces-the-bdx-watch-collection/",
         "note": "aBlogtoWatch article states dimensions of 40mm case, 48mm lug-to-lug, 12mm thickness."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/new-accessible-brand-balmont-watches-first-collection-of-adventure-themed-automatic-watches-value-proposition-specs-price/",
+        "note": "MONOCHROME reports approximately 48mm lug-to-lug, 40mm case size/width for Balmont Watches Adventure Automatic Collection in “New Accessible Brand Balmont, and its First Collection of Adventure-Themed Automatic Watches.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
       }
     ]
   },
@@ -54510,36 +54502,16 @@
     "reference": "",
     "lugToLugMm": 45.8,
     "caseMm": 39,
-    "thicknessMm": 9.9,
+    "thicknessMm": 11.3,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.ablogtowatch.com/watch-review-straum-jan-mayen/",
-        "note": "aBlogtoWatch article states dimensions of 39mm case, 45.8mm lug-to-lug, 9.9mm thickness."
+        "note": "aBlogtoWatch article states dimensions of 39mm case, 45.8mm lug-to-lug, 9.9mm thickness. Corrected (thicknessMm 9.9): 11.3 mm overall (9.9 mm excluded the crystal)."
       },
       {
         "sourceUrl": "https://www.hodinkee.com/articles/taking-a-closer-look-at-the-straum-jan-mayen-titanium-featuring-the-brands-first-integrated-rubber-s",
         "note": "Hodinkee reports 45.8mm lug-to-lug, 39mm case size/width for Straum Jan Mayen Titanium in “Hands-On: The Straum Jan Mayen Titanium, Now Featuring The Brand’s First Integrated Rubber Strap.”"
-      }
-    ]
-  },
-  {
-    "id": 2947,
-    "brand": "Bangalore Watch Company",
-    "model": "'s Space",
-    "reference": "",
-    "lugToLugMm": 44,
-    "caseMm": 40,
-    "thicknessMm": 12,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://www.ablogtowatch.com/bangalore-watch-companys-space-inspired-manzinus-and-earthshine-watches-take-off/",
-        "note": "aBlogtoWatch article states dimensions of 40mm case, 44mm lug-to-lug, 12mm thickness."
-      },
-      {
-        "sourceUrl": "https://monochrome-watches.com/introducing-bangalore-watch-company-apogee-collection-a-tribute-india-space-programme-price/",
-        "note": "MONOCHROME reports 44mm lug-to-lug, 40mm case size/width for Bangalore Watch Company 's Space in “The Bangalore Watch Company Apogee Collection, a Tribute to India’s Space Programme.”"
       }
     ]
   },
@@ -54652,14 +54624,14 @@
     "brand": "Boldr",
     "model": "Safari Ranger Kopje Field",
     "reference": "",
-    "lugToLugMm": 48,
+    "lugToLugMm": 46,
     "caseMm": 40,
     "thicknessMm": 12,
     "lugWidthMm": 20,
     "sources": [
       {
         "sourceUrl": "https://www.ablogtowatch.com/hands-on-boldr-safari-ranger-kopje-field-watch/",
-        "note": "aBlogtoWatch article states dimensions of 40mm case, 48mm lug-to-lug, 12mm thickness, and 20mm lug width."
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 48mm lug-to-lug, 12mm thickness, and 20mm lug width. Corrected (lugToLugMm 48): Boldr lists 46 mm lug-to-lug."
       }
     ]
   },
@@ -55132,13 +55104,13 @@
     "model": "Seamaster 300M Co-Axial Master Chronometer",
     "reference": "",
     "lugToLugMm": 50,
-    "caseMm": 41,
+    "caseMm": 42,
     "thicknessMm": 12,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.ablogtowatch.com/omega-seamaster-300m-co-axial-master-chronometer-watch-review/",
-        "note": "aBlogtoWatch article states dimensions of 41mm case, 50mm lug-to-lug, 12mm thickness."
+        "note": "aBlogtoWatch article states dimensions of 41mm case, 50mm lug-to-lug, 12mm thickness. Corrected (caseMm 41): the 2018 Seamaster Diver 300M is 42 mm; 41 mm was the previous generation."
       }
     ]
   },
@@ -55240,13 +55212,13 @@
     "model": "MK1 Steel Chronograph 42mm",
     "reference": "",
     "lugToLugMm": 49,
-    "caseMm": 40,
+    "caseMm": 42,
     "thicknessMm": 12.5,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.ablogtowatch.com/timex-mk1-steel-chronograph-42mm-watch-review/",
-        "note": "aBlogtoWatch article states dimensions of 40mm case, 49mm lug-to-lug, 12.5mm thickness."
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 49mm lug-to-lug, 12.5mm thickness. Corrected (caseMm 40): the MK1 Chronograph is 42 mm wide; 40 mm is the three-hand MK1."
       }
     ]
   },
@@ -55296,13 +55268,13 @@
     "model": "King XL",
     "reference": "",
     "lugToLugMm": 53,
-    "caseMm": 37,
+    "caseMm": 45,
     "thicknessMm": 13,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.ablogtowatch.com/mr-jones-king-xl-watch-review/",
-        "note": "aBlogtoWatch article states dimensions of 37mm case, 53mm lug-to-lug, 13mm thickness."
+        "note": "aBlogtoWatch article states dimensions of 37mm case, 53mm lug-to-lug, 13mm thickness. Corrected (caseMm 37): aBlogtoWatch: the King XL is 45 mm wide; 37 mm is the original King."
       }
     ]
   },
@@ -55345,12 +55317,12 @@
     "reference": "",
     "lugToLugMm": 46,
     "caseMm": 38,
-    "thicknessMm": 10.5,
+    "thicknessMm": 12,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.ablogtowatch.com/maen-hudson-38-automatic-watch/",
-        "note": "aBlogtoWatch article states dimensions of 38mm case, 46mm lug-to-lug, 10.5mm thickness."
+        "note": "aBlogtoWatch article states dimensions of 38mm case, 46mm lug-to-lug, 10.5mm thickness. Corrected (thicknessMm 10.5): 12 mm overall including the domed crystal (10.5 mm excluded it)."
       },
       {
         "sourceUrl": "https://www.hodinkee.com/articles/maen-hudson-38-automatic-hands-on",
@@ -55592,8 +55564,8 @@
   },
   {
     "id": 3011,
-    "brand": "Parmigiani Bugatti",
-    "model": "Super Sport",
+    "brand": "Parmigiani Fleurier",
+    "model": "Bugatti Super Sport Black",
     "reference": "",
     "lugToLugMm": 50.5,
     "caseMm": 36.3,
@@ -56911,13 +56883,13 @@
     "model": "Chapter I Tourbillon Chronographe Monopoussoir",
     "reference": "AK-01",
     "lugToLugMm": 50,
-    "caseMm": 43,
+    "caseMm": 42.5,
     "thicknessMm": null,
     "lugWidthMm": 21,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
-        "note": "Delugs Strap Finder API lists 43mm case diameter, 50mm lug-to-lug distance, 21mm lug width for Akrivia Chapter I Tourbillon Chronographe Monopoussoir Tourbillon Chronographe Monopoussoir."
+        "note": "Delugs Strap Finder API lists 43mm case diameter, 50mm lug-to-lug distance, 21mm lug width for Akrivia Chapter I Tourbillon Chronographe Monopoussoir Tourbillon Chronographe Monopoussoir. Corrected (caseMm 43): the brand gives 42.5 mm."
       },
       {
         "sourceUrl": "https://www.rexheprexhepi.com/collections/ak-01",
@@ -57200,7 +57172,7 @@
     "reference": "",
     "lugToLugMm": 46,
     "caseMm": 39.5,
-    "thicknessMm": null,
+    "thicknessMm": 11,
     "lugWidthMm": 20,
     "sources": [
       {
@@ -57325,7 +57297,7 @@
     "reference": "",
     "lugToLugMm": 46,
     "caseMm": 39,
-    "thicknessMm": null,
+    "thicknessMm": 10.45,
     "lugWidthMm": 20,
     "sources": [
       {
@@ -57398,7 +57370,7 @@
     "reference": "",
     "lugToLugMm": 46,
     "caseMm": 39,
-    "thicknessMm": null,
+    "thicknessMm": 10.45,
     "lugWidthMm": 20,
     "sources": [
       {
@@ -58662,12 +58634,12 @@
     "reference": "ST24-TRI.HM.AC.M.A4.FC",
     "lugToLugMm": 44.35,
     "caseMm": 38,
-    "thicknessMm": 9,
+    "thicknessMm": 9.38,
     "lugWidthMm": 18,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
-        "note": "Delugs Strap Finder API lists 38mm case diameter, 44.35mm lug-to-lug distance, 18mm lug width for Armin Strom System 78 Tribute² Copper Edition ST24-TRI.HM.AC.M.A4.FC."
+        "note": "Delugs Strap Finder API lists 38mm case diameter, 44.35mm lug-to-lug distance, 18mm lug width for Armin Strom System 78 Tribute² Copper Edition ST24-TRI.HM.AC.M.A4.FC. Corrected (thicknessMm 9): Armin Strom lists 9.38 mm."
       },
       {
         "sourceUrl": "https://www.ablogtowatch.com/new-release-armin-strom-tribute%c2%b2-copper-edition-watch/",
@@ -59921,22 +59893,6 @@
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
         "note": "Delugs Strap Finder API lists 39mm case diameter, 48.5mm lug-to-lug distance for Audemars Piguet Royal Oak Royal Oak Extra-Thin 16202BA.HH.1241BA.01."
-      }
-    ]
-  },
-  {
-    "id": 3273,
-    "brand": "Baltic",
-    "model": "MR Classic MR01 Salmon",
-    "reference": "",
-    "lugToLugMm": 44,
-    "caseMm": 36,
-    "thicknessMm": null,
-    "lugWidthMm": 20,
-    "sources": [
-      {
-        "sourceUrl": "https://sf.delugs.com/api/strap-finder",
-        "note": "Delugs Strap Finder API lists 36mm case diameter, 44mm lug-to-lug distance, 20mm lug width for Baltic MR Classic MR01 Salmon MR01 Salmon."
       }
     ]
   },
@@ -90733,14 +90689,14 @@
     "brand": "Zelos",
     "model": "Swordfish Field 38mm Bronze Meteorite",
     "reference": "",
-    "lugToLugMm": 48,
-    "caseMm": 42,
-    "thicknessMm": null,
-    "lugWidthMm": 22,
+    "lugToLugMm": 44,
+    "caseMm": 38,
+    "thicknessMm": 12,
+    "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://sf.delugs.com/api/strap-finder",
-        "note": "Delugs Strap Finder API lists 42mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Zelos Swordfish Swordfish Field 38mm Bronze Meteorite Swordfish Field 38mm Bronze Meteorite."
+        "note": "Delugs Strap Finder API lists 42mm case diameter, 48mm lug-to-lug distance, 22mm lug width for Zelos Swordfish Swordfish Field 38mm Bronze Meteorite Swordfish Field 38mm Bronze Meteorite. Corrected (lugToLugMm 48, caseMm 42, thicknessMm null, lugWidthMm 22): Zelos lists the Swordfish Field 38mm at 38 mm, 44 mm lug-to-lug, 12 mm thick; 42/48 are the 42 mm Swordfish."
       }
     ]
   },
@@ -91384,6 +91340,10 @@
       {
         "sourceUrl": "https://www.fratellowatches.com/cartier-roadster-comes-roaring-back/",
         "note": "Fratello article lists the large 2026 Cartier Roadster at 38 mm case width, 47 mm lug-to-lug, and 10.06 mm profile."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/introducing-cartier-roadster",
+        "note": "Hodinkee reports 47mm lug-to-lug, 38mm case size/width, 10.06mm thickness for Cartier Roadster Large in “Introducing: The Cartier Roadster Returns.” The article's planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
       }
     ]
   },
@@ -91400,6 +91360,10 @@
       {
         "sourceUrl": "https://www.fratellowatches.com/cartier-roadster-comes-roaring-back/",
         "note": "Fratello article lists the medium 2026 Cartier Roadster case as 34.9 x 42.5 x 9.7 mm."
+      },
+      {
+        "sourceUrl": "https://www.hodinkee.com/articles/introducing-cartier-roadster",
+        "note": "Hodinkee reports 42.5mm lug-to-lug, 34.9mm case size/width, 9.7mm thickness for Cartier Roadster Midsize in “Introducing: The Cartier Roadster Returns.” The article's planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
       }
     ]
   },
@@ -98842,13 +98806,13 @@
     "model": "Modello Due U2-AB",
     "reference": "U2-AB",
     "lugToLugMm": 47.5,
-    "caseMm": 39,
+    "caseMm": 38.5,
     "thicknessMm": 15.7,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=27&cate_no=30",
-        "note": "IntoWatch product specification image lists 39 mm case, 47.5 mm lug-to-lug, 15.7 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+        "note": "IntoWatch product specification image lists 39 mm case, 47.5 mm lug-to-lug, 15.7 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case. Corrected (caseMm 39): Unimatic lists a 38.5 mm case."
       },
       {
         "sourceUrl": "https://www.unimaticwatches.com/products/uwk-u2-ab",
@@ -98865,13 +98829,13 @@
     "model": "Modello Due U2-AG",
     "reference": "U2-AG",
     "lugToLugMm": 47.5,
-    "caseMm": 39,
+    "caseMm": 38.5,
     "thicknessMm": 15.7,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=26&cate_no=30",
-        "note": "IntoWatch product specification image lists 39 mm case, 47.5 mm lug-to-lug, 15.7 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+        "note": "IntoWatch product specification image lists 39 mm case, 47.5 mm lug-to-lug, 15.7 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case. Corrected (caseMm 39): Unimatic lists a 38.5 mm case."
       },
       {
         "sourceUrl": "https://www.unimaticwatches.com/products/uwk-u2-ag",
@@ -98888,13 +98852,13 @@
     "model": "Modello Uno U1-B",
     "reference": "U1-B",
     "lugToLugMm": 49,
-    "caseMm": 41.5,
+    "caseMm": 40,
     "thicknessMm": 13.6,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=25&cate_no=30",
-        "note": "IntoWatch product specification image lists 41.5 mm case, 49 mm lug-to-lug, 13.6 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+        "note": "IntoWatch product specification image lists 41.5 mm case, 49 mm lug-to-lug, 13.6 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case. Corrected (caseMm 41.5): Unimatic: 40 mm case with a 41.5 mm bezel."
       },
       {
         "sourceUrl": "https://monochrome-watches.com/the-new-unimatic-modelo-uno-prodiver-collection/",
@@ -98915,13 +98879,13 @@
     "model": "Modello Uno U1-A",
     "reference": "U1-A",
     "lugToLugMm": 49,
-    "caseMm": 41.5,
+    "caseMm": 40,
     "thicknessMm": 13.6,
     "lugWidthMm": 22,
     "sources": [
       {
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=14&cate_no=30",
-        "note": "IntoWatch product specification image lists 41.5 mm case, 49 mm lug-to-lug, 13.6 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case."
+        "note": "IntoWatch product specification image lists 41.5 mm case, 49 mm lug-to-lug, 13.6 mm thickness, and 22 mm lug width. Values transcribed from the retailer's specification image and cross-checked across sibling variants sharing the same case. Corrected (caseMm 41.5): Unimatic: 40 mm case with a 41.5 mm bezel."
       },
       {
         "sourceUrl": "https://monochrome-watches.com/the-new-unimatic-modelo-uno-prodiver-collection/",
@@ -103044,14 +103008,14 @@
     "brand": "Gruppo Gamma",
     "model": "Peacemaker PN-19",
     "reference": "PN-19",
-    "lugToLugMm": 52,
-    "caseMm": 44,
-    "thicknessMm": 11.5,
+    "lugToLugMm": 52.5,
+    "caseMm": 43,
+    "thicknessMm": 13,
     "lugWidthMm": 24,
     "sources": [
       {
         "sourceUrl": "https://m.intowatch.com/product/detail.html?product_no=147&cate_no=29",
-        "note": "IntoWatch product specification image lists 44 mm case, 52 mm lug-to-lug, 11.5 mm thickness, 24 mm lug width. Values transcribed with Vision OCR from the retailer's specification image."
+        "note": "IntoWatch product specification image lists 44 mm case, 52 mm lug-to-lug, 11.5 mm thickness, 24 mm lug width. Values transcribed with Vision OCR from the retailer's specification image. Corrected (lugToLugMm 52, caseMm 44, thicknessMm 11.5): brand page for PN-19: 43 mm, 52.5 mm lug-to-lug, 13 mm thick (the IntoWatch text was copied from another model)."
       },
       {
         "sourceUrl": "https://gruppogamma.com/products/pn-19",
@@ -110274,7 +110238,7 @@
   {
     "id": 6099,
     "brand": "Straum",
-    "model": "Fratello x Straum Jan Mayan Limited Edition",
+    "model": "Fratello x Straum Jan Mayen Limited Edition",
     "reference": "",
     "lugToLugMm": 45.8,
     "caseMm": 39,
@@ -110610,7 +110574,7 @@
   {
     "id": 6118,
     "brand": "OraOrea",
-    "model": "Corliolis Pointer Date",
+    "model": "Coriolis Pointer Date",
     "reference": "",
     "lugToLugMm": 45,
     "caseMm": 38.5,
@@ -110882,30 +110846,6 @@
       {
         "sourceUrl": "https://www.fratellowatches.com/introducing-the-awe-inspiring-armin-strom-minute-repeater-resonance-1259-first-edition/",
         "note": "Fratello introduction lists the Minute Repeater Resonance 12:59 First Edition at 42 mm titanium case diameter, 11.7 mm thickness, and 48 mm lug-to-lug."
-      }
-    ]
-  },
-  {
-    "id": 6132,
-    "brand": "Baltic",
-    "model": "Heures du Monde",
-    "reference": "",
-    "lugToLugMm": 45,
-    "caseMm": 37,
-    "thicknessMm": 11.3,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://www.hodinkee.com/articles/introducing-baltic-heures-du-monde",
-        "note": "Hodinkee reports 45mm lug-to-lug, 37mm case size/width, 11.3mm thickness for Baltic Heures du Monde in “Introducing: Baltic Goes Worldwide With The New 'Heures du Monde'.”"
-      },
-      {
-        "sourceUrl": "https://www.hodinkee.com/articles/hands-on-baltic-heures-du-monde",
-        "note": "Hodinkee reports 45mm lug-to-lug, 37mm case size/width, 11.3mm thickness for Baltic Heures du Monde Worldtimer in “Hands-On: Baltic's Heures du Monde Worldtimer Is Back — Here's Why I Bought One the First Time.”"
-      },
-      {
-        "sourceUrl": "https://monochrome-watches.com/baltic-heures-du-monde-accessible-worldtime-gmt-stone-dials-labradorite-tiger-eye-sodalite-price-review/",
-        "note": "MONOCHROME reports 45mm lug-to-lug, 37mm case size/width, 11.3mm thickness, 20mm lug width for Baltic Heures du Monde in “The Baltic Heures du Monde, an Accessible Take on The Worldtime.”"
       }
     ]
   },
@@ -111814,14 +111754,14 @@
     "brand": "Naoya Hida & Co.",
     "model": "NH Type 4A",
     "reference": "NH TYPE 4A",
-    "lugToLugMm": 43,
+    "lugToLugMm": 42.9,
     "caseMm": 36,
     "thicknessMm": 11,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.hodinkee.com/articles/naoya-hida-launches-its-fourth-series-now-with-a-36mm-case",
-        "note": "Hodinkee reports 43mm lug-to-lug, 36mm case size/width, 11mm thickness for Naoya Hida & Co. NH Type 4A in “Introducing: Naoya Hida Launches Its Fourth Series, Now With A 36mm Case.”"
+        "note": "Hodinkee reports 43mm lug-to-lug, 36mm case size/width, 11mm thickness for Naoya Hida & Co. NH Type 4A in “Introducing: Naoya Hida Launches Its Fourth Series, Now With A 36mm Case.” Corrected (lugToLugMm 43): Naoya Hida's archive page gives 42.9 mm."
       },
       {
         "sourceUrl": "https://monochrome-watches.com/the-armoury-x-naoya-hida-reference-type-4a-2-floating-feathers-introducing-price/",
@@ -111838,14 +111778,14 @@
     "brand": "Naoya Hida & Co.",
     "model": "NH Type 4A-1",
     "reference": "NH TYPE 4A-1",
-    "lugToLugMm": 43,
+    "lugToLugMm": 42.9,
     "caseMm": 36,
     "thicknessMm": 11,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.hodinkee.com/articles/naoya-hida-launches-its-fourth-series-now-with-a-36mm-case",
-        "note": "Hodinkee reports 43mm lug-to-lug, 36mm case size/width, 11mm thickness for Naoya Hida & Co. NH Type 4A-1 in “Introducing: Naoya Hida Launches Its Fourth Series, Now With A 36mm Case.”"
+        "note": "Hodinkee reports 43mm lug-to-lug, 36mm case size/width, 11mm thickness for Naoya Hida & Co. NH Type 4A-1 in “Introducing: Naoya Hida Launches Its Fourth Series, Now With A 36mm Case.” Corrected (lugToLugMm 43): Naoya Hida's archive page gives 42.9 mm."
       },
       {
         "sourceUrl": "https://monochrome-watches.com/the-armoury-x-naoya-hida-reference-type-4a-2-floating-feathers-introducing-price/",
@@ -112522,22 +112462,6 @@
     ]
   },
   {
-    "id": 6218,
-    "brand": "Arken",
-    "model": "Alterum",
-    "reference": "",
-    "lugToLugMm": 46,
-    "caseMm": 38,
-    "thicknessMm": 13,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://www.hodinkee.com/articles/the-arken-alterum-sage-grey",
-        "note": "Hodinkee reports 46mm lug-to-lug, 38mm case size/width, 13mm thickness for Arken Alterum in “Introducing: The Arken Alterum Sage Grey.”"
-      }
-    ]
-  },
-  {
     "id": 6219,
     "brand": "Barrelhand",
     "model": "Monolith",
@@ -112744,12 +112668,12 @@
     "reference": "",
     "lugToLugMm": 48,
     "caseMm": 41,
-    "thicknessMm": 11.65,
+    "thicknessMm": 12.05,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.hodinkee.com/articles/the-christopher-ward-c63-sealander-extreme-gmt",
-        "note": "Hodinkee reports 48mm lug-to-lug, 41mm case size/width, 11.65mm thickness for Christopher Ward C63 Sealander Extreme GMT in “Introducing: The Christopher Ward C63 Sealander Extreme GMT.”"
+        "note": "Hodinkee reports 48mm lug-to-lug, 41mm case size/width, 11.65mm thickness for Christopher Ward C63 Sealander Extreme GMT in “Introducing: The Christopher Ward C63 Sealander Extreme GMT.” Corrected (thicknessMm 11.65): Fratello gives 12.05 mm including the crystal."
       },
       {
         "sourceUrl": "https://www.fratellowatches.com/hands-on-with-the-christopher-ward-c63-sealander-extreme-gmt/",
@@ -112980,7 +112904,7 @@
   {
     "id": 6244,
     "brand": "Brew x Worn & Wound",
-    "model": "Metro Chrono Regulator Lumint",
+    "model": "Metric Chrono Regulator Lumint",
     "reference": "",
     "lugToLugMm": 41.5,
     "caseMm": 36,
@@ -113147,13 +113071,13 @@
     "model": "Sector Deep Pioneer 'Ranger'",
     "reference": "",
     "lugToLugMm": 47,
-    "caseMm": 42,
+    "caseMm": 38,
     "thicknessMm": 13.6,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.hodinkee.com/articles/the-nodus-sector-deep-pioneer-goes-green",
-        "note": "Hodinkee reports 47mm lug-to-lug, 42mm case size/width, 13.6mm thickness for Nodus Sector Deep Pioneer 'Ranger' in “Introducing: The Nodus Sector Deep Pioneer Goes Green.”"
+        "note": "Hodinkee reports 47mm lug-to-lug, 42mm case size/width, 13.6mm thickness for Nodus Sector Deep Pioneer 'Ranger' in “Introducing: The Nodus Sector Deep Pioneer Goes Green.” Corrected (caseMm 42): Hodinkee: 38 mm case (42 mm is the bezel)."
       }
     ]
   },
@@ -114324,12 +114248,12 @@
     "reference": "",
     "lugToLugMm": 39.5,
     "caseMm": 37,
-    "thicknessMm": 10.3,
+    "thicknessMm": 8.3,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.hodinkee.com/articles/farer-37mm-hand-wound-stanhope-hands-on",
-        "note": "Hodinkee reports 39.5mm lug-to-lug, 37mm case size/width, 10.3mm thickness for Farer Stanhope in “Hands-On: The Farer 37mm Hand-Wound Stanhope.”"
+        "note": "Hodinkee reports 39.5mm lug-to-lug, 37mm case size/width, 10.3mm thickness for Farer Stanhope in “Hands-On: The Farer 37mm Hand-Wound Stanhope.” Corrected (thicknessMm 10.3): Hodinkee gives 8.3 mm."
       }
     ]
   },
@@ -115578,12 +115502,12 @@
     "reference": "",
     "lugToLugMm": 33,
     "caseMm": 26,
-    "thicknessMm": 5.9,
+    "thicknessMm": 6.9,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.hodinkee.com/articles/echoneutra-combines-brutalism-and-compact-elegance-to-create-the-rivanera-piccolo",
-        "note": "Hodinkee reports 33mm lug-to-lug, 26mm case size/width, 5.9mm thickness for Echo/Neutra Rivanera Piccolo in “Hands-On: Echo/Neutra Combines Brutalism And Compact Elegance To Create The Rivanera Piccolo.”"
+        "note": "Hodinkee reports 33mm lug-to-lug, 26mm case size/width, 5.9mm thickness for Echo/Neutra Rivanera Piccolo in “Hands-On: Echo/Neutra Combines Brutalism And Compact Elegance To Create The Rivanera Piccolo.” Corrected (thicknessMm 5.9): Hodinkee and the brand give 6.9 mm."
       }
     ]
   },
@@ -115696,14 +115620,14 @@
     "brand": "Temporal Works",
     "model": "Rambler",
     "reference": "",
-    "lugToLugMm": 45,
+    "lugToLugMm": 45.88,
     "caseMm": 37,
     "thicknessMm": 10,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.hodinkee.com/articles/hands-on-temporal-works-series-a-rambler",
-        "note": "Hodinkee reports 45mm lug-to-lug, 37mm case size/width, 10mm thickness for Temporal Works Rambler in “Hands-On: The Temporal Works Series A 'Rambler'.”"
+        "note": "Hodinkee reports 45mm lug-to-lug, 37mm case size/width, 10mm thickness for Temporal Works Rambler in “Hands-On: The Temporal Works Series A 'Rambler'.” Corrected (lugToLugMm 45): Temporal Works lists 45.88 mm lug-to-lug."
       }
     ]
   },
@@ -115826,7 +115750,7 @@
   {
     "id": 6406,
     "brand": "H. Moser & Cie.",
-    "model": "Streamliner Cylindrical Tourbillon Skeleton Alpine Drivers Edition",
+    "model": "Streamliner Flyback Chronograph Alpine Drivers Edition",
     "reference": "",
     "lugToLugMm": 45,
     "caseMm": 42.3,
@@ -116564,14 +116488,14 @@
     "brand": "Naoya Hida & Co.",
     "model": "Type 2C-2",
     "reference": "NH TYPE 2C-2",
-    "lugToLugMm": 44.8,
+    "lugToLugMm": 44.5,
     "caseMm": 37,
     "thicknessMm": 11.4,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.hodinkee.com/articles/intro-naoya-hida-2026",
-        "note": "Hodinkee reports 44.8mm lug-to-lug, 37mm case size/width, 11.4mm thickness for Naoya Hida & Co. Type 2C-2 in “Introducing: Naoya Hida & Co.'s 2026 Slate Of Releases, Including Two Brand-New Models And Their First Porcelain Dial.”"
+        "note": "Hodinkee reports 44.8mm lug-to-lug, 37mm case size/width, 11.4mm thickness for Naoya Hida & Co. Type 2C-2 in “Introducing: Naoya Hida & Co.'s 2026 Slate Of Releases, Including Two Brand-New Models And Their First Porcelain Dial.” Corrected (lugToLugMm 44.8): Naoya Hida's spec table gives 44.5 mm."
       },
       {
         "sourceUrl": "https://naoyahidawatch.com/new-release/nh-type-2c-2/?lang=en",
@@ -117087,14 +117011,14 @@
     "brand": "Tissot",
     "model": "PRX Powermatic 80 35mm",
     "reference": "",
-    "lugToLugMm": 39,
+    "lugToLugMm": 44.7,
     "caseMm": 35,
     "thicknessMm": 10.9,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.hodinkee.com/articles/the-tissot-prx-powermatic-80-now-finally-in-35mm",
-        "note": "Hodinkee reports 39mm lug-to-lug, 35mm case size/width, 10.9mm thickness for Tissot PRX Powermatic 80 35mm in “Hands-On: The Tissot PRX Powermatic 80, Now (Finally) In 35mm.”"
+        "note": "Hodinkee reports 39mm lug-to-lug, 35mm case size/width, 10.9mm thickness for Tissot PRX Powermatic 80 35mm in “Hands-On: The Tissot PRX Powermatic 80, Now (Finally) In 35mm.” Corrected (lugToLugMm 39): PRX 35 mm effective wearing length including the fixed first link (seed rule); 39 mm was the case length."
       }
     ]
   },
@@ -118175,22 +118099,6 @@
       {
         "sourceUrl": "https://www.hodinkee.com/articles/best-mechanical-watches-under-1000-seiko-hamilton-tissot",
         "note": "Hodinkee reports approximately 49mm lug-to-lug, 40mm case size/width, 10.64mm thickness for Tissot Gentleman in “Three On Three: Comparing Mechanical Watches Under $1,000 From Seiko, Hamilton, And Tissot.”"
-      }
-    ]
-  },
-  {
-    "id": 6539,
-    "brand": "Berneron",
-    "model": "Mirage Prototype",
-    "reference": "",
-    "lugToLugMm": 42,
-    "caseMm": 33.5,
-    "thicknessMm": null,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://www.hodinkee.com/articles/breitling-designer-sylvain-berneron-sets-out-to-explore-asymmetry-on-his-own",
-        "note": "Hodinkee reports 42mm lug-to-lug, 33.5mm case size/width for Berneron Mirage Prototype in “One To Watch: Breitling Designer Sylvain Berneron Sets Out To Explore Asymmetry On His Own.”"
       }
     ]
   },
@@ -119463,22 +119371,6 @@
     ]
   },
   {
-    "id": 6615,
-    "brand": "Formex",
-    "model": "Stratos UTC",
-    "reference": "",
-    "lugToLugMm": 47,
-    "caseMm": 41,
-    "thicknessMm": 11.8,
-    "lugWidthMm": 20,
-    "sources": [
-      {
-        "sourceUrl": "https://www.hodinkee.com/articles/the-formex-stratos-utc-a-practical-new-take-on-the-gmt-live-pics",
-        "note": "Hodinkee reports 47mm lug-to-lug, 41mm case size/width, 11.8mm thickness, 20mm lug width for Formex Stratos UTC in “Introducing: The Formex Stratos UTC – A Practical New Take On The GMT (Live Pics).”"
-      }
-    ]
-  },
-  {
     "id": 6616,
     "brand": "Grand Seiko",
     "model": "44GS Spring Drive U.S. Limited Editions",
@@ -119816,13 +119708,13 @@
     "model": "Watch Ultra (1st generation)",
     "reference": "",
     "lugToLugMm": 49,
-    "caseMm": 46,
+    "caseMm": 44,
     "thicknessMm": 14.4,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.hodinkee.com/articles/a-mechanical-watch-fanatic-reviews-the-apple-watch-ultra",
-        "note": "Hodinkee reports 49mm lug-to-lug, 46mm case size/width, 14.4mm thickness for Apple Watch Ultra (1st generation) in “Hands-On: A Mechanical Watch Fanatic Reviews The Apple Watch Ultra.” The article's planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
+        "note": "Hodinkee reports 49mm lug-to-lug, 46mm case size/width, 14.4mm thickness for Apple Watch Ultra (1st generation) in “Hands-On: A Mechanical Watch Fanatic Reviews The Apple Watch Ultra.” The article's planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent. Corrected (caseMm 46): Apple lists 49 x 44 x 14.4 mm."
       }
     ]
   },
@@ -120793,7 +120685,7 @@
   {
     "id": 6691,
     "brand": "Longines",
-    "model": "Mini DolceVita Double Strap 2025",
+    "model": "Mini DolceVita Double Strap",
     "reference": "",
     "lugToLugMm": 29,
     "caseMm": 21.5,
@@ -121281,7 +121173,7 @@
     "reference": "",
     "lugToLugMm": 45,
     "caseMm": 37.3,
-    "thicknessMm": null,
+    "thicknessMm": 12.25,
     "lugWidthMm": null,
     "sources": [
       {
@@ -121775,38 +121667,6 @@
       {
         "sourceUrl": "https://www.betteridge.com/Cartier-Tank-Must-Watch..-Small-Model..-Photovoltaic-Solarbeat%E2%84%A2-Movement..-Steel-Case-WSTA0060/p/17311187",
         "note": "Reference WSTA0060: Authorized retailer: Tank Must small model, photovoltaic SolarBeat movement, steel, 29.5 x 22mm, manufacturer number WSTA0060."
-      }
-    ]
-  },
-  {
-    "id": 6745,
-    "brand": "Cartier",
-    "model": "Roadster Large",
-    "reference": "",
-    "lugToLugMm": 47,
-    "caseMm": 38,
-    "thicknessMm": 10.06,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://www.hodinkee.com/articles/introducing-cartier-roadster",
-        "note": "Hodinkee reports 47mm lug-to-lug, 38mm case size/width, 10.06mm thickness for Cartier Roadster Large in “Introducing: The Cartier Roadster Returns.” The article's planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
-      }
-    ]
-  },
-  {
-    "id": 6746,
-    "brand": "Cartier",
-    "model": "Roadster Midsize",
-    "reference": "",
-    "lugToLugMm": 42.5,
-    "caseMm": 34.9,
-    "thicknessMm": 9.7,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://www.hodinkee.com/articles/introducing-cartier-roadster",
-        "note": "Hodinkee reports 42.5mm lug-to-lug, 34.9mm case size/width, 9.7mm thickness for Cartier Roadster Midsize in “Introducing: The Cartier Roadster Returns.” The article's planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
       }
     ]
   },
@@ -123777,7 +123637,7 @@
   {
     "id": 6853,
     "brand": "Jaeger-LeCoultre",
-    "model": "Reverso Tribute Duoface",
+    "model": "Reverso Tribute Duoface Casa Fagliano",
     "reference": "Q396245J",
     "lugToLugMm": 49.4,
     "caseMm": 29.9,
@@ -124800,13 +124660,13 @@
     "model": "Grande Reverso 1931 Seconde Centrale",
     "reference": "Q381357J",
     "lugToLugMm": 46.8,
-    "caseMm": 27.8,
+    "caseMm": 27.4,
     "thicknessMm": null,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.hodinkee.com/articles/editors-picks-the-hodinkee-valentines-day-2016-watch-gift-guide",
-        "note": "Hodinkee reports 46.8mm lug-to-lug, 27.8mm case size/width for Jaeger-LeCoultre Grande Reverso 1931 Seconde Centrale in “Editors' Picks: The HODINKEE Valentine's Day 2016 Watch Gift Guide, Because Watches Won't Give You Cavities.” The article's planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
+        "note": "Hodinkee reports 46.8mm lug-to-lug, 27.8mm case size/width for Jaeger-LeCoultre Grande Reverso 1931 Seconde Centrale in “Editors' Picks: The HODINKEE Valentine's Day 2016 Watch Gift Guide, Because Watches Won't Give You Cavities.” The article's planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent. Corrected (caseMm 27.8): case width 27.4 mm (46.8 x 27.4 mm per Fratello and MONOCHROME)."
       },
       {
         "sourceUrl": "https://monochrome-watches.com/jaeger-lecoultre-grande-reverso-1931-seconde-centrale-hands-on-with-live-photos-sihh-2015-price/",
@@ -125558,13 +125418,13 @@
     "model": "H0 x Eau Rouge",
     "reference": "",
     "lugToLugMm": 48,
-    "caseMm": 42,
-    "thicknessMm": null,
+    "caseMm": 48.8,
+    "thicknessMm": 18.7,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/introducing-hyt-h0-eau-rouge-specs-price/",
-        "note": "MONOCHROME reports 48mm lug-to-lug, 42mm case size/width for HYT H0 x Eau Rouge in “HYT H0 x Eau Rouge.”"
+        "note": "MONOCHROME reports 48mm lug-to-lug, 42mm case size/width for HYT H0 x Eau Rouge in “HYT H0 x Eau Rouge.” Corrected (caseMm 42, thicknessMm null): MONOCHROME gives 48.8 mm x 18.7 mm; 42 mm was a comparison in the text."
       }
     ]
   },
@@ -125689,13 +125549,13 @@
     "model": "Hydrosphere Air Gauge",
     "reference": "RSV03.HY/130-21",
     "lugToLugMm": 45,
-    "caseMm": 42,
+    "caseMm": 45,
     "thicknessMm": null,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/reservoir-hydrosphere-air-gauge-dive-watch-review-price/",
-        "note": "MONOCHROME reports 45mm lug-to-lug, 42mm case size/width for Reservoir Watches Hydrosphere Air Gauge in “Reservoir Hydrosphere “Air Gauge” – A Very Unique Dive Watch.”"
+        "note": "MONOCHROME reports 45mm lug-to-lug, 42mm case size/width for Reservoir Watches Hydrosphere Air Gauge in “Reservoir Hydrosphere “Air Gauge” – A Very Unique Dive Watch.” Corrected (caseMm 42): the source gives a 45 mm diameter."
       }
     ]
   },
@@ -125784,14 +125644,14 @@
     "brand": "Staudt",
     "model": "Praeludium Chronograph Black Edition",
     "reference": "P45.034-R03",
-    "lugToLugMm": 51,
+    "lugToLugMm": 51.4,
     "caseMm": 41,
     "thicknessMm": null,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/staudt-praeludium-chronograph-black-edition-introducing-price/",
-        "note": "MONOCHROME reports 51mm lug-to-lug, 41mm case size/width for Staudt Praeludium Chronograph Black Edition in “Staudt Praeludium Chronograph Black Edition (Today’s most Appropriate Novelty…).”"
+        "note": "MONOCHROME reports 51mm lug-to-lug, 41mm case size/width for Staudt Praeludium Chronograph Black Edition in “Staudt Praeludium Chronograph Black Edition (Today’s most Appropriate Novelty…).” Corrected (lugToLugMm 51): MONOCHROME gives 51.4 mm."
       }
     ]
   },
@@ -126072,14 +125932,14 @@
     "brand": "Cuervo y Sobrinos",
     "model": "Historiador Flameante “Boutique Edition” Salmon Dial",
     "reference": "3130.1S",
-    "lugToLugMm": 50,
+    "lugToLugMm": 53,
     "caseMm": 40,
     "thicknessMm": null,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/cuervo-y-sobrinos-historiador-flameante-boutique-edition-salmon-dial-review-price/",
-        "note": "MONOCHROME reports 50mm lug-to-lug, 40mm case size/width for Cuervo y Sobrinos Historiador Flameante “Boutique Edition” Salmon Dial in “Cuervo y Sobrinos Historiador Flameante “Boutique Edition” Salmon Dial.”"
+        "note": "MONOCHROME reports 50mm lug-to-lug, 40mm case size/width for Cuervo y Sobrinos Historiador Flameante “Boutique Edition” Salmon Dial in “Cuervo y Sobrinos Historiador Flameante “Boutique Edition” Salmon Dial.” Corrected (lugToLugMm 50): MONOCHROME spec box: 40 x 6.2 mm with 53 mm lug-to-lug."
       }
     ]
   },
@@ -126105,13 +125965,13 @@
     "model": "Streamliner Flyback Chronograph Funky Blue",
     "reference": "6902-1201",
     "lugToLugMm": 45,
-    "caseMm": 40,
-    "thicknessMm": null,
+    "caseMm": 42.3,
+    "thicknessMm": 12.1,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/h-moser-cie-streamliner-flyback-chronograph-funky-blue-video-review-price/",
-        "note": "MONOCHROME reports approximately 45mm lug-to-lug, 40mm case size/width for H. Moser & Cie Streamliner Flyback Chronograph Funky Blue in “H. Moser & Cie. Streamliner Flyback Chronograph Funky Blue (Live Photos & Video Review).”"
+        "note": "MONOCHROME reports approximately 45mm lug-to-lug, 40mm case size/width for H. Moser & Cie Streamliner Flyback Chronograph Funky Blue in “H. Moser & Cie. Streamliner Flyback Chronograph Funky Blue (Live Photos & Video Review).” Corrected (caseMm 40, thicknessMm null): MONOCHROME gives 42.3 mm x 12.1 mm."
       }
     ]
   },
@@ -126177,13 +126037,13 @@
     "model": "Depthmaster",
     "reference": "",
     "lugToLugMm": 47,
-    "caseMm": 38,
-    "thicknessMm": null,
+    "caseMm": 39,
+    "thicknessMm": 13,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/nivada-grenchen-depthmaster-pac-man-rebirth-introducing-price/",
-        "note": "MONOCHROME reports 47mm lug-to-lug, 38mm case size/width for Nivada Grenchen Depthmaster in “The Nivada Grenchen Depthmaster Rebirth.”"
+        "note": "MONOCHROME reports 47mm lug-to-lug, 38mm case size/width for Nivada Grenchen Depthmaster in “The Nivada Grenchen Depthmaster Rebirth.” Corrected (caseMm 38, thicknessMm null): MONOCHROME gives 39 x 13 x 47 mm."
       }
     ]
   },
@@ -126581,7 +126441,7 @@
     "reference": "",
     "lugToLugMm": 48.8,
     "caseMm": 39,
-    "thicknessMm": null,
+    "thicknessMm": 12.8,
     "lugWidthMm": null,
     "sources": [
       {
@@ -126801,7 +126661,7 @@
     "reference": "",
     "lugToLugMm": 48,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 14.2,
     "lugWidthMm": null,
     "sources": [
       {
@@ -127152,7 +127012,7 @@
     "reference": "",
     "lugToLugMm": 49.6,
     "caseMm": 41,
-    "thicknessMm": null,
+    "thicknessMm": 14.5,
     "lugWidthMm": null,
     "sources": [
       {
@@ -127319,13 +127179,13 @@
     "model": "Skypod Limited Edition",
     "reference": "",
     "lugToLugMm": 43,
-    "caseMm": 47,
+    "caseMm": 46,
     "thicknessMm": null,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/ikepod-restomods-the-megapode-into-the-new-skypod-limited-edition/",
-        "note": "MONOCHROME reports 43mm lug-to-lug, 47mm case size/width for Ikepod Skypod Limited Edition in “Ikepod Restomods The Megapode Into The New Skypod Limited Edition.”"
+        "note": "MONOCHROME reports 43mm lug-to-lug, 47mm case size/width for Ikepod Skypod Limited Edition in “Ikepod Restomods The Megapode Into The New Skypod Limited Edition.” Corrected (caseMm 47): MONOCHROME gives 46 mm titanium; 47 mm was the earlier Megapode."
       }
     ]
   },
@@ -127403,7 +127263,7 @@
     "reference": "",
     "lugToLugMm": 45,
     "caseMm": 38.5,
-    "thicknessMm": null,
+    "thicknessMm": 9.7,
     "lugWidthMm": null,
     "sources": [
       {
@@ -127591,7 +127451,7 @@
     "reference": "",
     "lugToLugMm": 42,
     "caseMm": 51.67,
-    "thicknessMm": null,
+    "thicknessMm": 12.61,
     "lugWidthMm": null,
     "sources": [
       {
@@ -127607,12 +127467,20 @@
     "reference": "",
     "lugToLugMm": 44,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 12,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/introducing-bangalore-watch-company-apogee-manzinus-meteorite-earthshine-india-isro-independent-watchmaking-sellita-sw200-specs-price/",
         "note": "MONOCHROME reports 44mm lug-to-lug, 40mm case size/width for Bangalore Watch Company Apogee Manzinus & Earthshine in “The Bangalore Watch Company Apogee Manzinus & Earthshine.”"
+      },
+      {
+        "sourceUrl": "https://www.ablogtowatch.com/bangalore-watch-companys-space-inspired-manzinus-and-earthshine-watches-take-off/",
+        "note": "aBlogtoWatch article states dimensions of 40mm case, 44mm lug-to-lug, 12mm thickness."
+      },
+      {
+        "sourceUrl": "https://monochrome-watches.com/introducing-bangalore-watch-company-apogee-collection-a-tribute-india-space-programme-price/",
+        "note": "MONOCHROME reports 44mm lug-to-lug, 40mm case size/width for Bangalore Watch Company 's Space in “The Bangalore Watch Company Apogee Collection, a Tribute to India’s Space Programme.”"
       }
     ]
   },
@@ -127639,12 +127507,12 @@
     "reference": "",
     "lugToLugMm": 45,
     "caseMm": 38,
-    "thicknessMm": 11.5,
+    "thicknessMm": 11.1,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/introducing-nivada-grenchen-antarctic-spider-salmon-dial-soprod-beads-of-rice-specs-price/",
-        "note": "MONOCHROME reports 45mm lug-to-lug, 38mm case size/width, 11.5mm thickness for Nivada Grenchen Antarctic Spider Salmon in “The Tasty Nivada Grenchen Antarctic Spider Salmon.”"
+        "note": "MONOCHROME reports 45mm lug-to-lug, 38mm case size/width, 11.5mm thickness for Nivada Grenchen Antarctic Spider Salmon in “The Tasty Nivada Grenchen Antarctic Spider Salmon.” Corrected (thicknessMm 11.5): MONOCHROME gives 11.1 mm."
       }
     ]
   },
@@ -127957,11 +127825,11 @@
   {
     "id": 7108,
     "brand": "Peren",
-    "model": "Accessible Peren Regia X Automatic 39 Diver",
+    "model": "Regia Automatic 39",
     "reference": "",
     "lugToLugMm": 45.3,
     "caseMm": 39,
-    "thicknessMm": null,
+    "thicknessMm": 12.8,
     "lugWidthMm": null,
     "sources": [
       {
@@ -127981,7 +127849,7 @@
     "reference": "",
     "lugToLugMm": 50,
     "caseMm": 39,
-    "thicknessMm": null,
+    "thicknessMm": 9.2,
     "lugWidthMm": null,
     "sources": [
       {
@@ -128454,14 +128322,14 @@
     "brand": "Romain Gauthier",
     "model": "C Platinum Edition Bracelet",
     "reference": "MON00555",
-    "lugToLugMm": 48,
+    "lugToLugMm": 47.7,
     "caseMm": 41,
     "thicknessMm": 9.55,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/c-by-romain-gauthier-platinum-edition-bracelet-full-platinum-ice-blue-introducing-specs-price/",
-        "note": "MONOCHROME reports 48mm lug-to-lug, 41mm case size/width, 9.55mm thickness for Romain Gauthier C Platinum Edition Bracelet in “The C by Romain Gauthier Platinum Edition Bracelet Joins the Heritage Collection.”"
+        "note": "MONOCHROME reports 48mm lug-to-lug, 41mm case size/width, 9.55mm thickness for Romain Gauthier C Platinum Edition Bracelet in “The C by Romain Gauthier Platinum Edition Bracelet Joins the Heritage Collection.” Corrected (lugToLugMm 48): MONOCHROME gives 47.7 mm."
       },
       {
         "sourceUrl": "https://romaingauthier.com/en/timepieces/c-by-romain-gauthier/c-by-romain-gauthier-platinum-edition-bracelet-light-blue-dial/",
@@ -128491,13 +128359,13 @@
     "model": "Duobox 39mm Chronometer Limited Edition",
     "reference": "",
     "lugToLugMm": 48,
-    "caseMm": 39,
+    "caseMm": 39.5,
     "thicknessMm": 15.3,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/first-look-brellum-duobox-39mm-chronometer-le-limited-edition-chronograph-la-joux-perret-br-110-specs-price-live-pics/",
-        "note": "MONOCHROME reports 48mm lug-to-lug, 39mm case size/width, 15.3mm thickness for Brellum Duobox 39mm Chronometer Limited Edition in “The More Compact Brellum Duobox 39mm Chronometer Limited Edition.”"
+        "note": "MONOCHROME reports 48mm lug-to-lug, 39mm case size/width, 15.3mm thickness for Brellum Duobox 39mm Chronometer Limited Edition in “The More Compact Brellum Duobox 39mm Chronometer Limited Edition.” Corrected (caseMm 39): Fratello and MONOCHROME give 39.5 mm."
       },
       {
         "sourceUrl": "https://monochrome-watches.com/introducing-pink-brellum-duobox-39-mother-of-pearl-chronometer-specs-price/",
@@ -128675,7 +128543,7 @@
     "reference": "",
     "lugToLugMm": 47.5,
     "caseMm": 39,
-    "thicknessMm": null,
+    "thicknessMm": 10.8,
     "lugWidthMm": null,
     "sources": [
       {
@@ -128803,7 +128671,7 @@
     "reference": "",
     "lugToLugMm": 48,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 11.6,
     "lugWidthMm": null,
     "sources": [
       {
@@ -128915,7 +128783,7 @@
     "reference": "",
     "lugToLugMm": 47,
     "caseMm": 39.5,
-    "thicknessMm": null,
+    "thicknessMm": 11.5,
     "lugWidthMm": null,
     "sources": [
       {
@@ -129111,7 +128979,7 @@
     "reference": "",
     "lugToLugMm": 45.83,
     "caseMm": 39,
-    "thicknessMm": null,
+    "thicknessMm": 13.06,
     "lugWidthMm": null,
     "sources": [
       {
@@ -129175,12 +129043,12 @@
     "reference": "T2MS-SS-B-395-01",
     "lugToLugMm": 47.66,
     "caseMm": 39.5,
-    "thicknessMm": 16,
+    "thicknessMm": 14.4,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/benrus-type-2-mil-spec-re-edition-2025-us-issued-military-watch-introducing-price/",
-        "note": "MONOCHROME reports 47.66mm lug-to-lug, 39.5mm case size/width, 16mm thickness for Benrus Type 2 Mil Spec Re-Edition in “The Benrus Type 2 Mil Spec Re-Edition.”"
+        "note": "MONOCHROME reports 47.66mm lug-to-lug, 39.5mm case size/width, 16mm thickness for Benrus Type 2 Mil Spec Re-Edition in “The Benrus Type 2 Mil Spec Re-Edition.” Corrected (thicknessMm 16): the source gives 14.4 mm."
       }
     ]
   },
@@ -129382,7 +129250,7 @@
     "reference": "",
     "lugToLugMm": 46.5,
     "caseMm": 36,
-    "thicknessMm": null,
+    "thicknessMm": 11,
     "lugWidthMm": null,
     "sources": [
       {
@@ -129553,7 +129421,7 @@
     "reference": "",
     "lugToLugMm": 46,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 10.2,
     "lugWidthMm": null,
     "sources": [
       {
@@ -129955,13 +129823,13 @@
     "model": "Serie-R Chronograph Ice Blue",
     "reference": "",
     "lugToLugMm": 48.5,
-    "caseMm": 40,
+    "caseMm": 36,
     "thicknessMm": 13.3,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/introducing-new-depancel-serie-r-chronograph-ice-blue-price/",
-        "note": "MONOCHROME reports 48.5mm lug-to-lug, 40mm case size/width, 13.3mm thickness for Depancel Serie-R Chronograph Ice Blue in “The New Depancel Serie-R Chronograph Ice Blue.”"
+        "note": "MONOCHROME reports 48.5mm lug-to-lug, 40mm case size/width, 13.3mm thickness for Depancel Serie-R Chronograph Ice Blue in “The New Depancel Serie-R Chronograph Ice Blue.” Corrected (caseMm 40): MONOCHROME gives a 36 mm width (40 mm is the length)."
       },
       {
         "sourceUrl": "https://monochrome-watches.com/depancel-serie-r-tangerine-chronograph-automatic-calibre-peacock-sl-4801-hands-on-review-price/",
@@ -130107,7 +129975,7 @@
     "reference": "",
     "lugToLugMm": 38,
     "caseMm": 59,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": null,
     "sources": [
       {
@@ -130301,14 +130169,14 @@
     "brand": "RGM",
     "model": "Caliber 20",
     "reference": "Caliber 20",
-    "lugToLugMm": 42.5,
+    "lugToLugMm": 58,
     "caseMm": 38.5,
     "thicknessMm": null,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/rgm-caliber-20-born-in-the-usa/",
-        "note": "MONOCHROME reports 42.5mm lug-to-lug, 38.5mm case size/width for RGM Caliber 20 in “RGM Caliber 20: Born in the USA.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
+        "note": "MONOCHROME reports 42.5mm lug-to-lug, 38.5mm case size/width for RGM Caliber 20 in “RGM Caliber 20: Born in the USA.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent. Corrected (lugToLugMm 42.5): RGM: 42.5 x 38.5 mm case, 58 mm from lug end to lug end."
       },
       {
         "sourceUrl": "https://monochrome-watches.com/review-rgm-watch-caliber-20-the-classic-american-made-watch-price/",
@@ -130322,13 +130190,13 @@
     "model": "Deep Space Tourbillon",
     "reference": "",
     "lugToLugMm": 53,
-    "caseMm": 50,
-    "thicknessMm": null,
+    "caseMm": 46,
+    "thicknessMm": 20,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/vianney-halter-deep-space-tourbillon/",
-        "note": "MONOCHROME reports 53mm lug-to-lug, 50mm case size/width for Vianney Halter Deep Space Tourbillon in “Vianney Halter Deep Space Tourbillon.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
+        "note": "MONOCHROME reports 53mm lug-to-lug, 50mm case size/width for Vianney Halter Deep Space Tourbillon in “Vianney Halter Deep Space Tourbillon.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent. Corrected (caseMm 50, thicknessMm null): MONOCHROME: 46 mm case, 50 x 53 x 20 mm overall."
       }
     ]
   },
@@ -130373,14 +130241,14 @@
     "brand": "Hautlence",
     "model": "Destination 01",
     "reference": "",
-    "lugToLugMm": 43.5,
-    "caseMm": 37,
+    "lugToLugMm": 37,
+    "caseMm": 43.5,
     "thicknessMm": null,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/hautlence-destination-01-review-specs-photos-and-price/",
-        "note": "MONOCHROME reports 43.5mm lug-to-lug, 37mm case size/width for Hautlence Destination 01 in “Hautlence Destination 01 – Review (Specs, Photos and Price).” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
+        "note": "MONOCHROME reports 43.5mm lug-to-lug, 37mm case size/width for Hautlence Destination 01 in “Hautlence Destination 01 – Review (Specs, Photos and Price).” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent. Corrected (lugToLugMm 43.5, caseMm 37): horizontal case: 43.5 mm wide and 37 mm top to bottom (lug-to-lug)."
       },
       {
         "sourceUrl": "https://monochrome-watches.com/hautlence-introduces-destination-the-brands-first-dual-time-zone-watch/",
@@ -130496,14 +130364,14 @@
     "brand": "Hautlence",
     "model": "HL Black Ceramic",
     "reference": "",
-    "lugToLugMm": 43.5,
-    "caseMm": 37,
+    "lugToLugMm": 37,
+    "caseMm": 43.5,
     "thicknessMm": null,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/hautlence-hl-black-ceramic-hands-on-with-live-photos/",
-        "note": "MONOCHROME reports 43.5mm lug-to-lug, 37mm case size/width for Hautlence HL Black Ceramic in “Hautlence HL Black Ceramic – Hands-on with live photos.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
+        "note": "MONOCHROME reports 43.5mm lug-to-lug, 37mm case size/width for Hautlence HL Black Ceramic in “Hautlence HL Black Ceramic – Hands-on with live photos.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent. Corrected (lugToLugMm 43.5, caseMm 37): horizontal HL case: 43.5 mm wide and 37 mm top to bottom (lug-to-lug)."
       }
     ]
   },
@@ -130538,7 +130406,7 @@
   {
     "id": 7283,
     "brand": "De Bethune",
-    "model": "DBS Ref. DBS 2005/2015",
+    "model": "DBS",
     "reference": "",
     "lugToLugMm": 45,
     "caseMm": 42.5,
@@ -131082,29 +130950,13 @@
     "variant": "Monaco Gulf 2018 Special Edition"
   },
   {
-    "id": 7315,
-    "brand": "RGM",
-    "model": "William Penn Series",
-    "reference": "121-M",
-    "lugToLugMm": 40,
-    "caseMm": 28,
-    "thicknessMm": null,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://monochrome-watches.com/us-based-watchmaker-rgm-model-121-m-william-penn-reissue-price/",
-        "note": "MONOCHROME reports 40mm lug-to-lug, 28mm case size/width for RGM William Penn Series in “US-based Watchmaker RGM Reissues the Limited-Edition William Penn Series.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
-      }
-    ]
-  },
-  {
     "id": 7316,
     "brand": "Parmigiani Fleurier",
     "model": "Kalpa Qualité Fleurier",
     "reference": "PFC194-1601400",
     "lugToLugMm": 42.3,
     "caseMm": 32.1,
-    "thicknessMm": null,
+    "thicknessMm": 10.1,
     "lugWidthMm": null,
     "sources": [
       {
@@ -131220,7 +131072,7 @@
     "reference": "",
     "lugToLugMm": 48.2,
     "caseMm": 40.4,
-    "thicknessMm": null,
+    "thicknessMm": 14,
     "lugWidthMm": null,
     "sources": [
       {
@@ -131384,11 +131236,11 @@
   {
     "id": 7330,
     "brand": "Pedrozo & Piriz",
-    "model": "PP01, a new Indie Watchmaker",
+    "model": "PP01 Double Tourbillon",
     "reference": "",
     "lugToLugMm": 46.9,
     "caseMm": 41.5,
-    "thicknessMm": null,
+    "thicknessMm": 13.05,
     "lugWidthMm": null,
     "sources": [
       {
@@ -131487,7 +131339,7 @@
     "reference": "",
     "lugToLugMm": 51,
     "caseMm": 43,
-    "thicknessMm": null,
+    "thicknessMm": 15.8,
     "lugWidthMm": null,
     "sources": [
       {
@@ -131537,22 +131389,6 @@
       {
         "sourceUrl": "https://monochrome-watches.com/urwerk-ur-220-sl-asimov-introducing-price/",
         "note": "MONOCHROME reports 53.6mm lug-to-lug, 43.8mm case size/width for Urwerk UR-220 Falcon Project in “The Urwerk UR-220 SL Asimov.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
-      }
-    ]
-  },
-  {
-    "id": 7343,
-    "brand": "Jacob & Co.",
-    "model": "Astronomia Casino",
-    "reference": "AT160.40.AA.AA.A",
-    "lugToLugMm": 47,
-    "caseMm": 27.9,
-    "thicknessMm": null,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://monochrome-watches.com/jacob-and-co-astronomia-casino-roulette-watch-review-price/",
-        "note": "MONOCHROME reports 47mm lug-to-lug, 27.9mm case size/width for Jacob & Co Astronomia Casino in “Ultra-Complex & Extravagant, the Jacob & Co. Astronomia Casino.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
       }
     ]
   },
@@ -131760,13 +131596,13 @@
     "model": "Deep Space Resonance Prototype",
     "reference": "",
     "lugToLugMm": 52,
-    "caseMm": 50,
-    "thicknessMm": null,
+    "caseMm": 46,
+    "thicknessMm": 20,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/vianney-halter-deep-space-resonance-tourbillon-review-price/",
-        "note": "MONOCHROME reports 52mm lug-to-lug, 50mm case size/width for Vianney Halter Deep Space Resonance Prototype in “The Vianney Halter Deep Space Resonance Prototype (Live Pics).” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
+        "note": "MONOCHROME reports 52mm lug-to-lug, 50mm case size/width for Vianney Halter Deep Space Resonance Prototype in “The Vianney Halter Deep Space Resonance Prototype (Live Pics).” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent. Corrected (caseMm 50, thicknessMm null): MONOCHROME: 46 mm case, 50 x 53 x 20 mm overall."
       }
     ]
   },
@@ -132245,7 +132081,7 @@
   {
     "id": 7384,
     "brand": "Cvstos",
-    "model": "Dreamy Cvstos Re-Belle Moon",
+    "model": "Re-Belle Moon",
     "reference": "",
     "lugToLugMm": 47.2,
     "caseMm": 36,
@@ -132498,14 +132334,14 @@
     "brand": "Depancel",
     "model": "Serie-R 5th Anniversary Limited Edition",
     "reference": "",
-    "lugToLugMm": 43,
+    "lugToLugMm": 50,
     "caseMm": 36,
-    "thicknessMm": null,
+    "thicknessMm": 12.95,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/depancel-serie-r-5th-anniversary-limited-edition-hands-on-specs-price/",
-        "note": "MONOCHROME reports approximately 43mm lug-to-lug, 36mm case size/width for Depancel Serie-R 5th Anniversary Limited Edition in “The Depancel Serie-R 5th Anniversary Limited Edition (Live Pics & Price).” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
+        "note": "MONOCHROME reports approximately 43mm lug-to-lug, 36mm case size/width for Depancel Serie-R 5th Anniversary Limited Edition in “The Depancel Serie-R 5th Anniversary Limited Edition (Live Pics & Price).” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent. Corrected (lugToLugMm 43, thicknessMm null): 43 mm was the case length; the same Serie-R case measures 50 mm lug-to-lug (rows 8177, 7095) and 12.95 mm thick."
       }
     ]
   },
@@ -132661,38 +132497,6 @@
     "modelGroup": "bovet-recital-23"
   },
   {
-    "id": 7410,
-    "brand": "Jacob & Co.",
-    "model": "The World Is Yours Dual Time Zone",
-    "reference": "",
-    "lugToLugMm": 50,
-    "caseMm": 25,
-    "thicknessMm": null,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://monochrome-watches.com/jacob-and-co-the-world-is-yours-dual-time-zone-watch-specs-price/",
-        "note": "MONOCHROME reports 50mm lug-to-lug, 25mm case size/width for Jacob & Co The World Is Yours Dual Time Zone in “The Jacob & Co “The World Is Yours” Dual Time Zone Watch, A Tribute To The Arabov Family.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
-      }
-    ]
-  },
-  {
-    "id": 7411,
-    "brand": "Balmont",
-    "model": "Adventure Automatic Collection",
-    "reference": "",
-    "lugToLugMm": 48,
-    "caseMm": 40,
-    "thicknessMm": null,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://monochrome-watches.com/new-accessible-brand-balmont-watches-first-collection-of-adventure-themed-automatic-watches-value-proposition-specs-price/",
-        "note": "MONOCHROME reports approximately 48mm lug-to-lug, 40mm case size/width for Balmont Watches Adventure Automatic Collection in “New Accessible Brand Balmont, and its First Collection of Adventure-Themed Automatic Watches.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
-      }
-    ]
-  },
-  {
     "id": 7412,
     "brand": "Narbel & Co",
     "model": "Skel-1",
@@ -132832,22 +132636,6 @@
     "variant": "Perception Wristcheck x Seconde/Seconde"
   },
   {
-    "id": 7422,
-    "brand": "Sherpa",
-    "model": "Sleek Sherpa x TRTS OPS in Sandblasted Steel",
-    "reference": "",
-    "lugToLugMm": 49,
-    "caseMm": 40,
-    "thicknessMm": null,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://monochrome-watches.com/introducing-sherpa-x-trts-ops-sandblasted-steel-the-real-time-show-compressor-dive-watch-specs-price/",
-        "note": "MONOCHROME reports 49mm lug-to-lug, 40mm case size/width for Sherpa Sleek Sherpa x TRTS OPS in Sandblasted Steel in “The Sleek Sherpa x TRTS OPS in Sandblasted Steel.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
-      }
-    ]
-  },
-  {
     "id": 7423,
     "brand": "Bausele",
     "model": "x Seconde/Seconde",
@@ -132923,14 +132711,14 @@
     "brand": "Hautlence",
     "model": "HLXX",
     "reference": "CA20-TI00",
-    "lugToLugMm": 45,
-    "caseMm": 37,
+    "lugToLugMm": 37,
+    "caseMm": 45,
     "thicknessMm": null,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/introducing-hautlence-hlxx-20th-anniversary-comeback-original-hl-movement-specs-price/",
-        "note": "MONOCHROME reports 45mm lug-to-lug, 37mm case size/width for Hautlence HLXX in “The Hautlence HLXX, Celebrating The Brand’s 20th Anniversary With the Original HL Movement.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
+        "note": "MONOCHROME reports 45mm lug-to-lug, 37mm case size/width for Hautlence HLXX in “The Hautlence HLXX, Celebrating The Brand’s 20th Anniversary With the Original HL Movement.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent. Corrected (lugToLugMm 45, caseMm 37): Hautlence's smaller rectangular horizontal case is 45 mm wide and 37 mm top to bottom."
       },
       {
         "sourceUrl": "https://www.hautlence.com/products/hlxx",
@@ -133013,14 +132801,14 @@
     "brand": "Alpina",
     "model": "Alpiner Extreme Skeleton Automatic",
     "reference": "",
-    "lugToLugMm": 42.5,
-    "caseMm": 41,
+    "lugToLugMm": 40.5,
+    "caseMm": 39,
     "thicknessMm": null,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/alpina-alpiner-extreme-skeleton-automatic-more-compact-openworked-introducing-specs-price/",
-        "note": "MONOCHROME reports 42.5mm lug-to-lug, 41mm case size/width for Alpina Alpiner Extreme Skeleton Automatic in “Alpina Introduces the More Compact & Openworked Alpiner Extreme Skeleton Automatic.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
+        "note": "MONOCHROME reports 42.5mm lug-to-lug, 41mm case size/width for Alpina Alpiner Extreme Skeleton Automatic in “Alpina Introduces the More Compact & Openworked Alpiner Extreme Skeleton Automatic.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent. Corrected (lugToLugMm 42.5, caseMm 41): the Alpiner Extreme Skeleton is 39 mm across and 40.5 mm long per the article."
       }
     ],
     "canonicalModel": "Alpiner Extreme",
@@ -133080,14 +132868,14 @@
     "brand": "Hautlence",
     "model": "Sphere Series 2",
     "reference": "BA80-ST01",
-    "lugToLugMm": 50.8,
-    "caseMm": 43,
+    "lugToLugMm": 43,
+    "caseMm": 50.8,
     "thicknessMm": null,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/hautlence-sphere-series-2-spherical-jumping-hour-black-grey-edition-specs-price/",
-        "note": "MONOCHROME reports approximately 50.8mm lug-to-lug, 43mm case size/width for Hautlence Sphere Series 2 in “The Very Monochromatic and Yet Spectacular Hautlence Sphere Series 2.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
+        "note": "MONOCHROME reports approximately 50.8mm lug-to-lug, 43mm case size/width for Hautlence Sphere Series 2 in “The Very Monochromatic and Yet Spectacular Hautlence Sphere Series 2.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent. Corrected (lugToLugMm 50.8, caseMm 43): Hautlence's horizontal case is 50.8 mm wide and 43 mm top to bottom, as on the Vagabonde (row 7420)."
       },
       {
         "sourceUrl": "https://www.hautlence.com/products/the-sphere-copy",
@@ -133249,7 +133037,7 @@
     "reference": "",
     "lugToLugMm": 44,
     "caseMm": 36,
-    "thicknessMm": null,
+    "thicknessMm": 10.7,
     "lugWidthMm": null,
     "sources": [
       {
@@ -133311,22 +133099,6 @@
     "canonicalModel": "1972 Competition Chronograph",
     "modelGroup": "junghans-1972-competition-chronograph",
     "variant": "1972 Competition Chronograph Black & White"
-  },
-  {
-    "id": 7458,
-    "brand": "Briston",
-    "model": "Streamliner Kennedy Automatic",
-    "reference": "",
-    "lugToLugMm": 36,
-    "caseMm": 36,
-    "thicknessMm": null,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://monochrome-watches.com/briston-streamliner-kennedy-hms-automatic-tortoise-shell-acetate-case-hands-on-price/",
-        "note": "MONOCHROME reports 36mm lug-to-lug, 36mm case size/width for Briston Streamliner Kennedy Automatic in “The New, Accessible and Stylish Briston Streamliner Kennedy Automatic.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
-      }
-    ]
   },
   {
     "id": 7459,
@@ -133413,14 +133185,14 @@
     "brand": "Block RG",
     "model": "Stealth Tourbillon",
     "reference": "",
-    "lugToLugMm": 46,
-    "caseMm": 36,
-    "thicknessMm": null,
+    "lugToLugMm": 46.7,
+    "caseMm": 36.7,
+    "thicknessMm": 13.89,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://monochrome-watches.com/introducing-block-rg-stealth-tourbillon-new-indie-brand-radical-design-specs-price/",
-        "note": "MONOCHROME reports 46mm lug-to-lug, 36mm case size/width for Block RG Stealth Tourbillon in “New Indie Brand Block RG Presents the Radical Stealth Tourbillon.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
+        "note": "MONOCHROME reports 46mm lug-to-lug, 36mm case size/width for Block RG Stealth Tourbillon in “New Indie Brand Block RG Presents the Radical Stealth Tourbillon.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent. Corrected (lugToLugMm 46, caseMm 36, thicknessMm null): MONOCHROME gives 36.7 x 46.7 x 13.89 mm."
       }
     ]
   },
@@ -133489,22 +133261,6 @@
     ]
   },
   {
-    "id": 7469,
-    "brand": "Briston",
-    "model": "Clubmaster Legend Classic",
-    "reference": "",
-    "lugToLugMm": 39,
-    "caseMm": 39,
-    "thicknessMm": null,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://monochrome-watches.com/briston-clubmaster-legend-classic-collection-2025-acetate-tortoiseshell-price-introducing/",
-        "note": "MONOCHROME reports 39mm lug-to-lug, 39mm case size/width for Briston Clubmaster Legend Classic in “Briston Unveils the new Clubmaster Legend Classic Collection.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
-      }
-    ]
-  },
-  {
     "id": 7470,
     "brand": "Bell & Ross",
     "model": "BR-X3",
@@ -133527,7 +133283,7 @@
     "reference": "P-38-TWO-MBE-BKAG",
     "lugToLugMm": 45,
     "caseMm": 38,
-    "thicknessMm": null,
+    "thicknessMm": 13,
     "lugWidthMm": null,
     "sources": [
       {
@@ -133740,7 +133496,7 @@
     "reference": "TNUFFTSKMST100",
     "lugToLugMm": 47.39,
     "caseMm": 40,
-    "thicknessMm": null,
+    "thicknessMm": 9.9,
     "lugWidthMm": null,
     "sources": [
       {
@@ -133801,22 +133557,6 @@
       {
         "sourceUrl": "https://monochrome-watches.com/lorige-bl-endurance-evolution-bleu-asphalte-gold-edition-carbon-case-introducing-price/",
         "note": "MONOCHROME reports 50mm lug-to-lug, 42mm case size/width for Lorige BL-Endurance Evolution Bleu Asphalte Gold in “The Race-Inspired Lorige BL-Endurance Evolution Bleu Asphalte Gold.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
-      }
-    ]
-  },
-  {
-    "id": 7488,
-    "brand": "Briston",
-    "model": "Clubmaster Legend Diver Ocean",
-    "reference": "",
-    "lugToLugMm": 40,
-    "caseMm": 40,
-    "thicknessMm": null,
-    "lugWidthMm": null,
-    "sources": [
-      {
-        "sourceUrl": "https://monochrome-watches.com/the-new-briston-clubmaster-legend-diver-ocean-with-wave-textured-dials/",
-        "note": "MONOCHROME reports 40mm lug-to-lug, 40mm case size/width for Briston Clubmaster Legend Diver Ocean in “The New Briston Clubmaster Legend Diver Ocean, with Wave-Textured Dials.” The article's explicit planar case length/top-to-bottom dimension is stored as the lug-to-lug equivalent."
       }
     ]
   },
@@ -145449,12 +145189,12 @@
     "reference": "",
     "lugToLugMm": 48,
     "caseMm": 42,
-    "thicknessMm": null,
+    "thicknessMm": 15,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.fratellowatches.com/introducing-the-makina-cassiel-ii/",
-        "note": "Fratello introduction lists the Cassiel II at 42 mm case diameter and 48 mm lug-to-lug."
+        "note": "Fratello introduction lists the Cassiel II at 42 mm case diameter and 48 mm lug-to-lug. Corrected (thicknessMm null): Makina gives 15 mm with the crystal."
       }
     ]
   },
@@ -145612,13 +145352,13 @@
     "model": "Serie R01 Depancel x DAMS Lucas Oil",
     "reference": "",
     "lugToLugMm": 50,
-    "caseMm": 43,
+    "caseMm": 36,
     "thicknessMm": 12.9,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.fratellowatches.com/hands-on-serie-r01-depancel-x-dams-lucas-oil/",
-        "note": "Fratello hands-on article lists the Serie R01 Depancel x DAMS Lucas Oil at 43 mm diameter, 50 mm lug-to-lug, and 12.9 mm profile."
+        "note": "Fratello hands-on article lists the Serie R01 Depancel x DAMS Lucas Oil at 43 mm diameter, 50 mm lug-to-lug, and 12.9 mm profile. Corrected (caseMm 43): Fratello: 36 mm wide x 43 mm long without lugs, 50 mm with."
       }
     ]
   },
@@ -145712,13 +145452,13 @@
     "model": "C60 Clipper GMT",
     "reference": "",
     "lugToLugMm": 49.3,
-    "caseMm": 41,
+    "caseMm": 42,
     "thicknessMm": 12.45,
     "lugWidthMm": null,
     "sources": [
       {
         "sourceUrl": "https://www.fratellowatches.com/hands-on-with-the-christopher-ward-c60-clipper-gmt/",
-        "note": "Fratello hands-on article lists the C60 Clipper GMT at 41 mm diameter, 49.3 mm lug-to-lug, and 12.45 mm thickness."
+        "note": "Fratello hands-on article lists the C60 Clipper GMT at 41 mm diameter, 49.3 mm lug-to-lug, and 12.45 mm thickness. Corrected (caseMm 41): Fratello spec box: 42 x 49.3 x 12.45 mm."
       }
     ]
   },
